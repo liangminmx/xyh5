@@ -1,4 +1,5 @@
 <?php
+	include_once dirname(__FILE__) . '/../mysql_compat.php';
 	error_reporting(0);
 	date_default_timezone_set("PRC");
 	header("Content-type: text/html; charset=utf8");

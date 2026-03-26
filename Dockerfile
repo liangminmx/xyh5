@@ -1,4 +1,4 @@
-FROM centos:7
+FROM centos:7.9.2009
 
 LABEL maintainer="xyh5"
 LABEL description="梦幻西游H5游戏服务器"
@@ -18,25 +18,25 @@ RUN yum install -y \
     libxslt \
     libxslt-devel \
     nginx \
-   Supervisor
+    epel-release && \
+    yum install -y supervisor && \
+    yum clean all
 
-# 安装MySQL 5.6
-RUN wget https://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpm && \
-    rpm -ivh mysql-community-release-el7-5.noarch.rpm && \
+# 安装MySQL 5.7
+RUN yum install -y https://dev.mysql.com/get/mysql57-community-release-el7-11.noarch.rpm && \
     yum install -y mysql-community-server && \
     yum clean all
 
-# 安装PHP 5.6
-RUN wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm && \
-    rpm -Uvh epel-release-latest-7.noarch.rpm && \
-    yum install -y https://rpms.remirepo.net/enterprise/remi-release-7.rpm && \
-    yum-config-manager --enable remi-php56 && \
-    yum install -y php php-fpm php-mysql php-gd php-mbstring php-xml && \
+# 安装PHP 7.4 (兼容旧版PHP代码)
+RUN yum install -y http://rpms.remirepo.net/enterprise/remi-release-7.rpm && \
+    yum install -y yum-utils && \
+    yum-config-manager --enable remi-php74 && \
+    yum install -y php php-fpm php-mysqlnd php-gd php-mbstring php-xml php-json && \
     yum clean all
 
 # 安装Lua 5.1
 WORKDIR /tmp
-RUN wget http://www.lua.org/ftp/lua-5.1.5.tar.gz && \
+RUN wget https://www.lua.org/ftp/lua-5.1.5.tar.gz && \
     tar zxf lua-5.1.5.tar.gz && \
     cd lua-5.1.5 && \
     make linux && \
@@ -62,7 +62,7 @@ COPY server/ /home/server/
 COPY www/ /www/wwwroot/xy/
 
 # 复制数据库初始化脚本
-COPY init.sql /tmp/init.sql
+COPY sql/ /tmp/sql/
 
 # 复制Nginx配置
 COPY nginx.conf /etc/nginx/conf.d/default.conf
