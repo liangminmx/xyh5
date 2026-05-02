@@ -1,0 +1,96 @@
+<!-- 被2012 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!--
+realmLv	境界等级
+scoreLimit	积分使用上限，每日可使用的积分上限。
+shopID	分页ID
+shopName	分页名称
+vip	vip等级限制，达到相应的VIP等级，才可购买该分页的道具。
+id	贩卖标识
+itemID	道具ID
+itemNum	道具堆叠数量。
+scoreCost	消耗积分
+goldCost	消耗元宝
+itemLimit	购买数量上限，每日可购买的道具数量上限。
+-->
+<root>
+	<realm realmLv="2" scoreLimit="200">
+		<shop shopID="1" shopName="普通商城" vip="0">
+			<item id="1" itemID="190096" itemNum="2" scoreCost="20" goldCost="" itemLimit="5"/>
+			<item id="2" itemID="190093" itemNum="1" scoreCost="20" goldCost="" itemLimit="5"/>
+		</shop>
+		<shop shopID="2" shopName="VIP商城" vip="3">
+			<item id="1" itemID="190002" itemNum="7" scoreCost="20" goldCost="50" itemLimit="5"/>
+			<item id="2" itemID="190095" itemNum="1" scoreCost="20" goldCost="50" itemLimit="5"/>
+		</shop>
+	</realm>
+	<realm realmLv="3" scoreLimit="600">
+		<shop shopID="1" shopName="普通商城" vip="0">
+			<item id="1" itemID="190002" itemNum="4" scoreCost="60" goldCost="" itemLimit="5"/>
+			<item id="2" itemID="190096" itemNum="8" scoreCost="60" goldCost="" itemLimit="5"/>
+		</shop>
+		<shop shopID="2" shopName="VIP商城" vip="3">
+			<item id="1" itemID="190004" itemNum="2" scoreCost="60" goldCost="130" itemLimit="5"/>
+			<item id="2" itemID="190093" itemNum="14" scoreCost="60" goldCost="130" itemLimit="5"/>
+		</shop>
+	</realm>
+	<realm realmLv="4" scoreLimit="1500">
+		<shop shopID="1" shopName="普通商城" vip="0">
+			<item id="1" itemID="190002" itemNum="6" scoreCost="150" goldCost="" itemLimit="5"/>
+			<item id="2" itemID="190092" itemNum="9" scoreCost="150" goldCost="" itemLimit="5"/>
+		</shop>
+		<shop shopID="2" shopName="VIP商城" vip="3">
+			<item id="1" itemID="190004" itemNum="3" scoreCost="150" goldCost="180" itemLimit="5"/>
+			<item id="2" itemID="190094" itemNum="9" scoreCost="150" goldCost="180" itemLimit="5"/>
+		</shop>
+	</realm>
+	<realm realmLv="5" scoreLimit="3500">
+		<shop shopID="1" shopName="普通商城" vip="0">
+			<item id="1" itemID="190003" itemNum="7" scoreCost="350" goldCost="" itemLimit="5"/>
+			<item id="2" itemID="190092" itemNum="13" scoreCost="350" goldCost="" itemLimit="5"/>
+		</shop>
+		<shop shopID="2" shopName="VIP商城" vip="3">
+			<item id="1" itemID="190002" itemNum="34" scoreCost="350" goldCost="200" itemLimit="5"/>
+			<item id="2" itemID="190094" itemNum="13" scoreCost="350" goldCost="200" itemLimit="5"/>
+		</shop>
+	</realm>
+	<realm realmLv="6" scoreLimit="10000">
+		<shop shopID="1" shopName="普通商城" vip="0">
+			<item id="1" itemID="190002" itemNum="8" scoreCost="1000" goldCost="" itemLimit="5"/>
+			<item id="2" itemID="190095" itemNum="2" scoreCost="1000" goldCost="" itemLimit="5"/>
+		</shop>
+		<shop shopID="2" shopName="VIP商城" vip="3">
+			<item id="1" itemID="190004" itemNum="4" scoreCost="1000" goldCost="220" itemLimit="5"/>
+			<item id="2" itemID="190095" itemNum="10" scoreCost="1000" goldCost="220" itemLimit="5"/>
+		</shop>
+	</realm>
+	<realm realmLv="7" scoreLimit="25000">
+		<shop shopID="1" shopName="普通商城" vip="0">
+			<item id="1" itemID="190004" itemNum="1" scoreCost="2500" goldCost="" itemLimit="5"/>
+			<item id="2" itemID="190093" itemNum="14" scoreCost="2500" goldCost="" itemLimit="5"/>
+		</shop>
+		<shop shopID="2" shopName="VIP商城" vip="3">
+			<item id="1" itemID="190004" itemNum="5" scoreCost="2500" goldCost="250" itemLimit="5"/>
+			<item id="2" itemID="190095" itemNum="14" scoreCost="2500" goldCost="250" itemLimit="5"/>
+		</shop>
+	</realm>
+	<realm realmLv="8" scoreLimit="50000">
+		<shop shopID="1" shopName="普通商城" vip="0">
+			<item id="1" itemID="190002" itemNum="12" scoreCost="5000" goldCost="" itemLimit="5"/>
+			<item id="2" itemID="190093" itemNum="21" scoreCost="5000" goldCost="" itemLimit="5"/>
+		</shop>
+		<shop shopID="2" shopName="VIP商城" vip="3">
+			<item id="1" itemID="190004" itemNum="6" scoreCost="5000" goldCost="280" itemLimit="5"/>
+			<item id="2" itemID="190095" itemNum="21" scoreCost="5000" goldCost="280" itemLimit="5"/>
+		</shop>
+	</realm>
+	<realm realmLv="9" scoreLimit="125000">
+		<shop shopID="1" shopName="普通商城" vip="0">
+			<item id="1" itemID="190002" itemNum="16" scoreCost="12500" goldCost="" itemLimit="5"/>
+			<item id="2" itemID="190093" itemNum="31" scoreCost="12500" goldCost="" itemLimit="5"/>
+		</shop>
+		<shop shopID="2" shopName="VIP商城" vip="3">
+			<item id="1" itemID="190004" itemNum="8" scoreCost="12500" goldCost="350" itemLimit="5"/>
+			<item id="2" itemID="190095" itemNum="31" scoreCost="12500" goldCost="350" itemLimit="5"/>
+		</shop>
+	</realm>
+</root>

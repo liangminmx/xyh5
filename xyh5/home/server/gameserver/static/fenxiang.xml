@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+functionid	功能id
+id	程序判断是否微端的标识（=1 平台  =2  微端 ）
+pfid	平台id（多个逗号隔开）
+	
+type	对应分享类型
+=1 调用对应平台接口
+=2 调用通用分享流程
+=0 无分享功能
+dayshare	是否有每日分享功能
+=1 有
+=0 没有
+sharetime	每日分享次数
+sharecd	  分享领奖时间间隔（分钟）
+collecttype	游戏收藏类型
+=1 调用对应平台接口
+=2 调用通用收藏流程
+=3 跳转至微端下载
+=4 微端登录游戏
+=5 关注公众号
+=0 无收藏功能
+collecttype1	游戏收藏类型（需显示多个入口存在时使用，不填则仅有一个入口）
+=1 调用对应平台接口
+=2 调用通用收藏流程
+=3 跳转至微端下载
+=4 微端登录游戏
+=5 关注公众号
+=0 无收藏功能
+forcelev	收藏功能强制引导等级
+不填或填0表示不强制引导
+icon	分享引导图片id（不填表示没有）
+collecticon	收藏游戏调用图片icon（不填表示没有）
+zuobiao	对应平台分享图片所在坐标X,Y
+time	领取收藏奖励所需打开收藏界面的时间（秒）
+=-1 不需要完成下载，点一次收藏按钮就行
+=-2 表示需要完成下载操作才可领取奖励
+=-3 关注成功才可领取奖励
+sharebmoney	每日分享获得绑元数量（不填则表示无奖励）
+sharemoney	每日分享获得银两数量（不填则表示无奖励）
+bmoney	收藏游戏获得绑元数量（不填则表示无奖励）
+money	收藏游戏获得银两数量（不填则表示无奖励）
+bmoney1	对应collecttype1的收藏游戏获得绑元数量（不填则表示无奖励）
+money1	对应collecttype1的收藏游戏获得银两数量（不填则表示无奖励）
+itemid	收藏游戏奖励道具id（不填则表示无奖励）
+num	道具数量
+
+
+
+shareitemid	每日分享获得道具id（不填则表示无奖励）
+sharenum	每日分享获得道具数量
+
+id 程序标识用
+invitetime	邀请人数
+inviteitemid	对应邀请人数奖励道具id
+invitenum	道具数量
+invitebmoney	邀请阶段绑元奖励（不填则无）
+invitemoney	邀请阶段银两奖励（不填则无）
+-->
+	<function functionid="2071"/>
+	<pf id="1" pfid="2" type="0" dayshare="0" collecttype="0" collecttype1="0" forcelev="0" icon="hand" collecticon="hand" zuobiao="33,39" time="-2" sharebmoney="500" sharemoney="1000000" bmoney="1000" money="500000" bmoney1="1000" money1="500000" sharetime="3" sharecd="60">
+		<item itemid="10000012" num="100"/>
+		<item1 itemid="10000012" num="100"/>
+		<share shareitemid="10000009" sharenum="5"/>
+	</pf>
+	<pf id="2" pfid="2" type="0" dayshare="0" collecttype="0" forcelev="0" icon="hand" collecticon="hand" zuobiao="33,39" time="1" sharebmoney="500" sharemoney="1000000" bmoney="2000" money="1000000" sharetime="3" sharecd="60">
+		<item itemid="10000014" num="100"/>
+		<share shareitemid="10000009" sharenum="5"/>
+	</pf>
+	<pf id="1" pfid="3" type="2" dayshare="0" collecttype="5" forcelev="0" icon="hand" collecticon="hand" zuobiao="33,39" time="-2" sharebmoney="500" sharemoney="1000000" bmoney="1000" money="500000" sharetime="3" sharecd="60">
+		<item itemid="10000012" num="100"/>
+		<share shareitemid="10000009" sharenum="5"/>
+	</pf>
+	<pf id="1" pfid="4" type="2" dayshare="0" collecttype="2" forcelev="0" icon="hand" collecticon="hand" zuobiao="33,39" time="-3" sharebmoney="500" sharemoney="1000000" bmoney="1000" money="500000" sharetime="3" sharecd="60">
+		<item itemid="10000012" num="100"/>
+		<share shareitemid="10000009" sharenum="5"/>
+	</pf>
+	<pf id="1" pfid="5" type="2" dayshare="0" collecttype="5" forcelev="0" icon="hand" collecticon="hand" zuobiao="33,39" time="-3" sharebmoney="500" sharemoney="1000000" bmoney="1000" money="500000" sharetime="3" sharecd="60">
+		<item itemid="10000012" num="100"/>
+		<share shareitemid="10000009" sharenum="5"/>
+	</pf>
+	<pf id="1" pfid="7" type="2" dayshare="0" collecttype="5" forcelev="0" icon="hand" collecticon="hand" zuobiao="33,39" time="-2" sharebmoney="500" sharemoney="1000000" bmoney="1000" money="500000" sharetime="3" sharecd="60">
+		<item itemid="10000012" num="100"/>
+		<share shareitemid="10000009" sharenum="5"/>
+	</pf>
+	<pingtai pfid="4">
+		<friend id="1" invitetime="1" inviteitemid="10000007" invitenum="50" invitebmoney="200" invitemoney="500000"/>
+		<friend id="2" invitetime="2" inviteitemid="10000007" invitenum="100" invitebmoney="500" invitemoney="1000000"/>
+		<friend id="3" invitetime="3" inviteitemid="10000007,16010013" invitenum="200,1" invitebmoney="1000" invitemoney=""/>
+		<friend id="4" invitetime="5" inviteitemid="10000007,10000006" invitenum="500,20" invitebmoney="2000" invitemoney=""/>
+		<friend id="5" invitetime="10" inviteitemid="10000007,10000006" invitenum="1000,50" invitebmoney="4000" invitemoney=""/>
+		<friend id="6" invitetime="20" inviteitemid="10000007,10000006" invitenum="2000,100" invitebmoney="8000" invitemoney=""/>
+		<friend id="7" invitetime="50" inviteitemid="10000007,10000006" invitenum="5000,200" invitebmoney="14000" invitemoney=""/>
+		<friend id="8" invitetime="100" inviteitemid="10000007,10000006" invitenum="10000,300" invitebmoney="20000" invitemoney=""/>
+	</pingtai>
+	<pingtai pfid="5">
+		<friend id="1" invitetime="1" inviteitemid="10000007" invitenum="50" invitebmoney="200" invitemoney="500000"/>
+		<friend id="2" invitetime="2" inviteitemid="10000007" invitenum="100" invitebmoney="500" invitemoney="1000000"/>
+		<friend id="3" invitetime="3" inviteitemid="10000007,16010013" invitenum="200,1" invitebmoney="1000" invitemoney=""/>
+		<friend id="4" invitetime="5" inviteitemid="10000007,10000006" invitenum="500,20" invitebmoney="2000" invitemoney=""/>
+		<friend id="5" invitetime="10" inviteitemid="10000007,10000006" invitenum="1000,50" invitebmoney="4000" invitemoney=""/>
+		<friend id="6" invitetime="20" inviteitemid="10000007,10000006" invitenum="2000,100" invitebmoney="8000" invitemoney=""/>
+		<friend id="7" invitetime="50" inviteitemid="10000007,10000006" invitenum="5000,200" invitebmoney="14000" invitemoney=""/>
+		<friend id="8" invitetime="100" inviteitemid="10000007,10000006" invitenum="10000,300" invitebmoney="20000" invitemoney=""/>
+	</pingtai>
+</root>

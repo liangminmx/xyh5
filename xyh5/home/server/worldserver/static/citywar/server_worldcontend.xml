@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<root>
+	<!--
+begin_time	活动开始时间，配置时分秒
+end_time	活动结束时间，配置时分秒
+openlev	开放等级
+deathscore	死亡获得积分
+fixedscore	划水积分，在场景中每间隔一定时间固定获得的积分
+fixedtime	获得划水积分的间隔时间，单位秒
+rewardscore	奖励所需积分
+item	展览奖励物品
+monenybuff	元宝复活buff
+normal_days	表示周几举办活动，支持多个“，”
+0=周天、1=周1、6=周六、=7整周开放
+relive_cooltime	复活弹出窗的倒数时间，单位秒
+sceneid	地图id
+bossscore	击杀BOSS的玩家所获积分
+winscore	胜利团队玩家所获积分
+killscore	击杀玩家基础积分
+rankmailid	积分排名奖励邮件ID
+text	活动描述文本
+level	界域等级
+buff	buffid
+camp	阵营, =1破星 =2斩月
+posx	复活点X轴
+posy	复活点Y轴
+rank	排名
+item	排名奖励道具
+num	数量
+bind	是否绑定，=1绑定 =0不绑定
+exp   排名奖励的经验
+number	元宝复活次数
+money	复活所需元宝
+item	阵营集体奖励
+num	数量
+bind	是否绑定，=1绑定 =0不绑定
+mailid	邮件id 
+bossid	怪物id
+camp	怪物阵营, =1破星 =2斩月
+posx	BOSS所在位置X轴
+posy	BOSS所在位置Y轴
+refreshtime	距离活动开启时刷新boss时间，单位秒
+killing	连杀次数
+score	连杀奖励积分
+desc	连杀公告文本
+	鼓舞buff
+buff	购买鼓舞buff，调用buff表
+gold	购买buff花费的元宝
+buff	分享buff，调用buff表
+
+
+-->
+	<functionid functionid="1100"/>
+	<world_contend openlev="60" begin_time="21:00:00" end_time="22:00:00" normal_days="1,3,5" relive_cool_time="10" sceneid="8510" bossscore="100" winscore="50" deathscore="2" fixedscore="2" fixedtime="60" rewardscore="50" item="190100,600003,215103" monenybuff="2401" killscore="10" rankmailid="24" text="">
+		<money number="1" money="5"/>
+		<money number="2" money="5"/>
+		<money number="3" money="5"/>
+		<money number="4" money="5"/>
+		<money number="5" money="5"/>
+		<money number="6" money="7"/>
+		<money number="7" money="7"/>
+		<money number="8" money="7"/>
+		<money number="9" money="7"/>
+		<money number="10" money="7"/>
+		<money number="11" money="9"/>
+		<money number="12" money="9"/>
+		<money number="13" money="9"/>
+		<money number="14" money="9"/>
+		<money number="15" money="9"/>
+		<money number="16" money="9"/>
+		<money number="17" money="9"/>
+		<money number="18" money="9"/>
+		<money number="19" money="9"/>
+		<money number="20" money="9"/>
+		<money number="21" money="12"/>
+		<money number="22" money="12"/>
+		<money number="23" money="12"/>
+		<money number="24" money="12"/>
+		<money number="25" money="12"/>
+		<money number="26" money="12"/>
+		<money number="27" money="12"/>
+		<money number="28" money="12"/>
+		<money number="29" money="12"/>
+		<money number="30" money="12"/>
+		<money number="31" money="12"/>
+		<money number="32" money="12"/>
+		<money number="33" money="12"/>
+		<money number="34" money="12"/>
+		<money number="35" money="12"/>
+		<money number="36" money="12"/>
+		<money number="37" money="12"/>
+		<money number="38" money="12"/>
+		<money number="39" money="12"/>
+		<money number="40" money="12"/>
+		<money number="41" money="12"/>
+		<money number="42" money="12"/>
+		<money number="43" money="12"/>
+		<money number="44" money="12"/>
+		<money number="45" money="12"/>
+		<money number="46" money="12"/>
+		<money number="47" money="12"/>
+		<money number="48" money="12"/>
+		<money number="49" money="12"/>
+		<money number="50" money="12"/>
+		<money number="51" money="15"/>
+		<revive camp="1">
+			<pos posx="27" posy="37"/>
+			<pos posx="80" posy="36"/>
+			<pos posx="126" posy="41"/>
+		</revive>
+		<revive camp="2">
+			<pos posx="29" posy="267"/>
+			<pos posx="82" posy="270"/>
+			<pos posx="127" posy="262"/>
+		</revive>
+		<rankreward rank="1">
+			<rankrewarditem item="190100" num="20" bind="1"/>
+			<rankrewarditem item="108108" num="1" bind="1"/>
+			<rankrewarditem item="215103" num="1" bind="1"/>
+		</rankreward>
+		<rankreward rank="2">
+			<rankrewarditem item="190100" num="10" bind="1"/>
+			<rankrewarditem item="108107" num="1" bind="1"/>
+		</rankreward>
+		<rankreward rank="3">
+			<rankrewarditem item="190100" num="5" bind="1"/>
+			<rankrewarditem item="108106" num="3" bind="1"/>
+		</rankreward>
+		<rankreward rank="4">
+			<rankrewarditem item="190100" num="3" bind="1"/>
+			<rankrewarditem item="108106" num="2" bind="1"/>
+		</rankreward>
+		<rankreward rank="5">
+			<rankrewarditem item="190100" num="3" bind="1"/>
+			<rankrewarditem item="108106" num="2" bind="1"/>
+		</rankreward>
+		<rankreward rank="6">
+			<rankrewarditem item="190100" num="2" bind="1"/>
+			<rankrewarditem item="900037" num="1" bind="1"/>
+		</rankreward>
+		<rankreward rank="7">
+			<rankrewarditem item="190100" num="2" bind="1"/>
+			<rankrewarditem item="900037" num="1" bind="1"/>
+		</rankreward>
+		<rankreward rank="8">
+			<rankrewarditem item="190100" num="2" bind="1"/>
+			<rankrewarditem item="900037" num="1" bind="1"/>
+		</rankreward>
+		<rankreward rank="9">
+			<rankrewarditem item="190100" num="2" bind="1"/>
+			<rankrewarditem item="900037" num="1" bind="1"/>
+		</rankreward>
+		<rankreward rank="10">
+			<rankrewarditem item="190100" num="2" bind="1"/>
+			<rankrewarditem item="900037" num="1" bind="1"/>
+		</rankreward>
+		<win mailid="22">
+			<winitem item="900204" num="5" bind="1"/>
+			<winitem item="900038" num="2" bind="1"/>
+			<winitem item="108106" num="3" bind="1"/>
+		</win>
+		<lose mailid="23">
+			<loseitem item="900203" num="10" bind="1"/>
+			<loseitem item="900038" num="1" bind="1"/>
+			<loseitem item="108106" num="1" bind="1"/>
+		</lose>
+		<monster bossid="502301" camp="1" posx="79" posy="132" refreshtime="300"/>
+		<monster bossid="502302" camp="2" posx="80" posy="175" refreshtime="300"/>
+		<kill killing="5" score="20" desc="#value1#已达到5连杀,奖励20积分"/>
+		<kill killing="10" score="50" desc="#value1#已达到10连杀,奖励50积分"/>
+		<kill killing="15" score="80" desc="#value1#已达到15连杀,奖励80积分"/>
+		<kill killing="20" score="100" desc="#value1#已达到20连杀,奖励100积分"/>
+		<kill killing="30" score="200" desc="#value1#已达到30连杀,奖励200积分"/>
+		<serverlevel level="1" buff="2410"/>
+		<serverlevel level="2" buff="2411"/>
+		<serverlevel level="3" buff="2412"/>
+		<serverlevel level="4" buff="2413"/>
+		<serverlevel level="5" buff="2414"/>
+		<serverlevel level="6" buff="2415"/>
+		<serverlevel level="7" buff="2416"/>
+		<serverlevel level="8" buff="2417"/>
+		<serverlevel level="9" buff="2418"/>
+		<serverlevel level="10" buff="2419"/>
+		<inspire>
+			<buy buff="2480" gold="100"/>
+			<share buff="2481"/>
+		</inspire>
+	</world_contend>
+</root>

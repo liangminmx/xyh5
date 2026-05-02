@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+functionid	开启进阶功能			
+type	"养成功能类型=0，坐骑=1，神兵=2，翅膀=3，阵法=4，法宝 =5，变身"			
+name	备注用			
+maxLev	该养成最大阶级			
+noticeLev	触发全服公告的阶级			
+notice	全服公告文本			
+itemExp	单次进阶获得经验值			
+level	进阶阶级					
+avatarname	名称文本			
+Avatar	模型id			
+item	进阶所接受的消耗物品id			
+num	单次进阶所消耗的物品个数			
+exp	当级满经验值			
+reward	奖励道具id			
+rewardnum	奖励道具数量			
+hp	单次点击附加的气血			
+attack	单次点击附加的攻击			
+defence	单次点击附加的防御			
+specialid	特殊属性id 关联 “属性及货币类型”对应ID（升阶时给予）			
+specialnum	特殊属性获得值			
+zsid 直升一阶道具id
+zsexp 直升一阶道具对应经验值	
+zsname	直升丹名称
+zslevel 直升丹作用养成系统等级， 不在此等级内，直接加经验
+wnid 万能进阶丹id
+		
+		
+
+
+
+-->
+	<wn wnid="10000009"/>
+	<edu functionid="4006" type="0" name="坐骑" maxLev="10" noticeLev="6,7,8,9,10" notice="玩家{0}出类拔萃，坐骑阶级提升至了{1}阶" itemExp="10" nameUrl="zj">
+		<level level="1" avatarname="白龙马" avatar="100011" item="14010201" num="1" exp="0" reward="0" rewardnum="0" hp="1500" attack="125" defence="62" specialid="0" specialnum="0"/>
+		<level level="2" avatarname="小毛驴" avatar="100012" item="14010201" num="1" exp="300" reward="14010201,14010001" rewardnum="16,1" hp="15000" attack="1250" defence="625" specialid="0" specialnum="0"/>
+		<level level="3" avatarname="青丘白鹿" avatar="100013" item="14010201" num="2" exp="400" reward="14010201,14010001" rewardnum="30,1" hp="42000" attack="3500" defence="1750" specialid="0" specialnum="0"/>
+		<level level="4" avatarname="青霜狼" avatar="100014" item="14010201" num="3" exp="500" reward="14010201,14010001" rewardnum="56,1" hp="84000" attack="7000" defence="3500" specialid="0" specialnum="0"/>
+		<level level="5" avatarname="流火熊" avatar="100015" item="14010201" num="4" exp="700" reward="14010201,14010001" rewardnum="120,2" hp="156000" attack="13000" defence="6500" specialid="0" specialnum="0"/>
+		<level level="6" avatarname="谛听" avatar="100016" item="14010201" num="5" exp="1200" reward="14010201,14010001" rewardnum="198,3" hp="300000" attack="25000" defence="12500" specialid="0" specialnum="0"/>
+		<level level="7" avatarname="冰晶毒蝎" avatar="100017" item="14010201" num="6" exp="2200" reward="14010201,14010001" rewardnum="456,5" hp="600000" attack="50000" defence="25000" specialid="0" specialnum="0"/>
+		<level level="8" avatarname="青毛狮怪" avatar="100018" item="14010201" num="8" exp="3800" reward="14010201,14010001" rewardnum="495,10" hp="1260000" attack="105000" defence="52500" specialid="0" specialnum="0"/>
+		<level level="9" avatarname="千年龙龟" avatar="100019" item="14010201" num="10" exp="4500" reward="14010201,14010001" rewardnum="705,20" hp="2100000" attack="175000" defence="87500" specialid="0" specialnum="0"/>
+		<level level="10" avatarname="避水金睛兽" avatar="100020" item="14010201" num="15" exp="4700" reward="0" rewardnum="0" hp="3000000" attack="250000" defence="125000" specialid="0" specialnum="0"/>
+		<zs zsname="5阶坐骑直升丹" zsid="14010301" zsexp="1000" zslevel="5"/>
+		<zs zsname="7阶坐骑直升丹" zsid="14010302" zsexp="1000" zslevel="7"/>
+	</edu>
+	<edu functionid="4007" type="1" name="神兵" maxLev="10" noticeLev="6,7,8,9,10" notice="玩家{0}出类拔萃，神兵阶级提升至了{1}阶" itemExp="10" nameUrl="sb">
+		<level level="1" avatarname="龙泉剑,碧海杖" avatar="100010" item="14020201" num="1" exp="0" reward="0" rewardnum="0" hp="1500" attack="125" defence="62" specialid="0" specialnum="0"/>
+		<level level="2" avatarname="寒霜剑,红萼杖" avatar="100011" item="14020201" num="1" exp="300" reward="14020201,14020001" rewardnum="16,1" hp="15000" attack="1250" defence="625" specialid="0" specialnum="0"/>
+		<level level="3" avatarname="彤云剑,木兰杖" avatar="100012" item="14020201" num="2" exp="400" reward="14020201,14020001" rewardnum="30,1" hp="42000" attack="3500" defence="1750" specialid="0" specialnum="0"/>
+		<level level="4" avatarname="青霜剑,蝶梦杖" avatar="100013" item="14020201" num="3" exp="500" reward="14020201,14020001" rewardnum="56,1" hp="84000" attack="7000" defence="3500" specialid="0" specialnum="0"/>
+		<level level="5" avatarname="凤鸣剑,佛莲杖" avatar="100014" item="14020201" num="4" exp="700" reward="14020201,14020001" rewardnum="120,2" hp="156000" attack="13000" defence="6500" specialid="0" specialnum="0"/>
+		<level level="6" avatarname="玄铁剑,红莲杖" avatar="100015" item="14020201" num="5" exp="1200" reward="14020201,14020001" rewardnum="198,3" hp="300000" attack="25000" defence="12500" specialid="0" specialnum="0"/>
+		<level level="7" avatarname="紫电剑,月影杖" avatar="100016" item="14020201" num="6" exp="2200" reward="14020201,14020001" rewardnum="456,5" hp="600000" attack="50000" defence="25000" specialid="0" specialnum="0"/>
+		<level level="8" avatarname="业火剑,凤仪杖" avatar="100017" item="14020201" num="8" exp="3800" reward="14020201,14020001" rewardnum="495,10" hp="1260000" attack="105000" defence="52500" specialid="0" specialnum="0"/>
+		<level level="9" avatarname="龙吟剑,锦鲤杖" avatar="100018" item="14020201" num="10" exp="4500" reward="14020201,14020001" rewardnum="705,20" hp="2100000" attack="175000" defence="87500" specialid="0" specialnum="0"/>
+		<level level="10" avatarname="双仪剑,龙珠杖" avatar="100019" item="14020201" num="15" exp="4700" reward="0" rewardnum="0" hp="3000000" attack="250000" defence="125000" specialid="0" specialnum="0"/>
+		<zs zsname="5阶神兵直升丹" zsid="14020301" zsexp="1000" zslevel="5"/>
+	</edu>
+	<edu functionid="4008" type="2" name="羽翼" maxLev="10" noticeLev="6,7,8,9,10" notice="玩家{0}出类拔萃，羽翼阶级提升至了{1}阶" itemExp="10" nameUrl="yy">
+		<level level="1" avatarname="芳菲" avatar="100010" item="14030201" num="1" exp="0" reward="0" rewardnum="0" hp="1500" attack="125" defence="62" specialid="0" specialnum="0"/>
+		<level level="2" avatarname="翠羽" avatar="100011" item="14030201" num="1" exp="300" reward="14030201,14030001" rewardnum="16,1" hp="15000" attack="1250" defence="625" specialid="0" specialnum="0"/>
+		<level level="3" avatarname="灵梦" avatar="100012" item="14030201" num="2" exp="400" reward="14030201,14030001" rewardnum="30,1" hp="42000" attack="3500" defence="1750" specialid="0" specialnum="0"/>
+		<level level="4" avatarname="桃华" avatar="100013" item="14030201" num="3" exp="500" reward="14030201,14030001" rewardnum="56,1" hp="84000" attack="7000" defence="3500" specialid="0" specialnum="0"/>
+		<level level="5" avatarname="流萤" avatar="100014" item="14030201" num="4" exp="700" reward="14030201,14030001" rewardnum="120,2" hp="156000" attack="13000" defence="6500" specialid="0" specialnum="0"/>
+		<level level="6" avatarname="飞霜" avatar="100015" item="14030201" num="5" exp="1200" reward="14030201,14030001" rewardnum="198,3" hp="300000" attack="25000" defence="12500" specialid="0" specialnum="0"/>
+		<level level="7" avatarname="阳炎" avatar="100016" item="14030201" num="6" exp="2200" reward="14030201,14030001" rewardnum="456,5" hp="600000" attack="50000" defence="25000" specialid="0" specialnum="0"/>
+		<level level="8" avatarname="七宝" avatar="100017" item="14030201" num="8" exp="3800" reward="14030201,14030001" rewardnum="495,10" hp="1260000" attack="105000" defence="52500" specialid="0" specialnum="0"/>
+		<level level="9" avatarname="龙骨" avatar="100018" item="14030201" num="10" exp="4500" reward="14030201,14030001" rewardnum="705,20" hp="2100000" attack="175000" defence="87500" specialid="0" specialnum="0"/>
+		<level level="10" avatarname="九阳" avatar="100019" item="14030201" num="15" exp="4700" reward="0" rewardnum="0" hp="3000000" attack="250000" defence="125000" specialid="0" specialnum="0"/>
+		<zs zsname="5阶翅膀直升丹" zsid="14030301" zsexp="1000" zslevel="5"/>
+		<zs zsname="7阶翅膀直升丹" zsid="14030302" zsexp="1000" zslevel="7"/>
+	</edu>
+	<edu functionid="4009" type="3" name="阵法" maxLev="10" noticeLev="6,7,8,9,10" notice="玩家{0}出类拔萃，阵法阶级提升至了{1}阶" itemExp="10" nameUrl="zf">
+		<level level="1" avatarname="绿萝阵法" avatar="100010" item="14040201" num="1" exp="0" reward="0" rewardnum="0" hp="1500" attack="125" defence="62" specialid="0" specialnum="0"/>
+		<level level="2" avatarname="琼玉阵法" avatar="100011" item="14040201" num="1" exp="300" reward="14040201,14040001" rewardnum="16,1" hp="15000" attack="1250" defence="625" specialid="0" specialnum="0"/>
+		<level level="3" avatarname="飞仙阵法" avatar="100012" item="14040201" num="2" exp="400" reward="14040201,14040001" rewardnum="30,1" hp="42000" attack="3500" defence="1750" specialid="0" specialnum="0"/>
+		<level level="4" avatarname="天河阵法" avatar="100013" item="14040201" num="3" exp="500" reward="14040201,14040001" rewardnum="56,1" hp="84000" attack="7000" defence="3500" specialid="0" specialnum="0"/>
+		<level level="5" avatarname="风雷阵法" avatar="100014" item="14040201" num="4" exp="700" reward="14040201,14040001" rewardnum="120,2" hp="156000" attack="13000" defence="6500" specialid="0" specialnum="0"/>
+		<level level="6" avatarname="太极阵法" avatar="100015" item="14040201" num="5" exp="1200" reward="14040201,14040001" rewardnum="198,3" hp="300000" attack="25000" defence="12500" specialid="0" specialnum="0"/>
+		<level level="7" avatarname="星芒阵法" avatar="100016" item="14040201" num="6" exp="2200" reward="14040201,14040001" rewardnum="456,5" hp="600000" attack="50000" defence="25000" specialid="0" specialnum="0"/>
+		<level level="8" avatarname="五行阵法" avatar="100017" item="14040201" num="8" exp="3800" reward="14040201,14040001" rewardnum="495,10" hp="1260000" attack="105000" defence="52500" specialid="0" specialnum="0"/>
+		<level level="9" avatarname="金光阵法" avatar="100018" item="14040201" num="10" exp="4500" reward="14040201,14040001" rewardnum="705,20" hp="2100000" attack="175000" defence="87500" specialid="0" specialnum="0"/>
+		<level level="10" avatarname="诛仙阵法" avatar="100019" item="14040201" num="15" exp="4700" reward="0" rewardnum="0" hp="3000000" attack="250000" defence="125000" specialid="0" specialnum="0"/>
+		<zs zsname="5阶阵法直升丹" zsid="14040301" zsexp="1000" zslevel="5"/>
+		<zs zsname="7阶阵法直升丹" zsid="14040302" zsexp="1000" zslevel="7"/>
+	</edu>
+	<edu functionid="4010" type="4" name="法宝" maxLev="10" noticeLev="6,7,8,9,10" notice="玩家{0}出类拔萃，法宝阶级提升至了{1}阶" itemExp="10" nameUrl="fb">
+		<level level="1" avatarname="番天印" avatar="100010" item="14050201" num="1" exp="0" reward="0" rewardnum="0" hp="1500" attack="125" defence="62" specialid="0" specialnum="0"/>
+		<level level="2" avatarname="汇灵盏" avatar="100011" item="14050201" num="1" exp="300" reward="14050201,14050001" rewardnum="16,1" hp="15000" attack="1250" defence="625" specialid="0" specialnum="0"/>
+		<level level="3" avatarname="追魂令" avatar="100012" item="14050201" num="2" exp="400" reward="14050201,14050001" rewardnum="30,1" hp="42000" attack="3500" defence="1750" specialid="0" specialnum="0"/>
+		<level level="4" avatarname="紫金葫芦" avatar="100013" item="14050201" num="3" exp="500" reward="14050201,14050001" rewardnum="56,1" hp="84000" attack="7000" defence="3500" specialid="0" specialnum="0"/>
+		<level level="5" avatarname="阴阳两气瓶" avatar="100014" item="14050201" num="4" exp="700" reward="14050201,14050001" rewardnum="120,2" hp="156000" attack="13000" defence="6500" specialid="0" specialnum="0"/>
+		<level level="6" avatarname="九龙玉玺" avatar="100015" item="14050201" num="5" exp="1200" reward="14050201,14050001" rewardnum="198,3" hp="300000" attack="25000" defence="12500" specialid="0" specialnum="0"/>
+		<level level="7" avatarname="紫金铃" avatar="100016" item="14050201" num="6" exp="2200" reward="14050201,14050001" rewardnum="456,5" hp="600000" attack="50000" defence="25000" specialid="0" specialnum="0"/>
+		<level level="8" avatarname="芭蕉扇" avatar="100017" item="14050201" num="8" exp="3800" reward="14050201,14050001" rewardnum="495,10" hp="1260000" attack="105000" defence="52500" specialid="0" specialnum="0"/>
+		<level level="9" avatarname="七宝灯" avatar="100018" item="14050201" num="10" exp="4500" reward="14050201,14050001" rewardnum="705,20" hp="2100000" attack="175000" defence="87500" specialid="0" specialnum="0"/>
+		<level level="10" avatarname="乾坤玄火塔" avatar="100019" item="14050201" num="15" exp="4700" reward="0" rewardnum="0" hp="3000000" attack="250000" defence="125000" specialid="0" specialnum="0"/>
+		<zs zsname="5阶法宝直升丹" zsid="14050301" zsexp="1000" zslevel="5"/>
+		<zs zsname="7阶法宝直升丹" zsid="14050302" zsexp="1000" zslevel="7"/>
+	</edu>
+	<edu functionid="4011" type="5" name="变身" maxLev="10" noticeLev="6,7,8,9,10" notice="玩家{0}出类拔萃，变身阶级提升至了{1}阶" itemExp="10" nameUrl="bs">
+		<level level="1" avatarname="虎精" avatar="300008" item="14020201" num="1" exp="0" reward="0" rewardnum="0" hp="1500" attack="125" defence="62" specialid="0" specialnum="0"/>
+		<level level="2" avatarname="小龙女" avatar="300026" item="14020201" num="1" exp="300" reward="14020201,14020001" rewardnum="16,1" hp="15000" attack="1250" defence="625" specialid="0" specialnum="0"/>
+		<level level="3" avatarname="上古瑞兽" avatar="300013" item="14020201" num="2" exp="400" reward="14020201,14020001" rewardnum="30,1" hp="42000" attack="3500" defence="1750" specialid="0" specialnum="0"/>
+		<level level="4" avatarname="嗜血鬼" avatar="300022" item="14020201" num="3" exp="500" reward="14020201,14020001" rewardnum="56,1" hp="84000" attack="7000" defence="3500" specialid="0" specialnum="0"/>
+		<level level="5" avatarname="芙蓉仙女" avatar="300003" item="14020201" num="4" exp="700" reward="14020201,14020001" rewardnum="120,2" hp="156000" attack="13000" defence="6500" specialid="0" specialnum="0"/>
+		<level level="6" avatarname="无面鬼将" avatar="300034" item="14020201" num="5" exp="1200" reward="14020201,14020001" rewardnum="198,3" hp="300000" attack="25000" defence="12500" specialid="0" specialnum="0"/>
+		<level level="7" avatarname="小白龙" avatar="200035" item="14020201" num="6" exp="2200" reward="14020201,14020001" rewardnum="456,5" hp="600000" attack="50000" defence="25000" specialid="0" specialnum="0"/>
+		<level level="8" avatarname="牛魔王" avatar="200021" item="14020201" num="8" exp="3800" reward="14020201,14020001" rewardnum="495,10" hp="1260000" attack="105000" defence="52500" specialid="0" specialnum="0"/>
+		<level level="9" avatarname="玉帝" avatar="200040" item="14020201" num="10" exp="4500" reward="14020201,14020001" rewardnum="705,20" hp="2100000" attack="175000" defence="87500" specialid="0" specialnum="0"/>
+		<level level="10" avatarname="孙悟空" avatar="200028" item="14020201" num="15" exp="4700" reward="0" rewardnum="0" hp="3000000" attack="250000" defence="125000" specialid="0" specialnum="0"/>
+		<zs zsname="5阶变身直升丹" zsid="14020301" zsexp="1000" zslevel="5"/>
+		<zs zsname="7阶变身直升丹" zsid="14020302" zsexp="1000" zslevel="7"/>
+	</edu>
+	<edu functionid="4012" type="6" name="仙位" maxLev="10" noticeLev="6,7,8,9,10" notice="玩家{0}出类拔萃，仙位阶级提升至了{1}阶" itemExp="10" nameUrl="xw">
+		<level level="1" avatarname="筑基" avatar="100010" item="14070201" num="1" exp="0" reward="0" rewardnum="0" hp="1500" attack="125" defence="62" specialid="0" specialnum="0"/>
+		<level level="2" avatarname="元婴" avatar="100011" item="14070201" num="1" exp="300" reward="14070201,14070001" rewardnum="16,1" hp="15000" attack="1250" defence="625" specialid="0" specialnum="0"/>
+		<level level="3" avatarname="化神" avatar="100012" item="14070201" num="2" exp="400" reward="14070201,14070001" rewardnum="30,1" hp="42000" attack="3500" defence="1750" specialid="0" specialnum="0"/>
+		<level level="4" avatarname="渡劫" avatar="100013" item="14070201" num="3" exp="500" reward="14070201,14070001" rewardnum="56,1" hp="84000" attack="7000" defence="3500" specialid="0" specialnum="0"/>
+		<level level="5" avatarname="真仙" avatar="100014" item="14070201" num="4" exp="700" reward="14070201,14070001" rewardnum="120,2" hp="156000" attack="13000" defence="6500" specialid="0" specialnum="0"/>
+		<level level="6" avatarname="玄仙" avatar="100015" item="14070201" num="5" exp="1200" reward="14070201,14070001" rewardnum="198,3" hp="300000" attack="25000" defence="12500" specialid="0" specialnum="0"/>
+		<level level="7" avatarname="地仙" avatar="100016" item="14070201" num="6" exp="2200" reward="14070201,14070001" rewardnum="456,5" hp="600000" attack="50000" defence="25000" specialid="0" specialnum="0"/>
+		<level level="8" avatarname="金仙" avatar="100017" item="14070201" num="8" exp="3800" reward="14070201,14070001" rewardnum="495,10" hp="1260000" attack="105000" defence="52500" specialid="0" specialnum="0"/>
+		<level level="9" avatarname="太乙" avatar="100018" item="14070201" num="10" exp="4500" reward="14070201,14070001" rewardnum="705,20" hp="2100000" attack="175000" defence="87500" specialid="0" specialnum="0"/>
+		<level level="10" avatarname="大罗" avatar="100019" item="14070201" num="15" exp="4700" reward="0" rewardnum="0" hp="3000000" attack="250000" defence="125000" specialid="0" specialnum="0"/>
+		<zs zsname="5阶仙位直升丹" zsid="14070301" zsexp="1000" zslevel="5"/>
+		<zs zsname="7阶仙位直升丹" zsid="14070302" zsexp="1000" zslevel="7"/>
+	</edu>
+	<edu functionid="4013" type="7" name="灵骑" maxLev="10" noticeLev="6,7,8,9,10" notice="玩家{0}出类拔萃，灵骑阶级提升至了{1}阶" itemExp="10" nameUrl="lqi">
+		<level level="1" avatarname="筋斗云" avatar="100010" item="14080201" num="1" exp="0" reward="0" rewardnum="0" hp="1500" attack="125" defence="62" specialid="0" specialnum="0"/>
+		<level level="2" avatarname="飞鳐" avatar="100011" item="14080201" num="1" exp="300" reward="14080201,14080001" rewardnum="16,1" hp="15000" attack="1250" defence="625" specialid="0" specialnum="0"/>
+		<level level="3" avatarname="金乌" avatar="100012" item="14080201" num="2" exp="400" reward="14080201,14080001" rewardnum="30,1" hp="42000" attack="3500" defence="1750" specialid="0" specialnum="0"/>
+		<level level="4" avatarname="青梅" avatar="100013" item="14080201" num="3" exp="500" reward="14080201,14080001" rewardnum="56,1" hp="84000" attack="7000" defence="3500" specialid="0" specialnum="0"/>
+		<level level="5" avatarname="临渊" avatar="100014" item="14080201" num="4" exp="700" reward="14080201,14080001" rewardnum="120,2" hp="156000" attack="13000" defence="6500" specialid="0" specialnum="0"/>
+		<level level="6" avatarname="莲台" avatar="100015" item="14080201" num="5" exp="1200" reward="14080201,14080001" rewardnum="198,3" hp="300000" attack="25000" defence="12500" specialid="0" specialnum="0"/>
+		<level level="7" avatarname="雷火" avatar="100016" item="14080201" num="6" exp="2200" reward="14080201,14080001" rewardnum="456,5" hp="600000" attack="50000" defence="25000" specialid="0" specialnum="0"/>
+		<level level="8" avatarname="芭蕉扇" avatar="100017" item="14080201" num="8" exp="3800" reward="14080201,14080001" rewardnum="495,10" hp="1260000" attack="105000" defence="52500" specialid="0" specialnum="0"/>
+		<level level="9" avatarname="赤霄剑" avatar="100018" item="14080201" num="10" exp="4500" reward="14080201,14080001" rewardnum="705,20" hp="2100000" attack="175000" defence="87500" specialid="0" specialnum="0"/>
+		<level level="10" avatarname="霜凌" avatar="100019" item="14080201" num="15" exp="4700" reward="0" rewardnum="0" hp="3000000" attack="250000" defence="125000" specialid="0" specialnum="0"/>
+		<zs zsname="5阶灵骑直升丹" zsid="14080301" zsexp="1000" zslevel="5"/>
+		<zs zsname="7阶灵骑直升丹" zsid="14080302" zsexp="1000" zslevel="7"/>
+	</edu>
+	<!--双倍领取配置-->
+	<doubleCollection platformId="1,3" consumingIngot="20"/>
+</root>

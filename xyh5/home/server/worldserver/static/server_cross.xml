@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!--
+id	活动标识
+=1，比武大会
+pf	平台pf值。
+pf=0时，表示默认配置。
+servernum	默认匹配的服务器数量。
+minserverId	服务器匹配区间 
+填写服务器id，从1开始（即1表示1服，2表示2服）
+maxserverId	
+servernum	该匹配区间内，匹配的服务器数量。
+serverId	指定匹配服务器下标，从1开始（即1表示1服，2表示2服），可填写多个，以逗号分隔。
+某些特定的服务器根据该配置执行匹配。
+-->
+	<activity id="1" name="比武大会">
+		<server_cross pf="0" servernum="3">
+			<group serverId="1,10,100,101,102,103,105,106,107,108,109,110,111,115,116,117,118,119,120,121,122,123,124,125,126,127,129,130,131,132,133,135,136,137,138,139,140,142,144,145,146,147,148,15,150,152,153,154,155,156,157,16,160,165,167,169,170,172,173,177,179,18,180,181,183,184,186,187,188,189,19,191,195,197,2,20,200,202,204,22,23,26,27,29,30,31,38,39,42,44,46,48,50,51,52,53,54,56,6,60,65,67,68,69,7,70,72,73,75,76,77,78,79,80,81,83,85,86,87,89,90,91,92,93,94,95,98,99"/>
+			<!--<group serverId="1,10,100"/>
+			<group serverId="101,102,103"/>
+			<group serverId="105,106,107"/>
+			<group serverId="108,109,110"/>
+			<group serverId="111,115,116"/>
+			<group serverId="117,118,119"/>
+			<group serverId="120,121,122"/>
+			<group serverId="123,124,125"/>
+			<group serverId="126,127,129"/>
+			<group serverId="130,131,132"/>
+			<group serverId="133,135,136"/>
+			<group serverId="137,138,139"/>
+			<group serverId="140,142,144"/>
+			<group serverId="145,146,147"/>
+			<group serverId="148,15,150"/>
+			<group serverId="152,153,154"/>
+			<group serverId="155,156,157"/>
+			<group serverId="16,160,165"/>
+			<group serverId="167,169,170"/>
+			<group serverId="172,173,177"/>
+			<group serverId="179,18,180"/>
+			<group serverId="181,183,184"/>
+			<group serverId="186,187,188"/>
+			<group serverId="189,19,191"/>
+			<group serverId="195,197,2"/>
+			<group serverId="20,200,202"/>
+			<group serverId="204,22,23"/>
+			<group serverId="26,27,29"/>
+			<group serverId="30,31,38"/>
+			<group serverId="39,42,44"/>
+			<group serverId="46,48,50"/>
+			<group serverId="51,52,53"/>
+			<group serverId="54,56,6"/>
+			<group serverId="60,65,67"/>
+			<group serverId="68,69,7"/>
+			<group serverId="70,72,73"/>
+			<group serverId="75,76,77"/>
+			<group serverId="78,79,80"/>
+			<group serverId="81,83,85"/>
+			<group serverId="86,87,89"/>
+			<group serverId="90,91,92"/>
+			<group serverId="93,94,95,98,99"/>-->
+		</server_cross>
+	</activity>
+	<!--<activity id="2" name="三界除魔">
+		<server_cross pf="0" servernum="1">
+			<group serverId="1,2,3"/>
+			<group serverId="4,5,6"/>
+			<server minserverId="4" maxserverId="10" servernum="3"/>
+		</server_cross>
+	</activity>-->
+	<activity id="3" name="官职跨服排行">
+		<server_cross pf="0" servernum="1">
+			<group serverId="1,2,3,4,5"/>
+		</server_cross>
+	</activity>
+</root>

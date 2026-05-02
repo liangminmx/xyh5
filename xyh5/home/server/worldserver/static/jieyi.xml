@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+functionid	功能id
+daylimit	当日送礼次数限制
+=-1 无限制
+cardtype	结义分类
+name	分类名称
+cardid	结义人物半身像id
+name	结义人物名称
+talk	送礼对话
+gifttype	对应礼物ID，对应giftid字段（逗号隔开）
+jieyilevel	结义等级
+parametertype	属性类型（多个逗号隔开）
+parameter	属性参数（多个逗号隔开）
+intimacy	升至该级结义等级所需亲密度
+itemid	对应结义等级奖励道具id，不填则无奖励（多个逗号隔开）
+itemnum	道具数量（多个逗号隔开）
+bmoney	对应结义等级绑元数量（不填则无）
+money	对应结义等级银两数量（不填则无）
+	
+giftid	礼物id
+giftname	礼物名字
+gifticon	礼物图标
+moneytype	消耗货币类型
+=1银两
+=2 元宝
+=3 绑元
+moneynum	货币数量
+add	单次赠礼增加亲密度
+	
+jieyilevel	结义等级
+levelname	结义名称
+icon	对应等级图片icon
+-->
+	<function functionid="6690" daylimit="5"/>
+	<type cardtype="1" name="轮回六道">
+		<people cardid="400018" name="御林军首领" talk="谢谢你，我很喜欢这个小东西!" giftid="16,17,18">
+			<jieyi jieyilevel="1" parametertype="102,103,101" parameter="52,26,630" intimacy="10" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="2" parametertype="102,103,101" parameter="150,74,1800" intimacy="20" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="3" parametertype="102,103,101" parameter="300,150,3600" intimacy="35" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="4" parametertype="102,103,101" parameter="500,250,6000" intimacy="55" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="5" parametertype="102,103,101" parameter="800,400,9600" intimacy="90" itemid="16010028" itemnum="2" bmoney="" money=""/>
+			<jieyi jieyilevel="6" parametertype="102,103,101" parameter="1200,600,14400" intimacy="130" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="7" parametertype="102,103,101" parameter="1750,874,21000" intimacy="195" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="8" parametertype="102,103,101" parameter="2500,1250,30000" intimacy="290" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="9" parametertype="102,103,101" parameter="3500,1750,42000" intimacy="410" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="10" parametertype="102,103,101" parameter="5000,2500,60000" intimacy="640" itemid="16010028" itemnum="15" bmoney="" money=""/>
+		</people>
+		<people cardid="200023" name="什么都有" talk="谢谢你，我很喜欢这个小东西!" giftid="31,32,33">
+			<jieyi jieyilevel="1" parametertype="102,103,101" parameter="52,26,630" intimacy="10" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="2" parametertype="102,103,101" parameter="150,74,1800" intimacy="20" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="3" parametertype="102,103,101" parameter="300,150,3600" intimacy="35" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="4" parametertype="102,103,101" parameter="500,250,6000" intimacy="55" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="5" parametertype="102,103,101" parameter="800,400,9600" intimacy="90" itemid="" itemnum="" bmoney="200" money=""/>
+			<jieyi jieyilevel="6" parametertype="102,103,101" parameter="1200,600,14400" intimacy="130" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="7" parametertype="102,103,101" parameter="1750,874,21000" intimacy="195" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="8" parametertype="102,103,101" parameter="2500,1250,30000" intimacy="290" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="9" parametertype="102,103,101" parameter="3500,1750,42000" intimacy="410" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="10" parametertype="102,103,101" parameter="5000,2500,60000" intimacy="640" itemid="" itemnum="" bmoney="2000" money=""/>
+		</people>
+		<people cardid="400015" name="小虎" talk="谢谢你，我很喜欢这个小东西!" giftid="46,47,48">
+			<jieyi jieyilevel="1" parametertype="102,103,101" parameter="52,26,630" intimacy="10" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="2" parametertype="102,103,101" parameter="150,74,1800" intimacy="20" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="3" parametertype="102,103,101" parameter="300,150,3600" intimacy="35" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="4" parametertype="102,103,101" parameter="500,250,6000" intimacy="55" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="5" parametertype="102,103,101" parameter="800,400,9600" intimacy="90" itemid="10000012" itemnum="2000" bmoney="" money=""/>
+			<jieyi jieyilevel="6" parametertype="102,103,101" parameter="1200,600,14400" intimacy="130" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="7" parametertype="102,103,101" parameter="1750,874,21000" intimacy="195" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="8" parametertype="102,103,101" parameter="2500,1250,30000" intimacy="290" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="9" parametertype="102,103,101" parameter="3500,1750,42000" intimacy="410" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="10" parametertype="102,103,101" parameter="5000,2500,60000" intimacy="640" itemid="10000012" itemnum="20000" bmoney="" money=""/>
+		</people>
+		<people cardid="200020" name="月老" talk="谢谢你，我很喜欢这个小东西!" giftid="49,50,51">
+			<jieyi jieyilevel="1" parametertype="102,103,101" parameter="52,26,630" intimacy="10" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="2" parametertype="102,103,101" parameter="150,74,1800" intimacy="20" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="3" parametertype="102,103,101" parameter="300,150,3600" intimacy="35" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="4" parametertype="102,103,101" parameter="500,250,6000" intimacy="55" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="5" parametertype="102,103,101" parameter="800,400,9600" intimacy="90" itemid="10000007" itemnum="400" bmoney="" money=""/>
+			<jieyi jieyilevel="6" parametertype="102,103,101" parameter="1200,600,14400" intimacy="130" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="7" parametertype="102,103,101" parameter="1750,874,21000" intimacy="195" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="8" parametertype="102,103,101" parameter="2500,1250,30000" intimacy="290" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="9" parametertype="102,103,101" parameter="3500,1750,42000" intimacy="410" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="10" parametertype="102,103,101" parameter="5000,2500,60000" intimacy="640" itemid="10000007" itemnum="3000" bmoney="" money=""/>
+		</people>
+		<people cardid="400025" name="村民" talk="谢谢你，我很喜欢这个小东西!" giftid="73,74,75">
+			<jieyi jieyilevel="1" parametertype="102,103,101" parameter="52,26,630" intimacy="10" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="2" parametertype="102,103,101" parameter="150,74,1800" intimacy="20" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="3" parametertype="102,103,101" parameter="300,150,3600" intimacy="35" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="4" parametertype="102,103,101" parameter="500,250,6000" intimacy="55" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="5" parametertype="102,103,101" parameter="800,400,9600" intimacy="90" itemid="" itemnum="" bmoney="" money="840000"/>
+			<jieyi jieyilevel="6" parametertype="102,103,101" parameter="1200,600,14400" intimacy="130" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="7" parametertype="102,103,101" parameter="1750,874,21000" intimacy="195" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="8" parametertype="102,103,101" parameter="2500,1250,30000" intimacy="290" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="9" parametertype="102,103,101" parameter="3500,1750,42000" intimacy="410" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="10" parametertype="102,103,101" parameter="5000,2500,60000" intimacy="640" itemid="" itemnum="" bmoney="" money="7500000"/>
+		</people>
+		<people cardid="400005" name="林铁匠" talk="谢谢你，我很喜欢这个小东西!" giftid="52,53,54">
+			<jieyi jieyilevel="1" parametertype="102,103,101" parameter="52,26,630" intimacy="10" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="2" parametertype="102,103,101" parameter="150,74,1800" intimacy="20" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="3" parametertype="102,103,101" parameter="300,150,3600" intimacy="35" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="4" parametertype="102,103,101" parameter="500,250,6000" intimacy="55" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="5" parametertype="102,103,101" parameter="800,400,9600" intimacy="90" itemid="10000013" itemnum="1000" bmoney="" money=""/>
+			<jieyi jieyilevel="6" parametertype="102,103,101" parameter="1200,600,14400" intimacy="130" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="7" parametertype="102,103,101" parameter="1750,874,21000" intimacy="195" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="8" parametertype="102,103,101" parameter="2500,1250,30000" intimacy="290" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="9" parametertype="102,103,101" parameter="3500,1750,42000" intimacy="410" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="10" parametertype="102,103,101" parameter="5000,2500,60000" intimacy="640" itemid="10000013" itemnum="10000" bmoney="" money=""/>
+		</people>
+		<people cardid="400011" name="颜如玉" talk="谢谢你，我很喜欢这个小东西!" giftid="55,56,57">
+			<jieyi jieyilevel="1" parametertype="102,103,101" parameter="52,26,630" intimacy="10" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="2" parametertype="102,103,101" parameter="150,74,1800" intimacy="20" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="3" parametertype="102,103,101" parameter="300,150,3600" intimacy="35" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="4" parametertype="102,103,101" parameter="500,250,6000" intimacy="55" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="5" parametertype="102,103,101" parameter="800,400,9600" intimacy="90" itemid="16010028" itemnum="2" bmoney="" money=""/>
+			<jieyi jieyilevel="6" parametertype="102,103,101" parameter="1200,600,14400" intimacy="130" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="7" parametertype="102,103,101" parameter="1750,874,21000" intimacy="195" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="8" parametertype="102,103,101" parameter="2500,1250,30000" intimacy="290" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="9" parametertype="102,103,101" parameter="3500,1750,42000" intimacy="410" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="10" parametertype="102,103,101" parameter="5000,2500,60000" intimacy="640" itemid="16010028" itemnum="15" bmoney="" money=""/>
+		</people>
+		<people cardid="400004" name="小芊芊" talk="谢谢你，我很喜欢这个小东西!" giftid="58,59,60">
+			<jieyi jieyilevel="1" parametertype="102,103,101" parameter="52,26,630" intimacy="10" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="2" parametertype="102,103,101" parameter="150,74,1800" intimacy="20" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="3" parametertype="102,103,101" parameter="300,150,3600" intimacy="35" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="4" parametertype="102,103,101" parameter="500,250,6000" intimacy="55" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="5" parametertype="102,103,101" parameter="800,400,9600" intimacy="90" itemid="10000007" itemnum="400" bmoney="" money=""/>
+			<jieyi jieyilevel="6" parametertype="102,103,101" parameter="1200,600,14400" intimacy="130" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="7" parametertype="102,103,101" parameter="1750,874,21000" intimacy="195" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="8" parametertype="102,103,101" parameter="2500,1250,30000" intimacy="290" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="9" parametertype="102,103,101" parameter="3500,1750,42000" intimacy="410" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="10" parametertype="102,103,101" parameter="5000,2500,60000" intimacy="640" itemid="10000007" itemnum="3000" bmoney="" money=""/>
+		</people>
+		<people cardid="200026" name="不自医" talk="谢谢你，我很喜欢这个小东西!" giftid="61,62,63">
+			<jieyi jieyilevel="1" parametertype="102,103,101" parameter="52,26,630" intimacy="10" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="2" parametertype="102,103,101" parameter="150,74,1800" intimacy="20" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="3" parametertype="102,103,101" parameter="300,150,3600" intimacy="35" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="4" parametertype="102,103,101" parameter="500,250,6000" intimacy="55" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="5" parametertype="102,103,101" parameter="800,400,9600" intimacy="90" itemid="" itemnum="" bmoney="200" money=""/>
+			<jieyi jieyilevel="6" parametertype="102,103,101" parameter="1200,600,14400" intimacy="130" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="7" parametertype="102,103,101" parameter="1750,874,21000" intimacy="195" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="8" parametertype="102,103,101" parameter="2500,1250,30000" intimacy="290" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="9" parametertype="102,103,101" parameter="3500,1750,42000" intimacy="410" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="10" parametertype="102,103,101" parameter="5000,2500,60000" intimacy="640" itemid="" itemnum="" bmoney="2000" money=""/>
+		</people>
+		<people cardid="200043" name="陆萧然" talk="谢谢你，我很喜欢这个小东西!" giftid="67,68,69">
+			<jieyi jieyilevel="1" parametertype="102,103,101" parameter="52,26,630" intimacy="10" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="2" parametertype="102,103,101" parameter="150,74,1800" intimacy="20" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="3" parametertype="102,103,101" parameter="300,150,3600" intimacy="35" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="4" parametertype="102,103,101" parameter="500,250,6000" intimacy="55" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="5" parametertype="102,103,101" parameter="800,400,9600" intimacy="90" itemid="" itemnum="" bmoney="" money="840000"/>
+			<jieyi jieyilevel="6" parametertype="102,103,101" parameter="1200,600,14400" intimacy="130" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="7" parametertype="102,103,101" parameter="1750,874,21000" intimacy="195" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="8" parametertype="102,103,101" parameter="2500,1250,30000" intimacy="290" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="9" parametertype="102,103,101" parameter="3500,1750,42000" intimacy="410" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="10" parametertype="102,103,101" parameter="5000,2500,60000" intimacy="640" itemid="" itemnum="" bmoney="" money="7500000"/>
+		</people>
+		<people cardid="200038" name="丹青生" talk="谢谢你，我很喜欢这个小东西!" giftid="76,77,78">
+			<jieyi jieyilevel="1" parametertype="102,103,101" parameter="52,26,630" intimacy="10" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="2" parametertype="102,103,101" parameter="150,74,1800" intimacy="20" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="3" parametertype="102,103,101" parameter="300,150,3600" intimacy="35" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="4" parametertype="102,103,101" parameter="500,250,6000" intimacy="55" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="5" parametertype="102,103,101" parameter="800,400,9600" intimacy="90" itemid="16010030" itemnum="2" bmoney="" money=""/>
+			<jieyi jieyilevel="6" parametertype="102,103,101" parameter="1200,600,14400" intimacy="130" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="7" parametertype="102,103,101" parameter="1750,874,21000" intimacy="195" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="8" parametertype="102,103,101" parameter="2500,1250,30000" intimacy="290" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="9" parametertype="102,103,101" parameter="3500,1750,42000" intimacy="410" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="10" parametertype="102,103,101" parameter="5000,2500,60000" intimacy="640" itemid="16010030" itemnum="15" bmoney="" money=""/>
+		</people>
+		<people cardid="400028" name="店小二" talk="谢谢你，我很喜欢这个小东西!" giftid="85,86,87">
+			<jieyi jieyilevel="1" parametertype="102,103,101" parameter="52,26,630" intimacy="10" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="2" parametertype="102,103,101" parameter="150,74,1800" intimacy="20" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="3" parametertype="102,103,101" parameter="300,150,3600" intimacy="35" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="4" parametertype="102,103,101" parameter="500,250,6000" intimacy="55" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="5" parametertype="102,103,101" parameter="800,400,9600" intimacy="90" itemid="16010013" itemnum="5" bmoney="" money=""/>
+			<jieyi jieyilevel="6" parametertype="102,103,101" parameter="1200,600,14400" intimacy="130" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="7" parametertype="102,103,101" parameter="1750,874,21000" intimacy="195" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="8" parametertype="102,103,101" parameter="2500,1250,30000" intimacy="290" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="9" parametertype="102,103,101" parameter="3500,1750,42000" intimacy="410" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="10" parametertype="102,103,101" parameter="5000,2500,60000" intimacy="640" itemid="16010013" itemnum="15" bmoney="" money=""/>
+		</people>
+	</type>
+	<type cardtype="2" name="化外五行">
+		<people cardid="200011" name="帮会监察使" talk="谢谢你，我很喜欢这个小东西!" giftid="7,8,9">
+			<jieyi jieyilevel="1" parametertype="102,103,101" parameter="78,39,945" intimacy="10" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="2" parametertype="102,103,101" parameter="225,112,2700" intimacy="20" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="3" parametertype="102,103,101" parameter="450,225,5400" intimacy="35" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="4" parametertype="102,103,101" parameter="750,375,9000" intimacy="55" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="5" parametertype="102,103,101" parameter="1200,600,14400" intimacy="90" itemid="16010029" itemnum="1" bmoney="" money=""/>
+			<jieyi jieyilevel="6" parametertype="102,103,101" parameter="1800,900,21600" intimacy="130" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="7" parametertype="102,103,101" parameter="2625,1312,31500" intimacy="195" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="8" parametertype="102,103,101" parameter="3750,1875,45000" intimacy="290" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="9" parametertype="102,103,101" parameter="5250,2625,63000" intimacy="410" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="10" parametertype="102,103,101" parameter="7500,3750,90000" intimacy="640" itemid="16010029" itemnum="10" bmoney="" money=""/>
+		</people>
+		<people cardid="400002" name="姜镖头" talk="谢谢你，我很喜欢这个小东西!" giftid="10,11,12">
+			<jieyi jieyilevel="1" parametertype="102,103,101" parameter="78,39,945" intimacy="10" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="2" parametertype="102,103,101" parameter="225,112,2700" intimacy="20" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="3" parametertype="102,103,101" parameter="450,225,5400" intimacy="35" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="4" parametertype="102,103,101" parameter="750,375,9000" intimacy="55" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="5" parametertype="102,103,101" parameter="1200,600,14400" intimacy="90" itemid="" itemnum="" bmoney="" money="1300000"/>
+			<jieyi jieyilevel="6" parametertype="102,103,101" parameter="1800,900,21600" intimacy="130" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="7" parametertype="102,103,101" parameter="2625,1312,31500" intimacy="195" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="8" parametertype="102,103,101" parameter="3750,1875,45000" intimacy="290" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="9" parametertype="102,103,101" parameter="5250,2625,63000" intimacy="410" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="10" parametertype="102,103,101" parameter="7500,3750,90000" intimacy="640" itemid="" itemnum="" bmoney="" money="12000000"/>
+		</people>
+		<people cardid="400009" name="副本官员" talk="谢谢你，我很喜欢这个小东西!" giftid="19,20,21">
+			<jieyi jieyilevel="1" parametertype="102,103,101" parameter="78,39,945" intimacy="10" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="2" parametertype="102,103,101" parameter="225,112,2700" intimacy="20" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="3" parametertype="102,103,101" parameter="450,225,5400" intimacy="35" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="4" parametertype="102,103,101" parameter="750,375,9000" intimacy="55" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="5" parametertype="102,103,101" parameter="1200,600,14400" intimacy="90" itemid="16010030" itemnum="3" bmoney="" money=""/>
+			<jieyi jieyilevel="6" parametertype="102,103,101" parameter="1800,900,21600" intimacy="130" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="7" parametertype="102,103,101" parameter="2625,1312,31500" intimacy="195" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="8" parametertype="102,103,101" parameter="3750,1875,45000" intimacy="290" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="9" parametertype="102,103,101" parameter="5250,2625,63000" intimacy="410" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="10" parametertype="102,103,101" parameter="7500,3750,90000" intimacy="640" itemid="16010030" itemnum="30" bmoney="" money=""/>
+		</people>
+		<people cardid="300014" name="门派闯关使 " talk="谢谢你，我很喜欢这个小东西!" giftid="22,23,24">
+			<jieyi jieyilevel="1" parametertype="102,103,101" parameter="78,39,945" intimacy="10" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="2" parametertype="102,103,101" parameter="225,112,2700" intimacy="20" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="3" parametertype="102,103,101" parameter="450,225,5400" intimacy="35" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="4" parametertype="102,103,101" parameter="750,375,9000" intimacy="55" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="5" parametertype="102,103,101" parameter="1200,600,14400" intimacy="90" itemid="16010031" itemnum="1" bmoney="" money=""/>
+			<jieyi jieyilevel="6" parametertype="102,103,101" parameter="1800,900,21600" intimacy="130" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="7" parametertype="102,103,101" parameter="2625,1312,31500" intimacy="195" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="8" parametertype="102,103,101" parameter="3750,1875,45000" intimacy="290" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="9" parametertype="102,103,101" parameter="5250,2625,63000" intimacy="410" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="10" parametertype="102,103,101" parameter="7500,3750,90000" intimacy="640" itemid="16010031" itemnum="8" bmoney="" money=""/>
+		</people>
+		<people cardid="400007" name="地宫守卫" talk="谢谢你，我很喜欢这个小东西!" giftid="25,26,27">
+			<jieyi jieyilevel="1" parametertype="102,103,101" parameter="78,39,945" intimacy="10" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="2" parametertype="102,103,101" parameter="225,112,2700" intimacy="20" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="3" parametertype="102,103,101" parameter="450,225,5400" intimacy="35" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="4" parametertype="102,103,101" parameter="750,375,9000" intimacy="55" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="5" parametertype="102,103,101" parameter="1200,600,14400" intimacy="90" itemid="16010001" itemnum="15" bmoney="" money=""/>
+			<jieyi jieyilevel="6" parametertype="102,103,101" parameter="1800,900,21600" intimacy="130" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="7" parametertype="102,103,101" parameter="2625,1312,31500" intimacy="195" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="8" parametertype="102,103,101" parameter="3750,1875,45000" intimacy="290" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="9" parametertype="102,103,101" parameter="5250,2625,63000" intimacy="410" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="10" parametertype="102,103,101" parameter="7500,3750,90000" intimacy="640" itemid="16010001" itemnum="115" bmoney="" money=""/>
+		</people>
+		<people cardid="200048" name="伙伴使者" talk="谢谢你，我很喜欢这个小东西!" giftid="28,29,30">
+			<jieyi jieyilevel="1" parametertype="102,103,101" parameter="78,39,945" intimacy="10" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="2" parametertype="102,103,101" parameter="225,112,2700" intimacy="20" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="3" parametertype="102,103,101" parameter="450,225,5400" intimacy="35" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="4" parametertype="102,103,101" parameter="750,375,9000" intimacy="55" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="5" parametertype="102,103,101" parameter="1200,600,14400" intimacy="90" itemid="16010026" itemnum="1" bmoney="" money=""/>
+			<jieyi jieyilevel="6" parametertype="102,103,101" parameter="1800,900,21600" intimacy="130" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="7" parametertype="102,103,101" parameter="2625,1312,31500" intimacy="195" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="8" parametertype="102,103,101" parameter="3750,1875,45000" intimacy="290" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="9" parametertype="102,103,101" parameter="5250,2625,63000" intimacy="410" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="10" parametertype="102,103,101" parameter="7500,3750,90000" intimacy="640" itemid="16010026" itemnum="3" bmoney="" money=""/>
+		</people>
+		<people cardid="300003" name="布织道" talk="谢谢你，我很喜欢这个小东西!" giftid="64,65,66">
+			<jieyi jieyilevel="1" parametertype="102,103,101" parameter="78,39,945" intimacy="10" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="2" parametertype="102,103,101" parameter="225,112,2700" intimacy="20" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="3" parametertype="102,103,101" parameter="450,225,5400" intimacy="35" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="4" parametertype="102,103,101" parameter="750,375,9000" intimacy="55" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="5" parametertype="102,103,101" parameter="1200,600,14400" intimacy="90" itemid="" itemnum="" bmoney="300" money=""/>
+			<jieyi jieyilevel="6" parametertype="102,103,101" parameter="1800,900,21600" intimacy="130" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="7" parametertype="102,103,101" parameter="2625,1312,31500" intimacy="195" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="8" parametertype="102,103,101" parameter="3750,1875,45000" intimacy="290" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="9" parametertype="102,103,101" parameter="5250,2625,63000" intimacy="410" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="10" parametertype="102,103,101" parameter="7500,3750,90000" intimacy="640" itemid="" itemnum="" bmoney="3000" money=""/>
+		</people>
+		<people cardid="400029" name="武魂币兑换商" talk="谢谢你，我很喜欢这个小东西!" giftid="82,83,84">
+			<jieyi jieyilevel="1" parametertype="102,103,101" parameter="78,39,945" intimacy="10" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="2" parametertype="102,103,101" parameter="225,112,2700" intimacy="20" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="3" parametertype="102,103,101" parameter="450,225,5400" intimacy="35" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="4" parametertype="102,103,101" parameter="750,375,9000" intimacy="55" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="5" parametertype="102,103,101" parameter="1200,600,14400" intimacy="90" itemid="16010031" itemnum="1" bmoney="" money=""/>
+			<jieyi jieyilevel="6" parametertype="102,103,101" parameter="1800,900,21600" intimacy="130" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="7" parametertype="102,103,101" parameter="2625,1312,31500" intimacy="195" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="8" parametertype="102,103,101" parameter="3750,1875,45000" intimacy="290" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="9" parametertype="102,103,101" parameter="5250,2625,63000" intimacy="410" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="10" parametertype="102,103,101" parameter="7500,3750,90000" intimacy="640" itemid="16010031" itemnum="8" bmoney="" money=""/>
+		</people>
+	</type>
+	<type cardtype="3" name="游离三界">
+		<people cardid="400001" name="不周山神" talk="谢谢你，我很喜欢这个小东西!" giftid="13,14,15">
+			<jieyi jieyilevel="1" parametertype="102,103,101" parameter="262,130,3150" intimacy="10" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="2" parametertype="102,103,101" parameter="750,374,9000" intimacy="20" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="3" parametertype="102,103,101" parameter="1500,750,18000" intimacy="35" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="4" parametertype="102,103,101" parameter="2500,1250,30000" intimacy="55" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="5" parametertype="102,103,101" parameter="4000,2000,48000" intimacy="90" itemid="10000101" itemnum="3" bmoney="" money=""/>
+			<jieyi jieyilevel="6" parametertype="102,103,101" parameter="6000,3000,72000" intimacy="130" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="7" parametertype="102,103,101" parameter="8750,4374,105000" intimacy="195" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="8" parametertype="102,103,101" parameter="12500,6250,150000" intimacy="290" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="9" parametertype="102,103,101" parameter="17500,8750,210000" intimacy="410" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="10" parametertype="102,103,101" parameter="25000,12500,300000" intimacy="640" itemid="10000101" itemnum="21" bmoney="" money=""/>
+		</people>
+		<people cardid="200011" name="华山论剑使" talk="谢谢你，我很喜欢这个小东西!" giftid="34,35,36">
+			<jieyi jieyilevel="1" parametertype="102,103,101" parameter="157,78,1890" intimacy="10" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="2" parametertype="102,103,101" parameter="450,224,5400" intimacy="20" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="3" parametertype="102,103,101" parameter="900,450,10800" intimacy="35" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="4" parametertype="102,103,101" parameter="1500,750,18000" intimacy="55" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="5" parametertype="102,103,101" parameter="2400,1200,28800" intimacy="90" itemid="10000008" itemnum="350" bmoney="" money=""/>
+			<jieyi jieyilevel="6" parametertype="102,103,101" parameter="3600,1800,43200" intimacy="130" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="7" parametertype="102,103,101" parameter="5250,2624,63000" intimacy="195" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="8" parametertype="102,103,101" parameter="7500,3750,90000" intimacy="290" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="9" parametertype="102,103,101" parameter="10500,5250,126000" intimacy="410" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="10" parametertype="102,103,101" parameter="15000,7500,180000" intimacy="640" itemid="10000008" itemnum="3000" bmoney="" money=""/>
+		</people>
+		<people cardid="400026" name="程咬金" talk="谢谢你，我很喜欢这个小东西!" giftid="37,38,39">
+			<jieyi jieyilevel="1" parametertype="102,103,101" parameter="157,78,1890" intimacy="10" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="2" parametertype="102,103,101" parameter="450,224,5400" intimacy="20" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="3" parametertype="102,103,101" parameter="900,450,10800" intimacy="35" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="4" parametertype="102,103,101" parameter="1500,750,18000" intimacy="55" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="5" parametertype="102,103,101" parameter="2400,1200,28800" intimacy="90" itemid="" itemnum="" bmoney="1200" money=""/>
+			<jieyi jieyilevel="6" parametertype="102,103,101" parameter="3600,1800,43200" intimacy="130" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="7" parametertype="102,103,101" parameter="5250,2624,63000" intimacy="195" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="8" parametertype="102,103,101" parameter="7500,3750,90000" intimacy="290" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="9" parametertype="102,103,101" parameter="10500,5250,126000" intimacy="410" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="10" parametertype="102,103,101" parameter="15000,7500,180000" intimacy="640" itemid="" itemnum="" bmoney="10000" money=""/>
+		</people>
+		<people cardid="200010" name="东海龙王" talk="谢谢你，我很喜欢这个小东西!" giftid="40,41,42">
+			<jieyi jieyilevel="1" parametertype="102,103,101" parameter="157,78,1890" intimacy="10" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="2" parametertype="102,103,101" parameter="450,224,5400" intimacy="20" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="3" parametertype="102,103,101" parameter="900,450,10800" intimacy="35" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="4" parametertype="102,103,101" parameter="1500,750,18000" intimacy="55" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="5" parametertype="102,103,101" parameter="2400,1200,28800" intimacy="90" itemid="" itemnum="" bmoney="1200" money=""/>
+			<jieyi jieyilevel="6" parametertype="102,103,101" parameter="3600,1800,43200" intimacy="130" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="7" parametertype="102,103,101" parameter="5250,2624,63000" intimacy="195" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="8" parametertype="102,103,101" parameter="7500,3750,90000" intimacy="290" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="9" parametertype="102,103,101" parameter="10500,5250,126000" intimacy="410" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="10" parametertype="102,103,101" parameter="15000,7500,180000" intimacy="640" itemid="" itemnum="" bmoney="10000" money=""/>
+		</people>
+		<people cardid="200045" name="钟馗" talk="谢谢你，我很喜欢这个小东西!" giftid="43,44,45">
+			<jieyi jieyilevel="1" parametertype="102,103,101" parameter="157,78,1890" intimacy="10" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="2" parametertype="102,103,101" parameter="450,224,5400" intimacy="20" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="3" parametertype="102,103,101" parameter="900,450,10800" intimacy="35" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="4" parametertype="102,103,101" parameter="1500,750,18000" intimacy="55" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="5" parametertype="102,103,101" parameter="2400,1200,28800" intimacy="90" itemid="10000007" itemnum="1100" bmoney="" money=""/>
+			<jieyi jieyilevel="6" parametertype="102,103,101" parameter="3600,1800,43200" intimacy="130" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="7" parametertype="102,103,101" parameter="5250,2624,63000" intimacy="195" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="8" parametertype="102,103,101" parameter="7500,3750,90000" intimacy="290" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="9" parametertype="102,103,101" parameter="10500,5250,126000" intimacy="410" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="10" parametertype="102,103,101" parameter="15000,7500,180000" intimacy="640" itemid="10000007" itemnum="9000" bmoney="" money=""/>
+		</people>
+		<people cardid="200021" name="牛魔王" talk="谢谢你，我很喜欢这个小东西!" giftid="70,71,72">
+			<jieyi jieyilevel="1" parametertype="102,103,101" parameter="157,78,1890" intimacy="10" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="2" parametertype="102,103,101" parameter="450,224,5400" intimacy="20" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="3" parametertype="102,103,101" parameter="900,450,10800" intimacy="35" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="4" parametertype="102,103,101" parameter="1500,750,18000" intimacy="55" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="5" parametertype="102,103,101" parameter="2400,1200,28800" intimacy="90" itemid="" itemnum="" bmoney="1200" money=""/>
+			<jieyi jieyilevel="6" parametertype="102,103,101" parameter="3600,1800,43200" intimacy="130" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="7" parametertype="102,103,101" parameter="5250,2624,63000" intimacy="195" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="8" parametertype="102,103,101" parameter="7500,3750,90000" intimacy="290" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="9" parametertype="102,103,101" parameter="10500,5250,126000" intimacy="410" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="10" parametertype="102,103,101" parameter="15000,7500,180000" intimacy="640" itemid="" itemnum="" bmoney="10000" money=""/>
+		</people>
+		<people cardid="400016" name="刑天" talk="谢谢你，我很喜欢这个小东西!" giftid="79,80,81">
+			<jieyi jieyilevel="1" parametertype="102,103,101" parameter="262,130,3150" intimacy="10" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="2" parametertype="102,103,101" parameter="750,374,9000" intimacy="20" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="3" parametertype="102,103,101" parameter="1500,750,18000" intimacy="35" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="4" parametertype="102,103,101" parameter="2500,1250,30000" intimacy="55" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="5" parametertype="102,103,101" parameter="4000,2000,48000" intimacy="90" itemid="10000004" itemnum="5" bmoney="" money=""/>
+			<jieyi jieyilevel="6" parametertype="102,103,101" parameter="6000,3000,72000" intimacy="130" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="7" parametertype="102,103,101" parameter="8750,4374,105000" intimacy="195" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="8" parametertype="102,103,101" parameter="12500,6250,150000" intimacy="290" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="9" parametertype="102,103,101" parameter="17500,8750,210000" intimacy="410" itemid="" itemnum="" bmoney="" money=""/>
+			<jieyi jieyilevel="10" parametertype="102,103,101" parameter="25000,12500,300000" intimacy="640" itemid="10000004" itemnum="15" bmoney="" money=""/>
+		</people>
+	</type>
+	<gift giftid="7" giftname="帮会锦旗" gifticon="gift_7" moneytype="1" moneynum="600000" add="10"/>
+	<gift giftid="8" giftname="帮会徽章" gifticon="gift_8" moneytype="3" moneynum="600" add="75"/>
+	<gift giftid="9" giftname="帮会贡品" gifticon="gift_9" moneytype="2" moneynum="3000" add="500"/>
+	<gift giftid="10" giftname="护身符" gifticon="gift_10" moneytype="1" moneynum="600000" add="10"/>
+	<gift giftid="11" giftname="避妖符" gifticon="gift_11" moneytype="3" moneynum="600" add="75"/>
+	<gift giftid="12" giftname="驱妖符" gifticon="gift_12" moneytype="2" moneynum="3000" add="500"/>
+	<gift giftid="13" giftname="昆仑岩" gifticon="gift_13" moneytype="1" moneynum="2000000" add="10"/>
+	<gift giftid="14" giftname="玄冰岩" gifticon="gift_14" moneytype="3" moneynum="2000" add="75"/>
+	<gift giftid="15" giftname="通天岩" gifticon="gift_15" moneytype="2" moneynum="10000" add="500"/>
+	<gift giftid="16" giftname="上任令" gifticon="gift_16" moneytype="1" moneynum="400000" add="10"/>
+	<gift giftid="17" giftname="颂德令" gifticon="gift_17" moneytype="3" moneynum="400" add="75"/>
+	<gift giftid="18" giftname="调度令" gifticon="gift_18" moneytype="2" moneynum="2000" add="500"/>
+	<gift giftid="19" giftname="委任令" gifticon="gift_19" moneytype="1" moneynum="600000" add="10"/>
+	<gift giftid="20" giftname="弘德令" gifticon="gift_20" moneytype="3" moneynum="600" add="75"/>
+	<gift giftid="21" giftname="升迁令" gifticon="gift_21" moneytype="2" moneynum="3000" add="500"/>
+	<gift giftid="22" giftname="布甲" gifticon="gift_22" moneytype="1" moneynum="600000" add="10"/>
+	<gift giftid="23" giftname="铁甲" gifticon="gift_23" moneytype="3" moneynum="600" add="75"/>
+	<gift giftid="24" giftname="锁子甲" gifticon="gift_24" moneytype="2" moneynum="3000" add="500"/>
+	<gift giftid="25" giftname="黑铁钥匙" gifticon="gift_25" moneytype="1" moneynum="600000" add="10"/>
+	<gift giftid="26" giftname="青铜钥匙" gifticon="gift_26" moneytype="3" moneynum="600" add="75"/>
+	<gift giftid="27" giftname="白银钥匙" gifticon="gift_27" moneytype="2" moneynum="3000" add="500"/>
+	<gift giftid="28" giftname="石榴娇" gifticon="gift_28" moneytype="1" moneynum="600000" add="10"/>
+	<gift giftid="29" giftname="半边娇" gifticon="gift_29" moneytype="3" moneynum="600" add="75"/>
+	<gift giftid="30" giftname="圣檀心" gifticon="gift_30" moneytype="2" moneynum="3000" add="500"/>
+	<gift giftid="31" giftname="锦囊" gifticon="gift_31" moneytype="1" moneynum="400000" add="10"/>
+	<gift giftid="32" giftname="百宝囊" gifticon="gift_32" moneytype="3" moneynum="400" add="75"/>
+	<gift giftid="33" giftname="如意囊" gifticon="gift_33" moneytype="2" moneynum="2000" add="500"/>
+	<gift giftid="34" giftname="长剑" gifticon="gift_34" moneytype="1" moneynum="1600000" add="10"/>
+	<gift giftid="35" giftname="斩铁剑" gifticon="gift_35" moneytype="3" moneynum="1600" add="75"/>
+	<gift giftid="36" giftname="白虹剑" gifticon="gift_36" moneytype="2" moneynum="8000" add="500"/>
+	<gift giftid="37" giftname="铜板斧" gifticon="gift_37" moneytype="1" moneynum="1200000" add="10"/>
+	<gift giftid="38" giftname="开山斧" gifticon="gift_38" moneytype="3" moneynum="1200" add="75"/>
+	<gift giftid="39" giftname="宣花斧" gifticon="gift_39" moneytype="2" moneynum="6000" add="500"/>
+	<gift giftid="40" giftname="避水珠" gifticon="gift_40" moneytype="1" moneynum="1200000" add="10"/>
+	<gift giftid="41" giftname="龙鳞" gifticon="gift_41" moneytype="3" moneynum="1200" add="75"/>
+	<gift giftid="42" giftname="定魂珠" gifticon="gift_42" moneytype="2" moneynum="6000" add="500"/>
+	<gift giftid="43" giftname="驱鬼符" gifticon="gift_43" moneytype="1" moneynum="1200000" add="10"/>
+	<gift giftid="44" giftname="御魂扇" gifticon="gift_44" moneytype="3" moneynum="1200" add="75"/>
+	<gift giftid="45" giftname="天师剑" gifticon="gift_45" moneytype="2" moneynum="6000" add="500"/>
+	<gift giftid="46" giftname="糖葫芦" gifticon="gift_46" moneytype="1" moneynum="400000" add="10"/>
+	<gift giftid="47" giftname="风车" gifticon="gift_47" moneytype="3" moneynum="400" add="75"/>
+	<gift giftid="48" giftname="木马" gifticon="gift_48" moneytype="2" moneynum="2000" add="500"/>
+	<gift giftid="49" giftname="红丝线" gifticon="gift_49" moneytype="1" moneynum="400000" add="10"/>
+	<gift giftid="50" giftname="红绳结" gifticon="gift_50" moneytype="3" moneynum="400" add="75"/>
+	<gift giftid="51" giftname="同心结" gifticon="gift_51" moneytype="2" moneynum="2000" add="500"/>
+	<gift giftid="52" giftname="铁锤" gifticon="gift_52" moneytype="1" moneynum="400000" add="10"/>
+	<gift giftid="53" giftname="熟铁锤" gifticon="gift_53" moneytype="3" moneynum="400" add="75"/>
+	<gift giftid="54" giftname="天工锤" gifticon="gift_54" moneytype="2" moneynum="2000" add="500"/>
+	<gift giftid="55" giftname="六韬" gifticon="gift_55" moneytype="1" moneynum="400000" add="10"/>
+	<gift giftid="56" giftname="孙子兵法" gifticon="gift_56" moneytype="3" moneynum="400" add="75"/>
+	<gift giftid="57" giftname="鬼谷子" gifticon="gift_57" moneytype="2" moneynum="2000" add="500"/>
+	<gift giftid="58" giftname="丝带" gifticon="gift_58" moneytype="1" moneynum="400000" add="10"/>
+	<gift giftid="59" giftname="发梳" gifticon="gift_59" moneytype="3" moneynum="400" add="75"/>
+	<gift giftid="60" giftname="花钿" gifticon="gift_60" moneytype="2" moneynum="2000" add="500"/>
+	<gift giftid="61" giftname="十大功劳" gifticon="gift_61" moneytype="1" moneynum="400000" add="10"/>
+	<gift giftid="62" giftname="百合" gifticon="gift_62" moneytype="3" moneynum="400" add="75"/>
+	<gift giftid="63" giftname="千年人参" gifticon="gift_63" moneytype="2" moneynum="2000" add="500"/>
+	<gift giftid="64" giftname="素月绸" gifticon="gift_64" moneytype="1" moneynum="600000" add="10"/>
+	<gift giftid="65" giftname="彩云帛" gifticon="gift_65" moneytype="3" moneynum="600" add="75"/>
+	<gift giftid="66" giftname="十方锦" gifticon="gift_66" moneytype="2" moneynum="3000" add="500"/>
+	<gift giftid="67" giftname="白萝羹" gifticon="gift_67" moneytype="1" moneynum="400000" add="10"/>
+	<gift giftid="68" giftname="绿萝羹" gifticon="gift_68" moneytype="3" moneynum="400" add="75"/>
+	<gift giftid="69" giftname="红萝羹" gifticon="gift_69" moneytype="2" moneynum="2000" add="500"/>
+	<gift giftid="70" giftname="麂皮靴" gifticon="gift_70" moneytype="1" moneynum="1200000" add="10"/>
+	<gift giftid="71" giftname="黄金甲" gifticon="gift_71" moneytype="3" moneynum="1200" add="75"/>
+	<gift giftid="72" giftname="混铁棍" gifticon="gift_72" moneytype="2" moneynum="6000" add="500"/>
+	<gift giftid="73" giftname="草鞋" gifticon="gift_73" moneytype="1" moneynum="400000" add="10"/>
+	<gift giftid="74" giftname="布鞋" gifticon="gift_74" moneytype="3" moneynum="400" add="75"/>
+	<gift giftid="75" giftname="棉鞋" gifticon="gift_75" moneytype="2" moneynum="2000" add="500"/>
+	<gift giftid="76" giftname="歙县砚" gifticon="gift_76" moneytype="1" moneynum="400000" add="10"/>
+	<gift giftid="77" giftname="宣城纸" gifticon="gift_77" moneytype="3" moneynum="400" add="75"/>
+	<gift giftid="78" giftname="湖州笔" gifticon="gift_78" moneytype="2" moneynum="2000" add="500"/>
+	<gift giftid="79" giftname="巨斧" gifticon="gift_79" moneytype="1" moneynum="2000000" add="10"/>
+	<gift giftid="80" giftname="青铜斧" gifticon="gift_80" moneytype="3" moneynum="2000" add="75"/>
+	<gift giftid="81" giftname="逆天斧" gifticon="gift_81" moneytype="2" moneynum="10000" add="500"/>
+	<gift giftid="82" giftname="长枪" gifticon="gift_82" moneytype="1" moneynum="600000" add="10"/>
+	<gift giftid="83" giftname="红缨枪" gifticon="gift_83" moneytype="3" moneynum="600" add="75"/>
+	<gift giftid="84" giftname="火尖枪" gifticon="gift_84" moneytype="2" moneynum="3000" add="500"/>
+	<gift giftid="85" giftname="布衣" gifticon="gift_85" moneytype="1" moneynum="400000" add="10"/>
+	<gift giftid="86" giftname="棉衣" gifticon="gift_86" moneytype="3" moneynum="400" add="75"/>
+	<gift giftid="87" giftname="绸衣" gifticon="gift_87" moneytype="2" moneynum="2000" add="500"/>
+	<icon jieyilevel="0" levelname="素不相识" icon="name_icon0"/>
+	<icon jieyilevel="1" levelname="形同陌路" icon="name_icon1"/>
+	<icon jieyilevel="2" levelname="萍水相逢" icon="name_icon2"/>
+	<icon jieyilevel="3" levelname="泛泛之交" icon="name_icon3"/>
+	<icon jieyilevel="4" levelname="一见如故" icon="name_icon4"/>
+	<icon jieyilevel="5" levelname="亲密无间" icon="name_icon5"/>
+	<icon jieyilevel="6" levelname="相见恨晚" icon="name_icon6"/>
+	<icon jieyilevel="7" levelname="相交莫逆" icon="name_icon7"/>
+	<icon jieyilevel="8" levelname="情同手足" icon="name_icon8"/>
+	<icon jieyilevel="9" levelname="肝胆相照" icon="name_icon9"/>
+	<icon jieyilevel="10" levelname="生死与共" icon="name_icon10"/>
+</root>

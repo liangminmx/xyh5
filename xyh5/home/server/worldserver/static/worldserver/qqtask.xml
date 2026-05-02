@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+identityid	标识id ，用于表示步骤组的id
+可以有多个步骤组
+step	步骤
+task_type	类型
+=1，进入游戏
+=2，等级任务
+=3，境界任务
+=4，腾讯连续签到任务
+lev	task_type=2时用到
+表示需要提升到的等级
+realm	task_type=3时用到
+表示需要提升到的境界中的大境界
+stage	task_type=3时用到
+表示需要提升到的大境界的小境界
+mailid	完成任务后通过邮件发放给玩家奖励
+表示邮件id
+itemid	给予的道具id
+不填表示没有给予道具
+reward_num	表示给予的道具数量
+没有道具奖励时可不写
+bind	表示给予道具是否需要绑定
+=0，不绑定
+=1，绑定
+没有道具奖励时可不写
+task_desc	任务描述
+策划自用字段，无意义
+-->
+  <identity identityid="qq_task1">
+    <task step="1" task_type="1" mailid="36" itemid="109663" reward_num="1" bind="1" task_desc="进入游戏"/>
+    <task step="2" task_type="2" lev="30" mailid="36" itemid="109664" reward_num="1" bind="1" task_desc="等级达到30级"/>
+    <task step="3" task_type="3" realm="3" stage="1" mailid="37" task_desc="境界达到紫府前期（奖励金劵）"/>
+    <task step="4" task_type="4" mailid="36" itemid="109665" reward_num="1" bind="1" task_desc="连续签到三天"/>
+  </identity>
+  <identity identityid="qq_task2">
+    <task step="1" task_type="1" mailid="36" itemid="109663" reward_num="1" bind="1" task_desc="进入游戏"/>
+    <task step="2" task_type="2" lev="30" mailid="36" itemid="109664" reward_num="1" bind="1" task_desc="等级达到30级"/>
+    <task step="3" task_type="3" realm="3" stage="1" mailid="36" itemid="109681" reward_num="1" bind="1" task_desc="境界达到紫府前期（奖励道具）"/>
+    <task step="4" task_type="4" mailid="36" itemid="109665" reward_num="1" bind="1" task_desc="连续签到三天"/>
+  </identity>
+  <identity identityid="qq_task3">
+    <task step="1" task_type="1" mailid="36" itemid="109663" reward_num="1" bind="1" task_desc="进入游戏"/>
+    <task step="2" task_type="2" lev="30" mailid="36" itemid="109664" reward_num="1" bind="1" task_desc="等级达到30级"/>
+    <task step="3" task_type="2" lev="50" mailid="37" task_desc="等级达到50级（奖励金劵）"/>
+    <task step="4" task_type="4" mailid="36" itemid="109665" reward_num="1" bind="1" task_desc="连续签到三天"/>
+  </identity>
+  <identity identityid="qq_task4">
+    <task step="1" task_type="1" mailid="36" itemid="109663" reward_num="1" bind="1" task_desc="进入游戏"/>
+    <task step="2" task_type="2" lev="30" mailid="36" itemid="109664" reward_num="1" bind="1" task_desc="等级达到30级"/>
+    <task step="3" task_type="2" lev="50" mailid="36" itemid="109681" reward_num="1" bind="1" task_desc="等级达到50级"/>
+    <task step="4" task_type="4" mailid="36" itemid="109665" reward_num="1" bind="1" task_desc="连续签到三天"/>
+  </identity>
+</root>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!--
+realm	开启大境界等级
+stage	开启小境界等级
+maxrealm	大境界等级上限
+maxstage	每个大境界等级下小境界等级上限
+lev	合道等级
+avatarA	该合道改变的角色外观
+text	提升合道大境界的公告
+name	合道名称
+stagenum	小境界等级数量
+realmpic	界面显示名称贴图
+stage	合道的小境界等级
+title	称号显示
+name	名称显示文本
+skillpoint	升级所需元液
+luodan	升级所需大罗金丹
+basic_pro	升级基础成功率，万分比，填入整数值，程序进行换算
+hp	该阶境界增加的hp
+pow	该阶境界增加的攻击力
+def	该阶境界增加的防御
+hit	该阶境界增加的命中
+dodge	该阶境界增加的闪避
+crit	该阶境界增加的暴击
+toughness	该阶境界增加的韧性
+coercion	该阶境界增加的威压值，万分比
+stagepic	小境界等级名称贴图
+id	提升成功率的道具id
+success	提升的成功率，使用千分比
+success	提升的成功率，千分比
+gold	对应的元宝价格
+
+-->
+	<openLev realm="10" stage="4" maxrealm="10" maxstage="4"/>
+	<realm lev="1" avatarA="2000001" stagenum="4" name="后天" text="" realmpic="300">
+		<stage stage="1" title="3002014" name="后天前期" skillpoint="3" basic_pro="10000" luodan="100" hp="1136" pow="39" def="44" hit="33" dodge="8" crit="11" toughness="29" stagepic="301"/>
+		<stage stage="2" title="3002014" name="后天中期" skillpoint="5" basic_pro="10000" luodan="100" hp="2327" pow="80" def="91" hit="68" dodge="17" crit="24" toughness="60" stagepic="302"/>
+		<stage stage="3" title="3002014" name="后天后期" skillpoint="10" basic_pro="10000" luodan="100" hp="3574" pow="123" def="140" hit="105" dodge="27" crit="37" toughness="92" stagepic="303"/>
+		<stage stage="4" title="3002014" name="后天圆满" skillpoint="0" basic_pro="10000" luodan="100" hp="4877" pow="168" def="191" hit="143" dodge="37" crit="51" toughness="126" stagepic="304"/>
+	</realm>
+	<realm lev="2" avatarA="2000001" stagenum="4" name="后天" text="" realmpic="300">
+		<stage stage="1" title="3002014" name="后天前期" skillpoint="3" basic_pro="10000" luodan="100" hp="1136" pow="39" def="44" hit="33" dodge="8" crit="11" toughness="29" stagepic="301"/>
+		<stage stage="2" title="3002014" name="后天中期" skillpoint="5" basic_pro="10000" luodan="100" hp="2327" pow="80" def="91" hit="68" dodge="17" crit="24" toughness="60" stagepic="302"/>
+		<stage stage="3" title="3002014" name="后天后期" skillpoint="10" basic_pro="10000" luodan="100" hp="3574" pow="123" def="140" hit="105" dodge="27" crit="37" toughness="92" stagepic="303"/>
+		<stage stage="4" title="3002014" name="后天圆满" skillpoint="0" basic_pro="10000" luodan="100" hp="4877" pow="168" def="191" hit="143" dodge="37" crit="51" toughness="126" stagepic="304"/>
+	</realm>
+	<item id="100001" success="100"/>
+	<buy succsee="100" gold="100"/>
+</root>

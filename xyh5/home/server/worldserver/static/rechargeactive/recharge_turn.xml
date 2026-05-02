@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!--
+
+completecount	开启多倍转盘对应的count编号
+turnid	转盘顺序
+turnidesc	转盘说明
+moneytype	抽奖类型
+	=1 为银两
+	=3 为礼金
+	=2 为元宝
+putnum	投入数量
+gettype	获得奖励类型
+	=1 为银两
+	=3 为礼金
+	=2 为元宝
+getnum	获得数量
+
+
+ -->
+	<server servernum="0">
+		<turndisc completecount="1">
+			<turn turnid="1" turnidesc="点击左侧【银两抽奖】，花费10万银两，抽取多倍奖励，100%中奖！100%多倍！在机缘转盘中，抽出您的幸运多倍奖励，绝对超值！" moneytype="1" putnum="100000" gettype="1" getnum="2000000"/>
+			<turn turnid="2" turnidesc="点击左侧【礼金抽奖】，花费100礼金，抽取多倍奖励，100%中奖！100%多倍！在机缘转盘中，抽出您的幸运多倍奖励，绝对超值！" moneytype="3" putnum="100" gettype="3" getnum="1000"/>
+			<turn turnid="3" turnidesc="点击左侧【元宝抽奖】，花费200元宝，抽取多倍奖励，100%中奖！100%多倍！在机缘转盘中，抽出您的幸运多倍奖励，绝对超值！" moneytype="2" putnum="200" gettype="3" getnum="4000"/>
+		</turndisc>
+		<turndisc completecount="2">
+			<turn turnid="1" turnidesc="点击左侧【银两抽奖】，花费10万银两，抽取多倍奖励，100%中奖！100%多倍！在机缘转盘中，抽出您的幸运多倍奖励，绝对超值！" moneytype="1" putnum="100000" gettype="1" getnum="2000000"/>
+			<turn turnid="2" turnidesc="点击左侧【礼金抽奖】，花费100礼金，抽取多倍奖励，100%中奖！100%多倍！在机缘转盘中，抽出您的幸运多倍奖励，绝对超值！" moneytype="3" putnum="100" gettype="3" getnum="1000"/>
+			<turn turnid="3" turnidesc="点击左侧【元宝抽奖】，花费200元宝，抽取多倍奖励，100%中奖！100%多倍！在机缘转盘中，抽出您的幸运多倍奖励，绝对超值！" moneytype="2" putnum="200" gettype="3" getnum="4000"/>
+		</turndisc>
+		<turndisc completecount="3">
+			<turn turnid="1" turnidesc="点击左侧【银两抽奖】，花费10万银两，抽取多倍奖励，100%中奖！100%多倍！在机缘转盘中，抽出您的幸运多倍奖励，绝对超值！" moneytype="1" putnum="100000" gettype="1" getnum="2000000"/>
+			<turn turnid="2" turnidesc="点击左侧【礼金抽奖】，花费100礼金，抽取多倍奖励，100%中奖！100%多倍！在机缘转盘中，抽出您的幸运多倍奖励，绝对超值！" moneytype="3" putnum="100" gettype="3" getnum="1000"/>
+			<turn turnid="3" turnidesc="点击左侧【元宝抽奖】，花费200元宝，抽取多倍奖励，100%中奖！100%多倍！在机缘转盘中，抽出您的幸运多倍奖励，绝对超值！" moneytype="2" putnum="200" gettype="3" getnum="4000"/>
+		</turndisc>
+		<turndisc completecount="4">
+			<turn turnid="1" turnidesc="点击左侧【银两抽奖】，花费10万银两，抽取多倍奖励，100%中奖！100%多倍！在机缘转盘中，抽出您的幸运多倍奖励，绝对超值！" moneytype="1" putnum="100000" gettype="1" getnum="2000000"/>
+			<turn turnid="2" turnidesc="点击左侧【礼金抽奖】，花费100礼金，抽取多倍奖励，100%中奖！100%多倍！在机缘转盘中，抽出您的幸运多倍奖励，绝对超值！" moneytype="3" putnum="100" gettype="3" getnum="1000"/>
+			<turn turnid="3" turnidesc="点击左侧【元宝抽奖】，花费200元宝，抽取多倍奖励，100%中奖！100%多倍！在机缘转盘中，抽出您的幸运多倍奖励，绝对超值！" moneytype="2" putnum="200" gettype="3" getnum="4000"/>
+		</turndisc>
+		<turndisc completecount="5">
+			<turn turnid="1" turnidesc="点击左侧【银两抽奖】，花费10万银两，抽取多倍奖励，100%中奖！100%多倍！在机缘转盘中，抽出您的幸运多倍奖励，绝对超值！" moneytype="1" putnum="100000" gettype="1" getnum="2000000"/>
+			<turn turnid="2" turnidesc="点击左侧【礼金抽奖】，花费100礼金，抽取多倍奖励，100%中奖！100%多倍！在机缘转盘中，抽出您的幸运多倍奖励，绝对超值！" moneytype="3" putnum="100" gettype="3" getnum="1000"/>
+			<turn turnid="3" turnidesc="点击左侧【元宝抽奖】，花费200元宝，抽取多倍奖励，100%中奖！100%多倍！在机缘转盘中，抽出您的幸运多倍奖励，绝对超值！" moneytype="2" putnum="200" gettype="3" getnum="4000"/>
+		</turndisc>
+		<turndisc completecount="6">
+			<turn turnid="1" turnidesc="点击左侧【银两抽奖】，花费10万银两，抽取多倍奖励，100%中奖！100%多倍！在机缘转盘中，抽出您的幸运多倍奖励，绝对超值！" moneytype="1" putnum="100000" gettype="1" getnum="2000000"/>
+			<turn turnid="2" turnidesc="点击左侧【礼金抽奖】，花费100礼金，抽取多倍奖励，100%中奖！100%多倍！在机缘转盘中，抽出您的幸运多倍奖励，绝对超值！" moneytype="3" putnum="100" gettype="3" getnum="1000"/>
+			<turn turnid="3" turnidesc="点击左侧【元宝抽奖】，花费200元宝，抽取多倍奖励，100%中奖！100%多倍！在机缘转盘中，抽出您的幸运多倍奖励，绝对超值！" moneytype="2" putnum="200" gettype="3" getnum="4000"/>
+		</turndisc>
+		<turndisc completecount="7">
+			<turn turnid="1" turnidesc="点击左侧【银两抽奖】，花费10万银两，抽取多倍奖励，100%中奖！100%多倍！在机缘转盘中，抽出您的幸运多倍奖励，绝对超值！" moneytype="1" putnum="100000" gettype="1" getnum="2000000"/>
+			<turn turnid="2" turnidesc="点击左侧【礼金抽奖】，花费100礼金，抽取多倍奖励，100%中奖！100%多倍！在机缘转盘中，抽出您的幸运多倍奖励，绝对超值！" moneytype="3" putnum="100" gettype="3" getnum="1000"/>
+			<turn turnid="3" turnidesc="点击左侧【元宝抽奖】，花费200元宝，抽取多倍奖励，100%中奖！100%多倍！在机缘转盘中，抽出您的幸运多倍奖励，绝对超值！" moneytype="2" putnum="200" gettype="3" getnum="4000"/>
+		</turndisc>
+		<turndisc completecount="8">
+			<turn turnid="1" turnidesc="点击左侧【银两抽奖】，花费10万银两，抽取多倍奖励，100%中奖！100%多倍！在机缘转盘中，抽出您的幸运多倍奖励，绝对超值！" moneytype="1" putnum="100000" gettype="1" getnum="2000000"/>
+			<turn turnid="2" turnidesc="点击左侧【礼金抽奖】，花费100礼金，抽取多倍奖励，100%中奖！100%多倍！在机缘转盘中，抽出您的幸运多倍奖励，绝对超值！" moneytype="3" putnum="100" gettype="3" getnum="1000"/>
+			<turn turnid="3" turnidesc="点击左侧【元宝抽奖】，花费200元宝，抽取多倍奖励，100%中奖！100%多倍！在机缘转盘中，抽出您的幸运多倍奖励，绝对超值！" moneytype="2" putnum="200" gettype="3" getnum="4000"/>
+		</turndisc>
+	</server>
+	<server servernum="1">
+		<turndisc completecount="1">
+			<turn turnid="1" turnidesc="点击左侧【银两抽奖】，花费10万银两，抽取多倍奖励，100%中奖！100%多倍！在机缘转盘中，抽出您的幸运多倍奖励，绝对超值！" moneytype="1" putnum="100000" gettype="1" getnum="2000000"/>
+			<turn turnid="2" turnidesc="点击左侧【礼金抽奖】，花费100礼金，抽取多倍奖励，100%中奖！100%多倍！在机缘转盘中，抽出您的幸运多倍奖励，绝对超值！" moneytype="3" putnum="100" gettype="3" getnum="1000"/>
+			<turn turnid="3" turnidesc="点击左侧【元宝抽奖】，花费200元宝，抽取多倍奖励，100%中奖！100%多倍！在机缘转盘中，抽出您的幸运多倍奖励，绝对超值！" moneytype="2" putnum="200" gettype="3" getnum="4000"/>
+		</turndisc>
+		<turndisc completecount="2">
+			<turn turnid="1" turnidesc="点击左侧【银两抽奖】，花费10万银两，抽取多倍奖励，100%中奖！100%多倍！在机缘转盘中，抽出您的幸运多倍奖励，绝对超值！" moneytype="1" putnum="100000" gettype="1" getnum="2000000"/>
+			<turn turnid="2" turnidesc="点击左侧【礼金抽奖】，花费100礼金，抽取多倍奖励，100%中奖！100%多倍！在机缘转盘中，抽出您的幸运多倍奖励，绝对超值！" moneytype="3" putnum="100" gettype="3" getnum="1000"/>
+			<turn turnid="3" turnidesc="点击左侧【元宝抽奖】，花费200元宝，抽取多倍奖励，100%中奖！100%多倍！在机缘转盘中，抽出您的幸运多倍奖励，绝对超值！" moneytype="2" putnum="200" gettype="3" getnum="4000"/>
+		</turndisc>
+		<turndisc completecount="3">
+			<turn turnid="1" turnidesc="点击左侧【银两抽奖】，花费10万银两，抽取多倍奖励，100%中奖！100%多倍！在机缘转盘中，抽出您的幸运多倍奖励，绝对超值！" moneytype="1" putnum="100000" gettype="1" getnum="2000000"/>
+			<turn turnid="2" turnidesc="点击左侧【礼金抽奖】，花费100礼金，抽取多倍奖励，100%中奖！100%多倍！在机缘转盘中，抽出您的幸运多倍奖励，绝对超值！" moneytype="3" putnum="100" gettype="3" getnum="1000"/>
+			<turn turnid="3" turnidesc="点击左侧【元宝抽奖】，花费200元宝，抽取多倍奖励，100%中奖！100%多倍！在机缘转盘中，抽出您的幸运多倍奖励，绝对超值！" moneytype="2" putnum="200" gettype="3" getnum="4000"/>
+		</turndisc>
+		<turndisc completecount="4">
+			<turn turnid="1" turnidesc="点击左侧【银两抽奖】，花费10万银两，抽取多倍奖励，100%中奖！100%多倍！在机缘转盘中，抽出您的幸运多倍奖励，绝对超值！" moneytype="1" putnum="100000" gettype="1" getnum="2000000"/>
+			<turn turnid="2" turnidesc="点击左侧【礼金抽奖】，花费100礼金，抽取多倍奖励，100%中奖！100%多倍！在机缘转盘中，抽出您的幸运多倍奖励，绝对超值！" moneytype="3" putnum="100" gettype="3" getnum="1000"/>
+			<turn turnid="3" turnidesc="点击左侧【元宝抽奖】，花费200元宝，抽取多倍奖励，100%中奖！100%多倍！在机缘转盘中，抽出您的幸运多倍奖励，绝对超值！" moneytype="2" putnum="200" gettype="3" getnum="4000"/>
+		</turndisc>
+	</server>
+</root>

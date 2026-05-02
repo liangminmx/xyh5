@@ -1,0 +1,11105 @@
+syntax = "proto2";
+package protomsg;
+
+
+message Msg300RecycleRewardRecords{
+   required uint32 wave = 1;      
+   required uint32 flag  = 2;      
+}
+
+ 
+ 
+ 
+message MsgSync300RecycleData{
+   required uint32  functionOpenFlag  = 1;             	 
+   required uint32 curWave = 2;  		 
+   repeated Msg300RecycleRewardRecords rewardRecords = 3;          
+}
+
+ 
+ 
+ 
+message Msg300RecycleGetReward{
+   required uint32 wave = 1;          
+}
+
+ 
+ 
+ 
+message MsgResultOf300RecycleGetReward{
+   required uint32 resultCodeValue = 1;       
+   required uint32 wave = 2;          
+}
+
+ 
+ 
+ 
+message Msg300RecycleFinishAll{
+}
+
+ 
+ 
+ 
+message MsgResultOf300RecycleFinishAll{
+   required uint32 resultCodeValue = 1;       
+}
+
+ 
+ 
+ 
+message MsgSync300RecycleSimpleData{
+   required uint32  functionOpenFlag  = 1;             	 
+   required uint32 curWave = 2;  		 
+}
+
+
+ 
+ 
+ 
+message Msg300RecycleOneKeyReceiveReward{
+}
+
+
+
+ 
+ 
+ 
+message MsgResultOf300RecycleOneKeyReceiveReward{
+   required uint32 resultCodeValue = 1;      
+   repeated uint32 waveList = 2;             
+}
+
+ 
+ 
+ 
+message MsgActiveInfo{
+	required MsgActiveTreasure treasure =1;
+	repeated MsgActiveItemInfo todayitem =2;
+	repeated MsgActiveItemInfo yesterdayitem =3;
+	required uint32 activeval = 4;
+	required uint32 rewardstatus = 5;
+}
+
+
+ 
+ 
+ 
+message MsgActiveTreasure{
+	required uint32 level = 1;	 
+	required uint32 exp = 2;		 
+}
+
+ 
+ 
+ 
+message MsgActiveExpBackInfo{
+	repeated MsgActiveItemInfo list =1;
+}
+
+
+ 
+ 
+ 
+message MsgActiveTreasureUp{
+	required uint32 curlev = 1;	 
+}
+
+
+ 
+ 
+ 
+message MsgActiveReward{
+	required uint32 boxid = 1;	 
+}
+
+ 
+ 
+ 
+message MsgActiveExpBack{
+	repeated MsgActiveItemBack list = 1;	
+}
+
+ 
+ 
+ 
+message MsgActiveResult{
+	required uint32 msg  = 1;	 
+	required uint32 code = 2;	 
+}
+
+ 
+message MsgActiveItemBack{
+	required uint32 groupid = 1;	 
+	required uint32 count = 2;		 
+}
+
+message MsgActiveItemInfo{
+	required uint32 groupid = 1;	 
+	required uint32 curnum = 2;		 
+}
+message MsgActyPlazaGroupItem{
+	required uint32 groupId = 1;
+	required string groupName = 2;
+	required uint32 activeId = 3;
+	required uint32 xingqi = 4;
+	required uint32 facelink = 5;
+	required uint32 redtip = 6;
+	required string opentime = 7;
+	required uint32 type = 8;
+	required uint32 tip = 9;
+	repeated uint32 itemID = 10;
+	required string des = 11;
+	optional string statusinfo = 12; 
+	required uint32 statusCode = 13;
+}
+
+ 
+ 
+ 
+message MsgActyPlazaListInfo{
+	repeated MsgActyPlazaGroupItem groupItem = 1;
+}
+ 
+ 
+ 
+message MsgAttriPointPlanInfo {
+    required uint32 planId = 1;
+	required uint32 freeAttriPoints = 2;
+	required uint32 lifePoints = 3;
+	required uint32 manaPoints = 4;
+	required uint32 powerPoints = 5;
+	required uint32 staminaPoints = 6;
+	required uint32 dexPoints = 7;
+}
+
+
+ 
+ 
+ 
+message MsgSyncAddAttriPointInfo {
+    required uint32 currentPlanId = 1;             
+    required uint32 usedFreeChangePlan = 2;        
+	required uint32 washPointOpenStatus = 3;       
+	required uint32 completeFirstWashPoint = 4;    
+	required uint32 washpointcdtime = 5;           
+	repeated MsgAttriPointPlanInfo attriPointPlanList = 6;  
+}
+
+
+
+ 
+ 
+ 
+message MsgRequireOpenPointPlan {
+    
+}
+
+
+ 
+ 
+ 
+message MsgOpenAddAttriPointPlan {
+    required uint32 openPlanResultCode = 1;
+	optional MsgAttriPointPlanInfo openNewAddPointPlanInfo = 2; 
+}
+
+ 
+ 
+ 
+message MsgReqWashAttriPoint {
+	
+}
+
+ 
+ 
+ 
+message MsgRetWashAttriPointResult {
+	required uint32 openPlanResultCode = 1;
+	optional uint64 washPointCdEndTime = 2;
+	optional MsgAttriPointPlanInfo washAttriPointPlan = 3;
+}
+
+ 
+ 
+ 
+message MsgChangeAttriPlanReq {
+	required uint32 chooseNewPlanId = 1;
+}
+
+
+ 
+ 
+ 
+message MsgResultOfChangeAttriPlan {
+    required uint32 openPlanResultCode = 1;
+	required uint32 chooseNewPlanId = 2;
+}
+
+
+ 
+ 
+ 
+message MsgSyncLvUpAttriPlanInfo {
+    required uint32 washPointOpenStatus = 1;       
+	repeated MsgAttriPointPlanInfo attriPointPlanList = 2;  
+}
+
+
+ 
+ 
+ 
+message MsgUseFreeAttriPointToPlanReq {
+    repeated uint32 attriId = 1;
+}
+
+ 
+ 
+ 
+message MsgRetUseFreeAttriPointToPlanResult {
+    required uint32 resultCodeValue = 1;    
+	optional MsgAttriPointPlanInfo attriPointPlanList = 2;  
+}
+
+ 
+ 
+ 
+message MsgSyncUsedDailyFreeChangePlan {
+    required uint32 usedFreeChangePlanCount = 1;    
+}
+
+
+ 
+ 
+ 
+message MsgWashPointAndUseFreePointToPlanReq {
+    repeated uint32 attriId = 1;
+}
+
+ 
+ 
+ 
+message MsgRetWashPointAndUseFreePointToPlanResult {
+    required uint32 resultCodeValue = 1;                    
+	required uint64 washPointCdEndTime = 2;
+	optional MsgAttriPointPlanInfo attriPointPlanList = 3;  
+}
+
+
+ 
+ 
+ 
+message MsgOpenFreeAddPointPlanReq {
+    required uint32 openPlanType = 1;        
+}
+
+ 
+ 
+ 
+message MsgOpenFreeAddPointPlanResult {
+    required uint32 openPlanResultCode = 1;
+	required uint32 openPlanType = 2;         
+	optional MsgAttriPointPlanInfo openNewAddPointPlanInfo = 3; 
+}
+ 
+
+message AdvanceDayRewardInfo
+{
+	required uint32 unRankLevel = 1;
+	required bool	bReward = 2; 
+}
+
+ 
+ 
+ 
+message MsgAdvanceDaySyn {
+	required uint32 groupId = 1;
+	repeated AdvanceDayRewardInfo infos = 2;
+}
+
+ 
+ 
+ 
+message MsgAdvanceDayOpenReq {
+}
+
+ 
+ 
+ 
+message MsgAdvanceDayOpenRet {
+	required uint32 code = 1;
+}
+
+ 
+ 
+ 
+message MsgAdvanceDayGetReq {
+	required uint32 unGroupId = 1;
+	required uint32 unRankLevel = 2;
+}
+
+ 
+ 
+ 
+message MsgAdvanceDayGetRet {
+	required uint32 code = 1;
+	required uint32 unGroupId = 2;
+	required uint32 unRankLevel = 3;
+}
+ 
+ 
+ 
+
+ 
+message MsgAdvancedRankDevelopAvatar{
+   required uint32 developTypeValue     = 1;
+   required uint32 developAvatarIdValue = 2;
+}
+
+
+message MsgAdvancedRankTopCharacterInfo {
+    required uint64 characterId = 1;
+	required string characterName = 2;
+	required uint64 rankLv = 3;
+	required uint32 combatValue = 4;
+	required uint32 roleTypeValue = 5;   
+	repeated MsgAdvancedRankDevelopAvatar developAvatarList = 6;
+}
+
+
+ 
+ 
+ 
+message MsgQueryAdvancedRankActivity{
+
+}
+
+ 
+message MsgAdvancedRankCharacterData{
+   required string characterName = 1;
+   required uint64 rankLv = 2;
+}
+
+ 
+message MsgAdvancedRankActivityInfo{
+   required uint32 groupId = 1;
+   required uint64 activityEndUnixTime = 2;  
+   optional MsgAdvancedRankTopCharacterInfo topCharacterInfo = 3;   
+   optional MsgAdvancedRankCharacterData secondToperData = 4;
+   optional MsgAdvancedRankCharacterData thirdToperData = 5;
+   required uint64 rankLvValue = 6;   
+   required uint32 rankNoValue = 7;          
+   required uint32 receiveStatusValue = 8;   
+}
+
+
+ 
+ 
+ 
+message MsgSyncAdvancedRankActivity{
+	repeated MsgAdvancedRankActivityInfo advanceRankList = 1;
+}
+
+
+ 
+ 
+ 
+message MsgQueryAdvancedRankListData{
+   required uint32 groupId = 1;      
+}
+
+ 
+message MsgAdvancedUnionRankData{
+   required uint32 rankNo = 1;
+   required uint64 characterId = 2;
+   required string characterName = 3;
+   required uint64 rankValue = 4;   
+   required uint32 combatValue = 5;
+}
+
+ 
+ 
+ 
+message MsgAdvancedRankListData{
+   required uint32 code = 1;         
+   required uint32 groupId = 2;      
+   optional MsgAdvancedRankTopCharacterInfo topCharacterInfo = 3;   
+   repeated MsgAdvancedUnionRankData  advancedRankDataList = 4;     
+   optional uint32 rankNoValue = 5;          
+}
+
+ 
+ 
+ 
+message MsgReceiveAdvancedRankJoinReward{
+   required uint32 groupId = 1;      
+}
+
+
+ 
+ 
+ 
+message MsgResultOfReceiveAdvancedRankJoinReward{
+    required uint32 code = 1;         
+	required uint32 groupId = 2;      
+}
+
+ 
+ 
+ 
+message MsgCloseAdvancedRankMainWindows{
+    
+}
+
+
+ 
+ 
+ 
+message MsgAdvancedRankRankNoChange{
+    required uint32 groupId = 1;            
+	required uint32 changeType = 2;         
+	required uint32 newRankNo = 3;          
+}
+
+ 
+
+message AllAdvanceRewardInfo
+{
+	required uint32 unRankLevel = 1;
+	required bool	bReward = 3; 
+}
+
+message AllAdvanceRankNumInfo
+{
+	required uint32 unRankLevel = 1;
+	required uint32 unTotalNum = 2;
+}
+
+ 
+ 
+ 
+message MsgAllAdvanceSyn {
+	required uint32 groupId = 1;
+	repeated AllAdvanceRankNumInfo infoNums = 2;
+	repeated AllAdvanceRewardInfo infos = 3;
+}
+
+ 
+ 
+ 
+message MsgAllAdvanceOpenReq {
+}
+
+ 
+ 
+ 
+message MsgAllAdvanceOpenRet {
+	required uint32 code = 1;
+}
+
+ 
+ 
+ 
+message MsgAllAdvanceGetReq {
+	required uint32 unGroupId = 1;
+	required uint32 unRankLevel = 2;
+}
+
+ 
+ 
+ 
+message MsgAllAdvanceGetRet {
+	required uint32 code = 1;
+	required uint32 unGroupId = 2;
+	required uint32 unRankLevel = 3;
+}
+
+ 
+ 
+ 
+message MsgAllAdvanceQueryReq {
+}
+
+ 
+ 
+ 
+message MsgAllAdvanceQueryRet {
+	required uint32 code = 1;
+}
+ 
+
+ 
+ 
+ 
+message MsgAnswerSystemActivityInfo{
+     required uint64 answerBeginUnixTime = 1;
+	 required uint64 answerEndUnixTime   = 2;
+}
+
+
+message MsgAnswerSystemRankData{
+     required uint32 rankNoValue = 1;
+	 required string characterName = 2;
+	 required uint32 rankScoreValue = 3;
+}
+
+ 
+ 
+ 
+message MsgQueryAnswerActivityInfo{
+}
+
+
+ 
+ 
+ 
+message MsgSyncAnswerActivityInfo{
+     required uint32 questionStatus = 1;        
+     required uint32 questionIndex = 2;         
+	 required uint32 questionId = 3;            
+	 required uint32 remainReadySeconds = 4;    
+	 required uint32 remainAnswerSeconds = 5;   
+	 required uint32 scoreValue = 6;            
+	 required uint32 ranNoValue = 7;            
+	 repeated MsgAnswerSystemRankData rankDataList = 8;    
+	 required uint32 chooseAnswerIndex = 9;                
+	 repeated uint32 questionList = 10;         
+}
+
+
+ 
+ 
+ 
+message MsgAnswerActivityChangeReadyToAnswer{
+     required uint32 questionStatus = 1;        
+     required uint32 questionIndex = 2;         
+	 required uint32 questionId = 3;            
+	 required uint32 remainAnswerSeconds = 4;   
+	 repeated uint32 questionList = 5;         
+}
+
+
+ 
+ 
+ 
+message MsgAnswerTheQuestionToSystem{
+     required uint32 questionAnswerIndex = 1;         
+}
+
+
+
+ 
+ 
+ 
+message MsgReturnAnswerTheQuestionToSystem{
+     required uint32 resultCode = 1;            
+     required uint32 rightAnswerIndex = 2;      
+     required uint32 scoreValue = 3;            
+	 required uint32 remainAnswerSeconds = 4;   
+}
+
+
+ 
+ 
+ 
+message MsgAnswerChangeAnswerToReady{
+     required uint32 questionStatus = 1;        
+	 required uint32 remainReadySeconds = 2;    
+	 required uint32 scoreValue = 3;            
+	 required uint32 ranNoValue = 4;            
+	 required uint32 chooseAnswerIndex = 5;               
+	 repeated MsgAnswerSystemRankData rankDataList = 6;   
+}
+
+
+message MsgAnswerRankUnitData{
+    required uint32 rankNo = 1;
+	required string characterName = 2;
+	required uint32 combatValue = 3;
+	required uint32 scoreValue = 4;
+}
+
+
+ 
+ 
+ 
+message MsgQueryAnswerScoreRank{
+
+}
+
+
+ 
+ 
+ 
+message MsgRetAnswerScoreRank{
+    required uint32 scoreValue = 1;            
+	required uint32 ranNoValue = 2;            
+    repeated MsgAnswerRankUnitData rankDataList = 3;   
+}
+
+
+ 
+ 
+ 
+message MsgAnswerSettlementReward{
+    required uint32 scoreValue = 1;            
+	required uint32 ranNoValue = 2;            
+}
+
+
+ 
+ 
+ 
+message MsgClosedAnswerActivityInfo{
+
+}
+
+
+ 
+ 
+ 
+message MsgResultOfClosedAnswerActivityInfo{
+    required uint32 resultCode = 1;            
+}
+
+ 
+ 
+ 
+message MsgSyncAnswerRankInfo{
+     optional string lastToperCharacterName = 1;    
+}
+
+
+ 
+ 
+ 
+message MsgBroadAnswerRankInfo{
+     optional string toperCharacterName = 1;        
+}
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+message MsgCanChallengeListData{
+   required uint32 ranking = 1;               
+   required uint64 roleId = 2;                
+   optional string name = 3;                  
+   optional uint32 combat = 4;                
+   optional uint32 roleType = 5;              
+   optional uint32 mount = 6;                 
+   optional uint32 wing = 7;                  
+   optional uint32 equip = 8;                 
+   optional uint32 formation = 9;             
+   optional uint32 magicWeapon = 10;          
+   optional uint32 transformers = 11;         
+   optional uint32 immortal = 12;             
+   optional uint32 smartHorse = 13;           
+}
+
+ 
+ 
+ 
+message MsgQueryArenaData{
+    
+}
+
+ 
+ 
+ 
+message MsgRetArenaData {
+   required uint32 selfRanking = 1;              
+   required uint32 historicHigh = 2;             
+   required uint32 challengeCount = 3;           
+   required uint32 buyCount = 4;                 
+   required uint32 remainAdditionChallenge = 5;  
+   repeated MsgCanChallengeListData list = 6;    
+   required uint32 rankListCount = 7;            
+}
+
+ 
+ 
+ 
+message MsgBuyChallengeCount{
+}
+
+ 
+ 
+ 
+message MsgRetBuyChallengeCount{
+   required uint32 code = 1;                     
+   required uint32 buyCount = 2;                 
+   required uint32 challengeCount = 3;           
+   required uint32 remainAdditionChallenge = 4;  
+}
+
+
+ 
+ 
+ 
+message MsgQueryRankingList{
+   required uint32 minRankNo = 1;
+   required uint32 maxRankNo = 2;
+}
+
+message MsgRankingItemData{
+   required uint32 ranking = 1;      
+   required string name = 2;         
+   required uint64 power = 3;        
+}
+
+ 
+ 
+ 
+message MsgRetRankingList{
+   repeated MsgRankingItemData list = 1;        
+}
+
+ 
+ 
+ 
+message MsgQueryStruckRecordList{
+}
+   
+message MsgStruckRecordItemData{
+   required uint32 type = 1;            
+   required uint32 result = 2;          
+   required string name = 3;            
+   required uint32 ranking = 4;         
+   required uint32 oldRanking = 5;      
+   required uint64 recordUnixTime = 6;  
+}
+
+ 
+ 
+ 
+message MsgRetStruckRecordList{
+   repeated MsgStruckRecordItemData list = 1;
+}
+
+ 
+ 
+ 
+message MsgLaunchChallenge{
+   required uint32 ranking = 1;      
+}
+
+ 
+ 
+ 
+message MsgRetLaunchChallenge{
+   required uint32 code = 1;                       
+   required uint32 challengeCount = 2;             
+   required uint32 remainAdditionChallenge = 3;    
+   required uint32 maxRankNo = 4;                  
+   optional MsgStruckRecordItemData result = 5;    
+}
+
+
+ 
+ 
+ 
+message MsgResetTimeUpdateChallengeInfo{
+   required uint32 challengeCount = 1;             
+   required uint32 remainAdditionChallenge = 2;    
+   required uint32 buyCount = 3;                   
+}
+
+
+ 
+ 
+ 
+message MsgBroadstAreaToperData{
+   required uint64 topCharacterId = 1;             
+   required string topCharacterName = 2;           
+}
+
+ 
+
+ 
+ 
+message MsgCreateBattle {
+}
+
+message EffectInfo {
+	required uint64 idTarget = 1; 
+	required int32 targetType = 2;
+	required uint32 effectType = 3;
+	required int64 effectData = 4;		 
+	required uint64 iData = 5;			 
+	required int64 effectData2 = 6;		 
+	required int32 nData2 = 7;			 
+	optional uint64 idTrigger = 8;		 
+}
+
+ 
+ 
+ 
+message MsgBattle {
+	required uint32 action = 1;
+	optional uint32 bount = 2;
+	optional uint32 unRound = 3;
+	optional uint32 unParam1 = 4;
+	optional uint32 unParam2 = 5;
+	optional uint32 unParam3 = 6;
+}
+
+message FighterInfoDetail {
+	required uint64 id = 1;
+	required uint32 objType = 2;
+	required uint32 groupType = 3;
+	required int32 battlePos = 4;
+	required uint64 hp = 5;
+	required uint32 anger = 6;
+	required uint64 MaxHp = 7;
+	required uint32 MaxAnger = 8;
+	required string name = 9;
+	required uint32 status = 10;
+	optional uint32 roleType = 11;
+	optional uint32 profession = 12;
+	optional uint32 eudemonType = 13;
+	optional uint32 monsterType = 14;
+	optional uint32 partnerType = 15;
+	optional string mark = 16;
+	optional uint32 horseAvatarId = 17;     
+	optional uint32 weaponAvatarId = 18;     
+	optional uint32 wingAvatarId = 19;       
+	optional uint32 matrixAvatarId = 20;       
+	optional uint32 magicAvatarId = 21;        
+	required bool bAi = 22;					 
+	optional uint32 designAvatarId = 23;	 
+	optional uint32 transform = 24;			 
+	optional uint32 immortalAvatarId = 25;   
+	required uint32 speed = 26;			       
+	optional uint32 smartHorseAvatarId = 27;   
+	optional BlueDiamondsData blueData = 28;    
+}
+
+ 
+ 
+message MsgFighterInfo {
+	repeated FighterInfoDetail info = 1;
+}
+
+ 
+ 
+message MsgBattleAck {
+	required uint32 unRound = 1;
+	required uint64 idSender = 2;
+	required int32 senderType = 3;
+	required uint64 idTarger = 4;
+	required int32 targetType = 5;
+	required uint32 senderStatus = 6;
+	required uint32 targetStatus = 7;
+	required uint32 action = 8;
+	required uint32 result = 9;
+	required uint64 idSkillType = 10;
+	required uint32 skillLevel = 11;
+	repeated EffectInfo effectArr = 12;
+	
+}
+
+ 
+ 
+message MsgBattleAct {
+	required uint32 action = 1; 
+	required string ucRound = 2;
+	required uint64 idSender = 3;
+	required uint64 idTarget = 4;
+	required uint64	idObj = 5; 
+	required int32 nObjData = 6; 
+}
+
+
+ 
+ 
+message MsgBattleFormation {
+	required uint32 idAtkFormation = 1;
+	required uint32 atkFormationLev = 2;
+	required uint32 idDefFormation = 3;
+	required uint32 defFormationLev = 4;
+}
+
+
+
+ 
+ 
+message MsgBattleMark {
+	required uint32 operate = 1;	 
+	required uint64 idSender = 2;
+	required uint64 idTarget = 3;
+	required string mark = 4;
+}
+
+ 
+ 
+message MsgBattleMarkSync {
+	required uint32 operate = 1;	 
+	optional uint64 id = 2;
+	optional string mark = 3;
+}
+
+
+message BattleRewardItem {
+	required uint32 itemId = 1;
+	required uint32 num = 2;
+}
+
+
+ 
+
+ 
+ 
+ 
+message MsgBattleResult {
+	required uint32 result = 1;	 
+	required int64 awardExp = 2;
+	required int64 awardMoney = 3;
+	required uint32 battleType = 4; 
+	repeated BattleRewardItem rewardItem = 5;
+} 
+
+
+ 
+ 
+ 
+message MsgOfflineReward {
+	required int64 awardExp = 1;
+	required int64 awardMoney = 2;
+	optional uint32 sellEquip = 3;		 
+	required uint64  offlineTime = 4;         
+	optional uint32 rewardEquip = 5;	      
+	optional uint32 resolveEquip = 6;	      
+	optional uint32 monthCardExpAdd = 7;     
+	optional uint32 monthCardMoneyAdd = 8;   
+	optional uint32 monthCardOfflineTimeAdd = 9;  
+}
+
+ 
+ 
+ 
+message MsgExpSyn {
+	required uint64 exp = 1; 
+}
+
+ 
+ 
+ 
+message MsgExpDelta {
+	required uint64 curExp = 1; 
+	required uint64 deltaExp = 2; 
+}
+
+ 
+ 
+ 
+message MsgLevelUpRet {
+	required uint32 oldLev = 1; 
+	required uint32 newLev = 2; 
+}
+
+ 
+ 
+ 
+message MsgCreateBattleFail
+{
+	required uint32 id = 1; 
+	required uint32 type = 2; 
+}
+
+ 
+ 
+ 
+message MsgGetExtraOfflineExpReq {
+}
+
+ 
+ 
+ 
+message MsgGetExtraOfflineExpRet
+{
+	required uint32 ret = 1; 
+}
+ 
+
+ 
+ 
+ 
+message MsgSyncBeSwornBrotherSendGiftCount {
+   required uint32 sendGiftCount = 1;    
+}
+
+ 
+ 
+ 
+message MsgQuerySpecficBeSwornBrotherReq {
+	required uint32 configTypeId = 1;        
+}
+
+message MsgBeSwornBrotherUnitData {
+   required uint32 configIdValue = 1;     
+   required uint32 levelValue = 2;        
+   required uint32 intimacy = 3;          
+   required uint32 receiveBoxLv = 4;      
+}
+
+
+ 
+ 
+ 
+message MsgRetSpecficBeSwornBrotherInfo {
+	required uint32 configTypeId = 1;                                
+	repeated MsgBeSwornBrotherUnitData brotherDataList = 2;    
+}
+
+
+ 
+ 
+ 
+message MsgBeSwornBrotherToSendGift {
+   required uint32 configTypeId = 1; 
+   required uint32 configIdValue = 2;     
+   required uint32 configGiftId = 3;      
+}
+
+
+
+ 
+ 
+ 
+message MsgResultOfBeSwornBrotherToSendGift {
+   required uint32 code = 1;              
+   required uint32 configTypeId = 2; 
+   required uint32 configIdValue = 3;     
+   required uint32 configGiftId = 4;      
+   optional MsgBeSwornBrotherUnitData newUnitData =  5;   
+}
+
+
+
+ 
+ 
+ 
+message MsgReceiveBeSwornBrotherToBoxReward {
+   required uint32 configTypeId = 1; 
+   required uint32 configIdValue = 2;     
+}
+
+
+ 
+ 
+ 
+message MsgResultOfReceiveBeSwornBrotherToBoxReward {
+   required uint32 code = 1;              
+   required uint32 configTypeId = 2; 
+   required uint32 configIdValue = 3;     
+   required uint32 receiveBoxLv = 4;      
+}
+ 
+message MsgBigGiftDayReceiveList{
+    required uint32 dayIdValue = 1;       
+	required uint32 receiveStatus = 2;    
+}
+
+ 
+message MsgBigGiftUnitData {
+	required uint32 groupId = 1;
+	required uint32 beginUnixTime = 2;  
+	required uint32 endUnixTime = 3;    
+	required uint32 buyStatus = 4;      
+	repeated MsgBigGiftDayReceiveList receiveList = 5;   
+}
+
+ 
+ 
+ 
+message MsgSyncBigGiftData {
+	repeated MsgBigGiftUnitData bigGiftList = 1;
+}
+
+
+ 
+ 
+ 
+message MsgReceiveBigGiftDataRewardReq {
+    required uint32 groupIdValue = 1;     
+	required uint32 dayIdValue = 2;       
+	required uint32 typeValue = 3;        
+}
+
+
+ 
+ 
+ 
+message MsgResultOfReceiveBigGiftDataRewardReq {
+    required uint32 code = 1;     
+    required uint32 groupIdValue = 2;     
+	required uint32 dayIdValue = 3;       
+	required uint32 typeValue = 4;        
+}
+
+
+ 
+ 
+ 
+message MsgBuyBigGiftDataRewardReq {
+    required uint32 groupIdValue = 1;     
+}
+
+
+ 
+ 
+ 
+message MsgResultOfBuyBigGiftDataReward {
+    required uint32 code = 1;             
+    required uint32 groupIdValue = 2;     
+}
+ 
+
+ 
+ 
+ 
+message MsgBossChallengeInfo 
+{
+	required uint64 openTime = 1; 
+	required uint64 endTime = 2; 
+	required uint32 bossId = 3; 
+	required uint32 tollgate = 4; 
+}
+
+ 
+ 
+ 
+message MsgBossChallengeFightReq
+{
+}
+
+message BossChallengeReward {
+	required uint32 itemId = 1;
+	required uint32 num = 2;
+}
+
+ 
+ 
+ 
+message MsgBossChallengeFightRet
+{
+	required uint32 code = 1;
+	optional uint32 tollgate = 2; 
+	repeated BossChallengeReward rewards = 3;
+
+}
+
+ 
+ 
+ 
+message MsgBossChallengeFuncOpen
+{
+}
+
+
+ 
+ 
+ 
+message MsgBossChallengeFuncOpenRet
+{
+	required uint32 code = 1;
+}
+ 
+
+message MsgBreakBlockadeRankRecord{
+    required uint32 rankNo = 1;
+    required string characterName = 2;     
+	required uint32 diffcultyValue = 3;
+	required uint32 groupIdValue = 4;
+	required uint32 combatValue = 5;
+}
+
+ 
+ 
+ 
+message MsgQueryBreakBlockadeRankRecordList{
+     
+}
+
+ 
+ 
+ 
+message MsgBreakBlockadeRankRecordList{
+    repeated MsgBreakBlockadeRankRecord rankRecordList = 1;
+}
+
+
+
+ 
+ 
+ 
+message MsgQueryBreakBlockadeInfo{
+     
+}
+
+
+message MsgMopUpBreakBlockadeData{
+    required uint32 diffcultyValue = 1;
+	required uint32 groupIdValue = 2;
+}
+
+ 
+ 
+ 
+message MsgReturnBreakBlockadeInfo{
+    required uint32 diffcultyValue = 1;            
+	required uint32 groupIdValue = 2;              
+	required uint32 diffultyRewardStatus = 3;      
+	required uint32 chanellgeCount = 4;            
+	repeated MsgMopUpBreakBlockadeData  mopUpBlockadesList = 5;    
+	required uint32 maxHistoryDiffcultId = 6;     
+	required uint32 maxHistoryGroupId = 7;        
+}
+
+
+ 
+ 
+ 
+message MsgReceiveBreakBlockadeReward{
+     
+}
+
+
+ 
+ 
+ 
+message MsgResultOfReceiveBreakBlockadeReward{
+     required uint32 code = 1;     
+	 required uint32 diffcultyValue = 2;    
+	 required uint32 groupIdValue = 3;
+}
+
+
+
+ 
+ 
+ 
+message MsgBattleToBreakBlockade{
+     required uint32 diffcultyValue = 1;
+	 required uint32 groupIdValue = 2;
+}
+
+ 
+ 
+ 
+message MsgResultCodeBattleToBreakBlockade{
+     required uint32 code = 1;     
+     required uint32 diffcultyValue = 2;
+	 required uint32 groupIdValue = 3;
+}
+
+
+
+ 
+ 
+ 
+message MsgBreakBlockadeBattleResult{
+     required uint32 battleResultValue = 1;          
+	 required uint32 currentDiffcultyValue = 2;      
+	 required uint32 currentGroupIdValue = 3;        
+	 required uint32 nextDiffcultyValue = 4;         
+	 required uint32 nextGroupIdValue = 5;           
+	 required uint32 chanellgeCount = 6;             
+	 optional uint32 receiveFlagValue = 7;           
+	 required uint32 maxHistoryDiffcultId = 8;       
+	 required uint32 maxHistoryGroupId = 9;          
+}
+
+
+ 
+ 
+ 
+message MsgTryBreakBlockadeMopUp{
+     required uint32 diffcultyValue = 1;
+	 required uint32 groupIdValue = 2;
+}
+
+ 
+ 
+ 
+message MsgResultBreakBlockadeMopUp{
+     required uint32 code = 1;     
+     required uint32 diffcultyValue = 2;
+	 required uint32 groupIdValue = 3;
+	 required uint32 chanellgeCount = 4;  
+}
+
+
+ 
+ 
+ 
+message MsgUpdateBreakBlockadeChallengeCount{
+	 required uint32 chanellgeCount = 1;                            
+}
+
+ 
+ 
+ 
+message MsgOneKeyToMopUpBreakBlockadeAllOut{
+
+}
+
+message MsgMopUpBreakBlockadeRewardThing{
+    required uint32 thingConfigId = 1;    
+    required uint32 thingCount = 2;
+}
+
+ 
+ 
+ 
+message MsgResultOfOneKeyToMopUpBreakBlockadeAllOut{
+    required uint32 code = 1;              
+	required uint32 chanellgeCount = 2;    
+	required uint32 rewardMoneyValue = 3;  
+	required uint32 rewardGoldMoney  = 4;  
+	required uint32 rewardExpValue   = 5;  
+	repeated MsgMopUpBreakBlockadeRewardThing rewardThingList = 6;     
+	repeated MsgMopUpBreakBlockadeData  mopUpBlockadesList = 7;        
+	required uint32 diffcultyValue = 8;          
+    required uint32 groupIdValue = 9;            
+    required uint32 maxHistoryDiffculty = 10;    
+    required uint32 maxGroupValue = 11;          
+}
+
+
+ 
+ 
+ 
+message MsgReceiveBreakBlockade{
+
+}
+
+
+
+ 
+ 
+ 
+message MsgResultOfReceiveBreakBlockade{
+   required uint32 code = 1;                
+   required uint32 diffcultyValue = 2;      
+   required uint32 groupIdValue = 3;        
+}
+
+
+
+
+ 
+
+
+message BringsGroupInfo
+{
+	required uint32 groupId = 1; 
+	required uint32 status = 2; 
+	required uint64 poolEmoney = 3; 
+}
+
+ 
+ 
+ 
+message MsgBringsInfo {
+	repeated BringsGroupInfo details = 1;
+}
+
+message SelfGiftDetail
+{
+	required uint32 id = 1;	 
+	required uint32 totalNum = 2; 
+	required uint32 todayNum = 3; 
+}
+
+message SelfBringsInfo
+{
+	required uint32 groupId = 1; 
+	required uint32 lotteryNum = 2; 
+	repeated SelfGiftDetail infos = 3;
+}
+ 
+ 
+ 
+message MsgBringsSelfSyn {
+	repeated SelfBringsInfo infos = 1;
+}
+
+ 
+ 
+ 
+message MsgBringsOpenReq {
+}
+
+ 
+ 
+ 
+message MsgBringsOpenRet {
+	required uint32 code = 1;
+}
+
+ 
+ 
+ 
+message MsgBringsBuyReq {
+	required uint32 groupId = 1;	 
+	required uint32 giftId = 2; 
+}
+
+ 
+ 
+ 
+message MsgBringsBuyRet {
+	required uint32 code = 1;
+}
+
+ 
+ 
+ 
+message MsgBringsQuery
+{
+	required uint32 groupId = 1;	 
+}
+
+ 
+ 
+ 
+message MsgBringsQueryRet
+{
+	required uint32 code = 1;
+}
+
+ 
+ 
+ 
+message MsgBringsQueryBroadcastReq  {
+	required uint32 groupId = 1;
+}
+
+
+message BringsBroadcastDeatail
+{
+	required string name = 1;
+	required uint32 bonus = 2;
+	required uint64 iEmoney = 3;
+	required uint32 unIndex = 4; 
+}
+
+ 
+ 
+ 
+message MsgBringsQueryBroadcastRet {
+	required uint32 code = 1;
+	required uint32 groupId = 2;
+	repeated BringsBroadcastDeatail infos = 3;
+}
+
+ 
+ 
+ 
+message MsgBringsLotteryReq {
+	required uint32 groupId = 1;	 
+}
+
+ 
+ 
+ 
+message MsgBringsLotteryRet {
+	required uint32 code = 1;
+	optional uint32 index = 2; 
+}
+ 
+
+
+ 
+ 
+ 
+message MsgQueryCatchPetData{
+     
+}
+
+
+ 
+ 
+ 
+message MsgSyncCatchPetData{
+    required uint32 petBankId = 1;      
+	required uint32 petBattleId = 2;
+}
+
+
+ 
+ 
+ 
+message MsgCreateNewCatchPetChance{
+    required uint32 petBankId = 1;      
+	required uint32 petBattleId = 2;
+}
+
+
+ 
+ 
+ 
+message MsgStartCatchPet{
+    
+}
+
+
+ 
+ 
+ 
+message MsgResultOfStartCatchPet{
+    required uint32 code = 1;     
+	required uint32 petBankId   = 2;    
+	required uint32 petBattleId = 3;    
+}
+
+
+ 
+ 
+ 
+message MsgEnterCatchPetScene{
+    
+}
+
+
+ 
+ 
+ 
+message MsgResultOfEnterCatchPetScene{
+    required uint32 code = 1;     
+	required uint32 petBankId   = 2;    
+	required uint32 petBattleId = 3;    
+}
+
+
+
+
+ 
+
+ 
+
+
+ 
+ 
+ 
+message MsgExchangeCdkey{
+   required string  cdKey  = 1;                         
+}
+
+
+ 
+ 
+ 
+message MsgExchageCdKeyToClient{
+   required uint32 code  = 1;                         
+   required string cdKey = 2;                         
+}
+
+
+message MsgCdKeyThingReward{
+   required uint32 thingConfigId  = 1;
+   required uint32 thingCount  = 2;
+}
+
+ 
+ 
+ 
+message MsgExchangeCdkeyThingReward{
+   repeated MsgCdKeyThingReward cdKeyThingList  = 1;                         
+}
+
+ 
+
+
+ 
+ 
+ 
+message MsgQueryChangeProfessionData{
+    
+}
+
+ 
+ 
+ 
+message MsgRetChangeProfessionData{
+    required uint32 changeProfessionCount = 1;   
+	required uint32 isNextIsFree = 2;            
+}
+
+
+
+ 
+ 
+ 
+message MsgChangeProfessionType{
+    required uint32 newRace = 1;
+    required uint32 newProfessionValue = 2;
+}
+
+
+
+ 
+ 
+ 
+message MsgResultOfChangeProfessionType{
+    required uint32 code = 1;                    
+	required uint32 newRace = 2;                 
+    required uint32 newProfessionValue = 3;      
+	required uint32 changeProfessionCount = 4;   
+	required uint32 isNextIsFree = 5;            
+}
+
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+message ExtraFormationInfo
+{
+	required uint32 unIndex = 1;
+	repeated uint64 eudemon = 2;
+	repeated int32 partnerZF = 3;
+	repeated int32 partnerJB = 4;
+}
+
+ 
+ 
+ 
+message MsgIsKicked
+{
+}
+
+ 
+ 
+ 
+message MsgSetExtraFormationReq
+{
+	required uint32 unIndex = 1;
+	repeated uint64 eudemon = 2;
+	repeated uint32 partnerZF = 3;
+	repeated uint32 partnerJB = 4;
+}
+
+ 
+ 
+ 
+message MsgSetExtraFormationRet
+{
+	required uint32 code = 1;
+}
+
+ 
+ 
+ 
+message MsgExtraFormationInfo
+{
+	repeated ExtraFormationInfo infos = 1;
+}
+
+message CollectInfo
+{
+	required uint32 platType = 1; 
+	required uint32 collect = 2; 
+	required uint64 iTime = 3; 
+	required uint32 info = 4; 
+}
+
+ 
+ 
+message MsgCharacterInfo 
+{
+	required uint32 objId = 1;
+	required uint64 characterId = 2;
+	required float speed = 3;
+	required string name = 4;
+	required uint32 level = 5;
+	required uint32 pro = 6;
+	required uint32 hp = 7;			    
+	required uint32 serverId = 8;
+	required uint32 roleType = 9;
+	required uint32 renameCount = 10;	 
+	required uint32 stamina = 11; 
+	required uint32 stage = 12; 
+	required uint32 staminaBuyNum = 13; 
+	required uint32 staminaRemainTime = 14; 
+	required uint32 horseAvatarId = 15;     
+	required uint32 weaponAvatarId = 16;     
+	required uint32 wingAvatarId = 17;       
+	required uint32 matrixAvatarId = 18;       
+	required uint32 magicAvatarId = 19;        
+	required uint32 moneyBuyNum = 20;		 
+	required string newBieData = 21;		 
+	required uint32 transformerAvatarId = 22;     
+	required uint32 immortalAvatarId = 23;        
+	repeated CollectInfo collectInfos = 24;
+	repeated uint64 txinfo = 25; 
+								 
+								 
+								 
+								 
+								 
+								 
+                                 
+
+	required uint32 smartHorseAvatarId = 26;        
+}
+
+ 
+
+
+ 
+ 
+message MsgCharacterSynProperty {
+	required uint32 hp = 1;					 
+	required uint32 stamina = 2;			 
+}
+
+message CombatDetail {
+	required uint32 combatType = 1;		 
+	required uint32 combatValie = 2;	 
+}
+ 
+ 
+message MsgCombatSyn {
+	required uint64 characterId = 1;	 
+	required uint32 totalCombat = 2;	 
+	repeated CombatDetail detail = 3;	 
+}
+
+ 
+ 
+ 
+message MsgRoleStageLevUpReq {
+	optional uint32 stageReq = 1; 
+}
+
+
+ 
+ 
+ 
+ 
+message MsgRoleStageLevUpRet {
+	required uint32 ret = 1;
+	optional uint32 stage = 2;
+}
+
+ 
+ 
+ 
+message MsgStaminaBuyNumSyn {
+	required uint32 num = 1;
+}
+
+ 
+ 
+ 
+message MsgStaminaSyn {
+	required uint32 stamina = 1;
+	optional uint32 remianTime = 2;
+}
+
+ 
+ 
+ 
+message MsgStaminaBuyReq{
+	optional uint32 req = 1; 
+}
+
+ 
+ 
+ 
+ 
+message MsgStaminaBuyRet{
+	required uint32 ret = 1;
+}
+
+ 
+ 
+ 
+message MsgMoneyBuyNumSyn {
+	required uint32 num = 1;
+}
+
+ 
+ 
+ 
+message MsgMoneyBuyReq{
+}
+
+ 
+ 
+ 
+ 
+message MsgMoneyBuyRet{
+	required uint32 ret = 1;
+}
+
+ 
+ 
+ 
+message MsgSetNewBieDataReq
+{
+	required string data = 1;
+}
+
+
+ 
+ 
+ 
+ 
+message MsgSetTxInfo
+{
+	required uint32 info = 1; 
+							  
+							  
+							  
+							  
+							  
+							  
+							  
+							  
+							  
+
+	optional uint32 para1 = 2; 
+	optional uint32 para2 = 3; 
+}
+
+message MsgTxInfo
+{
+	required uint32 index = 1;		 
+									 
+	required uint64 infoDetail = 2;  
+}
+
+ 
+ 
+ 
+message MsgSetTxInfoRet
+{
+	required uint32 ret = 1; 
+	repeated MsgTxInfo info = 2;
+	optional CollectInfo collectInfo = 3;
+}
+
+ 
+ 
+ 
+message MsgRefreshTxInfoRet
+{
+	repeated MsgTxInfo info = 1;
+}
+
+ 
+ 
+ 
+message MsgSyncPlatformVipLev
+{
+	required uint32 lev = 1;
+}
+
+ 
+ 
+ 
+message MsgPlatformVipSyn
+{
+	required uint32 value1 = 1; 
+	required uint32 value2 = 2; 
+	required uint32 value3 = 3; 
+}
+ 
+ 
+message MsgCharacterOnline {
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+message MsgCharacterRename{
+   required string strNewCharacterName  = 1;   
+}
+
+
+
+ 
+ 
+ 
+message MsgCharacterRenameRet{
+   required uint32 code = 1;                   
+   required uint32 renameCount = 2;            
+   required string strNewCharacterName  = 3;   
+}
+
+
+ 
+ 
+ 
+message MsgCharacterRenameBroadcast{
+   required uint32 serverId = 1;               
+   required uint32 sceneObjectId = 2;          
+   required string strOldCharacterName  = 3;   
+   required string strNewCharacterName  = 4;   
+}
+ 
+
+ 
+ 
+message MsgUpdateSkillReq {
+	required uint32 action = 1; 
+	optional uint32 skillId = 2; 
+}
+
+ 
+ 
+message MsgUpdateSkillRet {
+	required uint32 action = 1; 
+	optional uint32 eRet = 2; 
+}
+
+message SkillInfo {
+	required uint32 skillId = 1; 
+	required uint32 skillLev = 2;
+}
+
+ 
+ 
+ 
+ 
+message MsgBaseSkillSyn {
+	repeated SkillInfo skillInfo = 1;
+	repeated uint32 skill = 2; 
+}
+
+
+ 
+ 
+ 
+message MsgSetSkillSeqReq {
+	repeated uint32 skill = 1;
+}
+
+ 
+ 
+ 
+message MsgSetSkillSeqRet 
+{
+	required uint32 ret = 1; 
+	repeated uint32 skill = 2;
+}
+
+
+
+ 
+ 
+message MsgCharacterWalkReq {
+	required uint32 actionId = 1;
+	repeated protomsg.PosStructUn arrTarget = 2;
+	required uint64 un64ServerTime = 3; 
+}
+
+ 
+ 
+message MsgCharacterWalkRet {
+	required uint32 actionId = 1;
+	required uint32 code = 2;
+	required protomsg.PosStructUn pos = 3;
+}
+
+ 
+ 
+message MsgObjectWalkToTarget {
+	required uint32 objId = 1;
+	required string cType = 2;
+	required protomsg.PosStructUn targetPos = 3;
+}
+
+ 
+ 
+message MsgObjectWalkArrive {
+	required uint32 objId = 1;
+	required protomsg.PosStructUn pos = 2;
+}
+
+
+ 
+ 
+ 
+message MsgUserChargeInfo
+{
+	repeated uint32 chargeNo = 1; 
+	required uint64 last18Time = 2; 
+}
+
+ 
+ 
+ 
+message MsgBuyGoodsRMBResult
+{
+	required uint32 chargeNo = 1;
+	required uint64 time = 2;
+	required uint32 emoney = 3; 
+}
+
+ 
+ 
+ 
+message MsgRechargeWanBaReq
+{
+	required string openId = 1;
+	required string zoneid = 2;
+	required string openKey = 3;
+	required string pf = 4;
+	required uint32 itemid = 5;
+}
+
+ 
+
+ 
+ 
+ 
+message MsgRechargeWanBaRet
+{
+	required uint32 code = 1;
+	optional uint32 starCoin = 2; 
+}
+
+ 
+ 
+ 
+message MsgChargeForbidInfo
+{
+	repeated uint32 item = 1; 
+}
+
+ 
+ 
+ 
+message MsgRechargeQQMiniReq
+{
+	required string openId = 1;
+	required string zoneId = 2;
+	required string pf = 3;
+	required uint32 amt = 4;
+	required uint32 goodId = 5;
+	required string sessionKey = 6;
+}
+
+ 
+ 
+ 
+message MsgRechargeQQMiniRet
+{
+	required uint32 code = 1;
+	optional string prepayId = 2;
+}
+
+ 
+
+ 
+ 
+ 
+message MsgRechargeOppoReq
+{
+	required string openId = 1;
+	required uint32 goodId = 2;
+	required uint32 price = 3;
+	required string appVersion = 4;
+	required string engineVersion = 5;
+}
+
+ 
+ 
+ 
+message MsgRechargeOppeRet
+{
+	required uint32 code = 1;
+	optional string prepayId = 2; 
+	optional uint64 time = 3;
+	optional string paySign = 4; 
+}
+
+ 
+
+ 
+ 
+ 
+message MsgRechargeQQHallReq
+{
+	required string openId = 1;
+	required string pf = 2;
+	required string pfkey = 3;
+	required string price = 4;
+	required string goodsUrl = 5;
+	required uint32 goodId = 6;
+	required string sessionKey = 7;
+}
+
+ 
+ 
+ 
+message MsgRechargeQQHallRet
+{
+	required uint32 code = 1;
+	optional string token = 2;
+	optional string url = 3; 
+}
+ 
+
+ 
+ 
+message MsgTalk {
+	required uint32 channel =1;	 
+	required string chatmsg =2;	 
+	optional uint64 tarid = 3; 
+}
+
+ 
+ 
+message MsgTalkNode {
+	required uint32 channel =1;		 
+	required uint64 characterid =2;
+	required string name =3;
+	required uint32 vip =4;
+	required string chatmsg =5;	 
+	optional string tarname = 6; 
+	optional uint64 idTarget = 7; 
+	optional uint64 time = 8; 
+	optional uint32 roleTypeS = 9; 
+	optional uint32 roleTypeT = 10; 
+	optional BlueDiamondsData chatBlueInfo = 11;   
+}
+
+
+ 
+ 
+message MsgTalkErrCode {
+ 		
+	required uint32 code =1;		 
+	optional uint64 iTime = 2;		 
+}
+
+ 
+ 
+ 
+message MsgAnnounce {
+	required string content = 1; 
+}
+
+ 
+ 
+ 
+message MsgClimbTowerFight{
+	required uint32 type	= 1;	 
+	required uint32 layer	= 2;	 
+}
+
+ 
+ 
+ 
+message MsgClimbTowerRequest{
+}
+
+ 
+ 
+ 
+message MsgClimbTowerList{
+	repeated MsgClimbTowerInfo list=1;
+}
+
+ 
+ 
+ 
+message MsgClimbTowerRet{
+	required uint32 msg 			= 1;		
+	 
+	required uint32 code 			= 2;		
+	required uint32 type			= 3; 
+}
+
+ 
+ 
+ 
+message MsgReqClimbTowerRank{
+	required uint32 type 			= 1;		
+}
+
+ 
+ 
+ 
+message MsgRetClimbTowerRank{
+	required uint32 type 			= 1;
+	required uint32 myrank		= 2;
+	required uint32 mylayer		= 3;
+	repeated MsgClimbTowerRank list	= 4;		
+}
+
+
+message MsgClimbTowerInfo{
+	required uint32 type 			= 1;		 
+	required uint32 layer 		= 2;		 
+	required bool   todayfirst= 3;		 
+}
+
+message MsgClimbTowerRank{
+	required uint32 rank		= 1;
+	required string name		= 2;
+	required uint32 layer 		= 3;		 
+}
+
+
+ 
+ 
+ 
+ 
+message MsgSyncClimbTowerCompensate{
+	required uint32 beginUnixTime = 1;     
+	required uint32 endUnixTime	  = 2;     
+	required uint32 initLayer = 3;         
+	required uint32 initCombatValue = 4;   
+	required uint32 winLayer = 5;         
+	required uint32 receiveFlag = 6;       
+}
+
+
+ 
+ 
+ 
+message MsgReceiveClimbTowerCompensateReq{
+	   
+}
+
+
+ 
+ 
+ 
+message MsgResultOfReceiveClimbTowerCompensate{
+   required uint32 code = 1;   
+}
+message MsgCombineLimitUnit{
+   required uint32 typeValue  = 1;      
+   required uint32 gridValue  = 2;      
+   required uint32 combinedCount = 3;   
+}
+
+
+ 
+ 
+ 
+message MsgSyncCombineSystemInfo{
+   repeated MsgCombineLimitUnit combineList = 1;
+}
+
+
+ 
+ 
+ 
+message MsgCombineSystemReq{
+   required uint32 typeValue  = 1;    
+   required uint32 gridValue  = 2;    
+   required uint32 combineValue = 3;  
+}
+
+
+ 
+ 
+ 
+message MsgResultOfCombineSystem{
+   required uint32 code = 1;            
+   required uint32 typeValue  = 2;      
+   required uint32 gridValue  = 3;      
+   required uint32 resultCombine = 4;   
+   required uint32 combinedCount = 5;   
+}
+
+
+
+
+
+message BlueDiamondsData{
+   required uint32 blueVipLv = 1;                 
+   required uint32 isYearlyBlue = 2;              
+   required uint32 isSuperBlue = 3;               
+}
+ 
+
+ 
+ 
+ 
+message MsgCompetitionStatus
+{
+	required uint32 status = 1; 
+	required uint32 open = 2; 
+	required uint32 end = 3; 
+}
+
+ 
+ 
+ 
+message MsgCompetitionQueryInfo
+{
+}
+
+message CompetitionRankInfo
+{
+	required string name = 1;
+	required uint64 id = 2;
+	required uint32 score =3;
+	required uint32 win = 4; 
+	required uint32 fight = 5; 
+}
+
+message CompetitionFightRecord
+{
+	required string atk = 1;
+	required uint64 idAtk = 2;
+	required string def = 3;
+	required uint64 idDef = 4;
+	required bool bWin = 5;
+	required uint32 atkWinSer = 6;	 
+	required uint32 defWinSer = 7;	 
+}
+
+message CompetitionSelfInfo
+{
+	required uint32 curScore = 1; 
+	required uint32 curWin = 2; 
+	required uint32 curFight = 3; 
+	required uint32 curWinSeries = 4; 
+	required uint32 totalWin = 5; 
+	required uint32 totalFight = 6; 
+	required uint32 totalScore = 7; 
+	required uint32 reward = 8; 
+}
+
+ 
+ 
+ 
+message MsgCompetitionQueryInfoRet
+{
+	required uint32 code = 1;
+	repeated CompetitionRankInfo rankInfo = 2;  
+	repeated CompetitionFightRecord record = 3;  
+}
+
+ 
+ 
+ 
+message MsgCompetitionInfoSelfSync
+{
+	required CompetitionSelfInfo selfInfo = 1; 
+}
+
+ 
+ 
+ 
+message MsgCompetitionMatchReq
+{
+	required uint32 op = 1; 
+}
+
+ 
+ 
+ 
+message MsgCompetitionMatchRet
+{
+	required uint32 code = 1;
+}
+
+ 
+ 
+ 
+message MsgCompetitionMatchResult
+{
+	required uint32 level = 1;	
+	required uint32 roleType = 2;	 
+	required string name = 3;
+	required uint32 stage = 4;
+	required uint32 vip = 5;
+	repeated uint32 parterId = 6;	 
+}
+
+ 
+ 
+ 
+message MsgCompetitionFightResult
+{
+	required bool bWin = 1;
+	required CompetitionSelfInfo selfInfo = 2; 
+}
+
+ 
+ 
+ 
+message MsgCompetitionRewardReq
+{
+	required uint32 op = 1; 
+}
+
+ 
+ 
+ 
+message MsgCompetitionRewardRet
+{
+	required uint32 code = 1;
+	optional uint32 reward = 2;
+}
+
+ 
+ 
+ 
+message MsgCompetitionQuerySelfReq
+{
+}
+
+ 
+ 
+ 
+message MsgCompetitionQuerySelfRet
+{
+	required uint32 code = 1;
+}
+
+message CrossSkillBase
+{
+	required uint32 skillId = 1;
+	required uint32 skillLev = 2;
+}
+
+message CrossUserFighter
+{
+	required uint32 angerFight = 1;
+	required uint32 level = 2;
+	required string name = 3;
+	repeated uint32 attr = 4;
+	repeated CrossSkillBase skill = 5;
+
+	required uint64 id = 6;
+	required uint32 pro = 7;
+	required uint32 roleType = 8;
+	required uint32 unDesign = 9;
+	repeated uint32 develop = 10;
+}
+
+message CrossEudemonFighter
+{
+	required uint32 angerFight = 1;
+	required uint32 level = 2;
+	repeated uint32 attr = 3;
+	repeated CrossSkillBase skill = 4;
+
+	required uint32 pos = 5;
+	required uint32 eudemontype = 6;
+	required uint64 idEudemon = 7;
+	required uint64 idOwner = 8;
+}
+
+message CrossPartnerFighter
+{
+	required uint32 angerFight = 1;
+	required uint32 level = 2;
+	repeated uint32 attr = 3;
+	repeated CrossSkillBase skill = 4;
+
+	required uint32 pos = 5;
+	required uint32 partnerId = 6;	
+	required uint64 idOwner = 7;
+	required uint32 normalPos = 8;
+}
+
+ 
+ 
+ 
+message MsgCompetitionCrossMatchInfo
+{
+	optional uint32 op = 1;
+	optional uint64 idCancel = 2;
+	optional uint32 score = 3;
+	optional uint32 stage = 4;
+	optional uint32 vipLev = 5;
+	optional uint32 idServer = 6;
+	optional uint32 curWin = 7;
+	optional uint32 curFight = 8;
+	optional uint64 iCombat = 9;
+	optional uint32 winSeries = 10;
+	optional uint32 failSeries = 11;
+	optional CrossUserFighter user = 12;
+	repeated CrossEudemonFighter eudemon = 13;
+	repeated CrossPartnerFighter partner = 14;
+}
+
+ 
+ 
+ 
+message MsgCompetitionCrossMatchResult
+{	
+	required uint64 timeSeed = 1;
+	required MsgCompetitionCrossMatchInfo infoAtk = 2;
+	required MsgCompetitionCrossMatchInfo infoDef = 3;
+}
+
+ 
+ 
+ 
+message MsgCompetitionCrossFightRecrord
+{
+	required uint32 idServer = 1;
+	repeated CompetitionFightRecord records = 2;
+}
+
+ 
+ 
+ 
+message MsgCompetitionCrossSelfRankInfo
+{
+	required uint64 idCharacter = 1;
+	required uint32 score = 2;
+	required uint32 curWin = 3;
+	required uint32 curFight = 4;
+	required uint64 iCombat = 5;
+	required string name = 6;
+	required uint32 idServer = 7;
+}
+
+ 
+ 
+message MsgThingOperateRet 
+{
+	required uint32 msg = 1;		 
+	optional uint32 operate = 2;	 
+	 	
+	required uint32 code = 3;		 
+	optional uint32 type = 4;
+	optional uint32 page = 5;
+	optional uint64 id = 6;
+	optional uint32 num = 7;			 
+}
+
+ 
+
+ 
+ 
+message MsgRequestContainer 
+{
+ 
+	required uint32 type = 1;
+	required uint32 page = 2;
+}
+
+ 
+ 
+message MsgSyncContainer
+{
+	required uint32 type = 1;
+	required uint32 page = 2;
+	required int32 capacity = 3;		 
+	repeated uint64 id = 4;
+	required uint32 auto_resolve = 5;	 
+}
+
+ 
+ 
+message MsgBuyContainerGrid
+{
+	required uint32 type = 1;
+	required uint32 glod = 2;
+	required uint32 num = 3;
+}
+
+ 
+ 
+message MsgContainerOperateRet
+{
+	required uint32 msg = 1;
+	required uint32 code = 2;
+}
+
+ 
+ 
+message MsgSyncContainerSize
+{
+	required uint32 type = 1;
+	required uint32 page = 2;
+	required int32 capacity = 3;		 
+}
+
+ 
+ 
+message MsgSetAutoResolve
+{
+	required uint32 type = 1;
+	required uint32 page = 2;
+	required uint32 value = 3;
+}
+
+ 
+
+ 
+ 
+message MsgSyncThing 
+{
+	required uint64 id = 1;
+	required uint32 cfgId = 2;
+	required uint32 bind = 3;				 
+	required uint64 expire_time = 4;
+	optional MsgItemInfo item =5;
+	optional MsgEquipmentInfo equipment = 6;  
+}
+
+ 
+ 
+message MsgSyncThingList
+{
+	repeated MsgSyncThing thing = 1;
+}
+
+ 
+ 
+message MsgThingOperateReq
+{
+ 
+	required uint32 operate = 1;	 
+	required uint32 type 		= 2;	 
+	required uint32 page 		= 3;	 
+	required uint64 id = 4;				 
+	required uint32 num = 5;			 
+	required uint32 param =6;			 
+}
+
+ 
+ 
+message MsgThingDelete
+{
+	repeated uint64 thingId =1;
+}
+
+ 
+ 
+message MsgNewThing 
+{
+	required uint64 id = 1;
+	required uint32 cfgId = 2;
+	required uint32 num = 3;
+	required bool isFirst = 4;
+	required uint32 channel = 5;
+	required uint32 type =6;	 
+}
+
+ 
+ 
+message MsgEquipmentResolve
+{
+	repeated uint32 cfgid = 1;
+}
+
+ 
+ 
+message MsgRewardList
+{
+	repeated MsgRewardItem list =1;
+	required uint32 type = 2;	 
+}
+
+ 
+message MsgItemInfo
+{
+	required uint32 OverlapNum = 1;
+}
+
+message MsgStoragePageInfo
+{
+	required uint32 page = 1;
+	optional string name = 2;
+}
+
+message MsgEquipmentExtraPoint
+{
+   required uint32 pointType  = 1;
+   required uint32 pointValue = 2;
+}
+
+message MsgEquipmentAddAttriValue
+{
+   required uint32 attriType  = 1;
+   required int32  attriValue  = 2;
+}
+
+message MsgEquipmentInfo
+{
+	required uint32 combatValue = 1;                         
+	required uint32 OverlapNum = 2;
+}
+
+message MsgRewardItem
+{
+	required uint32 cfgid=1;	
+	required uint32 num =2;
+}
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+message MsgResolveCreateExtraReward
+{
+	required uint32 configExtId = 1;       
+	required uint32 configWeightId = 2;    
+	required uint32 count = 3;             
+}
+
+
+
+ 
+ 
+ 
+message MsgReceiveResolveExtraReward
+{
+	required uint32 isDoubleReceive = 1;    
+}
+
+
+ 
+ 
+ 
+message MsgResultOfReceiveResolveExtraReward
+{
+    required uint32 code = 1;               
+	required uint32 isDoubleReceive = 2;    
+}
+ 
+
+ 
+ 
+message MsgCreateCharacter {
+	required string name = 1;
+	required uint32 profession = 2;
+	required uint32 roleType = 3; 
+	optional uint64 idInviter = 4; 
+}
+
+ 
+
+ 
+ 
+message MsgCreateCharacterRet {
+	required uint32 code = 1;
+	optional uint64 id = 2;
+}
+
+ 
+ 
+message MsgInviteFriendInfo {
+	required uint32 inviteNum = 1;
+	required uint32 reward = 2; 
+}
+
+ 
+ 
+message MsgInviteFriendRewardGet {
+	required uint32 reward = 1; 
+}
+
+ 
+ 
+message MsgInviteFriendRewardRet {
+	required uint32 code = 1; 
+	optional uint32 reward = 2; 
+} 
+message CurrencyInfo {
+	required uint32 currencyType = 1; 
+	required uint64 num = 2;
+}
+
+ 
+ 
+message MsgSyncCurrency {
+	repeated CurrencyInfo info = 1;
+}
+
+ 
+ 
+message MsgCurrencyExchange {
+	required uint32 currencyTypeFrom = 1;
+	required uint32 currencyTypeTo = 2;
+	required uint64 num = 3;
+}
+
+ 
+ 
+message MsgCurrencyExchangeRet {
+	required uint32 eRet = 1;
+}
+ 
+ 
+ 
+message MsgDanyaoList{
+	repeated MsgDanyaoInfo danyao =1;
+}
+
+
+ 
+ 
+ 
+message MsgDanyaoInfo{
+	required uint32 danyaoid = 1;	 
+	required uint32 usednum = 2;	 
+}
+
+ 
+ 
+ 
+message MsgDanyaoUse{
+	required uint32 danyaoid = 1;	 
+	required uint32 curnum = 2;		 
+}
+
+
+ 
+ 
+ 
+message MsgDanyaoResult{
+	required uint32 code = 1;		 
+	required uint32 result = 2;	 
+}
+
+ 
+ 
+ 
+message MsgDanyaoOneKeyUse{
+	required uint32 danyaoid = 1;	 
+	required uint32 curnum = 2;		 
+}
+
+ 
+
+
+ 
+ 
+ 
+message MsgSyncDayUpInfo{
+   required uint32 configGroupId = 1;                 
+   required uint32 rechargeEmoneyValue = 2;           
+   required uint32 receiveStatusValue = 3;            
+}
+
+ 
+ 
+ 
+message MsgSyncDayUpRechargeValue{
+   required uint32 rechargeEmoneyValue = 1;           
+}
+
+
+ 
+ 
+ 
+message MsgReciveDayUpReward{
+   
+}
+
+
+ 
+ 
+ 
+message MsgResultOfReciveDayUpReward{
+   required uint32 code = 1;           
+}
+ 
+
+message DemonKingInfo
+{
+	required uint32 unIndex = 1; 
+	required uint32 fightNum = 2; 
+	required float leftPercent = 3; 
+	optional uint64 iRebornTime = 4; 
+}
+
+ 
+ 
+ 
+message MsgDemonKingInfoReq {
+}
+
+ 
+ 
+ 
+message MsgDemonKingInfoRet {
+	required uint32 code = 1;
+}
+
+ 
+ 
+ 
+message MsgDemonKingInfoSyn {
+	required uint32 unCurNum = 1; 
+	required uint64 iNextCoolTime = 2; 
+	repeated DemonKingInfo infos = 3;
+	optional uint32 totalChallenge = 4;   
+}
+
+ 
+ 
+ 
+message MsgDemonKingFightReq {
+	required uint32 unIndex = 1; 
+}
+
+message DemonKingFightReward {
+	required uint32 itemId = 1;
+	required uint32 num = 2;
+}
+ 
+ 
+ 
+message MsgDemonKingFightRet {
+	required uint32 code = 1;
+	repeated DemonKingFightReward rewards = 2; 
+}
+
+ 
+ 
+ 
+message MsgDemonKingDamageRankReq {
+	required uint32 unIndex = 1; 
+}
+
+message DemonKingDamageRankInfo {
+	required uint32 unRank = 1; 
+	required string name = 2; 
+	required uint64 damage = 3; 
+}
+
+ 
+ 
+ 
+message MsgDemonKingDamageRankRet {
+	required uint32 unIndex = 1; 
+	required uint32 code = 2; 
+	required uint64 selfDamage = 3; 
+	repeated DemonKingDamageRankInfo infos = 4;
+}
+
+ 
+ 
+ 
+message MsgDemonKingKillRankReq {
+	required uint32 unIndex = 1; 
+}
+
+message DemonKingKillRankInfo {
+	required uint64 unTime = 1; 
+	required string name = 2; 
+	required uint32 combat = 3; 
+}
+
+ 
+ 
+ 
+message MsgDemonKingKillRankRet {
+	required uint32 unIndex = 1; 
+	required uint32 code = 2; 
+	repeated DemonKingKillRankInfo infos = 3;
+}
+
+
+message DemonKingRemindInfo {
+	required uint32 unIndex = 1; 
+	required bool bRemind = 2; 
+}
+
+ 
+ 
+ 
+message MsgDemonKingRemindSyn {
+	repeated DemonKingRemindInfo infos = 1;
+}
+
+ 
+ 
+ 
+message MsgDemonKingRemindSet {
+	repeated DemonKingRemindInfo infos = 1;
+}
+
+ 
+ 
+ 
+message MsgDemonKingRemindRet {
+	required uint32 code = 1;
+}
+
+ 
+ 
+ 
+message MsgDemonKingFightEnd {
+}
+
+ 
+ 
+ 
+message MsgDemonKingReviveReq {
+	required uint32 unIndex = 1; 
+}
+
+ 
+ 
+ 
+message MsgDemonKingReviveRet {
+	required uint32 code = 1;
+	optional DemonKingInfo info = 2;
+}
+
+message MsgDesignRecords{
+   required uint32 designId = 1;      
+   required uint64 endTime  = 2;      
+}
+
+ 
+ 
+ 
+message MsgSyncDesignData{
+   required uint32  functionOpenFlag  = 1;             	 
+   required uint32 activeDesignId = 2;  		         
+   repeated MsgDesignRecords designRecords = 3;          
+}
+
+ 
+ 
+ 
+message MsgActiveDesign{
+   required uint32 designId = 1;          
+}
+
+ 
+ 
+ 
+message MsgResultOfActiveDesign{
+   required uint32 resultCodeValue = 1;       
+   required uint32 activeDesignId = 2;          
+}
+
+
+ 
+ 
+ 
+message MsgSeceneSyncDesignAvatarId{
+   required uint32 sceneObjId = 1;
+   required uint32 designAvatarId = 2;
+}
+
+
+ 
+ 
+ 
+message MsgOutOfTimeDesignId{
+   repeated uint32 designIdList = 1;
+}
+
+
+ 
+ 
+ 
+message MsgCancelDesignToUnactived{
+   required uint32 designId = 1;          
+}
+
+
+ 
+ 
+ 
+message MsgResultOfCancelDesignToUnactived{
+   required uint32 code  = 1;             
+   required uint32 designId = 2;          
+}
+
+
+ 
+ 
+ 
+message MsgUsedDesignActivedItem{
+   required uint32 thingConfigId = 1;
+}
+
+
+ 
+ 
+ 
+message MsgResultOfUsedDesignActivedItem{
+   required uint32 code  = 1;                        
+}
+
+
+message MsgDevelopeRewardInfo{
+  required uint32 developeLv   = 1;
+  required uint32 receiveFlag  = 2;         
+}
+
+ 
+message MsgDevelopeLvUpInfo{
+   required uint32 functionOpenFlag = 1;    
+   required uint32 developeLv = 2;          
+   required uint32 developeExp = 3;         
+   repeated MsgDevelopeRewardInfo rewardReceiveInfo = 4;   
+}
+
+
+
+ 
+message MsgDevelopeEquipInfo{
+   required uint32 slotIndexValue = 1;    
+   required uint32 equipConfigId  = 2;    
+}
+
+
+ 
+message MsgDevelopeSkillInfo{
+   required uint32 slotIndexValue = 1;    
+   required uint32 skillLv  = 2;          
+}
+
+ 
+
+ 
+ 
+ 
+message MsgQuerySpecficDevelopeInfo{
+   required uint32 developeType  = 1;       
+}
+
+
+ 
+ 
+ 
+message MsgSyncSpecficDevelopeInfo{
+   required uint32 developeType  = 1;       
+   required uint32 currAvatarId  = 2;       
+   required MsgDevelopeLvUpInfo developeLvUpInfo = 3;     
+   required uint32 attriItemUsedCount = 4;                
+   repeated MsgDevelopeEquipInfo developeEquipInfo = 5;   
+   repeated MsgDevelopeSkillInfo developeSkillInfo = 6;   
+   repeated uint32 skinIdList = 7;                        
+   optional uint32 soulLvValue = 8;                       
+   optional uint32 soulExpValue = 9;                      
+}
+
+
+ 
+ 
+ 
+message MsgSyncDevelopeSysInfo{
+   repeated MsgSyncSpecficDevelopeInfo developeInfo = 1;   
+}
+
+ 
+ 
+ 
+message MsgDevelopeLvActiveSkill{
+   required uint32 developeType   = 1;       
+   required uint32 developeLv     = 2;       
+   required uint32 slotSkillIndex = 3;       
+   required uint32 activeSkillLv  = 4;       
+}
+
+
+ 
+ 
+ 
+message MsgUpDevelopeSkillLv{
+   required uint32 developeType   = 1;       
+   required uint32 slotSkillIndex = 2;       
+}
+
+ 
+ 
+ 
+message MsgResultOfUpDevelopeSkillLv{
+   required uint32 code = 1;                      
+   required uint32 developeType   = 2;            
+   optional MsgDevelopeSkillInfo skillInfo = 3;   
+}
+
+
+
+ 
+ 
+ 
+message MsgOneKeyDressDevelopeEquip{
+   required uint32 developeType   = 1;       
+   repeated MsgDevelopeEquipInfo dressEquipInfo = 2;   
+}
+
+
+ 
+ 
+ 
+message MsgResultOfOneKeyDressDevelopeEquip{
+   required uint32 code = 1;                                
+   required uint32 developeType = 2;                        
+   repeated MsgDevelopeEquipInfo dressEquipInfo = 3;   
+}
+
+
+ 
+ 
+ 
+message MsgUseItemAddDevelopeAttri{
+   required uint32 developeType   = 1;       
+   required uint32 itemUsedCount  = 2;       
+}
+
+
+ 
+ 
+ 
+message MsgResultOfUseItemAddDevelopeAttri{
+   required uint32 code = 1;                 
+   required uint32 developeType   = 2;       
+   required uint32 itemCount      = 3;       
+}
+
+
+
+ 
+ 
+ 
+message MsgDevelopeLvUpReq{
+   required uint32 developeType   = 1;       
+   required uint32 autoToBuyItem  = 2;       
+   optional uint32 useDirectItem  = 3;       
+}
+
+
+ 
+ 
+ 
+message MsgResultOfDevelopeLvUpReq{
+   required uint32 code = 1;                 
+   required uint32 developeType   = 2;       
+   required uint32 autoToBuyItem  = 3;       
+   optional MsgDevelopeLvUpInfo developeLvUpInfo = 4;   
+   optional uint32 useDirectItem  = 5;       
+   optional uint32 addCombatValue = 6;       
+}
+
+
+ 
+ 
+ 
+message MsgReceiveDevelopeLvUpReward{
+   required uint32 developeType  = 1;       
+   required uint32 developeLv    = 2;       
+   required uint32 receiveType   = 3;       
+}
+
+
+ 
+ 
+ 
+message MsgResultOfReceiveDevelopeLvUpReward{
+   required uint32 code = 1;                 
+   required uint32 developeType  = 2;       
+   required uint32 developeLv    = 3;       
+   required uint32 receiveType   = 4;       
+}
+
+
+
+ 
+ 
+ 
+message MsgActiveDevelopeSkin{
+   required uint32 developeType  = 1;       
+   required uint32 activeSkinId  = 2;       
+}
+
+
+ 
+ 
+ 
+message MsgResultOfActiveDevelopeSkin{
+   required uint32 code = 1;                 
+   required uint32 developeType  = 2;       
+   required uint32 activeSkinId  = 3;       
+}
+
+
+ 
+ 
+ 
+message MsgUseDevelopeSkin{
+   required uint32 developeType  = 1;       
+   required uint32 skinAvatarId  = 2;       
+}
+
+ 
+ 
+ 
+message MsgResultOfUseDevelopeSkin{
+   required uint32 code = 1;                
+   required uint32 developeType  = 2;       
+   required uint32 skinAvatarId  = 3;       
+}
+
+
+ 
+ 
+ 
+message MsgNoticeServerDevelopeLvUp{
+   required uint64 characterid = 1;         
+   required string strCharacterName = 2;    
+   required uint32 developeType  = 3;       
+   required uint32 developeLv  = 4;         
+}
+
+
+ 
+ 
+ 
+message MsgOpenSpecficDevelopeType{
+   required uint32 developeType   = 1;       
+   required MsgDevelopeLvUpInfo developeLvUpInfo = 2;   
+}
+
+
+ 
+ 
+ 
+message MsgChangeDevelopeAvatarId{
+    required uint32 sceneObjId = 1;
+	required uint32 developeType = 2;
+	required uint32 avatarId = 3;
+}
+
+
+ 
+ 
+ 
+message MsgCancelDevelopeAvatarId{
+	required uint32 developeType = 1;
+	required uint32 avatarId = 2;
+}
+
+
+ 
+ 
+ 
+message MsgResultOfCancelDevelopeAvatarId{
+    required uint32 code = 1;               
+	required uint32 developeType = 2;
+	required uint32 avatarId = 3;
+}
+
+
+
+ 
+ 
+ 
+message MsgDevelopeNoteSoulReq{
+	required uint32 developeType = 1;
+	required uint32 noteSoulType = 2;
+}
+
+
+ 
+ 
+ 
+message MsgResultOfDevelopeNoteSoul{
+    required uint32 code = 1;               
+	required uint32 developeType = 2;       
+	required uint32 noteSoulType = 3;       
+	required uint32 soulLevel = 4;          
+	required uint32 soulExpValue = 5;       
+}
+ 
+ 
+ 
+message MsgSyncDiscountShopData{
+   required uint32  functionOpenFlag  = 1;                  
+   required uint32 configMatchesId = 2;  		 
+   repeated MsgGoodBuyRecords buyRecords = 3;           
+}
+
+ 
+ 
+ 
+message MsgBuyGoodsFromDiscountShopData{
+   required uint32 configMatchesId = 1;       
+   required uint32 configKeyId  = 2;          
+   required uint32 buyCount  = 3;             
+}
+
+ 
+ 
+ 
+message MsgResultOfBuyGoodsFromDiscountShopData{
+   required uint32 resultCodeValue = 1;       
+   required uint32 configMatchesId = 2;          
+   required uint32 configKeyId  = 3;          
+   required uint32 buyCount = 4;              
+}
+
+ 
+ 
+ 
+message MsgCatchDollMachineReq{
+
+}
+
+ 
+ 
+ 
+message MsgCatchDollMachineRet{
+	required uint32 result 			= 1;	 
+	required uint32 rewarditem	= 2;	 
+	required uint32 rewardnum		= 3;	 
+}
+
+ 
+ 
+ 
+message MsgCatchDollMachineHis{
+
+}
+
+ 
+ 
+ 
+message MsgCatchDollMachineHisList{
+	repeated MsgCatchDollMachineRecord list =1;
+}
+
+ 
+ 
+ 
+message MsgCatchDollMachineBroadcast{
+	required string name = 1;		 
+	required uint32 rewarditem = 2;	 
+}
+
+
+
+message MsgCatchDollMachineRecord{
+	required string name 			= 1;		 
+	required uint32 rewarditem	= 2;	 
+	required uint32 rewardnum		= 3;	 
+}
+ 
+
+
+message MsgDoubleActiveUnitData{
+    required uint32  configGroupId = 1;   
+	required uint32  beginUnixTime = 2;   
+	required uint32  endUnixTime = 3;     
+	repeated uint32  activeIdList = 4;    
+}
+
+
+ 
+ 
+ 
+message MsgSyncDoubleActiveActivity{
+    repeated MsgDoubleActiveUnitData activityList = 1;   
+}
+
+
+ 
+ 
+ 
+message MsgCreateNewDoubleActive{
+    repeated MsgDoubleActiveUnitData newActivity = 1;   
+}
+
+
+ 
+ 
+ 
+message MsgOutOfDateOfDoubleActive{
+    repeated uint32  configGroupId = 1;   
+}
+ 
+
+
+ 
+ 
+ 
+message MsgEarthDemonInfoReq {
+	required uint32 unStarNum = 1; 
+}
+
+message EarthDemonRefreshInfo {
+	required uint64 iRefreshTime = 1; 
+	required string killer = 2; 
+	required uint32 roleType = 3; 
+	required uint32 iCombat = 4; 
+}
+
+message EarthDemonFightInfo {
+	required string rober = 1; 
+	required uint64 idOwner = 2; 
+	required uint32 roleType = 3; 
+	required uint32 unLeftPercent = 4; 
+	required uint64 combat = 5; 
+}
+
+
+message EarthDemonQueueInfo {
+	required uint32 unIndex = 1;
+	required float fLeftPercent = 2; 
+	optional EarthDemonRefreshInfo refreshInfo = 3; 
+	optional EarthDemonFightInfo robInfo = 4; 
+
+}
+
+message EarthDemonStarInfo 
+{
+	required uint32 unStarNum = 1;
+	repeated EarthDemonQueueInfo infos = 2;
+}
+
+ 
+ 
+ 
+message MsgEarthDemonInfoRet {
+	required uint32 code = 1;
+	repeated EarthDemonStarInfo infos = 2; 
+}
+
+ 
+ 
+ 
+message MsgEarthDemonFightReq {
+	required uint32 unStarNum = 1;
+	required uint32 unIndex = 2;
+}
+
+message EarthDemonFightReward {
+	required uint32 itemId = 1;
+	required uint32 num = 2;
+}
+
+ 
+ 
+ 
+message MsgEarthDemonFightRet {
+	required uint32 code = 1;
+	optional uint32 unBattleType = 2; 
+	repeated EarthDemonFightReward rewards = 3; 
+	optional uint32 unGoldMoney = 4; 
+	optional bool bWin = 5; 
+}
+
+ 
+ 
+ 
+message MsgEarthDemonFightQueueSyn {
+	required uint32 code = 1;  
+	required uint32 unStarNum = 2;
+	required uint32 unIndex = 3;
+	optional uint32 unQueueLeft = 4; 
+	optional uint64 iFightTime = 5; 
+}
+
+ 
+ 
+ 
+message MsgEarthDemonQuitQueueReq {
+
+}
+
+ 
+ 
+ 
+message MsgEarthDemonQuitQueueRet {
+	required uint32 code = 1;
+}
+
+ 
+ 
+ 
+message MsgEarthDemonRobInfoReq {
+	
+}
+
+message EarthDemonRobDetail {
+	required string name = 1;
+	required uint32 roleType = 2;
+	required uint32 combat = 3;
+	optional int32 leftSec = 4; 
+}
+
+ 
+ 
+ 
+message MsgEarthDemonRobInfoRet {
+	required uint32 code = 1;
+	optional uint32 unLeftPercent = 2; 
+	repeated EarthDemonRobDetail infos = 3; 
+	optional uint32 unQueueNum = 4;
+}
+
+ 
+ 
+ 
+message MsgEarthDemonRecoverReq {
+	
+}
+
+ 
+ 
+ 
+message MsgEarthDemonRecoverRet {
+	required uint32 code = 1;
+	optional uint32 unLeftPercent = 2; 
+}
+
+ 
+message EerthFailInfo
+{
+	required uint32 unStarNum = 1;
+	required uint32 unIndex = 2;
+	required uint64 iFightTime = 3; 
+}
+
+ 
+ 
+ 
+message MsgEarthDemonSelfInfoSyn {
+	required uint32 unKillNum = 1; 
+	required uint32 unRobNum = 2; 
+	required uint32 unStarNum = 3; 
+	required uint64 iFightTime = 4; 
+	repeated EerthFailInfo failInfos = 5; 
+	optional uint32 buffnum = 6; 
+	optional uint32 filter = 7; 
+}
+
+message EarthDemonRemindInfo {
+	required uint32 starNum = 1; 
+	required bool bRemind = 2; 
+}
+
+ 
+ 
+ 
+message MsgEarthDemonRemindSyn {
+	repeated EarthDemonRemindInfo infos = 1;
+}
+
+ 
+ 
+ 
+message MsgEarthDemonRemindSet {
+	repeated EarthDemonRemindInfo infos = 1;
+}
+
+ 
+ 
+ 
+message MsgEarthDemonRemindRet {
+	required uint32 code = 1;
+}
+
+ 
+ 
+ 
+message MsgEarthDemonDeadRefreshInfo {
+	required uint32 unStarNum = 1;
+	required uint32 unIndex = 2;
+	required uint64 iTime = 3; 
+}
+
+ 
+ 
+ 
+message MsgEarthDemonBuyBuffReq {
+}
+
+ 
+ 
+ 
+message MsgEarthDemonBuyBuffRet {
+	required uint32 code = 1;
+	optional uint32 num = 2; 
+}
+
+ 
+ 
+ 
+message MsgEarthDemonKillBroadCast
+{
+	required string name = 1;
+	required uint32 unStarNum = 2;
+	required uint32 unIndex = 3;
+}
+
+ 
+ 
+ 
+message MsgEarthDemonFilterReq
+{
+	required uint32 unStarNum = 1; 
+}
+
+ 
+ 
+ 
+message MsgEarthDemonFilterRet
+{
+	required uint32 code = 1;
+	optional uint32 filter = 2; 
+}
+ 
+ 
+message MsgEnterGameWorld {
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+message MsgDressEquipToBodyReq{
+   required uint32 bagIndex  = 1;            
+   required uint64 equipSerialId  = 2;       
+}
+
+
+
+ 
+ 
+ 
+message MsgResultOfDressEquipToBody{
+   required uint32 code  = 1;                 
+   required uint32 bagIndex  = 2;             
+   required uint64 equipSerialId  = 3;        
+}
+
+ 
+ 
+ 
+message MsgTakeOffEquipFromBodyReq{
+   required uint32 partTypeValue  = 1;       
+   required uint64 equipSerialId  = 2;       
+}
+
+
+ 
+ 
+ 
+message MsgResultOfTakeOffEquipFromBodyReq{
+   required uint32 code  = 1;                  
+   required uint32 partTypeValue  = 2;         
+   required uint64 equipSerialId  = 3;         
+}
+
+ 
+ 
+ 
+message MsgResolveEquipFromBodyReq{
+   required uint32 bagIndex  = 1;            
+   required uint64 equipSerialId  = 2;       
+}
+
+ 
+ 
+ 
+message MsgResultResolveEquipFromBody{
+   required uint32 code  = 1;                  
+   required uint32 bagIndex  = 2;              
+   required uint64 equipSerialId  = 3;         
+}
+
+
+
+ 
+ 
+ 
+message MsgRepairEquipEndureReq{
+   required uint32 repairType = 1;            
+   required uint32 containerType   = 2;       
+   required uint32 containerIndex  = 3;       
+   required uint64 equipSerialId   = 4;       
+}
+
+ 
+ 
+ 
+message MsgResultRepairEquipEndure{
+   required uint32 code  = 1;                 
+   required uint32 repairType = 2;            
+   required uint32 containerType   = 3;       
+   required uint32 containerIndex  = 4;       
+   required uint64 equipSerialId   = 5;       
+}
+
+
+ 
+ 
+ 
+message MsgEquipClothesPlanInfoSync{
+    required uint32 planId  = 1;                       
+	required uint64 switchPlanCdEndUnixTime = 2;       
+}
+
+ 
+ 
+ 
+message MsgChangeEquipClothesPlan{
+  required uint32 planId  = 1;                       
+}
+
+
+ 
+ 
+ 
+message MsgRetChangeEquipClothesPlanResult{
+    required uint32 code  = 1;                 
+    required uint32 planId  = 2;                       
+	required uint64 switchPlanCdEndUnixTime = 3;       
+}
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+message MsgSyncForgeEquipment{
+   required uint32 openFlagValue  = 1;       
+   required uint64 craftsmanValue = 2;       
+   required uint32 receivedCount  = 3;       
+}
+
+
+
+ 
+ 
+ 
+message MsgForgeEquipmentReq{
+   required uint32 strengthUpForge = 1;    
+   required uint32 equipLv = 2;            
+   required uint32 equipCfgId = 3;         
+}
+
+
+ 
+ 
+ 
+message MsgResultOfForgeEquip {
+    required uint32 code = 1;                     
+	required uint32 strengthUpForge = 2;          
+    required uint32 equipLv = 3;                  
+    required uint32 equipCfgId = 4;               
+	optional uint32 equipPosition = 5;            
+	optional uint64 craftsmanValue= 6;            
+}
+
+
+
+ 
+ 
+ 
+message MsgReceiveForgeReward {
+    
+}
+
+
+ 
+ 
+ 
+message MsgRetReceiveForgeResult {
+    required uint32 code = 1;                 
+	optional uint64 craftsmanValue = 2;       
+    optional uint32 receivedCount  = 3;       
+    optional uint32 rewardConfigId = 4;       
+}
+ 
+message MsgAttributeSmeltData{
+   required uint32  attributeId  = 1;    
+   required uint32  smeltLv = 2;         
+   required int32   attributeValue = 3;  
+}
+
+message MsgPartSmeltData{
+   required uint32  partId  = 1;       
+   required uint32  smeltExp = 2;      
+   repeated MsgAttributeSmeltData attributeSmeltDataList = 3;   
+}
+
+ 
+ 
+ 
+message MsgSyncEquipSmeltData{
+   required uint32 smeltFunctionIsOpen      = 1;     
+   repeated MsgPartSmeltData partSmeltDataList = 2;  
+}
+
+ 
+message MsgEquipSmeltUnionDataReqList{
+   required uint32 bagIndex = 1;           
+   required uint64 equipSerialId = 2;      
+}
+
+ 
+ 
+ 
+message MsgEquipSmeltReq{
+   required uint32 partId      = 1;     
+   repeated MsgEquipSmeltUnionDataReqList smeltUnionDataList = 2;   
+ }
+
+
+ 
+ 
+ 
+message MsgResultOfEquipSmelt{
+   required uint32 code    = 1;     
+   required uint32 partId  = 2;     
+   optional MsgPartSmeltData partSmeltDataInfo = 3;  
+ }
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+ 
+
+ 
+ 
+ 
+message MsgEquipStoneHoleData{
+   required uint32 holeId        = 1;   
+   required uint32 statusValue   = 2;   
+   required uint64 stoneSerialId = 3;   
+   optional MsgSyncThing syncThingData = 4;   
+}
+
+ 
+ 
+ 
+message MsgEquipStonePartData{
+   required uint32 partId      = 1;                        
+   repeated MsgEquipStoneHoleData partHoleStoneData = 2;   
+}
+
+
+ 
+ 
+ 
+message MsgSyncEquipStoneInfo{
+   required uint32 setStoneIsOpen      = 1;            
+   required uint32 combineStoneIsOpen  = 2;            
+   repeated MsgEquipStonePartData equipPartData = 3;   
+}
+
+
+
+ 
+ 
+ 
+message MsgActiveStonePartHoleReq{
+   required uint32 partId   = 1;     
+   required uint32 holeId   = 2;     
+}
+
+
+ 
+ 
+ 
+message MsgResultActiveStonePartHole{
+   required uint32 code    = 1;     
+   required uint32 partId  = 2;     
+   required uint32 holeId  = 3;     
+   required uint32 statusValue   = 4;   
+}
+
+
+ 
+ 
+ 
+message MsgSetStoneToPartHoleReq{
+   required uint32 partId   = 1;     
+   required uint32 holeId   = 2;     
+   required uint32 bagIndex = 3;     
+}
+
+
+
+ 
+ 
+ 
+message MsgResultOfSetStoneToPartHole{
+   required uint32 code     = 1;        
+   required uint32 partId   = 2;        
+   required uint32 holeId   = 3;        
+   required uint32 statusValue   = 4;   
+   optional MsgSyncThing syncThingData = 5;   
+}
+
+
+ 
+ 
+ 
+message MsgTakeOffStoneFromPartHoleReq{
+   required uint32 partId   = 1;     
+   required uint32 holeId   = 2;     
+}
+
+
+ 
+ 
+ 
+message MsgResultOfTakeOffStoneFromPartHole{
+   required uint32 code     = 1;        
+   required uint32 partId   = 2;        
+   required uint32 holeId   = 3;        
+   required uint32 statusValue   = 4;   
+}
+
+
+ 
+ 
+ 
+message MsgStoneCombinedReq{
+   required uint32 partId   = 1;         
+   required uint32 holeId   = 2;         
+   required uint32 stonecfgid  = 3;      
+   required uint32 isQuickFlag = 4;      
+}
+
+
+ 
+ 
+ 
+message MsgResultOfStoneCombined{
+   required uint32 code     = 1;     
+   required uint32 partId   = 2;     
+   required uint32 holeId   = 3;     
+   optional uint32 statusValue   = 4;         
+   optional MsgSyncThing syncThingData = 5;   
+}
+
+
+
+message MsgSetStoneInfo{
+   required uint32 holeId   = 1;     
+   required uint32 bagIndex = 2;     
+}
+
+ 
+ 
+ 
+message MsgOneKeyToSetStonePartReq{
+   required uint32 partId   = 1;                
+   repeated MsgSetStoneInfo setStoneList = 2;   
+}
+
+ 
+ 
+ 
+message MsgResultOfOneKeyToSetStonePart{
+   required uint32 code  = 1;            
+   optional MsgEquipStonePartData stonePartData = 2;  
+}
+
+
+
+ 
+
+message EudemonProperty {
+	required uint32 aptAtk = 1;				 
+	required uint32 aptDef = 2;				 
+	required uint32 aptHp = 3;				 
+	required uint32 aptSpeed = 4;			 
+}
+
+message EudemonSkill{
+	required uint32 unskillId = 1;				 
+	required uint32 unSkillLev = 2;				 
+}
+
+message EudemonInfoDetail {
+	required uint64 eudemonId = 1;
+	required uint32 eudType = 2;
+	required string name = 3;
+	required uint32 level = 4;
+	required uint64 exp = 5;
+	required uint32 hp = 6;			 
+	required uint32 quality = 7;	 
+	required EudemonProperty prop = 8; 
+	required uint32 combat = 9;		 
+	repeated EudemonSkill skill = 10;	 
+	required uint32 stage = 11;		 
+	required uint64 activeTime = 12; 
+	required uint32 fightPos = 13; 
+}
+
+ 
+ 
+ 
+message MsgEudemonInfo {
+	repeated EudemonInfoDetail infos = 1;
+}
+
+ 
+ 
+ 
+message MsgEudemonSetFightReq {
+	required uint64 idEudemon = 1;  
+	required uint32 fightPos = 2; 
+	required bool bOneKey = 3; 
+}
+
+message EudemonFightPos {
+	required uint64 idEudemon = 1;  
+	required uint32 fightPos = 2; 
+}
+
+ 
+ 
+message MsgEudemonSetFightRet {
+	required uint32 res = 1;  
+	repeated EudemonFightPos fightPos = 2; 
+}
+
+ 
+ 
+ 
+message MsgEudemonLevUp {
+	required uint64 idEudemon = 1;  
+	required bool bOneKey = 2; 
+}
+
+ 
+ 
+ 
+message MsgEudemonLevUpRet {
+	required uint32 res = 1;  
+}
+
+ 
+ 
+ 
+message MsgEudemonSynExp {
+	required uint64 idEudemon = 1;  
+	required uint32 level = 2;  
+	required uint64 exp = 3;  
+}
+
+ 
+ 
+ 
+message MsgEudemonStageUp {
+	required uint64 idEudemon = 1;  
+}
+
+ 
+ 
+ 
+message MsgEudemonStageUpRet {
+	required uint32 res = 1;  
+}
+
+ 
+ 
+ 
+message MsgEudemonSynStage {
+	required uint64 idEudemon = 1;  
+	required uint32 stage = 2;  
+}
+
+ 
+ 
+ 
+message MsgEudemonActive {
+	required uint32 eudemonType = 1;  
+}
+
+ 
+ 
+ 
+message MsgEudemonActiveRet {
+	required uint32 res = 1;  
+	optional uint32 eudemonType = 2;
+}
+
+ 
+ 
+ 
+message MsgEudemonWashSkill {
+	required uint64 idEudemon = 1;  
+	repeated uint32 lockSkillId = 2; 
+	required bool bBuyItem = 3; 
+}
+
+ 
+ 
+ 
+message MsgEudemonWashSkillRet {
+	required uint32 code = 1;  
+	optional uint64 idEudemon = 2;  
+	repeated uint32 finalSkillId = 3; 
+}
+
+ 
+ 
+ 
+message MsgEudemonChangeSkill {
+	required uint64 idEudemon = 1;  
+	required uint32 changeSkillId = 2; 
+}
+
+ 
+ 
+ 
+message MsgEudemonChangeSkillRet {
+	required uint32 code = 1;  
+	optional uint64 idEudemon = 2;  
+	optional uint32 orgSkillId = 3; 
+	optional uint32 newSkillId = 4; 
+}
+
+ 
+ 
+ 
+message MsgEudemonAwardBroadCast {
+	required string name = 1;
+	required uint32 type = 2; 
+}
+
+ 
+ 
+ 
+message MsgEudemonReceiveReq {
+	required uint32 eudemonConfigId = 1;   
+	required uint32 receiveType = 2;       
+}
+
+
+ 
+ 
+ 
+message MsgEudemonResultOfReceive {
+    required uint32 code = 1;              
+	required uint32 eudemonConfigId = 2;   
+	required uint32 receiveType = 3;       
+}
+
+
+ 
+
+message RewardItemInfo
+{
+	required uint32 itemType = 1;
+	required uint32 num = 2;
+}
+
+message EudemonFeedInfo
+{
+	required uint32 pos = 1; 
+	required uint32 eudemonType = 2; 
+	required uint32 jyId = 3; 
+	required uint64 endTime = 4; 
+	repeated RewardItemInfo reward = 5; 
+	required uint32 eudExp = 6; 
+}
+
+ 
+ 
+ 
+message MsgEudemonGardonInfo{
+   repeated EudemonFeedInfo feedInfo = 1;
+   optional uint32 freeNum = 2; 
+}
+
+ 
+ 
+ 
+message MsgEudemonGardonFeedReq
+{
+	required uint32 pos = 1; 
+	required uint32 eudemonType = 2; 
+	required uint32 jyId = 3; 
+}
+
+ 
+ 
+ 
+message MsgEudemonGardonFeedRet
+{
+	required uint32 code = 1; 
+}
+
+ 
+ 
+ 
+message MsgEudemonGardonEndFeedReq
+{
+	required uint32 pos = 1; 
+}
+
+ 
+ 
+ 
+message MsgEudemonGardonEndFeedRet
+{
+	required uint32 code = 1; 
+}
+message MsgFashionRecords{
+   required uint32 fashionId = 1;      
+   required uint64 endTime  = 2;       
+}
+
+ 
+ 
+ 
+message MsgSyncFashionData{
+   required uint32  functionOpenFlag  = 1;             	 
+   required uint32 activeFashionId = 2;  		 
+   repeated MsgFashionRecords FashionRecords = 3;          
+}
+
+ 
+ 
+ 
+message MsgActiveFashion{
+   required uint32 FashionId = 1;          
+}
+
+ 
+ 
+ 
+message MsgResultOfActiveFashion{
+   required uint32 resultCodeValue = 1;          
+   required uint32 activeFashionId = 2;          
+}
+
+
+ 
+ 
+ 
+message MsgSeceneSyncFashionAvatarId{
+   required uint32 sceneObjId = 1;
+   required uint32 fashionAvatarId = 2;
+}
+
+
+ 
+ 
+ 
+message MsgOutOfTimeFashionId{
+   repeated uint32 fashionIdList = 1;
+}
+
+
+ 
+ 
+ 
+message MsgCancelFashionToUnactived{
+   required uint32 fashionId = 1;          
+}
+
+
+ 
+ 
+ 
+message MsgResultOfCancelFashionToUnactived{
+   required uint32 code  = 1;              
+   required uint32 fashionId = 2;          
+}
+ 
+message MsgFestivalConsumeActivityData {
+   required uint32 configGroupId = 1;       
+   required uint32 beginUnixTime = 2;
+   required uint32 endUnixTime = 3;
+   required uint32 dayValue = 4;
+   required uint32 consumeTotalEmoney = 5;   
+   repeated uint32 receiveValueList = 6;     
+}
+
+ 
+ 
+ 
+message MsgSyncFestivalConsumeData {
+	repeated MsgFestivalConsumeActivityData  consumeActivityList = 1;    
+}
+
+
+ 
+ 
+ 
+message MsgReceiveFestivalConsumeReward {
+   required uint32 configGroupId = 1;         
+   required uint32 consumeValue  = 2;         
+}
+
+
+ 
+ 
+ 
+message MsgResultOfReceiveFestivalConsumeReward {
+   required uint32 code = 1;                  
+   required uint32 configGroupId = 2;         
+   required uint32 consumeValue = 3;          
+}
+
+
+message MsgUpdateFestivalConsumeUnitData {
+   required uint32 configGroupId = 1;       
+   required uint32 dayValue = 2;
+   required uint32 totalConsumeEmoney = 3;
+}
+
+ 
+ 
+ 
+message MsgUpdateFestivalConsumeToSync {
+   repeated MsgUpdateFestivalConsumeUnitData updateConsumeList = 1;
+}
+
+
+
+
+
+
+
+
+ 
+ 
+message FestivalLotteryLibInfo{
+	required uint32 unIndex = 1;    
+	required uint32 itemId = 2;     
+}
+
+message FestivalLuckyLottery {
+	required uint32 groupId = 1;            
+	required uint32 beginUnixTime = 2;
+	required uint32 endUnixTime = 3;
+	required uint32 score = 4;                 
+	required uint32 getFirst10 = 5;            
+	repeated uint32 receivedScoreList = 6;     
+	required uint64 freeTime = 7;
+	repeated FestivalLotteryLibInfo libInfo = 8;
+}
+
+ 
+ 
+ 
+message MsgSyncFestivalLuckyLotteryInfo {
+   repeated FestivalLuckyLottery lotteryInfoList = 1;   
+}
+
+
+ 
+ 
+ 
+message MsgFestivalLuckyLotteryReq {
+	required uint32 groupId = 1;	      
+	required uint32 lotteryId = 2;        
+	required uint32 lotteryCount = 3;     
+}
+
+message FestivalLotteryRewardInfo{
+	required uint32 itemId = 1;
+	required uint32 unNum = 2;
+}
+
+message FestivalLotteryReplace{
+    required uint32 unRound = 1;  
+    required uint32 unIndex = 2;  
+	required uint32 itemId = 3;   
+}
+
+
+
+ 
+ 
+ 
+message MsgResultOfFestivalLuckyLottery {
+    required uint32 code = 1;                         
+	required uint32 groupId = 2;	                  
+	required uint32 lotteryId = 3;                    
+	required uint32 lotteryCount = 4;                 
+	repeated FestivalLotteryRewardInfo rewardInfoList = 5;    
+	repeated FestivalLotteryReplace replaceList = 6;          
+	optional FestivalLuckyLottery newLotteryInfo = 7;         
+}
+
+
+ 
+ 
+ 
+message MsgReceiveFestivalLuckyLotteryScoreReward {
+	required uint32 groupId = 1;	      
+	required uint32 scoreValue = 2;       
+}
+
+
+
+ 
+ 
+ 
+message MsgResultOfReceiveFestivalLuckyLotteryScoreReward {
+    required uint32 code = 1;                 
+	required uint32 groupId = 2;	          
+	required uint32 scoreValue = 3;           
+}
+
+
+ 
+ 
+ 
+message MsgFestivalLuckyLotteryQueryReq  {
+	required uint32 groupId = 1;
+}
+
+
+message FestivalLuckyLotteryQueryDeatail{
+    required uint32 unIndex = 1;    
+	required string name = 2;
+	required uint32 itemid = 3;
+	required uint32 num = 4;
+}
+
+ 
+ 
+ 
+message MsgFestivalLuckyLotteryQueryRet {
+	required uint32 code = 1;
+	required uint32 groupId = 2;
+	repeated FestivalLuckyLotteryQueryDeatail rewardInfoList = 3;
+}
+
+
+
+ 
+ 
+ 
+message MsgFestivalLuckyLotteryClearScore {
+	required uint32 groupId = 1;
+}
+ 
+message MsgFestivalRechargeActivityData {
+   required uint32 configGroupId = 1;       
+   required uint32 beginUnixTime = 2;
+   required uint32 endUnixTime = 3;
+   required uint32 dayValue = 4;
+   required uint32 totalRechargeRmb = 5;     
+   repeated uint32 receiveValueList = 6;     
+}
+
+ 
+ 
+ 
+message MsgSyncFestivalRechargeData {
+	repeated MsgFestivalRechargeActivityData  rechargeActivityList = 1;    
+}
+
+
+ 
+ 
+ 
+message MsgReceiveFestivalRechargeReward {
+   required uint32 configGroupId = 1;         
+   required uint32 rechargeRmb  = 2;          
+}
+
+
+ 
+ 
+ 
+message MsgResultOfReceiveFestivalRechargeReward {
+   required uint32 code = 1;                  
+   required uint32 configGroupId = 2;         
+   required uint32 rechargeRmbValue = 3;      
+}
+
+
+message MsgUpdateFestivalRechargeUnitData {
+   required uint32 configGroupId = 1;       
+   required uint32 dayValue = 2;
+   required uint32 totalRechargeRmb = 3;
+}
+
+ 
+ 
+ 
+message MsgUpdateFestivalRechargeToSync {
+   repeated MsgUpdateFestivalRechargeUnitData updateRechargeList = 1;
+}
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+message MsgFestivalTurntableUnitData {
+   required uint32 configGroupId = 1;         
+   required uint32 beginUnixTime = 2;         
+   required uint32 endUnixTime = 3;           
+   required uint32 currentBringNum = 4;       
+   required uint32 bringProgressValue = 5;    
+   repeated uint32 receiveIdValueList = 6;    
+}
+
+ 
+ 
+ 
+message MsgSyncFestivalTurntableActivityData {
+   repeated MsgFestivalTurntableUnitData activityDataList = 1;   
+}
+
+
+ 
+ 
+ 
+message MsgSyncFestivalTurntableBringProgressValue {
+   required uint32 configGroupId = 1;         
+   required uint32 currentBringNum = 2;       
+   required uint32 bringProgressValue = 3;    
+}
+
+
+
+ 
+ 
+ 
+message MsgLuckDrawFestivalTurntableReq {
+   required uint32 configGroupId = 1;         
+}
+
+
+ 
+ 
+ 
+message MsgResultOfLuckDrawFestivalTurntable {
+   required uint32 code = 1;                  
+   required uint32 configGroupId = 2;         
+   optional uint32 currentBringNum = 3;       
+   optional uint32 bringProgressValue = 4;    
+   repeated uint32 receiveIdValueList = 5;    
+}
+
+
+ 
+ 
+ 
+message MsgHandResetFestivalTurntableReq {
+   required uint32 configGroupId = 1;         
+}
+
+
+ 
+ 
+ 
+message MsgResultOfHandResetFestivalTurntable {
+   required uint32 code = 1;                  
+   required uint32 configGroupId = 2;         
+}
+
+message MsgFirstimpulseRewardStatus{
+	required uint32 unTypeId = 1;         
+	required uint32 unReceiveFlag = 2;    
+}
+
+ 
+ 
+ 
+message MsgFirstimpulseStatusInfo{
+	required uint32 unRechargeNum = 1;                        
+	repeated MsgFirstimpulseRewardStatus rsRewardStatus = 2;  
+}
+
+ 
+ 
+ 
+message MsgFirstimpulseGetReward{
+	required uint32 unTypeId = 1;      
+}
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+message MsgFirstimpulseGetRewardRet{
+	required uint32 code = 1;            
+	required uint32 unTypeId = 2;
+}
+
+
+ 
+ 
+ 
+message MsgChangeFirstimpulseRechargeValue{
+	required uint32 unRechargeNum = 1;       
+}
+message MsgFirstimpulsedayStatus{
+	required uint32 typeId = 1;         
+	required uint32 receiveFlag = 2;    
+}
+
+ 
+ 
+ 
+message MsgSyncFirstimpulsedayInfo{
+    required uint32 matchesId = 1;   
+	required uint32 chargeNum = 2;   
+	repeated MsgFirstimpulsedayStatus rewardStatus = 3; 
+}
+
+ 
+ 
+ 
+message MsgFirstimpulsedayGetReward{
+	required uint32 rewardTypeId = 1;
+}
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+message MsgFirstimpulsedayGetRewardRet{
+	required uint32 code = 1;      
+	required uint32 rewardTypeId = 2;
+}
+
+
+ 
+ 
+ 
+message MsgChangeFirstimpulseDayRecharge{
+	required uint32 rechargeNum = 1;       
+}
+
+ 
+ 
+ 
+message MsgFortuneCatInfo{
+   required uint32 recharge = 1;      
+   required float multiple = 2;      
+}
+
+
+ 
+ 
+ 
+message MsgFortuneCatResult{
+   required uint32 msg = 1;      
+   required uint32 ret = 2;      
+   required float para= 3;			 
+}
+
+
+ 
+ 
+ 
+message MsgFortuneCatDraw{
+
+}
+	
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+message MsgOfficialFriendData{
+   required uint32 type = 1;                  
+   required uint32 lv = 2;                    
+   required uint32 star = 3;                  
+   required uint32 lastMeetUnixTime = 4;      
+   required uint32 beMeetedAddCurrency = 5;   
+}
+
+ 
+message MsgFriendData{
+   required uint64 characterId = 1;
+   required string characterName = 2;
+   required uint32 roleTypeId = 3;
+   required uint32 lvValue = 4;
+   required uint32 combatValue = 5;
+   required string guildName = 6;
+   required uint64 offlineSeconds = 7;      
+   optional uint32 sendStamina = 8;         
+   optional uint32 receiveStamina = 9;      
+   repeated MsgOfficialFriendData officialList = 10;         
+   optional BlueDiamondsData blueInfo = 11;   
+}
+
+
+ 
+ 
+ 
+message MsgSyncFriendBaseData{
+   required uint32 totalFriendCount = 1;             
+   required uint32 totalBlackerCount = 2;            
+   required uint32 totalFriendRequestCount = 3;      
+   required uint32 totalStaminaRecieverList = 4;     
+   required uint32 receiveStamina = 5;               
+}
+
+
+ 
+ 
+ 
+message MsgRequestFriend{
+   required uint32 beginIndex = 1;   
+   required uint32 endIndex = 2;     
+}
+
+
+ 
+ 
+ 
+message MsgSyncFriendList{
+   required uint32 beginIndex = 1;               
+   required uint32 endIndex = 2;                 
+   repeated MsgFriendData friendDataList = 3;    
+}
+
+ 
+ 
+ 
+message MsgAddFriendReq{
+   required uint64 characterId = 1;
+}
+
+
+ 
+ 
+ 
+message MsgResultOfAddFriend{
+   required uint32 code = 1;                
+   required uint64 characterId = 2;        
+}
+
+
+ 
+ 
+ 
+message MsgNotifyFriendRequestAddList{   
+   required MsgFriendData friendData = 1;
+}
+
+
+ 
+ 
+ 
+message MsgLookUpFriendRequestList{   
+   required uint32 beginIndex = 1;   
+   required uint32 endIndex = 2;     
+}
+
+ 
+ 
+ 
+message MsgRetLookUpFriendRequestList{   
+   required uint32 beginIndex = 1;   
+   required uint32 endIndex = 2;     
+   repeated MsgFriendData friendData = 3;
+}
+
+
+ 
+ 
+ 
+message MsgAnswerFriendAddRequest{ 
+   required uint32 answerFlagValue = 1;   
+   required uint64 characterId = 2;
+}
+
+ 
+ 
+ 
+message MsgReturnAnswerFriendToRequester{ 
+   required uint32 answerFlagValue = 1;   
+   required uint64 characterId = 2;
+   required MsgFriendData friendData = 3;
+}
+
+
+
+ 
+ 
+ 
+message MsgCancelFriendRelation{
+   required uint64 characterId = 1;
+}
+
+
+ 
+ 
+ 
+message MsgResultOfCancelFriendRelation{
+   required uint32 code = 1;                
+   required uint64 characterId = 2;
+}
+
+ 
+ 
+ 
+message MsgNotifyCancelFriendRelation{
+   required MsgFriendData friendData = 1;
+}
+
+
+ 
+ 
+ 
+message MsgSendStaminaToFriend{
+   required uint64 characterId = 1;
+}
+
+
+ 
+ 
+ 
+message MsgResultOfSendStaminaToFriend{
+   required uint32 code = 1;                
+   required uint64 characterId = 2;
+}
+
+
+ 
+ 
+ 
+message MsgNotifySendStaminaToFriend{
+   required uint64 characterId = 1;
+   optional uint32 receiveStamina = 2;      
+}
+
+
+ 
+ 
+ 
+message MsgReceiveStaminaFromFriend{
+   required uint64 characterId = 1;
+   
+}
+
+
+ 
+ 
+ 
+message MsgResultReceiveStaminaFromFriend{
+   required uint32 code = 1;                
+   required uint64 characterId = 2;
+   optional uint32 remainStamina = 3;       
+   optional uint32 receiveStamina = 4;      
+}
+
+
+
+
+ 
+ 
+ 
+message MsgQueryBlackerListReq{
+   required uint32 beginIndex = 1;   
+   required uint32 endIndex = 2;     
+}
+
+
+
+ 
+ 
+ 
+message MsgRetBlackerListList{
+   required uint32 beginIndex = 1;   
+   required uint32 endIndex = 2;     
+   repeated MsgFriendData blackerListData = 3;
+}
+
+
+ 
+ 
+ 
+message MsgAddBlackerToBlackerList{
+   required uint64 characterId = 1;
+}
+
+
+ 
+ 
+ 
+message MsgRetAddBlackerToBlackerListResult{
+   required uint32 code = 1;                
+   required uint64 characterId = 2;
+}
+
+
+ 
+ 
+ 
+message MsgRemoveBlackerFromBlackerList{
+   required uint64 characterId = 1;
+}
+
+
+ 
+ 
+ 
+message MsgResultRemoveBlackerFromBlackerList{
+   required uint32 code = 1;                
+   required uint64 characterId = 2;
+}
+
+
+ 
+ 
+ 
+message MsgQueryRecommendCharacterList{
+   
+}
+
+
+ 
+ 
+ 
+message MsgRetRecommendCharacterList{
+   repeated MsgFriendData friendDataList = 1;
+}
+
+ 
+ 
+ 
+message MsgOneKeySendStaminaToFriend{
+   
+}
+
+
+
+ 
+ 
+ 
+message MsgResultOfOneKeySendStaminaToFriend{
+    required uint32 code = 1;                  
+	repeated uint64 sendCharacterIdList = 2;   
+}
+
+
+ 
+ 
+ 
+message MsgOneKeyReceiveStaminaFromFriend{
+   
+}
+
+message MsgFriendRemainStamina{
+   required uint64 characterId = 1;
+   required uint32 remainStamina = 2;   
+}
+
+
+ 
+ 
+ 
+message MsgResultOfOneKeyReceiveStaminaFromFriend{
+    required uint32 code = 1;                                      
+	repeated MsgFriendRemainStamina receiveCharacterIdList = 2;   
+	optional uint32 receiveStamina = 3;                           
+}
+
+
+ 
+ 
+ 
+message MsgResultOfAnswerToBeFriend{ 
+   required uint32 code = 1;                
+   required uint32 answerFlagValue = 2;     
+   required uint64 characterId = 3;
+}
+
+
+
+
+ 
+ 
+ 
+message MsgSyncOnlineToOnlineFriend{ 
+   required uint32 relationType = 1;       
+   required MsgFriendData friendData = 2;
+}
+
+
+ 
+ 
+ 
+message MsgSyncOfflineToOnlineFriend{ 
+   required uint32 relationType = 1;        
+   required uint64 characterId = 2;         
+   required uint64 offlineTime = 3;         
+}
+
+
+
+ 
+ 
+ 
+message MsgQuerySpecficFriendInfo{ 
+   required uint64 friendCharacterId = 1;         
+}
+
+
+message MsgFriendDevelopAvatar{
+   required uint32 developTypeValue     = 1;
+   required uint32 developAvatarIdValue = 2;
+}
+
+
+ 
+ 
+ 
+message MsgRetSpecficFriendInfo{ 
+   required uint64 friendCharacterId = 1;         
+   required string friendName = 2;                
+   required uint32 combatValue = 3;               
+   required uint32 roleType = 4;                  
+   required uint32 sex = 5;                       
+   required uint32 lvValue = 6;                   
+   required string guildName = 7;                 
+   repeated MsgFriendDevelopAvatar developAvatarList = 8;    
+   required uint32 isFriendList = 9;                         
+   optional uint32 sendStaminaCount = 10;                    
+   required uint32 isBlackerList = 11;                       
+   optional uint32 isQueryToBeFriend = 12;                   
+   required bool isOnline = 13;					 
+}
+
+
+ 
+ 
+ 
+message MsgQueryFriendStaminaReceiveList{   
+   required uint32 beginIndex = 1;   
+   required uint32 endIndex = 2;     
+}
+
+
+ 
+ 
+ 
+message MsgReturnFriendStaminaReceiveList{   
+   required uint32 beginIndex = 1;               
+   required uint32 endIndex = 2;                 
+   repeated MsgFriendData friendDataList = 3;    
+}
+ 
+message ReceivedFunctionGoalList{
+   required uint32 groupId = 1; 
+   repeated uint32 receivedGoalIdList = 2;                  
+}
+
+
+
+ 
+ 
+ 
+message MsgSyncFunctionGoalInfo{
+   repeated ReceivedFunctionGoalList receiveGroupList = 1;         
+}
+
+
+
+ 
+ 
+ 
+message MsgReceiveFunctionGoalReq{
+   required uint32 groupId = 1;
+   required uint32 goalId = 2;
+   required uint32 receiveType = 3;   
+}
+
+
+ 
+ 
+ 
+message MsgResultOfReceiveFunctionGoal{
+   required uint32 code = 1;          
+   required uint32 groupId = 2;
+   required uint32 goalId = 3;
+   required uint32 receiveType = 4;   
+}
+
+ 
+message MsgGangSkillInfo{
+	required uint32 skillId = 1; 
+	required uint32 skillLev = 2; 
+}
+
+ 
+message MsgGangSkillAttr{
+	required uint32 attrType = 1; 
+	required uint32 attrNum = 2; 
+}
+
+ 
+ 
+ 
+message MsgGangSkillInfoRet{
+	repeated MsgGangSkillInfo skill = 1; 
+}
+
+ 
+ 
+ 
+message MsgGangSkillAddLevReq{
+	required uint32 skillId = 1;
+}
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+message MsgGangSkillAddLevRet{
+	required uint32 ecode = 1;
+	required uint32 skillId = 2;
+	required uint32 curlev = 3;
+}
+
+
+ 
+
+ 
+ 
+ 
+message MsgGmCommandTalk{
+   required string gmCommandContent = 1;    
+}
+ 
+message MsgReceivedGroupBuyReward{
+   required uint32 groupId = 1;      
+   required uint32 rechargeId = 2;   
+}
+
+
+ 
+ 
+ 
+message MsgGroupBuyInfo{
+   required uint32 activityId = 1;            
+   required uint32 rechargeMemberCount = 2;   
+   required uint32 rechargeEmoneyValue = 3;   
+   repeated MsgReceivedGroupBuyReward  receiveRewardArray = 4;   
+}
+
+
+ 
+ 
+ 
+message MsgSyncRechargeGroupBuyValue{
+   required uint32 rechargeEmoneyValue = 1;   
+}
+
+
+ 
+ 
+ 
+message MsgSyncGroupBuyMemberCount{
+   required uint32 rechargeMemberCount = 1;   
+}
+
+
+ 
+ 
+ 
+message MsgChangeGroupBuyMemberActivity{
+   required uint32 oldActivityId = 1;   
+   required uint32 newActivityId = 2;   
+}
+
+
+ 
+ 
+ 
+message MsgReceiveGroupBuyReward{
+   required uint32 groupId = 1;      
+   required uint32 rechargeId = 2;   
+}
+
+
+ 
+ 
+ 
+message MsgResultOfReceiveGroupBuyReward{
+   required uint32 code = 1;              
+   required uint32 groupId = 2;      
+   required uint32 rechargeId = 3;   
+}
+
+
+ 
+ 
+ 
+message MsgQueryGroupBuyInfo{
+
+}
+
+
+
+
+
+ 
+
+
+ 
+message MsgReqGuildList {
+   required uint32 minGuildId = 1;
+   required uint32 maxGuildId = 2;
+}
+
+message MsgGuildBaseData {
+	required uint32 id 		=1;
+	required string name 	=2;
+	required uint32	level	=3;
+	required string leadername	 =4;	
+	required uint32 memberCount	 =5;	
+	required uint32 limitcombat	 =6;	           
+	required uint32 isAutoJoin	 =7;	           
+	optional BlueDiamondsData leaderBlueInfo = 8;  
+}
+
+
+
+ 
+ 
+message MsgServerAllGuildList {
+    required uint32 minGuildId = 1;
+    required uint32 maxGuildId = 2;
+	repeated MsgGuildBaseData guildList = 3;
+}
+
+ 
+ 
+message MsgGuildInfo {
+	required uint32 id 		=1;
+	required string name 	=2;
+	required uint32	level	=3;
+	required string leadername	 =4;	
+	required uint32 memberCount	 =5;	
+	required uint32 limitcombat	 =6;	 
+	required uint32 isAutoJoin	 =7;	 
+	required uint64 createtime	 =8;	 
+	required string announce	 =9;	 
+	required uint32 guildMoney   = 10;   
+	required uint32 contribution = 11;   
+	required uint32 xiangHuoZhi  = 12;   
+	required uint32 donateMemberCount = 13;           
+	optional BlueDiamondsData leaderBlueInfo = 14;    
+}
+
+
+ 
+ 
+ 
+message MsgCreateGuildReq{
+	required uint32 type	=1;    
+	required string name	=2;	   
+}
+
+ 
+ 
+ 
+message MsgResultOfCreateGuildReq{
+    required uint32 code   = 1;     
+	required uint32 type	=2;     
+	required string name	=3;	    
+}
+
+ 
+ 
+ 
+message MsgApplyJoinToGuild{
+    required uint32 guildId = 1;   
+}
+
+ 
+ 
+ 
+message MsgResultOfApplyJoinToGuild{
+    required uint32 code    = 1;     
+    required uint32 guildId = 2;     
+}
+
+
+ 
+ 
+ 
+message MsgReplyOfApplyJoinGuild{
+    required uint32 answerFlag = 1;    
+	required uint64 characterid	=2;	   
+}
+
+ 
+ 
+ 
+message MsgResultOfReplyOfApplyGuild{
+    required uint32 code    = 1;       
+    required uint32 answerFlag = 2;    
+	required uint64 characterid	=3;	   
+}
+
+ 
+ 
+ 
+message MsgQueryGuildMemberListInfo{
+   required uint32 guildId = 1;    
+}
+
+
+message MsgGuildMember {
+	required uint64 characterid	=1;
+	required string name 				=2;
+	required uint32 level				=3;
+	required uint32 profession			=4;
+	required uint64 contributionTotal   =5;	   
+	required uint32 combat			=6;	       
+	required uint64 offlinetime	=7;	           
+	required uint32 roletype		=8;	       
+	required uint64 contributionToday = 9;     
+	optional BlueDiamondsData blueInfo = 10;   
+}
+
+ 
+ 
+ 
+message MsgGuildMemberList {
+    required uint32 guildId = 1;      
+	repeated MsgGuildMember list =2;
+}
+
+ 
+ 
+ 
+message MsgQueryGuildApplyerList{
+   required uint32 guildId = 1;    
+}
+
+message MsgGuildApplyInfo {
+	required uint64 characterid	=1;
+	required string name 				=2;
+	required uint32 level				=3;
+	required uint32 combat			=4;	 
+	required uint32 roletype		=5;	 
+	optional BlueDiamondsData blueInfo = 6;   
+}
+
+
+ 
+ 
+ 
+message MsgRetGuildApplyerList {
+    required uint32 guildId = 1;
+	repeated MsgGuildApplyInfo list = 2;
+}
+
+
+ 
+ 
+ 
+message MsgChangeGuildAnnounceInfo{
+   required uint32 guildId = 1;
+   required string annoceInfo = 2;
+}
+
+
+ 
+ 
+ 
+message MsgRetChangeGuildAnnounceInfo{
+   required uint32 code    = 1;       
+   required uint32 guildId = 2;
+   required string annoceInfo = 3;
+}
+
+ 
+ 
+ 
+message MsgQueryGuildEvent{
+   required uint32 guildId = 1;
+}
+
+ 
+ 
+ 
+ 
+message MsgGuildEventData{
+   required uint32 eventSerialId = 1;
+   required uint64 eventUnixTime = 2;
+   required uint32 eventType = 3;       
+   repeated string strEventParams = 4;
+   optional uint64 characterId = 5;          
+   optional BlueDiamondsData blueInfo = 6;   
+}
+
+
+
+ 
+ 
+ 
+message MsgRetGuildEventInfo{
+   required uint32 guildId = 1;
+   repeated MsgGuildEventData guildEventList = 2;
+}
+
+
+ 
+ 
+ 
+message MsgGuildRenameReq{
+   required uint32 guildId = 1;
+   required string guildNewName = 2;
+}
+
+
+ 
+ 
+ 
+message MsgRetGuildRenameResult{
+   required uint32 code    = 1;       
+   required uint32 guildId = 2;
+   required string guildNewName = 3;
+}
+
+
+ 
+ 
+ 
+message MsgSetGuildAutoJoinFlag{
+   required uint32 autoJoinFlag = 1;   
+   required uint32 limitCombat  = 2;   
+}
+
+
+ 
+ 
+ 
+message MsgResultOfSetGuildAutoJoinFlag{
+   required uint32 code    = 1;        
+   required uint32 autoJoinFlag = 2;   
+   required uint32 limitCombat  = 3;   
+}
+
+
+ 
+ 
+ 
+message MsgDonateToGuild{
+   required uint32 donateType = 1;   
+}
+
+ 
+ 
+ 
+message MsgResultOfDonateToGuild{
+   required uint32 code    = 1;             
+   required uint32 donateType = 2;          
+   optional uint32 guildMoney   = 3;        
+   optional uint64 contributionTotal = 4;   
+   optional uint32 xiangHuoZhi  = 5;        
+   optional uint32 donateMemberCount = 6;   
+   optional uint64 contributionToday = 7;   
+}
+
+
+ 
+ 
+ 
+message MsgReceiveDonateReward{
+    required uint32 rewardId = 1;    
+}
+
+
+ 
+ 
+ 
+message MsgResultOfReceiveDonateReward{
+    required uint32 code    = 1;       
+	required uint32 rewardId = 2;      
+}
+
+ 
+ 
+ 
+message MsgKickOutFromGuild{
+    required uint64 characterId   = 1;       
+}
+
+
+ 
+ 
+ 
+message MsgResultOfKickOutFromGuild{
+    required uint32 code    = 1;       
+    required uint64 characterId   = 2;       
+}
+
+
+ 
+ 
+ 
+message MsgAppointGuildPosition{
+    required uint64 characterId   = 1;    
+	required uint32 positionType  = 2;   
+}
+
+ 
+ 
+ 
+message MsgResultOfAppointGuildPosition{
+    required uint32 code    = 1;       
+    required uint64 characterId   = 2;    
+	required uint32 positionType  = 3;   
+}
+
+
+ 
+ 
+ 
+message MsgExitFromGuild{
+    
+}
+
+
+ 
+ 
+ 
+message MsgResultOfExitFromGuild{
+    required uint32 code    = 1;       
+      
+}
+
+
+ 
+ 
+ 
+message MsgCharacterGuildInfo{
+   required uint32 guildId = 1;            
+   required uint32 donateRewardFlag = 2;   
+   repeated uint32 applyGuildIdList = 3;   
+   required uint32 profession = 4;         
+   required uint32 donateType = 5;         
+   required uint32 applyerCount = 6;       
+   required uint32 bosschallenge =7;		  
+   required uint64 contributionTotal = 8;     
+   required uint64 contributionToday = 9;     
+}
+
+
+ 
+ 
+ 
+message MsgQueryGuildInfo{
+   required uint32 guildId = 1;            
+}
+
+
+ 
+ 
+ 
+message MsgSyncNewMember{
+   required uint32 guildId = 1;            
+   required MsgGuildMember newGuildMember = 2;            
+}
+
+
+ 
+ 
+ 
+message MsgCancelGuildApply{
+   required uint32 guildId = 1;            
+}
+
+
+ 
+ 
+ 
+message MsgResultOfCancelGuildApply{
+   required uint32 code    = 1;            
+   required uint32 guildId = 2;            
+}
+
+
+ 
+ 
+ 
+message MsgGuildShoutReq{
+              
+}
+
+
+ 
+ 
+ 
+message MsgResultOfGuildShoutReq{
+    required uint32 code    = 1;            
+	required uint64 shoutCdUnixTime = 2;    
+}
+
+
+ 
+ 
+ 
+message MsgBroadGuildShoutContent{
+   required uint32 guildId  = 1;            
+   required string guildName  = 2;            
+}
+
+
+ 
+ 
+ 
+message MsgReqGuildDonateLog{
+            
+}
+
+
+
+message MsgDonateLog{
+     required uint64 unixTime = 1;
+     required string strCharacterName = 2;
+	 required uint32 donateType = 3;
+	 optional uint64 characterId = 4;          
+     optional BlueDiamondsData blueInfo = 5;   
+}
+
+
+ 
+ 
+ 
+message MsgReturnGuildDonateLog{
+     repeated  MsgDonateLog donateLogList = 1;
+}
+
+
+ 
+ 
+ 
+message MsgSyncMemberNewRank{
+    required uint32 newRankValue = 1;
+}
+
+
+ 
+ 
+ 
+message MsgSyncApplyerMemberCountChange{
+    required uint32 applyerCount = 1;
+}
+
+
+ 
+ 
+ 
+message MsgSyncGuildMoneyAttri{
+    required uint32 guildMoneyValue  = 1;
+	required uint32 xiangHuoZhiValue = 2;
+	required uint32 guildLv = 3;
+	required uint32 guildMemberCount = 4;
+}
+
+
+ 
+ 
+ 
+message MsgSyncGuildNewNameToAllMembers{
+    required string guildNewName  = 1;
+}
+
+
+
+ 
+ 
+ 
+message MsgSyncGuildMemberCountToAllMembers{
+    required uint32 guildNewMemberCount = 1;
+}
+
+
+ 
+ 
+ 
+message MsgSyncNewGuildChairToAllMembers{
+    required string strGuildChairName = 1;
+}
+
+
+ 
+ 
+ 
+message MsgSyncGuildCount{
+    required uint32 guildCount = 1;
+}
+
+
+ 
+ 
+ 
+message MsgDisandGuild{
+    required uint32 guildId = 1;
+}
+
+
+ 
+ 
+ 
+message MsgNewMemberToBeChairman{
+    required uint64 chairmanCharacterId = 1;
+}
+
+ 
+ 
+ 
+message MsgGuildBroadcast{
+		required uint32 broadcastId = 1;	 
+    repeated string contentPara = 2;
+}
+
+
+ 
+ 
+ 
+message MsgSyncChangeMemberData{
+   required MsgGuildMember memberData = 1;            
+}
+
+ 
+ 
+message MsgGuildBoss{
+	required uint32 bossid =1;
+	required uint64 hp =2;
+	optional string killer =3;
+}
+
+ 
+ 
+message MsgGuildBossList{
+	repeated MsgGuildBoss list =1;
+}
+
+ 
+ 
+message MsgGuildBossChallenge {
+	required uint32 curtime =1;	 
+}
+
+ 
+ 
+message MsgGuildBossRet {
+	required uint32 msg =1;	
+	 
+	required uint32 code =2;	
+}
+
+ 
+ 
+message MsgGuildBossMatch {
+}
+
+
+ 
+ 
+ 
+message MsgSyncSystemSetInfoReq{
+	required uint32 isClosedSound = 1;           
+	required uint32 isHideOtherCharacter = 2;    
+	required uint32 isHideOtherImmortal = 3;     
+	required uint32 isHideOtherWing = 4;         
+	required uint32 isHideOtherMatrix = 5;       
+	required uint32 isHideOtherMagic = 6;        
+	required uint32 isHideSelfImmortal = 7;      
+}
+
+
+ 
+ 
+ 
+message MsgSystemSetInfoReq{
+	
+}
+
+
+
+ 
+ 
+ 
+message MsgSystemSetChangeReq{
+	required uint32 setType = 1;     
+	required uint32 setValue = 2;    
+}
+
+
+ 
+ 
+ 
+message MsgResultOfSystemSetChangeReq{
+    required uint32 code = 1;        
+	required uint32 setType = 2;    
+	required uint32 setValue = 3;   
+}
+ 
+
+ 
+ 
+ 
+message MsgKaiFuFundSyn {
+	required uint32 status = 1; 
+	required uint64 rewardInfo = 2; 
+}
+
+ 
+ 
+ 
+message MsgKaiFuFundOpenReq {
+}
+
+ 
+ 
+ 
+message MsgKaiFuFundOpenRet {
+	required uint32 code = 1;
+}
+
+ 
+ 
+ 
+message MsgKaiFuFundGetReq {
+	required uint32 unGroupId = 1;
+}
+
+ 
+ 
+ 
+message MsgKaiFuFundGetRet {
+	required uint32 code = 1;
+	required uint32 unGroupId = 2;
+}
+
+ 
+ 
+ 
+message MsgKaiFuFundBuyReq
+{	
+}
+
+ 
+ 
+ 
+message MsgKaiFuFundBuyRet
+{
+	required uint32 code = 1;
+}
+
+ 
+ 
+ 
+message MsgKaiFuFundBroadCast {
+	required string name = 1;
+}
+ 
+ 
+ 
+ 
+message MsgSyncLevelActivityStatus
+{
+	required uint32 type = 1;
+	required uint32 status = 2;
+}
+
+message LevelActivityInfo {
+	required uint32 needData = 1;
+	required uint32 extraNumTotal = 2; 
+	required bool bReceived = 3; 
+}
+
+ 
+ 
+ 
+message MsgSyncLevelActivity {
+	required uint32 data = 1; 
+	required uint32 type = 2; 
+	repeated LevelActivityInfo infos = 3;
+}
+
+ 
+ 
+ 
+message MsgQuerySelfLevelActivityInfo {
+	required uint32 type = 1;
+}
+
+ 
+ 
+ 
+message MsgReceiveLevelActivityReward{
+	required uint32 type = 1; 
+	required uint32 param = 2; 
+}
+
+
+
+ 
+
+ 
+ 
+ 
+message MsgReceiveLevelActivityRewardRet {
+	required uint32 code = 1;
+	required uint32 type = 2;
+	required uint32 level = 3;
+}
+
+ 
+ 
+ 
+message MsgBroadcastLevelActivityReward
+{
+	required string name = 1;
+	required uint32 level = 2;
+	required uint32 type = 3;
+	required uint32 leftnum = 4;
+	required uint32 goldmoney = 5;
+}
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+message MsgLifeAndDeathInfo
+{
+	required uint32 atkRound = 1; 
+	required uint32 defRound = 2; 
+	required uint32 maxatk = 3; 
+	required uint32 maxdef = 4; 
+}
+
+ 
+ 
+ 
+message MsgLifeAndDeathFightReq
+{
+	required uint32 fightType = 1; 
+}
+
+ 
+ 
+ 
+message MsgLifeAndDeathFightRet
+{
+	required uint32 code = 1;
+	optional uint32 roundOrg = 2;
+	optional uint32 roundCur = 3;
+	optional uint32 fightType = 4;
+	optional bool bWin = 5;
+	optional uint32 maxValue = 6; 
+}
+
+
+ 
+ 
+ 
+message MsgLifeAndDeathRankListReq
+{
+	required uint32 rankType = 1; 
+}
+
+
+message LifeAndDeathRankInfo
+{
+	required string name = 1;
+	required uint32 round = 2;	 
+}
+
+ 
+ 
+ 
+message MsgLifeAndDeathRankListRet
+{
+	repeated LifeAndDeathRankInfo infos = 1;
+}
+
+ 
+ 
+ 
+message MsgLifeAndDeathRankBroadcast
+{
+	 
+	required uint32 rankType = 1;
+	required string name1 = 2;
+	required uint32 round1 = 3;
+	required string name2 = 4;
+}
+ 
+
+ 
+ 
+ 
+message MsgLimitBuyActivityInfo{
+    required uint32 configGroupId = 1;   
+	required uint32 startUnixTime = 2;   
+	required uint32 endUnixTime = 3;     
+	required uint32 buyCount = 4;        
+	required uint32 statusValue = 5;     
+	required uint32 drawBigCount = 6;    
+}
+
+
+ 
+ 
+ 
+message MsgBuyLimitActivity{
+
+}
+
+
+ 
+ 
+ 
+message MsgResultOfBuyLimitActivity{
+    required uint32 code = 1;            
+    required uint32 buyCount = 2;        
+	required uint32 statusValue = 3;     
+}
+
+
+ 
+ 
+ 
+message MsgBroadBuyLimitMemberCount{
+   required uint32 memberBuyCount = 1;        
+}
+
+
+ 
+ 
+ 
+message MsgReceiveBuyLimitReward{
+   
+}
+
+
+ 
+ 
+ 
+message MsgResultOfReceiveBuyLimitReward{
+   required uint32 code = 1;            
+   required uint32 configGroupId = 2;   
+   required uint32 statusValue = 3;     
+}
+
+
+ 
+ 
+ 
+message MsgBuyLimitDrawBigReward{
+   required uint32 configGroupId = 1;
+   required uint64 characterId = 2;
+   required string characterName = 3;
+   required uint32 memberBuyCount = 4;        
+   required uint32 drawBigCount = 5;          
+}
+
+
+ 
+ 
+ 
+message MsgQueryBuyLimitDrawBigRewardLogList{
+ 
+}
+
+
+message BuyLimitDrawBigRewardList{
+   required uint32 rewardUnixTime = 1;
+   required string characterName = 2;
+   required uint32 thingConfigId = 3;
+}
+
+
+ 
+ 
+ 
+message MsgRetBuyLimitDrawBigRewardList{
+    repeated BuyLimitDrawBigRewardList bigRewardList = 1;
+}
+ 
+ 
+message MsgLoginGameServer {
+	required string account = 1;
+	required string check_code = 2;
+	required string pf = 3;
+	required string pf_key = 4;
+	required string media_activity_id = 5;
+	required string submedia_activity_id = 6;
+	required string open_id = 7;
+	required uint32 login_character_server_id = 8;
+	required string url_360_server_id = 9;
+	required uint64 url_360_login_time = 10;
+	required string login_src = 11;
+	required uint64 time_stamp = 12;
+	required bool is_adult = 13;
+	required uint32 partner_id = 14;
+	required string sign_str = 15;
+	required bool bMiniClient = 16;
+	required bool bReturnFromCS = 17;
+	optional string qua = 18;	 
+}
+
+ 
+ 
+message MsgLoginGameServerRet {
+	required uint32 code = 1;
+	optional uint64 iTime = 2; 
+}
+
+ 
+
+
+message LoginGiftGroupInfo
+{
+	required uint32 groupId = 1; 
+	required uint32 loginDay = 2; 
+	required uint32 reward = 3; 
+}
+
+ 
+ 
+ 
+message MsgLoginGiftInfo {
+	repeated LoginGiftGroupInfo details = 1;
+}
+
+ 
+ 
+ 
+message MsgLoginGiftOpenReq {
+}
+
+ 
+ 
+ 
+message MsgLoginGiftOpenRet {
+	required uint32 code = 1;
+}
+
+ 
+ 
+ 
+message MsgLoginGiftRewardReq {
+	required uint32 groupId = 1;	 
+}
+
+ 
+ 
+ 
+message MsgLoginGiftRewardRet {
+	required uint32 code = 1;
+}
+ 
+
+
+message LotteryLibInfo
+{
+	required uint32 unIndex = 1; 
+	required uint32 itemId = 2; 
+}
+
+ 
+ 
+ 
+message MsgLuckyLotteryInfo {
+	required uint32 nType = 1;
+	required uint32 unScore = 2;
+	required bool bGetFirst10 = 3;
+	repeated uint32 rewardScore = 4;
+	required uint64 freeTime = 5;
+	repeated LotteryLibInfo libInfo = 6;
+}
+
+ 
+ 
+ 
+message MsgLuckyLotteryOpenReq {
+	required uint32 nType = 1; 
+}
+
+ 
+ 
+ 
+message MsgLuckyLotteryOpenRet {
+	required uint32 code = 1;
+	required uint32 nType = 2; 
+}
+
+ 
+ 
+ 
+message MsgLuckyLotteryReq {
+	required uint32 unType = 1;	 
+	required uint32 unLotteryType = 2;
+}
+
+message LotteryRewardInfo
+{
+	required uint32 itemId = 1;
+	required uint32 unNum = 2;
+}
+
+message LotteryReplace
+{
+	required uint32 unRound = 1; 
+	required LotteryLibInfo libInfo = 2; 
+}
+
+ 
+ 
+ 
+message MsgLuckyLotteryRet {
+	required uint32 code = 1;
+	required uint32 nType = 2; 
+	repeated LotteryRewardInfo rewardInfo = 3;
+	optional uint64 freeTime = 4;
+	repeated LotteryReplace libInfo = 5;
+}
+
+ 
+ 
+ 
+message MsgLuckyLotteryScoreRewardReq  {
+	required uint32 nType = 1;
+	required uint32 unScoreReq = 2;
+}
+
+ 
+ 
+ 
+message MsgLuckyLotteryScoreRewardRet {
+	required uint32 nType = 1;
+	required uint32 code = 2;
+	repeated LotteryRewardInfo rewardInfo = 3;
+}
+
+ 
+ 
+ 
+message MsgLuckyLotteryQueryReq  {
+	required uint32 nType = 1;
+}
+
+
+message LuckyLotteryQueryDeatail
+{
+	required string name = 1;
+	required uint32 itemid = 2;
+	required uint32 num = 3;
+	required uint32 unIndex = 4; 
+}
+
+ 
+ 
+ 
+message MsgLuckyLotteryQueryRet {
+	required uint32 code = 1;
+	required uint32 nType = 2;
+	repeated LuckyLotteryQueryDeatail rewardInfo = 3;
+}
+
+ 
+ 
+ 
+message MsgLuckylotteryBroadcast {
+	required string name = 1;
+	required uint32 type = 2; 
+	required uint32 lotterytype = 3; 
+	required uint32 no = 4; 
+}
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+message MsgMailListData{
+   required uint64 serialMailId = 1;        
+   required uint32 mailCfgId = 2;           
+   required uint32 mailStatus = 3;          
+   required uint64 createMailDateTime = 4;  
+   optional string title = 5;               
+}
+
+ 
+ 
+ 
+message MsgQueryMailList{
+    
+}
+
+ 
+ 
+ 
+message MsgSyncMailList {
+   repeated MsgMailListData maillList = 1;  
+}
+
+
+
+
+
+ 
+ 
+ 
+ 
+message MsgNewMailArrive{
+   required MsgMailListData newMail = 1;  
+}
+
+
+
+
+ 
+ 
+ 
+message MsgLookUpSpecficMail{
+   required uint64 serialMailId = 1;        
+}
+
+message MsgMailItemData{
+   required uint32 thingcfgid = 1;      
+   required uint32 num = 2;             
+   required uint32 bindStatus = 3;      
+}
+
+message MsgMailCurrencyData{
+   required uint32 currencyType = 1;      
+   required uint32 currencyValue = 2;     
+}
+
+
+message MsgMailAllContentInfo{
+   repeated string strContentValue = 1;         
+   repeated uint32 designId = 2;                
+   optional uint32 exp = 3;                     
+   repeated MsgMailCurrencyData mailCurrencyData = 4;   
+   repeated MsgMailItemData mailItemData = 5;           
+   required uint64 autoDeleteDateTime = 6;              
+   required uint32 mailSource = 7;                      
+   optional string defineContent = 8;                   
+}
+
+
+
+ 
+ 
+ 
+message MsgRetLookUpSpecficMailResult{
+   required uint32 code = 1;                
+   required uint64 serialMailId = 2;        
+   optional MsgMailAllContentInfo mailContentData = 3;        
+}
+
+ 
+ 
+ 
+message MsgDeleteMailFromMailList{
+   required uint64 serialMailId = 1;   
+}
+
+
+ 
+ 
+ 
+message MsgPickMailFromMailList{
+   required uint64 serialMailId = 1;   
+}
+
+
+ 
+ 
+ 
+message MsgResultOfPickMailFromMailList{ 
+   required uint32 code = 1;               
+   required uint64 serialMailId = 2;       
+   optional uint32 mailStatus = 3;         
+}
+
+
+
+ 
+ 
+ 
+message MsgOneKeyReceiveMail{
+  
+}
+
+
+ 
+ 
+ 
+message MsgResultOfOneKeyReceiveMail{ 
+   required uint32 code = 1;               
+   repeated uint64 serialMailId = 2;       
+}
+
+
+ 
+ 
+message MsgSndError {
+	required uint32 code = 1;			 
+	 
+	required uint32 reason = 2;		 
+	required uint32 param =3; 		 
+}
+
+ 
+ 
+message MsgSndTeamID {
+	required uint32 team_id = 1;
+}
+
+ 
+ 
+message MsgCreateTeam {
+	required uint32 team_type =1;		 
+	required uint32 team_target =2;	 
+}
+
+ 
+ 
+message MsgSearchTeam {
+	required uint32 team_type =1;		 
+	required uint32 team_target =2;	 
+	required uint32 team_page =3;	 
+}
+
+
+ 
+ 
+message MsgTeamOperator {
+ 
+	required uint32 operator_id =1;
+	required uint32 operator_value =2;
+}
+
+
+ 
+ 
+message MsgTeamList {
+	required uint32 team_type =1;		 
+	required uint32 team_target =2;	 
+	required uint32 cur_page =3;	 
+	required uint32 total_page =4;	 
+	repeated MsgTeamDesc list = 5;
+}
+
+ 
+ 
+message MsgTeamInfo {
+	required uint32 team_id = 1;
+	required uint32 captain_position = 2;			 
+	repeated MsgTeamMember member =3;		 
+	required uint32 target = 4;					 
+}
+
+ 
+ 
+message MsgTeamMember {
+	required uint64 characterId = 1;	
+	required string name = 2;
+	required uint32 level = 3;			              
+	required uint32 role_id = 4;		              
+	required uint32 combat = 5;		                  
+	required uint32 robot = 6;		                  
+	required uint32 position = 7;		              
+	optional BlueDiamondsData captainBlueInfo = 8;    
+}
+
+ 
+ 
+message MsgSndTeamNotify {
+ 
+	required uint32 type = 1;
+	required uint32 position =2;
+}
+
+ 
+
+ 
+message MsgTeamDesc {
+	required uint32 team_id = 1;		 
+	required uint64 captain_id =2;		 
+	required string captain_name =3;	 
+	required uint32 captain_lev =4;		 
+	required uint32 captain_role =5;		 
+	required uint32 captain_combat =6;		 
+	required uint32 team_size =7;		     
+	optional BlueDiamondsData captainBlueInfo = 8;    
+}
+
+ 
+ 
+ 
+message MsgTeamCreatBroadCast{
+	required string name = 1;
+	required uint32 type = 2; 
+	required uint32 index = 3;
+	required uint32 teamId = 4;
+}
+
+
+
+ 
+
+ 
+ 
+ 
+message MsgSyncMarriageSystemInfo{
+   required uint32 marriageStatusValue = 1;   
+   required uint64 loverCharacterId = 2;      
+   optional uint32 loveValue = 3;             
+   required uint32 loveDevelopLv  = 4;        
+   required uint32 loveDevelopExp = 5;        
+   required uint32 interactionLv = 6;         
+   required uint32 interactionExp = 7;        
+   optional uint32 marryUnixTime = 8;         
+}
+
+ 
+ 
+ 
+message MsgMarriageSystemInfoReq{
+}
+
+
+ 
+ 
+ 
+message MsgMarrySystemCrossDay{
+     
+	 
+	 
+}
+
+ 
+ 
+ 
+message MsgNotifyCanGiveMarryGift{
+    required uint64 boyCharacterId = 1;         
+	required string boyCharacterName = 2;       
+	required uint64 girlCharacterId = 3;        
+	required string girlCharacterName = 4;      
+}
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+message MsgSetSweetHearterRequest{
+   required uint64 applyCharacterId = 1;   
+}
+
+
+ 
+ 
+ 
+message MsgResultOfSetSweetHearterRequest{
+   required uint32 code = 1;               
+   required uint64 applyCharacterId = 2;   
+}
+
+
+ 
+ 
+ 
+message MsgNotifySweetHearterOfSetReq{
+   required uint64 requestCharacterId = 1;         
+   required string requestCharacterName = 2;       
+}
+
+
+ 
+ 
+ 
+message MsAnswerSweetHearterSetToRequester{
+   required uint32 answerFlag = 1;                 
+   required uint64 requestCharacterId = 2;         
+}
+
+
+
+ 
+ 
+ 
+message MsAnswerFromSweetHeartApplyer{
+   required uint32 answerFlag = 1;                 
+   required uint64 applyCharacterId = 2;           
+   required string applycharacterName = 3;         
+   optional uint32 loveValue = 4;                  
+   repeated MsgLoveInteraction loveList = 5;       
+}
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+message MsgReqLoveInteractionInfo{
+   
+}
+
+message MsgLoveInteraction{
+   required uint32 taskTypeId = 1;
+   required uint32 configTaskId = 2;
+   required uint32 completeFlag = 3;   
+}
+
+ 
+ 
+ 
+message MsgReturnLoveInteractionInfo{
+   required uint64 loverCharacterId = 1;       
+   required uint32 loveValue = 2;              
+   repeated MsgLoveInteraction loveList = 3;   
+}
+
+ 
+ 
+ 
+message MsgLoveInteractionEvent{
+   required uint32 taskTypeId = 1;
+   required uint32 configTaskId = 2;
+}
+
+
+ 
+ 
+ 
+message MsgResultOfLoveInteractionEvent{
+   required uint32 code = 1;                   
+   required uint32 taskTypeId = 2;
+   required uint32 configTaskId = 3;
+   required uint32 loveValue = 4;              
+   optional string targetCharacterName = 5;    
+}
+
+ 
+ 
+ 
+message MsgBreakUpLoveRelationshipReq{
+   
+}
+
+
+ 
+ 
+ 
+message MsgResultOfBreakUpLoveRelationshipReq{
+   required uint32 code = 1;                   
+   required uint64 loverCharacterId = 2;       
+}
+
+
+ 
+ 
+ 
+message MsgNotifyBreakUpLoveRelationshipReq{
+   required uint64 loverCharacterId = 1;           
+   required string loverCharacterName = 2;         
+}
+
+ 
+ 
+ 
+message MsgProposeMarriageReq{
+   
+}
+
+
+
+ 
+ 
+ 
+message MsgResultOfProposeMarriageReq{
+   required uint32 code = 1;                   
+}
+
+
+ 
+ 
+ 
+message MsgNotifyProposeMarriageToLover{
+   required uint64 loverCharacterId = 1;           
+   required string loverCharacterName = 2;         
+}
+
+
+ 
+ 
+ 
+message MsgAnswerProposeMarriageToApplyer{
+   required uint32 answerFlag = 1;                 
+}
+
+
+ 
+ 
+ 
+message MsgProposeMarriageAnswerResultToApplyer{
+   required uint32 answerFlag = 1;                 
+   required uint64 loverCharacterId = 2;           
+   required string loverCharacterName = 3;         
+}
+
+ 
+ 
+ 
+message MsgSendMarriageGiftToCoupleReq{
+   required uint64 loverCharacterId = 1;
+   required uint32 typeConfigId = 2;
+}
+
+
+ 
+ 
+ 
+message MsgResultOfSendMarriageGiftToCoupleReq{
+   required uint32 code = 1;                   
+   required uint64 loverCharacterId = 2;
+   required uint32 typeConfigId = 3;
+}
+
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+message MsgReqMarriageDevelopeInfo{
+
+}
+
+
+ 
+ 
+ 
+message MsgRetMarriageDevelopeInfo{
+    required uint32 loveDevelopLv  = 1;   
+	required uint32 loveDevelopExp = 2;   
+}
+
+
+ 
+ 
+ 
+message MsgMarriageDevelopeLvUpReq{
+
+}
+
+
+
+ 
+ 
+ 
+message MsgResultOfMarriageDevelopeLvUp{
+    required uint32 code = 1;                
+	required uint32 loveDevelopLv  = 2;      
+	required uint32 loveDevelopExp = 3;      
+}
+
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+message MsgMarriageInteractionReq{
+   
+}
+
+
+message MsgMarriageInteractionEvent{
+   required uint32 configTypeId = 1;
+   required uint32 configDailyCount = 2;
+}
+
+message MsgMarryDevelopAvatar{
+   required uint32 developTypeValue     = 1;
+   required uint32 developAvatarIdValue = 2;
+}
+
+ 
+ 
+ 
+message MsgReturnMarriageInteractionReq{
+   required uint32 interactionLv = 1;
+   required uint32 interactionExp = 2;
+   repeated MsgMarriageInteractionEvent interactionEventList = 3;
+   optional uint32 loverRoleType = 4;                    
+   repeated MsgMarryDevelopAvatar loverMarryAvatarList = 5;   
+}
+
+
+ 
+ 
+ 
+message MsgMarriageInteractionEventReq{
+    required uint32 configTypeId = 1;
+}
+
+
+ 
+ 
+ 
+message MsgResultOfMarriageInteractionEventReq{
+    required uint32 code = 1;                
+    required uint32 configTypeId = 2;
+	optional uint32 interactionLv = 3;       
+    optional uint32 interactionExp = 4;      
+	optional MsgMarriageInteractionEvent eventData = 5;   
+}
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+message MsgMarriageTaskReq{
+   
+}
+
+message MsgMarryTaskUnitData{
+   required uint32 configLibraryId = 1;
+   required uint32 configTaskId = 2;
+   required uint32 taskProgress = 3;
+}
+
+message MsgMarryTaskData{
+   required uint64 characterId = 1;
+   repeated MsgMarryTaskUnitData taskListData  = 2;           
+   required uint32 roleType = 3;                              
+   repeated MsgMarryDevelopAvatar loverMarryAvatarList = 4;   
+   required uint32 totalCombatValue = 5;                      
+}
+
+ 
+ 
+ 
+message MsgReturnMarriageTaskReq{
+   optional MsgMarryTaskData  boyMarryTaskData = 1;
+   optional MsgMarryTaskData  girlMarryTaskData = 2;
+}
+
+ 
+ 
+ 
+message MsgUpdateNewMarriageTaskData{
+   required uint64 characterId = 1;
+   repeated MsgMarryTaskUnitData newTaskData = 2;   
+}
+
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+message MsgMarriageMarkNoteReq{
+   
+}
+
+ 
+ 
+ 
+message MsgRetMarriageMarkNoteInfo{
+   required uint64 boyCharacterId = 1;
+   required string boyCharacterName = 2;
+   required uint64 girlCharacterId = 3;
+   required string girlCharacterName = 4;
+   required uint32 marriageUnixTime = 5;
+   required uint32 dayCount = 6;
+}
+
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+message MsgDivorceFromMarriageReq{
+   
+}
+
+
+ 
+ 
+ 
+message MsgResultOfDivorceFromMarriageReq{
+   required uint32 code = 1;                
+}
+
+
+ 
+ 
+ 
+message MsgNotifyDivorceFromMarriageLover{
+    required uint64 applyCharacterId = 1;     
+    required string applyCharacterName = 2;   
+}
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+message MsgResultOfNewLoverToBe{
+    required uint32 code = 1;                   
+    required uint64 targetCharacterId = 2;      
+    optional uint32 loveValue = 3;              
+    repeated MsgLoveInteraction loveList = 4;   
+}
+
+ 
+ 
+ 
+message MsgSyncNewLoverValue{
+    required uint32 oldLoveValue = 1;     
+	required uint32 newLoveValue = 2;     
+}
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+message MsgMarryEventData{
+    required uint32  eventTypeValue = 1;    
+	required uint64  targetCharacterId = 2;   
+	required string  strCharacterName = 3;    
+}
+
+
+ 
+ 
+ 
+message MsgSyncMarryEventDataToNotice{
+    repeated MsgMarryEventData eventDataList = 1;
+}
+
+
+
+
+message MsgMaterialFBGroup{
+	required uint32 groupId = 1;
+	required uint32 freefinishTimes = 2;  
+	required uint32 payfinishTimes = 3;   
+}
+
+ 
+ 
+ 
+message MsgMaterialFBListInfo{
+	repeated MsgMaterialFBGroup fbItems = 1; 
+}
+
+ 
+ 
+ 
+message MsgMaterialChellengeFB{
+	required uint32 groupId = 1;
+}
+
+ 
+ 
+ 
+message MsgMaterialChellengeFBRet{
+	required uint32 result = 1;
+	required MsgMaterialFBGroup groupInfo = 2;
+	required uint32 battleResult = 3;     
+}
+
+ 
+ 
+ 
+message MsgMaterialSaoDangFB{
+	required uint32 groupId = 1;
+}
+
+
+ 
+ 
+ 
+message MsgMaterialSaoDangFBRet{
+	required uint32 result = 1;
+	required MsgMaterialFBGroup groupInfo = 2;
+}
+
+
+
+ 
+ 
+ 
+message MsgSyncMeridiansInfo{
+	required uint32 meridiansConfigId = 1;   
+	required uint32 meridiansLv = 2;         
+	required uint32 meridiansExp = 3;        
+}
+
+
+ 
+ 
+ 
+message MsgUpMeridiansLvReq{
+	
+}
+
+ 
+ 
+ 
+message MsgResultOfUpMeridiansLv{
+	required uint32 code = 1;    
+	optional MsgSyncMeridiansInfo newMeridiansInfo = 2;    
+}
+
+
+ 
+ 
+ 
+message MsgMeridiansTuPoReq{
+	
+}
+
+
+ 
+ 
+ 
+message MsgResultOfMeridiansTuPo{
+	required uint32 code = 1;    
+	optional MsgSyncMeridiansInfo newMeridiansInfo = 2;    
+}
+
+ 
+ 
+ 
+message MsgSyncMillionEmoney{
+	required uint32 totalLoginDays = 1;      
+	repeated uint32 receivedIdList = 2;      
+}
+
+
+ 
+ 
+ 
+message MsgReceiveMillionReward{
+	required uint32 receiveIdIndex = 1;      
+}
+
+
+ 
+ 
+ 
+message MsgResultOfReceiveMillionReward{
+    required uint32 code = 1;                 
+	required uint32 receiveIdIndex = 2;       
+}
+ 
+message MsgMysticalBuyInfo{
+    required uint32 configKeyId = 1;
+	required uint32 itemBuyCount = 2;
+}
+
+message MsgMysticalShopData{
+    required uint32 groupIdValue = 1;              
+	required uint32 beginUnixTime = 2;   
+	required uint32 endUnixTime = 3;
+	required uint32 refreshCount = 4;              
+	repeated uint32 itemKeyIdList = 5;             
+	repeated MsgMysticalBuyInfo buyInfoList = 6;   
+}
+
+ 
+ 
+ 
+message MsgSyncMysticalShopInfo{
+	repeated MsgMysticalShopData shopDataList = 1;
+}
+
+
+ 
+ 
+ 
+message MsgRefreshMysticalShopReq{
+   required uint32  configGroupId = 1;
+}
+
+ 
+ 
+ 
+message MsgResultOfRefreshMysticalShop{
+   required uint32  code = 1;              
+   required uint32  configGroupId = 2;
+   optional MsgMysticalShopData newMysticalShopData = 3;    
+}
+
+
+ 
+ 
+ 
+message MsgBuyFromMysticalShopReq{
+   required uint32  configGroupId = 1;
+   required uint32  configKeyId = 2;
+   required uint32  count = 3; 
+}
+
+
+ 
+ 
+ 
+message MsgResultOfBuyMysticalShopItem{
+   required uint32  code = 1;              
+   required uint32  configGroupId = 2;
+   required uint32  configKeyId = 3;
+   required uint32  count = 4; 
+   optional uint32  totalBuyCount = 5;     
+}
+
+
+
+
+
+ 
+
+
+
+ 
+ 
+ 
+message MsgOpenModule {
+	repeated uint32 function_id = 1;
+}
+
+
+ 
+ 
+ 
+message MsgNewFunctionOpen {
+	required uint32 new_function_id = 1;
+}
+
+ 
+message MsgOfficialdomTaskStatus{
+   required uint32 currentTaskId = 1;           
+   required uint32 currentTaskProgress = 2;     
+}
+
+
+message MsgOfficialdomTaskCompleteInfo{
+   repeated uint32 chooseTaskIdList = 1;        
+   repeated uint32 completeTaskIdList = 2;      
+   repeated uint32 failTaskIdList = 3;          
+   required uint32 acceptTaskUnixTime = 4;      
+   repeated MsgOfficialdomTaskStatus taskStatusList = 5;    
+   required uint32 configDesId = 6;             
+}
+
+ 
+message MsgOfficialdomData{
+   required uint32 officialType  = 1;      
+   required uint32 officialLv = 2;         
+   required uint32 starValue = 3;          
+   required uint32 completeRingCount = 4;  
+   required uint32 meetCountDaily = 5;     
+   required uint32 receiveSalaryFlag = 6;  
+   required uint32 beMeetedAddCurrency = 7;    
+   optional uint32 currentMeetType = 8;        
+   optional uint32 meetParamId = 9;            
+   optional MsgOfficialdomTaskCompleteInfo taskInfo = 10;   
+   optional uint64 meetCharacterId = 11;      
+}
+
+ 
+ 
+ 
+message MsgSyncOfficialdomData{
+   repeated MsgOfficialdomData officialdomList = 1;    
+}
+
+
+ 
+ 
+ 
+message MsgReceiveOfficialdomSalary{
+   required uint32 officialType = 1;    
+}
+
+
+ 
+ 
+ 
+message MsgResultOfReceiveOfficialdomSalary{
+   required uint32 code = 1;            
+   required uint32 officialType = 2;    
+}
+
+
+ 
+ 
+ 
+message MsgReceiveOfficialdomTask{
+   required uint32 officialType = 1;    
+}
+
+
+ 
+ 
+ 
+message MsgResultOfReceiveOfficialdomTask{
+   required uint32 code = 1;            
+   required uint32 officialType = 2;    
+   optional MsgOfficialdomTaskCompleteInfo taskInfo = 3;   
+}
+
+ 
+ 
+ 
+message MsgSyncOfficialdomTaskNewlyData{
+   required uint32 officialType = 1;                       
+   optional MsgOfficialdomTaskCompleteInfo taskInfo = 2;   
+}
+
+ 
+ 
+ 
+message MsgCommitOfficialdomTask{
+   required uint32  officialType = 1;   
+   required uint32  commitTaskId = 2;   
+}
+
+
+ 
+ 
+ 
+message MsgResultOfCommitOfficialdomTask{
+   required uint32  code = 1;           
+   required uint32  officialType = 2;   
+   required uint32  commitTaskId = 3;   
+}
+
+
+ 
+ 
+ 
+message MsgReqOfficialdomMeetList{
+   required uint32  officialType = 1;   
+   required uint32  beginIndex = 2;     
+   required uint32  endIndex = 3;       
+}
+
+
+message MsgOfficialdomerUnitData{
+   required uint64  characterId = 1;
+   required string  characterName = 2;
+   required uint32  officialLv = 3;
+   required uint32  combatValue = 4;
+   required uint32  roleTypeValue = 5;
+   required uint32  lvValue = 6;
+}
+
+ 
+ 
+ 
+message MsgReturnOfficialdomMeetList{
+   required uint32  officialType = 1;   
+   required uint32  beginIndex = 2;     
+   required uint32  endIndex = 3;       
+   repeated MsgOfficialdomerUnitData officialdomListData = 4;   
+}
+
+
+
+ 
+ 
+ 
+message MsgStartOfficialdomMeet{
+   required uint32  officialType = 1;    
+   required uint32  meetTypeValue = 2;   
+   required uint64  characterId = 3;     
+}
+
+
+ 
+ 
+ 
+message MsgResultOfStartOfficialdomMeet{
+   required uint32  code = 1;               
+   required uint32  officialType = 2;       
+   required uint32  meetTypeValue = 3;      
+   required uint64  characterId = 4;        
+   required uint32  paramId = 5;            
+}
+
+ 
+ 
+ 
+message MsgFightOfficialdomMeetBattle{
+}
+
+
+ 
+ 
+ 
+message MsgAnswerOfficialdomMeetPoem{
+   required uint32 answerIndex = 1;
+}
+
+
+ 
+ 
+ 
+message MsgOfficialdomMeetResult{
+    required uint32 endResult = 1;             
+    required uint32 meetCountDaily = 2;        
+	required string targetCharacterName = 3;   
+	required uint32 meetType = 4;              
+	required uint32 targetLv = 5;              
+	required uint32 addCivilian = 6;           
+	required uint32 addGeneral = 7;            
+}
+
+ 
+ 
+ 
+message MsgOfficialdomLevelUp{
+   required uint32 officialType  = 1;      
+   required uint32 officialLv = 2;         
+   required uint32 starValue = 3;          
+}
+
+
+ 
+ 
+ 
+message MsgReqServerOfficialdomList{
+   required uint32  officialType = 1;   
+   required uint32  beginIndex = 2;
+   required uint32  endIndex = 3;
+}
+
+
+message MsgOfficialdomerData{
+   required uint64  characterId = 1;
+   required string  characterName = 2;
+   required uint32  officialLv = 3;
+   required uint32  starValue = 4;
+   required uint32  combatValue = 5;
+}
+
+ 
+ 
+ 
+message MsgReturnServerOfficialdomList{
+   required uint32  officialType = 1;   
+   required uint32  beginIndex = 2;
+   required uint32  endIndex = 3;
+   required uint32  selfRankNo = 4;
+   repeated MsgOfficialdomerData officialdomerList = 5;
+}
+
+
+ 
+ 
+ 
+message MsgUpOfficialdomLv{
+   required uint32  officialType = 1;   
+}
+
+
+ 
+ 
+ 
+message MsgResultOfUpOfficialdomLv{
+   required uint32  code = 1;  
+   required uint32  officialType = 2;       
+   required uint32  officialLv = 3;         
+   required uint32  starValue = 4;          
+}
+
+
+
+ 
+ 
+ 
+message MsgReturnAnswerOfficialdomMeetPoem{
+   required uint32  code = 1;          
+   required uint32  questionId = 2;    
+   required uint32  answerIndex = 3;   
+   required uint32  rightAnswerIndex = 4;   
+}
+
+
+
+
+
+ 
+ 
+message MsgPartnerError {
+	required uint32 code = 1;
+	 
+	required uint32 reason = 2;
+	optional uint32 params = 3; 
+}
+
+ 
+ 
+message MsgPartnerList {
+	repeated MsgPartnerInfo list=1;
+}
+
+ 
+ 
+message MsgPartnerRecruit {
+	required uint32 type=1;	 
+	required uint32 cost=2;	 
+	required uint32 num=3;	 
+}
+
+ 
+ 
+message MsgPartnerNew {
+	repeated uint32 partnerid = 1;	
+	required uint32 type = 2;		  
+}
+
+ 
+ 
+message MsgPartnerPosSet {
+	required uint32 partnerid = 1;			  
+	required uint32 type = 2;			  		 
+	required uint32 position = 3;			   
+}
+
+
+ 
+ 
+message MsgPartnerZhenFaInfo {
+	repeated MsgPartnerPosition partnerList =1;	 
+	repeated MsgPartnerPosition partnerJBList =2;	 
+}
+
+ 
+ 
+message MsgPartnerRecruitInfo {
+	required uint64 last_normal_time =1;	 
+	required uint64 last_super_time =2;		 
+	required uint64 last_half_time =3;		 
+	required uint32 normal_count = 4;			 
+	required uint32 super_count = 5;			 
+	required uint32 prime_count = 6;			 
+}
+
+ 
+ 
+message MsgPartnerTrain {
+	required uint32 operate =1;		 
+	required uint32 params1 =2;		 
+	required uint32 params2 =3; 	 
+}
+
+ 
+ 
+message MsgPartnerInfo {
+	required uint32 partner_id = 1;
+	required uint32 awakeningLev = 2;  
+	required uint64 createTime =3;		 
+}
+
+
+ 
+ 
+message MsgPartnerResolve {
+	repeated MsgPartnerResolveItem list =1;
+}
+
+message MsgPartnerPosition {
+	required int32 partner_id = 1;
+	required uint32 position = 2;			 
+	required uint32 combat = 3;			 
+}
+
+message MsgPartnerResolveItem {
+	required uint32 itemid = 1;	 
+	required uint32 num = 2; 
+}
+
+ 
+ 
+ 
+message MsgPartnerAwardBroadcast {
+	required string name = 1;
+	required uint32 type = 2; 
+}
+
+
+ 
+ 
+ 
+message MsgPartnerRecruitQualityOptions {
+	repeated uint32 qualityOptions = 1;    
+}
+
+
+
+ 
+ 
+ 
+message MsgResultOfPartnerRecruitQualityOptions {
+    required uint32 code = 1;              
+	repeated uint32 qualityOptions = 2;    
+}
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+ 
+message MsgSyncPartPartnerEquip{
+    required uint32 partIdValue = 1;                   
+	required uint32 strengthLv  = 2;                   
+	required uint32 refineLv = 3;                      
+	required uint32 trainLv = 4;                       
+	required uint32 stoneLv = 5;                       
+	required uint32 equipConfigId = 6;                 
+	required uint32 combatValue = 7;                   
+}
+
+ 
+ 
+ 
+message MsgSyncSlotPartnerEquip{
+    required uint32 slotIndex = 1;                           
+	repeated MsgSyncPartPartnerEquip partPartnerEquip = 2;   
+	required uint32 equipSetQuality = 3;                     
+	required uint32 equipSetConfigId = 4;                    
+	optional uint32 godEquipSuitId = 5;                      
+}
+
+ 
+ 
+ 
+message MsgSyncPartnerEquipData{
+   repeated MsgSyncSlotPartnerEquip slotEquipOfPartner = 1;   
+}
+
+
+ 
+ 
+ 
+message MsgTrainDevelopeLvUp{
+    required uint32 slotIndex = 1;                     
+	required uint32 trainTypeValue = 2;                
+}
+
+
+message MsgNewLvOfTrainDevelope{
+    required uint32 partIdValue = 1;                   
+	required uint32 trainNewLv = 2;                    
+	required uint32 combatValue = 3;                   
+}
+	
+
+ 
+ 
+ 
+message MsgResultOfTrainDevelopeLvUp{
+    required uint32 resultCode = 1;                    
+    required uint32 slotIndex = 2;                     
+	required uint32 trainTypeValue = 3;                
+	repeated MsgNewLvOfTrainDevelope newLvOfTrain = 4;
+}
+
+
+message MsgDressUpTrainClothesInfo{
+   required uint32 partIdValue = 1;                    
+   required uint32 equipConfigId  = 2;                 
+}
+
+ 
+ 
+ 
+message MsgOneKeyDressUpTrainClothes{
+    required uint32 slotIndex = 1;                     
+	repeated MsgDressUpTrainClothesInfo trainClothesInfo = 2;   
+}
+
+ 
+ 
+ 
+message MsgResultOfOneKeyDressUpTrainClothes{
+    required uint32 resultCode = 1;                    
+    required uint32 slotIndex = 2;                     
+}
+
+
+ 
+ 
+ 
+message MsgExchangeEquipmentReq{
+    required uint32 slotIndex = 1;           
+	required uint32 partIdValue = 2;         
+}
+
+
+ 
+ 
+ 
+message MsgResultOfExchangeEquipment{
+    required uint32 code = 1;             
+    required uint32 slotIndex = 2;        
+	required uint32 partIdValue = 3;      
+	optional MsgSyncPartPartnerEquip equipData = 4;    
+	optional uint32 consumeThingConfigId = 5;          
+	optional int32  consumeCount = 6;                  
+	optional uint32 godEquipSuitId = 7;                
+}
+
+
+ 
+ 
+ 
+message MsgChangeEquipmentSetId{
+    required uint32 slotIndex = 1;            
+	required uint32 equipSetQuality = 2;      
+	required uint32 equipSetConfigId = 3;     
+}
+
+
+ 
+ 
+ 
+message MsgReceiveEquipMasterLvExtraReward{
+    required uint32 slotIndex = 1;       
+	required uint32 trainType = 2;       
+	required uint32 lvValue = 3;         
+	required uint32 receiveType = 4;     
+}
+
+
+ 
+ 
+ 
+message MsgResultOfReceiveEquipMasterLvExtraReward{
+    required uint32 code = 1;            
+    required uint32 slotIndex = 2;       
+	required uint32 trainType = 3;       
+	required uint32 lvValue = 4;         
+	required uint32 receiveType = 5;     
+}
+
+
+
+
+ 
+
+ 
+ 
+ 
+message MsgSyncUserPeachActivityData{
+   required uint32 eatPeachCount = 1;                         
+   required uint32 worldLvValue  = 2;                         
+}
+
+
+ 
+ 
+ 
+message MsgEatPeachOnActivityReq{
+
+}
+
+
+ 
+ 
+ 
+message MsgResultOfEatPeachOnActivity{
+   required uint32 code = 1;               
+   required uint32 eatPeachCount = 2;      
+   optional uint32 newLvValue = 3;         
+}
+ 
+ 
+ 
+message MsgSyncPeriodCardData{
+   required uint32 functionOpenFlag  = 1;             	 
+   required uint32 cardType = 2;                         
+   required uint32 restDay = 3;                          
+   required uint32 getRewardFlag = 4;                    
+   required uint32 buyCount = 5;                         
+   required uint32 nextBuyCostRmb = 6;                   
+}
+
+ 
+ 
+ 
+message MsgResultOfBuyPeriodCard{
+   required uint32 resultCodeValue = 1;       
+   required uint32 cardType = 2;              
+   required uint32 buyCount = 3;              
+   required uint32 nextBuyCostRmb = 4;        
+}
+
+ 
+ 
+ 
+message MsgGetPeriodCardReward{
+   required uint32 cardType = 1;          
+}
+
+ 
+ 
+ 
+message MsgResultOfGetPeriodCardReward{
+   required uint32 resultCodeValue = 1;       
+   required uint32 cardType = 2;              
+}
+
+
+ 
+ 
+ 
+message MsgOpenAllLifeCardFunction{
+
+}
+ 
+
+
+message PictureInfo
+{
+	required uint32 pictureId = 1; 
+	required uint32 lev = 2; 
+}
+
+ 
+ 
+ 
+message MsgPictureSync {
+	repeated PictureInfo picInfo = 1;
+}
+
+ 
+ 
+ 
+message MsgPictureUpdateReq {
+	required uint32 pictureId = 1; 
+}
+
+ 
+ 
+ 
+message MsgPictureUpdateRet {
+	required uint32 code = 1;
+	required uint32 pictureId = 2; 
+}
+ 
+ 
+ 
+message MsgSynckReceivedPlatformVip{
+   repeated uint32 rewardIdList = 1;                  
+}
+
+
+
+ 
+ 
+ 
+message MsgReceivePlatformVip{
+   required uint32 rewardId = 1;                     
+}
+
+
+
+ 
+ 
+ 
+message MsgResultOfReceivePlatformVip{
+   required uint32 code = 1;                         
+   repeated uint32 rewardIdList = 2;                 
+} 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+message MsgSyncStagePlotPushMap{
+   required uint32 stageIdValue = 1;                
+   required uint32 usedChallengeCount = 2;          
+   required uint32 totalStarValue = 3;              
+   required uint32 firstReceiveFlag = 4;            
+}
+
+
+message MsgStarRewardInfo{
+   required uint32 starCount = 1;                
+   required uint32 receiveFlag = 2;               
+}
+
+
+
+ 
+ 
+ 
+message MsgSyncChapterPlotPushMap{
+   required uint32 chapterId = 1;                       
+   repeated MsgStarRewardInfo msgStarReward = 2;        
+   repeated MsgSyncStagePlotPushMap msgStageInfo = 3;   
+}
+
+
+message MsgPlotPushMapSimpleData{
+   required uint32 chapterId = 1;               
+   required uint32 starRewardCount = 2;         
+   required uint32 firstCleanRewardCount = 3;   
+   required uint32 rewardStarCount = 4;         
+}
+
+
+ 
+ 
+ 
+message MsgSyncPlotPushMap{
+   required uint32 functionOpenFlag = 1;                    
+   repeated MsgPlotPushMapSimpleData msgChapterInfo = 2;    
+   optional uint32 mopTotalCount = 3;                       
+}
+
+ 
+ 
+ 
+message MsgQueryChapterPlotInfo{
+   required uint32 chapterId = 1;              
+}
+
+
+ 
+ 
+ 
+message MsgReceiveFirstRewardReq{
+   required uint32 chapterId = 1;             
+   required uint32 stageId = 2;               
+}
+
+
+ 
+ 
+ 
+message MsgResultOfReceiveFirstReward{
+   required uint32 code = 1;               
+   required uint32 chapterId = 2;          
+   required uint32 stageId = 3;            
+}
+
+
+ 
+ 
+ 
+message MsgReceiveChapterStarRewardReq{
+   required uint32 chapterId = 1;             
+   required uint32 starCount = 2;             
+}
+
+
+ 
+ 
+ 
+message MsgResultOfReceiveChapterStarReward{
+   required uint32 code = 1;                  
+   required uint32 chapterId = 2;             
+   required uint32 starCount = 3;             
+}
+
+
+ 
+ 
+ 
+message MsgChallengeStageBattle{
+   required uint32 chapterId = 1;             
+   required uint32 stageId = 2;               
+}
+
+
+ 
+ 
+ 
+message MsgResultOfChallengeStageBattle{
+   required uint32 code = 1;                  
+   required uint32 chapterId = 2;             
+   required uint32 stageId = 3;               
+}
+
+ 
+message MsgCleanBattleItem{
+   required uint32 thingCofigId = 1;          
+   required uint32 thingCount   = 2;          
+}
+
+message MsgCleanBattleInfo{
+   required uint32 rewardStarCount = 1;               
+   required uint32 totalChapterStar = 2;              
+   required uint32 usedChallengeCount = 3;            
+   repeated MsgCleanBattleItem cleanBattleItem = 4;   
+   repeated MsgStarRewardInfo  rewardStarInfo = 5;    
+   optional uint32 newOpenStageId = 6;                
+   required uint32 money = 7;						  
+   required uint32 exp = 8;							  
+   required uint32 isOpenNextChapter = 9;             
+}
+
+ 
+ 
+ 
+message MsgResultOfCleanStageBattle{
+   required uint32 cleanBattle = 1;                  
+   required uint32 chapterId = 2;                    
+   required uint32 stageId = 3;                      
+   optional MsgCleanBattleInfo msgCleanInfo = 4;     
+}
+
+
+ 
+ 
+ 
+message MsgActivePlotPushNewChapter{
+   repeated uint32 newActiveChapter = 1;             
+}
+
+ 
+ 
+ 
+message MsgMopUpOfStageBattle{
+   required uint32 chapterId = 1;             
+   required uint32 stageId = 2;               
+   required uint32 mopUpCount = 3;            
+}
+
+
+ 
+ 
+ 
+message MsgResultOfMopUpOfStageBattle{
+   required uint32 code = 1;                  
+   required uint32 chapterId = 2;             
+   required uint32 stageId = 3;               
+   required uint32 usedChallengeCount = 4;    
+   repeated MsgCleanBattleItem cleanBattleItem = 5;   
+   optional uint32 money = 7;						  
+   optional uint32 exp = 8;							  
+   optional uint32 mopTotalCount = 9;                 
+}
+
+
+ 
+ 
+ 
+message MsgOneKeyToReceiveChapterRewards{
+   required uint32 chapterId = 1;             
+}
+
+
+ 
+ 
+ 
+message MsgResultOfOneKeyToReceiveChapterRewards{
+   required uint32 code = 1;                  
+   required uint32 chapterId = 2;             
+}
+
+ 
+ 
+ 
+message MsgSyncPlotPushMapOfWinBotBattleCount{
+   required uint32 winBotBattleCount = 1;             
+}
+
+
+ 
+ 
+ 
+message MsgOpenPlotPushMapNewChapterByLvUp{
+   required uint32 newChapterId = 1;             
+}
+ 
+ 
+
+ 
+ 
+ 
+message MsgSyncPlotQuestInfo{
+   required uint32 currentTaskId     = 1;    
+   required uint32 taskProgressValue = 2;    
+   required uint32 taskStatusValue   = 3;    
+}
+
+ 
+ 
+ 
+message MsgCompletePlotQuestReq{
+   required uint32 completePlotTaskId  = 1;    
+}
+
+
+ 
+ 
+ 
+message MsgResultOfCompletePlotQuest{
+   required uint32 code = 1;                              
+   required uint32 completePlotTaskId  = 2;               
+   optional MsgSyncPlotQuestInfo newPlotTaskInfo  = 3;    
+}
+
+ 
+ 
+ 
+message MsgCompleteToTalkSpecficNpc{
+   required uint32 configNpcId  = 1;    
+}
+
+
+ 
+
+
+ 
+ 
+ 
+message MsgPlotQuestToStarBattle{
+   required uint32 configTaskId  = 1;    
+}
+
+
+ 
+ 
+ 
+message MsgResultOfPlotQuestToStarBattle{
+   required uint32 code = 1;             
+   required uint32 configTaskId  = 2;    
+}
+
+ 
+
+ 
+ 
+ 
+message MsgCompleteAutoGuideChallenge{
+  
+}
+
+ 
+ 
+ 
+message MsgResultOfCompleteAutoGuideChallenge{
+   required uint32 code = 1;             
+}
+ 
+ 
+ 
+message MsgReqPoemInfo{
+
+}
+
+ 
+ 
+ 
+message MsgRetPoemInfo{
+	required uint32 qid = 1;	 
+	repeated MsgPoemInfo list	= 2;	 
+}
+
+ 
+ 
+ 
+message MsgPoemAnwer{
+	required uint32 qid = 1;	
+	required uint32 ret = 2;	 
+}
+
+
+ 
+ 
+ 
+message MsgPoemBuy{
+	required uint32 openid = 1;	
+}
+
+ 
+ 
+ 
+message MsgPoemResult{
+	required uint32 msg =1; 	
+	required uint32 ret =2; 	 
+	required uint32 param =3;	 
+}
+
+
+message MsgPoemInfo{
+	required uint32 openid =1; 	
+	required uint32 sta =2; 	 
+}
+ 
+ 
+ 
+message MsgSyncPowerDoubleInfo{
+   required uint64 startUnixTime = 1;	    
+   required uint64 endUnixTime  = 2;        
+   repeated uint32 receiveActivityIdList = 3;   
+}
+
+
+ 
+ 
+ 
+message MsgReceivePowerDoubleReward{
+   required uint32 activityId = 1;	    
+}
+
+
+ 
+ 
+ 
+message MsgResultOfReceivePowerDoubleReward{
+   required uint32 code = 1;            
+   repeated uint32 receiveActivityIdList = 2;   
+}
+ 
+
+message PracticeInfo
+{
+	required uint32 skillId = 1;
+	required uint32 lev = 2;
+	required uint32 exp = 3;
+}
+
+ 
+ 
+ 
+message MsgPracticeInfoSyn {
+	repeated PracticeInfo info = 1;
+}
+
+ 
+ 
+ 
+message MsgPracticeUpdateReq {
+	required uint32 skillId = 1;
+	required uint32 opType = 2; 
+}
+
+ 
+ 
+ 
+message MsgPracticeUpdateRet {
+	required uint32 code = 1;
+	optional uint32 skillId = 2;
+	optional uint32 lev = 3;
+	optional uint32 exp = 4;
+}
+
+ 
+ 
+ 
+message MsgSyncPreferenceDayData {
+    required uint32  matchesId = 1;
+	required uint64  startUnixTime = 2;
+	required uint64  endUnixTime = 3;
+	repeated uint32  typeIdlist = 4;    
+}
+
+
+ 
+ 
+ 
+message MsgRechargePreferenceDayData{
+    required uint32  rechargeId = 1; 
+}
+
+
+ 
+ 
+ 
+message MsgResultOfRechargePreferenceDayData{
+    required uint32  code = 1;               
+    required uint32  typeId = 2;             
+	repeated uint32  typeIdlist = 3;         
+} 
+
+
+ 
+ 
+ 
+message MsgSyncPlatformVipData{
+   optional uint32 receiveId = 1;                  
+}
+
+
+
+ 
+ 
+ 
+message MsgReceivePtVipGift{
+   required uint32 receiveId = 1;                  
+}
+
+
+ 
+ 
+ 
+message MsgResultOfReceivePtVipGift{
+   required uint32 code = 1;                       
+   optional uint32 receiveId = 2;                  
+}
+
+ 
+ 
+ 
+message MsgSyncCurrentTaskType{
+   required uint32 currentTaskType = 1;             
+}
+
+
+ 
+ 
+ 
+message MsgQueryCurrentTaskType{
+    
+}
+ 
+ 
+ 
+message MsgReqRankList{
+	required uint32 type =1;
+	required uint32 begin =2;
+	required uint32 end =3;
+}
+
+
+ 
+ 
+ 
+message MsgRetRankList{
+	required uint32 ret = 1;
+	optional uint32 maxsize = 2;
+	repeated MsgReqRankInfo list =3;
+}
+
+ 
+ 
+ 
+message MsgReqMyRank{
+	required uint32 type =1;
+}
+
+
+ 
+ 
+ 
+message MsgRetMyRank{
+	required uint32 type =1;
+	required uint32 rank =2;
+}
+
+ 
+ 
+ 
+message MsgRankChange{
+	required uint32 type =1; 
+	required uint32 oldrank =2;
+	required uint32 newrank =3;
+}
+
+ 
+ 
+ 
+message MsgSetRankNotify{
+	required uint32 notify =1;	 
+}
+
+
+ 
+ 
+ 
+message MsgSyncRankNotify{
+	required uint32 notify =1;	 
+}
+
+
+message MsgReqRankInfo{
+	required uint64 characterid = 1;		
+	required string name = 2;
+	required uint32 level =3;
+	required uint32 roleid =4;
+	required uint32 rankid =5;
+	required uint32 combat =6;
+	required uint32 horse =7;
+	required uint32 weapon =8;
+	required uint32 wing =9;
+	required uint32 magic =10;
+	required uint32 matrix =11;
+	required uint32 value = 12;
+	required uint64 otherid =13;
+	optional uint32 starCount = 14;           
+	optional uint64 rewardStarUnixTime = 15;  
+	required uint32 transformAvatarId =16;
+	required uint32 immortal =17;
+	required uint32 smartHorse = 18;             
+	optional BlueDiamondsData rankBlueData = 19;  
+}
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+message MsgRechargeDayStatus{
+	required uint32 typeId = 1;         
+	required uint32 receiveFlag = 2;    
+}
+
+ 
+ 
+ 
+message MsgSyncRechargeDayInfo{
+    required uint32 matchesId = 1;   
+	required uint32 chargeNum = 2;   
+	required uint64 endUnixTime = 3;    
+	repeated MsgRechargeDayStatus rewardStatus = 4; 
+}
+
+ 
+ 
+ 
+message MsgRechargeDayGetReward{
+	required uint32 rewardTypeId = 1;
+}
+
+
+ 
+ 
+ 
+message MsgRechargeDayGetRewardRet{
+	required uint32 code = 1;      
+	required uint32 rewardTypeId = 2;
+}
+
+
+ 
+ 
+ 
+message MsgChangeRechargeDayRecharge{
+	required uint32 rechargeNum = 1;       
+}
+ 
+
+ 
+ 
+ 
+message MsgSyncRechargeRebateInfo{
+    required uint32 rechargedDayCount = 1;          
+	required uint32 currentDayIdValue = 2;          
+	required uint32 rechargeRmb = 3;                
+	repeated uint32 receivedDayIdList = 4;          
+}
+
+
+
+ 
+ 
+ 
+message MsgRechargeRebateToClient{
+    required uint32 rechargedDayCount = 1;          
+	required uint32 currentDayIdValue = 2;          
+	required uint32 rechargeRmb = 3;                
+}
+
+
+ 
+ 
+ 
+message MsgReceiveRechargeRebateReward{
+    required uint32 receiveDayId = 1;          
+}
+
+
+ 
+ 
+ 
+message MsgResultOfReceiveRechargeRebateReward{
+    required uint32 code = 1;                  
+    required uint32 receiveDayId = 2;          
+}
+
+
+message MsgRedPacketData{
+	required uint64 redPacketSerialId = 1;         
+	required uint32 redPacketConfigId = 2;         
+	optional string strCharacterName = 3;          
+	required uint32 redPacketStatus = 4;           
+	required uint64 redPacketEndUnixTime = 5;      
+}
+
+ 
+ 
+ 
+ 
+message MsgQueryRedPacketDataInfo{
+    
+}
+
+
+ 
+ 
+ 
+message MsgReturnRedPacketDataInfo{
+    required uint32 receivedRedPacketCount = 1;          
+	repeated MsgRedPacketData redPacketDataList = 2;     
+}
+
+
+ 
+ 
+ 
+message MsgSearchRedPacketRankData{
+    required uint64 redPacketSerialId = 1;         
+}
+
+
+message MsgRedPacketReceiverDataList{
+    required uint64 characterId = 1;               
+	required string strCharacterName = 2;          
+	required uint32 roleTypeValue = 3;             
+	required uint32 currnecyValue = 4;             
+	required uint32 characterLv = 5;               
+	required uint64 receiveUnixTime = 6;           
+	optional BlueDiamondsData blueData = 7;    
+}
+
+ 
+ 
+ 
+message MsgReturnRedPacketRankData{
+    required uint64 redPacketSerialId = 1;         
+	required uint32 redPacketConfigId = 2;         
+	required uint32 redPacketCount = 3;            
+	repeated MsgRedPacketReceiverDataList redPacketReceiverList = 4;   
+}
+
+
+ 
+ 
+ 
+message MsgReciveRedPacket{
+    required uint64 redPacketSerialId = 1;         
+}
+
+
+ 
+ 
+ 
+message MsgResultOfReciveRedPacket{
+    required uint32 code = 1;                      
+    required uint64 redPacketSerialId = 2;         
+	required uint32 currencyValue = 3;             
+	required uint32 receiveRedPacktCount = 4;      
+	required uint32 redPacketStatus = 5;           
+}
+
+
+ 
+ 
+ 
+message MsgClearReciveRedPacketCount{
+    required uint32 receiveRedPacktCount = 1;      
+}
+
+
+ 
+ 
+ 
+message MsgNewRedPacketArrive{
+    required MsgRedPacketData newRedPacket = 1;      
+}
+
+
+ 
+ 
+ 
+message MsgRedPacketStatusToReceiveAllOut{
+    required uint64 redPacketSerialId = 1;         
+}
+
+message RepayGiftInfo{
+   required uint32 classId = 1;             
+   required uint32 totalBuyCount = 2;       
+   required uint32 receiveTotalCount = 3;   
+}
+
+
+ 
+ 
+ 
+ 
+message MsgSyncRepayGiftInfo{
+    required uint32 beginUnixTime = 1;              
+	required uint32 endUnixTime = 2;                
+	repeated RepayGiftInfo repayGiftList = 3;       
+}
+
+
+
+ 
+ 
+ 
+message MsgRepayGiftRechargeList{
+    required uint32  code = 1;                
+    required uint32  classId = 2;             
+    required uint32  totalBuyCount = 3;       
+}
+
+
+ 
+ 
+ 
+message MsgReceiveRepayGiftReq{
+	required uint32 classId = 1;        
+}
+
+
+
+ 
+ 
+ 
+message MsgResultOfReceiveRepayGift{
+    required uint32 code = 1;           
+	required uint32 classId = 2;        
+	required uint32 totalReceiveCount = 3;    
+}
+
+
+ 
+
+message MsgRepeatDiscountBuyRecord{
+    required uint32 configId = 1;          
+	required uint32 buyActionCount = 2;    
+	optional uint32 refreshUnixTime = 3;   
+}
+
+message MsgRepeatOfDiscountUnitData{
+    required uint32 configGroupId = 1;         
+	required uint32 beginUnixTime = 2;         
+	required uint32 endUnixTime = 3;           
+	repeated MsgRepeatDiscountBuyRecord buyRecordsList = 4;     
+}
+
+ 
+ 
+ 
+message MsgSyncRepeatOfDiscount{
+    repeated MsgRepeatOfDiscountUnitData groupInfoList = 1;     
+}
+
+
+message MsgRepeatOfDiscountUnitBuyData{
+    required uint32 configGroupId = 1;         
+	required uint32 configKeyId = 2;           
+	required uint32 buyNum = 4;                
+}
+
+
+ 
+ 
+ 
+message MsgRepeatOfDiscountToBuyReq{
+   repeated MsgRepeatOfDiscountUnitBuyData discountList = 1;   
+}
+
+
+ 
+ 
+ 
+message MsgResultOfRepeatDiscountToBuy{
+    required uint32 code = 1;                  
+    repeated uint32 groupIdList = 2;           
+}
+
+ 
+
+message MsgClearRepeatedDiscountBuyInfo{
+    required uint32 configGroupId = 1;          
+    required uint32 configKeyId = 2;            
+}
+
+ 
+ 
+ 
+message MsgResetRepeatOfDiscount{
+    repeated MsgClearRepeatedDiscountBuyInfo clearInfoList = 1;     
+}
+ 
+
+message MsgRingQuestLog{
+   required uint32 characterLv = 1;      
+   required uint32 ringCount = 2;        
+}
+
+ 
+message MsgRingQuestData{
+   required uint32 receiveRingCount = 1;      
+   required uint32 buyRingCount = 2;          
+   repeated MsgRingQuestLog ringQuestLogList = 3;   
+}
+
+ 
+ 
+ 
+message MsgSyncRingQuestInfo{
+   required uint32 isGuideFlag   = 1;              
+   required uint32 isOpenFlag    = 2;              
+   required uint32 currentTaskId = 3;              
+   required uint32 taskProgress  = 4;              
+   optional MsgRingQuestData ringQuestData = 5;    
+}
+
+
+ 
+ 
+ 
+message MsgReceiveFirstRingQuest{ 
+        
+}
+
+
+ 
+ 
+ 
+message MsgResultOfReceiveFirstRingQuest{ 
+   required uint32 code = 1;                
+   required uint32 isGuideFlag = 2;         
+   required uint32 newTaskId = 3;           
+   required uint32 taskProgress = 4;        
+   optional uint32 receiveRingCount = 5;    
+}
+
+
+ 
+ 
+ 
+message MsgCompleteCurrentRingQuest{
+   required uint32 ringQuestId = 1;          
+}
+
+
+ 
+ 
+ 
+message MsgSyncCompleteCurrentRingQuestResult{
+   required uint32 code = 1;                 
+   required uint32 isGuideFlag   = 2;        
+   required uint32 currentTaskId = 3;        
+   required uint32 taskProgress  = 4;        
+   repeated MsgRingQuestLog ringQuestLogList = 5;   
+}
+
+
+
+ 
+ 
+ 
+message MsgOneKeyCompleteRingQuest{
+   
+}
+
+
+ 
+ 
+ 
+message MsgResultOfOneKeyCompleteRingQuest{
+   required uint32 code = 1;                 
+   optional uint32 currentTaskId = 2;        
+   optional uint32 taskProgress  = 3;        
+   repeated MsgRingQuestLog ringQuestLogList = 4;   
+   optional uint32 receiveRingCount  = 5;     
+}
+
+
+ 
+ 
+ 
+message MsgCompleteRingQuestToBattle{
+   required uint32 ringQuestId = 1;
+}
+
+
+ 
+ 
+ 
+message MsgResultOfCompleteRingQuestToBattle{
+   required uint32 code = 1;              
+   required uint32 ringQuestId = 2; 
+}
+
+
+ 
+ 
+ 
+message MsgBuyRingQuestCount{
+   
+}
+
+
+ 
+ 
+ 
+message MsgResultOfBuyRingQuestCount{
+   required uint32 code = 1;             
+   required uint32 buyRingCount = 2;     
+}
+
+
+
+ 
+ 
+message MsgSceneChange {
+	required uint32 sceneSeriaID = 1;
+	required uint32 sceneCfgId = 2;
+	required float posX = 3;
+	required float posY = 4;
+}
+
+ 
+ 
+message MsgModifyCharacterSceneObjectID {
+	required uint32 sceneObjId = 1;
+}
+
+ 
+ 
+message MsgLeave {
+	repeated uint32 sceneObjId = 1;
+}
+
+message PosStructUn {
+	required float x = 1;
+	required float y = 2;
+}
+
+ 
+ 
+message  MsgProxyCharacterInfo{
+	required uint32 sceneObjId = 1;
+	required uint64 characterId = 2;
+	required PosStructUn curPos = 3;
+	required PosStructUn tarPos = 4;
+	required float speed = 5;
+	required string name = 6;
+	required uint32 hp = 7;
+	required uint32 maxHp = 8;
+	required uint32 level = 9;
+	required uint32 pro = 10;
+	required uint32 roleType = 11;
+	required uint32 horseAvatarId = 12;        
+	required uint32 weaponAvatarId = 13;       
+	required uint32 wingAvatarId = 14;         
+	required uint32 matrixAvatarId = 15;       
+	required uint32 magicAvatarId = 16;        
+	required uint32 designAvatarId = 17;       
+	required uint32 fashionAvatarId = 18;      
+	required uint32 transformerAvatarId = 19;     
+	required uint32 immortalAvatarId = 20;        
+	required uint32 smartHorseAvatarId = 21;        
+}
+
+
+ 
+ 
+message MsgTransportReq {
+	required uint32 npcObjId = 1;
+	required uint32 sceneId = 2;
+}
+
+
+ 
+
+ 
+ 
+message MsgTransportRet {
+	required uint32 res = 1;
+}
+
+ 
+ 
+ 
+message MsgLevelSyn {
+	required uint32 sceneObjId = 1;
+	required uint32 newLev = 2; 
+}
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+message MsgSealMonsterSyncMonsterList{
+    required uint32  changeCount = 1;         
+	required uint32  lvValue = 2;             
+	required uint32  lastMonsterNo = 3;       
+	repeated uint32  isCanMopUpLvList = 4;    
+}
+
+ 
+ 
+ 
+message MsgSealMonsterChallenge{
+   
+}
+
+ 
+ 
+ 
+message MsgResultOfSealMonsterChallenge{
+   required uint32 code = 1;                
+   required uint32 lvValue = 2;             
+   required uint32 monsterNo = 3;           
+}
+
+
+ 
+ 
+ 
+message MsgSealMonsterToBattle{
+   
+}
+
+message MsgSealMonsterRewardItem{
+	required uint32 itemId = 1;
+	required uint32 itemNum = 2;
+}
+
+
+ 
+ 
+ 
+message MsgSealMonsterBattleResult{
+	required uint32 code = 1;                               
+	required uint32 battleResult = 2;                       
+	required uint32 battleTypeValue = 3;                    
+	repeated MsgSealMonsterRewardItem rewardItem = 4;       
+	optional MsgSealMonsterSyncMonsterList sealInfo = 5;    
+}
+
+
+ 
+ 
+ 
+message MsgSealMonsterMopUp{
+   required uint32 mopUpCount = 1;     
+}
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+message MsgSeriesRCInfo{
+	required uint32 activityid = 1;	 
+	required uint32 cost = 2;				 
+	repeated MsgRechargeDay recharge= 3;	 
+	repeated MsgRewardInfo reward = 4;	 
+	required uint32 finalreward = 5;	 
+	required uint32 indexday = 6;	 
+	required uint32 todayrecharge = 7; 	 
+}
+
+ 
+ 
+ 
+message MsgRechargeDay{
+	required uint32 recharge = 1;	 
+	required uint32 day = 2;			 
+}
+
+ 
+ 
+ 
+message MsgRewardInfo{
+	required uint32 id = 1;	 
+	required uint32 reward = 2;	 
+}
+
+ 
+ 
+ 
+message MsgRechargeReward{
+	required uint32 activityid = 1;	 
+	required uint32 rechargeid = 2;	 
+	required uint32 rewardid = 3;	 
+}
+
+ 
+ 
+ 
+message MsgRechargeFinalReward{
+	required uint32 activityid = 1;	 
+}
+
+ 
+ 
+ 
+message MsgCostReward{
+	required uint32 activityid = 1;	 
+	required uint32 costid = 2;	 
+}
+
+ 
+ 
+ 
+message MsgSupplementDay{
+	required uint32 activityid = 1;	 
+	required uint32 rechargeid = 2;	 
+	required uint32 signinday = 3;	 
+}
+
+ 
+ 
+ 
+message MsgSeriesRCResult{
+	required uint32 msg = 1;	 
+	required uint32 code = 2;	 
+}
+
+ 
+ 
+ 
+message MsgToatlCost{
+	required uint32 cost = 1;	 
+}
+
+ 
+ 
+ 
+message MsgTodatRecharge{
+	required uint32 todayrecharge = 1;	 
+}
+
+
+
+ 
+ 
+ 
+message MsgSystemInitInfo {
+	required uint32 openserverday = 1; 
+	required uint32 curTime = 2;	 
+	required uint32 combinedtimes = 3; 
+	required uint64 openservertime = 4; 
+}
+
+ 
+ 
+message MsgServerTimeUpdate {
+	required uint64 curTime = 1;
+}
+
+ 
+ 
+ 
+message MsgKeepAlive {
+
+}
+
+ 
+ 
+ 
+message MsgKeepAliveRet {
+	required uint64 curTime = 1;
+}
+
+
+ 
+
+ 
+ 
+ 
+message MsgSevenDaysReq {
+}
+
+ 
+ 
+ 
+message MsgSevenDaysSyn
+{
+	required uint32 continuedDays = 1;
+	required uint32 rewardStatus = 2;
+	required bool bOpen = 3; 
+}
+
+ 
+ 
+ 
+message MsgSevenDaysReceiveReq {
+	required uint32 dayIndex = 1;
+}	
+
+
+ 
+ 
+ 
+message MsgSevenDaysReceiveRet
+{
+	required uint32 code = 1;
+	required uint32 dayIndex = 2;
+}
+
+ 
+ 
+ 
+message MsgOpenSevenLoginModule {
+}
+
+ 
+ 
+ 
+message MsgRetOpenSevenLoginModuleResult{
+	required uint32 code = 1;
+}
+
+message MsgPersonalRandomShopData{
+   required uint32 configShopId = 1;    
+   repeated uint32 shopKeyId = 2;      
+}
+
+
+message MsgGoodBuyRecords{
+   required uint32 shopKeyId = 1;      
+   required uint32 buyCount  = 2;      
+}
+
+
+message MsgShopGoodsBuyData{
+   required uint32 configShopId = 1;            
+   repeated MsgGoodBuyRecords buyRecords = 2;   
+}
+
+message MsgCounterGoodsBuyData{
+   required uint32 configCounterId = 1;            
+   repeated MsgGoodBuyRecords buyRecords = 2;   
+}
+
+
+message MsgShopCounterGoodsRecordList{
+   required uint32 configShopId = 1;               
+   repeated MsgCounterGoodsBuyData buyRecords = 2;    
+}
+
+
+ 
+ 
+ 
+ 
+message MsgSyncShopData{
+   required uint32  functionOpenFlag  = 1;                         
+   repeated MsgPersonalRandomShopData randomShopData = 2;          
+   repeated MsgShopGoodsBuyData goodsBuyData = 3;                  
+   repeated MsgShopCounterGoodsRecordList counterRecordList = 4;   
+}
+
+
+ 
+ 
+ 
+message MsgBuyGoodsFromShopData{
+   required uint32 configShopId = 1;          
+   required uint32 counterId = 2;             
+   required uint32 configKeyId  = 3;          
+   required uint32 buyCount  = 4;             
+}
+
+
+
+ 
+ 
+ 
+message MsgResultOfBuyGoodsFromShopData{
+   required uint32 resultCodeValue = 1;       
+   required uint32 configShopId = 2;          
+   required uint32 counterId = 3;             
+   required uint32 configKeyId  = 4;          
+   required uint32 buyCount = 5;              
+}
+
+
+ 
+ 
+ 
+message MsgRefreshRandomShopGoodsList{
+   required uint32 configShopId = 1;          
+}
+
+
+ 
+ 
+ 
+message MsgResultOfRefreshRandomShopGoodsList{
+   required uint32 resultCodeValue = 1;       
+   required uint32 configShopId = 2;          
+   optional MsgPersonalRandomShopData randomShopData = 3;  
+}
+
+
+ 
+ 
+ 
+message MsgBuyRecordsOfShopGoodsRefresh{
+   optional MsgShopGoodsBuyData shopGoodsBuyData = 1;                     
+   optional MsgShopCounterGoodsRecordList  counterGoodsBuyRecords = 2;    
+}
+
+ 
+ 
+ 
+message MsgQuerySpecficShopData{
+   required uint32  shopId  = 1;                         
+}
+
+
+ 
+ 
+ 
+message MsgReturnSpecficShopData{
+   required uint32  shopId  = 1;                                   
+   optional MsgPersonalRandomShopData randomShopData = 2;          
+   optional MsgShopGoodsBuyData goodsBuyData = 3;                  
+   optional MsgShopCounterGoodsRecordList counterRecordList = 4;   
+}
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+ 
+ 
+ 
+message MsgQuerySignRewardInfo{
+   
+}
+
+message MsgSignAttendanceData{
+    required uint32 attendanceId = 1;        
+	required uint32 receiveStatusFlag = 2;   
+}
+
+ 
+ 
+ 
+message MsgRetSignRewardInfo{
+    required uint32 loginDayCount = 1;                  
+	required uint32 loginRewardStatus = 2;              
+	required uint32 activityId = 3;                     
+	required uint32 rechargeCountToday = 4;             
+	repeated MsgSignAttendanceData attendanceList = 5;  
+}
+
+
+
+ 
+ 
+ 
+message MsgReciveSignLoginReward{
+   
+}
+
+
+ 
+ 
+ 
+message MsgResultOfReciveSignLoginReward{
+   required uint32 code = 1;    
+}
+
+
+
+ 
+ 
+ 
+message MsgReciveSignActivityReward{
+   required uint32 attendanceId = 1;
+}
+
+
+
+ 
+ 
+ 
+message MsgResultOfReciveSignActivityReward{
+   required uint32 code = 1;           
+   required uint32 attendanceId = 2;   
+}
+
+
+
+ 
+ 
+ 
+message MsgSignRewardRecharge{
+   required uint32 rechargeEmoney = 1;
+}
+
+
+
+ 
+message MsgSingleRechargeActivityData {
+   required uint32 configGroupId = 1;       
+   required uint32 beginUnixTime = 2;
+   required uint32 endUnixTime = 3;
+   required uint32 dayValue = 4;
+   repeated uint32 rechargeValueList = 5;   
+   repeated uint32 receiveValueList = 6;    
+}
+
+ 
+ 
+ 
+message MsgSyncSingleRechargeData {
+	repeated MsgSingleRechargeActivityData  rechargeActivityList = 1;    
+}
+
+
+ 
+ 
+ 
+message MsgReceiveSingleRechargeId {
+   required uint32 configGroupId = 1;         
+   required uint32 rechargeValue = 2;         
+}
+
+
+ 
+ 
+ 
+message MsgResultOfReceiveSingleRechargeId {
+   required uint32 code = 1;                  
+   required uint32 configGroupId = 2;         
+   required uint32 rechargeValue = 3;         
+}
+
+
+message MsgUpdateSingleRechargeUnitData {
+   required uint32 configGroupId = 1;       
+   required uint32 dayValue = 2;
+   required uint32 rechargeValue = 3;
+}
+
+ 
+ 
+ 
+message MsgUpdateSingleRechargeToSync {
+   repeated MsgUpdateSingleRechargeUnitData updateRechargeList = 1;
+}
+
+
+
+
+
+
+
+
+ 
+ 
+
+message MsgSmartPetCopy{
+   required uint32 groupId = 1;
+   required uint32 beginUnixTime = 2;
+   required uint32 endUnixTime = 3;
+   required uint32 successRoundId = 4;    
+}
+
+ 
+ 
+ 
+message MsgSyncSmartPetCopyData{
+   repeated MsgSmartPetCopy  petCopyList = 1;   
+}
+
+
+ 
+ 
+ 
+message MsgTryToBattleSmartPetCopy{
+   required uint32 groupId = 1;
+}
+
+
+ 
+ 
+ 
+message MsgResultOfBattleSmartPetCopy{
+   required uint32  code = 1;                
+   required uint32  groupId = 2;
+   optional uint32  currentRoundId = 3;      
+}
+
+ 
+ 
+ 
+ 
+message MsgQueryStarPlateData{
+   required uint32  plateTypeValue = 1;   
+}
+
+
+message MsgStarUnitData{
+   required uint32  cardId = 1;
+   required uint32  cardLv = 2;
+}
+
+ 
+ 
+ 
+message MsgSyncStarPlateData{
+   required uint32  plateTypeValue = 1;    
+   repeated MsgStarUnitData starList = 2;  
+}
+
+
+ 
+ 
+ 
+message MsgUpSpecficStarLv{
+   required uint32  plateType = 1;    
+   required uint32  cardId = 2;       
+}
+
+
+ 
+ 
+ 
+message MsgResultOfUpSpecficStarLv{
+   required uint32  code = 1;         
+   required uint32  plateType = 2;    
+   required uint32  cardId = 3;       
+   required uint32  newCardLv = 4;    
+}
+
+ 
+
+message VoteGroupDetail
+{
+	required uint32 id = 1;
+	required uint32 totalVote = 2; 
+}
+
+message VoteGroupInfo
+{
+	required uint32 groupId = 1; 
+	required uint32 status = 2; 
+	repeated VoteGroupDetail detail = 3; 
+	required uint32 winId = 4; 
+	required string strName = 5; 
+	required uint32 winVote = 6; 
+}
+
+ 
+ 
+ 
+message MsgStrongestVoteInfo {
+	repeated VoteGroupInfo details = 1;
+}
+
+message SelfGroupDetail
+{
+	required uint32 id = 1;
+	required uint32 selfVote = 2; 
+}
+
+message SelfVoteInfo
+{
+	required uint32 groupId = 1; 
+	required uint32 unTotalVote = 2; 
+	required uint32 unTodayVote = 3; 
+	repeated SelfGroupDetail infos = 4;
+}
+ 
+ 
+ 
+message MsgStrongestVoteSelfSyn {
+	repeated SelfVoteInfo infos = 1;
+}
+
+ 
+ 
+ 
+message MsgStrongestVoteOpenReq {
+}
+
+ 
+ 
+ 
+message MsgStrongestVoteOpenRet {
+	required uint32 code = 1;
+}
+
+ 
+ 
+ 
+message MsgStrongestVoteReq {
+	required uint32 groupId = 1;	 
+	required uint32 id = 2; 
+}
+
+ 
+ 
+ 
+message MsgStrongestVoteRet {
+	required uint32 code = 1;
+}
+
+ 
+ 
+ 
+message MsgStrongestVoteFinalBroadcast  {
+	required string name = 1; 
+	required uint32 groupId = 2; 
+	required uint32 usId = 3; 
+}
+
+ 
+ 
+ 
+message MsgStrongestVoteQuery
+{
+	required uint32 groupId = 1;	 
+}
+
+ 
+ 
+ 
+message MsgStrongestVoteQueryRet
+{
+	required uint32 code = 1;
+}
+ 
+ 
+ 
+message MsgSystemBroadcast{
+    required uint32 broadcastType = 1;        
+	required uint32 broadcastId   = 2;        
+	repeated string broadcastContent = 3;     
+}
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+message MsgSyncEscortInfoRet {
+   required uint32	escortTimes = 1;     
+   required uint32	attackTimes = 2;     
+   required uint32	carLv = 3;           
+   required uint32  rewardCarLv  = 4;     
+   required uint32  carSerialId = 5;     
+   required uint64  transportEndUnixTime = 6;   
+   required uint32  isDoubleReward = 7;         
+}
+
+
+ 
+ 
+ 
+message MsgEscortCarListReq {
+
+}
+
+
+message MsgEscortCarData {
+   required uint32	carSerialId = 1;           
+   required uint32  isRobotCar = 2;            
+   required uint32  carLv = 3;                 
+   required uint64  carCharacterId = 4;        
+   required string  carCharacterName = 5;      
+   required uint64  transportEndUnixTime = 6;  
+   required uint32  combatValue = 7;           
+   repeated uint64  robCharacterId = 8;        
+   required uint32  robbedMoneyValue = 9;      
+   required uint32  robbedExpValue = 10;       
+}
+
+
+ 
+ 
+ 
+message MsgReturnEscortCarListInfo {
+   required uint32	carSerialId = 1;              
+   repeated MsgEscortCarData escortCarList = 2;   
+}
+
+
+ 
+ 
+ 
+message MsgReqSpecficEscortCarInfo {
+   required uint32  isRobotCarFlag = 1;  
+   required uint32	carSerialId = 2;     
+   required uint64  carCharacterId = 3;  
+}
+
+ 
+ 
+ 
+message MsgReturnSpecficEscortCarInfo {
+   required uint32  isRobotCarFlag = 1;     
+   required uint32	carSerialId = 2;        
+   required uint64  carCharacterId = 3;     
+   required uint32  carLv = 4;              
+   required string  carCharacterName = 5;   
+   required uint32  combatValue = 6;        
+   required uint32  beRobCount = 7;         
+   required string  guildName = 8;          
+}
+
+
+ 
+ 
+ 
+message MsgRefreshEscortCarLv {
+            
+}
+
+
+ 
+ 
+ 
+message MsgResultOfRefreshEscortCarLv {
+    required uint32  code  = 1;   
+	required uint32  carLv = 2;   
+}
+
+
+ 
+ 
+ 
+message MsgOneKeyRefreshEscortCarLv {
+            
+}
+
+ 
+ 
+ 
+message MsgResultOfOneKeyRefreshEscortCarLv {
+    required uint32  code  = 1;   
+	required uint32  carLv = 2;   
+}
+
+
+ 
+ 
+ 
+message MsgTransportEscortCarReq {
+      
+}
+
+
+
+ 
+ 
+ 
+message MsgResultOfTransportEscortCar {
+    required uint32  code  = 1;        
+	required uint32  carSerialId = 2;  
+	required uint64  transportEndUnixTime = 3;   
+}
+
+
+ 
+ 
+ 
+message MsgRobEscortCarReq {
+   required uint32  isRobotCarFlag = 1;  
+   required uint32	carSerialId = 2;     
+   required uint64  carCharacterId = 3;  
+}
+
+
+ 
+ 
+ 
+message MsgRetRobEscortCarReqResult {
+    required uint32  code  = 1;            
+    optional uint32  isRobotCarFlag = 2;   
+    optional uint32	 carSerialId = 3;      
+    optional uint64  carCharacterId = 4;   
+}
+
+message MsgRobEscortCarInfo{
+    required string strCharacterName = 1;   
+	required uint32 moneyValue = 2;         
+	required uint32 expValue = 3;           
+}
+
+
+ 
+ 
+ 
+message MsgRobEscortCarBattle {
+    required uint32 battleResult  = 1;        
+	required uint32 isRobotCarFlag = 2;      
+    required uint32	carSerialId = 3;
+	required uint64 carCharacterId = 4;           
+	optional MsgRobEscortCarInfo robCarInfo = 5;   
+}
+
+ 
+ 
+ 
+message MsgBroadRobEscortCarInfo{
+    required string robCharacterName = 1;       
+	required string beRobedCharacterName = 2;   
+}
+
+ 
+ 
+ 
+message MsgOpenEscortCarRewardWindows{
+
+}
+
+
+message MsgRobCarLog{
+    required string robCharacterName = 1;    
+	required uint32 robResultValue = 2;      
+}
+
+ 
+ 
+ 
+message MsgRetOpenEscortCarRewardWindows{
+   required uint32  carLv = 1;                
+   required uint32  moneyValue = 2;           
+   required uint32  expValue = 3;             
+   required uint32  robbedMoneyValue = 4;     
+   required uint32  robbedExpValue = 5;       
+   repeated MsgRobCarLog  robCarList = 6;     
+   optional uint32  rewardMultipleValue = 7;  
+}
+
+
+ 
+ 
+ 
+message MsgReceiveEscortCarReward{
+
+}
+
+
+
+ 
+ 
+ 
+message MsgResultOfReceiveEscortCarReward{
+    required uint32  code  = 1;   
+    optional uint32  carLv = 2;   
+	optional uint32  moneyValue = 3;   
+	optional uint32  expValue = 4;     
+	optional uint32  newCarLv = 5;     
+	optional uint32  multiValue = 6;   
+}
+
+
+ 
+ 
+ 
+message MsgQuickCompleteEscortCar{
+
+}
+
+
+ 
+ 
+ 
+message MsgEscortCarResult{
+    required uint32  code  = 1;
+	required uint32  serialCarId = 2;
+    required uint32  carLv = 3;   
+}
+
+
+ 
+ 
+ 
+message MsgEscortNewDayUpdateData{
+    required uint32 escortCountValue = 1;    
+	required uint32 robCountValue = 2;       
+}
+
+
+ 
+ 
+ 
+message MsgCloseEscortFunction{
+  
+}
+
+
+ 
+ 
+ 
+message MsgNewCarToEscorting{
+   required MsgEscortCarData newCarToEscort = 1;   
+}
+
+
+ 
+ 
+ 
+message MsgQueryEscortRobLogList{
+  
+}
+
+
+message MsgEscortRobRecord{
+   required string  strBeRobberName = 1;     
+   required uint32  robTypeValue = 2;        
+   required uint32  carLvValue = 3;          
+   required uint32  resultValue = 4;         
+   required uint64  currentUnixTime = 5;     
+}
+
+
+ 
+ 
+ 
+message MsgRetEscortRobLogList{
+   repeated MsgEscortRobRecord robLogList = 1;   
+}
+
+ 
+ 
+ 
+message MsgDeleteQuickEscortBroadcast{
+   repeated uint32  carSerialId = 1;    
+}
+
+ 
+ 
+ 
+message MsgBroadcastMaxQualityEscortCar{
+   required uint64 characterId = 1;         
+   required string characterName = 2;       
+}
+
+
+ 
+ 
+ 
+message MsgYourEscortCarBeRobbedSuccess{
+      
+}
+ 
+
+ 
+ 
+
+
+ 
+message MsgTeachGuideTask{
+   required uint32 openFlag = 1;             
+   required uint32 taskId = 2;               
+   required uint32 completeTaskCount = 3;   
+}
+
+ 
+message MsgTeachTask{
+   required uint32 openFlag = 1;         
+   required uint32 taskId = 2;           
+   required uint32 taskProgress = 3;     
+   required uint32 taskCountDaily = 4;   
+}
+
+
+ 
+ 
+ 
+message MsgSyncTeachTaskData{
+   required uint32 currentTaskStatus = 1;           
+   optional MsgTeachGuideTask guideTeachTask = 2;   
+   optional MsgTeachTask  teachTaskInfo = 3;        
+}
+
+
+ 
+ 
+ 
+message MsgReceiveFirstTeachTask{
+   required uint32 taskType = 1;           
+}
+
+
+
+ 
+ 
+ 
+message MsgResultOfReceiveFirstTeachTask{
+   required uint32 code = 1;               
+   required uint32 taskType = 2;           
+   required uint32 newTaskId = 3;          
+   required uint32 taskProgressCount = 4;  
+}
+
+
+ 
+ 
+ 
+message MsgCompleteTeachTask{
+   required uint32 teachTaskId = 1;          
+}
+
+
+ 
+ 
+ 
+message MsgSyncCompleteTeachTask{
+   required uint32 code = 1;              
+   required uint32 completeTaskType = 2; 
+   required uint32 completeTaskId = 3;    
+   required uint32 progressValue = 4; 
+   optional MsgTeachGuideTask guideTeachTask = 5;   
+   optional MsgTeachTask  teachTaskInfo = 6;        
+   optional uint32 levelBeforeComplete = 7;         
+}
+
+ 
+ 
+ 
+message MsgOneKeyCompleteTeachTask{
+}
+
+ 
+ 
+ 
+message MsgResultOfOneKeyCompleteTeachTask{
+   required uint32 code = 1;                                     
+   optional MsgTeachTask teachTaskInfo = 2;                      
+   optional uint32 levelBeforeComplete = 3;                      
+}
+
+ 
+ 
+ 
+message MsgCompleteTeachTaskToBattle{
+   required uint32 teachTaskId = 1;
+}
+
+ 
+ 
+ 
+message MsgResultOfCompleteTeachTaskToBattle{
+   required uint32 code = 1;          
+   required uint32 teachTaskId = 2; 
+}
+ 
+
+
+ 
+ 
+ 
+message MsgTeamCopySelfInfo {
+	required uint32 unNum = 1; 
+}
+
+ 
+ 
+ 
+message MsgTeamCopyCreateRoom {
+	required uint32 unIndex = 1;		 
+}
+
+ 
+ 
+ 
+message MsgTeamCopyCreateRoomRet {
+	required uint32 code = 1;
+}
+
+ 
+ 
+ 
+message MsgTeamCopyQuickJoin {
+	required uint32 unIndex = 1;
+	optional uint32 teamId = 2; 
+}
+
+ 
+ 
+ 
+message MsgTeamCopyQuickJoinRet {
+	required uint32 code = 1;
+}
+
+
+ 
+ 
+ 
+message MsgTeamCopyFightReq {
+	
+}
+
+message TeamCopyFightReward {
+	required uint32 itemId = 1;
+	required uint32 num = 2;
+}
+
+ 
+ 
+ 
+message MsgTeamCopyFightRet {
+	required uint32 code = 1;
+	optional uint32 unMemberIndex = 2;
+	optional uint32 exp = 3;
+	optional uint32 money = 4;
+	repeated TeamCopyFightReward reward = 5;
+}
+
+ 
+ 
+ 
+message MsgTeamCopyFuncOpen {
+}
+
+
+ 
+ 
+ 
+message MsgTeamCopyFuncOpenRet {
+	required uint32 code = 1;
+}
+ 
+ 
+ 
+message MsgSyncThreeFirstImpulseData {
+	required uint32  receiveFlag = 1;       
+	repeated uint32  rechargeIdlist = 2;    
+}
+
+
+ 
+ 
+ 
+message MsgRechargeSpecficIdOfThreeFirstImpulse{
+    required uint32  rechargeId = 1;       
+}
+
+
+ 
+ 
+ 
+message MsgResultOfRechargeSpecficIdOfThreeFirstImpulse{
+    required uint32  code = 1;             
+    required uint32  rechargeId = 2;       
+}
+
+ 
+ 
+ 
+message MsgReceiveThreeFirstImpulseReward{
+}
+
+
+ 
+ 
+ 
+message MsgResultOfReceiveThreeFirstImpulseReward{
+    required uint32  code = 1;             
+}
+ 
+
+message MsgToBeStrongerCompleteUnitData {
+   required uint32 configWayId = 1;
+   required uint32 completeCount = 2;
+}
+
+ 
+ 
+ 
+message MsgSyncToBeStrongerData {
+	required uint32 totalScoreValue = 1;       
+	repeated uint32 receivedBoxIdList = 2;     
+	repeated MsgToBeStrongerCompleteUnitData completeList = 3;    
+}
+
+
+ 
+ 
+ 
+message MsgUpdateToBeStrongerUnitData {
+	required MsgToBeStrongerCompleteUnitData completeList = 1;    
+	required uint32 totalScoreValue = 2;       
+}
+
+
+
+ 
+ 
+ 
+message MsgReceiveToBeStrongerBox {
+	required uint32 configBoxId = 1;    
+}
+
+
+
+ 
+ 
+ 
+message MsgResultOfReceiveToBeStrongerBox {
+    required uint32 code = 1;           
+	required uint32 configBoxId = 2;    
+}
+ 
+
+message TouziRewardInfo
+{
+	required uint32 groupId = 1;
+	required bool	bReward = 2; 
+}
+
+ 
+ 
+ 
+message MsgTouZiPlanSyn {
+	required uint32 logindays = 1; 
+	required uint32 status = 2; 
+	repeated TouziRewardInfo infos = 3;
+	optional uint32 doubleInfo = 4; 
+}
+
+ 
+ 
+ 
+message MsgTouZiPlanFuncOpenReq {
+}
+
+ 
+ 
+ 
+message MsgTouZiPlanFuncOpenRet {
+	required uint32 code = 1;
+}
+
+ 
+ 
+ 
+message MsgTouZiPlanGetReq {
+	required uint32 unGroupId = 1;
+}
+
+ 
+ 
+ 
+message MsgTouZiPlanGetRet {
+	required uint32 code = 1;
+	required uint32 unGroupId = 2;
+}
+
+ 
+ 
+ 
+message MsgTouZiPlanBuyReq
+{	
+}
+
+ 
+ 
+ 
+message MsgTouZiPlanBuyRet
+{
+	required uint32 code = 1;
+}
+
+ 
+ 
+ 
+message MsgTouZiPlanBroadCast
+{
+	required string name = 1;
+}
+ 
+
+
+message MsgTreasureMapQuestData{
+   required uint32 receiveLv = 1;      
+   required uint32 configTaskId = 2;   
+}
+
+ 
+ 
+ 
+message MsgSyncTreasureMapQuest{
+    required uint32 currentLuckyValue = 1;    
+	required uint32 completedTaskCount = 2;   
+	required uint32 buyTaskCount = 3;         
+	required uint32 digTreasureCount = 4;     
+	optional MsgTreasureMapQuestData  treasureMapQuestData = 5;   
+}
+
+
+ 
+ 
+ 
+message MsgReceiveTreasureMapQuest{
+}
+
+
+ 
+ 
+ 
+message MsgResultOfReceiveTreasureMapQuest{
+   required uint32 code = 1;      
+   optional MsgTreasureMapQuestData  treasureMapQuestData = 2;   
+}
+
+
+ 
+ 
+ 
+message MsgFightTreasureMapQuestBattle{
+}
+
+
+ 
+ 
+ 
+message MsgResultOfFightTreasureMapQuestBattle{
+   required uint32 code = 1;      
+}
+
+
+ 
+ 
+ 
+message MsgBuyTreasureMapQuestCount{
+   required uint32 buyCount = 1;
+}
+
+
+
+ 
+ 
+ 
+message MsgResultOfBuyTreasureMapQuestCount{
+    required uint32 code = 1;                 
+	required uint32 buyTaskCount = 2;         
+}
+
+
+
+ 
+ 
+ 
+message MsgDigTreasureFromQuest{
+   
+}
+
+message MsgDigTreasureData{
+   required uint32 currentLuckyValue = 1;    
+   required uint32 digTreasureCount = 2;     
+   required uint32 configLibraryId = 3;      
+   required uint32 configRewardId = 4;       
+}
+
+ 
+ 
+ 
+message MsgResultOfDigTreasureFromQuest{
+   required uint32 code = 1;                           
+   optional MsgDigTreasureData digTreasureData = 2;    
+}
+
+ 
+ 
+ 
+message MsgTreasureMapQuestBattleResult{
+   required uint32 battleResult = 1;      
+   required uint32 completedTaskCount = 2;   
+   required MsgTreasureMapQuestData  treasureMapQuestData = 3;   
+}
+ 
+
+ 
+ 
+ 
+message MsgTrialBossInfoReq 
+{
+}
+
+ 
+ 
+ 
+message MsgTrialBossInfoRet {
+	required uint32 code = 1;
+}
+
+message TrialBossDamageRankInfo {
+	required uint32 unRank = 1; 
+	required string name = 2; 
+	required uint64 damage = 3; 
+}
+
+ 
+ 
+ 
+message MsgTrialBossInfoSyn {
+	required uint64 iNextCDTime = 1; 
+	required uint64 selfDamage = 2; 
+	repeated TrialBossDamageRankInfo damageinfos = 3;
+}
+
+ 
+ 
+ 
+message MsgTrialBossFightReq {
+
+}
+
+ 
+ 
+ 
+message MsgTrialBossFightRet {
+	required uint32 code = 1;
+	optional uint32 exp = 2;
+	optional uint32 money = 3;
+	optional uint32 bmoney = 4;
+}
+
+ 
+ 
+ 
+message MsgTrialBossClearCD {
+	
+}
+
+ 
+ 
+ 
+message MsgTrialBossClearCDRet {
+	required uint32 code = 1;
+	optional uint64 iNextCDTime = 2;
+}
+
+
+ 
+ 
+ 
+message MsgBroadTrialBossStatus {
+	required uint32 unStatus = 1;
+}
+ 
+ 
+ 
+message MsgVipInfo{
+	required uint32 level =1;
+	required uint32 exp =2;
+	required uint32 giftstatus =3;			    
+	required uint32 specialstatus = 4;	        
+	repeated uint32 receiveVipLimitList = 5;    
+}
+
+
+ 
+ 
+ 
+message MsgVipGiftGet{
+	required uint32 level = 1;	 
+}
+
+ 
+ 
+ 
+message MsgVipGiftBuy{
+	required uint32 level = 1;	 
+}
+
+
+ 
+ 
+ 
+message MsgVipResult{
+	required uint32 msg = 1;	 
+	required uint32 code = 2;	 
+	optional uint32 param = 3;	 
+}
+
+
+ 
+ 
+ 
+message MsgReceiveVipTimeLimit{
+   required uint32 vipLv = 1;    
+}
+
+
+ 
+ 
+ 
+message MsgResultOfReceiveVipTimeLimit{
+   required uint32 code = 1;     
+   required uint32 vipLv = 2;    
+}
+ 
+ 
+ 
+message MsgVipFreeInfo{
+	required uint32 total_exp =1;		 
+	required uint32 battle_num =2;	 
+	required uint32 upgrade_num =3;	 
+}
+
+
+
+message VipFuBenData{
+    required uint32 vipFuBenId = 1;       
+	required uint32 challengeCount = 2;   
+}
+
+ 
+ 
+ 
+message MsgSyncVipFuBenInfo {
+    repeated VipFuBenData fuBenDataList = 1;     
+	required uint32 totalChallengeCount = 2;     
+	required uint32 completedCount = 3;          
+}
+
+
+ 
+ 
+ 
+message MsgTryToBattleVipFuBen {
+    required uint32 vipFuBenId = 1;       
+}
+
+
+ 
+ 
+ 
+message MsgResultOfBattleVipFuBen {
+    required uint32 code = 1;              
+    required uint32 vipFuBenId = 2;        
+	optional uint32 completedCount = 3;    
+}
+
+
+ 
+ 
+ 
+message MsgVipLvUpEffectCount {
+    required uint32 totalChallengeCount = 1;     
+	required uint32 completedCount = 2;          
+}
+ 
+
+message WorldBossInfo
+{
+	required uint32 unDiffculty = 1; 
+	required uint32 leftPercent = 2; 
+}
+
+ 
+ 
+ 
+message MsgWorldBossInfoReq 
+{
+}
+
+ 
+ 
+ 
+message MsgWorldBossInfoRet {
+	required uint32 code = 1;
+}
+
+message WorldBossDamageRankInfo {
+	required uint32 unRank = 1; 
+	required string name = 2; 
+	required uint64 damage = 3; 
+}
+
+ 
+ 
+ 
+message MsgWorldBossInfoSyn {
+	required uint64 iNextCDTime = 1; 
+	required WorldBossInfo info = 2;
+	required uint64 selfDamage = 3; 
+	repeated WorldBossDamageRankInfo damageinfos = 4;
+}
+
+ 
+ 
+ 
+message MsgWorldBossFightReq {
+	required uint32 unDiffculty = 1; 
+}
+
+ 
+ 
+ 
+message MsgWorldBossFightRet {
+	required uint32 code = 1;
+	optional uint32 exp = 2;
+	optional uint32 money = 3;
+	optional uint32 bmoney = 4;
+}
+
+ 
+ 
+ 
+message MsgWorldBossClearCD {
+	
+}
+
+ 
+ 
+ 
+message MsgWorldBossClearCDRet {
+	required uint32 code = 1;
+	optional uint64 iNextCDTime = 2;
+}
+
+
+ 
+ 
+ 
+message MsgBroadWorldBossStatus {
+	required uint32 unStatus = 1;
+	optional uint32 unNextDiff = 2; 
+}
+ 
+
+ 
+ 
+ 
+message MsgQueryWorldExpAdd 
+{
+
+}
+
+message MsgWorldExpAddDevelopAvatar{
+   required uint32 developTypeValue     = 1;
+   required uint32 developAvatarIdValue = 2;
+}
+
+message MsgWorldExpAddRankData
+{
+   required uint64  characterId   = 1;         
+   required string  characterName = 2;         
+   required uint32  levelValue    = 3;
+   required uint32  roleType = 4;
+   required uint32  fashionAvatarId = 5;
+   repeated MsgWorldExpAddDevelopAvatar developAvatarList = 6;
+}
+
+ 
+ 
+ 
+message MsgRetWorldExpAddInfo 
+{
+    required uint32  worldAverageLv = 1;    
+	required uint32  settleLv  = 2;         
+	required uint32  addRationValue = 3;    
+	required uint32  receiveFlagValue = 4;  
+	repeated MsgWorldExpAddRankData msgWorldExpAddRankData = 5;   
+}
+
+
+ 
+ 
+ 
+message MsgReceiveWorldExpAddInfoReward 
+{
+
+}
+
+
+
+ 
+ 
+ 
+message MsgResultOfReceiveWorldExpAddInfo
+{
+    required uint32 code = 1;    
+}
+ 
+
+ 
+ 
+ 
+message MsgSyncZeroBuyActivityInfo 
+{
+   required uint32 receiveStatus = 1;           
+   required uint32 backTotalEmoney = 2;         
+   repeated uint32 buyActiveIdList = 3;         
+   required uint32 openFunctionUnixTime = 4;    
+}
+
+
+ 
+ 
+ 
+message MsgBuyGiftFromZeroBuyActivity 
+{
+}
+
+
+
+ 
+ 
+ 
+message MsgResultOfBuyGiftFromZeroBuyActivity 
+{
+    required uint32 code = 1;           
+}
+
+
+
+ 
+ 
+ 
+message MsgReceiveZeroBuyActivityBack 
+{
+}
+
+
+ 
+ 
+ 
+message MsgResultOfReceiveZeroBuyActivityBack 
+{
+    required uint32 code = 1;           
+}
+ 
+
+ 
+ 
+ 
+message MsgSyncZhenFaIdList{
+   repeated uint32 zhenFaIdList = 1;    
+}
+
+
+ 
+ 
+ 
+message MsgSyncZhenFaInfo {
+    required uint32 openFlag = 1;                     
+	required uint32 currentZhenFaId = 2;              
+	required uint32 zhenFaLv = 3;                     
+	required uint32 zhenFaExp = 4;                    
+	required MsgSyncZhenFaIdList zhenFaIdList = 5;    
+}
+
+
+
+ 
+ 
+ 
+message MsgZhenFaLvUpReq {
+    required uint32 itemCfgId = 1;        
+    required uint32 usedItemCount = 2;    
+}
+
+
+ 
+ 
+ 
+message MsgRetZhenFaLvUpResult {
+    required uint32 code = 1;                   
+    required uint32 usedItemCount = 2;        
+	optional uint32 zhenFaLv = 3;               
+	optional uint32 zhenFaExp = 4;              
+	optional MsgSyncZhenFaIdList zhenFaIdList = 5;           
+}
+
+ 
+ 
+ 
+message MsgChangeCurrentZhenFa {
+    required uint32 newZhenFaId = 1;        
+}
+
+ 
+ 
+ 
+message MsgResultOfChangeCurrentZhenFa {
+    required uint32 code = 1;               
+    required uint32 newZhenFaId = 2;        
+}
+
+
+
+
+ 
+ 
+ 
+message MsgZhuaguiInfo{
+	required uint32 currRing		= 1; 
+	required uint32 zhandouid		= 2; 
+	required uint32 buynum			= 3; 
+	required bool 	finish 			= 4; 
+	required uint32 	reclevel 		= 5; 
+}
+
+ 
+ 
+ 
+message MsgZhuaguiBeginTask{
+	required uint32 currRing		= 1; 
+	required uint32 usemoney			= 2; 
+	required uint32 type				= 3; 
+}
+
+
+ 
+ 
+ 
+message MsgZhuaguiChallenge{
+
+}
+
+
+ 
+ 
+ 
+message MsgZhuaguiReward{
+	required uint32 type = 1;		 
+	optional uint32 bMoney = 2;  
+	optional uint32 money = 3; 	 
+	optional uint32 exp = 4;		 
+	repeated MsgZhuaguiItem rewardItem = 5; 
+}
+
+ 
+ 
+ 
+message MsgZhuaguiResult{
+	required uint32 msg = 1;
+	required uint32 code = 2;
+}
+
+
+
+message MsgZhuaguiItem{
+	required uint32 itemid = 1; 
+	required uint32 num = 2; 
+}
+
+ 
+ 
+ 
+message MsgZhuaguiFinishGuild{
+}

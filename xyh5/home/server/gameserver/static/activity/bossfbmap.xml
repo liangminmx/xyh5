@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FBMap>
+	<!--
+refreshTime	副本刷新时间，支持多字段，用逗号隔开
+mapId    地图
+monsterId boss的ID
+monsterinfo BOSS的简介,显示在界面中BOSS的TIPS里
+monsterDirection  BOSS方向
+position   boss出现坐标，XY轴坐标用逗号隔开
+rewardInfo  掉落展示物品道具ID，支持多字段，用逗号隔开
+hurtRank  伤害排名
+hurtReward  伤害排名奖励道具ID
+num   道具数量
+blood	死亡后增加的血量，万分比
+-->
+	<refresh refreshTime="7200,36000,50400,64800,79200" time="600" openlev="48"/>
+	<FB boosId="1" mapId="6007" monsterId="501001" monsterinfo="由水族大妖得道成了天仙，后来在与其他仙人交战中陨落，身后留下了一座巫江仙府，内有无数天仙藏宝。" mailid="1" jionrewardmailid="28" monsterDirection="1" position="43,54" rewardInfo="600002,600007,600005,108924,108926,108957,108959">
+		<killtime time="0" blood="2000"/>
+		<killtime time="300" blood="0"/>
+		<hurt hurtRank="1" hurtReward="108961" num="1"/>
+		<hurt hurtRank="2" hurtReward="108962" num="1"/>
+		<hurt hurtRank="3" hurtReward="108962" num="1"/>
+		<hurt hurtRank="4" hurtReward="108963" num="1"/>
+		<hurt hurtRank="5" hurtReward="108963" num="1"/>
+		<hurt hurtRank="6" hurtReward="108964" num="1"/>
+		<hurt hurtRank="7" hurtReward="108964" num="1"/>
+		<hurt hurtRank="8" hurtReward="108964" num="1"/>
+		<hurt hurtRank="9" hurtReward="108964" num="1"/>
+		<hurt hurtRank="10" hurtReward="108964" num="1"/>
+		<hurt hurtRank="11" hurtReward="108965" num="1"/>
+	</FB>
+	<FB boosId="2" mapId="6008" monsterId="501002" monsterinfo="玄武大帝的化身，邋遢道人修炼玄武大神通，可以自由变化出玄武大龟，此神通堪称三界防御第一。" mailid="1" jionrewardmailid="28" monsterDirection="1" position="138,18" rewardInfo="600002,600007,600005,108924,108926,108957,108959">
+		<killtime time="0" blood="2000"/>
+		<killtime time="300" blood="0"/>
+		<hurt hurtRank="1" hurtReward="108961" num="1"/>
+		<hurt hurtRank="2" hurtReward="108962" num="1"/>
+		<hurt hurtRank="3" hurtReward="108962" num="1"/>
+		<hurt hurtRank="4" hurtReward="108963" num="1"/>
+		<hurt hurtRank="5" hurtReward="108963" num="1"/>
+		<hurt hurtRank="6" hurtReward="108964" num="1"/>
+		<hurt hurtRank="7" hurtReward="108964" num="1"/>
+		<hurt hurtRank="8" hurtReward="108964" num="1"/>
+		<hurt hurtRank="9" hurtReward="108964" num="1"/>
+		<hurt hurtRank="10" hurtReward="108964" num="1"/>
+		<hurt hurtRank="11" hurtReward="108965" num="1"/>
+	</FB>
+	<FB boosId="3" mapId="6010" monsterId="501003" monsterinfo="由菩提道祖亲手炼制的神魔傀儡，平日把守神仙宫第九层，只有击败它才能得到神仙宫最后的真传。" mailid="1" jionrewardmailid="28" monsterDirection="1" position="25,58" rewardInfo="600002,600007,600005,108925,108926,108957,108959">
+		<killtime time="0" blood="2000"/>
+		<killtime time="300" blood="0"/>
+		<hurt hurtRank="1" hurtReward="108961" num="1"/>
+		<hurt hurtRank="2" hurtReward="108962" num="1"/>
+		<hurt hurtRank="3" hurtReward="108962" num="1"/>
+		<hurt hurtRank="4" hurtReward="108963" num="1"/>
+		<hurt hurtRank="5" hurtReward="108963" num="1"/>
+		<hurt hurtRank="6" hurtReward="108964" num="1"/>
+		<hurt hurtRank="7" hurtReward="108964" num="1"/>
+		<hurt hurtRank="8" hurtReward="108964" num="1"/>
+		<hurt hurtRank="9" hurtReward="108964" num="1"/>
+		<hurt hurtRank="10" hurtReward="108964" num="1"/>
+		<hurt hurtRank="11" hurtReward="108965" num="1"/>
+	</FB>
+	<FB boosId="4" mapId="6011" monsterId="501004" monsterinfo="无间门收罗大夏各地傀儡宗师，用秘法所炼制出来的强大傀儡。" mailid="1" jionrewardmailid="28" monsterDirection="3" position="63,61" rewardInfo="600002,600007,600005,108925,108926,108958,108960">
+		<killtime time="0" blood="2000"/>
+		<killtime time="300" blood="0"/>
+		<hurt hurtRank="1" hurtReward="108966" num="1"/>
+		<hurt hurtRank="2" hurtReward="108967" num="1"/>
+		<hurt hurtRank="3" hurtReward="108967" num="1"/>
+		<hurt hurtRank="4" hurtReward="108968" num="1"/>
+		<hurt hurtRank="5" hurtReward="108968" num="1"/>
+		<hurt hurtRank="6" hurtReward="108969" num="1"/>
+		<hurt hurtRank="7" hurtReward="108969" num="1"/>
+		<hurt hurtRank="8" hurtReward="108969" num="1"/>
+		<hurt hurtRank="9" hurtReward="108969" num="1"/>
+		<hurt hurtRank="10" hurtReward="108969" num="1"/>
+		<hurt hurtRank="11" hurtReward="108970" num="1"/>
+	</FB>
+	<FB boosId="5" mapId="6012" monsterId="501005" monsterinfo="上古破灭之战无间门失败后，逃到寂灭之域建立了一方小世界，自称母皇，实力相当于弱小的道祖。" mailid="1" jionrewardmailid="28" monsterDirection="1" position="99,89" rewardInfo="600002,600007,600005,108925,108926,108958,108960">
+		<killtime time="0" blood="2000"/>
+		<killtime time="300" blood="0"/>
+		<hurt hurtRank="1" hurtReward="108966" num="1"/>
+		<hurt hurtRank="2" hurtReward="108967" num="1"/>
+		<hurt hurtRank="3" hurtReward="108967" num="1"/>
+		<hurt hurtRank="4" hurtReward="108968" num="1"/>
+		<hurt hurtRank="5" hurtReward="108968" num="1"/>
+		<hurt hurtRank="6" hurtReward="108969" num="1"/>
+		<hurt hurtRank="7" hurtReward="108969" num="1"/>
+		<hurt hurtRank="8" hurtReward="108969" num="1"/>
+		<hurt hurtRank="9" hurtReward="108969" num="1"/>
+		<hurt hurtRank="10" hurtReward="108969" num="1"/>
+		<hurt hurtRank="11" hurtReward="108970" num="1"/>
+	</FB>
+	<FB boosId="6" mapId="6013" monsterId="501006" monsterinfo="道兵紫光琼的剑灵，原主人北休世界神陨落后，一直在月下潭碧玉神殿守护主人的传承。" mailid="1" jionrewardmailid="28" monsterDirection="1" position="132,93" rewardInfo="600002,600007,600005,108925,108926,108958,108960">
+		<killtime time="0" blood="2000"/>
+		<killtime time="300" blood="0"/>
+		<hurt hurtRank="1" hurtReward="108966" num="1"/>
+		<hurt hurtRank="2" hurtReward="108967" num="1"/>
+		<hurt hurtRank="3" hurtReward="108967" num="1"/>
+		<hurt hurtRank="4" hurtReward="108968" num="1"/>
+		<hurt hurtRank="5" hurtReward="108968" num="1"/>
+		<hurt hurtRank="6" hurtReward="108969" num="1"/>
+		<hurt hurtRank="7" hurtReward="108969" num="1"/>
+		<hurt hurtRank="8" hurtReward="108969" num="1"/>
+		<hurt hurtRank="9" hurtReward="108969" num="1"/>
+		<hurt hurtRank="10" hurtReward="108969" num="1"/>
+		<hurt hurtRank="11" hurtReward="108970" num="1"/>
+	</FB>
+	<FB boosId="7" mapId="6014" monsterId="501007" monsterinfo="无间门领袖心魔之主的弟子，残酷无情，精通各种阴谋诡计，擅长对人心的把握，一直在暗中布局，破坏三界的稳定。" mailid="1" jionrewardmailid="28" monsterDirection="1" position="29,161" rewardInfo="600002,600007,600005,108925,108926,108958,108960">
+		<killtime time="0" blood="2000"/>
+		<killtime time="300" blood="0"/>
+		<hurt hurtRank="1" hurtReward="108966" num="1"/>
+		<hurt hurtRank="2" hurtReward="108967" num="1"/>
+		<hurt hurtRank="3" hurtReward="108967" num="1"/>
+		<hurt hurtRank="4" hurtReward="108968" num="1"/>
+		<hurt hurtRank="5" hurtReward="108968" num="1"/>
+		<hurt hurtRank="6" hurtReward="108969" num="1"/>
+		<hurt hurtRank="7" hurtReward="108969" num="1"/>
+		<hurt hurtRank="8" hurtReward="108969" num="1"/>
+		<hurt hurtRank="9" hurtReward="108969" num="1"/>
+		<hurt hurtRank="10" hurtReward="108969" num="1"/>
+		<hurt hurtRank="11" hurtReward="108970" num="1"/>
+	</FB>
+	<FB boosId="8" mapId="6015" monsterId="501008" monsterinfo="混沌域外的来客，经历万般险阻来到三界世界，现与无间门联手，但其真正目的是，等待时机，夺取世界之心。" mailid="1" jionrewardmailid="28" monsterDirection="1" position="11,27" rewardInfo="600002,600007,600005,108925,108926,108958,108960">
+		<killtime time="0" blood="2000"/>
+		<killtime time="300" blood="0"/>
+		<hurt hurtRank="1" hurtReward="108966" num="1"/>
+		<hurt hurtRank="2" hurtReward="108967" num="1"/>
+		<hurt hurtRank="3" hurtReward="108967" num="1"/>
+		<hurt hurtRank="4" hurtReward="108968" num="1"/>
+		<hurt hurtRank="5" hurtReward="108968" num="1"/>
+		<hurt hurtRank="6" hurtReward="108969" num="1"/>
+		<hurt hurtRank="7" hurtReward="108969" num="1"/>
+		<hurt hurtRank="8" hurtReward="108969" num="1"/>
+		<hurt hurtRank="9" hurtReward="108969" num="1"/>
+		<hurt hurtRank="10" hurtReward="108969" num="1"/>
+		<hurt hurtRank="11" hurtReward="108970" num="1"/>
+	</FB>
+	<!--
+	<FB boosId="9" mapId="6007" monsterId="501009" monsterinfo="" mailid="1" monsterDirection="1" position="42,116" rewardInfo="600002,600007,600005,108925,108926,108958,108960">
+		<killtime time="0" blood="2000"/>
+		<killtime time="300" blood="0"/>
+		<hurt hurtRank="1" hurtReward="108966" num="1"/>
+		<hurt hurtRank="2" hurtReward="108967" num="1"/>
+		<hurt hurtRank="3" hurtReward="108967" num="1"/>
+		<hurt hurtRank="4" hurtReward="108968" num="1"/>
+		<hurt hurtRank="5" hurtReward="108968" num="1"/>
+		<hurt hurtRank="6" hurtReward="108969" num="1"/>
+		<hurt hurtRank="7" hurtReward="108969" num="1"/>
+		<hurt hurtRank="8" hurtReward="108969" num="1"/>
+		<hurt hurtRank="9" hurtReward="108969" num="1"/>
+		<hurt hurtRank="10" hurtReward="108969" num="1"/>
+		<hurt hurtRank="11" hurtReward="108970" num="1"/>
+	</FB>
+	<FB boosId="10" mapId="6007" monsterId="501010" monsterinfo="" mailid="1" monsterDirection="1" position="25,187" rewardInfo="600002,600007,600005,108925,108926,108958,108960">
+		<killtime time="0" blood="2000"/>
+		<killtime time="300" blood="0"/>
+		<hurt hurtRank="1" hurtReward="108966" num="1"/>
+		<hurt hurtRank="2" hurtReward="108967" num="1"/>
+		<hurt hurtRank="3" hurtReward="108967" num="1"/>
+		<hurt hurtRank="4" hurtReward="108968" num="1"/>
+		<hurt hurtRank="5" hurtReward="108968" num="1"/>
+		<hurt hurtRank="6" hurtReward="108969" num="1"/>
+		<hurt hurtRank="7" hurtReward="108969" num="1"/>
+		<hurt hurtRank="8" hurtReward="108969" num="1"/>
+		<hurt hurtRank="9" hurtReward="108969" num="1"/>
+		<hurt hurtRank="10" hurtReward="108969" num="1"/>
+		<hurt hurtRank="11" hurtReward="108970" num="1"/>
+	</FB>-->
+</FBMap>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+functionid	功能id			
+zidongvip	扫荡功能开启VIP等级限制					
+shopid	商店id			
+guropid	副本id			
+name	副本名字，标识用			
+icon	副本名字icon			
+openlevel	开启等级			
+zhandouid	战斗id	
+pxid     排序id		
+itemid	道具id			
+itemnum	道具数量			
+bmoney	绑元数量			
+viplevel	VIP等级			
+num	对应VIP等级，每天每个副本的挑战次数			
+buynum	VIP对应副本购买次数			
+moneytype 消耗货币类型（=1银两，=2元宝，=3绑元）
+cost 消耗货币数量
+
+-->
+	<function functionid="2008" zidongvip="4" shopid="1"/>
+	<fuben guropid="1" name="坐骑副本" icon="1" openlevel="50" zhandouid="500045002" pxid="1">
+		<item itemid="14010201" itemnum="10" bmoney="200"/>
+	</fuben>
+	<fuben guropid="2" name="突破副本" icon="6" openlevel="55" zhandouid="500060001" pxid="2">
+		<item itemid="10000015" itemnum="10" bmoney="200"/>
+	</fuben>
+	<fuben guropid="3" name="精炼副本" icon="2" openlevel="60" zhandouid="500040001" pxid="3">
+		<item itemid="10000012" itemnum="500" bmoney="200"/>
+	</fuben>
+	<fuben guropid="4" name="锻炼副本" icon="3" openlevel="65" zhandouid="500045001" pxid="4">
+		<item itemid="10000013" itemnum="200" bmoney="200"/>
+	</fuben>
+	<fuben guropid="5" name="宠物副本" icon="4" openlevel="70" zhandouid="500050001" pxid="5">
+		<item itemid="10000016" itemnum="10" bmoney="200"/>
+	</fuben>
+	<fuben guropid="6" name="羽翼副本" icon="8" openlevel="72" zhandouid="500070001" pxid="6">
+		<item itemid="14030201" itemnum="10" bmoney="200"/>
+	</fuben>
+	<fuben guropid="7" name="宝石副本" icon="7" openlevel="75" zhandouid="500065001" pxid="7">
+		<item itemid="10000014" itemnum="200" bmoney="200"/>
+	</fuben>
+	<fuben guropid="8" name="法宝副本" icon="9" openlevel="77" zhandouid="500075001" pxid="8">
+		<item itemid="14050201" itemnum="10" bmoney="200"/>
+	</fuben>
+	<fuben guropid="9" name="法阵副本" icon="10" openlevel="82" zhandouid="500080001" pxid="9">
+		<item itemid="14040201" itemnum="10" bmoney="200"/>
+	</fuben>
+	<fuben guropid="10" name="变身副本" icon="5" openlevel="85" zhandouid="500055001" pxid="10">
+		<item itemid="14020201" itemnum="10" bmoney="200"/>
+	</fuben>	
+	<fuben guropid="11" name="仙位副本" icon="11" openlevel="88" zhandouid="500088001" pxid="11">
+		<item itemid="14070201" itemnum="10" bmoney="200"/>
+	</fuben>
+	<fuben guropid="12" name="灵骑副本" icon="12" openlevel="90" zhandouid="500090001" pxid="12">
+		<item itemid="14080201" itemnum="10" bmoney="200"/>
+	</fuben>
+	<vip viplevel="0" num="1" buynum="0"/>
+	<vip viplevel="1" num="1" buynum="0"/>
+	<vip viplevel="2" num="1" buynum="0"/>
+	<vip viplevel="3" num="1" buynum="0"/>
+	<vip viplevel="4" num="1" buynum="1"/>
+	<vip viplevel="5" num="1" buynum="2"/>
+	<vip viplevel="6" num="1" buynum="3"/>
+	<vip viplevel="7" num="1" buynum="4"/>
+	<vip viplevel="8" num="1" buynum="5"/>
+	<vip viplevel="9" num="1" buynum="5"/>
+	<vip viplevel="10" num="1" buynum="6"/>
+	<vip viplevel="11" num="1" buynum="6"/>
+	<vip viplevel="12" num="1" buynum="6"/>
+	<num buynum="1" moneytype="3" cost="188"/>
+	<num buynum="2" moneytype="2" cost="188"/>
+	<num buynum="3" moneytype="2" cost="288"/>
+	<num buynum="4" moneytype="2" cost="388"/>
+	<num buynum="5" moneytype="2" cost="588"/>
+	<num buynum="6" moneytype="2" cost="888"/>
+</root>

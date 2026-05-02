@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+function			
+	use_time	宝图使用时间	挖宝进度读条时间
+	use_dec	    读取描述	挖宝读条描述
+	use_radio	使用范围	使用范围 填写数值为与坐标相邻的格子数
+randomhouse标签			
+	randomhouse	随机点库	随机点库
+randompoint标签			
+	scene	    场景编号	随机点场景
+	posx	    x坐标	随机点x坐标
+	posy	    y坐标	随便点y坐标
+event标签			
+	treasure_event	藏宝图事件类型	1.战斗 2.道具 3.获得银两  
+	event_rate	事件触发权重	万分比
+reward标签			
+	level	    玩家等级段	玩家等级段
+	randomhouse	随机点库编号	不同等级段对应的随机点库编号，允许填写多个，从多个中随机
+event_1事件标签			
+	tollgate	战斗关卡id	战斗关卡编号
+	exp	        人物经验奖励	人物经验奖励
+	petexp	    宠物经验奖励	宠物经验奖励
+	money	    银两奖励	银两奖励
+	fall_rate	战斗胜利额外掉落概率	额外随机道具掉落概率，万分比
+	fallitem	额外掉落奖励道具	道具id
+	fallitem_weight	额外掉落奖励道具权重	道具随机权重值
+event_2事件标签			
+	item	    挖宝道具奖励	道具id
+	item_weight	道具权重	道具随机权重值
+event_3事件标签			
+	money	    挖宝银两奖励	数值
+-->
+	<function use_time="3" use_dec="挖宝" use_radio="2"/>
+	<event treasure_event="1" event_rate="1000"/>
+	<event treasure_event="2" event_rate="1000"/>
+	<event treasure_event="3" event_rate="1000"/>
+	<randomhouse randomhouse="1">
+		<scene scene="10001" posx="10" posy="10"/>
+		<scene scene="10001" posx="20" posy="20"/>
+	</randomhouse>
+	<randomhouse randomhouse="2">
+		<scene scene="10001" posx="10" posy="10"/>
+		<scene scene="10001" posx="20" posy="20"/>
+	</randomhouse>
+	<randomhouse randomhouse="3">
+		<scene scene="10001" posx="10" posy="10"/>
+		<scene scene="10001" posx="20" posy="20"/>
+	</randomhouse>
+	<reward level="1,19" randomhouse="1">
+		<event_1 tollgate="100001" exp="100000" petexp="200000" money="50000" fall_rate="2000">
+			<inevent_1 fallitem="2001" fallitem_rate="1000"/>
+			<inevent_1 fallitem="2002" fallitem_rate="1000"/>
+		</event_1>
+		<event_2 item="2001" item_weight="1000"/>
+		<event_2 item="2002" item_weight="1000"/>
+		<event_3 money="5000"/>
+	</reward>
+	<reward level="20,29" randomhouse="1">
+		<event_1 tollgate="100001" exp="100000" petexp="200000" money="50000" fall_rate="2000">
+			<inevent_1 fallitem="2001" fallitem_rate="1000"/>
+			<inevent_1 fallitem="2002" fallitem_rate="1000"/>
+		</event_1>
+		<event_2 item="2001" item_weight="1000"/>
+		<event_2 item="2002" item_weight="1000"/>
+		<event_3 money="5000"/>
+	</reward>
+	<reward level="30,39" randomhouse="1,2">
+		<event_1 tollgate="100001" exp="100000" petexp="200000" money="50000" fall_rate="2000">
+			<inevent_1 fallitem="2001" fallitem_rate="1000"/>
+			<inevent_1 fallitem="2002" fallitem_rate="1000"/>
+		</event_1>
+		<event_2 item="2001" item_weight="1000"/>
+		<event_2 item="2002" item_weight="1000"/>
+		<event_3 money="5000"/>
+	</reward>
+	<reward level="40,49" randomhouse="1,2">
+		<event_1 tollgate="100001" exp="100000" petexp="200000" money="50000" fall_rate="2000">
+			<inevent_1 fallitem="2001" fallitem_rate="1000"/>
+			<inevent_1 fallitem="2002" fallitem_rate="1000"/>
+		</event_1>
+		<event_2 item="2001" item_weight="1000"/>
+		<event_2 item="2002" item_weight="1000"/>
+		<event_3 money="5000"/>
+	</reward>
+	<reward level="50,59" randomhouse="2">
+		<event_1 tollgate="100001" exp="100000" petexp="200000" money="50000" fall_rate="2000">
+			<inevent_1 fallitem="2001" fallitem_rate="1000"/>
+			<inevent_1 fallitem="2002" fallitem_rate="1000"/>
+		</event_1>
+		<event_2 item="2001" item_weight="1000"/>
+		<event_2 item="2002" item_weight="1000"/>
+		<event_3 money="5000"/>
+	</reward>
+	<reward level="60,69" randomhouse="2">
+		<event_1 tollgate="100001" exp="100000" petexp="200000" money="50000" fall_rate="2000">
+			<inevent_1 fallitem="2001" fallitem_rate="1000"/>
+			<inevent_1 fallitem="2002" fallitem_rate="1000"/>
+		</event_1>
+		<event_2 item="2001" item_weight="1000"/>
+		<event_2 item="2002" item_weight="1000"/>
+		<event_3 money="5000"/>
+	</reward>
+	<reward level="70,79" randomhouse="2">
+		<event_1 tollgate="100001" exp="100000" petexp="200000" money="50000" fall_rate="2000">
+			<inevent_1 fallitem="2001" fallitem_rate="1000"/>
+			<inevent_1 fallitem="2002" fallitem_rate="1000"/>
+		</event_1>
+		<event_2 item="2001" item_weight="1000"/>
+		<event_2 item="2002" item_weight="1000"/>
+		<event_3 money="5000"/>
+	</reward>
+	<reward level="80,89" randomhouse="2">
+		<event_1 tollgate="100001" exp="100000" petexp="200000" money="50000" fall_rate="2000">
+			<inevent_1 fallitem="2001" fallitem_rate="1000"/>
+			<inevent_1 fallitem="2002" fallitem_rate="1000"/>
+		</event_1>
+		<event_2 item="2001" item_weight="1000"/>
+		<event_2 item="2002" item_weight="1000"/>
+		<event_3 money="5000"/>
+	</reward>
+	<reward level="90,99" randomhouse="2,3">
+		<event_1 tollgate="100001" exp="100000" petexp="200000" money="50000" fall_rate="2000">
+			<inevent_1 fallitem="2001" fallitem_rate="1000"/>
+			<inevent_1 fallitem="2002" fallitem_rate="1000"/>
+		</event_1>
+		<event_2 item="2001" item_weight="1000"/>
+		<event_2 item="2002" item_weight="1000"/>
+		<event_3 money="5000"/>
+	</reward>
+	<reward level="100,109" randomhouse="2,3">
+		<event_1 tollgate="100001" exp="100000" petexp="200000" money="50000" fall_rate="2000">
+			<inevent_1 fallitem="2001" fallitem_rate="1000"/>
+			<inevent_1 fallitem="2002" fallitem_rate="1000"/>
+		</event_1>
+		<event_2 item="2001" item_weight="1000"/>
+		<event_2 item="2002" item_weight="1000"/>
+		<event_3 money="5000"/>
+	</reward>
+	<reward level="110,199" randomhouse="2,3">
+		<event_1 tollgate="100001" exp="100000" petexp="200000" money="50000" fall_rate="2000">
+			<inevent_1 fallitem="2001" fallitem_rate="1000"/>
+			<inevent_1 fallitem="2002" fallitem_rate="1000"/>
+		</event_1>
+		<event_2 item="2001" item_weight="1000"/>
+		<event_2 item="2002" item_weight="1000"/>
+		<event_3 money="5000"/>
+	</reward>
+</root>

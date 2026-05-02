@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+functionid	首冲福利开启ID			
+doubling	倍率			
+model	特殊奖励模型	
+type 根据值来判断索引的路径
+=0,索引坐骑模型路径
+=1,索引其他特效路径	
+EntranceIcon	功能入口图标,索引对应路径			
+Bg	界面背景图,索引对应路径			
+valueInformation	礼包价值资源,索引对应路径			
+prompt	提示资源,索引对应路径			
+day  	活动持续时间，单位为天，开服第一天开始算起	
+type 类型
+money 充值金额		
+text	价值文本						
+item	道具ID			
+num	道具数量			
+	
+
+
+
+
+-->
+	<server serverNum="-1">
+		<pro functionid="2062" doubling="3" model="100023" day="8" mail="1050001" type="0" EntranceIcon="2062" Bg="trebling_diban1" valueInformation="trebling_libao" prompt="trebling_tishi"/>
+		<type type="1" money="10" text="获得3000元宝" value="3000" recharge="22"/>
+		<type type="2" money="30" text="获得9000元宝" value="9000" recharge="23"/>
+		<type type="3" money="100" text="获得30000元宝" value="30000" recharge="24"/>
+		<type type="4" money="200" text="获得60000元宝" value="60000" recharge="25"/>
+		<item item="13030002" num="1"/>
+		<item item="1001604" num="1"/>
+		<item item="4001604" num="1"/>
+		<item item="14010201" num="10"/>
+		<item by="888"/>
+		<item yl="1888888"/>
+	</server>
+	<server serverNum="0">
+		<pro functionid="2062" doubling="3" model="100023" day="8" mail="1050001" type="0" EntranceIcon="2062" Bg="trebling_diban1" valueInformation="trebling_libao" prompt="trebling_tishi"/>
+		<type type="1" money="10" text="获得3000元宝" value="3000" recharge="22"/>
+		<type type="2" money="30" text="获得9000元宝" value="9000" recharge="23"/>
+		<type type="3" money="100" text="获得30000元宝" value="30000" recharge="24"/>
+		<type type="4" money="200" text="获得60000元宝" value="60000" recharge="25"/>
+		<item item="13030002" num="1"/>
+		<item item="1001604" num="1"/>
+		<item item="4001604" num="1"/>
+		<item item="14010201" num="10"/>
+		<item by="888"/>
+		<item yl="1888888"/>
+	</server>
+	<server serverNum="1">
+		<pro functionid="2062" doubling="5" model="huangyan" day="5" mail="1050001" type="1" EntranceIcon="2062_1" Bg="trebling_serverNum2" valueInformation="trebling_libao1" prompt="trebling_tishi1"/>
+		<type type="1" money="10" text="获得5000元宝" value="5000" recharge="22"/>
+		<type type="2" money="30" text="获得15000元宝" value="15000" recharge="23"/>
+		<type type="3" money="100" text="获得50000元宝" value="50000" recharge="24"/>
+		<type type="4" money="200" text="获得100000元宝" value="100000" recharge="25"/>
+		<item item="13035002" num="1"/>
+		<item item="5001205" num="1"/>
+		<item item="6001205" num="1"/>
+		<item item="10000004" num="10"/>
+		<item item="16010029" num="5"/>
+		<item item="16010031" num="5"/>
+	</server>
+</root>

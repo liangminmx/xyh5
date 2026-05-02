@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+mail	邮件id
+pid	平台id
+pname 平台名称
+rewardtype 领取方式 =1 平台领取 =2游戏内按钮领取
+reward	礼包id
+Name	礼包名称
+type	礼包领取限制类型（=1 一次性 =2 每日  =31~37 星期礼包 =0101 特定日期）
+item	道具id（多个道具用，号隔开）
+num	道具数量（多个道具用，号隔开）
+by	绑元
+yl	银两
+
+
+-->
+	<function functionid="6001"/>
+	<pingtai pid="2" pname="玩吧平台">
+		<vip vip="1" reward="1"/>
+		<vip vip="2" reward="2"/>
+		<vip vip="3" reward="3"/>
+		<vip vip="4" reward="4"/>
+		<vip vip="5" reward="5"/>
+		<vip vip="6" reward="6"/>
+	</pingtai>
+	<reward rewardid="1" yl="100000"/>
+	<reward rewardid="2" item="10000012" num="20" yl="200000"/>
+	<reward rewardid="3" item="10000012" num="40" yl="300000"/>
+	<reward rewardid="4" item="10000012,10000014" num="60,10" yl="400000"/>
+	<reward rewardid="5" item="10000012,10000014" num="80,20" yl="500000" />
+	<reward rewardid="6" item="10000012,10000014" num="100,30" yl="600000"/>
+</root>

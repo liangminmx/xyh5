@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+functionid	功能id			
+rank	等级排名前几人数的平均等级			
+help	帮助文本			
+open	"无经验加成玩家是否获得绑元奖励=-1 时不开启=1时开启"			
+bmoney	绑元数量					
+expup	等级差区间			
+parameter	额外获得经验加成系数（百分比）			
+
+
+
+-->
+	<function functionid="2023" rank="10" open="1" bmoney="2000" help="450001"/>
+	<exp expup="6,6" parameter="20"/>
+	<exp expup="7,7" parameter="40"/>
+	<exp expup="8,8" parameter="60"/>
+	<exp expup="9,9" parameter="80"/>
+	<exp expup="10,10" parameter="100"/>
+	<exp expup="11,11" parameter="120"/>
+	<exp expup="12,12" parameter="140"/>
+	<exp expup="13,13" parameter="160"/>
+	<exp expup="14,14" parameter="180"/>
+	<exp expup="15,15" parameter="200"/>
+	<exp expup="16,16" parameter="220"/>
+	<exp expup="17,17" parameter="240"/>
+	<exp expup="18,18" parameter="260"/>
+	<exp expup="19,19" parameter="280"/>
+	<exp expup="20,20" parameter="300"/>
+	<exp expup="21,21" parameter="320"/>
+	<exp expup="22,22" parameter="340"/>
+	<exp expup="23,23" parameter="360"/>
+	<exp expup="24,24" parameter="380"/>
+	<exp expup="25,25" parameter="400"/>
+	<exp expup="26,26" parameter="420"/>
+	<exp expup="27,27" parameter="440"/>
+	<exp expup="28,28" parameter="460"/>
+	<exp expup="29,29" parameter="480"/>
+	<exp expup="30,30" parameter="500"/>
+	<exp expup="31,31" parameter="520"/>
+	<exp expup="32,32" parameter="540"/>
+	<exp expup="33,33" parameter="560"/>
+	<exp expup="34,34" parameter="580"/>
+	<exp expup="35,35" parameter="600"/>
+	<exp expup="36,36" parameter="620"/>
+	<exp expup="37,37" parameter="640"/>
+	<exp expup="38,38" parameter="660"/>
+	<exp expup="39,39" parameter="680"/>
+	<exp expup="40,40" parameter="700"/>
+	<exp expup="41,41" parameter="720"/>
+	<exp expup="42,42" parameter="740"/>
+	<exp expup="43,43" parameter="760"/>
+	<exp expup="44,44" parameter="780"/>
+	<exp expup="45,45" parameter="800"/>
+	<exp expup="46,46" parameter="820"/>
+	<exp expup="47,47" parameter="840"/>
+	<exp expup="48,48" parameter="860"/>
+	<exp expup="49,49" parameter="880"/>
+	<exp expup="50,50" parameter="900"/>
+	<exp expup="51,51" parameter="920"/>
+	<exp expup="52,52" parameter="940"/>
+	<exp expup="53,53" parameter="960"/>
+	<exp expup="54,54" parameter="980"/>
+	<exp expup="55,55" parameter="1000"/>
+	<exp expup="56,56" parameter="1020"/>
+	<exp expup="57,57" parameter="1040"/>
+	<exp expup="58,58" parameter="1060"/>
+	<exp expup="59,59" parameter="1080"/>
+	<exp expup="60,60" parameter="1100"/>
+	<exp expup="61,61" parameter="1120"/>
+	<exp expup="62,62" parameter="1140"/>
+	<exp expup="63,63" parameter="1160"/>
+	<exp expup="64,64" parameter="1180"/>
+	<exp expup="65,65" parameter="1200"/>
+	<exp expup="66,66" parameter="1220"/>
+	<exp expup="67,67" parameter="1240"/>
+	<exp expup="68,68" parameter="1260"/>
+	<exp expup="69,69" parameter="1280"/>
+	<exp expup="70,70" parameter="1300"/>
+	<exp expup="71,9999" parameter="1300"/>
+</root>

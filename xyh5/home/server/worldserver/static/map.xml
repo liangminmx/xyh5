@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+maxmap标签
+	background	大地图背景资源路径（程序写死，不做配置）
+
+map标签
+	id	场景id，对应sence.xml中全局唯一场景id
+	type	场景类型,对应sence.xml中场景类型
+	icon	在大地图上的icon，与name_icon一起组合显示为场景按钮，响应点击事件
+	pos	在大地图界面上的位置坐标（X，Y）
+	name_icon	场景名称图标路径，与icon一起组合显示为场景按钮，响应点击事件
+	mini_map	mini地图场景资源ID（路径写死，仅填文件配置）
+-->
+	<maxmap maxmap=""/>
+	<map id="1000" type="1" icon="1000" pos="0,0" name_icon="1" mini_map="1000" width="4096" height="2560"/>
+	<map id="10001" type="1" icon="10001" pos="0,0" name_icon="10001" mini_map="10001" width="2048" height="1536"/>
+	<map id="20001" type="2" icon="20001" pos="0,0" name_icon="20001" mini_map="20001" width="4096" height="2560"/>
+	<map id="10002" type="1" icon="10002" pos="0,0" name_icon="10002" mini_map="10002" width="4096" height="2560"/>
+	<map id="20002" type="2" icon="20002" pos="0,0" name_icon="20002" mini_map="20002" width="4096" height="2560"/>
+	<map id="10003" type="1" icon="10003" pos="0,0" name_icon="10003" mini_map="10003" width="4096" height="2560"/>
+	<map id="20003" type="2" icon="20003" pos="0,0" name_icon="20003" mini_map="20003" width="4096" height="2560"/>
+	<map id="20004" type="2" icon="20004" pos="0,0" name_icon="20004" mini_map="20004" width="4096" height="2560"/>
+	<map id="20005" type="2" icon="20005" pos="0,0" name_icon="20005" mini_map="20005" width="4096" height="2560"/>
+	<map id="20006" type="2" icon="20006" pos="0,0" name_icon="20006" mini_map="20006" width="4096" height="2560"/>
+	<map id="10004" type="1" icon="10004" pos="0,0" name_icon="10004" mini_map="10004" width="4096" height="2560"/>
+	<map id="10005" type="1" icon="10005" pos="0,0" name_icon="10005" mini_map="10005" width="4096" height="2560"/>
+	<map id="20007" type="2" icon="20007" pos="0,0" name_icon="20007" mini_map="20007" width="4096" height="2560"/>
+	<map id="20008" type="2" icon="20008" pos="0,0" name_icon="20008" mini_map="20008" width="4096" height="4096"/>
+	<map id="10006" type="1" icon="10006" pos="0,0" name_icon="10006" mini_map="10006" width="4096" height="4096"/>
+	<map id="20009" type="2" icon="20009" pos="0,0" name_icon="20009" mini_map="20009" width="4096" height="4096"/>
+	<map id="10007" type="1" icon="10007" pos="0,0" name_icon="10007" mini_map="10007" width="4096" height="4096"/>
+</root>

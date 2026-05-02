@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+server标签
+    serverNum	合服次数	" =-1默认状态=0新服的活动数据=1,合服1次的活动数据=2合服2次的活动数据……"
+
+function标签
+	function	进阶功能id	开关编号，关联function.xml
+	groupid	进阶活动编号	进阶活动的顺序也按这个编号从小到大开启
+	evolution	进阶功能id	0=坐骑进阶 1=神兵（弃用）  2=羽翼进阶 3=阵法进阶 4=法宝进阶 5=变身进阶 6=仙位进阶
+	name	进阶功能名字	
+	icon	图标id	
+	img	广告图片	
+param标签
+	param	参数	所需对应养成的等阶参数
+	people	人数要求	当前服务器内达成进阶目标的人数要求
+	itemid	道具id，逗号隔开	允许填写装备id
+	num	道具数量，逗号隔开	
+
+
+-->
+	<server serverNum="0">
+		<function function="2031"/>
+		<group groupid="1" evolution="0" name="坐骑进阶" icon="2031" img="">
+			<param param="3" people="50" itemid="14010201" num="5"/>
+			<param param="4" people="30" itemid="14010201" num="10"/>
+			<param param="5" people="10" itemid="14010201" num="20"/>
+			<param param="6" people="5" itemid="14010001" num="2"/>
+			<param param="7" people="3" itemid="14010001" num="3"/>
+			<param param="8" people="1" itemid="14010001" num="5"/>
+		</group>
+		<group groupid="2" evolution="2" name="羽翼进阶" icon="2031" img="">
+			<param param="3" people="50" itemid="14030201" num="5"/>
+			<param param="4" people="30" itemid="14030201" num="10"/>
+			<param param="5" people="10" itemid="14030201" num="20"/>
+			<param param="6" people="5" itemid="14030001" num="2"/>
+			<param param="7" people="3" itemid="14030001" num="3"/>
+			<param param="8" people="1" itemid="14030001" num="5"/>
+		</group>
+		<group groupid="3" evolution="4" name="法宝进阶" icon="2031" img="">
+			<param param="3" people="50" itemid="14050201" num="5"/>
+			<param param="4" people="30" itemid="14050201" num="10"/>
+			<param param="5" people="10" itemid="14050201" num="20"/>
+			<param param="6" people="5" itemid="14050001" num="2"/>
+			<param param="7" people="3" itemid="14050001" num="3"/>
+			<param param="8" people="1" itemid="14050001" num="5"/>
+		</group>
+		<group groupid="4" evolution="3" name="阵法进阶" icon="2031" img="">
+			<param param="3" people="50" itemid="14040201" num="5"/>
+			<param param="4" people="30" itemid="14040201" num="10"/>
+			<param param="5" people="10" itemid="14040201" num="20"/>
+			<param param="6" people="5" itemid="14040001" num="2"/>
+			<param param="7" people="3" itemid="14040001" num="3"/>
+			<param param="8" people="1" itemid="14040001" num="5"/>
+		</group>
+		<group groupid="5" evolution="5" name="变身进阶" icon="2031" img="">
+			<param param="3" people="50" itemid="14020201" num="5"/>
+			<param param="4" people="30" itemid="14020201" num="10"/>
+			<param param="5" people="10" itemid="14020201" num="20"/>
+			<param param="6" people="5" itemid="14020001" num="2"/>
+			<param param="7" people="3" itemid="14020001" num="3"/>
+			<param param="8" people="1" itemid="14020001" num="5"/>
+		</group>
+		<group groupid="6" evolution="6" name="仙位进阶" icon="2031" img="">
+			<param param="3" people="50" itemid="14070201" num="5"/>
+			<param param="4" people="30" itemid="14070201" num="10"/>
+			<param param="5" people="10" itemid="14070201" num="20"/>
+			<param param="6" people="5" itemid="14070001" num="2"/>
+			<param param="7" people="3" itemid="14070001" num="3"/>
+			<param param="8" people="1" itemid="14070001" num="5"/>
+		</group>
+		<group groupid="7" evolution="7" name="灵骑进阶" icon="2031" img="">
+			<param param="3" people="50" itemid="14080201" num="5"/>
+			<param param="4" people="30" itemid="14080201" num="10"/>
+			<param param="5" people="10" itemid="14080201" num="20"/>
+			<param param="6" people="5" itemid="14080001" num="2"/>
+			<param param="7" people="3" itemid="14080001" num="3"/>
+			<param param="8" people="1" itemid="14080001" num="5"/>
+		</group>
+	</server>
+	<server serverNum="-1">
+		<function function="2031"/>
+		<group groupid="1" evolution="0" name="坐骑进阶" icon="2031" img="">
+			<param param="3" people="50" itemid="14010201" num="5"/>
+			<param param="4" people="30" itemid="14010201" num="10"/>
+			<param param="5" people="10" itemid="14010201" num="20"/>
+			<param param="6" people="5" itemid="14010001" num="2"/>
+			<param param="7" people="3" itemid="14010001" num="3"/>
+			<param param="8" people="1" itemid="14010001" num="5"/>
+		</group>
+		<group groupid="2" evolution="2" name="羽翼进阶" icon="2031" img="">
+			<param param="3" people="50" itemid="14030201" num="5"/>
+			<param param="4" people="30" itemid="14030201" num="10"/>
+			<param param="5" people="10" itemid="14030201" num="20"/>
+			<param param="6" people="5" itemid="14030001" num="2"/>
+			<param param="7" people="3" itemid="14030001" num="3"/>
+			<param param="8" people="1" itemid="14030001" num="5"/>
+		</group>
+		<group groupid="3" evolution="4" name="法宝进阶" icon="2031" img="">
+			<param param="3" people="50" itemid="14050201" num="5"/>
+			<param param="4" people="30" itemid="14050201" num="10"/>
+			<param param="5" people="10" itemid="14050201" num="20"/>
+			<param param="6" people="5" itemid="14050001" num="2"/>
+			<param param="7" people="3" itemid="14050001" num="3"/>
+			<param param="8" people="1" itemid="14050001" num="5"/>
+		</group>
+		<group groupid="4" evolution="3" name="阵法进阶" icon="2031" img="">
+			<param param="3" people="50" itemid="14040201" num="5"/>
+			<param param="4" people="30" itemid="14040201" num="10"/>
+			<param param="5" people="10" itemid="14040201" num="20"/>
+			<param param="6" people="5" itemid="14040001" num="2"/>
+			<param param="7" people="3" itemid="14040001" num="3"/>
+			<param param="8" people="1" itemid="14040001" num="5"/>
+		</group>
+		<group groupid="5" evolution="5" name="变身进阶" icon="2031" img="">
+			<param param="3" people="50" itemid="14020201" num="5"/>
+			<param param="4" people="30" itemid="14020201" num="10"/>
+			<param param="5" people="10" itemid="14020201" num="20"/>
+			<param param="6" people="5" itemid="14020001" num="2"/>
+			<param param="7" people="3" itemid="14020001" num="3"/>
+			<param param="8" people="1" itemid="14020001" num="5"/>
+		</group>
+		<group groupid="6" evolution="6" name="仙位进阶" icon="2031" img="">
+			<param param="3" people="50" itemid="14070201" num="5"/>
+			<param param="4" people="30" itemid="14070201" num="10"/>
+			<param param="5" people="10" itemid="14070201" num="20"/>
+			<param param="6" people="5" itemid="14070001" num="2"/>
+			<param param="7" people="3" itemid="14070001" num="3"/>
+			<param param="8" people="1" itemid="14070001" num="5"/>
+		</group>
+		<group groupid="7" evolution="7" name="灵骑进阶" icon="2031" img="">
+			<param param="3" people="50" itemid="14080201" num="5"/>
+			<param param="4" people="30" itemid="14080201" num="10"/>
+			<param param="5" people="10" itemid="14080201" num="20"/>
+			<param param="6" people="5" itemid="14080001" num="2"/>
+			<param param="7" people="3" itemid="14080001" num="3"/>
+			<param param="8" people="1" itemid="14080001" num="5"/>
+		</group>
+	</server>
+	<server serverNum="1">
+		<function function="2031"/>
+		<group groupid="1" evolution="0" name="坐骑进阶" icon="2031" img="">
+			<param param="4" people="30" itemid="14010201,16010100" num="10,1"/>
+			<param param="5" people="20" itemid="14010201,16010100" num="20,2"/>
+			<param param="6" people="10" itemid="14010201,16010100" num="50,3"/>
+			<param param="7" people="5" itemid="14010001,16010100" num="5,5"/>
+			<param param="8" people="3" itemid="14010001,16010100" num="10,10"/>
+			<param param="9" people="1" itemid="14010001,16010100" num="20,15"/>
+			<param param="10" people="1" itemid="14010001,16010100" num="20,25"/>
+		</group>
+		<group groupid="2" evolution="2" name="羽翼进阶" icon="2031" img="">
+			<param param="4" people="30" itemid="14030201,16010102" num="10,1"/>
+			<param param="5" people="20" itemid="14030201,16010102" num="20,2"/>
+			<param param="6" people="10" itemid="14030201,16010102" num="50,3"/>
+			<param param="7" people="5" itemid="14030001,16010102" num="5,5"/>
+			<param param="8" people="3" itemid="14030001,16010102" num="10,10"/>
+			<param param="9" people="1" itemid="14030001,16010102" num="20,15"/>
+			<param param="10" people="1" itemid="14030001,16010102" num="20,25"/>
+		</group>
+		<group groupid="3" evolution="4" name="法宝进阶" icon="2031" img="">
+			<param param="4" people="30" itemid="14050201,16010104" num="10,1"/>
+			<param param="5" people="20" itemid="14050201,16010104" num="20,2"/>
+			<param param="6" people="10" itemid="14050201,16010104" num="50,3"/>
+			<param param="7" people="5" itemid="14050001,16010104" num="5,5"/>
+			<param param="8" people="3" itemid="14050001,16010104" num="10,10"/>
+			<param param="9" people="1" itemid="14050001,16010104" num="20,15"/>
+			<param param="10" people="1" itemid="14050001,16010104" num="20,25"/>
+		</group>
+		<group groupid="4" evolution="3" name="阵法进阶" icon="2031" img="">
+			<param param="4" people="30" itemid="14040201,16010103" num="10,1"/>
+			<param param="5" people="20" itemid="14040201,16010103" num="20,2"/>
+			<param param="6" people="10" itemid="14040201,16010103" num="50,3"/>
+			<param param="7" people="5" itemid="14040001,16010103" num="5,5"/>
+			<param param="8" people="3" itemid="14040001,16010103" num="10,10"/>
+			<param param="9" people="1" itemid="14040001,16010103" num="20,15"/>
+			<param param="10" people="1" itemid="14040001,16010103" num="20,25"/>
+		</group>
+		<group groupid="5" evolution="5" name="变身进阶" icon="2031" img="">
+			<param param="4" people="30" itemid="14020201,16010105" num="10,1"/>
+			<param param="5" people="20" itemid="14020201,16010105" num="20,2"/>
+			<param param="6" people="10" itemid="14020201,16010105" num="50,3"/>
+			<param param="7" people="5" itemid="14020001,16010105" num="5,5"/>
+			<param param="8" people="3" itemid="14020001,16010105" num="10,10"/>
+			<param param="9" people="1" itemid="14020001,16010105" num="20,15"/>
+			<param param="10" people="1" itemid="14040001,16010105" num="20,25"/>
+		</group>
+		<group groupid="6" evolution="6" name="仙位进阶" icon="2031" img="">
+			<param param="4" people="30" itemid="14070201,16010106" num="10,1"/>
+			<param param="5" people="20" itemid="14070201,16010106" num="20,2"/>
+			<param param="6" people="10" itemid="14070201,16010106" num="50,3"/>
+			<param param="7" people="5" itemid="14070001,16010106" num="5,5"/>
+			<param param="8" people="3" itemid="14070001,16010106" num="10,10"/>
+			<param param="9" people="1" itemid="14070001,16010106" num="20,15"/>
+			<param param="10" people="1" itemid="14070001,16010106" num="20,25"/>
+		</group>
+		<group groupid="7" evolution="7" name="灵骑进阶" icon="2031" img="">
+			<param param="4" people="30" itemid="14080201,16010107" num="10,1"/>
+			<param param="5" people="20" itemid="14080201,16010107" num="20,2"/>
+			<param param="6" people="10" itemid="14080201,16010107" num="50,3"/>
+			<param param="7" people="5" itemid="14080001,16010107" num="5,5"/>
+			<param param="8" people="3" itemid="14080001,16010107" num="10,10"/>
+			<param param="9" people="1" itemid="14080001,16010107" num="20,15"/>
+			<param param="10" people="1" itemid="14080001,16010107" num="20,25"/>
+		</group>
+	</server>
+</root>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+	functionid	神宠娃娃机开启ID			
+bind	档次奖励道具是否绑定=1绑定 =0不绑定			
+needitem	抽奖所需道具			
+neednum	抽奖所需道具数量			
+no	道具编号			
+item	道具ID			
+num	道具数量			
+probability	权重			
+
+
+
+-->
+	<pro functionid="2053" needitem="10000006" neednum="666" bind="1"/>
+	<jackpot no="1" item="12000030" num="1" probability="4500" avatar="300006"/>
+	<jackpot no="2" item="12000031" num="1" probability="2000" avatar="300025"/>
+	<jackpot no="3" item="12000032" num="1" probability="5000" avatar="300004"/>
+	<jackpot no="4" item="12000033" num="1" probability="3000" avatar="300027"/>
+	<jackpot no="5" item="12000034" num="1" probability="2000" avatar="300029"/>
+	<jackpot no="6" item="12000035" num="1" probability="3500" avatar="300011"/>
+	<jackpot no="7" item="12000036" num="1" probability="4000" avatar="300001"/>
+</root>

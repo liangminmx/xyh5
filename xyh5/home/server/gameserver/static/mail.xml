@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+functionid	功能id，默认开启			
+mailmax	邮件上限			
+time	"邮件基础消失时间（天）
+有附件的邮件消失时间是普通邮件的3倍"			
+mailid	邮件id			
+maildes	邮件标题			
+des	邮件描述			
+mailtype	邮件类型，=0纯文本邮 , =1领取邮件，  =2引导邮件		
+buttonname	按钮名字					
+facelink	界面ID			
+addwardid	道具id			
+addwardcount	道具数量			
+chenghaoid	称号id			
+exp	经验			
+money	银币数量			
+bmoney 绑元数量		
+
+
+facelink  界面id
+link   链接界面名称
+-->
+	<function functionid="2002" mailmax="50" time="10"/>
+	<mail mailid="1001" maildes="送道具" des="GM送你东西啦" mailtype="1">
+		<ward addwardid="10000002" addwardcount="1"/>
+		<ward addwardid="10000003" addwardcount="1"/>
+		<ward addwardid="10000004" addwardcount="5"/>
+		<ward exp="100" money="100" bmoney="100" chenghaoid=""/>
+	</mail>
+	<mail mailid="1002" maildes="送道具" des="GM送你东西啦" mailtype="2">
+		<zhiyin buttonname="前往界面" facelink="100"/>
+	</mail>
+	<mail mailid="1003" maildes="送道具" des="GM送你东西啦" mailtype="2">
+		<zhiyin buttonname="前往界面" facelink="200"/>
+	</mail>
+	<mail mailid="1004" maildes="送道具" des="GM送你东西啦" mailtype="1">
+		<ward addwardid="16010001" addwardcount="5"/>
+		<ward addwardid="10000006" addwardcount="5"/>
+		<ward exp="100" money="100" chenghaoid=""/>
+	</mail>
+	<mail mailid="1005" maildes="发消息" des="GM送给你发信息了" mailtype="1"/>
+	<mail mailid="1006" maildes="进阶排行奖励" des="恭喜你在本次进阶排名活动中获得以下奖励" mailtype="1"/>
+	<mail mailid="1007" maildes="帮会副本首杀奖励" des="恭喜今日首次击杀{0}级帮会副本，全帮成员获得帮会副本礼包" mailtype="1"/>
+	<mail mailid="1008" maildes="挖宝奖励领取" des="您的背包已满，请及时清理背包，查收挖宝奖励。" mailtype="1"/>
+	<mail mailid="3001" maildes="击杀不周山神" des="恭喜你击杀了不周山神,获得了大量奖励" mailtype="1"/>
+	<mail mailid="3002" maildes="三界除魔排行第1名奖励" des="三界除魔排行第1名奖励" mailtype="1"/>
+	<mail mailid="3003" maildes="三界除魔排行第2名奖励" des="三界除魔排行第2名奖励" mailtype="1"/>
+	<mail mailid="3004" maildes="三界除魔排行第3名奖励" des="三界除魔排行第3名奖励" mailtype="1"/>
+	<mail mailid="3005" maildes="三界除魔排行第4-5名奖励" des="三界除魔排行第4-5名奖励" mailtype="1"/>
+	<mail mailid="3006" maildes="三界除魔排行第6-10名奖励" des="三界除魔排行第6-10名奖励" mailtype="1"/>
+	<mail mailid="3007" maildes="三界除魔排行第11-20名奖励" des="三界除魔排行第11-20名奖励" mailtype="1"/>
+	<mail mailid="3008" maildes="三界除魔排行第21-50名奖励" des="三界除魔排行第21-50名奖励" mailtype="1"/>
+	<mail mailid="3009" maildes="三界除魔参与奖励" des="三界除魔参与奖励" mailtype="1"/>
+	<mail mailid="4001" maildes="华山论剑排名奖励" des="华山论剑排行第1名奖励" mailtype="1"/>
+	<mail mailid="4002" maildes="华山论剑排名奖励" des="华山论剑排行第2名奖励" mailtype="1"/>
+	<mail mailid="4003" maildes="华山论剑排名奖励" des="华山论剑排行第3名奖励" mailtype="1"/>
+	<mail mailid="4004" maildes="华山论剑排名奖励" des="华山论剑排行第4-5名奖励" mailtype="1"/>
+	<mail mailid="4005" maildes="华山论剑排名奖励" des="华山论剑排行第6-10名奖励" mailtype="1"/>
+	<mail mailid="4006" maildes="华山论剑排名奖励" des="华山论剑排行第11-20名奖励" mailtype="1"/>
+	<mail mailid="4007" maildes="华山论剑排名奖励" des="华山论剑排行第21-50名奖励" mailtype="1"/>
+	<mail mailid="4008" maildes="华山论剑排名奖励" des="华山论剑排行第51-100名奖励" mailtype="1"/>
+	<mail mailid="4009" maildes="华山论剑排名奖励" des="华山论剑排行第101-200名奖励" mailtype="1"/>
+	<mail mailid="4010" maildes="华山论剑排名奖励" des="华山论剑排行第201-500名奖励" mailtype="1"/>
+	<mail mailid="4011" maildes="华山论剑排名奖励" des="华山论剑排行第501+名奖励" mailtype="1"/>
+	<mail mailid="5001" maildes="8元抢购惊喜大奖" des="恭喜你获得限时抢购的终极大奖" mailtype="1"/>
+	<mail mailid="5002" maildes="8元抢购未领奖励" des="由于你未及时领取限时抢购奖励，通过邮件发放给你" mailtype="1"/>
+	<mail mailid="5003" maildes="很遗憾您未获得8元抢购大奖" des="很遗憾你未获得8元抢购大奖，最终获奖人为{0}" mailtype="1"/>
+	<mail mailid="5010" maildes="比武大会首胜奖励" des="这是您的比武大会首胜奖励" mailtype="1"/>
+	<mail mailid="5011" maildes="比武大会胜利奖励" des="这是您的比武大会胜利{0}次奖励" mailtype="1"/>
+	<mail mailid="5012" maildes="比武大会战斗奖励" des="这是您的比武大会战斗{0}场奖励" mailtype="1"/>
+	<mail mailid="5013" maildes="比武大会排行奖励" des="恭喜您在比武大会获得了第{0}名的奖励" mailtype="1"/>
+	<mail mailid="6002" maildes="刑天幻影排行第1名奖励" des="刑天幻影排行第1名奖励" mailtype="1"/>
+	<mail mailid="6003" maildes="刑天幻影排行第2名奖励" des="刑天幻影排行第2名奖励" mailtype="1"/>
+	<mail mailid="6004" maildes="刑天幻影排行第3名奖励" des="刑天幻影排行第3名奖励" mailtype="1"/>
+	<mail mailid="6005" maildes="刑天幻影排行第4-5名奖励" des="刑天幻影排行第4-5名奖励" mailtype="1"/>
+	<mail mailid="6006" maildes="刑天幻影排行第6-10名奖励" des="刑天幻影排行第6-10名奖励" mailtype="1"/>
+	<mail mailid="6007" maildes="刑天幻影排行第11-20名奖励" des="刑天幻影排行第11-20名奖励" mailtype="1"/>
+	<mail mailid="6008" maildes="刑天幻影排行第21-50名奖励" des="刑天幻影排行第21-50名奖励" mailtype="1"/>
+	<mail mailid="6009" maildes="刑天幻影参与奖励" des="刑天幻影参与奖励" mailtype="1"/>
+	<mail mailid="6668" maildes="议事奖励" des="{0}与你议事时你获得以下奖励" mailtype="1"/>
+	<mail mailid="6669" maildes="回馈礼包" des="这是您忘记领取的礼包，请注意查收~" mailtype="1"/>
+	<mail mailid="6670" maildes="最强投票活动奖励" des="|ltspan style='color:#7f4b20;font:26px Arial'|gt最强投票活动圆满结束！{0}获得了{1}票，{2}获得了{3}票，{4}获得了{5}票。恭喜{6}获得了本次活动榜首。我们从所有支持{7}的少侠中抽取了一名幸运儿获得超级大奖励。|lt/span|gt|ltbr|gt|ltspan style='color:#209d13;font:26px Arial'|gt本次活动幸运儿是：{8}|lt/span|gt|ltbr|gt|ltspan style='color:#7f4b20;font:26px Arial'|gt没有得奖也不要气馁，下次还有机会|lt/span|gt" mailtype="1"/>
+	<mail mailid="6671" maildes="登陆大礼奖励" des="这是您未领取的奖励" mailtype="1"/>
+	<mail mailid="6678" maildes="单笔充值奖励" des="这是您未领取的奖励" mailtype="1"/>
+	<mail mailid="6679" maildes="我要变强积分奖励" des="这是您未领取的奖励" mailtype="1"/>
+	<mail mailid="6682" maildes="节日消费奖励" des="这是您未领取的奖励" mailtype="1"/>
+	<mail mailid="6681" maildes="节日累充奖励" des="这是您未领取的奖励" mailtype="1"/>
+	<mail mailid="6683" maildes="分享奖励" des="恭喜你获得以下奖励" mailtype="1"/>
+	<mail mailid="6684" maildes="收藏奖励" des="恭喜你获得以下奖励" mailtype="1"/>
+	<mail mailid="6685" maildes="求婚信物" des="{0}使用了999玫瑰花，增加了你们的恋爱值。" mailtype="0"/>
+	<mail mailid="6686" maildes="祝福奖励" des="这是{0}送你们的结婚祝福奖励" mailtype="1"/>
+	<mail mailid="6687" maildes="夫妻奖励" des="恭喜您和{0}成为夫妻,这是给你们的结婚奖励" mailtype="1"/>
+	<mail mailid="6688" maildes="结婚纪念奖励" des="这是您的结婚纪念惊喜奖励" mailtype="1"/>
+	<mail mailid="6689" maildes="夫妻任务奖励" des="这是您完成夫妻任务的奖励" mailtype="1"/>
+	<mail mailid="6990" maildes="回赠奖励" des="这是对方回赠给您的奖励" mailtype="1"/>
+	<mail mailid="6692" maildes="转盘奖励" des="这是您未领取的奖励" mailtype="1"/>
+	<mail mailid="6693" maildes="vip限时奖励" des="这是您未领取的奖励" mailtype="1"/>
+	<mail mailid="10001" maildes="跨服帮战报名失败" des="很遗憾，由于您的帮会在跨服帮战分组时没有匹配到对手，报名失败，请查收补偿。" mailtype="1"/>
+	<mail mailid="10002" maildes="跨服帮战支持成功" des="恭喜您支持在帮派{0}在跨服帮战中战胜所有对手成为冠军，请查收奖励。" mailtype="1"/>
+	<mail mailid="10003" maildes="跨服帮战支持失败" des="很遗憾，支持在帮派{0}在跨服帮战中不幸落败，请查收安慰奖。" mailtype="1"/>
+	<mail mailid="10004" maildes="跨服帮战冠军奖励" des="恭喜您所在的帮会在本次跨服帮战中力压群雄获得冠军！" mailtype="1"/>
+	<mail mailid="10005" maildes="跨服帮战亚军奖励" des="恭喜您所在的帮会在本次跨服帮战中大杀四方获得亚军！" mailtype="1"/>
+	<mail mailid="10006" maildes="跨服帮战四强奖励" des="恭喜您所在的帮会在本次跨服帮战中脱颖而出获得四强！" mailtype="1"/>
+	<mail mailid="10007" maildes="跨服帮战八强奖励" des="恭喜您所在的帮会在本次跨服帮战中斩获八强！" mailtype="1"/>
+	<mail mailid="1010002" maildes="月卡奖励补发" des="您离线期间有{0}天的月卡收益没有及时领取，请查收" mailtype="1"/>
+	<mail mailid="1010001" maildes="全民进阶奖励补发" des="请查收未领取的全民进阶奖励" mailtype="1"/>
+	<mail mailid="1010002" maildes="月卡奖励补发" des="您离线期间有{0}天的月卡收益没有及时领取，请查收" mailtype="1"/>
+	<mail mailid="1010003" maildes="周卡奖励补发" des="您离线期间有{0}天的周卡收益没有及时领取，请查收" mailtype="1"/>
+	<mail mailid="1010004" maildes="首充团购奖励补发" des="全服首充人数达到要求，您的奖励未领取" mailtype="1"/>
+	<mail mailid="1010005" maildes="终身卡奖励补发" des="您离线期间有{0}天的终身卡收益没有及时领取，请查收" mailtype="1"/>
+	<mail mailid="1010006" maildes="连充返利奖励补发" des="请查收未及时领取的连充返利奖励" mailtype="1"/>
+	<mail mailid="1010007" maildes="消费返利奖励补发" des="请查收未及时领取的消费返利奖励" mailtype="1"/>
+	<mail mailid="1071001" maildes="打造装备溢出通知" des="由于你的背包已满，现将打造出来的装备通过邮件发放给你" mailtype="1"/>
+	<mail mailid="1071002" maildes="幸运奖励溢出通知" des="由于你的背包已满，现将幸运奖励通过邮件发放给你" mailtype="1"/>
+	<mail mailid="1071003" maildes="分解奖励溢出通知" des="由于你的背包已满，现将分解奖励通过邮件发放给你" mailtype="1"/>
+	<mail mailid="1008001" maildes="宠物溢出" des="由于你的背包已满，现将宠物通过邮件发放给你" mailtype="1"/>
+	<mail mailid="1009001" maildes="每日首充奖励溢出通知" des="由于你未及时领取活动奖励，现将每日首充奖励通过邮件发放给你" mailtype="1"/>
+	<mail mailid="1020001" maildes="妖王奖励" des="恭喜在{0}级妖王的讨伐中，您对妖王累计造成伤害排名为第{1}名，获得以下奖励" mailtype="1"/>
+	<mail mailid="1030001" maildes="组队副本奖励溢出通知" des="亲爱的玩家，请领取组队副本" mailtype="1"/>
+	<mail mailid="1011001" maildes="每日累充奖励溢出通知" des="由于你未及时领取活动奖励，现将每日累充奖励通过邮件发放给你" mailtype="1"/>
+	<mail mailid="1040001" maildes="战力翻倍奖励溢出通知" des="由于你未及时领取活动奖励，现将战力翻倍奖励通过邮件发放给你" mailtype="1"/>
+	<mail mailid="1050001" maildes="三倍首充奖励溢出通知" des="由于你未及时领取活动奖励，现将三倍首充奖励通过邮件发放给你" mailtype="1"/>
+	<mail mailid="1060001" maildes="每日特惠奖励溢出通知" des="由于你背包空间不足，现将每日特惠奖励通过邮件发放给你" mailtype="1"/>
+	<mail mailid="1070001" maildes="平台礼包领取奖励" des="由于你背包空间不足，现将{0}通过邮件发放给你" mailtype="1"/>
+	<mail mailid="1080001" maildes="0元购溢出通知" des="由于你背包空间不足，现将0元购奖励通过邮件发放给你" mailtype="1"/>
+	<!--跳转界面链接
+facelink  界面id
+link   链接界面名称-->
+	<link facelink="100" link="跳转至背包界面"/>
+	<link facelink="200" link="跳转至活动大厅界面"/>
+</root>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+帮会  type=1  值没有 说是要特殊处理
+封妖 type=2  值=1 开始封妖 值=2 购买vip额外挑战次数
+师门 type=3 值=1 截取师门任务 值=2一键完成师门任务
+捉鬼 type=4 值=1接取捉鬼任务/购买捉鬼轮数（次数不足的时候出现）	 值=2一键完成捉鬼任务 
+门派闯关 type=5 值=1 接取挑战门派闯关的任务 值=2 一键扫荡已通关难度的关卡 值=3 打开门派闯关排行榜
+
+
+
+-->
+	<pro functionid="2053" scene="2000" pos="51,60"/>
+	<function npcid="1" function="2041" functionnamee="帮会" npcname="帮会监察使  " npcmodel="200011" npcpanelname="zc_name_bhxcs" npcbanshen="200011" npctitle="zc_title_banghui" position="24,66" panel="" talk="帮会若要兴旺，还需仰赖众人之力。平日须多来帮中走走，为帮会出些力气，于自己于帮会都有益处。">
+		<btn btn="1" type="1" ttf="ttf_bh_176"/>
+	</function>
+	<function npcid="3" function="1033" functionnamee="西游护送" npcname="姜镖头" npcmodel="200007" npcpanelname="zc_name_jbt" npcbanshen="400002" npctitle="zc_title_xiyouhusong" position="38,88" panel="EscortView"/>
+	<function npcid="4" function="2018" functionnamee="三界除魔" npcname="不周山神" npcmodel="400021" npcpanelname="zc_name_bzss" npcbanshen="400001" npctitle="zc_title_sanjiechumo" position="76,47" panel="Worldboss"/>
+	<function npcid="5" function="2056" functionnamee="组队副本" npcname="御林军首领" npcmodel="400018" npcpanelname="zc_name_yljsl" npcbanshen="400018" npctitle="zc_title_zuduifuben" position="23,72" panel="TeamCopyView"/>
+	<function npcid="6" function="2009" functionnamee="材料副本" npcname="副本官员" npcmodel="400009" npcpanelname="zc_name_fbgy" npcbanshen="400009" npctitle="zc_title_cailiaofuben" position="62,50" panel="MaterCopyView"/>
+	<function npcid="7" function="1041" functionnamee="门派闯关" npcname="门派闯关使 " npcmodel="300014" npcpanelname="zc_name_mpcgs" npcbanshen="300014" npctitle="zc_title_menpaichuangguan" position="57,66" panel="" talk="实战方可铸就强者，少侠可愿前往挑战各大首席弟子？">
+		<btn btn="1" type="5" param="1" ttf="ttf_lqrw_176"/>
+		<btn btn="2" type="5" param="2" ttf="ttf_sd_176"/>
+		<btn btn="3" type="5" param="3" ttf="ttf_phb_176"/>
+	</function>
+	<function npcid="9" function="2005" functionnamee="招募" npcname="伙伴使者" npcmodel="200048" npcpanelname="zc_name_hbsz" npcbanshen="200048" npctitle="zc_title_huobanzhaomu" position="53,53" panel="PartnerRecruitView"/>
+	<function npcid="12" function="2004" functionnamee="商城" npcname="什么都有" npcmodel="200023" npcpanelname="zc_name_smdy" npcbanshen="200023" npctitle="zc_title_shangcheng" position="48,70" panel="ShopView"/>
+	<function npcid="13" function="2055" functionnamee="华山论剑" npcname="华山论剑使" npcmodel="200011" npcpanelname="zc_name_hsljs" npcbanshen="200011" npctitle="zc_title_huashanlunjian" position="45,50" panel="ArenaView"/>
+	<function npcid="14" function="1021" functionnamee="大唐" npcname="程咬金" npcmodel="400026" npcpanelname="zc_name_cyj" npcbanshen="400026" npctitle="zc_title_shimenrenwu" position="40,72" panel="" talk="剑为百兵之首，王公帝侯，文士侠客，商贾庶民，莫不以持之为荣。">
+		<btn btn="1" type="3" param="1" ttf="ttf_lqrw_176"/>
+		<btn btn="2" type="3" param="2" ttf="ttf_yjwc_176"/>
+	</function>
+	<function npcid="15" function="1021" functionnamee="龙宫" npcname="东海龙王" npcmodel="200010" npcpanelname="zc_name_dhlw" npcbanshen="200010" npctitle="zc_title_shimenrenwu" position="45,56" panel="" talk="想练就一身法术，是要下一番苦功夫的。">
+		<btn btn="1" type="3" param="1" ttf="ttf_lqrw_176"/>
+		<btn btn="2" type="3" param="2" ttf="ttf_yjwc_176"/>
+	</function>
+	<function npcid="16" function="6666" functionnamee="钟馗抓鬼" npcname="钟馗" npcmodel="200045" npcpanelname="zc_name_zk" npcbanshen="200045" npctitle="zc_title_zhongkuizhuagui" position="42,80" panel="" talk="地府恶鬼逃窜至人间，少侠若帮我捉拿厉鬼，我可赠与大量经验和银两。">
+		<btn btn="1" type="4" param="1" ttf="ttf_lqrw_176"/>
+		<btn btn="2" type="4" param="2" ttf="ttf_yjwc_176"/>
+	</function>
+	<function npcid="17" function="" functionnamee="对话NPC" npcname="小虎" npcmodel="400015" npcpanelname="zc_name_xh" npcbanshen="400015" position="52,38" panel="" talk="阿娘说，果酪吃多了会坏了牙齿，所以不可以多吃。"/>
+	<function npcid="18" function="" functionnamee="对话NPC" npcname="月老" npcmodel="200020" npcpanelname="zc_name_yl" npcbanshen="200020" position="77,19" panel="" talk="千里姻缘一线牵。"/>
+	<function npcid="19" function="" functionnamee="对话NPC" npcname="林铁匠" npcmodel="400005" npcpanelname="zc_name_ltj" npcbanshen="400005" position="87,33" panel="" talk="我这里的兵器都是依着古法打造的，虽不华丽，却是坚固实用，最适合用来防身。"/>
+	<function npcid="20" function="" functionnamee="对话NPC" npcname="颜如玉" npcmodel="400011" npcpanelname="zc_name_yry" npcbanshen="400011" position="99,40" panel="" talk="春林花多媚，春鸟意多哀。春风复多情，吹我罗裳开。,渊冰厚三尺，素雪覆千里。我心如松柏，君情复何似？"/>
+	<function npcid="21" function="" functionnamee="对话NPC" npcname="小芊芊" npcmodel="400004" npcpanelname="zc_name_xqq" npcbanshen="400004" position="89,53" panel="" talk="长安城这么大，我也经常迷路呢。"/>
+	<function npcid="22" function="" functionnamee="对话NPC" npcname="不自医" npcmodel="200026" npcpanelname="zc_name_bzy" npcbanshen="200026" position="67,76" panel="" talk="我这有上好的疗伤药，出门必备良药。"/>
+	<function npcid="23" function="" functionnamee="对话NPC" npcname="布织道" npcmodel="300003" npcpanelname="zc_name_bzd" npcbanshen="300003" position="64,85" panel="" talk="嫦娥一个人住在月亮上会不会很无聊？"/>
+	<function npcid="24" function="1023" functionnamee="跑环任务" npcname="陆萧然" npcmodel="200043" npcpanelname="zc_name_lxr" npcbanshen="200043" npctitle="zc_title_paohuanrenwu" position="31,74" panel="" talk="帮我跑跑腿可以获得大量经验和珍稀道具哦。">
+		<btn btn="1" type="6" param="1" ttf="ttf_lqrw_176"/>
+		<btn btn="2" type="6" param="2" ttf="ttf_yjwc_176"/>
+	</function>
+	<function npcid="25" function="1021" functionnamee="魔王寨" npcname="牛魔王" npcmodel="200021" npcpanelname="zc_name_nmw" npcbanshen="200021" npctitle="zc_title_shimenrenwu" position="42,64" panel="" talk="想练就一身法术，是要下一番苦功夫的。">
+		<btn btn="1" type="3" param="1" ttf="ttf_lqrw_176"/>
+		<btn btn="2" type="3" param="2" ttf="ttf_yjwc_176"/>
+	</function>
+	<function npcid="26" function="" functionnamee="对话NPC" npcname="村民" npcmodel="400025" npcpanelname="zc_name_cm" npcbanshen="400025" position="60,58" panel="" talk="我这里的兵器都是依着古法打造的，虽不华丽，却是坚固实用，最适合用来防身。"/>
+	<function npcid="27" function="2049" functionnamee="生死劫" npcname="丹青生" npcmodel="200038" npcpanelname="zc_name_fbgy" npcbanshen="200038" npctitle="zc_title_shengsijie" position="68,19" panel="LifeAndDeathView"/>
+	<function npcid="28" function="2067" functionnamee="刑天幻影" npcname="刑天" npcmodel="400023" npcpanelname="zc_name_xt" npcbanshen="400023" npctitle="zc_title_xingtianhuanying" position="43,90" panel="TrialView"/>
+	<function npcid="29" function="2068" functionnamee="比武大会" npcname="武魂币兑换商" npcmodel="400009" npcpanelname="zc_name_fbgy" npcbanshen="400009" npctitle="zc_title_biwudahui" position="51,42" panel="ShopView|shopid9"/>
+	<function npcid="31" function="6696" functionnamee="至尊副本" npcname="至尊副本负责人" npcmodel="200011" npcpanelname="zc_name_hsljs" npcbanshen="200011" npctitle="zc_title_zhizunfuben" position="65,28" panel="ZhiZunCopyView"/>
+</root>

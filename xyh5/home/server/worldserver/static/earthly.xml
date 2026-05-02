@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+functionid	功能id			
+emoneycost	单次恢复护罩血量消耗元宝数			
+ring	每日击杀地煞收益次数			
+robring	每日抢夺地煞最大收益次数			
+fighttime	挑战BOSS时间间隔（秒）			
+robtime	进入归属权争夺战斗时间间隔（秒）			
+failtime	玩家抢夺失败后,再次挑战时间间隔（秒）			
+wuditime	保护罩无敌时间（秒）			
+help	帮助文本			
+opentime	刷新倒计时开启时间
+endtime    	刷新倒计时关闭时间	
+star	BOSS星级			
+time	刷新基础时间（分钟）			
+timeup	刷新时间增加差值			
+timeadd	增长时间值（分钟）			
+timelimit	刷新时间最大限制	（分钟)		
+zhandouid	对应战斗id（逗号隔开,从中随机选取） 			
+refresh	对应星级BOSS刷新数			
+redbagid	红包id
+monster BOSS怪物id			
+dropid	掉落包id			
+jilv	掉落几率			
+count	掉落数量			
+itemid	掉落道具id（逗号隔开）			
+weight	掉落道具权重（逗号隔开）			
+star	BOSS星级			
+itemid	抢夺奖励道具id			
+num	道具数量			
+bmoney	抢夺绑元奖励			
+			
+buffhelp	BUFF帮助文本语言包id			
+buffcost	购买一层BUFF消耗元宝数			
+bufftype	BUFF属性类型			
+buffparameter	对应属性值			
+vip	VIP等级			
+num	buff上限最大层数			
+
+
+-->
+	<fuction function="2021" emoneycost="500" ring="2" robring="10" fighttime="5" robtime="5" failtime="60" wuditime="30" help="430017" opentime="09:00:00" endtime="02:00:00"/>
+	<item star="1" time="30" timeup="-2" timeadd="5" timelimit="60" zhandouid="130001001" refresh="3" redbagid="1" monster="130001001">
+		<drop dropid="1" jilv="2000" count="1" itemid="1000704,3000704,5000704,2000704,4000704,6000704" weight="20,5,20,20,10,25"/>
+		<drop dropid="2" jilv="5000" count="1" itemid="1000604,3000604,5000604,2000604,4000604,6000604" weight="20,5,20,20,10,25"/>
+		<drop dropid="3" jilv="10000" count="1" itemid="1000504,3000504,5000504,2000504,4000504,6000504" weight="20,5,20,20,10,25"/>
+		<drop dropid="4" jilv="10000" count="5" itemid="1000703,3000703,5000703,2000703,4000703,6000703" weight="20,5,20,20,10,25"/>
+		<drop dropid="5" jilv="10000" count="200" itemid="10000014" weight="1"/>
+	</item>
+	<item star="2" time="45" timeup="-2" timeadd="5" timelimit="60" zhandouid="130002001" refresh="2" redbagid="1" monster="130002001">
+		<drop dropid="1" jilv="2500" count="1" itemid="1000704,3000704,5000704,2000704,4000704,6000704" weight="20,5,20,20,10,25"/>
+		<drop dropid="2" jilv="6000" count="1" itemid="1000604,3000604,5000604,2000604,4000604,6000604" weight="20,5,20,20,10,25"/>
+		<drop dropid="3" jilv="10000" count="1" itemid="1000504,3000504,5000504,2000504,4000504,6000504" weight="20,5,20,20,10,25"/>
+		<drop dropid="4" jilv="10000" count="5" itemid="1000803,3000803,5000803,2000803,4000803,6000803" weight="20,5,20,20,10,25"/>
+		<drop dropid="5" jilv="10000" count="240" itemid="10000014" weight="1"/>
+	</item>
+	<item star="3" time="60" timeup="-2" timeadd="5" timelimit="90" zhandouid="130003001" refresh="1" redbagid="1" monster="130003001">
+		<drop dropid="1" jilv="2000" count="1" itemid="1000804,3000804,5000804,2000804,4000804,6000804" weight="20,5,20,20,10,25"/>
+		<drop dropid="2" jilv="3000" count="1" itemid="1000704,3000704,5000704,2000704,4000704,6000704" weight="20,5,20,20,10,25"/>
+		<drop dropid="3" jilv="7000" count="1" itemid="1000604,3000604,5000604,2000604,4000604,6000604" weight="20,5,20,20,10,25"/>
+		<drop dropid="4" jilv="10000" count="1" itemid="1000504,3000504,5000504,2000504,4000504,6000504" weight="20,5,20,20,10,25"/>
+		<drop dropid="5" jilv="10000" count="5" itemid="1000903,3000903,5000903,2000903,4000903,6000903" weight="20,5,20,20,10,25"/>
+		<drop dropid="6" jilv="10000" count="300" itemid="10000014" weight="1"/>
+	</item>
+	<item star="4" time="90" timeup="-2" timeadd="5" timelimit="120" zhandouid="130004001" refresh="1" redbagid="2" monster="130004001">
+		<drop dropid="1" jilv="300" count="1" itemid="1000904,3000904,5000904,2000904,4000904,6000904" weight="20,5,20,20,10,25"/>
+		<drop dropid="2" jilv="2500" count="1" itemid="1000804,3000804,5000804,2000804,4000804,6000804" weight="20,5,20,20,10,25"/>
+		<drop dropid="3" jilv="4000" count="1" itemid="1000704,3000704,5000704,2000704,4000704,6000704" weight="20,5,20,20,10,25"/>
+		<drop dropid="4" jilv="8000" count="1" itemid="1000604,3000604,5000604,2000604,4000604,6000604" weight="20,5,20,20,10,25"/>
+		<drop dropid="5" jilv="10000" count="1" itemid="1000504,3000504,5000504,2000504,4000504,6000504" weight="20,5,20,20,10,25"/>
+		<drop dropid="6" jilv="10000" count="5" itemid="1001003,3001003,5001003,2001003,4001003,6001003" weight="20,5,20,20,10,25"/>
+		<drop dropid="7" jilv="10000" count="360" itemid="10000014" weight="1"/>
+	</item>
+	<item star="5" time="90" timeup="-2" timeadd="5" timelimit="120" zhandouid="130005001" refresh="1" redbagid="2" monster="130005001">
+		<drop dropid="1" jilv="300" count="1" itemid="1001004,3001004,5001004,2001004,4001004,6001004" weight="20,5,20,20,10,25"/>
+		<drop dropid="2" jilv="500" count="1" itemid="1000904,3000904,5000904,2000904,4000904,6000904" weight="20,5,20,20,10,25"/>
+		<drop dropid="3" jilv="3000" count="1" itemid="1000804,3000804,5000804,2000804,4000804,6000804" weight="20,5,20,20,10,25"/>
+		<drop dropid="4" jilv="5000" count="1" itemid="1000704,3000704,5000704,2000704,4000704,6000704" weight="20,5,20,20,10,25"/>
+		<drop dropid="5" jilv="9000" count="1" itemid="1000604,3000604,5000604,2000604,4000604,6000604" weight="20,5,20,20,10,25"/>
+		<drop dropid="6" jilv="10000" count="1" itemid="1000504,3000504,5000504,2000504,4000504,6000504" weight="20,5,20,20,10,25"/>
+		<drop dropid="7" jilv="10000" count="5" itemid="1001103,3001103,5001103,2001103,4001103,6001103" weight="20,5,20,20,10,25"/>
+		<drop dropid="8" jilv="10000" count="400" itemid="10000014" weight="1"/>
+	</item>
+	<item star="6" time="90" timeup="-2" timeadd="5" timelimit="120" zhandouid="130006001" refresh="1" redbagid="2" monster="130006001">
+		<drop dropid="1" jilv="300" count="1" itemid="1001104,3001104,5001104,2001104,4001104,6001104" weight="20,5,20,20,10,25"/>
+		<drop dropid="2" jilv="500" count="1" itemid="1001004,3001004,5001004,2001004,4001004,6001004" weight="20,5,20,20,10,25"/>
+		<drop dropid="3" jilv="700" count="1" itemid="1000904,3000904,5000904,2000904,4000904,6000904" weight="20,5,20,20,10,25"/>
+		<drop dropid="4" jilv="3500" count="1" itemid="1000804,3000804,5000804,2000804,4000804,6000804" weight="20,5,20,20,10,25"/>
+		<drop dropid="5" jilv="6000" count="1" itemid="1000704,3000704,5000704,2000704,4000704,6000704" weight="20,5,20,20,10,25"/>
+		<drop dropid="6" jilv="10000" count="1" itemid="1000604,3000604,5000604,2000604,4000604,6000604" weight="20,5,20,20,10,25"/>
+		<drop dropid="7" jilv="10000" count="5" itemid="1001203,3001203,5001203,2001203,4001203,6001202" weight="20,5,20,20,10,25"/>
+		<drop dropid="8" jilv="10000" count="440" itemid="10000014" weight="1"/>
+	</item>
+	<item star="7" time="120" timeup="-2" timeadd="10" timelimit="180" zhandouid="130007001" refresh="1" redbagid="3" monster="130007001">
+		<drop dropid="1" jilv="200" count="1" itemid="1001204,3001204,5001204,2001204,4001204,6001204" weight="20,5,20,20,10,25"/>
+		<drop dropid="2" jilv="500" count="1" itemid="1001104,3001104,5001104,2001104,4001104,6001104" weight="20,5,20,20,10,25"/>
+		<drop dropid="3" jilv="700" count="1" itemid="1001004,3001004,5001004,2001004,4001004,6001004" weight="20,5,20,20,10,25"/>
+		<drop dropid="4" jilv="1000" count="1" itemid="1000904,3000904,5000904,2000904,4000904,6000904" weight="20,5,20,20,10,25"/>
+		<drop dropid="5" jilv="4000" count="1" itemid="1000804,3000804,5000804,2000804,4000804,6000804" weight="20,5,20,20,10,25"/>
+		<drop dropid="6" jilv="8000" count="1" itemid="1000704,3000704,5000704,2000704,4000704,6000704" weight="20,5,20,20,10,25"/>
+		<drop dropid="7" jilv="10000" count="1" itemid="1000604,3000604,5000604,2000604,4000604,6000604" weight="20,5,20,20,10,25"/>
+		<drop dropid="8" jilv="10000" count="5" itemid="1001303,3001303,5001303,2001303,4001303,6001302" weight="20,5,20,20,10,25"/>
+		<drop dropid="9" jilv="10000" count="500" itemid="10000014" weight="1"/>
+	</item>
+	<item star="8" time="240" timeup="-2" timeadd="10" timelimit="300" zhandouid="130008001" refresh="1" redbagid="3" monster="130008001">
+		<drop dropid="1" jilv="100" count="1" itemid="1001304,3001304,5001304,2001304,4001304,6001304" weight="20,5,20,20,10,25"/>
+		<drop dropid="2" jilv="500" count="1" itemid="1001204,3001204,5001204,2001204,4001204,6001204" weight="20,5,20,20,10,25"/>
+		<drop dropid="3" jilv="700" count="1" itemid="1001104,3001104,5001104,2001104,4001104,6001104" weight="20,5,20,20,10,25"/>
+		<drop dropid="4" jilv="1000" count="1" itemid="1001004,3001004,5001004,2001004,4001004,6001004" weight="20,5,20,20,10,25"/>
+		<drop dropid="5" jilv="1500" count="1" itemid="1000904,3000904,5000904,2000904,4000904,6000904" weight="20,5,20,20,10,25"/>
+		<drop dropid="6" jilv="4500" count="1" itemid="1000804,3000804,5000804,2000804,4000804,6000804" weight="20,5,20,20,10,25"/>
+		<drop dropid="7" jilv="10000" count="1" itemid="1000704,3000704,5000704,2000704,4000704,6000704" weight="20,5,20,20,10,25"/>
+		<drop dropid="8" jilv="10000" count="5" itemid="1001303,3001303,5001303,2001303,4001303,6001302" weight="20,5,20,20,10,25"/>
+		<drop dropid="9" jilv="10000" count="540" itemid="10000014" weight="1"/>
+	</item>
+	<item star="9" time="240" timeup="-2" timeadd="10" timelimit="300" zhandouid="130009001" refresh="1" redbagid="3" monster="130009001">
+		<drop dropid="1" jilv="100" count="1" itemid="1001404,3001404,5001404,2001404,4001404,6001404" weight="20,5,20,20,10,25"/>
+		<drop dropid="2" jilv="300" count="1" itemid="1001304,3001304,5001304,2001304,4001304,6001304" weight="20,5,20,20,10,25"/>
+		<drop dropid="3" jilv="800" count="1" itemid="1001204,3001204,5001204,2001204,4001204,6001204" weight="20,5,20,20,10,25"/>
+		<drop dropid="4" jilv="1000" count="1" itemid="1001104,3001104,5001104,2001104,4001104,6001104" weight="20,5,20,20,10,25"/>
+		<drop dropid="5" jilv="1500" count="1" itemid="1001004,3001004,5001004,2001004,4001004,6001004" weight="20,5,20,20,10,25"/>
+		<drop dropid="6" jilv="2000" count="1" itemid="1000904,3000904,5000904,2000904,4000904,6000904" weight="20,5,20,20,10,25"/>
+		<drop dropid="7" jilv="5000" count="1" itemid="1000804,3000804,5000804,2000804,4000804,6000804" weight="20,5,20,20,10,25"/>
+		<drop dropid="8" jilv="10000" count="1" itemid="1000704,3000704,5000704,2000704,4000704,6000704" weight="20,5,20,20,10,25"/>
+		<drop dropid="9" jilv="10000" count="5" itemid="1001403,3001403,5001403,2001403,4001403,6001402" weight="20,5,20,20,10,25"/>
+		<drop dropid="10" jilv="10000" count="600" itemid="10000014" weight="1"/>
+	</item>
+	<item star="10" time="360" timeup="-2" timeadd="20" timelimit="480" zhandouid="130010001" refresh="1" redbagid="3" monster="130010001">
+		<drop dropid="1" jilv="300" count="1" itemid="1001404,3001404,5001404,2001404,4001404,6001404" weight="20,5,20,20,10,25"/>
+		<drop dropid="2" jilv="500" count="1" itemid="1001304,3001304,5001304,2001304,4001304,6001304" weight="20,5,20,20,10,25"/>
+		<drop dropid="3" jilv="1000" count="1" itemid="1001204,3001204,5001204,2001204,4001204,6001204" weight="20,5,20,20,10,25"/>
+		<drop dropid="4" jilv="1500" count="1" itemid="1001104,3001104,5001104,2001104,4001104,6001104" weight="20,5,20,20,10,25"/>
+		<drop dropid="5" jilv="2000" count="1" itemid="1001004,3001004,5001004,2001004,4001004,6001004" weight="20,5,20,20,10,25"/>
+		<drop dropid="6" jilv="2500" count="1" itemid="1000904,3000904,5000904,2000904,4000904,6000904" weight="20,5,20,20,10,25"/>
+		<drop dropid="7" jilv="5500" count="1" itemid="1000804,3000804,5000804,2000804,4000804,6000804" weight="20,5,20,20,10,25"/>
+		<drop dropid="8" jilv="10000" count="1" itemid="1000704,3000704,5000704,2000704,4000704,6000704" weight="20,5,20,20,10,25"/>
+		<drop dropid="9" jilv="10000" count="5" itemid="1001403,3001403,5001403,2001403,4001403,6001403" weight="1,1,1,1,1,1"/>
+		<drop dropid="10" jilv="10000" count="700" itemid="10000014" weight="1"/>
+	</item>
+	<item star="11" time="360" timeup="-2" timeadd="20" timelimit="480" zhandouid="130011001" refresh="1" redbagid="4" monster="130011001">
+		<drop dropid="1" jilv="500" count="1" itemid="1001404,3001404,5001404,2001404,4001404,6001404" weight="20,5,20,20,10,25"/>
+		<drop dropid="2" jilv="700" count="1" itemid="1001304,3001304,5001304,2001304,4001304,6001304" weight="20,5,20,20,10,25"/>
+		<drop dropid="3" jilv="1200" count="1" itemid="1001204,3001204,5001204,2001204,4001204,6001204" weight="20,5,20,20,10,25"/>
+		<drop dropid="4" jilv="2000" count="1" itemid="1001104,3001104,5001104,2001104,4001104,6001104" weight="20,5,20,20,10,25"/>
+		<drop dropid="5" jilv="2500" count="1" itemid="1001004,3001004,5001004,2001004,4001004,6001004" weight="20,5,20,20,10,25"/>
+		<drop dropid="6" jilv="3000" count="1" itemid="1000904,3000904,5000904,2000904,4000904,6000904" weight="20,5,20,20,10,25"/>
+		<drop dropid="7" jilv="6000" count="1" itemid="1000804,3000804,5000804,2000804,4000804,6000804" weight="20,5,20,20,10,25"/>
+		<drop dropid="8" jilv="10000" count="1" itemid="1000704,3000704,5000704,2000704,4000704,6000704" weight="20,5,20,20,10,25"/>
+		<drop dropid="9" jilv="10000" count="5" itemid="1001503,3001503,5001503,2001503,4001503,6001503" weight="20,5,20,20,10,25"/>
+		<drop dropid="10" jilv="10000" count="800" itemid="10000014" weight="1"/>
+	</item>
+	<item star="12" time="720" timeup="-2" timeadd="0" timelimit="720" zhandouid="130012001" refresh="1" redbagid="4" monster="130012001">
+		<drop dropid="1" jilv="700" count="1" itemid="1001404,3001404,5001404,2001404,4001404,6001404" weight="20,5,20,20,10,25"/>
+		<drop dropid="2" jilv="900" count="1" itemid="1001304,3001304,5001304,2001304,4001304,6001304" weight="20,5,20,20,10,25"/>
+		<drop dropid="3" jilv="1500" count="1" itemid="1001204,3001204,5001204,2001204,4001204,6001204" weight="20,5,20,20,10,25"/>
+		<drop dropid="4" jilv="2500" count="1" itemid="1001104,3001104,5001104,2001104,4001104,6001104" weight="20,5,20,20,10,25"/>
+		<drop dropid="5" jilv="3000" count="1" itemid="1001004,3001004,5001004,2001004,4001004,6001004" weight="20,5,20,20,10,25"/>
+		<drop dropid="6" jilv="3500" count="1" itemid="1000904,3000904,5000904,2000904,4000904,6000904" weight="20,5,20,20,10,25"/>
+		<drop dropid="7" jilv="6500" count="1" itemid="1000804,3000804,5000804,2000804,4000804,6000804" weight="20,5,20,20,10,25"/>
+		<drop dropid="8" jilv="10000" count="1" itemid="1000704,3000704,5000704,2000704,4000704,6000704" weight="20,5,20,20,10,25"/>
+		<drop dropid="9" jilv="10000" count="5" itemid="1001503,3001503,5001503,2001503,4001503,6001503" weight="20,5,20,20,10,25"/>
+		<drop dropid="10" jilv="10000" count="900" itemid="10000014" weight="1"/>
+	</item>
+	<item star="13" time="720" timeup="-2" timeadd="0" timelimit="720" zhandouid="130013001" refresh="1" redbagid="4" monster="130013001">
+		<drop dropid="1" jilv="900" count="1" itemid="1001404,3001404,5001404,2001404,4001404,6001404" weight="20,5,20,20,10,25"/>
+		<drop dropid="2" jilv="1000" count="1" itemid="1001304,3001304,5001304,2001304,4001304,6001304" weight="20,5,20,20,10,25"/>
+		<drop dropid="3" jilv="2000" count="1" itemid="1001204,3001204,5001204,2001204,4001204,6001204" weight="20,5,20,20,10,25"/>
+		<drop dropid="4" jilv="3000" count="1" itemid="1001104,3001104,5001104,2001104,4001104,6001104" weight="20,5,20,20,10,25"/>
+		<drop dropid="5" jilv="3500" count="1" itemid="1001004,3001004,5001004,2001004,4001004,6001004" weight="20,5,20,20,10,25"/>
+		<drop dropid="6" jilv="4000" count="1" itemid="1000904,3000904,5000904,2000904,4000904,6000904" weight="20,5,20,20,10,25"/>
+		<drop dropid="7" jilv="7000" count="1" itemid="1000804,3000804,5000804,2000804,4000804,6000804" weight="20,5,20,20,10,25"/>
+		<drop dropid="8" jilv="10000" count="1" itemid="1000704,3000704,5000704,2000704,4000704,6000704" weight="20,5,20,20,10,25"/>
+		<drop dropid="9" jilv="10000" count="5" itemid="1001503,3001503,5001503,2001503,4001503,6001503" weight="20,5,20,20,10,25"/>
+		<drop dropid="10" jilv="10000" count="1000" itemid="10000014" weight="1"/>
+	</item>
+	<ward star="1" itemid="10000014,10000007" num="10,1" bmoney="20"/>
+	<ward star="2" itemid="10000014,10000007" num="12,1" bmoney="20"/>
+	<ward star="3" itemid="10000014,10000007" num="15,1" bmoney="20"/>
+	<ward star="4" itemid="10000014,10000007" num="18,2" bmoney="30"/>
+	<ward star="5" itemid="10000014,10000007" num="20,2" bmoney="30"/>
+	<ward star="6" itemid="10000014,10000007" num="22,2" bmoney="30"/>
+	<ward star="7" itemid="10000014,10000007" num="25,3" bmoney="40"/>
+	<ward star="8" itemid="10000014,10000007" num="27,3" bmoney="40"/>
+	<ward star="9" itemid="10000014,10000007" num="30,3" bmoney="40"/>
+	<ward star="10" itemid="10000014,10000007" num="35,4" bmoney="50"/>
+	<ward star="11" itemid="10000014,10000007" num="40,4" bmoney="50"/>
+	<ward star="12" itemid="10000014,10000007" num="45,5" bmoney="50"/>
+	<ward star="13" itemid="10000014,10000007" num="50,5" bmoney="50"/>
+	<buff buffhelp="66666" buffcost="100" bufftype="110,111" buffparameter="200,200"/>
+	<vip vip="0" num="1"/>
+	<vip vip="1" num="1"/>
+	<vip vip="2" num="1"/>
+	<vip vip="3" num="1"/>
+	<vip vip="4" num="2"/>
+	<vip vip="5" num="3"/>
+	<vip vip="6" num="4"/>
+	<vip vip="7" num="5"/>
+	<vip vip="8" num="6"/>
+	<vip vip="9" num="7"/>
+	<vip vip="10" num="8"/>
+	<vip vip="11" num="9"/>
+	<vip vip="12" num="10"/>
+</root>

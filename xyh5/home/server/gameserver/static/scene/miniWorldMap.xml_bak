@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2012 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+isprotect	是否有PK保护时间：=1是，=2否	1	scene
+mapid	地图ID
+sceneid	地图id
+name	地图名称
+mcname	地图名称
+minlv	最小等级
+maxlv	最大等级
+relive_sceneid	复活地图id
+relive_pos	复活X坐标
+relive_posy	复活Y坐标
+posX   世界地图飞鞋飞的X坐标
+posY   世界地图飞鞋飞的y坐标
+relive_radius	复活区域半径
+appointtype	是否为指定传送点地图， =1为是，=0为不是，是的话通过任何方式进入本地图中时均传送至posX、posY的坐标处
+-->
+	<citys>
+		<item mapid="6002" sceneid="6002" name="雪鹰领" mcname="xueyingling" minlv="1" maxlv="15" isprotect="1" relive_sceneid="6002" relive_pos="90" relive_posy="78" posX="65.0" posY="149.0" relive_radius="5"/>
+		<item mapid="6003" sceneid="6003" name="毁灭山脉" mcname="huimieshanmai" minlv="15" maxlv="25" isprotect="1" relive_sceneid="6003" relive_pos="153" relive_posy="16" posX="77" posY="46" relive_radius="5"/>
+		<item mapid="6004" sceneid="6004" name="卢家堡" mcname="lujiabao" minlv="20" maxlv="35" isprotect="1" relive_sceneid="6004" relive_pos="142" relive_posy="24" posX="74" posY="53" relive_radius="5"/>
+		<item mapid="6005" sceneid="6005" name="清河郡" mcname="qinghejun" minlv="35" maxlv="45" isprotect="1" relive_sceneid="6005" relive_pos="17" relive_posy="197" posX="62" posY="88" relive_radius="5"/>
+		<item mapid="6006" sceneid="6006" name="黑风崖" mcname="heifengya" minlv="40" maxlv="50" isprotect="1" relive_sceneid="6006" relive_pos="153" relive_posy="138" posX="57" posY="76" relive_radius="5"/>
+		<item mapid="6007" sceneid="6007" name="黑风神宫" mcname="heifengshengong" minlv="50" maxlv="60" isprotect="1" relive_sceneid="6007" relive_pos="100" relive_posy="42" posX="42" posY="69" relive_radius="5"/>
+		<item mapid="6008" sceneid="6008" name="夏都城" mcname="xiadu" minlv="55" maxlv="70" isprotect="1" relive_sceneid="6008" relive_pos="76" relive_posy="256" posX="155" posY="153" relive_radius="5"/>
+		<item mapid="6009" sceneid="6009" name="墨阳家族" mcname="moyangjiazu" minlv="60" maxlv="80" isprotect="1" relive_sceneid="6009" relive_pos="49" relive_posy="40" posX="22" posY="80" relive_radius="5"/>
+		<item mapid="6010" sceneid="6010" name="赤云山" mcname="chiyunshan" minlv="80" maxlv="90" isprotect="1" relive_sceneid="6010" relive_pos="55" relive_posy="80" posX="36" posY="38" relive_radius="5"/>
+		<item mapid="6011" sceneid="6011" name="小超凡世界" mcname="xiaochaofanshijie" minlv="90" maxlv="100" isprotect="1" relive_sceneid="6011" relive_pos="46" relive_posy="46" posX="66" posY="116" relive_radius="5"/>
+		<item mapid="6015" sceneid="6015" name="超凡世界" mcname="dachaofanshijie" minlv="100" maxlv="110" isprotect="1" relive_sceneid="6015" relive_pos="32" relive_posy="19" posX="82" posY="182" relive_radius="5"/>
+		<item mapid="6016" sceneid="6016" name="魔神会" mcname="moshenhui" minlv="110" maxlv="120" isprotect="1" relive_sceneid="6016" relive_pos="81" relive_posy="134" posX="95" posY="58" relive_radius="5"/>
+		<item mapid="6018" sceneid="6018" name="海神之岛" mcname="haishenzhidao" minlv="120" maxlv="130" isprotect="1" relive_sceneid="6018" relive_pos="101" relive_posy="86" posX="101" posY="86" relive_radius="5"/>
+		<item mapid="6019" sceneid="6019" name="树海世界" mcname="shuhaishijie" minlv="130" maxlv="140" isprotect="1" relive_sceneid="6019" relive_pos="41" relive_posy="73" posX="41" posY="73" relive_radius="5"/>
+		<item mapid="8003" sceneid="8003" name="莲台天阙" minlv="65" maxlv="200" isprotect="1" relive_sceneid="8003" relive_pos="41" relive_posy="15" posX="41" posY="15" relive_radius="5" appointtype="1"/>
+		<item mapid="8002" sceneid="8002" name="仙云台" minlv="55" maxlv="200" isprotect="1" relive_sceneid="8002" relive_pos="41" relive_posy="17" posX="41" posY="17" relive_radius="5" appointtype="1"/>
+		<item mapid="6017" sceneid="6017" name="苍玄废墟" minlv="75" maxlv="200" isprotect="1" relive_sceneid="6017" relive_pos="39" relive_posy="26" posX="39" posY="26" relive_radius="5" appointtype="1"/>
+		<item mapid="6014" sceneid="6014" name="莲池仙境" minlv="85" maxlv="200" isprotect="1" relive_sceneid="6014" relive_pos="8" relive_posy="15" posX="21" posY="10" relive_radius="5" appointtype="1"/>
+		<item mapid="6013" sceneid="6013" name="森罗鬼域" minlv="95" maxlv="200" isprotect="1" relive_sceneid="6013" relive_pos="52" relive_posy="55" posX="52" posY="55" relive_radius="5" appointtype="1"/>
+		<item mapid="8009" sceneid="8009" name="修罗殿" minlv="105" maxlv="200" isprotect="1" relive_sceneid="8009" relive_pos="32" relive_posy="40" posX="21" posY="53" relive_radius="5" appointtype="1"/>
+		<item mapid="8008" sceneid="8008" name="明月殿" minlv="115" maxlv="200" isprotect="1" relive_sceneid="8008" relive_pos="55" relive_posy="13" posX="55" posY="13" relive_radius="5" appointtype="1"/>
+		<item mapid="8010" sceneid="8010" name="熔岩炼域" minlv="125" maxlv="200" isprotect="1" relive_sceneid="8010" relive_pos="61" relive_posy="77" posX="61" posY="77" relive_radius="5" appointtype="1"/>
+		<item mapid="8014" sceneid="8014" name="赤血妖狐" minlv="135" maxlv="200" isprotect="1" relive_sceneid="8014" relive_pos="86" relive_posy="24" posX="86" posY="24" relive_radius="5" appointtype="1"/>
+		<item mapid="8015" sceneid="8015" name="血云星魔兽" minlv="135" maxlv="200" isprotect="1" relive_sceneid="8015" relive_pos="61" relive_posy="77" posX="61" posY="77" relive_radius="5" appointtype="1"/>
+	</citys>
+</root>

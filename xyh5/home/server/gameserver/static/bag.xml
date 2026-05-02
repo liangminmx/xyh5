@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+tab标签
+	tab	标签	1=装备 2=道具 11=伙伴碎片  3-10禁用（已被装备栏位占用）
+ 	tab_name	标签名称	标签名称
+    rong_lian_limit_vip 自动熔炼开启vip等级
+    rong_50_limit_vip 熔炼50件 vip开启等级
+
+bag标签
+	warehouse	默认容量	默认背包容量，等当容量=-1时该标签容量无限
+	warehouse_limit	容量上限	包裹容量上限
+	cost	增加容量消耗	每格包裹容量开启需消耗的元宝
+fac标签
+    ext_fac	产出系数	用于额外奖励type=3 计算双倍领奖所需元宝的系数
+    ext_level 额外奖励功能开启等级
+    rate_max 熔炼计算额外概率时，最大计算概率装备数量
+    ext_max   自动熔炼计算额外掉落时，取当次熔炼里对应掉落最好的N件装备
+ext标签
+	id	额外奖励编号	
+    rate	额外获得奖励概率	
+	limit	额外奖励限制类型	不填没有限制、=1分解橙装时
+	fallcount	每日获得次数	不填则没有限制，填1则每日限制获得1次
+    type	掉落类型	 =1掉落银两 =2掉落道具 =3根据道具1掉落相同数量的道具2
+	type_param	掉落类型补充	 type=2时填写道具id  type=3时填写两个道具编号
+
+ext2标签
+	wid	编号
+	weight	掉落权重	
+	param	掉落参数	 type=1时为银两倍数，type=2时为道具数量
+	cost	双倍领取所需元宝	
+
+-->
+	<tab tab="1" tab_name="装 备" rong_lian_limit_vip="7" rong_50_limit_vip="1">
+		<bag warehouse="200" warehouse_limit="800" cost="5"/>
+	</tab>
+	<tab tab="2" tab_name="道 具">
+		<bag warehouse="999"/>
+	</tab>
+	<tab tab="11" tab_name="伙伴魂魄">
+		<bag warehouse="999"/>
+	</tab>
+	<fac ext_level="70" rate_max="50" ext_max="50" ext_fac="0.7"/>
+	<ext id="1" limit="1" rate="500" fallcount="1" type="2" type_param="10000008">
+		<ext2 wid="1" weight="700" param="10" cost="70"/>
+		<ext2 wid="2" weight="220" param="20" cost="140"/>
+		<ext2 wid="3" weight="50" param="50" cost="300"/>
+		<ext2 wid="4" weight="20" param="100" cost="600"/>
+		<ext2 wid="5" weight="10" param="200" cost="1000"/>
+	</ext>
+	<ext id="2" rate="20" type="3" type_param="10000012,10000013">
+	</ext>
+	<ext id="3" rate="20" type="1">
+		<ext2 wid="1" weight="500" param="20" cost="1"/>
+		<ext2 wid="2" weight="250" param="30" cost="1"/>
+		<ext2 wid="3" weight="100" param="50" cost="1"/>
+		<ext2 wid="4" weight="80" param="100" cost="2"/>
+		<ext2 wid="5" weight="50" param="150" cost="2"/>
+		<ext2 wid="6" weight="20" param="200" cost="5"/>
+	</ext>
+</root>

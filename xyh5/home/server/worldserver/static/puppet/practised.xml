@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 被2012 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!--functionid	功能id
+practisedlv	熟练等级
+needproficiency	升级熟练值要求
+artname	熟练等级美术字名称
+name	熟练等级名称
+costitem	习练消耗的道具
+costnum	习练消耗的道具数量
+autopurchase	自动购买的道具id
+needpoint	每X点熟练增加一次属性
+max_hp	熟练等级气血加成
+attack	熟练等级攻击加成
+def	熟练等级防御加成
+hit	熟练等级命中加成
+dodge	熟练等级闪避加成
+crit	熟练等级暴击加成
+toughness	熟练等级韧性加成
+uplv	人物闪金光特效
+defaultmove	人物默认图片
+interval	播放间隔，单位毫秒
+upid	提升熟练值的类型
+weight	每个类型的权重
+upproficiency	每个提升熟练值类型对应提升的熟练值
+upmove	舞枪动作资源
+artword	提升熟练值时不同提升类型对应的美术字动画
+id	排序id
+lv	需在tips上显示的熟练等级
+text	相应熟练等级需显示的文本
+max_hp	每点熟练获得气血
+attack	每点熟练获得攻击
+def	每点熟练获得防御
+hit	每点熟练获得命中
+dodge	每点熟练获得闪避
+crit	每点熟练获得暴击
+toughness	每点熟练获得韧性
+weaponid	解锁的神兵id
+class	神兵对应职业，=0战士，=1法师
+
+ -->
+<root>
+	<functionid functionid="1070"/>
+	<resources uplv="3003041" defaultmove="-1" interval="200"/>
+	<up>
+		<uptype upid="1" weight="52" upproficiency="5" upmove="-1" artword="3003057"/>
+		<uptype upid="2" weight="34" upproficiency="20" upmove="-1" artword="3003056"/>
+		<uptype upid="3" weight="14" upproficiency="50" upmove="-1" artword="3003055"/>
+	</up>
+	<tips id="1" lv="1" text="神兵掌握第1阶段，初出茅庐"/>
+	<tips id="2" lv="7" text="神兵掌握第2阶段，熟能生巧"/>
+	<tips id="3" lv="13" text="神兵掌握第3阶段，剑显微茫"/>
+	<tips id="4" lv="19" text="神兵掌握第4阶段，身手不凡"/>
+	<tips id="5" lv="25" text="神兵掌握第5阶段，技艺超群"/>
+	<tips id="6" lv="31" text="神兵掌握第6阶段，形如游龙"/>
+	<tips id="7" lv="37" text="神兵掌握第7阶段，一代宗师"/>
+	<tips id="8" lv="43" text="神兵掌握第8阶段，擎天架海"/>
+	<tips id="9" lv="49" text="神兵掌握第9阶段，镇压时代"/>
+	<tips id="10" lv="54" text="神兵掌握第10阶段，诸神忌惮"/>
+	<practised needpoint="10" max_hp="22" attack="3" def="1" hit="0" dodge="0" crit="0" toughness="0"/>
+	<lv maxlv="54">
+		<practisedlv practisedlv="1" costitem="900007,600019" costnum="1" autopurchase="900007" needproficiency="192" artname="lv1" name="一重境" littlename="0" max_hp="0" attack="0" def="0" hit="15" dodge="14" crit="19" toughness="13">
+		</practisedlv>
+		<practisedlv practisedlv="2" costitem="900007,600019" costnum="1" autopurchase="900007" needproficiency="218" artname="lv1" name="一重境" littlename="1" max_hp="0" attack="0" def="0" hit="23" dodge="22" crit="30" toughness="20">
+		</practisedlv>
+		<practisedlv practisedlv="3" costitem="900007,600019" costnum="1" autopurchase="900007" needproficiency="346" artname="lv1" name="一重境" littlename="2" max_hp="0" attack="0" def="0" hit="35" dodge="34" crit="46" toughness="32">
+		</practisedlv>
+		<practisedlv practisedlv="4" costitem="900007,600019" costnum="1" autopurchase="900007" needproficiency="538" artname="lv1" name="一重境" littlename="3" max_hp="0" attack="0" def="0" hit="54" dodge="52" crit="71" toughness="49">
+		</practisedlv>
+		<practisedlv practisedlv="5" costitem="900007,600019" costnum="1" autopurchase="900007" needproficiency="845" artname="lv1" name="一重境" littlename="4" max_hp="0" attack="0" def="0" hit="84" dodge="80" crit="109" toughness="75">
+		</practisedlv>
+		<practisedlv practisedlv="6" costitem="900007,600019" costnum="1" autopurchase="900007" needproficiency="1792" artname="lv1" name="一重境" littlename="5" max_hp="0" attack="0" def="0" hit="145" dodge="138" crit="188" toughness="130">
+		</practisedlv>
+		<practisedlv practisedlv="7" costitem="900007,600019" costnum="2" autopurchase="900007" needproficiency="550" artname="lv2" name="二重境" littlename="0" max_hp="0" attack="0" def="0" hit="180" dodge="171" crit="234" toughness="161">
+		</practisedlv>
+		<practisedlv practisedlv="8" costitem="900007,600019" costnum="2" autopurchase="900007" needproficiency="717" artname="lv2" name="二重境" littlename="1" max_hp="0" attack="0" def="0" hit="224" dodge="213" crit="291" toughness="200">
+		</practisedlv>
+		<practisedlv practisedlv="9" costitem="900007,600019" costnum="2" autopurchase="900007" needproficiency="934" artname="lv2" name="二重境" littlename="2" max_hp="0" attack="0" def="0" hit="279" dodge="265" crit="362" toughness="249">
+		</practisedlv>
+		<practisedlv practisedlv="10" costitem="900007,600019" costnum="2" autopurchase="900007" needproficiency="1229" artname="lv2" name="二重境" littlename="3" max_hp="0" attack="0" def="0" hit="347" dodge="329" crit="451" toughness="310">
+		</practisedlv>
+		<practisedlv practisedlv="11" costitem="900007,600019" costnum="2" autopurchase="900007" needproficiency="1587" artname="lv2" name="二重境" littlename="4" max_hp="0" attack="0" def="0" hit="432" dodge="410" crit="561" toughness="386">
+		</practisedlv>
+		<practisedlv practisedlv="12" costitem="900007,600019" costnum="2" autopurchase="900007" needproficiency="3149" artname="lv2" name="二重境" littlename="5" max_hp="0" attack="0" def="0" hit="592" dodge="562" crit="769" toughness="529">
+		</practisedlv>
+		<practisedlv practisedlv="13" costitem="900007,600019" costnum="3" autopurchase="900007" needproficiency="1101" artname="lv3" name="三重境" littlename="0" max_hp="0" attack="0" def="0" hit="673" dodge="639" crit="874" toughness="601">
+		</practisedlv>
+		<practisedlv practisedlv="14" costitem="900007,600019" costnum="3" autopurchase="900007" needproficiency="1280" artname="lv3" name="三重境" littlename="1" max_hp="0" attack="0" def="0" hit="765" dodge="726" crit="994" toughness="684">
+		</practisedlv>
+		<practisedlv practisedlv="15" costitem="900007,600019" costnum="3" autopurchase="900007" needproficiency="1485" artname="lv3" name="三重境" littlename="2" max_hp="0" attack="0" def="0" hit="870" dodge="826" crit="1130" toughness="777">
+		</practisedlv>
+		<practisedlv practisedlv="16" costitem="900007,600019" costnum="3" autopurchase="900007" needproficiency="1728" artname="lv3" name="三重境" littlename="3" max_hp="0" attack="0" def="0" hit="989" dodge="939" crit="1285" toughness="884">
+		</practisedlv>
+		<practisedlv practisedlv="17" costitem="900007,600019" costnum="3" autopurchase="900007" needproficiency="2010" artname="lv3" name="三重境" littlename="4" max_hp="0" attack="0" def="0" hit="1124" dodge="1068" crit="1461" toughness="1005">
+		</practisedlv>
+		<practisedlv practisedlv="18" costitem="900007,600019" costnum="3" autopurchase="900007" needproficiency="4390" artname="lv3" name="三重境" littlename="5" max_hp="0" attack="0" def="0" hit="1413" dodge="1342" crit="1836" toughness="1263">
+		</practisedlv>
+		<practisedlv practisedlv="19" costitem="900007,600019" costnum="4" autopurchase="900007" needproficiency="2086" artname="lv4" name="四重境" littlename="0" max_hp="0" attack="0" def="0" hit="1588" dodge="1508" crit="2064" toughness="1420">
+		</practisedlv>
+		<practisedlv practisedlv="20" costitem="900007,600019" costnum="4" autopurchase="900007" needproficiency="2445" artname="lv4" name="四重境" littlename="1" max_hp="0" attack="0" def="0" hit="1786" dodge="1696" crit="2321" toughness="1596">
+		</practisedlv>
+		<practisedlv practisedlv="21" costitem="900007,600019" costnum="4" autopurchase="900007" needproficiency="2854" artname="lv4" name="四重境" littlename="2" max_hp="0" attack="0" def="0" hit="2007" dodge="1906" crit="2609" toughness="1795">
+		</practisedlv>
+		<practisedlv practisedlv="22" costitem="900007,600019" costnum="4" autopurchase="900007" needproficiency="3328" artname="lv4" name="四重境" littlename="3" max_hp="0" attack="0" def="0" hit="2257" dodge="2143" crit="2933" toughness="2018">
+		</practisedlv>
+		<practisedlv practisedlv="23" costitem="900007,600019" costnum="4" autopurchase="900007" needproficiency="3878" artname="lv4" name="四重境" littlename="4" max_hp="0" attack="0" def="0" hit="2537" dodge="2409" crit="3297" toughness="2268">
+		</practisedlv>
+		<practisedlv practisedlv="24" costitem="900007,600019" costnum="4" autopurchase="900007" needproficiency="8141" artname="lv4" name="四重境" littlename="5" max_hp="0" attack="0" def="0" hit="3103" dodge="2947" crit="4033" toughness="2774">
+	
+		</practisedlv>
+		<practisedlv practisedlv="25" costitem="900007,600019" costnum="5" autopurchase="900007" needproficiency="3085" artname="lv5" name="五重境" littlename="0" max_hp="0" attack="0" def="0" hit="3363" dodge="3194" crit="4370" toughness="3006">
+			<info class="0" weaponid="1050"/>
+			<info class="1" weaponid="2050"/>
+		</practisedlv>
+		<practisedlv practisedlv="26" costitem="900007,600019" costnum="5" autopurchase="900007" needproficiency="3456" artname="lv5" name="五重境" littlename="1" max_hp="0" attack="0" def="0" hit="3644" dodge="3461" crit="4736" toughness="3258">
+		</practisedlv>
+		<practisedlv practisedlv="27" costitem="900007,600019" costnum="5" autopurchase="900007" needproficiency="3866" artname="lv5" name="五重境" littlename="2" max_hp="0" attack="0" def="0" hit="3949" dodge="3751" crit="5133" toughness="3531">
+		</practisedlv>
+		<practisedlv practisedlv="28" costitem="900007,600019" costnum="5" autopurchase="900007" needproficiency="4314" artname="lv5" name="五重境" littlename="3" max_hp="0" attack="0" def="0" hit="4280" dodge="4065" crit="5562" toughness="3826">
+		</practisedlv>
+		<practisedlv practisedlv="29" costitem="900007,600019" costnum="5" autopurchase="900007" needproficiency="4800" artname="lv5" name="五重境" littlename="4" max_hp="0" attack="0" def="0" hit="4638" dodge="4405" crit="6028" toughness="4146">
+		</practisedlv>
+		<practisedlv practisedlv="30" costitem="900007,600019" costnum="5" autopurchase="900007" needproficiency="9741" artname="lv5" name="五重境" littlename="5" max_hp="0" attack="0" def="0" hit="5342" dodge="5073" crit="6942" toughness="4776">
+		</practisedlv>
+		<practisedlv practisedlv="31" costitem="900007,600019" costnum="6" autopurchase="900007" needproficiency="4301" artname="lv6" name="六重境" littlename="0" max_hp="0" attack="0" def="0" hit="5704" dodge="5417" crit="7413" toughness="5099">
+			<info class="0" weaponid="1080"/>
+			<info class="1" weaponid="2080"/>
+		</practisedlv>
+		<practisedlv practisedlv="32" costitem="900007,600019" costnum="6" autopurchase="900007" needproficiency="4710" artname="lv6" name="六重境" littlename="1" max_hp="0" attack="0" def="0" hit="6091" dodge="5784" crit="7916" toughness="5445">
+		</practisedlv>
+		<practisedlv practisedlv="33" costitem="900007,600019" costnum="6" autopurchase="900007" needproficiency="5158" artname="lv6" name="六重境" littlename="2" max_hp="0" attack="0" def="0" hit="6504" dodge="6177" crit="8452" toughness="5814">
+		</practisedlv>
+		<practisedlv practisedlv="34" costitem="900007,600019" costnum="6" autopurchase="900007" needproficiency="5645" artname="lv6" name="六重境" littlename="3" max_hp="0" attack="0" def="0" hit="6945" dodge="6595" crit="9025" toughness="6209">
+		</practisedlv>
+		<practisedlv practisedlv="35" costitem="900007,600019" costnum="6" autopurchase="900007" needproficiency="6182" artname="lv6" name="六重境" littlename="4" max_hp="0" attack="0" def="0" hit="7416" dodge="7043" crit="9637" toughness="6629">
+		</practisedlv>
+		<practisedlv practisedlv="36" costitem="900007,600019" costnum="6" autopurchase="900007" needproficiency="12621" artname="lv6" name="六重境" littlename="5" max_hp="0" attack="0" def="0" hit="8351" dodge="7931" crit="10853" toughness="7466">
+		</practisedlv>
+		<practisedlv practisedlv="37" costitem="900007,600019" costnum="7" autopurchase="900007" needproficiency="5862" artname="lv7" name="七重境" littlename="0" max_hp="0" attack="0" def="0" hit="8830" dodge="8386" crit="11475" toughness="7894">
+		</practisedlv>
+		<practisedlv practisedlv="38" costitem="900007,600019" costnum="7" autopurchase="900007" needproficiency="6528" artname="lv7" name="七重境" littlename="1" max_hp="0" attack="0" def="0" hit="9336" dodge="8866" crit="12133" toughness="8346">
+		</practisedlv>
+		<practisedlv practisedlv="39" costitem="900007,600019" costnum="7" autopurchase="900007" needproficiency="7258" artname="lv7" name="七重境" littlename="2" max_hp="0" attack="0" def="0" hit="9871" dodge="9374" crit="12828" toughness="8824">
+		</practisedlv>
+		<practisedlv practisedlv="40" costitem="900206,900007,600019" costnum="7" autopurchase="900007" needproficiency="8064" artname="lv7" name="七重境" littlename="3" max_hp="0" attack="0" def="0" hit="10436" dodge="9911" crit="13563" toughness="9330">
+		</practisedlv>
+		<practisedlv practisedlv="41" costitem="900206,900007,600019" costnum="7" autopurchase="900007" needproficiency="8922" artname="lv7" name="七重境" littlename="4" max_hp="0" attack="0" def="0" hit="11034" dodge="10479" crit="14340" toughness="9865">
+		</practisedlv>
+		<practisedlv practisedlv="42" costitem="900206,900007,600019" costnum="7" autopurchase="900007" needproficiency="18726" artname="lv7" name="七重境" littlename="5" max_hp="0" attack="0" def="0" hit="12230" dodge="11614" crit="15893" toughness="10933">
+		</practisedlv>
+		<practisedlv practisedlv="43" costitem="900206,900007,600019" costnum="8" autopurchase="900007" needproficiency="9587" artname="lv8" name="八重境" littlename="0" max_hp="0" attack="0" def="0" hit="12900" dodge="12251" crit="16764" toughness="11532">
+		</practisedlv>
+		<practisedlv practisedlv="44" costitem="900206,900007,600019" costnum="8" autopurchase="900007" needproficiency="10522" artname="lv8" name="八重境" littlename="1" max_hp="0" attack="0" def="0" hit="13607" dodge="12922" crit="17683" toughness="12164">
+		</practisedlv>
+		<practisedlv practisedlv="45" costitem="900206,900007,600019" costnum="8" autopurchase="900007" needproficiency="11533" artname="lv8" name="八重境" littlename="2" max_hp="0" attack="0" def="0" hit="14352" dodge="13630" crit="18652" toughness="12831">
+		</practisedlv>
+		<practisedlv practisedlv="46" costitem="900206,900007,600019" costnum="8" autopurchase="900007" needproficiency="12621" artname="lv8" name="八重境" littlename="3" max_hp="0" attack="0" def="0" hit="15138" dodge="14377" crit="19674" toughness="13534">
+		</practisedlv>
+		<practisedlv practisedlv="47" costitem="900206,900007,600019" costnum="8" autopurchase="900007" needproficiency="13798" artname="lv8" name="八重境" littlename="4" max_hp="0" attack="0" def="0" hit="15968" dodge="15165" crit="20752" toughness="14275">
+		</practisedlv>
+		<practisedlv practisedlv="48" costitem="900206,900007,600019" costnum="8" autopurchase="900007" needproficiency="28736" artname="lv8" name="八重境" littlename="5" max_hp="0" attack="0" def="0" hit="17630" dodge="16743" crit="22911" toughness="15761">
+		</practisedlv>
+		<practisedlv practisedlv="49" costitem="900206,900007,600019" costnum="10" autopurchase="900007" needproficiency="12454" artname="lv9" name="九重境" littlename="0" max_hp="0" attack="0" def="0" hit="18459" dodge="17531" crit="23989" toughness="16502">
+			<info class="0" weaponid="1070"/>
+			<info class="1" weaponid="2070"/>
+		</practisedlv>
+		<practisedlv practisedlv="50" costitem="900007,600019" costnum="10" autopurchase="900007" needproficiency="14054" artname="lv9" name="九重境" littlename="1" max_hp="0" attack="0" def="0" hit="19328" dodge="18356" crit="25118" toughness="17279">
+		</practisedlv>
+		<practisedlv practisedlv="51" costitem="900007,600019" costnum="10" autopurchase="900007" needproficiency="15782" artname="lv9" name="九重境" littlename="2" max_hp="0" attack="0" def="0" hit="20237" dodge="19219" crit="26300" toughness="18092">
+		</practisedlv>
+		<practisedlv practisedlv="52" costitem="900007,600019" costnum="10" autopurchase="900007" needproficiency="17651" artname="lv9" name="九重境" littlename="3" max_hp="0" attack="0" def="0" hit="21190" dodge="20124" crit="27538" toughness="18943">
+		</practisedlv>
+		<practisedlv practisedlv="53" costitem="900007,600019" costnum="10" autopurchase="900007" needproficiency="19648" artname="lv9" name="九重境" littlename="4" max_hp="0" attack="0" def="0" hit="22187" dodge="21071" crit="28834" toughness="19835">
+		</practisedlv>
+		<practisedlv practisedlv="54" costitem="900007,600019" costnum="10" autopurchase="900007" needproficiency="41754" artname="lv10" name="十重境" littlename="5" max_hp="0" attack="0" def="0" hit="24150" dodge="22935" crit="31385" toughness="21590">
+			<info class="0" weaponid="1060"/>
+			<info class="1" weaponid="2060"/>
+		</practisedlv>
+	</lv>
+	<flashshop probability="100" notice="{0}进阶神兵时触发了限时商店" showtext="您触发了限时商店，可在限定时间内购买超值道具" showtime="10" shoptext="您触发了限时商店，可在限定时间内购买超值道具" time="600" cdtime="6000">
+		    <item itemid="900007" num="10" oldprice="200" newprice="160"/>
+		</flashshop>
+</root>

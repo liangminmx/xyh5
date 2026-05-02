@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+functionid	组队副本开启ID			
+open_day	活动持续时间			
+mailid	邮件ID			
+id	标识id		
+zhenwei 阵位数
+tips TIPS广告图
+VIP vip等级	
+advertisement	广告资源			
+emoney	消耗元宝数量			
+yl	获得银两数量			
+item	道具ID			
+num	道具数量			
+bind	道具是否绑定=“1”绑定，0不绑定
+avatar 模型ID
+effect 特效ID			
+
+
+
+
+-->
+	<pro functionid="2048" open_day="5" mailid="1040001"/>
+	<activity id="1" zhenwei="1" tips="" vip="4" advertisement="" emoney="88" avatar="300002" yl="5000000">
+		<item item="12090025" num="1"/>
+		<item item="10000016" num="10"/>
+		<item item="10000035" num="1"/>
+		<item item="10000012" num="100"/>
+		<item item="10000014" num="100"/>
+	</activity>
+	<activity id="2" zhenwei="2" tips="" vip="5" advertisement="" emoney="3888" avatar="200042" hp="2000">
+		<item item="11033040" num="40"/>
+		<item item="10000015" num="50"/>
+		<item item="10000004" num="2"/>
+		<item item="10000012" num="200"/>
+		<item item="10000014" num="200"/>
+	</activity>
+	<activity id="3" zhenwei="3" tips="" vip="7" advertisement="" emoney="12888" avatar="200040;200032;200046" hp="5000">
+		<item item="16010002" num="1"/>
+		<item item="10000015" num="100"/>
+		<item item="10000004" num="5"/>
+		<item item="10000012" num="500"/>
+		<item item="10000014" num="500"/>
+	</activity>
+	<activity id="4" zhenwei="4" tips="" vip="9" advertisement="" emoney="66666" avatar="200046" hp="10000">
+		<item item="11051063" num="100"/>
+		<item item="10000015" num="200"/>
+		<item item="10000004" num="10"/>
+		<item item="10000012" num="1000"/>
+		<item item="10000014" num="1000"/>
+	</activity>
+</root>

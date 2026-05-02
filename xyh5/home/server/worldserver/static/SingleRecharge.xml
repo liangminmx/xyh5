@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!--
+FunctionId	功能开启
+group	活动组别
+name	活动组名称,策划自己看
+sortId	活动排序
+activityOpen	活动开启时间,配置格式
+2019-03-20 00:00:00
+activityEnds	活动结束时间,配置格式
+2019-03-20 23:59:59
+activityEntraceIcon	活动功能图标
+ActivityBgMap	活动背景图
+MailId	邮件Id
+DayNum	天数状态
+根据活动开启天数来确定对应数据
+GradeNum	档次
+RechargeAmount	充值的金额(RMB)
+rewardItem	道具Id值
+num	道具数量
+-->
+<root>
+	<Function FunctionId="6678"/>
+	<ActivityInformation group="1" name="清明节活动" sortId="2" activityOpen="2019-04-05 00:00:00" activityEnds="2019-04-08 23:59:59" activityEntraceIcon="singleRecharge1" ActivityBgMap="SingleRechargeBg" MailId="6678">
+		<day DayNum="1">
+			<grade GradeNum="1" RechargeAmount="10">
+				<reward rewardItem="16010013" num="2"/>
+				<reward rewardItem="10000101" num="2"/>
+				<reward rewardItem="10000008" num="100"/>
+			</grade>
+			<grade GradeNum="2" RechargeAmount="20">
+				<reward rewardItem="16010013" num="4"/>
+				<reward rewardItem="10000101" num="4"/>
+				<reward rewardItem="10000008" num="240"/>
+			</grade>
+			<grade GradeNum="3" RechargeAmount="30">
+				<reward rewardItem="16010013" num="6"/>
+				<reward rewardItem="10000101" num="6"/>
+				<reward rewardItem="10000008" num="400"/>
+			</grade>
+			<grade GradeNum="4" RechargeAmount="50">
+				<reward rewardItem="16010013" num="12"/>
+				<reward rewardItem="10000101" num="12"/>
+				<reward rewardItem="10000008" num="700"/>
+			</grade>
+			<grade GradeNum="5" RechargeAmount="100">
+				<reward rewardItem="16010013" num="25"/>
+				<reward rewardItem="10000101" num="25"/>
+				<reward rewardItem="10000008" num="1500"/>
+			</grade>
+			<grade GradeNum="6" RechargeAmount="200">
+				<reward rewardItem="16010013" num="50"/>
+				<reward rewardItem="10000101" num="50"/>
+				<reward rewardItem="10000008" num="3000"/>
+			</grade>
+			<grade GradeNum="7" RechargeAmount="500">
+				<reward rewardItem="16010013" num="150"/>
+				<reward rewardItem="10000101" num="150"/>
+				<reward rewardItem="10000008" num="8000"/>
+			</grade>
+		</day>
+		<day DayNum="2">
+			<grade GradeNum="1" RechargeAmount="10">
+				<reward rewardItem="16010013" num="2"/>
+				<reward rewardItem="10000101" num="2"/>
+				<reward rewardItem="10000008" num="100"/>
+			</grade>
+			<grade GradeNum="2" RechargeAmount="20">
+				<reward rewardItem="16010013" num="4"/>
+				<reward rewardItem="10000101" num="4"/>
+				<reward rewardItem="10000008" num="240"/>
+			</grade>
+			<grade GradeNum="3" RechargeAmount="30">
+				<reward rewardItem="16010013" num="6"/>
+				<reward rewardItem="10000101" num="6"/>
+				<reward rewardItem="10000008" num="400"/>
+			</grade>
+			<grade GradeNum="4" RechargeAmount="50">
+				<reward rewardItem="16010013" num="12"/>
+				<reward rewardItem="10000101" num="12"/>
+				<reward rewardItem="10000008" num="700"/>
+			</grade>
+			<grade GradeNum="5" RechargeAmount="100">
+				<reward rewardItem="16010013" num="25"/>
+				<reward rewardItem="10000101" num="25"/>
+				<reward rewardItem="10000008" num="1500"/>
+			</grade>
+			<grade GradeNum="6" RechargeAmount="200">
+				<reward rewardItem="16010013" num="50"/>
+				<reward rewardItem="10000101" num="50"/>
+				<reward rewardItem="10000008" num="3000"/>
+			</grade>
+			<grade GradeNum="7" RechargeAmount="500">
+				<reward rewardItem="16010013" num="150"/>
+				<reward rewardItem="10000101" num="150"/>
+				<reward rewardItem="10000008" num="8000"/>
+			</grade>
+		</day>
+		<day DayNum="3">
+			<grade GradeNum="1" RechargeAmount="10">
+				<reward rewardItem="16010013" num="2"/>
+				<reward rewardItem="10000101" num="2"/>
+				<reward rewardItem="10000008" num="100"/>
+			</grade>
+			<grade GradeNum="2" RechargeAmount="20">
+				<reward rewardItem="16010013" num="4"/>
+				<reward rewardItem="10000101" num="4"/>
+				<reward rewardItem="10000008" num="240"/>
+			</grade>
+			<grade GradeNum="3" RechargeAmount="30">
+				<reward rewardItem="16010013" num="6"/>
+				<reward rewardItem="10000101" num="6"/>
+				<reward rewardItem="10000008" num="400"/>
+			</grade>
+			<grade GradeNum="4" RechargeAmount="50">
+				<reward rewardItem="16010013" num="12"/>
+				<reward rewardItem="10000101" num="12"/>
+				<reward rewardItem="10000008" num="700"/>
+			</grade>
+			<grade GradeNum="5" RechargeAmount="100">
+				<reward rewardItem="16010013" num="25"/>
+				<reward rewardItem="10000101" num="25"/>
+				<reward rewardItem="10000008" num="1500"/>
+			</grade>
+			<grade GradeNum="6" RechargeAmount="200">
+				<reward rewardItem="16010013" num="50"/>
+				<reward rewardItem="10000101" num="50"/>
+				<reward rewardItem="10000008" num="3000"/>
+			</grade>
+			<grade GradeNum="7" RechargeAmount="500">
+				<reward rewardItem="16010013" num="150"/>
+				<reward rewardItem="10000101" num="150"/>
+				<reward rewardItem="10000008" num="8000"/>
+			</grade>
+		</day>
+		<day DayNum="4">
+			<grade GradeNum="1" RechargeAmount="10">
+				<reward rewardItem="16010013" num="2"/>
+				<reward rewardItem="10000101" num="2"/>
+				<reward rewardItem="10000008" num="100"/>
+			</grade>
+			<grade GradeNum="2" RechargeAmount="20">
+				<reward rewardItem="16010013" num="4"/>
+				<reward rewardItem="10000101" num="4"/>
+				<reward rewardItem="10000008" num="240"/>
+			</grade>
+			<grade GradeNum="3" RechargeAmount="30">
+				<reward rewardItem="16010013" num="6"/>
+				<reward rewardItem="10000101" num="6"/>
+				<reward rewardItem="10000008" num="400"/>
+			</grade>
+			<grade GradeNum="4" RechargeAmount="50">
+				<reward rewardItem="16010013" num="12"/>
+				<reward rewardItem="10000101" num="12"/>
+				<reward rewardItem="10000008" num="700"/>
+			</grade>
+			<grade GradeNum="5" RechargeAmount="100">
+				<reward rewardItem="16010013" num="25"/>
+				<reward rewardItem="10000101" num="25"/>
+				<reward rewardItem="10000008" num="1500"/>
+			</grade>
+			<grade GradeNum="6" RechargeAmount="200">
+				<reward rewardItem="16010013" num="50"/>
+				<reward rewardItem="10000101" num="50"/>
+				<reward rewardItem="10000008" num="3000"/>
+			</grade>
+			<grade GradeNum="7" RechargeAmount="500">
+				<reward rewardItem="16010013" num="150"/>
+				<reward rewardItem="10000101" num="150"/>
+				<reward rewardItem="10000008" num="8000"/>
+			</grade>
+		</day>
+	</ActivityInformation>
+</root>

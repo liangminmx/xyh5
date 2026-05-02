@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+itemtype标签				
+	itemtype	道具类型编号		类型只用于显示和分类，不是实际的道具逻辑
+	typename	道具类型名称		不同类型定义不同的名字，用于客户端显示
+item标签				
+	id	        编号		道具唯一编号
+	name	    道具名称		
+	icon	    道具图标	
+    rarity      道具稀有度	
+	treasure	是否珍品		默认不填或者填0则不为珍品。treasure=1为珍品
+	itemtype	道具类型编号		道具的类型，对应itemtype标签下itemtype字段
+	type_dec	类型补充说明		字符，用于客户端显示
+	efficacy	功效描述		字符，用于客户端显示
+	dec	        道具描述		字符，用于客户端显示
+	resolve	    是否可分解	道具是否可分解，默认不填不可分解，=1时可分解
+	resolve_remind	分解提示	分解是否弹窗确认界面
+	resolve_money	分解获得银两数	分解获得的银两
+	bagtype	    包裹分类标签	道具在包裹所属的分类标签。关联bag.xml表info标签下type字段
+	storable	是否可存到仓库	默认不填或=1时可存，=-1不可存到仓库
+	maxoverlay	最大可叠加数量	默认不填或≤1则物品不可叠加
+	levellimit	使用等级限制		需要达到等级才允许使用道具，不填写表示不限制。
+	batch	    可否在包裹批量使用	默认不填或者填0则不能批量使用 1=可以批量使用
+	usescope	使用范围		默认不填或者填0则不限制，1=仅限背包使用，2=仅限战斗使用
+	targettype	战斗中使用目标限制	默认不填或者填0则不限制，1=敌方 2=己方 3=自己
+	applytips	使用后tips提示	成功使用道具时，弹窗的tips文本提示；不填时不弹tips
+	remind	    获得是否提醒使用	获得道具时是否弹窗快捷使用提示，1=提醒，0=不提醒
+	logic	    道具逻辑编号		
+	param	    道具逻辑参数		
+	use_time_limit	使用次数限制周期	同种道具使用周期类型，默认不填或者0不限制
+	use_time_count	周期内使用次数	周期内可使用的次数
+	use_count	单个道具可使用次数	不填则默认使用1次，使用次数耗尽后道具才消失
+usecount标签				
+	cd_type	    使用间隔类型		"1.使用计算冷却时间2.每隔几天可使用几次"
+	cd_param	使用间隔参数		"1.冷却时间单位秒2.(天数，次数)"
+resolve标签				
+	resolve_item	分解获得道具		
+	resolve_rate	道具对应的获得概率		
+
+
+-->
+	<itemtype itemtype="1" typename="宠物技能书"/>
+	<itemtype itemtype="2" typename="提升修炼经验"/>
+	<itemtype itemtype="3" typename="时装"/>
+	<itemtype itemtype="4" typename="藏宝图"/>
+	<itemtype itemtype="5" typename="宝石"/>
+	<itemtype itemtype="6" typename="烹饪"/>
+	<itemtype itemtype="7" typename="二级药"/>
+	<itemtype itemtype="8" typename="三级药"/>
+	<itemtype itemtype="9" typename="制造书"/>
+	<itemtype itemtype="10" typename="打造材料"/>
+	<itemtype itemtype="11" typename="修理材料"/>
+	<itemtype itemtype="12" typename="任务道具"/>
+	<itemtype itemtype="13" typename="染色材料"/>
+	<itemtype itemtype="14" typename="洗点材料"/>
+	<itemtype itemtype="15" typename="宠物道具"/>
+	<itemtype itemtype="16" typename="宠物内丹"/>
+	<itemtype itemtype="17" typename="获得经验"/>
+	<itemtype itemtype="18" typename="阵法道具"/>
+	<itemtype itemtype="19" typename="阵法书"/>
+	<itemtype itemtype="999" typename="礼包"/>
+			<item id="10001" name="烟花" icon="2001" rarity="1" treasure="1" itemtype="1" type_dec="" efficacy="" dec="道具描述" resolve="1" resolve_remind="1" resolve_money="10000" bagtype="1" storable="" maxoverlay="99" levellimit="" batch="1" usescope="1" targettype="" applytips="哈喽" remind="" logic="3" param="" use_time_limit="" use_time_count="" use_count="">
+			<resolve resolve_item="10001" resolve_rate="500"/>
+		</item>
+		<item id="10002" name="提升修炼经验" icon="2001" rarity="2" itemtype="2" type_dec="" efficacy="" dec="道具描述" resolve="1" resolve_remind="" resolve_money="20000" bagtype="1" storable="" maxoverlay="99" levellimit="" batch="1" usescope="" targettype="" applytips="" remind="1" logic="6" use_time_limit="" use_time_count="" use_count="">
+			<usecount cd_type="1" cd_param="1800"/>
+		</item>
+		<item id="10003" name="时装" icon="2001" rarity="3" itemtype="3" dec="道具描述" bagtype="1" logic="1">
+		</item>
+		<item id="10004" name="藏宝图" icon="2001" rarity="4" itemtype="4" type_dec="坐标：#value1#" dec="道具描述" bagtype="1" usescope="1" logic="2">
+		</item>
+		<item id="10005" name="宝石" icon="2001" rarity="5" itemtype="5" dec="道具描述" bagtype="1" maxoverlay="99" batch="1" logic="7">
+		</item>
+		<item id="10006" name="烹饪" icon="2001" itemtype="6" type_dec="品质：#value1#" efficacy="#value1#" dec="道具描述" bagtype="1">
+		</item>
+		<item id="10007" name="珍露酒" icon="2001" itemtype="7" type_dec="品质：#value1#" efficacy="#value1##value2##value3#" dec="道具描述" bagtype="1" usescope="2" targettype="1" logic="8" param="0.4,10">
+		</item>
+		<item id="10009" name="蛇胆酒" icon="2001" itemtype="8" type_dec="品质：#value1#" efficacy="#value1#" dec="道具描述" bagtype="1" usescope="2" targettype="2" logic="9" param="1,0,1001">
+		</item>
+		<item id="10010" name="定神香" icon="2001" itemtype="8" type_dec="品质：#value1#" efficacy="#value1#" dec="道具描述" bagtype="1" usescope="2" targettype="2" logic="10" param="5,50">
+		</item>
+		<item id="10011" name="金镶玉" icon="2001" itemtype="8" type_dec="品质：#value1#" efficacy="#value1#" dec="道具描述" bagtype="1" usescope="2" targettype="2" logic="11" param="12,150">
+		</item>
+		<item id="10012" name="五龙丹" icon="2001" itemtype="8" type_dec="品质：#value1#" efficacy="#value1#" dec="道具描述" bagtype="1" usescope="2" targettype="3" logic="12" param="3,0">
+		</item>
+		<item id="10013" name="回魂丹" icon="2001" itemtype="8" type_dec="品质：#value1#" efficacy="#value1#" dec="道具描述" bagtype="1" usescope="2" logic="13" param="5,100">
+		</item>
+		<item id="10014" name="制造书" icon="2001" itemtype="9" dec="道具描述" bagtype="1" logic="6"/>
+		<item id="10015" name="打造材料" icon="2001" itemtype="10" dec="道具描述" bagtype="1" maxoverlay="99" batch="1" logic="6">
+		</item>
+		<item id="10016" name="修理材料" icon="2001" itemtype="11" dec="道具描述" bagtype="1" maxoverlay="99" batch="1" logic="6">
+		</item>
+		<item id="10017" name="任务道具" icon="2001" itemtype="12" dec="道具描述" bagtype="2" storable="-1" usescope="1" logic="6">
+		</item>
+		<item id="10018" name="染色材料" icon="2001" itemtype="13" dec="道具描述" bagtype="1" maxoverlay="99" batch="1" logic="4">
+		</item>
+		<item id="10019" name="洗点材料" icon="2001" itemtype="14" dec="道具描述" bagtype="1" maxoverlay="99" batch="1" logic="6">
+		</item>
+		<item id="10020" name="宠物道具" icon="2001" itemtype="15" dec="道具描述" bagtype="1" maxoverlay="99" batch="1" logic="6">
+		</item>
+		<item id="10021" name="宠物内丹" icon="2001" itemtype="16" dec="道具描述" bagtype="1" logic="6">
+		</item>
+		<item id="10022" name="获得经验" icon="2001" itemtype="17" dec="道具描述" bagtype="1" maxoverlay="99" batch="1" logic="16" param="200000" use_time_limit="1" use_time_count="5">
+		</item>
+		<item id="10023" name="阵法残卷" icon="2001" itemtype="18" dec="合成阵法书" bagtype="1" maxoverlay="99" batch="1" logic="14" param="5,20001">
+		</item>
+		<item id="10024" name="阵法书" icon="2001" itemtype="19" dec="打开阵法界面" bagtype="1" maxoverlay="99" batch="1" logic="6">
+		</item>
+		<item id="10025" name="礼包" icon="2001" itemtype="999" dec="获得多个道具" bagtype="1" levellimit="10" logic="5" param="20002">
+		</item>
+		<item id="10026" name="多次使用道具" icon="2001" itemtype="17" dec="增加人物经验,秒数间隔" bagtype="1" maxoverlay="99" batch="1" logic="16" param="200000" use_count="5">
+			<usecount cd_type="1" cd_param="1800"/>
+		</item>
+		<item id="10027" name="多次使用道具2" icon="2001" itemtype="17" dec="增加人物经验,天数间隔" bagtype="1" maxoverlay="99" batch="1" logic="16" param="200000" use_count="5">
+			<usecount cd_type="2" cd_param="1,50"/>
+		</item>
+</root>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+function标签		
+	functionid	功能id	
+	recover	元宝追回消耗	追回单个诗中仙活动所需元宝
+	stamina 	答题正确获得的体力	
+
+open标签		
+	id	每日诗中仙活动编号
+	opentime	开启时间
+	endtime	关闭时间
+
+question标签		
+	qid	问题编号	
+	dec	问题描述	
+	answer	答案文本	答案文本。用小写封号;隔开。  第一个默认为正确答案。   
+
+-->
+	<function functionid="2047" recover="200" stamina="50"/>
+	<open id="1" opentime="11:00:00" endtime="12:59:59"/>
+	<open id="2" opentime="17:00:00" endtime="18:59:59"/>
+	<open id="3" opentime="21:00:00" endtime="22:59:59"/>
+	<question qid="1" dec='"座中泣下谁最多，江州司马青衫湿" 作者:' answer="白居易,王勃,孟浩然,杜甫"/>
+	<question qid="2" dec="“红酥手，黄籘酒，满城春色宫墙柳”这一首词描写的是谁的爱情故事" answer="陆游,李贺,李白,韩愈"/>
+	<question qid="3" dec="古诗名句“洛阳亲友如相问”的下句是" answer="一片冰心在玉壶,月似珍珠月似弓,只是当时已惘然,悔教夫婿觅封侯"/>
+	<question qid="4" dec="名句“达则兼济天下，穷则独善其身”出自哪位名家之言？" answer="孟子,孔子,孙子,老子"/>
+	<question qid="5" dec="红稣手，黄藤酒，满城春色宫墙柳描写的是谁的爱情故事？" answer="陆游,王勃,王维,李白"/>
+	<question qid="6" dec="古诗名句“飘飘何所似，天地一沙鸥”的作者是" answer="杜甫,陆游,贺知章,李清照"/>
+	<question qid="7" dec="黄庭坚的“欲问江南近消息，喜君贻我一枝春”中的“一枝春”指的是" answer="梅花,桃花,菊花,迎春花"/>
+	<question qid="8" dec="古诗名句“人生若只如初见”的下句是" answer="何事秋风悲画扇,只是当时已惘然,悔教夫婿觅封侯,直教人生死相许"/>
+	<question qid="9" dec="“床前明月光，疑是地上霜。”出自哪位诗人？" answer="李白,杜甫,白居易,李清照"/>
+	<question qid="10" dec="“昨夜雨疏风骤，浓睡不消残酒。”出自哪位诗人？" answer="李清照,杜甫,白居易,李白"/>
+	<question qid="11" dec="“莫道不销魂，帘卷西风，人比黄花瘦。”出自哪位诗人？" answer="李清照,李白,杜甫,白居易"/>
+	<question qid="12" dec="“烽火连三月，家书抵万金。”出自哪位诗人？" answer="杜甫,李白,白居易,李清照"/>
+	<question qid="13" dec="“随风潜入夜，润物细无声。”是出自哪位诗人的千古佳句？" answer="杜甫,李白,白居易,李清照"/>
+	<question qid="14" dec="“桃花潭水深千尺，不及汪伦送我情。”出自哪位诗人？" answer="李白,杜甫,白居易,李清照"/>
+	<question qid="15" dec="“离离原上草，一岁一枯荣。”出自哪位诗人？" answer="白居易,李白,杜甫,李清照"/>
+	<question qid="17" dec="“东风不与周郎便” 下一句:" answer="铜雀春深锁二乔,长使英雄泪满襟,儿童相见不相识,吴姬压酒劝客尝"/>
+	<question qid="19" dec="“举杯邀明月” 下一句:" answer="对影成三人,低头思故乡,我歌月徘徊,影徒随我身"/>
+	<question qid="20" dec="“君不见，黄河之水天上来” 下一句:" answer="奔流到海不复回,疑是银河落九天,恰似一江春水向东流,像雨像雾又像风"/>
+</root>

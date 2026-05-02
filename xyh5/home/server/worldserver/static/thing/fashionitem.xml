@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!--
+id	获得的时装信息标号
+timetype	时装时效类型
+=1 永久
+=2 持续时间，单位秒
+=3 日期，时间格式=“yyyy-mm-dd hh:mm:ss”
+time	获得时装的时间
+fashioninfoid	获得的时装id
+-->
+	<getfashion id="100" timetype="1" time="" fashioninfoid="100"/>
+	<getfashion id="101" timetype="1" time="" fashioninfoid="101"/>
+	<getfashion id="102" timetype="2" time="172800" fashioninfoid="102"/>
+	<getfashion id="200" timetype="1" time="" fashioninfoid="200"/>
+	<getfashion id="201" timetype="1" time="" fashioninfoid="201"/>
+	<getfashion id="202" timetype="2" time="604800" fashioninfoid="202"/>
+	<getfashion id="300" timetype="1" time="" fashioninfoid="300"/>
+	<getfashion id="301" timetype="1" time="" fashioninfoid="301"/>
+	<getfashion id="400" timetype="1" time="" fashioninfoid="400"/>
+	<getfashion id="401" timetype="1" time="" fashioninfoid="401"/>
+	<getfashion id="500" timetype="1" time="" fashioninfoid="500"/>
+	<getfashion id="501" timetype="1" time="" fashioninfoid="501"/>
+	<getfashion id="600" timetype="1" time="" fashioninfoid="600"/>
+	<getfashion id="601" timetype="1" time="" fashioninfoid="601"/>
+</root>

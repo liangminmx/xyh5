@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--openlv	开放等级
+	
+item	奖励道具id
+num	数量
+bind	是否绑定，=0不绑定，=1绑定
+	
+item	奖励道具id
+num	数量
+bind	是否绑定，=0不绑定，=1绑定
+	
+lv	v计划等级
+item	奖励道具id
+num	数量
+bind	是否绑定，=0不绑定，=1绑定
+	
+item	奖励道具id
+num	数量
+bind	是否绑定，=0不绑定，=1绑定
+	
+lv	会员等级
+title	会员称号，读取对应desgin.xml
+buff	会员buff，读取buff.xml对应id
+	
+vip	获取的vip等级
+-->
+<root>
+	<ui activityid="1" name="VIP轻松得" index="8"/>
+	<ui activityid="2" name="特权总览" index="1"/>
+	<ui activityid="3" name="成长礼包" index="5"/>
+	<ui activityid="4" name="每日礼包" index="4"/>
+	<ui activityid="5" name="特供礼包" index="3"/>
+	<ui activityid="6" name="个人信息" index="2"/>
+	<ui activityid="7" name="会员称号" index="6"/>
+	<ui activityid="8" name="会员BUFF" index="7"/>
+	<open openlv="1" gkey="mhj" url="rcapi.360-g.net/vplan_wan"/>
+	<specialmonthgift>
+		<reward item="100591" num="1" bind="1"/>
+		<reward item="600018" num="5" bind="1"/>
+		<reward item="108306" num="2" bind="1"/>
+		<reward item="107504" num="2" bind="1"/>
+	</specialmonthgift>
+	<specialyeargift>
+		<reward item="100599" num="1" bind="1"/>
+		<reward item="600018" num="5" bind="1"/>
+		<reward item="100001" num="1" bind="1"/>
+		<reward item="108306" num="5" bind="1"/>
+		<reward item="109301" num="1" bind="1"/>
+		<reward item="107504" num="5" bind="1"/>
+	</specialyeargift>
+	<daliy>
+		<level lv="1">
+			<reward item="100590" num="2" bind="1"/>
+			<reward item="100582" num="1" bind="1"/>
+		</level>
+		<level lv="2">
+			<reward item="100591" num="2" bind="1"/>
+			<reward item="100582" num="2" bind="1"/>
+		</level>
+		<level lv="3">
+			<reward item="100591" num="3" bind="1"/>
+			<reward item="100582" num="3" bind="1"/>
+		</level>
+		<level lv="4">
+			<reward item="100594" num="2" bind="1"/>
+			<reward item="100582" num="3" bind="1"/>
+		</level>
+		<level lv="5">
+			<reward item="100594" num="3" bind="1"/>
+			<reward item="100582" num="5" bind="1"/>
+		</level>
+		<year>
+			<reward item="100001" num="2" bind="1"/>
+			<reward item="100582" num="2" bind="1"/>
+		</year>
+	</daliy>
+	<member>
+		<month lv="1" title="60" buff="322"/>
+		<month lv="2" title="60" buff="323"/>
+		<month lv="3" title="60" buff="324"/>
+		<month lv="4" title="60" buff="325"/>
+		<month lv="5" title="60" buff="326"/>
+		<year lv="1" title="61" buff="327"/>
+		<year lv="2" title="61" buff="328"/>
+		<year lv="3" title="61" buff="329"/>
+		<year lv="4" title="61" buff="330"/>
+		<year lv="5" title="61" buff="331"/>
+	</member>
+	<vip>
+		<month vip="200"/>
+		<year vip="1000"/>
+	</vip>
+	<levelup>
+		<level lv="5">
+			<reward item="100591" num="1" bind="1"/>
+			<reward item="108303" num="1" bind="1"/>
+			<reward item="108703" num="1" bind="1"/>
+		</level>
+		<level lv="10">
+			<reward item="100591" num="1" bind="1"/>
+			<reward item="108302" num="3" bind="1"/>
+			<reward item="108703" num="2" bind="1"/>
+		</level>
+		<level lv="20">
+			<reward item="100591" num="2" bind="1"/>
+			<reward item="108304" num="1" bind="1"/>
+			<reward item="108703" num="3" bind="1"/>
+			<reward item="100001" num="2" bind="1"/>
+		</level>
+		<level lv="30">
+			<reward item="100591" num="2" bind="1"/>
+			<reward item="108302" num="5" bind="1"/>
+			<reward item="108703" num="4" bind="1"/>
+			<reward item="106501" num="2" bind="1"/>
+		</level>
+		<level lv="40">
+			<reward item="100592" num="1" bind="1"/>
+			<reward item="108303" num="3" bind="1"/>
+			<reward item="108705" num="1" bind="1"/>
+			<reward item="108505" num="2" bind="1"/>
+		</level>
+		<level lv="50">
+			<reward item="100592" num="2" bind="1"/>
+			<reward item="108302" num="7" bind="1"/>
+			<reward item="108703" num="6" bind="1"/>
+			<reward item="105001" num="2" bind="1"/>
+		</level>
+		<level lv="60">
+			<reward item="100593" num="2" bind="1"/>
+			<reward item="108302" num="9" bind="1"/>
+			<reward item="108705" num="2" bind="1"/>
+			<reward item="105201" num="2" bind="1"/>
+			<reward item="107504" num="1" bind="1"/>
+		</level>
+		<level lv="65">
+			<reward item="100594" num="1" bind="1"/>
+			<reward item="108305" num="1" bind="1"/>
+			<reward item="108704" num="5" bind="1"/>
+			<reward item="100582" num="1" bind="1"/>
+			<reward item="107504" num="2" bind="1"/>
+		</level>
+		<level lv="70">
+			<reward item="100594" num="2" bind="1"/>
+			<reward item="108306" num="1" bind="1"/>
+			<reward item="108705" num="3" bind="1"/>
+			<reward item="100582" num="2" bind="1"/>
+			<reward item="107504" num="3" bind="1"/>
+		</level>
+	</levelup>
+</root>

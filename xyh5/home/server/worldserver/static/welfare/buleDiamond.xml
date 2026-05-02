@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!--黄钻每日礼包-->
+	<dailyGift>
+		<lv lv="1">
+			<reward reward="100591" num="1" bind="1"/>
+			<reward reward="108303" num="2" bind="1"/>
+			<reward reward="100581" num="1" bind="1"/>
+		</lv>
+		<lv lv="2">
+			<reward reward="100591" num="1" bind="1"/>
+			<reward reward="108303" num="3" bind="1"/>
+			<reward reward="100581" num="2" bind="1"/>
+		</lv>
+		<lv lv="3">
+			<reward reward="100591" num="2" bind="1"/>
+			<reward reward="108303" num="4" bind="1"/>
+			<reward reward="108503" num="2" bind="1"/>
+			<reward reward="100581" num="3" bind="1"/>
+		</lv>
+		<lv lv="4">
+			<reward reward="100591" num="2" bind="1"/>
+			<reward reward="108303" num="5" bind="1"/>
+			<reward reward="108503" num="3" bind="1"/>
+			<reward reward="100582" num="1" bind="1"/>
+		</lv>
+		<lv lv="5">
+			<reward reward="100591" num="3" bind="1"/>
+			<reward reward="108303" num="6" bind="1"/>
+			<reward reward="108503" num="4" bind="1"/>
+			<reward reward="100582" num="2" bind="1"/>
+		</lv>
+		<lv lv="6">
+			<reward reward="100591" num="3" bind="1"/>
+			<reward reward="108303" num="8" bind="1"/>
+			<reward reward="108503" num="5" bind="1"/>
+			<reward reward="100582" num="3" bind="1"/>
+		</lv>
+		<lv lv="7">
+			<reward reward="100591" num="4" bind="1"/>
+			<reward reward="108303" num="10" bind="1"/>
+			<reward reward="108503" num="7" bind="1"/>
+			<reward reward="100582" num="3" bind="1"/>
+		</lv>
+		<lv lv="8">
+			<reward reward="100591" num="5" bind="1"/>
+			<reward reward="108303" num="20" bind="1"/>
+			<reward reward="108503" num="10" bind="1"/>
+			<reward reward="100582" num="4" bind="1"/>
+		</lv>
+	</dailyGift>
+	<!--黄钻成长-->
+	<growGift>
+		<lv lv="5" reward="180001" num="1" bind="1"/>
+		<lv lv="10" reward="180002" num="1" bind="1"/>
+		<lv lv="20" reward="180003" num="1" bind="1"/>
+		<lv lv="30" reward="180004" num="1" bind="1"/>
+		<lv lv="40" reward="180005" num="1" bind="1"/>
+		<lv lv="50" reward="180006" num="1" bind="1"/>
+		<lv lv="55" reward="180007" num="1" bind="1"/>
+		<lv lv="60" reward="180008" num="1" bind="1"/>
+		<lv lv="65" reward="180009" num="1" bind="1"/>
+		<lv lv="70" reward="180010" num="1" bind="1"/>
+		<lv lv="75" reward="180011" num="1" bind="1"/>
+		<lv lv="80" reward="180012" num="1" bind="1"/>
+	</growGift>
+	<!--年费礼包-->
+	<yearGift num="1" bind="1" reward="180014"/>
+	<!--新手礼包-->
+	<newbie num="1" bind="1" reward="180013"/>
+	<!--开通礼包-->
+	<yellowPay num="1" bind="1" reward="109668"/>
+</root>

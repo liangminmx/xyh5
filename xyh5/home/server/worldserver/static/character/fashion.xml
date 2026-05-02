@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!--
+openlv	功能开放等级
+type	时装类型
+=1 神兵时装
+=2 服装时装
+=3 披风时装
+=4 翅膀时装
+=5 足迹
+=6 聊天气泡
+
+id	时装识别id
+100 神兵时装
+200 服装时装
+300 披风时装
+400 翅膀时装
+500 足迹
+600 聊天气泡
+
+avatarA	模型id，根据type类型读取对应的avatar资源。 聊天气泡，足迹特殊处理，读取对应的UI特效。
+debris	碎片，多碎片使用逗号区分
+num	激活所需碎片数
+attack	攻击，>0表示有加成该属性，并在tips内显示。
+defence	防御，>0表示有加成该属性，并在tips内显示。
+max_hp	气血，>0表示有加成该属性，并在tips内显示。
+hit	命中，>0表示有加成该属性，并在tips内显示。
+dodge	闪避，>0表示有加成该属性，并在tips内显示。
+crit	暴击，>0表示有加成该属性，并在tips内显示。
+toughness	韧性，>0表示有加成该属性，并在tips内显示。
+coercion	威压，>0表示有加成该属性，并在tips内显示。
+des	时装描述，tips显示
+new	=1表示新品
+=0表示不是新品
+id	时装套装id
+name	名称
+maxnum	最大配件数
+suitquality	时装tips品质名称索引美术字资源
+fashion	时装id，多个时装使用逗号区分
+suitnum	同时穿戴的时装数
+poisoned_resist	中毒抗性，万分比，>0表示有加成该属性，并在tips内换算成百分比显示。
+dizzy_resist	眩晕抗性，万分比，>0表示有加成该属性，并在tips内换算成百分比显示。
+decelerate_resist	减速抗性，万分比，>0表示有加成该属性，并在tips内换算成百分比显示。
+prohibit_resist	沉默抗性，万分比，>0表示有加成该属性，并在tips内换算成百分比显示。
+burn_resist	灼伤抗性，万分比，>0表示有加成该属性，并在tips内换算成百分比显示。
+repel_resist	击退抗性，万分比，>0表示有加成该属性，并在tips内换算成百分比显示。
+fixed_resist	定身抗性，万分比，>0表示有加成该属性，并在tips内换算成百分比显示。
+
+-->
+	<functionid functionid="514"/>
+	<fashion type="1" name="御龙手武" id="100" suit="1" avatarA="2000008" file="puppet" image="100" debris="901000" num="100" attack="1500" defence="1500" max_hp="1500" hit="1500" dodge="1500" crit="1500" toughness="1500" des="VIP超值礼包获得" new="1"/>
+	<fashion type="1" name="爵士手武" id="101" suit="2" avatarA="2000009" file="puppet" image="101" debris="901001" num="100" attack="1000" defence="1000" max_hp="1000" hit="1000" dodge="1000" crit="1000" toughness="1000" des="通过活动获得" new="1"/>
+	<fashion type="1" name="焱云手武" id="102" suit="" avatarA="2000012" file="puppet" image="102" debris="901002" num="100" attack="3000" defence="3000" max_hp="3000" hit="3000" dodge="3000" crit="3000" toughness="3000" des="参加活动薪火幻域和夏族演兵获得" new="1"/>
+	<fashion type="2" name="御龙铠甲" id="200" suit="1" avatarA="2000011" file="character" image="200" debris="901000" num="100" attack="5000" defence="5000" max_hp="5000" hit="5000" dodge="5000" crit="5000" toughness="5000" des="VIP超值礼包获得" new="1"/>
+	<fashion type="2" name="爵士铠甲" id="201" suit="2" avatarA="2000012" file="character" image="201" debris="901001" num="100" attack="1000" defence="1000" max_hp="1000" hit="1000" dodge="1000" crit="1000" toughness="1000" des="通过活动获得" new="1"/>
+	<fashion type="2" name="领主铠甲" id="202" suit="" avatarA="2000013" file="character" image="202" debris="901001" num="100" attack="1000" defence="1000" max_hp="1000" hit="1000" dodge="1000" crit="1000" toughness="1000" des="小型超凡世界领主奖励" new="1"/>
+	<fashion type="3" name="御龙法袍" id="300" suit="1" avatarA="2000001" file="stamp" image="300" debris="901000" num="100" attack="2000" defence="2000" max_hp="2000" hit="2000" dodge="2000" crit="2000" toughness="2000" des="VIP超值礼包获得" new="1"/>
+	<fashion type="3" name="爵士法袍" id="301" suit="2" avatarA="2000002" file="stamp" image="301" debris="901001" num="100" attack="1000" defence="1000" max_hp="1000" hit="1000" dodge="1000" crit="1000" toughness="1000" des="通过活动获得" new="1"/>
+	<fashion type="4" name="御龙之翼" id="400" suit="1" avatarA="2001006" file="wing" image="400" debris="901000" num="100" attack="3000" defence="3000" max_hp="3000" hit="3000" dodge="3000" crit="3000" toughness="3000" des="VIP超值礼包获得" new="1"/>
+	<fashion type="4" name="爵士之翼" id="401" suit="2" avatarA="2001005" file="wing" image="401" debris="901001" num="100" attack="1000" defence="1000" max_hp="1000" hit="1000" dodge="1000" crit="1000" toughness="1000" coercion="0" des="通过活动获得" new="1"/>
+	<fashion type="5" name="御龙印痕" id="500" suit="1" avatarA="3003184" file="zuji" image="500" debris="901000" num="100" attack="800" defence="800" max_hp="800" hit="800" dodge="800" crit="800" toughness="800" coercion="0" des="VIP超值礼包获得" new="1"/>
+	<fashion type="6" name="御龙气泡" id="600" suit="1" avatarA="2000014" file="qipao" image="600" debris="901000" num="800" attack="800" defence="800" max_hp="800" hit="800" dodge="800" crit="800" toughness="800" coercion="0" des="VIP超值礼包获得" new="1"/>
+	<fashion type="5" name="爵士踏痕" id="501" suit="2" avatarA="3003183" file="zuji" image="501" debris="901001" num="100" attack="500" defence="500" max_hp="500" hit="500" dodge="500" crit="500" toughness="500" coercion="0" des="通过活动获得" new="1"/>
+	<fashion type="6" name="爵士气泡" id="601" suit="2" avatarA="2000015" file="qipao" image="601" debris="901001" num="100" attack="500" defence="500" max_hp="500" hit="500" dodge="500" crit="500" toughness="500" coercion="0" des="通过活动获得" new="1"/>
+	<suit id="1" name="御龙套装" maxnum="6" suitquality="1" suit="100,200,300,400,500,600">
+		<attribute suitenum="6" poisoned_resist="5000" dizzy_resist="5000" decelerate_resist="5000" prohibit_resist="5000" burn_resist="5000" repel_resist="5000" fixed_resist="5000"/>
+	</suit>
+	<suit id="2" name="爵士套装" maxnum="6" suitquality="1" suit="101,201,301,401,501,601">
+		<attribute suitenum="6" poisoned_resist="2000" dizzy_resist="2000" decelerate_resist="2000" prohibit_resist="2000" burn_resist="2000" repel_resist="2000" fixed_resist="2000"/>
+	</suit>
+</root>

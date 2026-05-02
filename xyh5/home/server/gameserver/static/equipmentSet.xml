@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+functionId	功能开启
+interfaceIcon	界面图标
+equipQuality	装备品质
+=3紫色
+=4橙色
+=5红色
+Id	唯一值不可重
+equipLev	装备等级
+damageBonus	伤害加成(万分比),为空或=0则不加成界面也不显示
+damageReduction	伤害减免(万分比), 为空或=0则不加成界面也不显示			
+-->
+	<function functionId="2061" interfaceIcon="5620"/>
+	<quality equipQuality="3">
+		<lev id="101" equipLev="60" name="全身穿戴60级紫装" damageBonus="0" damageReduction="100"/>
+		<lev id="102" equipLev="70" name="全身穿戴70级紫装" damageBonus="100" damageReduction="100"/>
+		<lev id="103" equipLev="80" name="全身穿戴80级紫装" damageBonus="100" damageReduction="300"/>
+		<lev id="104" equipLev="90" name="全身穿戴90级紫装" damageBonus="300" damageReduction="300"/>
+		<lev id="105" equipLev="100" name="全身穿戴100级紫装" damageBonus="300" damageReduction="500"/>
+		<lev id="106" equipLev="110" name="全身穿戴110级紫装" damageBonus="500" damageReduction="500"/>
+		<lev id="107" equipLev="120" name="全身穿戴120级紫装" damageBonus="500" damageReduction="800"/>
+		<lev id="108" equipLev="130" name="全身穿戴130级紫装" damageBonus="800" damageReduction="800"/>
+		<lev id="109" equipLev="140" name="全身穿戴140级紫装" damageBonus="800" damageReduction="1000"/>
+		<lev id="110" equipLev="150" name="全身穿戴150级紫装" damageBonus="1000" damageReduction="1000"/>
+		<lev id="111" equipLev="160" name="全身穿戴160级紫装" damageBonus="1000" damageReduction="1200"/>
+		<lev id="112" equipLev="170" name="全身穿戴170级紫装" damageBonus="1200" damageReduction="1200"/>
+		<lev id="113" equipLev="180" name="全身穿戴180级紫装" damageBonus="1200" damageReduction="1400"/>
+		<!-- <lev id="14" equipLev="190" name="全身穿戴190级紫装" damageBonus="1400" damageReduction="1400"/>
+		<lev id="15" equipLev="200" name="全身穿戴200级紫装" damageBonus="1400" damageReduction="1600"/>
+		<lev id="16" equipLev="210" name="全身穿戴210级紫装" damageBonus="1600" damageReduction="1600"/>
+		<lev id="17" equipLev="220" name="全身穿戴220级紫装" damageBonus="1600" damageReduction="1800"/>
+		<lev id="18" equipLev="230" name="全身穿戴230级紫装" damageBonus="1800" damageReduction="1800"/>
+		<lev id="19" equipLev="240" name="全身穿戴240级紫装" damageBonus="1800" damageReduction="2000"/>
+		<lev id="20" equipLev="250" name="全身穿戴250级紫装" damageBonus="2000" damageReduction="2000"/>
+		<lev id="21" equipLev="260" name="全身穿戴260级紫装" damageBonus="2000" damageReduction="2200"/>
+		<lev id="22" equipLev="270" name="全身穿戴270级紫装" damageBonus="2200" damageReduction="2200"/>
+		<lev id="23" equipLev="280" name="全身穿戴280级紫装" damageBonus="2200" damageReduction="2400"/>
+		<lev id="24" equipLev="290" name="全身穿戴290级紫装" damageBonus="2400" damageReduction="2400"/>
+		<lev id="25" equipLev="300" name="全身穿戴300级紫装" damageBonus="2400" damageReduction="2600"/> -->
+	</quality>
+	<quality equipQuality="4">
+		<lev id="201" equipLev="60" name="全身穿戴60级橙装" damageBonus="0" damageReduction="150"/>
+		<lev id="202" equipLev="70" name="全身穿戴70级橙装" damageBonus="150" damageReduction="150"/>
+		<lev id="203" equipLev="80" name="全身穿戴80级橙装" damageBonus="150" damageReduction="400"/>
+		<lev id="204" equipLev="90" name="全身穿戴90级橙装" damageBonus="400" damageReduction="400"/>
+		<lev id="205" equipLev="100" name="全身穿戴100级橙装" damageBonus="400" damageReduction="600"/>
+		<lev id="206" equipLev="110" name="全身穿戴110级橙装" damageBonus="600" damageReduction="600"/>
+		<lev id="207" equipLev="120" name="全身穿戴120级橙装" damageBonus="600" damageReduction="1000"/>
+		<lev id="208" equipLev="130" name="全身穿戴130级橙装" damageBonus="1000" damageReduction="1000"/>
+		<lev id="209" equipLev="140" name="全身穿戴140级橙装" damageBonus="1000" damageReduction="1200"/>
+		<lev id="210" equipLev="150" name="全身穿戴150级橙装" damageBonus="1200" damageReduction="1200"/>
+		<lev id="211" equipLev="160" name="全身穿戴160级橙装" damageBonus="1200" damageReduction="1400"/>
+		<lev id="212" equipLev="170" name="全身穿戴170级橙装" damageBonus="1400" damageReduction="1400"/>
+		<lev id="213" equipLev="180" name="全身穿戴180级橙装" damageBonus="1400" damageReduction="1600"/>
+<!-- 		<lev id="24" equipLev="190" name="全身穿戴190级橙装" damageBonus="1600" damageReduction="1600"/>
+		<lev id="25" equipLev="200" name="全身穿戴200级橙装" damageBonus="1600" damageReduction="1800"/>
+		<lev id="26" equipLev="210" name="全身穿戴210级橙装" damageBonus="1800" damageReduction="1800"/>
+		<lev id="27" equipLev="220" name="全身穿戴220级橙装" damageBonus="1800" damageReduction="2000"/>
+		<lev id="28" equipLev="230" name="全身穿戴230级橙装" damageBonus="2000" damageReduction="2000"/>
+		<lev id="29" equipLev="240" name="全身穿戴240级橙装" damageBonus="2000" damageReduction="2200"/>
+		<lev id="30" equipLev="250" name="全身穿戴250级橙装" damageBonus="2200" damageReduction="2200"/>
+		<lev id="31" equipLev="260" name="全身穿戴260级橙装" damageBonus="2200" damageReduction="2400"/>
+		<lev id="32" equipLev="270" name="全身穿戴270级橙装" damageBonus="2400" damageReduction="2400"/>
+		<lev id="33" equipLev="280" name="全身穿戴280级橙装" damageBonus="2400" damageReduction="2600"/>
+		<lev id="34" equipLev="290" name="全身穿戴290级橙装" damageBonus="2600" damageReduction="2600"/>
+		<lev id="35" equipLev="300" name="全身穿戴300级橙装" damageBonus="2600" damageReduction="2800"/>
+ -->	</quality>
+	<quality equipQuality="5">
+		<lev id="301" equipLev="60" name="全身穿戴60级红装" damageBonus="0" damageReduction="300"/>
+		<lev id="302" equipLev="70" name="全身穿戴70级红装" damageBonus="400" damageReduction="400"/>
+		<lev id="303" equipLev="80" name="全身穿戴80级红装" damageBonus="400" damageReduction="600"/>
+		<lev id="304" equipLev="90" name="全身穿戴90级红装" damageBonus="600" damageReduction="1000"/>
+		<lev id="305" equipLev="100" name="全身穿戴100级红装" damageBonus="1000" damageReduction="1000"/>
+		<lev id="306" equipLev="110" name="全身穿戴110级红装" damageBonus="1000" damageReduction="1200"/>
+		<lev id="307" equipLev="120" name="全身穿戴120级红装" damageBonus="1200" damageReduction="1200"/>
+		<lev id="308" equipLev="130" name="全身穿戴130级红装" damageBonus="1200" damageReduction="1500"/>
+		<lev id="309" equipLev="140" name="全身穿戴140级红装" damageBonus="1500" damageReduction="1500"/>
+		<lev id="310" equipLev="150" name="全身穿戴150级红装" damageBonus="1500" damageReduction="1800"/>
+		<lev id="311" equipLev="160" name="全身穿戴160级红装" damageBonus="1800" damageReduction="1800"/>
+		<lev id="312" equipLev="170" name="全身穿戴170级红装" damageBonus="1800" damageReduction="2100"/>
+		<lev id="313" equipLev="180" name="全身穿戴180级红装" damageBonus="2100" damageReduction="2100"/>
+<!-- 		<lev id="114" equipLev="190" name="全身穿戴190级红装" damageBonus="2100" damageReduction="2400"/>
+		<lev id="115" equipLev="200" name="全身穿戴200级红装" damageBonus="2400" damageReduction="2400"/>
+		<lev id="116" equipLev="210" name="全身穿戴210级红装" damageBonus="2400" damageReduction="2700"/>
+		<lev id="117" equipLev="220" name="全身穿戴220级红装" damageBonus="2700" damageReduction="2700"/>
+		<lev id="118" equipLev="230" name="全身穿戴230级红装" damageBonus="2700" damageReduction="3000"/>
+		<lev id="119" equipLev="240" name="全身穿戴240级红装" damageBonus="3000" damageReduction="3000"/>
+		<lev id="120" equipLev="250" name="全身穿戴250级红装" damageBonus="3000" damageReduction="3300"/>
+		<lev id="121" equipLev="260" name="全身穿戴260级红装" damageBonus="3300" damageReduction="3300"/>
+		<lev id="122" equipLev="270" name="全身穿戴270级红装" damageBonus="3300" damageReduction="3600"/>
+		<lev id="123" equipLev="280" name="全身穿戴280级红装" damageBonus="3600" damageReduction="3600"/>
+		<lev id="124" equipLev="290" name="全身穿戴290级红装" damageBonus="3600" damageReduction="3900"/>
+		<lev id="125" equipLev="300" name="全身穿戴300级红装" damageBonus="3900" damageReduction="3900"/>
+ -->	</quality>
+</root>

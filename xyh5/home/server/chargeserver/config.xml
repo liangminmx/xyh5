@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+<GameServerListen IP="127.0.0.1" Port="8001"/>
+<WebServerListen Port="8002" PfId="7"/>
+<Database DatabaseAddr="127.0.0.1" DBName="chargeserver" LoginName="root" Password="echeverra" Port="3306"/>
+</Root>
+

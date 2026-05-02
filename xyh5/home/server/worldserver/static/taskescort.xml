@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+function标签					
+	functionid	开启等级	关联function.xml
+	escortconut	每日可运镖次数	数值
+	robbedcount	每镖被劫次数上限	数值
+	robbed	    每次被劫镖损失比例	万分比
+	robcount	每日可劫镖次数上限	数值
+    finish_cost 一键完成消耗绑定元宝数量
+	refreshitem	刷新镖车消耗道具 	刷新镖车优先消耗的道具，默认数量1
+	refreshcost	刷新镖车消耗 	刷新镖车所需消耗的元宝数量
+	bestcost	刷新至最高品质消耗	刷新到最高品质消耗的元宝数量
+	visible	    可见真实玩家镖车的最大数量	客户端劫镖界面可见真实玩家镖车数量的最大值
+doubletime标签			
+	begin       双倍奖励开始时间
+	dend	    双倍奖励结束时间
+
+
+-->
+	<fuction function="1033" escortconut="3" robbedcount="2" robbed="2000" robcount="3" finish_cost="150" refreshitem="10000002" refreshcost="50" bestcost="488" visible="50" timecost="900"/>
+	<doubletime begin="13:00:00" end="13:59:59"/>
+	<doubletime begin="23:00:00" end="23:59:59"/>
+	<doubletime begin="00:00:00" end="01:00:00"/>
+	<!--
+escort标签
+	quality	    镖车品质	品质编号，预计会配置1-5 五种品质
+	qualityname	品质名称	镖车品质对应的名称，初级、中级镖车…
+	style	    模型资源	读取模型资源，用于劫镖界面显示
+	timecost	运镖所需时间	（单位秒）
+	money	    基础银两奖励	数值
+	bmoney	    基础绑定元宝奖励	
+	addbonus	额外奖励道具	道具id
+	addbonuscount	额外道具数量
+	upone	    镖车升1级概率	单位万分比 点刷新按钮时，镖车品质升1级概率
+	uptwo	    镖车升2级概率	单位万分比 点刷新按钮时，镖车品质升2级概率
+	initialrate	默认镖车权重	初始镖车类型的权重
+    power_range      机器人战力取值范围(参考玩家)，万分比
+float标签
+    value        机器人战力取值的上下浮动范围值，万分比  多个浮动值用逗号隔开，数值必须递增
+
+-->
+	<escort quality="1" qualityname="白色镖车" style="10000001" money="150000" exp="90000" addbonus="10000014,10000016" addbonuscount="60,2" upone="5000" uptwo="1000" initialrate="7000" power_range="7000,8500"/>
+	<escort quality="2" qualityname="绿色镖车" style="10000002" money="200000" exp="120000" addbonus="10000014,10000016" addbonuscount="80,2" upone="3000" uptwo="1000" initialrate="2000" power_range="8000,9500"/>
+	<escort quality="3" qualityname="蓝色镖车" style="10000003" money="250000" exp="150000" addbonus="10000014,10000016" addbonuscount="100,3" upone="2000" uptwo="0" initialrate="1000" power_range="8500,10000"/>
+	<escort quality="4" qualityname="紫色镖车" style="10000004" money="350000" exp="210000" addbonus="10000014,10000016" addbonuscount="140,4" upone="2000" uptwo="0" initialrate="0" power_range="9500,10500"/>
+	<escort quality="5" qualityname="橙色镖车" style="10000005" money="500000" exp="300000" addbonus="10000006,10000014,10000016" addbonuscount="10,200,5" upone="0" uptwo="0" initialrate="0" power_range="10000,11000"/>
+	<float value="1000,3000"/>
+	<!--
+level标签
+	level	人物等级段
+	levelreward	等级奖励系数	不同等级段对应不同奖励系数
+robottype标签
+	robottype	镖车的品质类型
+    robotrate	对应品质镖车刷新的概率
+    robotcount	对应品质镖车刷新的数量
+
+-->
+	<level level="1,59" levelreward="10000" exp_fac="10000">
+		<robottype robottype="4" robotrate="5000" robotcount="1"/>
+		<robottype robottype="5" robotrate="5000" robotcount="1"/>
+	</level>
+	<level level="60,69" levelreward="14000" exp_fac="26533">
+		<robottype robottype="3" robotrate="2000" robotcount="1"/>
+		<robottype robottype="4" robotrate="4000" robotcount="1"/>
+		<robottype robottype="5" robotrate="4000" robotcount="1"/>
+	</level>
+	<level level="70,79" levelreward="20000" exp_fac="35658">
+		<robottype robottype="3" robotrate="2000" robotcount="1"/>
+		<robottype robottype="4" robotrate="4000" robotcount="1"/>
+		<robottype robottype="5" robotrate="4000" robotcount="1"/>
+	</level>
+	<level level="80,89" levelreward="30000" exp_fac="47921">
+		<robottype robottype="2" robotrate="3000" robotcount="1"/>
+		<robottype robottype="3" robotrate="3000" robotcount="1"/>
+		<robottype robottype="4" robotrate="2000" robotcount="1"/>
+		<robottype robottype="5" robotrate="2000" robotcount="1"/>
+	</level>
+	<level level="90,99" levelreward="40000" exp_fac="58415">
+		<robottype robottype="2" robotrate="3000" robotcount="1"/>
+		<robottype robottype="3" robotrate="3000" robotcount="1"/>
+		<robottype robottype="4" robotrate="2000" robotcount="1"/>
+		<robottype robottype="5" robotrate="2000" robotcount="1"/>
+	</level>
+	<level level="100,109" levelreward="50000" exp_fac="71207">
+		<robottype robottype="1" robotrate="2000" robotcount="1"/>
+		<robottype robottype="2" robotrate="3000" robotcount="1"/>
+		<robottype robottype="3" robotrate="3000" robotcount="1"/>
+		<robottype robottype="4" robotrate="1000" robotcount="1"/>
+		<robottype robottype="5" robotrate="1000" robotcount="1"/>
+	</level>
+	<level level="110,119" levelreward="60000" exp_fac="86801">
+		<robottype robottype="1" robotrate="2000" robotcount="1"/>
+		<robottype robottype="2" robotrate="3000" robotcount="1"/>
+		<robottype robottype="3" robotrate="3000" robotcount="1"/>
+		<robottype robottype="4" robotrate="1000" robotcount="1"/>
+		<robottype robottype="5" robotrate="1000" robotcount="1"/>
+	</level>
+	<level level="120,129" levelreward="70000" exp_fac="105810">
+		<robottype robottype="1" robotrate="3000" robotcount="1"/>
+		<robottype robottype="2" robotrate="3000" robotcount="1"/>
+		<robottype robottype="3" robotrate="3000" robotcount="1"/>
+		<robottype robottype="4" robotrate="500" robotcount="1"/>
+		<robottype robottype="5" robotrate="500" robotcount="1"/>
+	</level>
+	<level level="130,139" levelreward="80000" exp_fac="128982">
+		<robottype robottype="1" robotrate="3000" robotcount="1"/>
+		<robottype robottype="2" robotrate="3000" robotcount="1"/>
+		<robottype robottype="3" robotrate="3000" robotcount="1"/>
+		<robottype robottype="4" robotrate="500" robotcount="1"/>
+		<robottype robottype="5" robotrate="500" robotcount="1"/>
+	</level>
+	<level level="140,149" levelreward="90000" exp_fac="157228">
+		<robottype robottype="1" robotrate="3000" robotcount="1"/>
+		<robottype robottype="2" robotrate="3000" robotcount="1"/>
+		<robottype robottype="3" robotrate="3000" robotcount="1"/>
+		<robottype robottype="4" robotrate="500" robotcount="1"/>
+		<robottype robottype="5" robotrate="500" robotcount="1"/>
+	</level>
+	<level level="150,159" levelreward="100000" exp_fac="191660">
+		<robottype robottype="1" robotrate="3000" robotcount="1"/>
+		<robottype robottype="2" robotrate="3000" robotcount="1"/>
+		<robottype robottype="3" robotrate="3000" robotcount="1"/>
+		<robottype robottype="4" robotrate="500" robotcount="1"/>
+		<robottype robottype="5" robotrate="500" robotcount="1"/>
+	</level>
+	<level level="160,169" levelreward="110000" exp_fac="222429">
+		<robottype robottype="1" robotrate="3000" robotcount="1"/>
+		<robottype robottype="2" robotrate="3000" robotcount="1"/>
+		<robottype robottype="3" robotrate="3000" robotcount="1"/>
+		<robottype robottype="4" robotrate="500" robotcount="1"/>
+		<robottype robottype="5" robotrate="500" robotcount="1"/>
+	</level>
+	<level level="170,179" levelreward="120000" exp_fac="258138">
+		<robottype robottype="1" robotrate="3000" robotcount="1"/>
+		<robottype robottype="2" robotrate="3000" robotcount="1"/>
+		<robottype robottype="3" robotrate="3000" robotcount="1"/>
+		<robottype robottype="4" robotrate="500" robotcount="1"/>
+		<robottype robottype="5" robotrate="500" robotcount="1"/>
+	</level>
+	<level level="180,189" levelreward="130000" exp_fac="299580">
+		<robottype robottype="1" robotrate="3000" robotcount="1"/>
+		<robottype robottype="2" robotrate="3000" robotcount="1"/>
+		<robottype robottype="3" robotrate="3000" robotcount="1"/>
+		<robottype robottype="4" robotrate="500" robotcount="1"/>
+		<robottype robottype="5" robotrate="500" robotcount="1"/>
+	</level>
+	<level level="190,199" levelreward="140000" exp_fac="347675">
+		<robottype robottype="1" robotrate="3000" robotcount="1"/>
+		<robottype robottype="2" robotrate="3000" robotcount="1"/>
+		<robottype robottype="3" robotrate="3000" robotcount="1"/>
+		<robottype robottype="4" robotrate="500" robotcount="1"/>
+		<robottype robottype="5" robotrate="500" robotcount="1"/>
+	</level>
+	<level level="200,209" levelreward="150000" exp_fac="400708">
+		<robottype robottype="1" robotrate="3000" robotcount="1"/>
+		<robottype robottype="2" robotrate="3000" robotcount="1"/>
+		<robottype robottype="3" robotrate="3000" robotcount="1"/>
+		<robottype robottype="4" robotrate="500" robotcount="1"/>
+		<robottype robottype="5" robotrate="500" robotcount="1"/>
+	</level>
+	<level level="210,219" levelreward="160000" exp_fac="433943">
+		<robottype robottype="1" robotrate="3000" robotcount="1"/>
+		<robottype robottype="2" robotrate="3000" robotcount="1"/>
+		<robottype robottype="3" robotrate="3000" robotcount="1"/>
+		<robottype robottype="4" robotrate="500" robotcount="1"/>
+		<robottype robottype="5" robotrate="500" robotcount="1"/>
+	</level>
+	<level level="220,229" levelreward="170000" exp_fac="469936">
+		<robottype robottype="1" robotrate="3000" robotcount="1"/>
+		<robottype robottype="2" robotrate="3000" robotcount="1"/>
+		<robottype robottype="3" robotrate="3000" robotcount="1"/>
+		<robottype robottype="4" robotrate="500" robotcount="1"/>
+		<robottype robottype="5" robotrate="500" robotcount="1"/>
+	</level>
+	<level level="230,239" levelreward="180000" exp_fac="508913">
+		<robottype robottype="1" robotrate="3000" robotcount="1"/>
+		<robottype robottype="2" robotrate="3000" robotcount="1"/>
+		<robottype robottype="3" robotrate="3000" robotcount="1"/>
+		<robottype robottype="4" robotrate="500" robotcount="1"/>
+		<robottype robottype="5" robotrate="500" robotcount="1"/>
+	</level>
+	<level level="240,249" levelreward="190000" exp_fac="551123">
+		<robottype robottype="1" robotrate="3000" robotcount="1"/>
+		<robottype robottype="2" robotrate="3000" robotcount="1"/>
+		<robottype robottype="3" robotrate="3000" robotcount="1"/>
+		<robottype robottype="4" robotrate="500" robotcount="1"/>
+		<robottype robottype="5" robotrate="500" robotcount="1"/>
+	</level>
+	<level level="250,259" levelreward="200000" exp_fac="596835">
+		<robottype robottype="1" robotrate="3000" robotcount="1"/>
+		<robottype robottype="2" robotrate="3000" robotcount="1"/>
+		<robottype robottype="3" robotrate="3000" robotcount="1"/>
+		<robottype robottype="4" robotrate="500" robotcount="1"/>
+		<robottype robottype="5" robotrate="500" robotcount="1"/>
+	</level>
+	<level level="260,269" levelreward="210000" exp_fac="646337">
+		<robottype robottype="1" robotrate="3000" robotcount="1"/>
+		<robottype robottype="2" robotrate="3000" robotcount="1"/>
+		<robottype robottype="3" robotrate="3000" robotcount="1"/>
+		<robottype robottype="4" robotrate="500" robotcount="1"/>
+		<robottype robottype="5" robotrate="500" robotcount="1"/>
+	</level>
+	<level level="270,279" levelreward="220000" exp_fac="699946">
+		<robottype robottype="1" robotrate="3000" robotcount="1"/>
+		<robottype robottype="2" robotrate="3000" robotcount="1"/>
+		<robottype robottype="3" robotrate="3000" robotcount="1"/>
+		<robottype robottype="4" robotrate="500" robotcount="1"/>
+		<robottype robottype="5" robotrate="500" robotcount="1"/>
+	</level>
+	<level level="280,289" levelreward="230000" exp_fac="758001">
+		<robottype robottype="1" robotrate="3000" robotcount="1"/>
+		<robottype robottype="2" robotrate="3000" robotcount="1"/>
+		<robottype robottype="3" robotrate="3000" robotcount="1"/>
+		<robottype robottype="4" robotrate="500" robotcount="1"/>
+		<robottype robottype="5" robotrate="500" robotcount="1"/>
+	</level>
+	<level level="290,299" levelreward="240000" exp_fac="820871">
+		<robottype robottype="1" robotrate="3000" robotcount="1"/>
+		<robottype robottype="2" robotrate="3000" robotcount="1"/>
+		<robottype robottype="3" robotrate="3000" robotcount="1"/>
+		<robottype robottype="4" robotrate="500" robotcount="1"/>
+		<robottype robottype="5" robotrate="500" robotcount="1"/>
+	</level>
+	<level level="300,999" levelreward="250000" exp_fac="888956">
+		<robottype robottype="1" robotrate="3000" robotcount="1"/>
+		<robottype robottype="2" robotrate="3000" robotcount="1"/>
+		<robottype robottype="3" robotrate="3000" robotcount="1"/>
+		<robottype robottype="4" robotrate="500" robotcount="1"/>
+		<robottype robottype="5" robotrate="500" robotcount="1"/>
+	</level>
+</root>

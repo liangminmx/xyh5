@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+type 可强化的类型id
+=1 人物普通装备（武器、头部、衣服、腿部、鞋、手部、护符、戒指、腰带、项链）
+=2 坐骑装备（鞍、蹬、缰绳、蹄铁）
+=3 灵兽装备（脚环、镶玉、项圈、披挂）
+=4人物普通装备（勋章、徽章）
+realm 境界等级
+id 附加属性id
+=1，攻击
+=2，防御
+=3，气血
+=4，命中
+=5，闪避
+=6，暴击
+=7，韧性
+=11，攻击百分比
+=12，防御百分比
+=13，气血百分比
+=14，命中百分比
+=15，闪避百分比
+=16，暴击百分比
+=17，韧性百分比
+num 属性值
+-->
+<suit>
+  <equip equiptype="1,2,3,4,5,6,7,8,9,10">
+    <lvinfo lv="1">
+      <att id="1" num="0"/>
+      <att id="2" num="0"/>
+      <att id="3" num="0"/>
+      <att id="4" num="0"/>
+      <att id="5" num="0"/>
+      <att id="6" num="0"/>
+      <att id="7" num="0"/>
+    </lvinfo>
+    <lvinfo lv="20">
+      <att id="1" num="0"/>
+      <att id="2" num="0"/>
+      <att id="3" num="0"/>
+      <att id="4" num="0"/>
+      <att id="5" num="0"/>
+      <att id="6" num="0"/>
+      <att id="7" num="0"/>
+    </lvinfo>
+    <lvinfo lv="40">
+      <att id="1" num="80"/>
+      <att id="2" num="60"/>
+      <att id="3" num="360"/>
+      <att id="4" num="40"/>
+      <att id="5" num="30"/>
+      <att id="6" num="30"/>
+      <att id="7" num="30"/>
+    </lvinfo>
+    <lvinfo lv="60">
+      <att id="1" num="110"/>
+      <att id="2" num="90"/>
+      <att id="3" num="450"/>
+      <att id="4" num="70"/>
+      <att id="5" num="40"/>
+      <att id="6" num="40"/>
+      <att id="7" num="40"/>
+    </lvinfo>
+    <lvinfo lv="80">
+      <att id="1" num="150"/>
+      <att id="2" num="130"/>
+      <att id="3" num="500"/>
+      <att id="4" num="110"/>
+      <att id="5" num="50"/>
+      <att id="6" num="50"/>
+      <att id="7" num="50"/>
+    </lvinfo>
+    <lvinfo lv="100">
+      <att id="1" num="190"/>
+      <att id="2" num="170"/>
+      <att id="3" num="530"/>
+      <att id="4" num="150"/>
+      <att id="5" num="60"/>
+      <att id="6" num="60"/>
+      <att id="7" num="60"/>
+    </lvinfo>
+    <lvinfo lv="120">
+      <att id="1" num="220"/>
+      <att id="2" num="200"/>
+      <att id="3" num="600"/>
+      <att id="4" num="180"/>
+      <att id="5" num="70"/>
+      <att id="6" num="70"/>
+      <att id="7" num="70"/>
+    </lvinfo>
+  </equip>
+  <equip equiptype="11,12">
+    <realminfo realm="1">
+      <att id="11" num="0"/>
+      <att id="12" num="0"/>
+      <att id="13" num="0"/>
+      <att id="14" num="0"/>
+      <att id="15" num="0"/>
+      <att id="16" num="0"/>
+      <att id="17" num="0"/>
+    </realminfo>
+    <realminfo realm="2">
+      <att id="11" num="0"/>
+      <att id="12" num="0"/>
+      <att id="13" num="0"/>
+      <att id="14" num="0"/>
+      <att id="15" num="0"/>
+      <att id="16" num="0"/>
+      <att id="17" num="0"/>
+    </realminfo>
+    <realminfo realm="3">
+      <att id="11" num="0"/>
+      <att id="12" num="0"/>
+      <att id="13" num="0"/>
+      <att id="14" num="0"/>
+      <att id="15" num="0"/>
+      <att id="16" num="0"/>
+      <att id="17" num="0"/>
+    </realminfo>
+    <realminfo realm="4">
+      <att id="11" num="0"/>
+      <att id="12" num="0"/>
+      <att id="13" num="0"/>
+      <att id="14" num="0"/>
+      <att id="15" num="0"/>
+      <att id="16" num="0"/>
+      <att id="17" num="0"/>
+    </realminfo>
+    <realminfo realm="5">
+      <att id="11" num="0"/>
+      <att id="12" num="0"/>
+      <att id="13" num="0"/>
+      <att id="14" num="0"/>
+      <att id="15" num="0"/>
+      <att id="16" num="0"/>
+      <att id="17" num="0"/>
+    </realminfo>
+    <realminfo realm="6">
+      <att id="11" num="10"/>
+      <att id="12" num="10"/>
+      <att id="13" num="10"/>
+      <att id="14" num="10"/>
+      <att id="15" num="10"/>
+      <att id="16" num="10"/>
+      <att id="17" num="10"/>
+    </realminfo>
+    <realminfo realm="7">
+      <att id="11" num="10"/>
+      <att id="12" num="10"/>
+      <att id="13" num="10"/>
+      <att id="14" num="10"/>
+      <att id="15" num="10"/>
+      <att id="16" num="10"/>
+      <att id="17" num="10"/>
+    </realminfo>
+    <realminfo realm="8">
+      <att id="11" num="10"/>
+      <att id="12" num="10"/>
+      <att id="13" num="10"/>
+      <att id="14" num="10"/>
+      <att id="15" num="10"/>
+      <att id="16" num="10"/>
+      <att id="17" num="10"/>
+    </realminfo>
+    <realminfo realm="9">
+      <att id="11" num="10"/>
+      <att id="12" num="10"/>
+      <att id="13" num="10"/>
+      <att id="14" num="10"/>
+      <att id="15" num="10"/>
+      <att id="16" num="10"/>
+      <att id="17" num="10"/>
+    </realminfo>
+    <realminfo realm="10">
+      <att id="11" num="10"/>
+      <att id="12" num="10"/>
+      <att id="13" num="10"/>
+      <att id="14" num="10"/>
+      <att id="15" num="10"/>
+      <att id="16" num="10"/>
+      <att id="17" num="10"/>
+    </realminfo>
+  </equip>
+  <equip equiptype="17,18,19,20">
+    <realminfo realm="1">
+      <att id="1" num="0"/>
+      <att id="2" num="0"/>
+      <att id="3" num="0"/>
+      <att id="4" num="0"/>
+      <att id="5" num="0"/>
+      <att id="6" num="0"/>
+      <att id="7" num="0"/>
+    </realminfo>
+    <realminfo realm="2">
+      <att id="1" num="151"/>
+      <att id="2" num="112"/>
+      <att id="3" num="1205"/>
+      <att id="4" num="85"/>
+      <att id="5" num="28"/>
+      <att id="6" num="39"/>
+      <att id="7" num="75"/>
+    </realminfo>
+    <realminfo realm="3">
+      <att id="1" num="151"/>
+      <att id="2" num="112"/>
+      <att id="3" num="1205"/>
+      <att id="4" num="85"/>
+      <att id="5" num="28"/>
+      <att id="6" num="39"/>
+      <att id="7" num="75"/>
+    </realminfo>
+    <realminfo realm="4">
+      <att id="1" num="226"/>
+      <att id="2" num="170"/>
+      <att id="3" num="1807"/>
+      <att id="4" num="127"/>
+      <att id="5" num="43"/>
+      <att id="6" num="59"/>
+      <att id="7" num="112"/>
+    </realminfo>
+    <realminfo realm="5">
+      <att id="1" num="226"/>
+      <att id="2" num="170"/>
+      <att id="3" num="1807"/>
+      <att id="4" num="127"/>
+      <att id="5" num="43"/>
+      <att id="6" num="59"/>
+      <att id="7" num="112"/>
+    </realminfo>
+    <realminfo realm="6">
+      <att id="1" num="251"/>
+      <att id="2" num="190"/>
+      <att id="3" num="2010"/>
+      <att id="4" num="142"/>
+      <att id="5" num="48"/>
+      <att id="6" num="66"/>
+      <att id="7" num="125"/>
+    </realminfo>
+    <realminfo realm="7">
+      <att id="1" num="251"/>
+      <att id="2" num="190"/>
+      <att id="3" num="2010"/>
+      <att id="4" num="142"/>
+      <att id="5" num="48"/>
+      <att id="6" num="66"/>
+      <att id="7" num="125"/>
+    </realminfo>
+    <realminfo realm="8">
+      <att id="1" num="264"/>
+      <att id="2" num="200"/>
+      <att id="3" num="2110"/>
+      <att id="4" num="150"/>
+      <att id="5" num="50"/>
+      <att id="6" num="69"/>
+      <att id="7" num="130"/>
+    </realminfo>
+    <realminfo realm="9">
+      <att id="1" num="264"/>
+      <att id="2" num="200"/>
+      <att id="3" num="2110"/>
+      <att id="4" num="150"/>
+      <att id="5" num="50"/>
+      <att id="6" num="69"/>
+      <att id="7" num="130"/>
+    </realminfo>
+    <realminfo realm="10">
+      <att id="1" num="302"/>
+      <att id="2" num="227"/>
+      <att id="3" num="2410"/>
+      <att id="4" num="170"/>
+      <att id="5" num="57"/>
+      <att id="6" num="79"/>
+      <att id="7" num="150"/>
+    </realminfo>
+  </equip>
+  <equip equiptype="13,14,15,16">
+    <realminfo realm="1">
+      <att id="1" num="0"/>
+      <att id="3" num="0"/>
+      <att id="4" num="0"/>
+      <att id="6" num="0"/>
+    </realminfo>
+    <realminfo realm="2">
+      <att id="1" num="17"/>
+      <att id="3" num="127"/>
+      <att id="4" num="10"/>
+      <att id="6" num="4"/>
+    </realminfo>
+    <realminfo realm="3">
+      <att id="1" num="17"/>
+      <att id="3" num="127"/>
+      <att id="4" num="10"/>
+      <att id="6" num="4"/>
+    </realminfo>
+    <realminfo realm="4">
+      <att id="1" num="52"/>
+      <att id="3" num="385"/>
+      <att id="4" num="32"/>
+      <att id="6" num="13"/>
+    </realminfo>
+    <realminfo realm="5">
+      <att id="1" num="52"/>
+      <att id="3" num="385"/>
+      <att id="4" num="32"/>
+      <att id="6" num="13"/>
+    </realminfo>
+    <realminfo realm="6">
+      <att id="1" num="87"/>
+      <att id="3" num="645"/>
+      <att id="4" num="52"/>
+      <att id="6" num="23"/>
+    </realminfo>
+    <realminfo realm="7">
+      <att id="1" num="87"/>
+      <att id="3" num="645"/>
+      <att id="4" num="52"/>
+      <att id="6" num="23"/>
+    </realminfo>
+    <realminfo realm="8">
+      <att id="1" num="123"/>
+      <att id="3" num="902"/>
+      <att id="4" num="75"/>
+      <att id="6" num="32"/>
+    </realminfo>
+    <realminfo realm="9">
+      <att id="1" num="123"/>
+      <att id="3" num="902"/>
+      <att id="4" num="75"/>
+      <att id="6" num="32"/>
+    </realminfo>
+    <realminfo realm="10">
+      <att id="1" num="175"/>
+      <att id="3" num="1290"/>
+      <att id="4" num="107"/>
+      <att id="6" num="46"/>
+    </realminfo>
+  </equip>
+</suit>

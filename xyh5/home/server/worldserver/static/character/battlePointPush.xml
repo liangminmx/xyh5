@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<push version="douyu">
+		<battle value="550000"/>
+		<battle value="650000"/>
+		<battle value="800000"/>
+		<battle value="1050000"/>
+		<battle value="1250000"/>
+		<battle value="1450000"/>
+		<battle value="1650000"/>
+		<battle value="1800000"/>
+		<battle value="1950000"/>
+		<battle value="2100000"/>
+	</push>
+</root>

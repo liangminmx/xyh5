@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+functionid	功能id			
+opentime	开服第几天开启			
+groupid	进阶活动开启id			
+jinjieid	进阶功能id			
+next	活动结束后第二天开启的活动id			
+name	进阶功能名字			
+icon	图标id			
+parameter	所需对应养成等阶			
+itemid	道具id，逗号隔开			
+num	道具数量，逗号隔开			
+	
+
+
+
+-->
+	<function functionid="2010" opentime="1"/>
+	<group groupid="1" jinjieid="0" next="2" name="坐骑进阶" icon="1">
+		<item parameter="3" itemid="14010201,1010303" num="5,1"/>
+		<item parameter="4" itemid="14010201,1020404" num="10,1"/>
+		<item parameter="5" itemid="14010201,1030505" num="15,1"/>
+		<item parameter="6" itemid="14010201,1040606,14010001" num="20,1,1"/>
+		<item parameter="7" itemid="14010201,1010606,14010001" num="25,1,1"/>
+		<item parameter="8" itemid="14010201,1020707,14010001" num="30,1,2"/>
+		<item parameter="9" itemid="14010201,1030707,14010001" num="40,1,2"/>
+		<item parameter="10" itemid="1040808,14010001" num="1,3"/>
+	</group>
+	<group groupid="2" jinjieid="2" next="3" name="羽翼进阶" icon="3">
+		<item parameter="3" itemid="14030201,3010303" num="5,1"/>
+		<item parameter="4" itemid="14030201,3020404" num="10,1"/>
+		<item parameter="5" itemid="14030201,3030505" num="15,1"/>
+		<item parameter="6" itemid="14030201,3040606,14030001" num="20,1,1"/>
+		<item parameter="7" itemid="14030201,3010606,14030001" num="25,1,1"/>
+		<item parameter="8" itemid="14030201,3020707,14030001" num="30,1,2"/>
+		<item parameter="9" itemid="14030201,3030707,14030001" num="40,1,2"/>
+		<item parameter="10" itemid="3040808,14030001" num="1,3"/>
+	</group>
+	<group groupid="3" jinjieid="4" next="4" name="法宝进阶" icon="5">
+		<item parameter="3" itemid="14050201,4010303" num="5,1"/>
+		<item parameter="4" itemid="14050201,4020404" num="10,1"/>
+		<item parameter="5" itemid="14050201,4030505" num="15,1"/>
+		<item parameter="6" itemid="14050201,4040606,14050001" num="20,1,1"/>
+		<item parameter="7" itemid="14050201,4010606,14050001" num="25,1,1"/>
+		<item parameter="8" itemid="14050201,4020707,14050001" num="30,1,2"/>
+		<item parameter="9" itemid="14050201,4030707,14050001" num="40,1,2"/>
+		<item parameter="10" itemid="4040808,14050001" num="1,3"/>
+	</group>
+	<group groupid="4" jinjieid="3" next="5" name="法阵进阶" icon="4">
+		<item parameter="3" itemid="14040201,5010303" num="5,1"/>
+		<item parameter="4" itemid="14040201,5020404" num="10,1"/>
+		<item parameter="5" itemid="14040201,5030505" num="15,1"/>
+		<item parameter="6" itemid="14040201,5040606,14040001" num="20,1,1"/>
+		<item parameter="7" itemid="14040201,5010606,14040001" num="25,1,1"/>
+		<item parameter="8" itemid="14040201,5020707,14040001" num="30,1,2"/>
+		<item parameter="9" itemid="14040201,5030707,14040001" num="40,1,2"/>
+		<item parameter="10" itemid="5040808,14040001" num="1,3"/>
+	</group>
+	<group groupid="5" jinjieid="5" next="6" name="变身进阶" icon="6">
+		<item parameter="3" itemid="14020201,6010303" num="5,1"/>
+		<item parameter="4" itemid="14020201,6020404" num="10,1"/>
+		<item parameter="5" itemid="14020201,6030505" num="15,1"/>
+		<item parameter="6" itemid="14020201,6040606,14020001" num="20,1,1"/>
+		<item parameter="7" itemid="14020201,6010606,14020001" num="25,1,1"/>
+		<item parameter="8" itemid="14020201,6020707,14020001" num="30,1,2"/>
+		<item parameter="9" itemid="14020201,6030707,14020001" num="40,1,2"/>
+		<item parameter="10" itemid="6040808,14020001" num="1,3"/>
+	</group>
+	<group groupid="6" jinjieid="6" next="7" name="仙位进阶" icon="7">
+		<item parameter="3" itemid="14070201,7010303" num="5,1"/>
+		<item parameter="4" itemid="14070201,7020404" num="10,1"/>
+		<item parameter="5" itemid="14070201,7030505" num="15,1"/>
+		<item parameter="6" itemid="14070201,7040606,14070001" num="20,1,1"/>
+		<item parameter="7" itemid="14070201,7010606,14070001" num="25,1,1"/>
+		<item parameter="8" itemid="14070201,7020707,14070001" num="30,1,2"/>
+		<item parameter="9" itemid="14070201,7030707,14070001" num="40,1,2"/>
+		<item parameter="10" itemid="7040808,14070001" num="1,3"/>
+	</group>
+	<group groupid="7" jinjieid="7" next="" name="灵骑进阶" icon="8">
+		<item parameter="3" itemid="14080201,8010303" num="5,1"/>
+		<item parameter="4" itemid="14080201,8020404" num="10,1"/>
+		<item parameter="5" itemid="14080201,8030505" num="15,1"/>
+		<item parameter="6" itemid="14080201,8040606,14080001" num="20,1,1"/>
+		<item parameter="7" itemid="14080201,8010606,14080001" num="25,1,1"/>
+		<item parameter="8" itemid="14080201,8020707,14080001" num="30,1,2"/>
+		<item parameter="9" itemid="14080201,8030707,14080001" num="40,1,2"/>
+		<item parameter="10" itemid="8040808,14080001" num="1,3"/>
+	</group>
+</root>

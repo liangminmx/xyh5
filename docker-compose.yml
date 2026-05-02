@@ -1,0 +1,60 @@
+services:
+  mysql:
+    image: mysql:5.6
+    container_name: mhxy-mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: echeverra
+      MYSQL_CHARACTER_SET_SERVER: utf8
+      MYSQL_COLLATION_SERVER: utf8_unicode_ci
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./sql:/docker-entrypoint-initdb.d
+      - mysql_data:/var/lib/mysql
+    networks:
+      - mhxy-network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-pecheverra"]
+      interval: 5s
+      timeout: 10s
+      retries: 10
+
+  game-server:
+    image: mhxy-server:latest
+    container_name: mhxy-server
+    restart: always
+    depends_on:
+      mysql:
+        condition: service_healthy
+    ports:
+      - "10001:10001"
+      - "11001:11001"
+      - "12001:12001"
+      - "8001:8001"
+      - "8004:8004"
+    networks:
+      - mhxy-network
+
+  web:
+    image: richarvey/nginx-php-fpm:php5
+    container_name: mhxy-web
+    restart: always
+    depends_on:
+      - game-server
+    ports:
+      - "8766:80"
+    volumes:
+      - ./xyh5/www/wwwroot/xy:/var/www/html
+      - ./nginx-site.conf:/etc/nginx/sites-available/default.conf
+    networks:
+      - mhxy-network
+    environment:
+      - WEBROOT=/var/www/html
+
+networks:
+  mhxy-network:
+    driver: bridge
+
+volumes:
+  mysql_data:

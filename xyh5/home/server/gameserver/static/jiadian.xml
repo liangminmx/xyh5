@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!--
+xilv	手动加点开启等级
+dierlv	第二加点方案开启等级
+disanlv	第三加点方案开启等级
+emoney	加点方案提前开启消耗元宝
+cd	洗点CD时间（单位：秒）
+cdemoney	无视CD洗点消耗元宝
+	
+vip	VIP等级区间，逗号隔开
+time	每日免费切换加点方案次数（默认为0 -1为无限制）
+emoney	超过切换次数消耗元宝
+	
+id	门派ID
+name	门派名称（策划用）
+plan	推荐加点方案（格式：体质，魔力，力量，耐力，敏捷 各占总数5的比例  例如：1体4魔）
+planword	推荐加点方案介绍（文本，需支持字色和换行）
+
+
+	-->
+	<config xilv="65" dierlv="70" disanlv="90" emoney="100" cd="7200" cdemoney="200"/>
+	    <vip vip="0" time="1" emoney="5"/>
+	    <vip vip="1,5" time="2" emoney="5"/>
+	    <vip vip="6,10" time="4" emoney="5"/>
+	
+	    <tuijian id="10" nameid="大唐官府">
+	      <tuijianinfo plan="0,0,5,0,0" planword="5力加点，暴力输出"/>
+	      <tuijianinfo plan="0,0,4,0,1" planword="4力1敏加点，中庸之道"/>
+	    </tuijian>
+		<tuijian id="11" nameid="方寸">
+	      <tuijianinfo plan="3,0,0,0,2" planword="3体2敏加点，灵活的胖子"/>
+	      <tuijianinfo plan="1,0,0,0,4" planword="4敏1体捷加，也很快"/>
+	    </tuijian>
+	    <tuijian id="20" nameid="龙宫">
+	      <tuijianinfo plan="0,5,0,0,0" planword="5魔龙宫，秒天秒地"/>
+	      <tuijianinfo plan="1,4,0,0,0" planword="4魔1体加，能打能抗"/>
+	    </tuijian>
+	    <tuijian id="21" nameid="普陀">
+	      <tuijianinfo plan="3,0,0,0,2" planword="3体2敏加点，灵活的胖子"/>
+	      <tuijianinfo plan="3,0,0,2,0" planword="3体2耐，传统"/>
+	    </tuijian>
+	    <tuijian id="30" nameid="魔王">
+	      <tuijianinfo plan="0,5,0,0,0" planword="5魔魔王，一样秒天秒地"/>
+	      <tuijianinfo plan="1,4,0,0,0" planword="4魔1体加，能打能抗"/>
+	    </tuijian>
+	    <tuijian id="31" nameid="地府">
+	      <tuijianinfo plan="3,0,0,0,2" planword="3体2敏加点，灵活的胖子"/>
+	      <tuijianinfo plan="3,0,0,2,0" planword="3体2耐，传统"/>
+	    </tuijian>
+	
+
+	
+	
+</root>

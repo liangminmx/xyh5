@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!--
+roleid	角色id	
+ =10 游侠儿	
+ =11 飞燕女	
+ =20 巨魔王	
+ =21 骨灵儿	
+ =30 龙太子	
+ =31 玄天姬
+
+professionicon	角色图标资源id	
+headicon	头像资源id	
+gender	性别	
+	=0，表示男	
+	=1，表示女	
+bodyavatar	人物模型资源id	
+platform	平台识别	
+	具体标示方式上线钱确认。	
+	#NAME?	
+designid	给予的称号id	
+	=0表示不会给予称号	
+timetype	给予称号的时限类型	
+	=1永久	
+	=2持续时间	
+	=3截止日期	
+timevalue	获得称号的时限，	
+	永久，=0	
+	持续时间，单位秒	
+	截止日期，“yyyy-mm-dd hh:mm:ss”	
+scene	出生地图	
+pos	出生坐标，使用X,Y标识	
+mountmodel  默认坐骑模型
+defaultweapon   默认武器模型
+weapontype   武器类型
+bmoney   创角赠送绑元数
+itemid   创角赠送道具id
+num      创角赠送道具数量
+defaultpet  创角默认激活宠物id
+race	角色所属门派 =1大唐官府，=2 魔王寨，=3 龙宫	
+roleid	角色id（逗号隔开）	
+
+pfid	 跳过选服以及创角的平台id	（目前不知名的外服平台=1，独角兽平台=111）
+seebtnlevel	能看到右下角转职按钮的最高等级	
+
+	-->
+	<!--主角-->
+	<juese roleid="10" headicon="100010_0" bodyavatar="100010" defaultweapon="100010" weapontype="" mountmodel="100010" bmoney="10000" itemid="3000012" num="1" defaultpet="12010001"/>
+	<juese roleid="11" headicon="100010_1" bodyavatar="100010" defaultweapon="100010" weapontype="" mountmodel="100010" bmoney="10000" itemid="3000012" num="1" defaultpet="12010001"/>
+	<juese roleid="20" headicon="100010_2" bodyavatar="100010" defaultweapon="100010" weapontype="" mountmodel="100010" bmoney="10000" itemid="3000012" num="1" defaultpet="12010001"/>
+	<juese roleid="21" headicon="100010_3" bodyavatar="100010" defaultweapon="100010" weapontype="" mountmodel="100010" bmoney="10000" itemid="3000012" num="1" defaultpet="12010001"/>
+	<juese roleid="30" headicon="100010_4" bodyavatar="100010" defaultweapon="100010" weapontype="" mountmodel="100010" bmoney="10000" itemid="3000012" num="1" defaultpet="12010001"/>
+	<juese roleid="31" headicon="100010_5" bodyavatar="100010" defaultweapon="100010" weapontype="" mountmodel="100010" bmoney="10000" itemid="3000012" num="1" defaultpet="12010001"/>
+	<!--
+	角色创建相关信息：
+	
+	-->
+	<senddesign platform="" designid="" timetype="" timevalue=""/>
+	<!--出身相关：-->
+	<born scene="" pos=""/>
+	<race race="1" roleid="10,11"/>
+	<race race="2" roleid="20,21"/>
+	<race race="3" roleid="30,31"/>
+	
+	<pf pfid="111" seebtnlevel="75"/>
+</root>

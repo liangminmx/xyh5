@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--discountid活动ID  reward 奖励 startTime 开始时间  endtime 结束时间-->
+<root>
+	<!--开通黄钻活动-->
+	<acitve discountid="1" reward="100400" startTime="2013-11-01 00:00:00" endTime="2013-11-08 00:00:00">
+		<reward type="1"  giftId="1" time="10" >
+			<item reward="106501" num="1" bind="1"/>
+			<item reward="106501" num="1" bind="1"/>
+			<item reward="106501" num="1" bind="1"/>
+		</reward>
+		<reward type="2"  giftId="2" time="10" >
+			<item reward="106501" num="12" bind="1"/>
+			<item reward="106501" num="12" bind="1"/>
+			<item reward="106501" num="12" bind="1"/>
+		</reward>
+		<reward type="3"  giftId="3" time="10" >
+			<item reward="106501" num="1" bind="1"/>
+			<item reward="106501" num="1" bind="1"/>
+			<item reward="106501" num="1" bind="1"/>
+		</reward>
+		<reward type="4"  giftId="4" time="10" >
+			<item reward="106501" num="12" bind="1"/>
+			<item reward="106501" num="12" bind="1"/>
+			<item reward="106501" num="12" bind="1"/>
+		</reward>
+	</acitve>
+</root>

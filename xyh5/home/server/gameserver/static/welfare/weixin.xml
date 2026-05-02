@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<weixin pf="xunlei" code="xlmhj" title="迅雷微信活动" pic="xunlei" titlepic="titlexunlei" input="1" text="[font size='16'][font color='#FF9933']步骤1[/font]：打开手机微信，扫描右侧二维码或直接搜索[font color='#49d42f']“迅雷牛X页游”[/font]添加。|[font color='#FF9933']步骤2[/font]：在微信中关注[font color='#49d42f']“迅雷牛X页游”[/font]，关注后点击[font color='#49d42f']“游戏礼包-所有礼包”[/font]|[font color='#FF9933']步骤3[/font]：在手机输入框回复相关数字，得到专属暗号|[font color='#FF9933']步骤4[/font]：游戏界面右侧输入得到的专属暗号|[font color='#FF9933']步骤5[/font]：领取奖励，获得[font color='#49d42f']迅雷微信礼包，礼包内包含：2倍收益丹*2，银两20万，礼金*60[/font][/font]">
+		<reward item="100001" num="1" bind="1"/>
+	</weixin>
+	<weixin pf="qzone" code="mhjweixin" title="微信活动" pic="tencent" titlepic="tongyong" input="1" text="[font size='16'][font color='#FF9933']步骤1[/font]：打开手机微信，扫描右侧二维码|[font color='#FF9933']步骤2[/font]：在微信中关注[font color='#49d42f']“雪鹰领主web”[/font]|[font color='#FF9933']步骤3[/font]：在手机输入框回复[font color='#49d42f']“求暗号”[/font]，得到专属暗号|[font color='#FF9933']步骤4[/font]：游戏界面右侧输入得到的专属暗号|[font color='#FF9933']步骤5[/font]：领取奖励，获得[font color='#49d42f']雪鹰领主微信礼包，礼包内包含：高级气血包*5，5倍收益丹*1，元液*10W，礼金*1000[/font][/font]">
+		<reward item="100001" num="1" bind="1"/>
+	</weixin>
+	<weixin pf="pengyou" code="mhjweixin" title="微信活动" pic="tencent" titlepic="tongyong" input="1" text="[font size='16'][font color='#FF9933']步骤1[/font]：打开手机微信，扫描右侧二维码|[font color='#FF9933']步骤2[/font]：在微信中关注[font color='#49d42f']“雪鹰领主web”[/font]|[font color='#FF9933']步骤3[/font]：在手机输入框回复[font color='#49d42f']“求暗号”[/font]，得到专属暗号|[font color='#FF9933']步骤4[/font]：游戏界面右侧输入得到的专属暗号|[font color='#FF9933']步骤5[/font]：领取奖励，获得[font color='#49d42f']雪鹰领主微信礼包，礼包内包含：高级气血包*5，5倍收益丹*1，元液*10W，礼金*1000[/font][/font]">
+		<reward item="100001" num="1" bind="1"/>
+	</weixin>
+	<weixin pf="3366" code="mhjweixin" title="微信活动" pic="tencent" titlepic="tongyong" input="1" text="[font size='16'][font color='#FF9933']步骤1[/font]：打开手机微信，扫描右侧二维码|[font color='#FF9933']步骤2[/font]：在微信中关注[font color='#49d42f']“雪鹰领主web”[/font]|[font color='#FF9933']步骤3[/font]：在手机输入框回复[font color='#49d42f']“求暗号”[/font]，得到专属暗号|[font color='#FF9933']步骤4[/font]：游戏界面右侧输入得到的专属暗号|[font color='#FF9933']步骤5[/font]：领取奖励，获得[font color='#49d42f']雪鹰领主微信礼包，礼包内包含：高级气血包*5，5倍收益丹*1，元液*10W，礼金*1000[/font][/font]">
+		<reward item="100001" num="1" bind="1"/>
+	</weixin>
+	<weixin pf="tgpserver" code="mhjweixin" title="微信活动" pic="tencent" titlepic="tongyong" input="1" text="[font size='16'][font color='#FF9933']步骤1[/font]：打开手机微信，扫描右侧二维码|[font color='#FF9933']步骤2[/font]：在微信中关注[font color='#49d42f']“雪鹰领主web”[/font]|[font color='#FF9933']步骤3[/font]：在手机输入框回复[font color='#49d42f']“求暗号”[/font]，得到专属暗号|[font color='#FF9933']步骤4[/font]：游戏界面右侧输入得到的专属暗号|[font color='#FF9933']步骤5[/font]：领取奖励，获得[font color='#49d42f']雪鹰领主微信礼包，礼包内包含：高级气血包*5，5倍收益丹*1，元液*10W，礼金*1000[/font][/font]">
+		<reward item="100001" num="1" bind="1"/>
+	</weixin>
+	<weixin pf="box" code="mhjweixin" title="微信活动" pic="tencent" titlepic="tongyong" input="1" text="[font size='16'][font color='#FF9933']步骤1[/font]：打开手机微信，扫描右侧二维码|[font color='#FF9933']步骤2[/font]：在微信中关注[font color='#49d42f']“雪鹰领主web”[/font]|[font color='#FF9933']步骤3[/font]：在手机输入框回复[font color='#49d42f']“求暗号”[/font]，得到专属暗号|[font color='#FF9933']步骤4[/font]：游戏界面右侧输入得到的专属暗号|[font color='#FF9933']步骤5[/font]：领取奖励，获得[font color='#49d42f']雪鹰领主微信礼包，礼包内包含：高级气血包*5，5倍收益丹*1，元液*10W，礼金*1000[/font][/font]">
+		<reward item="100001" num="1" bind="1"/>
+	</weixin>
+	<weixin pf="website" code="mhjweixin" title="微信活动" pic="tencent" titlepic="tongyong" input="1" text="[font size='16'][font color='#FF9933']步骤1[/font]：打开手机微信，扫描右侧二维码|[font color='#FF9933']步骤2[/font]：在微信中关注[font color='#49d42f']“雪鹰领主web”[/font]|[font color='#FF9933']步骤3[/font]：在手机输入框回复[font color='#49d42f']“求暗号”[/font]，得到专属暗号|[font color='#FF9933']步骤4[/font]：游戏界面右侧输入得到的专属暗号|[font color='#FF9933']步骤5[/font]：领取奖励，获得[font color='#49d42f']雪鹰领主微信礼包，礼包内包含：高级气血包*5，5倍收益丹*1，元液*10W，礼金*1000[/font][/font]">
+		<reward item="100001" num="1" bind="1"/>
+	</weixin>
+	<weixin pf="myapp_pc" code="mhjweixin" title="微信活动" pic="tencent" titlepic="tongyong" input="1" text="[font size='16'][font color='#FF9933']步骤1[/font]：打开手机微信，扫描右侧二维码|[font color='#FF9933']步骤2[/font]：在微信中关注[font color='#49d42f']“雪鹰领主web”[/font]|[font color='#FF9933']步骤3[/font]：在手机输入框回复[font color='#49d42f']“求暗号”[/font]，得到专属暗号|[font color='#FF9933']步骤4[/font]：游戏界面右侧输入得到的专属暗号|[font color='#FF9933']步骤5[/font]：领取奖励，获得[font color='#49d42f']雪鹰领主微信礼包，礼包内包含：高级气血包*5，5倍收益丹*1，元液*10W，礼金*1000[/font][/font]">
+		<reward item="100001" num="1" bind="1"/>
+	</weixin>
+	<weixin pf="kugou" code="" title="微信活动" pic="kugou" titlepic="tongyong" input="0" text="[font size='16'][font color='#FF9933']步骤1[/font]：打开手机微信，扫描右侧二维码或直接搜索[font color='#49d42f']“酷狗游戏”[/font]添加|[font color='#FF9933']步骤2[/font]：在微信中关注[font color='#49d42f']“酷狗游戏”[/font]，关注后在手机输入框中回复对应游戏名字（如：雪鹰领主），得到专属暗号|[font color='#FF9933']步骤3[/font]：按照提示操作进入游戏领取礼包[/font]">
+		<reward item="100001" num="1" bind="1"/>
+	</weixin>
+</config>

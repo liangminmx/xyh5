@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+function标签			
+	functionid	关联function.xml	
+	guide_functionid	引导功能编号	
+	guide_count	引导任务数	
+	count	每日可完成环数	
+	ringcount	每轮环数	
+	addring	第几环可以概率获得额外道具	
+	finish_vip	一键完成所需vip	
+    finish_bmoney 单个任务需要绑元数
+profession标签			
+	profession	职业	
+	npcid	对应接取npc	
+level标签			
+	level	不同等级段对应不同基础奖励	
+	exp	    基础人物经验奖励	
+	money	基础银两奖励	
+	item	额外掉落奖励道具	item:count支持多个用逗号隔开
+	bmoney	额外必得绑元奖励	
+task标签
+	taskid	任务编号	
+    tasklevel   任务等级段
+	name	任务名
+	dec	任务描述	
+	submittype	任务提交条件类型	
+	submitparam	完成参数	
+   
+-->
+	<function functionid="1020" guide_functionid="1021" guide_count="5" count="20" ringcount="10" addring="10" finish_vip="4" finish_bmoney="20"/>
+	<profession profession="10" npcid="14"/>
+	<profession profession="11" npcid="14"/>
+	<profession profession="30" npcid="15"/>
+	<profession profession="31" npcid="15"/>
+	<profession profession="20" npcid="25"/>
+	<profession profession="21" npcid="25"/>
+	<level level="1,40" exp="300000" money="60000" item="16010003:1;10000006:2;10000014:80" bmoney="300"/>
+	<level level="41,60" exp="814443" money="70000" item="16010003:1;10000006:2;10000014:150" bmoney="350"/>
+	<level level="61,70" exp="1537932" money="80000" item="16010003:1;10000006:2;10000014:200" bmoney="400"/>
+	<level level="71,80" exp="2066847" money="90000" item="16010003:2;10000006:2;10000014:300" bmoney="450"/>
+	<level level="81,90" exp="2645417" money="100000" item="16010003:2;10000006:2;10000014:400" bmoney="500"/>
+	<level level="91,100" exp="3224743" money="120000" item="16010003:3;10000006:2;10000014:500" bmoney="550"/>
+	<level level="101,110" exp="3930938" money="150000" item="16010003:3;10000006:2;10000014:600" bmoney="600"/>
+	<level level="111,120" exp="4791786" money="180000" item="16010003:4;10000006:2;10000014:700" bmoney="650"/>
+	<level level="121,130" exp="5841155" money="210000" item="16010003:5;10000006:2;10000014:800" bmoney="700"/>
+	<level level="131,140" exp="7120330" money="250000" item="16010003:6;10000006:2;10000014:900" bmoney="800"/>
+	<level level="141,150" exp="8679635" money="300000" item="16010003:8;10000006:2;10000014:1000" bmoney="1000"/>
+	<level level="151,170" exp="11121474" money="350000" item="16010003:9;10000006:2;10000014:1100" bmoney="1200"/>
+	<level level="171,190" exp="14979001" money="400000" item="16010003:10;10000006:2;10000014:1200" bmoney="1400"/>
+	<level level="191,210" exp="20035397" money="450000" item="16010003:10;10000006:2;10000014:1300" bmoney="1600"/>
+	<level level="211,230" exp="23496783" money="500000" item="16010003:10;10000006:2;10000014:1400" bmoney="1800"/>
+	<level level="231,250" exp="27556170" money="550000" item="16010003:10;10000006:2;10000014:1500" bmoney="2000"/>
+	<level level="251,999" exp="27556170" money="600000" item="16010003:10;10000006:2;10000014:1600" bmoney="2000"/>
+	<!--
+类型 完成条件的描述	   submitparam
+1 	 到场景开始巡逻	   "pointid,zhenrongid"
+2	 找到指定NPC触发战斗"pointid,avatar,name,zhenrongid"
+3	 对话任务	       "npcid,任务完成对话"
+4	 读条任务	       "pointid,读条图标,读条文字"
+-->
+	<task taskid="2000010" tasklevel="1,550" name="送信" dec="送信给长安城的小虎" submittype="3" submitparam="17,信我已收到，感谢少侠。"/>
+	<task taskid="2000020" tasklevel="1,550" name="送信" dec="送信给长安城的月老" submittype="3" submitparam="18,信我已收到，感谢少侠。"/>
+	<task taskid="2000030" tasklevel="1,550" name="送信" dec="送信给长安城的林铁匠" submittype="3" submitparam="19,信我已收到，感谢少侠。"/>
+	<task taskid="2000040" tasklevel="1,550" name="送信" dec="送信给长安城的颜如玉" submittype="3" submitparam="20,信我已收到，感谢少侠。"/>
+	<task taskid="2000050" tasklevel="1,550" name="送信" dec="送信给长安城的小芊芊" submittype="3" submitparam="21,信我已收到，感谢少侠。"/>
+	<task taskid="2000060" tasklevel="1,550" name="送信" dec="送信给长安城的不自医" submittype="3" submitparam="22,信我已收到，感谢少侠。"/>
+	<task taskid="2000070" tasklevel="1,550" name="送信" dec="送信给长安城的布织道" submittype="3" submitparam="23,信我已收到，感谢少侠。"/>
+	<task taskid="2000080" tasklevel="15,39" name="采集" dec="前往东海湾采集露水" submittype="4" submitparam="101,1000,采集,3"/>
+	<task taskid="2000090" tasklevel="15,39" name="采集" dec="前往东海湾采集露水" submittype="4" submitparam="101,1000,采集,3"/>
+	<task taskid="2000100" tasklevel="15,39" name="采集" dec="前往东海湾采集露水" submittype="4" submitparam="101,1000,采集,3"/>
+	<task taskid="2000110" tasklevel="15,39" name="打造" dec="前往建邺城打造兵器" submittype="4" submitparam="102,1001,打造,3"/>
+	<task taskid="2000120" tasklevel="15,39" name="打造" dec="前往建邺城打造兵器" submittype="4" submitparam="102,1001,打造,3"/>
+	<task taskid="2000130" tasklevel="15,999" name="打造" dec="前往建邺城打造兵器" submittype="4" submitparam="102,1001,打造,3"/>
+	<task taskid="2000140" tasklevel="40,999" name="打造" dec="前往长安城打造兵器" submittype="4" submitparam="103,1001,打造,3"/>
+	<task taskid="2000150" tasklevel="40,999" name="打造" dec="前往长安城打造兵器" submittype="4" submitparam="103,1001,打造,3"/>
+	<task taskid="2000160" tasklevel="40,999" name="打造" dec="前往长安城打造兵器" submittype="4" submitparam="103,1001,打造,3"/>
+	<task taskid="2000170" tasklevel="40,999" name="打造" dec="前往长安城打造兵器" submittype="4" submitparam="103,1001,打造,3"/>
+	<task taskid="2000180" tasklevel="40,70" name="采集" dec="前往海底迷宫采集真露" submittype="4" submitparam="104,1000,采集,3"/>
+	<task taskid="2000190" tasklevel="40,70" name="采集" dec="前往海底迷宫采集真露" submittype="4" submitparam="104,1000,采集,3"/>
+	<task taskid="2000200" tasklevel="40,70" name="采集" dec="前往海底迷宫采集真露" submittype="4" submitparam="104,1000,采集,3"/>
+	<task taskid="2000210" tasklevel="40,70" name="采集" dec="前往海底迷宫采集真露" submittype="4" submitparam="104,1000,采集,3"/>
+	<task taskid="2000220" tasklevel="70,90" name="采集" dec="前往花果山采集晨曦露水" submittype="4" submitparam="105,1000,采集,3"/>
+	<task taskid="2000230" tasklevel="70,90" name="采集" dec="前往花果山采集晨曦露水" submittype="4" submitparam="105,1000,采集,3"/>
+	<task taskid="2000240" tasklevel="70,90" name="采集" dec="前往花果山采集晨曦露水" submittype="4" submitparam="105,1000,采集,3"/>
+	<task taskid="2000250" tasklevel="70,90" name="采集" dec="前往花果山采集晨曦露水" submittype="4" submitparam="105,1000,采集,3"/>
+	<task taskid="2000260" tasklevel="71,110" name="采集" dec="前往傲来国采集露水" submittype="4" submitparam="106,1000,采集,3"/>
+	<task taskid="2000270" tasklevel="71,110" name="采集" dec="前往傲来国采集露水" submittype="4" submitparam="106,1000,采集,3"/>
+	<task taskid="2000280" tasklevel="71,110" name="采集" dec="前往傲来国采集露水" submittype="4" submitparam="106,1000,采集,3"/>
+	<task taskid="2000290" tasklevel="71,110" name="采集" dec="前往傲来国采集露水" submittype="4" submitparam="106,1000,采集,3"/>
+	<task taskid="2000300" tasklevel="91,130" name="采集" dec="前往地狱迷宫超度怨灵" submittype="4" submitparam="107,1000,超度,3"/>
+	<task taskid="2000310" tasklevel="91,130" name="采集" dec="前往地狱迷宫超度怨灵" submittype="4" submitparam="107,1000,超度,3"/>
+	<task taskid="2000320" tasklevel="91,130" name="采集" dec="前往地狱迷宫超度怨灵" submittype="4" submitparam="107,1000,超度,3"/>
+	<task taskid="2000330" tasklevel="91,130" name="采集" dec="前往地狱迷宫超度怨灵" submittype="4" submitparam="107,1000,超度,3"/>
+	<task taskid="2000340" tasklevel="111,150" name="采集" dec="前往福寿村采集晨曦露水" submittype="4" submitparam="108,1000,采集,3"/>
+	<task taskid="2000350" tasklevel="111,150" name="采集" dec="前往福寿村采集晨曦露水" submittype="4" submitparam="108,1000,采集,3"/>
+	<task taskid="2000360" tasklevel="111,150" name="采集" dec="前往福寿村采集晨曦露水" submittype="4" submitparam="108,1000,采集,3"/>
+	<task taskid="2000370" tasklevel="111,150" name="采集" dec="前往福寿村采集晨曦露水" submittype="4" submitparam="108,1000,采集,3"/>
+	<task taskid="2000380" tasklevel="131,150" name="采集" dec="前往凌霄天宫采集仙露" submittype="4" submitparam="109,1000,采集,3"/>
+	<task taskid="2000390" tasklevel="131,150" name="采集" dec="前往凌霄天宫采集仙露" submittype="4" submitparam="109,1000,采集,3"/>
+	<task taskid="2000400" tasklevel="131,150" name="采集" dec="前往凌霄天宫采集仙露" submittype="4" submitparam="109,1000,采集,3"/>
+	<task taskid="2000410" tasklevel="131,150" name="采集" dec="前往凌霄天宫采集仙露" submittype="4" submitparam="109,1000,采集,3"/>
+	<task taskid="2000420" tasklevel="1,40" name="讨伐" dec="前往东海湾平定骚乱" submittype="2" submitparam="101,300010,寄居蟹,170015001"/>
+	<task taskid="2000430" tasklevel="1,40" name="讨伐" dec="前往建邺城平定骚乱" submittype="2" submitparam="102,400005,强盗李彪,170015002"/>
+	<task taskid="2000440" tasklevel="1,40" name="讨伐" dec="前往东海湾平定骚乱" submittype="2" submitparam="101,300024,小海龟,170015003"/>
+	<task taskid="2000450" tasklevel="1,40" name="讨伐" dec="前往东海湾平定骚乱" submittype="2" submitparam="101,300031,野猪,170015004"/>
+	<task taskid="2000460" tasklevel="41,50" name="讨伐" dec="前往海底迷宫平定骚乱" submittype="2" submitparam="104,300010,寄居蟹,170040001"/>
+	<task taskid="2000470" tasklevel="41,50" name="讨伐" dec="前往建邺城平定骚乱" submittype="2" submitparam="102,400005,强盗李彪,170040002"/>
+	<task taskid="2000480" tasklevel="41,50" name="讨伐" dec="前往海底迷宫平定骚乱" submittype="2" submitparam="104,300035,虾兵,170040003"/>
+	<task taskid="2000490" tasklevel="41,50" name="讨伐" dec="前往海底迷宫平定骚乱" submittype="2" submitparam="104,300024,小海龟,170040004"/>
+	<task taskid="2000500" tasklevel="41,50" name="讨伐" dec="前往海底迷宫平定骚乱" submittype="2" submitparam="104,300037,蟹将,170040005"/>
+	<task taskid="2000510" tasklevel="41,50" name="讨伐" dec="前往建邺城平定骚乱" submittype="2" submitparam="102,300031,野猪,170040006"/>
+	<task taskid="2000520" tasklevel="51,60" name="讨伐" dec="前往建邺城平定骚乱" submittype="2" submitparam="102,400005,强盗李彪,170050001"/>
+	<task taskid="2000530" tasklevel="51,60" name="讨伐" dec="前往海底迷宫平定骚乱" submittype="2" submitparam="104,300035,虾兵,170050002"/>
+	<task taskid="2000540" tasklevel="51,60" name="讨伐" dec="前往海底迷宫平定骚乱" submittype="2" submitparam="104,300037,蟹将,170050003"/>
+	<task taskid="2000550" tasklevel="61,70" name="讨伐" dec="前往长安城平定骚乱" submittype="2" submitparam="103,400005,强盗李彪,170060001"/>
+	<task taskid="2000560" tasklevel="61,70" name="讨伐" dec="前往长安城平定骚乱" submittype="2" submitparam="103,300013,上古瑞兽,170060002"/>
+	<task taskid="2000570" tasklevel="61,70" name="讨伐" dec="前往海底迷宫平定骚乱" submittype="2" submitparam="104,300035,虾兵,170060003"/>
+	<task taskid="2000580" tasklevel="61,70" name="讨伐" dec="前往海底迷宫平定骚乱" submittype="2" submitparam="104,300026,小龙女,170060004"/>
+	<task taskid="2000590" tasklevel="61,70" name="讨伐" dec="前往海底迷宫平定骚乱" submittype="2" submitparam="104,300037,蟹将,170060005"/>
+	<task taskid="2000600" tasklevel="71,80" name="讨伐" dec="前往花果山平定骚乱" submittype="2" submitparam="105,300028,蛮熊怪,170070001"/>
+	<task taskid="2000610" tasklevel="71,80" name="讨伐" dec="前往长安城平定骚乱" submittype="2" submitparam="103,400005,强盗李彪,170070002"/>
+	<task taskid="2000620" tasklevel="71,80" name="讨伐" dec="前往长安城平定骚乱" submittype="2" submitparam="103,300013,上古瑞兽,170070003"/>
+	<task taskid="2000630" tasklevel="71,80" name="讨伐" dec="前往海底迷宫平定骚乱" submittype="2" submitparam="104,300035,虾兵,170070004"/>
+	<task taskid="2000640" tasklevel="71,80" name="讨伐" dec="前往海底迷宫平定骚乱" submittype="2" submitparam="104,300026,小龙女,170070005"/>
+	<task taskid="2000650" tasklevel="71,80" name="讨伐" dec="前往海底迷宫平定骚乱" submittype="2" submitparam="104,300037,蟹将,170070006"/>
+	<task taskid="2000660" tasklevel="81,90" name="讨伐" dec="前往花果山平定骚乱" submittype="2" submitparam="105,300028,蛮熊怪,170080001"/>
+	<task taskid="2000670" tasklevel="81,90" name="讨伐" dec="前往长安城平定骚乱" submittype="2" submitparam="103,300013,上古瑞兽,170080002"/>
+	<task taskid="2000680" tasklevel="81,90" name="讨伐" dec="前往海底迷宫平定骚乱" submittype="2" submitparam="104,300035,虾兵,170080003"/>
+	<task taskid="2000690" tasklevel="81,90" name="讨伐" dec="前往海底迷宫平定骚乱" submittype="2" submitparam="104,300026,小龙女,170080004"/>
+	<task taskid="2000700" tasklevel="81,90" name="讨伐" dec="前往海底迷宫平定骚乱" submittype="2" submitparam="104,300037,蟹将,170080005"/>
+	<task taskid="2000710" tasklevel="91,100" name="讨伐" dec="前往花果山平定骚乱" submittype="2" submitparam="105,300008,虎精,170090001"/>
+	<task taskid="2000720" tasklevel="91,100" name="讨伐" dec="前往地狱迷宫平定骚乱" submittype="2" submitparam="107,300012,马面怪,170090002"/>
+	<task taskid="2000730" tasklevel="91,100" name="讨伐" dec="前往花果山平定骚乱" submittype="2" submitparam="105,300028,蛮熊怪,170090003"/>
+	<task taskid="2000740" tasklevel="91,100" name="讨伐" dec="前往地狱迷宫平定骚乱" submittype="2" submitparam="107,300033,牛头怪,170090004"/>
+	<task taskid="2000750" tasklevel="91,100" name="讨伐" dec="前往傲来国平定骚乱" submittype="2" submitparam="106,300017,伞妖,170090005"/>
+	<task taskid="2000760" tasklevel="91,100" name="讨伐" dec="前往花果山平定骚乱" submittype="2" submitparam="105,300013,上古瑞兽,170090006"/>
+	<task taskid="2000770" tasklevel="91,100" name="讨伐" dec="前往海底迷宫平定骚乱" submittype="2" submitparam="104,300026,小龙女,170090007"/>
+	<task taskid="2000780" tasklevel="101,110" name="讨伐" dec="前往花果山平定骚乱" submittype="2" submitparam="105,300008,虎精,170100001"/>
+	<task taskid="2000790" tasklevel="101,110" name="讨伐" dec="前往地狱迷宫平定骚乱" submittype="2" submitparam="107,300012,马面怪,170100002"/>
+	<task taskid="2000800" tasklevel="101,110" name="讨伐" dec="前往傲来国平定骚乱" submittype="2" submitparam="106,300028,蛮熊怪,170100003"/>
+	<task taskid="2000810" tasklevel="101,110" name="讨伐" dec="前往地狱迷宫平定骚乱" submittype="2" submitparam="107,300033,牛头怪,170100004"/>
+	<task taskid="2000820" tasklevel="101,110" name="讨伐" dec="前往傲来国平定骚乱" submittype="2" submitparam="106,300017,伞妖,170100005"/>
+	<task taskid="2000830" tasklevel="101,110" name="讨伐" dec="前往花果山平定骚乱" submittype="2" submitparam="105,300013,上古瑞兽,170100006"/>
+	<task taskid="2000840" tasklevel="101,110" name="讨伐" dec="前往地狱迷宫平定骚乱" submittype="2" submitparam="107,300022,嗜血鬼,170100007"/>
+	<task taskid="2000850" tasklevel="101,110" name="讨伐" dec="前往海底迷宫平定骚乱" submittype="2" submitparam="104,300026,小龙女,170100008"/>
+	<task taskid="2000860" tasklevel="111,120" name="讨伐" dec="前往花果山平定骚乱" submittype="2" submitparam="105,300008,虎精,170110001"/>
+	<task taskid="2000870" tasklevel="111,120" name="讨伐" dec="前往傲来国平定骚乱" submittype="2" submitparam="106,300009,画中仙,170110002"/>
+	<task taskid="2000880" tasklevel="111,120" name="讨伐" dec="前往地狱迷宫平定骚乱" submittype="2" submitparam="107,300012,马面怪,170110003"/>
+	<task taskid="2000890" tasklevel="111,120" name="讨伐" dec="前往傲来国平定骚乱" submittype="2" submitparam="106,300028,蛮熊怪,170110004"/>
+	<task taskid="2000900" tasklevel="111,120" name="讨伐" dec="前往地狱迷宫平定骚乱" submittype="2" submitparam="107,300033,牛头怪,170110005"/>
+	<task taskid="2000910" tasklevel="111,120" name="讨伐" dec="前往凌霄天宫平定骚乱" submittype="2" submitparam="109,300015,蟠桃童子,170110006"/>
+	<task taskid="2000920" tasklevel="111,120" name="讨伐" dec="前往傲来国平定骚乱" submittype="2" submitparam="106,300017,伞妖,170110007"/>
+	<task taskid="2000930" tasklevel="111,120" name="讨伐" dec="前往花果山平定骚乱" submittype="2" submitparam="105,300013,上古瑞兽,170110008"/>
+	<task taskid="2000940" tasklevel="111,120" name="讨伐" dec="前往地狱迷宫平定骚乱" submittype="2" submitparam="107,300022,嗜血鬼,170110009"/>
+	<task taskid="2000950" tasklevel="111,120" name="讨伐" dec="前往地狱迷宫平定骚乱" submittype="2" submitparam="107,300034,无面鬼将,170110010"/>
+	<task taskid="2000960" tasklevel="111,120" name="讨伐" dec="前往福寿村平定骚乱" submittype="2" submitparam="108,300023,仙鹤童子,170110011"/>
+	<task taskid="2000970" tasklevel="111,120" name="讨伐" dec="前往海底迷宫平定骚乱" submittype="2" submitparam="104,300026,小龙女,170110012"/>
+	<task taskid="2000980" tasklevel="121,130" name="讨伐" dec="前往福寿村平定骚乱" submittype="2" submitparam="108,300005,黑山老妖,170120001"/>
+	<task taskid="2000990" tasklevel="121,130" name="讨伐" dec="前往花果山平定骚乱" submittype="2" submitparam="105,300008,虎精,170120002"/>
+	<task taskid="2001000" tasklevel="121,130" name="讨伐" dec="前往傲来国平定骚乱" submittype="2" submitparam="106,300009,画中仙,170120003"/>
+	<task taskid="2001010" tasklevel="121,130" name="讨伐" dec="前往凌霄天宫平定骚乱" submittype="2" submitparam="109,300015,蟠桃童子,170120004"/>
+	<task taskid="2001020" tasklevel="121,130" name="讨伐" dec="前往傲来国平定骚乱" submittype="2" submitparam="106,300017,伞妖,170120005"/>
+	<task taskid="2001030" tasklevel="121,130" name="讨伐" dec="前往地狱迷宫平定骚乱" submittype="2" submitparam="107,300022,嗜血鬼,170120006"/>
+	<task taskid="2001040" tasklevel="121,130" name="讨伐" dec="前往地狱迷宫平定骚乱" submittype="2" submitparam="107,300034,无面鬼将,170120007"/>
+	<task taskid="2001050" tasklevel="121,130" name="讨伐" dec="前往福寿村平定骚乱" submittype="2" submitparam="108,300023,仙鹤童子,170120008"/>
+	<task taskid="2001060" tasklevel="131,140" name="讨伐" dec="前往凌霄天宫平定骚乱" submittype="2" submitparam="109,300002,彩凤仙女,170130001"/>
+	<task taskid="2001070" tasklevel="131,140" name="讨伐" dec="前往福寿村平定骚乱" submittype="2" submitparam="108,300005,黑山老妖,170130002"/>
+	<task taskid="2001080" tasklevel="131,140" name="讨伐" dec="前往傲来国平定骚乱" submittype="2" submitparam="106,300009,画中仙,170130003"/>
+	<task taskid="2001090" tasklevel="131,140" name="讨伐" dec="前往凌霄天宫平定骚乱" submittype="2" submitparam="109,300015,蟠桃童子,170130004"/>
+	<task taskid="2001100" tasklevel="131,140" name="讨伐" dec="前往地狱迷宫平定骚乱" submittype="2" submitparam="107,300022,嗜血鬼,170130005"/>
+	<task taskid="2001110" tasklevel="131,140" name="讨伐" dec="前往地狱迷宫平定骚乱" submittype="2" submitparam="107,300034,无面鬼将,170130006"/>
+	<task taskid="2001120" tasklevel="131,140" name="讨伐" dec="前往福寿村平定骚乱" submittype="2" submitparam="108,300023,仙鹤童子,170130007"/>
+	<task taskid="2001130" tasklevel="131,140" name="讨伐" dec="前往福寿村平定骚乱" submittype="2" submitparam="108,300023,仙鹤童子,170130008"/>
+	<task taskid="2001140" tasklevel="131,140" name="讨伐" dec="前往凌霄天宫平定骚乱" submittype="2" submitparam="109,300018,瑶池天兵,170130009"/>
+	<task taskid="2001150" tasklevel="141,150" name="讨伐" dec="前往凌霄天宫平定骚乱" submittype="2" submitparam="109,300002,彩凤仙女,170140001"/>
+	<task taskid="2001160" tasklevel="141,150" name="讨伐" dec="前往福寿村平定骚乱" submittype="2" submitparam="108,300005,黑山老妖,170140002"/>
+	<task taskid="2001170" tasklevel="141,150" name="讨伐" dec="前往傲来国平定骚乱" submittype="2" submitparam="106,300009,画中仙,170140003"/>
+	<task taskid="2001180" tasklevel="141,150" name="讨伐" dec="前往凌霄天宫平定骚乱" submittype="2" submitparam="109,300015,蟠桃童子,170140004"/>
+	<task taskid="2001190" tasklevel="141,150" name="讨伐" dec="前往地狱迷宫平定骚乱" submittype="2" submitparam="107,300022,嗜血鬼,170140005"/>
+	<task taskid="2001200" tasklevel="141,150" name="讨伐" dec="前往地狱迷宫平定骚乱" submittype="2" submitparam="107,300034,无面鬼将,170140006"/>
+	<task taskid="2001210" tasklevel="141,150" name="讨伐" dec="前往福寿村平定骚乱" submittype="2" submitparam="108,300023,仙鹤童子,170140007"/>
+	<task taskid="2001220" tasklevel="141,150" name="讨伐" dec="前往福寿村平定骚乱" submittype="2" submitparam="108,300023,仙鹤童子,170140008"/>
+	<task taskid="2001230" tasklevel="141,150" name="讨伐" dec="前往凌霄天宫平定骚乱" submittype="2" submitparam="109,300018,瑶池天兵,170140009"/>
+	<task taskid="2001240" tasklevel="151,160" name="讨伐" dec="前往凌霄天宫平定骚乱" submittype="2" submitparam="109,300002,彩凤仙女,170150001"/>
+	<task taskid="2001250" tasklevel="151,160" name="讨伐" dec="前往福寿村平定骚乱" submittype="2" submitparam="108,300005,黑山老妖,170150002"/>
+	<task taskid="2001260" tasklevel="151,160" name="讨伐" dec="前往傲来国平定骚乱" submittype="2" submitparam="106,300009,画中仙,170150003"/>
+	<task taskid="2001270" tasklevel="151,160" name="讨伐" dec="前往凌霄天宫平定骚乱" submittype="2" submitparam="109,300015,蟠桃童子,170150004"/>
+	<task taskid="2001280" tasklevel="151,160" name="讨伐" dec="前往地狱迷宫平定骚乱" submittype="2" submitparam="107,300022,嗜血鬼,170150005"/>
+	<task taskid="2001290" tasklevel="151,160" name="讨伐" dec="前往地狱迷宫平定骚乱" submittype="2" submitparam="107,300034,无面鬼将,170150006"/>
+	<task taskid="2001300" tasklevel="151,160" name="讨伐" dec="前往福寿村平定骚乱" submittype="2" submitparam="108,300023,仙鹤童子,170150007"/>
+	<task taskid="2001310" tasklevel="151,160" name="讨伐" dec="前往福寿村平定骚乱" submittype="2" submitparam="108,300023,仙鹤童子,170150008"/>
+	<task taskid="2001320" tasklevel="151,160" name="讨伐" dec="前往凌霄天宫平定骚乱" submittype="2" submitparam="109,300018,瑶池天兵,170150009"/>
+	<task taskid="2001330" tasklevel="1,40" name="巡逻" dec="前往东海湾平定骚乱" submittype="1" submitparam="101,170015001"/>
+	<task taskid="2001340" tasklevel="1,40" name="巡逻" dec="前往建邺城平定骚乱" submittype="1" submitparam="102,170015002"/>
+	<task taskid="2001350" tasklevel="1,40" name="巡逻" dec="前往东海湾平定骚乱" submittype="1" submitparam="101,170015003"/>
+	<task taskid="2001360" tasklevel="1,40" name="巡逻" dec="前往东海湾平定骚乱" submittype="1" submitparam="101,170015004"/>
+	<task taskid="2001370" tasklevel="41,50" name="巡逻" dec="前往海底迷宫平定骚乱" submittype="1" submitparam="104,170040001"/>
+	<task taskid="2001380" tasklevel="41,50" name="巡逻" dec="前往建邺城平定骚乱" submittype="1" submitparam="102,170040002"/>
+	<task taskid="2001390" tasklevel="41,50" name="巡逻" dec="前往海底迷宫平定骚乱" submittype="1" submitparam="104,170040003"/>
+	<task taskid="2001400" tasklevel="41,50" name="巡逻" dec="前往海底迷宫平定骚乱" submittype="1" submitparam="104,170040004"/>
+	<task taskid="2001410" tasklevel="41,50" name="巡逻" dec="前往海底迷宫平定骚乱" submittype="1" submitparam="104,170040005"/>
+	<task taskid="2001420" tasklevel="41,50" name="巡逻" dec="前往建邺城平定骚乱" submittype="1" submitparam="102,170040006"/>
+	<task taskid="2001430" tasklevel="51,60" name="巡逻" dec="前往建邺城平定骚乱" submittype="1" submitparam="102,170050001"/>
+	<task taskid="2001440" tasklevel="51,60" name="巡逻" dec="前往海底迷宫平定骚乱" submittype="1" submitparam="104,170050002"/>
+	<task taskid="2001450" tasklevel="51,60" name="巡逻" dec="前往海底迷宫平定骚乱" submittype="1" submitparam="104,170050003"/>
+	<task taskid="2001460" tasklevel="61,70" name="巡逻" dec="前往长安城平定骚乱" submittype="1" submitparam="103,170060001"/>
+	<task taskid="2001470" tasklevel="61,70" name="巡逻" dec="前往长安城平定骚乱" submittype="1" submitparam="103,170060002"/>
+	<task taskid="2001480" tasklevel="61,70" name="巡逻" dec="前往海底迷宫平定骚乱" submittype="1" submitparam="104,170060003"/>
+	<task taskid="2001490" tasklevel="61,70" name="巡逻" dec="前往海底迷宫平定骚乱" submittype="1" submitparam="104,170060004"/>
+	<task taskid="2001500" tasklevel="61,70" name="巡逻" dec="前往海底迷宫平定骚乱" submittype="1" submitparam="104,170060005"/>
+	<task taskid="2001510" tasklevel="71,80" name="巡逻" dec="前往花果山平定骚乱" submittype="1" submitparam="105,170070001"/>
+	<task taskid="2001520" tasklevel="71,80" name="巡逻" dec="前往长安城平定骚乱" submittype="1" submitparam="103,170070002"/>
+	<task taskid="2001530" tasklevel="71,80" name="巡逻" dec="前往长安城平定骚乱" submittype="1" submitparam="103,170070003"/>
+	<task taskid="2001540" tasklevel="71,80" name="巡逻" dec="前往海底迷宫平定骚乱" submittype="1" submitparam="104,170070004"/>
+	<task taskid="2001550" tasklevel="71,80" name="巡逻" dec="前往海底迷宫平定骚乱" submittype="1" submitparam="104,170070005"/>
+	<task taskid="2001560" tasklevel="71,80" name="巡逻" dec="前往海底迷宫平定骚乱" submittype="1" submitparam="104,170070006"/>
+	<task taskid="2001570" tasklevel="81,90" name="巡逻" dec="前往花果山平定骚乱" submittype="1" submitparam="105,170080001"/>
+	<task taskid="2001580" tasklevel="81,90" name="巡逻" dec="前往长安城平定骚乱" submittype="1" submitparam="103,170080002"/>
+	<task taskid="2001590" tasklevel="81,90" name="巡逻" dec="前往海底迷宫平定骚乱" submittype="1" submitparam="104,170080003"/>
+	<task taskid="2001600" tasklevel="81,90" name="巡逻" dec="前往海底迷宫平定骚乱" submittype="1" submitparam="104,170080004"/>
+	<task taskid="2001610" tasklevel="81,90" name="巡逻" dec="前往海底迷宫平定骚乱" submittype="1" submitparam="104,170080005"/>
+	<task taskid="2001620" tasklevel="91,100" name="巡逻" dec="前往花果山平定骚乱" submittype="1" submitparam="105,170090001"/>
+	<task taskid="2001630" tasklevel="91,100" name="巡逻" dec="前往地狱迷宫平定骚乱" submittype="1" submitparam="107,170090002"/>
+	<task taskid="2001640" tasklevel="91,100" name="巡逻" dec="前往花果山平定骚乱" submittype="1" submitparam="105,170090003"/>
+	<task taskid="2001650" tasklevel="91,100" name="巡逻" dec="前往地狱迷宫平定骚乱" submittype="1" submitparam="107,170090004"/>
+	<task taskid="2001660" tasklevel="91,100" name="巡逻" dec="前往傲来国平定骚乱" submittype="1" submitparam="106,170090005"/>
+	<task taskid="2001670" tasklevel="91,100" name="巡逻" dec="前往花果山平定骚乱" submittype="1" submitparam="105,170090006"/>
+	<task taskid="2001680" tasklevel="91,100" name="巡逻" dec="前往海底迷宫平定骚乱" submittype="1" submitparam="104,170090007"/>
+	<task taskid="2001690" tasklevel="101,110" name="巡逻" dec="前往花果山平定骚乱" submittype="1" submitparam="105,170100001"/>
+	<task taskid="2001700" tasklevel="101,110" name="巡逻" dec="前往地狱迷宫平定骚乱" submittype="1" submitparam="107,170100002"/>
+	<task taskid="2001710" tasklevel="101,110" name="巡逻" dec="前往傲来国平定骚乱" submittype="1" submitparam="106,170100003"/>
+	<task taskid="2001720" tasklevel="101,110" name="巡逻" dec="前往地狱迷宫平定骚乱" submittype="1" submitparam="107,170100004"/>
+	<task taskid="2001730" tasklevel="101,110" name="巡逻" dec="前往傲来国平定骚乱" submittype="1" submitparam="106,170100005"/>
+	<task taskid="2001740" tasklevel="101,110" name="巡逻" dec="前往花果山平定骚乱" submittype="1" submitparam="105,170100006"/>
+	<task taskid="2001750" tasklevel="101,110" name="巡逻" dec="前往地狱迷宫平定骚乱" submittype="1" submitparam="107,170100007"/>
+	<task taskid="2001760" tasklevel="101,110" name="巡逻" dec="前往海底迷宫平定骚乱" submittype="1" submitparam="104,170100008"/>
+	<task taskid="2001770" tasklevel="111,120" name="巡逻" dec="前往花果山平定骚乱" submittype="1" submitparam="105,170110001"/>
+	<task taskid="2001780" tasklevel="111,120" name="巡逻" dec="前往傲来国平定骚乱" submittype="1" submitparam="106,170110002"/>
+	<task taskid="2001790" tasklevel="111,120" name="巡逻" dec="前往地狱迷宫平定骚乱" submittype="1" submitparam="107,170110003"/>
+	<task taskid="2001800" tasklevel="111,120" name="巡逻" dec="前往傲来国平定骚乱" submittype="1" submitparam="106,170110004"/>
+	<task taskid="2001810" tasklevel="111,120" name="巡逻" dec="前往地狱迷宫平定骚乱" submittype="1" submitparam="107,170110005"/>
+	<task taskid="2001820" tasklevel="111,120" name="巡逻" dec="前往凌霄天宫平定骚乱" submittype="1" submitparam="109,170110006"/>
+	<task taskid="2001830" tasklevel="111,120" name="巡逻" dec="前往傲来国平定骚乱" submittype="1" submitparam="106,170110007"/>
+	<task taskid="2001840" tasklevel="111,120" name="巡逻" dec="前往花果山平定骚乱" submittype="1" submitparam="105,170110008"/>
+	<task taskid="2001850" tasklevel="111,120" name="巡逻" dec="前往地狱迷宫平定骚乱" submittype="1" submitparam="107,170110009"/>
+	<task taskid="2001860" tasklevel="111,120" name="巡逻" dec="前往地狱迷宫平定骚乱" submittype="1" submitparam="107,170110010"/>
+	<task taskid="2001870" tasklevel="111,120" name="巡逻" dec="前往福寿村平定骚乱" submittype="1" submitparam="108,170110011"/>
+	<task taskid="2001880" tasklevel="111,120" name="巡逻" dec="前往海底迷宫平定骚乱" submittype="1" submitparam="104,170110012"/>
+	<task taskid="2001890" tasklevel="121,130" name="巡逻" dec="前往福寿村平定骚乱" submittype="1" submitparam="108,170120001"/>
+	<task taskid="2001900" tasklevel="121,130" name="巡逻" dec="前往花果山平定骚乱" submittype="1" submitparam="105,170120002"/>
+	<task taskid="2001910" tasklevel="121,130" name="巡逻" dec="前往傲来国平定骚乱" submittype="1" submitparam="106,170120003"/>
+	<task taskid="2001920" tasklevel="121,130" name="巡逻" dec="前往凌霄天宫平定骚乱" submittype="1" submitparam="109,170120004"/>
+	<task taskid="2001930" tasklevel="121,130" name="巡逻" dec="前往傲来国平定骚乱" submittype="1" submitparam="106,170120005"/>
+	<task taskid="2001940" tasklevel="121,130" name="巡逻" dec="前往地狱迷宫平定骚乱" submittype="1" submitparam="107,170120006"/>
+	<task taskid="2001950" tasklevel="121,130" name="巡逻" dec="前往地狱迷宫平定骚乱" submittype="1" submitparam="107,170120007"/>
+	<task taskid="2001960" tasklevel="121,130" name="巡逻" dec="前往福寿村平定骚乱" submittype="1" submitparam="108,170120008"/>
+	<task taskid="2001970" tasklevel="131,140" name="巡逻" dec="前往凌霄天宫平定骚乱" submittype="1" submitparam="109,170130001"/>
+	<task taskid="2001980" tasklevel="131,140" name="巡逻" dec="前往福寿村平定骚乱" submittype="1" submitparam="108,170130002"/>
+	<task taskid="2001990" tasklevel="131,140" name="巡逻" dec="前往傲来国平定骚乱" submittype="1" submitparam="106,170130003"/>
+	<task taskid="2002000" tasklevel="131,140" name="巡逻" dec="前往凌霄天宫平定骚乱" submittype="1" submitparam="109,170130004"/>
+	<task taskid="2002010" tasklevel="131,140" name="巡逻" dec="前往地狱迷宫平定骚乱" submittype="1" submitparam="107,170130005"/>
+	<task taskid="2002020" tasklevel="131,140" name="巡逻" dec="前往地狱迷宫平定骚乱" submittype="1" submitparam="107,170130006"/>
+	<task taskid="2002030" tasklevel="131,140" name="巡逻" dec="前往福寿村平定骚乱" submittype="1" submitparam="108,170130007"/>
+	<task taskid="2002040" tasklevel="131,140" name="巡逻" dec="前往福寿村平定骚乱" submittype="1" submitparam="108,170130008"/>
+	<task taskid="2002050" tasklevel="131,140" name="巡逻" dec="前往凌霄天宫平定骚乱" submittype="1" submitparam="109,170130009"/>
+	<task taskid="2002060" tasklevel="141,150" name="巡逻" dec="前往凌霄天宫平定骚乱" submittype="1" submitparam="109,170140001"/>
+	<task taskid="2002070" tasklevel="141,150" name="巡逻" dec="前往福寿村平定骚乱" submittype="1" submitparam="108,170140002"/>
+	<task taskid="2002080" tasklevel="141,150" name="巡逻" dec="前往傲来国平定骚乱" submittype="1" submitparam="106,170140003"/>
+	<task taskid="2002090" tasklevel="141,150" name="巡逻" dec="前往凌霄天宫平定骚乱" submittype="1" submitparam="109,170140004"/>
+	<task taskid="2002100" tasklevel="141,150" name="巡逻" dec="前往地狱迷宫平定骚乱" submittype="1" submitparam="107,170140005"/>
+	<task taskid="2002110" tasklevel="141,150" name="巡逻" dec="前往地狱迷宫平定骚乱" submittype="1" submitparam="107,170140006"/>
+	<task taskid="2002120" tasklevel="141,150" name="巡逻" dec="前往福寿村平定骚乱" submittype="1" submitparam="108,170140007"/>
+	<task taskid="2002130" tasklevel="141,150" name="巡逻" dec="前往福寿村平定骚乱" submittype="1" submitparam="108,170140008"/>
+	<task taskid="2002140" tasklevel="141,150" name="巡逻" dec="前往凌霄天宫平定骚乱" submittype="1" submitparam="109,170140009"/>
+	<task taskid="2002150" tasklevel="151,160" name="巡逻" dec="前往凌霄天宫平定骚乱" submittype="1" submitparam="109,170150001"/>
+	<task taskid="2002160" tasklevel="151,160" name="巡逻" dec="前往福寿村平定骚乱" submittype="1" submitparam="108,170150002"/>
+	<task taskid="2002170" tasklevel="151,160" name="巡逻" dec="前往傲来国平定骚乱" submittype="1" submitparam="106,170150003"/>
+	<task taskid="2002180" tasklevel="151,160" name="巡逻" dec="前往凌霄天宫平定骚乱" submittype="1" submitparam="109,170150004"/>
+	<task taskid="2002190" tasklevel="151,160" name="巡逻" dec="前往地狱迷宫平定骚乱" submittype="1" submitparam="107,170150005"/>
+	<task taskid="2002200" tasklevel="151,160" name="巡逻" dec="前往地狱迷宫平定骚乱" submittype="1" submitparam="107,170150006"/>
+	<task taskid="2002210" tasklevel="151,160" name="巡逻" dec="前往福寿村平定骚乱" submittype="1" submitparam="108,170150007"/>
+	<task taskid="2002220" tasklevel="151,160" name="巡逻" dec="前往福寿村平定骚乱" submittype="1" submitparam="108,170150008"/>
+	<task taskid="2002230" tasklevel="151,160" name="巡逻" dec="前往凌霄天宫平定骚乱" submittype="1" submitparam="109,170150009"/>
+	<task taskid="2002240" tasklevel="161,170" name="讨伐" dec="前往福寿村讨伐怪物" submittype="2" submitparam="108,300002,师门,170160001"/>
+	<task taskid="2002250" tasklevel="161,170" name="讨伐" dec="前往福寿村讨伐怪物" submittype="2" submitparam="108,300002,师门,170160002"/>
+	<task taskid="2002260" tasklevel="161,170" name="讨伐" dec="前往福寿村讨伐怪物" submittype="2" submitparam="108,300002,师门,170160003"/>
+	<task taskid="2002270" tasklevel="161,170" name="讨伐" dec="前往凌霄天宫讨伐怪物" submittype="2" submitparam="109,300002,师门,170160004"/>
+	<task taskid="2002280" tasklevel="161,170" name="讨伐" dec="前往凌霄天宫讨伐怪物" submittype="2" submitparam="109,300002,师门,170160005"/>
+	<task taskid="2002290" tasklevel="161,170" name="讨伐" dec="前往凌霄天宫讨伐怪物" submittype="2" submitparam="109,300002,师门,170160006"/>
+	<task taskid="2002300" tasklevel="161,170" name="讨伐" dec="前往瑶池讨伐怪物" submittype="2" submitparam="110,300002,师门,170160007"/>
+	<task taskid="2002310" tasklevel="161,170" name="讨伐" dec="前往瑶池讨伐怪物" submittype="2" submitparam="110,300002,师门,170160008"/>
+	<task taskid="2002320" tasklevel="161,170" name="讨伐" dec="前往瑶池讨伐怪物" submittype="2" submitparam="110,300002,师门,170160009"/>
+	<task taskid="2002330" tasklevel="171,180" name="讨伐" dec="前往福寿村讨伐怪物" submittype="2" submitparam="108,300002,师门,170170001"/>
+	<task taskid="2002340" tasklevel="171,180" name="讨伐" dec="前往福寿村讨伐怪物" submittype="2" submitparam="108,300002,师门,170170002"/>
+	<task taskid="2002350" tasklevel="171,180" name="讨伐" dec="前往福寿村讨伐怪物" submittype="2" submitparam="108,300002,师门,170170003"/>
+	<task taskid="2002360" tasklevel="171,180" name="讨伐" dec="前往凌霄天宫讨伐怪物" submittype="2" submitparam="109,300002,师门,170170004"/>
+	<task taskid="2002370" tasklevel="171,180" name="讨伐" dec="前往凌霄天宫讨伐怪物" submittype="2" submitparam="109,300002,师门,170170005"/>
+	<task taskid="2002380" tasklevel="171,180" name="讨伐" dec="前往凌霄天宫讨伐怪物" submittype="2" submitparam="109,300002,师门,170170006"/>
+	<task taskid="2002390" tasklevel="171,180" name="讨伐" dec="前往瑶池讨伐怪物" submittype="2" submitparam="110,300002,师门,170170007"/>
+	<task taskid="2002400" tasklevel="171,180" name="讨伐" dec="前往瑶池讨伐怪物" submittype="2" submitparam="110,300002,师门,170170008"/>
+	<task taskid="2002410" tasklevel="171,180" name="讨伐" dec="前往瑶池讨伐怪物" submittype="2" submitparam="110,300002,师门,170170009"/>
+	<task taskid="2002420" tasklevel="181,190" name="讨伐" dec="前往凌霄天宫讨伐怪物" submittype="2" submitparam="109,300002,师门,170180001"/>
+	<task taskid="2002430" tasklevel="181,190" name="讨伐" dec="前往凌霄天宫讨伐怪物" submittype="2" submitparam="109,300002,师门,170180002"/>
+	<task taskid="2002440" tasklevel="181,190" name="讨伐" dec="前往凌霄天宫讨伐怪物" submittype="2" submitparam="109,300002,师门,170180003"/>
+	<task taskid="2002450" tasklevel="181,190" name="讨伐" dec="前往瑶池讨伐怪物" submittype="2" submitparam="110,300002,师门,170180004"/>
+	<task taskid="2002460" tasklevel="181,190" name="讨伐" dec="前往瑶池讨伐怪物" submittype="2" submitparam="110,300002,师门,170180005"/>
+	<task taskid="2002470" tasklevel="181,190" name="讨伐" dec="前往瑶池讨伐怪物" submittype="2" submitparam="110,300002,师门,170180006"/>
+	<task taskid="2002480" tasklevel="181,190" name="讨伐" dec="前往女娲宫讨伐怪物" submittype="2" submitparam="111,300002,师门,170180007"/>
+	<task taskid="2002490" tasklevel="181,190" name="讨伐" dec="前往女娲宫讨伐怪物" submittype="2" submitparam="111,300002,师门,170180008"/>
+	<task taskid="2002500" tasklevel="181,190" name="讨伐" dec="前往女娲宫讨伐怪物" submittype="2" submitparam="111,300002,师门,170180009"/>
+	<task taskid="2002510" tasklevel="191,200" name="讨伐" dec="前往瑶池讨伐怪物" submittype="2" submitparam="110,300002,师门,170190001"/>
+	<task taskid="2002520" tasklevel="191,200" name="讨伐" dec="前往瑶池讨伐怪物" submittype="2" submitparam="110,300002,师门,170190002"/>
+	<task taskid="2002530" tasklevel="191,200" name="讨伐" dec="前往瑶池讨伐怪物" submittype="2" submitparam="110,300002,师门,170190003"/>
+	<task taskid="2002540" tasklevel="191,200" name="讨伐" dec="前往瑶池讨伐怪物" submittype="2" submitparam="110,300002,师门,170190004"/>
+	<task taskid="2002550" tasklevel="191,200" name="讨伐" dec="前往女娲宫讨伐怪物" submittype="2" submitparam="111,300002,师门,170190005"/>
+	<task taskid="2002560" tasklevel="191,200" name="讨伐" dec="前往女娲宫讨伐怪物" submittype="2" submitparam="111,300002,师门,170190006"/>
+	<task taskid="2002570" tasklevel="191,200" name="讨伐" dec="前往女娲宫讨伐怪物" submittype="2" submitparam="111,300002,师门,170190007"/>
+	<task taskid="2002580" tasklevel="191,200" name="讨伐" dec="前往女娲宫讨伐怪物" submittype="2" submitparam="111,300002,师门,170190008"/>
+	<task taskid="2002590" tasklevel="191,200" name="讨伐" dec="前往女娲宫讨伐怪物" submittype="2" submitparam="111,300002,师门,170190009"/>
+	<task taskid="2002600" tasklevel="201,210" name="讨伐" dec="前往女娲宫讨伐怪物" submittype="2" submitparam="111,300002,师门,170200001"/>
+	<task taskid="2002610" tasklevel="201,210" name="讨伐" dec="前往女娲宫讨伐怪物" submittype="2" submitparam="111,300002,师门,170200002"/>
+	<task taskid="2002620" tasklevel="201,210" name="讨伐" dec="前往女娲宫讨伐怪物" submittype="2" submitparam="111,300002,师门,170200003"/>
+	<task taskid="2002630" tasklevel="201,210" name="讨伐" dec="前往女娲宫讨伐怪物" submittype="2" submitparam="111,300002,师门,170200004"/>
+	<task taskid="2002640" tasklevel="201,210" name="讨伐" dec="前往无名鬼狱讨伐怪物" submittype="2" submitparam="112,300002,师门,170200005"/>
+	<task taskid="2002650" tasklevel="201,210" name="讨伐" dec="前往无名鬼狱讨伐怪物" submittype="2" submitparam="112,300002,师门,170200006"/>
+	<task taskid="2002660" tasklevel="201,210" name="讨伐" dec="前往无名鬼狱讨伐怪物" submittype="2" submitparam="112,300002,师门,170200007"/>
+	<task taskid="2002670" tasklevel="201,210" name="讨伐" dec="前往无名鬼狱讨伐怪物" submittype="2" submitparam="112,300002,师门,170200008"/>
+	<task taskid="2002680" tasklevel="201,210" name="讨伐" dec="前往无名鬼狱讨伐怪物" submittype="2" submitparam="112,300002,师门,170200009"/>
+	<task taskid="2002690" tasklevel="211,220" name="讨伐" dec="前往女娲宫讨伐怪物" submittype="2" submitparam="111,300002,师门,170210001"/>
+	<task taskid="2002700" tasklevel="211,220" name="讨伐" dec="前往女娲宫讨伐怪物" submittype="2" submitparam="111,300002,师门,170210002"/>
+	<task taskid="2002710" tasklevel="211,220" name="讨伐" dec="前往女娲宫讨伐怪物" submittype="2" submitparam="111,300002,师门,170210003"/>
+	<task taskid="2002720" tasklevel="211,220" name="讨伐" dec="前往女娲宫讨伐怪物" submittype="2" submitparam="111,300002,师门,170210004"/>
+	<task taskid="2002730" tasklevel="211,220" name="讨伐" dec="前往无名鬼狱讨伐怪物" submittype="2" submitparam="112,300002,师门,170210005"/>
+	<task taskid="2002740" tasklevel="211,220" name="讨伐" dec="前往无名鬼狱讨伐怪物" submittype="2" submitparam="112,300002,师门,170210006"/>
+	<task taskid="2002750" tasklevel="211,220" name="讨伐" dec="前往无名鬼狱讨伐怪物" submittype="2" submitparam="112,300002,师门,170210007"/>
+	<task taskid="2002760" tasklevel="211,220" name="讨伐" dec="前往无名鬼狱讨伐怪物" submittype="2" submitparam="112,300002,师门,170210008"/>
+	<task taskid="2002770" tasklevel="211,220" name="讨伐" dec="前往无名鬼狱讨伐怪物" submittype="2" submitparam="112,300002,师门,170210009"/>
+	<task taskid="2002780" tasklevel="221,230" name="讨伐" dec="前往无名鬼狱讨伐怪物" submittype="2" submitparam="112,300002,师门,170220001"/>
+	<task taskid="2002790" tasklevel="221,230" name="讨伐" dec="前往无名鬼狱讨伐怪物" submittype="2" submitparam="112,300002,师门,170220002"/>
+	<task taskid="2002800" tasklevel="221,230" name="讨伐" dec="前往无名鬼狱讨伐怪物" submittype="2" submitparam="112,300002,师门,170220003"/>
+	<task taskid="2002810" tasklevel="221,230" name="讨伐" dec="前往无名鬼狱讨伐怪物" submittype="2" submitparam="112,300002,师门,170220004"/>
+	<task taskid="2002820" tasklevel="221,230" name="讨伐" dec="前往小西天讨伐怪物" submittype="2" submitparam="113,300002,师门,170220005"/>
+	<task taskid="2002830" tasklevel="221,230" name="讨伐" dec="前往小西天讨伐怪物" submittype="2" submitparam="113,300002,师门,170220006"/>
+	<task taskid="2002840" tasklevel="221,230" name="讨伐" dec="前往小西天讨伐怪物" submittype="2" submitparam="113,300002,师门,170220007"/>
+	<task taskid="2002850" tasklevel="221,230" name="讨伐" dec="前往小西天讨伐怪物" submittype="2" submitparam="113,300002,师门,170220008"/>
+	<task taskid="2002860" tasklevel="221,230" name="讨伐" dec="前往小西天讨伐怪物" submittype="2" submitparam="113,300002,师门,170220009"/>
+	<task taskid="2002870" tasklevel="231,240" name="讨伐" dec="前往无名鬼狱讨伐怪物" submittype="2" submitparam="112,300002,师门,170230001"/>
+	<task taskid="2002880" tasklevel="231,240" name="讨伐" dec="前往无名鬼狱讨伐怪物" submittype="2" submitparam="112,300002,师门,170230002"/>
+	<task taskid="2002890" tasklevel="231,240" name="讨伐" dec="前往无名鬼狱讨伐怪物" submittype="2" submitparam="112,300002,师门,170230003"/>
+	<task taskid="2002900" tasklevel="231,240" name="讨伐" dec="前往无名鬼狱讨伐怪物" submittype="2" submitparam="112,300002,师门,170230004"/>
+	<task taskid="2002910" tasklevel="231,240" name="讨伐" dec="前往小西天讨伐怪物" submittype="2" submitparam="113,300002,师门,170230005"/>
+	<task taskid="2002920" tasklevel="231,240" name="讨伐" dec="前往小西天讨伐怪物" submittype="2" submitparam="113,300002,师门,170230006"/>
+	<task taskid="2002930" tasklevel="231,240" name="讨伐" dec="前往小西天讨伐怪物" submittype="2" submitparam="113,300002,师门,170230007"/>
+	<task taskid="2002940" tasklevel="231,240" name="讨伐" dec="前往小西天讨伐怪物" submittype="2" submitparam="113,300002,师门,170230008"/>
+	<task taskid="2002950" tasklevel="231,240" name="讨伐" dec="前往小西天讨伐怪物" submittype="2" submitparam="113,300002,师门,170230009"/>
+	<task taskid="2002960" tasklevel="241,250" name="讨伐" dec="前往小西天讨伐怪物" submittype="2" submitparam="113,300002,师门,170240001"/>
+	<task taskid="2002970" tasklevel="241,250" name="讨伐" dec="前往小西天讨伐怪物" submittype="2" submitparam="113,300002,师门,170240002"/>
+	<task taskid="2002980" tasklevel="241,250" name="讨伐" dec="前往小西天讨伐怪物" submittype="2" submitparam="113,300002,师门,170240003"/>
+	<task taskid="2002990" tasklevel="241,250" name="讨伐" dec="前往小西天讨伐怪物" submittype="2" submitparam="113,300002,师门,170240004"/>
+	<task taskid="2003000" tasklevel="241,250" name="讨伐" dec="前往小西天讨伐怪物" submittype="2" submitparam="113,300002,师门,170240005"/>
+	<task taskid="2003010" tasklevel="241,250" name="讨伐" dec="前往蟠桃园讨伐怪物" submittype="2" submitparam="114,300002,师门,170240006"/>
+	<task taskid="2003020" tasklevel="241,250" name="讨伐" dec="前往蟠桃园讨伐怪物" submittype="2" submitparam="114,300002,师门,170240007"/>
+	<task taskid="2003030" tasklevel="241,250" name="讨伐" dec="前往蟠桃园讨伐怪物" submittype="2" submitparam="114,300002,师门,170240008"/>
+	<task taskid="2003040" tasklevel="241,250" name="讨伐" dec="前往蟠桃园讨伐怪物" submittype="2" submitparam="114,300002,师门,170240009"/>
+	<task taskid="2003050" tasklevel="251,260" name="讨伐" dec="前往小西天讨伐怪物" submittype="2" submitparam="113,300002,师门,170250001"/>
+	<task taskid="2003060" tasklevel="251,260" name="讨伐" dec="前往小西天讨伐怪物" submittype="2" submitparam="113,300002,师门,170250002"/>
+	<task taskid="2003070" tasklevel="251,260" name="讨伐" dec="前往小西天讨伐怪物" submittype="2" submitparam="113,300002,师门,170250003"/>
+	<task taskid="2003080" tasklevel="251,260" name="讨伐" dec="前往小西天讨伐怪物" submittype="2" submitparam="113,300002,师门,170250004"/>
+	<task taskid="2003090" tasklevel="251,260" name="讨伐" dec="前往蟠桃园讨伐怪物" submittype="2" submitparam="114,300002,师门,170250005"/>
+	<task taskid="2003100" tasklevel="251,260" name="讨伐" dec="前往蟠桃园讨伐怪物" submittype="2" submitparam="114,300002,师门,170250006"/>
+	<task taskid="2003110" tasklevel="251,260" name="讨伐" dec="前往蟠桃园讨伐怪物" submittype="2" submitparam="114,300002,师门,170250007"/>
+	<task taskid="2003120" tasklevel="251,260" name="讨伐" dec="前往蟠桃园讨伐怪物" submittype="2" submitparam="114,300002,师门,170250008"/>
+	<task taskid="2003130" tasklevel="251,260" name="讨伐" dec="前往蟠桃园讨伐怪物" submittype="2" submitparam="114,300002,师门,170250009"/>
+	<task taskid="2003140" tasklevel="161,170" name="巡逻" dec="前往福寿村平定骚乱" submittype="1" submitparam="108,170160001"/>
+	<task taskid="2003150" tasklevel="161,170" name="巡逻" dec="前往福寿村平定骚乱" submittype="1" submitparam="108,170160002"/>
+	<task taskid="2003160" tasklevel="161,170" name="巡逻" dec="前往福寿村平定骚乱" submittype="1" submitparam="108,170160003"/>
+	<task taskid="2003170" tasklevel="161,170" name="巡逻" dec="前往凌霄天宫平定骚乱" submittype="1" submitparam="109,170160004"/>
+	<task taskid="2003180" tasklevel="161,170" name="巡逻" dec="前往凌霄天宫平定骚乱" submittype="1" submitparam="109,170160005"/>
+	<task taskid="2003190" tasklevel="161,170" name="巡逻" dec="前往凌霄天宫平定骚乱" submittype="1" submitparam="109,170160006"/>
+	<task taskid="2003200" tasklevel="161,170" name="巡逻" dec="前往瑶池平定骚乱" submittype="1" submitparam="110,170160007"/>
+	<task taskid="2003210" tasklevel="161,170" name="巡逻" dec="前往瑶池平定骚乱" submittype="1" submitparam="110,170160008"/>
+	<task taskid="2003220" tasklevel="161,170" name="巡逻" dec="前往瑶池平定骚乱" submittype="1" submitparam="110,170160009"/>
+	<task taskid="2003230" tasklevel="171,180" name="巡逻" dec="前往福寿村平定骚乱" submittype="1" submitparam="108,170170001"/>
+	<task taskid="2003240" tasklevel="171,180" name="巡逻" dec="前往福寿村平定骚乱" submittype="1" submitparam="108,170170002"/>
+	<task taskid="2003250" tasklevel="171,180" name="巡逻" dec="前往福寿村平定骚乱" submittype="1" submitparam="108,170170003"/>
+	<task taskid="2003260" tasklevel="171,180" name="巡逻" dec="前往凌霄天宫平定骚乱" submittype="1" submitparam="109,170170004"/>
+	<task taskid="2003270" tasklevel="171,180" name="巡逻" dec="前往凌霄天宫平定骚乱" submittype="1" submitparam="109,170170005"/>
+	<task taskid="2003280" tasklevel="171,180" name="巡逻" dec="前往凌霄天宫平定骚乱" submittype="1" submitparam="109,170170006"/>
+	<task taskid="2003290" tasklevel="171,180" name="巡逻" dec="前往瑶池平定骚乱" submittype="1" submitparam="110,170170007"/>
+	<task taskid="2003300" tasklevel="171,180" name="巡逻" dec="前往瑶池平定骚乱" submittype="1" submitparam="110,170170008"/>
+	<task taskid="2003310" tasklevel="171,180" name="巡逻" dec="前往瑶池平定骚乱" submittype="1" submitparam="110,170170009"/>
+	<task taskid="2003320" tasklevel="181,190" name="巡逻" dec="前往凌霄天宫平定骚乱" submittype="1" submitparam="109,170180001"/>
+	<task taskid="2003330" tasklevel="181,190" name="巡逻" dec="前往凌霄天宫平定骚乱" submittype="1" submitparam="109,170180002"/>
+	<task taskid="2003340" tasklevel="181,190" name="巡逻" dec="前往凌霄天宫平定骚乱" submittype="1" submitparam="109,170180003"/>
+	<task taskid="2003350" tasklevel="181,190" name="巡逻" dec="前往瑶池平定骚乱" submittype="1" submitparam="110,170180004"/>
+	<task taskid="2003360" tasklevel="181,190" name="巡逻" dec="前往瑶池平定骚乱" submittype="1" submitparam="110,170180005"/>
+	<task taskid="2003370" tasklevel="181,190" name="巡逻" dec="前往瑶池平定骚乱" submittype="1" submitparam="110,170180006"/>
+	<task taskid="2003380" tasklevel="181,190" name="巡逻" dec="前往女娲宫平定骚乱" submittype="1" submitparam="111,170180007"/>
+	<task taskid="2003390" tasklevel="181,190" name="巡逻" dec="前往女娲宫平定骚乱" submittype="1" submitparam="111,170180008"/>
+	<task taskid="2003400" tasklevel="181,190" name="巡逻" dec="前往女娲宫平定骚乱" submittype="1" submitparam="111,170180009"/>
+	<task taskid="2003410" tasklevel="191,200" name="巡逻" dec="前往瑶池平定骚乱" submittype="1" submitparam="110,170190001"/>
+	<task taskid="2003420" tasklevel="191,200" name="巡逻" dec="前往瑶池平定骚乱" submittype="1" submitparam="110,170190002"/>
+	<task taskid="2003430" tasklevel="191,200" name="巡逻" dec="前往瑶池平定骚乱" submittype="1" submitparam="110,170190003"/>
+	<task taskid="2003440" tasklevel="191,200" name="巡逻" dec="前往瑶池平定骚乱" submittype="1" submitparam="110,170190004"/>
+	<task taskid="2003450" tasklevel="191,200" name="巡逻" dec="前往女娲宫平定骚乱" submittype="1" submitparam="111,170190005"/>
+	<task taskid="2003460" tasklevel="191,200" name="巡逻" dec="前往女娲宫平定骚乱" submittype="1" submitparam="111,170190006"/>
+	<task taskid="2003470" tasklevel="191,200" name="巡逻" dec="前往女娲宫平定骚乱" submittype="1" submitparam="111,170190007"/>
+	<task taskid="2003480" tasklevel="191,200" name="巡逻" dec="前往女娲宫平定骚乱" submittype="1" submitparam="111,170190008"/>
+	<task taskid="2003490" tasklevel="191,200" name="巡逻" dec="前往女娲宫平定骚乱" submittype="1" submitparam="111,170190009"/>
+	<task taskid="2003500" tasklevel="201,210" name="巡逻" dec="前往女娲宫平定骚乱" submittype="1" submitparam="111,170200001"/>
+	<task taskid="2003510" tasklevel="201,210" name="巡逻" dec="前往女娲宫平定骚乱" submittype="1" submitparam="111,170200002"/>
+	<task taskid="2003520" tasklevel="201,210" name="巡逻" dec="前往女娲宫平定骚乱" submittype="1" submitparam="111,170200003"/>
+	<task taskid="2003530" tasklevel="201,210" name="巡逻" dec="前往女娲宫平定骚乱" submittype="1" submitparam="111,170200004"/>
+	<task taskid="2003540" tasklevel="201,210" name="巡逻" dec="前往无名鬼狱平定骚乱" submittype="1" submitparam="112,170200005"/>
+	<task taskid="2003550" tasklevel="201,210" name="巡逻" dec="前往无名鬼狱平定骚乱" submittype="1" submitparam="112,170200006"/>
+	<task taskid="2003560" tasklevel="201,210" name="巡逻" dec="前往无名鬼狱平定骚乱" submittype="1" submitparam="112,170200007"/>
+	<task taskid="2003570" tasklevel="201,210" name="巡逻" dec="前往无名鬼狱平定骚乱" submittype="1" submitparam="112,170200008"/>
+	<task taskid="2003580" tasklevel="201,210" name="巡逻" dec="前往无名鬼狱平定骚乱" submittype="1" submitparam="112,170200009"/>
+	<task taskid="2003590" tasklevel="211,220" name="巡逻" dec="前往女娲宫平定骚乱" submittype="1" submitparam="111,170210001"/>
+	<task taskid="2003600" tasklevel="211,220" name="巡逻" dec="前往女娲宫平定骚乱" submittype="1" submitparam="111,170210002"/>
+	<task taskid="2003610" tasklevel="211,220" name="巡逻" dec="前往女娲宫平定骚乱" submittype="1" submitparam="111,170210003"/>
+	<task taskid="2003620" tasklevel="211,220" name="巡逻" dec="前往女娲宫平定骚乱" submittype="1" submitparam="111,170210004"/>
+	<task taskid="2003630" tasklevel="211,220" name="巡逻" dec="前往无名鬼狱平定骚乱" submittype="1" submitparam="112,170210005"/>
+	<task taskid="2003640" tasklevel="211,220" name="巡逻" dec="前往无名鬼狱平定骚乱" submittype="1" submitparam="112,170210006"/>
+	<task taskid="2003650" tasklevel="211,220" name="巡逻" dec="前往无名鬼狱平定骚乱" submittype="1" submitparam="112,170210007"/>
+	<task taskid="2003660" tasklevel="211,220" name="巡逻" dec="前往无名鬼狱平定骚乱" submittype="1" submitparam="112,170210008"/>
+	<task taskid="2003670" tasklevel="211,220" name="巡逻" dec="前往无名鬼狱平定骚乱" submittype="1" submitparam="112,170210009"/>
+	<task taskid="2003680" tasklevel="221,230" name="巡逻" dec="前往无名鬼狱平定骚乱" submittype="1" submitparam="112,170220001"/>
+	<task taskid="2003690" tasklevel="221,230" name="巡逻" dec="前往无名鬼狱平定骚乱" submittype="1" submitparam="112,170220002"/>
+	<task taskid="2003700" tasklevel="221,230" name="巡逻" dec="前往无名鬼狱平定骚乱" submittype="1" submitparam="112,170220003"/>
+	<task taskid="2003710" tasklevel="221,230" name="巡逻" dec="前往无名鬼狱平定骚乱" submittype="1" submitparam="112,170220004"/>
+	<task taskid="2003720" tasklevel="221,230" name="巡逻" dec="前往小西天平定骚乱" submittype="1" submitparam="113,170220005"/>
+	<task taskid="2003730" tasklevel="221,230" name="巡逻" dec="前往小西天平定骚乱" submittype="1" submitparam="113,170220006"/>
+	<task taskid="2003740" tasklevel="221,230" name="巡逻" dec="前往小西天平定骚乱" submittype="1" submitparam="113,170220007"/>
+	<task taskid="2003750" tasklevel="221,230" name="巡逻" dec="前往小西天平定骚乱" submittype="1" submitparam="113,170220008"/>
+	<task taskid="2003760" tasklevel="221,230" name="巡逻" dec="前往小西天平定骚乱" submittype="1" submitparam="113,170220009"/>
+	<task taskid="2003770" tasklevel="231,240" name="巡逻" dec="前往无名鬼狱平定骚乱" submittype="1" submitparam="112,170230001"/>
+	<task taskid="2003780" tasklevel="231,240" name="巡逻" dec="前往无名鬼狱平定骚乱" submittype="1" submitparam="112,170230002"/>
+	<task taskid="2003790" tasklevel="231,240" name="巡逻" dec="前往无名鬼狱平定骚乱" submittype="1" submitparam="112,170230003"/>
+	<task taskid="2003800" tasklevel="231,240" name="巡逻" dec="前往无名鬼狱平定骚乱" submittype="1" submitparam="112,170230004"/>
+	<task taskid="2003810" tasklevel="231,240" name="巡逻" dec="前往小西天平定骚乱" submittype="1" submitparam="113,170230005"/>
+	<task taskid="2003820" tasklevel="231,240" name="巡逻" dec="前往小西天平定骚乱" submittype="1" submitparam="113,170230006"/>
+	<task taskid="2003830" tasklevel="231,240" name="巡逻" dec="前往小西天平定骚乱" submittype="1" submitparam="113,170230007"/>
+	<task taskid="2003840" tasklevel="231,240" name="巡逻" dec="前往小西天平定骚乱" submittype="1" submitparam="113,170230008"/>
+	<task taskid="2003850" tasklevel="231,240" name="巡逻" dec="前往小西天平定骚乱" submittype="1" submitparam="113,170230009"/>
+	<task taskid="2003860" tasklevel="241,250" name="巡逻" dec="前往小西天平定骚乱" submittype="1" submitparam="113,170240001"/>
+	<task taskid="2003870" tasklevel="241,250" name="巡逻" dec="前往小西天平定骚乱" submittype="1" submitparam="113,170240002"/>
+	<task taskid="2003880" tasklevel="241,250" name="巡逻" dec="前往小西天平定骚乱" submittype="1" submitparam="113,170240003"/>
+	<task taskid="2003890" tasklevel="241,250" name="巡逻" dec="前往小西天平定骚乱" submittype="1" submitparam="113,170240004"/>
+	<task taskid="2003900" tasklevel="241,250" name="巡逻" dec="前往小西天平定骚乱" submittype="1" submitparam="113,170240005"/>
+	<task taskid="2003910" tasklevel="241,250" name="巡逻" dec="前往蟠桃园平定骚乱" submittype="1" submitparam="114,170240006"/>
+	<task taskid="2003920" tasklevel="241,250" name="巡逻" dec="前往蟠桃园平定骚乱" submittype="1" submitparam="114,170240007"/>
+	<task taskid="2003930" tasklevel="241,250" name="巡逻" dec="前往蟠桃园平定骚乱" submittype="1" submitparam="114,170240008"/>
+	<task taskid="2003940" tasklevel="241,250" name="巡逻" dec="前往蟠桃园平定骚乱" submittype="1" submitparam="114,170240009"/>
+	<task taskid="2003950" tasklevel="251,260" name="巡逻" dec="前往小西天平定骚乱" submittype="1" submitparam="113,170250001"/>
+	<task taskid="2003960" tasklevel="251,260" name="巡逻" dec="前往小西天平定骚乱" submittype="1" submitparam="113,170250002"/>
+	<task taskid="2003970" tasklevel="251,260" name="巡逻" dec="前往小西天平定骚乱" submittype="1" submitparam="113,170250003"/>
+	<task taskid="2003980" tasklevel="251,260" name="巡逻" dec="前往小西天平定骚乱" submittype="1" submitparam="113,170250004"/>
+	<task taskid="2003990" tasklevel="251,260" name="巡逻" dec="前往蟠桃园平定骚乱" submittype="1" submitparam="114,170250005"/>
+	<task taskid="2004000" tasklevel="251,260" name="巡逻" dec="前往蟠桃园平定骚乱" submittype="1" submitparam="114,170250006"/>
+	<task taskid="2004010" tasklevel="251,260" name="巡逻" dec="前往蟠桃园平定骚乱" submittype="1" submitparam="114,170250007"/>
+	<task taskid="2004020" tasklevel="251,260" name="巡逻" dec="前往蟠桃园平定骚乱" submittype="1" submitparam="114,170250008"/>
+	<task taskid="2004030" tasklevel="251,260" name="巡逻" dec="前往蟠桃园平定骚乱" submittype="1" submitparam="114,170250009"/>
+	<task taskid="2100010" tasklevel="151,190" name="采集" dec="前往瑶池采集仙露" submittype="4" submitparam="110,1000,采集,3"/>
+	<task taskid="2100020" tasklevel="151,190" name="采集" dec="前往瑶池采集仙露" submittype="4" submitparam="110,1000,采集,3"/>
+	<task taskid="2100030" tasklevel="151,190" name="采集" dec="前往瑶池采集仙露" submittype="4" submitparam="110,1000,采集,3"/>
+	<task taskid="2100040" tasklevel="151,190" name="采集" dec="前往瑶池采集仙露" submittype="4" submitparam="110,1000,采集,3"/>
+	<task taskid="2100050" tasklevel="171,210" name="采集" dec="前往女娲宫采集仙石" submittype="4" submitparam="111,1000,采集,3"/>
+	<task taskid="2100060" tasklevel="171,210" name="采集" dec="前往女娲宫采集仙石" submittype="4" submitparam="111,1000,采集,3"/>
+	<task taskid="2100070" tasklevel="171,210" name="采集" dec="前往女娲宫采集仙石" submittype="4" submitparam="111,1000,采集,3"/>
+	<task taskid="2100080" tasklevel="171,210" name="采集" dec="前往女娲宫采集仙石" submittype="4" submitparam="111,1000,采集,3"/>
+	<task taskid="2100090" tasklevel="191,230" name="采集" dec="前往无名鬼狱采集魂石" submittype="4" submitparam="112,1000,采集,3"/>
+	<task taskid="2100100" tasklevel="191,230" name="采集" dec="前往无名鬼狱采集魂石" submittype="4" submitparam="112,1000,采集,3"/>
+	<task taskid="2100110" tasklevel="191,230" name="采集" dec="前往无名鬼狱采集魂石" submittype="4" submitparam="112,1000,采集,3"/>
+	<task taskid="2100120" tasklevel="191,230" name="采集" dec="前往无名鬼狱采集魂石" submittype="4" submitparam="112,1000,采集,3"/>
+	<task taskid="2100130" tasklevel="211,231" name="采集" dec="前往小西天采集仙露" submittype="4" submitparam="113,1000,采集,3"/>
+	<task taskid="2100140" tasklevel="211,231" name="采集" dec="前往小西天采集仙露" submittype="4" submitparam="113,1000,采集,3"/>
+	<task taskid="2100150" tasklevel="211,231" name="采集" dec="前往小西天采集仙露" submittype="4" submitparam="113,1000,采集,3"/>
+	<task taskid="2100160" tasklevel="211,231" name="采集" dec="前往小西天采集仙露" submittype="4" submitparam="113,1000,采集,3"/>
+	<task taskid="2100170" tasklevel="231,250" name="采集" dec="前往蟠桃园采集仙露" submittype="4" submitparam="114,1000,采集,3"/>
+	<task taskid="2100180" tasklevel="231,250" name="采集" dec="前往蟠桃园采集仙露" submittype="4" submitparam="114,1000,采集,3"/>
+	<task taskid="2100190" tasklevel="231,250" name="采集" dec="前往蟠桃园采集仙露" submittype="4" submitparam="114,1000,采集,3"/>
+	<task taskid="2100200" tasklevel="231,250" name="采集" dec="前往蟠桃园采集仙露" submittype="4" submitparam="114,1000,采集,3"/>
+</root>

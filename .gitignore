@@ -1,0 +1,10 @@
+# Docker images (too large for GitHub)
+*.tar
+*.tar.gz
+
+# Git
+.git/
+
+# Temp files
+*.log
+*.tmp

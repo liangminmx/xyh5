@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<train skillid="2000001" itemcost="10000021,1" weight="3000" newskillid="2000101"/>
+	<train skillid="2000002" itemcost="10000022,1" weight="10000" newskillid="2000102"/>
+	<train skillid="2000003" itemcost="10000023,1" weight="10000" newskillid="2000103"/>
+	<train skillid="2000004" itemcost="10000024,1" weight="10000" newskillid="2000104"/>
+	<train skillid="2000005" itemcost="10000025,1" weight="10000" newskillid="2000105"/>
+	<train skillid="2000006" itemcost="10000026,1" weight="10000" newskillid="2000106"/>
+	<train skillid="2000007" itemcost="10000027,1" weight="10000" newskillid="2000107"/>
+	<train skillid="2000008" itemcost="10000028,1" weight="3000" newskillid="2000108"/>
+	<train skillid="2000009" itemcost="10000029,1" weight="0" newskillid="2000109"/>
+	<train skillid="2000010" itemcost="10000030,1" weight="10000" newskillid="2000110"/>
+	<train skillid="2000011" itemcost="10000031,1" weight="10000" newskillid="2000111"/>
+	<train skillid="2000012" itemcost="10000032,1" weight="5000" newskillid="2000112"/>
+	<train skillid="2000013" itemcost="10000020,1" weight="2000" newskillid="2000113"/>
+	<train skillid="2000014" itemcost="10000033,1" weight="10000" newskillid="2000114"/>
+	<train skillid="2000015" itemcost="10000034,1" weight="5000" newskillid="2000115"/>
+	<train skillid="2000016" itemcost="10000035,1" weight="5000" newskillid="2000116"/>
+	<train skillid="2000017" itemcost="10000036,1" weight="5000" newskillid="2000117"/>
+	<train skillid="2000018" itemcost="10000037,1" weight="5000" newskillid="2000118"/>
+	<train skillid="2000019" itemcost="10000038,1" weight="10000" newskillid="2000119"/>
+	<train skillid="2000020" itemcost="10000039,1" weight="10000" newskillid="2000120"/>
+	<train skillid="2000021" itemcost="10000040,1" weight="10000" newskillid="2000121"/>
+	<train skillid="2000022" itemcost="10000041,1" weight="10000" newskillid="2000122"/>
+	<function clearcost="10000010,1" silver="0"/>
+	<lock lock="1" lockcost="" bMoney="50"/>
+	<lock lock="2" lockcost="" bMoney="100"/>
+	<lock lock="3" lockcost="" bMoney="150"/>
+	<lock lock="4" lockcost="" bMoney="200"/>
+	<lock lock="5" lockcost="" bMoney="250"/>
+	<lock lock="6" lockcost="" bMoney="300"/>
+	<lock lock="7" bMoney="350"/>
+	<lock lock="8" bMoney="400"/>
+	<lock lock="9" bMoney="450"/>
+	<lock lock="10" bMoney="500"/>
+	<lock lock="11" bMoney="550"/>
+	<lock lock="12" bMoney="600"/>
+</root>

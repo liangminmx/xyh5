@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+<OpenAPI url="openapi.tencentyun.com" appid="1101059905" appkey="L6uNankRGWjiGMje" format="json" payurl="/pay" zone="0" />
+</Root>

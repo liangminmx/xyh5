@@ -1,0 +1,11 @@
+<root>
+
+    <verification userid="549" account="xwjw" password="123123" content="验证码为#value#，感谢您使用免费绑定手机服务，若非本人操作，请忽略此条信息。" time="120" num="3" sendagain="60" mailid="78"/>
+
+    
+    <!--奖励道具-->
+    <item item="108705" num="5" bind="1"/>
+    <item item="100591" num="1" bind="1"/>
+    <item item="100001" num="5" bind="1"/>
+    <item item="100001" num="1" bind="1"/>
+</root>

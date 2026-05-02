@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+functionid	功能id	1	function
+freetime	每日免费寄养次数
+=-1 表示无限制	1	function
+jyid	寄养零食id(规定零食id=1为免费)	1	type
+typename	零食名称	1	type
+costitem	寄养消耗道具id（零食id=1时此处不填）	1	type
+costnum	消耗道具数量（零食id=1时此处不填）	1	type
+kuid	额外奖励库id（不填则无额外奖励）	1	type
+time	寄养持续时长（分钟）	1	type
+intervaltime	单次获得额外奖励时间间隔（秒）	1	type
+cishu	单次时间间隔抽取奖励库次数	1	type
+petexp	单次时间间隔获得的宠物经验	1	type
+			
+petquality	宠物品质	1	pet
+basekuid	基础奖励库id	1	pet
+			
+			
+kuid	额外奖励库id	1	ku
+itemid	道具id	2	item
+itemnum	道具数量	2	item
+weight	随机权重	2	item
+			
+basekuid	基础奖励库id	1	baseku
+itemid	道具id	2	base
+itemnum	道具数量	2	base
+weight	随机权重	2	base
+			
+place	寄养位id	1	place
+openlevel	寄养位开启等级	1	place
+viplevel	提前开启寄养位所需VIP等级	1	place
+-->
+	<function functionid="6689" freetime="-1"/>
+	<type jyid="1" typename="肉包子" costitem="" costnum="" kuid="1" time="240" intervaltime="4800" cishu="15" petexp="100000"/>
+	<type jyid="2" typename="梅花酒" costitem="16010061" costnum="1" kuid="2" time="120" intervaltime="1800" cishu="15" petexp="100000"/>
+	<type jyid="3" typename="百味酒" costitem="16010062" costnum="1" kuid="3" time="60" intervaltime="720" cishu="15" petexp="200000"/>
+	<type jyid="4" typename="蛇胆酒" costitem="16010063" costnum="1" kuid="4" time="30" intervaltime="300" cishu="15" petexp="500000"/>
+	<type jyid="5" typename="醉生梦死" costitem="16010068" costnum="1" kuid="5" time="15" intervaltime="90" cishu="15" petexp="1000000"/>
+	<pet petquality="2" basekuid="2"/>
+	<pet petquality="3" basekuid="3"/>
+	<pet petquality="4" basekuid="4"/>
+	<pet petquality="5" basekuid="5"/>
+	<ku kuid="1">
+		<item itemid="60000010" itemnum="1" weight="9700"/>
+		<item itemid="16010034" itemnum="1" weight="200"/>
+		<item itemid="16010035" itemnum="1" weight="100"/>
+	</ku>
+	<ku kuid="2">
+		<item itemid="60000010" itemnum="2" weight="9630"/>
+		<item itemid="16010034" itemnum="1" weight="240"/>
+		<item itemid="16010035" itemnum="1" weight="130"/>
+	</ku>
+	<ku kuid="3">
+		<item itemid="60000010" itemnum="3" weight="7460"/>
+		<item itemid="16010035" itemnum="1" weight="280"/>
+		<item itemid="16010036" itemnum="1" weight="160"/>
+		<item itemid="10000102" itemnum="1" weight="700"/>
+		<item itemid="16010028" itemnum="1" weight="700"/>
+		<item itemid="16010030" itemnum="1" weight="700"/>
+	</ku>
+	<ku kuid="4">
+		<item itemid="60000010" itemnum="5" weight="4500"/>
+		<item itemid="16010035" itemnum="1" weight="550"/>
+		<item itemid="16010036" itemnum="1" weight="450"/>
+		<item itemid="10000102" itemnum="1" weight="1500"/>
+		<item itemid="16010028" itemnum="1" weight="1500"/>
+		<item itemid="16010030" itemnum="1" weight="1500"/>
+	</ku>
+	<ku kuid="5">
+		<item itemid="16010036" itemnum="1" weight="1100"/>
+		<item itemid="16010049" itemnum="1" weight="1000"/>
+		<item itemid="16010060" itemnum="1" weight="1000"/>
+		<item itemid="10000102" itemnum="1" weight="2300"/>
+		<item itemid="16010028" itemnum="1" weight="2300"/>
+		<item itemid="16010030" itemnum="1" weight="2300"/>
+	</ku>
+	<baseku basekuid="2">
+		<item itemid="60000010" itemnum="1" weight="8000"/>
+		<item itemid="16010028" itemnum="1" weight="2000"/>
+	</baseku>
+	<baseku basekuid="3">
+		<item itemid="60000010" itemnum="2" weight="8000"/>
+		<item itemid="16010028" itemnum="2" weight="2000"/>
+	</baseku>
+	<baseku basekuid="4">
+		<item itemid="60000010" itemnum="3" weight="8000"/>
+		<item itemid="16010029" itemnum="1" weight="2000"/>
+	</baseku>
+	<baseku basekuid="5">
+		<item itemid="60000010" itemnum="5" weight="8000"/>
+		<item itemid="16010038" itemnum="1" weight="2000"/>
+	</baseku>
+	<place placeid="1" openlevel="70" viplevel="3"/>
+	<place placeid="2" openlevel="100" viplevel="4"/>
+	<place placeid="3" openlevel="120" viplevel="6"/>
+	<place placeid="4" openlevel="140" viplevel="8"/>
+	<place placeid="5" openlevel="160" viplevel="10"/>
+</root>

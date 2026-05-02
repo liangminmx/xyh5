@@ -1,0 +1,1335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+functionid	功能id			
+viplevel	一键完成按钮vip等级限制			
+emoneycost	每环一键完成消耗元宝数			
+ring	获得额外奖励的规定次数			
+dayring	每日完成免费捉鬼次数限制			
+npcid	接取任务npcid对应mapcity		
+level	玩家等级区间			
+bmoney	额外奖励绑定元宝数量			
+exp	额外奖励获得经验奖励			
+money	额外奖励获得银币数量			
+itemid	额外奖励道具id			
+num	额外奖励道具数量			
+level	玩家等级区间			
+onceexp	单次捉鬼经验奖励基础			
+money	单次捉鬼经验奖励基础			
+zhandouid	战斗id，逗号隔开			
+vip	VIP等级			
+buynum	购买轮数（一轮为10个）			
+				
+buynum	对应购买次数			
+moneytype	对应购买轮数花费货币类型（=1银两，=2元宝，=3绑元）			
+num	对应购买次数消耗数量			
+functionid	引导任务功能id			
+tasklevel	对应指引任务的等级			
+guidering	指引任务环数			
+zhandouid	战斗id			
+point	对应的地图标识			
+
+monstername1 怪物名字前缀时辰库，逗号隔开
+monstername2 怪物名字前缀时刻库，逗号隔开
+monstername3 怪物名字库，逗号隔开
+-->
+	<function functionid="2008" npcid="16" viplevel="5" emoneycost="10" ring="10" dayring="10"/>
+	<item level="1" bmoney="300" exp="2500000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="2" bmoney="300" exp="2500000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="3" bmoney="300" exp="2500000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="4" bmoney="300" exp="2500000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="5" bmoney="300" exp="2500000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="6" bmoney="300" exp="2500000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="7" bmoney="300" exp="2500000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="8" bmoney="300" exp="2500000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="9" bmoney="300" exp="2500000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="10" bmoney="300" exp="2500000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="11" bmoney="300" exp="2500000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="12" bmoney="300" exp="2500000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="13" bmoney="300" exp="2500000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="14" bmoney="300" exp="2500000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="15" bmoney="300" exp="2500000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="16" bmoney="300" exp="2500000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="17" bmoney="300" exp="2500000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="18" bmoney="300" exp="2500000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="19" bmoney="300" exp="2500000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="20" bmoney="300" exp="2500000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="21" bmoney="300" exp="2500000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="22" bmoney="300" exp="2500000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="23" bmoney="300" exp="2500000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="24" bmoney="300" exp="2500000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="25" bmoney="300" exp="2500000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="26" bmoney="300" exp="2500000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="27" bmoney="300" exp="2500000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="28" bmoney="300" exp="2500000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="29" bmoney="300" exp="2500000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="30" bmoney="300" exp="2500000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="31" bmoney="300" exp="2500000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="32" bmoney="300" exp="2500000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="33" bmoney="300" exp="2500000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="34" bmoney="300" exp="2500000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="35" bmoney="300" exp="2500000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="36" bmoney="300" exp="2500000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="37" bmoney="300" exp="2500000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="38" bmoney="300" exp="2500000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="39" bmoney="300" exp="2500000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="40" bmoney="300" exp="2500000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="41" bmoney="300" exp="2625000" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="42" bmoney="300" exp="2756250" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="43" bmoney="300" exp="2894060" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="44" bmoney="300" exp="3038760" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="45" bmoney="300" exp="3190690" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="46" bmoney="300" exp="3350220" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="47" bmoney="300" exp="3517730" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="48" bmoney="300" exp="3693620" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="49" bmoney="300" exp="3878300" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="50" bmoney="300" exp="4072210" money="600000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="51" bmoney="350" exp="4275820" money="700000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="52" bmoney="350" exp="4489610" money="700000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="53" bmoney="350" exp="4714090" money="700000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="54" bmoney="350" exp="4949790" money="700000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="55" bmoney="350" exp="5197280" money="700000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="56" bmoney="350" exp="5457140" money="700000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="57" bmoney="350" exp="5729990" money="700000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="58" bmoney="350" exp="6016490" money="700000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="59" bmoney="350" exp="6317310" money="700000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="60" bmoney="350" exp="6633170" money="700000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="61" bmoney="400" exp="6832170" money="800000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="62" bmoney="400" exp="7037130" money="800000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="63" bmoney="400" exp="7248240" money="800000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="64" bmoney="400" exp="7465690" money="800000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="65" bmoney="400" exp="7689660" money="800000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="66" bmoney="400" exp="7920340" money="800000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="67" bmoney="400" exp="8157950" money="800000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="68" bmoney="400" exp="8402690" money="800000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="69" bmoney="400" exp="8654770" money="800000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="70" bmoney="400" exp="8914410" money="800000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="71" bmoney="450" exp="9181840" money="900000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="72" bmoney="450" exp="9457290" money="900000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="73" bmoney="450" exp="9741010" money="900000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="74" bmoney="450" exp="10033240" money="900000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="75" bmoney="450" exp="10334230" money="900000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="76" bmoney="450" exp="10644260" money="900000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="77" bmoney="450" exp="10963580" money="900000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="78" bmoney="450" exp="11292490" money="900000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="79" bmoney="450" exp="11631260" money="900000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="80" bmoney="450" exp="11980190" money="900000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="81" bmoney="500" exp="12219790" money="1000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="82" bmoney="500" exp="12464190" money="1000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="83" bmoney="500" exp="12713470" money="1000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="84" bmoney="500" exp="12967730" money="1000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="85" bmoney="500" exp="13227080" money="1000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="86" bmoney="500" exp="13491620" money="1000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="87" bmoney="500" exp="13761450" money="1000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="88" bmoney="500" exp="14036680" money="1000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="89" bmoney="500" exp="14317410" money="1000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="90" bmoney="500" exp="14603750" money="1000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="91" bmoney="550" exp="14895830" money="1200000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="92" bmoney="550" exp="15193740" money="1200000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="93" bmoney="550" exp="15497610" money="1200000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="94" bmoney="550" exp="15807560" money="1200000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="95" bmoney="550" exp="16123710" money="1200000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="96" bmoney="550" exp="16446180" money="1200000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="97" bmoney="550" exp="16775100" money="1200000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="98" bmoney="550" exp="17110600" money="1200000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="99" bmoney="550" exp="17452810" money="1200000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="100" bmoney="550" exp="17801870" money="1200000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="101" bmoney="600" exp="18157900" money="1500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="102" bmoney="600" exp="18521060" money="1500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="103" bmoney="600" exp="18891480" money="1500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="104" bmoney="600" exp="19269300" money="1500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="105" bmoney="600" exp="19654690" money="1500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="106" bmoney="600" exp="20047780" money="1500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="107" bmoney="600" exp="20448730" money="1500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="108" bmoney="600" exp="20857700" money="1500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="109" bmoney="600" exp="21274850" money="1500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="110" bmoney="600" exp="21700350" money="1500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="111" bmoney="650" exp="22134350" money="1800000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="112" bmoney="650" exp="22577040" money="1800000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="113" bmoney="650" exp="23028580" money="1800000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="114" bmoney="650" exp="23489150" money="1800000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="115" bmoney="650" exp="23958930" money="1800000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="116" bmoney="650" exp="24438100" money="1800000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="117" bmoney="650" exp="24926860" money="1800000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="118" bmoney="650" exp="25425400" money="1800000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="119" bmoney="650" exp="25933900" money="1800000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="120" bmoney="650" exp="26452580" money="1800000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="121" bmoney="700" exp="26981630" money="2100000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="122" bmoney="700" exp="27521260" money="2100000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="123" bmoney="700" exp="28071680" money="2100000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="124" bmoney="700" exp="28633110" money="2100000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="125" bmoney="700" exp="29205770" money="2100000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="126" bmoney="700" exp="29789890" money="2100000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="127" bmoney="700" exp="30385680" money="2100000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="128" bmoney="700" exp="30993390" money="2100000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="129" bmoney="700" exp="31613260" money="2100000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="130" bmoney="700" exp="32245520" money="2100000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="131" bmoney="800" exp="32890430" money="2500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="132" bmoney="800" exp="33548240" money="2500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="133" bmoney="800" exp="34219200" money="2500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="134" bmoney="800" exp="34903580" money="2500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="135" bmoney="800" exp="35601650" money="2500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="136" bmoney="800" exp="36313680" money="2500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="137" bmoney="800" exp="37039950" money="2500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="138" bmoney="800" exp="37780740" money="2500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="139" bmoney="800" exp="38536350" money="2500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="140" bmoney="800" exp="39307080" money="2500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="141" bmoney="1000" exp="40093220" money="3000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="142" bmoney="1000" exp="40895080" money="3000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="143" bmoney="1000" exp="41712980" money="3000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="144" bmoney="1000" exp="42547230" money="3000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="145" bmoney="1000" exp="43398170" money="3000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="146" bmoney="1000" exp="44266130" money="3000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="147" bmoney="1000" exp="45151450" money="3000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="148" bmoney="1000" exp="46054480" money="3000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="149" bmoney="1000" exp="46975560" money="3000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="150" bmoney="1000" exp="47915070" money="3000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="151" bmoney="1000" exp="48633800" money="3500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="152" bmoney="1000" exp="49363305" money="3500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="153" bmoney="1000" exp="50103750" money="3500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="154" bmoney="1000" exp="50855305" money="3500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="155" bmoney="1000" exp="51618130" money="3500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="156" bmoney="1000" exp="52392400" money="3500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="157" bmoney="1000" exp="53178285" money="3500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="158" bmoney="1000" exp="53975955" money="3500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="159" bmoney="1000" exp="54785590" money="3500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="160" bmoney="1000" exp="55607370" money="3500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="161" bmoney="1000" exp="56441480" money="3500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="162" bmoney="1000" exp="57288100" money="3500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="163" bmoney="1000" exp="58147420" money="3500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="164" bmoney="1000" exp="59019630" money="3500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="165" bmoney="1000" exp="59904920" money="3500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="166" bmoney="1000" exp="60803490" money="3500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="167" bmoney="1000" exp="61715540" money="3500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="168" bmoney="1000" exp="62641270" money="3500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="169" bmoney="1000" exp="63580885" money="3500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="170" bmoney="1000" exp="64534595" money="3500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="171" bmoney="1000" exp="65502610" money="4000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="172" bmoney="1000" exp="66485145" money="4000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="173" bmoney="1000" exp="67482420" money="4000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="174" bmoney="1000" exp="68494655" money="4000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="175" bmoney="1000" exp="69522070" money="4000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="176" bmoney="1000" exp="70564900" money="4000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="177" bmoney="1000" exp="71623370" money="4000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="178" bmoney="1000" exp="72697720" money="4000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="179" bmoney="1000" exp="73788185" money="4000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="180" bmoney="1000" exp="74895005" money="4000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="181" bmoney="1000" exp="76018430" money="4000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="182" bmoney="1000" exp="77158705" money="4000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="183" bmoney="1000" exp="78316085" money="4000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="184" bmoney="1000" exp="79490825" money="4000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="185" bmoney="1000" exp="80683185" money="4000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="186" bmoney="1000" exp="81893430" money="4000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="187" bmoney="1000" exp="83121830" money="4000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="188" bmoney="1000" exp="84368655" money="4000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="189" bmoney="1000" exp="85634180" money="4000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="190" bmoney="1000" exp="86918690" money="4000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="191" bmoney="1000" exp="88222470" money="4500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="192" bmoney="1000" exp="89545805" money="4500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="193" bmoney="1000" exp="90888990" money="4500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="194" bmoney="1000" exp="92252320" money="4500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="195" bmoney="1000" exp="93636100" money="4500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="196" bmoney="1000" exp="95040640" money="4500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="197" bmoney="1000" exp="96466245" money="4500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="198" bmoney="1000" exp="97913235" money="4500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="199" bmoney="1000" exp="99381930" money="4500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="200" bmoney="1000" exp="100176985" money="4500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="201" bmoney="1000" exp="100978400" money="4500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="202" bmoney="1000" exp="101786225" money="4500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="203" bmoney="1000" exp="102600510" money="4500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="204" bmoney="1000" exp="103421310" money="4500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="205" bmoney="1000" exp="104248680" money="4500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="206" bmoney="1000" exp="105082665" money="4500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="207" bmoney="1000" exp="105923325" money="4500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="208" bmoney="1000" exp="106770710" money="4500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="209" bmoney="1000" exp="107624875" money="4500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="210" bmoney="1000" exp="108485870" money="4500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="211" bmoney="1000" exp="109353755" money="5000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="212" bmoney="1000" exp="110228585" money="5000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="213" bmoney="1000" exp="111110410" money="5000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="214" bmoney="1000" exp="111999290" money="5000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="215" bmoney="1000" exp="112895280" money="5000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="216" bmoney="1000" exp="113798440" money="5000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="217" bmoney="1000" exp="114708825" money="5000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="218" bmoney="1000" exp="115626495" money="5000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="219" bmoney="1000" exp="116551505" money="5000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="220" bmoney="1000" exp="117483915" money="5000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="221" bmoney="1000" exp="118423785" money="5000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="222" bmoney="1000" exp="119371175" money="5000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="223" bmoney="1000" exp="120326140" money="5000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="224" bmoney="1000" exp="121288745" money="5000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="225" bmoney="1000" exp="122259050" money="5000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="226" bmoney="1000" exp="123237120" money="5000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="227" bmoney="1000" exp="124223015" money="5000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="228" bmoney="1000" exp="125216795" money="5000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="229" bmoney="1000" exp="126218525" money="5000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="230" bmoney="1000" exp="127228270" money="5000000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="231" bmoney="1000" exp="128246095" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="232" bmoney="1000" exp="129272060" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="233" bmoney="1000" exp="130306235" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="234" bmoney="1000" exp="131348680" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="235" bmoney="1000" exp="132399465" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="236" bmoney="1000" exp="133458660" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="237" bmoney="1000" exp="134526325" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="238" bmoney="1000" exp="135602535" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="239" bmoney="1000" exp="136687355" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="240" bmoney="1000" exp="137780850" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="241" bmoney="1000" exp="138883095" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="242" bmoney="1000" exp="139994155" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="243" bmoney="1000" exp="141114105" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="244" bmoney="1000" exp="142243015" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="245" bmoney="1000" exp="143380955" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="246" bmoney="1000" exp="144528000" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="247" bmoney="1000" exp="145684220" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="248" bmoney="1000" exp="146849690" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="249" bmoney="1000" exp="148024485" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="250" bmoney="1000" exp="149208680" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="251" bmoney="1000" exp="150402345" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="252" bmoney="1000" exp="151605560" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="253" bmoney="1000" exp="152818400" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="254" bmoney="1000" exp="154040945" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="255" bmoney="1000" exp="155273270" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="256" bmoney="1000" exp="156515455" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="257" bmoney="1000" exp="157767575" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="258" bmoney="1000" exp="159029715" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="259" bmoney="1000" exp="160301950" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="260" bmoney="1000" exp="161584365" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="261" bmoney="1000" exp="162877035" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="262" bmoney="1000" exp="164180050" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="263" bmoney="1000" exp="165493490" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="264" bmoney="1000" exp="166817435" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="265" bmoney="1000" exp="168151970" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="266" bmoney="1000" exp="169497185" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="267" bmoney="1000" exp="170853160" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="268" bmoney="1000" exp="172219985" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="269" bmoney="1000" exp="173597740" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="270" bmoney="1000" exp="174986520" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="271" bmoney="1000" exp="176386410" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="272" bmoney="1000" exp="177797500" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="273" bmoney="1000" exp="179219880" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="274" bmoney="1000" exp="180653635" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="275" bmoney="1000" exp="182098860" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="276" bmoney="1000" exp="183555650" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="277" bmoney="1000" exp="185024095" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="278" bmoney="1000" exp="186504285" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="279" bmoney="1000" exp="187996315" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="280" bmoney="1000" exp="189500285" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="281" bmoney="1000" exp="191016285" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="282" bmoney="1000" exp="192544415" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="283" bmoney="1000" exp="194084770" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="284" bmoney="1000" exp="195637445" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="285" bmoney="1000" exp="197202540" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="286" bmoney="1000" exp="198780160" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="287" bmoney="1000" exp="200370400" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="288" bmoney="1000" exp="201973360" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="289" bmoney="1000" exp="203589145" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="290" bmoney="1000" exp="205217855" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="291" bmoney="1000" exp="206859595" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="292" bmoney="1000" exp="208514470" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="293" bmoney="1000" exp="210182585" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="294" bmoney="1000" exp="211864045" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="295" bmoney="1000" exp="213558955" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="296" bmoney="1000" exp="215267425" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="297" bmoney="1000" exp="216989560" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="298" bmoney="1000" exp="218725475" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="299" bmoney="1000" exp="220475275" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<item level="300" bmoney="1000" exp="222239075" money="5500000">
+		<ward itemid="10000006" num="2"/>
+	</item>
+	<lev level="1" onceexp="250000" money="30000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="2" onceexp="250000" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="3" onceexp="250000" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="4" onceexp="250000" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="5" onceexp="250000" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="6" onceexp="250000" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="7" onceexp="250000" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="8" onceexp="250000" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="9" onceexp="250000" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="10" onceexp="250000" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="11" onceexp="250000" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="12" onceexp="250000" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="13" onceexp="250000" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="14" onceexp="250000" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="15" onceexp="250000" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="16" onceexp="250000" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="17" onceexp="250000" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="18" onceexp="250000" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="19" onceexp="250000" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="20" onceexp="250000" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="21" onceexp="250000" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="22" onceexp="250000" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="23" onceexp="250000" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="24" onceexp="250000" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="25" onceexp="250000" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="26" onceexp="250000" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="27" onceexp="250000" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="28" onceexp="250000" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="29" onceexp="250000" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="30" onceexp="250000" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="31" onceexp="250000" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="32" onceexp="250000" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="33" onceexp="250000" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="34" onceexp="250000" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="35" onceexp="250000" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="36" onceexp="250000" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="37" onceexp="250000" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="38" onceexp="250000" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="39" onceexp="250000" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="40" onceexp="500000" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="41" onceexp="525000" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="42" onceexp="551250" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="43" onceexp="578812" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="44" onceexp="607752" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="45" onceexp="638139" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="46" onceexp="670045" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="47" onceexp="703547" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="48" onceexp="738724" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="49" onceexp="775660" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="50" onceexp="814443" money="60000" zhandouid="200001001,200001002,200001003,200001004,200001005"/>
+	<lev level="51" onceexp="855165" money="70000" zhandouid="200051001,200051002,200051003,200051004,200051005"/>
+	<lev level="52" onceexp="897923" money="70000" zhandouid="200051001,200051002,200051003,200051004,200051005"/>
+	<lev level="53" onceexp="942819" money="70000" zhandouid="200051001,200051002,200051003,200051004,200051005"/>
+	<lev level="54" onceexp="989959" money="70000" zhandouid="200051001,200051002,200051003,200051004,200051005"/>
+	<lev level="55" onceexp="1039456" money="70000" zhandouid="200051001,200051002,200051003,200051004,200051005"/>
+	<lev level="56" onceexp="1091428" money="70000" zhandouid="200051001,200051002,200051003,200051004,200051005"/>
+	<lev level="57" onceexp="1145999" money="70000" zhandouid="200051001,200051002,200051003,200051004,200051005"/>
+	<lev level="58" onceexp="1203298" money="70000" zhandouid="200051001,200051002,200051003,200051004,200051005"/>
+	<lev level="59" onceexp="1263462" money="70000" zhandouid="200051001,200051002,200051003,200051004,200051005"/>
+	<lev level="60" onceexp="1326635" money="70000" zhandouid="200051001,200051002,200051003,200051004,200051005"/>
+	<lev level="61" onceexp="1366434" money="80000" zhandouid="200061001,200061002,200061003,200061004,200061005"/>
+	<lev level="62" onceexp="1407427" money="80000" zhandouid="200061001,200061002,200061003,200061004,200061005"/>
+	<lev level="63" onceexp="1449649" money="80000" zhandouid="200061001,200061002,200061003,200061004,200061005"/>
+	<lev level="64" onceexp="1493138" money="80000" zhandouid="200061001,200061002,200061003,200061004,200061005"/>
+	<lev level="65" onceexp="1537932" money="80000" zhandouid="200061001,200061002,200061003,200061004,200061005"/>
+	<lev level="66" onceexp="1584069" money="80000" zhandouid="200061001,200061002,200061003,200061004,200061005"/>
+	<lev level="67" onceexp="1631591" money="80000" zhandouid="200061001,200061002,200061003,200061004,200061005"/>
+	<lev level="68" onceexp="1680538" money="80000" zhandouid="200061001,200061002,200061003,200061004,200061005"/>
+	<lev level="69" onceexp="1730954" money="80000" zhandouid="200061001,200061002,200061003,200061004,200061005"/>
+	<lev level="70" onceexp="1782882" money="80000" zhandouid="200061001,200061002,200061003,200061004,200061005"/>
+	<lev level="71" onceexp="1836368" money="90000" zhandouid="200071001,200071002,200071003,200071004,200071005"/>
+	<lev level="72" onceexp="1891459" money="90000" zhandouid="200071001,200071002,200071003,200071004,200071005"/>
+	<lev level="73" onceexp="1948202" money="90000" zhandouid="200071001,200071002,200071003,200071004,200071005"/>
+	<lev level="74" onceexp="2006648" money="90000" zhandouid="200071001,200071002,200071003,200071004,200071005"/>
+	<lev level="75" onceexp="2066847" money="90000" zhandouid="200071001,200071002,200071003,200071004,200071005"/>
+	<lev level="76" onceexp="2128852" money="90000" zhandouid="200071001,200071002,200071003,200071004,200071005"/>
+	<lev level="77" onceexp="2192717" money="90000" zhandouid="200071001,200071002,200071003,200071004,200071005"/>
+	<lev level="78" onceexp="2258498" money="90000" zhandouid="200071001,200071002,200071003,200071004,200071005"/>
+	<lev level="79" onceexp="2326252" money="90000" zhandouid="200071001,200071002,200071003,200071004,200071005"/>
+	<lev level="80" onceexp="2396039" money="90000" zhandouid="200071001,200071002,200071003,200071004,200071005"/>
+	<lev level="81" onceexp="2443959" money="100000" zhandouid="200081001,200081002,200081003,200081004,200081005"/>
+	<lev level="82" onceexp="2492838" money="100000" zhandouid="200081001,200081002,200081003,200081004,200081005"/>
+	<lev level="83" onceexp="2542694" money="100000" zhandouid="200081001,200081002,200081003,200081004,200081005"/>
+	<lev level="84" onceexp="2593547" money="100000" zhandouid="200081001,200081002,200081003,200081004,200081005"/>
+	<lev level="85" onceexp="2645417" money="100000" zhandouid="200081001,200081002,200081003,200081004,200081005"/>
+	<lev level="86" onceexp="2698325" money="100000" zhandouid="200081001,200081002,200081003,200081004,200081005"/>
+	<lev level="87" onceexp="2752291" money="100000" zhandouid="200081001,200081002,200081003,200081004,200081005"/>
+	<lev level="88" onceexp="2807336" money="100000" zhandouid="200081001,200081002,200081003,200081004,200081005"/>
+	<lev level="89" onceexp="2863482" money="100000" zhandouid="200081001,200081002,200081003,200081004,200081005"/>
+	<lev level="90" onceexp="2920751" money="100000" zhandouid="200081001,200081002,200081003,200081004,200081005"/>
+	<lev level="91" onceexp="2979166" money="120000" zhandouid="200091001,200091002,200091003,200091004,200091005"/>
+	<lev level="92" onceexp="3038749" money="120000" zhandouid="200091001,200091002,200091003,200091004,200091005"/>
+	<lev level="93" onceexp="3099523" money="120000" zhandouid="200091001,200091002,200091003,200091004,200091005"/>
+	<lev level="94" onceexp="3161513" money="120000" zhandouid="200091001,200091002,200091003,200091004,200091005"/>
+	<lev level="95" onceexp="3224743" money="120000" zhandouid="200091001,200091002,200091003,200091004,200091005"/>
+	<lev level="96" onceexp="3289237" money="120000" zhandouid="200091001,200091002,200091003,200091004,200091005"/>
+	<lev level="97" onceexp="3355021" money="120000" zhandouid="200091001,200091002,200091003,200091004,200091005"/>
+	<lev level="98" onceexp="3422121" money="120000" zhandouid="200091001,200091002,200091003,200091004,200091005"/>
+	<lev level="99" onceexp="3490563" money="120000" zhandouid="200091001,200091002,200091003,200091004,200091005"/>
+	<lev level="100" onceexp="3560374" money="120000" zhandouid="200091001,200091002,200091003,200091004,200091005"/>
+	<lev level="101" onceexp="3631581" money="150000" zhandouid="200101001,200101002,200101003,200101004,200101005"/>
+	<lev level="102" onceexp="3704212" money="150000" zhandouid="200101001,200101002,200101003,200101004,200101005"/>
+	<lev level="103" onceexp="3778296" money="150000" zhandouid="200101001,200101002,200101003,200101004,200101005"/>
+	<lev level="104" onceexp="3853861" money="150000" zhandouid="200101001,200101002,200101003,200101004,200101005"/>
+	<lev level="105" onceexp="3930938" money="150000" zhandouid="200101001,200101002,200101003,200101004,200101005"/>
+	<lev level="106" onceexp="4009556" money="150000" zhandouid="200101001,200101002,200101003,200101004,200101005"/>
+	<lev level="107" onceexp="4089747" money="150000" zhandouid="200101001,200101002,200101003,200101004,200101005"/>
+	<lev level="108" onceexp="4171541" money="150000" zhandouid="200101001,200101002,200101003,200101004,200101005"/>
+	<lev level="109" onceexp="4254971" money="150000" zhandouid="200101001,200101002,200101003,200101004,200101005"/>
+	<lev level="110" onceexp="4340070" money="150000" zhandouid="200101001,200101002,200101003,200101004,200101005"/>
+	<lev level="111" onceexp="4426871" money="180000" zhandouid="200111001,200111002,200111003,200111004,200111005"/>
+	<lev level="112" onceexp="4515408" money="180000" zhandouid="200111001,200111002,200111003,200111004,200111005"/>
+	<lev level="113" onceexp="4605716" money="180000" zhandouid="200111001,200111002,200111003,200111004,200111005"/>
+	<lev level="114" onceexp="4697830" money="180000" zhandouid="200111001,200111002,200111003,200111004,200111005"/>
+	<lev level="115" onceexp="4791786" money="180000" zhandouid="200111001,200111002,200111003,200111004,200111005"/>
+	<lev level="116" onceexp="4887621" money="180000" zhandouid="200111001,200111002,200111003,200111004,200111005"/>
+	<lev level="117" onceexp="4985373" money="180000" zhandouid="200111001,200111002,200111003,200111004,200111005"/>
+	<lev level="118" onceexp="5085080" money="180000" zhandouid="200111001,200111002,200111003,200111004,200111005"/>
+	<lev level="119" onceexp="5186781" money="180000" zhandouid="200111001,200111002,200111003,200111004,200111005"/>
+	<lev level="120" onceexp="5290516" money="180000" zhandouid="200111001,200111002,200111003,200111004,200111005"/>
+	<lev level="121" onceexp="5396326" money="210000" zhandouid="200121001,200121002,200121003,200121004,200121005"/>
+	<lev level="122" onceexp="5504252" money="210000" zhandouid="200121001,200121002,200121003,200121004,200121005"/>
+	<lev level="123" onceexp="5614337" money="210000" zhandouid="200121001,200121002,200121003,200121004,200121005"/>
+	<lev level="124" onceexp="5726623" money="210000" zhandouid="200121001,200121002,200121003,200121004,200121005"/>
+	<lev level="125" onceexp="5841155" money="210000" zhandouid="200121001,200121002,200121003,200121004,200121005"/>
+	<lev level="126" onceexp="5957978" money="210000" zhandouid="200121001,200121002,200121003,200121004,200121005"/>
+	<lev level="127" onceexp="6077137" money="210000" zhandouid="200121001,200121002,200121003,200121004,200121005"/>
+	<lev level="128" onceexp="6198679" money="210000" zhandouid="200121001,200121002,200121003,200121004,200121005"/>
+	<lev level="129" onceexp="6322652" money="210000" zhandouid="200121001,200121002,200121003,200121004,200121005"/>
+	<lev level="130" onceexp="6449105" money="210000" zhandouid="200121001,200121002,200121003,200121004,200121005"/>
+	<lev level="131" onceexp="6578087" money="250000" zhandouid="200131001,200131002,200131003,200131004,200131005"/>
+	<lev level="132" onceexp="6709648" money="250000" zhandouid="200131001,200131002,200131003,200131004,200131005"/>
+	<lev level="133" onceexp="6843840" money="250000" zhandouid="200131001,200131002,200131003,200131004,200131005"/>
+	<lev level="134" onceexp="6980716" money="250000" zhandouid="200131001,200131002,200131003,200131004,200131005"/>
+	<lev level="135" onceexp="7120330" money="250000" zhandouid="200131001,200131002,200131003,200131004,200131005"/>
+	<lev level="136" onceexp="7262736" money="250000" zhandouid="200131001,200131002,200131003,200131004,200131005"/>
+	<lev level="137" onceexp="7407990" money="250000" zhandouid="200131001,200131002,200131003,200131004,200131005"/>
+	<lev level="138" onceexp="7556149" money="250000" zhandouid="200131001,200131002,200131003,200131004,200131005"/>
+	<lev level="139" onceexp="7707271" money="250000" zhandouid="200131001,200131002,200131003,200131004,200131005"/>
+	<lev level="140" onceexp="7861416" money="250000" zhandouid="200131001,200131002,200131003,200131004,200131005"/>
+	<lev level="141" onceexp="8018644" money="300000" zhandouid="200141001,200141002,200141003,200141004,200141005"/>
+	<lev level="142" onceexp="8179016" money="300000" zhandouid="200141001,200141002,200141003,200141004,200141005"/>
+	<lev level="143" onceexp="8342596" money="300000" zhandouid="200141001,200141002,200141003,200141004,200141005"/>
+	<lev level="144" onceexp="8509447" money="300000" zhandouid="200141001,200141002,200141003,200141004,200141005"/>
+	<lev level="145" onceexp="8679635" money="300000" zhandouid="200141001,200141002,200141003,200141004,200141005"/>
+	<lev level="146" onceexp="8853227" money="300000" zhandouid="200141001,200141002,200141003,200141004,200141005"/>
+	<lev level="147" onceexp="9030291" money="300000" zhandouid="200141001,200141002,200141003,200141004,200141005"/>
+	<lev level="148" onceexp="9210896" money="300000" zhandouid="200141001,200141002,200141003,200141004,200141005"/>
+	<lev level="149" onceexp="9395113" money="300000" zhandouid="200141001,200141002,200141003,200141004,200141005"/>
+	<lev level="150" onceexp="9583015" money="300000" zhandouid="200141001,200141002,200141003,200141004,200141005"/>
+	<lev level="151" onceexp="9726760" money="350000" zhandouid="200151001,200151002,200151003,200151004,200151005"/>
+	<lev level="152" onceexp="9872661" money="350000" zhandouid="200151001,200151002,200151003,200151004,200151005"/>
+	<lev level="153" onceexp="10020750" money="350000" zhandouid="200151001,200151002,200151003,200151004,200151005"/>
+	<lev level="154" onceexp="10171061" money="350000" zhandouid="200151001,200151002,200151003,200151004,200151005"/>
+	<lev level="155" onceexp="10323626" money="350000" zhandouid="200151001,200151002,200151003,200151004,200151005"/>
+	<lev level="156" onceexp="10478480" money="350000" zhandouid="200151001,200151002,200151003,200151004,200151005"/>
+	<lev level="157" onceexp="10635657" money="350000" zhandouid="200151001,200151002,200151003,200151004,200151005"/>
+	<lev level="158" onceexp="10795191" money="350000" zhandouid="200151001,200151002,200151003,200151004,200151005"/>
+	<lev level="159" onceexp="10957118" money="350000" zhandouid="200151001,200151002,200151003,200151004,200151005"/>
+	<lev level="160" onceexp="11121474" money="350000" zhandouid="200151001,200151002,200151003,200151004,200151005"/>
+	<lev level="161" onceexp="11288296" money="350000" zhandouid="200161001,200161002,200161003,200161004,200161005"/>
+	<lev level="162" onceexp="11457620" money="350000" zhandouid="200161001,200161002,200161003,200161004,200161005"/>
+	<lev level="163" onceexp="11629484" money="350000" zhandouid="200161001,200161002,200161003,200161004,200161005"/>
+	<lev level="164" onceexp="11803926" money="350000" zhandouid="200161001,200161002,200161003,200161004,200161005"/>
+	<lev level="165" onceexp="11980984" money="350000" zhandouid="200161001,200161002,200161003,200161004,200161005"/>
+	<lev level="166" onceexp="12160698" money="350000" zhandouid="200161001,200161002,200161003,200161004,200161005"/>
+	<lev level="167" onceexp="12343108" money="350000" zhandouid="200161001,200161002,200161003,200161004,200161005"/>
+	<lev level="168" onceexp="12528254" money="350000" zhandouid="200161001,200161002,200161003,200161004,200161005"/>
+	<lev level="169" onceexp="12716177" money="350000" zhandouid="200161001,200161002,200161003,200161004,200161005"/>
+	<lev level="170" onceexp="12906919" money="350000" zhandouid="200161001,200161002,200161003,200161004,200161005"/>
+	<lev level="171" onceexp="13100522" money="400000" zhandouid="200171001,200171002,200171003,200171004,200171005"/>
+	<lev level="172" onceexp="13297029" money="400000" zhandouid="200171001,200171002,200171003,200171004,200171005"/>
+	<lev level="173" onceexp="13496484" money="400000" zhandouid="200171001,200171002,200171003,200171004,200171005"/>
+	<lev level="174" onceexp="13698931" money="400000" zhandouid="200171001,200171002,200171003,200171004,200171005"/>
+	<lev level="175" onceexp="13904414" money="400000" zhandouid="200171001,200171002,200171003,200171004,200171005"/>
+	<lev level="176" onceexp="14112980" money="400000" zhandouid="200171001,200171002,200171003,200171004,200171005"/>
+	<lev level="177" onceexp="14324674" money="400000" zhandouid="200171001,200171002,200171003,200171004,200171005"/>
+	<lev level="178" onceexp="14539544" money="400000" zhandouid="200171001,200171002,200171003,200171004,200171005"/>
+	<lev level="179" onceexp="14757637" money="400000" zhandouid="200171001,200171002,200171003,200171004,200171005"/>
+	<lev level="180" onceexp="14979001" money="400000" zhandouid="200171001,200171002,200171003,200171004,200171005"/>
+	<lev level="181" onceexp="15203686" money="400000" zhandouid="200181001,200181002,200181003,200181004,200181005"/>
+	<lev level="182" onceexp="15431741" money="400000" zhandouid="200181001,200181002,200181003,200181004,200181005"/>
+	<lev level="183" onceexp="15663217" money="400000" zhandouid="200181001,200181002,200181003,200181004,200181005"/>
+	<lev level="184" onceexp="15898165" money="400000" zhandouid="200181001,200181002,200181003,200181004,200181005"/>
+	<lev level="185" onceexp="16136637" money="400000" zhandouid="200181001,200181002,200181003,200181004,200181005"/>
+	<lev level="186" onceexp="16378686" money="400000" zhandouid="200181001,200181002,200181003,200181004,200181005"/>
+	<lev level="187" onceexp="16624366" money="400000" zhandouid="200181001,200181002,200181003,200181004,200181005"/>
+	<lev level="188" onceexp="16873731" money="400000" zhandouid="200181001,200181002,200181003,200181004,200181005"/>
+	<lev level="189" onceexp="17126836" money="400000" zhandouid="200181001,200181002,200181003,200181004,200181005"/>
+	<lev level="190" onceexp="17383738" money="400000" zhandouid="200181001,200181002,200181003,200181004,200181005"/>
+	<lev level="191" onceexp="17644494" money="450000" zhandouid="200191001,200191002,200191003,200191004,200191005"/>
+	<lev level="192" onceexp="17909161" money="450000" zhandouid="200191001,200191002,200191003,200191004,200191005"/>
+	<lev level="193" onceexp="18177798" money="450000" zhandouid="200191001,200191002,200191003,200191004,200191005"/>
+	<lev level="194" onceexp="18450464" money="450000" zhandouid="200191001,200191002,200191003,200191004,200191005"/>
+	<lev level="195" onceexp="18727220" money="450000" zhandouid="200191001,200191002,200191003,200191004,200191005"/>
+	<lev level="196" onceexp="19008128" money="450000" zhandouid="200191001,200191002,200191003,200191004,200191005"/>
+	<lev level="197" onceexp="19293249" money="450000" zhandouid="200191001,200191002,200191003,200191004,200191005"/>
+	<lev level="198" onceexp="19582647" money="450000" zhandouid="200191001,200191002,200191003,200191004,200191005"/>
+	<lev level="199" onceexp="19876386" money="450000" zhandouid="200191001,200191002,200191003,200191004,200191005"/>
+	<lev level="200" onceexp="20035397" money="450000" zhandouid="200191001,200191002,200191003,200191004,200191005"/>
+	<lev level="201" onceexp="20195680" money="450000" zhandouid="200201001,200201002,200201003,200201004,200201005"/>
+	<lev level="202" onceexp="20357245" money="450000" zhandouid="200201001,200201002,200201003,200201004,200201005"/>
+	<lev level="203" onceexp="20520102" money="450000" zhandouid="200201001,200201002,200201003,200201004,200201005"/>
+	<lev level="204" onceexp="20684262" money="450000" zhandouid="200201001,200201002,200201003,200201004,200201005"/>
+	<lev level="205" onceexp="20849736" money="450000" zhandouid="200201001,200201002,200201003,200201004,200201005"/>
+	<lev level="206" onceexp="21016533" money="450000" zhandouid="200201001,200201002,200201003,200201004,200201005"/>
+	<lev level="207" onceexp="21184665" money="450000" zhandouid="200201001,200201002,200201003,200201004,200201005"/>
+	<lev level="208" onceexp="21354142" money="450000" zhandouid="200201001,200201002,200201003,200201004,200201005"/>
+	<lev level="209" onceexp="21524975" money="450000" zhandouid="200201001,200201002,200201003,200201004,200201005"/>
+	<lev level="210" onceexp="21697174" money="450000" zhandouid="200201001,200201002,200201003,200201004,200201005"/>
+	<lev level="211" onceexp="21870751" money="500000" zhandouid="200211001,200211002,200211003,200211004,200211005"/>
+	<lev level="212" onceexp="22045717" money="500000" zhandouid="200211001,200211002,200211003,200211004,200211005"/>
+	<lev level="213" onceexp="22222082" money="500000" zhandouid="200211001,200211002,200211003,200211004,200211005"/>
+	<lev level="214" onceexp="22399858" money="500000" zhandouid="200211001,200211002,200211003,200211004,200211005"/>
+	<lev level="215" onceexp="22579056" money="500000" zhandouid="200211001,200211002,200211003,200211004,200211005"/>
+	<lev level="216" onceexp="22759688" money="500000" zhandouid="200211001,200211002,200211003,200211004,200211005"/>
+	<lev level="217" onceexp="22941765" money="500000" zhandouid="200211001,200211002,200211003,200211004,200211005"/>
+	<lev level="218" onceexp="23125299" money="500000" zhandouid="200211001,200211002,200211003,200211004,200211005"/>
+	<lev level="219" onceexp="23310301" money="500000" zhandouid="200211001,200211002,200211003,200211004,200211005"/>
+	<lev level="220" onceexp="23496783" money="500000" zhandouid="200211001,200211002,200211003,200211004,200211005"/>
+	<lev level="221" onceexp="23684757" money="500000" zhandouid="200221001,200221002,200221003,200221004,200221005"/>
+	<lev level="222" onceexp="23874235" money="500000" zhandouid="200221001,200221002,200221003,200221004,200221005"/>
+	<lev level="223" onceexp="24065228" money="500000" zhandouid="200221001,200221002,200221003,200221004,200221005"/>
+	<lev level="224" onceexp="24257749" money="500000" zhandouid="200221001,200221002,200221003,200221004,200221005"/>
+	<lev level="225" onceexp="24451810" money="500000" zhandouid="200221001,200221002,200221003,200221004,200221005"/>
+	<lev level="226" onceexp="24647424" money="500000" zhandouid="200221001,200221002,200221003,200221004,200221005"/>
+	<lev level="227" onceexp="24844603" money="500000" zhandouid="200221001,200221002,200221003,200221004,200221005"/>
+	<lev level="228" onceexp="25043359" money="500000" zhandouid="200221001,200221002,200221003,200221004,200221005"/>
+	<lev level="229" onceexp="25243705" money="500000" zhandouid="200221001,200221002,200221003,200221004,200221005"/>
+	<lev level="230" onceexp="25445654" money="500000" zhandouid="200221001,200221002,200221003,200221004,200221005"/>
+	<lev level="231" onceexp="25649219" money="550000" zhandouid="200231001,200231002,200231003,200231004,200231005"/>
+	<lev level="232" onceexp="25854412" money="550000" zhandouid="200231001,200231002,200231003,200231004,200231005"/>
+	<lev level="233" onceexp="26061247" money="550000" zhandouid="200231001,200231002,200231003,200231004,200231005"/>
+	<lev level="234" onceexp="26269736" money="550000" zhandouid="200231001,200231002,200231003,200231004,200231005"/>
+	<lev level="235" onceexp="26479893" money="550000" zhandouid="200231001,200231002,200231003,200231004,200231005"/>
+	<lev level="236" onceexp="26691732" money="550000" zhandouid="200231001,200231002,200231003,200231004,200231005"/>
+	<lev level="237" onceexp="26905265" money="550000" zhandouid="200231001,200231002,200231003,200231004,200231005"/>
+	<lev level="238" onceexp="27120507" money="550000" zhandouid="200231001,200231002,200231003,200231004,200231005"/>
+	<lev level="239" onceexp="27337471" money="550000" zhandouid="200231001,200231002,200231003,200231004,200231005"/>
+	<lev level="240" onceexp="27556170" money="550000" zhandouid="200231001,200231002,200231003,200231004,200231005"/>
+	<lev level="241" onceexp="27776619" money="550000" zhandouid="200241001,200241002,200241003,200241004,200241005"/>
+	<lev level="242" onceexp="27998831" money="550000" zhandouid="200241001,200241002,200241003,200241004,200241005"/>
+	<lev level="243" onceexp="28222821" money="550000" zhandouid="200241001,200241002,200241003,200241004,200241005"/>
+	<lev level="244" onceexp="28448603" money="550000" zhandouid="200241001,200241002,200241003,200241004,200241005"/>
+	<lev level="245" onceexp="28676191" money="550000" zhandouid="200241001,200241002,200241003,200241004,200241005"/>
+	<lev level="246" onceexp="28905600" money="550000" zhandouid="200241001,200241002,200241003,200241004,200241005"/>
+	<lev level="247" onceexp="29136844" money="550000" zhandouid="200241001,200241002,200241003,200241004,200241005"/>
+	<lev level="248" onceexp="29369938" money="550000" zhandouid="200241001,200241002,200241003,200241004,200241005"/>
+	<lev level="249" onceexp="29604897" money="550000" zhandouid="200241001,200241002,200241003,200241004,200241005"/>
+	<lev level="250" onceexp="29841736" money="550000" zhandouid="200241001,200241002,200241003,200241004,200241005"/>
+	<lev level="251" onceexp="30080469" money="550000" zhandouid="200251001,200251002,200251003,200251004,200251005"/>
+	<lev level="252" onceexp="30321112" money="550000" zhandouid="200251001,200251002,200251003,200251004,200251005"/>
+	<lev level="253" onceexp="30563680" money="550000" zhandouid="200251001,200251002,200251003,200251004,200251005"/>
+	<lev level="254" onceexp="30808189" money="550000" zhandouid="200251001,200251002,200251003,200251004,200251005"/>
+	<lev level="255" onceexp="31054654" money="550000" zhandouid="200251001,200251002,200251003,200251004,200251005"/>
+	<lev level="256" onceexp="31303091" money="550000" zhandouid="200251001,200251002,200251003,200251004,200251005"/>
+	<lev level="257" onceexp="31553515" money="550000" zhandouid="200251001,200251002,200251003,200251004,200251005"/>
+	<lev level="258" onceexp="31805943" money="550000" zhandouid="200251001,200251002,200251003,200251004,200251005"/>
+	<lev level="259" onceexp="32060390" money="550000" zhandouid="200251001,200251002,200251003,200251004,200251005"/>
+	<lev level="260" onceexp="32316873" money="550000" zhandouid="200251001,200251002,200251003,200251004,200251005"/>
+	<lev level="261" onceexp="32575407" money="550000" zhandouid="200261001,200261002,200261003,200261004,200261005"/>
+	<lev level="262" onceexp="32836010" money="550000" zhandouid="200261001,200261002,200261003,200261004,200261005"/>
+	<lev level="263" onceexp="33098698" money="550000" zhandouid="200261001,200261002,200261003,200261004,200261005"/>
+	<lev level="264" onceexp="33363487" money="550000" zhandouid="200261001,200261002,200261003,200261004,200261005"/>
+	<lev level="265" onceexp="33630394" money="550000" zhandouid="200261001,200261002,200261003,200261004,200261005"/>
+	<lev level="266" onceexp="33899437" money="550000" zhandouid="200261001,200261002,200261003,200261004,200261005"/>
+	<lev level="267" onceexp="34170632" money="550000" zhandouid="200261001,200261002,200261003,200261004,200261005"/>
+	<lev level="268" onceexp="34443997" money="550000" zhandouid="200261001,200261002,200261003,200261004,200261005"/>
+	<lev level="269" onceexp="34719548" money="550000" zhandouid="200261001,200261002,200261003,200261004,200261005"/>
+	<lev level="270" onceexp="34997304" money="550000" zhandouid="200261001,200261002,200261003,200261004,200261005"/>
+	<lev level="271" onceexp="35277282" money="550000" zhandouid="200271001,200271002,200271003,200271004,200271005"/>
+	<lev level="272" onceexp="35559500" money="550000" zhandouid="200271001,200271002,200271003,200271004,200271005"/>
+	<lev level="273" onceexp="35843976" money="550000" zhandouid="200271001,200271002,200271003,200271004,200271005"/>
+	<lev level="274" onceexp="36130727" money="550000" zhandouid="200271001,200271002,200271003,200271004,200271005"/>
+	<lev level="275" onceexp="36419772" money="550000" zhandouid="200271001,200271002,200271003,200271004,200271005"/>
+	<lev level="276" onceexp="36711130" money="550000" zhandouid="200271001,200271002,200271003,200271004,200271005"/>
+	<lev level="277" onceexp="37004819" money="550000" zhandouid="200271001,200271002,200271003,200271004,200271005"/>
+	<lev level="278" onceexp="37300857" money="550000" zhandouid="200271001,200271002,200271003,200271004,200271005"/>
+	<lev level="279" onceexp="37599263" money="550000" zhandouid="200271001,200271002,200271003,200271004,200271005"/>
+	<lev level="280" onceexp="37900057" money="550000" zhandouid="200271001,200271002,200271003,200271004,200271005"/>
+	<lev level="281" onceexp="38203257" money="550000" zhandouid="200281001,200281002,200281003,200281004,200281005"/>
+	<lev level="282" onceexp="38508883" money="550000" zhandouid="200281001,200281002,200281003,200281004,200281005"/>
+	<lev level="283" onceexp="38816954" money="550000" zhandouid="200281001,200281002,200281003,200281004,200281005"/>
+	<lev level="284" onceexp="39127489" money="550000" zhandouid="200281001,200281002,200281003,200281004,200281005"/>
+	<lev level="285" onceexp="39440508" money="550000" zhandouid="200281001,200281002,200281003,200281004,200281005"/>
+	<lev level="286" onceexp="39756032" money="550000" zhandouid="200281001,200281002,200281003,200281004,200281005"/>
+	<lev level="287" onceexp="40074080" money="550000" zhandouid="200281001,200281002,200281003,200281004,200281005"/>
+	<lev level="288" onceexp="40394672" money="550000" zhandouid="200281001,200281002,200281003,200281004,200281005"/>
+	<lev level="289" onceexp="40717829" money="550000" zhandouid="200281001,200281002,200281003,200281004,200281005"/>
+	<lev level="290" onceexp="41043571" money="550000" zhandouid="200281001,200281002,200281003,200281004,200281005"/>
+	<lev level="291" onceexp="41371919" money="550000" zhandouid="200291001,200291002,200291003,200291004,200291005"/>
+	<lev level="292" onceexp="41702894" money="550000" zhandouid="200291001,200291002,200291003,200291004,200291005"/>
+	<lev level="293" onceexp="42036517" money="550000" zhandouid="200291001,200291002,200291003,200291004,200291005"/>
+	<lev level="294" onceexp="42372809" money="550000" zhandouid="200291001,200291002,200291003,200291004,200291005"/>
+	<lev level="295" onceexp="42711791" money="550000" zhandouid="200291001,200291002,200291003,200291004,200291005"/>
+	<lev level="296" onceexp="43053485" money="550000" zhandouid="200291001,200291002,200291003,200291004,200291005"/>
+	<lev level="297" onceexp="43397912" money="550000" zhandouid="200291001,200291002,200291003,200291004,200291005"/>
+	<lev level="298" onceexp="43745095" money="550000" zhandouid="200291001,200291002,200291003,200291004,200291005"/>
+	<lev level="299" onceexp="44095055" money="550000" zhandouid="200291001,200291002,200291003,200291004,200291005"/>
+	<lev level="300" onceexp="44447815" money="550000" zhandouid="200291001,200291002,200291003,200291004,200291005"/>
+	<vip vip="0" buynum="0"/>
+	<vip vip="1" buynum="0"/>
+	<vip vip="2" buynum="0"/>
+	<vip vip="3" buynum="0"/>
+	<vip vip="4" buynum="1"/>
+	<vip vip="5" buynum="1"/>
+	<vip vip="6" buynum="2"/>
+	<vip vip="7" buynum="2"/>
+	<vip vip="8" buynum="3"/>
+	<vip vip="9" buynum="3"/>
+	<vip vip="10" buynum="5"/>
+	<vip vip="11" buynum="5"/>
+	<vip vip="12" buynum="5"/>
+	<cost buynum="1" moneytype="3" num="500"/>
+	<cost buynum="2" moneytype="2" num="500"/>
+	<cost buynum="3" moneytype="2" num="1000"/>
+	<cost buynum="4" moneytype="2" num="1000"/>
+	<cost buynum="5" moneytype="2" num="2000"/>
+	<guide functionid="6666" tasklevel="1" guidering="5"/>
+	<map zhandouid="200001001,200001002,200001003" point="1"/>
+	<map zhandouid="200001004,200001005" point="2"/>
+	<map zhandouid="200051001,200051002" point="2"/>
+	<map zhandouid="200051003,200051004" point="3"/>
+	<map zhandouid="200051005" point="4"/>
+	<map zhandouid="200061001,200061002" point="2"/>
+	<map zhandouid="200061003,200061004" point="3"/>
+	<map zhandouid="200061005" point="4"/>
+	<map zhandouid="200071001,200071002" point="3"/>
+	<map zhandouid="200071003,200071004" point="4"/>
+	<map zhandouid="200071005" point="5"/>
+	<map zhandouid="200081001,200081002" point="4"/>
+	<map zhandouid="200081003,200081004" point="5"/>
+	<map zhandouid="200081005" point="6"/>
+	<map zhandouid="200091001" point="4"/>
+	<map zhandouid="200091002,200091003" point="5"/>
+	<map zhandouid="200091004,200091005" point="6"/>
+	<map zhandouid="200101001,200101002" point="5"/>
+	<map zhandouid="200101003,200101004" point="6"/>
+	<map zhandouid="200101005" point="7"/>
+	<map zhandouid="200111001" point="5"/>
+	<map zhandouid="200111002,200111003" point="6"/>
+	<map zhandouid="200111004,200111005" point="7"/>
+	<map zhandouid="200121001,200121002" point="6"/>
+	<map zhandouid="200121003,200121004" point="7"/>
+	<map zhandouid="200121005" point="8"/>
+	<map zhandouid="200131001" point="6"/>
+	<map zhandouid="200131002,200131003" point="7"/>
+	<map zhandouid="200131004,200131005" point="8"/>
+	<map zhandouid="200141001" point="7"/>
+	<map zhandouid="200141002,200141003" point="8"/>
+	<map zhandouid="200141004,200141005" point="9"/>
+	<map zhandouid="200151001" point="8"/>
+	<map zhandouid="200151002,200151003" point="9"/>
+	<map zhandouid="200151004,200151005" point="10"/>
+	<map zhandouid="200161001" point="8"/>
+	<map zhandouid="200161002,200161003" point="9"/>
+	<map zhandouid="200161004,200161005" point="10"/>
+	<map zhandouid="200171001" point="9"/>
+	<map zhandouid="200171002,200171003" point="10"/>
+	<map zhandouid="200171004,200171005" point="11"/>
+	<map zhandouid="200181001" point="9"/>
+	<map zhandouid="200181002,200181003" point="10"/>
+	<map zhandouid="200181004,200181005" point="11"/>
+	<map zhandouid="200191001" point="11"/>
+	<map zhandouid="200191002,200191003" point="11"/>
+	<map zhandouid="200191004,200191005" point="12"/>
+	<map zhandouid="200201001" point="11"/>
+	<map zhandouid="200201002,200201003" point="12"/>
+	<map zhandouid="200201004,200201005" point="12"/>
+	<map zhandouid="200211001" point="12"/>
+	<map zhandouid="200211002,200211003" point="12"/>
+	<map zhandouid="200211004,200211005" point="13"/>
+	<map zhandouid="200221001" point="12"/>
+	<map zhandouid="200221002,200221003" point="13"/>
+	<map zhandouid="200221004,200221005" point="13"/>
+	<map zhandouid="200231001" point="13"/>
+	<map zhandouid="200231002,200231003" point="13"/>
+	<map zhandouid="200231004,200231005" point="14"/>
+	<map zhandouid="200241001" point="13"/>
+	<map zhandouid="200241002,200241003" point="14"/>
+	<map zhandouid="200241004,200241005" point="14"/>
+	<map zhandouid="200251001" point="13"/>
+	<map zhandouid="200251002,200251003" point="14"/>
+	<map zhandouid="200251004,200251005" point="14"/>
+	<map zhandouid="200261001" point="13"/>
+	<map zhandouid="200261002,200261003" point="14"/>
+	<map zhandouid="200261004,200261005" point="14"/>
+	<map zhandouid="200271001" point="13"/>
+	<map zhandouid="200271002,200271003" point="14"/>
+	<map zhandouid="200271004,200271005" point="14"/>
+	<map zhandouid="200281001" point="13"/>
+	<map zhandouid="200281002,200281003" point="14"/>
+	<map zhandouid="200281004,200281005" point="14"/>
+	<map zhandouid="200291001" point="13"/>
+	<map zhandouid="200291002,200291003" point="14"/>
+	<map zhandouid="200291004,200291005" point="14"/>
+	<name monstername1="子时,丑时,寅时,卯时,辰时,巳时,午时,未时,申时,酉时,戌时,亥时" monstername2="一刻,二刻,三刻" monstername3="浇虚鬼,醉死鬼,温斯鬼,伶俐鬼,捣蛋鬼,不通鬼,偷尸鬼,冒失鬼"/>
+</root>

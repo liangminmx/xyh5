@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+FunctionId	功能开启
+openTime	开启时间
+配置格式:XX:YY:ZZ
+overTime	结束时间
+配置格式:XX:YY:ZZ
+openServiceDays	开服X天开启跨服(≥)
+serverCrossId	Id值索引到server_cross配置的的id值
+previewTime	活动开启预告时间（单位分钟）
+配置格式:XX:YY:ZZ
+matchTime	池子库内玩家得匹配时间(单位:秒)
+topLeaderboard	取战力榜前X至Y名玩家
+用逗号隔开
+minRequirements	最低人数要求
+victoryPoints	胜利可获得的积分值
+failedDeductedScore	失败扣除的积分值
+xRoundWinPoints	X回合内获胜可额外增加的积分值
+配置格式为: X,Y;Z,W
+X和Z为第X回合
+Y和W为该回合获胜可额外增加的积分值
+streakPoints	连胜增加的值
+failureXTimes	失败X次后当天无法参与匹配
+streakBroadcast	连胜X次需要广播
+streakBroadcastId	连胜广播Id
+numberOfLerderboard	=-1代表有参加都显示哪怕积分为0
+=其他值,则显示具体数量的值,例=50排行榜显示前50名，包括50
+mailId	邮件Id，索引mail.xml中的Id值
+可支持配置多个
+配置格式为=X,Y,Z,W
+X为首胜奖励邮件Id
+Y为胜利X场的奖励邮件Id
+Z为战斗X的奖励邮件Id
+W为积分排名奖励邮件Id
+broadcast	距离活动开启前X分钟进行广播
+可配置多个,用逗号隔开
+(单位：秒)
+broadcastId	广播Id，跟broadcast对应
+shopId	商店Id
+索引到shop.xml中shopId值
+synchronisedTime	排行榜定时同步时间(单位:分钟)
+firstWin	首胜奖励
+xWins	第X次胜利的奖励
+需要支持配置多条victoryXReward标签
+xWarReward	第X次战斗的奖励
+需要支持配置多条combatReward标签
+bMoney	绑定元宝的数量,字段不配置视为没有该奖励
+money	银币数量,字段不配置视为没有该奖励
+extremeCurrency	武魂币数量
+新添得货币道具，专属比武大会用
+一直保留，不清空
+字段不配置视为没有该奖励
+Item.xml中添加Id=10得武魂币道具，需要代码处理下
+pointsRankReward	排行奖励,支持配置区间,用逗号隔开
+配置格式:X,Y
+第X名至Y名次的奖励
+bMoney	绑定元宝的数量,字段不配置视为没有该奖励
+money	银币数量,字段不配置视为没有该奖励
+extremeCurrency	武魂币数量
+新添得货币道具，专属比武大会用
+一直保留，不清空
+字段不配置视为没有该奖励
+Item.xml中添加Id=10得武魂币道具，需要代码处理下
+itemId	奖励道具,Id值支持索引到equip.xml
+支持配置多条数据
+num	奖励的道具数量
+-->
+	<Function FunctionId="2068"/>
+	<activityOpen openTime="21:00:00" overTime="21:30:00" serverCrossId="1" openServicedays="6" previewTime="60" matchTime="20" topLeaderboard="20,100" minRequirements="50" victoryPoints="10" failedDeductedScore="2" xRoundWinPoints="1,5;2,4;3,3;4,1;5,1" streakpoints="5" failureXTimes="5" streakBroadcast="7" numberOfLerderboard="50" mailId="5010,5011,5012,5013" broadcast="3000,2400,1800,1200,600,300,180,60" shopId="9" synchronisedTime="1" buffId="3000010">
+		<!--首胜奖励-->
+		<first firstWin="1" bMoney="5000" extremeCurrency="5000">
+			<reward itemId="10000007" num="200"/>
+			<reward itemId="16010001" num="3"/>
+		</first>
+		<!--胜利X次后的奖励信息-->
+		<victoryXReward xWins="3" bMoney="5000" extremeCurrency="10000">
+			<reward itemId="10000007" num="200"/>
+			<reward itemId="16010001" num="7"/>
+		</victoryXReward>
+		<!--战斗X次的奖励信息-->
+		<combatReward xWarReward="5" bMoney="5000" extremeCurrency="5000">
+			<reward itemId="10000007" num="200"/>
+			<reward itemId="16010001" num="10"/>
+		</combatReward>
+		<!--排行奖励信息-->
+		<rankReward pointsRankReward="1" extremeCurrency="50000">
+			<reward itemId="13010050" num="1"/>
+			<reward itemId="10000008" num="1000"/>
+			<reward itemId="16010014" num="20"/>
+		</rankReward>
+		<rankReward pointsRankReward="2" extremeCurrency="30000">
+			<reward itemId="13010051" num="1"/>
+			<reward itemId="10000008" num="600"/>
+			<reward itemId="16010014" num="10"/>
+		</rankReward>
+		<rankReward pointsRankReward="3" extremeCurrency="20000">
+			<reward itemId="13010052" num="1"/>
+			<reward itemId="10000008" num="350"/>
+			<reward itemId="16010014" num="6"/>
+		</rankReward>
+		<rankReward pointsRankReward="4,5" extremeCurrency="15000">
+			<reward itemId="13010053" num="1"/>
+			<reward itemId="10000008" num="300"/>
+			<reward itemId="10000004" num="5"/>
+		</rankReward>
+		<rankReward pointsRankReward="6,10" extremeCurrency="12000">
+			<reward itemId="13010053" num="1"/>
+			<reward itemId="10000008" num="250"/>
+			<reward itemId="10000004" num="5"/>
+		</rankReward>
+		<rankReward pointsRankReward="11,20" extremeCurrency="10000">
+			<reward itemId="10000008" num="200"/>
+			<reward itemId="10000004" num="2"/>
+		</rankReward>
+		<rankReward pointsRankReward="21,99999" extremeCurrency="8000">
+			<reward itemId="10000008" num="100"/>
+			<reward itemId="10000004" num="1"/>
+		</rankReward>
+	</activityOpen>
+</root>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+function标签		
+	functionid	功能开启编号	
+	time_first	首次活动开始时间	开服第几天后开启活动，单位天
+	time_activity	活动持续时间	活动持续时间，单位天
+	time_cd	活动间隔时间	活动冷却时间，单位天
+	boss_first	初始boss编号	
+boss标签
+	boss	boss编号	
+	name	boss名称	
+	icon	boss头像图标	
+	style	boss模型	
+	next_boss	下一轮boss编号	下一次活动开启的boss，关联boss字段
+tollgate标签  			
+	tollgate	关卡编号	每轮boss都有10个关卡
+	zhenrong	战斗阵容	关联zhenrong.xml  实际战斗挑战的怪物
+	item	允许填写多个道具编号用逗号隔开
+	count	和奖励一一对应用逗号隔开
+    zhanli  关卡推荐战力
+    broadcast =1战胜后广播 
+-->
+	<function functionid="2045" time_first="0" time_activity="7" time_cd="999" boss_first="1"/>
+	<boss boss="1" name="白泽" icon="2045" style="300001" next_boss="2">
+		<tollgate tollgate="1" zhenrong="150001001" item="6000604,14010201,14010101,14010001" count="1,10,1,2" zhanli="4000000"/>
+		<tollgate tollgate="2" zhenrong="150002001" item="5000604,14010201,14010101,14010001" count="1,20,2,2" zhanli="5000000"/>
+		<tollgate tollgate="3" zhenrong="150003001" item="3000604,14030201,14030101,14030001" count="1,30,3,2" zhanli="7000000"/>
+		<tollgate tollgate="4" zhenrong="150004001" item="4000704,14030201,14030101,14030001" count="1,40,4,2" zhanli="11000000"/>
+		<tollgate tollgate="5" zhenrong="150005001" item="6000704,14050201,14050101,14050001" count="1,50,5,2" zhanli="20000000"/>
+		<tollgate tollgate="6" zhenrong="150006001" item="5000804,14050201,14050101,14050001" count="1,60,6,2" zhanli="25000000" broadcast="1"/>
+		<tollgate tollgate="7" zhenrong="150007001" item="3000904,14040201,14040101,14040001" count="1,70,7,2" zhanli="30000000"/>
+		<tollgate tollgate="8" zhenrong="150008001" item="12060014,14040201,14040101,14040001" count="1,80,8,2" zhanli="45000000" broadcast="1"/>
+		<tollgate tollgate="9" zhenrong="150009001" item="4001004,14020201,14020101,14020001" count="1,90,9,2" zhanli="80000000"/>
+		<tollgate tollgate="10" zhenrong="150010001" item="12000036,14020201,14020101,14020001" count="1,100,10,2" zhanli="120000000" broadcast="1"/>
+	</boss>
+	<boss boss="2" name="白泽" icon="2045" style="300001" next_boss="1">
+		<tollgate tollgate="1" zhenrong="150001001" item="6000604,14010201,14010101,14010001" count="1,10,1,2" zhanli="4000000"/>
+		<tollgate tollgate="2" zhenrong="150002001" item="5000604,14010201,14010101,14010001" count="1,20,2,2" zhanli="5000000"/>
+		<tollgate tollgate="3" zhenrong="150003001" item="3000604,14030201,14030101,14030001" count="1,30,3,2" zhanli="7000000"/>
+		<tollgate tollgate="4" zhenrong="150004001" item="4000704,14030201,14030101,14030001" count="1,40,4,2" zhanli="11000000"/>
+		<tollgate tollgate="5" zhenrong="150005001" item="6000704,14050201,14050101,14050001" count="1,50,5,2" zhanli="20000000"/>
+		<tollgate tollgate="6" zhenrong="150006001" item="5000804,14050201,14050101,14050001" count="1,60,6,2" zhanli="25000000" broadcast="1"/>
+		<tollgate tollgate="7" zhenrong="150007001" item="3000904,14040201,14040101,14040001" count="1,70,7,2" zhanli="30000000"/>
+		<tollgate tollgate="8" zhenrong="150008001" item="12060014,14040201,14040101,14040001" count="1,80,8,2" zhanli="45000000" broadcast="1"/>
+		<tollgate tollgate="9" zhenrong="150009001" item="4001004,14020201,14020101,14020001" count="1,90,9,2" zhanli="80000000"/>
+		<tollgate tollgate="10" zhenrong="150010001" item="12000036,14020201,14020101,14020001" count="1,100,10,2" zhanli="120000000" broadcast="1"/>
+	</boss>
+</root>

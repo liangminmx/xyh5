@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+serverNum	"合服次数=-1默认状态=0新服的活动数据=1,合服1次的活动数据=2合服2次的活动数据……"			
+functionid	功能id			
+icon	活动图标icon			
+groupid	活动id			
+next	下阶段活动开启id			
+recharge	充值rmb数			
+bmoney	绑元数量			
+itemid	道具id			
+num	道具数量			
+time	道具当天到期时间（XX:XX:XX）(不填写时无时间限制)			
+
+-->
+<root>
+	<server serverNum="-1">
+		<function functionid="2026" icon="2026"/>
+		<group groupid="1" next="3" recharge="88" bmoney="888">
+			<itme itemid="14010301" num="1" time="23:59:59"/>
+			<itme itemid="14010101" num="3"/>
+			<itme itemid="14010201" num="50"/>
+			<itme itemid="14010001" num="2"/>
+			<itme itemid="1010604" num="1"/>
+		</group>
+		<group groupid="2" next="6" recharge="88" bmoney="888">
+			<itme itemid="14020301" num="1" time="23:59:59"/>
+			<itme itemid="14020101" num="3"/>
+			<itme itemid="14020201" num="50"/>
+			<itme itemid="14020001" num="2"/>
+			<itme itemid="6010604" num="1"/>
+		</group>
+		<group groupid="3" next="4" recharge="88" bmoney="888">
+			<itme itemid="14030301" num="1" time="23:59:59"/>
+			<itme itemid="14030101" num="3"/>
+			<itme itemid="14030201" num="50"/>
+			<itme itemid="14030001" num="2"/>
+			<itme itemid="3010604" num="1"/>
+		</group>
+		<group groupid="4" next="5" recharge="88" bmoney="888">
+			<itme itemid="14050301" num="1" time="23:59:59"/>
+			<itme itemid="14050101" num="3"/>
+			<itme itemid="14050201" num="50"/>
+			<itme itemid="14050001" num="2"/>
+			<itme itemid="4010604" num="1"/>
+		</group>
+		<group groupid="5" next="2" recharge="88" bmoney="888">
+			<itme itemid="14040301" num="1" time="23:59:59"/>
+			<itme itemid="14040101" num="3"/>
+			<itme itemid="14040201" num="50"/>
+			<itme itemid="14040001" num="2"/>
+			<itme itemid="5010604" num="1"/>
+		</group>
+		<group groupid="6" next="9" recharge="88" bmoney="888">
+			<itme itemid="14070301" num="1" time="23:59:59"/>
+			<itme itemid="14070101" num="3"/>
+			<itme itemid="14070201" num="50"/>
+			<itme itemid="14070001" num="2"/>
+			<itme itemid="7010604" num="1"/>
+		</group>
+		<group groupid="7" next="8" recharge="128" bmoney="888">
+			<itme itemid="10000006" num="666"/>
+			<itme itemid="10000016" num="100"/>
+			<itme itemid="16010009" num="2"/>
+			<itme itemid="16010010" num="1"/>
+			<itme itemid="16010025" num="1"/>
+		</group>
+		<group groupid="8" recharge="128" bmoney="888">
+			<itme itemid="10000004" num="50"/>
+			<itme itemid="10000015" num="100"/>
+			<itme itemid="10000003" num="10"/>
+			<itme itemid="16010027" num="1"/>
+			<itme itemid="16010026" num="1"/>
+		</group>
+		<group groupid="9" next="7" recharge="88" bmoney="888">
+			<itme itemid="14080301" num="1" time="23:59:59"/>
+			<itme itemid="14080101" num="3"/>
+			<itme itemid="14080201" num="50"/>
+			<itme itemid="14080001" num="2"/>
+			<itme itemid="8010604" num="1"/>
+		</group>
+	</server>
+	<server serverNum="0">
+		<function functionid="2026" icon="2026"/>
+		<group groupid="1" next="3" recharge="88" bmoney="888">
+			<itme itemid="14010301" num="1" time="23:59:59"/>
+			<itme itemid="14010101" num="3"/>
+			<itme itemid="14010201" num="50"/>
+			<itme itemid="14010001" num="2"/>
+			<itme itemid="1010604" num="1"/>
+		</group>
+		<group groupid="2" next="6" recharge="88" bmoney="888">
+			<itme itemid="14020301" num="1" time="23:59:59"/>
+			<itme itemid="14020101" num="3"/>
+			<itme itemid="14020201" num="50"/>
+			<itme itemid="14020001" num="2"/>
+			<itme itemid="6010604" num="1"/>
+		</group>
+		<group groupid="3" next="4" recharge="88" bmoney="888">
+			<itme itemid="14030301" num="1" time="23:59:59"/>
+			<itme itemid="14030101" num="3"/>
+			<itme itemid="14030201" num="50"/>
+			<itme itemid="14030001" num="2"/>
+			<itme itemid="3010604" num="1"/>
+		</group>
+		<group groupid="4" next="5" recharge="88" bmoney="888">
+			<itme itemid="14050301" num="1" time="23:59:59"/>
+			<itme itemid="14050101" num="3"/>
+			<itme itemid="14050201" num="50"/>
+			<itme itemid="14050001" num="2"/>
+			<itme itemid="4010604" num="1"/>
+		</group>
+		<group groupid="5" next="2" recharge="88" bmoney="888">
+			<itme itemid="14040301" num="1" time="23:59:59"/>
+			<itme itemid="14040101" num="3"/>
+			<itme itemid="14040201" num="50"/>
+			<itme itemid="14040001" num="2"/>
+			<itme itemid="5010604" num="1"/>
+		</group>
+		<group groupid="6" next="9" recharge="88" bmoney="888">
+			<itme itemid="14070301" num="1" time="23:59:59"/>
+			<itme itemid="14070101" num="3"/>
+			<itme itemid="14070201" num="50"/>
+			<itme itemid="14070001" num="2"/>
+			<itme itemid="7010604" num="1"/>
+		</group>
+		<group groupid="7" next="8" recharge="128" bmoney="888">
+			<itme itemid="10000006" num="666"/>
+			<itme itemid="10000016" num="100"/>
+			<itme itemid="16010009" num="2"/>
+			<itme itemid="16010010" num="1"/>
+			<itme itemid="16010025" num="1"/>
+		</group>
+		<group groupid="8" recharge="128" bmoney="888">
+			<itme itemid="10000004" num="50"/>
+			<itme itemid="10000015" num="100"/>
+			<itme itemid="10000003" num="10"/>
+			<itme itemid="16010027" num="1"/>
+			<itme itemid="16010026" num="1"/>
+		</group>
+		<group groupid="9" next="7" recharge="88" bmoney="888">
+			<itme itemid="14080301" num="1" time="23:59:59"/>
+			<itme itemid="14080101" num="3"/>
+			<itme itemid="14080201" num="50"/>
+			<itme itemid="14080001" num="2"/>
+			<itme itemid="8010604" num="1"/>
+		</group>
+	</server>
+	<server serverNum="1">
+		<function functionid="2026" icon="2026"/>
+		<group groupid="1" next="3" recharge="88" bmoney="8888">
+			<itme itemid="14010302" num="1" time="23:59:59"/>
+			<itme itemid="16010100" num="10"/>
+			<itme itemid="14010201" num="100"/>
+			<itme itemid="14010001" num="5"/>
+			<itme itemid="16010013" num="10"/>
+		</group>
+		<group groupid="2" next="6" recharge="88" bmoney="8888">
+			<itme itemid="14020302" num="1" time="23:59:59"/>
+			<itme itemid="16010105" num="10"/>
+			<itme itemid="14020201" num="100"/>
+			<itme itemid="14020001" num="5"/>
+			<itme itemid="16010013" num="10"/>
+		</group>
+		<group groupid="3" next="4" recharge="88" bmoney="8888">
+			<itme itemid="14030302" num="1" time="23:59:59"/>
+			<itme itemid="16010102" num="10"/>
+			<itme itemid="14030201" num="100"/>
+			<itme itemid="14030001" num="5"/>
+			<itme itemid="16010013" num="10"/>
+		</group>
+		<group groupid="4" next="5" recharge="88" bmoney="8888">
+			<itme itemid="14050302" num="1" time="23:59:59"/>
+			<itme itemid="16010104" num="10"/>
+			<itme itemid="14050201" num="100"/>
+			<itme itemid="14050001" num="5"/>
+			<itme itemid="16010013" num="10"/>
+		</group>
+		<group groupid="5" next="2" recharge="88" bmoney="8888">
+			<itme itemid="14040302" num="1" time="23:59:59"/>
+			<itme itemid="16010103" num="10"/>
+			<itme itemid="14040201" num="100"/>
+			<itme itemid="14040001" num="5"/>
+			<itme itemid="16010013" num="10"/>
+		</group>
+		<group groupid="6" next="9" recharge="88" bmoney="8888">
+			<itme itemid="14070302" num="1" time="23:59:59"/>
+			<itme itemid="16010106" num="10"/>
+			<itme itemid="14070201" num="100"/>
+			<itme itemid="14070001" num="5"/>
+			<itme itemid="16010013" num="10"/>
+		</group>
+		<group groupid="9" recharge="88" bmoney="8888">
+			<itme itemid="14080302" num="1" time="23:59:59"/>
+			<itme itemid="16010107" num="10"/>
+			<itme itemid="14080201" num="100"/>
+			<itme itemid="14080001" num="5"/>
+			<itme itemid="16010013" num="10"/>
+		</group>
+	</server>
+</root>

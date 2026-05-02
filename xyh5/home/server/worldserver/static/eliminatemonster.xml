@@ -1,0 +1,1450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+functionid	妖王开启ID			
+ppnumber	参与人数 =1 单人副本 >1为组队副本（填2,2人组队即可参与）			
+totalchallenge	可挑战次数			
+coolingtime	单次恢复时间（单位秒）			
+vip	复活所需VIP等级			
+fhitem	复活所需要道具id			
+fhnum	复活所需要道具数量			
+number	怪物编号			
+level	活动参与等级			
+resettime	怪物复活时间（单位：秒）				
+monsterid	对应怪物ID			
+battleid	战斗ID			
+mailid	邮件id			
+level	排名			
+item	排名奖励物品（多个道具用“；”隔开）			
+num	排名奖励数量（多个道具用“；”隔开）	
+yl 排名奖励银两
+rewardid BOSS挑战奖励库序列
+probability 百分比 万分值
+rewardnum 库中随出的数量
+item 奖励道具ID	
+num 道具数量
+weight 权重
+
+rewardid BOSS击杀奖励库序列
+rewardnum 库中随出的数量
+item 奖励道具ID	
+num 道具数量
+weight 权重
+redbagid 红包ID
+-->
+	<pro functionid="2022" ppnumber="1" totalchallenge="10" coolingtime="3600" vip="3" fhitem="10000001"/>
+	<monster number="1" mlevel="60" resettime="300" monsterid="410060001" battleid="410060001" mailid="1020001" fhnum="1" redbagid="12">
+		<level level="1" item="10000007;10000012;10000013" num="50;10;5" yl="500000"/>
+		<level level="2" item="10000007;10000012;10000013" num="30;7;4" yl="250000"/>
+		<level level="3" item="10000007;10000012;10000013" num="20;5;3" yl="150000"/>
+		<level level="4" item="10000007;10000012;10000013" num="15;3;2" yl="100000"/>
+		<level level="5" item="10000007;10000012;10000013" num="15;3;2" yl="100000"/>
+		<level level="6" item="10000007;10000012;10000013" num="10;1;1" yl="50000"/>
+		<level level="7" item="10000007;10000012;10000013" num="10;1;1" yl="50000"/>
+		<level level="8" item="10000007;10000012;10000013" num="10;1;1" yl="50000"/>
+		<level level="9" item="10000007;10000012;10000013" num="10;1;1" yl="50000"/>
+		<level level="10" item="10000007;10000012;10000013" num="10;1;1" yl="50000"/>
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="10" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="4">
+			<item item="1000602" num="1" weight="100"/>
+			<item item="2000602" num="1" weight="100"/>
+			<item item="3000602" num="1" weight="100"/>
+			<item item="4000602" num="1" weight="100"/>
+			<item item="5000602" num="1" weight="100"/>
+			<item item="6000602" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="4">
+			<item item="1000603" num="1" weight="100"/>
+			<item item="2000603" num="1" weight="100"/>
+			<item item="3000603" num="1" weight="100"/>
+			<item item="4000603" num="1" weight="100"/>
+			<item item="5000603" num="1" weight="100"/>
+			<item item="6000603" num="1" weight="100"/>
+		</reward>
+		<bossreward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="20" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="2" probability="1000" rewardnum="1">
+			<item item="1000604" num="1" weight="100"/>
+			<item item="2000604" num="1" weight="100"/>
+			<item item="5000604" num="1" weight="100"/>
+			<item item="6000604" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="3" probability="3000" rewardnum="1">
+			<item item="1000504" num="1" weight="100"/>
+			<item item="2000504" num="1" weight="100"/>
+			<item item="5000504" num="1" weight="100"/>
+			<item item="6000504" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="4" probability="10000" rewardnum="1">
+			<item item="1000404" num="1" weight="100"/>
+			<item item="2000404" num="1" weight="100"/>
+			<item item="5000404" num="1" weight="100"/>
+			<item item="6000404" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="5" probability="10000" rewardnum="5">
+			<item item="1000603" num="1" weight="100"/>
+			<item item="2000603" num="1" weight="100"/>
+			<item item="3000603" num="1" weight="100"/>
+			<item item="4000603" num="1" weight="100"/>
+			<item item="5000603" num="1" weight="100"/>
+			<item item="6000603" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="6" probability="10000" rewardnum="3">
+			<item item="1000602" num="1" weight="100"/>
+			<item item="2000602" num="1" weight="100"/>
+			<item item="3000602" num="1" weight="100"/>
+			<item item="4000602" num="1" weight="100"/>
+			<item item="5000602" num="1" weight="100"/>
+			<item item="6000602" num="1" weight="100"/>
+		</bossreward>
+	</monster>
+	<monster number="2" mlevel="60" resettime="300" monsterid="410060101" battleid="410060101" mailid="1020001" fhnum="1" redbagid="12">
+		<level level="1" item="10000007;10000012;10000013" num="50;10;5" yl="500000"/>
+		<level level="2" item="10000007;10000012;10000013" num="30;7;4" yl="250000"/>
+		<level level="3" item="10000007;10000012;10000013" num="20;5;3" yl="150000"/>
+		<level level="4" item="10000007;10000012;10000013" num="15;3;2" yl="100000"/>
+		<level level="5" item="10000007;10000012;10000013" num="15;3;2" yl="100000"/>
+		<level level="6" item="10000007;10000012;10000013" num="10;1;1" yl="50000"/>
+		<level level="7" item="10000007;10000012;10000013" num="10;1;1" yl="50000"/>
+		<level level="8" item="10000007;10000012;10000013" num="10;1;1" yl="50000"/>
+		<level level="9" item="10000007;10000012;10000013" num="10;1;1" yl="50000"/>
+		<level level="10" item="10000007;10000012;10000013" num="10;1;1" yl="50000"/>
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="10" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="4">
+			<item item="1000602" num="1" weight="100"/>
+			<item item="2000602" num="1" weight="100"/>
+			<item item="3000602" num="1" weight="100"/>
+			<item item="4000602" num="1" weight="100"/>
+			<item item="5000602" num="1" weight="100"/>
+			<item item="6000602" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="4">
+			<item item="1000603" num="1" weight="100"/>
+			<item item="2000603" num="1" weight="100"/>
+			<item item="3000603" num="1" weight="100"/>
+			<item item="4000603" num="1" weight="100"/>
+			<item item="5000603" num="1" weight="100"/>
+			<item item="6000603" num="1" weight="100"/>
+		</reward>
+		<bossreward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="20" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="2" probability="1000" rewardnum="1">
+			<item item="1000604" num="1" weight="100"/>
+			<item item="2000604" num="1" weight="100"/>
+			<item item="5000604" num="1" weight="100"/>
+			<item item="6000604" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="3" probability="3000" rewardnum="1">
+			<item item="1000504" num="1" weight="100"/>
+			<item item="2000504" num="1" weight="100"/>
+			<item item="5000504" num="1" weight="100"/>
+			<item item="6000504" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="4" probability="10000" rewardnum="1">
+			<item item="1000404" num="1" weight="100"/>
+			<item item="2000404" num="1" weight="100"/>
+			<item item="5000404" num="1" weight="100"/>
+			<item item="6000404" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="5" probability="10000" rewardnum="5">
+			<item item="1000603" num="1" weight="100"/>
+			<item item="2000603" num="1" weight="100"/>
+			<item item="3000603" num="1" weight="100"/>
+			<item item="4000603" num="1" weight="100"/>
+			<item item="5000603" num="1" weight="100"/>
+			<item item="6000603" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="6" probability="10000" rewardnum="3">
+			<item item="1000602" num="1" weight="100"/>
+			<item item="2000602" num="1" weight="100"/>
+			<item item="3000602" num="1" weight="100"/>
+			<item item="4000602" num="1" weight="100"/>
+			<item item="5000602" num="1" weight="100"/>
+			<item item="6000602" num="1" weight="100"/>
+		</bossreward>
+	</monster>
+	<monster number="3" mlevel="60" resettime="300" monsterid="410060201" battleid="410060201" mailid="1020001" fhnum="1" redbagid="12">
+		<level level="1" item="10000007;10000012;10000013" num="50;10;5" yl="500000"/>
+		<level level="2" item="10000007;10000012;10000013" num="30;7;4" yl="250000"/>
+		<level level="3" item="10000007;10000012;10000013" num="20;5;3" yl="150000"/>
+		<level level="4" item="10000007;10000012;10000013" num="15;3;2" yl="100000"/>
+		<level level="5" item="10000007;10000012;10000013" num="15;3;2" yl="100000"/>
+		<level level="6" item="10000007;10000012;10000013" num="10;1;1" yl="50000"/>
+		<level level="7" item="10000007;10000012;10000013" num="10;1;1" yl="50000"/>
+		<level level="8" item="10000007;10000012;10000013" num="10;1;1" yl="50000"/>
+		<level level="9" item="10000007;10000012;10000013" num="10;1;1" yl="50000"/>
+		<level level="10" item="10000007;10000012;10000013" num="10;1;1" yl="50000"/>
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="10" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="4">
+			<item item="1000602" num="1" weight="100"/>
+			<item item="2000602" num="1" weight="100"/>
+			<item item="3000602" num="1" weight="100"/>
+			<item item="4000602" num="1" weight="100"/>
+			<item item="5000602" num="1" weight="100"/>
+			<item item="6000602" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="4">
+			<item item="1000603" num="1" weight="100"/>
+			<item item="2000603" num="1" weight="100"/>
+			<item item="3000603" num="1" weight="100"/>
+			<item item="4000603" num="1" weight="100"/>
+			<item item="5000603" num="1" weight="100"/>
+			<item item="6000603" num="1" weight="100"/>
+		</reward>
+		<bossreward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="20" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="2" probability="1000" rewardnum="1">
+			<item item="1000604" num="1" weight="100"/>
+			<item item="2000604" num="1" weight="100"/>
+			<item item="5000604" num="1" weight="100"/>
+			<item item="6000604" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="3" probability="3000" rewardnum="1">
+			<item item="1000504" num="1" weight="100"/>
+			<item item="2000504" num="1" weight="100"/>
+			<item item="5000504" num="1" weight="100"/>
+			<item item="6000504" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="4" probability="10000" rewardnum="1">
+			<item item="1000404" num="1" weight="100"/>
+			<item item="2000404" num="1" weight="100"/>
+			<item item="5000404" num="1" weight="100"/>
+			<item item="6000404" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="5" probability="10000" rewardnum="5">
+			<item item="1000603" num="1" weight="100"/>
+			<item item="2000603" num="1" weight="100"/>
+			<item item="3000603" num="1" weight="100"/>
+			<item item="4000603" num="1" weight="100"/>
+			<item item="5000603" num="1" weight="100"/>
+			<item item="6000603" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="6" probability="10000" rewardnum="3">
+			<item item="1000602" num="1" weight="100"/>
+			<item item="2000602" num="1" weight="100"/>
+			<item item="3000602" num="1" weight="100"/>
+			<item item="4000602" num="1" weight="100"/>
+			<item item="5000602" num="1" weight="100"/>
+			<item item="6000602" num="1" weight="100"/>
+		</bossreward>
+	</monster>
+	<monster number="4" mlevel="70" resettime="600" monsterid="410070001" battleid="410070001" mailid="1020001" fhnum="2" redbagid="12">
+		<level level="1" item="10000007;10000012;10000013" num="100;20;10" yl="1000000"/>
+		<level level="2" item="10000007;10000012;10000013" num="60;14;8" yl="500000"/>
+		<level level="3" item="10000007;10000012;10000013" num="40;10;6" yl="300000"/>
+		<level level="4" item="10000007;10000012;10000013" num="30;6;4" yl="200000"/>
+		<level level="5" item="10000007;10000012;10000013" num="30;6;4" yl="200000"/>
+		<level level="6" item="10000007;10000012;10000013" num="20;2;2" yl="100000"/>
+		<level level="7" item="10000007;10000012;10000013" num="20;2;2" yl="100000"/>
+		<level level="8" item="10000007;10000012;10000013" num="20;2;2" yl="100000"/>
+		<level level="9" item="10000007;10000012;10000013" num="20;2;2" yl="100000"/>
+		<level level="10" item="10000007;10000012;10000013" num="20;2;2" yl="100000"/>
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="10" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="4">
+			<item item="1000702" num="1" weight="100"/>
+			<item item="2000702" num="1" weight="100"/>
+			<item item="3000702" num="1" weight="100"/>
+			<item item="4000702" num="1" weight="100"/>
+			<item item="5000702" num="1" weight="100"/>
+			<item item="6000702" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="4">
+			<item item="1000703" num="1" weight="100"/>
+			<item item="2000703" num="1" weight="100"/>
+			<item item="3000703" num="1" weight="100"/>
+			<item item="4000703" num="1" weight="100"/>
+			<item item="5000703" num="1" weight="100"/>
+			<item item="6000703" num="1" weight="100"/>
+		</reward>
+		<bossreward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="30" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="2" probability="1000" rewardnum="1">
+			<item item="1000704" num="1" weight="100"/>
+			<item item="2000704" num="1" weight="100"/>
+			<item item="5000704" num="1" weight="100"/>
+			<item item="6000704" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="3" probability="3000" rewardnum="1">
+			<item item="1000604" num="1" weight="100"/>
+			<item item="2000604" num="1" weight="100"/>
+			<item item="5000604" num="1" weight="100"/>
+			<item item="6000604" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="4" probability="5000" rewardnum="1">
+			<item item="1000504" num="1" weight="100"/>
+			<item item="2000504" num="1" weight="100"/>
+			<item item="5000504" num="1" weight="100"/>
+			<item item="6000504" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="5" probability="10000" rewardnum="1">
+			<item item="1000404" num="1" weight="100"/>
+			<item item="2000404" num="1" weight="100"/>
+			<item item="5000404" num="1" weight="100"/>
+			<item item="6000404" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="6" probability="10000" rewardnum="5">
+			<item item="1000703" num="1" weight="100"/>
+			<item item="2000703" num="1" weight="100"/>
+			<item item="3000703" num="1" weight="100"/>
+			<item item="4000703" num="1" weight="100"/>
+			<item item="5000703" num="1" weight="100"/>
+			<item item="6000703" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="7" probability="10000" rewardnum="3">
+			<item item="1000702" num="1" weight="100"/>
+			<item item="2000702" num="1" weight="100"/>
+			<item item="3000702" num="1" weight="100"/>
+			<item item="4000702" num="1" weight="100"/>
+			<item item="5000702" num="1" weight="100"/>
+			<item item="6000702" num="1" weight="100"/>
+		</bossreward>
+	</monster>
+	<monster number="5" mlevel="70" resettime="600" monsterid="410070101" battleid="410070101" mailid="1020001" fhnum="2" redbagid="12">
+		<level level="1" item="10000007;10000012;10000013" num="100;20;10" yl="1000000"/>
+		<level level="2" item="10000007;10000012;10000013" num="60;14;8" yl="500000"/>
+		<level level="3" item="10000007;10000012;10000013" num="40;10;6" yl="300000"/>
+		<level level="4" item="10000007;10000012;10000013" num="30;6;4" yl="200000"/>
+		<level level="5" item="10000007;10000012;10000013" num="30;6;4" yl="200000"/>
+		<level level="6" item="10000007;10000012;10000013" num="20;2;2" yl="100000"/>
+		<level level="7" item="10000007;10000012;10000013" num="20;2;2" yl="100000"/>
+		<level level="8" item="10000007;10000012;10000013" num="20;2;2" yl="100000"/>
+		<level level="9" item="10000007;10000012;10000013" num="20;2;2" yl="100000"/>
+		<level level="10" item="10000007;10000012;10000013" num="20;2;2" yl="100000"/>
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="10" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="4">
+			<item item="1000702" num="1" weight="100"/>
+			<item item="2000702" num="1" weight="100"/>
+			<item item="3000702" num="1" weight="100"/>
+			<item item="4000702" num="1" weight="100"/>
+			<item item="5000702" num="1" weight="100"/>
+			<item item="6000702" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="4">
+			<item item="1000703" num="1" weight="100"/>
+			<item item="2000703" num="1" weight="100"/>
+			<item item="3000703" num="1" weight="100"/>
+			<item item="4000703" num="1" weight="100"/>
+			<item item="5000703" num="1" weight="100"/>
+			<item item="6000703" num="1" weight="100"/>
+		</reward>
+		<bossreward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="30" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="2" probability="1000" rewardnum="1">
+			<item item="1000704" num="1" weight="100"/>
+			<item item="2000704" num="1" weight="100"/>
+			<item item="5000704" num="1" weight="100"/>
+			<item item="6000704" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="3" probability="3000" rewardnum="1">
+			<item item="1000604" num="1" weight="100"/>
+			<item item="2000604" num="1" weight="100"/>
+			<item item="5000604" num="1" weight="100"/>
+			<item item="6000604" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="4" probability="5000" rewardnum="1">
+			<item item="1000504" num="1" weight="100"/>
+			<item item="2000504" num="1" weight="100"/>
+			<item item="5000504" num="1" weight="100"/>
+			<item item="6000504" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="5" probability="10000" rewardnum="1">
+			<item item="1000404" num="1" weight="100"/>
+			<item item="2000404" num="1" weight="100"/>
+			<item item="5000404" num="1" weight="100"/>
+			<item item="6000404" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="6" probability="10000" rewardnum="5">
+			<item item="1000703" num="1" weight="100"/>
+			<item item="2000703" num="1" weight="100"/>
+			<item item="3000703" num="1" weight="100"/>
+			<item item="4000703" num="1" weight="100"/>
+			<item item="5000703" num="1" weight="100"/>
+			<item item="6000703" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="7" probability="10000" rewardnum="3">
+			<item item="1000702" num="1" weight="100"/>
+			<item item="2000702" num="1" weight="100"/>
+			<item item="3000702" num="1" weight="100"/>
+			<item item="4000702" num="1" weight="100"/>
+			<item item="5000702" num="1" weight="100"/>
+			<item item="6000702" num="1" weight="100"/>
+		</bossreward>
+	</monster>
+	<monster number="6" mlevel="80" resettime="1200" monsterid="410080001" battleid="410080001" mailid="1020001" fhnum="2" redbagid="13">
+		<level level="1" item="10000007;10000012;10000013" num="100;20;10" yl="1000000"/>
+		<level level="2" item="10000007;10000012;10000013" num="60;14;8" yl="500000"/>
+		<level level="3" item="10000007;10000012;10000013" num="40;10;6" yl="300000"/>
+		<level level="4" item="10000007;10000012;10000013" num="30;6;4" yl="200000"/>
+		<level level="5" item="10000007;10000012;10000013" num="30;6;4" yl="200000"/>
+		<level level="6" item="10000007;10000012;10000013" num="20;2;2" yl="100000"/>
+		<level level="7" item="10000007;10000012;10000013" num="20;2;2" yl="100000"/>
+		<level level="8" item="10000007;10000012;10000013" num="20;2;2" yl="100000"/>
+		<level level="9" item="10000007;10000012;10000013" num="20;2;2" yl="100000"/>
+		<level level="10" item="10000007;10000012;10000013" num="20;2;2" yl="100000"/>
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="10" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="4">
+			<item item="1000802" num="1" weight="100"/>
+			<item item="2000802" num="1" weight="100"/>
+			<item item="3000802" num="1" weight="100"/>
+			<item item="4000802" num="1" weight="100"/>
+			<item item="5000802" num="1" weight="100"/>
+			<item item="6000802" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="4">
+			<item item="1000803" num="1" weight="100"/>
+			<item item="2000803" num="1" weight="100"/>
+			<item item="3000803" num="1" weight="100"/>
+			<item item="4000803" num="1" weight="100"/>
+			<item item="5000803" num="1" weight="100"/>
+			<item item="6000803" num="1" weight="100"/>
+		</reward>
+		<bossreward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="50" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="2" probability="1000" rewardnum="1">
+			<item item="1000804" num="1" weight="100"/>
+			<item item="2000804" num="1" weight="100"/>
+			<item item="5000804" num="1" weight="100"/>
+			<item item="6000804" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="3" probability="3000" rewardnum="1">
+			<item item="1000704" num="1" weight="100"/>
+			<item item="2000704" num="1" weight="100"/>
+			<item item="5000704" num="1" weight="100"/>
+			<item item="6000704" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="4" probability="5000" rewardnum="1">
+			<item item="1000604" num="1" weight="100"/>
+			<item item="2000604" num="1" weight="100"/>
+			<item item="5000604" num="1" weight="100"/>
+			<item item="6000604" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="5" probability="10000" rewardnum="1">
+			<item item="1000504" num="1" weight="100"/>
+			<item item="2000504" num="1" weight="100"/>
+			<item item="5000504" num="1" weight="100"/>
+			<item item="6000504" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="6" probability="10000" rewardnum="5">
+			<item item="1000803" num="1" weight="100"/>
+			<item item="2000803" num="1" weight="100"/>
+			<item item="3000803" num="1" weight="100"/>
+			<item item="4000803" num="1" weight="100"/>
+			<item item="5000803" num="1" weight="100"/>
+			<item item="6000803" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="7" probability="10000" rewardnum="3">
+			<item item="1000802" num="1" weight="100"/>
+			<item item="2000802" num="1" weight="100"/>
+			<item item="3000802" num="1" weight="100"/>
+			<item item="4000802" num="1" weight="100"/>
+			<item item="5000802" num="1" weight="100"/>
+			<item item="6000802" num="1" weight="100"/>
+		</bossreward>
+	</monster>
+	<monster number="7" mlevel="80" resettime="1200" monsterid="410080101" battleid="410080101" mailid="1020001" fhnum="2" redbagid="13">
+		<level level="1" item="10000007;10000012;10000013" num="100;20;10" yl="1000000"/>
+		<level level="2" item="10000007;10000012;10000013" num="60;14;8" yl="500000"/>
+		<level level="3" item="10000007;10000012;10000013" num="40;10;6" yl="300000"/>
+		<level level="4" item="10000007;10000012;10000013" num="30;6;4" yl="200000"/>
+		<level level="5" item="10000007;10000012;10000013" num="30;6;4" yl="200000"/>
+		<level level="6" item="10000007;10000012;10000013" num="20;2;2" yl="100000"/>
+		<level level="7" item="10000007;10000012;10000013" num="20;2;2" yl="100000"/>
+		<level level="8" item="10000007;10000012;10000013" num="20;2;2" yl="100000"/>
+		<level level="9" item="10000007;10000012;10000013" num="20;2;2" yl="100000"/>
+		<level level="10" item="10000007;10000012;10000013" num="20;2;2" yl="100000"/>
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="10" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="4">
+			<item item="1000802" num="1" weight="100"/>
+			<item item="2000802" num="1" weight="100"/>
+			<item item="3000802" num="1" weight="100"/>
+			<item item="4000802" num="1" weight="100"/>
+			<item item="5000802" num="1" weight="100"/>
+			<item item="6000802" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="4">
+			<item item="1000803" num="1" weight="100"/>
+			<item item="2000803" num="1" weight="100"/>
+			<item item="3000803" num="1" weight="100"/>
+			<item item="4000803" num="1" weight="100"/>
+			<item item="5000803" num="1" weight="100"/>
+			<item item="6000803" num="1" weight="100"/>
+		</reward>
+		<bossreward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="50" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="2" probability="1000" rewardnum="1">
+			<item item="1000804" num="1" weight="100"/>
+			<item item="2000804" num="1" weight="100"/>
+			<item item="5000804" num="1" weight="100"/>
+			<item item="6000804" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="3" probability="3000" rewardnum="1">
+			<item item="1000704" num="1" weight="100"/>
+			<item item="2000704" num="1" weight="100"/>
+			<item item="5000704" num="1" weight="100"/>
+			<item item="6000704" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="4" probability="5000" rewardnum="1">
+			<item item="1000604" num="1" weight="100"/>
+			<item item="2000604" num="1" weight="100"/>
+			<item item="5000604" num="1" weight="100"/>
+			<item item="6000604" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="5" probability="10000" rewardnum="1">
+			<item item="1000504" num="1" weight="100"/>
+			<item item="2000504" num="1" weight="100"/>
+			<item item="5000504" num="1" weight="100"/>
+			<item item="6000504" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="6" probability="10000" rewardnum="5">
+			<item item="1000803" num="1" weight="100"/>
+			<item item="2000803" num="1" weight="100"/>
+			<item item="3000803" num="1" weight="100"/>
+			<item item="4000803" num="1" weight="100"/>
+			<item item="5000803" num="1" weight="100"/>
+			<item item="6000803" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="7" probability="10000" rewardnum="3">
+			<item item="1000802" num="1" weight="100"/>
+			<item item="2000802" num="1" weight="100"/>
+			<item item="3000802" num="1" weight="100"/>
+			<item item="4000802" num="1" weight="100"/>
+			<item item="5000802" num="1" weight="100"/>
+			<item item="6000802" num="1" weight="100"/>
+		</bossreward>
+	</monster>
+	<monster number="8" mlevel="90" resettime="2400" monsterid="410090001" battleid="410090001" mailid="1020001" fhnum="3" redbagid="13">
+		<level level="1" item="10000007;10000012;10000013" num="100;20;10" yl="1000000"/>
+		<level level="2" item="10000007;10000012;10000013" num="60;14;8" yl="500000"/>
+		<level level="3" item="10000007;10000012;10000013" num="40;10;6" yl="300000"/>
+		<level level="4" item="10000007;10000012;10000013" num="30;6;4" yl="200000"/>
+		<level level="5" item="10000007;10000012;10000013" num="30;6;4" yl="200000"/>
+		<level level="6" item="10000007;10000012;10000013" num="20;2;2" yl="100000"/>
+		<level level="7" item="10000007;10000012;10000013" num="20;2;2" yl="100000"/>
+		<level level="8" item="10000007;10000012;10000013" num="20;2;2" yl="100000"/>
+		<level level="9" item="10000007;10000012;10000013" num="20;2;2" yl="100000"/>
+		<level level="10" item="10000007;10000012;10000013" num="20;2;2" yl="100000"/>
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="10" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="4">
+			<item item="1000902" num="1" weight="100"/>
+			<item item="2000902" num="1" weight="100"/>
+			<item item="3000902" num="1" weight="100"/>
+			<item item="4000902" num="1" weight="100"/>
+			<item item="5000902" num="1" weight="100"/>
+			<item item="6000902" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="4">
+			<item item="1000903" num="1" weight="100"/>
+			<item item="2000903" num="1" weight="100"/>
+			<item item="3000903" num="1" weight="100"/>
+			<item item="4000903" num="1" weight="100"/>
+			<item item="5000903" num="1" weight="100"/>
+			<item item="6000903" num="1" weight="100"/>
+		</reward>
+		<bossreward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="70" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="2" probability="1500" rewardnum="1">
+			<item item="1000804" num="1" weight="100"/>
+			<item item="2000804" num="1" weight="100"/>
+			<item item="5000804" num="1" weight="100"/>
+			<item item="6000804" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="3" probability="4000" rewardnum="1">
+			<item item="1000704" num="1" weight="100"/>
+			<item item="2000704" num="1" weight="100"/>
+			<item item="5000704" num="1" weight="100"/>
+			<item item="6000704" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="4" probability="6000" rewardnum="1">
+			<item item="1000604" num="1" weight="100"/>
+			<item item="2000604" num="1" weight="100"/>
+			<item item="5000604" num="1" weight="100"/>
+			<item item="6000604" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="5" probability="10000" rewardnum="1">
+			<item item="1000504" num="1" weight="100"/>
+			<item item="2000504" num="1" weight="100"/>
+			<item item="5000504" num="1" weight="100"/>
+			<item item="6000504" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="6" probability="10000" rewardnum="5">
+			<item item="1000903" num="1" weight="100"/>
+			<item item="2000903" num="1" weight="100"/>
+			<item item="3000903" num="1" weight="100"/>
+			<item item="4000903" num="1" weight="100"/>
+			<item item="5000903" num="1" weight="100"/>
+			<item item="6000903" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="7" probability="10000" rewardnum="3">
+			<item item="1000902" num="1" weight="100"/>
+			<item item="2000902" num="1" weight="100"/>
+			<item item="3000902" num="1" weight="100"/>
+			<item item="4000902" num="1" weight="100"/>
+			<item item="5000902" num="1" weight="100"/>
+			<item item="6000902" num="1" weight="100"/>
+		</bossreward>
+	</monster>
+	<monster number="9" mlevel="100" resettime="3600" monsterid="410100001" battleid="410100001" mailid="1020001" fhnum="3" redbagid="13">
+		<level level="1" item="10000007;10000012;10000013" num="150;30;15" yl="1500000"/>
+		<level level="2" item="10000007;10000012;10000013" num="90;21;12" yl="750000"/>
+		<level level="3" item="10000007;10000012;10000013" num="60;15;9" yl="450000"/>
+		<level level="4" item="10000007;10000012;10000013" num="45;9;6" yl="300000"/>
+		<level level="5" item="10000007;10000012;10000013" num="45;9;6" yl="300000"/>
+		<level level="6" item="10000007;10000012;10000013" num="30;3;3" yl="150000"/>
+		<level level="7" item="10000007;10000012;10000013" num="30;3;3" yl="150000"/>
+		<level level="8" item="10000007;10000012;10000013" num="30;3;3" yl="150000"/>
+		<level level="9" item="10000007;10000012;10000013" num="30;3;3" yl="150000"/>
+		<level level="10" item="10000007;10000012;10000013" num="30;3;3" yl="150000"/>
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="10" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="4">
+			<item item="1001002" num="1" weight="100"/>
+			<item item="2001002" num="1" weight="100"/>
+			<item item="3001002" num="1" weight="100"/>
+			<item item="4001002" num="1" weight="100"/>
+			<item item="5001002" num="1" weight="100"/>
+			<item item="6001002" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="4">
+			<item item="1001003" num="1" weight="100"/>
+			<item item="2001003" num="1" weight="100"/>
+			<item item="3001003" num="1" weight="100"/>
+			<item item="4001003" num="1" weight="100"/>
+			<item item="5001003" num="1" weight="100"/>
+			<item item="6001003" num="1" weight="100"/>
+		</reward>
+		<bossreward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="100" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="2" probability="2000" rewardnum="1">
+			<item item="1000804" num="1" weight="100"/>
+			<item item="2000804" num="1" weight="100"/>
+			<item item="5000804" num="1" weight="100"/>
+			<item item="6000804" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="3" probability="6000" rewardnum="1">
+			<item item="1000704" num="1" weight="100"/>
+			<item item="2000704" num="1" weight="100"/>
+			<item item="5000704" num="1" weight="100"/>
+			<item item="6000704" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="4" probability="8000" rewardnum="1">
+			<item item="1000604" num="1" weight="100"/>
+			<item item="2000604" num="1" weight="100"/>
+			<item item="5000604" num="1" weight="100"/>
+			<item item="6000604" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="5" probability="10000" rewardnum="1">
+			<item item="1000504" num="1" weight="100"/>
+			<item item="2000504" num="1" weight="100"/>
+			<item item="5000504" num="1" weight="100"/>
+			<item item="6000504" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="6" probability="10000" rewardnum="5">
+			<item item="1001003" num="1" weight="100"/>
+			<item item="2001003" num="1" weight="100"/>
+			<item item="3001003" num="1" weight="100"/>
+			<item item="4001003" num="1" weight="100"/>
+			<item item="5001003" num="1" weight="100"/>
+			<item item="6001003" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="7" probability="10000" rewardnum="3">
+			<item item="1001002" num="1" weight="100"/>
+			<item item="2001002" num="1" weight="100"/>
+			<item item="3001002" num="1" weight="100"/>
+			<item item="4001002" num="1" weight="100"/>
+			<item item="5001002" num="1" weight="100"/>
+			<item item="6001002" num="1" weight="100"/>
+		</bossreward>
+	</monster>
+	<monster number="10" mlevel="110" resettime="5400" monsterid="410110001" battleid="410110001" mailid="1020001" fhnum="4" redbagid="14">
+		<level level="1" item="10000007;10000012;10000013" num="150;30;15" yl="1500000"/>
+		<level level="2" item="10000007;10000012;10000013" num="90;21;12" yl="750000"/>
+		<level level="3" item="10000007;10000012;10000013" num="60;15;9" yl="450000"/>
+		<level level="4" item="10000007;10000012;10000013" num="45;9;6" yl="300000"/>
+		<level level="5" item="10000007;10000012;10000013" num="45;9;6" yl="300000"/>
+		<level level="6" item="10000007;10000012;10000013" num="30;3;3" yl="150000"/>
+		<level level="7" item="10000007;10000012;10000013" num="30;3;3" yl="150000"/>
+		<level level="8" item="10000007;10000012;10000013" num="30;3;3" yl="150000"/>
+		<level level="9" item="10000007;10000012;10000013" num="30;3;3" yl="150000"/>
+		<level level="10" item="10000007;10000012;10000013" num="30;3;3" yl="150000"/>
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="10" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="4">
+			<item item="1001102" num="1" weight="100"/>
+			<item item="2001102" num="1" weight="100"/>
+			<item item="3001102" num="1" weight="100"/>
+			<item item="4001102" num="1" weight="100"/>
+			<item item="5001102" num="1" weight="100"/>
+			<item item="6001102" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="4">
+			<item item="1001103" num="1" weight="100"/>
+			<item item="2001103" num="1" weight="100"/>
+			<item item="3001103" num="1" weight="100"/>
+			<item item="4001103" num="1" weight="100"/>
+			<item item="5001103" num="1" weight="100"/>
+			<item item="6001103" num="1" weight="100"/>
+		</reward>
+		<bossreward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="120" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="2" probability="500" rewardnum="1">
+			<item item="1000904" num="1" weight="100"/>
+			<item item="2000904" num="1" weight="100"/>
+			<item item="5000904" num="1" weight="100"/>
+			<item item="6000904" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="3" probability="2500" rewardnum="1">
+			<item item="1000804" num="1" weight="100"/>
+			<item item="2000804" num="1" weight="100"/>
+			<item item="5000804" num="1" weight="100"/>
+			<item item="6000804" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="4" probability="8000" rewardnum="1">
+			<item item="1000704" num="1" weight="100"/>
+			<item item="2000704" num="1" weight="100"/>
+			<item item="5000704" num="1" weight="100"/>
+			<item item="6000704" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="5" probability="10000" rewardnum="1">
+			<item item="1000604" num="1" weight="100"/>
+			<item item="2000604" num="1" weight="100"/>
+			<item item="5000604" num="1" weight="100"/>
+			<item item="6000604" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="6" probability="10000" rewardnum="5">
+			<item item="1001103" num="1" weight="100"/>
+			<item item="2001103" num="1" weight="100"/>
+			<item item="3001103" num="1" weight="100"/>
+			<item item="4001103" num="1" weight="100"/>
+			<item item="5001103" num="1" weight="100"/>
+			<item item="6001103" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="7" probability="10000" rewardnum="3">
+			<item item="1001102" num="1" weight="100"/>
+			<item item="2001102" num="1" weight="100"/>
+			<item item="3001102" num="1" weight="100"/>
+			<item item="4001102" num="1" weight="100"/>
+			<item item="5001102" num="1" weight="100"/>
+			<item item="6001102" num="1" weight="100"/>
+		</bossreward>
+	</monster>
+	<monster number="11" mlevel="120" resettime="5400" monsterid="410120001" battleid="410120001" mailid="1020001" fhnum="5" redbagid="14">
+		<level level="1" item="10000007;10000012;10000013" num="150;30;15" yl="1500000"/>
+		<level level="2" item="10000007;10000012;10000013" num="90;21;12" yl="750000"/>
+		<level level="3" item="10000007;10000012;10000013" num="60;15;9" yl="450000"/>
+		<level level="4" item="10000007;10000012;10000013" num="45;9;6" yl="300000"/>
+		<level level="5" item="10000007;10000012;10000013" num="45;9;6" yl="300000"/>
+		<level level="6" item="10000007;10000012;10000013" num="30;3;3" yl="150000"/>
+		<level level="7" item="10000007;10000012;10000013" num="30;3;3" yl="150000"/>
+		<level level="8" item="10000007;10000012;10000013" num="30;3;3" yl="150000"/>
+		<level level="9" item="10000007;10000012;10000013" num="30;3;3" yl="150000"/>
+		<level level="10" item="10000007;10000012;10000013" num="30;3;3" yl="150000"/>
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="10" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="4">
+			<item item="1001202" num="1" weight="100"/>
+			<item item="2001202" num="1" weight="100"/>
+			<item item="3001202" num="1" weight="100"/>
+			<item item="4001202" num="1" weight="100"/>
+			<item item="5001202" num="1" weight="100"/>
+			<item item="6001202" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="4">
+			<item item="1001203" num="1" weight="100"/>
+			<item item="2001203" num="1" weight="100"/>
+			<item item="3001203" num="1" weight="100"/>
+			<item item="4001203" num="1" weight="100"/>
+			<item item="5001203" num="1" weight="100"/>
+			<item item="6001203" num="1" weight="100"/>
+		</reward>
+		<bossreward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="150" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="2" probability="1000" rewardnum="1">
+			<item item="1000904" num="1" weight="100"/>
+			<item item="2000904" num="1" weight="100"/>
+			<item item="5000904" num="1" weight="100"/>
+			<item item="6000904" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="3" probability="3000" rewardnum="1">
+			<item item="1000804" num="1" weight="100"/>
+			<item item="2000804" num="1" weight="100"/>
+			<item item="5000804" num="1" weight="100"/>
+			<item item="6000804" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="4" probability="10000" rewardnum="1">
+			<item item="1000704" num="1" weight="100"/>
+			<item item="2000704" num="1" weight="100"/>
+			<item item="5000704" num="1" weight="100"/>
+			<item item="6000704" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="5" probability="10000" rewardnum="5">
+			<item item="1001203" num="1" weight="100"/>
+			<item item="2001203" num="1" weight="100"/>
+			<item item="3001203" num="1" weight="100"/>
+			<item item="4001203" num="1" weight="100"/>
+			<item item="5001203" num="1" weight="100"/>
+			<item item="6001203" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="6" probability="10000" rewardnum="3">
+			<item item="1001202" num="1" weight="100"/>
+			<item item="2001202" num="1" weight="100"/>
+			<item item="3001202" num="1" weight="100"/>
+			<item item="4001202" num="1" weight="100"/>
+			<item item="5001202" num="1" weight="100"/>
+			<item item="6001202" num="1" weight="100"/>
+		</bossreward>
+	</monster>
+	<monster number="12" mlevel="130" resettime="7200" monsterid="410130001" battleid="410130001" mailid="1020001" fhnum="5" redbagid="15">
+		<level level="1" item="10000007;10000012;10000013" num="200;40;20" yl="2000000"/>
+		<level level="2" item="10000007;10000012;10000013" num="120;28;16" yl="1000000"/>
+		<level level="3" item="10000007;10000012;10000013" num="80;20;12" yl="600000"/>
+		<level level="4" item="10000007;10000012;10000013" num="60;12;8" yl="400000"/>
+		<level level="5" item="10000007;10000012;10000013" num="60;12;8" yl="400000"/>
+		<level level="6" item="10000007;10000012;10000013" num="40;4;4" yl="200000"/>
+		<level level="7" item="10000007;10000012;10000013" num="40;4;4" yl="200000"/>
+		<level level="8" item="10000007;10000012;10000013" num="40;4;4" yl="200000"/>
+		<level level="9" item="10000007;10000012;10000013" num="40;4;4" yl="200000"/>
+		<level level="10" item="10000007;10000012;10000013" num="40;4;4" yl="200000"/>
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="10" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="4">
+			<item item="1001302" num="1" weight="100"/>
+			<item item="2001302" num="1" weight="100"/>
+			<item item="3001302" num="1" weight="100"/>
+			<item item="4001302" num="1" weight="100"/>
+			<item item="5001302" num="1" weight="100"/>
+			<item item="6001302" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="4">
+			<item item="1001303" num="1" weight="100"/>
+			<item item="2001303" num="1" weight="100"/>
+			<item item="3001303" num="1" weight="100"/>
+			<item item="4001303" num="1" weight="100"/>
+			<item item="5001303" num="1" weight="100"/>
+			<item item="6001303" num="1" weight="100"/>
+		</reward>
+		<bossreward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="170" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="2" probability="1500" rewardnum="1">
+			<item item="1000904" num="1" weight="100"/>
+			<item item="2000904" num="1" weight="100"/>
+			<item item="5000904" num="1" weight="100"/>
+			<item item="6000904" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="3" probability="4000" rewardnum="1">
+			<item item="1000804" num="1" weight="100"/>
+			<item item="2000804" num="1" weight="100"/>
+			<item item="5000804" num="1" weight="100"/>
+			<item item="6000804" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="4" probability="10000" rewardnum="1">
+			<item item="1000704" num="1" weight="100"/>
+			<item item="2000704" num="1" weight="100"/>
+			<item item="5000704" num="1" weight="100"/>
+			<item item="6000704" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="5" probability="10000" rewardnum="5">
+			<item item="1001303" num="1" weight="100"/>
+			<item item="2001303" num="1" weight="100"/>
+			<item item="3001303" num="1" weight="100"/>
+			<item item="4001303" num="1" weight="100"/>
+			<item item="5001303" num="1" weight="100"/>
+			<item item="6001303" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="6" probability="10000" rewardnum="3">
+			<item item="1001302" num="1" weight="100"/>
+			<item item="2001302" num="1" weight="100"/>
+			<item item="3001302" num="1" weight="100"/>
+			<item item="4001302" num="1" weight="100"/>
+			<item item="5001302" num="1" weight="100"/>
+			<item item="6001302" num="1" weight="100"/>
+		</bossreward>
+	</monster>
+	<monster number="13" mlevel="140" resettime="7200" monsterid="410140001" battleid="410140001" mailid="1020001" fhnum="5" redbagid="15">
+		<level level="1" item="10000007;10000012;10000013" num="200;40;20" yl="2000000"/>
+		<level level="2" item="10000007;10000012;10000013" num="120;28;16" yl="1000000"/>
+		<level level="3" item="10000007;10000012;10000013" num="80;20;12" yl="600000"/>
+		<level level="4" item="10000007;10000012;10000013" num="60;12;8" yl="400000"/>
+		<level level="5" item="10000007;10000012;10000013" num="60;12;8" yl="400000"/>
+		<level level="6" item="10000007;10000012;10000013" num="40;4;4" yl="200000"/>
+		<level level="7" item="10000007;10000012;10000013" num="40;4;4" yl="200000"/>
+		<level level="8" item="10000007;10000012;10000013" num="40;4;4" yl="200000"/>
+		<level level="9" item="10000007;10000012;10000013" num="40;4;4" yl="200000"/>
+		<level level="10" item="10000007;10000012;10000013" num="40;4;4" yl="200000"/>
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="10" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="4">
+			<item item="1001402" num="5" weight="100"/>
+			<item item="2001402" num="5" weight="100"/>
+			<item item="3001402" num="5" weight="100"/>
+			<item item="4001402" num="5" weight="100"/>
+			<item item="5001402" num="5" weight="100"/>
+			<item item="6001402" num="5" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="4">
+			<item item="1001403" num="1" weight="100"/>
+			<item item="2001403" num="1" weight="100"/>
+			<item item="3001403" num="1" weight="100"/>
+			<item item="4001403" num="1" weight="100"/>
+			<item item="5001403" num="1" weight="100"/>
+			<item item="6001403" num="1" weight="100"/>
+		</reward>
+		<bossreward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="200" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="2" probability="500" rewardnum="1">
+			<item item="1001004" num="1" weight="100"/>
+			<item item="2001004" num="1" weight="100"/>
+			<item item="5001004" num="1" weight="100"/>
+			<item item="6001004" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="3" probability="2000" rewardnum="1">
+			<item item="1000904" num="1" weight="100"/>
+			<item item="2000904" num="1" weight="100"/>
+			<item item="5000904" num="1" weight="100"/>
+			<item item="6000904" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="4" probability="5000" rewardnum="1">
+			<item item="1000804" num="1" weight="100"/>
+			<item item="2000804" num="1" weight="100"/>
+			<item item="5000804" num="1" weight="100"/>
+			<item item="6000804" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="5" probability="10000" rewardnum="1">
+			<item item="1000704" num="1" weight="100"/>
+			<item item="2000704" num="1" weight="100"/>
+			<item item="5000704" num="1" weight="100"/>
+			<item item="6000704" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="6" probability="10000" rewardnum="5">
+			<item item="1001403" num="1" weight="100"/>
+			<item item="2001403" num="1" weight="100"/>
+			<item item="3001403" num="1" weight="100"/>
+			<item item="4001403" num="1" weight="100"/>
+			<item item="5001403" num="1" weight="100"/>
+			<item item="6001403" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="7" probability="10000" rewardnum="3">
+			<item item="1001402" num="1" weight="100"/>
+			<item item="2001402" num="1" weight="100"/>
+			<item item="3001402" num="1" weight="100"/>
+			<item item="4001402" num="1" weight="100"/>
+			<item item="5001402" num="1" weight="100"/>
+			<item item="6001402" num="1" weight="100"/>
+		</bossreward>
+	</monster>
+	<monster number="14" mlevel="150" resettime="9000" monsterid="410150001" battleid="410150001" mailid="1020001" fhnum="5" redbagid="16">
+		<level level="1" item="10000007;10000012;10000013" num="250;50;25" yl="2500000"/>
+		<level level="2" item="10000007;10000012;10000013" num="150;35;20" yl="1250000"/>
+		<level level="3" item="10000007;10000012;10000013" num="100;25;15" yl="750000"/>
+		<level level="4" item="10000007;10000012;10000013" num="75;15;10" yl="500000"/>
+		<level level="5" item="10000007;10000012;10000013" num="75;15;10" yl="500000"/>
+		<level level="6" item="10000007;10000012;10000013" num="50;5;5" yl="250000"/>
+		<level level="7" item="10000007;10000012;10000013" num="50;5;5" yl="250000"/>
+		<level level="8" item="10000007;10000012;10000013" num="50;5;5" yl="250000"/>
+		<level level="9" item="10000007;10000012;10000013" num="50;5;5" yl="250000"/>
+		<level level="10" item="10000007;10000012;10000013" num="50;5;5" yl="250000"/>
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="10" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="4">
+			<item item="1001502" num="1" weight="100"/>
+			<item item="2001502" num="1" weight="100"/>
+			<item item="3001502" num="1" weight="100"/>
+			<item item="4001502" num="1" weight="100"/>
+			<item item="5001502" num="1" weight="100"/>
+			<item item="6001502" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="4">
+			<item item="1001503" num="1" weight="100"/>
+			<item item="2001503" num="1" weight="100"/>
+			<item item="3001503" num="1" weight="100"/>
+			<item item="4001503" num="1" weight="100"/>
+			<item item="5001503" num="1" weight="100"/>
+			<item item="6001503" num="1" weight="100"/>
+		</reward>
+		<bossreward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="200" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="2" probability="500" rewardnum="1">
+			<item item="1001104" num="1" weight="100"/>
+			<item item="2001104" num="1" weight="100"/>
+			<item item="5001104" num="1" weight="100"/>
+			<item item="6001104" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="3" probability="2000" rewardnum="1">
+			<item item="1001004" num="1" weight="100"/>
+			<item item="2001004" num="1" weight="100"/>
+			<item item="5001004" num="1" weight="100"/>
+			<item item="6001004" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="4" probability="3000" rewardnum="1">
+			<item item="1000904" num="1" weight="100"/>
+			<item item="2000904" num="1" weight="100"/>
+			<item item="5000904" num="1" weight="100"/>
+			<item item="6000904" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="5" probability="6000" rewardnum="1">
+			<item item="1000804" num="1" weight="100"/>
+			<item item="2000804" num="1" weight="100"/>
+			<item item="5000804" num="1" weight="100"/>
+			<item item="6000804" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="6" probability="10000" rewardnum="1">
+			<item item="1000704" num="1" weight="100"/>
+			<item item="2000704" num="1" weight="100"/>
+			<item item="5000704" num="1" weight="100"/>
+			<item item="6000704" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="7" probability="10000" rewardnum="5">
+			<item item="1001503" num="1" weight="100"/>
+			<item item="2001503" num="1" weight="100"/>
+			<item item="3001503" num="1" weight="100"/>
+			<item item="4001503" num="1" weight="100"/>
+			<item item="5001503" num="1" weight="100"/>
+			<item item="6001503" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="8" probability="10000" rewardnum="3">
+			<item item="1001502" num="1" weight="100"/>
+			<item item="2001502" num="1" weight="100"/>
+			<item item="3001502" num="1" weight="100"/>
+			<item item="4001502" num="1" weight="100"/>
+			<item item="5001502" num="1" weight="100"/>
+			<item item="6001502" num="1" weight="100"/>
+		</bossreward>
+	</monster>
+	<monster number="15" mlevel="170" resettime="10800" monsterid="410170001" battleid="410170001" mailid="1020001" fhnum="5" redbagid="17">
+		<level level="1" item="10000007;10000012;10000013" num="250;50;25" yl="2500000"/>
+		<level level="2" item="10000007;10000012;10000013" num="150;35;20" yl="1250000"/>
+		<level level="3" item="10000007;10000012;10000013" num="100;25;15" yl="750000"/>
+		<level level="4" item="10000007;10000012;10000013" num="75;15;10" yl="500000"/>
+		<level level="5" item="10000007;10000012;10000013" num="75;15;10" yl="500000"/>
+		<level level="6" item="10000007;10000012;10000013" num="50;5;5" yl="250000"/>
+		<level level="7" item="10000007;10000012;10000013" num="50;5;5" yl="250000"/>
+		<level level="8" item="10000007;10000012;10000013" num="50;5;5" yl="250000"/>
+		<level level="9" item="10000007;10000012;10000013" num="50;5;5" yl="250000"/>
+		<level level="10" item="10000007;10000012;10000013" num="50;5;5" yl="250000"/>
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="10" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="4">
+			<item item="1002702" num="1" weight="100"/>
+			<item item="2002702" num="1" weight="100"/>
+			<item item="3002702" num="1" weight="100"/>
+			<item item="4002702" num="1" weight="100"/>
+			<item item="5002702" num="1" weight="100"/>
+			<item item="6002702" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="4">
+			<item item="1002703" num="1" weight="100"/>
+			<item item="2002703" num="1" weight="100"/>
+			<item item="3002703" num="1" weight="100"/>
+			<item item="4002703" num="1" weight="100"/>
+			<item item="5002703" num="1" weight="100"/>
+			<item item="6002703" num="1" weight="100"/>
+		</reward>
+		<bossreward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="200" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="2" probability="1000" rewardnum="1">
+			<item item="1001104" num="1" weight="100"/>
+			<item item="2001104" num="1" weight="100"/>
+			<item item="5001104" num="1" weight="100"/>
+			<item item="6001104" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="3" probability="3000" rewardnum="1">
+			<item item="1001004" num="1" weight="100"/>
+			<item item="2001004" num="1" weight="100"/>
+			<item item="5001004" num="1" weight="100"/>
+			<item item="6001004" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="4" probability="4000" rewardnum="1">
+			<item item="1000904" num="1" weight="100"/>
+			<item item="2000904" num="1" weight="100"/>
+			<item item="5000904" num="1" weight="100"/>
+			<item item="6000904" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="5" probability="7000" rewardnum="1">
+			<item item="1000804" num="1" weight="100"/>
+			<item item="2000804" num="1" weight="100"/>
+			<item item="5000804" num="1" weight="100"/>
+			<item item="6000804" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="6" probability="10000" rewardnum="1">
+			<item item="1000704" num="1" weight="100"/>
+			<item item="2000704" num="1" weight="100"/>
+			<item item="5000704" num="1" weight="100"/>
+			<item item="6000704" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="7" probability="10000" rewardnum="5">
+			<item item="1002703" num="1" weight="100"/>
+			<item item="2002703" num="1" weight="100"/>
+			<item item="3002703" num="1" weight="100"/>
+			<item item="4002703" num="1" weight="100"/>
+			<item item="5002703" num="1" weight="100"/>
+			<item item="6002703" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="8" probability="10000" rewardnum="3">
+			<item item="1002702" num="1" weight="100"/>
+			<item item="2002702" num="1" weight="100"/>
+			<item item="3002702" num="1" weight="100"/>
+			<item item="4002702" num="1" weight="100"/>
+			<item item="5002702" num="1" weight="100"/>
+			<item item="6002702" num="1" weight="100"/>
+		</bossreward>
+	</monster>
+	<monster number="16" mlevel="190" resettime="10800" monsterid="410190001" battleid="410190001" mailid="1020001" fhnum="5" redbagid="18">
+		<level level="1" item="10000007;10000012;10000013" num="300;60;30" yl="3000000"/>
+		<level level="2" item="10000007;10000012;10000013" num="180;42;24" yl="1500000"/>
+		<level level="3" item="10000007;10000012;10000013" num="120;30;18" yl="900000"/>
+		<level level="4" item="10000007;10000012;10000013" num="90;18;12" yl="600000"/>
+		<level level="5" item="10000007;10000012;10000013" num="90;18;12" yl="600000"/>
+		<level level="6" item="10000007;10000012;10000013" num="60;6;6" yl="300000"/>
+		<level level="7" item="10000007;10000012;10000013" num="60;6;6" yl="300000"/>
+		<level level="8" item="10000007;10000012;10000013" num="60;6;6" yl="300000"/>
+		<level level="9" item="10000007;10000012;10000013" num="60;6;6" yl="300000"/>
+		<level level="10" item="10000007;10000012;10000013" num="60;6;6" yl="300000"/>
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="10" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="4">
+			<item item="1002902" num="1" weight="100"/>
+			<item item="2002902" num="1" weight="100"/>
+			<item item="3002902" num="1" weight="100"/>
+			<item item="4002902" num="1" weight="100"/>
+			<item item="5002902" num="1" weight="100"/>
+			<item item="6002902" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="4">
+			<item item="1002903" num="1" weight="100"/>
+			<item item="2002903" num="1" weight="100"/>
+			<item item="3002903" num="1" weight="100"/>
+			<item item="4002903" num="1" weight="100"/>
+			<item item="5002903" num="1" weight="100"/>
+			<item item="6002903" num="1" weight="100"/>
+		</reward>
+		<bossreward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="200" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="2" probability="1500" rewardnum="1">
+			<item item="1001104" num="1" weight="100"/>
+			<item item="2001104" num="1" weight="100"/>
+			<item item="5001104" num="1" weight="100"/>
+			<item item="6001104" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="3" probability="4000" rewardnum="1">
+			<item item="1001004" num="1" weight="100"/>
+			<item item="2001004" num="1" weight="100"/>
+			<item item="5001004" num="1" weight="100"/>
+			<item item="6001004" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="4" probability="5000" rewardnum="1">
+			<item item="1000904" num="1" weight="100"/>
+			<item item="2000904" num="1" weight="100"/>
+			<item item="5000904" num="1" weight="100"/>
+			<item item="6000904" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="5" probability="8000" rewardnum="1">
+			<item item="1000804" num="1" weight="100"/>
+			<item item="2000804" num="1" weight="100"/>
+			<item item="5000804" num="1" weight="100"/>
+			<item item="6000804" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="6" probability="10000" rewardnum="1">
+			<item item="1000704" num="1" weight="100"/>
+			<item item="2000704" num="1" weight="100"/>
+			<item item="5000704" num="1" weight="100"/>
+			<item item="6000704" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="7" probability="10000" rewardnum="5">
+			<item item="1002903" num="1" weight="100"/>
+			<item item="2002903" num="1" weight="100"/>
+			<item item="3002903" num="1" weight="100"/>
+			<item item="4002903" num="1" weight="100"/>
+			<item item="5002903" num="1" weight="100"/>
+			<item item="6002903" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="8" probability="10000" rewardnum="3">
+			<item item="1002902" num="1" weight="100"/>
+			<item item="2002902" num="1" weight="100"/>
+			<item item="3002902" num="1" weight="100"/>
+			<item item="4002902" num="1" weight="100"/>
+			<item item="5002902" num="1" weight="100"/>
+			<item item="6002902" num="1" weight="100"/>
+		</bossreward>
+	</monster>
+	<monster number="17" mlevel="210" resettime="10800" monsterid="410210001" battleid="410210001" mailid="1020001" fhnum="5" redbagid="19">
+		<level level="1" item="10000007;10000012;10000013" num="300;60;30" yl="3000000"/>
+		<level level="2" item="10000007;10000012;10000013" num="180;42;24" yl="1500000"/>
+		<level level="3" item="10000007;10000012;10000013" num="120;30;18" yl="900000"/>
+		<level level="4" item="10000007;10000012;10000013" num="90;18;12" yl="600000"/>
+		<level level="5" item="10000007;10000012;10000013" num="90;18;12" yl="600000"/>
+		<level level="6" item="10000007;10000012;10000013" num="60;6;6" yl="300000"/>
+		<level level="7" item="10000007;10000012;10000013" num="60;6;6" yl="300000"/>
+		<level level="8" item="10000007;10000012;10000013" num="60;6;6" yl="300000"/>
+		<level level="9" item="10000007;10000012;10000013" num="60;6;6" yl="300000"/>
+		<level level="10" item="10000007;10000012;10000013" num="60;6;6" yl="300000"/>
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="10" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="4">
+			<item item="1003102" num="1" weight="100"/>
+			<item item="2003102" num="1" weight="100"/>
+			<item item="3003102" num="1" weight="100"/>
+			<item item="4003102" num="1" weight="100"/>
+			<item item="5003102" num="1" weight="100"/>
+			<item item="6003102" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="4">
+			<item item="1003103" num="1" weight="100"/>
+			<item item="2003103" num="1" weight="100"/>
+			<item item="3003103" num="1" weight="100"/>
+			<item item="4003103" num="1" weight="100"/>
+			<item item="5003103" num="1" weight="100"/>
+			<item item="6003103" num="1" weight="100"/>
+		</reward>
+		<bossreward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="200" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="2" probability="2000" rewardnum="1">
+			<item item="1001104" num="1" weight="100"/>
+			<item item="2001104" num="1" weight="100"/>
+			<item item="5001104" num="1" weight="100"/>
+			<item item="6001104" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="3" probability="5000" rewardnum="1">
+			<item item="1001004" num="1" weight="100"/>
+			<item item="2001004" num="1" weight="100"/>
+			<item item="5001004" num="1" weight="100"/>
+			<item item="6001004" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="4" probability="6000" rewardnum="1">
+			<item item="1000904" num="1" weight="100"/>
+			<item item="2000904" num="1" weight="100"/>
+			<item item="5000904" num="1" weight="100"/>
+			<item item="6000904" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="5" probability="9000" rewardnum="1">
+			<item item="1000804" num="1" weight="100"/>
+			<item item="2000804" num="1" weight="100"/>
+			<item item="5000804" num="1" weight="100"/>
+			<item item="6000804" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="6" probability="10000" rewardnum="1">
+			<item item="1000704" num="1" weight="100"/>
+			<item item="2000704" num="1" weight="100"/>
+			<item item="5000704" num="1" weight="100"/>
+			<item item="6000704" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="7" probability="10000" rewardnum="5">
+			<item item="1003103" num="1" weight="100"/>
+			<item item="2003103" num="1" weight="100"/>
+			<item item="3003103" num="1" weight="100"/>
+			<item item="4003103" num="1" weight="100"/>
+			<item item="5003103" num="1" weight="100"/>
+			<item item="6003103" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="8" probability="10000" rewardnum="3">
+			<item item="1003102" num="1" weight="100"/>
+			<item item="2003102" num="1" weight="100"/>
+			<item item="3003102" num="1" weight="100"/>
+			<item item="4003102" num="1" weight="100"/>
+			<item item="5003102" num="1" weight="100"/>
+			<item item="6003102" num="1" weight="100"/>
+		</bossreward>
+	</monster>
+	<monster number="18" mlevel="230" resettime="10800" monsterid="410230001" battleid="410230001" mailid="1020001" fhnum="5" redbagid="20">
+		<level level="1" item="10000007;10000012;10000013" num="350;70;35" yl="3500000"/>
+		<level level="2" item="10000007;10000012;10000013" num="210;49;28" yl="1750000"/>
+		<level level="3" item="10000007;10000012;10000013" num="140;35;21" yl="1050000"/>
+		<level level="4" item="10000007;10000012;10000013" num="105;21;14" yl="700000"/>
+		<level level="5" item="10000007;10000012;10000013" num="105;21;14" yl="700000"/>
+		<level level="6" item="10000007;10000012;10000013" num="70;7;7" yl="350000"/>
+		<level level="7" item="10000007;10000012;10000013" num="70;7;7" yl="350000"/>
+		<level level="8" item="10000007;10000012;10000013" num="70;7;7" yl="350000"/>
+		<level level="9" item="10000007;10000012;10000013" num="70;7;7" yl="350000"/>
+		<level level="10" item="10000007;10000012;10000013" num="70;7;7" yl="350000"/>
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="10" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="4">
+			<item item="1003302" num="1" weight="100"/>
+			<item item="2003302" num="1" weight="100"/>
+			<item item="3003302" num="1" weight="100"/>
+			<item item="4003302" num="1" weight="100"/>
+			<item item="5003302" num="1" weight="100"/>
+			<item item="6003302" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="4">
+			<item item="1003303" num="1" weight="100"/>
+			<item item="2003303" num="1" weight="100"/>
+			<item item="3003303" num="1" weight="100"/>
+			<item item="4003303" num="1" weight="100"/>
+			<item item="5003303" num="1" weight="100"/>
+			<item item="6003303" num="1" weight="100"/>
+		</reward>
+		<bossreward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="200" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="2" probability="500" rewardnum="1">
+			<item item="1001204" num="1" weight="100"/>
+			<item item="2001204" num="1" weight="100"/>
+			<item item="5001204" num="1" weight="100"/>
+			<item item="6001204" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="3" probability="2500" rewardnum="1">
+			<item item="1001104" num="1" weight="100"/>
+			<item item="2001104" num="1" weight="100"/>
+			<item item="5001104" num="1" weight="100"/>
+			<item item="6001104" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="4" probability="6000" rewardnum="1">
+			<item item="1001004" num="1" weight="100"/>
+			<item item="2001004" num="1" weight="100"/>
+			<item item="5001004" num="1" weight="100"/>
+			<item item="6001004" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="5" probability="7000" rewardnum="1">
+			<item item="1000904" num="1" weight="100"/>
+			<item item="2000904" num="1" weight="100"/>
+			<item item="5000904" num="1" weight="100"/>
+			<item item="6000904" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="6" probability="10000" rewardnum="1">
+			<item item="1000804" num="1" weight="100"/>
+			<item item="2000804" num="1" weight="100"/>
+			<item item="5000804" num="1" weight="100"/>
+			<item item="6000804" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="7" probability="10000" rewardnum="5">
+			<item item="1003303" num="1" weight="100"/>
+			<item item="2003303" num="1" weight="100"/>
+			<item item="3003303" num="1" weight="100"/>
+			<item item="4003303" num="1" weight="100"/>
+			<item item="5003303" num="1" weight="100"/>
+			<item item="6003303" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="8" probability="10000" rewardnum="3">
+			<item item="1003302" num="1" weight="100"/>
+			<item item="2003302" num="1" weight="100"/>
+			<item item="3003302" num="1" weight="100"/>
+			<item item="4003302" num="1" weight="100"/>
+			<item item="5003302" num="1" weight="100"/>
+			<item item="6003302" num="1" weight="100"/>
+		</bossreward>
+	</monster>
+	<monster number="19" mlevel="250" resettime="10800" monsterid="410250001" battleid="410250001" mailid="1020001" fhnum="5" redbagid="21">
+		<level level="1" item="10000007;10000012;10000013" num="350;70;35" yl="3500000"/>
+		<level level="2" item="10000007;10000012;10000013" num="210;49;28" yl="1750000"/>
+		<level level="3" item="10000007;10000012;10000013" num="140;35;21" yl="1050000"/>
+		<level level="4" item="10000007;10000012;10000013" num="105;21;14" yl="700000"/>
+		<level level="5" item="10000007;10000012;10000013" num="105;21;14" yl="700000"/>
+		<level level="6" item="10000007;10000012;10000013" num="70;7;7" yl="350000"/>
+		<level level="7" item="10000007;10000012;10000013" num="70;7;7" yl="350000"/>
+		<level level="8" item="10000007;10000012;10000013" num="70;7;7" yl="350000"/>
+		<level level="9" item="10000007;10000012;10000013" num="70;7;7" yl="350000"/>
+		<level level="10" item="10000007;10000012;10000013" num="70;7;7" yl="350000"/>
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="10" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="4">
+			<item item="1003502" num="1" weight="100"/>
+			<item item="2003502" num="1" weight="100"/>
+			<item item="3003502" num="1" weight="100"/>
+			<item item="4003502" num="1" weight="100"/>
+			<item item="5003502" num="1" weight="100"/>
+			<item item="6002702" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="4">
+			<item item="1003503" num="1" weight="100"/>
+			<item item="2003503" num="1" weight="100"/>
+			<item item="3003503" num="1" weight="100"/>
+			<item item="4003503" num="1" weight="100"/>
+			<item item="5003503" num="1" weight="100"/>
+			<item item="6003503" num="1" weight="100"/>
+		</reward>
+		<bossreward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="200" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="2" probability="1000" rewardnum="1">
+			<item item="1001204" num="1" weight="100"/>
+			<item item="2001204" num="1" weight="100"/>
+			<item item="5001204" num="1" weight="100"/>
+			<item item="6001204" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="3" probability="3000" rewardnum="1">
+			<item item="1001104" num="1" weight="100"/>
+			<item item="2001104" num="1" weight="100"/>
+			<item item="5001104" num="1" weight="100"/>
+			<item item="6001104" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="4" probability="7000" rewardnum="1">
+			<item item="1001004" num="1" weight="100"/>
+			<item item="2001004" num="1" weight="100"/>
+			<item item="5001004" num="1" weight="100"/>
+			<item item="6001004" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="5" probability="8000" rewardnum="1">
+			<item item="1000904" num="1" weight="100"/>
+			<item item="2000904" num="1" weight="100"/>
+			<item item="5000904" num="1" weight="100"/>
+			<item item="6000904" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="6" probability="10000" rewardnum="1">
+			<item item="1000804" num="1" weight="100"/>
+			<item item="2000804" num="1" weight="100"/>
+			<item item="5000804" num="1" weight="100"/>
+			<item item="6000804" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="7" probability="10000" rewardnum="5">
+			<item item="1003503" num="1" weight="100"/>
+			<item item="2003503" num="1" weight="100"/>
+			<item item="3003503" num="1" weight="100"/>
+			<item item="4003503" num="1" weight="100"/>
+			<item item="5003503" num="1" weight="100"/>
+			<item item="6003503" num="1" weight="100"/>
+		</bossreward>
+		<bossreward rewardid="8" probability="10000" rewardnum="3">
+			<item item="1003502" num="1" weight="100"/>
+			<item item="2003502" num="1" weight="100"/>
+			<item item="3003502" num="1" weight="100"/>
+			<item item="4003502" num="1" weight="100"/>
+			<item item="5003502" num="1" weight="100"/>
+			<item item="6002702" num="1" weight="100"/>
+		</bossreward>
+	</monster>
+</root>

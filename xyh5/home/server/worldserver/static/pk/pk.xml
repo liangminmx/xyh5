@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pk>
+  <!--
+oepnLev	修改PK模式开启等级
+protectLev	pk保护等级
+pkNum	恶意PK增加的PK值
+yellowpkBuffId	黄名PK的BUFFID
+min_pkNum	触发恶意PKBUFF的最低PK值
+buff_pkNum	玩家每增加一定的PK值，给予玩家恶意PKBUFF
+pkBuffId	恶意PK给予玩家的BUFFID
+red_pkNum	成为红名的最低PK值
+countDown	降低每点的PK值需要保持的在线时间，单位秒
+itemID	减少PK值的道具ID，客户端索引用
+min_pk_num	当玩家的PK值处于该区间时，玩家获得惩罚性BUFF。该区间为闭区间。
+max_pk_num	
+pk_buff	惩罚BUFFID。
+id	=1，和平模式
+=2，组队模式
+=3，家族模式
+=4，善恶模式
+=5，全体模式
+=6，敌对模式
+=7，本服模式（仅跨服地图显示）
+text	UI上显示的文字，支持颜色配置。
+hinttext	成功切换模式时的提示信息。
+-->
+    <pkInfo oepnLev="30" protectLev="30" pkNum="10" yellowpkBuffId="2101" min_pkNum="30" buff_pkNum="10" teleport_pkNum="500" pkBuffId="2103"  pkNumBuffId="2102" red_pkNum="1" countDown="90" itemID="107561" killedbuffid="2201" killedbufftime="10" >
+        <pkbuffInfo min_pk_num="201" max_pk_num="500" pk_buff="2104"/> 
+        <pkbuffInfo min_pk_num="501" max_pk_num="999" pk_buff="2105"/>
+        <pkmodel id="1" text="[font color='#00ff00']【和平模式】[/font][font color='#fbf2bc']您的攻击不会对任何玩家造成伤害" hinttext="您已经切换到【和平模式】，您的攻击不会对任何玩家造成伤害[/font]"/>
+        <pkmodel id="2" text="[font color='#00FFFF']【组队模式】[/font][font color='#fbf2bc']您的攻击不会对队伍中玩家造成伤害" hinttext="您已经切换到【组队模式】，您的攻击不会对队伍中玩家造成伤害[/font]"/>
+        <pkmodel id="3" text="[font color='#BDB76B']【家族模式】[/font][font color='#fbf2bc']您的攻击不会对同家族玩家造成伤害" hinttext="您已经切换到【家族模式】，您的攻击不会对同家族玩家造成伤害[/font]"/>
+        <pkmodel id="4" text="[font color='#9400D3']【善恶模式】[/font][font color='#fbf2bc']您的攻击只会对红名玩家造成伤害" hinttext="您已经切换到【善恶模式】，您的攻击只会对红名玩家造成伤害[/font]"/>
+        <pkmodel id="5" text="[font color='#FF0000']【全体模式】[/font][font color='#fbf2bc']您的攻击会对所有玩家造成伤害" hinttext="您已经切换到【全体模式】，您的攻击会对所有玩家造成伤害[/font]"/>
+        <pkmodel id="6" text="[font color='#FF4500']【敌对模式】[/font][font color='#fbf2bc']您的攻击只会对敌对家族玩家造成伤害" hinttext="您已经切换到【敌对模式】，您的攻击只会对敌对家族玩家造成伤害[/font]"/>
+        <pkmodel id="7" text="[font color='#0080FF']【本服模式】[/font][font color='#fbf2bc']您的攻击不会对本服玩家造成伤害" hinttext="您已经切换到【本服模式】，您的攻击不会对本服玩家造成伤害[/font]"/>
+    </pkInfo>
+</pk>

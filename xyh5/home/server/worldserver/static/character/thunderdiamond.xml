@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!--金钻每日礼包-->
+	<dailyGift>
+		<level lv="1">
+			<item reward="100591" num="1" bind="1"/>
+			<item reward="108303" num="2" bind="1"/>
+		</level>
+		<level lv="2">
+			<item reward="100591" num="1" bind="1"/>
+			<item reward="108303" num="3" bind="1"/>
+		</level>
+		<level lv="3">
+			<item reward="100591" num="2" bind="1"/>
+			<item reward="108303" num="4" bind="1"/>
+			<item reward="108503" num="2" bind="1"/>
+		</level>
+		<level lv="4">
+			<item reward="100591" num="2" bind="1"/>
+			<item reward="108303" num="5" bind="1"/>
+			<item reward="108503" num="3" bind="1"/>
+		</level>
+		<level lv="5">
+			<item reward="100591" num="3" bind="1"/>
+			<item reward="108303" num="6" bind="1"/>
+			<item reward="108503" num="4" bind="1"/>
+		</level>
+		<level lv="6">
+			<item reward="100591" num="3" bind="1"/>
+			<item reward="108303" num="8" bind="1"/>
+			<item reward="108503" num="5" bind="1"/>
+		</level>
+		<level lv="7">
+			<item reward="100591" num="4" bind="1"/>
+			<item reward="108303" num="10" bind="1"/>
+			<item reward="108503" num="7" bind="1"/>
+		</level>
+	</dailyGift>
+	<!--金钻成长-->
+	<growGift>
+		<level lv="5">
+			<item reward="100591" num="1" bind="1"/>
+			<item reward="108302" num="2" bind="1"/>
+			<item reward="108702" num="2" bind="1"/>
+		</level>
+		<level lv="10">
+			<item reward="100591" num="1" bind="1"/>
+			<item reward="108302" num="3" bind="1"/>
+			<item reward="108702" num="4" bind="1"/>
+		</level>
+		<level lv="20">
+			<item reward="100591" num="2" bind="1"/>
+			<item reward="108302" num="4" bind="1"/>
+			<item reward="108702" num="6" bind="1"/>
+		</level>
+		<level lv="30">
+			<item reward="100591" num="2" bind="1"/>
+			<item reward="108302" num="5" bind="1"/>
+			<item reward="108702" num="8" bind="1"/>
+		</level>
+		<level lv="40">
+			<item reward="100592" num="1" bind="1"/>
+			<item reward="108302" num="6" bind="1"/>
+			<item reward="108702" num="10" bind="1"/>
+			<item reward="100581" num="1" bind="1"/>
+		</level>
+		<level lv="50">
+			<item reward="100592" num="2" bind="1"/>
+			<item reward="108302" num="7" bind="1"/>
+			<item reward="108702" num="12" bind="1"/>
+			<item reward="100581" num="2" bind="1"/>
+		</level>
+		<level lv="60">
+			<item reward="100593" num="2" bind="1"/>
+			<item reward="108302" num="9" bind="1"/>
+			<item reward="108702" num="20" bind="1"/>
+			<item reward="100581" num="5" bind="1"/>
+			<item reward="100001" num="1" bind="1"/>
+		</level>
+		<level lv="65">
+			<item reward="100594" num="1" bind="1"/>
+			<item reward="108302" num="10" bind="1"/>
+			<item reward="108702" num="25" bind="1"/>
+			<item reward="100582" num="1" bind="1"/>
+			<item reward="100001" num="2" bind="1"/>
+		</level>
+		<level lv="70">
+			<item reward="100594" num="2" bind="1"/>
+			<item reward="108302" num="20" bind="1"/>
+			<item reward="108702" num="30" bind="1"/>
+			<item reward="100582" num="2" bind="1"/>
+			<item reward="100001" num="3" bind="1"/>
+		</level>
+		<level lv="75">
+			<item reward="100595" num="1" bind="1"/>
+			<item reward="108302" num="40" bind="1"/>
+			<item reward="108702" num="40" bind="1"/>
+			<item reward="100582" num="3" bind="1"/>
+			<item reward="100001" num="4" bind="1"/>
+		</level>
+		<level lv="80">
+			<item reward="100595" num="2" bind="1"/>
+			<item reward="108302" num="100" bind="1"/>
+			<item reward="108702" num="50" bind="1"/>
+			<item reward="100582" num="5" bind="1"/>
+			<item reward="100001" num="5" bind="1"/>
+		</level>
+	</growGift>
+	<!--年费礼包-->
+	<yearGift>
+		<item num="1" bind="1" reward="100598"/>
+		<item num="5" bind="1" reward="600018"/>
+		<item num="1" bind="1" reward="100001"/>
+		<item num="1" bind="1" reward="610002"/>
+		<item num="5" bind="1" reward="108306"/>
+		<item num="1" bind="1" reward="100001"/>
+	</yearGift>
+	<!--新手礼包-->
+	<newbie>
+		<item num="1" bind="1" reward="100582"/>
+		<item num="2" bind="1" reward="100591"/>
+		<item num="10" bind="1" reward="107003"/>
+		<item num="1" bind="1" reward="108706"/>
+		<item num="1" bind="1" reward="108306"/>
+	</newbie>
+	<!--年费每日礼包-->
+	<dailyyear>
+		<item num="1" bind="1" reward="100001"/>
+	</dailyyear>
+	<!--金钻称号-->
+	<title>
+		<level lv="1">
+			<item reward="108074" num="1" bind="1"/>
+		</level>
+		<level lv="2">
+			<item reward="108075" num="1" bind="1"/>
+		</level>
+		<level lv="3">
+			<item reward="108076" num="1" bind="1"/>
+		</level>
+		<level lv="4">
+			<item reward="108077" num="1" bind="1"/>
+		</level>
+		<level lv="5">
+			<item reward="108078" num="1" bind="1"/>
+		</level>
+		<level lv="6">
+			<item reward="108079" num="1" bind="1"/>
+		</level>
+		<level lv="7">
+			<item reward="108080" num="1" bind="1"/>
+		</level>
+		<level lv="999">
+			<item reward="108081" num="1" bind="1"/>
+		</level>
+	</title>
+</root>

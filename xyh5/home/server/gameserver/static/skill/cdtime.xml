@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--id	公共cd层级
+cdtime	冷却时间，单位毫秒
+-->
+<cd_common>
+  <cdinfo id="1" cdtime="500"/>
+  <cdinfo id="2" cdtime="1000"/>
+  <cdinfo id="3" cdtime="1200"/>
+  <cdinfo id="4" cdtime="600"/>
+  <cdinfo id="5" cdtime="1500"/>
+  <cdinfo id="6" cdtime="1800"/>
+  <cdinfo id="7" cdtime="1000"/>
+  <cdinfo id="8" cdtime="1500"/>
+  <cdinfo id="9" cdtime="500"/>
+  <cdinfo id="10" cdtime="1000"/>
+  <cdinfo id="11" cdtime="0"/>
+  <cdinfo id="12" cdtime="5000"/>
+  <cdinfo id="13" cdtime="1000"/>
+  <cdinfo id="14" cdtime="1000"/>
+  <cdinfo id="15" cdtime="1000"/>
+  <cdinfo id="16" cdtime="1000"/>
+  <cdinfo id="17" cdtime="1000"/>
+  <cdinfo id="18" cdtime="1000"/>
+  <cdinfo id="19" cdtime="5000"/>
+  <cdinfo id="20" cdtime="1000"/>
+  <cdinfo id="21" cdtime="1000"/>
+  <cdinfo id="22" cdtime="1000"/>
+  <cdinfo id="23" cdtime="1000"/>
+  <cdinfo id="24" cdtime="1000"/>
+  <cdinfo id="25" cdtime="1000"/>
+  <cdinfo id="26" cdtime="1000"/>
+  <cdinfo id="27" cdtime="1000"/>
+  <cdinfo id="28" cdtime="1000"/>
+  <cdinfo id="29" cdtime="1000"/>
+  <cdinfo id="29" cdtime="1000"/>
+  <cdinfo id="30" cdtime="500"/>
+  <cdinfo id="31" cdtime="4000"/>
+  <cdinfo id="32" cdtime="4000"/>
+  <cdinfo id="33" cdtime="4000"/>
+  <cdinfo id="34" cdtime="4000"/>
+  <cdinfo id="35" cdtime="4000"/>
+  <cdinfo id="36" cdtime="4000"/>
+  <cdinfo id="37" cdtime="4000"/>
+  <cdinfo id="38" cdtime="4000"/>
+  <cdinfo id="39" cdtime="20000"/>
+  <cdinfo id="40" cdtime="19000"/>
+  <cdinfo id="41" cdtime="18000"/>
+  <cdinfo id="42" cdtime="17000"/>
+  <cdinfo id="43" cdtime="16000"/>
+  <cdinfo id="44" cdtime="15000"/>
+  <cdinfo id="45" cdtime="14000"/>
+</cd_common>

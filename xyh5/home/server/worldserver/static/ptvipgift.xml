@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+mail	邮件id
+pid	平台id
+Pname	平台名称
+Icon	图标
+slogan	广告语
+posters	广告图
+Link	超链
+iconstatus	=1代表玩家领取奖励后，入口依然存在 =2代表玩家领取奖励后入口关闭
+rewardtype	礼包类型（=1进入游戏直接发放 =2游戏中提供入口，玩家自主点击领取）
+reward	礼包id
+Name	礼包名称
+type	礼包领取限制类型（=1 一次性 =2 每日  =31~37 星期礼包 =0101 特定日期）
+item	道具id（多个道具用，号隔开）
+num	道具数量（多个道具用，号隔开）
+by	绑元
+yl	银两
+
+
+
+-->
+	<mail mail="1070001"/>
+	<pingtai pid="2" pname="玩吧平台">
+		<reward reward="1000" rewardtype="1" name="新手礼包" type="1" item="10000012" num="66" by="288"/>
+		<reward reward="1001" rewardtype="1" name="宠物玩家专属礼包" type="1" item="10000012,10000014" num="500,250" yl="1750000"/>
+		<reward reward="1101" rewardtype="1" name="周一礼包" type="31" item="10000012,10000014" num="18,18" yl="18888"/>
+		<reward reward="1102" rewardtype="1" name="周二礼包" type="32" item="10000012,10000013" num="28,28" yl="28888"/>
+		<reward reward="1103" rewardtype="1" name="周三礼包" type="33" item="10000012,14010201" num="38,2" yl="38888"/>
+		<reward reward="1104" rewardtype="1" name="周四礼包" type="34" item="10000012,14030201" num="48,2" yl="48888"/>
+		<reward reward="1105" rewardtype="1" name="周五礼包" type="35" item="10000012,14050201" num="58,2" yl="58888"/>
+		<reward reward="1106" rewardtype="1" name="周六礼包" type="36" item="10000012,10000009" num="128,4" yl="128888"/>
+		<reward reward="1107" rewardtype="1" name="周日礼包" type="37" item="10000012,10000009" num="128,4" yl="128888"/>
+		<reward reward="1201" rewardtype="1" name="元旦礼包" type="0101" item="10000014,10000012" num="20,50" yl="50000"/>
+		<reward reward="1202" rewardtype="1" name="春节礼包" type="0205" item="10000012" num="100" by="500" yl="100000"/>
+		<reward reward="1203" rewardtype="1" name="元宵节礼包" type="0219" item="10000014,10000012" num="20,50" yl="50000"/>
+		<reward reward="1204" rewardtype="1" name="情人节礼包" type="0214" item="14010201,10000012" num="5,50" yl="50000"/>
+		<reward reward="1205" rewardtype="1" name="妇女节礼包" type="0308" item="14050201,10000012" num="5,50" yl="50000"/>
+		<reward reward="1206" rewardtype="1" name="青年节礼包" type="0504" item="10000014,10000012" num="5,50" yl="50000"/>
+		<reward reward="1207" rewardtype="1" name="清明节礼包" type="0405" item="14030201,10000012" num="5,50" yl="50000"/>
+		<reward reward="1208" rewardtype="1" name="劳动节礼包" type="0501" item="10000014,10000012" num="5,100" yl="100000"/>
+		<reward reward="1209" rewardtype="1" name="端午节礼包" type="0607" item="14020201,10000012" num="5,50" yl="50000"/>
+		<reward reward="1210" rewardtype="1" name="儿童节礼包" type="0601" item="10000016,10000012" num="5,50" yl="50000"/>
+		<reward reward="1211" rewardtype="1" name="中秋节礼包" type="0913" item="14070201,10000012" num="5,50" yl="50000"/>
+		<reward reward="1212" rewardtype="1" name="重阳节礼包" type="1007" item="10000014,10000012" num="5,50" yl="50000"/>
+		<reward reward="1213" rewardtype="1" name="七夕节礼包" type="0807" item="14010201,10000012" num="5,50" yl="50000"/>
+		<reward reward="1214" rewardtype="1" name="国庆节礼包" type="1001" item="10000012" num="100" by="500" yl="100000"/>
+		<reward reward="1215" rewardtype="1" name="圣诞节礼包" type="1225" item="14010201,10000012" num="5,50" yl="50000"/>
+		<reward reward="1301" rewardtype="1" name="QQ空间专属礼包" type="2" item="16010013,10000003" num="1,3" yl="200000"/>
+		<reward reward="1401" rewardtype="1" name="V1每日礼包" type="2" item="10000012" num="50" yl="50000" vip="1"/>
+		<reward reward="1402" rewardtype="1" name="V2每日礼包" type="2" item="10000012,10000009" num="65,2" vip="2"/>
+		<reward reward="1403" rewardtype="1" name="V3每日礼包" type="2" item="10000012,10000009" num="80,4" vip="3"/>
+		<reward reward="1404" rewardtype="1" name="V4每日礼包" type="2" item="10000012,10000009" num="98,6" vip="4"/>
+		<reward reward="1405" rewardtype="1" name="V5每日礼包" type="2" item="10000012,10000009" num="110,8" vip="5"/>
+		<reward reward="1406" rewardtype="1" name="V6每日礼包" type="2" item="10000012,10000009" num="125,10" vip="6"/>
+		<reward reward="1501" rewardtype="1" name="入门礼包" type="2" item="10000012,10000014" num="50,10"/>
+		<reward reward="1502" rewardtype="1" name="至尊礼包" type="2" by="2000" yl="100000"/>
+		<reward reward="1601" rewardtype="1" name="预约礼包" type="1" by="2888" yl="1000000" item="10000012" num="88"/>
+		<reward reward="1701" rewardtype="1" name="视频周一礼包" type="31" by="" yl="1000000" item="10000012,10000013,10000014" num="300,150,150"/>
+		<reward reward="1702" rewardtype="1" name="视频周二礼包" type="32" by="" yl="1000000" item="10000006,16010001,10000007" num="10,5,60"/>
+		<reward reward="1703" rewardtype="1" name="视频周三礼包" type="33" item="10000009,10000001,16010013" num="5,1,1" by="" yl="1000000"/>
+		<reward reward="1704" rewardtype="1" name="视频周四礼包" type="34" by="200" yl="" item="10000012,10000013,10000014" num="300,150,150"/>
+		<reward reward="1705" rewardtype="1" name="视频周五礼包" type="35" item="10000006,16010001,10000007" num="10,5,60" by="200"/>
+		<reward reward="1706" rewardtype="1" name="视频周六礼包" type="36" by="200" item="10000009,10000001,16010013" num="5,1,1"/>
+		<reward reward="1707" rewardtype="1" name="视频周日礼包" type="37" item="10000007,16010001" by="300" yl="1000000" num="100,5"/>
+		<reward reward="1801" rewardtype="1" name="黄钻专属礼包" type="2" by="" yl="1000000" item="10000013,10000014,16010013" num="125,125,1"/>
+		<reward reward="1901" rewardtype="1" name="小游戏收藏礼包" type="2" item="10000012,10000014" num="50,10"/>
+		<reward reward="10001" rewardtype="2" name="pt_xinyue" title="pt_xinyue" type="2" item="10000012,10000013" num="50,20" yl="50000" icon="icon_xinyue" slogan="pt_gg_xinyue" posters="xinyue.jpg" link="http://xinyue.qq.com/act/a20181130xyh5game/index.html" iconstatus="1"/>
+		<reward reward="10002" rewardtype="2" name="pt_qie" title="pt_qie" type="2" item="10000012,10000014" num="50,20" yl="50000" icon="icon_qiedianjing" slogan="pt_gg_qie" posters="qiedianjing.jpg" link="https://egame.qq.com/" iconstatus="1"/>
+		<reward reward="100001" rewardtype="3" level="26" name="腾讯视频爱玩福利（安卓）" type="2" icon="con_txsp" ui="txsp.ui" link="https://iwan.qq.com/community/h5index?ADTAG=txsp.xyx.yxdl|hidetitlebar=1" iconstatus="1"/>
+		<reward reward="100002" rewardtype="3" level="26" name="腾讯视频爱玩福利（ios）" type="2" icon="con_gdjc" ui="txsp.ui" link="https://iwan.qq.com/community/h5index?ADTAG=txsp.xyx.yxdl|hidetitlebar=1" iconstatus="1"/>
+	</pingtai>
+</root>

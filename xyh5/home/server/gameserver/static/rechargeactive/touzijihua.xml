@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+serverNum	"合服次数 =-1默认状态=0新服的活动数据=1,合服1次的活动数据=2合服2次的活动数据……"			
+functionid	功能id			
+time	"活动开启时限（天）,填-1表示永久开启"			
+emoneycost	投资消耗元宝数			
+groupid	返利天数			
+itemid	道具id，逗号隔开			
+num	道具数量，逗号隔开			
+bmoney	绑定元宝数量				
+money   银币数量
+
+
+-->
+	<server serverNum="-1">
+		<function functionid="2012" time="-1" emoneycost="8888"/>
+		<group groupid="1" itemid="14010201,14010001" num="50,2" bmoney="8888"/>
+		<group groupid="2" itemid="14030201,14030001" num="50,2" bmoney="8888"/>
+		<group groupid="3" itemid="14050201,14050001" num="50,2" bmoney="8888"/>
+		<group groupid="4" itemid="14040201,14040001" num="50,2" bmoney="8888"/>
+		<group groupid="5" itemid="14020201,14020001" num="50,2" bmoney="8888"/>
+		<group groupid="6" itemid="14070201,14070001" num="50,2" bmoney="8888"/>
+		<group groupid="7" itemid="10000016" num="10" money="50000000" bmoney="8888"/>
+		<group groupid="8" itemid="10000004,10000015" num="10,50" bmoney="8888"/>
+		<group groupid="9" itemid="10000012,10000013" num="2000,2000" bmoney="8888"/>
+	</server>
+</root>

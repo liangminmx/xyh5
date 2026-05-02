@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!--
+openStepLev	功能开启的洞天法宝等级
+itemID	潜能丹道具ID
+itemNum	潜能丹道具数量
+hp	使用潜能丹附加的气血
+pow	使用潜能丹附加的攻击
+def	使用潜能丹附加的防御
+hit	使用潜能丹附加的命中
+dodge	使用潜能丹附加的闪避
+crit	使用潜能丹附加的暴击
+toughness	使用潜能丹附加的韧性
+itemID	幻化丹道具ID
+itemNum	幻化丹道具数量
+item2Per	使用道具增加的属性万分比
+item2AvatarNum	使用幻化丹到达最大次数
+item2WingId	使用幻化丹到达最大次数时的获得洞天法宝id
+stepLev	洞天法宝等级
+item1_maxNum	等级对应的潜能丹能使用次数的最大上限
+item2_maxNum	等级对应的幻化丹能使用次数的最大上限
+  -->
+	<open openStepLev="4"/>
+	<item1 itemId="103301" itemNum="1" attack="243" defence="64" max_hp="1592" hit="52" dodge="46" crit="64" toughness="45"/>
+	<item2 itemId="103311" itemNum="1" item2Per="200" item2AvatarNum="200" item2HorseId=""/>
+	<info stepLev="1" item1_maxNum="0" item2_maxNum="0"/>
+	<info stepLev="2" item1_maxNum="0" item2_maxNum="0"/>
+	<info stepLev="3" item1_maxNum="0" item2_maxNum="0"/>
+	<info stepLev="4" item1_maxNum="10" item2_maxNum="5"/>
+	<info stepLev="5" item1_maxNum="20" item2_maxNum="10"/>
+	<info stepLev="6" item1_maxNum="30" item2_maxNum="15"/>
+	<info stepLev="7" item1_maxNum="50" item2_maxNum="20"/>
+	<info stepLev="8" item1_maxNum="80" item2_maxNum="30"/>
+	<info stepLev="9" item1_maxNum="120" item2_maxNum="40"/>
+	<info stepLev="10" item1_maxNum="200" item2_maxNum="50"/>
+</root>

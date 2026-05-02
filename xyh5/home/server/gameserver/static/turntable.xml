@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+pro标签		
+	functionid	幸运转盘开启ID
+	resettime	重置时间（时：分：秒）
+	bind	档次奖励道具是否绑定=1绑定 =0不绑定
+	firstitem	首次元宝10连抽必得道具id
+	firstitemnum	首次元宝10连抽必得道具id数量
+	firsticon	首次元宝10连抽必得道具的图标
+	eightdays	开服前x天展开抽奖倍率活动
+	vippowr	开启50连抽的vip等级需求
+score标签		
+	score	每档奖励需要的积分
+	item	每档奖励包含的道具，多个道具用小写封号隔开
+	num	每档奖励道具对应的数量，用封号隔开
+	yb	每档奖励对应的元宝奖励
+	moneytype	货币类型=1绑元 =2元宝
+	moneytime	免费抽奖冷却时间
+	xbitem	寻宝道具ID
+	xbnum	寻宝道具数量
+	name	文本描述
+	money	消耗货币数量
+	integral	抽奖积分
+	repeatedly	抽奖次数
+jackpot标签		
+	no	道具编号
+	item	道具ID
+	num	道具数量
+	probability	权重
+	txtprobability	展示抽奖概率
+	selected	抽奖X次后，入库抽选 =0为直接入库抽选
+	upperlimit	针对单个道具增加上限次数，表示超过配置的次数没有抽中对应的道具时，下次抽奖必中对应的道具。
+	library	库id
+	double	开服前几天（eightdays字段）抽奖权重*X倍
+display标签		
+	id	编号
+	name	道具名称
+	probability	显示概率
+	libraryid	库id
+	item	道具id
+	name	道具名称
+	num	道具数量
+
+-->
+	<pro functionid="2052" resettime="23:59:59" bind="1" firstitem="12080020" firstitemnum="1" firsticon="zp_shoucijiangli1" eightdays="8" vippowr="8">
+		<score score="2000" item="10000007;10000006;16010001" num="50;10;5" yb="1888"/>
+		<score score="5000" item="10000008;10000006;16010001" num="50;20;10" yb="2888"/>
+		<score score="10000" item="10000008;10000006;16010001" num="100;40;20" yb="5888"/>
+		<money moneytype="1" name="绑定元宝十连抽" money="4950" repeatedly="10" integral="200">
+			<jackpot no="1" item="3010005" name="100级红色武器" num="1" probability="80" selected="200" upperlimit="0" bs="1"/>
+			<jackpot no="2" item="10000006" name="神豆豆" num="1" probability="4000" selected="0" upperlimit="0" bs="0"/>
+			<jackpot no="3" item="10000007" name="橙装碎片" num="1" probability="8000" selected="0" upperlimit="0" bs="0"/>
+			<jackpot no="4" item="7003000" name="神兵" num="1" probability="0" selected="0" upperlimit="0" bs="1"/>
+			<jackpot no="5" item="12100026" name="芙蓉仙女" num="1" library="1" probability="1000" selected="100" upperlimit="0" bs="0"/>
+			<jackpot no="6" item="10000009" name="万能进阶丹" num="1" probability="6000" selected="0" upperlimit="0" bs="0"/>
+			<jackpot no="7" item="4010005" name="100级红色衣服" num="1" probability="80" selected="200" upperlimit="0" bs="1"/>
+			<jackpot no="8" item="10000008" name="红装碎片" num="1" probability="10000" selected="0" upperlimit="0" bs="0"/>
+			<jackpot no="9" item="10000010" name="洗炼石" num="1" probability="8000" selected="0" upperlimit="0" bs="0"/>
+			<jackpot no="10" item="8003000" name="神甲" num="1" probability="0" selected="0" upperlimit="0" bs="1"/>
+			<jackpot no="11" item="12100027" name="吞天虎" num="1" library="1" probability="900" selected="100" upperlimit="0" bs="0"/>
+			<jackpot no="12" item="12080021" name="蟠桃童子" num="1" library="1" probability="900" selected="100" upperlimit="0" bs="0"/>
+		</money>
+		<money moneytype="2" name="元宝单抽" money="500" repeatedly="1" integral="100" moneytime="86400" xbitem="16010013" xbnum="1">
+			<jackpot no="1" item="3010005" name="100级红色武器" num="1" probability="100" selected="20" upperlimit="500" bs="1" double="2"/>
+			<jackpot no="2" item="10000006" name="神豆豆" num="2" probability="5000" selected="0" upperlimit="0" bs="0"/>
+			<jackpot no="3" item="10000007" name="橙装碎片" num="10" probability="13000" selected="0" upperlimit="0" bs="0"/>
+			<jackpot no="4" item="7003000" name="神兵" num="1" probability="100" selected="300" upperlimit="600" bs="1" double="2"/>
+			<jackpot no="5" item="12100026" name="芙蓉仙女" num="1" library="1" probability="900" selected="0" upperlimit="0" bs="0"/>
+			<jackpot no="6" item="10000009" name="万能进阶丹" num="2" probability="2000" selected="0" upperlimit="0" bs="0"/>
+			<jackpot no="7" item="4010005" name="100级红色衣服" num="1" probability="200" selected="20" upperlimit="300" bs="1" double="2"/>
+			<jackpot no="8" item="10000008" name="红装碎片" num="5" probability="7000" selected="0" upperlimit="0" bs="0"/>
+			<jackpot no="9" item="10000010" name="洗炼石" num="2" probability="5000" selected="0" upperlimit="0" bs="0"/>
+			<jackpot no="10" item="8003000" name="神甲" num="1" probability="200" selected="200" upperlimit="400" bs="1" double="2"/>
+			<jackpot no="11" item="12100027" name="吞天虎" num="1" library="1" probability="900" selected="0" upperlimit="0" bs="0"/>
+			<jackpot no="12" item="12080021" name="蟠桃童子" num="1" library="1" probability="900" selected="0" upperlimit="0" bs="0"/>
+		</money>
+		<money moneytype="3" name="元宝十连抽" money="4950" repeatedly="10" integral="1200" xbitem="16010013" xbnum="10">
+			<jackpot no="1" item="3010005" name="100级红色武器" num="1" probability="100" selected="20" upperlimit="510" bs="1" double="2"/>
+			<jackpot no="2" item="10000006" name="神豆豆" num="2" probability="5000" selected="0" upperlimit="0" bs="0"/>
+			<jackpot no="3" item="10000007" name="橙装碎片" num="10" probability="13000" selected="0" upperlimit="0" bs="0"/>
+			<jackpot no="4" item="7003000" name="神兵" num="1" probability="100" selected="300" upperlimit="610" bs="1" double="2"/>
+			<jackpot no="5" item="12100026" name="芙蓉仙女" num="1" library="1" probability="900" selected="0" upperlimit="0" bs="0"/>
+			<jackpot no="6" item="10000009" name="万能进阶丹" num="2" probability="2000" selected="0" upperlimit="0" bs="0"/>
+			<jackpot no="7" item="4010005" name="100级红色衣服" num="1" probability="200" selected="20" upperlimit="310" bs="1" double="2"/>
+			<jackpot no="8" item="10000008" name="红装碎片" num="5" probability="7000" selected="0" upperlimit="0" bs="0"/>
+			<jackpot no="9" item="10000010" name="洗炼石" num="2" probability="5000" selected="0" upperlimit="0" bs="0"/>
+			<jackpot no="10" item="8003000" name="神甲" num="1" probability="200" selected="200" upperlimit="410" bs="1" double="2"/>
+			<jackpot no="11" item="12100027" name="吞天虎" num="1" library="1" probability="900" selected="0" upperlimit="0" bs="0"/>
+			<jackpot no="12" item="12080021" name="蟠桃童子" num="1" library="1" probability="900" selected="0" upperlimit="0" bs="0"/>
+		</money>
+		<display id="1" name="红装碎片" probability="18.20"/>
+		<display id="2" name="神豆豆" probability="13.00"/>
+		<display id="3" name="橙装碎片" probability="32.70"/>
+		<display id="4" name="万能进阶丹" probability="5.00"/>
+		<display id="5" name="神兵" probability="0.30"/>
+		<display id="6" name="神甲" probability="0.60"/>
+		<display id="7" name="100级红色武器" probability="0.40"/>
+		<display id="8" name="100级红色衣服" probability="0.80"/>
+		<display id="9" name="洗炼石" probability="20.00"/>
+		<display id="10" name="稀有宠物" probability="9.00"/>
+		<library libraryidid="1" libraryname="宠物库">
+			<item item="12070017" name="上古瑞兽" num="1"/>
+			<item item="12070018" name="画中仙" num="1"/>
+			<item item="12070019" name="嗜血鬼" num="1"/>
+			<item item="12080020" name="无面鬼将" num="1"/>
+			<item item="12080021" name="蟠桃童子" num="1"/>
+			<item item="12080022" name="仙鹤童子" num="1"/>
+			<item item="12090023" name="黑山老妖" num="1"/>
+			<item item="12090024" name="瑶池天兵" num="1"/>
+			<item item="12090025" name="彩凤仙女" num="1"/>
+			<item item="12100026" name="芙蓉仙女" num="1"/>
+			<item item="12100027" name="吞天虎" num="1"/>
+			<item item="12100028" name="西海蛟龙" num="1"/>
+			<item item="12000029" name="巡天神将" num="1"/>
+		</library>
+	</pro>
+	<pro functionid="6669" resettime="23:59:59" bind="1" firstitem="18030111" firstitemnum="1" firsticon="zp_shoucijiangli1" eightdays="8" vippowr="8">
+		<score score="2000" item="10000007;10000006;16010022" num="50;10;20" yb="0"/>
+		<score score="5000" item="10000008;10000006;16010022" num="50;20;50" yb="0"/>
+		<score score="10000" item="10000008;10000006;16010022" num="100;40;100" yb="0"/>
+		<money moneytype="1" name="绑定元宝十连抽" money="3888" repeatedly="10" integral="100">
+			<jackpot no="1" item="18040103" name="北方玄武" num="1" probability="0" selected="50" upperlimit="0" bs="1" library="1"/>
+			<jackpot no="2" item="18030101" name="角木蛟" num="1" probability="100" selected="30" upperlimit="0" bs="0" library="2"/>
+			<jackpot no="3" item="18010101" name="地魁星" num="1" probability="10000" upperlimit="0" bs="0" library="4"/>
+			<jackpot no="4" item="18040101" name="东方青龙" num="1" probability="0" selected="50" upperlimit="0" bs="1" library="1"/>
+			<jackpot no="5" item="18030115" name="奎木狼" num="1" probability="100" selected="30" upperlimit="0" bs="0" library="2"/>
+			<jackpot no="6" item="18010113" name="地煞星" num="1" probability="10000" upperlimit="0" bs="0" library="4"/>
+			<jackpot no="7" item="18040104" name="南方朱雀" num="1" probability="0" selected="50" upperlimit="0" bs="1" library="1"/>
+			<jackpot no="8" item="18030124" name="女土蝠" num="1" probability="100" selected="30" upperlimit="0" bs="0" library="2"/>
+			<jackpot no="9" item="18020107" name="天罡星" num="1" probability="500" upperlimit="0" bs="0" library="3"/>
+			<jackpot no="10" item="18040102" name="西方白虎" num="1" probability="0" selected="50" upperlimit="0" bs="1" library="1"/>
+			<jackpot no="11" item="18020113" name="天机星" num="1" probability="500" upperlimit="0" bs="0" library="3"/>
+			<jackpot no="12" item="18020125" name="天勇星" num="1" probability="500" upperlimit="0" bs="0" library="3"/>
+		</money>
+		<money moneytype="2" name="元宝单抽" money="388" repeatedly="1" integral="100" moneytime="86400" xbitem="10000101" xbnum="1">
+			<jackpot no="1" item="18040103" name="北方玄武" num="1" probability="200" selected="20" upperlimit="250" bs="1" library="1"/>
+			<jackpot no="2" item="18030101" name="角木蛟" num="1" probability="1000" selected="10" bs="0" library="2"/>
+			<jackpot no="3" item="18010101" name="地魁星" num="1" probability="10000" bs="0" library="4"/>
+			<jackpot no="4" item="18040101" name="东方青龙" num="1" probability="200" selected="20" upperlimit="250" bs="1" library="1"/>
+			<jackpot no="5" item="18030115" name="奎木狼" num="1" probability="1000" selected="10" bs="0" library="2"/>
+			<jackpot no="6" item="18010113" name="地煞星" num="1" probability="10000" bs="0" library="4"/>
+			<jackpot no="7" item="18040104" name="南方朱雀" num="1" probability="200" selected="20" upperlimit="250" bs="1" library="1"/>
+			<jackpot no="8" item="18030124" name="女土蝠" num="1" probability="1000" selected="10" bs="0" library="2"/>
+			<jackpot no="9" item="18020107" name="天罡星" num="1" probability="3000" bs="0" library="3"/>
+			<jackpot no="10" item="18040102" name="西方白虎" num="1" probability="200" selected="20" upperlimit="250" bs="1" library="1"/>
+			<jackpot no="11" item="18020113" name="天机星" num="1" probability="3000" bs="0" library="3"/>
+			<jackpot no="12" item="18020125" name="天勇星" num="1" probability="3000" bs="0" library="3"/>
+		</money>
+		<money moneytype="3" name="元宝十连抽" money="3666" repeatedly="10" integral="1200" xbitem="10000101" xbnum="10">
+			<jackpot no="1" item="18040103" name="北方玄武" num="1" probability="200" selected="20" upperlimit="250" bs="1" library="1"/>
+			<jackpot no="2" item="18030101" name="角木蛟" num="2" probability="1000" selected="10" bs="0" library="2"/>
+			<jackpot no="3" item="18010101" name="地魁星" num="10" probability="10000" bs="0" library="4"/>
+			<jackpot no="4" item="18040101" name="东方青龙" num="1" probability="200" selected="20" upperlimit="250" bs="1" library="1"/>
+			<jackpot no="5" item="18030115" name="奎木狼" num="1" probability="1000" selected="10" bs="0" library="2"/>
+			<jackpot no="6" item="18010113" name="地煞星" num="2" probability="10000" bs="0" library="4"/>
+			<jackpot no="7" item="18040104" name="南方朱雀" num="1" probability="200" selected="20" upperlimit="250" bs="1" library="1"/>
+			<jackpot no="8" item="18030124" name="女土蝠" num="5" probability="1000" selected="10" bs="0" library="2"/>
+			<jackpot no="9" item="18020107" name="天罡星" num="2" probability="3000" bs="0" library="3"/>
+			<jackpot no="10" item="18040102" name="西方白虎" num="1" probability="200" selected="20" upperlimit="250" bs="1" library="1"/>
+			<jackpot no="11" item="18020113" name="天机星" num="1" probability="3000" bs="0" library="3"/>
+			<jackpot no="12" item="18020125" name="天勇星" num="1" probability="3000" bs="0" library="3"/>
+		</money>
+		<display id="1" name="地煞" probability="57"/>
+		<display id="2" name="天罡" probability="30"/>
+		<display id="3" name="星宿" probability="10"/>
+		<display id="4" name="天仙" probability="3"/>
+		<library libraryidid="1" libraryname="天仙库">
+			<item item="18040101" name="东方青龙" num="1"/>
+			<item item="18040102" name="西方白虎" num="1"/>
+			<item item="18040103" name="北方玄武" num="1"/>
+			<item item="18040104" name="南方朱雀" num="1"/>
+			<item item="18040105" name="中央黄龙" num="1"/>
+			<item item="18040106" name="计都星君" num="1"/>
+			<item item="18040107" name="火德星君" num="1"/>
+			<item item="18040108" name="木德星君" num="1"/>
+			<item item="18040109" name="太阴星君" num="1"/>
+			<item item="18040110" name="土德星君" num="1"/>
+			<item item="18040111" name="罗睺星君" num="1"/>
+			<item item="18040112" name="太阳星君" num="1"/>
+			<item item="18040113" name="金德星君" num="1"/>
+			<item item="18040114" name="水德星君" num="1"/>
+		</library>
+		<library libraryidid="2" libraryname="星宿库">
+			<item item="18030101" name="角木蛟" num="1"/>
+			<item item="18030102" name="亢金龙" num="1"/>
+			<item item="18030103" name="氐土貉" num="1"/>
+			<item item="18030104" name="房日兔" num="1"/>
+			<item item="18030105" name="心月狐" num="1"/>
+			<item item="18030106" name="尾火虎" num="1"/>
+			<item item="18030107" name="箕水豹" num="1"/>
+			<item item="18030108" name="井木犴" num="1"/>
+			<item item="18030109" name="鬼金羊" num="1"/>
+			<item item="18030110" name="柳土獐" num="1"/>
+			<item item="18030111" name="星日马" num="1"/>
+			<item item="18030112" name="张月鹿" num="1"/>
+			<item item="18030113" name="翼火蛇" num="1"/>
+			<item item="18030114" name="轸水蚓" num="1"/>
+			<item item="18030115" name="奎木狼" num="1"/>
+			<item item="18030116" name="娄金狗" num="1"/>
+			<item item="18030117" name="胃土雉" num="1"/>
+			<item item="18030118" name="昴日鸡" num="1"/>
+			<item item="18030119" name="毕月乌" num="1"/>
+			<item item="18030120" name="觜火猴" num="1"/>
+			<item item="18030121" name="参水猿" num="1"/>
+			<item item="18030122" name="斗木獬" num="1"/>
+			<item item="18030123" name="牛金牛" num="1"/>
+			<item item="18030124" name="女土蝠" num="1"/>
+			<item item="18030125" name="虚日鼠" num="1"/>
+			<item item="18030126" name="危月燕" num="1"/>
+			<item item="18030127" name="室火猪" num="1"/>
+			<item item="18030128" name="壁水貐" num="1"/>
+		</library>
+		<library libraryidid="3" libraryname="天罡库">
+			<item item="18020101" name="天魁星" num="1"/>
+			<item item="18020102" name="天猛星" num="1"/>
+			<item item="18020103" name="天孤星" num="1"/>
+			<item item="18020104" name="天空星" num="1"/>
+			<item item="18020105" name="天退星" num="1"/>
+			<item item="18020106" name="天败星" num="1"/>
+			<item item="18020107" name="天罡星" num="1"/>
+			<item item="18020108" name="天威星" num="1"/>
+			<item item="18020109" name="天伤星" num="1"/>
+			<item item="18020110" name="天速星" num="1"/>
+			<item item="18020111" name="天寿星" num="1"/>
+			<item item="18020112" name="天牢星" num="1"/>
+			<item item="18020113" name="天机星" num="1"/>
+			<item item="18020114" name="天英星" num="1"/>
+			<item item="18020115" name="天玄星" num="1"/>
+			<item item="18020116" name="天异星" num="1"/>
+			<item item="18020117" name="天剑星" num="1"/>
+			<item item="18020118" name="天慧星" num="1"/>
+			<item item="18020119" name="天闲星" num="1"/>
+			<item item="18020120" name="天贵星" num="1"/>
+			<item item="18020121" name="天健星" num="1"/>
+			<item item="18020122" name="天煞星" num="1"/>
+			<item item="18020123" name="天平星" num="1"/>
+			<item item="18020124" name="天暴星" num="1"/>
+			<item item="18020125" name="天勇星" num="1"/>
+			<item item="18020126" name="天富星" num="1"/>
+			<item item="18020127" name="天暗星" num="1"/>
+			<item item="18020128" name="天微星" num="1"/>
+			<item item="18020129" name="天罪星" num="1"/>
+			<item item="18020130" name="天哭星" num="1"/>
+			<item item="18020131" name="天雄星" num="1"/>
+			<item item="18020132" name="天满星" num="1"/>
+			<item item="18020133" name="天佑星" num="1"/>
+			<item item="18020134" name="天究星" num="1"/>
+			<item item="18020135" name="天损星" num="1"/>
+			<item item="18020136" name="天巧星" num="1"/>
+		</library>
+		<library libraryidid="4" libraryname="地煞库">
+			<item item="18010101" name="地魁星" num="1"/>
+			<item item="18010102" name="地英星" num="1"/>
+			<item item="18010103" name="地阖星" num="1"/>
+			<item item="18010104" name="地佑星" num="1"/>
+			<item item="18010105" name="地默星" num="1"/>
+			<item item="18010106" name="地明星" num="1"/>
+			<item item="18010107" name="地隐星" num="1"/>
+			<item item="18010108" name="地速星" num="1"/>
+			<item item="18010109" name="地伏星" num="1"/>
+			<item item="18010110" name="地角星" num="1"/>
+			<item item="18010111" name="地察星" num="1"/>
+			<item item="18010112" name="地壮星" num="1"/>
+			<item item="18010113" name="地煞星" num="1"/>
+			<item item="18010114" name="地奇星" num="1"/>
+			<item item="18010115" name="地强星" num="1"/>
+			<item item="18010116" name="地灵星" num="1"/>
+			<item item="18010117" name="地猖星" num="1"/>
+			<item item="18010118" name="地进星" num="1"/>
+			<item item="18010119" name="地异星" num="1"/>
+			<item item="18010120" name="地镇星" num="1"/>
+			<item item="18010121" name="地僻星" num="1"/>
+			<item item="18010122" name="地囚星" num="1"/>
+			<item item="18010123" name="地恶星" num="1"/>
+			<item item="18010124" name="地劣星" num="1"/>
+			<item item="18010125" name="地勇星" num="1"/>
+			<item item="18010126" name="地猛星" num="1"/>
+			<item item="18010127" name="地暗星" num="1"/>
+			<item item="18010128" name="地兽星" num="1"/>
+			<item item="18010129" name="地狂星" num="1"/>
+			<item item="18010130" name="地退星" num="1"/>
+			<item item="18010131" name="地理星" num="1"/>
+			<item item="18010132" name="地稽星" num="1"/>
+			<item item="18010133" name="地空星" num="1"/>
+			<item item="18010134" name="地藏星" num="1"/>
+			<item item="18010135" name="地魂星" num="1"/>
+			<item item="18010136" name="地健星" num="1"/>
+			<item item="18010137" name="地杰星" num="1"/>
+			<item item="18010138" name="地文星" num="1"/>
+			<item item="18010139" name="地辅星" num="1"/>
+			<item item="18010140" name="地微星" num="1"/>
+			<item item="18010141" name="地飞星" num="1"/>
+			<item item="18010142" name="地满星" num="1"/>
+			<item item="18010143" name="地俊星" num="1"/>
+			<item item="18010144" name="地魔星" num="1"/>
+			<item item="18010145" name="地孤星" num="1"/>
+			<item item="18010146" name="地平星" num="1"/>
+			<item item="18010147" name="地数星" num="1"/>
+			<item item="18010148" name="地贼星" num="1"/>
+			<item item="18010149" name="地雄星" num="1"/>
+			<item item="18010150" name="地正星" num="1"/>
+			<item item="18010151" name="地会星" num="1"/>
+			<item item="18010152" name="地慧星" num="1"/>
+			<item item="18010153" name="地走星" num="1"/>
+			<item item="18010154" name="地遂星" num="1"/>
+			<item item="18010155" name="地乐星" num="1"/>
+			<item item="18010156" name="地妖星" num="1"/>
+			<item item="18010157" name="地全星" num="1"/>
+			<item item="18010158" name="地损星" num="1"/>
+			<item item="18010159" name="地阴星" num="1"/>
+			<item item="18010160" name="地戚星" num="1"/>
+			<item item="18010161" name="地威星" num="1"/>
+			<item item="18010162" name="地辟星" num="1"/>
+			<item item="18010163" name="地佐星" num="1"/>
+			<item item="18010164" name="地暴星" num="1"/>
+			<item item="18010165" name="地巧星" num="1"/>
+			<item item="18010166" name="地周星" num="1"/>
+			<item item="18010167" name="地捷星" num="1"/>
+			<item item="18010168" name="地幽星" num="1"/>
+			<item item="18010169" name="地短星" num="1"/>
+			<item item="18010170" name="地奴星" num="1"/>
+			<item item="18010171" name="地刑星" num="1"/>
+			<item item="18010172" name="地狗星" num="1"/>
+		</library>
+	</pro>
+	<pro functionid="6687" resettime="23:59:59" bind="1" firstitem="12100027" firstitemnum="1" firsticon="zp_shoucijiangli1" eightdays="8" vippowr="8">
+		<score score="2000" item="16010049;16010060;16010035;10000016;60000001" num="2;2;1;10;1888" yb="0"/>
+		<score score="5000" item="16010049;16010060;16010035;10000016;60000001" num="3;3;2;20;2888" yb="0"/>
+		<score score="10000" item="16010049;16010060;16010036;10000016;60000001" num="5;5;1;50;5888" yb="0"/>
+		<money moneytype="1" name="绑定元宝十连抽" money="3888" repeatedly="10" integral="100">
+			<jackpot no="1" item="16010064" name="超级神兽碎片匣" num="5" probability="0"/>
+			<jackpot no="2" item="12010001" name="泡泡" num="1" probability="2267" upperlimit="0" bs="0" library="1"/>
+			<jackpot no="3" item="12080021" name="蟠桃童子" num="1" probability="135" upperlimit="10" bs="0" library="3"/>
+			<jackpot no="4" item="12000033" name="哮天犬" num="1" probability="0" upperlimit="200" bs="1" library="4"/>
+			<jackpot no="5" item="12090023" name="黑山老妖" num="1" probability="600" upperlimit="0" bs="0" library="2"/>
+			<jackpot no="6" item="12070017" name="上古瑞兽" num="1" probability="135" upperlimit="10" bs="0" library="3"/>
+			<jackpot no="7" item="16010064" name="超级神兽碎片匣" num="2" probability="30" upperlimit="0" bs="0"/>
+			<jackpot no="8" item="12020037" name="巨蛙" num="1" probability="2267" upperlimit="0" bs="0" library="1"/>
+			<jackpot no="9" item="12070018" name="画中仙" num="1" probability="600" upperlimit="0" bs="0" library="2"/>
+			<jackpot no="10" item="12000034" name="熊猫" num="1" probability="0" upperlimit="200" bs="1" library="4"/>
+			<jackpot no="11" item="10000016" name="月花露" num="10" probability="1700" upperlimit="0" bs="0"/>
+			<jackpot no="12" item="12030007" name="狐妖" num="1" probability="2267" upperlimit="0" bs="0" library="1"/>
+		</money>
+		<money moneytype="2" name="元宝单抽" money="388" repeatedly="1" integral="100" moneytime="86400" xbitem="16010069" xbnum="1">
+			<jackpot no="1" item="16010064" name="超级神兽碎片匣" num="5" probability="79"/>
+			<jackpot no="2" item="12010001" name="泡泡" num="1" probability="1867" upperlimit="0" bs="0" library="1"/>
+			<jackpot no="3" item="12080021" name="蟠桃童子" num="1" probability="450" upperlimit="10" bs="0" library="3"/>
+			<jackpot no="4" item="12000033" name="哮天犬" num="1" probability="10" upperlimit="200" bs="1" library="4"/>
+			<jackpot no="5" item="12090023" name="黑山老妖" num="1" probability="750" upperlimit="0" bs="0" library="2"/>
+			<jackpot no="6" item="12070017" name="上古瑞兽" num="1" probability="450" upperlimit="10" bs="0" library="3"/>
+			<jackpot no="7" item="16010064" name="超级神兽碎片匣" num="2" probability="750" upperlimit="0" bs="0"/>
+			<jackpot no="8" item="12020037" name="巨蛙" num="1" probability="1867" upperlimit="0" bs="0" library="1"/>
+			<jackpot no="9" item="12070018" name="画中仙" num="1" probability="750" upperlimit="0" bs="0" library="2"/>
+			<jackpot no="10" item="12000034" name="熊猫" num="1" probability="10" upperlimit="200" bs="1" library="4"/>
+			<jackpot no="11" item="10000016" name="月花露" num="10" probability="1400" upperlimit="0" bs="0"/>
+			<jackpot no="12" item="12030007" name="狐妖" num="1" probability="1867" upperlimit="0" bs="0" library="1"/>
+		</money>
+		<money moneytype="3" name="元宝十连抽" money="3666" repeatedly="10" integral="1200" xbitem="16010069" xbnum="10">
+			<jackpot no="1" item="16010064" name="超级神兽碎片匣" num="5" probability="79"/>
+			<jackpot no="2" item="12010001" name="泡泡" num="1" probability="1867" upperlimit="0" bs="0" library="1"/>
+			<jackpot no="3" item="12080021" name="蟠桃童子" num="1" probability="450" upperlimit="10" bs="0" library="3"/>
+			<jackpot no="4" item="12000033" name="哮天犬" num="1" probability="10" upperlimit="200" bs="1" library="4"/>
+			<jackpot no="5" item="12090023" name="黑山老妖" num="1" probability="750" upperlimit="0" bs="0" library="2"/>
+			<jackpot no="6" item="12070017" name="上古瑞兽" num="1" probability="450" upperlimit="10" bs="0" library="3"/>
+			<jackpot no="7" item="16010064" name="超级神兽碎片匣" num="2" probability="750" upperlimit="0" bs="0"/>
+			<jackpot no="8" item="12020037" name="巨蛙" num="1" probability="1867" upperlimit="0" bs="0" library="1"/>
+			<jackpot no="9" item="12070018" name="画中仙" num="1" probability="750" upperlimit="0" bs="0" library="2"/>
+			<jackpot no="10" item="12000034" name="熊猫" num="1" probability="10" upperlimit="200" bs="1" library="4"/>
+			<jackpot no="11" item="10000016" name="月花露" num="10" probability="1400" upperlimit="0" bs="0"/>
+			<jackpot no="12" item="12030007" name="狐妖" num="1" probability="1867" upperlimit="0" bs="0" library="1"/>
+		</money>
+		<display id="1" name="蓝色宠物库" probability="56"/>
+		<display id="2" name="紫色宠物库" probability="15"/>
+		<display id="3" name="橙色宠物库" probability="9"/>
+		<display id="4" name="红色宠物库" probability="1"/>
+		<library libraryidid="1" libraryname="蓝色宠物库">
+			<item item="12010001" name="泡泡" num="1"/>
+			<item item="12020037" name="巨蛙" num="1"/>
+			<item item="12020003" name="寄居蟹" num="1"/>
+			<item item="12010002" name="小海龟" num="1"/>
+			<item item="12020038" name="海星" num="1"/>
+			<item item="12020004" name="野猪" num="1"/>
+			<item item="12030005" name="树妖" num="1"/>
+			<item item="12020039" name="蛤蟆精" num="1"/>
+			<item item="12020040" name="狼" num="1"/>
+			<item item="12030006" name="羊角怪" num="1"/>
+			<item item="12030007" name="狐妖" num="1"/>
+			<item item="12040008" name="小花妖" num="1"/>
+			<item item="12040010" name="蛮熊怪" num="1"/>
+			<item item="12050012" name="牛头怪" num="1"/>
+			<item item="12050013" name="马面怪" num="1"/>
+			<item item="12060015" name="虾兵" num="1"/>
+			<item item="12060016" name="蟹将" num="1"/>
+		</library>
+		<library libraryidid="2" libraryname="紫色宠物库">
+			<item item="12080022" name="仙鹤童子" num="1"/>
+			<item item="12060014" name="伞妖" num="1"/>
+			<item item="12050011" name="小龙女" num="1"/>
+			<item item="12090023" name="黑山老妖" num="1"/>
+			<item item="12070018" name="画中仙" num="1"/>
+			<item item="12070019" name="嗜血鬼" num="1"/>
+		</library>
+		<library libraryidid="3" libraryname="橙色宠物库">
+			<item item="12090025" name="彩凤仙女" num="1"/>
+			<item item="12100026" name="芙蓉仙女" num="1"/>
+			<item item="12080021" name="蟠桃童子" num="1"/>
+			<item item="12080020" name="无面鬼将" num="1"/>
+			<item item="12070017" name="上古瑞兽" num="1"/>
+			<item item="12000029" name="巡天神将" num="1"/>
+			<item item="12100027" name="吞天虎" num="1"/>
+			<item item="12100028" name="西海蛟龙" num="1"/>
+			<item item="12090024" name="瑶池天兵" num="1"/>
+		</library>
+		<library libraryidid="4" libraryname="红色宠物库">
+			<item item="12000032" name="超级泡泡" num="1"/>
+			<item item="12000030" name="鲲鹏" num="1"/>
+			<item item="12000031" name="小火龙" num="1"/>
+			<item item="12000033" name="哮天犬" num="1"/>
+			<item item="12000035" name="九色鹿" num="1"/>
+			<item item="12000036" name="白泽" num="1"/>
+			<item item="12000034" name="熊猫" num="1"/>
+		</library>
+	</pro>
+</root>

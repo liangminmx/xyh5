@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+functionid	首冲福利开启ID			
+type	标识ID			
+advertisement	广告语资源ID			
+money	充值金额			
+text	价值文本	
+txt     极品文本		
+model	模型ID			
+power	战斗力			
+item	道具ID	
+ts      =1为特殊道具		
+num	道具数量			
+bind	是否绑定			
+time	过期时间（格式XX-XX-XX）填0无时限			
+by  绑元
+yb	银币
+
+
+
+-->
+	<pro functionid="2033"/>
+	<type type="1" advertisement="" money="12" text="8888元宝" model="" power="1000" txt="无级别橙色武器" by="2000" yb="10000000">
+		<item item="3000700" num="1" bind="1" ts="1" time="0"/>
+		<item item="10000009" num="10" bind="1" ts="0" time="0"/>
+		<item item="10000014" num="100" bind="1" ts="0" time="0"/>
+		<item item="14010001" num="5" bind="1" ts="0" time="0"/>
+	</type>
+	<type type="2" advertisement="" money="26" text="18888元宝" model="" power="1000" txt="神兽：超级泡泡" by="5000" yb="10000000">
+		<item item="12000032" num="1" bind="1" ts="1" time="0"/>
+		<item item="10000009" num="20" bind="1" ts="0" time="0"/>
+		<item item="10000014" num="200" bind="1" ts="0" time="0"/>
+		<item item="14030001" num="5" bind="1" ts="0" time="0"/>
+	</type>
+	<type type="3" advertisement="" money="50" text="28888元宝" model="" power="1000" txt="神兵：金箍棒" by="10000" yb="50000000">
+		<item item="13031001" num="1" bind="1" ts="1" time="0"/>
+		<item item="10000009" num="30" bind="1" ts="0" time="0"/>
+		<item item="10000014" num="500" bind="1" ts="0" time="0"/>
+		<item item="14050001" num="5" bind="1" ts="0" time="0"/>
+	</type>
+	<type type="4" advertisement="" money="200" text="38888元宝" model="" power="1000" txt="极品伙伴：观音" by="20000" yb="100000000">
+		<item item="11042011" num="100" bind="1" ts="1" time="0"/>
+		<item item="10000009" num="50" bind="1" ts="0" time="0"/>
+		<item item="10000014" num="1000" bind="1" ts="0" time="0"/>
+		<item item="14040001" num="5" bind="1" ts="0" time="0"/>
+	</type>
+	<type type="5" advertisement="" money="500" text="88888元宝" model="" power="1000" txt="坐骑：天使猪" by="50000" yb="200000000">
+		<item item="13030001" num="1" bind="1" ts="1" time="0"/>
+		<item item="10000009" num="100" bind="1" ts="0" time="0"/>
+		<item item="10000014" num="2000" bind="1" ts="0" time="0"/>
+		<item item="14020001" num="5" bind="1" ts="0" time="0"/>
+	</type>
+</root>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+functionid	功能id
+realm	功能开启需满足的大境界要求
+stage	功能开启需满足的小境界要求
+normal_days	表示周几举办活动，支持多个“，”
+0=周天、1=周1、6=周六、=7整周开放
+starttime	报名开启时间，格式XX:XX，小时分，用于界面显示
+overtime	报名截止时间，格式XX:XX，小时分，用于界面显示
+enrolltype	薪火幻域结束时是否再次开启报名，=1开启再次报名=0不开启
+costemoney	报名需消耗的元宝数量
+costmoney	报名需消耗的银两数量
+lesspeople	匹配时每组最少人数
+sceneid	地图id
+deletetime	传送倒计时，单位秒
+birthpos	出生点坐标，格式“X,Y”
+carrypos	传送点坐标，格式“X,Y”
+readytime	解除准备夺神石buff倒计时，单位秒
+killballscore	杀死有球状态的玩家获得的积分
+killscore	杀死非有球状态玩家获得的积分
+revengebuff	复仇buffid
+needscore	获得参与、排名奖励所需最低积分
+mail	奖励邮件id
+playid	第几场薪火幻域
+matchingtype	匹配类别=1报名匹配，=2胜负者匹配
+不填或playid=1时，则默认使用匹配规则1
+opentime	本场开启时间，格式XX:XX，小时分
+overtime	本场结束时间，格式XX:XX，小时分
+revivepos	复活点坐标，格式“X,Y”分别为X坐标和Y坐标
+revivebuff	复活buff
+id	能量球标识id
+npcid	能量球对应npcid
+direction	能量球NPC朝向
+collect	采集能量球的时间，单位秒
+ballpos	能量球在地图中的坐标，格式“X,Y”分别为X坐标和Y坐标
+icon	头顶能量球图标
+interval	有球状态下获取积分间隔时间，单位秒
+ballscore	有球状态下获取的积分
+bufftext	在右侧界面的能量球buff说明
+buff	能量球buff
+lefttop	加倍区左上角坐标，格式“X,Y”分别为X坐标和Y坐标
+rightbottom	加倍区右下角坐标，格式“X,Y”分别为X坐标和Y坐标
+heartpos	加倍区中心，用于自动行进至神台,格式“X,Y”分别为X坐标和Y坐标
+mul	加倍区携带能量球积分加倍倍数，支持小数点后1位
+rank	名次
+money	排名奖励银两数
+emoney	排名奖励绑定元宝数
+item	排名奖励道具id
+num	道具数量
+bind	绑定状态=1绑定=0不绑定
+money	积分奖励银两数
+emoney	积分奖励绑定元宝数
+item	积分奖励道具id
+num	道具数量
+bind	绑定状态=1绑定=0不绑定
+ -->
+<root>
+	<functionid functionid="1060"/>
+	<openday realm="1" stage="1" normal_days="2,4" readybuff="200018" starttime="18:00:00" overtime="20:55:00" enrolltype="1" costemoney="" costmoney="1000000" lesspeople="15" sceneid="8507" deletetime="30" birthpos="26,26" carrypos="57,89" readytime="3" killballscore="50" killscore="5" revengebuff="20010" revivebuff="20011" needscore="50" mail="86" allmail="88" text="每天进行2场薪火幻域战斗|报名即可参加当天所有战斗" ruletext="在薪火幻域中你将与来自其他服务器的玩家为夺取神石而厮杀||[font color='#00DB00']灭敌得积分：[/font]|消灭敌人可获得[font color='#00DB00']5[/font]积分|消灭携带神石的敌人可获得[font color='#00DB00']10[/font]积分||[font color='#00DB00']携带神石得积分：[/font]|携带神石每[font color='#00DB00']10[/font]秒可获得[font color='#00DB00']20[/font]积分|在中间的神台内，携带神石可获得[font color='#00DB00']5[/font]倍积分||[font color='#00DB00']积分排名奖励：[/font]|积分排名前[font color='#00DB00']3[/font]的玩家可在战斗结束时获得排名奖励|积分大于[font color='#00DB00']50[/font]的玩家可获得参与奖励|结算时若不在战场中则无法获得奖励">
+		<play playid="1" matchingtype="1" opentime="21:00:00" overtime="21:25:00"/>
+		<play playid="2" matchingtype="2" opentime="21:35:00" overtime="22:00:00"/>
+		<pplv minlev="0" maxlev="60"/>
+		<pplv minlev="61" maxlev="70"/>
+		<pplv minlev="71" maxlev="80"/>
+		<pplv minlev="81" maxlev="90"/>
+		<pplv minlev="91" maxlev="100"/>
+		<pplv minlev="101" maxlev="110"/>
+		<pplv minlev="111" maxlev="120"/>
+		<pplv minlev="121" maxlev="130"/>
+		<pplv minlev="131" maxlev="140"/>
+		<pplv minlev="141" maxlev="150"/>
+		<pplv minlev="151" maxlev="160"/>
+		<pplv minlev="161" maxlev="170"/>
+		<pplv minlev="171" maxlev="180"/>
+		<pplv minlev="181" maxlev="190"/>
+		<pplv minlev="191" maxlev="200"/>
+		<revive revivepos="39,55"/>
+		<revive revivepos="39,125"/>
+		<revive revivepos="75,126"/>
+		<revive revivepos="74,54"/>
+		<ball id="1" npcid="470001" direction="1" collect="5" ballpos="57,19" icon="3003417" interval="10" ballscore="20" bufftext="攻击+50%|防御-40%">
+			<ballbuff buff="20000"/>
+		</ball>
+		<ball id="2" npcid="470002" direction="1" collect="5" ballpos="22,90" icon="3003418" interval="10" ballscore="20" bufftext="防御+50%|攻击-40%">
+			<ballbuff buff="20001"/>
+		</ball>
+		<ball id="3" npcid="470004" direction="1" collect="5" ballpos="58,162" icon="3003419" interval="10" ballscore="20" bufftext="暴击+50%|韧性-40%">
+			<ballbuff buff="20002"/>
+		</ball>
+		<ball id="4" npcid="470003" direction="1" collect="5" ballpos="93,90" icon="3003420" interval="10" ballscore="20" bufftext="移速+100%|气血-40%">
+			<ballbuff buff="20003"/>
+		</ball>
+		<mulplace lefttop="52,79" rightbottom="68,107" heartpos="56,89" mul="5"/>
+		<rankreward rank="1" money="" emoney="">
+			<rankrewarditem item="215103" num="1" bind="1"/>
+			<rankrewarditem item="190100" num="20" bind="1"/>
+			<rankrewarditem item="109101" num="1" bind="1"/>
+		</rankreward>
+		<rankreward rank="2" money="20000000" emoney="">
+			<rankrewarditem item="190100" num="10" bind="1"/>
+			<rankrewarditem item="109102" num="3" bind="1"/>
+		</rankreward>
+		<rankreward rank="3" money="10000000" emoney="">
+			<rankrewarditem item="190100" num="5" bind="1"/>
+			<rankrewarditem item="109102" num="1" bind="1"/>
+		</rankreward>
+		<scorereward money="" emoney="100">
+			<scorerewarditem item="190100" num="5" bind="1"/>
+			<scorerewarditem item="105201" num="2" bind="1"/>
+		</scorereward>
+	</openday>
+</root>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+type	"养成功能类型=0，坐骑=1，神兵=2，翅膀=3，阵法=4，法宝"			
+name	备注用			
+itemid	潜能丹道具ID			
+hp	使用潜能丹附加的气血			
+attack	使用潜能丹附加的攻击			
+defence	使用潜能丹附加的防御			
+steplevel	进阶系统等级			
+num	使用次数的最大上限			
+	
+		
+		
+		
+
+
+
+-->
+	<item type="0" name="坐骑属性丹" itemid="14010001" hp="4748" attack="392" defence="196">
+		<info steplevel="1" num="10"/>
+		<info steplevel="2" num="20"/>
+		<info steplevel="3" num="50"/>
+		<info steplevel="4" num="100"/>
+		<info steplevel="5" num="200"/>
+		<info steplevel="6" num="300"/>
+		<info steplevel="7" num="500"/>
+		<info steplevel="8" num="1000"/>
+		<info steplevel="9" num="2000"/>
+		<info steplevel="10" num="5000"/>
+	</item>
+	<item type="1" name="神兵属性丹" itemid="14020001" hp="4748" attack="392" defence="196">
+		<info steplevel="1" num="10"/>
+		<info steplevel="2" num="20"/>
+		<info steplevel="3" num="50"/>
+		<info steplevel="4" num="100"/>
+		<info steplevel="5" num="200"/>
+		<info steplevel="6" num="300"/>
+		<info steplevel="7" num="500"/>
+		<info steplevel="8" num="1000"/>
+		<info steplevel="9" num="2000"/>
+		<info steplevel="10" num="5000"/>
+	</item>
+	<item type="2" name="羽翼属性丹" itemid="14030001" hp="4748" attack="392" defence="196">
+		<info steplevel="1" num="10"/>
+		<info steplevel="2" num="20"/>
+		<info steplevel="3" num="50"/>
+		<info steplevel="4" num="100"/>
+		<info steplevel="5" num="200"/>
+		<info steplevel="6" num="300"/>
+		<info steplevel="7" num="500"/>
+		<info steplevel="8" num="1000"/>
+		<info steplevel="9" num="2000"/>
+		<info steplevel="10" num="5000"/>
+	</item>
+	<item type="3" name="阵法属性丹" itemid="14040001" hp="4748" attack="392" defence="196">
+		<info steplevel="1" num="10"/>
+		<info steplevel="2" num="20"/>
+		<info steplevel="3" num="50"/>
+		<info steplevel="4" num="100"/>
+		<info steplevel="5" num="200"/>
+		<info steplevel="6" num="300"/>
+		<info steplevel="7" num="500"/>
+		<info steplevel="8" num="1000"/>
+		<info steplevel="9" num="2000"/>
+		<info steplevel="10" num="5000"/>
+	</item>
+	<item type="4" name="法宝属性丹" itemid="14050001" hp="4748" attack="392" defence="196">
+		<info steplevel="1" num="10"/>
+		<info steplevel="2" num="20"/>
+		<info steplevel="3" num="50"/>
+		<info steplevel="4" num="100"/>
+		<info steplevel="5" num="200"/>
+		<info steplevel="6" num="300"/>
+		<info steplevel="7" num="500"/>
+		<info steplevel="8" num="1000"/>
+		<info steplevel="9" num="2000"/>
+		<info steplevel="10" num="5000"/>
+	</item>
+	<item type="5" name="变身属性丹" itemid="14020001" hp="4748" attack="392" defence="196">
+		<info steplevel="1" num="10"/>
+		<info steplevel="2" num="20"/>
+		<info steplevel="3" num="50"/>
+		<info steplevel="4" num="100"/>
+		<info steplevel="5" num="200"/>
+		<info steplevel="6" num="300"/>
+		<info steplevel="7" num="500"/>
+		<info steplevel="8" num="1000"/>
+		<info steplevel="9" num="2000"/>
+		<info steplevel="10" num="5000"/>
+	</item>
+	<item type="6" name="仙位属性丹" itemid="14070001" hp="4748" attack="392" defence="196">
+		<info steplevel="1" num="10"/>
+		<info steplevel="2" num="20"/>
+		<info steplevel="3" num="50"/>
+		<info steplevel="4" num="100"/>
+		<info steplevel="5" num="200"/>
+		<info steplevel="6" num="300"/>
+		<info steplevel="7" num="500"/>
+		<info steplevel="8" num="1000"/>
+		<info steplevel="9" num="2000"/>
+		<info steplevel="10" num="5000"/>
+	</item>
+	<item type="7" name="灵骑属性丹" itemid="14080001" hp="4748" attack="392" defence="196">
+		<info steplevel="1" num="10"/>
+		<info steplevel="2" num="20"/>
+		<info steplevel="3" num="50"/>
+		<info steplevel="4" num="100"/>
+		<info steplevel="5" num="200"/>
+		<info steplevel="6" num="300"/>
+		<info steplevel="7" num="500"/>
+		<info steplevel="8" num="1000"/>
+		<info steplevel="9" num="2000"/>
+		<info steplevel="10" num="5000"/>
+	</item>
+</root>

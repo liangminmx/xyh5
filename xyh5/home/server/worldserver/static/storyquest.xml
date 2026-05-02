@@ -1,0 +1,11 @@
+<root>
+	<content chapterId="1" chapterName="序章">
+		<info indexId="1" taskId="10001" taskName="崔府君？" taskDesc="刚来地府便有一牛头鬼神把你带到此处，让你去见崔府君。崔府君？他是何人？" minLev="1" taskType="1" scene="6002" point="20,30" preTaskIdList="0" nextTaskIdList="10002" isClose="0"  money="1000" emoney="0" emoney2="0" skillPoint="122" talkNpcId="10001" talkID="9000" >
+		</info>
+	</content>
+	<!--接最后一个任务-->
+	<content chapterId="1" chapterName="序章">
+		<info indexId="12" taskId="10009" taskName="轮回转世" taskDesc="时不我待，劫龙随时再生，地府即将崩溃，你与崔府君道别，直奔六道轮回而去" minLev="4" taskType="1" scene="6002" point="130.8,11.3"  sceneId="10001" scenepoint="30,70"  preTaskIdList="10008" nextTaskIdList="20010" isClose="1"  money="1000" emoney="0" emoney2="0" skillPoint="122" talkNpcId="45001" >
+		</info>
+	</content>
+</root>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+function标签
+    function功能开放按钮，对应function.xml 
+vocation标签
+    profession 不同职业打开界面内显示的npc不一样,对应profession.xml
+npc标签	
+    npc     npc编号
+    style   npc模型
+	name	npc名，中文备注查看用
+	dec     默认对话
+param标签
+    id	    数值
+    icon	图标资源名称
+    sort	数值
+    icon_name	图标名称
+    npcfunction	填写npc功能id，点击触发对应流程
+-->
+	<function function="110"/>
+	<vocation profession="10">
+		<npc npc="1" style="100010" name="程咬金" dec="菩提本无树，明镜亦非台。">
+			<param id="1" icon="1201001" sort="1" icon_name="师门任务" icon_type="1" icon_param="101"/>
+			<param id="2" icon="2000000" sort="1" icon_name="门派技能" icon_type="2" icon_param="SkillWnd"/>
+			<param id="3" icon="2000001" sort="2" icon_name="积分兑换" icon_type="2"/>
+			<param id="4" icon="2000002" sort="3" icon_name="师门称谓" icon_type="2"/>
+			<param id="5" icon="2000003" sort="4" icon_name="门派排名" icon_type="2"/>
+			<param id="6" icon="2000004" sort="-1" icon_name="门派法宝" icon_type="2"/>
+		</npc>
+		<npc npc="2" style="100010" name="首席弟子" dec="菩提本无树，明镜亦非台。">
+			<param id="1" icon="1201001" sort="1" icon_name="70级突破" icon_type="3"/>
+			<param id="2" icon="2000000" sort="2" icon_name="更新状态" icon_type="5"/>
+			<param id="3" icon="2000001" sort="3" icon_name="挑战首席" icon_type="4"/>
+			<param id="4" icon="2000002" sort="4" icon_name="参加竞选" icon_type="2" icon_param="VocationchiefView"/>
+			<param id="5" icon="2000003" sort="5" icon_name="首席投票" icon_type="2" icon_param="ChiefvoteView"/>
+		</npc>
+	</vocation>
+	<vocation profession="11">
+		<npc npc="1" style="100031" name="程咬金2" dec="菩提本无树，明镜亦非台。">
+			<param id="1" icon="1201001" sort="1" icon_name="师门任务" icon_type="1" icon_param="101"/>
+			<param id="2" icon="2000000" sort="2" icon_name="门派技能" icon_type="2" icon_param="SkillWnd"/>
+			<param id="3" icon="2000001" sort="3" icon_name="积分兑换" icon_type="2"/>
+			<param id="4" icon="2000002" sort="4" icon_name="师门称谓" icon_type="2"/>
+			<param id="5" icon="2000003" sort="5" icon_name="门派排名" icon_type="2"/>
+		</npc>
+		<npc npc="2" style="100031" name="首席弟子" dec="菩提本无树，明镜亦非台。">
+			<param id="1" icon="1201001" sort="1" icon_name="70级突破" icon_type="3"/>
+			<param id="2" icon="2000000" sort="2" icon_name="更新状态" icon_type="5"/>
+			<param id="3" icon="2000001" sort="3" icon_name="挑战首席" icon_type="4"/>
+			<param id="4" icon="2000002" sort="4" icon_name="参加竞选" icon_type="2" icon_param="VocationchiefView"/>
+			<param id="5" icon="2000003" sort="5" icon_name="首席投票" icon_type="2" icon_param="ChiefvoteView"/>
+		</npc>
+	</vocation>
+	<vocation profession="20">
+		<npc npc="1" style="200003" name="程咬金3" dec="菩提本无树，明镜亦非台。">
+			<param id="1" icon="1201001" sort="1" icon_name="师门任务" icon_type="1" icon_param="101"/>
+			<param id="2" icon="2000000" sort="2" icon_name="门派技能" icon_type="2" icon_param="SkillWnd"/>
+			<param id="3" icon="2000001" sort="3" icon_name="积分兑换" icon_type="2"/>
+			<param id="4" icon="2000002" sort="4" icon_name="师门称谓" icon_type="2"/>
+			<param id="5" icon="2000003" sort="5" icon_name="门派排名" icon_type="2"/>
+		</npc>
+		<npc npc="2" style="200003" name="首席弟子" dec="菩提本无树，明镜亦非台。">
+			<param id="1" icon="1201001" sort="1" icon_name="70级突破" icon_type="3"/>
+			<param id="2" icon="2000000" sort="2" icon_name="更新状态" icon_type="5"/>
+			<param id="3" icon="2000001" sort="3" icon_name="挑战首席" icon_type="4"/>
+			<param id="4" icon="2000002" sort="4" icon_name="参加竞选" icon_type="2" icon_param="VocationchiefView"/>
+			<param id="5" icon="2000003" sort="5" icon_name="首席投票" icon_type="2" icon_param="ChiefvoteView"/>
+		</npc>
+	</vocation>
+	<vocation profession="21">
+		<npc npc="1" style="100009" name="程咬金4" dec="菩提本无树，明镜亦非台。">
+			<param id="1" icon="1201001" sort="1" icon_name="师门任务" icon_type="1" icon_param="101"/>
+			<param id="2" icon="2000000" sort="2" icon_name="门派技能" icon_type="2" icon_param="SkillWnd"/>
+			<param id="3" icon="2000001" sort="3" icon_name="积分兑换" icon_type="2"/>
+			<param id="4" icon="2000002" sort="4" icon_name="师门称谓" icon_type="2"/>
+			<param id="5" icon="2000003" sort="5" icon_name="门派排名" icon_type="2"/>
+		</npc>
+		<npc npc="2" style="100009" name="首席弟子" dec="菩提本无树，明镜亦非台。">
+			<param id="1" icon="1201001" sort="1" icon_name="70级突破" icon_type="3"/>
+			<param id="2" icon="2000000" sort="2" icon_name="更新状态" icon_type="5"/>
+			<param id="3" icon="2000001" sort="3" icon_name="挑战首席" icon_type="4"/>
+			<param id="4" icon="2000002" sort="4" icon_name="参加竞选" icon_type="2" icon_param="VocationchiefView"/>
+			<param id="5" icon="2000003" sort="5" icon_name="首席投票" icon_type="2" icon_param="ChiefvoteView"/>
+		</npc>
+	</vocation>
+	<vocation profession="30">
+		<npc npc="1" style="100015" name="程咬金5" dec="菩提本无树，明镜亦非台。">
+			<param id="1" icon="1201001" sort="1" icon_name="师门任务" icon_type="1" icon_param="101"/>
+			<param id="2" icon="2000000" sort="2" icon_name="门派技能" icon_type="2" icon_param="SkillWnd"/>
+			<param id="3" icon="2000001" sort="3" icon_name="积分兑换" icon_type="2"/>
+			<param id="4" icon="2000002" sort="4" icon_name="师门称谓" icon_type="2"/>
+			<param id="5" icon="2000003" sort="5" icon_name="门派排名" icon_type="2"/>
+		</npc>
+		<npc npc="2" style="100015" name="首席弟子" dec="菩提本无树，明镜亦非台。">
+			<param id="1" icon="1201001" sort="1" icon_name="70级突破" icon_type="3"/>
+			<param id="2" icon="2000000" sort="2" icon_name="更新状态" icon_type="5"/>
+			<param id="3" icon="2000001" sort="3" icon_name="挑战首席" icon_type="4"/>
+			<param id="4" icon="2000002" sort="4" icon_name="参加竞选" icon_type="2" icon_param="VocationchiefView"/>
+			<param id="5" icon="2000003" sort="5" icon_name="首席投票" icon_type="2" icon_param="ChiefvoteView"/>
+		</npc>
+	</vocation>
+	<vocation profession="31">
+		<npc npc="1" style="100015" name="程咬金6" dec="菩提本无树，明镜亦非台。">
+			<param id="1" icon="1201001" sort="1" icon_name="师门任务" icon_type="1" icon_param="101"/>
+			<param id="2" icon="2000000" sort="2" icon_name="门派技能" icon_type="2" icon_param="SkillWnd"/>
+			<param id="3" icon="2000001" sort="3" icon_name="积分兑换" icon_type="2"/>
+			<param id="4" icon="2000002" sort="4" icon_name="师门称谓" icon_type="2"/>
+			<param id="5" icon="2000003" sort="5" icon_name="门派排名" icon_type="2"/>
+		</npc>
+		<npc npc="2" style="100015" name="首席弟子" dec="菩提本无树，明镜亦非台。">
+			<param id="1" icon="1201001" sort="1" icon_name="70级突破" icon_type="3"/>
+			<param id="2" icon="2000000" sort="2" icon_name="更新状态" icon_type="5"/>
+			<param id="3" icon="2000001" sort="3" icon_name="挑战首席" icon_type="4"/>
+			<param id="4" icon="2000002" sort="4" icon_name="参加竞选" icon_type="2" icon_param="VocationchiefView"/>
+			<param id="5" icon="2000003" sort="5" icon_name="首席投票" icon_type="2" icon_param="ChiefvoteView"/>
+		</npc>
+	</vocation>
+	<!--
+function标签
+    functionid    首席弟子功能开放按钮，对应function.xml 
+    contribution  挑战所需最低历史门贡	玩家门派贡献≥贡献参数才允许挑战
+    opentime	  挑战开始时间	    1,00:00（1是周一、7是周日）
+    endtime       挑战结束时间    
+    signcost      报名消耗门贡	报名所需消耗的门贡
+level玩家等级段标签
+    level         等级范围
+    point         等级段对应首席投票的基础积分
+yuanbao元宝系数标签 置顶消耗元宝数对应附加的积分系数
+    yuanbao       置顶消耗元宝范围
+    xishu         置顶消耗元宝对应的积分获取附加系数
+buff首席获得的buff标签
+    profession	  玩家职业，对应profession.xml
+    buff          对应buff.xml				
+-->
+	<!--功能开放-->
+	<function id="111" contribution="600" opnetime="1,00:00" endtime="7,23:59" signcost="100"/>
+	<!--基础积分-->
+	<level level="1,49" point="2"/>
+	<level level="50,59" point="5"/>
+	<level level="60,69" point="6"/>
+	<level level="70,79" point="7"/>
+	<level level="80,89" point="8"/>
+	<level level="90,99" point="10"/>
+	<level level="100,109" point="12"/>
+	<level level="110,119" point="15"/>
+	<level level="120,129" point="20"/>
+	<!--置顶消耗元宝对应的积分附加系数-->
+	<yuanbao yuanbao="0,0" xishu="0"/>
+	<yuanbao yuanbao="1,99" xishu="1"/>
+	<yuanbao yuanbao="100,499" xishu="2"/>
+	<yuanbao yuanbao="500,999" xishu="3"/>
+	<yuanbao yuanbao="2000,4999" xishu="5"/>
+	<yuanbao yuanbao="5000,999999999" xishu="10"/>
+	<!--不同门派首席获得的对应buff-->
+	<profession profession="10" buff="101"/>
+	<profession profession="11" buff="102"/>
+	<profession profession="20" buff="103"/>
+	<profession profession="21" buff="104"/>
+	<profession profession="30" buff="105"/>
+	<profession profession="31" buff="106"/>
+</root>

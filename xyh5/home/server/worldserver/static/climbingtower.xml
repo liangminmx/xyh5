@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+functionid	雁塔地宫开启ID			
+help	帮助文档			
+type	类型			
+name	类型名称			
+shop	商店面板			
+number	编号			
+monsterid	怪物id			
+avatar	怪物模型			
+monstername	怪物名称			
+battleid	战斗id			
+exp	经验值			
+by	绑元	
+extraitem	额外奖励道具id，不配置代表无额外奖励
+extranum	额外奖励道具数量，与extraitem一一对应，不配置代表无特殊奖励，配置多个代表有多个额外奖励
+itemid	道具，多个道具用“,”隔开			
+num	道具数量，多个道具用“,”隔开			
+bind	是否绑定=1为绑定			
+
+
+
+
+-->
+	<pro functionid="2057" help="哟哟哟"/>
+	<highlayer type="1" name="雁塔地宫">
+		<lowlayer number="1" monsterid="900001001" battleid="900001001" exp="10600000" by="5000">
+			<item itemid="16010001" num="20" bind="1"/>
+		</lowlayer>
+		<lowlayer number="2" monsterid="900002001" battleid="900002001" exp="11660000" by="5000">
+			<item itemid="10000009" num="50" bind="1"/>
+		</lowlayer>
+		<lowlayer number="3" monsterid="900003001" battleid="900003001" exp="12830000" by="5000">
+			<item itemid="10000014" num="1000" bind="1"/>
+		</lowlayer>
+		<lowlayer number="4" monsterid="900004001" battleid="900004001" exp="14110000" by="5000">
+			<item itemid="10000007" num="300" bind="1"/>
+		</lowlayer>
+		<lowlayer number="5" monsterid="900005001" battleid="900005001" exp="15520000" by="5000">
+			<item itemid="10000008" num="200" bind="1"/>
+		</lowlayer>
+		<lowlayer number="6" monsterid="900006001" battleid="900006001" exp="15710000" by="7000">
+			<item itemid="16010001" num="20" bind="1"/>
+		</lowlayer>
+		<lowlayer number="7" monsterid="900007001" battleid="900007001" exp="16960000" by="7000">
+			<item itemid="10000009" num="50" bind="1"/>
+		</lowlayer>
+		<lowlayer number="8" monsterid="900008001" battleid="900008001" exp="18320000" by="7000">
+			<item itemid="10000014" num="1000" bind="1"/>
+		</lowlayer>
+		<lowlayer number="9" monsterid="900009001" battleid="900009001" exp="19790000" by="7000">
+			<item itemid="10000007" num="300" bind="1"/>
+		</lowlayer>
+		<lowlayer number="10" monsterid="900010001" battleid="900010001" exp="21370000" by="7000">
+			<item itemid="10000008" num="200" bind="1"/>
+		</lowlayer>
+		<lowlayer number="11" monsterid="900011001" battleid="900011001" exp="22080000" by="10000">
+			<item itemid="16010001" num="25" bind="1"/>
+		</lowlayer>
+		<lowlayer number="12" monsterid="900012001" battleid="900012001" exp="23400000" by="10000">
+			<item itemid="10000009" num="60" bind="1"/>
+		</lowlayer>
+		<lowlayer number="13" monsterid="900013001" battleid="900013001" exp="24810000" by="10000">
+			<item itemid="10000014" num="1200" bind="1"/>
+		</lowlayer>
+		<lowlayer number="14" monsterid="900014001" battleid="900014001" exp="26300000" by="10000">
+			<item itemid="10000007" num="350" bind="1"/>
+		</lowlayer>
+		<lowlayer number="15" monsterid="900015001" battleid="900015001" exp="27870000" by="10000">
+			<item itemid="10000008" num="250" bind="1"/>
+		</lowlayer>
+		<lowlayer number="16" monsterid="900016001" battleid="900016001" exp="29550000" by="15000">
+			<item itemid="16010001" num="25" bind="1"/>
+		</lowlayer>
+		<lowlayer number="17" monsterid="900017001" battleid="900017001" exp="31320000" by="15000">
+			<item itemid="10000009" num="60" bind="1"/>
+		</lowlayer>
+		<lowlayer number="18" monsterid="900018001" battleid="900018001" exp="33200000" by="15000">
+			<item itemid="10000014" num="1200" bind="1"/>
+		</lowlayer>
+		<lowlayer number="19" monsterid="900019001" battleid="900019001" exp="35190000" by="15000">
+			<item itemid="10000007" num="350" bind="1"/>
+		</lowlayer>
+		<lowlayer number="20" monsterid="900020001" battleid="900020001" exp="37300000" by="15000">
+			<item itemid="10000008" num="250" bind="1"/>
+		</lowlayer>
+		<lowlayer number="21" monsterid="900021001" battleid="900021001" exp="37740000" by="20000">
+			<item itemid="16010001" num="30" bind="1"/>
+		</lowlayer>
+		<lowlayer number="22" monsterid="900022001" battleid="900022001" exp="40010000" by="20000">
+			<item itemid="10000009" num="70" bind="1"/>
+		</lowlayer>
+		<lowlayer number="23" monsterid="900023001" battleid="900023001" exp="42410000" by="20000">
+			<item itemid="10000014" num="1400" bind="1"/>
+		</lowlayer>
+		<lowlayer number="24" monsterid="900024001" battleid="900024001" exp="44950000" by="20000">
+			<item itemid="10000007" num="400" bind="1"/>
+		</lowlayer>
+		<lowlayer number="25" monsterid="900025001" battleid="900025001" exp="47650000" by="20000">
+			<item itemid="10000008" num="300" bind="1"/>
+		</lowlayer>
+		<lowlayer number="26" monsterid="900026001" battleid="900026001" exp="50510000" by="25000">
+			<item itemid="16010001" num="30" bind="1"/>
+		</lowlayer>
+		<lowlayer number="27" monsterid="900027001" battleid="900027001" exp="53540000" by="25000">
+			<item itemid="10000009" num="70" bind="1"/>
+		</lowlayer>
+		<lowlayer number="28" monsterid="900028001" battleid="900028001" exp="56750000" by="25000">
+			<item itemid="10000014" num="1400" bind="1"/>
+		</lowlayer>
+		<lowlayer number="29" monsterid="900029001" battleid="900029001" exp="60160000" by="25000">
+			<item itemid="10000007" num="400" bind="1"/>
+		</lowlayer>
+		<lowlayer number="30" monsterid="900030001" battleid="900030001" exp="63770000" by="25000">
+			<item itemid="10000008" num="300" bind="1"/>
+		</lowlayer>
+		<lowlayer number="31" monsterid="900031001" battleid="900031001" exp="64380000" by="30000">
+			<item itemid="16010001" num="35" bind="1"/>
+		</lowlayer>
+		<lowlayer number="32" monsterid="900032001" battleid="900032001" exp="68240000" by="30000">
+			<item itemid="10000009" num="80" bind="1"/>
+		</lowlayer>
+		<lowlayer number="33" monsterid="900033001" battleid="900033001" exp="72340000" by="30000">
+			<item itemid="10000014" num="1600" bind="1"/>
+		</lowlayer>
+		<lowlayer number="34" monsterid="900034001" battleid="900034001" exp="76680000" by="30000">
+			<item itemid="10000007" num="500" bind="1"/>
+		</lowlayer>
+		<lowlayer number="35" monsterid="900035001" battleid="900035001" exp="81280000" by="30000">
+			<item itemid="10000008" num="350" bind="1"/>
+		</lowlayer>
+		<lowlayer number="36" monsterid="900036001" battleid="900036001" exp="86150000" by="30000">
+			<item itemid="16010001" num="35" bind="1"/>
+		</lowlayer>
+		<lowlayer number="37" monsterid="900037001" battleid="900037001" exp="91320000" by="30000">
+			<item itemid="10000009" num="80" bind="1"/>
+		</lowlayer>
+		<lowlayer number="38" monsterid="900038001" battleid="900038001" exp="96800000" by="30000">
+			<item itemid="10000014" num="1600" bind="1"/>
+		</lowlayer>
+		<lowlayer number="39" monsterid="900039001" battleid="900039001" exp="102610000" by="30000">
+			<item itemid="10000007" num="500" bind="1"/>
+		</lowlayer>
+		<lowlayer number="40" monsterid="900040001" battleid="900040001" exp="108770000" by="30000">
+			<item itemid="10000008" num="350" bind="1"/>
+		</lowlayer>
+		<lowlayer number="41" monsterid="900041001" battleid="900041001" exp="109530000" by="40000">
+			<item itemid="16010001" num="40" bind="1"/>
+		</lowlayer>
+		<lowlayer number="42" monsterid="900042001" battleid="900042001" exp="113910000" by="40000">
+			<item itemid="10000009" num="90" bind="1"/>
+		</lowlayer>
+		<lowlayer number="43" monsterid="900043001" battleid="900043001" exp="118470000" by="40000">
+			<item itemid="10000014" num="1800" bind="1"/>
+		</lowlayer>
+		<lowlayer number="44" monsterid="900044001" battleid="900044001" exp="123210000" by="40000">
+			<item itemid="10000007" num="700" bind="1"/>
+		</lowlayer>
+		<lowlayer number="45" monsterid="900045001" battleid="900045001" exp="128130000" by="40000">
+			<item itemid="10000008" num="400" bind="1"/>
+		</lowlayer>
+		<lowlayer number="46" monsterid="900046001" battleid="900046001" exp="133260000" by="40000">
+			<item itemid="16010001" num="40" bind="1"/>
+		</lowlayer>
+		<lowlayer number="47" monsterid="900047001" battleid="900047001" exp="138590000" by="40000">
+			<item itemid="10000009" num="90" bind="1"/>
+		</lowlayer>
+		<lowlayer number="48" monsterid="900048001" battleid="900048001" exp="144130000" by="40000">
+			<item itemid="10000014" num="1800" bind="1"/>
+		</lowlayer>
+		<lowlayer number="49" monsterid="900049001" battleid="900049001" exp="149900000" by="40000">
+			<item itemid="10000007" num="700" bind="1"/>
+		</lowlayer>
+		<lowlayer number="50" monsterid="900050001" battleid="900050001" exp="155900000" by="40000">
+			<item itemid="10000008" num="400" bind="1"/>
+		</lowlayer>
+		<lowlayer number="51" monsterid="900051001" battleid="900051001" exp="157870000" by="50000">
+			<item itemid="16010001" num="45" bind="1"/>
+		</lowlayer>
+		<lowlayer number="52" monsterid="900052001" battleid="900052001" exp="161020000" by="50000">
+			<item itemid="10000009" num="100" bind="1"/>
+		</lowlayer>
+		<lowlayer number="53" monsterid="900053001" battleid="900053001" exp="164240000" by="50000">
+			<item itemid="10000014" num="2000" bind="1"/>
+		</lowlayer>
+		<lowlayer number="54" monsterid="900054001" battleid="900054001" exp="167530000" by="50000">
+			<item itemid="10000007" num="1000" bind="1"/>
+		</lowlayer>
+		<lowlayer number="55" monsterid="900055001" battleid="900055001" exp="170880000" by="50000">
+			<item itemid="10000008" num="500" bind="1"/>
+		</lowlayer>
+		<lowlayer number="56" monsterid="900056001" battleid="900056001" exp="174300000" by="50000">
+			<item itemid="16010001" num="45" bind="1"/>
+		</lowlayer>
+		<lowlayer number="57" monsterid="900057001" battleid="900057001" exp="177780000" by="50000">
+			<item itemid="10000009" num="100" bind="1"/>
+		</lowlayer>
+		<lowlayer number="58" monsterid="900058001" battleid="900058001" exp="181340000" by="50000">
+			<item itemid="10000014" num="2000" bind="1"/>
+		</lowlayer>
+		<lowlayer number="59" monsterid="900059001" battleid="900059001" exp="184970000" by="50000">
+			<item itemid="10000007" num="1000" bind="1"/>
+		</lowlayer>
+		<lowlayer number="60" monsterid="900060001" battleid="900060001" exp="188660000" by="50000">
+			<item itemid="10000008" num="500" bind="1"/>
+		</lowlayer>
+		<lowlayer number="61" monsterid="900061001" battleid="900061001" exp="192000000" by="60000">
+			<item itemid="16010001" num="50" bind="1"/>
+		</lowlayer>
+		<lowlayer number="62" monsterid="900062001" battleid="900062001" exp="196000000" by="60000">
+			<item itemid="10000009" num="110" bind="1"/>
+		</lowlayer>
+		<lowlayer number="63" monsterid="900063001" battleid="900063001" exp="200000000" by="60000">
+			<item itemid="10000014" num="2200" bind="1"/>
+		</lowlayer>
+		<lowlayer number="64" monsterid="900064001" battleid="900064001" exp="204000000" by="60000">
+			<item itemid="10000007" num="1400" bind="1"/>
+		</lowlayer>
+		<lowlayer number="65" monsterid="900065001" battleid="900065001" exp="208000000" by="60000">
+			<item itemid="10000008" num="600" bind="1"/>
+		</lowlayer>
+		<lowlayer number="66" monsterid="900066001" battleid="900066001" exp="212000000" by="60000">
+			<item itemid="16010001" num="50" bind="1"/>
+		</lowlayer>
+		<lowlayer number="67" monsterid="900067001" battleid="900067001" exp="216000000" by="60000">
+			<item itemid="10000009" num="110" bind="1"/>
+		</lowlayer>
+		<lowlayer number="68" monsterid="900068001" battleid="900068001" exp="220000000" by="60000">
+			<item itemid="10000014" num="2200" bind="1"/>
+		</lowlayer>
+		<lowlayer number="69" monsterid="900069001" battleid="900069001" exp="224000000" by="60000">
+			<item itemid="10000007" num="1400" bind="1"/>
+		</lowlayer>
+		<lowlayer number="70" monsterid="900070001" battleid="900070001" exp="228000000" by="60000">
+			<item itemid="10000008" num="600" bind="1"/>
+		</lowlayer>
+		<lowlayer number="71" monsterid="900071001" battleid="900071001" exp="232000000" by="70000">
+			<item itemid="16010001" num="55" bind="1"/>
+		</lowlayer>
+		<lowlayer number="72" monsterid="900072001" battleid="900072001" exp="236000000" by="70000">
+			<item itemid="10000009" num="120" bind="1"/>
+		</lowlayer>
+		<lowlayer number="73" monsterid="900073001" battleid="900073001" exp="240000000" by="70000">
+			<item itemid="10000014" num="2400" bind="1"/>
+		</lowlayer>
+		<lowlayer number="74" monsterid="900074001" battleid="900074001" exp="244000000" by="70000">
+			<item itemid="10000007" num="2000" bind="1"/>
+		</lowlayer>
+		<lowlayer number="75" monsterid="900075001" battleid="900075001" exp="248000000" by="70000">
+			<item itemid="10000008" num="700" bind="1"/>
+		</lowlayer>
+		<lowlayer number="76" monsterid="900076001" battleid="900076001" exp="252000000" by="70000">
+			<item itemid="16010001" num="55" bind="1"/>
+		</lowlayer>
+		<lowlayer number="77" monsterid="900077001" battleid="900077001" exp="256000000" by="70000">
+			<item itemid="10000009" num="120" bind="1"/>
+		</lowlayer>
+		<lowlayer number="78" monsterid="900078001" battleid="900078001" exp="260000000" by="70000">
+			<item itemid="10000014" num="2400" bind="1"/>
+		</lowlayer>
+		<lowlayer number="79" monsterid="900079001" battleid="900079001" exp="264000000" by="70000">
+			<item itemid="10000007" num="2000" bind="1"/>
+		</lowlayer>
+		<lowlayer number="80" monsterid="900080001" battleid="900080001" exp="268000000" by="70000">
+			<item itemid="10000008" num="700" bind="1"/>
+		</lowlayer>
+		<lowlayer number="81" monsterid="900081001" battleid="900081001" exp="272000000" by="80000">
+			<item itemid="16010001" num="60" bind="1"/>
+		</lowlayer>
+		<lowlayer number="82" monsterid="900082001" battleid="900082001" exp="276000000" by="80000">
+			<item itemid="10000009" num="130" bind="1"/>
+		</lowlayer>
+		<lowlayer number="83" monsterid="900083001" battleid="900083001" exp="280000000" by="80000">
+			<item itemid="10000014" num="2600" bind="1"/>
+		</lowlayer>
+		<lowlayer number="84" monsterid="900084001" battleid="900084001" exp="284000000" by="80000">
+			<item itemid="10000007" num="2800" bind="1"/>
+		</lowlayer>
+		<lowlayer number="85" monsterid="900085001" battleid="900085001" exp="288000000" by="80000">
+			<item itemid="10000008" num="800" bind="1"/>
+		</lowlayer>
+		<lowlayer number="86" monsterid="900086001" battleid="900086001" exp="292000000" by="80000">
+			<item itemid="16010001" num="60" bind="1"/>
+		</lowlayer>
+		<lowlayer number="87" monsterid="900087001" battleid="900087001" exp="296000000" by="80000">
+			<item itemid="10000009" num="130" bind="1"/>
+		</lowlayer>
+		<lowlayer number="88" monsterid="900088001" battleid="900088001" exp="300000000" by="80000">
+			<item itemid="10000014" num="2600" bind="1"/>
+		</lowlayer>
+		<lowlayer number="89" monsterid="900089001" battleid="900089001" exp="304000000" by="80000">
+			<item itemid="10000007" num="2800" bind="1"/>
+		</lowlayer>
+		<lowlayer number="90" monsterid="900090001" battleid="900090001" exp="308000000" by="80000">
+			<item itemid="10000008" num="800" bind="1"/>
+		</lowlayer>
+		<lowlayer number="91" monsterid="900091001" battleid="900091001" exp="312000000" by="90000">
+			<item itemid="16010001" num="65" bind="1"/>
+		</lowlayer>
+		<lowlayer number="92" monsterid="900092001" battleid="900092001" exp="316000000" by="90000">
+			<item itemid="10000009" num="140" bind="1"/>
+		</lowlayer>
+		<lowlayer number="93" monsterid="900093001" battleid="900093001" exp="320000000" by="90000">
+			<item itemid="10000014" num="2800" bind="1"/>
+		</lowlayer>
+		<lowlayer number="94" monsterid="900094001" battleid="900094001" exp="324000000" by="90000">
+			<item itemid="10000007" num="3600" bind="1"/>
+		</lowlayer>
+		<lowlayer number="95" monsterid="900095001" battleid="900095001" exp="328000000" by="90000">
+			<item itemid="10000008" num="900" bind="1"/>
+		</lowlayer>
+		<lowlayer number="96" monsterid="900096001" battleid="900096001" exp="332000000" by="90000">
+			<item itemid="16010001" num="65" bind="1"/>
+		</lowlayer>
+		<lowlayer number="97" monsterid="900097001" battleid="900097001" exp="336000000" by="90000">
+			<item itemid="10000009" num="140" bind="1"/>
+		</lowlayer>
+		<lowlayer number="98" monsterid="900098001" battleid="900098001" exp="340000000" by="90000">
+			<item itemid="10000014" num="2800" bind="1"/>
+		</lowlayer>
+		<lowlayer number="99" monsterid="900099001" battleid="900099001" exp="344000000" by="90000">
+			<item itemid="10000007" num="3600" bind="1"/>
+		</lowlayer>
+		<lowlayer number="100" monsterid="900100001" battleid="900100001" exp="348000000" by="90000">
+			<item itemid="10000008" num="900" bind="1"/>
+		</lowlayer>
+	</highlayer>
+	<highlayer type="2" name="独上凌霄" help="1.独上凌霄共有一百关；\n2.通关每一关后均可以获得丰厚的奖励，同时通关特定关卡后，可以获得额外的奖励；\n3.独上凌霄不会进行刷新，即每一关只能通关并领取奖励一次">
+		<lowlayer number="1" monsterid="910001001" battleid="910001001">
+			<item itemid="16010001" num="20" bind="1"/>
+		</lowlayer>
+		<lowlayer number="2" monsterid="910002001" battleid="910002001">
+			<item itemid="10000009" num="50" bind="1"/>
+		</lowlayer>
+		<lowlayer number="3" monsterid="910003001" battleid="910003001">
+			<item itemid="10000014" num="1000" bind="1"/>
+		</lowlayer>
+		<lowlayer number="4" monsterid="910004001" battleid="910004001">
+			<item itemid="10000007" num="300" bind="1"/>
+		</lowlayer>
+		<lowlayer number="5" monsterid="910005001" battleid="910005001" extraitem="11042014" extranum="10">
+			<item itemid="10000015" num="15"/>
+		</lowlayer>
+		<lowlayer number="6" monsterid="910006001" battleid="910006001">
+			<item itemid="16010001" num="20" bind="1"/>
+		</lowlayer>
+		<lowlayer number="7" monsterid="910007001" battleid="910007001">
+			<item itemid="10000009" num="50" bind="1"/>
+		</lowlayer>
+		<lowlayer number="8" monsterid="910008001" battleid="910008001">
+			<item itemid="10000014" num="1000" bind="1"/>
+		</lowlayer>
+		<lowlayer number="9" monsterid="910009001" battleid="910009001">
+			<item itemid="10000007" num="300" bind="1"/>
+		</lowlayer>
+		<lowlayer number="10" monsterid="910010001" battleid="910010001" extraitem="11042014" extranum="15">
+			<item itemid="10000015" num="15"/>
+		</lowlayer>
+		<lowlayer number="11" monsterid="910011001" battleid="910011001">
+			<item itemid="10000015" num="15"/>
+		</lowlayer>
+		<lowlayer number="12" monsterid="910012001" battleid="910012001">
+			<item itemid="10000015" num="15"/>
+		</lowlayer>
+		<lowlayer number="13" monsterid="910013001" battleid="910013001">
+			<item itemid="10000015" num="15"/>
+		</lowlayer>
+		<lowlayer number="14" monsterid="910014001" battleid="910014001">
+			<item itemid="16010001" num="20" bind="1"/>
+		</lowlayer>
+		<lowlayer number="15" monsterid="910015001" battleid="910015001" extraitem="11042014" extranum="20">
+			<item itemid="10000009" num="50" bind="1"/>
+		</lowlayer>
+		<lowlayer number="16" monsterid="910016001" battleid="910016001">
+			<item itemid="10000014" num="1000" bind="1"/>
+		</lowlayer>
+		<lowlayer number="17" monsterid="910017001" battleid="910017001">
+			<item itemid="10000007" num="300" bind="1"/>
+		</lowlayer>
+		<lowlayer number="18" monsterid="910018001" battleid="910018001">
+			<item itemid="10000015" num="15"/>
+		</lowlayer>
+		<lowlayer number="19" monsterid="910019001" battleid="910019001">
+			<item itemid="16010001" num="20" bind="1"/>
+		</lowlayer>
+		<lowlayer number="20" monsterid="910020001" battleid="910020001" extraitem="11042014" extranum="25">
+			<item itemid="10000009" num="50" bind="1"/>
+		</lowlayer>
+		<lowlayer number="21" monsterid="910021001" battleid="910021001">
+			<item itemid="10000014" num="1000" bind="1"/>
+		</lowlayer>
+		<lowlayer number="22" monsterid="910022001" battleid="910022001">
+			<item itemid="10000007" num="300" bind="1"/>
+		</lowlayer>
+		<lowlayer number="23" monsterid="910023001" battleid="910023001">
+			<item itemid="10000015" num="15"/>
+		</lowlayer>
+		<lowlayer number="24" monsterid="910024001" battleid="910024001">
+			<item itemid="10000015" num="15"/>
+		</lowlayer>
+		<lowlayer number="25" monsterid="910025001" battleid="910025001" extraitem="11042014" extranum="30">
+			<item itemid="10000015" num="15"/>
+		</lowlayer>
+		<lowlayer number="26" monsterid="910026001" battleid="910026001">
+			<item itemid="10000015" num="15"/>
+		</lowlayer>
+		<lowlayer number="27" monsterid="910027001" battleid="910027001">
+			<item itemid="16010001" num="20" bind="1"/>
+		</lowlayer>
+		<lowlayer number="28" monsterid="910028001" battleid="910028001">
+			<item itemid="10000009" num="50" bind="1"/>
+		</lowlayer>
+		<lowlayer number="29" monsterid="910029001" battleid="910029001">
+			<item itemid="10000014" num="1000" bind="1"/>
+		</lowlayer>
+		<lowlayer number="30" monsterid="910030001" battleid="910030001" extraitem="11042014" extranum="35">
+			<item itemid="10000007" num="300" bind="1"/>
+		</lowlayer>
+		<lowlayer number="31" monsterid="910031001" battleid="910031001">
+			<item itemid="10000015" num="15"/>
+		</lowlayer>
+		<lowlayer number="32" monsterid="910032001" battleid="910032001">
+			<item itemid="16010001" num="20" bind="1"/>
+		</lowlayer>
+		<lowlayer number="33" monsterid="910033001" battleid="910033001">
+			<item itemid="10000009" num="50" bind="1"/>
+		</lowlayer>
+		<lowlayer number="34" monsterid="910034001" battleid="910034001">
+			<item itemid="10000014" num="1000" bind="1"/>
+		</lowlayer>
+		<lowlayer number="35" monsterid="910035001" battleid="910035001" extraitem="11042014" extranum="40">
+			<item itemid="10000007" num="300" bind="1"/>
+		</lowlayer>
+		<lowlayer number="36" monsterid="910036001" battleid="910036001">
+			<item itemid="10000015" num="15"/>
+		</lowlayer>
+		<lowlayer number="37" monsterid="910037001" battleid="910037001">
+			<item itemid="10000015" num="15"/>
+		</lowlayer>
+		<lowlayer number="38" monsterid="910038001" battleid="910038001">
+			<item itemid="10000015" num="15"/>
+		</lowlayer>
+		<lowlayer number="39" monsterid="910039001" battleid="910039001">
+			<item itemid="10000015" num="15"/>
+		</lowlayer>
+		<lowlayer number="40" monsterid="910040001" battleid="910040001" extraitem="11042014" extranum="45">
+			<item itemid="16010001" num="20" bind="1"/>
+		</lowlayer>
+		<lowlayer number="41" monsterid="910041001" battleid="910041001">
+			<item itemid="10000009" num="50" bind="1"/>
+		</lowlayer>
+		<lowlayer number="42" monsterid="910042001" battleid="910042001">
+			<item itemid="10000014" num="1000" bind="1"/>
+		</lowlayer>
+		<lowlayer number="43" monsterid="910043001" battleid="910043001">
+			<item itemid="10000007" num="300" bind="1"/>
+		</lowlayer>
+		<lowlayer number="44" monsterid="910044001" battleid="910044001">
+			<item itemid="10000015" num="15"/>
+		</lowlayer>
+		<lowlayer number="45" monsterid="910045001" battleid="910045001" extraitem="11042014" extranum="50">
+			<item itemid="16010001" num="20" bind="1"/>
+		</lowlayer>
+		<lowlayer number="46" monsterid="910046001" battleid="910046001">
+			<item itemid="10000009" num="50" bind="1"/>
+		</lowlayer>
+		<lowlayer number="47" monsterid="910047001" battleid="910047001">
+			<item itemid="10000014" num="1000" bind="1"/>
+		</lowlayer>
+		<lowlayer number="48" monsterid="910048001" battleid="910048001">
+			<item itemid="10000007" num="300" bind="1"/>
+		</lowlayer>
+		<lowlayer number="49" monsterid="910049001" battleid="910049001">
+			<item itemid="10000015" num="15"/>
+		</lowlayer>
+		<lowlayer number="50" monsterid="910050001" battleid="910050001" extraitem="11042014" extranum="55">
+			<item itemid="10000015" num="15"/>
+		</lowlayer>
+		<lowlayer number="51" monsterid="910051001" battleid="910051001">
+			<item itemid="10000015" num="15"/>
+		</lowlayer>
+		<lowlayer number="52" monsterid="910052001" battleid="910052001">
+			<item itemid="10000015" num="15"/>
+		</lowlayer>
+		<lowlayer number="53" monsterid="910053001" battleid="910053001">
+			<item itemid="16010001" num="20" bind="1"/>
+		</lowlayer>
+		<lowlayer number="54" monsterid="910054001" battleid="910054001">
+			<item itemid="10000009" num="50" bind="1"/>
+		</lowlayer>
+		<lowlayer number="55" monsterid="910055001" battleid="910055001" extraitem="11042014" extranum="60">
+			<item itemid="10000014" num="1000" bind="1"/>
+		</lowlayer>
+		<lowlayer number="56" monsterid="910056001" battleid="910056001">
+			<item itemid="10000007" num="300" bind="1"/>
+		</lowlayer>
+		<lowlayer number="57" monsterid="910057001" battleid="910057001">
+			<item itemid="10000015" num="15"/>
+		</lowlayer>
+		<lowlayer number="58" monsterid="910058001" battleid="910058001">
+			<item itemid="16010001" num="20" bind="1"/>
+		</lowlayer>
+		<lowlayer number="59" monsterid="910059001" battleid="910059001">
+			<item itemid="10000009" num="50" bind="1"/>
+		</lowlayer>
+		<lowlayer number="60" monsterid="910060001" battleid="910060001" extraitem="11042014" extranum="65">
+			<item itemid="10000014" num="1000" bind="1"/>
+		</lowlayer>
+		<lowlayer number="61" monsterid="910061001" battleid="910061001">
+			<item itemid="10000007" num="300" bind="1"/>
+		</lowlayer>
+		<lowlayer number="62" monsterid="910062001" battleid="910062001">
+			<item itemid="10000015" num="15"/>
+		</lowlayer>
+		<lowlayer number="63" monsterid="910063001" battleid="910063001">
+			<item itemid="10000015" num="15"/>
+		</lowlayer>
+		<lowlayer number="64" monsterid="910064001" battleid="910064001">
+			<item itemid="10000015" num="15"/>
+		</lowlayer>
+		<lowlayer number="65" monsterid="910065001" battleid="910065001" extraitem="11042014" extranum="70">
+			<item itemid="10000015" num="15"/>
+		</lowlayer>
+		<lowlayer number="66" monsterid="910066001" battleid="910066001">
+			<item itemid="16010001" num="20" bind="1"/>
+		</lowlayer>
+		<lowlayer number="67" monsterid="910067001" battleid="910067001">
+			<item itemid="10000009" num="50" bind="1"/>
+		</lowlayer>
+		<lowlayer number="68" monsterid="910068001" battleid="910068001">
+			<item itemid="10000014" num="1000" bind="1"/>
+		</lowlayer>
+		<lowlayer number="69" monsterid="910069001" battleid="910069001">
+			<item itemid="10000007" num="300" bind="1"/>
+		</lowlayer>
+		<lowlayer number="70" monsterid="910070001" battleid="910070001" extraitem="11042014" extranum="75">
+			<item itemid="10000015" num="15"/>
+		</lowlayer>
+		<lowlayer number="71" monsterid="910071001" battleid="910071001">
+			<item itemid="16010001" num="20" bind="1"/>
+		</lowlayer>
+		<lowlayer number="72" monsterid="910072001" battleid="910072001">
+			<item itemid="10000009" num="50" bind="1"/>
+		</lowlayer>
+		<lowlayer number="73" monsterid="910073001" battleid="910073001">
+			<item itemid="10000014" num="1000" bind="1"/>
+		</lowlayer>
+		<lowlayer number="74" monsterid="910074001" battleid="910074001">
+			<item itemid="10000007" num="300" bind="1"/>
+		</lowlayer>
+		<lowlayer number="75" monsterid="910075001" battleid="910075001" extraitem="11042014" extranum="80">
+			<item itemid="10000015" num="15"/>
+		</lowlayer>
+		<lowlayer number="76" monsterid="910076001" battleid="910076001">
+			<item itemid="10000015" num="15"/>
+		</lowlayer>
+		<lowlayer number="77" monsterid="910077001" battleid="910077001">
+			<item itemid="10000015" num="15"/>
+		</lowlayer>
+		<lowlayer number="78" monsterid="910078001" battleid="910078001">
+			<item itemid="10000015" num="15"/>
+		</lowlayer>
+		<lowlayer number="79" monsterid="910079001" battleid="910079001">
+			<item itemid="16010001" num="20" bind="1"/>
+		</lowlayer>
+		<lowlayer number="80" monsterid="910080001" battleid="910080001" extraitem="11042014" extranum="85">
+			<item itemid="10000009" num="50" bind="1"/>
+		</lowlayer>
+		<lowlayer number="81" monsterid="910081001" battleid="910081001">
+			<item itemid="10000014" num="1000" bind="1"/>
+		</lowlayer>
+		<lowlayer number="82" monsterid="910082001" battleid="910082001">
+			<item itemid="10000007" num="300" bind="1"/>
+		</lowlayer>
+		<lowlayer number="83" monsterid="910083001" battleid="910083001">
+			<item itemid="10000015" num="15"/>
+		</lowlayer>
+		<lowlayer number="84" monsterid="910084001" battleid="910084001">
+			<item itemid="16010001" num="20" bind="1"/>
+		</lowlayer>
+		<lowlayer number="85" monsterid="910085001" battleid="910085001" extraitem="11042014" extranum="90">
+			<item itemid="10000009" num="50" bind="1"/>
+		</lowlayer>
+		<lowlayer number="86" monsterid="910086001" battleid="910086001">
+			<item itemid="10000014" num="1000" bind="1"/>
+		</lowlayer>
+		<lowlayer number="87" monsterid="910087001" battleid="910087001">
+			<item itemid="10000007" num="300" bind="1"/>
+		</lowlayer>
+		<lowlayer number="88" monsterid="910088001" battleid="910088001">
+			<item itemid="10000015" num="15"/>
+		</lowlayer>
+		<lowlayer number="89" monsterid="910089001" battleid="910089001">
+			<item itemid="10000015" num="15"/>
+		</lowlayer>
+		<lowlayer number="90" monsterid="910090001" battleid="910090001" extraitem="11042014" extranum="95">
+			<item itemid="10000015" num="15"/>
+		</lowlayer>
+		<lowlayer number="91" monsterid="910091001" battleid="910091001">
+			<item itemid="10000015" num="15"/>
+		</lowlayer>
+		<lowlayer number="92" monsterid="910092001" battleid="910092001">
+			<item itemid="10000014" num="1000" bind="1"/>
+		</lowlayer>
+		<lowlayer number="93" monsterid="910093001" battleid="910093001">
+			<item itemid="10000007" num="300" bind="1"/>
+		</lowlayer>
+		<lowlayer number="94" monsterid="910094001" battleid="910094001">
+			<item itemid="10000015" num="15"/>
+		</lowlayer>
+		<lowlayer number="95" monsterid="910095001" battleid="910095001" extraitem="11042014" extranum="100">
+			<item itemid="10000014" num="1000" bind="1"/>
+		</lowlayer>
+		<lowlayer number="96" monsterid="910096001" battleid="910096001">
+			<item itemid="10000007" num="300" bind="1"/>
+		</lowlayer>
+		<lowlayer number="97" monsterid="910097001" battleid="910097001">
+			<item itemid="10000015" num="15"/>
+		</lowlayer>
+		<lowlayer number="98" monsterid="910098001" battleid="910098001">
+			<item itemid="10000015" num="15"/>
+		</lowlayer>
+		<lowlayer number="99" monsterid="910099001" battleid="910099001">
+			<item itemid="10000015" num="15"/>
+		</lowlayer>
+		<lowlayer number="100" monsterid="910100001" battleid="910100001" extraitem="11042014" extranum="105">
+			<item itemid="10000015" num="15"/>
+		</lowlayer>
+	</highlayer>
+</root>

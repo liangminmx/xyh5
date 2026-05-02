@@ -1,0 +1,319 @@
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!--id:外形编号
+	type:部位类型
+	{
+		5=武器
+		6=身体
+		8=翅膀
+		9=坐骑前层
+		10=坐骑后层
+	}
+	range=攻击生效距离
+	angle=角度
+	fps=整体速率
+	attackfps=攻击动作播放频率
+	hitfps=受击动作播放速率
+	hitdelay=打击帧延迟
+	modelHeight=血条高度
+	movefps=移动动作播放速率
+	ildefps=待机动作速率
+-->
+<root>
+	<avatar type="6" id="100010_0" range="65" angle="34" attackfps="8" modelHeight="180" hitfps="12">
+		<attackdepth dir="1" frames1="1,2,3,4,7,8" frames2="5,6"/>
+		<attackdepth dir="5" frames1="1,2,7,8" frames2="3,4,5,6"/>
+	</avatar>
+	<avatar type="6" id="100010_10" attackfps="8" hitfps="12" movefps="12"/>
+	<avatar type="6" id="100010_11" attackfps="8" hitfps="12" movefps="12"/>
+	<avatar type="6" id="100010_20" attackfps="8" hitfps="12" movefps="12"/>
+	<avatar type="6" id="100010_21" attackfps="8" hitfps="12" movefps="12"/>
+	<avatar type="6" id="100010_30" attackfps="8" hitfps="12" movefps="12"/>
+	<avatar type="6" id="100010_31" attackfps="8" hitfps="12" movefps="12"/>
+	<avatar type="6" id="500025" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200001" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200002" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200003" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200004" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200005" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200006" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200007" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200008" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200009" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200010" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200011" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200012" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200013" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200014" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200015" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200016" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200017" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200018" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200019" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200020" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200021" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200022" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200023" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200024" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200025" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200026" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200027" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200028" range="90" angle="30" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200029" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200030" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200031" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200032" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200033" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200034" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200035" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200036" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200037" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200038" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200039" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200040" range="111" angle="50" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200041" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200042" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200043" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200044" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200045" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200046" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200047" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200048" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="200049" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300001" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300002" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300003" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300004" range="42" angle="14" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300005" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300006" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300007" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300008" range="101" angle="30" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300009" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300010" range="115" angle="32" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300011" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300012" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300013" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300014" range="129" angle="21" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300015" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300016" range="81" angle="36" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300017" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300018" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300019" range="105" angle="38" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300020" range="137" angle="39" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300021" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300022" range="103" angle="37" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300023" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300024" range="106" angle="39" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300025" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300026" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300027" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300028" range="126" angle="30" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300029" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300030" range="117" angle="36" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300031" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300032" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300033" range="147" angle="36" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300034" range="193" angle="39" attackfps="8" modelHeight="180" hitfps="12" hitdelay="500"/>
+	<avatar type="6" id="300035" range="93" angle="31" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300036" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300037" range="108" angle="37" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300038" range="108" angle="37" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300039" range="108" angle="37" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300040" range="108" angle="37" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300041" range="108" angle="37" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="300042" attackfps="10" hitfps="12"/>
+	<avatar type="6" id="300043" attackfps="10" hitfps="12"/>
+	<avatar type="6" id="300044" attackfps="10" hitfps="12"/>
+	<avatar type="6" id="300048" attackfps="10" hitfps="12"/>
+	<avatar type="6" id="300049" attackfps="10" hitfps="12"/>
+	<avatar type="6" id="300050" attackfps="10" hitfps="12"/>
+	<avatar type="6" id="300054" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="400001" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="400002" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="400003" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="400004" range="113" angle="31" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="400005" range="108" angle="37" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="400006" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="400007" range="113" angle="31" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="400008" range="138" angle="38" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="400009" range="113" angle="31" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="400010" range="234" angle="35" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="400011" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="400012" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="400013" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="400014" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="400015" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="400016" range="203" angle="35" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="400017" range="104" angle="25" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="400018" range="115" angle="37" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="400019" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="400020" range="157" angle="31" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="400021" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="400022" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="400023" range="222" angle="22" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="400024" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="400025" modelHeight="140" hitfps="12" range="85" angle="28" attackfps="8"/>
+	<avatar type="6" id="400026" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="400027" attackfps="8" modelHeight="300" scale="2"/>
+	<avatar type="6" id="500001" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="500002" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="500003" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="500004" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="500005" attackfps="8" hitfps="12"/>
+	<avatar type="6" id="500006" attackfps="8" hitfps="12"/>
+	<avatar type="9" id="100011" scale="1.33"/>
+	<avatar type="9" id="100012" scale="1.33"/>
+	<avatar type="9" id="100013" scale="1.33"/>
+	<avatar type="9" id="100014" scale="1.33"/>
+	<avatar type="9" id="100015" scale="1.33"/>
+	<avatar type="9" id="100016" scale="1.33"/>
+	<avatar type="9" id="100017" scale="1.33"/>
+	<avatar type="9" id="100018" scale="1.33"/>
+	<avatar type="9" id="100019" scale="1.33"/>
+	<avatar type="9" id="100020" scale="1.33"/>
+	<avatar type="9" id="100021" scale="1.33"/>
+	<avatar type="9" id="100022" scale="1.33"/>
+	<avatar type="9" id="100023" scale="1.33"/>
+	<avatar type="10" id="100011" scale="1.33"/>
+	<avatar type="10" id="100012" scale="1.33"/>
+	<avatar type="10" id="100013" scale="1.33"/>
+	<avatar type="10" id="100014" scale="1.33"/>
+	<avatar type="10" id="100015" scale="1.33"/>
+	<avatar type="10" id="100016" scale="1.33"/>
+	<avatar type="10" id="100017" scale="1.33"/>
+	<avatar type="10" id="100018" scale="1.33"/>
+	<avatar type="10" id="100019" scale="1.33"/>
+	<avatar type="10" id="100020" scale="1.33"/>
+	<avatar type="10" id="100021" scale="1.33"/>
+	<avatar type="10" id="100022" scale="1.33"/>
+	<avatar type="10" id="100023" scale="1.33"/>
+	<effect url="effect/skill/200004202_1_b.unit" scale="2"/>
+	<effect url="effect/skill/200004203_1_b.unit" scale="2"/>
+	<effect url="effect/skill/100200303_1_b.unit" scale="2"/>
+	<effect url="effect/skill/100200303_1_f.unit" scale="2"/>
+	<effect url="effect/skill/100300701_1_b.unit" scale="1.25"/>
+	<effect url="effect/skill/100300701_1_f.unit" scale="1.25"/>
+	<effect url="effect/skill/100300701_5_b.unit" scale="1.25"/>
+	<effect url="effect/skill/100300701_5_f.unit" scale="1.25"/>
+	<effect url="effect/skill/200003403_1_b.unit" scale="2"/>
+	<effect url="effect/skill/200003403_1_f.unit" scale="2"/>
+	<effect url="effect/skill/200004303_1_b.unit" scale="2"/>
+	<effect url="effect/skill/200004303_1_f.unit" scale="2"/>
+	<effect url="effect/skill/200002601_1_f.unit" scale="1"/>
+	<effect url="effect/skill/200002601_1_b.unit" scale="1"/>
+	<effect url="effect/skill/200002603_1_f.unit" scale="2"/>
+	<effect url="effect/skill/200004403_1_f.unit" scale="2"/>
+	<effect url="effect/skill/200004403_1_b.unit" scale="2"/>
+	<effect url="effect/skill/200004503_1_f.unit" scale="1.25"/>
+	<effect url="effect/ui/moonbox_1.unit" scale="2"/>
+	<effect url="effect/ui/moonbox_2.unit" scale="2"/>
+	<effect url="effect/skill/1002001_1_b.unit" scale="2"/>
+	<effect url="effect/skill/1002001_1_f.unit" scale="2"/>
+	<effect url="effect/skill/1003001_1_b.unit" scale="1.25"/>
+	<effect url="effect/skill/1003001_1_f.unit" scale="1.25"/>
+	<effect url="effect/skill/1070003_1_f.unit" scale="1.25"/>
+	<effect url="effect/skill/2000047_1_b.unit" scale="2"/>
+	<effect url="effect/skill/2000047_1_f.unit" scale="2"/>
+	<effect url="effect/skill/100100103_1_f.unit" scale="1.25"/>
+	<effect url="effect/skill/100100203_1_f.unit" scale="1.25"/>
+	<effect url="effect/skill/100100303_1_b.unit" scale="3.33"/>
+	<effect url="effect/skill/100100303_1_f.unit" scale="3.33"/>
+	<effect url="effect/skill/100100401_1_f.unit" scale="1.25"/>
+	<effect url="effect/skill/100100501_1_f.unit" scale="1.25"/>
+	<effect url="effect/skill/100200103_1_b.unit" scale="3.33"/>
+	<effect url="effect/skill/100200103_1_f.unit" scale="3.33"/>
+	<effect url="effect/skill/100200401_1_f.unit" scale="1.25"/>
+	<effect url="effect/skill/100200403_1_f.unit" scale="1.25"/>
+	<effect url="effect/skill/100200403_5_f.unit" scale="1.25"/>
+	<effect url="effect/skill/100200501_1_b.unit" scale="1.25"/>
+	<effect url="effect/skill/100200501_1_f.unit" scale="1.25"/>
+	<effect url="effect/skill/100300103_1_b.unit" scale="1.25"/>
+	<effect url="effect/skill/100300103_1_f.unit" scale="1.25"/>
+	<effect url="effect/skill/100300203_1_b.unit" scale="1.25"/>
+	<effect url="effect/skill/100300203_1_f.unit" scale="1.25"/>
+	<effect url="effect/skill/100300303_1_f.unit" scale="2"/>
+	<effect url="effect/skill/100300401_1_b.unit" scale="1.25"/>
+	<effect url="effect/skill/100300401_1_f.unit" scale="1.25"/>
+	<effect url="effect/skill/105000303_1_b.unit" scale="1.25"/>
+	<effect url="effect/skill/105000303_1_f.unit" scale="1.25"/>
+	<effect url="effect/skill/107000103_1_f.unit" scale="2"/>
+	<effect url="effect/skill/107000203_1_b.unit" scale="1.25"/>
+	<effect url="effect/skill/107000203_1_f.unit" scale="1.25"/>
+	<effect url="effect/skill/107000301_1_f.unit" scale="1.25"/>
+	<effect url="effect/skill/109000103_1_f.unit" scale="1.25"/>
+	<effect url="effect/skill/112000101_1_b.unit" scale="1.25"/>
+	<effect url="effect/skill/112000101_1_f.unit" scale="1.25"/>
+	<effect url="effect/skill/112000103_1_f.unit" scale="1.25"/>
+	<effect url="effect/skill/130000103_1_b.unit" scale="1.25"/>
+	<effect url="effect/skill/130000103_1_f.unit" scale="1.25"/>
+	<effect url="effect/skill/130000103_5_b.unit" scale="1.25"/>
+	<effect url="effect/skill/130000103_5_f.unit" scale="1.25"/>
+	<effect url="effect/skill/200002303_1_b.unit" scale="1.25"/>
+	<effect url="effect/skill/200002303_1_f.unit" scale="1.25"/>
+	<effect url="effect/skill/200002403_1_f.unit" scale="2"/>
+	<effect url="effect/skill/200002501_1_b.unit" scale="2"/>
+	<effect url="effect/skill/200002501_1_f.unit" scale="2"/>
+	<effect url="effect/skill/200002503_1_f.unit" scale="2"/>
+	<effect url="effect/skill/200002503_5_f.unit" scale="2"/>
+	<effect url="effect/skill/200002703_1_f.unit" scale="1.25"/>
+	<effect url="effect/skill/200002801_1_f.unit" scale="2"/>
+	<effect url="effect/skill/200002801_5_f.unit" scale="2"/>
+	<effect url="effect/skill/200002901_1_b.unit" scale="1.25"/>
+	<effect url="effect/skill/200002901_1_f.unit" scale="1.25"/>
+	<effect url="effect/skill/200002903_1_b.unit" scale="1.25"/>
+	<effect url="effect/skill/200002903_1_f.unit" scale="1.25"/>
+	<effect url="effect/skill/200003001_1_f.unit" scale="1.25"/>
+	<effect url="effect/skill/200003003_1_f.unit" scale="1.25"/>
+	<effect url="effect/skill/200003101_1_b.unit" scale="1.25"/>
+	<effect url="effect/skill/200003101_1_f.unit" scale="1.25"/>
+	<effect url="effect/skill/200003103_1_f.unit" scale="1.25"/>
+	<effect url="effect/skill/200003303_1_f.unit" scale="1.25"/>
+	<effect url="effect/skill/200003801_1_f.unit" scale="2"/>
+	<effect url="effect/skill/200003801_1_b.unit" scale="2"/>
+	<effect url="effect/skill/2000038_1_f.unit" scale="2"/>
+	<effect url="effect/skill/2000038_1_b.unit" scale="2"/>
+	<effect url="effect/skill/200003903_1_b.unit" scale="1.25"/>
+	<effect url="effect/skill/200003903_1_f.unit" scale="1.25"/>
+	<effect url="effect/skill/200004003_1_b.unit" scale="2"/>
+	<effect url="effect/skill/200004003_1_f.unit" scale="2"/>
+	<effect url="effect/skill/200004103_1_b.unit" scale="1.25"/>
+	<effect url="effect/skill/200004103_1_f.unit" scale="1.25"/>
+	<effect url="effect/skill/200004202_1_f.unit" scale="2"/>
+	<effect url="effect/skill/200004603_1_f.unit" scale="2"/>
+	<effect url="effect/skill/200004701_1_b.unit" scale="2"/>
+	<effect url="effect/skill/200004701_1_f.unit" scale="2"/>
+	<effect url="effect/skill/1003005_1_f.unit" scale="1.25"/>
+	<effect url="effect/ui/zhuazi.unit" scale="2"/>
+	<effect url="effect/ui/wawaji_1.unit" scale="2"/>
+	<effect url="effect/ui/wawaji_2.unit" scale="2"/>
+	<effect url="effect/ui/moonbox_2.unit" fps="8" totalframe="12"/>
+	<effect url="effect/ui/zhaomu_1.unit" scale="4"/>
+	<effect url="effect/ui/zhaomu_2.unit" scale="4"/>
+	<effect url="effect/ui/zhaomu_3.unit" scale="4"/>
+	<effect url="effect/ui/item_quality_3.unit" scale="2"/>
+	<effect url="effect/ui/item_quality_4.unit" scale="2"/>
+	<effect url="effect/ui/item_quality_5.unit" scale="2"/>
+	<effect url="effect/ui/boss_in_coming.unit" scale="2"/>
+	<effect url="entity/xianwei/100010.unit" scale="1" modelHeight="40"/>
+	<effect url="entity/xianwei/100011.unit" scale="1" modelHeight="40"/>
+	<effect url="entity/xianwei/100012.unit" scale="1" modelHeight="40"/>
+	<effect url="entity/xianwei/100013.unit" scale="1" modelHeight="40"/>
+	<effect url="entity/xianwei/100014.unit" scale="1" modelHeight="40"/>
+	<effect url="entity/xianwei/100015.unit" scale="1" modelHeight="40"/>
+	<effect url="entity/xianwei/100016.unit" scale="1" modelHeight="40"/>
+	<effect url="entity/xianwei/100017.unit" scale="1" modelHeight="40"/>
+	<effect url="entity/xianwei/100018.unit" scale="1" modelHeight="40"/>
+	<effect url="entity/xianwei/100019.unit" scale="1" modelHeight="40"/>
+	<effect url="effect/ui/pet_up_tips.unit" scale="2"/>
+	<effect url="effect/skill/body_vertigo_1_b.unit" scale="2"/>
+	<effect url="effect/skill/body_vertigo_1_f.unit" scale="2"/>
+	<effect url="effect/ui/level_up.unit" scale="2"/>
+	<effect url="effect/ui/jinjie_up.unit" scale="2"/>
+	<effect url="effect/ui/main_quest.unit" scale="2"/>
+	<effect url="effect/ui/ronglianchenggong.unit" scale="2"/>
+	<effect url="effect/ui/shengji_up.unit" scale="2"/>
+	<effect url="effect/ui/shengjie_up.unit" scale="2"/>
+	<effect url="effect/skill/monster_born_1_f.unit" scale="2"/>
+	<effect url="effect/skill/head_xuanyun_1_f.unit" scale="2"/>
+	<effect url="effect/ui/zhaomu_frame_cheng.unit" scale="2"/>
+	<effect url="effect/ui/zhuangbei_cell.unit" scale="2"/>
+</root>

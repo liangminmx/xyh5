@@ -1,0 +1,54 @@
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<group id="1">
+		<item path="res/avatar/entity/fabao/">
+			<file name="100010.unit"/>
+		</item>
+		<item path="res/avatar/entity/body/">
+			<entity name="300004"/>
+			<entity name="200028"/>
+			<entity name="200046"/>
+			<entity name="200027"/>
+			<entity name="200031"/>
+			<entity name="400023"/>
+			<entity name="300005"/>
+			<entity name="300034"/>
+			<entity name="300022"/>
+			<entity name="300033"/>
+			<entity name="300009"/>
+			<entity name="300012"/>
+			<entity name="300020"/>
+		</item>
+		<item path="res/avatar/effect/skill/">
+			<file name="100100101_1_f.unit"/>
+			<file name="100100103_1_f.unit"/>
+			<file name="100100203_1_f.unit"/>
+			<file name="100100501_1_f.unit"/>
+			<file name="100100303_1_f.unit"/>
+			<file name="100100303_1_b.unit"/>
+			<file name="100200101_1_f.unit"/>
+			<file name="100200103_1_f.unit"/>
+			<file name="100200103_1_b.unit"/>
+			<file name="100200203_1_f.unit"/>
+			<file name="100200203_1_b.unit"/>
+			<file name="100200501_1_f.unit"/>
+			<file name="100200303_1_f.unit"/>
+			<file name="100200303_1_b.unit"/>
+			<file name="200003303_1_f.unit"/>
+			<file name="107000203_1_f.unit"/>
+			<file name="107000203_1_b.unit"/>
+			<file name="107000103_1_f.unit"/>
+			<file name="100300701_1_f.unit"/>
+			<file name="100300103_1_f.unit"/>
+			<file name="100300103_1_b.unit"/>
+			<file name="100300203_1_f.unit"/>
+			<file name="100300203_1_b.unit"/>
+			<file name="200004503_1_f.unit"/>
+			<file name="200002801_1_f.unit"/>
+			<file name="200002801_1_b.unit"/>
+			<file name="200002303_1_f.unit"/>
+			<file name="200002303_1_b.unit"/>
+			<file name="200002603_1_f.unit"/>
+		</item>
+	</group>
+</root>

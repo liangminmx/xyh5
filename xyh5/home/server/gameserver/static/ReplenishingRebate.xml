@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!--
+serverNum	合服次数
+=-1默认状态
+=0新服的活动数据
+=1合服1次的活动数据
+=2合服2次的活动数据
+……
+FunctionId	功能Id
+id	奖励编号
+CumulativeDays	需要的累计充值天数
+des	文本显示
+RechargeAmount	充值金额(RMB)
+RechargeId	关联recharge.xml中的no编号
+RebateEmoney	获得的元宝奖励,支持配置多个
+RebateEmoney=1000,1000,1000
+-->
+<root>
+	<function FunctionId="6680"/>
+	<AchieveConditions id="1" CumulativeDays="1" des="累计充值1天" RechargeAmount="10" RechargeId="42" RebateEmoney="200,200,200"/>
+	<AchieveConditions id="2" CumulativeDays="2" des="累计充值2天" RechargeAmount="10" RechargeId="42" RebateEmoney="888,888,888"/>
+	<AchieveConditions id="3" CumulativeDays="3" des="累计充值3天" RechargeAmount="10" RechargeId="42" RebateEmoney="200,200,200"/>
+	<AchieveConditions id="4" CumulativeDays="4" des="累计充值4天" RechargeAmount="10" RechargeId="42" RebateEmoney="200,200,200"/>
+	<AchieveConditions id="5" CumulativeDays="5" des="累计充值5天" RechargeAmount="10" RechargeId="42" RebateEmoney="888,888,888"/>
+	<AchieveConditions id="6" CumulativeDays="6" des="累计充值6天" RechargeAmount="10" RechargeId="42" RebateEmoney="200,200,200"/>
+	<AchieveConditions id="7" CumulativeDays="7" des="累计充值7天" RechargeAmount="10" RechargeId="42" RebateEmoney="200,200,200"/>
+	<AchieveConditions id="8" CumulativeDays="8" des="累计充值8天" RechargeAmount="10" RechargeId="42" RebateEmoney="1288,1288,1288"/>
+	<AchieveConditions id="9" CumulativeDays="9" des="累计充值9天" RechargeAmount="10" RechargeId="42" RebateEmoney="200,200,200"/>
+	<AchieveConditions id="10" CumulativeDays="10" des="累计充值10天" RechargeAmount="10" RechargeId="42" RebateEmoney="200,200,200"/>
+	<AchieveConditions id="11" CumulativeDays="11" des="累计充值11天" RechargeAmount="10" RechargeId="42" RebateEmoney="200,200,200"/>
+	<AchieveConditions id="12" CumulativeDays="12" des="累计充值12天" RechargeAmount="10" RechargeId="42" RebateEmoney="1666,1666,1666"/>
+	<AchieveConditions id="13" CumulativeDays="13" des="累计充值13天" RechargeAmount="10" RechargeId="42" RebateEmoney="288,288,288"/>
+	<AchieveConditions id="14" CumulativeDays="14" des="累计充值14天" RechargeAmount="10" RechargeId="42" RebateEmoney="288,288,288"/>
+	<AchieveConditions id="15" CumulativeDays="15" des="累计充值15天" RechargeAmount="10" RechargeId="42" RebateEmoney="288,288,288"/>
+	<AchieveConditions id="16" CumulativeDays="16" des="累计充值16天" RechargeAmount="10" RechargeId="42" RebateEmoney="1888,1888,1888"/>
+	<AchieveConditions id="17" CumulativeDays="17" des="累计充值17天" RechargeAmount="10" RechargeId="42" RebateEmoney="288,288,288"/>
+	<AchieveConditions id="18" CumulativeDays="18" des="累计充值18天" RechargeAmount="10" RechargeId="42" RebateEmoney="288,288,288"/>
+	<AchieveConditions id="19" CumulativeDays="19" des="累计充值19天" RechargeAmount="10" RechargeId="42" RebateEmoney="288,288,288"/>
+	<AchieveConditions id="20" CumulativeDays="20" des="累计充值20天" RechargeAmount="10" RechargeId="42" RebateEmoney="2288,2288,2288"/>
+	<AchieveConditions id="21" CumulativeDays="21" des="累计充值21天" RechargeAmount="10" RechargeId="42" RebateEmoney="288,288,288"/>
+	<AchieveConditions id="22" CumulativeDays="22" des="累计充值22天" RechargeAmount="10" RechargeId="42" RebateEmoney="288,288,288"/>
+	<AchieveConditions id="23" CumulativeDays="23" des="累计充值23天" RechargeAmount="10" RechargeId="42" RebateEmoney="288,288,288"/>
+	<AchieveConditions id="24" CumulativeDays="24" des="累计充值24天" RechargeAmount="10" RechargeId="42" RebateEmoney="288,288,288"/>
+	<AchieveConditions id="25" CumulativeDays="25" des="累计充值25天" RechargeAmount="20" RechargeId="43" RebateEmoney="2888,2888,2888"/>
+	<AchieveConditions id="26" CumulativeDays="26" des="累计充值26天" RechargeAmount="20" RechargeId="43" RebateEmoney="588,588,588"/>
+	<AchieveConditions id="27" CumulativeDays="27" des="累计充值27天" RechargeAmount="20" RechargeId="43" RebateEmoney="588,588,588"/>
+	<AchieveConditions id="28" CumulativeDays="28" des="累计充值28天" RechargeAmount="20" RechargeId="43" RebateEmoney="588,588,588"/>
+	<AchieveConditions id="29" CumulativeDays="29" des="累计充值29天" RechargeAmount="20" RechargeId="43" RebateEmoney="588,588,588"/>
+	<AchieveConditions id="30" CumulativeDays="30" des="累计充值30天" RechargeAmount="50" RechargeId="44" RebateEmoney="18888,18888,18888"/>
+</root>

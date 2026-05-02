@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<root>
+	<!--
+lv	伙伴等级
+exp	升级所需经验
+attack_coe	攻击系数，万分比
+hit_coe	命中系数，万分比
+cirt_coe	暴击系数，万分比
+defence_coe	防御系数，万分比
+max_hp_coe	气血系数，万分比
+dodge_coe	闪避系数，万分比
+toughness_coe	韧性系数，万分比
+exp_coe	单位经验，万分比
+money	购买一个单位经验百分比所需银两
+gold	购买一个单位经验百分比所需元宝
+id	阵法id
+seatid	阵位id
+realm	开启所需人物大境界等级
+attack _coe	攻击系数,万分比
+hit_coe	命中系数，万分比
+cirt_coe	暴击系数，万分比
+defence_coe	防御系数，万分比
+max_hp_coe	气血系数，万分比
+dodge_coe	闪避系数，万分比
+toughness_coe	韧性系数，万分比
+
+
+-->
+	<max maxlev="150"/>
+	<level lv="1" exp="100" attack_coe="30" hit_coe="30" crit_coe="30" defence_coe="30" max_hp_coe="30" dodge_coe="30" toughness_coe="30" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="2" exp="239" attack_coe="40" hit_coe="40" crit_coe="40" defence_coe="40" max_hp_coe="40" dodge_coe="40" toughness_coe="40" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="3" exp="298" attack_coe="50" hit_coe="50" crit_coe="50" defence_coe="50" max_hp_coe="50" dodge_coe="50" toughness_coe="50" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="4" exp="373" attack_coe="60" hit_coe="60" crit_coe="60" defence_coe="60" max_hp_coe="60" dodge_coe="60" toughness_coe="60" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="5" exp="466" attack_coe="70" hit_coe="70" crit_coe="70" defence_coe="70" max_hp_coe="70" dodge_coe="70" toughness_coe="70" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="6" exp="582" attack_coe="80" hit_coe="80" crit_coe="80" defence_coe="80" max_hp_coe="80" dodge_coe="80" toughness_coe="80" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="7" exp="728" attack_coe="90" hit_coe="90" crit_coe="90" defence_coe="90" max_hp_coe="90" dodge_coe="90" toughness_coe="90" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="8" exp="910" attack_coe="100" hit_coe="100" crit_coe="100" defence_coe="100" max_hp_coe="100" dodge_coe="100" toughness_coe="100" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="9" exp="1138" attack_coe="110" hit_coe="110" crit_coe="110" defence_coe="110" max_hp_coe="110" dodge_coe="110" toughness_coe="110" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="10" exp="1422" attack_coe="120" hit_coe="120" crit_coe="120" defence_coe="120" max_hp_coe="120" dodge_coe="120" toughness_coe="120" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="11" exp="1777" attack_coe="134" hit_coe="134" crit_coe="134" defence_coe="134" max_hp_coe="134" dodge_coe="134" toughness_coe="134" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="12" exp="2222" attack_coe="149" hit_coe="149" crit_coe="149" defence_coe="149" max_hp_coe="149" dodge_coe="149" toughness_coe="149" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="13" exp="2777" attack_coe="163" hit_coe="163" crit_coe="163" defence_coe="163" max_hp_coe="163" dodge_coe="163" toughness_coe="163" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="14" exp="3471" attack_coe="177" hit_coe="177" crit_coe="177" defence_coe="177" max_hp_coe="177" dodge_coe="177" toughness_coe="177" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="15" exp="4339" attack_coe="192" hit_coe="192" crit_coe="192" defence_coe="192" max_hp_coe="192" dodge_coe="192" toughness_coe="192" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="16" exp="5424" attack_coe="206" hit_coe="206" crit_coe="206" defence_coe="206" max_hp_coe="206" dodge_coe="206" toughness_coe="206" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="17" exp="6026" attack_coe="220" hit_coe="220" crit_coe="220" defence_coe="220" max_hp_coe="220" dodge_coe="220" toughness_coe="220" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="18" exp="7533" attack_coe="234" hit_coe="234" crit_coe="234" defence_coe="234" max_hp_coe="234" dodge_coe="234" toughness_coe="234" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="19" exp="9416" attack_coe="249" hit_coe="249" crit_coe="249" defence_coe="249" max_hp_coe="249" dodge_coe="249" toughness_coe="249" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="20" exp="11770" attack_coe="263" hit_coe="263" crit_coe="263" defence_coe="263" max_hp_coe="263" dodge_coe="263" toughness_coe="263" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="21" exp="14713" attack_coe="282" hit_coe="282" crit_coe="282" defence_coe="282" max_hp_coe="282" dodge_coe="282" toughness_coe="282" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="22" exp="18391" attack_coe="300" hit_coe="300" crit_coe="300" defence_coe="300" max_hp_coe="300" dodge_coe="300" toughness_coe="300" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="23" exp="34484" attack_coe="319" hit_coe="319" crit_coe="319" defence_coe="319" max_hp_coe="319" dodge_coe="319" toughness_coe="319" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="24" exp="43105" attack_coe="337" hit_coe="337" crit_coe="337" defence_coe="337" max_hp_coe="337" dodge_coe="337" toughness_coe="337" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="25" exp="53881" attack_coe="356" hit_coe="356" crit_coe="356" defence_coe="356" max_hp_coe="356" dodge_coe="356" toughness_coe="356" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="26" exp="67351" attack_coe="375" hit_coe="375" crit_coe="375" defence_coe="375" max_hp_coe="375" dodge_coe="375" toughness_coe="375" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="27" exp="84189" attack_coe="393" hit_coe="393" crit_coe="393" defence_coe="393" max_hp_coe="393" dodge_coe="393" toughness_coe="393" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="28" exp="105236" attack_coe="412" hit_coe="412" crit_coe="412" defence_coe="412" max_hp_coe="412" dodge_coe="412" toughness_coe="412" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="29" exp="131545" attack_coe="430" hit_coe="430" crit_coe="430" defence_coe="430" max_hp_coe="430" dodge_coe="430" toughness_coe="430" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="30" exp="164432" attack_coe="449" hit_coe="449" crit_coe="449" defence_coe="449" max_hp_coe="449" dodge_coe="449" toughness_coe="449" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="31" exp="205540" attack_coe="472" hit_coe="472" crit_coe="472" defence_coe="472" max_hp_coe="472" dodge_coe="472" toughness_coe="472" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="32" exp="256924" attack_coe="495" hit_coe="495" crit_coe="495" defence_coe="495" max_hp_coe="495" dodge_coe="495" toughness_coe="495" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="33" exp="302264" attack_coe="518" hit_coe="518" crit_coe="518" defence_coe="518" max_hp_coe="518" dodge_coe="518" toughness_coe="518" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="34" exp="355605" attack_coe="541" hit_coe="541" crit_coe="541" defence_coe="541" max_hp_coe="541" dodge_coe="541" toughness_coe="541" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="35" exp="418358" attack_coe="564" hit_coe="564" crit_coe="564" defence_coe="564" max_hp_coe="564" dodge_coe="564" toughness_coe="564" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="36" exp="492186" attack_coe="586" hit_coe="586" crit_coe="586" defence_coe="586" max_hp_coe="586" dodge_coe="586" toughness_coe="586" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="37" exp="579043" attack_coe="609" hit_coe="609" crit_coe="609" defence_coe="609" max_hp_coe="609" dodge_coe="609" toughness_coe="609" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="38" exp="681227" attack_coe="632" hit_coe="632" crit_coe="632" defence_coe="632" max_hp_coe="632" dodge_coe="632" toughness_coe="632" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="39" exp="801443" attack_coe="655" hit_coe="655" crit_coe="655" defence_coe="655" max_hp_coe="655" dodge_coe="655" toughness_coe="655" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="40" exp="942874" attack_coe="678" hit_coe="678" crit_coe="678" defence_coe="678" max_hp_coe="678" dodge_coe="678" toughness_coe="678" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="41" exp="1109264" attack_coe="705" hit_coe="705" crit_coe="705" defence_coe="705" max_hp_coe="705" dodge_coe="705" toughness_coe="705" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="42" exp="2088025" attack_coe="732" hit_coe="732" crit_coe="732" defence_coe="732" max_hp_coe="732" dodge_coe="732" toughness_coe="732" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="43" exp="2456500" attack_coe="760" hit_coe="760" crit_coe="760" defence_coe="760" max_hp_coe="760" dodge_coe="760" toughness_coe="760" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="44" exp="2890000" attack_coe="787" hit_coe="787" crit_coe="787" defence_coe="787" max_hp_coe="787" dodge_coe="787" toughness_coe="787" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="45" exp="3400000" attack_coe="814" hit_coe="814" crit_coe="814" defence_coe="814" max_hp_coe="814" dodge_coe="814" toughness_coe="814" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="46" exp="4000000" attack_coe="841" hit_coe="841" crit_coe="841" defence_coe="841" max_hp_coe="841" dodge_coe="841" toughness_coe="841" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="47" exp="4160000" attack_coe="868" hit_coe="868" crit_coe="868" defence_coe="868" max_hp_coe="868" dodge_coe="868" toughness_coe="868" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="48" exp="4326400" attack_coe="896" hit_coe="896" crit_coe="896" defence_coe="896" max_hp_coe="896" dodge_coe="896" toughness_coe="896" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="49" exp="4499456" attack_coe="923" hit_coe="923" crit_coe="923" defence_coe="923" max_hp_coe="923" dodge_coe="923" toughness_coe="923" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="50" exp="4701931" attack_coe="950" hit_coe="950" crit_coe="950" defence_coe="950" max_hp_coe="950" dodge_coe="950" toughness_coe="950" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="51" exp="4899412" attack_coe="982" hit_coe="982" crit_coe="982" defence_coe="982" max_hp_coe="982" dodge_coe="982" toughness_coe="982" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="52" exp="5105187" attack_coe="1013" hit_coe="1013" crit_coe="1013" defence_coe="1013" max_hp_coe="1013" dodge_coe="1013" toughness_coe="1013" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="53" exp="5319605" attack_coe="1045" hit_coe="1045" crit_coe="1045" defence_coe="1045" max_hp_coe="1045" dodge_coe="1045" toughness_coe="1045" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="54" exp="5543028" attack_coe="1076" hit_coe="1076" crit_coe="1076" defence_coe="1076" max_hp_coe="1076" dodge_coe="1076" toughness_coe="1076" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="55" exp="5775835" attack_coe="1108" hit_coe="1108" crit_coe="1108" defence_coe="1108" max_hp_coe="1108" dodge_coe="1108" toughness_coe="1108" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="56" exp="6018420" attack_coe="1139" hit_coe="1139" crit_coe="1139" defence_coe="1139" max_hp_coe="1139" dodge_coe="1139" toughness_coe="1139" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="57" exp="6271193" attack_coe="1171" hit_coe="1171" crit_coe="1171" defence_coe="1171" max_hp_coe="1171" dodge_coe="1171" toughness_coe="1171" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="58" exp="6534583" attack_coe="1202" hit_coe="1202" crit_coe="1202" defence_coe="1202" max_hp_coe="1202" dodge_coe="1202" toughness_coe="1202" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="59" exp="6809036" attack_coe="1234" hit_coe="1234" crit_coe="1234" defence_coe="1234" max_hp_coe="1234" dodge_coe="1234" toughness_coe="1234" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="60" exp="7129060" attack_coe="1265" hit_coe="1265" crit_coe="1265" defence_coe="1265" max_hp_coe="1265" dodge_coe="1265" toughness_coe="1265" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="61" exp="7435609" attack_coe="1301" hit_coe="1301" crit_coe="1301" defence_coe="1301" max_hp_coe="1301" dodge_coe="1301" toughness_coe="1301" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="62" exp="8724758" attack_coe="1337" hit_coe="1337" crit_coe="1337" defence_coe="1337" max_hp_coe="1337" dodge_coe="1337" toughness_coe="1337" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="63" exp="9099922" attack_coe="1372" hit_coe="1372" crit_coe="1372" defence_coe="1372" max_hp_coe="1372" dodge_coe="1372" toughness_coe="1372" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="64" exp="9491219" attack_coe="1408" hit_coe="1408" crit_coe="1408" defence_coe="1408" max_hp_coe="1408" dodge_coe="1408" toughness_coe="1408" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="65" exp="9899341" attack_coe="1444" hit_coe="1444" crit_coe="1444" defence_coe="1444" max_hp_coe="1444" dodge_coe="1444" toughness_coe="1444" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="66" exp="10325012" attack_coe="1480" hit_coe="1480" crit_coe="1480" defence_coe="1480" max_hp_coe="1480" dodge_coe="1480" toughness_coe="1480" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="67" exp="10768988" attack_coe="1516" hit_coe="1516" crit_coe="1516" defence_coe="1516" max_hp_coe="1516" dodge_coe="1516" toughness_coe="1516" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="68" exp="11232054" attack_coe="1551" hit_coe="1551" crit_coe="1551" defence_coe="1551" max_hp_coe="1551" dodge_coe="1551" toughness_coe="1551" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="69" exp="11715032" attack_coe="1587" hit_coe="1587" crit_coe="1587" defence_coe="1587" max_hp_coe="1587" dodge_coe="1587" toughness_coe="1587" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="70" exp="12277354" attack_coe="1623" hit_coe="1623" crit_coe="1623" defence_coe="1623" max_hp_coe="1623" dodge_coe="1623" toughness_coe="1623" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="71" exp="12817557" attack_coe="1663" hit_coe="1663" crit_coe="1663" defence_coe="1663" max_hp_coe="1663" dodge_coe="1663" toughness_coe="1663" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="72" exp="13381529" attack_coe="1703" hit_coe="1703" crit_coe="1703" defence_coe="1703" max_hp_coe="1703" dodge_coe="1703" toughness_coe="1703" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="73" exp="13970317" attack_coe="1743" hit_coe="1743" crit_coe="1743" defence_coe="1743" max_hp_coe="1743" dodge_coe="1743" toughness_coe="1743" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="74" exp="14585010" attack_coe="1783" hit_coe="1783" crit_coe="1783" defence_coe="1783" max_hp_coe="1783" dodge_coe="1783" toughness_coe="1783" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="75" exp="15226750" attack_coe="1824" hit_coe="1824" crit_coe="1824" defence_coe="1824" max_hp_coe="1824" dodge_coe="1824" toughness_coe="1824" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="76" exp="15896727" attack_coe="1864" hit_coe="1864" crit_coe="1864" defence_coe="1864" max_hp_coe="1864" dodge_coe="1864" toughness_coe="1864" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="77" exp="16596183" attack_coe="1904" hit_coe="1904" crit_coe="1904" defence_coe="1904" max_hp_coe="1904" dodge_coe="1904" toughness_coe="1904" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="78" exp="17326414" attack_coe="1944" hit_coe="1944" crit_coe="1944" defence_coe="1944" max_hp_coe="1944" dodge_coe="1944" toughness_coe="1944" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="79" exp="18088776" attack_coe="1984" hit_coe="1984" crit_coe="1984" defence_coe="1984" max_hp_coe="1984" dodge_coe="1984" toughness_coe="1984" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="80" exp="18975126" attack_coe="2024" hit_coe="2024" crit_coe="2024" defence_coe="2024" max_hp_coe="2024" dodge_coe="2024" toughness_coe="2024" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="81" exp="19829007" attack_coe="2068" hit_coe="2068" crit_coe="2068" defence_coe="2068" max_hp_coe="2068" dodge_coe="2068" toughness_coe="2068" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="82" exp="20260838" attack_coe="2113" hit_coe="2113" crit_coe="2113" defence_coe="2113" max_hp_coe="2113" dodge_coe="2113" toughness_coe="2113" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="83" exp="20691381" attack_coe="2157" hit_coe="2157" crit_coe="2157" defence_coe="2157" max_hp_coe="2157" dodge_coe="2157" toughness_coe="2157" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="84" exp="21119644" attack_coe="2202" hit_coe="2202" crit_coe="2202" defence_coe="2202" max_hp_coe="2202" dodge_coe="2202" toughness_coe="2202" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="85" exp="21544551" attack_coe="2246" hit_coe="2246" crit_coe="2246" defence_coe="2246" max_hp_coe="2246" dodge_coe="2246" toughness_coe="2246" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="86" exp="21964932" attack_coe="2290" hit_coe="2290" crit_coe="2290" defence_coe="2290" max_hp_coe="2290" dodge_coe="2290" toughness_coe="2290" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="87" exp="22379520" attack_coe="2335" hit_coe="2335" crit_coe="2335" defence_coe="2335" max_hp_coe="2335" dodge_coe="2335" toughness_coe="2335" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="88" exp="22786942" attack_coe="2379" hit_coe="2379" crit_coe="2379" defence_coe="2379" max_hp_coe="2379" dodge_coe="2379" toughness_coe="2379" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="89" exp="23185713" attack_coe="2424" hit_coe="2424" crit_coe="2424" defence_coe="2424" max_hp_coe="2424" dodge_coe="2424" toughness_coe="2424" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="90" exp="23687026" attack_coe="2468" hit_coe="2468" crit_coe="2468" defence_coe="2468" max_hp_coe="2468" dodge_coe="2468" toughness_coe="2468" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="91" exp="24111418" attack_coe="2517" hit_coe="2517" crit_coe="2517" defence_coe="2517" max_hp_coe="2517" dodge_coe="2517" toughness_coe="2517" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="92" exp="24523379" attack_coe="2565" hit_coe="2565" crit_coe="2565" defence_coe="2565" max_hp_coe="2565" dodge_coe="2565" toughness_coe="2565" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="93" exp="24920802" attack_coe="2614" hit_coe="2614" crit_coe="2614" defence_coe="2614" max_hp_coe="2614" dodge_coe="2614" toughness_coe="2614" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="94" exp="25301410" attack_coe="2663" hit_coe="2663" crit_coe="2663" defence_coe="2663" max_hp_coe="2663" dodge_coe="2663" toughness_coe="2663" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="95" exp="25662746" attack_coe="2712" hit_coe="2712" crit_coe="2712" defence_coe="2712" max_hp_coe="2712" dodge_coe="2712" toughness_coe="2712" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="96" exp="26002156" attack_coe="2760" hit_coe="2760" crit_coe="2760" defence_coe="2760" max_hp_coe="2760" dodge_coe="2760" toughness_coe="2760" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="97" exp="26316782" attack_coe="2809" hit_coe="2809" crit_coe="2809" defence_coe="2809" max_hp_coe="2809" dodge_coe="2809" toughness_coe="2809" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="98" exp="26603544" attack_coe="2858" hit_coe="2858" crit_coe="2858" defence_coe="2858" max_hp_coe="2858" dodge_coe="2858" toughness_coe="2858" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="99" exp="26859128" attack_coe="2906" hit_coe="2906" crit_coe="2906" defence_coe="2906" max_hp_coe="2906" dodge_coe="2906" toughness_coe="2906" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="100" exp="27209291" attack_coe="2955" hit_coe="2955" crit_coe="2955" defence_coe="2955" max_hp_coe="2955" dodge_coe="2955" toughness_coe="2955" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="101" exp="27444756" attack_coe="3008" hit_coe="3008" crit_coe="3008" defence_coe="3008" max_hp_coe="3008" dodge_coe="3008" toughness_coe="3008" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="102" exp="28789549" attack_coe="3061" hit_coe="3061" crit_coe="3061" defence_coe="3061" max_hp_coe="3061" dodge_coe="3061" toughness_coe="3061" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="103" exp="30200237" attack_coe="3114" hit_coe="3114" crit_coe="3114" defence_coe="3114" max_hp_coe="3114" dodge_coe="3114" toughness_coe="3114" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="104" exp="31680049" attack_coe="3167" hit_coe="3167" crit_coe="3167" defence_coe="3167" max_hp_coe="3167" dodge_coe="3167" toughness_coe="3167" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="105" exp="33232371" attack_coe="3220" hit_coe="3220" crit_coe="3220" defence_coe="3220" max_hp_coe="3220" dodge_coe="3220" toughness_coe="3220" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="106" exp="34860757" attack_coe="3273" hit_coe="3273" crit_coe="3273" defence_coe="3273" max_hp_coe="3273" dodge_coe="3273" toughness_coe="3273" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="107" exp="36568934" attack_coe="3326" hit_coe="3326" crit_coe="3326" defence_coe="3326" max_hp_coe="3326" dodge_coe="3326" toughness_coe="3326" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="108" exp="38360812" attack_coe="3379" hit_coe="3379" crit_coe="3379" defence_coe="3379" max_hp_coe="3379" dodge_coe="3379" toughness_coe="3379" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="109" exp="40240491" attack_coe="3432" hit_coe="3432" crit_coe="3432" defence_coe="3432" max_hp_coe="3432" dodge_coe="3432" toughness_coe="3432" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="110" exp="42413478" attack_coe="3485" hit_coe="3485" crit_coe="3485" defence_coe="3485" max_hp_coe="3485" dodge_coe="3485" toughness_coe="3485" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="111" exp="44576565" attack_coe="3542" hit_coe="3542" crit_coe="3542" defence_coe="3542" max_hp_coe="3542" dodge_coe="3542" toughness_coe="3542" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="112" exp="46849970" attack_coe="3600" hit_coe="3600" crit_coe="3600" defence_coe="3600" max_hp_coe="3600" dodge_coe="3600" toughness_coe="3600" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="113" exp="49239318" attack_coe="3657" hit_coe="3657" crit_coe="3657" defence_coe="3657" max_hp_coe="3657" dodge_coe="3657" toughness_coe="3657" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="114" exp="51750523" attack_coe="3714" hit_coe="3714" crit_coe="3714" defence_coe="3714" max_hp_coe="3714" dodge_coe="3714" toughness_coe="3714" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="115" exp="54389800" attack_coe="3772" hit_coe="3772" crit_coe="3772" defence_coe="3772" max_hp_coe="3772" dodge_coe="3772" toughness_coe="3772" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="116" exp="57163679" attack_coe="3829" hit_coe="3829" crit_coe="3829" defence_coe="3829" max_hp_coe="3829" dodge_coe="3829" toughness_coe="3829" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="117" exp="60079027" attack_coe="3886" hit_coe="3886" crit_coe="3886" defence_coe="3886" max_hp_coe="3886" dodge_coe="3886" toughness_coe="3886" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="118" exp="63143057" attack_coe="3943" hit_coe="3943" crit_coe="3943" defence_coe="3943" max_hp_coe="3943" dodge_coe="3943" toughness_coe="3943" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="119" exp="66363353" attack_coe="4001" hit_coe="4001" crit_coe="4001" defence_coe="4001" max_hp_coe="4001" dodge_coe="4001" toughness_coe="4001" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="120" exp="70079701" attack_coe="4058" hit_coe="4058" crit_coe="4058" defence_coe="4058" max_hp_coe="4058" dodge_coe="4058" toughness_coe="4058" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="121" exp="73864004" attack_coe="4120" hit_coe="4120" crit_coe="4120" defence_coe="4120" max_hp_coe="4120" dodge_coe="4120" toughness_coe="4120" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="122" exp="77852660" attack_coe="4181" hit_coe="4181" crit_coe="4181" defence_coe="4181" max_hp_coe="4181" dodge_coe="4181" toughness_coe="4181" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="123" exp="82056704" attack_coe="4243" hit_coe="4243" crit_coe="4243" defence_coe="4243" max_hp_coe="4243" dodge_coe="4243" toughness_coe="4243" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="124" exp="86487766" attack_coe="4304" hit_coe="4304" crit_coe="4304" defence_coe="4304" max_hp_coe="4304" dodge_coe="4304" toughness_coe="4304" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="125" exp="91158105" attack_coe="4366" hit_coe="4366" crit_coe="4366" defence_coe="4366" max_hp_coe="4366" dodge_coe="4366" toughness_coe="4366" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="126" exp="96080643" attack_coe="4428" hit_coe="4428" crit_coe="4428" defence_coe="4428" max_hp_coe="4428" dodge_coe="4428" toughness_coe="4428" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="127" exp="101268997" attack_coe="4489" hit_coe="4489" crit_coe="4489" defence_coe="4489" max_hp_coe="4489" dodge_coe="4489" toughness_coe="4489" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="128" exp="106737523" attack_coe="4551" hit_coe="4551" crit_coe="4551" defence_coe="4551" max_hp_coe="4551" dodge_coe="4551" toughness_coe="4551" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="129" exp="112501349" attack_coe="4612" hit_coe="4612" crit_coe="4612" defence_coe="4612" max_hp_coe="4612" dodge_coe="4612" toughness_coe="4612" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="130" exp="119138928" attack_coe="4674" hit_coe="4674" crit_coe="4674" defence_coe="4674" max_hp_coe="4674" dodge_coe="4674" toughness_coe="4674" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="131" exp="125929847" attack_coe="4740" hit_coe="4740" crit_coe="4740" defence_coe="4740" max_hp_coe="4740" dodge_coe="4740" toughness_coe="4740" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="132" exp="133107848" attack_coe="4806" hit_coe="4806" crit_coe="4806" defence_coe="4806" max_hp_coe="4806" dodge_coe="4806" toughness_coe="4806" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="133" exp="140694996" attack_coe="4872" hit_coe="4872" crit_coe="4872" defence_coe="4872" max_hp_coe="4872" dodge_coe="4872" toughness_coe="4872" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="134" exp="148714610" attack_coe="4938" hit_coe="4938" crit_coe="4938" defence_coe="4938" max_hp_coe="4938" dodge_coe="4938" toughness_coe="4938" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="135" exp="157191343" attack_coe="5004" hit_coe="5004" crit_coe="5004" defence_coe="5004" max_hp_coe="5004" dodge_coe="5004" toughness_coe="5004" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="136" exp="166151249" attack_coe="5069" hit_coe="5069" crit_coe="5069" defence_coe="5069" max_hp_coe="5069" dodge_coe="5069" toughness_coe="5069" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="137" exp="175621870" attack_coe="5135" hit_coe="5135" crit_coe="5135" defence_coe="5135" max_hp_coe="5135" dodge_coe="5135" toughness_coe="5135" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="138" exp="185632317" attack_coe="5201" hit_coe="5201" crit_coe="5201" defence_coe="5201" max_hp_coe="5201" dodge_coe="5201" toughness_coe="5201" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="139" exp="196213359" attack_coe="5267" hit_coe="5267" crit_coe="5267" defence_coe="5267" max_hp_coe="5267" dodge_coe="5267" toughness_coe="5267" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="140" exp="208378587" attack_coe="5333" hit_coe="5333" crit_coe="5333" defence_coe="5333" max_hp_coe="5333" dodge_coe="5333" toughness_coe="5333" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="141" exp="220881302" attack_coe="5403" hit_coe="5403" crit_coe="5403" defence_coe="5403" max_hp_coe="5403" dodge_coe="5403" toughness_coe="5403" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="142" exp="234134180" attack_coe="5473" hit_coe="5473" crit_coe="5473" defence_coe="5473" max_hp_coe="5473" dodge_coe="5473" toughness_coe="5473" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="143" exp="248182231" attack_coe="5544" hit_coe="5544" crit_coe="5544" defence_coe="5544" max_hp_coe="5544" dodge_coe="5544" toughness_coe="5544" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="144" exp="263073164" attack_coe="5614" hit_coe="5614" crit_coe="5614" defence_coe="5614" max_hp_coe="5614" dodge_coe="5614" toughness_coe="5614" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="145" exp="278857554" attack_coe="5684" hit_coe="5684" crit_coe="5684" defence_coe="5684" max_hp_coe="5684" dodge_coe="5684" toughness_coe="5684" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="146" exp="295589007" attack_coe="5754" hit_coe="5754" crit_coe="5754" defence_coe="5754" max_hp_coe="5754" dodge_coe="5754" toughness_coe="5754" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="147" exp="313324347" attack_coe="5824" hit_coe="5824" crit_coe="5824" defence_coe="5824" max_hp_coe="5824" dodge_coe="5824" toughness_coe="5824" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="148" exp="332123808" attack_coe="5895" hit_coe="5895" crit_coe="5895" defence_coe="5895" max_hp_coe="5895" dodge_coe="5895" toughness_coe="5895" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="149" exp="352051236" attack_coe="5965" hit_coe="5965" crit_coe="5965" defence_coe="5965" max_hp_coe="5965" dodge_coe="5965" toughness_coe="5965" returnitem="100001" itemnum="0" bind="1"/>
+	<level lv="150" exp="374934567" attack_coe="6035" hit_coe="6035" crit_coe="6035" defence_coe="6035" max_hp_coe="6035" dodge_coe="6035" toughness_coe="6035" returnitem="100001" itemnum="0" bind="1"/>
+	<buy exp_coe="1000" money="500000"/>
+	<buy exp_coe="2000" gold="50" itemid="900300" itemnum="5"/>
+	<magic id="1" maxseat="10" explain="1、阵法可将已上阵伙伴的属性根据阵法等级转化一部分加成给主角。|2、伙伴属性越高转化越多。|3、阵法阵位开启越多转化的属性百分比越高。">
+		<seat seatid="1" realm="1" attack_coe="200" hit_coe="200" crit_coe="200" defence_coe="200" max_hp_coe="200" dodge_coe="200" toughness_coe="200"/>
+		<seat seatid="2" realm="4" attack_coe="220" hit_coe="220" crit_coe="220" defence_coe="220" max_hp_coe="220" dodge_coe="220" toughness_coe="220"/>
+		<seat seatid="3" realm="5" attack_coe="240" hit_coe="240" crit_coe="240" defence_coe="240" max_hp_coe="240" dodge_coe="240" toughness_coe="240"/>
+		<seat seatid="4" realm="6" attack_coe="260" hit_coe="260" crit_coe="260" defence_coe="260" max_hp_coe="260" dodge_coe="260" toughness_coe="260"/>
+		<seat seatid="5" realm="7" attack_coe="290" hit_coe="290" crit_coe="290" defence_coe="290" max_hp_coe="290" dodge_coe="290" toughness_coe="290"/>
+		<seat seatid="6" realm="8" attack_coe="320" hit_coe="320" crit_coe="320" defence_coe="320" max_hp_coe="320" dodge_coe="320" toughness_coe="320"/>
+		<seat seatid="7" realm="8" attack_coe="350" hit_coe="350" crit_coe="350" defence_coe="350" max_hp_coe="350" dodge_coe="350" toughness_coe="350"/>
+		<seat seatid="8" realm="9" attack_coe="390" hit_coe="390" crit_coe="390" defence_coe="390" max_hp_coe="390" dodge_coe="390" toughness_coe="390"/>
+		<seat seatid="9" realm="9" attack_coe="430" hit_coe="430" crit_coe="430" defence_coe="430" max_hp_coe="430" dodge_coe="430" toughness_coe="430"/>
+		<seat seatid="10" realm="9" attack_coe="500" hit_coe="500" crit_coe="500" defence_coe="500" max_hp_coe="500" dodge_coe="500" toughness_coe="500"/>
+	</magic>
+	<increase star="1" full_attribute="200"/>
+	<increase star="2" full_attribute="220"/>
+	<increase star="3" full_attribute="240"/>
+	<increase star="4" full_attribute="260"/>
+	<increase star="5" full_attribute="290"/>
+	<increase star="6" full_attribute="320"/>
+	<increase star="7" full_attribute="350"/>
+	<increase star="8" full_attribute="390"/>
+	<increase star="9" full_attribute="430"/>
+	<increase star="10" full_attribute="500"/>
+</root>

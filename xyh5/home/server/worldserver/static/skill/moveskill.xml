@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--id		// 技能配置ID
+attributetype	属性类型
+=0气血
+=1攻击
+=2防御
+=3命中
+=4闪避
+=5暴击
+=6韧性
+-->
+<moveskill>
+  <moveskillinfo openlev="40"/>
+  <skillinfo id="1" skill_name="剑招1" icon="1" maxlev="3" dropdesc="可通过击杀XXX,XXX获得" skilldesc="为主角附加#value1##value2#点">
+    <skilllevel lev="0" userlev="1" money="0" skillpoint="0" attributetype="1" attributeper="0" attributenum="0"/>
+    <skilllevel lev="1" userlev="1" money="1" skillpoint="1" attributetype="1" attributeper="0" attributenum="500"/>
+    <skilllevel lev="2" userlev="2" money="2" skillpoint="2" attributetype="1" attributeper="0" attributenum="501"/>
+    <skilllevel lev="3" userlev="3" money="3" skillpoint="3" attributetype="1" attributeper="0" attributenum="502"/>
+  </skillinfo>
+  <skillinfo id="2" skill_name="剑招2" icon="2" maxlev="3" dropdesc="可通过击杀XXX,XXX获得" skilldesc="为主角附加#value1##value2#点">
+    <skilllevel lev="0" userlev="1" money="0" skillpoint="0" attributetype="2" attributeper="0" attributenum="0"/>
+    <skilllevel lev="1" userlev="1" money="1" skillpoint="1" attributetype="2" attributeper="0" attributenum="500"/>
+    <skilllevel lev="2" userlev="2" money="2" skillpoint="2" attributetype="2" attributeper="0" attributenum="501"/>
+    <skilllevel lev="3" userlev="3" money="3" skillpoint="3" attributetype="2" attributeper="0" attributenum="502"/>
+  </skillinfo>
+  <skillinfo id="3" skill_name="剑招3" icon="3" maxlev="3" dropdesc="可通过击杀XXX,XXX获得" skilldesc="为主角附加#value1##value2#点">
+    <skilllevel lev="0" userlev="1" money="0" skillpoint="0" attributetype="0" attributeper="0" attributenum="0"/>
+    <skilllevel lev="1" userlev="1" money="1" skillpoint="1" attributetype="0" attributeper="0" attributenum="500"/>
+    <skilllevel lev="2" userlev="2" money="2" skillpoint="2" attributetype="0" attributeper="0" attributenum="501"/>
+    <skilllevel lev="3" userlev="3" money="3" skillpoint="3" attributetype="0" attributeper="0" attributenum="502"/>
+  </skillinfo>
+  <skillinfo id="4" skill_name="剑招4" icon="4" maxlev="3" dropdesc="可通过击杀XXX,XXX获得" skilldesc="为主角附加#value1##value2#点">
+    <skilllevel lev="0" userlev="1" money="0" skillpoint="0" attributetype="3" attributeper="0" attributenum="0"/>
+    <skilllevel lev="1" userlev="1" money="1" skillpoint="1" attributetype="3" attributeper="0" attributenum="500"/>
+    <skilllevel lev="2" userlev="2" money="2" skillpoint="2" attributetype="3" attributeper="0" attributenum="501"/>
+    <skilllevel lev="3" userlev="3" money="3" skillpoint="3" attributetype="3" attributeper="0" attributenum="502"/>
+  </skillinfo>
+  <skillinfo id="5" skill_name="剑招5" icon="5" maxlev="3" dropdesc="可通过击杀XXX,XXX获得" skilldesc="为主角附加#value1##value2#点">
+    <skilllevel lev="0" userlev="1" money="0" skillpoint="0" attributetype="4" attributeper="0" attributenum="0"/>
+    <skilllevel lev="1" userlev="1" money="1" skillpoint="1" attributetype="4" attributeper="0" attributenum="500"/>
+    <skilllevel lev="2" userlev="2" money="2" skillpoint="2" attributetype="4" attributeper="0" attributenum="501"/>
+    <skilllevel lev="3" userlev="3" money="3" skillpoint="3" attributetype="4" attributeper="0" attributenum="502"/>
+  </skillinfo>
+  <skillinfo id="6" skill_name="剑招6" icon="6" maxlev="3" dropdesc="可通过击杀XXX,XXX获得" skilldesc="为主角附加#value1##value2#点">
+    <skilllevel lev="0" userlev="1" money="0" skillpoint="0" attributetype="5" attributeper="0" attributenum="0"/>
+    <skilllevel lev="1" userlev="1" money="1" skillpoint="1" attributetype="5" attributeper="0" attributenum="500"/>
+    <skilllevel lev="2" userlev="2" money="2" skillpoint="2" attributetype="5" attributeper="0" attributenum="501"/>
+    <skilllevel lev="3" userlev="3" money="3" skillpoint="3" attributetype="5" attributeper="0" attributenum="502"/>
+  </skillinfo>
+  <skillinfo id="7" skill_name="剑招7" icon="7" maxlev="3" dropdesc="可通过击杀XXX,XXX获得" skilldesc="为主角附加#value1##value2#点">
+    <skilllevel lev="0" userlev="1" money="0" skillpoint="0" attributetype="6" attributeper="0" attributenum="0"/>
+    <skilllevel lev="1" userlev="1" money="1" skillpoint="1" attributetype="6" attributeper="0" attributenum="500"/>
+    <skilllevel lev="2" userlev="2" money="2" skillpoint="2" attributetype="6" attributeper="0" attributenum="501"/>
+    <skilllevel lev="3" userlev="3" money="3" skillpoint="3" attributetype="6" attributeper="0" attributenum="502"/>
+  </skillinfo>
+</moveskill>

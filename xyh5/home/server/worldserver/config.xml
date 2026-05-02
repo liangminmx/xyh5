@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+<GameServerListen IP="127.0.0.1" Port="8004"/>
+<zone zoneid="1"/>
+<PF pf="7"/>
+<Database DatabaseAddr="127.0.0.1" DBName="worldserver" LoginName="root" Password="echeverra" Port="3306"/>
+</Root>
+

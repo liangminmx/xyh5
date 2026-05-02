@@ -1,0 +1,1626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+FunctionId	功能开启
+type	副本类型
+=1,生死劫(攻)
+=2,生死劫(御)
+name	没有用处,策划自己看的
+battleType	阵容Id
+enteringTheRound	对应榜单的入榜回合需求
+buffId	buffId值,值索引BUFF.xml,可不配置,不配置视为没有增加BUFF效果
+round	战斗第X回合的奖励,需要支持配置区间以逗号隔开
+Round=X,Y视为第X回合到第Y回合的奖励若只配置一个X,则视为没有区间状态
+damagePerTutn	每回合需要达到的伤害
+bMoney	绑元数量,不需要可不配置
+money	银币数量,不需要可不配置
+itemId	奖励道具,支持多条配置,支持Id索引装备表
+num	奖励道具数量
+-->
+	<Function FunctionId="2049"/>
+	<Fb type="1" name="生死劫(攻)" battleType="710000001" enteringTheRound="3">
+		<fightRound round="1" damagePerTurn="800000" money="100000">
+			<item itemId="10000012" num="10"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="2" damagePerTurn="1100000" money="120000">
+			<item itemId="10000012" num="10"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="3" damagePerTurn="1500000" money="140000">
+			<item itemId="10000012" num="10"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="4" damagePerTurn="2100000" money="160000">
+			<item itemId="10000012" num="10"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="5" damagePerTurn="3000000" money="180000">
+			<item itemId="10000012" num="10"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="6" damagePerTurn="4000000" money="200000">
+			<item itemId="10000012" num="10"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="7" damagePerTurn="5000000" money="220000">
+			<item itemId="10000012" num="10"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="8" damagePerTurn="6000000" money="240000">
+			<item itemId="10000012" num="10"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="9" damagePerTurn="7000000" money="260000">
+			<item itemId="10000012" num="10"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="10" damagePerTurn="8000000" money="280000">
+			<item itemId="10000012" num="10"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="11" damagePerTurn="9000000" money="300000">
+			<item itemId="10000012" num="20"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="12" damagePerTurn="10000000" money="320000">
+			<item itemId="10000012" num="20"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="13" damagePerTurn="12000000" money="340000">
+			<item itemId="10000012" num="20"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="14" damagePerTurn="14000000" money="360000">
+			<item itemId="10000012" num="20"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="15" damagePerTurn="16000000" money="380000">
+			<item itemId="10000012" num="20"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="16" damagePerTurn="18000000" money="400000">
+			<item itemId="10000012" num="20"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="17" damagePerTurn="20000000" money="420000">
+			<item itemId="10000012" num="20"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="18" damagePerTurn="22000000" money="440000">
+			<item itemId="10000012" num="20"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="19" damagePerTurn="24000000" money="460000">
+			<item itemId="10000012" num="20"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="20" damagePerTurn="26000000" money="480000">
+			<item itemId="10000012" num="20"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="21" damagePerTurn="28000000" money="500000">
+			<item itemId="10000012" num="30"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="22" damagePerTurn="30000000" money="520000">
+			<item itemId="10000012" num="30"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="23" damagePerTurn="32000000" money="540000">
+			<item itemId="10000012" num="30"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="24" damagePerTurn="34000000" money="560000">
+			<item itemId="10000012" num="30"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="25" damagePerTurn="36000000" money="580000">
+			<item itemId="10000012" num="30"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="26" damagePerTurn="38000000" money="600000">
+			<item itemId="10000012" num="30"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="27" damagePerTurn="40000000" money="620000">
+			<item itemId="10000012" num="30"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="28" damagePerTurn="42500000" money="640000">
+			<item itemId="10000012" num="30"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="29" damagePerTurn="45000000" money="660000">
+			<item itemId="10000012" num="30"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="30" damagePerTurn="47500000" money="680000">
+			<item itemId="10000012" num="30"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="31" damagePerTurn="50000000" money="700000">
+			<item itemId="10000012" num="40"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="32" damagePerTurn="52500000" money="720000">
+			<item itemId="10000012" num="40"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="33" damagePerTurn="55000000" money="740000">
+			<item itemId="10000012" num="40"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="34" damagePerTurn="57500000" money="760000">
+			<item itemId="10000012" num="40"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="35" damagePerTurn="60000000" money="780000">
+			<item itemId="10000012" num="40"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="36" damagePerTurn="62500000" money="800000">
+			<item itemId="10000012" num="40"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="37" damagePerTurn="65000000" money="820000">
+			<item itemId="10000012" num="40"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="38" damagePerTurn="67500000" money="840000">
+			<item itemId="10000012" num="40"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="39" damagePerTurn="70000000" money="860000">
+			<item itemId="10000012" num="40"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="40" damagePerTurn="72500000" money="880000">
+			<item itemId="10000012" num="40"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="41" damagePerTurn="75000000" money="900000">
+			<item itemId="10000012" num="50"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="42" damagePerTurn="77500000" money="920000">
+			<item itemId="10000012" num="50"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="43" damagePerTurn="80000000" money="940000">
+			<item itemId="10000012" num="50"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="44" damagePerTurn="84000000" money="960000">
+			<item itemId="10000012" num="50"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="45" damagePerTurn="88000000" money="980000">
+			<item itemId="10000012" num="50"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="46" damagePerTurn="92000000" money="1000000">
+			<item itemId="10000012" num="50"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="47" damagePerTurn="96000000" money="1020000">
+			<item itemId="10000012" num="50"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="48" damagePerTurn="100000000" money="1040000">
+			<item itemId="10000012" num="50"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="49" damagePerTurn="104000000" money="1060000">
+			<item itemId="10000012" num="50"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="50" damagePerTurn="108000000" money="1080000">
+			<item itemId="10000012" num="50"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="51" damagePerTurn="112000000" money="1100000">
+			<item itemId="10000012" num="60"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="52" damagePerTurn="116000000" money="1120000">
+			<item itemId="10000012" num="60"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="53" damagePerTurn="120000000" money="1140000">
+			<item itemId="10000012" num="60"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="54" damagePerTurn="125000000" money="1160000">
+			<item itemId="10000012" num="60"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="55" damagePerTurn="130000000" money="1180000">
+			<item itemId="10000012" num="60"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="56" damagePerTurn="135000000" money="1200000">
+			<item itemId="10000012" num="60"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="57" damagePerTurn="140000000" money="1220000">
+			<item itemId="10000012" num="60"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="58" damagePerTurn="145000000" money="1240000">
+			<item itemId="10000012" num="60"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="59" damagePerTurn="150000000" money="1260000">
+			<item itemId="10000012" num="60"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="60" damagePerTurn="155000000" money="1280000">
+			<item itemId="10000012" num="60"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="61" damagePerTurn="160000000" money="1300000">
+			<item itemId="10000012" num="70"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="62" damagePerTurn="165000000" money="1320000">
+			<item itemId="10000012" num="70"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="63" damagePerTurn="170000000" money="1340000">
+			<item itemId="10000012" num="70"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="64" damagePerTurn="175000000" money="1360000">
+			<item itemId="10000012" num="70"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="65" damagePerTurn="180000000" money="1380000">
+			<item itemId="10000012" num="70"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="66" damagePerTurn="185000000" money="1400000">
+			<item itemId="10000012" num="70"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="67" damagePerTurn="190000000" money="1420000">
+			<item itemId="10000012" num="70"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="68" damagePerTurn="195000000" money="1440000">
+			<item itemId="10000012" num="70"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="69" damagePerTurn="200000000" money="1460000">
+			<item itemId="10000012" num="70"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="70" damagePerTurn="205000000" money="1480000">
+			<item itemId="10000012" num="70"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="71" damagePerTurn="210000000" money="1500000">
+			<item itemId="10000012" num="80"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="72" damagePerTurn="215000000" money="1520000">
+			<item itemId="10000012" num="80"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="73" damagePerTurn="220000000" money="1540000">
+			<item itemId="10000012" num="80"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="74" damagePerTurn="225000000" money="1560000">
+			<item itemId="10000012" num="80"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="75" damagePerTurn="230000000" money="1580000">
+			<item itemId="10000012" num="80"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="76" damagePerTurn="235000000" money="1600000">
+			<item itemId="10000012" num="80"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="77" damagePerTurn="240000000" money="1620000">
+			<item itemId="10000012" num="80"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="78" damagePerTurn="245000000" money="1640000">
+			<item itemId="10000012" num="80"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="79" damagePerTurn="250000000" money="1660000">
+			<item itemId="10000012" num="80"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="80" damagePerTurn="260000000" money="1680000">
+			<item itemId="10000012" num="80"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="81" damagePerTurn="270000000" money="1700000">
+			<item itemId="10000012" num="90"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="82" damagePerTurn="280000000" money="1720000">
+			<item itemId="10000012" num="90"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="83" damagePerTurn="290000000" money="1740000">
+			<item itemId="10000012" num="90"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="84" damagePerTurn="300000000" money="1760000">
+			<item itemId="10000012" num="90"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="85" damagePerTurn="310000000" money="1780000">
+			<item itemId="10000012" num="90"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="86" damagePerTurn="320000000" money="1800000">
+			<item itemId="10000012" num="90"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="87" damagePerTurn="330000000" money="1820000">
+			<item itemId="10000012" num="90"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="88" damagePerTurn="340000000" money="1840000">
+			<item itemId="10000012" num="90"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="89" damagePerTurn="350000000" money="1860000">
+			<item itemId="10000012" num="90"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="90" damagePerTurn="360000000" money="1880000">
+			<item itemId="10000012" num="90"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="91" damagePerTurn="370000000" money="1900000">
+			<item itemId="10000012" num="100"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="92" damagePerTurn="380000000" money="1920000">
+			<item itemId="10000012" num="100"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="93" damagePerTurn="390000000" money="1940000">
+			<item itemId="10000012" num="100"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="94" damagePerTurn="400000000" money="1960000">
+			<item itemId="10000012" num="100"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="95" damagePerTurn="410000000" money="1980000">
+			<item itemId="10000012" num="100"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="96" damagePerTurn="420000000" money="2000000">
+			<item itemId="10000012" num="100"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="97" damagePerTurn="430000000" money="2020000">
+			<item itemId="10000012" num="100"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="98" damagePerTurn="440000000" money="2040000">
+			<item itemId="10000012" num="100"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="99" damagePerTurn="450000000" money="2060000">
+			<item itemId="10000012" num="100"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="100" damagePerTurn="460000000" money="2080000">
+			<item itemId="10000012" num="100"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="101" damagePerTurn="470000000" money="2100000">
+			<item itemId="10000012" num="10"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="102" damagePerTurn="480000000" money="2120000">
+			<item itemId="10000012" num="10"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="103" damagePerTurn="490000000" money="2140000">
+			<item itemId="10000012" num="10"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="104" damagePerTurn="500000000" money="2160000">
+			<item itemId="10000012" num="10"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="105" damagePerTurn="510000000" money="2180000">
+			<item itemId="10000012" num="10"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="106" damagePerTurn="520000000" money="2200000">
+			<item itemId="10000012" num="10"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="107" damagePerTurn="530000000" money="2220000">
+			<item itemId="10000012" num="10"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="108" damagePerTurn="540000000" money="2240000">
+			<item itemId="10000012" num="10"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="109" damagePerTurn="550000000" money="2260000">
+			<item itemId="10000012" num="10"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="110" damagePerTurn="560000000" money="2280000">
+			<item itemId="10000012" num="10"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="111" damagePerTurn="570000000" money="2300000">
+			<item itemId="10000012" num="20"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="112" damagePerTurn="580000000" money="2320000">
+			<item itemId="10000012" num="20"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="113" damagePerTurn="590000000" money="2340000">
+			<item itemId="10000012" num="20"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="114" damagePerTurn="600000000" money="2360000">
+			<item itemId="10000012" num="20"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="115" damagePerTurn="610000000" money="2380000">
+			<item itemId="10000012" num="20"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="116" damagePerTurn="620000000" money="2400000">
+			<item itemId="10000012" num="20"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="117" damagePerTurn="630000000" money="2420000">
+			<item itemId="10000012" num="20"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="118" damagePerTurn="640000000" money="2440000">
+			<item itemId="10000012" num="20"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="119" damagePerTurn="650000000" money="2460000">
+			<item itemId="10000012" num="20"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="120" damagePerTurn="660000000" money="2480000">
+			<item itemId="10000012" num="20"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="121" damagePerTurn="670000000" money="2500000">
+			<item itemId="10000012" num="30"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="122" damagePerTurn="680000000" money="2520000">
+			<item itemId="10000012" num="30"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="123" damagePerTurn="690000000" money="2540000">
+			<item itemId="10000012" num="30"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="124" damagePerTurn="700000000" money="2560000">
+			<item itemId="10000012" num="30"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="125" damagePerTurn="710000000" money="2580000">
+			<item itemId="10000012" num="30"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="126" damagePerTurn="720000000" money="2600000">
+			<item itemId="10000012" num="30"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="127" damagePerTurn="730000000" money="2620000">
+			<item itemId="10000012" num="30"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="128" damagePerTurn="740000000" money="2640000">
+			<item itemId="10000012" num="30"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="129" damagePerTurn="750000000" money="2660000">
+			<item itemId="10000012" num="30"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="130" damagePerTurn="760000000" money="2680000">
+			<item itemId="10000012" num="30"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="131" damagePerTurn="770000000" money="2700000">
+			<item itemId="10000012" num="40"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="132" damagePerTurn="780000000" money="2720000">
+			<item itemId="10000012" num="40"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="133" damagePerTurn="790000000" money="2740000">
+			<item itemId="10000012" num="40"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="134" damagePerTurn="800000000" money="2760000">
+			<item itemId="10000012" num="40"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="135" damagePerTurn="810000000" money="2780000">
+			<item itemId="10000012" num="40"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="136" damagePerTurn="820000000" money="2800000">
+			<item itemId="10000012" num="40"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="137" damagePerTurn="830000000" money="2820000">
+			<item itemId="10000012" num="40"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="138" damagePerTurn="840000000" money="2840000">
+			<item itemId="10000012" num="40"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="139" damagePerTurn="850000000" money="2860000">
+			<item itemId="10000012" num="40"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="140" damagePerTurn="860000000" money="2880000">
+			<item itemId="10000012" num="40"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="141" damagePerTurn="870000000" money="2900000">
+			<item itemId="10000012" num="50"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="142" damagePerTurn="880000000" money="2920000">
+			<item itemId="10000012" num="50"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="143" damagePerTurn="890000000" money="2940000">
+			<item itemId="10000012" num="50"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="144" damagePerTurn="900000000" money="2960000">
+			<item itemId="10000012" num="50"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="145" damagePerTurn="910000000" money="2980000">
+			<item itemId="10000012" num="50"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="146" damagePerTurn="920000000" money="3000000">
+			<item itemId="10000012" num="50"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="147" damagePerTurn="930000000" money="3020000">
+			<item itemId="10000012" num="50"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="148" damagePerTurn="940000000" money="3040000">
+			<item itemId="10000012" num="50"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="149" damagePerTurn="950000000" money="3060000">
+			<item itemId="10000012" num="50"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="150" damagePerTurn="960000000" money="3080000">
+			<item itemId="10000012" num="50"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="151" damagePerTurn="970000000" money="3100000">
+			<item itemId="10000012" num="60"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="152" damagePerTurn="980000000" money="3120000">
+			<item itemId="10000012" num="60"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="153" damagePerTurn="990000000" money="3140000">
+			<item itemId="10000012" num="60"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="154" damagePerTurn="1000000000" money="3160000">
+			<item itemId="10000012" num="60"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="155" damagePerTurn="1010000000" money="3180000">
+			<item itemId="10000012" num="60"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="156" damagePerTurn="1020000000" money="3200000">
+			<item itemId="10000012" num="60"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="157" damagePerTurn="1030000000" money="3220000">
+			<item itemId="10000012" num="60"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="158" damagePerTurn="1040000000" money="3240000">
+			<item itemId="10000012" num="60"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="159" damagePerTurn="1050000000" money="3260000">
+			<item itemId="10000012" num="60"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="160" damagePerTurn="1060000000" money="3280000">
+			<item itemId="10000012" num="60"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="161" damagePerTurn="1070000000" money="3300000">
+			<item itemId="10000012" num="70"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="162" damagePerTurn="1080000000" money="3320000">
+			<item itemId="10000012" num="70"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="163" damagePerTurn="1090000000" money="3340000">
+			<item itemId="10000012" num="70"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="164" damagePerTurn="1100000000" money="3360000">
+			<item itemId="10000012" num="70"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="165" damagePerTurn="1110000000" money="3380000">
+			<item itemId="10000012" num="70"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="166" damagePerTurn="1120000000" money="3400000">
+			<item itemId="10000012" num="70"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="167" damagePerTurn="1130000000" money="3420000">
+			<item itemId="10000012" num="70"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="168" damagePerTurn="1140000000" money="3440000">
+			<item itemId="10000012" num="70"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="169" damagePerTurn="1150000000" money="3460000">
+			<item itemId="10000012" num="70"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="170" damagePerTurn="1160000000" money="3480000">
+			<item itemId="10000012" num="70"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="171" damagePerTurn="1170000000" money="3500000">
+			<item itemId="10000012" num="80"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="172" damagePerTurn="1180000000" money="3520000">
+			<item itemId="10000012" num="80"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="173" damagePerTurn="1190000000" money="3540000">
+			<item itemId="10000012" num="80"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="174" damagePerTurn="1200000000" money="3560000">
+			<item itemId="10000012" num="80"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="175" damagePerTurn="1210000000" money="3580000">
+			<item itemId="10000012" num="80"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="176" damagePerTurn="1220000000" money="3600000">
+			<item itemId="10000012" num="80"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="177" damagePerTurn="1230000000" money="3620000">
+			<item itemId="10000012" num="80"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="178" damagePerTurn="1240000000" money="3640000">
+			<item itemId="10000012" num="80"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="179" damagePerTurn="1250000000" money="3660000">
+			<item itemId="10000012" num="80"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="180" damagePerTurn="1260000000" money="3680000">
+			<item itemId="10000012" num="80"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="181" damagePerTurn="1270000000" money="3700000">
+			<item itemId="10000012" num="90"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="182" damagePerTurn="1280000000" money="3720000">
+			<item itemId="10000012" num="90"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="183" damagePerTurn="1290000000" money="3740000">
+			<item itemId="10000012" num="90"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="184" damagePerTurn="1300000000" money="3760000">
+			<item itemId="10000012" num="90"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="185" damagePerTurn="1310000000" money="3780000">
+			<item itemId="10000012" num="90"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="186" damagePerTurn="1320000000" money="3800000">
+			<item itemId="10000012" num="90"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="187" damagePerTurn="1330000000" money="3820000">
+			<item itemId="10000012" num="90"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="188" damagePerTurn="1340000000" money="3840000">
+			<item itemId="10000012" num="90"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="189" damagePerTurn="1350000000" money="3860000">
+			<item itemId="10000012" num="90"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="190" damagePerTurn="1360000000" money="3880000">
+			<item itemId="10000012" num="90"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="191" damagePerTurn="1370000000" money="3900000">
+			<item itemId="10000012" num="100"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="192" damagePerTurn="1380000000" money="3920000">
+			<item itemId="10000012" num="100"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="193" damagePerTurn="1390000000" money="3940000">
+			<item itemId="10000012" num="100"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="194" damagePerTurn="1400000000" money="3960000">
+			<item itemId="10000012" num="100"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="195" damagePerTurn="1410000000" money="3980000">
+			<item itemId="10000012" num="100"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="196" damagePerTurn="1420000000" money="4000000">
+			<item itemId="10000012" num="100"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="197" damagePerTurn="1430000000" money="4020000">
+			<item itemId="10000012" num="100"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="198" damagePerTurn="1440000000" money="4040000">
+			<item itemId="10000012" num="100"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="199" damagePerTurn="1450000000" money="4060000">
+			<item itemId="10000012" num="100"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="200" damagePerTurn="1460000000" money="4080000">
+			<item itemId="10000012" num="100"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+	</Fb>
+	<Fb type="2" name="生死劫(御)" battleType="710000002" enteringTheRound="3" buffId="3000002">
+		<fightRound round="1" money="100000">
+			<item itemId="10000012" num="10"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="2" money="120000">
+			<item itemId="10000012" num="10"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="3" money="140000">
+			<item itemId="10000012" num="10"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="4" money="160000">
+			<item itemId="10000012" num="10"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="5" money="180000">
+			<item itemId="10000012" num="10"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="6" money="200000">
+			<item itemId="10000012" num="10"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="7" money="220000">
+			<item itemId="10000012" num="10"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="8" money="240000">
+			<item itemId="10000012" num="10"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="9" money="260000">
+			<item itemId="10000012" num="10"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="10" money="280000">
+			<item itemId="10000012" num="10"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="11" money="300000">
+			<item itemId="10000012" num="20"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="12" money="320000">
+			<item itemId="10000012" num="20"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="13" money="340000">
+			<item itemId="10000012" num="20"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="14" money="360000">
+			<item itemId="10000012" num="20"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="15" money="380000">
+			<item itemId="10000012" num="20"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="16" money="400000">
+			<item itemId="10000012" num="20"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="17" money="420000">
+			<item itemId="10000012" num="20"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="18" money="440000">
+			<item itemId="10000012" num="20"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="19" money="460000">
+			<item itemId="10000012" num="20"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="20" money="480000">
+			<item itemId="10000012" num="20"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="21" money="500000">
+			<item itemId="10000012" num="30"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="22" money="520000">
+			<item itemId="10000012" num="30"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="23" money="540000">
+			<item itemId="10000012" num="30"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="24" money="560000">
+			<item itemId="10000012" num="30"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="25" money="580000">
+			<item itemId="10000012" num="30"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="26" money="600000">
+			<item itemId="10000012" num="30"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="27" money="620000">
+			<item itemId="10000012" num="30"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="28" money="640000">
+			<item itemId="10000012" num="30"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="29" money="660000">
+			<item itemId="10000012" num="30"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="30" money="680000">
+			<item itemId="10000012" num="30"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="31" money="700000">
+			<item itemId="10000012" num="40"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="32" money="720000">
+			<item itemId="10000012" num="40"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="33" money="740000">
+			<item itemId="10000012" num="40"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="34" money="760000">
+			<item itemId="10000012" num="40"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="35" money="780000">
+			<item itemId="10000012" num="40"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="36" money="800000">
+			<item itemId="10000012" num="40"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="37" money="820000">
+			<item itemId="10000012" num="40"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="38" money="840000">
+			<item itemId="10000012" num="40"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="39" money="860000">
+			<item itemId="10000012" num="40"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="40" money="880000">
+			<item itemId="10000012" num="40"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="41" money="900000">
+			<item itemId="10000012" num="50"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="42" money="920000">
+			<item itemId="10000012" num="50"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="43" money="940000">
+			<item itemId="10000012" num="50"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="44" money="960000">
+			<item itemId="10000012" num="50"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="45" money="980000">
+			<item itemId="10000012" num="50"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="46" money="1000000">
+			<item itemId="10000012" num="50"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="47" money="1020000">
+			<item itemId="10000012" num="50"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="48" money="1040000">
+			<item itemId="10000012" num="50"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="49" money="1060000">
+			<item itemId="10000012" num="50"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="50" money="1080000">
+			<item itemId="10000012" num="50"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="51" money="1100000">
+			<item itemId="10000012" num="60"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="52" money="1120000">
+			<item itemId="10000012" num="60"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="53" money="1140000">
+			<item itemId="10000012" num="60"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="54" money="1160000">
+			<item itemId="10000012" num="60"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="55" money="1180000">
+			<item itemId="10000012" num="60"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="56" money="1200000">
+			<item itemId="10000012" num="60"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="57" money="1220000">
+			<item itemId="10000012" num="60"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="58" money="1240000">
+			<item itemId="10000012" num="60"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="59" money="1260000">
+			<item itemId="10000012" num="60"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="60" money="1280000">
+			<item itemId="10000012" num="60"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="61" money="1300000">
+			<item itemId="10000012" num="70"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="62" money="1320000">
+			<item itemId="10000012" num="70"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="63" money="1340000">
+			<item itemId="10000012" num="70"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="64" money="1360000">
+			<item itemId="10000012" num="70"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="65" money="1380000">
+			<item itemId="10000012" num="70"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="66" money="1400000">
+			<item itemId="10000012" num="70"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="67" money="1420000">
+			<item itemId="10000012" num="70"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="68" money="1440000">
+			<item itemId="10000012" num="70"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="69" money="1460000">
+			<item itemId="10000012" num="70"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="70" money="1480000">
+			<item itemId="10000012" num="70"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="71" money="1500000">
+			<item itemId="10000012" num="80"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="72" money="1520000">
+			<item itemId="10000012" num="80"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="73" money="1540000">
+			<item itemId="10000012" num="80"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="74" money="1560000">
+			<item itemId="10000012" num="80"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="75" money="1580000">
+			<item itemId="10000012" num="80"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="76" money="1600000">
+			<item itemId="10000012" num="80"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="77" money="1620000">
+			<item itemId="10000012" num="80"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="78" money="1640000">
+			<item itemId="10000012" num="80"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="79" money="1660000">
+			<item itemId="10000012" num="80"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="80" money="1680000">
+			<item itemId="10000012" num="80"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="81" money="1700000">
+			<item itemId="10000012" num="90"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="82" money="1720000">
+			<item itemId="10000012" num="90"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="83" money="1740000">
+			<item itemId="10000012" num="90"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="84" money="1760000">
+			<item itemId="10000012" num="90"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="85" money="1780000">
+			<item itemId="10000012" num="90"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="86" money="1800000">
+			<item itemId="10000012" num="90"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="87" money="1820000">
+			<item itemId="10000012" num="90"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="88" money="1840000">
+			<item itemId="10000012" num="90"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="89" money="1860000">
+			<item itemId="10000012" num="90"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="90" money="1880000">
+			<item itemId="10000012" num="90"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="91" money="1900000">
+			<item itemId="10000012" num="100"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="92" money="1920000">
+			<item itemId="10000012" num="100"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="93" money="1940000">
+			<item itemId="10000012" num="100"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="94" money="1960000">
+			<item itemId="10000012" num="100"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="95" money="1980000">
+			<item itemId="10000012" num="100"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="96" money="2000000">
+			<item itemId="10000012" num="100"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="97" money="2020000">
+			<item itemId="10000012" num="100"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="98" money="2040000">
+			<item itemId="10000012" num="100"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="99" money="2060000">
+			<item itemId="10000012" num="100"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="100" money="2080000">
+			<item itemId="10000012" num="100"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="101" money="2100000">
+			<item itemId="10000012" num="10"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="102" money="2120000">
+			<item itemId="10000012" num="10"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="103" money="2140000">
+			<item itemId="10000012" num="10"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="104" money="2160000">
+			<item itemId="10000012" num="10"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="105" money="2180000">
+			<item itemId="10000012" num="10"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="106" money="2200000">
+			<item itemId="10000012" num="10"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="107" money="2220000">
+			<item itemId="10000012" num="10"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="108" money="2240000">
+			<item itemId="10000012" num="10"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="109" money="2260000">
+			<item itemId="10000012" num="10"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="110" money="2280000">
+			<item itemId="10000012" num="10"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="111" money="2300000">
+			<item itemId="10000012" num="20"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="112" money="2320000">
+			<item itemId="10000012" num="20"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="113" money="2340000">
+			<item itemId="10000012" num="20"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="114" money="2360000">
+			<item itemId="10000012" num="20"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="115" money="2380000">
+			<item itemId="10000012" num="20"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="116" money="2400000">
+			<item itemId="10000012" num="20"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="117" money="2420000">
+			<item itemId="10000012" num="20"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="118" money="2440000">
+			<item itemId="10000012" num="20"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="119" money="2460000">
+			<item itemId="10000012" num="20"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="120" money="2480000">
+			<item itemId="10000012" num="20"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="121" money="2500000">
+			<item itemId="10000012" num="30"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="122" money="2520000">
+			<item itemId="10000012" num="30"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="123" money="2540000">
+			<item itemId="10000012" num="30"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="124" money="2560000">
+			<item itemId="10000012" num="30"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="125" money="2580000">
+			<item itemId="10000012" num="30"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="126" money="2600000">
+			<item itemId="10000012" num="30"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="127" money="2620000">
+			<item itemId="10000012" num="30"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="128" money="2640000">
+			<item itemId="10000012" num="30"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="129" money="2660000">
+			<item itemId="10000012" num="30"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="130" money="2680000">
+			<item itemId="10000012" num="30"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="131" money="2700000">
+			<item itemId="10000012" num="40"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="132" money="2720000">
+			<item itemId="10000012" num="40"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="133" money="2740000">
+			<item itemId="10000012" num="40"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="134" money="2760000">
+			<item itemId="10000012" num="40"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="135" money="2780000">
+			<item itemId="10000012" num="40"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="136" money="2800000">
+			<item itemId="10000012" num="40"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="137" money="2820000">
+			<item itemId="10000012" num="40"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="138" money="2840000">
+			<item itemId="10000012" num="40"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="139" money="2860000">
+			<item itemId="10000012" num="40"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="140" money="2880000">
+			<item itemId="10000012" num="40"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="141" money="2900000">
+			<item itemId="10000012" num="50"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="142" money="2920000">
+			<item itemId="10000012" num="50"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="143" money="2940000">
+			<item itemId="10000012" num="50"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="144" money="2960000">
+			<item itemId="10000012" num="50"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="145" money="2980000">
+			<item itemId="10000012" num="50"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="146" money="3000000">
+			<item itemId="10000012" num="50"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="147" money="3020000">
+			<item itemId="10000012" num="50"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="148" money="3040000">
+			<item itemId="10000012" num="50"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="149" money="3060000">
+			<item itemId="10000012" num="50"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="150" money="3080000">
+			<item itemId="10000012" num="50"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="151" money="3100000">
+			<item itemId="10000012" num="60"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="152" money="3120000">
+			<item itemId="10000012" num="60"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="153" money="3140000">
+			<item itemId="10000012" num="60"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="154" money="3160000">
+			<item itemId="10000012" num="60"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="155" money="3180000">
+			<item itemId="10000012" num="60"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="156" money="3200000">
+			<item itemId="10000012" num="60"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="157" money="3220000">
+			<item itemId="10000012" num="60"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="158" money="3240000">
+			<item itemId="10000012" num="60"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="159" money="3260000">
+			<item itemId="10000012" num="60"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="160" money="3280000">
+			<item itemId="10000012" num="60"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="161" money="3300000">
+			<item itemId="10000012" num="70"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="162" money="3320000">
+			<item itemId="10000012" num="70"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="163" money="3340000">
+			<item itemId="10000012" num="70"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="164" money="3360000">
+			<item itemId="10000012" num="70"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="165" money="3380000">
+			<item itemId="10000012" num="70"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="166" money="3400000">
+			<item itemId="10000012" num="70"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="167" money="3420000">
+			<item itemId="10000012" num="70"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="168" money="3440000">
+			<item itemId="10000012" num="70"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="169" money="3460000">
+			<item itemId="10000012" num="70"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="170" money="3480000">
+			<item itemId="10000012" num="70"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="171" money="3500000">
+			<item itemId="10000012" num="80"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="172" money="3520000">
+			<item itemId="10000012" num="80"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="173" money="3540000">
+			<item itemId="10000012" num="80"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="174" money="3560000">
+			<item itemId="10000012" num="80"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="175" money="3580000">
+			<item itemId="10000012" num="80"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="176" money="3600000">
+			<item itemId="10000012" num="80"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="177" money="3620000">
+			<item itemId="10000012" num="80"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="178" money="3640000">
+			<item itemId="10000012" num="80"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="179" money="3660000">
+			<item itemId="10000012" num="80"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="180" money="3680000">
+			<item itemId="10000012" num="80"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="181" money="3700000">
+			<item itemId="10000012" num="90"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="182" money="3720000">
+			<item itemId="10000012" num="90"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="183" money="3740000">
+			<item itemId="10000012" num="90"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="184" money="3760000">
+			<item itemId="10000012" num="90"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="185" money="3780000">
+			<item itemId="10000012" num="90"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="186" money="3800000">
+			<item itemId="10000012" num="90"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="187" money="3820000">
+			<item itemId="10000012" num="90"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="188" money="3840000">
+			<item itemId="10000012" num="90"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="189" money="3860000">
+			<item itemId="10000012" num="90"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="190" money="3880000">
+			<item itemId="10000012" num="90"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="191" money="3900000">
+			<item itemId="10000012" num="100"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="192" money="3920000">
+			<item itemId="10000012" num="100"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="193" money="3940000">
+			<item itemId="10000012" num="100"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="194" money="3960000">
+			<item itemId="10000012" num="100"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="195" money="3980000">
+			<item itemId="10000012" num="100"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+		<fightRound round="196" money="4000000">
+			<item itemId="10000012" num="100"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="197" money="4020000">
+			<item itemId="10000012" num="100"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="198" money="4040000">
+			<item itemId="10000012" num="100"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="199" money="4060000">
+			<item itemId="10000012" num="100"/>
+			<item itemId="10000015" num="1"/>
+		</fightRound>
+		<fightRound round="200" money="4080000">
+			<item itemId="10000012" num="100"/>
+			<item itemId="16010001" num="1"/>
+		</fightRound>
+	</Fb>
+</root>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!--
+pic	界面内美女贴图
+title	界面内抬头文字
+gold	当月累充额度
+qq	显示的QQ号
+item	奖励礼包道具id
+num	奖励道具数量
+bind	绑定状态，=0不绑定，=1绑定
+text	界面内介绍文字文本
+	<open openpf="7k7k,shunwang,sougou,xunlei,3595,youzhai"/>
+-->
+	<pf id="7k7k" pic="7k7k" title="7k7k超级会员" gold="20000" goldtext="2000" qq="3331007354">
+		<single gold="5000" isopen="0" goldtext="500"/>
+		<reward item="100001" num="1" bind="1"/>
+		<desc text="[font color='#FF9933']1.专属通道[/font]：美女客服一对一的贴身服务，优先解答您的疑问及需求。|[font color='#FF9933']2. 优先权[/font]：游戏内的第一手资料优先知晓。|[font color='#FF9933']3. 专属大礼包[/font]：超级会员可获得我们送的神秘大礼包。|[font color='#FF9933']4. 验证需要提供基本信息[/font]：QQ、手机号码、邮箱、生日、真实姓名、地址、邮编、服务器。" clubtext="钻石VIP俱乐部QQ" information="单月充值满{0}元专属客服QQ立即显示|验证填写信息：角色名、服务器、充值金额等|[font color='#49d42f']QQ验证成功后，即可享受贴心专属服务[/font]"/>
+	</pf>
+	<pf id="shunwang" pic="shunwang" title="顺网超级会员" gold="20000" goldtext="2000" qq="877758995">
+		<single gold="5000" isopen="0" goldtext="500"/>
+		<reward item="100001" num="1" bind="1"/>
+		<desc text="[font color='#FF9933']1.专属通道[/font]：美女客服一对一的贴身服务，优先解答您的疑问及需求。|[font color='#FF9933']2. 优先权[/font]：游戏内的第一手资料优先知晓，详尽攻略为您奉上。|[font color='#FF9933']3. 专属大礼包[/font]：神秘大礼包免费赠送，专享称号、炫酷神兵等您拿！" clubtext="专属showgirlQQ" information="单月充值满{0}元专属客服QQ立即显示|验证填写信息：角色名、服务器、充值金额等|[font color='#49d42f']QQ验证成功后，即可享受贴心专属服务[/font]"/>
+	</pf>
+	<pf id="sougou" pic="sougou" title="搜狗超级会员" gold="30000" goldtext="3000" qq="2851638996">
+		<single gold="5000" isopen="0" goldtext="500"/>
+		<reward item="100001" num="1" bind="1"/>
+		<desc text="[font color='#FF9933']1.专属通道[/font]：美女客服一对一的贴身服务，优先解答您的疑问及需求。|[font color='#FF9933']2. 优先权[/font]：游戏内的第一手资料优先知晓，详尽攻略为您奉上。|[font color='#FF9933']3. 专属大礼包[/font]：神秘大礼包免费赠送，专享称号、炫酷神兵等您拿！" clubtext="专属showgirlQQ" information="单月充值满{0}元专属客服QQ立即显示|验证填写信息：角色名、服务器、充值金额等|[font color='#49d42f']QQ验证成功后，即可享受贴心专属服务[/font]"/>
+	</pf>
+	<pf id="xunlei" pic="xunlei" title="迅雷超级会员" gold="8000" goldtext="800" qq="800051551">
+		<single gold="5000" isopen="0" goldtext="500"/>
+		<reward item="100001" num="1" bind="1"/>
+		<desc text="[font color='#FF9933']1.专属通道[/font]：GM客服一对一贴心服务，优先解答超级会员的需求和疑问。|[font color='#FF9933']2.贵宾礼包[/font]：完善你的资料即可获得GM赠送的贵宾礼包；|[font color='#FF9933']3.生日祝福礼包[/font]：超级会员礼包玩家生日当天，联系专属客服可以领取生日祝福礼包" clubtext="金牌客服QQ" information="单月充值满{0}元专属客服QQ立即显示|验证填写信息：角色名、服务器、充值金额等|[font color='#49d42f']QQ验证成功后，即可享受贴心专属服务[/font]"/>
+	</pf>
+	<pf id="3595mhj" pic="3595" title="雪鹰领主超级会员" gold="30000" goldtext="3000" qq="3193942323">
+		<single gold="5000" isopen="0" goldtext="500"/>
+		<reward item="100001" num="1" bind="1"/>
+		<desc text="[font color='#FF9933']1.专属通道[/font]：美女客服一对一贴心服务，优先解答您的疑问及需求。|[font color='#FF9933']2.专属大礼包[/font]：神秘大礼包免费赠送，专享称号、炫酷神兵等您拿！|[font color='#FF9933']3.生日祝福礼包[/font]：超级会员礼包玩家生日当天，联系专属客服可以领取我们精心为您准备的生日祝福礼包。" clubtext="钻石客服QQ" information="单月充值满{0}元专属客服QQ立即显示|验证填写信息：角色名、服务器、充值金额等|[font color='#49d42f']QQ验证成功后，即可享受贴心专属服务[/font]"/>
+	</pf>
+	<pf id="youzhai" pic="3595" title="雪鹰领主超级会员" gold="30000" goldtext="3000" qq="3193942323">
+		<single gold="5000" isopen="0" goldtext="500"/>
+		<reward item="100001" num="1" bind="1"/>
+		<desc text="[font color='#FF9933']1.专属通道[/font]：美女客服一对一贴心服务，优先解答您的疑问及需求。|[font color='#FF9933']2.专属大礼包[/font]：神秘大礼包免费赠送，专享称号、炫酷神兵等您拿！|[font color='#FF9933']3.生日祝福礼包[/font]：超级会员礼包玩家生日当天，联系专属客服可以领取我们精心为您准备的生日祝福礼包。" clubtext="钻石客服QQ" information="单月充值满{0}元专属客服QQ立即显示|验证填写信息：角色名、服务器、充值金额等|[font color='#49d42f']QQ验证成功后，即可享受贴心专属服务[/font]"/>
+	</pf>
+	<pf id="4399" pic="4399" title="至尊会员" gold="30000" goldtext="3000" qq="2355699169">
+		<single gold="5000" isopen="0" goldtext="500"/>
+		<reward item="100001" num="1" bind="1"/>
+		<desc text="[font color='#FF9933']1.专属通道[/font]：美女客服一对一的贴身服务，优先解答您的疑问及需求。|[font color='#FF9933']2. 优先权[/font]：游戏内的第一手资料优先知晓，详尽攻略为您奉上。|[font color='#FF9933']3. 专属大礼包[/font]：完善你的资料即可获得我们赠送的神秘大礼包。" clubtext="美女客服QQ" information="单月充值满{0}元专属客服QQ立即显示|验证填写信息：角色名、服务器、充值金额等|[font color='#49d42f']QQ验证成功后，即可享受贴心专属服务[/font]"/>
+	</pf>
+	<pf id="bianfeng" pic="bianfeng" title="超级会员" gold="30000" goldtext="3000" qq="800022132">
+		<single gold="5000" isopen="0" goldtext="500"/>
+		<reward item="100001" num="1" bind="1"/>
+		<desc text="[font color='#FF9933']1.专属通道[/font]：美女客服一对一的贴身服务，优先解答您的疑问及需求。|[font color='#FF9933']2. 优先权[/font]：游戏内的第一手资料优先知晓，详尽攻略为您奉上。|[font color='#FF9933']3. 专属大礼包[/font]：神秘大礼包免费赠送，专享称号、炫酷神兵等您拿！" clubtext="美女客服QQ" information="单月充值满{0}元专属客服QQ立即显示|验证填写信息：角色名、服务器、充值金额等|[font color='#49d42f']QQ验证成功后，即可享受贴心专属服务[/font]"/>
+	</pf>
+	<pf id="ledu" pic="ledu" title="超级会员" gold="20000" goldtext="2000" qq="800055882">
+		<single gold="5000" isopen="1" goldtext="500"/>
+		<reward item="100001" num="1" bind="1"/>
+		<desc text="[font color='#FF9933']1.专属通道[/font]：美女客服一对一的贴身服务，优先解答您的疑问及需求。|[font color='#FF9933']2. 定期礼包[/font]：完善您的资料即可定期获得官方赠送的至尊礼包。|[font color='#FF9933']3. 尊贵权利[/font]：游戏内的第一手资料将优先知晓。|[font color='#FF9933']3. 超高福利[/font]：享受特定条件下的超高福利待遇。" clubtext="美女客服QQ" information="单月充值满2000元或单笔充值满500元专属客服QQ立即显示|验证填写信息：角色名、服务器、充值金额等|[font color='#49d42f']QQ验证成功后，即可享受贴心专属服务[/font]"/>
+	</pf>
+	<pf id="kugou" pic="kugou" title="超级会员" gold="20000" goldtext="2000" qq="2850136459">
+		<single gold="5000" isopen="0" goldtext="500"/>
+		<reward item="109102" num="1" bind="1"/>
+		<desc text="[font color='#FF9933']1.专属通道[/font]：美女客服一对一的贴身服务，优先解答您的疑问及需求。|[font color='#FF9933']2.专属大礼包[/font]：完善您的资料即可获得我们赠送的神秘大礼包。|[font color='#FF9933']3.[/font]处理游戏问题，人性化引导协助，优先知晓游戏内的第一手资料。|[font color='#FF9933']4.[/font]欢迎随时吐槽，建设性意见直通研发团队。|[font color='#FF9933']5.[/font]提供迅速冻结、找回账号绿色通道。" clubtext="美女客服QQ" information="单月充值满{0}元专属客服QQ立即显示|验证填写信息：角色名、服务器、充值金额等|[font color='#49d42f']QQ验证成功后，即可享受贴心专属服务[/font]"/>
+	</pf>
+	<pf id="37wan" pic="37" title="超级会员" gold="20000" goldtext="2000" qq="2355747047">
+		<single gold="5000" isopen="0" goldtext="500"/>
+		<reward item="109103" num="1" bind="1"/>
+		<desc text="[font color='#FF9933']1.专属通道[/font]：美女客服一对一的贴身服务，优先解答您的疑问及需求。|[font color='#FF9933']2.专属大礼包[/font]：完善您的资料即可获得我们赠送的神秘大礼包。" clubtext="美女客服QQ" information="单月充值满{0}元专属客服QQ立即显示|验证填写信息：角色名、服务器、充值金额等|[font color='#49d42f']QQ验证成功后，即可享受贴心专属服务[/font]"/>
+	</pf>
+	<pf id="feihuo" pic="4399" title="超级会员" gold="20000" goldtext="2000" qq="800022132">
+		<single gold="5000" isopen="0" goldtext="500"/>
+		<reward item="100001" num="1" bind="1"/>
+		<desc text="[font color='#FF9933']1.专属通道[/font]：美女客服一对一的贴身服务，优先解答您的疑问及需求。|[font color='#FF9933']2.定期礼包[/font]：完善您的资料即可定期获得官方赠与的高价值神秘礼包。|[font color='#FF9933']3.[/font]游戏内的第一首资料将优先知晓" clubtext="美女客服QQ" information="单月充值满{0}元专属客服QQ立即显示|验证填写信息：角色名、服务器、充值金额等|[font color='#49d42f']QQ验证成功后，即可享受贴心专属服务[/font]"/>
+	</pf>
+	<pf id="51wan" pic="51wan" title="超级会员" gold="20000" goldtext="2000" qq="800008404">
+		<single gold="5000" isopen="0" goldtext="500"/>
+		<reward item="100001" num="1" bind="1"/>
+		<desc text="[font color='#FF9933']1.专属通道[/font]：美女客服一对一的贴身服务，优先解答您的疑问及需求。|[font color='#FF9933']2.专属大礼包[/font]：完善您的资料即可获得我们赠送的神秘大礼包。|[font color='#FF9933']3.优先权[/font]：游戏内的第一首资料将优先知晓。" clubtext="美女客服QQ" information="单月充值满{0}元专属客服QQ立即显示|验证填写信息：角色名、服务器、充值金额等|[font color='#49d42f']QQ验证成功后，即可享受贴心专属服务[/font]"/>
+	</pf>
+</root>

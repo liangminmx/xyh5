@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- -->
+<root>
+	<!--顺网每日礼包-->
+	<dailyGift>
+		<level lv="1">
+			<item reward="100591" num="1" bind="1"/>
+			<item reward="108303" num="2" bind="1"/>
+		</level>
+		<level lv="2">
+			<item reward="100591" num="1" bind="1"/>
+			<item reward="108303" num="3" bind="1"/>
+		</level>
+		<level lv="3">
+			<item reward="100591" num="2" bind="1"/>
+			<item reward="108303" num="4" bind="1"/>
+			<item reward="108503" num="2" bind="1"/>
+		</level>
+		<level lv="4">
+			<item reward="100591" num="2" bind="1"/>
+			<item reward="108303" num="5" bind="1"/>
+			<item reward="108503" num="3" bind="1"/>
+		</level>
+		<level lv="5">
+			<item reward="100591" num="3" bind="1"/>
+			<item reward="108303" num="6" bind="1"/>
+			<item reward="108503" num="4" bind="1"/>
+		</level>
+	</dailyGift>
+	<!--顺网成长-->
+	<growGift>
+		<level lv="10">
+			<item reward="100001" num="1" bind="1"/>
+		</level>
+		<level lv="20">
+			<item reward="100001" num="1" bind="1"/>
+		</level>
+		<level lv="30">
+			<item reward="100001" num="1" bind="1"/>
+		</level>
+		<level lv="40">
+			<item reward="100001" num="1" bind="1"/>
+		</level>
+		<level lv="50">
+			<item reward="100001" num="1" bind="1"/>
+		</level>
+		<level lv="60">
+			<item reward="100001" num="1" bind="1"/>
+		</level>
+	</growGift>
+	<!--新手礼包-->
+	<newbie>
+		<item num="1" bind="1" reward="100001"/>
+	</newbie>
+	<!--顺网称号-->
+	<title>
+		<level lv="1">
+			<item reward="703006" num="1" bind="1"/>
+		</level>
+		<level lv="2">
+			<item reward="703007" num="1" bind="1"/>
+		</level>
+		<level lv="3">
+			<item reward="703008" num="1" bind="1"/>
+		</level>
+		<level lv="4">
+			<item reward="703009" num="1" bind="1"/>
+		</level>
+		<level lv="5">
+			<item reward="703010" num="1" bind="1"/>
+		</level>
+	</title>
+</root>

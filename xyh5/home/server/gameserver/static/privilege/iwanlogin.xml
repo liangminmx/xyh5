@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!--
+openlv	开放等级
+	
+item	爱玩平台每日登陆礼包道具id
+num	每日登陆礼包道具数量
+bind	绑定状态=0可交易，=1绑定
+day	登录天数
+item	爱玩平台每日登陆礼包道具id
+num	每日登陆礼包道具数量
+bind	绑定状态=0可交易，=1绑定
+
+-->
+	<open openlv="1"/>
+	<daygift>
+		<gift item="100590" num="1" bind="1"/>
+		<gift item="108303" num="1" bind="1"/>
+		<gift item="105001" num="1" bind="1"/>
+	</daygift>
+	<login day="1">
+		<gift item="108303" num="2" bind="1"/>
+		<gift item="100591" num="1" bind="1"/>
+		<gift item="100001" num="1" bind="1"/>
+		<gift item="108505" num="1" bind="1"/>
+	</login>
+	<login day="2">
+		<gift item="108303" num="2" bind="1"/>
+		<gift item="100591" num="2" bind="1"/>
+		<gift item="100001" num="1" bind="1"/>
+		<gift item="108505" num="1" bind="1"/>
+	</login>
+	<login day="3">
+		<gift item="108303" num="5" bind="1"/>
+		<gift item="100591" num="2" bind="1"/>
+		<gift item="100001" num="2" bind="1"/>
+		<gift item="108505" num="1" bind="1"/>
+	</login>
+	<login day="4">
+		<gift item="108303" num="5" bind="1"/>
+		<gift item="100591" num="3" bind="1"/>
+		<gift item="100001" num="2" bind="1"/>
+		<gift item="108505" num="2" bind="1"/>
+	</login>
+	<login day="5">
+		<gift item="108303" num="10" bind="1"/>
+		<gift item="100591" num="3" bind="1"/>
+		<gift item="100001" num="2" bind="1"/>
+		<gift item="108505" num="2" bind="1"/>
+	</login>
+	<login day="6">
+		<gift item="108303" num="10" bind="1"/>
+		<gift item="100591" num="3" bind="1"/>
+		<gift item="100001" num="3" bind="1"/>
+		<gift item="108505" num="2" bind="1"/>
+	</login>
+	<login day="7">
+		<gift item="108303" num="10" bind="1"/>
+		<gift item="100591" num="3" bind="1"/>
+		<gift item="100001" num="3" bind="1"/>
+		<gift item="108505" num="4" bind="1"/>
+	</login>
+</root>

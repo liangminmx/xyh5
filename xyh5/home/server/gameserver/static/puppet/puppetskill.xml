@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<!--id  // 技能配置ID
+id 技能id
+icon 技能图标
+skilldesc 技能描述#value1#属性类型，#value2#属性值定值，#value3#属性值百分比，
+attributetype 属性类型：=0气血，=1攻击，=2防御，=3命中，=4闪避，=5暴击，=6韧性
+attributeper 增加的百分比
+attributenum 增加的属性值
+-->
+<puppetskill>
+  <skillinfo id="1" skill_name="初级锋锐" icon="201" skilldesc="永久增加主人#value1##value2#点" attributetype="1" attributeper="0" attributenum="358"/>
+  <skillinfo id="2" skill_name="中级锋锐" icon="202" skilldesc="永久增加主人#value1##value2#点" attributetype="1" attributeper="0" attributenum="646"/>
+  <skillinfo id="3" skill_name="高级锋锐" icon="203" skilldesc="永久增加主人#value1##value2#点" attributetype="1" attributeper="0" attributenum="1163"/>
+  <skillinfo id="4" skill_name="大师级锋锐" icon="204" skilldesc="永久增加主人#value1##value2#点" attributetype="1" attributeper="0" attributenum="2093"/>
+  <skillinfo id="5" skill_name="宗师级锋锐" icon="205" skilldesc="永久增加主人#value1##value2#点" attributetype="1" attributeper="0" attributenum="3589"/>
+  <skillinfo id="6" skill_name="初级必杀" icon="206" skilldesc="永久增加主人#value1##value2#点" attributetype="5" attributeper="0" attributenum="358"/>
+  <skillinfo id="7" skill_name="中级必杀" icon="207" skilldesc="永久增加主人#value1##value2#点" attributetype="5" attributeper="0" attributenum="646"/>
+  <skillinfo id="8" skill_name="高级必杀" icon="208" skilldesc="永久增加主人#value1##value2#点" attributetype="5" attributeper="0" attributenum="1163"/>
+  <skillinfo id="9" skill_name="大师级必杀" icon="209" skilldesc="永久增加主人#value1##value2#点" attributetype="5" attributeper="0" attributenum="2093"/>
+  <skillinfo id="10" skill_name="宗师级必杀" icon="210" skilldesc="永久增加主人#value1##value2#点" attributetype="5" attributeper="0" attributenum="3589"/>
+  <skillinfo id="11" skill_name="初级精准" icon="211" skilldesc="永久增加主人#value1##value2#点" attributetype="3" attributeper="0" attributenum="358"/>
+  <skillinfo id="12" skill_name="中级精准" icon="212" skilldesc="永久增加主人#value1##value2#点" attributetype="3" attributeper="0" attributenum="646"/>
+  <skillinfo id="13" skill_name="高级精准" icon="213" skilldesc="永久增加主人#value1##value2#点" attributetype="3" attributeper="0" attributenum="1163"/>
+  <skillinfo id="14" skill_name="大师级精准" icon="214" skilldesc="永久增加主人#value1##value2#点" attributetype="3" attributeper="0" attributenum="2093"/>
+  <skillinfo id="15" skill_name="宗师级精准" icon="215" skilldesc="永久增加主人#value1##value2#点" attributetype="3" attributeper="0" attributenum="3589"/>
+  <skillinfo id="16" skill_name="至尊级锋锐" icon="216" skilldesc="永久增加主人#value1##value2#点" attributetype="1" attributeper="0" attributenum="3856"/>
+  <skillinfo id="17" skill_name="至尊级必杀" icon="217" skilldesc="永久增加主人#value1##value2#点" attributetype="5" attributeper="0" attributenum="3856"/>
+  <skillinfo id="18" skill_name="至尊级精准" icon="218" skilldesc="永久增加主人#value1##value2#点" attributetype="3" attributeper="0" attributenum="3856"/>
+
+</puppetskill>

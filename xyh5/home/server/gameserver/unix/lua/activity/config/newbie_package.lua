@@ -1,0 +1,108 @@
+_newbie_package_Info = {
+	config = {
+		[1] = {
+			package = {
+				[1] = {Level = 10,package_num = 6,money = 5000,realmPoint = [[]],emoney2 = [[]],
+					equip = {
+						[1] = {equip = 1001107,num = 1,stage = 1,bind = 1,},
+					},
+					item = {
+						[1] = {item = 100581,num = 1,bind = 1,},
+						[2] = {item = 100590,num = 1,bind = 1,},
+						[3] = {item = 999981,num = 5,bind = 1,},
+						[4] = {item = 105001,num = 1,bind = 1,},
+					},
+				},
+				[2] = {Level = 20,package_num = 6,money = 8000,realmPoint = [[]],emoney2 = [[]],
+					equip = {
+						[1] = {equip = 1001108,num = 1,stage = 1,bind = 1,},
+					},
+					item = {
+						[1] = {item = 107003,num = 10,bind = 1,},
+						[2] = {item = 100590,num = 2,bind = 1,},
+						[3] = {item = 999981,num = 5,bind = 1,},
+						[4] = {item = 105001,num = 2,bind = 1,},
+					},
+				},
+				[3] = {Level = 30,package_num = 6,money = 10000,realmPoint = [[]],emoney2 = [[]],
+					item = {
+						[1] = {item = 101001,num = 1,bind = 1,},
+						[2] = {item = 100581,num = 2,bind = 1,},
+						[3] = {item = 100591,num = 1,bind = 1,},
+						[4] = {item = 999981,num = 10,bind = 1,},
+						[5] = {item = 105001,num = 2,bind = 1,},
+					},
+				},
+				[4] = {Level = 40,package_num = 6,money = 15000,realmPoint = [[]],emoney2 = [[]],
+					item = {
+						[1] = {item = 101001,num = 2,bind = 1,},
+						[2] = {item = 107003,num = 20,bind = 1,},
+						[3] = {item = 100591,num = 2,bind = 1,},
+						[4] = {item = 999981,num = 10,bind = 1,},
+						[5] = {item = 105001,num = 3,bind = 1,},
+					},
+				},
+				[5] = {Level = 50,package_num = 6,money = 20000,realmPoint = [[]],emoney2 = [[]],
+					item = {
+						[1] = {item = 109501,num = 1,bind = 1,},
+						[2] = {item = 100582,num = 1,bind = 1,},
+						[3] = {item = 100592,num = 1,bind = 1,},
+						[4] = {item = 999981,num = 20,bind = 1,},
+						[5] = {item = 105001,num = 3,bind = 1,},
+					},
+				},
+				[6] = {Level = 60,package_num = 6,money = 30000,realmPoint = [[]],emoney2 = [[]],
+					equip = {
+						[1] = {equip = 2060101,num = 1,stage = 1,bind = 1,},
+					},
+					item = {
+						[1] = {item = 109501,num = 2,bind = 1,},
+						[2] = {item = 107003,num = 30,bind = 1,},
+						[3] = {item = 999981,num = 20,bind = 1,},
+						[4] = {item = 105001,num = 5,bind = 1,},
+					},
+				},
+				[7] = {Level = 65,package_num = 6,money = 40000,realmPoint = [[]],emoney2 = [[]],
+					equip = {
+						[1] = {equip = 2060109,num = 1,stage = 1,bind = 1,},
+					},
+					item = {
+						[1] = {item = 900007,num = 1,bind = 1,},
+						[2] = {item = 100582,num = 2,bind = 1,},
+						[3] = {item = 999981,num = 30,bind = 1,},
+						[4] = {item = 105001,num = 5,bind = 1,},
+					},
+				},
+				[8] = {Level = 70,package_num = 6,money = 50000,realmPoint = [[]],emoney2 = [[]],
+					equip = {
+						[1] = {equip = 2060102,num = 1,stage = 1,bind = 1,},
+					},
+					item = {
+						[1] = {item = 900007,num = 2,bind = 1,},
+						[2] = {item = 107003,num = 50,bind = 1,},
+						[3] = {item = 999981,num = 30,bind = 1,},
+						[4] = {item = 105001,num = 10,bind = 1,},
+					},
+				},
+				[9] = {Level = 75,package_num = 6,money = 80000,realmPoint = [[]],emoney2 = [[]],
+					item = {
+						[1] = {item = 101501,num = 1,bind = 1,},
+						[2] = {item = 100583,num = 1,bind = 1,},
+						[3] = {item = 100593,num = 1,bind = 1,},
+						[4] = {item = 999981,num = 50,bind = 1,},
+						[5] = {item = 105001,num = 10,bind = 1,},
+					},
+				},
+				[10] = {Level = 80,package_num = 6,money = 100000,realmPoint = [[]],emoney2 = [[]],
+					item = {
+						[1] = {item = 101501,num = 2,bind = 1,},
+						[2] = {item = 100583,num = 2,bind = 1,},
+						[3] = {item = 100594,num = 1,bind = 1,},
+						[4] = {item = 999981,num = 100,bind = 1,},
+						[5] = {item = 105001,num = 10,bind = 1,},
+					},
+				},
+			},
+		},
+	},
+}

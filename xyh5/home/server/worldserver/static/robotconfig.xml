@@ -1,0 +1,12 @@
+<?xml version="1.0"  encoding="utf-8"  ?>
+<Root>
+	<Login begin="9" end="9"/>
+	<Plug module="3" active="0"/>
+	<Plug module="4" active="1"/>
+	<Plug module="5" active="0"/>
+	<Plug module="6" active="0"/>
+	<Plug module="7" active="0"/>
+
+
+	<flyscene sceneid="6006" posx="38" posy="41"/>
+</Root>

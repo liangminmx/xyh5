@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<!--
+functionid	功能id
+pf	平台标识
+link	官网链接
+textname	默认生成的text文件名
+mailid	包裹满的时候发送的邮件ID
+emoney	元宝奖励
+itemid	首次使用微端登陆获得的道具id
+num	道具数量
+bind	绑定状态=1绑定，=0不绑定
+-->
+	<functionid functionid="604"/>
+	<platform pf="37wan" textname="《雪鹰领主》账号信息.txt" mailid="135" link="xylz.37.com">
+		<reward emoney="50">
+			<item itemid="101001" num="5" bind="1"/>
+			<item itemid="100597" num="1" bind="1"/>
+			<item itemid="100583" num="2" bind="1"/>
+		</reward>
+	</platform>
+</root>

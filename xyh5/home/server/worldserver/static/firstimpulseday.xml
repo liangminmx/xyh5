@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+functionid	每日首冲福利开启ID			
+advertisement	广告语资源ID			
+matchesid	场次标识ID			
+open_day 开服第几天后开启活动“填0等于开服当天开启”
+begin_time	开始时间（格式XX：XX:XX）时：分：秒			
+end_time	结束时间（格式XX：XX:XX）时：分：秒	
+firstmatchesid 最先从指定id的活动开始		
+type	标识ID			
+money	充值金额			
+text	价值文本						
+item	道具ID			
+num	道具数量			
+bind	是否绑定（绑定=1）			
+time	过期时间（格式XX-XX-XX）填0无时限	
+mailid  过期发放奖励邮件id 		
+by 绑元
+	
+
+
+
+
+-->
+	<server serverNum="-1">
+		<pro functionid="2034" advertisement="" open_day="0" begin_time="00:00:00" end_time="23:59:59" firstmatchesid="1" mailid="1009001"/>
+		<time matchesid="1" lastmatchesid="1">
+			<type type="1" advertisement="" money="1" text="价值5888元宝" by="500">
+				<item item="10000007" num="100" bind="1" time="0"/>
+				<item item="16010035" num="1" bind="1" time="0"/>
+				<item item="16010028" num="5" bind="1" time="0"/>
+				<item item="10000009" num="10" bind="1" time="0"/>
+				<item item="10000004" num="1" bind="1" time="0"/>
+			</type>
+			<type type="2" advertisement="" money="38" text="价值10888元宝" by="1000">
+				<item item="10000008" num="100" bind="1" time="0"/>
+				<item item="16010036" num="1" bind="1" time="0"/>
+				<item item="16010029" num="3" bind="1" time="0"/>
+				<item item="10000009" num="30" bind="1" time="0"/>
+				<item item="10000004" num="2" bind="1" time="0"/>
+			</type>
+			<type type="3" advertisement="" money="58" text="价值18888元宝" by="2000">
+				<item item="10000008" num="200" bind="1" time="0"/>
+				<item item="16010036" num="2" bind="1" time="0"/>
+				<item item="16010029" num="5" bind="1" time="0"/>
+				<item item="10000009" num="50" bind="1" time="0"/>
+				<item item="10000004" num="3" bind="1" time="0"/>
+			</type>
+			<type type="4" advertisement="" money="88" text="价值36666元宝" by="50000">
+				<item item="10000008" num="300" bind="1" time="0"/>
+				<item item="10000006" num="100" bind="1" time="0"/>
+				<item item="16010036" num="3" bind="1" time="0"/>
+				<item item="16010029" num="8" bind="1" time="0"/>
+				<item item="10000004" num="4" bind="1" time="0"/>
+			</type>
+		</time>
+	</server>
+	<server serverNum="0">
+		<pro functionid="2034" advertisement="" open_day="0" begin_time="00:00:00" end_time="23:59:59" firstmatchesid="1" mailid="1009001"/>
+		<time matchesid="1" lastmatchesid="1">
+			<type type="1" advertisement="" money="1" text="价值5888元宝" by="500">
+				<item item="10000007" num="10" bind="1" time="0"/>
+				<item item="10000014" num="300" bind="1" time="0"/>
+				<item item="10000009" num="10" bind="1" time="0"/>
+				<item item="10000004" num="1" bind="1" time="0"/>
+				<item item="10000001" num="3" bind="1" time="0"/>
+			</type>
+			<type type="2" advertisement="" money="38" text="价值10888元宝" by="2000">
+				<item item="10000007" num="20" bind="1" time="0"/>
+				<item item="10000014" num="500" bind="1" time="0"/>
+				<item item="10000009" num="20" bind="1" time="0"/>
+				<item item="10000004" num="2" bind="1" time="0"/>
+				<item item="10000001" num="7" bind="1" time="0"/>
+			</type>
+			<type type="3" advertisement="" money="58" text="价值18888元宝" by="5000">
+				<item item="10000006" num="50" bind="1" time="0"/>
+				<item item="10000007" num="50" bind="1" time="0"/>
+				<item item="10000014" num="1000" bind="1" time="0"/>
+				<item item="10000009" num="30" bind="1" time="0"/>
+				<item item="10000004" num="3" bind="1" time="0"/>
+			</type>
+			<type type="4" advertisement="" money="88" text="价值36666元宝" by="10000">
+				<item item="10000006" num="150" bind="1" time="0"/>
+				<item item="10000007" num="100" bind="1" time="0"/>
+				<item item="10000014" num="2000" bind="1" time="0"/>
+				<item item="10000009" num="50" bind="1" time="0"/>
+				<item item="10000004" num="5" bind="1" time="0"/>
+			</type>
+		</time>
+	</server>
+</root>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+functionid	功能id
+groupid	活动id
+name	活动名字
+sortid	活动显示排序id
+moneytype	奖池奖金货币类型
+=1银两
+=2元宝
+=3 绑元
+basemoney	奖池基础奖金
+opentime	活动开启具体时间及结束时间
+例如：2019-2-20 00:00:00
+endtime  活动具体结束时间
+例如：2019-2-20 00:00:00
+icon 活动入口图标
+ giftbag	礼包id
+itemid	道具id及数量，（道具id，道具数量；道具id，道具数量）
+bmoney	绑元数量（不填则无）
+money	银两数量（不填则无）
+emoneycost	礼包元宝售价
+addnum	单次购买礼包增加的奖池金额数
+addcishu	单次购买礼包增加的抽奖次数
+daylimit	每人每日购买该礼包次数限制
+=-1 表示无限制
+alllimit	活动期间内每人可购买总次数限制
+=-1 表示无限制
+bonustype	奖池奖金参数值类型
+=1 固定值
+=2 万分比参数
+bonus	奖金参数值
+weight	随机权重
+-->
+	<function functionid="6672"/>
+	<group groupid="3" name="乐透抽奖" sortid="2" moneytype="2" basemoney="5000" opentime="2019-4-12 00:00:00" endtime="2019-4-15 00:00:00" icon="6672">
+		<gift giftbag="1" itemid="16010022,2;10000008,500;10000101,5" bmoney="" money="" emoneycost="588" addnum="294" addcishu="1" daylimit="5" alllimit="-1"/>
+		<gift giftbag="2" itemid="16010022,10;10000008,1000;10000101,10" bmoney="" money="" emoneycost="1888" addnum="944" addcishu="2" daylimit="2" alllimit="-1"/>
+		<gift giftbag="3" itemid="16010022,30;10000008,3000;10000101,50" bmoney="" money="" emoneycost="5888" addnum="2944" addcishu="5" daylimit="1" alllimit="-1"/>
+		<weight id="1" bonustype="2" bonus="10000" weight="50"/>
+		<weight id="2" bonustype="1" bonus="588" weight="500"/>
+		<weight id="3" bonustype="2" bonus="2500" weight="1000"/>
+		<weight id="4" bonustype="1" bonus="1888" weight="100"/>
+		<weight id="5" bonustype="2" bonus="5000" weight="200"/>
+		<weight id="6" bonustype="1" bonus="288" weight="8150"/>
+	</group>
+	<group groupid="4" name="乐透抽奖" sortid="3" moneytype="2" basemoney="5000" opentime="2019-4-26 00:00:00" endtime="2019-4-29 00:00:00" icon="6672">
+		<gift giftbag="1" itemid="16010030,2;16010028,2;10000008,500" bmoney="" money="" emoneycost="588" addnum="294" addcishu="1" daylimit="5" alllimit="-1"/>
+		<gift giftbag="2" itemid="16010030,10;16010028,10;10000008,1000" bmoney="" money="" emoneycost="1888" addnum="944" addcishu="2" daylimit="2" alllimit="-1"/>
+		<gift giftbag="3" itemid="16010030,30;16010028,30;10000008,3000" bmoney="" money="" emoneycost="5888" addnum="2944" addcishu="5" daylimit="1" alllimit="-1"/>
+		<weight id="1" bonustype="2" bonus="10000" weight="50"/>
+		<weight id="2" bonustype="1" bonus="588" weight="500"/>
+		<weight id="3" bonustype="2" bonus="2500" weight="1000"/>
+		<weight id="4" bonustype="1" bonus="1888" weight="100"/>
+		<weight id="5" bonustype="2" bonus="5000" weight="200"/>
+		<weight id="6" bonustype="1" bonus="288" weight="8150"/>
+	</group>
+	<group groupid="5" name="乐透抽奖" sortid="4" moneytype="2" basemoney="5000" opentime="2019-4-30 00:00:00" endtime="2019-5-6 00:00:00" icon="6672">
+		<gift giftbag="1" itemid="16010031,1;16010029,1" bmoney="" money="" emoneycost="588" addnum="294" addcishu="1" daylimit="5" alllimit="-1"/>
+		<gift giftbag="2" itemid="16010031,4;16010029,4;10000008,200" bmoney="" money="" emoneycost="1888" addnum="944" addcishu="2" daylimit="2" alllimit="-1"/>
+		<gift giftbag="3" itemid="16010031,10;16010029,10;10000008,1000" bmoney="" money="" emoneycost="5888" addnum="2944" addcishu="5" daylimit="1" alllimit="-1"/>
+		<weight id="1" bonustype="2" bonus="10000" weight="50"/>
+		<weight id="2" bonustype="1" bonus="588" weight="500"/>
+		<weight id="3" bonustype="2" bonus="2500" weight="1000"/>
+		<weight id="4" bonustype="1" bonus="1888" weight="100"/>
+		<weight id="5" bonustype="2" bonus="5000" weight="200"/>
+		<weight id="6" bonustype="1" bonus="288" weight="8150"/>
+	</group>
+	<group groupid="6" name="乐透抽奖" sortid="5" moneytype="2" basemoney="5000" opentime="2019-5-10 00:00:00" endtime="2019-5-13 00:00:00" icon="6672">
+		<gift giftbag="1" itemid="16010022,3;10000009,10" bmoney="" money="" emoneycost="588" addnum="294" addcishu="1" daylimit="5" alllimit="-1"/>
+		<gift giftbag="2" itemid="10000008,500;16010022,10;10000009,30" bmoney="" money="" emoneycost="1888" addnum="944" addcishu="2" daylimit="2" alllimit="-1"/>
+		<gift giftbag="3" itemid="10000008,2000;16010022,30;10000009,100" bmoney="" money="" emoneycost="5888" addnum="2944" addcishu="5" daylimit="1" alllimit="-1"/>
+		<weight id="1" bonustype="2" bonus="10000" weight="50"/>
+		<weight id="2" bonustype="1" bonus="588" weight="500"/>
+		<weight id="3" bonustype="2" bonus="2500" weight="1000"/>
+		<weight id="4" bonustype="1" bonus="1888" weight="100"/>
+		<weight id="5" bonustype="2" bonus="5000" weight="200"/>
+		<weight id="6" bonustype="1" bonus="288" weight="8150"/>
+	</group>
+	<group groupid="7" name="乐透抽奖" sortid="6" moneytype="2" basemoney="5000" opentime="2019-5-31 00:00:00" endtime="2019-6-2 23:59:59" icon="6672">
+		<gift giftbag="1" itemid="16010046,1;16010049,10;16010039,10" bmoney="" money="" emoneycost="588" addnum="294" addcishu="1" daylimit="5" alllimit="-1"/>
+		<gift giftbag="2" itemid="16010047,1;16010049,30;16010039,20" bmoney="" money="" emoneycost="1888" addnum="944" addcishu="2" daylimit="2" alllimit="-1"/>
+		<gift giftbag="3" itemid="16010048,1;16010049,50;16010039,30" bmoney="" money="" emoneycost="5888" addnum="2944" addcishu="5" daylimit="1" alllimit="-1"/>
+		<weight id="1" bonustype="2" bonus="10000" weight="50"/>
+		<weight id="2" bonustype="1" bonus="588" weight="500"/>
+		<weight id="3" bonustype="2" bonus="2500" weight="1000"/>
+		<weight id="4" bonustype="1" bonus="1888" weight="100"/>
+		<weight id="5" bonustype="2" bonus="5000" weight="200"/>
+		<weight id="6" bonustype="1" bonus="288" weight="8150"/>
+	</group>
+	<group groupid="8" name="乐透抽奖" sortid="7" moneytype="2" basemoney="5000" opentime="2019-6-9 00:00:00" endtime="2019-6-9 23:59:59" icon="6672">
+		<gift giftbag="1" itemid="16010022,5;10000009,12" bmoney="" money="" emoneycost="588" addnum="294" addcishu="1" daylimit="5" alllimit="-1"/>
+		<gift giftbag="2" itemid="10000008,600;16010022,15;10000009,40" bmoney="" money="" emoneycost="1888" addnum="944" addcishu="2" daylimit="2" alllimit="-1"/>
+		<gift giftbag="3" itemid="10000008,2000;16010022,60;10000009,160" bmoney="" money="" emoneycost="5888" addnum="2944" addcishu="5" daylimit="1" alllimit="-1"/>
+		<weight id="1" bonustype="2" bonus="10000" weight="50"/>
+		<weight id="2" bonustype="1" bonus="588" weight="500"/>
+		<weight id="3" bonustype="2" bonus="2500" weight="1000"/>
+		<weight id="4" bonustype="1" bonus="1888" weight="100"/>
+		<weight id="5" bonustype="2" bonus="5000" weight="200"/>
+		<weight id="6" bonustype="1" bonus="288" weight="8150"/>
+	</group>
+	<group groupid="9" name="乐透抽奖" sortid="8" moneytype="2" basemoney="5000" opentime="2019-6-21 00:00:00" endtime="2019-6-23 23:59:59" icon="6672">
+		<gift giftbag="1" itemid="16010061,1;10000009,12" bmoney="" money="" emoneycost="588" addnum="294" addcishu="1" daylimit="5" alllimit="-1"/>
+		<gift giftbag="2" itemid="10000008,600;16010062,1;10000009,40" bmoney="" money="" emoneycost="1888" addnum="944" addcishu="2" daylimit="2" alllimit="-1"/>
+		<gift giftbag="3" itemid="10000008,2000;16010068,1;10000009,160" bmoney="" money="" emoneycost="5888" addnum="2944" addcishu="5" daylimit="1" alllimit="-1"/>
+		<weight id="1" bonustype="2" bonus="10000" weight="50"/>
+		<weight id="2" bonustype="1" bonus="588" weight="500"/>
+		<weight id="3" bonustype="2" bonus="2500" weight="1000"/>
+		<weight id="4" bonustype="1" bonus="1888" weight="100"/>
+		<weight id="5" bonustype="2" bonus="5000" weight="200"/>
+		<weight id="6" bonustype="1" bonus="288" weight="8150"/>
+	</group>
+	<group groupid="10" name="乐透抽奖" sortid="8" moneytype="2" basemoney="5000" opentime="2019-7-5 00:00:00" endtime="2019-7-7 23:59:59" icon="6672">
+		<gift giftbag="1" itemid="16010061,1;10000009,12" bmoney="" money="" emoneycost="588" addnum="294" addcishu="1" daylimit="5" alllimit="-1"/>
+		<gift giftbag="2" itemid="10000008,600;16010062,1;10000009,40" bmoney="" money="" emoneycost="1888" addnum="944" addcishu="2" daylimit="2" alllimit="-1"/>
+		<gift giftbag="3" itemid="10000008,2000;16010068,1;10000009,160" bmoney="" money="" emoneycost="5888" addnum="2944" addcishu="5" daylimit="1" alllimit="-1"/>
+		<weight id="1" bonustype="2" bonus="10000" weight="50"/>
+		<weight id="2" bonustype="1" bonus="588" weight="500"/>
+		<weight id="3" bonustype="2" bonus="2500" weight="1000"/>
+		<weight id="4" bonustype="1" bonus="1888" weight="100"/>
+		<weight id="5" bonustype="2" bonus="5000" weight="200"/>
+		<weight id="6" bonustype="1" bonus="288" weight="8150"/>
+	</group>
+	<group groupid="11" name="乐透抽奖" sortid="8" moneytype="2" basemoney="5000" opentime="2019-7-19 00:00:00" endtime="2019-7-21 23:59:59" icon="6672">
+		<gift giftbag="1" itemid="16010022,5;10000009,12" bmoney="" money="" emoneycost="588" addnum="294" addcishu="1" daylimit="5" alllimit="-1"/>
+		<gift giftbag="2" itemid="10000008,600;16010022,15;10000009,40" bmoney="" money="" emoneycost="1888" addnum="944" addcishu="2" daylimit="2" alllimit="-1"/>
+		<gift giftbag="3" itemid="10000008,2000;16010022,60;10000009,160" bmoney="" money="" emoneycost="5888" addnum="2944" addcishu="5" daylimit="1" alllimit="-1"/>
+		<weight id="1" bonustype="2" bonus="10000" weight="50"/>
+		<weight id="2" bonustype="1" bonus="588" weight="500"/>
+		<weight id="3" bonustype="2" bonus="2500" weight="1000"/>
+		<weight id="4" bonustype="1" bonus="1888" weight="100"/>
+		<weight id="5" bonustype="2" bonus="5000" weight="200"/>
+		<weight id="6" bonustype="1" bonus="288" weight="8150"/>
+	</group>
+	<group groupid="12" name="乐透抽奖" sortid="8" moneytype="2" basemoney="5000" opentime="2019-8-2 00:00:00" endtime="2019-8-4 23:59:59" icon="6672">
+		<gift giftbag="1" itemid="16010061,1;10000009,12" bmoney="" money="" emoneycost="588" addnum="294" addcishu="1" daylimit="5" alllimit="-1"/>
+		<gift giftbag="2" itemid="10000008,600;16010062,1;10000009,40" bmoney="" money="" emoneycost="1888" addnum="944" addcishu="2" daylimit="2" alllimit="-1"/>
+		<gift giftbag="3" itemid="10000008,2000;16010068,1;10000009,160" bmoney="" money="" emoneycost="5888" addnum="2944" addcishu="5" daylimit="1" alllimit="-1"/>
+		<weight id="1" bonustype="2" bonus="10000" weight="50"/>
+		<weight id="2" bonustype="1" bonus="588" weight="500"/>
+		<weight id="3" bonustype="2" bonus="2500" weight="1000"/>
+		<weight id="4" bonustype="1" bonus="1888" weight="100"/>
+		<weight id="5" bonustype="2" bonus="5000" weight="200"/>
+		<weight id="6" bonustype="1" bonus="288" weight="8150"/>
+	</group>
+</root>

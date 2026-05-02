@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+qualitymax 提品值满值
+suitid 多个套装id,”,”区分
+qualityminnum 提品值下限
+qualitymaxnum 提品质上限
+realm 阶级
+maxstage 阶级内的层级总数
+text 阶级名称描述
+stage 阶级内的层级
+item 提升层级所需的道具id
+num 提升层级所需的道具数量
+money 提升层级所需的银两
+text 层级名称描述
+iconeff 小图标特效
+iconeff2 大图标特效
+tipeff tips特效
+-->
+<equipattributes>
+	<equipquality equiptype="1,2,3,4,5,6,7,8,9,10">
+		<equip realm="1">
+			<stage stage="1" attratio="0.75" addattratio="1" iconEff="20001" iconEff2="20006" tipEff=""/>
+			<stage stage="2" attratio="0.8" addattratio="1" iconEff="20002" iconEff2="20007" tipEff=""/>
+			<stage stage="3" attratio="0.85" addattratio="1" iconEff="20003" iconEff2="20008" tipEff=""/>
+			<stage stage="4" attratio="0.9" addattratio="1" iconEff="20004" iconEff2="20009" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20005" iconEff2="20011" tipEff=""/>
+		</equip>
+		<equip realm="2">
+			<stage stage="1" attratio="0.75" addattratio="1" iconEff="20001" iconEff2="20006" tipEff=""/>
+			<stage stage="2" attratio="0.8" addattratio="1" iconEff="20002" iconEff2="20007" tipEff=""/>
+			<stage stage="3" attratio="0.85" addattratio="1" iconEff="20003" iconEff2="20008" tipEff=""/>
+			<stage stage="4" attratio="0.9" addattratio="1" iconEff="20004" iconEff2="20009" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20005" iconEff2="20011" tipEff=""/>
+		</equip>
+		<equip realm="3">
+			<stage stage="1" attratio="0.75" addattratio="1" iconEff="20001" iconEff2="20006" tipEff=""/>
+			<stage stage="2" attratio="0.8" addattratio="1" iconEff="20002" iconEff2="20007" tipEff=""/>
+			<stage stage="3" attratio="0.85" addattratio="1" iconEff="20003" iconEff2="20008" tipEff=""/>
+			<stage stage="4" attratio="0.9" addattratio="1" iconEff="20004" iconEff2="20009" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20005" iconEff2="20011" tipEff=""/>
+		</equip>
+		<equip realm="4">
+			<stage stage="1" attratio="0.75" addattratio="1" iconEff="20001" iconEff2="20006" tipEff=""/>
+			<stage stage="2" attratio="0.8" addattratio="1" iconEff="20002" iconEff2="20007" tipEff=""/>
+			<stage stage="3" attratio="0.85" addattratio="1" iconEff="20003" iconEff2="20008" tipEff=""/>
+			<stage stage="4" attratio="0.9" addattratio="1" iconEff="20004" iconEff2="20009" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20005" iconEff2="20011" tipEff=""/>
+		</equip>
+		<equip realm="5">
+			<stage stage="1" attratio="0.75" addattratio="1" iconEff="20021" iconEff2="20026" tipEff=""/>
+			<stage stage="2" attratio="0.8" addattratio="1" iconEff="20022" iconEff2="20027" tipEff=""/>
+			<stage stage="3" attratio="0.85" addattratio="1" iconEff="20023" iconEff2="20028" tipEff=""/>
+			<stage stage="4" attratio="0.9" addattratio="1" iconEff="20024" iconEff2="20029" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20025" iconEff2="20030" tipEff=""/>
+		</equip>
+		<equip realm="6">
+			<stage stage="1" attratio="0.75" addattratio="1" iconEff="20031" iconEff2="20036" tipEff=""/>
+			<stage stage="2" attratio="0.8" addattratio="1" iconEff="20032" iconEff2="20037" tipEff=""/>
+			<stage stage="3" attratio="0.85" addattratio="1" iconEff="20033" iconEff2="20038" tipEff=""/>
+			<stage stage="4" attratio="0.9" addattratio="1" iconEff="20034" iconEff2="20039" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20035" iconEff2="20040" tipEff=""/>
+		</equip>
+		<equip realm="7">
+			<stage stage="1" attratio="0.75" addattratio="1" iconEff="20041" iconEff2="20046" tipEff=""/>
+			<stage stage="2" attratio="0.8" addattratio="1" iconEff="20042" iconEff2="20047" tipEff=""/>
+			<stage stage="3" attratio="0.85" addattratio="1" iconEff="20043" iconEff2="20048" tipEff=""/>
+			<stage stage="4" attratio="0.9" addattratio="1" iconEff="20044" iconEff2="20049" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20045" iconEff2="20050" tipEff=""/>
+		</equip>
+		<equip realm="8">
+			<stage stage="1" attratio="0.75" addattratio="1" iconEff="20051" iconEff2="20056" tipEff=""/>
+			<stage stage="2" attratio="0.8" addattratio="1" iconEff="20052" iconEff2="20057" tipEff=""/>
+			<stage stage="3" attratio="0.85" addattratio="1" iconEff="20053" iconEff2="20058" tipEff=""/>
+			<stage stage="4" attratio="0.9" addattratio="1" iconEff="20054" iconEff2="20059" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20055" iconEff2="20060" tipEff=""/>
+		</equip>
+		<equip realm="9">
+			<stage stage="1" attratio="0.75" addattratio="1" iconEff="20061" iconEff2="20066" tipEff=""/>
+			<stage stage="2" attratio="0.8" addattratio="1" iconEff="20062" iconEff2="20067" tipEff=""/>
+			<stage stage="3" attratio="0.85" addattratio="1" iconEff="20063" iconEff2="20068" tipEff=""/>
+			<stage stage="4" attratio="0.9" addattratio="1" iconEff="20064" iconEff2="20069" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20065" iconEff2="20070" tipEff=""/>
+		</equip>
+		<equip realm="10">
+			<stage stage="1" attratio="0.75" addattratio="1" iconEff="20071" iconEff2="20076" tipEff=""/>
+			<stage stage="2" attratio="0.8" addattratio="1" iconEff="20072" iconEff2="20077" tipEff=""/>
+			<stage stage="3" attratio="0.85" addattratio="1" iconEff="20073" iconEff2="20078" tipEff=""/>
+			<stage stage="4" attratio="0.9" addattratio="1" iconEff="20074" iconEff2="20079" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20075" iconEff2="20080" tipEff=""/>
+		</equip>
+	</equipquality>
+	<equipquality equiptype="11">
+		<equip realm="1" addattnum="0">
+			<stage stage="1" attratio="1" addattratio="1" iconEff="20001" iconEff2="20006" tipEff=""/>
+			<stage stage="2" attratio="1" addattratio="1" iconEff="20002" iconEff2="20007" tipEff=""/>
+			<stage stage="3" attratio="1" addattratio="1" iconEff="20003" iconEff2="20008" tipEff=""/>
+			<stage stage="4" attratio="1" addattratio="1" iconEff="20004" iconEff2="20009" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20005" iconEff2="20011" tipEff=""/>
+		</equip>
+		<equip realm="2" addattnum="0">
+			<stage stage="1" attratio="1" addattratio="1" iconEff="20001" iconEff2="20006" tipEff=""/>
+			<stage stage="2" attratio="1" addattratio="1" iconEff="20002" iconEff2="20007" tipEff=""/>
+			<stage stage="3" attratio="1" addattratio="1" iconEff="20003" iconEff2="20008" tipEff=""/>
+			<stage stage="4" attratio="1" addattratio="1" iconEff="20004" iconEff2="20009" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20005" iconEff2="20011" tipEff=""/>
+		</equip>
+		<equip realm="3" addattnum="0">
+			<stage stage="1" attratio="1" addattratio="1" iconEff="20001" iconEff2="20006" tipEff=""/>
+			<stage stage="2" attratio="1" addattratio="1" iconEff="20002" iconEff2="20007" tipEff=""/>
+			<stage stage="3" attratio="1" addattratio="1" iconEff="20003" iconEff2="20008" tipEff=""/>
+			<stage stage="4" attratio="1" addattratio="1" iconEff="20004" iconEff2="20009" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20005" iconEff2="20011" tipEff=""/>
+		</equip>
+		<equip realm="4" addattnum="0">
+			<stage stage="1" attratio="1" addattratio="1" iconEff="20001" iconEff2="20006" tipEff=""/>
+			<stage stage="2" attratio="1" addattratio="1" iconEff="20002" iconEff2="20007" tipEff=""/>
+			<stage stage="3" attratio="1" addattratio="1" iconEff="20003" iconEff2="20008" tipEff=""/>
+			<stage stage="4" attratio="1" addattratio="1" iconEff="20004" iconEff2="20009" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20005" iconEff2="20011" tipEff=""/>
+		</equip>
+		<equip realm="5" addattnum="0">
+			<stage stage="1" attratio="1" addattratio="1" iconEff="20021" iconEff2="20026" tipEff=""/>
+			<stage stage="2" attratio="1" addattratio="1" iconEff="20022" iconEff2="20027" tipEff=""/>
+			<stage stage="3" attratio="1" addattratio="1" iconEff="20023" iconEff2="20028" tipEff=""/>
+			<stage stage="4" attratio="1" addattratio="1" iconEff="20024" iconEff2="20029" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20025" iconEff2="20030" tipEff=""/>
+		</equip>
+		<equip realm="6" addattnum="4">
+			<stage stage="1" attratio="1" addattratio="0.7" iconEff="20031" iconEff2="20036" tipEff=""/>
+			<stage stage="2" attratio="3" addattratio="1" iconEff="20032" iconEff2="20037" tipEff=""/>
+			<stage stage="3" attratio="4" addattratio="1.1" iconEff="20033" iconEff2="20038" tipEff=""/>
+			<stage stage="4" attratio="5" addattratio="1.2" iconEff="20034" iconEff2="20039" tipEff=""/>
+			<stage stage="5" attratio="6" addattratio="1.3" iconEff="20035" iconEff2="20040" tipEff=""/>
+		</equip>
+		<equip realm="7" addattnum="6">
+			<stage stage="1" attratio="2" addattratio="1" iconEff="20041" iconEff2="20046" tipEff=""/>
+			<stage stage="2" attratio="4" addattratio="1.2" iconEff="20042" iconEff2="20047" tipEff=""/>
+			<stage stage="3" attratio="7" addattratio="1.4" iconEff="20043" iconEff2="20048" tipEff=""/>
+			<stage stage="4" attratio="8" addattratio="1.5" iconEff="20044" iconEff2="20049" tipEff=""/>
+			<stage stage="5" attratio="9" addattratio="1.6" iconEff="20045" iconEff2="20050" tipEff=""/>
+		</equip>
+		<equip realm="8" addattnum="8">
+			<stage stage="1" attratio="3" addattratio="1.2" iconEff="20051" iconEff2="20056" tipEff=""/>
+			<stage stage="2" attratio="5" addattratio="1.4" iconEff="20052" iconEff2="20057" tipEff=""/>
+			<stage stage="3" attratio="8" addattratio="1.6" iconEff="20053" iconEff2="20058" tipEff=""/>
+			<stage stage="4" attratio="10" addattratio="2" iconEff="20054" iconEff2="20059" tipEff=""/>
+			<stage stage="5" attratio="11" addattratio="2.1" iconEff="20055" iconEff2="20060" tipEff=""/>
+		</equip>
+		<equip realm="9" addattnum="10">
+			<stage stage="1" attratio="4" addattratio="1.3" iconEff="20061" iconEff2="20066" tipEff=""/>
+			<stage stage="2" attratio="6" addattratio="1.5" iconEff="20062" iconEff2="20067" tipEff=""/>
+			<stage stage="3" attratio="10" addattratio="2" iconEff="20063" iconEff2="20068" tipEff=""/>
+			<stage stage="4" attratio="15" addattratio="2.4" iconEff="20064" iconEff2="20069" tipEff=""/>
+			<stage stage="5" attratio="20" addattratio="3" iconEff="20065" iconEff2="20070" tipEff=""/>
+		</equip>
+		<equip realm="10" addattnum="10">
+			<stage stage="1" attratio="4" addattratio="1.3" iconEff="20071" iconEff2="20076" tipEff=""/>
+			<stage stage="2" attratio="6" addattratio="1.5" iconEff="20072" iconEff2="20077" tipEff=""/>
+			<stage stage="3" attratio="10" addattratio="2" iconEff="20073" iconEff2="20078" tipEff=""/>
+			<stage stage="4" attratio="15" addattratio="2.4" iconEff="20074" iconEff2="20079" tipEff=""/>
+			<stage stage="5" attratio="20" addattratio="3" iconEff="20075" iconEff2="20080" tipEff=""/>
+		</equip>
+	</equipquality>
+	<equipquality equiptype="12">
+		<equip realm="1" addattnum="0">
+			<stage stage="1" attratio="1" addattratio="1" iconEff="20001" iconEff2="20006" tipEff=""/>
+			<stage stage="2" attratio="1" addattratio="1" iconEff="20002" iconEff2="20007" tipEff=""/>
+			<stage stage="3" attratio="1" addattratio="1" iconEff="20003" iconEff2="20008" tipEff=""/>
+			<stage stage="4" attratio="1" addattratio="1" iconEff="20004" iconEff2="20009" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20005" iconEff2="20011" tipEff=""/>
+		</equip>
+		<equip realm="2" addattnum="0">
+			<stage stage="1" attratio="1" addattratio="1" iconEff="20001" iconEff2="20006" tipEff=""/>
+			<stage stage="2" attratio="1" addattratio="1" iconEff="20002" iconEff2="20007" tipEff=""/>
+			<stage stage="3" attratio="1" addattratio="1" iconEff="20003" iconEff2="20008" tipEff=""/>
+			<stage stage="4" attratio="1" addattratio="1" iconEff="20004" iconEff2="20009" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20005" iconEff2="20011" tipEff=""/>
+		</equip>
+		<equip realm="3" addattnum="0">
+			<stage stage="1" attratio="1" addattratio="1" iconEff="20001" iconEff2="20006" tipEff=""/>
+			<stage stage="2" attratio="1" addattratio="1" iconEff="20002" iconEff2="20007" tipEff=""/>
+			<stage stage="3" attratio="1" addattratio="1" iconEff="20003" iconEff2="20008" tipEff=""/>
+			<stage stage="4" attratio="1" addattratio="1" iconEff="20004" iconEff2="20009" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20005" iconEff2="20011" tipEff=""/>
+		</equip>
+		<equip realm="4" addattnum="0">
+			<stage stage="1" attratio="1" addattratio="1" iconEff="20001" iconEff2="20006" tipEff=""/>
+			<stage stage="2" attratio="1" addattratio="1" iconEff="20002" iconEff2="20007" tipEff=""/>
+			<stage stage="3" attratio="1" addattratio="1" iconEff="20003" iconEff2="20008" tipEff=""/>
+			<stage stage="4" attratio="1" addattratio="1" iconEff="20004" iconEff2="20009" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20005" iconEff2="20011" tipEff=""/>
+		</equip>
+		<equip realm="5" addattnum="0">
+			<stage stage="1" attratio="1" addattratio="1" iconEff="20021" iconEff2="20026" tipEff=""/>
+			<stage stage="2" attratio="1" addattratio="1" iconEff="20022" iconEff2="20027" tipEff=""/>
+			<stage stage="3" attratio="1" addattratio="1" iconEff="20023" iconEff2="20028" tipEff=""/>
+			<stage stage="4" attratio="1" addattratio="1" iconEff="20024" iconEff2="20029" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20025" iconEff2="20030" tipEff=""/>
+		</equip>
+		<equip realm="6" addattnum="4">
+			<stage stage="1" attratio="8" addattratio="0.7" iconEff="20031" iconEff2="20036" tipEff=""/>
+			<stage stage="2" attratio="15" addattratio="1" iconEff="20032" iconEff2="20037" tipEff=""/>
+			<stage stage="3" attratio="16" addattratio="1.1" iconEff="20033" iconEff2="20038" tipEff=""/>
+			<stage stage="4" attratio="17" addattratio="1.2" iconEff="20034" iconEff2="20039" tipEff=""/>
+			<stage stage="5" attratio="18" addattratio="1.3" iconEff="20035" iconEff2="20040" tipEff=""/>
+		</equip>
+		<equip realm="7" addattnum="6">
+			<stage stage="1" attratio="10" addattratio="1" iconEff="20041" iconEff2="20046" tipEff=""/>
+			<stage stage="2" attratio="20" addattratio="1.2" iconEff="20042" iconEff2="20047" tipEff=""/>
+			<stage stage="3" attratio="30" addattratio="1.4" iconEff="20043" iconEff2="20048" tipEff=""/>
+			<stage stage="4" attratio="31" addattratio="1.5" iconEff="20044" iconEff2="20049" tipEff=""/>
+			<stage stage="5" attratio="32" addattratio="1.6" iconEff="20045" iconEff2="20050" tipEff=""/>
+		</equip>
+		<equip realm="8" addattnum="8">
+			<stage stage="1" attratio="12" addattratio="1.2" iconEff="20051" iconEff2="20056" tipEff=""/>
+			<stage stage="2" attratio="24" addattratio="1.4" iconEff="20052" iconEff2="20057" tipEff=""/>
+			<stage stage="3" attratio="38" addattratio="1.6" iconEff="20053" iconEff2="20058" tipEff=""/>
+			<stage stage="4" attratio="50" addattratio="2" iconEff="20054" iconEff2="20059" tipEff=""/>
+			<stage stage="5" attratio="51" addattratio="2.1" iconEff="20055" iconEff2="20060" tipEff=""/>
+		</equip>
+		<equip realm="9" addattnum="10">
+			<stage stage="1" attratio="15" addattratio="1.3" iconEff="20061" iconEff2="20066" tipEff=""/>
+			<stage stage="2" attratio="30" addattratio="1.5" iconEff="20062" iconEff2="20067" tipEff=""/>
+			<stage stage="3" attratio="50" addattratio="2" iconEff="20063" iconEff2="20068" tipEff=""/>
+			<stage stage="4" attratio="80" addattratio="2.4" iconEff="20064" iconEff2="20069" tipEff=""/>
+			<stage stage="5" attratio="100" addattratio="3" iconEff="20065" iconEff2="20070" tipEff=""/>
+		</equip>
+		<equip realm="10" addattnum="10">
+			<stage stage="1" attratio="15" addattratio="1.3" iconEff="20071" iconEff2="20076" tipEff=""/>
+			<stage stage="2" attratio="30" addattratio="1.5" iconEff="20072" iconEff2="20077" tipEff=""/>
+			<stage stage="3" attratio="50" addattratio="2" iconEff="20073" iconEff2="20078" tipEff=""/>
+			<stage stage="4" attratio="80" addattratio="2.4" iconEff="20074" iconEff2="20079" tipEff=""/>
+			<stage stage="5" attratio="100" addattratio="3" iconEff="20075" iconEff2="20080" tipEff=""/>
+		</equip>
+	</equipquality>
+	<equipquality equiptype="13,14,15,16">
+		<equip realm="1" addattnum="0">
+			<stage stage="1" attratio="0.75" addattratio="1" iconEff="20001" iconEff2="20006" tipEff=""/>
+			<stage stage="2" attratio="0.8" addattratio="1" iconEff="20002" iconEff2="20007" tipEff=""/>
+			<stage stage="3" attratio="0.85" addattratio="1" iconEff="20003" iconEff2="20008" tipEff=""/>
+			<stage stage="4" attratio="0.9" addattratio="1" iconEff="20004" iconEff2="20009" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20005" iconEff2="20011" tipEff=""/>
+		</equip>
+		<equip realm="2" addattnum="2">
+			<stage stage="1" attratio="0.75" addattratio="1" iconEff="20001" iconEff2="20006" tipEff=""/>
+			<stage stage="2" attratio="0.8" addattratio="1" iconEff="20002" iconEff2="20007" tipEff=""/>
+			<stage stage="3" attratio="0.85" addattratio="1" iconEff="20003" iconEff2="20008" tipEff=""/>
+			<stage stage="4" attratio="0.9" addattratio="1" iconEff="20004" iconEff2="20009" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20005" iconEff2="20011" tipEff=""/>
+		</equip>
+		<equip realm="3" addattnum="2">
+			<stage stage="1" attratio="0.75" addattratio="1" iconEff="20001" iconEff2="20006" tipEff=""/>
+			<stage stage="2" attratio="0.8" addattratio="1" iconEff="20002" iconEff2="20007" tipEff=""/>
+			<stage stage="3" attratio="0.85" addattratio="1" iconEff="20003" iconEff2="20008" tipEff=""/>
+			<stage stage="4" attratio="0.9" addattratio="1" iconEff="20004" iconEff2="20009" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20005" iconEff2="20011" tipEff=""/>
+		</equip>
+		<equip realm="4" addattnum="4">
+			<stage stage="1" attratio="0.75" addattratio="1" iconEff="20001" iconEff2="20006" tipEff=""/>
+			<stage stage="2" attratio="0.8" addattratio="1" iconEff="20002" iconEff2="20007" tipEff=""/>
+			<stage stage="3" attratio="0.85" addattratio="1" iconEff="20003" iconEff2="20008" tipEff=""/>
+			<stage stage="4" attratio="0.9" addattratio="1" iconEff="20004" iconEff2="20009" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20005" iconEff2="20011" tipEff=""/>
+		</equip>
+		<equip realm="5" addattnum="4">
+			<stage stage="1" attratio="0.75" addattratio="1" iconEff="20021" iconEff2="20026" tipEff=""/>
+			<stage stage="2" attratio="0.8" addattratio="1" iconEff="20022" iconEff2="20027" tipEff=""/>
+			<stage stage="3" attratio="0.85" addattratio="1" iconEff="20023" iconEff2="20028" tipEff=""/>
+			<stage stage="4" attratio="0.9" addattratio="1" iconEff="20024" iconEff2="20029" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20025" iconEff2="20030" tipEff=""/>
+		</equip>
+		<equip realm="6" addattnum="6">
+			<stage stage="1" attratio="0.75" addattratio="1" iconEff="20031" iconEff2="20036" tipEff=""/>
+			<stage stage="2" attratio="0.8" addattratio="1" iconEff="20032" iconEff2="20037" tipEff=""/>
+			<stage stage="3" attratio="0.85" addattratio="1" iconEff="20033" iconEff2="20038" tipEff=""/>
+			<stage stage="4" attratio="0.9" addattratio="1" iconEff="20034" iconEff2="20039" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20035" iconEff2="20040" tipEff=""/>
+		</equip>
+		<equip realm="7" addattnum="6">
+			<stage stage="1" attratio="0.75" addattratio="1" iconEff="20041" iconEff2="20046" tipEff=""/>
+			<stage stage="2" attratio="0.8" addattratio="1" iconEff="20042" iconEff2="20047" tipEff=""/>
+			<stage stage="3" attratio="0.85" addattratio="1" iconEff="20043" iconEff2="20048" tipEff=""/>
+			<stage stage="4" attratio="0.9" addattratio="1" iconEff="20044" iconEff2="20049" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20045" iconEff2="20050" tipEff=""/>
+		</equip>
+		<equip realm="8" addattnum="8">
+			<stage stage="1" attratio="0.75" addattratio="1" iconEff="20051" iconEff2="20056" tipEff=""/>
+			<stage stage="2" attratio="0.8" addattratio="1" iconEff="20052" iconEff2="20057" tipEff=""/>
+			<stage stage="3" attratio="0.85" addattratio="1" iconEff="20053" iconEff2="20058" tipEff=""/>
+			<stage stage="4" attratio="0.9" addattratio="1" iconEff="20054" iconEff2="20059" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20055" iconEff2="20060" tipEff=""/>
+		</equip>
+		<equip realm="9" addattnum="8">
+			<stage stage="1" attratio="0.75" addattratio="1" iconEff="20061" iconEff2="20066" tipEff=""/>
+			<stage stage="2" attratio="0.8" addattratio="1" iconEff="20062" iconEff2="20067" tipEff=""/>
+			<stage stage="3" attratio="0.85" addattratio="1" iconEff="20063" iconEff2="20068" tipEff=""/>
+			<stage stage="4" attratio="0.9" addattratio="1" iconEff="20064" iconEff2="20069" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20065" iconEff2="20070" tipEff=""/>
+		</equip>
+		<equip realm="10" addattnum="10">
+			<stage stage="1" attratio="0.75" addattratio="1" iconEff="20071" iconEff2="20076" tipEff=""/>
+			<stage stage="2" attratio="0.8" addattratio="1" iconEff="20072" iconEff2="20077" tipEff=""/>
+			<stage stage="3" attratio="0.85" addattratio="1" iconEff="20073" iconEff2="20078" tipEff=""/>
+			<stage stage="4" attratio="0.9" addattratio="1" iconEff="20074" iconEff2="20079" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20075" iconEff2="20080" tipEff=""/>
+		</equip>
+	</equipquality>
+	<equipquality equiptype="17,18,19,20">
+		<equip realm="1" addattnum="0">
+			<stage stage="1" attratio="0.75" addattratio="1" iconEff="20001" iconEff2="20006" tipEff=""/>
+			<stage stage="2" attratio="0.8" addattratio="1" iconEff="20002" iconEff2="20007" tipEff=""/>
+			<stage stage="3" attratio="0.85" addattratio="1" iconEff="20003" iconEff2="20008" tipEff=""/>
+			<stage stage="4" attratio="0.9" addattratio="1" iconEff="20004" iconEff2="20009" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20005" iconEff2="20011" tipEff=""/>
+		</equip>
+		<equip realm="2" addattnum="2">
+			<stage stage="1" attratio="0.75" addattratio="1" iconEff="20001" iconEff2="20006" tipEff=""/>
+			<stage stage="2" attratio="0.8" addattratio="1" iconEff="20002" iconEff2="20007" tipEff=""/>
+			<stage stage="3" attratio="0.85" addattratio="1" iconEff="20003" iconEff2="20008" tipEff=""/>
+			<stage stage="4" attratio="0.9" addattratio="1" iconEff="20004" iconEff2="20009" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20005" iconEff2="20011" tipEff=""/>
+		</equip>
+		<equip realm="3" addattnum="2">
+			<stage stage="1" attratio="0.75" addattratio="1" iconEff="20001" iconEff2="20006" tipEff=""/>
+			<stage stage="2" attratio="0.8" addattratio="1" iconEff="20002" iconEff2="20007" tipEff=""/>
+			<stage stage="3" attratio="0.85" addattratio="1" iconEff="20003" iconEff2="20008" tipEff=""/>
+			<stage stage="4" attratio="0.9" addattratio="1" iconEff="20004" iconEff2="20009" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20005" iconEff2="20011" tipEff=""/>
+		</equip>
+		<equip realm="4" addattnum="4">
+			<stage stage="1" attratio="0.75" addattratio="1" iconEff="20001" iconEff2="20006" tipEff=""/>
+			<stage stage="2" attratio="0.8" addattratio="1" iconEff="20002" iconEff2="20007" tipEff=""/>
+			<stage stage="3" attratio="0.85" addattratio="1" iconEff="20003" iconEff2="20008" tipEff=""/>
+			<stage stage="4" attratio="0.9" addattratio="1" iconEff="20004" iconEff2="20009" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20005" iconEff2="20011" tipEff=""/>
+		</equip>
+		<equip realm="5" addattnum="4">
+			<stage stage="1" attratio="0.75" addattratio="1" iconEff="20021" iconEff2="20026" tipEff=""/>
+			<stage stage="2" attratio="0.8" addattratio="1" iconEff="20022" iconEff2="20027" tipEff=""/>
+			<stage stage="3" attratio="0.85" addattratio="1" iconEff="20023" iconEff2="20028" tipEff=""/>
+			<stage stage="4" attratio="0.9" addattratio="1" iconEff="20024" iconEff2="20029" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20025" iconEff2="20030" tipEff=""/>
+		</equip>
+		<equip realm="6" addattnum="6">
+			<stage stage="1" attratio="0.75" addattratio="1" iconEff="20031" iconEff2="20036" tipEff=""/>
+			<stage stage="2" attratio="0.8" addattratio="1" iconEff="20032" iconEff2="20037" tipEff=""/>
+			<stage stage="3" attratio="0.85" addattratio="1" iconEff="20033" iconEff2="20038" tipEff=""/>
+			<stage stage="4" attratio="0.9" addattratio="1" iconEff="20034" iconEff2="20039" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20035" iconEff2="20040" tipEff=""/>
+		</equip>
+		<equip realm="7" addattnum="6">
+			<stage stage="1" attratio="0.75" addattratio="1" iconEff="20041" iconEff2="20046" tipEff=""/>
+			<stage stage="2" attratio="0.8" addattratio="1" iconEff="20042" iconEff2="20047" tipEff=""/>
+			<stage stage="3" attratio="0.85" addattratio="1" iconEff="20043" iconEff2="20048" tipEff=""/>
+			<stage stage="4" attratio="0.9" addattratio="1" iconEff="20044" iconEff2="20049" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20045" iconEff2="20050" tipEff=""/>
+		</equip>
+		<equip realm="8" addattnum="8">
+			<stage stage="1" attratio="0.75" addattratio="1" iconEff="20051" iconEff2="20056" tipEff=""/>
+			<stage stage="2" attratio="0.8" addattratio="1" iconEff="20052" iconEff2="20057" tipEff=""/>
+			<stage stage="3" attratio="0.85" addattratio="1" iconEff="20053" iconEff2="20058" tipEff=""/>
+			<stage stage="4" attratio="0.9" addattratio="1" iconEff="20054" iconEff2="20059" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20055" iconEff2="20060" tipEff=""/>
+		</equip>
+		<equip realm="9" addattnum="8">
+			<stage stage="1" attratio="0.75" addattratio="1" iconEff="20061" iconEff2="20066" tipEff=""/>
+			<stage stage="2" attratio="0.8" addattratio="1" iconEff="20062" iconEff2="20067" tipEff=""/>
+			<stage stage="3" attratio="0.85" addattratio="1" iconEff="20063" iconEff2="20068" tipEff=""/>
+			<stage stage="4" attratio="0.9" addattratio="1" iconEff="20064" iconEff2="20069" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20065" iconEff2="20070" tipEff=""/>
+		</equip>
+		<equip realm="10" addattnum="10">
+			<stage stage="1" attratio="0.75" addattratio="1" iconEff="20071" iconEff2="20076" tipEff=""/>
+			<stage stage="2" attratio="0.8" addattratio="1" iconEff="20072" iconEff2="20077" tipEff=""/>
+			<stage stage="3" attratio="0.85" addattratio="1" iconEff="20073" iconEff2="20078" tipEff=""/>
+			<stage stage="4" attratio="0.9" addattratio="1" iconEff="20074" iconEff2="20079" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20075" iconEff2="20080" tipEff=""/>
+		</equip>
+	</equipquality>
+	<equipquality equiptype="21">
+		<equip realm="1">
+			<stage stage="1" attratio="1" addattratio="1" iconEff="20031" iconEff2="20036" tipEff=""/>
+			<stage stage="2" attratio="1" addattratio="1" iconEff="20032" iconEff2="20037" tipEff=""/>
+			<stage stage="3" attratio="1" addattratio="1" iconEff="20033" iconEff2="20038" tipEff=""/>
+			<stage stage="4" attratio="1" addattratio="1" iconEff="20034" iconEff2="20039" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20035" iconEff2="20040" tipEff=""/>
+		</equip>
+		<equip realm="2">
+			<stage stage="1" attratio="1" addattratio="1" iconEff="20031" iconEff2="20036" tipEff=""/>
+			<stage stage="2" attratio="1" addattratio="1" iconEff="20032" iconEff2="20037" tipEff=""/>
+			<stage stage="3" attratio="1" addattratio="1" iconEff="20033" iconEff2="20038" tipEff=""/>
+			<stage stage="4" attratio="1" addattratio="1" iconEff="20034" iconEff2="20039" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20035" iconEff2="20040" tipEff=""/>
+		</equip>
+		<equip realm="3">
+			<stage stage="1" attratio="1" addattratio="1" iconEff="20031" iconEff2="20036" tipEff=""/>
+			<stage stage="2" attratio="1" addattratio="1" iconEff="20032" iconEff2="20037" tipEff=""/>
+			<stage stage="3" attratio="1" addattratio="1" iconEff="20033" iconEff2="20038" tipEff=""/>
+			<stage stage="4" attratio="1" addattratio="1" iconEff="20034" iconEff2="20039" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20035" iconEff2="20040" tipEff=""/>
+		</equip>
+		<equip realm="4">
+			<stage stage="1" attratio="1" addattratio="1" iconEff="20031" iconEff2="20036" tipEff=""/>
+			<stage stage="2" attratio="1" addattratio="1" iconEff="20032" iconEff2="20037" tipEff=""/>
+			<stage stage="3" attratio="1" addattratio="1" iconEff="20033" iconEff2="20038" tipEff=""/>
+			<stage stage="4" attratio="1" addattratio="1" iconEff="20034" iconEff2="20039" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20035" iconEff2="20040" tipEff=""/>
+		</equip>
+		<equip realm="5">
+			<stage stage="1" attratio="1" addattratio="1" iconEff="20031" iconEff2="20036" tipEff=""/>
+			<stage stage="2" attratio="1" addattratio="1" iconEff="20032" iconEff2="20037" tipEff=""/>
+			<stage stage="3" attratio="1" addattratio="1" iconEff="20033" iconEff2="20038" tipEff=""/>
+			<stage stage="4" attratio="1" addattratio="1" iconEff="20034" iconEff2="20039" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20035" iconEff2="20040" tipEff=""/>
+		</equip>
+		<equip realm="6">
+			<stage stage="1" attratio="1" addattratio="1" iconEff="20031" iconEff2="20036" tipEff=""/>
+			<stage stage="2" attratio="1" addattratio="1" iconEff="20032" iconEff2="20037" tipEff=""/>
+			<stage stage="3" attratio="1" addattratio="1" iconEff="20033" iconEff2="20038" tipEff=""/>
+			<stage stage="4" attratio="1" addattratio="1" iconEff="20034" iconEff2="20039" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20035" iconEff2="20040" tipEff=""/>
+		</equip>
+		<equip realm="7">
+			<stage stage="1" attratio="1" addattratio="1" iconEff="20041" iconEff2="20046" tipEff=""/>
+			<stage stage="2" attratio="1" addattratio="1" iconEff="20042" iconEff2="20047" tipEff=""/>
+			<stage stage="3" attratio="1" addattratio="1" iconEff="20043" iconEff2="20048" tipEff=""/>
+			<stage stage="4" attratio="1" addattratio="1" iconEff="20044" iconEff2="20049" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20045" iconEff2="20050" tipEff=""/>
+		</equip>
+		<equip realm="8">
+			<stage stage="1" attratio="1" addattratio="1" iconEff="20051" iconEff2="20056" tipEff=""/>
+			<stage stage="2" attratio="1" addattratio="1" iconEff="20052" iconEff2="20057" tipEff=""/>
+			<stage stage="3" attratio="1" addattratio="1" iconEff="20053" iconEff2="20058" tipEff=""/>
+			<stage stage="4" attratio="1" addattratio="1" iconEff="20054" iconEff2="20059" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20055" iconEff2="20060" tipEff=""/>
+		</equip>
+		<equip realm="9">
+			<stage stage="1" attratio="1" addattratio="1" iconEff="20061" iconEff2="20066" tipEff=""/>
+			<stage stage="2" attratio="1" addattratio="1" iconEff="20062" iconEff2="20067" tipEff=""/>
+			<stage stage="3" attratio="1" addattratio="1" iconEff="20063" iconEff2="20068" tipEff=""/>
+			<stage stage="4" attratio="1" addattratio="1" iconEff="20064" iconEff2="20069" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20065" iconEff2="20070" tipEff=""/>
+		</equip>
+		<equip realm="10">
+			<stage stage="1" attratio="1" addattratio="1" iconEff="20071" iconEff2="20076" tipEff=""/>
+			<stage stage="2" attratio="1" addattratio="1" iconEff="20072" iconEff2="20077" tipEff=""/>
+			<stage stage="3" attratio="1" addattratio="1" iconEff="20073" iconEff2="20078" tipEff=""/>
+			<stage stage="4" attratio="1" addattratio="1" iconEff="20074" iconEff2="20079" tipEff=""/>
+			<stage stage="5" attratio="1" addattratio="1" iconEff="20075" iconEff2="20080" tipEff=""/>
+		</equip>
+	</equipquality>
+</equipattributes>

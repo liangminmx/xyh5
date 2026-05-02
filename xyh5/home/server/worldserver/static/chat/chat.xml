@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 被2012 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<Root>
+	<!--
+sendName	发送者名字的颜色
+targeName	接收者名字的颜色
+channelid	频道ID
+=1综合
+=110 当前
+=120 世界
+=130队伍
+=140 传音
+=200 本服（非常态显示）
+=210 阵营（非常态显示）
+=500 系统
+channel_name	频道名字
+channelcolor	信息展示框显示文本颜色
+color	频道列表显示的颜色
+coloring	聊天输入框输入的文字颜色
+limit_level	频道发言限制等级
+wordnum	发言字数限制
+viplev	只有喊话功能用到，用来判断玩家VIP等级是否满足配置需求
+cooling_time	频道发言冷却时间，单位秒（秒数除以一千）
+num	连续发言数
+time	禁言时间
+duration	喇叭持续时间（仅频道为传音频道时填写有效单位秒）
+isclose	是否常态显示
+=1显示
+=0不显示
+talk	是否可发送信息
+=1可以发送信息
+=0不能发送信息
+receive	判定是否需要在角色头顶显示对话框
+=1，显示
+=0，不显示
+item	喊话需要的道具
+itemnum	喊话需要使用的道具数量
+
+-->
+	<chat sendName="#ff9000" targetName="#feecbf" Channelid="0" Channel_name="综合" channelcolor="#fbf2bc" color="#fce6cd" coloring="#fce6cd" limit_level="1" wordnum="96" cooling_time="5000" num="3" time="200" isclose="1" talk="1" receive="1"/>
+	<chat sendName="#ff9000" targetName="#feecbf" Channelid="1" Channel_name="当前" channelcolor="#fbf2bc" color="#00CD00" coloring="#fce6cd" limit_level="1" wordnum="96" cooling_time="5000" num="3" time="200" isclose="1" talk="1" receive="1"/>
+	<chat sendName="#ff9000" targetName="#feecbf" Channelid="2" Channel_name="阵营" channelcolor="#fbf2bc" color="#EE6AA7" coloring="#fce6cd" limit_level="1" wordnum="96" cooling_time="5000" num="3" time="200" isclose="0" talk="1" receive="0"/>
+	<chat sendName="#ff9000" targetName="#feecbf" Channelid="3" Channel_name="家族" channelcolor="#fbf2bc" color="#ff20f7" coloring="#fce6cd" limit_level="1" wordnum="96" cooling_time="5000" num="3" time="200" isclose="1" talk="1" receive="0"/>
+	<chat sendName="#ff9000" targetName="#feecbf" Channelid="4" Channel_name="队伍" channelcolor="#fbf2bc" color="#1E90FF" coloring="#fce6cd" limit_level="1" wordnum="96" cooling_time="5000" num="3" time="200" isclose="1" talk="1" receive="1"/>
+	<chat sendName="#ff9000" targetName="#feecbf" Channelid="5" Channel_name="传音" channelcolor="#fbf2bc" color="#ffea00" coloring="#fce6cd" limit_level="1" wordnum="96" viplev="2" duration="2" isclose="1" talk="1" receive="0" item="600001" itemnum="1"/>
+	<chat sendName="#ff9000" targetName="#feecbf" Channelid="6" Channel_name="交易" channelcolor="#fbf2bc" color="#EE82EE" coloring="#fce6cd" limit_level="1" wordnum="96" cooling_time="5000" num="3" time="200" isclose="0" talk="0" receive="0"/>
+	<chat sendName="#ff9000" targetName="#feecbf" Channelid="7" Channel_name="系统" channelcolor="#fbf2bc" color="#FF3030" coloring="#fce6cd" limit_level="1" wordnum="96" cooling_time="5000" num="3" time="200" isclose="1" talk="0" receive="0"/>
+	<chat sendName="#ff9000" targetName="#feecbf" Channelid="8" Channel_name="副本" channelcolor="#fbf2bc" color="#1E90FF" coloring="#fce6cd" limit_level="1" wordnum="96" cooling_time="5000" num="3" time="200" isclose="0" talk="0" receive="0"/>
+	<chat sendName="#ff9000" targetName="#feecbf" Channelid="9" Channel_name="战场" channelcolor="#fbf2bc" color="#1E90FF" coloring="#fce6cd" limit_level="1" wordnum="96" cooling_time="5000" num="3" time="200" isclose="0" talk="0" receive="0"/>
+	<chat sendName="#ff9000" targetName="#feecbf" Channelid="10" Channel_name="世界" channelcolor="#fbf2bc" color="#EE7600" coloring="#fce6cd" limit_level="1" wordnum="96" cooling_time="30000" num="3" time="200" isclose="1" talk="1" receive="0"/>
+	<chat sendName="#ff9000" targetName="#feecbf" Channelid="11" Channel_name="红石山" channelcolor="#fbf2bc" color="#EE7600" coloring="#fce6cd" limit_level="1" wordnum="96" cooling_time="5000" num="3" time="200" isclose="0" talk="1" receive="0"/>
+	<chat sendName="#ff9000" targetName="#feecbf" Channelid="100" Channel_name="私聊" channelcolor="#fbf2bc" color="#1E90FF" coloring="#fce6cd" limit_level="1" wordnum="96" cooling_time="5000" num="3" time="200" isclose="1" talk="1" receive="0"/>
+	<chat sendName="#ff9000" targetName="#feecbf" Channelid="200" Channel_name="本服" channelcolor="#fbf2bc" color="#fce6cd" coloring="#fce6cd" limit_level="1" wordnum="96" cooling_time="5000" num="3" time="200" isclose="0" talk="1" receive="0"/>
+</Root>

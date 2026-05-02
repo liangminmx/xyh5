@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+id 装备id与equip.xml中id对应
+equip 装套包含装备内容
+maxnum 套装内总部件数
+suitquality	套装品质（v1.01新增）
+	=101 为上品套装
+	=102 为极品套装
+attack 攻击
+defence 防御
+max_hp 气血
+hit 命中
+dodge 闪避
+crit 暴击
+toughness 韧性
+suitnum 同时穿戴的套装数
+-->
+<suit>
+	<!--雷真套装-->
+	<man_suit id="1001" name="雷真套装【人阶】" maxnum="10" suitquality="101" equip="1001101,1001102,1001103,1001104,1001105,1001106,1001107,1001108,1001109,1001110">
+		<suitnum suitnum="2" toughness="7"/>
+		<suitnum suitnum="4" crit="7"/>
+		<suitnum suitnum="6" max_hp="354"/>
+		<suitnum suitnum="8" defence="11"/>
+		<suitnum suitnum="10" attack="42"/>
+	</man_suit>
+	<man_suit id="1020" name="雷真套装【地阶】" maxnum="10" suitquality="101" equip="1020101,1020102,1020103,1020104,1020105,1020106,1020107,1020108,1020109,1020110">
+		<suitnum suitnum="2" toughness="14"/>
+		<suitnum suitnum="4" crit="14"/>
+		<suitnum suitnum="6" max_hp="592"/>
+		<suitnum suitnum="8" defence="18"/>
+		<suitnum suitnum="10" attack="74"/>
+	</man_suit>
+	<man_suit id="1040" name="雷真套装【天阶】" maxnum="10" suitquality="101" equip="1040101,1040102,1040103,1040104,1040105,1040106,1040107,1040108,1040109,1040110">
+		<suitnum suitnum="2" toughness="18"/>
+		<suitnum suitnum="4" crit="21"/>
+		<suitnum suitnum="6" max_hp="830"/>
+		<suitnum suitnum="8" defence="28"/>
+		<suitnum suitnum="10" attack="102"/>
+	</man_suit>
+	<man_suit id="1060" name="雷真套装【流星】" maxnum="10" suitquality="101" equip="1060101,1060102,1060103,1060104,1060105,1060106,1060107,1060108,1060109,1060110">
+		<suitnum suitnum="2" toughness="32"/>
+		<suitnum suitnum="4" crit="39"/>
+		<suitnum suitnum="6" max_hp="1425"/>
+		<suitnum suitnum="8" defence="46"/>
+		<suitnum suitnum="10" attack="175"/>
+	</man_suit>
+	<man_suit id="1080" name="雷真套装【银月】" maxnum="10" suitquality="101" equip="1080101,1080102,1080103,1080104,1080105,1080106,1080107,1080108,1080109,1080110">
+		<suitnum suitnum="2" toughness="53"/>
+		<suitnum suitnum="4" crit="63"/>
+		<suitnum suitnum="6" max_hp="2258"/>
+		<suitnum suitnum="8" defence="74"/>
+		<suitnum suitnum="10" attack="280"/>
+	</man_suit>
+	<man_suit id="1100" name="雷真套装【称号】" maxnum="10" suitquality="101" equip="1100101,1100102,1100103,1100104,1100105,1100106,1100107,1100108,1100109,1100110">
+		<suitnum suitnum="2" toughness="81"/>
+		<suitnum suitnum="4" crit="98"/>
+		<suitnum suitnum="6" max_hp="3444"/>
+		<suitnum suitnum="8" defence="116"/>
+		<suitnum suitnum="10" attack="427"/>
+	</man_suit>
+	<man_suit id="1120" name="雷真套装【超凡】" maxnum="10" suitquality="101" equip="1120101,1120102,1120103,1120104,1120105,1120106,1120107,1120108,1120109,1120110">
+		<suitnum suitnum="2" toughness="116"/>
+		<suitnum suitnum="4" crit="137"/>
+		<suitnum suitnum="6" max_hp="4753"/>
+		<suitnum suitnum="8" defence="161"/>
+		<suitnum suitnum="10" attack="588"/>
+	</man_suit>
+	<man_suit id="1140" name="雷真套装【圣阶】" maxnum="10" suitquality="101" equip="1140101,1140102,1140103,1140104,1140105,1140106,1140107,1140108,1140109,1140110">
+		<suitnum suitnum="2" toughness="151"/>
+		<suitnum suitnum="4" crit="182"/>
+		<suitnum suitnum="6" max_hp="6297"/>
+		<suitnum suitnum="8" defence="214"/>
+		<suitnum suitnum="10" attack="781"/>
+	</man_suit>
+	<man_suit id="1160" name="雷真套装【半神】" maxnum="10" suitquality="101" equip="1160101,1160102,1160103,1160104,1160105,1160106,1160107,1160108,1160109,1160110">
+		<suitnum suitnum="2" toughness="193"/>
+		<suitnum suitnum="4" crit="231"/>
+		<suitnum suitnum="6" max_hp="7959"/>
+		<suitnum suitnum="8" defence="270"/>
+		<suitnum suitnum="10" attack="987"/>
+	</man_suit>
+	<man_suit id="1180" name="雷真套装【神阶】" maxnum="10" suitquality="101" equip="1180101,1180102,1180103,1180104,1180105,1180106,1180107,1180108,1180109,1180110">
+		<suitnum suitnum="2" toughness="238"/>
+		<suitnum suitnum="4" crit="287"/>
+		<suitnum suitnum="6" max_hp="9860"/>
+		<suitnum suitnum="8" defence="336"/>
+		<suitnum suitnum="10" attack="1225"/>
+	</man_suit>
+	<man_suit id="1200" name="雷真套装【界神】" maxnum="10" suitquality="101" equip="1200101,1200102,1200103,1200104,1200105,1200106,1200107,1200108,1200109,1200110">
+		<suitnum suitnum="2" toughness="287"/>
+		<suitnum suitnum="4" crit="347"/>
+		<suitnum suitnum="6" max_hp="11883"/>
+		<suitnum suitnum="8" defence="403"/>
+		<suitnum suitnum="10" attack="1477"/>
+	</man_suit>
+	<!--黑风套装-->
+	<man_suit id="2001" name="黑风套装【人阶】" maxnum="10" suitquality="102" equip="2001101,2001102,2001103,2001104,2001105,2001106,2001107,2001108,2001109,2001110">
+		<suitnum suitnum="2" toughness="13"/>
+		<suitnum suitnum="4" crit="13"/>
+		<suitnum suitnum="6" max_hp="657"/>
+		<suitnum suitnum="8" defence="20"/>
+		<suitnum suitnum="10" attack="78"/>
+	</man_suit>
+	<man_suit id="2020" name="黑风套装【地阶】" maxnum="10" suitquality="102" equip="2020101,2020102,2020103,2020104,2020105,2020106,2020107,2020108,2020109,2020110">
+		<suitnum suitnum="2" toughness="26"/>
+		<suitnum suitnum="4" crit="26"/>
+		<suitnum suitnum="6" max_hp="1099"/>
+		<suitnum suitnum="8" defence="33"/>
+		<suitnum suitnum="10" attack="137"/>
+	</man_suit>
+	<man_suit id="2040" name="黑风套装【天阶】" maxnum="10" suitquality="102" equip="2040101,2040102,2040103,2040104,2040105,2040106,2040107,2040108,2040109,2040110">
+		<suitnum suitnum="2" toughness="33"/>
+		<suitnum suitnum="4" crit="39"/>
+		<suitnum suitnum="6" max_hp="1541"/>
+		<suitnum suitnum="8" defence="52"/>
+		<suitnum suitnum="10" attack="189"/>
+	</man_suit>
+	<man_suit id="2060" name="黑风套装【流星】" maxnum="10" suitquality="102" equip="2060101,2060102,2060103,2060104,2060105,2060106,2060107,2060108,2060109,2060110">
+		<suitnum suitnum="2" toughness="59"/>
+		<suitnum suitnum="4" crit="72"/>
+		<suitnum suitnum="6" max_hp="2646"/>
+		<suitnum suitnum="8" defence="85"/>
+		<suitnum suitnum="10" attack="325"/>
+	</man_suit>
+	<man_suit id="2080" name="黑风套装【银月】" maxnum="10" suitquality="102" equip="2080101,2080102,2080103,2080104,2080105,2080106,2080107,2080108,2080109,2080110">
+		<suitnum suitnum="2" toughness="98"/>
+		<suitnum suitnum="4" crit="117"/>
+		<suitnum suitnum="6" max_hp="4193"/>
+		<suitnum suitnum="8" defence="137"/>
+		<suitnum suitnum="10" attack="520"/>
+	</man_suit>
+	<man_suit id="2100" name="黑风套装【称号】" maxnum="10" suitquality="102" equip="2100101,2100102,2100103,2100104,2100105,2100106,2100107,2100108,2100109,2100110">
+		<suitnum suitnum="2" toughness="150"/>
+		<suitnum suitnum="4" crit="182"/>
+		<suitnum suitnum="6" max_hp="6396"/>
+		<suitnum suitnum="8" defence="215"/>
+		<suitnum suitnum="10" attack="793"/>
+	</man_suit>
+	<man_suit id="2120" name="黑风套装【超凡】" maxnum="10" suitquality="102" equip="2120101,2120102,2120103,2120104,2120105,2120106,2120107,2120108,2120109,2120110">
+		<suitnum suitnum="2" toughness="215"/>
+		<suitnum suitnum="4" crit="254"/>
+		<suitnum suitnum="6" max_hp="8827"/>
+		<suitnum suitnum="8" defence="299"/>
+		<suitnum suitnum="10" attack="1092"/>
+	</man_suit>
+	<man_suit id="2140" name="黑风套装【圣阶】" maxnum="10" suitquality="102" equip="2140101,2140102,2140103,2140104,2140105,2140106,2140107,2140108,2140109,2140110">
+		<suitnum suitnum="2" toughness="280"/>
+		<suitnum suitnum="4" crit="338"/>
+		<suitnum suitnum="6" max_hp="11694"/>
+		<suitnum suitnum="8" defence="397"/>
+		<suitnum suitnum="10" attack="1450"/>
+	</man_suit>
+	<man_suit id="2160" name="黑风套装【半神】" maxnum="10" suitquality="102" equip="2160101,2160102,2160103,2160104,2160105,2160106,2160107,2160108,2160109,2160110">
+		<suitnum suitnum="2" toughness="358"/>
+		<suitnum suitnum="4" crit="429"/>
+		<suitnum suitnum="6" max_hp="14781"/>
+		<suitnum suitnum="8" defence="501"/>
+		<suitnum suitnum="10" attack="1833"/>
+	</man_suit>
+	<man_suit id="2180" name="黑风套装【神阶】" maxnum="10" suitquality="102" equip="2180101,2180102,2180103,2180104,2180105,2180106,2180107,2180108,2180109,2180110">
+		<suitnum suitnum="2" toughness="442"/>
+		<suitnum suitnum="4" crit="533"/>
+		<suitnum suitnum="6" max_hp="18311"/>
+		<suitnum suitnum="8" defence="624"/>
+		<suitnum suitnum="10" attack="2275"/>
+	</man_suit>
+	<man_suit id="2200" name="黑风套装【界神】" maxnum="10" suitquality="102" equip="2200101,2200102,2200103,2200104,2200105,2200106,2200107,2200108,2200109,2200110">
+		<suitnum suitnum="2" toughness="533"/>
+		<suitnum suitnum="4" crit="644"/>
+		<suitnum suitnum="6" max_hp="22068"/>
+		<suitnum suitnum="8" defence="748"/>
+		<suitnum suitnum="10" attack="2743"/>
+	</man_suit>
+	<!--赤云套装-->
+	<man_suit id="3001" name="赤云套装【人阶】" maxnum="10" suitquality="103" equip="3001101,3001102,3001103,3001104,3001105,3001106,3001107,3001108,3001109,3001110">
+		<suitnum suitnum="2" toughness="20"/>
+		<suitnum suitnum="4" crit="20"/>
+		<suitnum suitnum="6" max_hp="1010"/>
+		<suitnum suitnum="8" defence="30"/>
+		<suitnum suitnum="10" attack="120"/>
+	</man_suit>
+	<man_suit id="3020" name="赤云套装【地阶】" maxnum="10" suitquality="103" equip="3020101,3020102,3020103,3020104,3020105,3020106,3020107,3020108,3020109,3020110">
+		<suitnum suitnum="2" toughness="40"/>
+		<suitnum suitnum="4" crit="40"/>
+		<suitnum suitnum="6" max_hp="1690"/>
+		<suitnum suitnum="8" defence="50"/>
+		<suitnum suitnum="10" attack="210"/>
+	</man_suit>
+	<man_suit id="3040" name="赤云套装【天阶】" maxnum="10" suitquality="103" equip="3040101,3040102,3040103,3040104,3040105,3040106,3040107,3040108,3040109,3040110">
+		<suitnum suitnum="2" toughness="50"/>
+		<suitnum suitnum="4" crit="60"/>
+		<suitnum suitnum="6" max_hp="2370"/>
+		<suitnum suitnum="8" defence="80"/>
+		<suitnum suitnum="10" attack="290"/>
+	</man_suit>
+	<man_suit id="3060" name="赤云套装【流星】" maxnum="10" suitquality="103" equip="3060101,3060102,3060103,3060104,3060105,3060106,3060107,3060108,3060109,3060110">
+		<suitnum suitnum="2" toughness="90"/>
+		<suitnum suitnum="4" crit="110"/>
+		<suitnum suitnum="6" max_hp="4070"/>
+		<suitnum suitnum="8" defence="130"/>
+		<suitnum suitnum="10" attack="500"/>
+	</man_suit>
+	<man_suit id="3080" name="赤云套装【银月】" maxnum="10" suitquality="103" equip="3080101,3080102,3080103,3080104,3080105,3080106,3080107,3080108,3080109,3080110">
+		<suitnum suitnum="2" toughness="150"/>
+		<suitnum suitnum="4" crit="180"/>
+		<suitnum suitnum="6" max_hp="6450"/>
+		<suitnum suitnum="8" defence="210"/>
+		<suitnum suitnum="10" attack="800"/>
+	</man_suit>
+	<man_suit id="3100" name="赤云套装【称号】" maxnum="10" suitquality="103" equip="3100101,3100102,3100103,3100104,3100105,3100106,3100107,3100108,3100109,3100110">
+		<suitnum suitnum="2" toughness="230"/>
+		<suitnum suitnum="4" crit="280"/>
+		<suitnum suitnum="6" max_hp="9840"/>
+		<suitnum suitnum="8" defence="330"/>
+		<suitnum suitnum="10" attack="1220"/>
+	</man_suit>
+	<man_suit id="3120" name="赤云套装【超凡】" maxnum="10" suitquality="103" equip="3120101,3120102,3120103,3120104,3120105,3120106,3120107,3120108,3120109,3120110">
+		<suitnum suitnum="2" toughness="330"/>
+		<suitnum suitnum="4" crit="390"/>
+		<suitnum suitnum="6" max_hp="13580"/>
+		<suitnum suitnum="8" defence="460"/>
+		<suitnum suitnum="10" attack="1680"/>
+	</man_suit>
+	<man_suit id="3140" name="赤云套装【圣阶】" maxnum="10" suitquality="103" equip="3140101,3140102,3140103,3140104,3140105,3140106,3140107,3140108,3140109,3140110">
+		<suitnum suitnum="2" toughness="430"/>
+		<suitnum suitnum="4" crit="520"/>
+		<suitnum suitnum="6" max_hp="17990"/>
+		<suitnum suitnum="8" defence="610"/>
+		<suitnum suitnum="10" attack="2230"/>
+	</man_suit>
+	<man_suit id="3160" name="赤云套装【半神】" maxnum="10" suitquality="103" equip="3160101,3160102,3160103,3160104,3160105,3160106,3160107,3160108,3160109,3160110">
+		<suitnum suitnum="2" toughness="550"/>
+		<suitnum suitnum="4" crit="660"/>
+		<suitnum suitnum="6" max_hp="22740"/>
+		<suitnum suitnum="8" defence="770"/>
+		<suitnum suitnum="10" attack="2820"/>
+	</man_suit>
+	<man_suit id="3180" name="赤云套装【神阶】" maxnum="10" suitquality="103" equip="3180101,3180102,3180103,3180104,3180105,3180106,3180107,3180108,3180109,3180110">
+		<suitnum suitnum="2" toughness="680"/>
+		<suitnum suitnum="4" crit="820"/>
+		<suitnum suitnum="6" max_hp="28170"/>
+		<suitnum suitnum="8" defence="960"/>
+		<suitnum suitnum="10" attack="3500"/>
+	</man_suit>
+	<man_suit id="3200" name="赤云套装【界神】" maxnum="10" suitquality="103" equip="3200101,3200102,3200103,3200104,3200105,3200106,3200107,3200108,3200109,3200110">
+		<suitnum suitnum="2" toughness="820"/>
+		<suitnum suitnum="4" crit="990"/>
+		<suitnum suitnum="6" max_hp="33950"/>
+		<suitnum suitnum="8" defence="1150"/>
+		<suitnum suitnum="10" attack="4220"/>
+	</man_suit>
+</suit>

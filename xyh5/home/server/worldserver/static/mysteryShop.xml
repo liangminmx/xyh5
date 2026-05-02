@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+FunctionId	功能开启	1	Function
+group	活动组别	1	group
+PF	平台PF值
+=-1，所有平台都开启该活动
+=指定值，只在指定的平台开启活动
+可配置多个，用逗号隔开	1	group
+name	活动名称	1	group
+sortid	活动图标显示排序Id	1	group
+activityOpen	活动开启时间
+2019-03-05 00:00:00	1	group
+activityEnds	活动结束时间
+2019-03-08 23:59:59	1	group
+activityEntraceIcon	功能图标	1	group
+ActivityBgMap	活动广告背景图	1	group
+RefreshType	刷新类型
+=0,0活动期间随意刷新,没有次数限制
+=1,X每天有X的刷新次数,第二天重置	1	group
+RefreshTimes	每次刷新需要消耗的元宝
+支持配置多个,用封号为结束
+[次数,消耗;次数,消耗]
+若没取到对应次数,取当前最大次数的消耗	1	group
+DisplayQuantity	根据权重随X个道具进行上架购买	1	group
+DisplayItem	展示道具
+可配置多个，用逗号隔开	2	show
+id	Id值，不可重复	2	item
+itemId	道具Id	2	item
+num	道具数量	2	item
+PurchaseLimit	该道具的限购次数
+=-1代表没有购买限制
+=其他>0的值视为对应的限购次数	2	item
+CurrencyType	货币类型
+=1银两
+=2元宝
+=3绑元	2	item
+OriginalPrice	原价	2	item
+CurrentPrice	现价	2	item
+weight	道具权重	2	item
+-->
+	<function functionid="6686"/>
+	<group groupid="1" name="神秘商店" PF="-1" sortid="5" activityOpen="2019-05-31 00:00:00" activityEnds="2019-06-2 23:59:59" activityEntraceIcon="mysteryShop1" ActivityBgMap="mysteryShopBg" RefreshType="0,0" RefreshTimes="1,500" DisplayQuantity="10">
+		<show DisplayItem="16010053,16010054,16010049,16010060,16010056"/>
+		<item id="1" itemId="16010053" num="1" PurchaseLimit="1" CurrencyType="2" OriginalPrice="1000" CurrentPrice="300" weight="400"/>
+		<item id="2" itemId="16010049" num="1" PurchaseLimit="1" CurrencyType="2" OriginalPrice="200" CurrentPrice="100" weight="200"/>
+		<item id="3" itemId="16010060" num="1" PurchaseLimit="1" CurrencyType="2" OriginalPrice="200" CurrentPrice="100" weight="200"/>
+		<item id="4" itemId="16010054" num="10" PurchaseLimit="1" CurrencyType="2" OriginalPrice="500" CurrentPrice="150" weight="400"/>
+		<item id="5" itemId="16010050" num="10" PurchaseLimit="1" CurrencyType="2" OriginalPrice="500" CurrentPrice="150" weight="400"/>
+		<item id="6" itemId="16010055" num="5" PurchaseLimit="5" CurrencyType="2" OriginalPrice="2500" CurrentPrice="1250" weight="800"/>
+		<item id="7" itemId="16010056" num="30" PurchaseLimit="5" CurrencyType="2" OriginalPrice="1500" CurrentPrice="750" weight="800"/>
+		<item id="8" itemId="16010057" num="50" PurchaseLimit="5" CurrencyType="2" OriginalPrice="500" CurrentPrice="250" weight="800"/>
+		<item id="9" itemId="16010031" num="1" PurchaseLimit="5" CurrencyType="2" OriginalPrice="300" CurrentPrice="150" weight="1200"/>
+		<item id="10" itemId="16010058" num="30" PurchaseLimit="5" CurrencyType="2" OriginalPrice="375" CurrentPrice="150" weight="1600"/>
+		<item id="11" itemId="16010013" num="1" PurchaseLimit="5" CurrencyType="2" OriginalPrice="500" CurrentPrice="250" weight="1600"/>
+		<item id="12" itemId="10000101" num="1" PurchaseLimit="5" CurrencyType="2" OriginalPrice="366" CurrentPrice="150" weight="1600"/>
+	</group>
+</root>

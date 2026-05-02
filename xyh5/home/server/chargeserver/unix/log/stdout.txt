@@ -1,0 +1,43 @@
+2020-03-24 22:06:27 key_t:44824, shmid: 163841
+2020-03-24 22:06:27 database[0] asyn connection over
+2020-03-24 22:06:27 database[0] syn connection over
+2020-03-24 22:06:27 the gameserver binder IP:127.0.0.1, port:8001
+2020-03-24 22:06:27 server start over
+2020-03-24 23:35:33 key_t:45488, shmid: 393217
+2020-03-24 23:35:33 database[0] asyn connection over
+2020-03-24 23:35:33 database[0] syn connection over
+2020-03-24 23:35:33 the gameserver binder IP:127.0.0.1, port:8001
+2020-03-24 23:35:33 server start over
+2020-03-24 23:42:56 key_t:10136, shmid: 32769
+2020-03-24 23:42:56 database[0] asyn connection over
+2020-03-24 23:42:56 database[0] syn connection over
+2020-03-24 23:42:56 the gameserver binder IP:127.0.0.1, port:8001
+2020-03-24 23:42:56 server start over
+2020-03-25 00:41:26 key_t:10542, shmid: 196609
+2020-03-25 00:41:26 database[0] asyn connection over
+2020-03-25 00:41:26 database[0] syn connection over
+2020-03-25 00:41:26 the gameserver binder IP:127.0.0.1, port:8001
+2020-03-25 00:41:26 server start over
+2020-03-25 00:53:56 database[0] asyn re-connection over
+2020-03-25 00:53:56 database[0] syn re-connection over
+2020-03-25 00:55:31 key_t:2300, shmid: 32769
+2020-03-25 00:55:31 database[0] asyn connection over
+2020-03-25 00:55:31 database[0] syn connection over
+2020-03-25 00:55:31 the gameserver binder IP:127.0.0.1, port:8001
+2020-03-25 00:55:31 server start over
+2020-03-25 01:14:43 key_t:2625, shmid: 229382
+2020-03-25 01:14:43 database[0] asyn connection over
+2020-03-25 01:14:43 database[0] syn connection over
+2020-03-25 01:17:01 key_t:2766, shmid: 393217
+2020-03-25 01:17:01 database[0] asyn connection over
+2020-03-25 01:17:01 database[0] syn connection over
+2020-03-25 01:17:01 the gameserver binder IP:127.0.0.1, port:8001
+2020-03-25 01:17:01 server start over
+2020-03-25 18:42:54 key_t:32252, shmid: 557057
+2020-03-25 18:42:54 database[0] asyn connection over
+2020-03-25 18:42:54 database[0] syn connection over
+2020-03-25 18:42:54 the gameserver binder IP:127.0.0.1, port:8001
+2020-03-25 18:42:54 server start over
+2020-03-25 22:21:56 key_t:37356, shmid: 720909
+2020-03-25 22:21:56 database[0] asyn connection over
+2020-03-25 22:21:56 database[0] syn connection over

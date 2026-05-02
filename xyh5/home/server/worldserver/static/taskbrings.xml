@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+functionid	功能id
+groupid	活动id
+name	活动名字
+sortid	活动显示排序id
+opentime	活动开启具体时间
+例如：2019-2-20 00:00:00
+endtime	活动具体结束时间
+例如：2019-2-20 00:00:00
+icon	活动入口icon
+activetype	活动重置类型
+=1 每日重置
+=2 活动结束后重置
+moneycost	重置一次奖池所需消耗元宝数
+=-1没有重置功能
+id	标识id（程序用）
+itemid	道具id
+itemnum	道具数量
+weight	道具权重
+	
+bringnum	对应抽奖次数
+tasktype	完成任务类型
+=1 活动期间累计充值金额
+=2 当日累计充值金额
+=3活动期间累计消耗元宝数
+=4当日累计消耗元宝数
+=5 活动期间在线时长（分钟）
+=6 当日在线时长（分钟）
+=7花费元宝抽奖
+=8 花费绑元抽奖（可用元宝代替）
+=9 花费银两抽奖
+taskparameter	任务参数
+des	任务描述（策划标识）
+link	任务跳转界面（不填则弹出通用提示）
+-->
+	<function functionid="6683"/>
+	<group groupid="1" name="节日转盘" sortid="1" opentime="2019-4-19 00:00:00" endtime="2019-4-21 23:59:59" icon="6683" activetype="1" moneycost="-1">
+		<item id="1" itemid="10000102" itemnum="1" weight="4000"/>
+		<item id="2" itemid="16010033" itemnum="3" weight="1"/>
+		<item id="3" itemid="16010029" itemnum="1" weight="2800"/>
+		<item id="4" itemid="16010021" itemnum="1" weight="90"/>
+		<item id="5" itemid="16010001" itemnum="5" weight="900"/>
+		<item id="6" itemid="16010039" itemnum="2" weight="9"/>
+		<item id="7" itemid="10000009" itemnum="5" weight="1800"/>
+		<item id="8" itemid="16010038" itemnum="1" weight="400"/>
+		<birng bringnum="1" tasktype="6" taskparameter="30" des="在线时间达到30分钟" link=""/>
+		<birng bringnum="2" tasktype="8" taskparameter="100" des="花费100绑元抽取" link="RechargeView"/>
+		<birng bringnum="3" tasktype="4" taskparameter="1000" des="累计消耗1000元宝抽取" link="ShopView"/>
+		<birng bringnum="4" tasktype="8" taskparameter="1000" des="花费1000绑元抽取" link="RechargeView"/>
+		<birng bringnum="5" tasktype="7" taskparameter="1000" des="花费1000元宝抽取" link="RechargeView"/>
+		<birng bringnum="6" tasktype="2" taskparameter="1" des="充值任意金额抽取" link="RechargeView"/>
+		<birng bringnum="7" tasktype="4" taskparameter="5000" des="累计消耗5000元宝抽取" link="ShopView"/>
+		<birng bringnum="8" tasktype="2" taskparameter="100" des="累计充值100元抽取" link="RechargeView"/>
+	</group>
+	<group groupid="2" name="节日转盘" sortid="2" opentime="2019-4-30 00:00:00" endtime="2019-5-5 23:59:59" icon="6683" activetype="1" moneycost="-1">
+		<item id="1" itemid="10000102" itemnum="1" weight="4000"/>
+		<item id="2" itemid="16010033" itemnum="3" weight="1"/>
+		<item id="3" itemid="10000015" itemnum="5" weight="2800"/>
+		<item id="4" itemid="16010007" itemnum="5" weight="90"/>
+		<item id="5" itemid="10000009" itemnum="10" weight="900"/>
+		<item id="6" itemid="16010039" itemnum="2" weight="9"/>
+		<item id="7" itemid="60000100" itemnum="5" weight="1800"/>
+		<item id="8" itemid="10000004" itemnum="1" weight="400"/>
+		<birng bringnum="1" tasktype="6" taskparameter="30" des="在线时间达到30分钟" link=""/>
+		<birng bringnum="2" tasktype="8" taskparameter="100" des="花费100绑元抽取" link="RechargeView"/>
+		<birng bringnum="3" tasktype="4" taskparameter="1000" des="累计消耗1000元宝抽取" link="ShopView"/>
+		<birng bringnum="4" tasktype="8" taskparameter="1000" des="花费1000绑元抽取" link="RechargeView"/>
+		<birng bringnum="5" tasktype="7" taskparameter="1000" des="花费1000元宝抽取" link="RechargeView"/>
+		<birng bringnum="6" tasktype="2" taskparameter="1" des="充值任意金额抽取" link="RechargeView"/>
+		<birng bringnum="7" tasktype="4" taskparameter="5000" des="累计消耗5000元宝抽取" link="ShopView"/>
+		<birng bringnum="8" tasktype="2" taskparameter="100" des="累计充值100元抽取" link="RechargeView"/>
+	</group>
+	<group groupid="3" name="节日转盘" sortid="2" opentime="2019-5-31 00:00:00" endtime="2019-6-2 23:59:59" icon="6683" activetype="1" moneycost="-1">
+		<item id="1" itemid="10000015" itemnum="5" weight="4000"/>
+		<item id="2" itemid="16010022" itemnum="1" weight="2800"/>
+		<item id="3" itemid="10000101" itemnum="3" weight="1800"/>
+		<item id="4" itemid="16010013" itemnum="1" weight="900"/>
+		<item id="5" itemid="16010036" itemnum="5" weight="400"/>
+		<item id="6" itemid="16010037" itemnum="3" weight="90"/>
+		<item id="7" itemid="16010050" itemnum="15" weight="9"/>
+		<item id="8" itemid="16010049" itemnum="50" weight="1"/>
+		<birng bringnum="1" tasktype="6" taskparameter="30" des="在线时间达到30分钟" link=""/>
+		<birng bringnum="2" tasktype="8" taskparameter="100" des="花费100绑元抽取" link="RechargeView"/>
+		<birng bringnum="3" tasktype="4" taskparameter="1000" des="累计消耗1000元宝抽取" link="ShopView"/>
+		<birng bringnum="4" tasktype="8" taskparameter="1000" des="花费1000绑元抽取" link="RechargeView"/>
+		<birng bringnum="5" tasktype="7" taskparameter="1000" des="花费1000元宝抽取" link="RechargeView"/>
+		<birng bringnum="6" tasktype="2" taskparameter="1" des="充值任意金额抽取" link="RechargeView"/>
+		<birng bringnum="7" tasktype="4" taskparameter="5000" des="累计消耗5000元宝抽取" link="ShopView"/>
+		<birng bringnum="8" tasktype="2" taskparameter="100" des="累计充值100元抽取" link="RechargeView"/>
+	</group>
+	<group groupid="4" name="节日转盘" sortid="2" opentime="2019-7-19 00:00:00" endtime="2019-7-21 23:59:59" icon="6683" activetype="1" moneycost="-1">
+		<item id="1" itemid="10000102" itemnum="1" weight="4000"/>
+		<item id="2" itemid="16010071" itemnum="10" weight="1"/>
+		<item id="3" itemid="10000015" itemnum="5" weight="2800"/>
+		<item id="4" itemid="16010036" itemnum="5" weight="90"/>
+		<item id="5" itemid="10000101" itemnum="3" weight="900"/>
+		<item id="6" itemid="16010039" itemnum="2" weight="9"/>
+		<item id="7" itemid="60000100" itemnum="5" weight="1800"/>
+		<item id="8" itemid="16010013" itemnum="1" weight="400"/>
+		<birng bringnum="1" tasktype="6" taskparameter="30" des="在线时间达到30分钟" link=""/>
+		<birng bringnum="2" tasktype="8" taskparameter="100" des="花费100绑元抽取" link="RechargeView"/>
+		<birng bringnum="3" tasktype="4" taskparameter="1000" des="累计消耗1000元宝抽取" link="ShopView"/>
+		<birng bringnum="4" tasktype="8" taskparameter="1000" des="花费1000绑元抽取" link="RechargeView"/>
+		<birng bringnum="5" tasktype="7" taskparameter="1000" des="花费1000元宝抽取" link="RechargeView"/>
+		<birng bringnum="6" tasktype="2" taskparameter="1" des="充值任意金额抽取" link="RechargeView"/>
+		<birng bringnum="7" tasktype="4" taskparameter="5000" des="累计消耗5000元宝抽取" link="ShopView"/>
+		<birng bringnum="8" tasktype="2" taskparameter="100" des="累计充值100元抽取" link="RechargeView"/>
+	</group>
+	<group groupid="5" name="节日转盘" sortid="2" opentime="2019-8-2 00:00:00" endtime="2019-8-4 23:59:59" icon="6683" activetype="1" moneycost="-1">
+		<item id="1" itemid="10000102" itemnum="1" weight="4000"/>
+		<item id="2" itemid="16010072" itemnum="10" weight="1"/>
+		<item id="3" itemid="10000015" itemnum="5" weight="2800"/>
+		<item id="4" itemid="16010036" itemnum="5" weight="90"/>
+		<item id="5" itemid="10000101" itemnum="3" weight="900"/>
+		<item id="6" itemid="16010039" itemnum="2" weight="9"/>
+		<item id="7" itemid="60000100" itemnum="5" weight="1800"/>
+		<item id="8" itemid="16010013" itemnum="1" weight="400"/>
+		<birng bringnum="1" tasktype="6" taskparameter="30" des="在线时间达到30分钟" link=""/>
+		<birng bringnum="2" tasktype="8" taskparameter="100" des="花费100绑元抽取" link="RechargeView"/>
+		<birng bringnum="3" tasktype="4" taskparameter="1000" des="累计消耗1000元宝抽取" link="ShopView"/>
+		<birng bringnum="4" tasktype="8" taskparameter="1000" des="花费1000绑元抽取" link="RechargeView"/>
+		<birng bringnum="5" tasktype="7" taskparameter="1000" des="花费1000元宝抽取" link="RechargeView"/>
+		<birng bringnum="6" tasktype="2" taskparameter="1" des="充值任意金额抽取" link="RechargeView"/>
+		<birng bringnum="7" tasktype="4" taskparameter="5000" des="累计消耗5000元宝抽取" link="ShopView"/>
+		<birng bringnum="8" tasktype="2" taskparameter="100" des="累计充值100元抽取" link="RechargeView"/>
+	</group>
+</root>

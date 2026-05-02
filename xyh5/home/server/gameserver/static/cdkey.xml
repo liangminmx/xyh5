@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+functionid	功能id			
+icon	图片icon			
+name	激活码名称（策划用）			
+id	该类激活码ID			
+time	"同一个激活码单个玩家可领取次数=-1不限制"			
+alltime	"同一个激活码全平台玩家可领取次数=-1 不限制"			
+severnum	"可使用服务器ID=-1 不限制，需要支持配置区间 如配置1000-2000 （表示服务器编号为1000-2000服可使用） 编号不相邻的服务器ID用逗号隔开。"			
+start	"开始时间，年月日时分秒=-1 无限制"			
+end	"结束时间，年月日时分秒=-1 无限制"			
+repeat	"同类激活码是否能重复使用=0不能=1 能"			
+cdkey	具体激活码			
+item	"兑换成功后给予的道具id=100 表示充值元宝"			
+num	兑换后给予道具数量			
+
+pfid 平台id  （=-1 表示无平台，所有未在表中查到的平台都读取默认的文本，=1 表示恺英）
+txt  对应的文本
+-->
+<root>
+  <function functionid="2027" icon="1"/>
+  <key name="37游戏礼包" id="10000" time="1" alltime="-1" severnum="-1" start="-1" end="-1">
+  <item item="10000014,10000015,10000016" num="1,2,3"/>
+    
+  <cdkey cdkey="37youxi"/>
+  </key>
+  
+  <key name="公测礼包" id="10001" time="1" alltime="100" severnum="-1" start="-1" end="-1">
+  <item item="10000014,10000015,10000016" num="4,5,6"/>
+  
+  <cdkey cdkey="xygc"/>
+  </key>
+  <pf pfid="1" txt="请点击虚浮球联系客服领取礼包！"/>
+  <pf pfid="2" txt="玩家交流群：714642639，群里不定期会发放礼包哦！"/>
+  <pf pfid="4" txt="关注公众号：【霹雳天团】 每周五发放周礼包.加入玩家交流群：【663060444】"/>
+  <pf pfid="-1" txt="请询问客服获得激活码的途径！"/>
+</root>

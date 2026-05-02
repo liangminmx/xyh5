@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+functionid	功能id			
+mailid	邮件id			
+groupid	进阶活动开启顺序id			
+jinjieid	进阶功能id			
+name	进阶功能名字			
+opentime	"活动开放时间 开服第X天开放"			
+hfopentime	"合服第X天开启活动（与opentime字段不会同时填写）填写单个数字时表示合服后第X天开填写X-Y时，表示合服后第X-Y时间内开，例如填写2-6则表示合服第二天0点开启活动，第6天23点59分59秒结束活动"			
+icon	图标id			
+ranktype	"第一名上榜需求条件类型=1 进阶阶数=2 橙卡收集张数=3 角色总战力限制=4 rmb累计充值数=5 消耗元宝/道具寻宝次数=6 消耗元宝/道具寻星次数=7 消费元宝数"			
+ranklimit	第一名上榜参数			
+lev	达成奖励限制（同步上榜参数类型）			
+fight	战力提升排行历史最高战力限制			
+itemid	阶数达成奖励道具id，逗号隔开			
+num	阶数达成奖励道具数量，逗号隔开			
+money	阶数达成奖励奖励银币数量			
+serverNum	"合服次数=-1默认状态=0新服的活动数据=1,合服1次的活动数据=2合服2次的活动数据……"			
+rank	排名限制			
+itemid	排名奖励道具id，逗号隔开			
+num	排名奖励道具数量，逗号隔开			
+bmoney	排名奖励绑元数量			
+money	排名奖励银币数量			
+
+
+
+
+
+-->
+	<server serverNum="-1">
+		<function functionid="2015" mailid="1006"/>
+		<group groupid="1" jinjieid="0" opentime="999" name="坐骑排行" icon="1" ranktype="1" lev="4" ranklimit="7" itemid="10000007,16010001,10000014" num="200,5,100" money="10000000" bmoney="1000">
+			<item rank="1" itemid="1000805,13010015,16010001,10000014" num="1,1,50,1000" bmoney="8888" money="100000000"/>
+			<item rank="2" itemid="10000008,16010001,10000014" num="400,30,600" bmoney="6666" money="60000000"/>
+			<item rank="3" itemid="10000008,16010001,10000014" num="300,20,400" bmoney="4000" money="40000000"/>
+			<item rank="4,20" itemid="10000007,16010001,10000014" num="300,10,200" bmoney="2000" money="20000000"/>
+		</group>
+		<group groupid="2" jinjieid="5" opentime="999" name="变身排行" icon="2" ranktype="1" lev="5" ranklimit="7" itemid="10000007,16010001,10000014" num="200,5,100" money="10000000" bmoney="1000">
+			<item rank="1" itemid="4000805,13010016,16010001,10000014" num="1,1,50,1000" bmoney="8888" money="100000000"/>
+			<item rank="2" itemid="10000008,16010001,10000014" num="400,30,600" bmoney="6666" money="60000000"/>
+			<item rank="3" itemid="10000008,16010001,10000014" num="300,20,400" bmoney="4000" money="40000000"/>
+			<item rank="4,20" itemid="10000007,16010001,10000014" num="300,10,200" bmoney="2000" money="20000000"/>
+		</group>
+		<group groupid="3" jinjieid="2" opentime="999" name="羽翼排行" icon="3" ranktype="1" lev="5" ranklimit="7" itemid="10000007,16010001,10000014" num="200,5,100" money="10000000" bmoney="1000">
+			<item rank="1" itemid="5000805,13010017,16010001,10000014" num="1,1,50,1000" bmoney="8888" money="100000000"/>
+			<item rank="2" itemid="10000008,16010001,10000014" num="400,30,600" bmoney="6666" money="60000000"/>
+			<item rank="3" itemid="10000008,16010001,10000014" num="300,20,400" bmoney="4000" money="40000000"/>
+			<item rank="4,20" itemid="10000007,16010001,10000014" num="300,10,200" bmoney="2000" money="20000000"/>
+		</group>
+		<group groupid="4" jinjieid="3" opentime="999" name="阵法排行" icon="4" ranktype="1" lev="5" ranklimit="7" itemid="10000007,16010001,10000014" num="200,5,100" money="10000000" bmoney="1000">
+			<item rank="1" itemid="6000805,13010019,16010001,10000014" num="1,1,50,1000" bmoney="8888" money="100000000"/>
+			<item rank="2" itemid="10000008,16010001,10000014" num="400,30,600" bmoney="6666" money="60000000"/>
+			<item rank="3" itemid="10000008,16010001,10000014" num="300,20,400" bmoney="4000" money="40000000"/>
+			<item rank="4,20" itemid="10000007,16010001,10000014" num="300,10,200" bmoney="2000" money="20000000"/>
+		</group>
+		<group groupid="5" jinjieid="4" opentime="999" name="法宝排行" icon="5" ranktype="1" lev="5" ranklimit="7" itemid="10000007,16010001,10000014" num="200,5,100" money="10000000" bmoney="1000">
+			<item rank="1" itemid="2000805,13010018,16010001,10000014" num="1,1,50,1000" bmoney="8888" money="100000000"/>
+			<item rank="2" itemid="10000008,16010001,10000014" num="400,30,600" bmoney="6666" money="60000000"/>
+			<item rank="3" itemid="10000008,16010001,10000014" num="300,20,400" bmoney="4000" money="40000000"/>
+			<item rank="4,20" itemid="10000007,16010001,10000014" num="300,10,200" bmoney="2000" money="20000000"/>
+		</group>
+		<group groupid="6" jinjieid="5001" opentime="999" name="宠物排行" icon="6" ranktype="2" lev="1" ranklimit="3" itemid="10000007,16010001,10000014" num="200,5,100" money="10000000" bmoney="1000">
+			<item rank="1" itemid="13010020,16010001,10000014,10000006" num="1,50,1000,666" bmoney="8888" money="100000000"/>
+			<item rank="2" itemid="10000008,16010001,10000014" num="400,30,600" bmoney="6666" money="60000000"/>
+			<item rank="3" itemid="10000008,16010001,10000014" num="300,20,400" bmoney="4000" money="40000000"/>
+			<item rank="4,20" itemid="10000007,16010001,10000014" num="300,10,200" bmoney="2000" money="20000000"/>
+		</group>
+		<group groupid="7" jinjieid="3001" opentime="999" name="伙伴排行" icon="7" ranktype="2" lev="1" ranklimit="3" itemid="10000007,16010001,10000014" num="200,5,100" money="10000000" bmoney="1000">
+			<item rank="1" itemid="13010021,16010001,10000014,11043007" num="1,50,1000,100" bmoney="8888" money="100000000"/>
+			<item rank="2" itemid="10000008,16010001,10000014" num="400,30,600" bmoney="6666" money="60000000"/>
+			<item rank="3" itemid="10000008,16010001,10000014" num="300,20,400" bmoney="4000" money="40000000"/>
+			<item rank="4,20" itemid="10000007,16010001,10000014" num="300,10,200" bmoney="2000" money="20000000"/>
+		</group>
+		<group groupid="8" jinjieid="3002" opentime="999" name="战力排行" icon="8" ranktype="3" lev="4000000" ranklimit="10000000" fight="20000000" itemid="10000007,16010001,10000014" num="200,5,100" money="10000000" bmoney="1000">
+			<item rank="1" itemid="3000905,13010022,16010001,10000014" num="1,1,50,1000" bmoney="8888" money="100000000"/>
+			<item rank="2" itemid="10000008,16010001,10000014" num="400,30,600" bmoney="6666" money="60000000"/>
+			<item rank="3" itemid="10000008,16010001,10000014" num="300,20,400" bmoney="4000" money="40000000"/>
+			<item rank="4,20" itemid="10000007,16010001,10000014" num="300,10,200" bmoney="2000" money="20000000"/>
+		</group>
+		<group groupid="9" jinjieid="6" opentime="999" name="仙阶排行" icon="9" ranktype="1" lev="5" ranklimit="7" itemid="10000007,16010001,10000014" num="200,5,100" money="10000000" bmoney="1000">
+			<item rank="1" itemid="1000905,13010024,16010001,10000014" num="1,1,50,1000" bmoney="8888" money="100000000"/>
+			<item rank="2" itemid="10000008,16010001,10000014" num="400,30,600" bmoney="6666" money="60000000"/>
+			<item rank="3" itemid="10000008,16010001,10000014" num="300,20,400" bmoney="4000" money="40000000"/>
+			<item rank="4,20" itemid="10000007,16010001,10000014" num="300,10,200" bmoney="2000" money="20000000"/>
+		</group>
+		<group groupid="15" jinjieid="7" opentime="999" name="灵骑排行" icon="10" ranktype="1" lev="5" ranklimit="7" itemid="10000007,16010001,10000014" num="200,5,100" money="10000000" bmoney="1000">
+			<item rank="1" itemid="5000905,13010070,16010001,10000014" num="1,1,50,1000" bmoney="8888" money="100000000"/>
+			<item rank="2" itemid="10000008,16010001,10000014" num="400,30,600" bmoney="6666" money="60000000"/>
+			<item rank="3" itemid="10000008,16010001,10000014" num="300,20,400" bmoney="4000" money="40000000"/>
+			<item rank="4,20" itemid="10000007,16010001,10000014" num="300,10,200" bmoney="2000" money="20000000"/>
+		</group>
+	</server>
+	<server serverNum="0">
+		<function functionid="2015" mailid="1006"/>
+		<group groupid="1" jinjieid="0" opentime="1" name="坐骑排行" icon="1" ranktype="1" lev="4" ranklimit="7" itemid="10000007,16010001,10000014" num="200,5,100" money="10000000" bmoney="1000">
+			<item rank="1" itemid="1000805,13010015,16010001,10000014" num="1,1,50,1000" bmoney="8888" money="100000000"/>
+			<item rank="2" itemid="10000008,16010001,10000014" num="400,30,600" bmoney="6666" money="60000000"/>
+			<item rank="3" itemid="10000008,16010001,10000014" num="300,20,400" bmoney="4000" money="40000000"/>
+			<item rank="4,20" itemid="10000007,16010001,10000014" num="300,10,200" bmoney="2000" money="20000000"/>
+		</group>
+		<group groupid="2" jinjieid="5" opentime="5" name="变身排行" icon="2" ranktype="1" lev="5" ranklimit="7" itemid="10000007,16010001,10000014" num="200,5,100" money="10000000" bmoney="1000">
+			<item rank="1" itemid="4000805,13010016,16010001,10000014" num="1,1,50,1000" bmoney="8888" money="100000000"/>
+			<item rank="2" itemid="10000008,16010001,10000014" num="400,30,600" bmoney="6666" money="60000000"/>
+			<item rank="3" itemid="10000008,16010001,10000014" num="300,20,400" bmoney="4000" money="40000000"/>
+			<item rank="4,20" itemid="10000007,16010001,10000014" num="300,10,200" bmoney="2000" money="20000000"/>
+		</group>
+		<group groupid="3" jinjieid="2" opentime="2" name="羽翼排行" icon="3" ranktype="1" lev="5" ranklimit="7" itemid="10000007,16010001,10000014" num="200,5,100" money="10000000" bmoney="1000">
+			<item rank="1" itemid="5000805,13010017,16010001,10000014" num="1,1,50,1000" bmoney="8888" money="100000000"/>
+			<item rank="2" itemid="10000008,16010001,10000014" num="400,30,600" bmoney="6666" money="60000000"/>
+			<item rank="3" itemid="10000008,16010001,10000014" num="300,20,400" bmoney="4000" money="40000000"/>
+			<item rank="4,20" itemid="10000007,16010001,10000014" num="300,10,200" bmoney="2000" money="20000000"/>
+		</group>
+		<group groupid="4" jinjieid="3" opentime="4" name="阵法排行" icon="4" ranktype="1" lev="5" ranklimit="7" itemid="10000007,16010001,10000014" num="200,5,100" money="10000000" bmoney="1000">
+			<item rank="1" itemid="6000805,13010019,16010001,10000014" num="1,1,50,1000" bmoney="8888" money="100000000"/>
+			<item rank="2" itemid="10000008,16010001,10000014" num="400,30,600" bmoney="6666" money="60000000"/>
+			<item rank="3" itemid="10000008,16010001,10000014" num="300,20,400" bmoney="4000" money="40000000"/>
+			<item rank="4,20" itemid="10000007,16010001,10000014" num="300,10,200" bmoney="2000" money="20000000"/>
+		</group>
+		<group groupid="5" jinjieid="4" opentime="3" name="法宝排行" icon="5" ranktype="1" lev="5" ranklimit="7" itemid="10000007,16010001,10000014" num="200,5,100" money="10000000" bmoney="1000">
+			<item rank="1" itemid="2000805,13010018,16010001,10000014" num="1,1,50,1000" bmoney="8888" money="100000000"/>
+			<item rank="2" itemid="10000008,16010001,10000014" num="400,30,600" bmoney="6666" money="60000000"/>
+			<item rank="3" itemid="10000008,16010001,10000014" num="300,20,400" bmoney="4000" money="40000000"/>
+			<item rank="4,20" itemid="10000007,16010001,10000014" num="300,10,200" bmoney="2000" money="20000000"/>
+		</group>
+		<group groupid="6" jinjieid="5001" opentime="8" name="宠物排行" icon="6" ranktype="2" lev="1" ranklimit="3" itemid="10000007,16010001,10000014" num="200,5,100" money="10000000" bmoney="1000">
+			<item rank="1" itemid="13010020,16010001,10000014,10000006" num="1,50,1000,666" bmoney="8888" money="100000000"/>
+			<item rank="2" itemid="10000008,16010001,10000014" num="400,30,600" bmoney="6666" money="60000000"/>
+			<item rank="3" itemid="10000008,16010001,10000014" num="300,20,400" bmoney="4000" money="40000000"/>
+			<item rank="4,20" itemid="10000007,16010001,10000014" num="300,10,200" bmoney="2000" money="20000000"/>
+		</group>
+		<group groupid="7" jinjieid="3001" opentime="9" name="伙伴排行" icon="7" ranktype="2" lev="1" ranklimit="3" itemid="10000007,16010001,10000014" num="200,5,100" money="10000000" bmoney="1000">
+			<item rank="1" itemid="13010021,16010001,10000014,11043007" num="1,50,1000,100" bmoney="8888" money="100000000"/>
+			<item rank="2" itemid="10000008,16010001,10000014" num="400,30,600" bmoney="6666" money="60000000"/>
+			<item rank="3" itemid="10000008,16010001,10000014" num="300,20,400" bmoney="4000" money="40000000"/>
+			<item rank="4,20" itemid="10000007,16010001,10000014" num="300,10,200" bmoney="2000" money="20000000"/>
+		</group>
+		<group groupid="8" jinjieid="3002" opentime="10" name="战力排行" icon="8" ranktype="3" lev="4000000" ranklimit="10000000" fight="20000000" itemid="10000007,16010001,10000014" num="200,5,100" money="10000000" bmoney="1000">
+			<item rank="1" itemid="3000905,13010022,16010001,10000014" num="1,1,50,1000" bmoney="8888" money="100000000"/>
+			<item rank="2" itemid="10000008,16010001,10000014" num="400,30,600" bmoney="6666" money="60000000"/>
+			<item rank="3" itemid="10000008,16010001,10000014" num="300,20,400" bmoney="4000" money="40000000"/>
+			<item rank="4,20" itemid="10000007,16010001,10000014" num="300,10,200" bmoney="2000" money="20000000"/>
+		</group>
+		<group groupid="9" jinjieid="6" opentime="6" name="仙阶排行" icon="9" ranktype="1" lev="5" ranklimit="7" itemid="10000007,16010001,10000014" num="200,5,100" money="10000000" bmoney="1000">
+			<item rank="1" itemid="1000905,13010024,16010001,10000014" num="1,1,50,1000" bmoney="8888" money="100000000"/>
+			<item rank="2" itemid="10000008,16010001,10000014" num="400,30,600" bmoney="6666" money="60000000"/>
+			<item rank="3" itemid="10000008,16010001,10000014" num="300,20,400" bmoney="4000" money="40000000"/>
+			<item rank="4,20" itemid="10000007,16010001,10000014" num="300,10,200" bmoney="2000" money="20000000"/>
+		</group>
+		<group groupid="15" jinjieid="7" opentime="7" name="灵骑排行" icon="10" ranktype="1" lev="5" ranklimit="7" itemid="10000007,16010001,10000014" num="200,5,100" money="10000000" bmoney="1000">
+			<item rank="1" itemid="5000905,13010070,16010001,10000014" num="1,1,50,1000" bmoney="8888" money="100000000"/>
+			<item rank="2" itemid="10000008,16010001,10000014" num="400,30,600" bmoney="6666" money="60000000"/>
+			<item rank="3" itemid="10000008,16010001,10000014" num="300,20,400" bmoney="4000" money="40000000"/>
+			<item rank="4,20" itemid="10000007,16010001,10000014" num="300,10,200" bmoney="2000" money="20000000"/>
+		</group>
+	</server>
+	<server serverNum="1">
+		<function functionid="2015" mailid="1006"/>
+		<group groupid="10" jinjieid="3003" opentime="1-2" name="充值排行" icon="11" ranktype="4" lev="1" ranklimit="1000" itemid="10000008,10000012,16010022,16010007" num="166,288,10,2">
+			<item rank="1" itemid="10000008,13010066,10000012,16010022,16010007" num="6666,1,1888,50,10"/>
+			<item rank="2" itemid="10000008,10000012,16010022,16010007" num="3666,888,30,6"/>
+			<item rank="3" itemid="10000008,10000012,16010022,16010007" num="1666,588,20,4"/>
+			<item rank="4,10" itemid="10000008,10000012,16010022,16010007" num="666,388,15,3"/>
+		</group>
+		<group groupid="11" jinjieid="2052" opentime="3" name="寻宝排行" icon="12" ranktype="5" lev="10" ranklimit="100" itemid="10000008,10000012,16010022,16010007" num="166,288,10,2">
+			<item rank="1" itemid="10000008,13010067,10000012,16010022,16010007" num="6666,1,1888,50,10"/>
+			<item rank="2" itemid="10000008,10000012,16010022,16010007" num="3666,888,30,6"/>
+			<item rank="3" itemid="10000008,10000012,16010022,16010007" num="1666,588,20,4"/>
+			<item rank="4,10" itemid="10000008,10000012,16010022,16010007" num="666,388,15,3"/>
+		</group>
+		<group groupid="12" jinjieid="6669" opentime="4" name="寻星排行" icon="13" ranktype="6" lev="10" ranklimit="100" itemid="10000008,10000012,16010022,16010007" num="166,288,10,2">
+			<item rank="1" itemid="10000008,13010069,10000012,16010022,16010007" num="6666,1,1888,50,10"/>
+			<item rank="2" itemid="10000008,10000012,16010022,16010007" num="3666,888,30,6"/>
+			<item rank="3" itemid="10000008,10000012,16010022,16010007" num="1666,588,20,4"/>
+			<item rank="4,10" itemid="10000008,10000012,16010022,16010007" num="666,388,15,3"/>
+		</group>
+		<group groupid="13" jinjieid="3004" opentime="4-6" name="消费排行" icon="14" ranktype="7" lev="1000" ranklimit="100000" itemid="10000008,10000012,16010022,16010007" num="166,288,10,2">
+			<item rank="1" itemid="10000008,13010068,10000012,16010022,16010007" num="6666,1,1888,50,10"/>
+			<item rank="2" itemid="10000008,10000012,16010022,16010007" num="3666,888,30,6"/>
+			<item rank="3" itemid="10000008,10000012,16010022,16010007" num="1666,588,20,4"/>
+			<item rank="4,10" itemid="10000008,10000012,16010022,16010007" num="666,388,15,3"/>
+		</group>
+		<group groupid="14" jinjieid="3002" opentime="1-6" name="战力排行" icon="15" ranktype="3" lev="1000000" ranklimit="10000000" fight="20000000" itemid="10000008,10000012,16010022,16010007" num="166,288,10,2">
+			<item rank="1" itemid="10000008,13010065,10000012,16010022,16010007" num="6666,1,1888,50,10"/>
+			<item rank="2" itemid="10000008,10000012,16010022,16010007" num="3666,888,30,6"/>
+			<item rank="3" itemid="10000008,10000012,16010022,16010007" num="1666,588,20,4"/>
+			<item rank="4,10" itemid="10000008,10000012,16010022,16010007" num="666,388,15,3"/>
+		</group>
+	</server>
+</root>

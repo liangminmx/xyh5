@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+type	"养成功能类型=0，坐骑=1，神兵=2，翅膀=3，阵法=4，法宝"			
+id	皮肤id			
+avatar	模型id			
+item	激活道具id			
+name	备注用			
+pic	获得途径文本			
+hp	使附加的气血			
+attack	附加的攻击			
+defence	附加的防御			
+aboutrecharge 程序调用关于充值		
+	
+		
+		
+		
+	
+		
+		
+		
+
+
+
+-->
+	<skin type="0">
+		<skillinfo id="1" avatar="100021" item="13030001" namepic="yc_zq_skin1" name="天使猪" pic="首充第五档赠送" hp="33600" attack="2800" defence="1400" aboutrecharge="1"/>
+		<skillinfo id="2" avatar="100023" item="13030002" namepic="yc_zq_skin2" name="金鳞仙鱼" pic="三倍首充赠送" hp="9600" attack="800" defence="400" aboutrecharge="1"/>
+	</skin>
+	<skin type="1">
+		<skillinfo id="1" avatar="200000" item="13031001" namepic="yc_sb_skin1" name="金箍棒" pic="首充第三档赠送" hp="19440" attack="1620" defence="810" aboutrecharge="1"/>
+		<skillinfo id="2" avatar="200001" item="13035001" namepic="yc_sb_skin2" name="轩辕剑" pic="0元购赠送" hp="19440" attack="1620" defence="810" aboutrecharge="1"/>
+		<skillinfo id="3" avatar="200002" item="13035002" namepic="yc_sb_skin3" name="凰炎剑" pic="5倍首充赠送" hp="19440" attack="1620" defence="810" aboutrecharge="1"/>
+		<skillinfo id="4" avatar="200003" item="13035003" namepic="yc_sb_skin4" name="紫青宝剑" pic="累计充值赠送" hp="19440" attack="1620" defence="810" aboutrecharge="1"/>
+	</skin>
+</root>

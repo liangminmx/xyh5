@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+tired	当日获得X悟性后仅获取疲劳收益
+realm	大境界id
+stage	小境界id
+score	普通收益
+tiredscore	疲劳收益
+chestid	宝箱id
+chestlv	宝箱等级
+space	收益间隔，单位秒
+duration	宝箱持续时间，单位秒
+collect	采集时间，单位毫秒
+npcid	宝箱对应NPC ID
+message	宝箱刷新公告信息
+marker	标记物图片
+dope	宝箱被拾取公告信息
+dopetime	宝箱被拾取公告延迟时间，单位秒，最低为1秒
+time	宝箱开启刷新的时间，格式“XX：YY”
+timespace	刷新间隔时间，单位秒
+timenum	刷新次数
+num	宝箱刷新数量
+coordinate	宝箱刷新点坐标，格式“x，y”
+
+-->
+<root>
+	<realmtired>
+		<realmtiredinfo realm="1" stage="1" tired="1"/>
+		<realmtiredinfo realm="1" stage="2" tired="1"/>
+		<realmtiredinfo realm="2" stage="1" tired="2100"/>
+		<realmtiredinfo realm="2" stage="2" tired="2100"/>
+		<realmtiredinfo realm="3" stage="1" tired="6000"/>
+		<realmtiredinfo realm="3" stage="2" tired="6000"/>
+		<realmtiredinfo realm="4" stage="1" tired="9600"/>
+		<realmtiredinfo realm="4" stage="2" tired="9600"/>
+		<realmtiredinfo realm="4" stage="3" tired="9600"/>
+		<realmtiredinfo realm="5" stage="1" tired="13500"/>
+		<realmtiredinfo realm="5" stage="2" tired="13500"/>
+		<realmtiredinfo realm="5" stage="3" tired="13500"/>
+		<realmtiredinfo realm="6" stage="1" tired="21000"/>
+		<realmtiredinfo realm="6" stage="2" tired="21000"/>
+		<realmtiredinfo realm="6" stage="3" tired="21000"/>
+		<realmtiredinfo realm="6" stage="4" tired="21000"/>
+		<realmtiredinfo realm="7" stage="1" tired="30000"/>
+		<realmtiredinfo realm="7" stage="2" tired="30000"/>
+		<realmtiredinfo realm="7" stage="3" tired="30000"/>
+		<realmtiredinfo realm="7" stage="4" tired="30000"/>
+		<realmtiredinfo realm="8" stage="1" tired="45000"/>
+		<realmtiredinfo realm="8" stage="2" tired="45000"/>
+		<realmtiredinfo realm="8" stage="3" tired="45000"/>
+		<realmtiredinfo realm="8" stage="4" tired="45000"/>
+		<realmtiredinfo realm="8" stage="5" tired="45000"/>
+		<realmtiredinfo realm="9" stage="1" tired="66000"/>
+		<realmtiredinfo realm="9" stage="2" tired="66000"/>
+		<realmtiredinfo realm="9" stage="3" tired="66000"/>
+		<realmtiredinfo realm="9" stage="4" tired="66000"/>
+		<realmtiredinfo realm="9" stage="5" tired="66000"/>
+		<realmtiredinfo realm="9" stage="6" tired="66000"/>
+		<realmtiredinfo realm="9" stage="7" tired="66000"/>
+	</realmtired>
+	<chest chestid="1" chestlv="1" space="10" duration="600" collect="1000" npcid="470011" direction="1" marker="900001" message="[font color='#fbf2bc']红石山刷新了[/font][font color='#fff00']青铜宝箱[/font]" dopetime="1">
+		<pickupdope>
+			<dope dope="{0}在{1}拾取了青铜宝箱"/>
+		</pickupdope>
+		<retime>
+			<time time="14:00:00" timespace="300" timenum="120" num="5"/>
+		</retime>
+		<position>
+			<coordinate coordinate="52,53"/>
+			<coordinate coordinate="43,77"/>
+			<coordinate coordinate="45,96"/>
+			<coordinate coordinate="51,108"/>
+			<coordinate coordinate="55,118"/>
+			<coordinate coordinate="88,73"/>
+			<coordinate coordinate="87,92"/>
+			<coordinate coordinate="98,78"/>
+			<coordinate coordinate="93,51"/>
+			<coordinate coordinate="86,62"/>
+			<coordinate coordinate="84,76"/>
+			<coordinate coordinate="75,51"/>
+			<coordinate coordinate="66,49"/>
+			<coordinate coordinate="53,44"/>
+			<coordinate coordinate="48,56"/>
+			<coordinate coordinate="40,66"/>
+			<coordinate coordinate="61,57"/>
+			<coordinate coordinate="118,141"/>
+			<coordinate coordinate="115,132"/>
+			<coordinate coordinate="98,119"/>
+			<coordinate coordinate="149,127"/>
+			<coordinate coordinate="154,67"/>
+			<coordinate coordinate="148,67"/>
+			<coordinate coordinate="163,139"/>
+			<coordinate coordinate="164,164"/>
+			<coordinate coordinate="144,221"/>
+			<coordinate coordinate="142,214"/>
+			<coordinate coordinate="137,203"/>
+			<coordinate coordinate="138,175"/>
+			<coordinate coordinate="22,118"/>
+			<coordinate coordinate="23,90"/>
+			<coordinate coordinate="49,114"/>
+			<coordinate coordinate="99,133"/>
+			<coordinate coordinate="99,53"/>
+			<coordinate coordinate="118,70"/>
+			<coordinate coordinate="117,56"/>
+			<coordinate coordinate="94,86"/>
+			<coordinate coordinate="77,73"/>
+			<coordinate coordinate="74,60"/>
+			<coordinate coordinate="48,69"/>
+			<coordinate coordinate="37,55"/>
+			<coordinate coordinate="30,88"/>
+			<coordinate coordinate="40,120"/>
+			<coordinate coordinate="58,106"/>
+			<coordinate coordinate="63,108"/>
+			<coordinate coordinate="86,116"/>
+			<coordinate coordinate="111,131"/>
+			<coordinate coordinate="111,141"/>
+			<coordinate coordinate="94,136"/>
+			<coordinate coordinate="104,164"/>
+			<coordinate coordinate="112,175"/>
+			<coordinate coordinate="101,187"/>
+			<coordinate coordinate="121,99"/>
+			<coordinate coordinate="141,32"/>
+			<coordinate coordinate="156,153"/>
+		</position>
+		<realmscore>
+			<realm realm="1" stage="1" score="0" tiredscore="0"/>
+			<realm realm="1" stage="2" score="0" tiredscore="0"/>
+			<realm realm="2" stage="1" score="12" tiredscore="1"/>
+			<realm realm="2" stage="2" score="12" tiredscore="1"/>
+			<realm realm="3" stage="1" score="33" tiredscore="3"/>
+			<realm realm="3" stage="2" score="33" tiredscore="3"/>
+			<realm realm="4" stage="1" score="53" tiredscore="5"/>
+			<realm realm="4" stage="2" score="53" tiredscore="5"/>
+			<realm realm="4" stage="3" score="53" tiredscore="5"/>
+			<realm realm="5" stage="1" score="75" tiredscore="8"/>
+			<realm realm="5" stage="2" score="75" tiredscore="8"/>
+			<realm realm="5" stage="3" score="75" tiredscore="8"/>
+			<realm realm="6" stage="1" score="117" tiredscore="12"/>
+			<realm realm="6" stage="2" score="117" tiredscore="12"/>
+			<realm realm="6" stage="3" score="117" tiredscore="12"/>
+			<realm realm="6" stage="4" score="117" tiredscore="12"/>
+			<realm realm="7" stage="1" score="167" tiredscore="17"/>
+			<realm realm="7" stage="2" score="167" tiredscore="17"/>
+			<realm realm="7" stage="3" score="167" tiredscore="17"/>
+			<realm realm="7" stage="4" score="167" tiredscore="17"/>
+			<realm realm="8" stage="1" score="250" tiredscore="25"/>
+			<realm realm="8" stage="2" score="250" tiredscore="25"/>
+			<realm realm="8" stage="3" score="250" tiredscore="25"/>
+			<realm realm="8" stage="4" score="250" tiredscore="25"/>
+			<realm realm="8" stage="5" score="250" tiredscore="25"/>
+			<realm realm="9" stage="1" score="367" tiredscore="37"/>
+			<realm realm="9" stage="2" score="367" tiredscore="37"/>
+			<realm realm="9" stage="3" score="367" tiredscore="37"/>
+			<realm realm="9" stage="4" score="367" tiredscore="37"/>
+			<realm realm="9" stage="5" score="367" tiredscore="37"/>
+			<realm realm="9" stage="6" score="367" tiredscore="37"/>
+			<realm realm="9" stage="7" score="367" tiredscore="37"/>
+		</realmscore>
+	</chest>
+	<chest chestid="2" chestlv="2" space="10" duration="600" collect="1000" npcid="470012" direction="1" marker="900002" message="[font color='#fbf2bc']红石山刷新了[/font][font color='#fff00']白银宝箱[/font]" dopetime="1">
+		<pickupdope>
+			<dope dope="{0}在{1}拾取了白银宝箱"/>
+			<dope dope="{0}在{1}拾取了白银宝箱"/>
+		</pickupdope>
+		<retime>
+			<time time="14:30:00" timespace="300" timenum="2" num="3"/>
+			<time time="15:30:00" timespace="300" timenum="2" num="3"/>
+			<time time="16:30:00" timespace="300" timenum="2" num="3"/>
+			<time time="17:30:00" timespace="300" timenum="2" num="3"/>
+			<time time="18:30:00" timespace="300" timenum="2" num="3"/>
+			<time time="19:30:00" timespace="300" timenum="2" num="3"/>
+			<time time="20:30:00" timespace="300" timenum="2" num="3"/>
+			<time time="21:30:00" timespace="300" timenum="2" num="3"/>
+			<time time="22:30:00" timespace="300" timenum="2" num="3"/>
+			<time time="23:30:00" timespace="300" timenum="2" num="3"/>
+		</retime>
+		<position>
+			<coordinate coordinate="144,98"/>
+			<coordinate coordinate="113,94"/>
+			<coordinate coordinate="70,87"/>
+		</position>
+		<realmscore>
+			<realm realm="1" stage="1" score="0" tiredscore="0"/>
+			<realm realm="1" stage="2" score="0" tiredscore="0"/>
+			<realm realm="2" stage="1" score="2" tiredscore="0"/>
+			<realm realm="2" stage="2" score="2" tiredscore="0"/>
+			<realm realm="3" stage="1" score="7" tiredscore="1"/>
+			<realm realm="3" stage="2" score="7" tiredscore="1"/>
+			<realm realm="4" stage="1" score="11" tiredscore="1"/>
+			<realm realm="4" stage="2" score="11" tiredscore="1"/>
+			<realm realm="4" stage="3" score="11" tiredscore="1"/>
+			<realm realm="5" stage="1" score="15" tiredscore="2"/>
+			<realm realm="5" stage="2" score="15" tiredscore="2"/>
+			<realm realm="5" stage="3" score="15" tiredscore="2"/>
+			<realm realm="6" stage="1" score="23" tiredscore="2"/>
+			<realm realm="6" stage="2" score="23" tiredscore="2"/>
+			<realm realm="6" stage="3" score="23" tiredscore="2"/>
+			<realm realm="6" stage="4" score="23" tiredscore="2"/>
+			<realm realm="7" stage="1" score="33" tiredscore="3"/>
+			<realm realm="7" stage="2" score="33" tiredscore="3"/>
+			<realm realm="7" stage="3" score="33" tiredscore="3"/>
+			<realm realm="7" stage="4" score="33" tiredscore="3"/>
+			<realm realm="8" stage="1" score="50" tiredscore="5"/>
+			<realm realm="8" stage="2" score="50" tiredscore="5"/>
+			<realm realm="8" stage="3" score="50" tiredscore="5"/>
+			<realm realm="8" stage="4" score="50" tiredscore="5"/>
+			<realm realm="8" stage="5" score="50" tiredscore="5"/>
+			<realm realm="9" stage="1" score="73" tiredscore="7"/>
+			<realm realm="9" stage="2" score="73" tiredscore="7"/>
+			<realm realm="9" stage="3" score="73" tiredscore="7"/>
+			<realm realm="9" stage="4" score="73" tiredscore="7"/>
+			<realm realm="9" stage="5" score="73" tiredscore="7"/>
+			<realm realm="9" stage="6" score="73" tiredscore="7"/>
+			<realm realm="9" stage="7" score="73" tiredscore="7"/>
+		</realmscore>
+	</chest>
+	<chest chestid="3" chestlv="3" space="10" duration="600" collect="1000" npcid="470013" direction="1" marker="900003" message="" dopetime="3">
+		<pickupdope>
+			<dope dope="{0}在{1}拾取了黄金宝箱"/>
+			<dope dope="{0}在{1}拾取了黄金宝箱"/>
+		</pickupdope>
+		<retime>
+			<time time="15:30:00" timespace="300" timenum="3" num="1"/>
+			<time time="19:30:00" timespace="300" timenum="3" num="1"/>
+		</retime>
+		<position>
+			<coordinate coordinate="75,71"/>
+			<coordinate coordinate="64,70"/>
+			<coordinate coordinate="61,77"/>
+			<coordinate coordinate="61,84"/>
+			<coordinate coordinate="65,91"/>
+			<coordinate coordinate="69,89"/>
+		</position>
+		<realmscore>
+			<realm realm="1" stage="1" score="0" tiredscore="0"/>
+			<realm realm="1" stage="2" score="0" tiredscore="0"/>
+			<realm realm="2" stage="1" score="1" tiredscore="0"/>
+			<realm realm="2" stage="2" score="1" tiredscore="0"/>
+			<realm realm="3" stage="1" score="2" tiredscore="0"/>
+			<realm realm="3" stage="2" score="2" tiredscore="0"/>
+			<realm realm="4" stage="1" score="3" tiredscore="0"/>
+			<realm realm="4" stage="2" score="3" tiredscore="0"/>
+			<realm realm="4" stage="3" score="3" tiredscore="0"/>
+			<realm realm="5" stage="1" score="4" tiredscore="0"/>
+			<realm realm="5" stage="2" score="4" tiredscore="0"/>
+			<realm realm="5" stage="3" score="4" tiredscore="0"/>
+			<realm realm="6" stage="1" score="6" tiredscore="1"/>
+			<realm realm="6" stage="2" score="6" tiredscore="1"/>
+			<realm realm="6" stage="3" score="6" tiredscore="1"/>
+			<realm realm="6" stage="4" score="6" tiredscore="1"/>
+			<realm realm="7" stage="1" score="9" tiredscore="1"/>
+			<realm realm="7" stage="2" score="9" tiredscore="1"/>
+			<realm realm="7" stage="3" score="9" tiredscore="1"/>
+			<realm realm="7" stage="4" score="9" tiredscore="1"/>
+			<realm realm="8" stage="1" score="13" tiredscore="1"/>
+			<realm realm="8" stage="2" score="13" tiredscore="1"/>
+			<realm realm="8" stage="3" score="13" tiredscore="1"/>
+			<realm realm="8" stage="4" score="13" tiredscore="1"/>
+			<realm realm="8" stage="5" score="13" tiredscore="1"/>
+			<realm realm="9" stage="1" score="19" tiredscore="2"/>
+			<realm realm="9" stage="2" score="19" tiredscore="2"/>
+			<realm realm="9" stage="3" score="19" tiredscore="2"/>
+			<realm realm="9" stage="4" score="19" tiredscore="2"/>
+			<realm realm="9" stage="5" score="19" tiredscore="2"/>
+			<realm realm="9" stage="6" score="19" tiredscore="2"/>
+			<realm realm="9" stage="7" score="19" tiredscore="2"/>
+		</realmscore>
+	</chest>
+</root>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+id	引导编号			
+guocheng	引导过程编号。（逗号隔开）			
+				
+inid	操作ID			
+zhongxin	操作中心点坐标（X,Y）			
+daxiao	操作区域长宽（长，宽）			
+fangxiang	箭头方向（1上 2下 3左 4右）			
+
+
+
+-->
+	<guild id="10001" guocheng="887,1,999"/>
+	<guild id="10002" guocheng="887,25,2,999"/>
+	<guild id="10003" guocheng="3"/>
+	<guild id="10004" guocheng="885,4,1000"/>
+	<guild id="10005" guocheng="2,999"/>
+	<guild id="10006" guocheng="1,999"/>
+	<guild id="10007" guocheng="884,5,1000"/>
+	<guild id="10008" guocheng="6,35"/>
+	<guild id="10009" guocheng="887,26,7,999"/>
+	<guild id="10010" guocheng="883,8,9,1000"/>
+	<guild id="10011" guocheng="5,1000"/>
+	<guild id="10012" guocheng="4,1000"/>
+	<guild id="10013" guocheng="886,10,11"/>
+	<guild id="10014" guocheng="10"/>
+	<guild id="10015" guocheng="13,998,998"/>
+	<guild id="10016" guocheng="9"/>
+	<guild id="10017" guocheng="27"/>
+	<guild id="10018" guocheng="888,23,14"/>
+	<guild id="10019" guocheng="7,999"/>
+	<guild id="10020" guocheng="888,23,28,15"/>
+	<guild id="10021" guocheng="16,17"/>
+	<guild id="10022" guocheng="887,18,19"/>
+	<guild id="10023" guocheng="887,18,1,999"/>
+	<guild id="10024" guocheng="888,29,30"/>
+	<guild id="10025" guocheng="887,38,21,999"/>
+	<guild id="10026" guocheng="33,998,998"/>
+	<guild id="10027" guocheng="34,998,998"/>
+	<guild id="10028" guocheng="888,32"/>
+	<guild id="10029" guocheng="36"/>
+	<guild id="10030" guocheng="37"/>	
+	<caozuo inid="1" zhongxin="375,838" daxiao="176,74" fangxiang="2"/>
+	<caozuo inid="2" zhongxin="561,1006" daxiao="201,85" fangxiang="2"/>
+	<caozuo inid="3" zhongxin="370,850" daxiao="168,67" fangxiang="2"/>
+	<caozuo inid="4" zhongxin="386,1016" daxiao="172,74" fangxiang="2"/>
+	<caozuo inid="5" zhongxin="505,1008" daxiao="171,77" fangxiang="2"/>
+	<caozuo inid="6" zhongxin="686,1186" daxiao="118,52" fangxiang="2"/>
+	<caozuo inid="7" zhongxin="549,1025" daxiao="174,74" fangxiang="2"/>
+	<caozuo inid="8" zhongxin="443,1025" daxiao="171,74" fangxiang="2"/>
+	<caozuo inid="9" zhongxin="195,1028" daxiao="173,74" fangxiang="2"/>
+	<caozuo inid="10" zhongxin="560,1010" daxiao="203,90" fangxiang="2"/>
+	<caozuo inid="11" zhongxin="608,480" daxiao="54,54" fangxiang="2"/>
+	<caozuo inid="12" zhongxin="372,1088" daxiao="172,74" fangxiang="2"/>
+	<caozuo inid="13" zhongxin="59,838" daxiao="117,98" fangxiang="2"/>
+	<caozuo inid="14" zhongxin="609,258" daxiao="174,74" fangxiang="2"/>
+	<caozuo inid="15" zhongxin="380,1021" daxiao="145,63" fangxiang="2"/>
+	<caozuo inid="16" zhongxin="372,708" daxiao="704,358" fangxiang="2"/>
+	<caozuo inid="17" zhongxin="208,985" daxiao="205,84" fangxiang="2"/>
+	<caozuo inid="18" zhongxin="252,215" daxiao="124,124" fangxiang="2"/>
+	<caozuo inid="19" zhongxin="625,228" daxiao="176,74" fangxiang="2"/>
+	<caozuo inid="20" zhongxin="375,1107" daxiao="170,75" fangxiang="2"/>
+	<caozuo inid="21" zhongxin="641,1062" daxiao="170,75" fangxiang="2"/>
+	<caozuo inid="22" zhongxin="177,677" daxiao="183,253" fangxiang="2"/>
+	<caozuo inid="23" zhongxin="645,678" daxiao="208,295" fangxiang="2"/>
+	<caozuo inid="24" zhongxin="415,785" daxiao="246,246" fangxiang="2"/>
+	<caozuo inid="25" zhongxin="250,1128" daxiao="162,65" fangxiang="2"/>
+	<caozuo inid="26" zhongxin="576,1128" daxiao="162,65" fangxiang="2"/>
+	<caozuo inid="27" zhongxin="635,237" daxiao="167,67" fangxiang="2"/>
+	<caozuo inid="28" zhongxin="333,1130" daxiao="216,63" fangxiang="2"/>
+	<caozuo inid="29" zhongxin="621,955" daxiao="254,239" fangxiang="2"/>
+	<caozuo inid="30" zhongxin="368,449" daxiao="709,594" fangxiang="2"/>
+	<caozuo inid="31" zhongxin="378,693" daxiao="419,450" fangxiang="2"/>
+	<caozuo inid="32" zhongxin="140,483" daxiao="207,233" fangxiang="2"/>
+	<caozuo inid="33" zhongxin="59,677" daxiao="117,98" fangxiang="2"/>
+	<caozuo inid="34" zhongxin="59,517" daxiao="117,98" fangxiang="2"/>
+	<caozuo inid="35" zhongxin="24,888" daxiao="45,42" fangxiang="2"/>
+	<caozuo inid="36" zhongxin="635,331" daxiao="169,73" fangxiang="2"/>
+	<caozuo inid="37" zhongxin="412,1115" daxiao="130,50" fangxiang="2"/>
+	<caozuo inid="38" zhongxin="205,1005" daxiao="92,99" fangxiang="2"/>
+	<caozuo inid="883" zhongxin="54,887" daxiao="90,90" fangxiang="1"/>
+	<caozuo inid="884" zhongxin="413,1272" daxiao="114,117" fangxiang="2"/>
+	<caozuo inid="885" zhongxin="532,1272" daxiao="114,117" fangxiang="2"/>
+	<caozuo inid="886" zhongxin="54,999" daxiao="90,90" fangxiang="2"/>
+	<caozuo inid="887" zhongxin="292,1272" daxiao="114,117" fangxiang="2"/>
+	<caozuo inid="888" zhongxin="173,1272" daxiao="114,117" fangxiang="2"/>
+	<caozuo inid="998" zhongxin="705,131" daxiao="88,95" fangxiang="1"/>
+	<caozuo inid="999" zhongxin="704,95" daxiao="78,78" fangxiang="1"/>
+	<caozuo inid="1000" zhongxin="700,1116" daxiao="91,95" fangxiang="1"/>
+</root>

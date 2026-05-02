@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+functionid	封印开启ID			
+ppnumber	参与人数 =1 单人副本 >1为组队副本（填2,2人组队即可参与）			
+resettime	每日重置时间（时：分：秒）			
+totalchallenge	额外付费挑战次数	
+viplevel 额外付费挑战次数所需VIP等级
+resetmoney =额外付费挑战一次所需要元宝
+freechallenge 免费挑战次数		
+vip	扫荡所需vip等级			
+number	活动编号			
+level	活动参与等级			
+gditemid	固定奖励ID			
+gdnum	奖励数量			
+sjitemid	概率奖励ID			
+sjnum	概率奖励数量			
+probability	概率奖励出现概率（万分比）			
+rewardnum	概率奖励数量			
+monsterid	对应怪物ID			
+monstername	对应怪物名称	
+avatar		对应怪物模型	
+battleid	战斗ID
+			
+
+
+-->
+	<pro functionid="2054" ppnumber="1" resettime="23:59:59" freechallenge="1" totalchallenge="0,1,1,2,2,3,3,5,5,7,7,10,10" viplevel="0,1,2,3,4,5,6,7,8,9,10,11,12" resetmoney="50"  vip="3"/>
+	<monster number="1" level="30" monsterid="400030001" monstername="牛头怪1" avatar="" battleid="400030001">
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="5" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="1">
+			<item item="1000014" num="1" weight="100"/>
+			<item item="5000014" num="1" weight="100"/>
+			<item item="2000014" num="1" weight="100"/>
+			<item item="6000014" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="2">
+			<item item="1000303" num="1" weight="100"/>
+			<item item="3000303" num="1" weight="100"/>
+			<item item="5000303" num="1" weight="100"/>
+			<item item="2000303" num="1" weight="100"/>
+			<item item="4000303" num="1" weight="100"/>
+			<item item="6000303" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="4" probability="10000" rewardnum="4">
+			<item item="1000302" num="1" weight="100"/>
+			<item item="3000302" num="1" weight="100"/>
+			<item item="5000302" num="1" weight="100"/>
+			<item item="2000302" num="1" weight="100"/>
+			<item item="4000302" num="1" weight="100"/>
+			<item item="6000302" num="1" weight="100"/>
+		</reward>
+	</monster>
+	<monster number="2" level="40" monsterid="400040001" monstername="牛头怪2" avatar="" battleid="400040001">
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="5" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="1">
+			<item item="1000014" num="1" weight="100"/>
+			<item item="5000014" num="1" weight="100"/>
+			<item item="2000014" num="1" weight="100"/>
+			<item item="6000014" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="2">
+			<item item="1000403" num="1" weight="100"/>
+			<item item="3000403" num="1" weight="100"/>
+			<item item="5000403" num="1" weight="100"/>
+			<item item="2000403" num="1" weight="100"/>
+			<item item="4000403" num="1" weight="100"/>
+			<item item="6000403" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="4" probability="10000" rewardnum="4">
+			<item item="1000402" num="1" weight="100"/>
+			<item item="3000402" num="1" weight="100"/>
+			<item item="5000402" num="1" weight="100"/>
+			<item item="2000402" num="1" weight="100"/>
+			<item item="4000402" num="1" weight="100"/>
+			<item item="6000402" num="1" weight="100"/>
+		</reward>
+	</monster>
+	<monster number="3" level="50" monsterid="400050001" monstername="牛头怪3" avatar="" battleid="400050001">
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="5" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="1">
+			<item item="1000014" num="1" weight="100"/>
+			<item item="5000014" num="1" weight="100"/>
+			<item item="2000014" num="1" weight="100"/>
+			<item item="6000014" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="2">
+			<item item="1000503" num="1" weight="100"/>
+			<item item="3000503" num="1" weight="100"/>
+			<item item="5000503" num="1" weight="100"/>
+			<item item="2000503" num="1" weight="100"/>
+			<item item="4000503" num="1" weight="100"/>
+			<item item="6000503" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="4" probability="10000" rewardnum="4">
+			<item item="1000502" num="1" weight="100"/>
+			<item item="3000502" num="1" weight="100"/>
+			<item item="5000502" num="1" weight="100"/>
+			<item item="2000502" num="1" weight="100"/>
+			<item item="4000502" num="1" weight="100"/>
+			<item item="6000502" num="1" weight="100"/>
+		</reward>
+	</monster>
+	<monster number="4" level="60" monsterid="400060001" monstername="牛头怪4" avatar="" battleid="400060001">
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="5" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="1">
+			<item item="1000404" num="1" weight="100"/>
+			<item item="5000404" num="1" weight="100"/>
+			<item item="2000404" num="1" weight="100"/>
+			<item item="6000404" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="2">
+			<item item="1000603" num="1" weight="100"/>
+			<item item="3000603" num="1" weight="100"/>
+			<item item="5000603" num="1" weight="100"/>
+			<item item="2000603" num="1" weight="100"/>
+			<item item="4000603" num="1" weight="100"/>
+			<item item="6000603" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="4" probability="10000" rewardnum="4">
+			<item item="1000602" num="1" weight="100"/>
+			<item item="3000602" num="1" weight="100"/>
+			<item item="5000602" num="1" weight="100"/>
+			<item item="2000602" num="1" weight="100"/>
+			<item item="4000602" num="1" weight="100"/>
+			<item item="6000602" num="1" weight="100"/>
+		</reward>
+	</monster>
+	<monster number="5" level="70" monsterid="400070001" monstername="牛头怪4" avatar="" battleid="400070001">
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="5" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="1">
+			<item item="1000404" num="1" weight="100"/>
+			<item item="5000404" num="1" weight="100"/>
+			<item item="2000404" num="1" weight="100"/>
+			<item item="6000404" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="2">
+			<item item="1000703" num="1" weight="100"/>
+			<item item="3000703" num="1" weight="100"/>
+			<item item="5000703" num="1" weight="100"/>
+			<item item="2000703" num="1" weight="100"/>
+			<item item="4000703" num="1" weight="100"/>
+			<item item="6000703" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="4" probability="10000" rewardnum="4">
+			<item item="1000702" num="1" weight="100"/>
+			<item item="3000702" num="1" weight="100"/>
+			<item item="5000702" num="1" weight="100"/>
+			<item item="2000702" num="1" weight="100"/>
+			<item item="4000702" num="1" weight="100"/>
+			<item item="6000702" num="1" weight="100"/>
+		</reward>
+	</monster>
+	<monster number="6" level="80" monsterid="400080001" monstername="牛头怪4" avatar="" battleid="400080001">
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="5" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="1">
+			<item item="1000504" num="1" weight="100"/>
+			<item item="5000504" num="1" weight="100"/>
+			<item item="2000504" num="1" weight="100"/>
+			<item item="6000504" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="2">
+			<item item="1000803" num="1" weight="100"/>
+			<item item="3000803" num="1" weight="100"/>
+			<item item="5000803" num="1" weight="100"/>
+			<item item="2000803" num="1" weight="100"/>
+			<item item="4000803" num="1" weight="100"/>
+			<item item="6000803" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="4" probability="10000" rewardnum="4">
+			<item item="1000802" num="1" weight="100"/>
+			<item item="3000802" num="1" weight="100"/>
+			<item item="5000802" num="1" weight="100"/>
+			<item item="2000802" num="1" weight="100"/>
+			<item item="4000802" num="1" weight="100"/>
+			<item item="6000802" num="1" weight="100"/>
+		</reward>
+	</monster>
+	<monster number="7" level="90" monsterid="400090001" monstername="牛头怪4" avatar="" battleid="400090001">
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="5" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="1">
+			<item item="1000504" num="1" weight="100"/>
+			<item item="5000504" num="1" weight="100"/>
+			<item item="2000504" num="1" weight="100"/>
+			<item item="6000504" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="2">
+			<item item="1000903" num="1" weight="100"/>
+			<item item="3000903" num="1" weight="100"/>
+			<item item="5000903" num="1" weight="100"/>
+			<item item="2000903" num="1" weight="100"/>
+			<item item="4000903" num="1" weight="100"/>
+			<item item="6000903" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="4" probability="10000" rewardnum="4">
+			<item item="1000902" num="1" weight="100"/>
+			<item item="3000902" num="1" weight="100"/>
+			<item item="5000902" num="1" weight="100"/>
+			<item item="2000902" num="1" weight="100"/>
+			<item item="4000902" num="1" weight="100"/>
+			<item item="6000902" num="1" weight="100"/>
+		</reward>
+	</monster>
+	<monster number="8" level="100" monsterid="400100001" monstername="牛头怪4" avatar="" battleid="400100001">
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="5" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="1">
+			<item item="1000604" num="1" weight="100"/>
+			<item item="5000604" num="1" weight="100"/>
+			<item item="2000604" num="1" weight="100"/>
+			<item item="6000604" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="2">
+			<item item="1001003" num="1" weight="100"/>
+			<item item="3001003" num="1" weight="100"/>
+			<item item="5001003" num="1" weight="100"/>
+			<item item="2001003" num="1" weight="100"/>
+			<item item="4001003" num="1" weight="100"/>
+			<item item="6001003" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="4" probability="10000" rewardnum="4">
+			<item item="1001002" num="1" weight="100"/>
+			<item item="3001002" num="1" weight="100"/>
+			<item item="5001002" num="1" weight="100"/>
+			<item item="2001002" num="1" weight="100"/>
+			<item item="4001002" num="1" weight="100"/>
+			<item item="6001002" num="1" weight="100"/>
+		</reward>
+	</monster>
+	<monster number="9" level="110" monsterid="400110001" monstername="牛头怪4" avatar="" battleid="400110001">
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="5" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="1">
+			<item item="1000604" num="1" weight="100"/>
+			<item item="5000604" num="1" weight="100"/>
+			<item item="2000604" num="1" weight="100"/>
+			<item item="6000604" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="2">
+			<item item="1001103" num="1" weight="100"/>
+			<item item="3001103" num="1" weight="100"/>
+			<item item="5001103" num="1" weight="100"/>
+			<item item="2001103" num="1" weight="100"/>
+			<item item="4001103" num="1" weight="100"/>
+			<item item="6001103" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="4" probability="10000" rewardnum="4">
+			<item item="1001102" num="1" weight="100"/>
+			<item item="3001102" num="1" weight="100"/>
+			<item item="5001102" num="1" weight="100"/>
+			<item item="2001102" num="1" weight="100"/>
+			<item item="4001102" num="1" weight="100"/>
+			<item item="6001102" num="1" weight="100"/>
+		</reward>
+	</monster>
+	<monster number="10" level="120" monsterid="400120001" monstername="牛头怪4" avatar="" battleid="400120001">
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="5" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="1">
+			<item item="1000704" num="1" weight="100"/>
+			<item item="5000704" num="1" weight="100"/>
+			<item item="2000704" num="1" weight="100"/>
+			<item item="6000704" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="2">
+			<item item="1001203" num="1" weight="100"/>
+			<item item="3001203" num="1" weight="100"/>
+			<item item="5001203" num="1" weight="100"/>
+			<item item="2001203" num="1" weight="100"/>
+			<item item="4001203" num="1" weight="100"/>
+			<item item="6001203" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="4" probability="10000" rewardnum="4">
+			<item item="1001202" num="1" weight="100"/>
+			<item item="3001202" num="1" weight="100"/>
+			<item item="5001202" num="1" weight="100"/>
+			<item item="2001202" num="1" weight="100"/>
+			<item item="4001202" num="1" weight="100"/>
+			<item item="6001202" num="1" weight="100"/>
+		</reward>
+	</monster>
+	<monster number="11" level="130" monsterid="400130001" monstername="牛头怪4" avatar="" battleid="400130001">
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="5" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="1">
+			<item item="1000704" num="1" weight="100"/>
+			<item item="5000704" num="1" weight="100"/>
+			<item item="2000704" num="1" weight="100"/>
+			<item item="6000704" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="2">
+			<item item="1001303" num="1" weight="100"/>
+			<item item="3001303" num="1" weight="100"/>
+			<item item="5001303" num="1" weight="100"/>
+			<item item="2001303" num="1" weight="100"/>
+			<item item="4001303" num="1" weight="100"/>
+			<item item="6001303" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="4" probability="10000" rewardnum="4">
+			<item item="1001302" num="1" weight="100"/>
+			<item item="3001302" num="1" weight="100"/>
+			<item item="5001302" num="1" weight="100"/>
+			<item item="2001302" num="1" weight="100"/>
+			<item item="4001302" num="1" weight="100"/>
+			<item item="6001302" num="1" weight="100"/>
+		</reward>
+	</monster>
+	<monster number="12" level="140" monsterid="400140001" monstername="牛头怪4" avatar="" battleid="400140001">
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="5" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="1">
+			<item item="1000704" num="1" weight="100"/>
+			<item item="5000704" num="1" weight="100"/>
+			<item item="2000704" num="1" weight="100"/>
+			<item item="6000704" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="2">
+			<item item="1001403" num="1" weight="100"/>
+			<item item="3001403" num="1" weight="100"/>
+			<item item="5001403" num="1" weight="100"/>
+			<item item="2001403" num="1" weight="100"/>
+			<item item="4001403" num="1" weight="100"/>
+			<item item="6001403" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="4" probability="10000" rewardnum="4">
+			<item item="1001402" num="1" weight="100"/>
+			<item item="3001402" num="1" weight="100"/>
+			<item item="5001402" num="1" weight="100"/>
+			<item item="2001402" num="1" weight="100"/>
+			<item item="4001402" num="1" weight="100"/>
+			<item item="6001402" num="1" weight="100"/>
+		</reward>
+	</monster>
+	<monster number="13" level="150" monsterid="400150001" monstername="牛头怪4" avatar="" battleid="400150001">
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="5" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="1">
+			<item item="1000704" num="1" weight="100"/>
+			<item item="5000704" num="1" weight="100"/>
+			<item item="2000704" num="1" weight="100"/>
+			<item item="6000704" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="2">
+			<item item="1001503" num="1" weight="100"/>
+			<item item="3001503" num="1" weight="100"/>
+			<item item="5001503" num="1" weight="100"/>
+			<item item="2001503" num="1" weight="100"/>
+			<item item="4001503" num="1" weight="100"/>
+			<item item="6001503" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="4" probability="10000" rewardnum="4">
+			<item item="1001502" num="1" weight="100"/>
+			<item item="3001502" num="1" weight="100"/>
+			<item item="5001502" num="1" weight="100"/>
+			<item item="2001502" num="1" weight="100"/>
+			<item item="4001502" num="1" weight="100"/>
+			<item item="6001502" num="1" weight="100"/>
+		</reward>
+	</monster>
+</root>

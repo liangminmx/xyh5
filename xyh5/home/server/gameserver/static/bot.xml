@@ -1,0 +1,1525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--功能id=1019 functionid
+bot	挂机ID			
+chapter	大关卡ID			
+scene	大地图ID			
+patrol	巡逻坐标填写方式（X,Y;X,Y）			
+time	遇怪时间，单位秒			
+downline	下线挂机时间			
+Profittime	离线收益时间			
+exp	经验			
+money	金钱			
+battleid	战斗ID			
+item	道具ID（多个道具用“；”隔开）			
+num	道具数量（多个道具用“；”隔开）			
+probability	道具掉落概率（多个道具用“；”隔开,万分比）			
+-->
+	<function functionid="1019"/>
+	<bot bot="1" chapter="1" scene="20001" patrol="37,22;44,18;47,23;47,27;49,20" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="200" battleid="100020001" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1000202" num="1" weight="95"/>
+			<item item="2000202" num="1" weight="95"/>
+			<item item="3000202" num="1" weight="95"/>
+			<item item="4000202" num="1" weight="95"/>
+			<item item="5000202" num="1" weight="95"/>
+			<item item="6000202" num="1" weight="95"/>
+			<item item="1000203" num="1" weight="5"/>
+			<item item="2000203" num="1" weight="5"/>
+			<item item="3000203" num="1" weight="5"/>
+			<item item="4000203" num="1" weight="5"/>
+			<item item="5000203" num="1" weight="5"/>
+			<item item="6000203" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="2" chapter="2" scene="20002" patrol="37,36;41,38;37,41;42,42;44,34" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="200" battleid="100035001" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1000302" num="1" weight="95"/>
+			<item item="2000302" num="1" weight="95"/>
+			<item item="3000302" num="1" weight="95"/>
+			<item item="4000302" num="1" weight="95"/>
+			<item item="5000302" num="1" weight="95"/>
+			<item item="6000302" num="1" weight="95"/>
+			<item item="1000303" num="1" weight="5"/>
+			<item item="2000303" num="1" weight="5"/>
+			<item item="3000303" num="1" weight="5"/>
+			<item item="4000303" num="1" weight="5"/>
+			<item item="5000303" num="1" weight="5"/>
+			<item item="6000303" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="3" chapter="3" scene="20002" patrol="48,48;51,38;56,25;44,64;64,24" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="230" battleid="100050001" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1000402" num="1" weight="95"/>
+			<item item="2000402" num="1" weight="95"/>
+			<item item="3000402" num="1" weight="95"/>
+			<item item="4000402" num="1" weight="95"/>
+			<item item="5000402" num="1" weight="95"/>
+			<item item="6000402" num="1" weight="95"/>
+			<item item="1000403" num="1" weight="5"/>
+			<item item="2000403" num="1" weight="5"/>
+			<item item="3000403" num="1" weight="5"/>
+			<item item="4000403" num="1" weight="5"/>
+			<item item="5000403" num="1" weight="5"/>
+			<item item="6000403" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="4" chapter="4" scene="20003" patrol="43,91;41,77;51,78;46,67;55,57" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="250" battleid="100065001" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1000502" num="1" weight="95"/>
+			<item item="2000502" num="1" weight="95"/>
+			<item item="3000502" num="1" weight="95"/>
+			<item item="4000502" num="1" weight="95"/>
+			<item item="5000502" num="1" weight="95"/>
+			<item item="6000502" num="1" weight="95"/>
+			<item item="1000503" num="1" weight="5"/>
+			<item item="2000503" num="1" weight="5"/>
+			<item item="3000503" num="1" weight="5"/>
+			<item item="4000503" num="1" weight="5"/>
+			<item item="5000503" num="1" weight="5"/>
+			<item item="6000503" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="5" chapter="5" scene="20003" patrol="96,43;87,34;76,48;73,65;76,24" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="280" battleid="100070001" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1000602" num="1" weight="95"/>
+			<item item="2000602" num="1" weight="95"/>
+			<item item="3000602" num="1" weight="95"/>
+			<item item="4000602" num="1" weight="95"/>
+			<item item="5000602" num="1" weight="95"/>
+			<item item="6000602" num="1" weight="95"/>
+			<item item="1000603" num="1" weight="5"/>
+			<item item="2000603" num="1" weight="5"/>
+			<item item="3000603" num="1" weight="5"/>
+			<item item="4000603" num="1" weight="5"/>
+			<item item="5000603" num="1" weight="5"/>
+			<item item="6000603" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="6" chapter="6" scene="20004" patrol="25,61;18,54;19,46;25,36;30,43" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="300" battleid="100070002" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1000702" num="1" weight="95"/>
+			<item item="2000702" num="1" weight="95"/>
+			<item item="3000702" num="1" weight="95"/>
+			<item item="4000702" num="1" weight="95"/>
+			<item item="5000702" num="1" weight="95"/>
+			<item item="6000702" num="1" weight="95"/>
+			<item item="1000703" num="1" weight="5"/>
+			<item item="2000703" num="1" weight="5"/>
+			<item item="3000703" num="1" weight="5"/>
+			<item item="4000703" num="1" weight="5"/>
+			<item item="5000703" num="1" weight="5"/>
+			<item item="6000703" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="7" chapter="7" scene="20004" patrol="34,27;45,17;52,20;58,27;60,19" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="320" battleid="100070003" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1000702" num="1" weight="95"/>
+			<item item="2000702" num="1" weight="95"/>
+			<item item="3000702" num="1" weight="95"/>
+			<item item="4000702" num="1" weight="95"/>
+			<item item="5000702" num="1" weight="95"/>
+			<item item="6000702" num="1" weight="95"/>
+			<item item="1000703" num="1" weight="5"/>
+			<item item="2000703" num="1" weight="5"/>
+			<item item="3000703" num="1" weight="5"/>
+			<item item="4000703" num="1" weight="5"/>
+			<item item="5000703" num="1" weight="5"/>
+			<item item="6000703" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="8" chapter="8" scene="20004" patrol="25,61;18,54;19,46;16,40;30,43" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="350" battleid="100070004" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1000702" num="1" weight="95"/>
+			<item item="2000702" num="1" weight="95"/>
+			<item item="3000702" num="1" weight="95"/>
+			<item item="4000702" num="1" weight="95"/>
+			<item item="5000702" num="1" weight="95"/>
+			<item item="6000702" num="1" weight="95"/>
+			<item item="1000703" num="1" weight="5"/>
+			<item item="2000703" num="1" weight="5"/>
+			<item item="3000703" num="1" weight="5"/>
+			<item item="4000703" num="1" weight="5"/>
+			<item item="5000703" num="1" weight="5"/>
+			<item item="6000703" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="9" chapter="9" scene="20004" patrol="34,27;45,17;52,20;58,27;60,19" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="400" battleid="100070005" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1000702" num="1" weight="95"/>
+			<item item="2000702" num="1" weight="95"/>
+			<item item="3000702" num="1" weight="95"/>
+			<item item="4000702" num="1" weight="95"/>
+			<item item="5000702" num="1" weight="95"/>
+			<item item="6000702" num="1" weight="95"/>
+			<item item="1000703" num="1" weight="5"/>
+			<item item="2000703" num="1" weight="5"/>
+			<item item="3000703" num="1" weight="5"/>
+			<item item="4000703" num="1" weight="5"/>
+			<item item="5000703" num="1" weight="5"/>
+			<item item="6000703" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="10" chapter="10" scene="20005" patrol="35,24;38,27;32,29;38,19;45,20" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="450" battleid="100085001" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1000802" num="1" weight="95"/>
+			<item item="2000802" num="1" weight="95"/>
+			<item item="3000802" num="1" weight="95"/>
+			<item item="4000802" num="1" weight="95"/>
+			<item item="5000802" num="1" weight="95"/>
+			<item item="6000802" num="1" weight="95"/>
+			<item item="1000803" num="1" weight="5"/>
+			<item item="2000803" num="1" weight="5"/>
+			<item item="3000803" num="1" weight="5"/>
+			<item item="4000803" num="1" weight="5"/>
+			<item item="5000803" num="1" weight="5"/>
+			<item item="6000803" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="11" chapter="11" scene="20005" patrol="21,42;19,45;26,37;25,40;22,38" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="500" battleid="100085002" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1000802" num="1" weight="95"/>
+			<item item="2000802" num="1" weight="95"/>
+			<item item="3000802" num="1" weight="95"/>
+			<item item="4000802" num="1" weight="95"/>
+			<item item="5000802" num="1" weight="95"/>
+			<item item="6000802" num="1" weight="95"/>
+			<item item="1000803" num="1" weight="5"/>
+			<item item="2000803" num="1" weight="5"/>
+			<item item="3000803" num="1" weight="5"/>
+			<item item="4000803" num="1" weight="5"/>
+			<item item="5000803" num="1" weight="5"/>
+			<item item="6000803" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="12" chapter="12" scene="20005" patrol="24,50;26,53;31,54;35,51;34,55" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="550" battleid="100085003" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1000802" num="1" weight="95"/>
+			<item item="2000802" num="1" weight="95"/>
+			<item item="3000802" num="1" weight="95"/>
+			<item item="4000802" num="1" weight="95"/>
+			<item item="5000802" num="1" weight="95"/>
+			<item item="6000802" num="1" weight="95"/>
+			<item item="1000803" num="1" weight="5"/>
+			<item item="2000803" num="1" weight="5"/>
+			<item item="3000803" num="1" weight="5"/>
+			<item item="4000803" num="1" weight="5"/>
+			<item item="5000803" num="1" weight="5"/>
+			<item item="6000803" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="13" chapter="13" scene="20005" patrol="35,24;38,27;32,29;38,19;45,20" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="600" battleid="100085004" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1000802" num="1" weight="95"/>
+			<item item="2000802" num="1" weight="95"/>
+			<item item="3000802" num="1" weight="95"/>
+			<item item="4000802" num="1" weight="95"/>
+			<item item="5000802" num="1" weight="95"/>
+			<item item="6000802" num="1" weight="95"/>
+			<item item="1000803" num="1" weight="5"/>
+			<item item="2000803" num="1" weight="5"/>
+			<item item="3000803" num="1" weight="5"/>
+			<item item="4000803" num="1" weight="5"/>
+			<item item="5000803" num="1" weight="5"/>
+			<item item="6000803" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="14" chapter="14" scene="20005" patrol="21,42;19,45;26,37;25,40;22,38" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="650" battleid="100085005" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1000802" num="1" weight="95"/>
+			<item item="2000802" num="1" weight="95"/>
+			<item item="3000802" num="1" weight="95"/>
+			<item item="4000802" num="1" weight="95"/>
+			<item item="5000802" num="1" weight="95"/>
+			<item item="6000802" num="1" weight="95"/>
+			<item item="1000803" num="1" weight="5"/>
+			<item item="2000803" num="1" weight="5"/>
+			<item item="3000803" num="1" weight="5"/>
+			<item item="4000803" num="1" weight="5"/>
+			<item item="5000803" num="1" weight="5"/>
+			<item item="6000803" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="15" chapter="15" scene="20006" patrol="10,45;15,44;19,41;20,43;23,46" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="700" battleid="100100001" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1000902" num="1" weight="95"/>
+			<item item="2000902" num="1" weight="95"/>
+			<item item="3000902" num="1" weight="95"/>
+			<item item="4000902" num="1" weight="95"/>
+			<item item="5000902" num="1" weight="95"/>
+			<item item="6000902" num="1" weight="95"/>
+			<item item="1000903" num="1" weight="5"/>
+			<item item="2000903" num="1" weight="5"/>
+			<item item="3000903" num="1" weight="5"/>
+			<item item="4000903" num="1" weight="5"/>
+			<item item="5000903" num="1" weight="5"/>
+			<item item="6000903" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="16" chapter="16" scene="20006" patrol="33,43;37,40;39,42;41,36;44,38" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="750" battleid="100100002" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1000902" num="1" weight="95"/>
+			<item item="2000902" num="1" weight="95"/>
+			<item item="3000902" num="1" weight="95"/>
+			<item item="4000902" num="1" weight="95"/>
+			<item item="5000902" num="1" weight="95"/>
+			<item item="6000902" num="1" weight="95"/>
+			<item item="1000903" num="1" weight="5"/>
+			<item item="2000903" num="1" weight="5"/>
+			<item item="3000903" num="1" weight="5"/>
+			<item item="4000903" num="1" weight="5"/>
+			<item item="5000903" num="1" weight="5"/>
+			<item item="6000903" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="17" chapter="17" scene="20006" patrol="42,29;47,21;42,13;49,15;52,11" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="800" battleid="100100003" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1000902" num="1" weight="95"/>
+			<item item="2000902" num="1" weight="95"/>
+			<item item="3000902" num="1" weight="95"/>
+			<item item="4000902" num="1" weight="95"/>
+			<item item="5000902" num="1" weight="95"/>
+			<item item="6000902" num="1" weight="95"/>
+			<item item="1000903" num="1" weight="5"/>
+			<item item="2000903" num="1" weight="5"/>
+			<item item="3000903" num="1" weight="5"/>
+			<item item="4000903" num="1" weight="5"/>
+			<item item="5000903" num="1" weight="5"/>
+			<item item="6000903" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="18" chapter="18" scene="20006" patrol="10,45;15,44;19,41;20,43;23,46" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="900" battleid="100100004" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1001002" num="1" weight="95"/>
+			<item item="2001002" num="1" weight="95"/>
+			<item item="3001002" num="1" weight="95"/>
+			<item item="4001002" num="1" weight="95"/>
+			<item item="5001002" num="1" weight="95"/>
+			<item item="6001002" num="1" weight="95"/>
+			<item item="1001003" num="1" weight="5"/>
+			<item item="2001003" num="1" weight="5"/>
+			<item item="3001003" num="1" weight="5"/>
+			<item item="4001003" num="1" weight="5"/>
+			<item item="5001003" num="1" weight="5"/>
+			<item item="6001003" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="19" chapter="19" scene="20006" patrol="33,43;37,40;39,42;41,36;44,38" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="1000" battleid="100100005" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1001002" num="1" weight="95"/>
+			<item item="2001002" num="1" weight="95"/>
+			<item item="3001002" num="1" weight="95"/>
+			<item item="4001002" num="1" weight="95"/>
+			<item item="5001002" num="1" weight="95"/>
+			<item item="6001002" num="1" weight="95"/>
+			<item item="1001003" num="1" weight="5"/>
+			<item item="2001003" num="1" weight="5"/>
+			<item item="3001003" num="1" weight="5"/>
+			<item item="4001003" num="1" weight="5"/>
+			<item item="5001003" num="1" weight="5"/>
+			<item item="6001003" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="20" chapter="20" scene="20007" patrol="12,51;20,47;26,56;24,45;36,48" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="1100" battleid="100115001" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1001002" num="1" weight="95"/>
+			<item item="2001002" num="1" weight="95"/>
+			<item item="3001002" num="1" weight="95"/>
+			<item item="4001002" num="1" weight="95"/>
+			<item item="5001002" num="1" weight="95"/>
+			<item item="6001002" num="1" weight="95"/>
+			<item item="1001003" num="1" weight="5"/>
+			<item item="2001003" num="1" weight="5"/>
+			<item item="3001003" num="1" weight="5"/>
+			<item item="4001003" num="1" weight="5"/>
+			<item item="5001003" num="1" weight="5"/>
+			<item item="6001003" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="21" chapter="21" scene="20007" patrol="39,31;41,23;45,18;55,26;53,16" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="1200" battleid="100115002" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1001002" num="1" weight="95"/>
+			<item item="2001002" num="1" weight="95"/>
+			<item item="3001002" num="1" weight="95"/>
+			<item item="4001002" num="1" weight="95"/>
+			<item item="5001002" num="1" weight="95"/>
+			<item item="6001002" num="1" weight="95"/>
+			<item item="1001003" num="1" weight="5"/>
+			<item item="2001003" num="1" weight="5"/>
+			<item item="3001003" num="1" weight="5"/>
+			<item item="4001003" num="1" weight="5"/>
+			<item item="5001003" num="1" weight="5"/>
+			<item item="6001003" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="22" chapter="22" scene="20007" patrol="12,51;20,47;26,56;24,45;36,48" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="1300" battleid="100115003" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1001102" num="1" weight="95"/>
+			<item item="2001102" num="1" weight="95"/>
+			<item item="3001102" num="1" weight="95"/>
+			<item item="4001102" num="1" weight="95"/>
+			<item item="5001102" num="1" weight="95"/>
+			<item item="6001102" num="1" weight="95"/>
+			<item item="1001103" num="1" weight="5"/>
+			<item item="2001103" num="1" weight="5"/>
+			<item item="3001103" num="1" weight="5"/>
+			<item item="4001103" num="1" weight="5"/>
+			<item item="5001103" num="1" weight="5"/>
+			<item item="6001103" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="23" chapter="23" scene="20007" patrol="39,31;41,23;45,18;55,26;53,16" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="1400" battleid="100115004" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1001102" num="1" weight="95"/>
+			<item item="2001102" num="1" weight="95"/>
+			<item item="3001102" num="1" weight="95"/>
+			<item item="4001102" num="1" weight="95"/>
+			<item item="5001102" num="1" weight="95"/>
+			<item item="6001102" num="1" weight="95"/>
+			<item item="1001103" num="1" weight="5"/>
+			<item item="2001103" num="1" weight="5"/>
+			<item item="3001103" num="1" weight="5"/>
+			<item item="4001103" num="1" weight="5"/>
+			<item item="5001103" num="1" weight="5"/>
+			<item item="6001103" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="24" chapter="24" scene="20007" patrol="12,51;20,47;26,56;24,45;36,48" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="1500" battleid="100115005" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1001102" num="1" weight="95"/>
+			<item item="2001102" num="1" weight="95"/>
+			<item item="3001102" num="1" weight="95"/>
+			<item item="4001102" num="1" weight="95"/>
+			<item item="5001102" num="1" weight="95"/>
+			<item item="6001102" num="1" weight="95"/>
+			<item item="1001103" num="1" weight="5"/>
+			<item item="2001103" num="1" weight="5"/>
+			<item item="3001103" num="1" weight="5"/>
+			<item item="4001103" num="1" weight="5"/>
+			<item item="5001103" num="1" weight="5"/>
+			<item item="6001103" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="25" chapter="25" scene="20008" patrol="15,49;23,51;27,32;28,41;31,46" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="1600" battleid="100130001" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1001202" num="1" weight="95"/>
+			<item item="2001202" num="1" weight="95"/>
+			<item item="3001202" num="1" weight="95"/>
+			<item item="4001202" num="1" weight="95"/>
+			<item item="5001202" num="1" weight="95"/>
+			<item item="6001202" num="1" weight="95"/>
+			<item item="1001203" num="1" weight="5"/>
+			<item item="2001203" num="1" weight="5"/>
+			<item item="3001203" num="1" weight="5"/>
+			<item item="4001203" num="1" weight="5"/>
+			<item item="5001203" num="1" weight="5"/>
+			<item item="6001203" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="26" chapter="26" scene="20008" patrol="32,61;38,56;37,52;43,43;46,38" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="1700" battleid="100130002" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1001202" num="1" weight="95"/>
+			<item item="2001202" num="1" weight="95"/>
+			<item item="3001202" num="1" weight="95"/>
+			<item item="4001202" num="1" weight="95"/>
+			<item item="5001202" num="1" weight="95"/>
+			<item item="6001202" num="1" weight="95"/>
+			<item item="1001203" num="1" weight="5"/>
+			<item item="2001203" num="1" weight="5"/>
+			<item item="3001203" num="1" weight="5"/>
+			<item item="4001203" num="1" weight="5"/>
+			<item item="5001203" num="1" weight="5"/>
+			<item item="6001203" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="27" chapter="27" scene="20008" patrol="48,15;51,20;58,21;59,32;64,25" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="1800" battleid="100130003" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1001202" num="1" weight="95"/>
+			<item item="2001202" num="1" weight="95"/>
+			<item item="3001202" num="1" weight="95"/>
+			<item item="4001202" num="1" weight="95"/>
+			<item item="5001202" num="1" weight="95"/>
+			<item item="6001202" num="1" weight="95"/>
+			<item item="1001203" num="1" weight="5"/>
+			<item item="2001203" num="1" weight="5"/>
+			<item item="3001203" num="1" weight="5"/>
+			<item item="4001203" num="1" weight="5"/>
+			<item item="5001203" num="1" weight="5"/>
+			<item item="6001203" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="28" chapter="28" scene="20008" patrol="15,49;23,51;27,32;28,41;31,46" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="1900" battleid="100130004" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1001202" num="1" weight="95"/>
+			<item item="2001202" num="1" weight="95"/>
+			<item item="3001202" num="1" weight="95"/>
+			<item item="4001202" num="1" weight="95"/>
+			<item item="5001202" num="1" weight="95"/>
+			<item item="6001202" num="1" weight="95"/>
+			<item item="1001203" num="1" weight="5"/>
+			<item item="2001203" num="1" weight="5"/>
+			<item item="3001203" num="1" weight="5"/>
+			<item item="4001203" num="1" weight="5"/>
+			<item item="5001203" num="1" weight="5"/>
+			<item item="6001203" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="29" chapter="29" scene="20008" patrol="32,61;38,56;37,52;43,43;46,38" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="2000" battleid="100130005" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1001202" num="1" weight="95"/>
+			<item item="2001202" num="1" weight="95"/>
+			<item item="3001202" num="1" weight="95"/>
+			<item item="4001202" num="1" weight="95"/>
+			<item item="5001202" num="1" weight="95"/>
+			<item item="6001202" num="1" weight="95"/>
+			<item item="1001203" num="1" weight="5"/>
+			<item item="2001203" num="1" weight="5"/>
+			<item item="3001203" num="1" weight="5"/>
+			<item item="4001203" num="1" weight="5"/>
+			<item item="5001203" num="1" weight="5"/>
+			<item item="6001203" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="30" chapter="30" scene="20008" patrol="48,15;51,20;58,21;59,32;64,25" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="2100" battleid="100130006" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1001302" num="1" weight="95"/>
+			<item item="2001302" num="1" weight="95"/>
+			<item item="3001302" num="1" weight="95"/>
+			<item item="4001302" num="1" weight="95"/>
+			<item item="5001302" num="1" weight="95"/>
+			<item item="6001302" num="1" weight="95"/>
+			<item item="1001303" num="1" weight="5"/>
+			<item item="2001303" num="1" weight="5"/>
+			<item item="3001303" num="1" weight="5"/>
+			<item item="4001303" num="1" weight="5"/>
+			<item item="5001303" num="1" weight="5"/>
+			<item item="6001303" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="31" chapter="31" scene="20008" patrol="15,49;23,51;27,32;28,41;31,46" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="2200" battleid="100130007" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1001302" num="1" weight="95"/>
+			<item item="2001302" num="1" weight="95"/>
+			<item item="3001302" num="1" weight="95"/>
+			<item item="4001302" num="1" weight="95"/>
+			<item item="5001302" num="1" weight="95"/>
+			<item item="6001302" num="1" weight="95"/>
+			<item item="1001303" num="1" weight="5"/>
+			<item item="2001303" num="1" weight="5"/>
+			<item item="3001303" num="1" weight="5"/>
+			<item item="4001303" num="1" weight="5"/>
+			<item item="5001303" num="1" weight="5"/>
+			<item item="6001303" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="32" chapter="32" scene="20008" patrol="32,61;38,56;37,52;43,43;46,38" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="2300" battleid="100130008" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1001302" num="1" weight="95"/>
+			<item item="2001302" num="1" weight="95"/>
+			<item item="3001302" num="1" weight="95"/>
+			<item item="4001302" num="1" weight="95"/>
+			<item item="5001302" num="1" weight="95"/>
+			<item item="6001302" num="1" weight="95"/>
+			<item item="1001303" num="1" weight="5"/>
+			<item item="2001303" num="1" weight="5"/>
+			<item item="3001303" num="1" weight="5"/>
+			<item item="4001303" num="1" weight="5"/>
+			<item item="5001303" num="1" weight="5"/>
+			<item item="6001303" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="33" chapter="33" scene="20008" patrol="48,15;51,20;58,21;59,32;64,25" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="2400" battleid="100130009" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1001302" num="1" weight="95"/>
+			<item item="2001302" num="1" weight="95"/>
+			<item item="3001302" num="1" weight="95"/>
+			<item item="4001302" num="1" weight="95"/>
+			<item item="5001302" num="1" weight="95"/>
+			<item item="6001302" num="1" weight="95"/>
+			<item item="1001303" num="1" weight="5"/>
+			<item item="2001303" num="1" weight="5"/>
+			<item item="3001303" num="1" weight="5"/>
+			<item item="4001303" num="1" weight="5"/>
+			<item item="5001303" num="1" weight="5"/>
+			<item item="6001303" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="34" chapter="34" scene="20008" patrol="15,49;23,51;27,32;28,41;31,46" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="2500" battleid="100130010" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1001302" num="1" weight="95"/>
+			<item item="2001302" num="1" weight="95"/>
+			<item item="3001302" num="1" weight="95"/>
+			<item item="4001302" num="1" weight="95"/>
+			<item item="5001302" num="1" weight="95"/>
+			<item item="6001302" num="1" weight="95"/>
+			<item item="1001303" num="1" weight="5"/>
+			<item item="2001303" num="1" weight="5"/>
+			<item item="3001303" num="1" weight="5"/>
+			<item item="4001303" num="1" weight="5"/>
+			<item item="5001303" num="1" weight="5"/>
+			<item item="6001303" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="35" chapter="35" scene="20009" patrol="32,58;35,53;33,50;37,48;38,44" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="2600" battleid="100145001" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1001402" num="1" weight="95"/>
+			<item item="2001402" num="1" weight="95"/>
+			<item item="3001402" num="1" weight="95"/>
+			<item item="4001402" num="1" weight="95"/>
+			<item item="5001402" num="1" weight="95"/>
+			<item item="6001402" num="1" weight="95"/>
+			<item item="1001403" num="1" weight="5"/>
+			<item item="2001403" num="1" weight="5"/>
+			<item item="3001403" num="1" weight="5"/>
+			<item item="4001403" num="1" weight="5"/>
+			<item item="5001403" num="1" weight="5"/>
+			<item item="6001403" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="36" chapter="36" scene="20009" patrol="38,28;41,31;43,26;39,35;43,33" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="2700" battleid="100145002" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1001402" num="1" weight="95"/>
+			<item item="2001402" num="1" weight="95"/>
+			<item item="3001402" num="1" weight="95"/>
+			<item item="4001402" num="1" weight="95"/>
+			<item item="5001402" num="1" weight="95"/>
+			<item item="6001402" num="1" weight="95"/>
+			<item item="1001403" num="1" weight="5"/>
+			<item item="2001403" num="1" weight="5"/>
+			<item item="3001403" num="1" weight="5"/>
+			<item item="4001403" num="1" weight="5"/>
+			<item item="5001403" num="1" weight="5"/>
+			<item item="6001403" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="37" chapter="37" scene="20009" patrol="48,22;54,28;56,23;58,26;60,18" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="2800" battleid="100145003" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1001402" num="1" weight="95"/>
+			<item item="2001402" num="1" weight="95"/>
+			<item item="3001402" num="1" weight="95"/>
+			<item item="4001402" num="1" weight="95"/>
+			<item item="5001402" num="1" weight="95"/>
+			<item item="6001402" num="1" weight="95"/>
+			<item item="1001403" num="1" weight="5"/>
+			<item item="2001403" num="1" weight="5"/>
+			<item item="3001403" num="1" weight="5"/>
+			<item item="4001403" num="1" weight="5"/>
+			<item item="5001403" num="1" weight="5"/>
+			<item item="6001403" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="38" chapter="38" scene="20009" patrol="32,58;35,53;33,50;37,48;38,44" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="2900" battleid="100145004" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1001402" num="1" weight="95"/>
+			<item item="2001402" num="1" weight="95"/>
+			<item item="3001402" num="1" weight="95"/>
+			<item item="4001402" num="1" weight="95"/>
+			<item item="5001402" num="1" weight="95"/>
+			<item item="6001402" num="1" weight="95"/>
+			<item item="1001403" num="1" weight="5"/>
+			<item item="2001403" num="1" weight="5"/>
+			<item item="3001403" num="1" weight="5"/>
+			<item item="4001403" num="1" weight="5"/>
+			<item item="5001403" num="1" weight="5"/>
+			<item item="6001403" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="39" chapter="39" scene="20009" patrol="38,28;41,31;43,26;39,35;43,33" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="3000" battleid="100145005" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1001402" num="1" weight="95"/>
+			<item item="2001402" num="1" weight="95"/>
+			<item item="3001402" num="1" weight="95"/>
+			<item item="4001402" num="1" weight="95"/>
+			<item item="5001402" num="1" weight="95"/>
+			<item item="6001402" num="1" weight="95"/>
+			<item item="1001403" num="1" weight="5"/>
+			<item item="2001403" num="1" weight="5"/>
+			<item item="3001403" num="1" weight="5"/>
+			<item item="4001403" num="1" weight="5"/>
+			<item item="5001403" num="1" weight="5"/>
+			<item item="6001403" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="40" chapter="40" scene="20009" patrol="48,22;54,28;56,23;58,26;60,18" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="3100" battleid="100145006" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1001402" num="1" weight="95"/>
+			<item item="2001402" num="1" weight="95"/>
+			<item item="3001402" num="1" weight="95"/>
+			<item item="4001402" num="1" weight="95"/>
+			<item item="5001402" num="1" weight="95"/>
+			<item item="6001402" num="1" weight="95"/>
+			<item item="1001403" num="1" weight="5"/>
+			<item item="2001403" num="1" weight="5"/>
+			<item item="3001403" num="1" weight="5"/>
+			<item item="4001403" num="1" weight="5"/>
+			<item item="5001403" num="1" weight="5"/>
+			<item item="6001403" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="41" chapter="41" scene="20009" patrol="32,58;35,53;33,50;37,48;38,44" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="3200" battleid="100145007" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1001402" num="1" weight="95"/>
+			<item item="2001402" num="1" weight="95"/>
+			<item item="3001402" num="1" weight="95"/>
+			<item item="4001402" num="1" weight="95"/>
+			<item item="5001402" num="1" weight="95"/>
+			<item item="6001402" num="1" weight="95"/>
+			<item item="1001403" num="1" weight="5"/>
+			<item item="2001403" num="1" weight="5"/>
+			<item item="3001403" num="1" weight="5"/>
+			<item item="4001403" num="1" weight="5"/>
+			<item item="5001403" num="1" weight="5"/>
+			<item item="6001403" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="42" chapter="42" scene="20009" patrol="38,28;41,31;43,26;39,35;43,33" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="3300" battleid="100145008" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1001402" num="1" weight="95"/>
+			<item item="2001402" num="1" weight="95"/>
+			<item item="3001402" num="1" weight="95"/>
+			<item item="4001402" num="1" weight="95"/>
+			<item item="5001402" num="1" weight="95"/>
+			<item item="6001402" num="1" weight="95"/>
+			<item item="1001403" num="1" weight="5"/>
+			<item item="2001403" num="1" weight="5"/>
+			<item item="3001403" num="1" weight="5"/>
+			<item item="4001403" num="1" weight="5"/>
+			<item item="5001403" num="1" weight="5"/>
+			<item item="6001403" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="43" chapter="43" scene="20009" patrol="48,22;54,28;56,23;58,26;60,18" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="3400" battleid="100145009" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1001402" num="1" weight="95"/>
+			<item item="2001402" num="1" weight="95"/>
+			<item item="3001402" num="1" weight="95"/>
+			<item item="4001402" num="1" weight="95"/>
+			<item item="5001402" num="1" weight="95"/>
+			<item item="6001402" num="1" weight="95"/>
+			<item item="1001403" num="1" weight="5"/>
+			<item item="2001403" num="1" weight="5"/>
+			<item item="3001403" num="1" weight="5"/>
+			<item item="4001403" num="1" weight="5"/>
+			<item item="5001403" num="1" weight="5"/>
+			<item item="6001403" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="44" chapter="44" scene="20009" patrol="32,58;35,53;33,50;37,48;38,44" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="3500" battleid="100145010" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1001402" num="1" weight="95"/>
+			<item item="2001402" num="1" weight="95"/>
+			<item item="3001402" num="1" weight="95"/>
+			<item item="4001402" num="1" weight="95"/>
+			<item item="5001402" num="1" weight="95"/>
+			<item item="6001402" num="1" weight="95"/>
+			<item item="1001403" num="1" weight="5"/>
+			<item item="2001403" num="1" weight="5"/>
+			<item item="3001403" num="1" weight="5"/>
+			<item item="4001403" num="1" weight="5"/>
+			<item item="5001403" num="1" weight="5"/>
+			<item item="6001403" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="45" chapter="45" scene="20010" patrol="22,41;29,38;32,42;38,41;41,45" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="3600" battleid="100160001" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1001502" num="1" weight="95"/>
+			<item item="2001502" num="1" weight="95"/>
+			<item item="3001502" num="1" weight="95"/>
+			<item item="4001502" num="1" weight="95"/>
+			<item item="5001502" num="1" weight="95"/>
+			<item item="6001502" num="1" weight="95"/>
+			<item item="1001503" num="1" weight="5"/>
+			<item item="2001503" num="1" weight="5"/>
+			<item item="3001503" num="1" weight="5"/>
+			<item item="4001503" num="1" weight="5"/>
+			<item item="5001503" num="1" weight="5"/>
+			<item item="6001503" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="46" chapter="46" scene="20010" patrol="44,41;47,32;44,16;38,20;47,19" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="3700" battleid="100160002" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1001502" num="1" weight="95"/>
+			<item item="2001502" num="1" weight="95"/>
+			<item item="3001502" num="1" weight="95"/>
+			<item item="4001502" num="1" weight="95"/>
+			<item item="5001502" num="1" weight="95"/>
+			<item item="6001502" num="1" weight="95"/>
+			<item item="1001503" num="1" weight="5"/>
+			<item item="2001503" num="1" weight="5"/>
+			<item item="3001503" num="1" weight="5"/>
+			<item item="4001503" num="1" weight="5"/>
+			<item item="5001503" num="1" weight="5"/>
+			<item item="6001503" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="47" chapter="47" scene="20010" patrol="53,29;59,31;63,19;58,24;65,21" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="3800" battleid="100160003" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1001502" num="1" weight="95"/>
+			<item item="2001502" num="1" weight="95"/>
+			<item item="3001502" num="1" weight="95"/>
+			<item item="4001502" num="1" weight="95"/>
+			<item item="5001502" num="1" weight="95"/>
+			<item item="6001502" num="1" weight="95"/>
+			<item item="1001503" num="1" weight="5"/>
+			<item item="2001503" num="1" weight="5"/>
+			<item item="3001503" num="1" weight="5"/>
+			<item item="4001503" num="1" weight="5"/>
+			<item item="5001503" num="1" weight="5"/>
+			<item item="6001503" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="48" chapter="48" scene="20010" patrol="22,41;29,38;32,42;38,41;41,45" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="3900" battleid="100160004" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1001502" num="1" weight="95"/>
+			<item item="2001502" num="1" weight="95"/>
+			<item item="3001502" num="1" weight="95"/>
+			<item item="4001502" num="1" weight="95"/>
+			<item item="5001502" num="1" weight="95"/>
+			<item item="6001502" num="1" weight="95"/>
+			<item item="1001503" num="1" weight="5"/>
+			<item item="2001503" num="1" weight="5"/>
+			<item item="3001503" num="1" weight="5"/>
+			<item item="4001503" num="1" weight="5"/>
+			<item item="5001503" num="1" weight="5"/>
+			<item item="6001503" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="49" chapter="49" scene="20010" patrol="44,41;47,32;44,16;38,20;47,19" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="4000" battleid="100160005" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1001502" num="1" weight="95"/>
+			<item item="2001502" num="1" weight="95"/>
+			<item item="3001502" num="1" weight="95"/>
+			<item item="4001502" num="1" weight="95"/>
+			<item item="5001502" num="1" weight="95"/>
+			<item item="6001502" num="1" weight="95"/>
+			<item item="1001503" num="1" weight="5"/>
+			<item item="2001503" num="1" weight="5"/>
+			<item item="3001503" num="1" weight="5"/>
+			<item item="4001503" num="1" weight="5"/>
+			<item item="5001503" num="1" weight="5"/>
+			<item item="6001503" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="50" chapter="50" scene="20010" patrol="53,29;59,31;63,19;58,24;65,21" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="4100" battleid="100160006" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1002602" num="1" weight="95"/>
+			<item item="2002602" num="1" weight="95"/>
+			<item item="3002602" num="1" weight="95"/>
+			<item item="4002602" num="1" weight="95"/>
+			<item item="5002602" num="1" weight="95"/>
+			<item item="6002602" num="1" weight="95"/>
+			<item item="1002603" num="1" weight="5"/>
+			<item item="2002603" num="1" weight="5"/>
+			<item item="3002603" num="1" weight="5"/>
+			<item item="4002603" num="1" weight="5"/>
+			<item item="5002603" num="1" weight="5"/>
+			<item item="6002603" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="51" chapter="51" scene="20010" patrol="22,41;29,38;32,42;38,41;41,45" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="4200" battleid="100160007" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1002602" num="1" weight="95"/>
+			<item item="2002602" num="1" weight="95"/>
+			<item item="3002602" num="1" weight="95"/>
+			<item item="4002602" num="1" weight="95"/>
+			<item item="5002602" num="1" weight="95"/>
+			<item item="6002602" num="1" weight="95"/>
+			<item item="1002603" num="1" weight="5"/>
+			<item item="2002603" num="1" weight="5"/>
+			<item item="3002603" num="1" weight="5"/>
+			<item item="4002603" num="1" weight="5"/>
+			<item item="5002603" num="1" weight="5"/>
+			<item item="6002603" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="52" chapter="52" scene="20010" patrol="44,41;47,32;44,16;38,20;47,19" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="4300" battleid="100160008" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1002602" num="1" weight="95"/>
+			<item item="2002602" num="1" weight="95"/>
+			<item item="3002602" num="1" weight="95"/>
+			<item item="4002602" num="1" weight="95"/>
+			<item item="5002602" num="1" weight="95"/>
+			<item item="6002602" num="1" weight="95"/>
+			<item item="1002603" num="1" weight="5"/>
+			<item item="2002603" num="1" weight="5"/>
+			<item item="3002603" num="1" weight="5"/>
+			<item item="4002603" num="1" weight="5"/>
+			<item item="5002603" num="1" weight="5"/>
+			<item item="6002603" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="53" chapter="53" scene="20010" patrol="53,29;59,31;63,19;58,24;65,21" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="4400" battleid="100160009" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1002602" num="1" weight="95"/>
+			<item item="2002602" num="1" weight="95"/>
+			<item item="3002602" num="1" weight="95"/>
+			<item item="4002602" num="1" weight="95"/>
+			<item item="5002602" num="1" weight="95"/>
+			<item item="6002602" num="1" weight="95"/>
+			<item item="1002603" num="1" weight="5"/>
+			<item item="2002603" num="1" weight="5"/>
+			<item item="3002603" num="1" weight="5"/>
+			<item item="4002603" num="1" weight="5"/>
+			<item item="5002603" num="1" weight="5"/>
+			<item item="6002603" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="54" chapter="54" scene="20010" patrol="22,41;29,38;32,42;38,41;41,45" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="4500" battleid="100160010" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1002602" num="1" weight="95"/>
+			<item item="2002602" num="1" weight="95"/>
+			<item item="3002602" num="1" weight="95"/>
+			<item item="4002602" num="1" weight="95"/>
+			<item item="5002602" num="1" weight="95"/>
+			<item item="6002602" num="1" weight="95"/>
+			<item item="1002603" num="1" weight="5"/>
+			<item item="2002603" num="1" weight="5"/>
+			<item item="3002603" num="1" weight="5"/>
+			<item item="4002603" num="1" weight="5"/>
+			<item item="5002603" num="1" weight="5"/>
+			<item item="6002603" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="55" chapter="55" scene="20011" patrol="70,37;65,35;54,41;54,46;60,35" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="4600" battleid="100170001" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1002702" num="1" weight="95"/>
+			<item item="2002702" num="1" weight="95"/>
+			<item item="3002702" num="1" weight="95"/>
+			<item item="4002702" num="1" weight="95"/>
+			<item item="5002702" num="1" weight="95"/>
+			<item item="6002702" num="1" weight="95"/>
+			<item item="1002703" num="1" weight="5"/>
+			<item item="2002703" num="1" weight="5"/>
+			<item item="3002703" num="1" weight="5"/>
+			<item item="4002703" num="1" weight="5"/>
+			<item item="5002703" num="1" weight="5"/>
+			<item item="6002703" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="56" chapter="56" scene="20011" patrol="50,18;56,16;61,20;55,32;46,33" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="4700" battleid="100170002" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1002702" num="1" weight="95"/>
+			<item item="2002702" num="1" weight="95"/>
+			<item item="3002702" num="1" weight="95"/>
+			<item item="4002702" num="1" weight="95"/>
+			<item item="5002702" num="1" weight="95"/>
+			<item item="6002702" num="1" weight="95"/>
+			<item item="1002703" num="1" weight="5"/>
+			<item item="2002703" num="1" weight="5"/>
+			<item item="3002703" num="1" weight="5"/>
+			<item item="4002703" num="1" weight="5"/>
+			<item item="5002703" num="1" weight="5"/>
+			<item item="6002703" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="57" chapter="57" scene="20011" patrol="25,29;22,35;18,44;32,34;24,42" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="4800" battleid="100170003" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1002702" num="1" weight="95"/>
+			<item item="2002702" num="1" weight="95"/>
+			<item item="3002702" num="1" weight="95"/>
+			<item item="4002702" num="1" weight="95"/>
+			<item item="5002702" num="1" weight="95"/>
+			<item item="6002702" num="1" weight="95"/>
+			<item item="1002703" num="1" weight="5"/>
+			<item item="2002703" num="1" weight="5"/>
+			<item item="3002703" num="1" weight="5"/>
+			<item item="4002703" num="1" weight="5"/>
+			<item item="5002703" num="1" weight="5"/>
+			<item item="6002703" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="58" chapter="58" scene="20011" patrol="18,49;24,59;32,61;42,56;43,45" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="4900" battleid="100170004" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1002702" num="1" weight="95"/>
+			<item item="2002702" num="1" weight="95"/>
+			<item item="3002702" num="1" weight="95"/>
+			<item item="4002702" num="1" weight="95"/>
+			<item item="5002702" num="1" weight="95"/>
+			<item item="6002702" num="1" weight="95"/>
+			<item item="1002703" num="1" weight="5"/>
+			<item item="2002703" num="1" weight="5"/>
+			<item item="3002703" num="1" weight="5"/>
+			<item item="4002703" num="1" weight="5"/>
+			<item item="5002703" num="1" weight="5"/>
+			<item item="6002703" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="59" chapter="59" scene="20011" patrol="70,37;65,35;54,41;54,46;60,35" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="5000" battleid="100170005" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1002702" num="1" weight="95"/>
+			<item item="2002702" num="1" weight="95"/>
+			<item item="3002702" num="1" weight="95"/>
+			<item item="4002702" num="1" weight="95"/>
+			<item item="5002702" num="1" weight="95"/>
+			<item item="6002702" num="1" weight="95"/>
+			<item item="1002703" num="1" weight="5"/>
+			<item item="2002703" num="1" weight="5"/>
+			<item item="3002703" num="1" weight="5"/>
+			<item item="4002703" num="1" weight="5"/>
+			<item item="5002703" num="1" weight="5"/>
+			<item item="6002703" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="60" chapter="60" scene="20011" patrol="50,18;56,16;61,20;55,32;46,33" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="5100" battleid="100180001" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1002802" num="1" weight="95"/>
+			<item item="2002802" num="1" weight="95"/>
+			<item item="3002802" num="1" weight="95"/>
+			<item item="4002802" num="1" weight="95"/>
+			<item item="5002802" num="1" weight="95"/>
+			<item item="6002802" num="1" weight="95"/>
+			<item item="1002803" num="1" weight="5"/>
+			<item item="2002803" num="1" weight="5"/>
+			<item item="3002803" num="1" weight="5"/>
+			<item item="4002803" num="1" weight="5"/>
+			<item item="5002803" num="1" weight="5"/>
+			<item item="6002803" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="61" chapter="61" scene="20011" patrol="25,29;22,35;18,44;32,34;24,42" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="5200" battleid="100180002" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1002802" num="1" weight="95"/>
+			<item item="2002802" num="1" weight="95"/>
+			<item item="3002802" num="1" weight="95"/>
+			<item item="4002802" num="1" weight="95"/>
+			<item item="5002802" num="1" weight="95"/>
+			<item item="6002802" num="1" weight="95"/>
+			<item item="1002803" num="1" weight="5"/>
+			<item item="2002803" num="1" weight="5"/>
+			<item item="3002803" num="1" weight="5"/>
+			<item item="4002803" num="1" weight="5"/>
+			<item item="5002803" num="1" weight="5"/>
+			<item item="6002803" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="62" chapter="62" scene="20011" patrol="18,49;24,59;32,61;42,56;43,45" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="5300" battleid="100180003" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1002802" num="1" weight="95"/>
+			<item item="2002802" num="1" weight="95"/>
+			<item item="3002802" num="1" weight="95"/>
+			<item item="4002802" num="1" weight="95"/>
+			<item item="5002802" num="1" weight="95"/>
+			<item item="6002802" num="1" weight="95"/>
+			<item item="1002803" num="1" weight="5"/>
+			<item item="2002803" num="1" weight="5"/>
+			<item item="3002803" num="1" weight="5"/>
+			<item item="4002803" num="1" weight="5"/>
+			<item item="5002803" num="1" weight="5"/>
+			<item item="6002803" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="63" chapter="63" scene="20011" patrol="70,37;65,35;54,41;54,46;60,35" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="5400" battleid="100180004" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1002802" num="1" weight="95"/>
+			<item item="2002802" num="1" weight="95"/>
+			<item item="3002802" num="1" weight="95"/>
+			<item item="4002802" num="1" weight="95"/>
+			<item item="5002802" num="1" weight="95"/>
+			<item item="6002802" num="1" weight="95"/>
+			<item item="1002803" num="1" weight="5"/>
+			<item item="2002803" num="1" weight="5"/>
+			<item item="3002803" num="1" weight="5"/>
+			<item item="4002803" num="1" weight="5"/>
+			<item item="5002803" num="1" weight="5"/>
+			<item item="6002803" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="64" chapter="64" scene="20011" patrol="50,18;56,16;61,20;55,32;46,33" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="5500" battleid="100180005" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1002802" num="1" weight="95"/>
+			<item item="2002802" num="1" weight="95"/>
+			<item item="3002802" num="1" weight="95"/>
+			<item item="4002802" num="1" weight="95"/>
+			<item item="5002802" num="1" weight="95"/>
+			<item item="6002802" num="1" weight="95"/>
+			<item item="1002803" num="1" weight="5"/>
+			<item item="2002803" num="1" weight="5"/>
+			<item item="3002803" num="1" weight="5"/>
+			<item item="4002803" num="1" weight="5"/>
+			<item item="5002803" num="1" weight="5"/>
+			<item item="6002803" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="65" chapter="65" scene="20012" patrol="64,39;63,30;58,26;61,21;65,26" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="5600" battleid="100190001" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1002902" num="1" weight="95"/>
+			<item item="2002902" num="1" weight="95"/>
+			<item item="3002902" num="1" weight="95"/>
+			<item item="4002902" num="1" weight="95"/>
+			<item item="5002902" num="1" weight="95"/>
+			<item item="6002902" num="1" weight="95"/>
+			<item item="1002903" num="1" weight="5"/>
+			<item item="2002903" num="1" weight="5"/>
+			<item item="3002903" num="1" weight="5"/>
+			<item item="4002903" num="1" weight="5"/>
+			<item item="5002903" num="1" weight="5"/>
+			<item item="6002903" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="66" chapter="66" scene="20012" patrol="47,31;40,21;46,23;48,14;51,17" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="5700" battleid="100190002" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1002902" num="1" weight="95"/>
+			<item item="2002902" num="1" weight="95"/>
+			<item item="3002902" num="1" weight="95"/>
+			<item item="4002902" num="1" weight="95"/>
+			<item item="5002902" num="1" weight="95"/>
+			<item item="6002902" num="1" weight="95"/>
+			<item item="1002903" num="1" weight="5"/>
+			<item item="2002903" num="1" weight="5"/>
+			<item item="3002903" num="1" weight="5"/>
+			<item item="4002903" num="1" weight="5"/>
+			<item item="5002903" num="1" weight="5"/>
+			<item item="6002903" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="67" chapter="67" scene="20012" patrol="48,41;49,48;44,56;46,60;52,52" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="5800" battleid="100190003" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1002902" num="1" weight="95"/>
+			<item item="2002902" num="1" weight="95"/>
+			<item item="3002902" num="1" weight="95"/>
+			<item item="4002902" num="1" weight="95"/>
+			<item item="5002902" num="1" weight="95"/>
+			<item item="6002902" num="1" weight="95"/>
+			<item item="1002903" num="1" weight="5"/>
+			<item item="2002903" num="1" weight="5"/>
+			<item item="3002903" num="1" weight="5"/>
+			<item item="4002903" num="1" weight="5"/>
+			<item item="5002903" num="1" weight="5"/>
+			<item item="6002903" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="68" chapter="68" scene="20012" patrol="33,44;27,62;26,51;25,46;33,71" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="5900" battleid="100190004" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1002902" num="1" weight="95"/>
+			<item item="2002902" num="1" weight="95"/>
+			<item item="3002902" num="1" weight="95"/>
+			<item item="4002902" num="1" weight="95"/>
+			<item item="5002902" num="1" weight="95"/>
+			<item item="6002902" num="1" weight="95"/>
+			<item item="1002903" num="1" weight="5"/>
+			<item item="2002903" num="1" weight="5"/>
+			<item item="3002903" num="1" weight="5"/>
+			<item item="4002903" num="1" weight="5"/>
+			<item item="5002903" num="1" weight="5"/>
+			<item item="6002903" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="69" chapter="69" scene="20012" patrol="64,39;63,30;58,26;61,21;65,26" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="6000" battleid="100190005" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1002902" num="1" weight="95"/>
+			<item item="2002902" num="1" weight="95"/>
+			<item item="3002902" num="1" weight="95"/>
+			<item item="4002902" num="1" weight="95"/>
+			<item item="5002902" num="1" weight="95"/>
+			<item item="6002902" num="1" weight="95"/>
+			<item item="1002903" num="1" weight="5"/>
+			<item item="2002903" num="1" weight="5"/>
+			<item item="3002903" num="1" weight="5"/>
+			<item item="4002903" num="1" weight="5"/>
+			<item item="5002903" num="1" weight="5"/>
+			<item item="6002903" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="70" chapter="70" scene="20012" patrol="47,31;40,21;46,23;48,14;51,17" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="6100" battleid="100200001" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1003002" num="1" weight="95"/>
+			<item item="2003002" num="1" weight="95"/>
+			<item item="3003002" num="1" weight="95"/>
+			<item item="4003002" num="1" weight="95"/>
+			<item item="5003002" num="1" weight="95"/>
+			<item item="6003002" num="1" weight="95"/>
+			<item item="1003003" num="1" weight="5"/>
+			<item item="2003003" num="1" weight="5"/>
+			<item item="3003003" num="1" weight="5"/>
+			<item item="4003003" num="1" weight="5"/>
+			<item item="5003003" num="1" weight="5"/>
+			<item item="6003003" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="71" chapter="71" scene="20012" patrol="48,41;49,48;44,56;46,60;52,52" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="6200" battleid="100200002" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1003002" num="1" weight="95"/>
+			<item item="2003002" num="1" weight="95"/>
+			<item item="3003002" num="1" weight="95"/>
+			<item item="4003002" num="1" weight="95"/>
+			<item item="5003002" num="1" weight="95"/>
+			<item item="6003002" num="1" weight="95"/>
+			<item item="1003003" num="1" weight="5"/>
+			<item item="2003003" num="1" weight="5"/>
+			<item item="3003003" num="1" weight="5"/>
+			<item item="4003003" num="1" weight="5"/>
+			<item item="5003003" num="1" weight="5"/>
+			<item item="6003003" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="72" chapter="72" scene="20012" patrol="33,44;27,62;26,51;25,46;33,71" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="6300" battleid="100200003" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1003002" num="1" weight="95"/>
+			<item item="2003002" num="1" weight="95"/>
+			<item item="3003002" num="1" weight="95"/>
+			<item item="4003002" num="1" weight="95"/>
+			<item item="5003002" num="1" weight="95"/>
+			<item item="6003002" num="1" weight="95"/>
+			<item item="1003003" num="1" weight="5"/>
+			<item item="2003003" num="1" weight="5"/>
+			<item item="3003003" num="1" weight="5"/>
+			<item item="4003003" num="1" weight="5"/>
+			<item item="5003003" num="1" weight="5"/>
+			<item item="6003003" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="73" chapter="73" scene="20012" patrol="64,39;63,30;58,26;61,21;65,26" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="6400" battleid="100200004" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1003002" num="1" weight="95"/>
+			<item item="2003002" num="1" weight="95"/>
+			<item item="3003002" num="1" weight="95"/>
+			<item item="4003002" num="1" weight="95"/>
+			<item item="5003002" num="1" weight="95"/>
+			<item item="6003002" num="1" weight="95"/>
+			<item item="1003003" num="1" weight="5"/>
+			<item item="2003003" num="1" weight="5"/>
+			<item item="3003003" num="1" weight="5"/>
+			<item item="4003003" num="1" weight="5"/>
+			<item item="5003003" num="1" weight="5"/>
+			<item item="6003003" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="74" chapter="74" scene="20012" patrol="47,31;40,21;46,23;48,14;51,17" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="6500" battleid="100200005" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1003002" num="1" weight="95"/>
+			<item item="2003002" num="1" weight="95"/>
+			<item item="3003002" num="1" weight="95"/>
+			<item item="4003002" num="1" weight="95"/>
+			<item item="5003002" num="1" weight="95"/>
+			<item item="6003002" num="1" weight="95"/>
+			<item item="1003003" num="1" weight="5"/>
+			<item item="2003003" num="1" weight="5"/>
+			<item item="3003003" num="1" weight="5"/>
+			<item item="4003003" num="1" weight="5"/>
+			<item item="5003003" num="1" weight="5"/>
+			<item item="6003003" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="75" chapter="75" scene="20013" patrol="38,74;33,66;44,64;38,52;47,54" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="4900" battleid="100210001" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1003102" num="1" weight="95"/>
+			<item item="2003102" num="1" weight="95"/>
+			<item item="3003102" num="1" weight="95"/>
+			<item item="4003102" num="1" weight="95"/>
+			<item item="5003102" num="1" weight="95"/>
+			<item item="6003102" num="1" weight="95"/>
+			<item item="1003103" num="1" weight="5"/>
+			<item item="2003103" num="1" weight="5"/>
+			<item item="3003103" num="1" weight="5"/>
+			<item item="4003103" num="1" weight="5"/>
+			<item item="5003103" num="1" weight="5"/>
+			<item item="6003103" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="76" chapter="76" scene="20013" patrol="12,50;17,48;23,43;29,41;31,46" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="5000" battleid="100210002" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1003102" num="1" weight="95"/>
+			<item item="2003102" num="1" weight="95"/>
+			<item item="3003102" num="1" weight="95"/>
+			<item item="4003102" num="1" weight="95"/>
+			<item item="5003102" num="1" weight="95"/>
+			<item item="6003102" num="1" weight="95"/>
+			<item item="1003103" num="1" weight="5"/>
+			<item item="2003103" num="1" weight="5"/>
+			<item item="3003103" num="1" weight="5"/>
+			<item item="4003103" num="1" weight="5"/>
+			<item item="5003103" num="1" weight="5"/>
+			<item item="6003103" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="77" chapter="77" scene="20013" patrol="58,49;61,52;68,48;72,38;77,32" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="5100" battleid="100210003" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1003102" num="1" weight="95"/>
+			<item item="2003102" num="1" weight="95"/>
+			<item item="3003102" num="1" weight="95"/>
+			<item item="4003102" num="1" weight="95"/>
+			<item item="5003102" num="1" weight="95"/>
+			<item item="6003102" num="1" weight="95"/>
+			<item item="1003103" num="1" weight="5"/>
+			<item item="2003103" num="1" weight="5"/>
+			<item item="3003103" num="1" weight="5"/>
+			<item item="4003103" num="1" weight="5"/>
+			<item item="5003103" num="1" weight="5"/>
+			<item item="6003103" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="78" chapter="78" scene="20013" patrol="45,32;46,25;54,20;61,23;60,27" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="5200" battleid="100210004" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1003102" num="1" weight="95"/>
+			<item item="2003102" num="1" weight="95"/>
+			<item item="3003102" num="1" weight="95"/>
+			<item item="4003102" num="1" weight="95"/>
+			<item item="5003102" num="1" weight="95"/>
+			<item item="6003102" num="1" weight="95"/>
+			<item item="1003103" num="1" weight="5"/>
+			<item item="2003103" num="1" weight="5"/>
+			<item item="3003103" num="1" weight="5"/>
+			<item item="4003103" num="1" weight="5"/>
+			<item item="5003103" num="1" weight="5"/>
+			<item item="6003103" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="79" chapter="79" scene="20013" patrol="38,74;33,66;44,64;38,52;47,54" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="5300" battleid="100210005" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1003102" num="1" weight="95"/>
+			<item item="2003102" num="1" weight="95"/>
+			<item item="3003102" num="1" weight="95"/>
+			<item item="4003102" num="1" weight="95"/>
+			<item item="5003102" num="1" weight="95"/>
+			<item item="6003102" num="1" weight="95"/>
+			<item item="1003103" num="1" weight="5"/>
+			<item item="2003103" num="1" weight="5"/>
+			<item item="3003103" num="1" weight="5"/>
+			<item item="4003103" num="1" weight="5"/>
+			<item item="5003103" num="1" weight="5"/>
+			<item item="6003103" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="80" chapter="80" scene="20013" patrol="12,50;17,48;23,43;29,41;31,46" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="5400" battleid="100220001" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1003202" num="1" weight="95"/>
+			<item item="2003202" num="1" weight="95"/>
+			<item item="3003202" num="1" weight="95"/>
+			<item item="4003202" num="1" weight="95"/>
+			<item item="5003202" num="1" weight="95"/>
+			<item item="6003202" num="1" weight="95"/>
+			<item item="1003203" num="1" weight="5"/>
+			<item item="2003203" num="1" weight="5"/>
+			<item item="3003203" num="1" weight="5"/>
+			<item item="4003203" num="1" weight="5"/>
+			<item item="5003203" num="1" weight="5"/>
+			<item item="6003203" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="81" chapter="81" scene="20013" patrol="58,49;61,52;68,48;72,38;77,32" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="5500" battleid="100220002" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1003202" num="1" weight="95"/>
+			<item item="2003202" num="1" weight="95"/>
+			<item item="3003202" num="1" weight="95"/>
+			<item item="4003202" num="1" weight="95"/>
+			<item item="5003202" num="1" weight="95"/>
+			<item item="6003202" num="1" weight="95"/>
+			<item item="1003203" num="1" weight="5"/>
+			<item item="2003203" num="1" weight="5"/>
+			<item item="3003203" num="1" weight="5"/>
+			<item item="4003203" num="1" weight="5"/>
+			<item item="5003203" num="1" weight="5"/>
+			<item item="6003203" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="82" chapter="82" scene="20013" patrol="45,32;46,25;54,20;61,23;60,27" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="4700" battleid="100220003" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1003202" num="1" weight="95"/>
+			<item item="2003202" num="1" weight="95"/>
+			<item item="3003202" num="1" weight="95"/>
+			<item item="4003202" num="1" weight="95"/>
+			<item item="5003202" num="1" weight="95"/>
+			<item item="6003202" num="1" weight="95"/>
+			<item item="1003203" num="1" weight="5"/>
+			<item item="2003203" num="1" weight="5"/>
+			<item item="3003203" num="1" weight="5"/>
+			<item item="4003203" num="1" weight="5"/>
+			<item item="5003203" num="1" weight="5"/>
+			<item item="6003203" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="83" chapter="83" scene="20013" patrol="38,74;33,66;44,64;38,52;47,54" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="4800" battleid="100220004" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1003202" num="1" weight="95"/>
+			<item item="2003202" num="1" weight="95"/>
+			<item item="3003202" num="1" weight="95"/>
+			<item item="4003202" num="1" weight="95"/>
+			<item item="5003202" num="1" weight="95"/>
+			<item item="6003202" num="1" weight="95"/>
+			<item item="1003203" num="1" weight="5"/>
+			<item item="2003203" num="1" weight="5"/>
+			<item item="3003203" num="1" weight="5"/>
+			<item item="4003203" num="1" weight="5"/>
+			<item item="5003203" num="1" weight="5"/>
+			<item item="6003203" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="84" chapter="84" scene="20013" patrol="12,50;17,48;23,43;29,41;31,46" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="4900" battleid="100220005" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1003202" num="1" weight="95"/>
+			<item item="2003202" num="1" weight="95"/>
+			<item item="3003202" num="1" weight="95"/>
+			<item item="4003202" num="1" weight="95"/>
+			<item item="5003202" num="1" weight="95"/>
+			<item item="6003202" num="1" weight="95"/>
+			<item item="1003203" num="1" weight="5"/>
+			<item item="2003203" num="1" weight="5"/>
+			<item item="3003203" num="1" weight="5"/>
+			<item item="4003203" num="1" weight="5"/>
+			<item item="5003203" num="1" weight="5"/>
+			<item item="6003203" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="85" chapter="85" scene="20014" patrol="31,30;32,23;31,18;33,15;35,17" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="5000" battleid="100230001" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1003302" num="1" weight="95"/>
+			<item item="2003302" num="1" weight="95"/>
+			<item item="3003302" num="1" weight="95"/>
+			<item item="4003302" num="1" weight="95"/>
+			<item item="5003302" num="1" weight="95"/>
+			<item item="6003302" num="1" weight="95"/>
+			<item item="1003303" num="1" weight="5"/>
+			<item item="2003303" num="1" weight="5"/>
+			<item item="3003303" num="1" weight="5"/>
+			<item item="4003303" num="1" weight="5"/>
+			<item item="5003303" num="1" weight="5"/>
+			<item item="6003303" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="86" chapter="86" scene="20014" patrol="40,27;42,29;42,33;53,29;50,22" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="5100" battleid="100230002" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1003302" num="1" weight="95"/>
+			<item item="2003302" num="1" weight="95"/>
+			<item item="3003302" num="1" weight="95"/>
+			<item item="4003302" num="1" weight="95"/>
+			<item item="5003302" num="1" weight="95"/>
+			<item item="6003302" num="1" weight="95"/>
+			<item item="1003303" num="1" weight="5"/>
+			<item item="2003303" num="1" weight="5"/>
+			<item item="3003303" num="1" weight="5"/>
+			<item item="4003303" num="1" weight="5"/>
+			<item item="5003303" num="1" weight="5"/>
+			<item item="6003303" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="87" chapter="87" scene="20014" patrol="34,44;22,51;18,45;13,34;19,31" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="5200" battleid="100230003" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1003302" num="1" weight="95"/>
+			<item item="2003302" num="1" weight="95"/>
+			<item item="3003302" num="1" weight="95"/>
+			<item item="4003302" num="1" weight="95"/>
+			<item item="5003302" num="1" weight="95"/>
+			<item item="6003302" num="1" weight="95"/>
+			<item item="1003303" num="1" weight="5"/>
+			<item item="2003303" num="1" weight="5"/>
+			<item item="3003303" num="1" weight="5"/>
+			<item item="4003303" num="1" weight="5"/>
+			<item item="5003303" num="1" weight="5"/>
+			<item item="6003303" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="88" chapter="88" scene="20014" patrol="31,30;32,23;31,18;33,15;35,17" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="5300" battleid="100230004" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1003302" num="1" weight="95"/>
+			<item item="2003302" num="1" weight="95"/>
+			<item item="3003302" num="1" weight="95"/>
+			<item item="4003302" num="1" weight="95"/>
+			<item item="5003302" num="1" weight="95"/>
+			<item item="6003302" num="1" weight="95"/>
+			<item item="1003303" num="1" weight="5"/>
+			<item item="2003303" num="1" weight="5"/>
+			<item item="3003303" num="1" weight="5"/>
+			<item item="4003303" num="1" weight="5"/>
+			<item item="5003303" num="1" weight="5"/>
+			<item item="6003303" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="89" chapter="89" scene="20014" patrol="40,27;42,29;42,33;53,29;50,22" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="5400" battleid="100230005" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1003302" num="1" weight="95"/>
+			<item item="2003302" num="1" weight="95"/>
+			<item item="3003302" num="1" weight="95"/>
+			<item item="4003302" num="1" weight="95"/>
+			<item item="5003302" num="1" weight="95"/>
+			<item item="6003302" num="1" weight="95"/>
+			<item item="1003303" num="1" weight="5"/>
+			<item item="2003303" num="1" weight="5"/>
+			<item item="3003303" num="1" weight="5"/>
+			<item item="4003303" num="1" weight="5"/>
+			<item item="5003303" num="1" weight="5"/>
+			<item item="6003303" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="90" chapter="90" scene="20014" patrol="34,44;22,51;18,45;13,34;19,31" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="5500" battleid="100240001" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1003402" num="1" weight="95"/>
+			<item item="2003402" num="1" weight="95"/>
+			<item item="3003402" num="1" weight="95"/>
+			<item item="4003402" num="1" weight="95"/>
+			<item item="5003402" num="1" weight="95"/>
+			<item item="6003402" num="1" weight="95"/>
+			<item item="1003403" num="1" weight="5"/>
+			<item item="2003403" num="1" weight="5"/>
+			<item item="3003403" num="1" weight="5"/>
+			<item item="4003403" num="1" weight="5"/>
+			<item item="5003403" num="1" weight="5"/>
+			<item item="6003403" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="91" chapter="91" scene="20014" patrol="31,30;32,23;31,18;33,15;35,17" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="5500" battleid="100240002" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1003402" num="1" weight="95"/>
+			<item item="2003402" num="1" weight="95"/>
+			<item item="3003402" num="1" weight="95"/>
+			<item item="4003402" num="1" weight="95"/>
+			<item item="5003402" num="1" weight="95"/>
+			<item item="6003402" num="1" weight="95"/>
+			<item item="1003403" num="1" weight="5"/>
+			<item item="2003403" num="1" weight="5"/>
+			<item item="3003403" num="1" weight="5"/>
+			<item item="4003403" num="1" weight="5"/>
+			<item item="5003403" num="1" weight="5"/>
+			<item item="6003403" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="92" chapter="92" scene="20014" patrol="40,27;42,29;42,33;53,29;50,22" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="5500" battleid="100240003" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1003402" num="1" weight="95"/>
+			<item item="2003402" num="1" weight="95"/>
+			<item item="3003402" num="1" weight="95"/>
+			<item item="4003402" num="1" weight="95"/>
+			<item item="5003402" num="1" weight="95"/>
+			<item item="6003402" num="1" weight="95"/>
+			<item item="1003403" num="1" weight="5"/>
+			<item item="2003403" num="1" weight="5"/>
+			<item item="3003403" num="1" weight="5"/>
+			<item item="4003403" num="1" weight="5"/>
+			<item item="5003403" num="1" weight="5"/>
+			<item item="6003403" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="93" chapter="93" scene="20014" patrol="34,44;22,51;18,45;13,34;19,31" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="5500" battleid="100240004" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1003402" num="1" weight="95"/>
+			<item item="2003402" num="1" weight="95"/>
+			<item item="3003402" num="1" weight="95"/>
+			<item item="4003402" num="1" weight="95"/>
+			<item item="5003402" num="1" weight="95"/>
+			<item item="6003402" num="1" weight="95"/>
+			<item item="1003403" num="1" weight="5"/>
+			<item item="2003403" num="1" weight="5"/>
+			<item item="3003403" num="1" weight="5"/>
+			<item item="4003403" num="1" weight="5"/>
+			<item item="5003403" num="1" weight="5"/>
+			<item item="6003403" num="1" weight="5"/>
+		</reward>
+	</bot>
+	<bot bot="94" chapter="94" scene="20014" patrol="31,30;32,23;31,18;33,15;35,17" standbytime="300" time="8" downline="25" Profittime="10800" exp="500" money="5500" battleid="100240005" pay="100" equpimoney="100">
+		<reward rewardid="1" probability="5500" rewardnum="1">
+			<item item="1003402" num="1" weight="95"/>
+			<item item="2003402" num="1" weight="95"/>
+			<item item="3003402" num="1" weight="95"/>
+			<item item="4003402" num="1" weight="95"/>
+			<item item="5003402" num="1" weight="95"/>
+			<item item="6003402" num="1" weight="95"/>
+			<item item="1003403" num="1" weight="5"/>
+			<item item="2003403" num="1" weight="5"/>
+			<item item="3003403" num="1" weight="5"/>
+			<item item="4003403" num="1" weight="5"/>
+			<item item="5003403" num="1" weight="5"/>
+			<item item="6003403" num="1" weight="5"/>
+		</reward>
+	</bot>
+</root>

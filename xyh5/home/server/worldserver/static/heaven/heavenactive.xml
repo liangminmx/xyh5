@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+heavenid	天道id
+indexid	编号id，客户端用
+typeid	表示天道激活的类型；=1签到次数激活，=2登陆天数激活，=3累计在线时间激活
+signnum	签到次数，天道为正常激活时使用
+daynum	天数，天道为正常激活时使用
+onlinetime	累计在线时间，单位秒，天道为正常激活时使用
+viplev	vip等级，天道为正常激活时使用=0表示VIP等级不会激活
+ <normal heavenid="1" indexid="0" typeid="4" daynum="-1" signnum="-1" onlinetime="-1" viplev="0" realm="2" stage="2"/>
+ <normal heavenid="1" indexid="0" typeid="5" daynum="-1" signnum="-1" onlinetime="-1" viplev="0" realm="-1" stage="-1" mainhall_id="3" target_realm="2" target_stage="2" target_desc="将境界提升至：{0}"/>
+-->
+  <normal heavenid="1" indexid="0" typeid="6" daynum="-1" signnum="-1" onlinetime="-1" viplev="0" realm="-1" stage="-1" targetid="2" target_realm="-1" target_stage="-1"/>
+  <normal heavenid="2" indexid="1" typeid="2" daynum="2" signnum="-1" onlinetime="-1" viplev="3" realm="-1" stage="-1" targetid="-1" target_realm="-1" target_stage="-1"/>
+  <normal heavenid="3" indexid="2" typeid="2" daynum="3" signnum="-1" onlinetime="-1" viplev="0" realm="-1" stage="-1" targetid="-1" target_realm="-1" target_stage="-1"/>
+  <normal heavenid="4" indexid="3" typeid="2" daynum="7" signnum="-1" onlinetime="-1" viplev="5" realm="-1" stage="-1" targetid="-1" target_realm="-1" target_stage="-1"/>
+  <normal heavenid="5" indexid="4" typeid="1" daynum="-1" signnum="14" onlinetime="-1" viplev="0" realm="-1" stage="-1" targetid="-1" target_realm="-1" target_stage="-1"/>
+  <normal heavenid="6" indexid="5" typeid="1" daynum="-1" signnum="30" onlinetime="-1" viplev="0" realm="-1" stage="-1" targetid="-1" target_realm="-1" target_stage="-1"/>
+  <normal heavenid="7" indexid="6" typeid="1" daynum="-1" signnum="45" onlinetime="-1" viplev="8" realm="-1" stage="-1" targetid="-1" target_realm="-1" target_stage="-1"/>
+  <!--
+openlev	功能开放等级，客户端显示用，服务器默认已开启
+heavenid	天道id
+itemid	开启特殊天道的道具id
+itemnum	道具数量
+desc1	特殊天道描述1
+desc2	特殊天道描述2
+heavenid	开启的技能对应的天道id
+openitemnum	开启技能的道具数量，=0表示直接激活技能
+needheavenid	开启技能的前置天道技能
+  -->
+  <special openlev="1" heavenid="8" indexid="7" itemid="100001" itemnum="100" desc1="佩戴法宝后触发技能" desc2="同时有几率触发多把法宝效果" desc3="并自动筛选敌人抗性较低的法宝效果进行触发" viplev="10"/>
+</root>

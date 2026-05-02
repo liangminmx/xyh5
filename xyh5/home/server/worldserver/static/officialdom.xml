@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+functionid	功能id
+taskring	每日可完成官职任务次数
+meetlimit	每日主动可议事次数
+mailid	被议事一方读取的邮件id
+servercrossid	跨服官职排行相关字段id值
+	
+	等级相关
+officerlev	官职等阶
+wgname  文官官职名称
+wjname   武将官职名称
+costnum	领取每日俸禄所需消耗（武勋/政绩）
+wageitemid	每日俸禄道具奖励id（道具id，数量；道具id，数量；道具id，数量）
+wagebmoney	每日俸禄绑元奖励数量（不填没有）
+wagemoney	每日俸禄银两奖励数量（不填没有）
+currencynum	发起议事获得奖励数量（武勋/政绩）
+currencynum2	被议事获得奖励数量（武勋/政绩）
+currencylimit	被议事获得奖励上限值（武勋/政绩）
+star          官职星级
+reachnum	升官所需要求（武勋/政绩）
+attributetype	属性类型（多个逗号隔开）
+parameter	对应属性数值
+
+	公务及议事相关
+officertype	官职类型
+=1 文官
+=2 武将
+ taskkuid	题目库
+desid	任务题目id
+des	任务题目描述
+answer	对应taskid（多个逗号隔开），随机从填写的id中选4个
+
+	
+meetype	议事类型
+=1 吟诗（答题，答错了获得配置基础奖励，答对奖励提升10%，）题库读取诗中仙活动题库
+=2 议政（答题，答错了获得配置基础奖励，答对奖励提升10%）题库读取答题活动题库
+=3 请教（答题，答错了获得配置基础奖励，答对奖励提升10%）题库读取答题活动题库
+=4 切磋（发起战斗，无论胜负都显示胜利，胜利奖励提升10%）
+=5 学艺（发起战斗，无论胜负都显示胜利，胜利奖励提升10%）
+=6 比武（发起战斗，无论胜负都显示胜利，胜利奖励提升10%）
+moneytype	对应议事消耗货币类型（不填则无任何消耗）
+=1 银两
+=2 元宝
+=3 绑元
+moneynum	消耗货币数量
+xishu	奖励系数(万分比)
+	
+	具体公务
+taskid	任务id
+tasktype	任务类型
+=1 去指定地点完成战斗
+=2 高级招募X次
+=3 上交一定数量对应道具
+=4 野外战斗X次
+=5 完成X次妖王挑战
+=6 击杀一次任意等级妖王
+=7 免费完成
+=8 消耗绑元完成
+=9 消耗元宝完成
+taskparameter	任务完成参数
+time	任务时限（分钟）
+=-1表示不限时 
+answerdes	任务选项描述
+answertip   任务提示描述
+num	奖励数量（功绩/武勋）
+
+
+
+-->
+	<function functionid="6668" taskring="3" meetlimit="3" mailid="6668" servercrossid="3"/>
+	<wagetype officerlev="1" costnum="40" wgname="文举人" wjname="武举人" wageitemid="10000007,20;10000100,10" wagebmoney="500" wagemoney="5000000" currencynum="20" currencynum2="10" currencylimit="100">
+		<star star="0" attributetype="103,102,101" parameter="0,0,0" reachnum="500"/>
+		<star star="1" attributetype="103,102,101" parameter="400,200,4800" reachnum="1010"/>
+		<star star="2" attributetype="103,102,101" parameter="800,400,9600" reachnum="1530"/>
+		<star star="3" attributetype="103,102,101" parameter="1200,600,14400" reachnum="2060"/>
+	</wagetype>
+	<wagetype officerlev="2" costnum="44" wgname="文贡士" wjname="武贡士" wageitemid="10000007,22;10000100,10" wagebmoney="508" wagemoney="5080000" currencynum="22" currencynum2="11" currencylimit="110">
+		<star star="0" attributetype="103,102,101" parameter="1600,800,19200" reachnum="2600"/>
+		<star star="1" attributetype="103,102,101" parameter="2000,1000,24000" reachnum="3150"/>
+		<star star="2" attributetype="103,102,101" parameter="2400,1200,28800" reachnum="3710"/>
+		<star star="3" attributetype="103,102,101" parameter="2800,1400,33600" reachnum="4280"/>
+	</wagetype>
+	<wagetype officerlev="3" costnum="50" wgname="文进士" wjname="武进士" wageitemid="10000007,25;10000100,10" wagebmoney="520" wagemoney="5200000" currencynum="25" currencynum2="12" currencylimit="120">
+		<star star="0" attributetype="103,102,101" parameter="3300,1650,39600" reachnum="4860"/>
+		<star star="1" attributetype="103,102,101" parameter="3800,1900,45600" reachnum="5450"/>
+		<star star="2" attributetype="103,102,101" parameter="4300,2150,51600" reachnum="6050"/>
+		<star star="3" attributetype="103,102,101" parameter="4800,2400,57600" reachnum="6660"/>
+	</wagetype>
+	<wagetype officerlev="4" costnum="54" wgname="文秀才" wjname="武秀才" wageitemid="10000007,27;10000100,10" wagebmoney="528" wagemoney="5280000" currencynum="27" currencynum2="13" currencylimit="130">
+		<star star="0" attributetype="103,102,101" parameter="5300,2650,63600" reachnum="7280"/>
+		<star star="1" attributetype="103,102,101" parameter="5800,2900,69600" reachnum="7910"/>
+		<star star="2" attributetype="103,102,101" parameter="6300,3150,75600" reachnum="8550"/>
+		<star star="3" attributetype="103,102,101" parameter="6800,3400,81600" reachnum="9200"/>
+	</wagetype>
+	<wagetype officerlev="5" costnum="60" wgname="从九品·将仕郎" wjname="从九品·陪戎副尉" wageitemid="10000007,30;10000100,10" wagebmoney="540" wagemoney="5400000" currencynum="30" currencynum2="15" currencylimit="150">
+		<star star="0" attributetype="103,102,101" parameter="7300,3650,87600" reachnum="9860"/>
+		<star star="1" attributetype="103,102,101" parameter="7800,3900,93600" reachnum="10530"/>
+		<star star="2" attributetype="103,102,101" parameter="8300,4150,99600" reachnum="11210"/>
+		<star star="3" attributetype="103,102,101" parameter="8800,4400,105600" reachnum="11900"/>
+	</wagetype>
+	<wagetype officerlev="6" costnum="60" wgname="从九品·文林郎" wjname="从九品·陪戎校尉" wageitemid="10000007,30;10000100,10" wagebmoney="540" wagemoney="5400000" currencynum="30" currencynum2="15" currencylimit="150">
+		<star star="0" attributetype="103,102,101" parameter="9300,4650,111600" reachnum="12600"/>
+		<star star="1" attributetype="103,102,101" parameter="9800,4900,117600" reachnum="13320"/>
+		<star star="2" attributetype="103,102,101" parameter="10300,5150,123600" reachnum="14060"/>
+		<star star="3" attributetype="103,102,101" parameter="10800,5400,129600" reachnum="14820"/>
+	</wagetype>
+	<wagetype officerlev="7" costnum="64" wgname="正九品·登仕郎" wjname="正九品·仁勇副尉" wageitemid="10000007,32;10000100,10" wagebmoney="548" wagemoney="5480000" currencynum="32" currencynum2="16" currencylimit="160">
+		<star star="0" attributetype="103,102,101" parameter="11400,5700,136800" reachnum="15600"/>
+		<star star="1" attributetype="103,102,101" parameter="12000,6000,144000" reachnum="16400"/>
+		<star star="2" attributetype="103,102,101" parameter="12600,6300,151200" reachnum="17220"/>
+		<star star="3" attributetype="103,102,101" parameter="13200,6600,158400" reachnum="18060"/>
+	</wagetype>
+	<wagetype officerlev="8" costnum="64" wgname="正九品·儒林郎" wjname="正九品·仁勇校尉" wageitemid="10000007,32;10000100,10" wagebmoney="548" wagemoney="5480000" currencynum="32" currencynum2="16" currencylimit="160">
+		<star star="0" attributetype="103,102,101" parameter="13800,6900,165600" reachnum="18920"/>
+		<star star="1" attributetype="103,102,101" parameter="14400,7200,172800" reachnum="19800"/>
+		<star star="2" attributetype="103,102,101" parameter="15000,7500,180000" reachnum="20700"/>
+		<star star="3" attributetype="103,102,101" parameter="15600,7800,187200" reachnum="21620"/>
+	</wagetype>
+	<wagetype officerlev="9" costnum="70" wgname="从八品·承务郎" wjname="从八品·御海副尉" wageitemid="10000007,35;10000100,10" wagebmoney="560" wagemoney="5600000" currencynum="35" currencynum2="17" currencylimit="170">
+		<star star="0" attributetype="103,102,101" parameter="16300,8150,195600" reachnum="22560"/>
+		<star star="1" attributetype="103,102,101" parameter="17000,8500,204000" reachnum="23520"/>
+		<star star="2" attributetype="103,102,101" parameter="17700,8850,212400" reachnum="24500"/>
+		<star star="3" attributetype="103,102,101" parameter="18400,9200,220800" reachnum="25500"/>
+		<star star="4" attributetype="103,102,101" parameter="19100,9550,229200" reachnum="26520"/>
+	</wagetype>
+	<wagetype officerlev="10" costnum="70" wgname="从八品·承奉郎" wjname="从八品·御海校尉" wageitemid="10000007,35;10000100,10" wagebmoney="560" wagemoney="5600000" currencynum="35" currencynum2="17" currencylimit="170">
+		<star star="0" attributetype="103,102,101" parameter="19800,9900,237600" reachnum="27560"/>
+		<star star="1" attributetype="103,102,101" parameter="20500,10250,246000" reachnum="28620"/>
+		<star star="2" attributetype="103,102,101" parameter="21200,10600,254400" reachnum="29700"/>
+		<star star="3" attributetype="103,102,101" parameter="21900,10950,262800" reachnum="30800"/>
+		<star star="4" attributetype="103,102,101" parameter="22600,11300,271200" reachnum="31920"/>
+	</wagetype>
+	<wagetype officerlev="11" costnum="76" wgname="正八品·征事郎" wjname="正八品·宣节副尉" wageitemid="10000007,38;10000100,10" wagebmoney="572" wagemoney="5720000" currencynum="38" currencynum2="19" currencylimit="190">
+		<star star="0" attributetype="103,102,101" parameter="23300,11650,279600" reachnum="33060"/>
+		<star star="1" attributetype="103,102,101" parameter="24000,12000,288000" reachnum="34220"/>
+		<star star="2" attributetype="103,102,101" parameter="24700,12350,296400" reachnum="35400"/>
+		<star star="3" attributetype="103,102,101" parameter="25400,12700,304800" reachnum="36600"/>
+		<star star="4" attributetype="103,102,101" parameter="26100,13050,313200" reachnum="37820"/>
+	</wagetype>
+	<wagetype officerlev="12" costnum="76" wgname="正八品·给事郎" wjname="正八品·宣节校尉" wageitemid="10000007,38;10000100,10" wagebmoney="572" wagemoney="5720000" currencynum="38" currencynum2="19" currencylimit="190">
+		<star star="0" attributetype="103,102,101" parameter="26800,13400,321600" reachnum="39060"/>
+		<star star="1" attributetype="103,102,101" parameter="27500,13750,330000" reachnum="40320"/>
+		<star star="2" attributetype="103,102,101" parameter="28200,14100,338400" reachnum="41600"/>
+		<star star="3" attributetype="103,102,101" parameter="28900,14450,346800" reachnum="42900"/>
+		<star star="4" attributetype="103,102,101" parameter="29600,14800,355200" reachnum="44220"/>
+	</wagetype>
+	<wagetype officerlev="13" costnum="80" wgname="从七品·宣义郎" wjname="从七品·翊麾副尉" wageitemid="10000007,40;10000100,10" wagebmoney="580" wagemoney="5800000" currencynum="40" currencynum2="20" currencylimit="200">
+		<star star="0" attributetype="103,102,101" parameter="30400,15200,364800" reachnum="45560"/>
+		<star star="1" attributetype="103,102,101" parameter="31200,15600,374400" reachnum="46920"/>
+		<star star="2" attributetype="103,102,101" parameter="32000,16000,384000" reachnum="48300"/>
+		<star star="3" attributetype="103,102,101" parameter="32800,16400,393600" reachnum="49700"/>
+		<star star="4" attributetype="103,102,101" parameter="33600,16800,403200" reachnum="51120"/>
+	</wagetype>
+	<wagetype officerlev="14" costnum="80" wgname="从七品·朝散郎" wjname="从七品·翊麾校尉" wageitemid="10000007,40;10000100,10" wagebmoney="580" wagemoney="5800000" currencynum="40" currencynum2="20" currencylimit="200">
+		<star star="0" attributetype="103,102,101" parameter="34400,17200,412800" reachnum="52560"/>
+		<star star="1" attributetype="103,102,101" parameter="35200,17600,422400" reachnum="54020"/>
+		<star star="2" attributetype="103,102,101" parameter="36000,18000,432000" reachnum="55500"/>
+		<star star="3" attributetype="103,102,101" parameter="36800,18400,441600" reachnum="57000"/>
+		<star star="4" attributetype="103,102,101" parameter="37600,18800,451200" reachnum="58510"/>
+	</wagetype>
+	<wagetype officerlev="15" costnum="90" wgname="正七品·下镇将" wjname="正七品·致果副尉" wageitemid="10000007,45;10000100,10" wagebmoney="600" wagemoney="6000000" currencynum="45" currencynum2="22" currencylimit="220">
+		<star star="0" attributetype="103,102,101" parameter="38500,19250,462000" reachnum="60030"/>
+		<star star="1" attributetype="103,102,101" parameter="39400,19700,472800" reachnum="61560"/>
+		<star star="2" attributetype="103,102,101" parameter="40300,20150,483600" reachnum="63100"/>
+		<star star="3" attributetype="103,102,101" parameter="41200,20600,494400" reachnum="64650"/>
+		<star star="4" attributetype="103,102,101" parameter="42100,21050,505200" reachnum="66210"/>
+	</wagetype>
+	<wagetype officerlev="16" costnum="90" wgname="正七品·中镇将" wjname="正七品·致果校尉" wageitemid="10000007,45;10000100,10" wagebmoney="600" wagemoney="6000000" currencynum="45" currencynum2="22" currencylimit="220">
+		<star star="0" attributetype="103,102,101" parameter="43000,21500,516000" reachnum="67780"/>
+		<star star="1" attributetype="103,102,101" parameter="43900,21950,526800" reachnum="69360"/>
+		<star star="2" attributetype="103,102,101" parameter="44800,22400,537600" reachnum="70950"/>
+		<star star="3" attributetype="103,102,101" parameter="45700,22850,548400" reachnum="72550"/>
+		<star star="4" attributetype="103,102,101" parameter="46600,23300,559200" reachnum="74160"/>
+	</wagetype>
+	<wagetype officerlev="17" costnum="100" wgname="从六品·侍御史" wjname="从六品·振威副尉" wageitemid="10000007,50;10000100,10" wagebmoney="620" wagemoney="6200000" currencynum="50" currencynum2="25" currencylimit="250">
+		<star star="0" attributetype="103,102,101" parameter="47600,23800,571200" reachnum="75780"/>
+		<star star="1" attributetype="103,102,101" parameter="48600,24300,583200" reachnum="77410"/>
+		<star star="2" attributetype="103,102,101" parameter="49600,24800,595200" reachnum="79050"/>
+		<star star="3" attributetype="103,102,101" parameter="50600,25300,607200" reachnum="80700"/>
+		<star star="4" attributetype="103,102,101" parameter="51600,25800,619200" reachnum="82360"/>
+		<star star="5" attributetype="103,102,101" parameter="52600,26300,631200" reachnum="84030"/>
+	</wagetype>
+	<wagetype officerlev="18" costnum="100" wgname="从六品·下州司马" wjname="从六品·振威校尉" wageitemid="10000007,50;10000100,10" wagebmoney="620" wagemoney="6200000" currencynum="50" currencynum2="25" currencylimit="250">
+		<star star="0" attributetype="103,102,101" parameter="53600,26800,643200" reachnum="85710"/>
+		<star star="1" attributetype="103,102,101" parameter="54600,27300,655200" reachnum="87400"/>
+		<star star="2" attributetype="103,102,101" parameter="55600,27800,667200" reachnum="89100"/>
+		<star star="3" attributetype="103,102,101" parameter="56600,28300,679200" reachnum="90810"/>
+		<star star="4" attributetype="103,102,101" parameter="57600,28800,691200" reachnum="92530"/>
+		<star star="5" attributetype="103,102,101" parameter="58600,29300,703200" reachnum="94260"/>
+	</wagetype>
+	<wagetype officerlev="19" costnum="110" wgname="正六品·中州司马" wjname="正六品·昭武副尉" wageitemid="10000007,55;10000100,10" wagebmoney="640" wagemoney="6400000" currencynum="55" currencynum2="27" currencylimit="270">
+		<star star="0" attributetype="103,102,101" parameter="59800,29900,717600" reachnum="96000"/>
+		<star star="1" attributetype="103,102,101" parameter="61000,30500,732000" reachnum="97750"/>
+		<star star="2" attributetype="103,102,101" parameter="62200,31100,746400" reachnum="99510"/>
+		<star star="3" attributetype="103,102,101" parameter="63400,31700,760800" reachnum="101280"/>
+		<star star="4" attributetype="103,102,101" parameter="64600,32300,775200" reachnum="103060"/>
+		<star star="5" attributetype="103,102,101" parameter="65800,32900,789600" reachnum="104850"/>
+	</wagetype>
+	<wagetype officerlev="20" costnum="110" wgname="正六品·太学博士" wjname="正六品·昭武校尉" wageitemid="10000007,55;10000100,10" wagebmoney="640" wagemoney="6400000" currencynum="55" currencynum2="27" currencylimit="270">
+		<star star="0" attributetype="103,102,101" parameter="67000,33500,804000" reachnum="106650"/>
+		<star star="1" attributetype="103,102,101" parameter="68200,34100,818400" reachnum="108460"/>
+		<star star="2" attributetype="103,102,101" parameter="69400,34700,832800" reachnum="110280"/>
+		<star star="3" attributetype="103,102,101" parameter="70600,35300,847200" reachnum="112110"/>
+		<star star="4" attributetype="103,102,101" parameter="71800,35900,861600" reachnum="113950"/>
+		<star star="5" attributetype="103,102,101" parameter="73000,36500,876000" reachnum="115800"/>
+	</wagetype>
+	<wagetype officerlev="21" costnum="120" wgname="从五品·朝散大夫" wjname="从五品·游击将军" wageitemid="10000007,60;10000100,10" wagebmoney="660" wagemoney="6600000" currencynum="60" currencynum2="30" currencylimit="300">
+		<star star="0" attributetype="103,102,101" parameter="74400,37200,892800" reachnum="117660"/>
+		<star star="1" attributetype="103,102,101" parameter="75800,37900,909600" reachnum="119530"/>
+		<star star="2" attributetype="103,102,101" parameter="77200,38600,926400" reachnum="121410"/>
+		<star star="3" attributetype="103,102,101" parameter="78600,39300,943200" reachnum="123300"/>
+		<star star="4" attributetype="103,102,101" parameter="80000,40000,960000" reachnum="125200"/>
+		<star star="5" attributetype="103,102,101" parameter="81400,40700,976800" reachnum="127110"/>
+		<star star="6" attributetype="103,102,101" parameter="82800,41400,993600" reachnum="129030"/>
+	</wagetype>
+	<wagetype officerlev="22" costnum="120" wgname="从五品·下州别架" wjname="从五品·游骑将军" wageitemid="10000007,60;10000100,10" wagebmoney="660" wagemoney="6600000" currencynum="60" currencynum2="30" currencylimit="300">
+		<star star="0" attributetype="103,102,101" parameter="84200,42100,1010400" reachnum="130960"/>
+		<star star="1" attributetype="103,102,101" parameter="85600,42800,1027200" reachnum="132900"/>
+		<star star="2" attributetype="103,102,101" parameter="87000,43500,1044000" reachnum="134850"/>
+		<star star="3" attributetype="103,102,101" parameter="88400,44200,1060800" reachnum="136810"/>
+		<star star="4" attributetype="103,102,101" parameter="89800,44900,1077600" reachnum="138780"/>
+		<star star="5" attributetype="103,102,101" parameter="91200,45600,1094400" reachnum="140760"/>
+		<star star="6" attributetype="103,102,101" parameter="92600,46300,1111200" reachnum="142750"/>
+	</wagetype>
+	<wagetype officerlev="23" costnum="130" wgname="正五品·中州别架" wjname="正五品·宁远将军" wageitemid="10000007,65;10000100,10" wagebmoney="680" wagemoney="6800000" currencynum="65" currencynum2="32" currencylimit="320">
+		<star star="0" attributetype="103,102,101" parameter="94000,47000,1128000" reachnum="144750"/>
+		<star star="1" attributetype="103,102,101" parameter="95400,47700,1144800" reachnum="146750"/>
+		<star star="2" attributetype="103,102,101" parameter="96800,48400,1161600" reachnum="148750"/>
+		<star star="3" attributetype="103,102,101" parameter="98200,49100,1178400" reachnum="150750"/>
+		<star star="4" attributetype="103,102,101" parameter="99600,49800,1195200" reachnum="152750"/>
+		<star star="5" attributetype="103,102,101" parameter="101000,50500,1212000" reachnum="154750"/>
+		<star star="6" attributetype="103,102,101" parameter="102400,51200,1228800" reachnum="156750"/>
+	</wagetype>
+	<wagetype officerlev="24" costnum="130" wgname="正五品·御史中丞" wjname="正五品·定远将军" wageitemid="10000007,65;10000100,10" wagebmoney="680" wagemoney="6800000" currencynum="65" currencynum2="32" currencylimit="320">
+		<star star="0" attributetype="103,102,101" parameter="103800,51900,1245600" reachnum="158750"/>
+		<star star="1" attributetype="103,102,101" parameter="105200,52600,1262400" reachnum="160750"/>
+		<star star="2" attributetype="103,102,101" parameter="106600,53300,1279200" reachnum="162750"/>
+		<star star="3" attributetype="103,102,101" parameter="108000,54000,1296000" reachnum="164750"/>
+		<star star="4" attributetype="103,102,101" parameter="109400,54700,1312800" reachnum="166750"/>
+		<star star="5" attributetype="103,102,101" parameter="110800,55400,1329600" reachnum="168750"/>
+		<star star="6" attributetype="103,102,101" parameter="112200,56100,1346400" reachnum="170750"/>
+	</wagetype>
+	<wagetype officerlev="25" costnum="140" wgname="从四品·少府少监" wjname="从四品·明威将军" wageitemid="10000007,70;10000100,10" wagebmoney="700" wagemoney="7000000" currencynum="70" currencynum2="35" currencylimit="350">
+		<star star="0" attributetype="103,102,101" parameter="113600,56800,1363200" reachnum="172800"/>
+		<star star="1" attributetype="103,102,101" parameter="115000,57500,1380000" reachnum="174850"/>
+		<star star="2" attributetype="103,102,101" parameter="116400,58200,1396800" reachnum="176900"/>
+		<star star="3" attributetype="103,102,101" parameter="117800,58900,1413600" reachnum="178950"/>
+		<star star="4" attributetype="103,102,101" parameter="119200,59600,1430400" reachnum="181000"/>
+		<star star="5" attributetype="103,102,101" parameter="120600,60300,1447200" reachnum="183050"/>
+		<star star="6" attributetype="103,102,101" parameter="122000,61000,1464000" reachnum="185100"/>
+		<star star="7" attributetype="103,102,101" parameter="123400,61700,1480800" reachnum="187150"/>
+	</wagetype>
+	<wagetype officerlev="26" costnum="140" wgname="从四品·大理少卿" wjname="从四品·宣威将军" wageitemid="10000007,70;10000100,10" wagebmoney="700" wagemoney="7000000" currencynum="70" currencynum2="35" currencylimit="350">
+		<star star="0" attributetype="103,102,101" parameter="124800,62400,1497600" reachnum="189200"/>
+		<star star="1" attributetype="103,102,101" parameter="126200,63100,1514400" reachnum="191250"/>
+		<star star="2" attributetype="103,102,101" parameter="127600,63800,1531200" reachnum="193300"/>
+		<star star="3" attributetype="103,102,101" parameter="129000,64500,1548000" reachnum="195350"/>
+		<star star="4" attributetype="103,102,101" parameter="130400,65200,1564800" reachnum="197400"/>
+		<star star="5" attributetype="103,102,101" parameter="131800,65900,1581600" reachnum="199450"/>
+		<star star="6" attributetype="103,102,101" parameter="133200,66600,1598400" reachnum="201500"/>
+		<star star="7" attributetype="103,102,101" parameter="134600,67300,1615200" reachnum="203550"/>
+	</wagetype>
+	<wagetype officerlev="27" costnum="150" wgname="正四品·尚书右丞" wjname="正四品·壮武将军" wageitemid="10000007,75;10000100,10" wagebmoney="720" wagemoney="7200000" currencynum="75" currencynum2="37" currencylimit="370">
+		<star star="0" attributetype="103,102,101" parameter="136000,68000,1632000" reachnum="205650"/>
+		<star star="1" attributetype="103,102,101" parameter="137400,68700,1648800" reachnum="207750"/>
+		<star star="2" attributetype="103,102,101" parameter="138800,69400,1665600" reachnum="209850"/>
+		<star star="3" attributetype="103,102,101" parameter="140200,70100,1682400" reachnum="211950"/>
+		<star star="4" attributetype="103,102,101" parameter="141600,70800,1699200" reachnum="214050"/>
+		<star star="5" attributetype="103,102,101" parameter="143000,71500,1716000" reachnum="216150"/>
+		<star star="6" attributetype="103,102,101" parameter="144400,72200,1732800" reachnum="218250"/>
+		<star star="7" attributetype="103,102,101" parameter="145800,72900,1749600" reachnum="220350"/>
+	</wagetype>
+	<wagetype officerlev="28" costnum="150" wgname="正四品·尚书左丞" wjname="正四品·忠武将军" wageitemid="10000007,75;10000100,10" wagebmoney="720" wagemoney="7200000" currencynum="75" currencynum2="37" currencylimit="370">
+		<star star="0" attributetype="103,102,101" parameter="147200,73600,1766400" reachnum="222450"/>
+		<star star="1" attributetype="103,102,101" parameter="148600,74300,1783200" reachnum="224550"/>
+		<star star="2" attributetype="103,102,101" parameter="150000,75000,1800000" reachnum="226650"/>
+		<star star="3" attributetype="103,102,101" parameter="151400,75700,1816800" reachnum="228750"/>
+		<star star="4" attributetype="103,102,101" parameter="152800,76400,1833600" reachnum="230850"/>
+		<star star="5" attributetype="103,102,101" parameter="154200,77100,1850400" reachnum="232950"/>
+		<star star="6" attributetype="103,102,101" parameter="155600,77800,1867200" reachnum="235050"/>
+		<star star="7" attributetype="103,102,101" parameter="157000,78500,1884000" reachnum="237150"/>
+	</wagetype>
+	<wagetype officerlev="29" costnum="160" wgname="从三品·国子祭酒" wjname="从三品·云麾将军" wageitemid="10000007,80;10000100,10" wagebmoney="740" wagemoney="7400000" currencynum="80" currencynum2="40" currencylimit="400">
+		<star star="0" attributetype="103,102,101" parameter="158400,79200,1900800" reachnum="239350"/>
+		<star star="1" attributetype="103,102,101" parameter="159800,79900,1917600" reachnum="241550"/>
+		<star star="2" attributetype="103,102,101" parameter="161200,80600,1934400" reachnum="243750"/>
+		<star star="3" attributetype="103,102,101" parameter="162600,81300,1951200" reachnum="245950"/>
+		<star star="4" attributetype="103,102,101" parameter="164000,82000,1968000" reachnum="248150"/>
+		<star star="5" attributetype="103,102,101" parameter="165400,82700,1984800" reachnum="250350"/>
+		<star star="6" attributetype="103,102,101" parameter="166800,83400,2001600" reachnum="252550"/>
+		<star star="7" attributetype="103,102,101" parameter="168200,84100,2018400" reachnum="254750"/>
+		<star star="8" attributetype="103,102,101" parameter="169600,84800,2035200" reachnum="256950"/>
+	</wagetype>
+	<wagetype officerlev="30" costnum="160" wgname="正三品·尚书" wjname="正三品·冠军将军" wageitemid="10000007,80;10000100,10" wagebmoney="740" wagemoney="7400000" currencynum="80" currencynum2="40" currencylimit="400">
+		<star star="0" attributetype="103,102,101" parameter="171000,85500,2052000" reachnum="259150"/>
+		<star star="1" attributetype="103,102,101" parameter="172400,86200,2068800" reachnum="261350"/>
+		<star star="2" attributetype="103,102,101" parameter="173800,86900,2085600" reachnum="263550"/>
+		<star star="3" attributetype="103,102,101" parameter="175200,87600,2102400" reachnum="265750"/>
+		<star star="4" attributetype="103,102,101" parameter="176600,88300,2119200" reachnum="267950"/>
+		<star star="5" attributetype="103,102,101" parameter="178000,89000,2136000" reachnum="270150"/>
+		<star star="6" attributetype="103,102,101" parameter="179400,89700,2152800" reachnum="272350"/>
+		<star star="7" attributetype="103,102,101" parameter="180800,90400,2169600" reachnum="274550"/>
+		<star star="8" attributetype="103,102,101" parameter="182200,91100,2186400" reachnum="276750"/>
+	</wagetype>
+	<wagetype officerlev="31" costnum="170" wgname="从二品·尚书仆射" wjname="从二品·镇军将军" wageitemid="10000007,85;10000100,10" wagebmoney="760" wagemoney="7600000" currencynum="85" currencynum2="42" currencylimit="400">
+		<star star="0" attributetype="103,102,101" parameter="183600,91800,2203200" reachnum="279050"/>
+		<star star="1" attributetype="103,102,101" parameter="185000,92500,2220000" reachnum="281350"/>
+		<star star="2" attributetype="103,102,101" parameter="186400,93200,2236800" reachnum="283650"/>
+		<star star="3" attributetype="103,102,101" parameter="187800,93900,2253600" reachnum="285950"/>
+		<star star="4" attributetype="103,102,101" parameter="189200,94600,2270400" reachnum="288250"/>
+		<star star="5" attributetype="103,102,101" parameter="190600,95300,2287200" reachnum="290550"/>
+		<star star="6" attributetype="103,102,101" parameter="192000,96000,2304000" reachnum="292850"/>
+		<star star="7" attributetype="103,102,101" parameter="193400,96700,2320800" reachnum="295150"/>
+		<star star="8" attributetype="103,102,101" parameter="194800,97400,2337600" reachnum="297450"/>
+		<star star="9" attributetype="103,102,101" parameter="196200,98100,2354400" reachnum="299750"/>
+	</wagetype>
+	<wagetype officerlev="32" costnum="170" wgname="正二品·特进" wjname="正二品·辅国将军" wageitemid="10000007,85;10000100,10" wagebmoney="760" wagemoney="7600000" currencynum="85" currencynum2="42" currencylimit="400">
+		<star star="0" attributetype="103,102,101" parameter="197600,98800,2371200" reachnum="302050"/>
+		<star star="1" attributetype="103,102,101" parameter="199000,99500,2388000" reachnum="304350"/>
+		<star star="2" attributetype="103,102,101" parameter="200400,100200,2404800" reachnum="306650"/>
+		<star star="3" attributetype="103,102,101" parameter="201800,100900,2421600" reachnum="308950"/>
+		<star star="4" attributetype="103,102,101" parameter="203200,101600,2438400" reachnum="311250"/>
+		<star star="5" attributetype="103,102,101" parameter="204600,102300,2455200" reachnum="313550"/>
+		<star star="6" attributetype="103,102,101" parameter="206000,103000,2472000" reachnum="315850"/>
+		<star star="7" attributetype="103,102,101" parameter="207400,103700,2488800" reachnum="318150"/>
+		<star star="8" attributetype="103,102,101" parameter="208800,104400,2505600" reachnum="320450"/>
+		<star star="9" attributetype="103,102,101" parameter="210200,105100,2522400" reachnum="322750"/>
+	</wagetype>
+	<wagetype officerlev="33" costnum="180" wgname="从一品·太子太师" wjname="从一品·骠骑将军" wageitemid="10000007,90;10000100,10" wagebmoney="780" wagemoney="7800000" currencynum="90" currencynum2="45" currencylimit="400">
+		<star star="0" attributetype="103,102,101" parameter="211600,105800,2539200" reachnum="325150"/>
+		<star star="1" attributetype="103,102,101" parameter="213000,106500,2556000" reachnum="327550"/>
+		<star star="2" attributetype="103,102,101" parameter="214400,107200,2572800" reachnum="329950"/>
+		<star star="3" attributetype="103,102,101" parameter="215800,107900,2589600" reachnum="332350"/>
+		<star star="4" attributetype="103,102,101" parameter="217200,108600,2606400" reachnum="334750"/>
+		<star star="5" attributetype="103,102,101" parameter="218600,109300,2623200" reachnum="337150"/>
+		<star star="6" attributetype="103,102,101" parameter="220000,110000,2640000" reachnum="339550"/>
+		<star star="7" attributetype="103,102,101" parameter="221400,110700,2656800" reachnum="341950"/>
+		<star star="8" attributetype="103,102,101" parameter="222800,111400,2673600" reachnum="344350"/>
+		<star star="9" attributetype="103,102,101" parameter="224200,112100,2690400" reachnum="346750"/>
+		<star star="10" attributetype="103,102,101" parameter="225600,112800,2707200" reachnum="349150"/>
+	</wagetype>
+	<wagetype officerlev="34" costnum="180" wgname="正一品·司空" wjname="正一品·天策上将" wageitemid="10000007,90;10000100,10" wagebmoney="780" wagemoney="7800000" currencynum="90" currencynum2="45" currencylimit="400">
+		<star star="0" attributetype="103,102,101" parameter="227000,113500,2724000" reachnum="351550"/>
+		<star star="1" attributetype="103,102,101" parameter="228400,114200,2740800" reachnum="353950"/>
+		<star star="2" attributetype="103,102,101" parameter="229800,114900,2757600" reachnum="356350"/>
+		<star star="3" attributetype="103,102,101" parameter="231200,115600,2774400" reachnum="358750"/>
+		<star star="4" attributetype="103,102,101" parameter="232600,116300,2791200" reachnum="361150"/>
+		<star star="5" attributetype="103,102,101" parameter="234000,117000,2808000" reachnum="363550"/>
+		<star star="6" attributetype="103,102,101" parameter="235400,117700,2824800" reachnum="365950"/>
+		<star star="7" attributetype="103,102,101" parameter="236800,118400,2841600" reachnum="368350"/>
+		<star star="8" attributetype="103,102,101" parameter="238200,119100,2858400" reachnum="370750"/>
+		<star star="9" attributetype="103,102,101" parameter="239600,119800,2875200" reachnum="373150"/>
+		<star star="10" attributetype="103,102,101" parameter="241000,120500,2892000" reachnum="375550"/>
+	</wagetype>
+	<wagetype officerlev="35" costnum="190" wgname="名留青史·太傅" wjname="武功盖世·太保" wageitemid="10000007,95;10000100,10" wagebmoney="800" wagemoney="8000000" currencynum="95" currencynum2="47" currencylimit="400">
+		<star star="0" attributetype="103,102,101" parameter="242400,121200,2908800" reachnum="378050"/>
+		<star star="1" attributetype="103,102,101" parameter="243800,121900,2925600" reachnum="380550"/>
+		<star star="2" attributetype="103,102,101" parameter="245200,122600,2942400" reachnum="383050"/>
+		<star star="3" attributetype="103,102,101" parameter="246600,123300,2959200" reachnum="385550"/>
+		<star star="4" attributetype="103,102,101" parameter="248000,124000,2976000" reachnum="388050"/>
+		<star star="5" attributetype="103,102,101" parameter="249400,124700,2992800" reachnum="390550"/>
+		<star star="6" attributetype="103,102,101" parameter="250800,125400,3009600" reachnum="393050"/>
+		<star star="7" attributetype="103,102,101" parameter="252200,126100,3026400" reachnum="395550"/>
+		<star star="8" attributetype="103,102,101" parameter="253600,126800,3043200" reachnum="398050"/>
+		<star star="9" attributetype="103,102,101" parameter="255000,127500,3060000" reachnum="400550"/>
+		<star star="10" attributetype="103,102,101" parameter="256400,128200,3076800" reachnum="403050"/>
+	</wagetype>
+	<wagetype officerlev="36" costnum="190" wgname="名留青史·太师" wjname="武功盖世·太尉" wageitemid="10000007,95;10000100,10" wagebmoney="800" wagemoney="8000000" currencynum="95" currencynum2="47" currencylimit="400">
+		<star star="0" attributetype="103,102,101" parameter="257800,128900,3093600" reachnum="405550"/>
+		<star star="1" attributetype="103,102,101" parameter="259200,129600,3110400" reachnum="408050"/>
+		<star star="2" attributetype="103,102,101" parameter="260600,130300,3127200" reachnum="410550"/>
+		<star star="3" attributetype="103,102,101" parameter="262000,131000,3144000" reachnum="413050"/>
+		<star star="4" attributetype="103,102,101" parameter="263400,131700,3160800" reachnum="415550"/>
+		<star star="5" attributetype="103,102,101" parameter="264800,132400,3177600" reachnum="418050"/>
+		<star star="6" attributetype="103,102,101" parameter="266200,133100,3194400" reachnum="420550"/>
+		<star star="7" attributetype="103,102,101" parameter="267600,133800,3211200" reachnum="423050"/>
+		<star star="8" attributetype="103,102,101" parameter="269000,134500,3228000" reachnum="425550"/>
+		<star star="9" attributetype="103,102,101" parameter="270400,135200,3244800" reachnum="428050"/>
+		<star star="10" attributetype="103,102,101" parameter="271800,135900,3261600" reachnum="430550"/>
+	</wagetype>
+	<wagetype officerlev="37" costnum="200" wgname="御赐·国公" wjname="御赐·国公" wageitemid="10000007,100;10000100,10" wagebmoney="820" wagemoney="8200000" currencynum="100" currencynum2="50" currencylimit="400">
+		<star star="0" attributetype="103,102,101" parameter="273200,136600,3278400" reachnum="433150"/>
+		<star star="1" attributetype="103,102,101" parameter="274600,137300,3295200" reachnum="435750"/>
+		<star star="2" attributetype="103,102,101" parameter="276000,138000,3312000" reachnum="438350"/>
+		<star star="3" attributetype="103,102,101" parameter="277400,138700,3328800" reachnum="440950"/>
+		<star star="4" attributetype="103,102,101" parameter="278800,139400,3345600" reachnum="443550"/>
+		<star star="5" attributetype="103,102,101" parameter="280200,140100,3362400" reachnum="446150"/>
+		<star star="6" attributetype="103,102,101" parameter="281600,140800,3379200" reachnum="448750"/>
+		<star star="7" attributetype="103,102,101" parameter="283000,141500,3396000" reachnum="451350"/>
+		<star star="8" attributetype="103,102,101" parameter="284400,142200,3412800" reachnum="453950"/>
+		<star star="9" attributetype="103,102,101" parameter="285800,142900,3429600" reachnum="456550"/>
+		<star star="10" attributetype="103,102,101" parameter="287200,143600,3446400" reachnum="459150"/>
+	</wagetype>
+	<office officertype="1">
+		<titledes desid="1" des="建邺城匪患猖獗，百姓甚是苦恼，恳请大人为民做主：" answer="1,2,3,4"/>
+		<titledes desid="2" des="妖怪作乱，祸害人间。恳请大人为名除害：" answer="5,6,7,8"/>
+		<titledes desid="3" des="恰逢天气大旱，百姓颗粒无收，饥荒四起：" answer="9,10,11,12"/>
+		<titledes desid="4" des="收到密报有妖国间谍潜入：" answer="13,14,15,16"/>
+		<titledes desid="5" des="妖国猖獗，企图攻打建邺城：" answer="17,18,19,20"/>
+		<titledes desid="6" des="邻国使者前来商议结盟：" answer="21,22,23,24"/>
+		<titledes desid="7" des="边防将士防具武器需要修缮：" answer="25,26,27,28"/>
+		<titledes desid="8" des="民间瘟疫肆虐：" answer="29,30,31,32"/>
+		<titledes desid="9" des="城中人手不足，需要招募军士：" answer="33,34,35,36"/>
+		<meet meetype="1" moneytype="1" moneynum="2000000" xishu="10000"/>
+		<meet meetype="2" moneytype="3" moneynum="200" xishu="20000"/>
+		<meet meetype="3" moneytype="2" moneynum="200" xishu="50000"/>
+	</office>
+	<office officertype="2">
+		<titledes desid="1" des="兵马未动，粮草先行：" answer="37,38,39,40"/>
+		<titledes desid="2" des="练兵布阵，校场演武：" answer="41,42,43,44"/>
+		<titledes desid="3" des="防微杜渐，修葺军备：" answer="45,46,47,48"/>
+		<titledes desid="4" des="有备无患，扩充军备：" answer="49,50,51,52"/>
+		<titledes desid="5" des="流民作乱，率军讨伐：" answer="53,54,55,56"/>
+		<titledes desid="6" des="千军易得，一将难求：" answer="57,58,59,60"/>
+		<titledes desid="7" des="年末将至，上缴岁贡：" answer="61,62,63,64"/>
+		<titledes desid="8" des="推行科举，天下英雄入我彀：" answer="65,66,67,68"/>
+		<titledes desid="9" des="连日暴雨，居无定所：" answer="69,70,71,72"/>
+		<titledes desid="10" des="防敌于未动，讨伐乱贼：" answer="73,74,75,76"/>
+		<titledes desid="11" des="为官之道，在于相交：" answer="77,78,79,80"/>
+		<titledes desid="12" des="行军布阵，收复城池：" answer="81,82,83,84"/>
+		<titledes desid="13" des="边关急报，请求支援：" answer="27,28,34,35"/>
+		<titledes desid="14" des="防微杜渐，修葺军备：" answer="27,28,34,35"/>
+		<titledes desid="15" des="有备无患，扩充军备：" answer="27,28,34,35"/>
+		<meet meetype="4" moneytype="1" moneynum="2000000" xishu="10000"/>
+		<meet meetype="5" moneytype="3" moneynum="200" xishu="20000"/>
+		<meet meetype="6" moneytype="2" moneynum="200" xishu="50000"/>
+	</office>
+	<!--
+	<task taskid="1" tasktype="1" taskparameter="20002,200001001" time="" answerdes="去建邺城剿匪" num="100"/>
+	<task taskid="2" tasktype="2" taskparameter="1" time="" answerdes="高级招募1次" num="120"/>
+	<task taskid="3" tasktype="2" taskparameter="3" time="" answerdes="高级招募3次" num="150"/>
+	<task taskid="4" tasktype="2" taskparameter="5" time="720" answerdes="高级招募5次" num="200"/>
+	<task taskid="5" tasktype="2" taskparameter="10" time="720" answerdes="高级招募10次" num="300"/>
+	<task taskid="6" tasktype="3" taskparameter="10000010,5" time="" answerdes="上交宠物洗练石*5" num="110"/>
+	<task taskid="7" tasktype="3" taskparameter="10000010,10" time="" answerdes="上交宠物洗练石*10" num="150"/>
+	<task taskid="8" tasktype="3" taskparameter="10000010,20" time="" answerdes="上交宠物洗练石*20" num="200"/>
+	<task taskid="9" tasktype="4" taskparameter="10" time="" answerdes="完成10次野外战斗" num="80"/>
+	<task taskid="10" tasktype="4" taskparameter="20" time="" answerdes="完成20次野外战斗" num="100"/>
+	<task taskid="11" tasktype="4" taskparameter="50" time="" answerdes="完成50次野外战斗" num="120"/>
+	<task taskid="12" tasktype="4" taskparameter="100" time="720" answerdes="完成100次野外战斗" num="150"/>
+	<task taskid="13" tasktype="5" taskparameter="DemonKing,3" time="" answerdes="完成3次妖王挑战" num="100"/>
+	<task taskid="14" tasktype="5" taskparameter="DemonKing,5" time="" answerdes="完成5次妖王挑战" num="120"/>
+	<task taskid="15" tasktype="5" taskparameter="DemonKing,10" time="" answerdes="完成10次妖王挑战" num="200"/>
+	<task taskid="16" tasktype="6" taskparameter="DemonKing,1" time="" answerdes="击杀1次任意等级妖王" num="100"/>
+	<task taskid="17" tasktype="6" taskparameter="DemonKing,2" time="720" answerdes="击杀2次任意等级妖王" num="150"/>
+	<task taskid="18" tasktype="6" taskparameter="DemonKing,4" time="720" answerdes="击杀4次任意等级妖王" num="300"/>
+	<task taskid="19" tasktype="7" taskparameter="" time="" answerdes="上报朝廷（可直接提交完成）" num="100"/>
+	<task taskid="20" tasktype="8" taskparameter="100" time="" answerdes="上交100绑定元宝" num="150"/>
+	<task taskid="21" tasktype="8" taskparameter="200" time="" answerdes="上交200绑定元宝" num="200"/>
+	<task taskid="22" tasktype="8" taskparameter="500" time="" answerdes="上交500绑定元宝" num="250"/>
+	<task taskid="23" tasktype="8" taskparameter="1000" time="" answerdes="上交1000绑定元宝" num="500"/>
+	<task taskid="24" tasktype="8" taskparameter="2000" time="" answerdes="上交2000绑定元宝" num="800"/>
+	<task taskid="25" tasktype="9" taskparameter="100" time="" answerdes="上交100元宝" num="200"/>
+	<task taskid="26" tasktype="9" taskparameter="200" time="" answerdes="上交200元宝" num="300"/>
+	<task taskid="27" tasktype="9" taskparameter="500" time="" answerdes="上交500元宝" num="400"/>
+	<task taskid="28" tasktype="9" taskparameter="1000" time="" answerdes="上交1000元宝" num="800"/>
+-->
+	<task taskid="1" tasktype="7" taskparameter="" time="" answerdes="上报朝廷" answertip="（可直接提交完成）" num="100"/>
+	<task taskid="2" tasktype="4" taskparameter="50" time="" answerdes="寻找盗匪巢穴" answertip="（完成野外挂机50次）" num="120"/>
+	<task taskid="3" tasktype="8" taskparameter="500" time="" answerdes="慷慨解囊，增加官兵巡视，杜绝匪患" answertip="（上缴500绑元）" num="250"/>
+	<task taskid="4" tasktype="9" taskparameter="1000" time="" answerdes="招募能人异士前往讨伐" answertip="（上缴1000元宝）" num="800"/>
+	<task taskid="5" tasktype="8" taskparameter="100" time="" answerdes="向朝廷禀告" answertip="（上缴100绑元）" num="150"/>
+	<task taskid="6" tasktype="5" taskparameter="DemonKing,5" time="" answerdes="单枪匹马挑战妖王" answertip="（讨伐妖王5次）" num="120"/>
+	<task taskid="7" tasktype="6" taskparameter="DemonKing,4" time="720" answerdes="化身除魔先锋，妖王闻风丧胆" answertip="（击杀妖王4次）" num="300"/>
+	<task taskid="8" tasktype="9" taskparameter="1000" time="" answerdes="慷慨解囊，请高僧设置阵法" answertip="（上缴1000元宝）" num="800"/>
+	<task taskid="9" tasktype="3" taskparameter="10000010,5" time="" answerdes="祈求神兽施云布雨" answertip="（上缴宠物洗练石*5）" num="110"/>
+	<task taskid="10" tasktype="3" taskparameter="10000010,20" time="" answerdes="祈求龙王降雨" answertip="（上缴宠物洗练石*20）" num="200"/>
+	<task taskid="11" tasktype="2" taskparameter="5" time="720" answerdes="寻求士绅相助" answertip="（高级招募5次）" num="200"/>
+	<task taskid="12" tasktype="9" taskparameter="500" time="" answerdes="采购大量食材救济灾民" answertip="（上缴500元宝）" num="400"/>
+	<task taskid="13" tasktype="7" taskparameter="" time="" answerdes="令敌方间谍无功而返" answertip="（直接完成）" num="100"/>
+	<task taskid="14" tasktype="5" taskparameter="DemonKing,5" time="" answerdes="捣毁间谍巢穴" answertip="（讨伐妖王5次）" num="120"/>
+	<task taskid="15" tasktype="6" taskparameter="DemonKing,4" time="720" answerdes="击杀敌方所有间谍" answertip="（击杀妖王4次）" num="300"/>
+	<task taskid="16" tasktype="9" taskparameter="500" time="" answerdes="实行反间计，收买间谍" answertip="（上缴500元宝）" num="400"/>
+	<task taskid="17" tasktype="2" taskparameter="1" time="" answerdes="招兵买马，以防不测" answertip="（高级招募1次）" num="120"/>
+	<task taskid="18" tasktype="4" taskparameter="100" time="720" answerdes="主动出击，击退敌军" answertip="（野外战斗100次）" num="150"/>
+	<task taskid="19" tasktype="9" taskparameter="200" time="" answerdes="设置陷阱，大败敌军" answertip="（上缴200元宝）" num="300"/>
+	<task taskid="20" tasktype="9" taskparameter="1000" time="" answerdes="擒贼擒王,智擒敌首" answertip="（上缴1000元宝）" num="800"/>
+	<task taskid="21" tasktype="3" taskparameter="10000010,5" time="" answerdes="互赠礼品，以表情谊" answertip="(上缴宠物洗练石*5)" num="110"/>
+	<task taskid="22" tasktype="2" taskparameter="3" time="" answerdes="广纳贤士，出使邻国" answertip="（高级招募3次）" num="150"/>
+	<task taskid="23" tasktype="8" taskparameter="2000" time="" answerdes="隆重招待，歃血为盟" answertip="（上缴2000绑元）" num="800"/>
+	<task taskid="24" tasktype="9" taskparameter="500" time="" answerdes="相谈甚欢，互赠豪礼" answertip="（上缴500元宝）" num="400"/>
+	<task taskid="25" tasktype="7" taskparameter="" time="" answerdes="上报朝廷" answertip="（可直接提交完成）" num="100"/>
+	<task taskid="26" tasktype="2" taskparameter="10" time="720" answerdes="寻求士绅相助" answertip="（高级招募10次）" num="300"/>
+	<task taskid="27" tasktype="8" taskparameter="1000" time="" answerdes="求购珍惜道具打造装备" answertip="（上缴1000绑元）" num="500"/>
+	<task taskid="28" tasktype="9" taskparameter="1000" time="" answerdes="求购绝世奇珍打造神兵" answertip="（上缴1000元宝）" num="800"/>
+	<task taskid="29" tasktype="7" taskparameter="" time="" answerdes="上报朝廷" answertip="（可直接提交完成）" num="100"/>
+	<task taskid="30" tasktype="2" taskparameter="3" time="" answerdes="探访名医，为民整治" answertip="（高级招募3次）" num="150"/>
+	<task taskid="31" tasktype="9" taskparameter="500" time="" answerdes="求购药材，炼制丹药" answertip="（上交500元宝）" num="400"/>
+	<task taskid="32" tasktype="8" taskparameter="2000" time="" answerdes="慷慨解囊，寻求名医消除瘟疫" answertip="(上交2000绑元)" num="800"/>
+	<task taskid="33" tasktype="2" taskparameter="1" time="" answerdes="招兵买马" answertip="（高级招募1次）" num="120"/>
+	<task taskid="34" tasktype="7" taskparameter="" time="" answerdes="上报朝廷" answertip="（可直接提交完成）" num="100"/>
+	<task taskid="35" tasktype="4" taskparameter="50" time="" answerdes="强制征丁" answertip="（野外战斗50次）" num="120"/>
+	<task taskid="36" tasktype="8" taskparameter="1000" time="" answerdes="城门立木" answertip="（上交1000绑元）" num="500"/>
+	<task taskid="37" tasktype="7" taskparameter="" time="" answerdes="上报朝廷" answertip="（可直接提交完成）" num="100"/>
+	<task taskid="38" tasktype="8" taskparameter="2000" time="" answerdes="忠心可表" answertip="（上交2000绑元)" num="800"/>
+	<task taskid="39" tasktype="8" taskparameter="1000" time="" answerdes="忧国忧民" answertip="（上交1000绑元）" num="500"/>
+	<task taskid="40" tasktype="2" taskparameter="1" time="" answerdes="寻求士绅相助" answertip="（高级招募1次）" num="120"/>
+	<task taskid="41" tasktype="4" taskparameter="20" time="" answerdes="日常训练" answertip="（野外战斗20次）" num="100"/>
+	<task taskid="42" tasktype="5" taskparameter="DemonKing,10" time="" answerdes="强军计划" answertip="（讨伐妖王10次)" num="200"/>
+	<task taskid="43" tasktype="7" taskparameter="" time="" answerdes="风雨大作，偃旗息鼓" answertip="（直接完成)" num="100"/>
+	<task taskid="44" tasktype="3" taskparameter="10000010,10" time="" answerdes="增强体魄" answertip="（上缴宠物洗练石*10)" num="150"/>
+	<task taskid="45" tasktype="3" taskparameter="10000010,5" time="" answerdes="补充物资" answertip="（上缴宠物洗练石*5)" num="110"/>
+	<task taskid="46" tasktype="4" taskparameter="50" time="" answerdes="强征军役" answertip="（野外战斗50次)" num="120"/>
+	<task taskid="47" tasktype="7" taskparameter="" time="" answerdes="上报朝廷" answertip="（可直接提交完成）" num="100"/>
+	<task taskid="48" tasktype="8" taskparameter="1000" time="" answerdes="身先士卒" answertip="（上缴1000绑元）" num="500"/>
+	<task taskid="49" tasktype="7" taskparameter="" time="" answerdes="上报朝廷" answertip="（可直接提交完成）" num="100"/>
+	<task taskid="50" tasktype="9" taskparameter="1000" time="" answerdes="身先士卒" answertip="（上缴1000元宝）" num="800"/>
+	<task taskid="51" tasktype="4" taskparameter="50" time="" answerdes="强征军役" answertip="（野外战斗50次)" num="120"/>
+	<task taskid="52" tasktype="3" taskparameter="10000010,10" time="" answerdes="补充物资" answertip="（上缴宠物洗练石*10）" num="150"/>
+	<task taskid="53" tasktype="4" taskparameter="100" time="720" answerdes="前往讨伐，镇压流民。" answertip="（野外战斗100次)" num="150"/>
+	<task taskid="54" tasktype="7" taskparameter="" time="" answerdes="上报朝廷，静听旨意。" answertip="(可直接提交完成)" num="100"/>
+	<task taskid="55" tasktype="8" taskparameter="2000" time="" answerdes="粮草先行，未雨绸缪。" answertip="(上缴2000绑元)" num="800"/>
+	<task taskid="56" tasktype="3" taskparameter="10000010,10" time="" answerdes="绥靖招安，不动刀兵。" answertip="(上缴宠物洗练石*10)" num="150"/>
+	<task taskid="57" tasktype="2" taskparameter="1" time="" answerdes="求贤若渴，广征贤才。" answertip="（高级招募1次）" num="120"/>
+	<task taskid="58" tasktype="7" taskparameter="" time="" answerdes="上报朝廷，等候调拨。" answertip="（可直接提交完成）" num="100"/>
+	<task taskid="59" tasktype="6" taskparameter="DemonKing,2" time="720" answerdes="历练兵士，拔擢人才。" answertip="（击杀妖王2次）" num="150"/>
+	<task taskid="60" tasktype="3" taskparameter="10000010,20" time="" answerdes="高悬重赏，静候佳音。" answertip="（上缴宠物洗练石*20）" num="200"/>
+	<task taskid="61" tasktype="7" taskparameter="" time="" answerdes="上表朝廷。" answertip="（可直接提交完成）" num="100"/>
+	<task taskid="62" tasktype="6" taskparameter="DemonKing,4" time="720" answerdes="杀鸡儆猴，镇压抗税暴民。" answertip="（击杀妖王4次）" num="300"/>
+	<task taskid="63" tasktype="8" taskparameter="1000" time="" answerdes="体恤百姓，自掏腰包。" answertip="(上缴1000绑元)" num="500"/>
+	<task taskid="64" tasktype="9" taskparameter="1000" time="" answerdes="身先士卒，带头进贡。" answertip="(上缴1000元宝)" num="800"/>
+	<task taskid="65" tasktype="2" taskparameter="10" time="720" answerdes="招贤纳士，广征人才。" answertip="(高级招募10次）" num="300"/>
+	<task taskid="66" tasktype="6" taskparameter="DemonKing,1" time="" answerdes="展示武力，使之来降。" answertip="（击杀妖王1次）" num="100"/>
+	<task taskid="67" tasktype="9" taskparameter="1000" time="" answerdes="欲国士报之，当国士待之。" answertip="（上缴1000元宝）" num="800"/>
+	<task taskid="68" tasktype="7" taskparameter="" time="" answerdes="上报朝廷，增开恩科。" answertip="（可直接提交完成）" num="100"/>
+	<task taskid="69" tasktype="7" taskparameter="" time="" answerdes="上报朝廷" answertip="（可直接提交完成）" num="100"/>
+	<task taskid="70" tasktype="8" taskparameter="500" time="" answerdes="募捐赈灾" answertip="（上缴500绑元）" num="250"/>
+	<task taskid="71" tasktype="6" taskparameter="DemonKing,4" time="720" answerdes="击杀布雨妖怪" answertip="（击杀妖王4次）" num="300"/>
+	<task taskid="72" tasktype="3" taskparameter="10000010,5" time="" answerdes="祭祀献礼" answertip="（上缴宠物洗练石*5）" num="110"/>
+	<task taskid="73" tasktype="4" taskparameter="100" time="720" answerdes="率兵出击，讨伐乱贼。" answertip="(野外战斗100次)" num="150"/>
+	<task taskid="74" tasktype="9" taskparameter="200" time="" answerdes="招安归顺，兵不血刃。" answertip="(上缴200元宝)" num="300"/>
+	<task taskid="75" tasktype="6" taskparameter="DemonKing,2" time="720" answerdes="擒贼先擒王。" answertip="(击杀妖王2次)" num="150"/>
+	<task taskid="76" tasktype="7" taskparameter="" time="" answerdes="上报朝廷，请旨听命。" answertip="（可直接提交完成）" num="100"/>
+	<task taskid="77" tasktype="7" taskparameter="" time="" answerdes="君子之交" answertip="(可直接提交完成)" num="100"/>
+	<task taskid="78" tasktype="8" taskparameter="100" time="" answerdes="递交拜帖" answertip="(上缴100绑元）" num="150"/>
+	<task taskid="79" tasktype="6" taskparameter="DemonKing,4" time="720" answerdes="以武会友" answertip="（击杀妖王4次）" num="300"/>
+	<task taskid="80" tasktype="3" taskparameter="10000010,10" time="" answerdes="投其所好" answertip="（上缴宠物洗练石*10）" num="150"/>
+	<task taskid="81" tasktype="6" taskparameter="DemonKing,1" time="" answerdes="犯我国威者，虽远必诛。" answertip="（击杀妖王1次）" num="100"/>
+	<task taskid="82" tasktype="9" taskparameter="1000" time="" answerdes="勿扰百姓，赎买城池。" answertip="(上缴1000元宝)" num="800"/>
+	<task taskid="83" tasktype="4" taskparameter="100" time="720" answerdes="兵临城下，围城之战。" answertip="（野外战斗100次）" num="150"/>
+	<task taskid="84" tasktype="7" taskparameter="" time="" answerdes="按兵不动，上报朝廷。" answertip="（可直接提交完成）" num="100"/>
+</root>

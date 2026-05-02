@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+functionid	功能id			
+ring	每日挑战次数（目前仅支持填-1，表示无限制，如果需要改动次数需跟程序沟通）	
+activename 门派闯关		
+des	奖励描述限制
+autodiffculty 自动挑战开启难度
+autotime	自动挑战下一关时间间隔（秒）	
+diffculty	难度			
+itemid	通关当前难度获得道具id			
+num	道具数量			
+groupid	关卡id			
+name	关卡名字			
+zhandouid	战斗id			
+exp	每次通关获得经验奖励			
+awardid	通关奖励id			
+count	道具数量			
+money   银币数量		
+bmoney  绑元数量
+groupid  对应关卡id
+point   怪物所在地图以及坐标（关联scenes.xml）
+
+-->
+	<function functionid="2017" ring="-1" activename="门派闯关" des="通过所有关卡可获得以上奖励" autodiffculty="2" autotime="10"/>
+	<diffcult diffculty="1" itemid="10000014,10000009,1000604" num="50,20,1" bmoney="300">
+		<group groupid="1" name="魔王寨首席" zhandouid="800001001" exp="30000" money="10000"/>
+		<group groupid="2" name="龙宫首席" zhandouid="800002001" exp="30000" money="12000"/>
+		<group groupid="3" name="化生寺首席" zhandouid="800003001" exp="30000" money="14000"/>
+		<group groupid="4" name="普陀首席" zhandouid="800004001" exp="30000" money="16000"/>
+		<group groupid="5" name="地府首席" zhandouid="800005001" exp="30000" money="18000"/>
+		<group groupid="6" name="大唐首席" zhandouid="800006001" exp="30000" money="20000"/>
+	</diffcult>
+	<diffcult diffculty="2" itemid="10000014,10000009,2000704" num="100,30,1" bmoney="400">
+		<group groupid="1" name="魔王寨首席" zhandouid="800007001" exp="40000" money="22000"/>
+		<group groupid="2" name="龙宫首席" zhandouid="800008001" exp="40000" money="24000"/>
+		<group groupid="3" name="化生寺首席" zhandouid="800009001" exp="40000" money="26000"/>
+		<group groupid="4" name="普陀首席" zhandouid="800010001" exp="40000" money="28000"/>
+		<group groupid="5" name="地府首席" zhandouid="800011001" exp="40000" money="30000"/>
+		<group groupid="6" name="大唐首席" zhandouid="800012001" exp="40000" money="32000"/>
+	</diffcult>
+	<diffcult diffculty="3" itemid="10000014,10000009,5000704" num="150,40,1" bmoney="500">
+		<group groupid="1" name="魔王寨首席" zhandouid="800013001" exp="50000" money="34000"/>
+		<group groupid="2" name="龙宫首席" zhandouid="800014001" exp="50000" money="36000"/>
+		<group groupid="3" name="化生寺首席" zhandouid="800015001" exp="50000" money="38000"/>
+		<group groupid="4" name="普陀首席" zhandouid="800016001" exp="50000" money="40000"/>
+		<group groupid="5" name="地府首席" zhandouid="800017001" exp="50000" money="42000"/>
+		<group groupid="6" name="大唐首席" zhandouid="800018001" exp="50000" money="44000"/>
+	</diffcult>
+	<diffcult diffculty="4" itemid="10000014,10000009,6000804" num="200,50,1" bmoney="600">
+		<group groupid="1" name="魔王寨首席" zhandouid="800019001" exp="70000" money="46000"/>
+		<group groupid="2" name="龙宫首席" zhandouid="800020001" exp="70000" money="48000"/>
+		<group groupid="3" name="化生寺首席" zhandouid="800021001" exp="70000" money="50000"/>
+		<group groupid="4" name="普陀首席" zhandouid="800022001" exp="70000" money="52000"/>
+		<group groupid="5" name="地府首席" zhandouid="800023001" exp="70000" money="54000"/>
+		<group groupid="6" name="大唐首席" zhandouid="800024001" exp="70000" money="56000"/>
+	</diffcult>
+	<diffcult diffculty="5" itemid="10000014,10000009,1000804" num="300,70,1" bmoney="700">
+		<group groupid="1" name="魔王寨首席" zhandouid="800025001" exp="90000" money="58000"/>
+		<group groupid="2" name="龙宫首席" zhandouid="800026001" exp="90000" money="60000"/>
+		<group groupid="3" name="化生寺首席" zhandouid="800027001" exp="90000" money="62000"/>
+		<group groupid="4" name="普陀首席" zhandouid="800028001" exp="90000" money="64000"/>
+		<group groupid="5" name="地府首席" zhandouid="800029001" exp="90000" money="66000"/>
+		<group groupid="6" name="大唐首席" zhandouid="800030001" exp="90000" money="68000"/>
+	</diffcult>
+	<diffcult diffculty="6" itemid="10000014,10000009,2000904" num="400,100,1" bmoney="800">
+		<group groupid="1" name="魔王寨首席" zhandouid="800031001" exp="110000" money="70000"/>
+		<group groupid="2" name="龙宫首席" zhandouid="800032001" exp="110000" money="72000"/>
+		<group groupid="3" name="化生寺首席" zhandouid="800033001" exp="110000" money="74000"/>
+		<group groupid="4" name="普陀首席" zhandouid="800034001" exp="110000" money="76000"/>
+		<group groupid="5" name="地府首席" zhandouid="800035001" exp="110000" money="78000"/>
+		<group groupid="6" name="大唐首席" zhandouid="800036001" exp="110000" money="80000"/>
+	</diffcult>
+	<diffcult diffculty="7" itemid="10000014,10000009,6001004" num="500,120,1" bmoney="900">
+		<group groupid="1" name="魔王寨首席" zhandouid="800037001" exp="150000" money="82000"/>
+		<group groupid="2" name="龙宫首席" zhandouid="800038001" exp="150000" money="84000"/>
+		<group groupid="3" name="化生寺首席" zhandouid="800039001" exp="150000" money="86000"/>
+		<group groupid="4" name="普陀首席" zhandouid="800040001" exp="150000" money="88000"/>
+		<group groupid="5" name="地府首席" zhandouid="800041001" exp="150000" money="90000"/>
+		<group groupid="6" name="大唐首席" zhandouid="800042001" exp="150000" money="92000"/>
+	</diffcult>
+	<diffcult diffculty="8" itemid="10000014,10000009,5001104" num="700,150,1" bmoney="1000">
+		<group groupid="1" name="魔王寨首席" zhandouid="800043001" exp="190000" money="94000"/>
+		<group groupid="2" name="龙宫首席" zhandouid="800044001" exp="190000" money="96000"/>
+		<group groupid="3" name="化生寺首席" zhandouid="800045001" exp="190000" money="98000"/>
+		<group groupid="4" name="普陀首席" zhandouid="800046001" exp="190000" money="100000"/>
+		<group groupid="5" name="地府首席" zhandouid="800047001" exp="190000" money="102000"/>
+		<group groupid="6" name="大唐首席" zhandouid="800048001" exp="190000" money="104000"/>
+	</diffcult>
+	<diffcult diffculty="9" itemid="10000014,10000009,1001204" num="1000,180,1" bmoney="1200">
+		<group groupid="1" name="魔王寨首席" zhandouid="800049001" exp="230000" money="106000"/>
+		<group groupid="2" name="龙宫首席" zhandouid="800050001" exp="230000" money="108000"/>
+		<group groupid="3" name="化生寺首席" zhandouid="800051001" exp="230000" money="110000"/>
+		<group groupid="4" name="普陀首席" zhandouid="800052001" exp="230000" money="112000"/>
+		<group groupid="5" name="地府首席" zhandouid="800053001" exp="230000" money="114000"/>
+		<group groupid="6" name="大唐首席" zhandouid="800054001" exp="230000" money="116000"/>
+	</diffcult>
+	<diffcult diffculty="10" itemid="10000014,10000009,2001304" num="1500,200,1" bmoney="1500">
+		<group groupid="1" name="魔王寨首席" zhandouid="800055001" exp="270000" money="118000"/>
+		<group groupid="2" name="龙宫首席" zhandouid="800056001" exp="270000" money="120000"/>
+		<group groupid="3" name="化生寺首席" zhandouid="800057001" exp="270000" money="122000"/>
+		<group groupid="4" name="普陀首席" zhandouid="800058001" exp="270000" money="124000"/>
+		<group groupid="5" name="地府首席" zhandouid="800059001" exp="270000" money="126000"/>
+		<group groupid="6" name="大唐首席" zhandouid="800060001" exp="270000" money="128000"/>
+	</diffcult>
+	<diffcult diffculty="11" itemid="10000014,10000009,6001404" num="2000,240,1" bmoney="1800">
+		<group groupid="1" name="魔王寨首席" zhandouid="800061001" exp="320000" money="130000"/>
+		<group groupid="2" name="龙宫首席" zhandouid="800062001" exp="320000" money="132000"/>
+		<group groupid="3" name="化生寺首席" zhandouid="800063001" exp="320000" money="134000"/>
+		<group groupid="4" name="普陀首席" zhandouid="800064001" exp="320000" money="136000"/>
+		<group groupid="5" name="地府首席" zhandouid="800065001" exp="320000" money="138000"/>
+		<group groupid="6" name="大唐首席" zhandouid="800066001" exp="320000" money="140000"/>
+	</diffcult>
+	<diffcult diffculty="12" itemid="10000014,10000009,5001504" num="2500,280,1" bmoney="2100">
+		<group groupid="1" name="魔王寨首席" zhandouid="800067001" exp="380000" money="142000"/>
+		<group groupid="2" name="龙宫首席" zhandouid="800068001" exp="380000" money="144000"/>
+		<group groupid="3" name="化生寺首席" zhandouid="800069001" exp="380000" money="146000"/>
+		<group groupid="4" name="普陀首席" zhandouid="800070001" exp="380000" money="148000"/>
+		<group groupid="5" name="地府首席" zhandouid="800071001" exp="380000" money="150000"/>
+		<group groupid="6" name="大唐首席" zhandouid="800072001" exp="380000" money="152000"/>
+	</diffcult>
+	<diffcult diffculty="13" itemid="10000014,10000009,10000007" num="3000,320,30000" bmoney="2400">
+		<group groupid="1" name="魔王寨首席" zhandouid="800073001" exp="440000" money="154000"/>
+		<group groupid="2" name="龙宫首席" zhandouid="800074001" exp="440000" money="156000"/>
+		<group groupid="3" name="化生寺首席" zhandouid="800075001" exp="440000" money="158000"/>
+		<group groupid="4" name="普陀首席" zhandouid="800076001" exp="440000" money="160000"/>
+		<group groupid="5" name="地府首席" zhandouid="800077001" exp="440000" money="162000"/>
+		<group groupid="6" name="大唐首席" zhandouid="800078001" exp="440000" money="164000"/>
+	</diffcult>
+	<diffcult diffculty="14" itemid="10000014,10000009,10000007" num="3500,360,40000" bmoney="2700">
+		<group groupid="1" name="魔王寨首席" zhandouid="800079001" exp="500000" money="166000"/>
+		<group groupid="2" name="龙宫首席" zhandouid="800080001" exp="500000" money="168000"/>
+		<group groupid="3" name="化生寺首席" zhandouid="800081001" exp="500000" money="170000"/>
+		<group groupid="4" name="普陀首席" zhandouid="800082001" exp="500000" money="172000"/>
+		<group groupid="5" name="地府首席" zhandouid="800083001" exp="500000" money="174000"/>
+		<group groupid="6" name="大唐首席" zhandouid="800084001" exp="500000" money="176000"/>
+	</diffcult>
+	<diffcult diffculty="15" itemid="10000014,10000009,10000007" num="4000,400,50000" bmoney="3000">
+		<group groupid="1" name="魔王寨首席" zhandouid="800085001" exp="580000" money="178000"/>
+		<group groupid="2" name="龙宫首席" zhandouid="800086001" exp="580000" money="180000"/>
+		<group groupid="3" name="化生寺首席" zhandouid="800087001" exp="580000" money="182000"/>
+		<group groupid="4" name="普陀首席" zhandouid="800088001" exp="580000" money="184000"/>
+		<group groupid="5" name="地府首席" zhandouid="800089001" exp="580000" money="186000"/>
+		<group groupid="6" name="大唐首席" zhandouid="800090001" exp="580000" money="188000"/>
+	</diffcult>
+	<diffcult diffculty="16" itemid="10000014,10000009,10000007" num="4500,450,60000" bmoney="3500">
+		<group groupid="1" name="魔王寨首席" zhandouid="800091001" exp="660000" money="190000"/>
+		<group groupid="2" name="龙宫首席" zhandouid="800092001" exp="660000" money="192000"/>
+		<group groupid="3" name="化生寺首席" zhandouid="800093001" exp="660000" money="194000"/>
+		<group groupid="4" name="普陀首席" zhandouid="800094001" exp="660000" money="196000"/>
+		<group groupid="5" name="地府首席" zhandouid="800095001" exp="660000" money="198000"/>
+		<group groupid="6" name="大唐首席" zhandouid="800096001" exp="660000" money="200000"/>
+	</diffcult>
+	<diffcult diffculty="17" itemid="10000014,10000009,10000007" num="5000,500,70000" bmoney="4000">
+		<group groupid="1" name="魔王寨首席" zhandouid="800097001" exp="750000" money="202000"/>
+		<group groupid="2" name="龙宫首席" zhandouid="800098001" exp="750000" money="204000"/>
+		<group groupid="3" name="化生寺首席" zhandouid="800099001" exp="750000" money="206000"/>
+		<group groupid="4" name="普陀首席" zhandouid="800100001" exp="750000" money="208000"/>
+		<group groupid="5" name="地府首席" zhandouid="800101001" exp="750000" money="210000"/>
+		<group groupid="6" name="大唐首席" zhandouid="800102001" exp="750000" money="212000"/>
+	</diffcult>
+	<diffcult diffculty="18" itemid="10000014,10000009,10000007" num="5500,550,80000" bmoney="4500">
+		<group groupid="1" name="魔王寨首席" zhandouid="800103001" exp="850000" money="214000"/>
+		<group groupid="2" name="龙宫首席" zhandouid="800104001" exp="850000" money="216000"/>
+		<group groupid="3" name="化生寺首席" zhandouid="800105001" exp="850000" money="218000"/>
+		<group groupid="4" name="普陀首席" zhandouid="800106001" exp="850000" money="220000"/>
+		<group groupid="5" name="地府首席" zhandouid="800107001" exp="850000" money="222000"/>
+		<group groupid="6" name="大唐首席" zhandouid="800108001" exp="850000" money="224000"/>
+	</diffcult>
+	<diffcult diffculty="19" itemid="10000014,10000009,10000007" num="6000,600,90000" bmoney="5000">
+		<group groupid="1" name="魔王寨首席" zhandouid="800109001" exp="1000000" money="226000"/>
+		<group groupid="2" name="龙宫首席" zhandouid="800110001" exp="1000000" money="228000"/>
+		<group groupid="3" name="化生寺首席" zhandouid="800111001" exp="1000000" money="230000"/>
+		<group groupid="4" name="普陀首席" zhandouid="800112001" exp="1000000" money="232000"/>
+		<group groupid="5" name="地府首席" zhandouid="800113001" exp="1000000" money="234000"/>
+		<group groupid="6" name="大唐首席" zhandouid="800114001" exp="1000000" money="236000"/>
+	</diffcult>
+	<diffcult diffculty="20" itemid="10000014,10000009,10000007" num="7000,700,100000" bmoney="6000">
+		<group groupid="1" name="魔王寨首席" zhandouid="800115001" exp="1200000" money="238000"/>
+		<group groupid="2" name="龙宫首席" zhandouid="800116001" exp="1200000" money="240000"/>
+		<group groupid="3" name="化生寺首席" zhandouid="800117001" exp="1200000" money="242000"/>
+		<group groupid="4" name="普陀首席" zhandouid="800118001" exp="1200000" money="244000"/>
+		<group groupid="5" name="地府首席" zhandouid="800119001" exp="1200000" money="246000"/>
+		<group groupid="6" name="大唐首席" zhandouid="800120001" exp="1200000" money="248000"/>
+	</diffcult>
+	<point groupid="1" point="202"/>
+	<point groupid="2" point="203"/>
+	<point groupid="3" point="204"/>
+	<point groupid="4" point="205"/>
+	<point groupid="5" point="206"/>
+	<point groupid="6" point="207"/>
+</root>

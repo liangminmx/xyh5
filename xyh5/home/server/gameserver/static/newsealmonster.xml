@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+functionid	封印开启ID			
+ppnumber	参与人数 =1 单人副本 >1为组队副本（填2,2人组队即可参与）			
+resettime	每日重置时间（时：分：秒）			
+totalchallenge	可挑战次数			
+vip	VIP等级			
+number	活动编号			
+level	活动参与等级			
+gditemid	固定奖励ID			
+gdnum	奖励数量			
+sjitemid	概率奖励ID			
+sjnum	概率奖励数量			
+probability	概率奖励出现概率（万分比）			
+rewardnum	概率奖励数量			
+monsterid	对应怪物ID			
+monstername	对应怪物名称	
+avatar		对应怪物模型	
+battleid	战斗ID			
+
+
+-->
+	<pro functionid="2054" resettime="23:59:59" challenge="5" sweepvip="4"/>
+	<vip viplevel="1" viptotalchallenge="0"/>
+	<vip viplevel="2" viptotalchallenge="0"/>
+	<vip viplevel="3" viptotalchallenge="0"/>
+	<vip viplevel="4" viptotalchallenge="0"/>
+	<vip viplevel="5" viptotalchallenge="1"/>
+	<vip viplevel="6" viptotalchallenge="2"/>
+	<vip viplevel="7" viptotalchallenge="3"/>
+	<vip viplevel="8" viptotalchallenge="4"/>
+	<vip viplevel="9" viptotalchallenge="5"/>
+	<vip viplevel="10" viptotalchallenge="5"/>
+	<vip viplevel="11" viptotalchallenge="5"/>
+	<vip viplevel="12" viptotalchallenge="5"/>
+	<level level="40" scenes="20001">
+		<monster number="1" monsterid="400040001" monstername="僵尸" battleid="400040001" position="29,33"/>
+		<monster number="2" monsterid="400040002" monstername="鬼怪" battleid="400040002" position="35,37"/>
+		<monster number="3" monsterid="400040003" monstername="小白龙" battleid="400040003" position="27,30"/>
+		<monster number="4" monsterid="400040004" monstername="东海龙王" battleid="400040004" position="35,23"/>
+		<monster number="5" monsterid="400040005" monstername="铁扇公主" battleid="400040005" position="48,25"/>
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="10" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="4">
+			<item item="1000402" num="1" weight="100"/>
+			<item item="3000402" num="1" weight="100"/>
+			<item item="5000402" num="1" weight="100"/>
+			<item item="2000402" num="1" weight="100"/>
+			<item item="4000402" num="1" weight="100"/>
+			<item item="6000402" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="3">
+			<item item="1000403" num="1" weight="100"/>
+			<item item="3000403" num="1" weight="100"/>
+			<item item="5000403" num="1" weight="100"/>
+			<item item="2000403" num="1" weight="100"/>
+			<item item="4000403" num="1" weight="100"/>
+			<item item="6000403" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="4" probability="10000" rewardnum="1">
+			<item item="1000014" num="1" weight="100"/>
+			<item item="5000014" num="1" weight="100"/>
+			<item item="2000014" num="1" weight="100"/>
+			<item item="6000014" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="5" probability="100" rewardnum="1">
+			<item item="1000404" num="1" weight="100"/>
+			<item item="5000404" num="1" weight="100"/>
+			<item item="2000404" num="1" weight="100"/>
+			<item item="6000404" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="6" probability="0" rewardnum="1">
+			<item item="1000504" num="1" weight="100"/>
+			<item item="5000504" num="1" weight="100"/>
+			<item item="2000504" num="1" weight="100"/>
+			<item item="6000504" num="1" weight="100"/>
+		</reward>
+	</level>
+	<level level="60" scenes="20002">
+		<monster number="1" monsterid="400060001" monstername="僵尸" battleid="400060001" position="31,59"/>
+		<monster number="2" monsterid="400060002" monstername="鬼怪" battleid="400060002" position="38,39"/>
+		<monster number="3" monsterid="400060003" monstername="小白龙" battleid="400060003" position="52,38"/>
+		<monster number="4" monsterid="400060004" monstername="东海龙王" battleid="400060004" position="48,50"/>
+		<monster number="5" monsterid="400060005" monstername="铁扇公主" battleid="400060005" position="67,21"/>
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="10" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="4">
+			<item item="1000602" num="1" weight="100"/>
+			<item item="3000602" num="1" weight="100"/>
+			<item item="5000602" num="1" weight="100"/>
+			<item item="2000602" num="1" weight="100"/>
+			<item item="4000602" num="1" weight="100"/>
+			<item item="6000602" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="3">
+			<item item="1000603" num="1" weight="100"/>
+			<item item="3000603" num="1" weight="100"/>
+			<item item="5000603" num="1" weight="100"/>
+			<item item="2000603" num="1" weight="100"/>
+			<item item="4000603" num="1" weight="100"/>
+			<item item="6000603" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="4" probability="10000" rewardnum="1">
+			<item item="1000014" num="1" weight="100"/>
+			<item item="5000014" num="1" weight="100"/>
+			<item item="2000014" num="1" weight="100"/>
+			<item item="6000014" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="5" probability="500" rewardnum="1">
+			<item item="1000404" num="1" weight="100"/>
+			<item item="5000404" num="1" weight="100"/>
+			<item item="2000404" num="1" weight="100"/>
+			<item item="6000404" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="6" probability="100" rewardnum="1">
+			<item item="1000504" num="1" weight="100"/>
+			<item item="5000504" num="1" weight="100"/>
+			<item item="2000504" num="1" weight="100"/>
+			<item item="6000504" num="1" weight="100"/>
+		</reward>
+	</level>
+	<level level="70" scenes="20003">
+		<monster number="1" monsterid="400070001" monstername="僵尸" battleid="400070001" position="22,71"/>
+		<monster number="2" monsterid="400070002" monstername="鬼怪" battleid="400070002" position="48,66"/>
+		<monster number="3" monsterid="400070003" monstername="小白龙" battleid="400070003" position="67,58"/>
+		<monster number="4" monsterid="400070004" monstername="东海龙王" battleid="400070004" position="89,46"/>
+		<monster number="5" monsterid="400070005" monstername="铁扇公主" battleid="400070005" position="74,24"/>
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="10" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="4">
+			<item item="1000702" num="1" weight="100"/>
+			<item item="3000702" num="1" weight="100"/>
+			<item item="5000702" num="1" weight="100"/>
+			<item item="2000702" num="1" weight="100"/>
+			<item item="4000702" num="1" weight="100"/>
+			<item item="6000702" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="3">
+			<item item="1000703" num="1" weight="100"/>
+			<item item="3000703" num="1" weight="100"/>
+			<item item="5000703" num="1" weight="100"/>
+			<item item="2000703" num="1" weight="100"/>
+			<item item="4000703" num="1" weight="100"/>
+			<item item="6000703" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="4" probability="10000" rewardnum="1">
+			<item item="1000014" num="1" weight="100"/>
+			<item item="5000014" num="1" weight="100"/>
+			<item item="2000014" num="1" weight="100"/>
+			<item item="6000014" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="5" probability="1000" rewardnum="1">
+			<item item="1000404" num="1" weight="100"/>
+			<item item="5000404" num="1" weight="100"/>
+			<item item="2000404" num="1" weight="100"/>
+			<item item="6000404" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="6" probability="300" rewardnum="1">
+			<item item="1000504" num="1" weight="100"/>
+			<item item="5000504" num="1" weight="100"/>
+			<item item="2000504" num="1" weight="100"/>
+			<item item="6000504" num="1" weight="100"/>
+		</reward>
+	</level>
+	<level level="80" scenes="20004">
+		<monster number="1" monsterid="400080001" monstername="僵尸" battleid="400080001" position="25,59"/>
+		<monster number="2" monsterid="400080002" monstername="鬼怪" battleid="400080002" position="18,47"/>
+		<monster number="3" monsterid="400080003" monstername="小白龙" battleid="400080003" position="33,28"/>
+		<monster number="4" monsterid="400080004" monstername="东海龙王" battleid="400080004" position="46,17"/>
+		<monster number="5" monsterid="400080005" monstername="铁扇公主" battleid="400080005" position="60,28"/>
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="10" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="4">
+			<item item="1000802" num="1" weight="100"/>
+			<item item="3000802" num="1" weight="100"/>
+			<item item="5000802" num="1" weight="100"/>
+			<item item="2000802" num="1" weight="100"/>
+			<item item="4000802" num="1" weight="100"/>
+			<item item="6000802" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="3">
+			<item item="1000803" num="1" weight="100"/>
+			<item item="3000803" num="1" weight="100"/>
+			<item item="5000803" num="1" weight="100"/>
+			<item item="2000803" num="1" weight="100"/>
+			<item item="4000803" num="1" weight="100"/>
+			<item item="6000803" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="4" probability="10000" rewardnum="1">
+			<item item="1000404" num="1" weight="100"/>
+			<item item="5000404" num="1" weight="100"/>
+			<item item="2000404" num="1" weight="100"/>
+			<item item="6000404" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="5" probability="1000" rewardnum="1">
+			<item item="1000504" num="1" weight="100"/>
+			<item item="5000504" num="1" weight="100"/>
+			<item item="2000504" num="1" weight="100"/>
+			<item item="6000504" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="6" probability="500" rewardnum="1">
+			<item item="1000604" num="1" weight="100"/>
+			<item item="5000604" num="1" weight="100"/>
+			<item item="2000604" num="1" weight="100"/>
+			<item item="6000604" num="1" weight="100"/>
+		</reward>
+	</level>
+	<level level="90" scenes="20005">
+		<monster number="1" monsterid="400090001" monstername="僵尸" battleid="400090001" position="35,24"/>
+		<monster number="2" monsterid="400090002" monstername="鬼怪" battleid="400090002" position="38,27"/>
+		<monster number="3" monsterid="400090003" monstername="小白龙" battleid="400090003" position="32,29"/>
+		<monster number="4" monsterid="400090004" monstername="东海龙王" battleid="400090004" position="38,19"/>
+		<monster number="5" monsterid="400090005" monstername="铁扇公主" battleid="400090005" position="45,20"/>
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="20" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="4">
+			<item item="1000902" num="1" weight="100"/>
+			<item item="3000902" num="1" weight="100"/>
+			<item item="5000902" num="1" weight="100"/>
+			<item item="2000902" num="1" weight="100"/>
+			<item item="4000902" num="1" weight="100"/>
+			<item item="6000902" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="3">
+			<item item="1000903" num="1" weight="100"/>
+			<item item="3000903" num="1" weight="100"/>
+			<item item="5000903" num="1" weight="100"/>
+			<item item="2000903" num="1" weight="100"/>
+			<item item="4000903" num="1" weight="100"/>
+			<item item="6000903" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="4" probability="10000" rewardnum="1">
+			<item item="1000404" num="1" weight="100"/>
+			<item item="5000404" num="1" weight="100"/>
+			<item item="2000404" num="1" weight="100"/>
+			<item item="6000404" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="5" probability="2000" rewardnum="1">
+			<item item="1000504" num="1" weight="100"/>
+			<item item="5000504" num="1" weight="100"/>
+			<item item="2000504" num="1" weight="100"/>
+			<item item="6000504" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="6" probability="1000" rewardnum="1">
+			<item item="1000604" num="1" weight="100"/>
+			<item item="5000604" num="1" weight="100"/>
+			<item item="2000604" num="1" weight="100"/>
+			<item item="6000604" num="1" weight="100"/>
+		</reward>
+	</level>
+	<level level="100" scenes="20006">
+		<monster number="1" monsterid="400100001" monstername="春十三娘" battleid="400100001" position="15,44"/>
+		<monster number="2" monsterid="400100002" monstername="红孩儿" battleid="400100002" position="19,41"/>
+		<monster number="3" monsterid="400100003" monstername="金甲力士" battleid="400100003" position="20,43"/>
+		<monster number="4" monsterid="400100004" monstername="元辰星君" battleid="400100004" position="23,46"/>
+		<monster number="5" monsterid="400100005" monstername="大妖皇" battleid="400100005" position="24,49"/>
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="20" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="4">
+			<item item="1001002" num="1" weight="100"/>
+			<item item="3001002" num="1" weight="100"/>
+			<item item="5001002" num="1" weight="100"/>
+			<item item="2001002" num="1" weight="100"/>
+			<item item="4001002" num="1" weight="100"/>
+			<item item="6001002" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="3">
+			<item item="1001003" num="1" weight="100"/>
+			<item item="3001003" num="1" weight="100"/>
+			<item item="5001003" num="1" weight="100"/>
+			<item item="2001003" num="1" weight="100"/>
+			<item item="4001003" num="1" weight="100"/>
+			<item item="6001003" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="4" probability="10000" rewardnum="1">
+			<item item="1000504" num="1" weight="100"/>
+			<item item="5000504" num="1" weight="100"/>
+			<item item="2000504" num="1" weight="100"/>
+			<item item="6000504" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="5" probability="1000" rewardnum="1">
+			<item item="1000604" num="1" weight="100"/>
+			<item item="5000604" num="1" weight="100"/>
+			<item item="2000604" num="1" weight="100"/>
+			<item item="6000604" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="6" probability="500" rewardnum="1">
+			<item item="1000704" num="1" weight="100"/>
+			<item item="5000704" num="1" weight="100"/>
+			<item item="2000704" num="1" weight="100"/>
+			<item item="6000704" num="1" weight="100"/>
+		</reward>
+	</level>
+	<level level="110" scenes="20007">
+		<monster number="1" monsterid="400110001" monstername="春十三娘" battleid="400110001" position="11,50"/>
+		<monster number="2" monsterid="400110002" monstername="红孩儿" battleid="400110002" position="19,48"/>
+		<monster number="3" monsterid="400110003" monstername="金甲力士" battleid="400110003" position="27,59"/>
+		<monster number="4" monsterid="400110004" monstername="元辰星君" battleid="400110004" position="36,49"/>
+		<monster number="5" monsterid="400110005" monstername="大妖皇" battleid="400110005" position="37,43"/>
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="20" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="4">
+			<item item="1001102" num="1" weight="100"/>
+			<item item="3001102" num="1" weight="100"/>
+			<item item="5001102" num="1" weight="100"/>
+			<item item="2001102" num="1" weight="100"/>
+			<item item="4001102" num="1" weight="100"/>
+			<item item="6001102" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="3">
+			<item item="1001103" num="1" weight="100"/>
+			<item item="3001103" num="1" weight="100"/>
+			<item item="5001103" num="1" weight="100"/>
+			<item item="2001103" num="1" weight="100"/>
+			<item item="4001103" num="1" weight="100"/>
+			<item item="6001103" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="4" probability="10000" rewardnum="1">
+			<item item="1000504" num="1" weight="100"/>
+			<item item="5000504" num="1" weight="100"/>
+			<item item="2000504" num="1" weight="100"/>
+			<item item="6000504" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="5" probability="1500" rewardnum="1">
+			<item item="1000604" num="1" weight="100"/>
+			<item item="5000604" num="1" weight="100"/>
+			<item item="2000604" num="1" weight="100"/>
+			<item item="6000604" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="6" probability="800" rewardnum="1">
+			<item item="1000704" num="1" weight="100"/>
+			<item item="5000704" num="1" weight="100"/>
+			<item item="2000704" num="1" weight="100"/>
+			<item item="6000704" num="1" weight="100"/>
+		</reward>
+	</level>
+	<level level="120" scenes="20007">
+		<monster number="1" monsterid="400120001" monstername="春十三娘" battleid="400120001" position="40,31"/>
+		<monster number="2" monsterid="400120002" monstername="红孩儿" battleid="400120002" position="43,20"/>
+		<monster number="3" monsterid="400120003" monstername="金甲力士" battleid="400120003" position="53,14"/>
+		<monster number="4" monsterid="400120004" monstername="元辰星君" battleid="400120004" position="58,27"/>
+		<monster number="5" monsterid="400120005" monstername="大妖皇" battleid="400120005" position="55,23"/>
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="30" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="4">
+			<item item="1001202" num="1" weight="100"/>
+			<item item="3001202" num="1" weight="100"/>
+			<item item="5001202" num="1" weight="100"/>
+			<item item="2001202" num="1" weight="100"/>
+			<item item="4001202" num="1" weight="100"/>
+			<item item="6001202" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="3">
+			<item item="1001203" num="1" weight="100"/>
+			<item item="3001203" num="1" weight="100"/>
+			<item item="5001203" num="1" weight="100"/>
+			<item item="2001203" num="1" weight="100"/>
+			<item item="4001203" num="1" weight="100"/>
+			<item item="6001203" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="4" probability="10000" rewardnum="1">
+			<item item="1000604" num="1" weight="100"/>
+			<item item="5000604" num="1" weight="100"/>
+			<item item="2000604" num="1" weight="100"/>
+			<item item="6000604" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="5" probability="1000" rewardnum="1">
+			<item item="1000704" num="1" weight="100"/>
+			<item item="5000704" num="1" weight="100"/>
+			<item item="2000704" num="1" weight="100"/>
+			<item item="6000704" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="6" probability="500" rewardnum="1">
+			<item item="1000804" num="1" weight="100"/>
+			<item item="5000804" num="1" weight="100"/>
+			<item item="2000804" num="1" weight="100"/>
+			<item item="6000804" num="1" weight="100"/>
+		</reward>
+	</level>
+	<level level="130" scenes="20008">
+		<monster number="1" monsterid="400130001" monstername="春十三娘" battleid="400130001" position="15,48"/>
+		<monster number="2" monsterid="400130002" monstername="红孩儿" battleid="400130002" position="27,32"/>
+		<monster number="3" monsterid="400130003" monstername="金甲力士" battleid="400130003" position="30,43"/>
+		<monster number="4" monsterid="400130004" monstername="元辰星君" battleid="400130004" position="37,57"/>
+		<monster number="5" monsterid="400130005" monstername="大妖皇" battleid="400130005" position="33,46"/>
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="30" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="4">
+			<item item="1001302" num="1" weight="100"/>
+			<item item="3001302" num="1" weight="100"/>
+			<item item="5001302" num="1" weight="100"/>
+			<item item="2001302" num="1" weight="100"/>
+			<item item="4001302" num="1" weight="100"/>
+			<item item="6001302" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="3">
+			<item item="1001303" num="1" weight="100"/>
+			<item item="3001303" num="1" weight="100"/>
+			<item item="5001303" num="1" weight="100"/>
+			<item item="2001303" num="1" weight="100"/>
+			<item item="4001303" num="1" weight="100"/>
+			<item item="6001303" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="4" probability="10000" rewardnum="1">
+			<item item="1000604" num="1" weight="100"/>
+			<item item="5000604" num="1" weight="100"/>
+			<item item="2000604" num="1" weight="100"/>
+			<item item="6000604" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="5" probability="1500" rewardnum="1">
+			<item item="1000704" num="1" weight="100"/>
+			<item item="5000704" num="1" weight="100"/>
+			<item item="2000704" num="1" weight="100"/>
+			<item item="6000704" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="6" probability="800" rewardnum="1">
+			<item item="1000804" num="1" weight="100"/>
+			<item item="5000804" num="1" weight="100"/>
+			<item item="2000804" num="1" weight="100"/>
+			<item item="6000804" num="1" weight="100"/>
+		</reward>
+	</level>
+	<level level="140" scenes="20008">
+		<monster number="1" monsterid="400140001" monstername="春十三娘" battleid="400140001" position="43,40"/>
+		<monster number="2" monsterid="400140002" monstername="红孩儿" battleid="400140002" position="50,14"/>
+		<monster number="3" monsterid="400140003" monstername="金甲力士" battleid="400140003" position="56,22"/>
+		<monster number="4" monsterid="400140004" monstername="元辰星君" battleid="400140004" position="61,29"/>
+		<monster number="5" monsterid="400140005" monstername="大妖皇" battleid="400140005" position="57,32"/>
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="30" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="4">
+			<item item="1001402" num="1" weight="100"/>
+			<item item="3001402" num="1" weight="100"/>
+			<item item="5001402" num="1" weight="100"/>
+			<item item="2001402" num="1" weight="100"/>
+			<item item="4001402" num="1" weight="100"/>
+			<item item="6001402" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="3">
+			<item item="1001403" num="1" weight="100"/>
+			<item item="3001403" num="1" weight="100"/>
+			<item item="5001403" num="1" weight="100"/>
+			<item item="2001403" num="1" weight="100"/>
+			<item item="4001403" num="1" weight="100"/>
+			<item item="6001403" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="4" probability="10000" rewardnum="1">
+			<item item="1000704" num="1" weight="100"/>
+			<item item="5000704" num="1" weight="100"/>
+			<item item="2000704" num="1" weight="100"/>
+			<item item="6000704" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="5" probability="1000" rewardnum="1">
+			<item item="1000804" num="1" weight="100"/>
+			<item item="5000804" num="1" weight="100"/>
+			<item item="2000804" num="1" weight="100"/>
+			<item item="6000804" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="6" probability="500" rewardnum="1">
+			<item item="1000904" num="1" weight="100"/>
+			<item item="5000904" num="1" weight="100"/>
+			<item item="2000904" num="1" weight="100"/>
+			<item item="6000904" num="1" weight="100"/>
+		</reward>
+	</level>
+	<level level="150" scenes="20009">
+		<monster number="1" monsterid="400150001" monstername="春十三娘" battleid="400150001" position="32,58"/>
+		<monster number="2" monsterid="400150002" monstername="红孩儿" battleid="400150002" position="35,53"/>
+		<monster number="3" monsterid="400150003" monstername="金甲力士" battleid="400150003" position="33,50"/>
+		<monster number="4" monsterid="400150004" monstername="元辰星君" battleid="400150004" position="37,48"/>
+		<monster number="5" monsterid="400150005" monstername="大妖皇" battleid="400150005" position="38,44"/>
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="50" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="4">
+			<item item="1001502" num="1" weight="100"/>
+			<item item="3001502" num="1" weight="100"/>
+			<item item="5001502" num="1" weight="100"/>
+			<item item="2001502" num="1" weight="100"/>
+			<item item="4001502" num="1" weight="100"/>
+			<item item="6001502" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="3">
+			<item item="1001503" num="1" weight="100"/>
+			<item item="3001503" num="1" weight="100"/>
+			<item item="5001503" num="1" weight="100"/>
+			<item item="2001503" num="1" weight="100"/>
+			<item item="4001503" num="1" weight="100"/>
+			<item item="6001503" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="4" probability="10000" rewardnum="1">
+			<item item="1000704" num="1" weight="100"/>
+			<item item="5000704" num="1" weight="100"/>
+			<item item="2000704" num="1" weight="100"/>
+			<item item="6000704" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="5" probability="1500" rewardnum="1">
+			<item item="1000804" num="1" weight="100"/>
+			<item item="5000804" num="1" weight="100"/>
+			<item item="2000804" num="1" weight="100"/>
+			<item item="6000804" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="6" probability="800" rewardnum="1">
+			<item item="1000904" num="1" weight="100"/>
+			<item item="5000904" num="1" weight="100"/>
+			<item item="2000904" num="1" weight="100"/>
+			<item item="6000904" num="1" weight="100"/>
+		</reward>
+	</level>
+	<level level="170" scenes="20010">
+		<monster number="1" monsterid="400170001" monstername="瑶池天兵" battleid="400170001" position="22,41"/>
+		<monster number="2" monsterid="400170002" monstername="彩凤仙女" battleid="400170002" position="29,38"/>
+		<monster number="3" monsterid="400170003" monstername="芙蓉仙女" battleid="400170003" position="32,42"/>
+		<monster number="4" monsterid="400170004" monstername="瑶池天兵" battleid="400170004" position="38,41"/>
+		<monster number="5" monsterid="400170005" monstername="彩凤仙女" battleid="400170005" position="41,45"/>
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="50" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="4">
+			<item item="1002702" num="1" weight="100"/>
+			<item item="3002702" num="1" weight="100"/>
+			<item item="5002702" num="1" weight="100"/>
+			<item item="2002702" num="1" weight="100"/>
+			<item item="4002702" num="1" weight="100"/>
+			<item item="6002702" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="3">
+			<item item="1002703" num="1" weight="100"/>
+			<item item="3002703" num="1" weight="100"/>
+			<item item="5002703" num="1" weight="100"/>
+			<item item="2002703" num="1" weight="100"/>
+			<item item="4002703" num="1" weight="100"/>
+			<item item="6002703" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="4" probability="10000" rewardnum="1">
+			<item item="1000704" num="1" weight="100"/>
+			<item item="5000704" num="1" weight="100"/>
+			<item item="2000704" num="1" weight="100"/>
+			<item item="6000704" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="5" probability="2000" rewardnum="1">
+			<item item="1000804" num="1" weight="100"/>
+			<item item="5000804" num="1" weight="100"/>
+			<item item="2000804" num="1" weight="100"/>
+			<item item="6000804" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="6" probability="1000" rewardnum="1">
+			<item item="1000904" num="1" weight="100"/>
+			<item item="5000904" num="1" weight="100"/>
+			<item item="2000904" num="1" weight="100"/>
+			<item item="6000904" num="1" weight="100"/>
+		</reward>
+	</level>
+	<level level="190" scenes="20011">
+		<monster number="1" monsterid="400190001" monstername="瑶池天兵" battleid="400190001" position="46,54"/>
+		<monster number="2" monsterid="400190002" monstername="彩凤仙女" battleid="400190002" position="53,46"/>
+		<monster number="3" monsterid="400190003" monstername="芙蓉仙女" battleid="400190003" position="69,37"/>
+		<monster number="4" monsterid="400190004" monstername="瑶池天兵" battleid="400190004" position="64,42"/>
+		<monster number="5" monsterid="400190005" monstername="彩凤仙女" battleid="400190005" position="58,37"/>
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="50" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="4">
+			<item item="1002902" num="1" weight="100"/>
+			<item item="3002902" num="1" weight="100"/>
+			<item item="5002902" num="1" weight="100"/>
+			<item item="2002902" num="1" weight="100"/>
+			<item item="4002902" num="1" weight="100"/>
+			<item item="6002902" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="3">
+			<item item="1002903" num="1" weight="100"/>
+			<item item="3002903" num="1" weight="100"/>
+			<item item="5002903" num="1" weight="100"/>
+			<item item="2002903" num="1" weight="100"/>
+			<item item="4002903" num="1" weight="100"/>
+			<item item="6002903" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="4" probability="10000" rewardnum="1">
+			<item item="1000804" num="1" weight="100"/>
+			<item item="5000804" num="1" weight="100"/>
+			<item item="2000804" num="1" weight="100"/>
+			<item item="6000804" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="5" probability="1000" rewardnum="1">
+			<item item="1000904" num="1" weight="100"/>
+			<item item="5000904" num="1" weight="100"/>
+			<item item="2000904" num="1" weight="100"/>
+			<item item="6000904" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="6" probability="500" rewardnum="1">
+			<item item="1001004" num="1" weight="100"/>
+			<item item="5001004" num="1" weight="100"/>
+			<item item="2001004" num="1" weight="100"/>
+			<item item="6001004" num="1" weight="100"/>
+		</reward>
+	</level>
+	<level level="210" scenes="20012">
+		<monster number="1" monsterid="400210001" monstername="瑶池天兵" battleid="400210001" position="48,19"/>
+		<monster number="2" monsterid="400210002" monstername="彩凤仙女" battleid="400210002" position="46,25"/>
+		<monster number="3" monsterid="400210003" monstername="芙蓉仙女" battleid="400210003" position="54,29"/>
+		<monster number="4" monsterid="400210004" monstername="瑶池天兵" battleid="400210004" position="63,27"/>
+		<monster number="5" monsterid="400210005" monstername="彩凤仙女" battleid="400210005" position="62,23"/>
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="50" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="4">
+			<item item="1003102" num="1" weight="100"/>
+			<item item="3003102" num="1" weight="100"/>
+			<item item="5003102" num="1" weight="100"/>
+			<item item="2003102" num="1" weight="100"/>
+			<item item="4003102" num="1" weight="100"/>
+			<item item="6003102" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="3">
+			<item item="1003103" num="1" weight="100"/>
+			<item item="3003103" num="1" weight="100"/>
+			<item item="5003103" num="1" weight="100"/>
+			<item item="2003103" num="1" weight="100"/>
+			<item item="4003103" num="1" weight="100"/>
+			<item item="6003103" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="4" probability="10000" rewardnum="1">
+			<item item="1000804" num="1" weight="100"/>
+			<item item="5000804" num="1" weight="100"/>
+			<item item="2000804" num="1" weight="100"/>
+			<item item="6000804" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="5" probability="1500" rewardnum="1">
+			<item item="1000904" num="1" weight="100"/>
+			<item item="5000904" num="1" weight="100"/>
+			<item item="2000904" num="1" weight="100"/>
+			<item item="6000904" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="6" probability="800" rewardnum="1">
+			<item item="1001004" num="1" weight="100"/>
+			<item item="5001004" num="1" weight="100"/>
+			<item item="2001004" num="1" weight="100"/>
+			<item item="6001004" num="1" weight="100"/>
+		</reward>
+	</level>
+	<level level="230" scenes="20013">
+		<monster number="1" monsterid="400230001" monstername="瑶池天兵" battleid="400230001" position="36,51"/>
+		<monster number="2" monsterid="400230002" monstername="彩凤仙女" battleid="400230002" position="33,70"/>
+		<monster number="3" monsterid="400230003" monstername="芙蓉仙女" battleid="400230003" position="54,62"/>
+		<monster number="4" monsterid="400230004" monstername="瑶池天兵" battleid="400230004" position="54,54"/>
+		<monster number="5" monsterid="400230005" monstername="彩凤仙女" battleid="400230005" position="61,50"/>
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="50" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="4">
+			<item item="1003302" num="1" weight="100"/>
+			<item item="3003302" num="1" weight="100"/>
+			<item item="5003302" num="1" weight="100"/>
+			<item item="2003302" num="1" weight="100"/>
+			<item item="4003302" num="1" weight="100"/>
+			<item item="6003302" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="3">
+			<item item="1003303" num="1" weight="100"/>
+			<item item="3003303" num="1" weight="100"/>
+			<item item="5003303" num="1" weight="100"/>
+			<item item="2003303" num="1" weight="100"/>
+			<item item="4003303" num="1" weight="100"/>
+			<item item="6003303" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="4" probability="10000" rewardnum="1">
+			<item item="1000804" num="1" weight="100"/>
+			<item item="5000804" num="1" weight="100"/>
+			<item item="2000804" num="1" weight="100"/>
+			<item item="6000804" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="5" probability="2000" rewardnum="1">
+			<item item="1000904" num="1" weight="100"/>
+			<item item="5000904" num="1" weight="100"/>
+			<item item="2000904" num="1" weight="100"/>
+			<item item="6000904" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="6" probability="1000" rewardnum="1">
+			<item item="1001004" num="1" weight="100"/>
+			<item item="5001004" num="1" weight="100"/>
+			<item item="2001004" num="1" weight="100"/>
+			<item item="6001004" num="1" weight="100"/>
+		</reward>
+	</level>
+	<level level="250" scenes="20014">
+		<monster number="1" monsterid="400250001" monstername="瑶池天兵" battleid="400250001" position="33,18"/>
+		<monster number="2" monsterid="400250002" monstername="彩凤仙女" battleid="400250002" position="29,30"/>
+		<monster number="3" monsterid="400250003" monstername="芙蓉仙女" battleid="400250003" position="36,15"/>
+		<monster number="4" monsterid="400250004" monstername="瑶池天兵" battleid="400250004" position="35,28"/>
+		<monster number="5" monsterid="400250005" monstername="彩凤仙女" battleid="400250005" position="40,26"/>
+		<reward rewardid="1" probability="10000" rewardnum="1">
+			<item item="10000007" num="50" weight="100"/>
+		</reward>
+		<reward rewardid="2" probability="10000" rewardnum="4">
+			<item item="1003502" num="1" weight="100"/>
+			<item item="3003502" num="1" weight="100"/>
+			<item item="5003502" num="1" weight="100"/>
+			<item item="2003502" num="1" weight="100"/>
+			<item item="4003502" num="1" weight="100"/>
+			<item item="6003502" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="3" probability="10000" rewardnum="3">
+			<item item="1003503" num="1" weight="100"/>
+			<item item="3003503" num="1" weight="100"/>
+			<item item="5003503" num="1" weight="100"/>
+			<item item="2003503" num="1" weight="100"/>
+			<item item="4003503" num="1" weight="100"/>
+			<item item="6003503" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="4" probability="10000" rewardnum="1">
+			<item item="1000804" num="1" weight="100"/>
+			<item item="5000804" num="1" weight="100"/>
+			<item item="2000804" num="1" weight="100"/>
+			<item item="6000804" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="5" probability="2200" rewardnum="1">
+			<item item="1000904" num="1" weight="100"/>
+			<item item="5000904" num="1" weight="100"/>
+			<item item="2000904" num="1" weight="100"/>
+			<item item="6000904" num="1" weight="100"/>
+		</reward>
+		<reward rewardid="6" probability="1200" rewardnum="1">
+			<item item="1001004" num="1" weight="100"/>
+			<item item="5001004" num="1" weight="100"/>
+			<item item="2001004" num="1" weight="100"/>
+			<item item="6001004" num="1" weight="100"/>
+		</reward>
+	</level>
+</root>

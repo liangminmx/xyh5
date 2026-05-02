@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+fbId	副本ID
+mapId   地图ID
+startPosition  玩家出生点坐标
+fbName	副本名称
+vipLev	进入副本的vip等级限制
+isWin	表示是否只有在胜利的时候才会消耗副本次数
+=1是，只有胜利才算使用过副本
+=0否，只要进入副本就算使用过副本
+maxChance	最大可进入副本的次数，=不填，表示没有限制
+keepTime	副本持续时间，单位秒，=0表示没有时间限制
+bossId   副本boss的ID
+position 副本boss坐标
+monsterDirection BOSS方向
+rewardInfo	副本奖励介绍填写道具ID，支持多字段，用“，”隔开
+-->
+<root>
+  <FB fbId="1" mapId="10001" fbName="天神囚徒" startPosition="28,29" revivePos="21,41" vipLev="1" isWin="1" maxChance="1" keepTime="300" bossId="101001" monsterDirection="1" position="19.5,33.5" rewardInfo="600007,600005,600002,100001,100001" reward="100001,100001"/>
+ </root>

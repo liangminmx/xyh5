@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+functionid	功能id
+starttime	每日开启活动的时间，格式为时分秒，12：00：00
+endtime	每日关闭活动的时间，格式为时分秒，23：30：00
+lv	地图等级
+scene	地图sceneid
+enterpos	进入地图的出生坐标，格式x，y
+realm	玩家进入地图的最低大境界等级
+stage	玩家进入地图的最低小境界等级
+playermax	地图进入人数限制（理论上限）
+copynum	正常开启地图复制个数限制
+playernum	开启拷贝地图的玩家人数
+revivepos	死亡复活坐标
+holdtime	地图无人时保存时间 单位秒
+monsterid	怪物id
+direction	怪物朝向
+chaosscore	击杀怪物获得的积分
+npc	采集物id
+collecttime	采集时间，单秒：毫秒
+direction	采集物朝向
+chaosscore	采集获得的积分
+posmax	怪物刷新坐标总数
+num	刷新怪物的最大数量
+pos	怪物坐标
+posmax	采集物刷新坐标总数
+num	刷新采集物的最大数量
+pos	采集物坐标
+summontype	=1,击杀怪物，=2采集物品，=3击杀玩家
+probability	召唤boss的触发几率，精确到万分比
+text	公告文本
+refreshcooling	boss刷新间隔时间，单位秒
+monsterid	怪物id
+conjurescore	召唤者召唤boss后获得的积分
+direction	怪物朝向
+weight	出现其中一种boss的触发权重 
+waittime	离开等待时间，单位秒
+losescore_per	损失积分百分比
+losescore	损失积分保底值
+mail	提示邮件id
+score_per	pk胜利积分百分比
+score	pk失败积分保底值
+	
+id	传送点id
+npc	npc外形id
+pos	npc位置坐标
+targetpos	传送目标坐标
+isfromsafe	是否从安全区出来，=1是，=0不是
+time	持续时间，单位秒，无buff，填0
+start	黄金时间开启时间，格式XX：XX：XX
+end	黄金时间关闭时间，格式XX：XX：XX
+goldmul	黄金时间收益倍数
+-->
+	<functionid functionid="5104"/>
+	<open starttime="12:00:00" endtime="23:59:59"/>
+	<levave losescore_per="10" losescore="2" mail="102" waittime="15" dropid="6000001"/>
+	<pk score_per="10" score="2"/>
+	<map scene="8509" entpos="50,211" realm="6" playermax="50" copynum="10" playernum="40" revivepos="50,211">
+		<monster monsterid="900601" direction="1" chaosscore="50"/>
+		<monster monsterid="900602" direction="1" chaosscore="50"/>
+		<monster monsterid="900603" direction="1" chaosscore="50"/>
+		<monster monsterid="900604" direction="1" chaosscore="50"/>
+		<monster monsterid="900605" direction="1" chaosscore="2"/>
+		<collect npc="100001" collecttime="5000" direction="1" chaosscore="25"/>
+		<monsterpos posmax="46" num="23">
+			<postion pos="29,154"/>
+			<postion pos="24,120"/>
+			<postion pos="39,97"/>
+			<postion pos="22,75"/>
+			<postion pos="44,77"/>
+			<postion pos="59,88"/>
+			<postion pos="62,98"/>
+			<postion pos="68,123"/>
+			<postion pos="89,124"/>
+			<postion pos="105,120"/>
+			<postion pos="80,89"/>
+			<postion pos="79,66"/>
+			<postion pos="29,62"/>
+			<postion pos="37,48"/>
+			<postion pos="38,29"/>
+			<postion pos="49,26"/>
+			<postion pos="62,24"/>
+			<postion pos="74,23"/>
+			<postion pos="82,13"/>
+			<postion pos="87,35"/>
+			<postion pos="97,47"/>
+			<postion pos="118,51"/>
+			<postion pos="114,93"/>
+			<postion pos="100,200"/>
+			<postion pos="156,239"/>
+			<postion pos="147,218"/>
+			<postion pos="138,187"/>
+			<postion pos="164,156"/>
+			<postion pos="148,156"/>
+			<postion pos="163,139"/>
+			<postion pos="151,65"/>
+			<postion pos="156,89"/>
+			<postion pos="153,108"/>
+			<postion pos="142,113"/>
+			<postion pos="145,132"/>
+			<postion pos="108,182"/>
+			<postion pos="108,182"/>
+			<postion pos="95,153"/>
+			<postion pos="120,165"/>
+			<postion pos="106,152"/>
+			<postion pos="41,120"/>
+			<postion pos="55,52"/>
+			<postion pos="66,59"/>
+			<postion pos="52,47"/>
+			<postion pos="91,72"/>
+			<postion pos="93,100"/>
+		</monsterpos>
+		<npcpos posmax="4" num="4">
+			<postion pos="24,73"/>
+			<postion pos="40,34"/>
+			<postion pos="113,163"/>
+			<postion pos="155,237"/>
+		</npcpos>
+		<boss summontype="1" probability="100" text="" refreshcooling="600">
+			<monster monsterid="910601" direction="1" conjurescore="1000" chaosscore="5000" weight="100"/>
+		</boss>
+		<boss summontype="2" probability="100" text="" refreshcooling="600">
+			<monster monsterid="910602" direction="1" conjurescore="1000" chaosscore="5000" weight="100"/>
+		</boss>
+		<boss summontype="3" probability="200" text="" refreshcooling="600">
+			<monster monsterid="910603" direction="1" conjurescore="1000" chaosscore="5000" weight="100"/>
+		</boss>
+	</map>
+	<map scene="8509" entpos="50,211" realm="7" playermax="50" copynum="10" playernum="40" revivepos="50,211">
+		<monster monsterid="900701" direction="1" chaosscore="100"/>
+		<monster monsterid="900702" direction="1" chaosscore="100"/>
+		<monster monsterid="900703" direction="1" chaosscore="100"/>
+		<monster monsterid="900704" direction="1" chaosscore="100"/>
+		<monster monsterid="900705" direction="1" chaosscore="100"/>
+		<collect npc="100001" collecttime="5000" direction="1" chaosscore="50"/>
+		<monsterpos posmax="46" num="23">
+			<postion pos="29,154"/>
+			<postion pos="24,120"/>
+			<postion pos="39,97"/>
+			<postion pos="22,75"/>
+			<postion pos="44,77"/>
+			<postion pos="59,88"/>
+			<postion pos="62,98"/>
+			<postion pos="68,123"/>
+			<postion pos="89,124"/>
+			<postion pos="105,120"/>
+			<postion pos="80,89"/>
+			<postion pos="79,66"/>
+			<postion pos="29,62"/>
+			<postion pos="37,48"/>
+			<postion pos="38,29"/>
+			<postion pos="49,26"/>
+			<postion pos="62,24"/>
+			<postion pos="74,23"/>
+			<postion pos="82,13"/>
+			<postion pos="87,35"/>
+			<postion pos="97,47"/>
+			<postion pos="118,51"/>
+			<postion pos="114,93"/>
+			<postion pos="100,200"/>
+			<postion pos="156,239"/>
+			<postion pos="147,218"/>
+			<postion pos="138,187"/>
+			<postion pos="164,156"/>
+			<postion pos="148,156"/>
+			<postion pos="163,139"/>
+			<postion pos="151,65"/>
+			<postion pos="156,89"/>
+			<postion pos="153,108"/>
+			<postion pos="142,113"/>
+			<postion pos="145,132"/>
+			<postion pos="108,182"/>
+			<postion pos="108,182"/>
+			<postion pos="95,153"/>
+			<postion pos="120,165"/>
+			<postion pos="106,152"/>
+			<postion pos="41,120"/>
+			<postion pos="55,52"/>
+			<postion pos="66,59"/>
+			<postion pos="52,47"/>
+			<postion pos="91,72"/>
+			<postion pos="93,100"/>
+		</monsterpos>
+		<npcpos posmax="4" num="4">
+			<postion pos="24,73"/>
+			<postion pos="40,34"/>
+			<postion pos="113,163"/>
+			<postion pos="155,237"/>
+		</npcpos>
+		<boss summontype="1" probability="100" text="" refreshcooling="600">
+			<monster monsterid="910701" direction="1" conjurescore="2000" chaosscore="10000" weight="100"/>
+		</boss>
+		<boss summontype="2" probability="100" text="" refreshcooling="600">
+			<monster monsterid="910702" direction="1" conjurescore="2000" chaosscore="10000" weight="100"/>
+		</boss>
+		<boss summontype="3" probability="200" text="" refreshcooling="600">
+			<monster monsterid="910703" direction="1" conjurescore="2000" chaosscore="10000" weight="100"/>
+		</boss>
+	</map>
+	<map scene="8509" entpos="50,211" realm="8" playermax="50" copynum="10" playernum="40" revivepos="50,211">
+		<monster monsterid="900801" direction="1" chaosscore="200"/>
+		<monster monsterid="900802" direction="1" chaosscore="200"/>
+		<monster monsterid="900803" direction="1" chaosscore="200"/>
+		<monster monsterid="900804" direction="1" chaosscore="200"/>
+		<monster monsterid="900805" direction="1" chaosscore="200"/>
+		<collect npc="100001" collecttime="5000" direction="1" chaosscore="100"/>
+		<monsterpos posmax="46" num="23">
+			<postion pos="29,154"/>
+			<postion pos="24,120"/>
+			<postion pos="39,97"/>
+			<postion pos="22,75"/>
+			<postion pos="44,77"/>
+			<postion pos="59,88"/>
+			<postion pos="62,98"/>
+			<postion pos="68,123"/>
+			<postion pos="89,124"/>
+			<postion pos="105,120"/>
+			<postion pos="80,89"/>
+			<postion pos="79,66"/>
+			<postion pos="29,62"/>
+			<postion pos="37,48"/>
+			<postion pos="38,29"/>
+			<postion pos="49,26"/>
+			<postion pos="62,24"/>
+			<postion pos="74,23"/>
+			<postion pos="82,13"/>
+			<postion pos="87,35"/>
+			<postion pos="97,47"/>
+			<postion pos="118,51"/>
+			<postion pos="114,93"/>
+			<postion pos="100,200"/>
+			<postion pos="156,239"/>
+			<postion pos="147,218"/>
+			<postion pos="138,187"/>
+			<postion pos="164,156"/>
+			<postion pos="148,156"/>
+			<postion pos="163,139"/>
+			<postion pos="151,65"/>
+			<postion pos="156,89"/>
+			<postion pos="153,108"/>
+			<postion pos="142,113"/>
+			<postion pos="145,132"/>
+			<postion pos="108,182"/>
+			<postion pos="108,182"/>
+			<postion pos="95,153"/>
+			<postion pos="120,165"/>
+			<postion pos="106,152"/>
+			<postion pos="41,120"/>
+			<postion pos="55,52"/>
+			<postion pos="66,59"/>
+			<postion pos="52,47"/>
+			<postion pos="91,72"/>
+			<postion pos="93,100"/>
+		</monsterpos>
+		<npcpos posmax="4" num="4">
+			<postion pos="24,73"/>
+			<postion pos="40,34"/>
+			<postion pos="113,163"/>
+			<postion pos="155,237"/>
+		</npcpos>
+		<boss summontype="1" probability="100" text="" refreshcooling="600">
+			<monster monsterid="910801" direction="1" conjurescore="4000" chaosscore="20000" weight="100"/>
+		</boss>
+		<boss summontype="2" probability="100" text="" refreshcooling="600">
+			<monster monsterid="910802" direction="1" conjurescore="4000" chaosscore="20000" weight="100"/>
+		</boss>
+		<boss summontype="3" probability="200" text="" refreshcooling="600">
+			<monster monsterid="910803" direction="1" conjurescore="4000" chaosscore="20000" weight="100"/>
+		</boss>
+	</map>
+	<map scene="8509" entpos="50,211" realm="9" playermax="50" copynum="10" playernum="40" revivepos="50,211">
+		<monster monsterid="900901" direction="1" chaosscore="500"/>
+		<monster monsterid="900902" direction="1" chaosscore="500"/>
+		<monster monsterid="900903" direction="1" chaosscore="500"/>
+		<monster monsterid="900904" direction="1" chaosscore="500"/>
+		<monster monsterid="900905" direction="1" chaosscore="500"/>
+		<collect npc="100001" collecttime="5000" direction="1" chaosscore="250"/>
+		<monsterpos posmax="46" num="23">
+			<postion pos="29,154"/>
+			<postion pos="24,120"/>
+			<postion pos="39,97"/>
+			<postion pos="22,75"/>
+			<postion pos="44,77"/>
+			<postion pos="59,88"/>
+			<postion pos="62,98"/>
+			<postion pos="68,123"/>
+			<postion pos="89,124"/>
+			<postion pos="105,120"/>
+			<postion pos="80,89"/>
+			<postion pos="79,66"/>
+			<postion pos="29,62"/>
+			<postion pos="37,48"/>
+			<postion pos="38,29"/>
+			<postion pos="49,26"/>
+			<postion pos="62,24"/>
+			<postion pos="74,23"/>
+			<postion pos="82,13"/>
+			<postion pos="87,35"/>
+			<postion pos="97,47"/>
+			<postion pos="118,51"/>
+			<postion pos="114,93"/>
+			<postion pos="100,200"/>
+			<postion pos="156,239"/>
+			<postion pos="147,218"/>
+			<postion pos="138,187"/>
+			<postion pos="164,156"/>
+			<postion pos="148,156"/>
+			<postion pos="163,139"/>
+			<postion pos="151,65"/>
+			<postion pos="156,89"/>
+			<postion pos="153,108"/>
+			<postion pos="142,113"/>
+			<postion pos="145,132"/>
+			<postion pos="108,182"/>
+			<postion pos="108,182"/>
+			<postion pos="95,153"/>
+			<postion pos="120,165"/>
+			<postion pos="106,152"/>
+			<postion pos="41,120"/>
+			<postion pos="55,52"/>
+			<postion pos="66,59"/>
+			<postion pos="52,47"/>
+			<postion pos="91,72"/>
+			<postion pos="93,100"/>
+		</monsterpos>
+		<npcpos posmax="4" num="4">
+			<postion pos="24,73"/>
+			<postion pos="40,34"/>
+			<postion pos="113,163"/>
+			<postion pos="155,237"/>
+		</npcpos>
+		<boss summontype="1" probability="100" text="" refreshcooling="600">
+			<monster monsterid="910901" direction="1" conjurescore="10000" chaosscore="50000" weight="100"/>
+		</boss>
+		<boss summontype="2" probability="100" text="" refreshcooling="600">
+			<monster monsterid="910902" direction="1" conjurescore="10000" chaosscore="50000" weight="100"/>
+		</boss>
+		<boss summontype="3" probability="200" text="" refreshcooling="600">
+			<monster monsterid="910903" direction="1" conjurescore="10000" chaosscore="50000" weight="100"/>
+		</boss>
+	</map>
+	<transfer>
+		<buff id="1" npc="100003" pos="38,211" targetpos="9,159" isfromsafe="1" time="10"/>
+		<buff id="2" npc="100004" pos="52,191" targetpos="124,22" isfromsafe="1" time="10"/>
+		<buff id="3" npc="100005" pos="62,212" targetpos="150,187" isfromsafe="1" time="10"/>
+		<buff id="4" npc="100006" pos="48,231" targetpos="102,230" isfromsafe="1" time="10"/>
+		<buff id="10" npc="100007" pos="9,159" targetpos="38,211" isfromsafe="0" time="0"/>
+		<buff id="11" npc="100008" pos="124,22" targetpos="52,191" isfromsafe="0" time="0"/>
+		<buff id="12" npc="100009" pos="150,187" targetpos="62,212" isfromsafe="0" time="0"/>
+		<buff id="13" npc="100010" pos="102,230" targetpos="48,231" isfromsafe="0" time="0"/>
+	</transfer>
+	<mul start="15:00:00" end="16:00:00" goldnum="2"/>
+	<mul start="19:00:00" end="20:00:00" goldnum="2"/>
+</root>

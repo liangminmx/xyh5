@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+serverNum	合服次数
+ =-1默认状态
+=0新服的活动数据
+=1,合服1次的活动数据
+=2合服2次的活动数据
+……
+functionid	功能id
+rechargenum	累充金额要求（rmb）
+emoneycost	参与活动消耗元宝数
+number2	十分位数字区间
+number3	百分位数字区间
+kaifutime	开服第几天开始算活动开启
+opentime	活动开启天数
+number1	奖励倍数个位数数字
+weight	对应数字出现权重
+
+
+
+-->
+	<server serverNum="-1">
+		<function functionid="2070" rechargenum="12" emoneycost="1000" number2="3,9" number3="6,9" kaifutime="2"/>
+		<opentime opentime="1">
+			<gewei number1="1" weight="0"/>
+			<gewei number1="2" weight="250"/>
+			<gewei number1="3" weight="250"/>
+			<gewei number1="4" weight="1250"/>
+			<gewei number1="5" weight="1250"/>
+			<gewei number1="6" weight="3000"/>
+			<gewei number1="7" weight="3000"/>
+			<gewei number1="8" weight="500"/>
+			<gewei number1="9" weight="500"/>
+		</opentime>
+		<opentime opentime="2">
+			<gewei number1="1" weight="0"/>
+			<gewei number1="2" weight="400"/>
+			<gewei number1="3" weight="400"/>
+			<gewei number1="4" weight="2100"/>
+			<gewei number1="5" weight="2100"/>
+			<gewei number1="6" weight="2000"/>
+			<gewei number1="7" weight="2000"/>
+			<gewei number1="8" weight="500"/>
+			<gewei number1="9" weight="500"/>
+		</opentime>
+		<opentime opentime="3">
+			<gewei number1="1" weight="0"/>
+			<gewei number1="2" weight="1000"/>
+			<gewei number1="3" weight="1000"/>
+			<gewei number1="4" weight="2100"/>
+			<gewei number1="5" weight="2100"/>
+			<gewei number1="6" weight="1500"/>
+			<gewei number1="7" weight="1500"/>
+			<gewei number1="8" weight="400"/>
+			<gewei number1="9" weight="400"/>
+		</opentime>
+		<opentime opentime="4">
+			<gewei number1="1" weight="0"/>
+			<gewei number1="2" weight="1500"/>
+			<gewei number1="3" weight="1500"/>
+			<gewei number1="4" weight="2250"/>
+			<gewei number1="5" weight="2250"/>
+			<gewei number1="6" weight="1000"/>
+			<gewei number1="7" weight="1000"/>
+			<gewei number1="8" weight="250"/>
+			<gewei number1="9" weight="250"/>
+		</opentime>
+		<opentime opentime="5">
+			<gewei number1="1" weight="0"/>
+			<gewei number1="2" weight="2000"/>
+			<gewei number1="3" weight="2000"/>
+			<gewei number1="4" weight="2050"/>
+			<gewei number1="5" weight="2050"/>
+			<gewei number1="6" weight="750"/>
+			<gewei number1="7" weight="750"/>
+			<gewei number1="8" weight="200"/>
+			<gewei number1="9" weight="200"/>
+		</opentime>
+		<opentime opentime="6">
+			<gewei number1="1" weight="0"/>
+			<gewei number1="2" weight="2250"/>
+			<gewei number1="3" weight="2250"/>
+			<gewei number1="4" weight="2100"/>
+			<gewei number1="5" weight="2100"/>
+			<gewei number1="6" weight="500"/>
+			<gewei number1="7" weight="500"/>
+			<gewei number1="8" weight="300"/>
+			<gewei number1="9" weight="300"/>
+		</opentime>
+		<opentime opentime="7,99999">
+			<gewei number1="1" weight="0"/>
+			<gewei number1="2" weight="2500"/>
+			<gewei number1="3" weight="2500"/>
+			<gewei number1="4" weight="2200"/>
+			<gewei number1="5" weight="2200"/>
+			<gewei number1="6" weight="250"/>
+			<gewei number1="7" weight="250"/>
+			<gewei number1="8" weight="50"/>
+			<gewei number1="9" weight="50"/>
+		</opentime>
+	</server>
+	<server serverNum="0">
+		<function functionid="2070" rechargenum="12" emoneycost="1000" number2="3,9" number3="6,9" kaifutime="2"/>
+		<opentime opentime="1">
+			<gewei number1="1" weight="0"/>
+			<gewei number1="2" weight="250"/>
+			<gewei number1="3" weight="250"/>
+			<gewei number1="4" weight="1250"/>
+			<gewei number1="5" weight="1250"/>
+			<gewei number1="6" weight="3000"/>
+			<gewei number1="7" weight="3000"/>
+			<gewei number1="8" weight="500"/>
+			<gewei number1="9" weight="500"/>
+		</opentime>
+		<opentime opentime="2">
+			<gewei number1="1" weight="0"/>
+			<gewei number1="2" weight="400"/>
+			<gewei number1="3" weight="400"/>
+			<gewei number1="4" weight="2100"/>
+			<gewei number1="5" weight="2100"/>
+			<gewei number1="6" weight="2000"/>
+			<gewei number1="7" weight="2000"/>
+			<gewei number1="8" weight="500"/>
+			<gewei number1="9" weight="500"/>
+		</opentime>
+		<opentime opentime="3">
+			<gewei number1="1" weight="0"/>
+			<gewei number1="2" weight="1000"/>
+			<gewei number1="3" weight="1000"/>
+			<gewei number1="4" weight="2100"/>
+			<gewei number1="5" weight="2100"/>
+			<gewei number1="6" weight="1500"/>
+			<gewei number1="7" weight="1500"/>
+			<gewei number1="8" weight="400"/>
+			<gewei number1="9" weight="400"/>
+		</opentime>
+		<opentime opentime="4">
+			<gewei number1="1" weight="0"/>
+			<gewei number1="2" weight="1500"/>
+			<gewei number1="3" weight="1500"/>
+			<gewei number1="4" weight="2250"/>
+			<gewei number1="5" weight="2250"/>
+			<gewei number1="6" weight="1000"/>
+			<gewei number1="7" weight="1000"/>
+			<gewei number1="8" weight="250"/>
+			<gewei number1="9" weight="250"/>
+		</opentime>
+		<opentime opentime="5">
+			<gewei number1="1" weight="0"/>
+			<gewei number1="2" weight="2000"/>
+			<gewei number1="3" weight="2000"/>
+			<gewei number1="4" weight="2050"/>
+			<gewei number1="5" weight="2050"/>
+			<gewei number1="6" weight="750"/>
+			<gewei number1="7" weight="750"/>
+			<gewei number1="8" weight="200"/>
+			<gewei number1="9" weight="200"/>
+		</opentime>
+		<opentime opentime="6">
+			<gewei number1="1" weight="0"/>
+			<gewei number1="2" weight="2250"/>
+			<gewei number1="3" weight="2250"/>
+			<gewei number1="4" weight="2100"/>
+			<gewei number1="5" weight="2100"/>
+			<gewei number1="6" weight="500"/>
+			<gewei number1="7" weight="500"/>
+			<gewei number1="8" weight="300"/>
+			<gewei number1="9" weight="300"/>
+		</opentime>
+		<opentime opentime="7,99999">
+			<gewei number1="1" weight="0"/>
+			<gewei number1="2" weight="2500"/>
+			<gewei number1="3" weight="2500"/>
+			<gewei number1="4" weight="2200"/>
+			<gewei number1="5" weight="2200"/>
+			<gewei number1="6" weight="250"/>
+			<gewei number1="7" weight="250"/>
+			<gewei number1="8" weight="50"/>
+			<gewei number1="9" weight="50"/>
+		</opentime>
+	</server>
+	<server serverNum="1">
+		<function functionid="2070" rechargenum="12" emoneycost="1000" number2="3,9" number3="6,9" kaifutime="1"/>
+		<opentime opentime="1">
+			<gewei number1="1" weight="0"/>
+			<gewei number1="2" weight="250"/>
+			<gewei number1="3" weight="250"/>
+			<gewei number1="4" weight="1250"/>
+			<gewei number1="5" weight="1250"/>
+			<gewei number1="6" weight="3000"/>
+			<gewei number1="7" weight="3000"/>
+			<gewei number1="8" weight="500"/>
+			<gewei number1="9" weight="500"/>
+		</opentime>
+		<opentime opentime="2">
+			<gewei number1="1" weight="0"/>
+			<gewei number1="2" weight="400"/>
+			<gewei number1="3" weight="400"/>
+			<gewei number1="4" weight="2100"/>
+			<gewei number1="5" weight="2100"/>
+			<gewei number1="6" weight="2000"/>
+			<gewei number1="7" weight="2000"/>
+			<gewei number1="8" weight="500"/>
+			<gewei number1="9" weight="500"/>
+		</opentime>
+		<opentime opentime="3">
+			<gewei number1="1" weight="0"/>
+			<gewei number1="2" weight="1000"/>
+			<gewei number1="3" weight="1000"/>
+			<gewei number1="4" weight="2100"/>
+			<gewei number1="5" weight="2100"/>
+			<gewei number1="6" weight="1500"/>
+			<gewei number1="7" weight="1500"/>
+			<gewei number1="8" weight="400"/>
+			<gewei number1="9" weight="400"/>
+		</opentime>
+		<opentime opentime="4">
+			<gewei number1="1" weight="0"/>
+			<gewei number1="2" weight="1500"/>
+			<gewei number1="3" weight="1500"/>
+			<gewei number1="4" weight="2250"/>
+			<gewei number1="5" weight="2250"/>
+			<gewei number1="6" weight="1000"/>
+			<gewei number1="7" weight="1000"/>
+			<gewei number1="8" weight="250"/>
+			<gewei number1="9" weight="250"/>
+		</opentime>
+		<opentime opentime="5">
+			<gewei number1="1" weight="0"/>
+			<gewei number1="2" weight="2000"/>
+			<gewei number1="3" weight="2000"/>
+			<gewei number1="4" weight="2050"/>
+			<gewei number1="5" weight="2050"/>
+			<gewei number1="6" weight="750"/>
+			<gewei number1="7" weight="750"/>
+			<gewei number1="8" weight="200"/>
+			<gewei number1="9" weight="200"/>
+		</opentime>
+		<opentime opentime="6">
+			<gewei number1="1" weight="0"/>
+			<gewei number1="2" weight="2250"/>
+			<gewei number1="3" weight="2250"/>
+			<gewei number1="4" weight="2100"/>
+			<gewei number1="5" weight="2100"/>
+			<gewei number1="6" weight="500"/>
+			<gewei number1="7" weight="500"/>
+			<gewei number1="8" weight="300"/>
+			<gewei number1="9" weight="300"/>
+		</opentime>
+		<opentime opentime="7,99999">
+			<gewei number1="1" weight="0"/>
+			<gewei number1="2" weight="2500"/>
+			<gewei number1="3" weight="2500"/>
+			<gewei number1="4" weight="2200"/>
+			<gewei number1="5" weight="2200"/>
+			<gewei number1="6" weight="250"/>
+			<gewei number1="7" weight="250"/>
+			<gewei number1="8" weight="50"/>
+			<gewei number1="9" weight="50"/>
+		</opentime>
+	</server>
+</root>

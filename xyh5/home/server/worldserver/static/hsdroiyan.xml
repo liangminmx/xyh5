@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http,//www.altova.com) by  () -->
+<root>
+	<!--
+functionid	华山论剑开启ID			
+resttime	每日重置时间（时：分：秒）			
+totalchallenge	可挑战次数			
+winmoney	胜利获得银两			
+winprestige	胜利获得功勋			
+winby	胜利获得绑元			
+losemoney	失败获得银两			
+loseprestige	失败获得功勋			
+resetbig	重置大次数			
+resetmoney	购买次数所需元宝			
+vip	VIP等级	（多等级用,号隔开）		
+vipresetbig	VIP额外重置大次数（多等级用,号隔开）					
+rewardtime	排名奖励发放时间			
+ranking	排名			
+prestige	功勋			
+by	绑元			
+ai	机器人排名（填写排名为范围值,格式XXX;XXX ）			
+name	机器人名称			
+battleid 战斗id			
+combatpower 展示用战斗力
+shopid 竞技场商店
+
+
+
+
+-->
+	<pro functionid="2055" resttime="21:00:00" rewardtime="21:00:00" totalchallenge="10" winmoney="200000" winprestige="1000" winby="" losemoney="100000" loseprestige="500" resetbig="5" resetmoney="500" vip="5,6,7,8,9,10,11,12" vipresetbig="1,1,2,2,3,3,5,5" shopid="6"/>
+	<rank ranking="1" prestige="80000" by="8000" mail="4001"/>
+	<rank ranking="2" prestige="50000" by="5000" mail="4002"/>
+	<rank ranking="3" prestige="30000" by="3000" mail="4003"/>
+	<rank ranking="4;5" prestige="20000" by="2000" mail="4004"/>
+	<rank ranking="6;10" prestige="17000" by="1700" mail="4005"/>
+	<rank ranking="11;20" prestige="15000" by="1500" mail="4006"/>
+	<rank ranking="21;50" prestige="12000" by="1200" mail="4007"/>
+	<rank ranking="51;100" prestige="10000" by="1000" mail="4008"/>
+	<rank ranking="101;200" prestige="7000" by="700" mail="4009"/>
+	<rank ranking="201;500" prestige="5000" by="500" mail="4010"/>
+	<rank ranking="501;0" prestige="3000" by="300" mail="4011"/>
+	<ai ai="1" name="大罗修行者" battleid="120001001" combatpower="58700000"/>
+	<ai ai="2" name="太乙修行者" battleid="120002001" combatpower="48000000"/>
+	<ai ai="3" name="金仙修行者" battleid="120003001" combatpower="41200000"/>
+	<ai ai="4;10" name="地仙修行者" battleid="120004001" combatpower="32900000"/>
+	<ai ai="11;20" name="玄仙修行者" battleid="120005001" combatpower="25400000"/>
+	<ai ai="21;50" name="真仙修行者" battleid="120006001" combatpower="24400000"/>
+	<ai ai="51;100" name="渡劫修行者" battleid="120007001" combatpower="21300000"/>
+	<ai ai="101;200" name="化神修行者" battleid="120008001" combatpower="17400000"/>
+	<ai ai="201;400" name="元婴修行者" battleid="120009001" combatpower="9700000"/>
+	<ai ai="401;600" name="筑基修行者" battleid="120010001" combatpower="6900000"/>
+	<ai ai="601;800" name="入门修行者" battleid="120011001" combatpower="3700000"/>
+	<ai ai="801;1000" name="初阶修行者" battleid="120012001" combatpower="1200000"/>
+</root>

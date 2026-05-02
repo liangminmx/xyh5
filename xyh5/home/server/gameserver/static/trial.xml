@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+functionid	功能id
+autovip	自动挑战VIP等级
+removecost	清除一次挑战间隔时间花费元宝数
+opentime	活动开启时间
+endtime	活动关闭时间
+cd	单次挑战时间间隔（秒）
+npcid	活动npcid
+zhandouid	战斗id
+exp	单次挑战经验奖励
+money	单次挑战银币奖励
+bmoney 单次挑战绑元奖励数量
+	
+mingci	排名
+itemid	道具id
+num	道具数量
+bmoney	绑元奖励
+money	银币奖励
+mailid	排行奖励邮件id
+
+-->
+<function functionid="2067" opentime="18:30:00" endtime="18:45:00" autovip="6" removecost="50" cd="60" npcid="28"/>
+<boss zhandouid="720000001" exp="177776" money="177776" bmoney="50"/>
+<mingci mingci="1" itemid="13010012,10000004,10000006" num="1,5,100" bmoney="5000" money="50000000" mailid="6002"/>
+<mingci mingci="2" itemid="13010013,10000004,10000006" num="1,3,70" bmoney="3000" money="30000000" mailid="6003"/>
+<mingci mingci="3" itemid="13010013,10000004,10000006" num="1,2,50" bmoney="2000" money="20000000" mailid="6004"/>
+<mingci mingci="4,5" itemid="13010014,10000004,10000006" num="1,1,40" bmoney="1500" money="15000000" mailid="6005"/>
+<mingci mingci="6,10" itemid="13010014,10000006" num="1,35" bmoney="1000" money="10000000" mailid="6006"/>
+<mingci mingci="11,20" itemid="10000006" num="30" bmoney="700" money="7000000" mailid="6007"/>
+<mingci mingci="21,50" itemid="10000006" num="30" bmoney="600" money="6000000" mailid="6008"/>
+<mingci mingci="51,99999" itemid="10000006" num="30" bmoney="500" money="5000000" mailid="6009"/>
+</root>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equip_strengthen>
+  <!--
+ suitId 通用套装ID
+ suitIcon 套装图标
+ allType 全身装备必须达到的品质
+ allStrengthen 全身装备必须达到的强化等级
+ suitName 套装名称
+ suitDesc 套装描述
+ hp 激活通用套装附加的气血
+ pow 激活通用套装附加的攻击
+ def 激活通用套装附加的防御
+ crit 激活通用套装附加的暴击
+ toughness 激活通用套装附加的韧性
+ hit 激活通用套装附加的命中
+ dodge 激活通用套装附加的闪避
+-->
+  <suit suitId="1" suitIcon="1" allType="1" allStrengthen="7" suitName="全身装备均为强化+7以上" suitDesc="穿戴10件强化+7以上装备即可激活" hp="220" pow="37" def="25" crit="19" toughness="16" hit="18" dodge="14"/>
+  <suit suitId="2" suitIcon="2" allType="1" allStrengthen="10" suitName="全身装备均为强化+10以上" suitDesc="穿戴10件强化+10以上装备即可激活" hp="605" pow="103" def="68" crit="54" toughness="45" hit="51" dodge="39"/>
+  <suit suitId="3" suitIcon="3" allType="1" allStrengthen="13" suitName="全身装备均为强化+13以上" suitDesc="穿戴10件强化+13以上装备即可激活" hp="1100" pow="187" def="125" crit="98" toughness="82" hit="93" dodge="72"/>
+  <suit suitId="4" suitIcon="4" allType="1" allStrengthen="15" suitName="全身装备均为强化+15以上" suitDesc="穿戴10件强化+15以上装备即可激活" hp="1541" pow="262" def="175" crit="138" toughness="115" hit="131" dodge="100"/>
+  <suit suitId="5" suitIcon="5" allType="1" allStrengthen="20" suitName="全身装备均为强化+20以上" suitDesc="穿戴10件强化+20以上装备即可激活" hp="2036" pow="347" def="231" crit="182" toughness="152" hit="173" dodge="133"/>
+</equip_strengthen>

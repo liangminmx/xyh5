@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+function
+	function	活动开启条件	关联function.xml
+	icon	图标id	
+	img	广告图	
+    mail 补发邮件模板
+activity
+	activity	活动编号	
+	activity_next	下次活动编号	关联activity
+param
+	group	团购档次编号	有多档团购
+	need_num	团购需要达到人数	
+	addtime	自动增加人数间隔时间	单位秒
+recharge
+	id	奖励档次编号	每档团购下有多个奖励，不同奖励会配置不同条件
+	need_emoney	对应需要充值的元宝金额	配置=0 不需要 =1任意金额  =其他数值 对应数值的元宝充值金额
+reward
+	item	道具奖励	
+	count	道具数量	
+
+-->
+	<function function="2032" icon="2032" img="" mail="1010004"/>
+	<activity activity="1" activity_next="2">
+		<param group="1" need_num="10" addtime="600">
+			<recharge id="1" need_emoney="0">
+				<reward item="10000012" count="50"/>
+			</recharge>
+			<recharge id="2" need_emoney="1">
+				<reward item="10000012" count="200"/>
+			</recharge>
+			<recharge id="3" need_emoney="1888">
+				<reward item="10000012" count="500"/>
+			</recharge>
+		</param>
+		<param group="2" need_num="20" addtime="600">
+			<recharge id="1" need_emoney="0">
+				<reward item="10000013" count="50"/>
+			</recharge>
+			<recharge id="2" need_emoney="1">
+				<reward item="10000013" count="200"/>
+			</recharge>
+			<recharge id="3" need_emoney="1888">
+				<reward item="10000013" count="500"/>
+			</recharge>
+		</param>
+		<param group="3" need_num="50" addtime="600">
+			<recharge id="1" need_emoney="0">
+				<reward item="14010201" count="5"/>
+			</recharge>
+			<recharge id="2" need_emoney="1">
+				<reward item="14010201" count="10"/>
+			</recharge>
+			<recharge id="3" need_emoney="1888">
+				<reward item="14010201" count="20"/>
+			</recharge>
+		</param>
+		<param group="4" need_num="100" addtime="600">
+			<recharge id="1" need_emoney="0">
+				<reward item="14010001" count="1"/>
+			</recharge>
+			<recharge id="2" need_emoney="1">
+				<reward item="14010001" count="2"/>
+			</recharge>
+			<recharge id="3" need_emoney="1888">
+				<reward item="14010001" count="3"/>
+			</recharge>
+		</param>
+		<param group="5" need_num="200" addtime="600">
+			<recharge id="1" need_emoney="0">
+				<reward item="10000003" count="2"/>
+			</recharge>
+			<recharge id="2" need_emoney="1">
+				<reward item="10000004" count="1"/>
+			</recharge>
+			<recharge id="3" need_emoney="1888">
+				<reward item="10000004" count="1"/>
+			</recharge>
+		</param>
+	</activity>
+	<activity activity="2" activity_next="3">
+		<param group="1" need_num="10" addtime="600">
+			<recharge id="1" need_emoney="0">
+				<reward item="10000012" count="50"/>
+			</recharge>
+			<recharge id="2" need_emoney="1">
+				<reward item="10000012" count="200"/>
+			</recharge>
+			<recharge id="3" need_emoney="1888">
+				<reward item="10000012" count="500"/>
+			</recharge>
+		</param>
+		<param group="2" need_num="20" addtime="600">
+			<recharge id="1" need_emoney="0">
+				<reward item="10000013" count="50"/>
+			</recharge>
+			<recharge id="2" need_emoney="1">
+				<reward item="10000013" count="200"/>
+			</recharge>
+			<recharge id="3" need_emoney="1888">
+				<reward item="10000013" count="500"/>
+			</recharge>
+		</param>
+		<param group="3" need_num="50" addtime="600">
+			<recharge id="1" need_emoney="0">
+				<reward item="14030201" count="5"/>
+			</recharge>
+			<recharge id="2" need_emoney="1">
+				<reward item="14030201" count="10"/>
+			</recharge>
+			<recharge id="3" need_emoney="1888">
+				<reward item="14030201" count="20"/>
+			</recharge>
+		</param>
+		<param group="4" need_num="100" addtime="600">
+			<recharge id="1" need_emoney="0">
+				<reward item="14030001" count="1"/>
+			</recharge>
+			<recharge id="2" need_emoney="1">
+				<reward item="14030001" count="2"/>
+			</recharge>
+			<recharge id="3" need_emoney="1888">
+				<reward item="14030001" count="3"/>
+			</recharge>
+		</param>
+		<param group="5" need_num="200" addtime="600">
+			<recharge id="1" need_emoney="0">
+				<reward item="10000003" count="2"/>
+			</recharge>
+			<recharge id="2" need_emoney="1">
+				<reward item="10000004" count="1"/>
+			</recharge>
+			<recharge id="3" need_emoney="1888">
+				<reward item="10000004" count="1"/>
+			</recharge>
+		</param>
+	</activity>
+	<activity activity="3" activity_next="4">
+		<param group="1" need_num="10" addtime="600">
+			<recharge id="1" need_emoney="0">
+				<reward item="10000012" count="50"/>
+			</recharge>
+			<recharge id="2" need_emoney="1">
+				<reward item="10000012" count="200"/>
+			</recharge>
+			<recharge id="3" need_emoney="1888">
+				<reward item="10000012" count="500"/>
+			</recharge>
+		</param>
+		<param group="2" need_num="20" addtime="600">
+			<recharge id="1" need_emoney="0">
+				<reward item="10000013" count="50"/>
+			</recharge>
+			<recharge id="2" need_emoney="1">
+				<reward item="10000013" count="200"/>
+			</recharge>
+			<recharge id="3" need_emoney="1888">
+				<reward item="10000013" count="500"/>
+			</recharge>
+		</param>
+		<param group="3" need_num="50" addtime="600">
+			<recharge id="1" need_emoney="0">
+				<reward item="14050201" count="5"/>
+			</recharge>
+			<recharge id="2" need_emoney="1">
+				<reward item="14050201" count="10"/>
+			</recharge>
+			<recharge id="3" need_emoney="1888">
+				<reward item="14050201" count="20"/>
+			</recharge>
+		</param>
+		<param group="4" need_num="100" addtime="600">
+			<recharge id="1" need_emoney="0">
+				<reward item="14050001" count="1"/>
+			</recharge>
+			<recharge id="2" need_emoney="1">
+				<reward item="14050001" count="2"/>
+			</recharge>
+			<recharge id="3" need_emoney="1888">
+				<reward item="14050001" count="3"/>
+			</recharge>
+		</param>
+		<param group="5" need_num="200" addtime="600">
+			<recharge id="1" need_emoney="0">
+				<reward item="10000003" count="2"/>
+			</recharge>
+			<recharge id="2" need_emoney="1">
+				<reward item="10000004" count="1"/>
+			</recharge>
+			<recharge id="3" need_emoney="1888">
+				<reward item="10000004" count="1"/>
+			</recharge>
+		</param>
+	</activity>
+	<activity activity="4" activity_next="5">
+		<param group="1" need_num="10" addtime="600">
+			<recharge id="1" need_emoney="0">
+				<reward item="10000012" count="50"/>
+			</recharge>
+			<recharge id="2" need_emoney="1">
+				<reward item="10000012" count="200"/>
+			</recharge>
+			<recharge id="3" need_emoney="1888">
+				<reward item="10000012" count="500"/>
+			</recharge>
+		</param>
+		<param group="2" need_num="20" addtime="600">
+			<recharge id="1" need_emoney="0">
+				<reward item="10000013" count="50"/>
+			</recharge>
+			<recharge id="2" need_emoney="1">
+				<reward item="10000013" count="200"/>
+			</recharge>
+			<recharge id="3" need_emoney="1888">
+				<reward item="10000013" count="500"/>
+			</recharge>
+		</param>
+		<param group="3" need_num="50" addtime="600">
+			<recharge id="1" need_emoney="0">
+				<reward item="14040201" count="5"/>
+			</recharge>
+			<recharge id="2" need_emoney="1">
+				<reward item="14040201" count="10"/>
+			</recharge>
+			<recharge id="3" need_emoney="1888">
+				<reward item="14040201" count="20"/>
+			</recharge>
+		</param>
+		<param group="4" need_num="100" addtime="600">
+			<recharge id="1" need_emoney="0">
+				<reward item="14040001" count="1"/>
+			</recharge>
+			<recharge id="2" need_emoney="1">
+				<reward item="14040001" count="2"/>
+			</recharge>
+			<recharge id="3" need_emoney="1888">
+				<reward item="14040001" count="3"/>
+			</recharge>
+		</param>
+		<param group="5" need_num="200" addtime="600">
+			<recharge id="1" need_emoney="0">
+				<reward item="10000003" count="2"/>
+			</recharge>
+			<recharge id="2" need_emoney="1">
+				<reward item="10000004" count="1"/>
+			</recharge>
+			<recharge id="3" need_emoney="1888">
+				<reward item="10000004" count="1"/>
+			</recharge>
+		</param>
+	</activity>
+	<activity activity="5" activity_next="6">
+		<param group="1" need_num="10" addtime="600">
+			<recharge id="1" need_emoney="0">
+				<reward item="10000012" count="50"/>
+			</recharge>
+			<recharge id="2" need_emoney="1">
+				<reward item="10000012" count="200"/>
+			</recharge>
+			<recharge id="3" need_emoney="1888">
+				<reward item="10000012" count="500"/>
+			</recharge>
+		</param>
+		<param group="2" need_num="20" addtime="600">
+			<recharge id="1" need_emoney="0">
+				<reward item="10000013" count="50"/>
+			</recharge>
+			<recharge id="2" need_emoney="1">
+				<reward item="10000013" count="200"/>
+			</recharge>
+			<recharge id="3" need_emoney="1888">
+				<reward item="10000013" count="500"/>
+			</recharge>
+		</param>
+		<param group="3" need_num="50" addtime="600">
+			<recharge id="1" need_emoney="0">
+				<reward item="14020201" count="5"/>
+			</recharge>
+			<recharge id="2" need_emoney="1">
+				<reward item="14020201" count="10"/>
+			</recharge>
+			<recharge id="3" need_emoney="1888">
+				<reward item="14020201" count="20"/>
+			</recharge>
+		</param>
+		<param group="4" need_num="100" addtime="600">
+			<recharge id="1" need_emoney="0">
+				<reward item="14020001" count="1"/>
+			</recharge>
+			<recharge id="2" need_emoney="1">
+				<reward item="14020001" count="2"/>
+			</recharge>
+			<recharge id="3" need_emoney="1888">
+				<reward item="14020001" count="3"/>
+			</recharge>
+		</param>
+		<param group="5" need_num="200" addtime="600">
+			<recharge id="1" need_emoney="0">
+				<reward item="10000003" count="2"/>
+			</recharge>
+			<recharge id="2" need_emoney="1">
+				<reward item="10000004" count="1"/>
+			</recharge>
+			<recharge id="3" need_emoney="1888">
+				<reward item="10000004" count="1"/>
+			</recharge>
+		</param>
+	</activity>
+	<activity activity="6" activity_next="8">
+		<param group="1" need_num="10" addtime="600">
+			<recharge id="1" need_emoney="0">
+				<reward item="10000012" count="50"/>
+			</recharge>
+			<recharge id="2" need_emoney="1">
+				<reward item="10000012" count="200"/>
+			</recharge>
+			<recharge id="3" need_emoney="1888">
+				<reward item="10000012" count="500"/>
+			</recharge>
+		</param>
+		<param group="2" need_num="20" addtime="600">
+			<recharge id="1" need_emoney="0">
+				<reward item="10000013" count="50"/>
+			</recharge>
+			<recharge id="2" need_emoney="1">
+				<reward item="10000013" count="200"/>
+			</recharge>
+			<recharge id="3" need_emoney="1888">
+				<reward item="10000013" count="500"/>
+			</recharge>
+		</param>
+		<param group="3" need_num="50" addtime="600">
+			<recharge id="1" need_emoney="0">
+				<reward item="14070201" count="5"/>
+			</recharge>
+			<recharge id="2" need_emoney="1">
+				<reward item="14070201" count="10"/>
+			</recharge>
+			<recharge id="3" need_emoney="1888">
+				<reward item="14070201" count="20"/>
+			</recharge>
+		</param>
+		<param group="4" need_num="100" addtime="600">
+			<recharge id="1" need_emoney="0">
+				<reward item="14070001" count="1"/>
+			</recharge>
+			<recharge id="2" need_emoney="1">
+				<reward item="14070001" count="2"/>
+			</recharge>
+			<recharge id="3" need_emoney="1888">
+				<reward item="14070001" count="3"/>
+			</recharge>
+		</param>
+		<param group="5" need_num="200" addtime="600">
+			<recharge id="1" need_emoney="0">
+				<reward item="10000003" count="2"/>
+			</recharge>
+			<recharge id="2" need_emoney="1">
+				<reward item="10000004" count="1"/>
+			</recharge>
+			<recharge id="3" need_emoney="1888">
+				<reward item="10000004" count="1"/>
+			</recharge>
+		</param>
+	</activity>
+	<activity activity="7" activity_next="7">
+		<param group="1" need_num="5" addtime="900">
+			<recharge id="1" need_emoney="0">
+				<reward item="10000012" count="50"/>
+			</recharge>
+			<recharge id="2" need_emoney="1">
+				<reward item="10000012" count="200"/>
+			</recharge>
+			<recharge id="3" need_emoney="1888">
+				<reward item="10000012" count="500"/>
+			</recharge>
+		</param>
+		<param group="2" need_num="10" addtime="900">
+			<recharge id="1" need_emoney="0">
+				<reward item="10000013" count="50"/>
+			</recharge>
+			<recharge id="2" need_emoney="1">
+				<reward item="10000013" count="200"/>
+			</recharge>
+			<recharge id="3" need_emoney="1888">
+				<reward item="10000013" count="500"/>
+			</recharge>
+		</param>
+		<param group="3" need_num="25" addtime="900">
+			<recharge id="1" need_emoney="0">
+				<reward item="10000009" count="5"/>
+			</recharge>
+			<recharge id="2" need_emoney="1">
+				<reward item="10000009" count="10"/>
+			</recharge>
+			<recharge id="3" need_emoney="1888">
+				<reward item="10000009" count="20"/>
+			</recharge>
+		</param>
+		<param group="4" need_num="50" addtime="900">
+			<recharge id="1" need_emoney="0">
+				<reward item="16010007" count="1"/>
+			</recharge>
+			<recharge id="2" need_emoney="1">
+				<reward item="16010007" count="2"/>
+			</recharge>
+			<recharge id="3" need_emoney="1888">
+				<reward item="16010007" count="3"/>
+			</recharge>
+		</param>
+		<param group="5" need_num="100" addtime="900">
+			<recharge id="1" need_emoney="0">
+				<reward item="10000003" count="2"/>
+			</recharge>
+			<recharge id="2" need_emoney="1">
+				<reward item="10000004" count="1"/>
+			</recharge>
+			<recharge id="3" need_emoney="1888">
+				<reward item="10000004" count="1"/>
+			</recharge>
+		</param>
+	</activity>
+	<activity activity="8" activity_next="7">
+		<param group="1" need_num="10" addtime="600">
+			<recharge id="1" need_emoney="0">
+				<reward item="10000012" count="50"/>
+			</recharge>
+			<recharge id="2" need_emoney="1">
+				<reward item="10000012" count="200"/>
+			</recharge>
+			<recharge id="3" need_emoney="1888">
+				<reward item="10000012" count="500"/>
+			</recharge>
+		</param>
+		<param group="2" need_num="20" addtime="600">
+			<recharge id="1" need_emoney="0">
+				<reward item="10000013" count="50"/>
+			</recharge>
+			<recharge id="2" need_emoney="1">
+				<reward item="10000013" count="200"/>
+			</recharge>
+			<recharge id="3" need_emoney="1888">
+				<reward item="10000013" count="500"/>
+			</recharge>
+		</param>
+		<param group="3" need_num="50" addtime="600">
+			<recharge id="1" need_emoney="0">
+				<reward item="14080201" count="5"/>
+			</recharge>
+			<recharge id="2" need_emoney="1">
+				<reward item="14080201" count="10"/>
+			</recharge>
+			<recharge id="3" need_emoney="1888">
+				<reward item="14080201" count="20"/>
+			</recharge>
+		</param>
+		<param group="4" need_num="100" addtime="600">
+			<recharge id="1" need_emoney="0">
+				<reward item="14080001" count="1"/>
+			</recharge>
+			<recharge id="2" need_emoney="1">
+				<reward item="14080001" count="2"/>
+			</recharge>
+			<recharge id="3" need_emoney="1888">
+				<reward item="14080001" count="3"/>
+			</recharge>
+		</param>
+		<param group="5" need_num="200" addtime="600">
+			<recharge id="1" need_emoney="0">
+				<reward item="10000003" count="2"/>
+			</recharge>
+			<recharge id="2" need_emoney="1">
+				<reward item="10000004" count="1"/>
+			</recharge>
+			<recharge id="3" need_emoney="1888">
+				<reward item="10000004" count="1"/>
+			</recharge>
+		</param>
+	</activity>
+</root>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<dailyGift>
+		<level minlv="1" maxlv="5">
+			<item reward="100591" num="1" bind="1"/>
+			<item reward="108303" num="2" bind="1"/>
+		</level>
+		<level minlv="6" maxlv="10">
+			<item reward="100591" num="1" bind="1"/>
+			<item reward="108303" num="3" bind="1"/>
+		</level>
+		<level minlv="11" maxlv="15">
+			<item reward="100591" num="2" bind="1"/>
+			<item reward="108303" num="4" bind="1"/>
+			<item reward="108503" num="2" bind="1"/>
+		</level>
+		<level minlv="16" maxlv="20">
+			<item reward="100591" num="3" bind="1"/>
+			<item reward="108303" num="6" bind="1"/>
+			<item reward="108503" num="4" bind="1"/>
+		</level>
+		<level minlv="21" maxlv="25">
+			<item reward="100591" num="3" bind="1"/>
+			<item reward="108303" num="8" bind="1"/>
+			<item reward="108503" num="5" bind="1"/>
+		</level>
+		<level minlv="26" maxlv="100">
+			<item reward="100591" num="4" bind="1"/>
+			<item reward="108303" num="10" bind="1"/>
+			<item reward="108503" num="7" bind="1"/>
+		</level>
+	</dailyGift>
+</root>

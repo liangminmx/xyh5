@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+function
+	functionid	活动开启条件	关联function.xml
+	icon	图标id	
+	img	广告图	
+activity
+	activity	活动编号	
+	activity_next	下次活动编号	关联activity
+attendance
+	id	签到奖励编号	
+	dec	签到奖励描述	
+	type	签到奖励类型	类型=1无条件 =2要求vip等级  =3充值元宝金额
+	param	签到奖励类型补充	
+	item	道具奖励 支持填写多个道具用逗号隔开
+    count   道具数量 与道具一一对应，用逗号隔开
+    prestige 伙伴精魄
+total
+	days	累计签到天数	允许填单天，也支持填天数段
+	bmoney	绑定元宝奖励	
+
+
+-->
+	<function functionid="2035" icon="2035"/>
+	<total days="1" bmoney="1000"/>
+	<total days="2" bmoney="1200"/>
+	<total days="3" bmoney="1400"/>
+	<total days="4" bmoney="1600"/>
+	<total days="5" bmoney="1800"/>
+	<total days="6" bmoney="2000"/>
+	<total days="7" bmoney="2200"/>
+	<total days="8" bmoney="2400"/>
+	<total days="9" bmoney="2600"/>
+	<total days="10" bmoney="2800"/>
+	<total days="11,999999" bmoney="3000"/>
+	<activity activity="1" activity_next="2">
+		<attendance id="1" dec="每天登录可领取" type="1" param="" item="14010201,14010201,14010101,14010001" count="5,5,1,1"/>
+		<attendance id="2" dec="VIP4可领取" type="2" param="4" item="14010201,14010201,14010101,14010001" count="5,5,1,1"/>
+		<attendance id="3" dec="今日充值任意金额" type="3" param="1" item="14010201,14010201,14010101,14010001" count="5,5,2,2"/>
+	</activity>
+	<activity activity="2" activity_next="3">
+		<attendance id="1" dec="每天登录可领取" type="1" param="" item="14030201,14030201,14030101,14030001" count="5,5,1,1"/>
+		<attendance id="2" dec="VIP4可领取" type="2" param="4" item="14030201,14030201,14030101,14030001" count="5,5,1,1"/>
+		<attendance id="3" dec="今日充值任意金额" type="3" param="1" item="14030201,14030201,14030101,14030001" count="5,5,2,2"/>
+	</activity>
+	<activity activity="3" activity_next="4">
+		<attendance id="1" dec="每天登录可领取" type="1" param="" item="14050201,14050201,14050101,14050001" count="5,5,1,1"/>
+		<attendance id="2" dec="VIP4可领取" type="2" param="4" item="14050201,14050201,14050101,14050001" count="5,5,1,1"/>
+		<attendance id="3" dec="今日充值任意金额" type="3" param="1" item="14050201,14050201,14050101,14050001" count="5,5,2,2"/>
+	</activity>
+	<activity activity="4" activity_next="5">
+		<attendance id="1" dec="每天登录可领取" type="1" param="" item="14040201,14040201,14040101,14040001" count="5,5,1,1"/>
+		<attendance id="2" dec="VIP4可领取" type="2" param="4" item="14040201,14040201,14040101,14040001" count="5,5,1,1"/>
+		<attendance id="3" dec="今日充值任意金额" type="3" param="1" item="14040201,14040201,14040101,14040001" count="5,5,2,2"/>
+	</activity>
+	<activity activity="5" activity_next="6">
+		<attendance id="1" dec="每天登录可领取" type="1" param="" item="14020201,14020201,14020101,14020001" count="5,5,1,1"/>
+		<attendance id="2" dec="VIP4可领取" type="2" param="4" item="14020201,14020201,14020101,14020001" count="5,5,1,1"/>
+		<attendance id="3" dec="今日充值任意金额" type="3" param="1" item="14020201,14020201,14020101,14020001" count="5,5,2,2"/>
+	</activity>
+	<activity activity="6" activity_next="11">
+		<attendance id="1" dec="每天登录可领取" type="1" param="" item="14070201,14070201,14070101,14070001" count="5,5,1,1"/>
+		<attendance id="2" dec="VIP4可领取" type="2" param="4" item="14070201,14070201,14070101,14070001" count="5,5,1,1"/>
+		<attendance id="3" dec="今日充值任意金额" type="3" param="1" item="14070201,14070201,14070101,14070001" count="5,5,2,2"/>
+	</activity>
+	<activity activity="7" activity_next="8">
+		<attendance id="1" dec="每天登录可领取" type="1" param="" item="10000016,12040009,10000010,10000006" count="1,1,5,2"/>
+		<attendance id="2" dec="VIP4可领取" type="2" param="4" item="10000016,12040010,10000010,10000006" count="1,1,5,2"/>
+		<attendance id="3" dec="今日充值任意金额" type="3" param="1" item="10000016,12070019,10000010,10000006" count="3,1,10,5"/>
+	</activity>
+	<activity activity="8" activity_next="9">
+		<attendance id="1" dec="每天登录可领取" type="1" param="" item="10000004,10000003,10000015" count="1,2,10" prestige="500"/>
+		<attendance id="2" dec="VIP4可领取" type="2" param="4" item="10000004,10000003,10000015" count="1,5,10" prestige="500"/>
+		<attendance id="3" dec="今日充值任意金额" type="3" param="1" item="10000003,10000004,10000015" count="5,3,20" prestige="2000"/>
+	</activity>
+	<activity activity="9" activity_next="10">
+		<attendance id="1" dec="每天登录可领取" type="1" param="" item="10000012,10000013,10000014,10000007" count="200,200,200,50"/>
+		<attendance id="2" dec="VIP4可领取" type="2" param="4" item="10000012,10000013,10000014,10000007" count="200,200,200,50"/>
+		<attendance id="3" dec="今日充值任意金额" type="3" param="1" item="10000012,10000013,10000014,10000007" count="500,500,500,200"/>
+	</activity>
+	<activity activity="10" activity_next="10">
+		<attendance id="1" dec="每天登录可领取" type="1" param="" item="10000012,10000009,10000014" count="100,10,100" prestige="500"/>
+		<attendance id="2" dec="VIP4可领取" type="2" param="4" item="10000003,10000009,10000007" count="3,10,50" prestige="500"/>
+		<attendance id="3" dec="今日充值任意金额" type="3" param="1" item="10000004,10000009,10000007" count="2,20,200" prestige="2000"/>
+	</activity>
+	<activity activity="11" activity_next="7">
+		<attendance id="1" dec="每天登录可领取" type="1" param="" item="14080201,14080201,14080101,14080001" count="5,5,1,1"/>
+		<attendance id="2" dec="VIP4可领取" type="2" param="4" item="14080201,14080201,14080101,14080001" count="5,5,1,1"/>
+		<attendance id="3" dec="今日充值任意金额" type="3" param="1" item="14080201,14080201,14080101,14080001" count="5,5,2,2"/>
+	</activity>
+</root>

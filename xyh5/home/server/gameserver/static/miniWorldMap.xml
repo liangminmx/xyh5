@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+isprotect	是否有PK保护时间：=1是，=2否	1	scene
+mapid	地图ID
+name	地图名称
+-->
+	<citys>
+	    <item mapid="2000" name="长安城"/>
+		<item mapid="20001" name="东海湾"/>
+		<item mapid="20002" name="建邺城"/>
+		<item mapid="20003" name="长安城"/>
+		<item mapid="20004" name="海底迷宫"/>
+		<item mapid="20005" name="花果山"/>
+		<item mapid="20006" name="傲来国"/>
+		<item mapid="20007" name="地狱迷宫"/>
+		<item mapid="20008" name="福寿村"/>
+		<item mapid="20009" name="凌霄天空"/>
+		<item mapid="20010" name="瑶池"/>
+		<item mapid="20011" name="女娲宫"/>
+		<item mapid="20012" name="无名鬼蜮"/>
+		<item mapid="20013" name="小西天"/>
+		<item mapid="20014" name="蟠桃园"/>
+	</citys>
+</root>

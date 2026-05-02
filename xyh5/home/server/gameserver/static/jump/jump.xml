@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jump>
+  <!--
+power	闪避次数最大值
+recoverTime	恢复1次闪避次数需要消耗的时间，单位秒
+jumpSpeed	跳跃增加的移动速度
+xMax	x轴最大移动范围
+yMax	y轴最大移动范围
+minHeight	最低跳跃高度
+minTime	最小跳跃时间，单位秒
+-->
+  <jumpInfo power="1" recoverTime="10" jumpSpeed="200" xMax="400" yMax="400" minHeight="10" minTime="0.3"/>
+</jump>

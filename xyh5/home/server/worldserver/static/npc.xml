@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+npc标签			
+	id	npc编号	npc全局唯一编号
+	name	名称	npc名
+	style	模型	模型资源编号
+    type	npc类型
+    param	npc类型参数
+	visible	npc性质	 =0私有，=1公有
+	appear	出现条件	1.接受任务 2.完成任务 3.服务器通知（星宿、地煞等）
+	appear_param	出现参数	
+	disappear	消失条件	1.接受任务 2.完成任务 3.被击杀消失 4.生存时间（被击杀也消失）
+	disappear_param	消失参数	
+	miniable	小地图是否显示	默认显示，填-1不显示
+	hideable	是否隐藏	显示总开关
+	title	称号	npc称号名称
+	function_icon	npc头顶功能图标	
+	survival	生存时间单位秒
+talk标签			
+	talk	默认对话	
+popo标签			
+	popo	泡泡对话	泡泡对话内容
+	popo_stay	泡泡停留时间	单位秒
+	popo_interval	泡泡间隔	单位秒
+npcfunction标签			
+	func_id	npc功能编号	编号
+	func_name	npc功能类型名称	功能按钮名称
+	func_type	npc功能逻辑类型	
+	func_param	npc功能参数	
+
+-->
+	<npc id="100001" name="程咬金" style="5001" type="1" param="" visible="1" appear="" appear_param="" disappear="" disappear_param="" miniable="" hideable="" title="大唐官员" function_icon="2001" function_dec="" survival="">
+		<talk talk="半路杀出来！"/>
+		<talk talk="别跑！"/>
+		<popo popo="泡泡泡泡！" popo_stay="5" popo_interval="3"/>
+		<npcfunction func_id="1" func_name="学习技能" func_type="1" func_param=""/>
+	</npc>
+	<npc id="100002" name="大哥" style="5001" type="1" param="" visible="1" appear="" appear_param="" disappear="" disappear_param="" miniable="" hideable="1" title="大唐官员" function_icon="" function_dec="" survival="">
+		<talk talk="半路杀出来！"/>
+		<talk talk="别跑！"/>
+	</npc>
+	<npc id="100003" name="大哥" style="5001" type="1" param="" visible="1" appear="" appear_param="" disappear="" disappear_param="" miniable="-1" hideable="" title="大唐官员" function_icon="" function_dec="" survival="">
+		<talk talk="半路杀出来！"/>
+		<npcfunction func_id="2" func_name="传送至长安城" func_type="2" func_param="5001,10,10,"/>
+	</npc>
+	<npc id="100004" name="大哥" style="5001" type="1" param="" visible="1" appear="" appear_param="" disappear="" disappear_param="" miniable="" hideable="" title="大唐官员" function_icon="" function_dec="" survival="">
+		<talk talk="半路杀出来！"/>
+		<npcfunction func_id="3" func_name="师门任务" func_type="3" func_param="101"/>
+	</npc>
+	<npc id="100005" name="大哥" style="5001" type="1" param="" visible="1" appear="" appear_param="" disappear="" disappear_param="" miniable="" hideable="" title="大唐官员" function_icon="" function_dec="" survival="">
+		<talk talk="半路杀出来！"/>
+		<npcfunction func_id="4" func_name="挑战" func_type="4" func_param="82001001"/>
+	</npc>
+	<npc id="100006" name="大哥" style="5001" type="1" param="" visible="1" appear="" appear_param="" disappear="" disappear_param="" miniable="" hideable="" title="大唐官员" function_icon="" function_dec="" survival="">
+		<talk talk="半路杀出来！"/>
+		<npcfunction func_id="5" func_name="查询" func_type="5" func_param="1001"/>
+	</npc>
+	<npc id="100007" name="大哥" style="5001" type="1" param="" visible="1" appear="" appear_param="" disappear="" disappear_param="" miniable="" hideable="" title="大唐官员" function_icon="" function_dec="" survival="">
+		<talk talk="半路杀出来！"/>
+		<npcfunction func_id="6" func_name="便携组队" func_type="6" func_param="1"/>
+	</npc>
+	<npc id="100008" name="大哥" style="5001" type="1" param="" visible="1" appear="" appear_param="" disappear="" disappear_param="" miniable="" hideable="" title="大唐官员" function_icon="" function_dec="" survival="">
+		<talk talk="半路杀出来！"/>
+		<npcfunction func_id="7" func_name="查询积分" func_type="7" func_param="1"/>
+	</npc>
+	<npc id="100009" name="大哥" style="5001" type="1" param="" visible="1" appear="" appear_param="" disappear="" disappear_param="" miniable="" hideable="" title="大唐官员" function_icon="" function_dec="" survival="">
+		<talk talk="半路杀出来！"/>
+		<npcfunction func_id="8" func_name="查询下次节日" func_type="8" func_param="1"/>
+	</npc>
+	<npc id="100010" name="大哥" style="5001" type="1" param="" visible="1" appear="" appear_param="" disappear="" disappear_param="" miniable="" hideable="" title="大唐官员" function_icon="" function_dec="" survival="">
+		<talk talk="半路杀出来！"/>
+		<npcfunction func_id="9" func_name="领取节日礼物" func_type="9" func_param="10001"/>
+	</npc>
+	<npc id="100011" name="大哥" style="5001" type="1" param="" visible="1" appear="" appear_param="" disappear="" disappear_param="" miniable="" hideable="" title="大唐官员" function_icon="" function_dec="" survival="">
+		<talk talk="半路杀出来！"/>
+		<npcfunction func_id="10" func_name="进入下一级" func_type="10" func_param="1,2,11"/>
+	</npc>
+	<npc id="100012" name="大哥" style="5001" type="1" param="" visible="1" appear="" appear_param="" disappear="" disappear_param="" miniable="" hideable="" title="大唐官员" function_icon="" function_dec="" survival="">
+		<talk talk="半路杀出来！"/>
+		<npcfunction func_id="11" func_name="返回上一级" func_type="11" func_param=""/>
+	</npc>
+	<npc id="100013" name="钟馗天师" style="5001" type="1" param="" visible="1" appear="" appear_param="" disappear="" disappear_param="" miniable="" hideable="" title="大唐官员" function_icon="" function_dec="" survival="">
+		<talk talk="抓鬼了！"/>
+		<npcfunction func_id="1031" func_name="捉鬼任务" func_type="3" func_param=""/>
+	</npc>
+	<npc id="100013" name="战斗npc" style="5001" type="2" param="85001001" appear="1" appear_param="1001001" disappear="2" disappear_param="1001001" miniable="" hideable="" title="大唐官员" function_icon="" function_dec="" survival=""/>
+	<npc id="100014" name="点缀npc" style="5001" type="3" param="" visible="" appear="1" appear_param="1001001" disappear="3" disappear_param="1" miniable="" hideable="" title="大唐官员" function_icon="" function_dec="" survival="120"/>
+	<npc id="100015" name="采集npc" style="5001" type="4" param="2001,4" visible="" appear="" appear_param="" disappear="" disappear_param="" miniable="" hideable="" title="大唐官员" function_icon="" function_dec="" survival=""/>
+	<npc id="100016" name="长安城" style="5001" type="5" param="5001,10,10" visible="1" appear="" appear_param="" disappear="" disappear_param="" miniable="" hideable="" title="大唐官员" function_icon="" function_dec="" survival=""/>
+	<npc id="100017" name="任务榜" style="5001" type="6" param="" visible="1" appear="" appear_param="" disappear="" disappear_param="" miniable="" hideable="" title="大唐官员" function_icon="" function_dec="" survival=""/>
+</root>

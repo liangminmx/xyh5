@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+functionid	功能id			
+type	宝物属性类型，逗号隔开			
+emoneycost	每元宝可找回活跃度			
+groupid	活动id			
+groupname	活动名字			
+facelink	界面id，界面Id可为空，不配置参数			
+exp	完成一次任务可以获得的活跃度			
+activenum	活跃度与经验获得次数上限			
+guidefunctionId	功能开启Id			
+npc	npcId,值索引到maincity.xml中对应的npcid值			
+boxid	活跃度宝箱id			
+boxlimit	领取宝箱活跃度限制			
+awardid	道具id			
+count	道具数量			
+baowuid	宝物id			
+levelnum	解锁激活的活跃度等级			
+icon	宝物图标id			
+name	宝物名字			
+level	宝物等级			
+levup	需要多少经验升级			
+parameter	属性参数，逗号隔开			
+itemid	道具id			
+num	道具数量			
+bindmoney	绑定元宝数量			
+money	银币数量			
+-->
+	<function functionid="2003" type="102,103,101" emoneycost="1"/>
+	<group groupid="1" groupname="登录" facelink="1" exp="20" guideFunctionId="2002" active="20" activenum="1"/>
+	<group groupid="2" groupname="装备熔炼" facelink="BagMeltView" guideFunctionId="2002" exp="20" active="20" activenum="1"/>
+	<group groupid="3" groupname="钟馗捉鬼" facelink="" guideFunctionId="2008" npcId="16" exp="10" active="10" activenum="10"/>
+	<group groupid="4" groupname="平定安邦" facelink="SanBaiView" guideFunctionId="1034" exp="50" active="50" activenum="1"/>
+	<group groupid="5" groupname="帮派BOSS" facelink="GangBossView" guideFunctionId="2042" exp="100" active="100" activenum="1"/>
+	<group groupid="6" groupname="封妖" facelink="" guideFunctionId="2054" exp="50" active="50" activenum="2"/>
+	<group groupid="7" groupname="挑战妖王" facelink="DemonKing" guideFunctionId="2022" exp="100" active="100" activenum="1"/>
+	<group groupid="8" groupname="材料副本" facelink="" guideFunctionId="2009" npcId="6" exp="20" active="20" activenum="3"/>
+	<group groupid="9" groupname="门派闯关" facelink="" guideFunctionId="2017" npcId="7" exp="50" active="50" activenum="1"/>
+	<group groupid="10" groupname="组队副本" facelink="" guideFunctionId="2056" npcId="5" exp="20" active="20" activenum="10"/>
+	<group groupid="11" groupname="挑战地煞" facelink="DiShaView" guideFunctionId="2021" exp="100" active="100" activenum="1"/>
+	<group groupid="12" groupname="三界除魔" facelink="" guideFunctionId="2018" npcId="4" exp="100" active="100" activenum="1"/>
+	<box boxid="1" boxlimit="30">
+		<ward addwardid="10000013" addwardcount="1"/>
+		<ward addwardid="10000013" addwardcount="1"/>
+		<ward addwardid="10000013" addwardcount="1"/>
+		<ward addwardid="10000013" addwardcount="1"/>
+	</box>
+	<box boxid="2" boxlimit="50">
+		<ward addwardid="10000013" addwardcount="1"/>
+		<ward addwardid="10000013" addwardcount="1"/>
+		<ward addwardid="10000013" addwardcount="1"/>
+		<ward addwardid="10000013" addwardcount="1"/>
+	</box>
+	<lev levelnum="0,5" icon="1" name="混沌阎罗"/>
+	<lev levelnum="6,14" icon="1" name="清玉琉璃"/>
+	<lev levelnum="15,23" icon="1" name="清玉琉璃"/>
+	<lev levelnum="24,34" icon="1" name="清玉琉璃"/>
+	<lev levelnum="35,53" icon="1" name="清玉琉璃"/>
+	<lev levelnum="54,78" icon="1" name="清玉琉璃"/>
+	<lev levelnum="79,119" icon="1" name="清玉琉璃"/>
+	<lev levelnum="120,200" icon="1" name="清玉琉璃"/>
+	<item level="1" levup="150" itemid="10000013" num="50" bindmoney="100" money="50000" parameter="50,25,600"/>
+	<item level="2" levup="153" itemid="10000013" num="50" bindmoney="100" money="50000" parameter="100,50,1200"/>
+	<item level="3" levup="156" itemid="10000013" num="50" bindmoney="100" money="50000" parameter="150,75,1800"/>
+	<item level="4" levup="159" itemid="10000013" num="50" bindmoney="100" money="50000" parameter="200,100,2400"/>
+	<item level="5" levup="162" itemid="10000013" num="50" bindmoney="100" money="50000" parameter="250,125,3000"/>
+	<item level="6" levup="165" itemid="10000013" num="50" bindmoney="100" money="50000" parameter="300,150,3600"/>
+	<item level="7" levup="168" itemid="10000013" num="50" bindmoney="100" money="50000" parameter="350,175,4200"/>
+	<item level="8" levup="171" itemid="10000013" num="50" bindmoney="100" money="50000" parameter="400,200,4800"/>
+	<item level="9" levup="174" itemid="10000013" num="50" bindmoney="100" money="50000" parameter="450,225,5400"/>
+	<item level="10" levup="177" itemid="10000013" num="50" bindmoney="100" money="50000" parameter="500,250,6000"/>
+	<item level="11" levup="182" itemid="10000013" num="60" bindmoney="120" money="60000" parameter="550,275,6600"/>
+	<item level="12" levup="187" itemid="10000013" num="60" bindmoney="120" money="60000" parameter="600,300,7200"/>
+	<item level="13" levup="193" itemid="10000013" num="60" bindmoney="120" money="60000" parameter="650,325,7800"/>
+	<item level="14" levup="199" itemid="10000013" num="60" bindmoney="120" money="60000" parameter="700,350,8400"/>
+	<item level="15" levup="205" itemid="10000013" num="60" bindmoney="120" money="60000" parameter="750,375,9000"/>
+	<item level="16" levup="213" itemid="10000013" num="60" bindmoney="120" money="60000" parameter="800,400,9600"/>
+	<item level="17" levup="222" itemid="10000013" num="60" bindmoney="120" money="60000" parameter="850,425,10200"/>
+	<item level="18" levup="231" itemid="10000013" num="60" bindmoney="120" money="60000" parameter="900,450,10800"/>
+	<item level="19" levup="240" itemid="10000013" num="60" bindmoney="120" money="60000" parameter="950,475,11400"/>
+	<item level="20" levup="250" itemid="10000013" num="60" bindmoney="120" money="60000" parameter="1000,500,12000"/>
+	<item level="21" levup="263" itemid="10000013" num="70" bindmoney="140" money="70000" parameter="1050,525,12600"/>
+	<item level="22" levup="276" itemid="10000013" num="70" bindmoney="140" money="70000" parameter="1100,550,13200"/>
+	<item level="23" levup="290" itemid="10000013" num="70" bindmoney="140" money="70000" parameter="1150,575,13800"/>
+	<item level="24" levup="305" itemid="10000013" num="70" bindmoney="140" money="70000" parameter="1200,600,14400"/>
+	<item level="25" levup="310" itemid="10000013" num="70" bindmoney="140" money="70000" parameter="1250,625,15000"/>
+	<item level="26" levup="315" itemid="10000013" num="70" bindmoney="140" money="70000" parameter="1300,650,15600"/>
+	<item level="27" levup="320" itemid="10000013" num="70" bindmoney="140" money="70000" parameter="1350,675,16200"/>
+	<item level="28" levup="325" itemid="10000013" num="70" bindmoney="140" money="70000" parameter="1400,700,16800"/>
+	<item level="29" levup="330" itemid="10000013" num="70" bindmoney="140" money="70000" parameter="1450,725,17400"/>
+	<item level="30" levup="335" itemid="10000013" num="70" bindmoney="140" money="70000" parameter="1500,750,18000"/>
+	<item level="31" levup="340" itemid="10000013" num="80" bindmoney="160" money="80000" parameter="1550,775,18600"/>
+	<item level="32" levup="345" itemid="10000013" num="80" bindmoney="160" money="80000" parameter="1600,800,19200"/>
+	<item level="33" levup="350" itemid="10000013" num="80" bindmoney="160" money="80000" parameter="1650,825,19800"/>
+	<item level="34" levup="355" itemid="10000013" num="80" bindmoney="160" money="80000" parameter="1700,850,20400"/>
+	<item level="35" levup="360" itemid="10000013" num="80" bindmoney="160" money="80000" parameter="1750,875,21000"/>
+	<item level="36" levup="365" itemid="10000013" num="80" bindmoney="160" money="80000" parameter="1800,900,21600"/>
+	<item level="37" levup="370" itemid="10000013" num="80" bindmoney="160" money="80000" parameter="1850,925,22200"/>
+	<item level="38" levup="375" itemid="10000013" num="80" bindmoney="160" money="80000" parameter="1900,950,22800"/>
+	<item level="39" levup="380" itemid="10000013" num="80" bindmoney="160" money="80000" parameter="1950,975,23400"/>
+	<item level="40" levup="385" itemid="10000013" num="80" bindmoney="160" money="80000" parameter="2000,1000,24000"/>
+	<item level="41" levup="390" itemid="10000013" num="90" bindmoney="180" money="90000" parameter="2050,1025,24600"/>
+	<item level="42" levup="395" itemid="10000013" num="90" bindmoney="180" money="90000" parameter="2100,1050,25200"/>
+	<item level="43" levup="400" itemid="10000013" num="90" bindmoney="180" money="90000" parameter="2150,1075,25800"/>
+	<item level="44" levup="405" itemid="10000013" num="90" bindmoney="180" money="90000" parameter="2200,1100,26400"/>
+	<item level="45" levup="410" itemid="10000013" num="90" bindmoney="180" money="90000" parameter="2250,1125,27000"/>
+	<item level="46" levup="415" itemid="10000013" num="90" bindmoney="180" money="90000" parameter="2300,1150,27600"/>
+	<item level="47" levup="420" itemid="10000013" num="90" bindmoney="180" money="90000" parameter="2350,1175,28200"/>
+	<item level="48" levup="425" itemid="10000013" num="90" bindmoney="180" money="90000" parameter="2400,1200,28800"/>
+	<item level="49" levup="430" itemid="10000013" num="90" bindmoney="180" money="90000" parameter="2450,1225,29400"/>
+	<item level="50" levup="435" itemid="10000013" num="90" bindmoney="180" money="90000" parameter="2500,1250,30000"/>
+	<item level="51" levup="440" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="2550,1275,30600"/>
+	<item level="52" levup="445" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="2600,1300,31200"/>
+	<item level="53" levup="450" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="2650,1325,31800"/>
+	<item level="54" levup="455" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="2700,1350,32400"/>
+	<item level="55" levup="460" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="2750,1375,33000"/>
+	<item level="56" levup="465" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="2800,1400,33600"/>
+	<item level="57" levup="470" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="2850,1425,34200"/>
+	<item level="58" levup="475" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="2900,1450,34800"/>
+	<item level="59" levup="480" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="2950,1475,35400"/>
+	<item level="60" levup="485" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="3000,1500,36000"/>
+	<item level="61" levup="490" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="3050,1525,36600"/>
+	<item level="62" levup="495" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="3100,1550,37200"/>
+	<item level="63" levup="500" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="3150,1575,37800"/>
+	<item level="64" levup="505" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="3200,1600,38400"/>
+	<item level="65" levup="510" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="3250,1625,39000"/>
+	<item level="66" levup="515" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="3300,1650,39600"/>
+	<item level="67" levup="520" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="3350,1675,40200"/>
+	<item level="68" levup="525" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="3400,1700,40800"/>
+	<item level="69" levup="530" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="3450,1725,41400"/>
+	<item level="70" levup="535" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="3500,1750,42000"/>
+	<item level="71" levup="540" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="3550,1775,42600"/>
+	<item level="72" levup="545" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="3600,1800,43200"/>
+	<item level="73" levup="550" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="3650,1825,43800"/>
+	<item level="74" levup="555" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="3700,1850,44400"/>
+	<item level="75" levup="560" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="3750,1875,45000"/>
+	<item level="76" levup="565" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="3800,1900,45600"/>
+	<item level="77" levup="570" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="3850,1925,46200"/>
+	<item level="78" levup="575" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="3900,1950,46800"/>
+	<item level="79" levup="580" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="3950,1975,47400"/>
+	<item level="80" levup="585" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="4000,2000,48000"/>
+	<item level="81" levup="590" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="4050,2025,48600"/>
+	<item level="82" levup="595" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="4100,2050,49200"/>
+	<item level="83" levup="600" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="4150,2075,49800"/>
+	<item level="84" levup="605" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="4200,2100,50400"/>
+	<item level="85" levup="610" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="4250,2125,51000"/>
+	<item level="86" levup="615" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="4300,2150,51600"/>
+	<item level="87" levup="620" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="4350,2175,52200"/>
+	<item level="88" levup="625" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="4400,2200,52800"/>
+	<item level="89" levup="630" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="4450,2225,53400"/>
+	<item level="90" levup="635" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="4500,2250,54000"/>
+	<item level="91" levup="640" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="4550,2275,54600"/>
+	<item level="92" levup="645" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="4600,2300,55200"/>
+	<item level="93" levup="650" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="4650,2325,55800"/>
+	<item level="94" levup="655" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="4700,2350,56400"/>
+	<item level="95" levup="660" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="4750,2375,57000"/>
+	<item level="96" levup="665" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="4800,2400,57600"/>
+	<item level="97" levup="670" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="4850,2425,58200"/>
+	<item level="98" levup="675" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="4900,2450,58800"/>
+	<item level="99" levup="680" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="4950,2475,59400"/>
+	<item level="100" levup="690" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="5000,2500,60000"/>
+	<item level="101" levup="700" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="5050,2525,60600"/>
+	<item level="102" levup="710" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="5100,2550,61200"/>
+	<item level="103" levup="720" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="5150,2575,61800"/>
+	<item level="104" levup="730" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="5200,2600,62400"/>
+	<item level="105" levup="740" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="5250,2625,63000"/>
+	<item level="106" levup="750" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="5300,2650,63600"/>
+	<item level="107" levup="760" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="5350,2675,64200"/>
+	<item level="108" levup="770" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="5400,2700,64800"/>
+	<item level="109" levup="780" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="5450,2725,65400"/>
+	<item level="110" levup="790" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="5500,2750,66000"/>
+	<item level="111" levup="800" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="5550,2775,66600"/>
+	<item level="112" levup="810" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="5600,2800,67200"/>
+	<item level="113" levup="820" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="5650,2825,67800"/>
+	<item level="114" levup="830" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="5700,2850,68400"/>
+	<item level="115" levup="840" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="5750,2875,69000"/>
+	<item level="116" levup="850" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="5800,2900,69600"/>
+	<item level="117" levup="860" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="5850,2925,70200"/>
+	<item level="118" levup="870" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="5900,2950,70800"/>
+	<item level="119" levup="880" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="5950,2975,71400"/>
+	<item level="120" levup="890" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="6000,3000,72000"/>
+	<item level="121" levup="900" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="6050,3025,72600"/>
+	<item level="122" levup="910" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="6100,3050,73200"/>
+	<item level="123" levup="920" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="6150,3075,73800"/>
+	<item level="124" levup="930" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="6200,3100,74400"/>
+	<item level="125" levup="940" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="6250,3125,75000"/>
+	<item level="126" levup="950" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="6300,3150,75600"/>
+	<item level="127" levup="960" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="6350,3175,76200"/>
+	<item level="128" levup="970" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="6400,3200,76800"/>
+	<item level="129" levup="980" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="6450,3225,77400"/>
+	<item level="130" levup="990" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="6500,3250,78000"/>
+	<item level="131" levup="1000" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="6550,3275,78600"/>
+	<item level="132" levup="1010" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="6600,3300,79200"/>
+	<item level="133" levup="1020" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="6650,3325,79800"/>
+	<item level="134" levup="1030" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="6700,3350,80400"/>
+	<item level="135" levup="1040" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="6750,3375,81000"/>
+	<item level="136" levup="1050" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="6800,3400,81600"/>
+	<item level="137" levup="1060" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="6850,3425,82200"/>
+	<item level="138" levup="1070" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="6900,3450,82800"/>
+	<item level="139" levup="1080" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="6950,3475,83400"/>
+	<item level="140" levup="1090" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="7000,3500,84000"/>
+	<item level="141" levup="1100" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="7050,3525,84600"/>
+	<item level="142" levup="1110" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="7100,3550,85200"/>
+	<item level="143" levup="1120" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="7150,3575,85800"/>
+	<item level="144" levup="1130" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="7200,3600,86400"/>
+	<item level="145" levup="1140" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="7250,3625,87000"/>
+	<item level="146" levup="1150" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="7300,3650,87600"/>
+	<item level="147" levup="1160" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="7350,3675,88200"/>
+	<item level="148" levup="1170" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="7400,3700,88800"/>
+	<item level="149" levup="1180" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="7450,3725,89400"/>
+	<item level="150" levup="1190" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="7500,3750,90000"/>
+	<item level="151" levup="1200" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="7550,3775,90600"/>
+	<item level="152" levup="1210" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="7600,3800,91200"/>
+	<item level="153" levup="1220" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="7650,3825,91800"/>
+	<item level="154" levup="1230" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="7700,3850,92400"/>
+	<item level="155" levup="1240" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="7750,3875,93000"/>
+	<item level="156" levup="1250" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="7800,3900,93600"/>
+	<item level="157" levup="1260" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="7850,3925,94200"/>
+	<item level="158" levup="1270" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="7900,3950,94800"/>
+	<item level="159" levup="1280" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="7950,3975,95400"/>
+	<item level="160" levup="1290" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="8000,4000,96000"/>
+	<item level="161" levup="1300" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="8050,4025,96600"/>
+	<item level="162" levup="1310" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="8100,4050,97200"/>
+	<item level="163" levup="1320" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="8150,4075,97800"/>
+	<item level="164" levup="1330" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="8200,4100,98400"/>
+	<item level="165" levup="1340" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="8250,4125,99000"/>
+	<item level="166" levup="1350" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="8300,4150,99600"/>
+	<item level="167" levup="1360" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="8350,4175,100200"/>
+	<item level="168" levup="1370" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="8400,4200,100800"/>
+	<item level="169" levup="1380" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="8450,4225,101400"/>
+	<item level="170" levup="1390" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="8500,4250,102000"/>
+	<item level="171" levup="1400" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="8550,4275,102600"/>
+	<item level="172" levup="1410" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="8600,4300,103200"/>
+	<item level="173" levup="1420" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="8650,4325,103800"/>
+	<item level="174" levup="1430" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="8700,4350,104400"/>
+	<item level="175" levup="1440" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="8750,4375,105000"/>
+	<item level="176" levup="1450" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="8800,4400,105600"/>
+	<item level="177" levup="1460" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="8850,4425,106200"/>
+	<item level="178" levup="1470" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="8900,4450,106800"/>
+	<item level="179" levup="1480" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="8950,4475,107400"/>
+	<item level="180" levup="1490" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="9000,4500,108000"/>
+	<item level="181" levup="1500" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="9050,4525,108600"/>
+	<item level="182" levup="1510" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="9100,4550,109200"/>
+	<item level="183" levup="1520" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="9150,4575,109800"/>
+	<item level="184" levup="1530" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="9200,4600,110400"/>
+	<item level="185" levup="1540" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="9250,4625,111000"/>
+	<item level="186" levup="1550" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="9300,4650,111600"/>
+	<item level="187" levup="1560" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="9350,4675,112200"/>
+	<item level="188" levup="1570" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="9400,4700,112800"/>
+	<item level="189" levup="1580" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="9450,4725,113400"/>
+	<item level="190" levup="1590" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="9500,4750,114000"/>
+	<item level="191" levup="1600" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="9550,4775,114600"/>
+	<item level="192" levup="1610" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="9600,4800,115200"/>
+	<item level="193" levup="1620" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="9650,4825,115800"/>
+	<item level="194" levup="1630" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="9700,4850,116400"/>
+	<item level="195" levup="1640" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="9750,4875,117000"/>
+	<item level="196" levup="1650" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="9800,4900,117600"/>
+	<item level="197" levup="1660" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="9850,4925,118200"/>
+	<item level="198" levup="1670" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="9900,4950,118800"/>
+	<item level="199" levup="1680" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="9950,4975,119400"/>
+	<item level="200" levup="1690" itemid="10000013" num="100" bindmoney="200" money="100000" parameter="10000,5000,120000"/>
+</root>

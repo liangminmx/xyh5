@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+functionid	功能id	
+icon    功能图标
+time	登录天数			
+icon    图片id					
+itemid	道具id，逗号隔开			
+num	道具数量，逗号隔开			
+bmoney	绑定元宝数量			
+money    银币数量
+
+
+
+-->
+	<function functionid="2014" icon="2014"/>
+	<time time="1" icon="1" itemid="14010201,14010001" num="30,1" bmoney="1000" money="10000000"/>
+	<time time="2" icon="2" itemid="12070017,14030201" num="1,20" bmoney="2000" money="20000000"/>
+	<time time="3" icon="3" itemid="6000704,14050201" num="1,20" bmoney="2000" money="20000000"/>
+	<time time="4" icon="4" itemid="14050001,14040201" num="5,20" bmoney="2000" money="20000000"/>
+	<time time="5" icon="5" itemid="13010011,14020201" num="1,20" bmoney="2000" money="20000000"/>
+	<time time="6" icon="6" itemid="10000020,10000016" num="1,5" bmoney="2000" money="20000000"/>
+	<time time="7" icon="7" itemid="11041023,10000004" num="80,3" bmoney="2000" money="20000000"/>
+</root>

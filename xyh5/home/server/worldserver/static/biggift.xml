@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+functionId	功能id	1	function
+group	活动组id	1	group
+sortid	排序id	1	group
+activityEntraceIcon	活动图标	1	group
+picture	广告图名称	1	group
+begintime endtime活动开启具体时间及结束时间
+例如：2019/01/01-2019/02/01
+开始时间固定为当日0点
+结束时间固定为配置日23点59分59秒	1	group
+showtime 前端显示活动时间
+price	激活消耗元宝	1	group
+day	天数(按照玩家登陆时间计算,而不是自然日)	2	day
+reward	奖励道具内容
+用,和;隔开
+,前后分别代表奖励的道具id和数量
+;前后分别代表一条单独的道具奖励	2	day
+doubleprice	双倍领取消耗元宝	2	day
+
+	-->
+	<function functionid="6675"/>
+	<group group="1" sortid="1" activityEntraceIcon="6675" picture="" begintime="2019-03-29 00:00:00" endtime="2019-04-01 23:59:59" showtime="2019年03月29日-2019年04月01日" price="12888">
+		<day day="1" reward="16010028,10;10000009,188;16010013,10;10000101,10" doubleprice="5000"/>
+		<day day="2" reward="16010029,10;10000009,188;16010013,10;10000101,10" doubleprice="5000"/>
+		<day day="3" reward="16010038,5;10000009,188;16010013,10;10000101,10" doubleprice="5000"/>
+		<day day="4" reward="16010039,2;10000009,188;16010013,10;10000101,10" doubleprice="8888"/>
+		<day day="5" reward="16010039,5;10000009,188;16010013,10;10000101,10" doubleprice="12888"/>
+	</group>
+	<group group="2" sortid="1" activityEntraceIcon="6675" picture="" begintime="2019-04-05 00:00:00" endtime="2019-04-10 23:59:59" showtime="2019年04月05日-2019年04月10日" price="12888">
+		<day day="1" reward="16010100,20;14010001,5;10000008,1000" doubleprice="1888"/>
+		<day day="2" reward="16010102,20;14030001,5;10000008,1600" doubleprice="3888"/>
+		<day day="3" reward="16010104,20;14050001,5;10000008,2400" doubleprice="5888"/>
+		<day day="4" reward="16010103,20;14040001,5;10000008,3400" doubleprice="8888"/>
+		<day day="5" reward="16010105,20;14020001,5;10000008,4500" doubleprice="12888"/>
+		<day day="6" reward="16010106,20;14070001,5;10000008,6000" doubleprice="18888"/>
+	</group>
+	<group group="3" sortid="1" activityEntraceIcon="6675" picture="" begintime="2019-04-12 00:00:00" endtime="2019-04-14 23:59:59" showtime="2019年04月12日-2019年04月14日" price="12888">
+		<day day="1" reward="16010028,10;10000009,188;16010013,10;10000101,10" doubleprice="5000"/>
+		<day day="2" reward="16010029,10;10000009,188;16010013,10;10000101,10" doubleprice="5000"/>
+		<day day="3" reward="16010038,5;10000009,188;16010013,10;10000101,10" doubleprice="5000"/>
+		<day day="4" reward="16010039,2;10000009,188;16010013,10;10000101,10" doubleprice="8888"/>
+		<day day="5" reward="16010039,5;10000009,188;16010013,10;10000101,10" doubleprice="12888"/>
+	</group>
+	<group group="4" sortid="1" activityEntraceIcon="6675" picture="" begintime="2019-04-26 00:00:00" endtime="2019-04-28 23:59:59" showtime="2019年04月26日-2019年04月28日" price="15888">
+		<day day="1" reward="10000008,2000;10000006,50;16010007,5;16010028,10" doubleprice="5000"/>
+		<day day="2" reward="10000008,2200;10000006,60;16010007,5;16010029,10" doubleprice="5500"/>
+		<day day="3" reward="10000008,2400;10000006,70;16010007,5;16010038,5" doubleprice="6000"/>
+		<day day="4" reward="10000008,2700;10000006,80;16010007,5;16010039,2" doubleprice="10888"/>
+		<day day="5" reward="10000008,3000;10000006,90;16010007,5;16010039,5" doubleprice="15888"/>
+	</group>
+	<group group="5" sortid="1" activityEntraceIcon="6675" picture="" begintime="2019-04-30 00:00:00" endtime="2019-05-05 23:59:59" showtime="2019年04月30日-2019年05月05日" price="12888">
+		<day day="1" reward="10000006,50;10000012,5000;10000013,2500;10000014,2500" doubleprice="5000"/>
+		<day day="2" reward="10000006,60;10000012,6000;10000013,3000;10000014,3000" doubleprice="5500"/>
+		<day day="3" reward="10000006,70;10000012,8000;10000013,4000;10000014,4000" doubleprice="6000"/>
+		<day day="4" reward="10000006,80;10000012,12000;10000013,6000;10000014,6000" doubleprice="8888"/>
+		<day day="5" reward="10000006,90;10000012,20000;10000013,10000;10000014,10000" doubleprice="15888"/>
+	</group>
+	<group group="6" sortid="1" activityEntraceIcon="6675" picture="" begintime="2019-05-10 00:00:00" endtime="2019-05-12 23:59:59" showtime="2019年05月10日-2019年05月12日" price="30888">
+		<day day="1" reward="10000006,50;10000008,2000;16010007,2;16010001,20" doubleprice="8000"/>
+		<day day="2" reward="10000006,60;10000008,3000;16010007,5;16010001,50" doubleprice="12000"/>
+		<day day="3" reward="10000006,70;10000008,5000;16010007,10;16010001,100" doubleprice="18000"/>
+		<day day="4" reward="10000006,80;10000008,8000;16010007,16;16010001,160" doubleprice="28000"/>
+		<day day="5" reward="10000006,90;10000008,12000;16010007,24;16010001,240" doubleprice="40000"/>
+	</group>
+	<group group="7" sortid="1" activityEntraceIcon="6675" picture="" begintime="2019-06-21 00:00:00" endtime="2019-06-23 23:59:59" showtime="2019年06月21日-2019年06月23日" price="15888">
+		<day day="1" reward="10000008,2000;10000006,50;16010007,5;16010028,10" doubleprice="5000"/>
+		<day day="2" reward="10000008,2200;10000006,60;16010007,5;16010029,10" doubleprice="5500"/>
+		<day day="3" reward="10000008,2400;10000006,70;16010007,5;16010038,5" doubleprice="6000"/>
+		<day day="4" reward="10000008,2700;10000006,80;16010007,5;16010039,2" doubleprice="10888"/>
+		<day day="5" reward="10000008,3000;10000006,90;16010007,5;16010039,5" doubleprice="15888"/>
+	</group>
+	<group group="8" sortid="1" activityEntraceIcon="6675" picture="" begintime="2019-07-05 00:00:00" endtime="2019-07-07 23:59:59" showtime="2019年07月05日-2019年07月07日" price="15888">
+		<day day="1" reward="10000008,2000;10000006,50;16010007,5;16010028,10" doubleprice="5000"/>
+		<day day="2" reward="10000008,2200;10000006,60;16010007,5;16010029,10" doubleprice="5500"/>
+		<day day="3" reward="10000008,2400;10000006,70;16010007,5;16010038,5" doubleprice="6000"/>
+		<day day="4" reward="10000008,2700;10000006,80;16010007,5;16010039,2" doubleprice="10888"/>
+		<day day="5" reward="10000008,3000;10000006,90;16010007,5;16010039,5" doubleprice="15888"/>
+	</group>
+		<group group="9" sortid="1" activityEntraceIcon="6675" picture="" begintime="2019-7-19 00:00:00" endtime="2019-07-21 23:59:59" showtime="2019年07月19日-2019年07月21日" price="30888">
+		<day day="1" reward="10000006,50;10000008,2000;16010007,2;16010001,20" doubleprice="8000"/>
+		<day day="2" reward="10000006,60;10000008,3000;16010007,5;16010001,50" doubleprice="12000"/>
+		<day day="3" reward="10000006,70;10000008,5000;16010007,10;16010001,100" doubleprice="18000"/>
+		<day day="4" reward="10000006,80;10000008,8000;16010007,16;16010001,160" doubleprice="28000"/>
+		<day day="5" reward="10000006,90;10000008,12000;16010007,24;16010001,240" doubleprice="40000"/>
+	</group>
+		<group group="10" sortid="1" activityEntraceIcon="6675" picture="" begintime="2019-08-02 00:00:00" endtime="2019-08-04 23:59:59" showtime="2019年08月02日-2019年08月04日" price="15888">
+		<day day="1" reward="10000008,2000;10000006,50;16010007,5;16010028,10" doubleprice="5000"/>
+		<day day="2" reward="10000008,2200;10000006,60;16010007,5;16010029,10" doubleprice="5500"/>
+		<day day="3" reward="10000008,2400;10000006,70;16010007,5;16010038,5" doubleprice="6000"/>
+		<day day="4" reward="10000008,2700;10000006,80;16010007,5;16010039,2" doubleprice="10888"/>
+		<day day="5" reward="10000008,3000;10000006,90;16010007,5;16010039,5" doubleprice="15888"/>
+	</group>
+</root>

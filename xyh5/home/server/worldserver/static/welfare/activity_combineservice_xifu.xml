@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!--
+servernum	是否合服 =0为新服，=1为首次合服，=2为二次合服……，=-1表示当找不对对应合服状态时使用的配置
+isopen	表示活动是否需要开启，=1开启，=0不开启
+endday	表示该活动持续时间，当到达活动时间 后该活动消失
+例：=7，时间到达第7天的23:59后活动结束
+type	表示奖励的档次
+type=1表示族长奖励
+type=2表示非族长的奖励
+money	获取奖励时，给予的银两数量
+emoeny2	获取奖励时，给予的礼金数量
+item	表示道具id
+num	给予的道具数量
+bind	表示道具是否绑定
+=1 绑定
+=0 不绑定
+-->
+	<activity servernum="0" isopen="0" endday="7">
+		<reward type="1" emoney2="88888">
+			<item item="108064" num="1" bind="1"/>
+			<item item="109002" num="50" bind="1"/>
+		</reward>
+		<reward type="2" emoney2="8888">
+			<item item="108090" num="1" bind="1"/>
+			<item item="109002" num="10" bind="1"/>
+		</reward>
+	</activity>
+	<activity servernum="1" isopen="1" endday="7">
+		<reward type="1" emoney2="88888">
+			<item item="108064" num="1" bind="1"/>
+			<item item="109002" num="50" bind="1"/>
+		</reward>
+		<reward type="2" emoney2="8888">
+			<item item="108090" num="1" bind="1"/>
+			<item item="109002" num="10" bind="1"/>
+		</reward>
+	</activity>
+	<activity servernum="-1" isopen="1" endday="7">
+		<reward type="1" emoney2="88888">
+			<item item="108064" num="1" bind="1"/>
+			<item item="109002" num="50" bind="1"/>
+		</reward>
+		<reward type="2" emoney2="8888">
+			<item item="108090" num="1" bind="1"/>
+			<item item="109002" num="10" bind="1"/>
+		</reward>
+	</activity>
+</root>

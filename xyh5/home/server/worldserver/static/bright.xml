@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+functionId	功能开启	1	function
+group	活动组别	1	group
+pf 平台PF值，默认为-1
+=-1，所有平台都开启该活动
+=指定值，只在指定的平台开启活动
+可配置多个，用逗号隔开 group
+groupId 活动Id 1	group
+activityOpen	活动开启时间,配置格式
+2019-03-20 00:00:00	1	group
+activityEnds	活动结束时间,配置格式
+2019-03-20 23:59:59	1	group
+id	灵宠副本关数	2	round
+battleid	战斗阵容id，怪物id均用该字段（目前boss的id均等于对应的阵容id）
+
+战斗时，需要读取zhenrong.xml表下battleid对应的zhenrong信息
+
+该层怪物的avatar以及怪物名称，读取monster.xml（后调整为newmonster）表下battleid对应的monster对应的avatar和name字段	2	round
+bosspara	boss属性系数，万分比，boss属性等于活动开始后玩家首次进入游戏时主角属性*bosspara/10000	2	round
+monsterpara	小怪属性系数，万分比，小怪属性等于活动开始后玩家首次进入游戏时主角属性*monsterpara/10000	2	round
+lvpara	等级系数,数值,可配置负数,怪物等级等于活动开始后玩家首次进入游戏时主角等级+lvpara	2	round
+extraItem	特殊奖励道具id，每一关需要配且只能配置一个特殊奖励	2	round
+extranum	特殊奖励道具数量，与extrarewardItem一一对应，每一关需要配且只能配置一个特殊奖励	2	round
+rewardItem	基础奖励道具id	3	reward
+rewardnum	基础奖励道具数量	3	reward
+prizeitem	最终大奖奖励道具id	2	prize
+prizenum	最终大奖奖励道具数量	2	prize
+dec	最终大奖描述	2	prize
+activityEntraceIcon 活动icon
+
+
+-->
+	<function function="6695" >
+		<group groupId="1" pf="-1" activityOpen="2019-05-19 00:00:00" activityEnds="2019-05-27 00:00:00" prizeitem="12000037" prizenum="1" dec="" activityEntraceIcon="6695">
+			<round id="1" battleid="151001001" bosspara="6000" monsterpara="3600" lvpara="0" extraItem="12000237" extranum="1" rewardItem="10000016,60000001" rewardnum="5,500"/>
+			<round id="2" battleid="151002001" bosspara="7000" monsterpara="4200" lvpara="0" extraItem="12000237" extranum="1" rewardItem="10000016,60000001" rewardnum="10,1000"/>
+			<round id="3" battleid="151003001" bosspara="8000" monsterpara="4800" lvpara="0" extraItem="12000237" extranum="2" rewardItem="10000016,60000001" rewardnum="15,1500"/>
+			<round id="4" battleid="151004001" bosspara="9000" monsterpara="5400" lvpara="0" extraItem="12000237" extranum="2" rewardItem="10000016,60000001" rewardnum="24,2000"/>
+			<round id="5" battleid="151005001" bosspara="10000" monsterpara="6000" lvpara="0" extraItem="12000237" extranum="3" rewardItem="10000016,60000001" rewardnum="36,3000"/>
+			<round id="6" battleid="151006001" bosspara="11000" monsterpara="6600" lvpara="0" extraItem="12000237" extranum="3" rewardItem="10000016,60000001" rewardnum="55,4000"/>
+			<round id="7" battleid="151007001" bosspara="12000" monsterpara="7200" lvpara="0" extraItem="12000237" extranum="4" rewardItem="10000016,60000001" rewardnum="80,5000"/>
+			<round id="8" battleid="151008001" bosspara="13000" monsterpara="7800" lvpara="0" extraItem="12000237" extranum="4" rewardItem="10000016,60000001" rewardnum="110,7000"/>
+			<round id="9" battleid="151009001" bosspara="14000" monsterpara="8400" lvpara="0" extraItem="12000237" extranum="5" rewardItem="10000016,60000001" rewardnum="150,9000"/>
+			<round id="10" battleid="151010001" bosspara="15000" monsterpara="9000" lvpara="0" extraItem="12000237" extranum="5" rewardItem="10000016,60000001" rewardnum="200,12000"/>
+		</group>
+	</function>
+</root>

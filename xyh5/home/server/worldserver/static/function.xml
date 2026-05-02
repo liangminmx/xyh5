@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+
+functionid	功能id
+id	编号（策划查看）	
+name	功能名字	
+guideid	引导id，默认为空无引导	
+need	"开启条件=1 等级=2 接受任务=3 完成任务=0 创角默认开启 =4 帮派等级达到一定级别开启 5=开服天数"	
+num	"需求值=0时 不填=1时 具体数值=2，3时 任务ID 4时 帮派等级 5=开服天数"	
+type	"需求值=1时 无论功能是否开启，都显示图标=2时 功能开启时才显示图标=3时 功能未开启时显示图标，但是无法点击"
+doubleType "为空就默认等级开启天，2=帮会等级及开服天数"
+	
+
+
+
+
+	-->
+	<function functionid="1019" id="1" name="挂机" guideid="" need="1" num="15" type="1"/>
+	<function functionid="1020" id="2" name="师门" guideid="" need="1" num="65" type="2"/>
+	<function functionid="1021" id="3" name="师门引导" guideid="" need="1" num="15" type="2"/>
+	<function functionid="1022" id="4" name="跑环" guideid="" need="1" num="70" type="2"/>
+	<function functionid="1023" id="5" name="跑环引导" guideid="" need="3" num="1050060" type="2"/>
+	<function functionid="1033" id="6" name="西游护送" guideid="" need="1" num="70" type="1"/>
+	<function functionid="1034" id="7" name="平定安邦" guideid="" need="1" num="45" type="1"/>
+	<function functionid="1041" id="8" name="角色技能" guideid="" need="1" num="1" type="1"/>
+	<function functionid="1052" id="9" name="帮派技能" guideid="" need="4" num="2" type="1"/>
+	<function functionid="2002" id="10" name="邮件" guideid="" need="1" num="1" type="2"/>
+	<function functionid="2003" id="11" name="活跃度" guideid="" need="1" num="48" type="2"/>
+	<function functionid="2004" id="12" name="商店" guideid="" need="1" num="1" type="1"/>
+	<function functionid="2005" id="13" name="伙伴招募" guideid="" need="1" num="36" type="1"/>
+	<function functionid="2006" id="14" name="活动大厅" guideid="" need="1" num="55" type="1"/>
+	<function functionid="2007" id="15" name="潜能丹" guideid="" need="1" num="1" type="2"/>
+	<function functionid="2008" id="16" name="抓鬼" guideid="" need="1" num="67" type="1"/>
+	<function functionid="2009" id="17" name="材料副本" guideid="" need="1" num="49" type="1"/>
+	<function functionid="2010" id="18" name="进阶日" guideid="" need="1" num="28" type="2"/>
+	<function functionid="2011" id="19" name="成长基金" guideid="" need="1" num="25" type="2"/>
+	<function functionid="2012" id="20" name="投资计划" guideid="" need="1" num="25" type="2"/>
+	<function functionid="2013" id="21" name="修炼" guideid="" need="4,5" num="1,2" type="1" doubleType="2"/>
+	<function functionid="2014" id="22" name="七日登录" guideid="" need="1" num="20" type="2"/>
+	<function functionid="2015" id="23" name="进阶排行" guideid="" need="1" num="28" type="2"/>
+	<function functionid="2016" id="24" name="时装锦衣" guideid="" need="1" num="1" type="1"/>
+	<function functionid="2017" id="25" name="门派闯关" guideid="" need="1" num="63" type="1"/>
+	<function functionid="2018" id="26" name="三界除魔" guideid="" need="1" num="65" type="1"/>
+	<function functionid="2019" id="27" name="红包" guideid="" need="1" num="25" type="2"/>
+	<function functionid="2020" id="28" name="图鉴" guideid="" need="1" num="1" type="1"/>
+	<function functionid="2021" id="29" name="地煞" guideid="" need="1" num="75" type="1"/>
+	<function functionid="2022" id="30" name="妖王" guideid="" need="1" num="70" type="1"/>
+	<function functionid="2023" id="31" name="西游福利" guideid="" need="1" num="80" type="2"/>
+	<function functionid="2025" id="32" name="称号" guideid="" need="1" num="1" type="1"/>
+	<function functionid="2026" id="33" name="直升一阶" guideid="" need="1" num="28" type="2"/>
+	<function functionid="2027" id="34" name="激活码" guideid="" need="1" num="25" type="2"/>
+	<function functionid="2028" id="35" name="系统设置" guideid="" need="1" num="1" type="1"/>
+	<function functionid="2029" id="36" name="主城功能" guideid="" need="1" num="15" type="1"/>
+	<function functionid="2030" id="37" name="全民冲级" guideid="" need="1" num="25" type="2"/>
+	<function functionid="2031" id="38" name="全民进阶" guideid="" need="1" num="25" type="2"/>
+	<function functionid="2032" id="39" name="首充团购" guideid="" need="1" num="28" type="2"/>
+	<function functionid="2033" id="40" name="首充" guideid="" need="1" num="1" type="2"/>
+	<function functionid="2034" id="41" name="每日首充" guideid="" need="1" num="1" type="2"/>
+	<function functionid="2035" id="42" name="签到奖励" guideid="" need="1" num="25" type="2"/>
+	<function functionid="2036" id="43" name="每日折扣" guideid="" need="1" num="28" type="2"/>
+	<function functionid="2037" id="44" name="每日充值累计" guideid="" need="1" num="28" type="2"/>
+	<function functionid="2041" id="45" name="帮派功能" guideid="" need="1" num="50" type="1"/>
+	<function functionid="2042" id="46" name="帮派boss" guideid="" need="4" num="3" type="1"/>
+	<function functionid="2043" id="47" name="月卡" guideid="" need="1" num="25" type="2"/>
+	<function functionid="2044" id="48" name="周卡" guideid="" need="1" num="25" type="2"/>
+	<function functionid="2045" id="49" name="boss挑战" guideid="" need="1" num="65" type="2"/>
+	<function functionid="2046" id="50" name="科举" guideid="" need="1" num="60" type="1"/>
+	<function functionid="2047" id="51" name="诗中仙" guideid="" need="1" num="60" type="1"/>
+	<function functionid="2048" id="52" name="战力翻倍" guideid="" need="1" num="1" type="2"/>
+	<function functionid="2049" id="53" name="生死劫" guideid="" need="1" num="73" type="1"/>
+	<function functionid="2050" id="54" name="排行榜" guideid="" need="1" num="60" type="2"/>
+	<function functionid="2051" id="55" name="好友" guideid="" need="1" num="1" type="2"/>
+	<function functionid="2052" id="56" name="幸运转盘" guideid="" need="1" num="52" type="2"/>
+	<function functionid="2053" id="57" name="神宠娃娃机" guideid="" need="1" num="53" type="2"/>
+	<function functionid="2054" id="58" name="封妖" guideid="" need="1" num="45" type="1"/>
+	<function functionid="2055" id="59" name="华山论剑" guideid="" need="1" num="57" type="1"/>
+	<function functionid="2056" id="60" name="组队副本" guideid="" need="1" num="75" type="1"/>
+	<function functionid="2057" id="61" name="雁塔地宫" guideid="" need="1" num="90" type="1"/>
+	<function functionid="2058" id="62" name="VIP免费送" guideid="" need="1" num="1" type="2"/>
+	<function functionid="2059" id="63" name="日常" guideid="" need="1" num="15" type="1"/>
+	<function functionid="2060" id="64" name="限时抢购" guideid="" need="1" num="25" type="2"/>
+	<function functionid="2061" id="65" name="装备套装" guideid="" need="1" num="1" type="1"/>
+	<function functionid="2062" id="66" name="三倍首充" guideid="" need="1" num="1" type="1"/>
+	<function functionid="2063" id="67" name="门派闯关领元宝" guideid="" need="1" num="25" type="1"/>
+	<function functionid="2064" id="68" name="战力达标领元宝" guideid="" need="1" num="25" type="1"/>
+	<function functionid="2065" id="69" name="送百万元宝" guideid="" need="1" num="25" type="1"/>
+	<function functionid="2066" id="70" name="终身卡" guideid="" need="1" num="25" type="1"/>
+	<function functionid="2067" id="71" name="刑天幻影" guideid="" need="1" num="80" type="1"/>
+	<function functionid="2068" id="72" name="比武大会" guideid="" need="1" num="75" type="1"/>
+	<function functionid="2069" id="73" name="自动推图功能" guideid="" need="3" num="1020150" type="2"/>
+	<function functionid="2070" id="74" name="招财猫" guideid="" need="1,5" num="70,2" type="1"/>
+	<function functionid="2072" id="75" name="充值返利" guideid="" need="1" num="1" type="1"/>
+	<function functionid="2073" id="76" name="消费返利" guideid="" need="1" num="1" type="1"/>
+	<function functionid="2074" id="77" name="伙伴推荐" guideid="" need="1" num="1" type="1"/>
+	<function functionid="2100" id="78" name="跨服帮战" guideid="" need="4" num="3" type="1"/>
+	<function functionid="2101" id="79" name="宝图任务" guideid="" need="1" num="300" type="1"/>
+	<function functionid="2102" id="107" name="图鉴" guideid="" need="1,5" num="87,4" type="1"/>
+	<function functionid="2333" id="80" name="抓宠" guideid="" need="1" num="10" type="2"/>
+	<function functionid="2336" id="81" name="符石系统" guideid="" need="1" num="85" type="1"/>
+	<function functionid="2337" id="112" name="合成系统" guideid="" need="1" num="1" type="1"/>
+	<function functionid="3001" id="82" name="伙伴激活" guideid="" need="1" num="1" type="1"/>
+	<function functionid="3002" id="83" name="伙伴突破" guideid="" need="1" num="53" type="1"/>
+	<function functionid="3003" id="84" name="伙伴重生" guideid="" need="1" num="30" type="1"/>
+	<function functionid="3004" id="85" name="伙伴分解" guideid="" need="1" num="30" type="1"/>
+	<function functionid="4001" id="86" name="装备强化" guideid="" need="1" num="1" type="1"/>
+	<function functionid="4002" id="87" name="装备精炼" guideid="" need="1" num="1" type="1"/>
+	<function functionid="4003" id="88" name="装备锻炼" guideid="" need="1" num="1" type="1"/>
+	<function functionid="4004" id="89" name="装备宝石" guideid="" need="1" num="1" type="1"/>
+	<function functionid="4005" id="90" name="剧情推图" guideid="" need="1" num="20" type="1"/>
+	<function functionid="4006" id="91" name="坐骑升阶" guideid="" need="1" num="1" type="1"/>
+	<function functionid="4007" id="92" name="神兵升阶" guideid="" need="1" num="1" type="1"/>
+	<function functionid="4008" id="93" name="翅膀升阶" guideid="" need="1" num="72" type="1"/>
+	<function functionid="4009" id="94" name="阵法升阶" guideid="" need="1,5" num="82,4" type="1"/>
+	<function functionid="4010" id="95" name="法宝升阶" guideid="" need="1,5" num="77,3" type="1"/>
+	<function functionid="4011" id="96" name="变身升阶" guideid="" need="1,5" num="85,5" type="1"/>
+	<function functionid="4012" id="97" name="仙位升阶" guideid="" need="1,5" num="88,6" type="1"/>
+	<function functionid="4013" id="98" name="灵骑升阶" guideid="" need="1,5" num="90,7" type="1"/>
+	<function functionid="5001" id="99" name="宠物" guideid="" need="1" num="1" type="1"/>
+	<function functionid="6001" id="100" name="平台vip特权礼包" guideid="" need="1" num="1" type="1"/>
+	<function functionid="6002" id="101" name="平台渠道跳转" guideid="" need="1" num="1" type="1"/>
+	<function functionid="6666" id="102" name="引导" guideid="" need="1" num="25" type="2"/>
+	<function functionid="6667" id="103" name="活动开启提示" guideid="" need="1" num="1" type="1"/>
+	<function functionid="6668" id="104" name="官职" guideid="" need="1,5" num="85,3" type="1"/>
+	<function functionid="6669" id="105" name="寻星" guideid="" need="1,5" num="87,5" type="2"/>
+	<function functionid="6670" id="106" name="星盘" guideid="" need="1,5" num="87,5" type="1"/>
+	<function functionid="6671" id="107" name="最强投票" guideid="" need="1,5" num="70,7" type="2"/>
+	<function functionid="6673" id="108" name="登陆大礼" guideid="" need="1,5" num="70,7" type="2"/>
+	<function functionid="6672" id="109" name="乐透抽奖" guideid="" need="1,5" num="70,7" type="2"/>
+	<function functionid="6674" id="111" name="活动翻倍" guideid="" need="1,5" num="70,7" type="2"/>
+	<function functionid="6675" id="112" name="超值豪礼" guideid="" need="1,5" num="1,7" type="2"/>
+	<function functionid="6676" id="110" name="0元购" guideid="" need="1,5" num="1,2" type="2"/>
+	<function functionid="6678" id="113" name="单笔充值" guideid="" need="1,5" num="1,7" type="2"/>
+	<function functionid="6677" id="114" name="折上折" guideid="" need="5" num="7" type="2"/>
+	<function functionid="6679" id="115" name="我要变强" guideid="" need="1" num="60" type="2"/>
+	<function functionid="6682" id="116" name="节日消费" guideid="" need="1,5" num="1,7" type="2"/>
+	<function functionid="6681" id="117" name="节日累充" guideid="" need="1,5" num="1,7" type="2"/>
+	<function functionid="6684" id="118" name="蟠桃宴" guideid="" need="1" num="75" type="2"/>
+	<function functionid="6680" id="119" name="累充返利" guideid="" need="1" num="1" type="2"/>
+	<function functionid="6683" id="120" name="节日转盘" guideid="" need="1" num="1" type="2"/>
+	<function functionid="6690" id="121" name="结义" guideid="" need="1,5" num="90,6" type="2"/>
+	<function functionid="6691" id="122" name="终身卡" guideid="" need="1" num="25" type="2"/>
+	<function functionid="6685" id="123" name="结婚" guideid="" need="1,5" num="70,5" type="1"/>
+	<function functionid="6694" id="124" name="雁塔地宫补偿" guideid="" need="6" num="1556035200" type="2"/>
+	<function functionid="6693" id="125" name="独上凌霄" guideid="" need="1" num="1" type="2"/>
+	<function functionid="6695" id="127" name="灵宠副本" guideid="" need="1" num="1" type="2"/>
+	<function functionid="6689" id="129" name="灵宠乐园" guideid="" need="1" num="20" type="2"/>
+	<function functionid="6686" id="127" name="神秘商店" guideid="" need="1" num="70" type="2"/>
+	<function functionid="6692" id="128" name="节日幸运转盘" guideid="" need="1,5" num="70,7" type="2"/>
+	<function functionid="6696" id="130" name="至尊副本" guideid="" need="1" num="49" type="2"/>
+
+	<function functionid="6699" id="132" name="功能目标" guideid="" need="1" num="1" type="2"/>
+	<function functionid="2075" id="133" name="回馈礼包" guideid="" need="1" num="35" type="2"/>
+	<function functionid="6687" id="134" name="神宠转盘" guideid="" need="1,5" num="97,5" type="2"/>	
+	<yugao ygid="1" level="36" avtar="avatar/entity/body/200002" icon="yg_huoban" pos="0,0"/>
+	<yugao ygid="2" level="72" avtar="avatar/entity/wing/100010_0" icon="yg_yuyi" pos="-10,50"/>
+	<yugao ygid="3" level="77" avtar="avatar/entity/fabao/100050" icon="yg_fabao" pos="0,-60"/>
+	<yugao ygid="4" level="82" avtar="avatar/entity/zhenfa/100020" icon="yg_fazhen" pos="0,-20"/>
+	<yugao ygid="5" level="85" avtar="avatar/entity/body/200028" icon="yg_bianshen" pos="0,0"/>
+	<yugao ygid="6" level="88" avtar="avatar/entity/xianwei/100020" icon="yg_xianjie" pos="10,150"/>
+</root>

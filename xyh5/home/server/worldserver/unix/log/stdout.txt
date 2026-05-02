@@ -1,0 +1,34 @@
+2020-03-25 00:41:32 key_t:10572, shmid: 262148
+2020-03-25 00:41:32 the gameserver binder IP:127.0.0.1, port:8004
+2020-03-25 00:41:32 database[0] asyn connection over
+2020-03-25 00:41:32 database[0] syn connection over
+2020-03-25 00:41:32 load server_cross.xml
+2020-03-25 00:41:32 load competition.xml
+2020-03-25 00:41:32 server start over
+2020-03-25 00:54:02 database[0] syn re-connection over
+2020-03-25 00:54:02 database[0] asyn re-connection over
+2020-03-25 00:55:37 key_t:2336, shmid: 98307
+2020-03-25 00:55:37 the gameserver binder IP:127.0.0.1, port:8004
+2020-03-25 00:55:37 database[0] asyn connection over
+2020-03-25 00:55:37 database[0] syn connection over
+2020-03-25 00:55:37 load server_cross.xml
+2020-03-25 00:55:37 load competition.xml
+2020-03-25 00:55:37 server start over
+2020-03-25 01:14:49 key_t:2656, shmid: 294920
+2020-03-25 01:16:47 m_evTimers is not unreg clearly! remain count:3
+2020-03-25 01:17:07 key_t:2796, shmid: 458756
+2020-03-25 01:17:07 the gameserver binder IP:127.0.0.1, port:8004
+2020-03-25 01:17:07 database[0] asyn connection over
+2020-03-25 01:17:07 database[0] syn connection over
+2020-03-25 01:17:07 load server_cross.xml
+2020-03-25 01:17:07 load competition.xml
+2020-03-25 01:17:07 server start over
+2020-03-25 18:42:28 m_evTimers is not unreg clearly! remain count:3
+2020-03-25 18:43:00 key_t:32282, shmid: 622597
+2020-03-25 18:43:00 the gameserver binder IP:127.0.0.1, port:8004
+2020-03-25 18:43:00 database[0] asyn connection over
+2020-03-25 18:43:00 database[0] syn connection over
+2020-03-25 18:43:00 load server_cross.xml
+2020-03-25 18:43:00 load competition.xml
+2020-03-25 18:43:00 server start over
+2020-03-25 22:22:02 key_t:37386, shmid: 786447

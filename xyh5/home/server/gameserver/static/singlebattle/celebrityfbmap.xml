@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+fbId	副本ID
+mapId  地图ID
+fbName	副本名称
+monsterId  怪物ID
+position 怪物坐标，用逗号隔开横纵坐标
+isWin	表示是否只有在胜利的时候才会消耗副本次数
+=1	是，只有胜利才算使用过副本
+=0	否，只要进入副本就算使用过副本
+maxChance	最大可进入副本的次数，=不填，表示没有限制
+maxPerson	最大可进入副本的玩家人数，=不填，表示没有限制
+maxHelp  最大援助次数
+keepTime	副本持续时间，单位秒，=0表示没有时间限制
+exp	通关固定获得的经验奖励
+money	通关固定获得的银两奖励
+skillPoint	通关固定获得的真气奖励
+itemid	通关固定获得的道具ID
+num	奖励道具数量
+bind	道具是否绑定，=1绑定，=0不绑定
+-->
+<CelebrityFBMap>
+	<mail mailid="14" overloadmail="43"/>
+	<reload renovate="1" renovategold="0"/>
+	<reload renovate="2" renovategold="100"/>
+	<reload renovate="3" renovategold="150"/>
+	<reload renovate="4" renovategold="200"/>
+	<reload renovate="5" renovategold="300"/>
+	<celebrityFB renovate="1" maxHelp="1" maxhelpo="2" vipneed="3"/>
+	<floor rewardid="1" fbId="5">
+		<floorin itemid="105201" num="10" bind="1"/>
+	</floor>
+	<floor rewardid="2" fbId="10">
+		<floorin itemid="105201" num="10" bind="1"/>
+	</floor>
+	<floor rewardid="3" fbId="15">
+		<floorin itemid="105201" num="15" bind="1"/>
+		<floorin itemid="105205" num="5" bind="1"/>
+	</floor>
+	<floor rewardid="4" fbId="20">
+		<floorin itemid="105201" num="15" bind="1"/>
+		<floorin itemid="105205" num="5" bind="1"/>
+	</floor>
+	<floor rewardid="5" fbId="25">
+		<floorin itemid="105201" num="20" bind="1"/>
+		<floorin itemid="105205" num="8" bind="1"/>
+	</floor>
+	<floor rewardid="6" fbId="30">
+		<floorin itemid="105201" num="20" bind="1"/>
+		<floorin itemid="105205" num="8" bind="1"/>
+	</floor>
+	<floor rewardid="7" fbId="35">
+		<floorin itemid="105201" num="25" bind="1"/>
+		<floorin itemid="105205" num="10" bind="1"/>
+	</floor>
+	<floor rewardid="8" fbId="40">
+		<floorin itemid="105201" num="25" bind="1"/>
+		<floorin itemid="105205" num="10" bind="1"/>
+	</floor>
+	<floor rewardid="10" fbId="45">
+		<floorin itemid="105201" num="30" bind="1"/>
+		<floorin itemid="105205" num="15" bind="1"/>
+	</floor>
+	<floor rewardid="11" fbId="50">
+		<floorin itemid="105201" num="50" bind="1"/>
+		<floorin itemid="105205" num="20" bind="1"/>
+	</floor>
+	<floor rewardid="12" fbId="55">
+		<floorin itemid="105201" num="70" bind="1"/>
+		<floorin itemid="105205" num="25" bind="1"/>
+	</floor>
+	<floor rewardid="13" fbId="60">
+		<floorin itemid="105201" num="90" bind="1"/>
+		<floorin itemid="105205" num="30" bind="1"/>
+	</floor>
+	<FB fbId="1" mapId="6002" fbName="铁木占" monsterId="301001" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="500000" money="150000" skillPoint="6000"/>
+	</FB>
+	<FB fbId="2" mapId="6002" fbName="银芒" monsterId="301002" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="81600" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="530000" money="166000" skillPoint="6400"/>
+	</FB>
+	<FB fbId="3" mapId="6002" fbName="水犀王" monsterId="301003" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="94800" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="560000" money="182000" skillPoint="6800"/>
+	</FB>
+	<FB fbId="4" mapId="6002" fbName="梓鵠" monsterId="301004" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="115200" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="590000" money="198000" skillPoint="7200"/>
+	</FB>
+	<FB fbId="5" mapId="6002" fbName="洞子启" monsterId="301005" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="136800" isWin="1" maxPerson="2" keepTime="120" overload="1" recordtime="90">
+		<normalClean exp="620000" money="214000" skillPoint="7600"/>
+		<overloadreward overloaditem="109065" itemnum="1" bind="1"/>
+	</FB>
+	<FB fbId="6" mapId="6002" fbName="孛子善" monsterId="301006" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="159600" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="650000" money="230000" skillPoint="8000"/>
+	</FB>
+	<FB fbId="7" mapId="6002" fbName="饮血问剑" monsterId="301007" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="182400" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="680000" money="246000" skillPoint="8400"/>
+	</FB>
+	<FB fbId="8" mapId="6002" fbName="少炎农" monsterId="301008" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="206400" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="710000" money="262000" skillPoint="8800"/>
+	</FB>
+	<FB fbId="9" mapId="6002" fbName="相柳方" monsterId="301009" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="231600" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="740000" money="278000" skillPoint="9200"/>
+	</FB>
+	<FB fbId="10" mapId="6002" fbName="巫隋仙人" monsterId="301010" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="256800" isWin="1" maxPerson="2" keepTime="120" overload="1" recordtime="90">
+		<normalClean exp="770000" money="294000" skillPoint="9600"/>
+		<overloadreward overloaditem="109066" itemnum="1" bind="1"/>
+	</FB>
+	<FB fbId="11" mapId="6002" fbName="多禾仙人" monsterId="301011" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="283200" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="820000" money="314000" skillPoint="10080"/>
+	</FB>
+	<FB fbId="12" mapId="6002" fbName="殿才仙人" monsterId="301012" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="309600" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="870000" money="334000" skillPoint="10560"/>
+	</FB>
+	<FB fbId="13" mapId="6002" fbName="枯草仙子" monsterId="301013" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="337200" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="920000" money="354000" skillPoint="11040"/>
+	</FB>
+	<FB fbId="14" mapId="6002" fbName="金乌仙人" monsterId="301014" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="366000" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="970000" money="374000" skillPoint="11520"/>
+	</FB>
+	<FB fbId="15" mapId="6002" fbName="吕洞宾" monsterId="301015" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="396000" isWin="1" maxPerson="2" keepTime="120" overload="1" recordtime="90">
+		<normalClean exp="1020000" money="394000" skillPoint="12000"/>
+		<overloadreward overloaditem="109067" itemnum="1" bind="1"/>
+	</FB>
+	<FB fbId="16" mapId="6002" fbName="苍梧鹫" monsterId="301016" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="426000" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="1070000" money="414000" skillPoint="12480"/>
+	</FB>
+	<FB fbId="17" mapId="6002" fbName="夏芒紫山" monsterId="301017" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="481200" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="1120000" money="434000" skillPoint="12960"/>
+	</FB>
+	<FB fbId="18" mapId="6002" fbName="妖魔王" monsterId="301018" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="537600" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="1170000" money="454000" skillPoint="13440"/>
+	</FB>
+	<FB fbId="19" mapId="6002" fbName="牛头魔神" monsterId="301019" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="595200" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="1220000" money="474000" skillPoint="13920"/>
+	</FB>
+	<FB fbId="20" mapId="6002" fbName="马面魔神" monsterId="301020" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="655200" isWin="1" maxPerson="2" keepTime="120" overload="1" recordtime="90">
+		<normalClean exp="1270000" money="494000" skillPoint="14400"/>
+		<overloadreward overloaditem="109068" itemnum="1" bind="1"/>
+	</FB>
+	<FB fbId="21" mapId="6002" fbName="孟婆" monsterId="301021" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="717600" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="1342000" money="519000" skillPoint="15000"/>
+	</FB>
+	<FB fbId="22" mapId="6002" fbName="巴洛" monsterId="301022" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="780000" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="1414000" money="544000" skillPoint="15600"/>
+	</FB>
+	<FB fbId="23" mapId="6002" fbName="无量魔神" monsterId="301023" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="897600" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="1486000" money="569000" skillPoint="16200"/>
+	</FB>
+	<FB fbId="24" mapId="6002" fbName="天狐仙子" monsterId="301024" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="1018800" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="1558000" money="594000" skillPoint="16800"/>
+	</FB>
+	<FB fbId="25" mapId="6002" fbName="玉蟾妖王" monsterId="301025" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="1143600" isWin="1" maxPerson="2" keepTime="120" overload="1" recordtime="90">
+		<normalClean exp="1630000" money="619000" skillPoint="17400"/>
+		<overloadreward overloaditem="109069" itemnum="1" bind="1"/>
+	</FB>
+	<FB fbId="26" mapId="6002" fbName="青狼妖王" monsterId="301026" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="1272000" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="1702000" money="644000" skillPoint="18000"/>
+	</FB>
+	<FB fbId="27" mapId="6002" fbName="暴熊妖王" monsterId="301027" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="1402800" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="1774000" money="669000" skillPoint="18600"/>
+	</FB>
+	<FB fbId="28" mapId="6002" fbName="金虎妖王" monsterId="301028" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="1538400" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="1846000" money="694000" skillPoint="19200"/>
+	</FB>
+	<FB fbId="29" mapId="6002" fbName="白猿妖王" monsterId="301029" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="1676400" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="1918000" money="719000" skillPoint="19800"/>
+	</FB>
+	<FB fbId="30" mapId="6002" fbName="金毛罴妖王" monsterId="301030" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="1818000" isWin="1" maxPerson="2" keepTime="120" overload="1" recordtime="90">
+		<normalClean exp="1990000" money="744000" skillPoint="20400"/>
+		<overloadreward overloaditem="109070" itemnum="1" bind="1"/>
+	</FB>
+	<FB fbId="31" mapId="6002" fbName="无涯老祖" monsterId="301031" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="2023200" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="2095000" money="775000" skillPoint="21150"/>
+	</FB>
+	<FB fbId="32" mapId="6002" fbName="夏皇" monsterId="301032" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="2234400" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="2200000" money="806000" skillPoint="21900"/>
+	</FB>
+	<FB fbId="33" mapId="6002" fbName="幽寂皇尊" monsterId="301033" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="2449200" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="2305000" money="837000" skillPoint="22650"/>
+	</FB>
+	<FB fbId="34" mapId="6002" fbName="长青真人" monsterId="301034" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="2671200" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="2410000" money="868000" skillPoint="23400"/>
+	</FB>
+	<FB fbId="35" mapId="6002" fbName="毒蝎天神" monsterId="301035" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="2898000" isWin="1" maxPerson="2" keepTime="120" overload="1" recordtime="90">
+		<normalClean exp="2515000" money="899000" skillPoint="24150"/>
+		<overloadreward overloaditem="109071" itemnum="1" bind="1"/>
+	</FB>
+	<FB fbId="36" mapId="6002" fbName="红雪天神" monsterId="301036" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="3194400" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="2620000" money="930000" skillPoint="24900"/>
+	</FB>
+	<FB fbId="37" mapId="6002" fbName="玄武大龟" monsterId="301037" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="3498000" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="2725000" money="961000" skillPoint="25650"/>
+	</FB>
+	<FB fbId="38" mapId="6002" fbName="黑龙" monsterId="301038" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="3808800" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="2830000" money="992000" skillPoint="26400"/>
+	</FB>
+	<FB fbId="39" mapId="6002" fbName="刑天神" monsterId="301039" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="4128000" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="2935000" money="1023000" skillPoint="27150"/>
+	</FB>
+	<FB fbId="40" mapId="6002" fbName="独臂刀尊" monsterId="301040" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="4454400" isWin="1" maxPerson="2" keepTime="120" overload="1" recordtime="90">
+		<normalClean exp="3040000" money="1054000" skillPoint="27900"/>
+		<overloadreward overloaditem="109072" itemnum="1" bind="1"/>
+	</FB>
+	<FB fbId="41" mapId="6002" fbName="神魔傀儡" monsterId="301041" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="4789200" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="3188000" money="1092000" skillPoint="28800"/>
+	</FB>
+	<FB fbId="42" mapId="6002" fbName="大梦天神" monsterId="301042" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="5131200" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="3336000" money="1130000" skillPoint="29700"/>
+	</FB>
+	<FB fbId="43" mapId="6002" fbName="道祖傀儡" monsterId="301043" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="5480400" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="3484000" money="1168000" skillPoint="30600"/>
+	</FB>
+	<FB fbId="44" mapId="6002" fbName="罗睺" monsterId="301044" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="5838000" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="3632000" money="1206000" skillPoint="31500"/>
+	</FB>
+	<FB fbId="45" mapId="6002" fbName="寂灭母皇" monsterId="301045" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="6204000" isWin="1" maxPerson="2" keepTime="120" overload="1" recordtime="90">
+		<normalClean exp="3780000" money="1244000" skillPoint="32400"/>
+		<overloadreward overloaditem="109073" itemnum="1" bind="1"/>
+	</FB>
+	<FB fbId="46" mapId="6002" fbName="轩辕黄帝" monsterId="301046" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="6578400" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="3928000" money="1282000" skillPoint="33300"/>
+	</FB>
+	<FB fbId="47" mapId="6002" fbName="刺修大魔神" monsterId="301047" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="6960000" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="4076000" money="1320000" skillPoint="34200"/>
+	</FB>
+	<FB fbId="48" mapId="6002" fbName="孙悟空" monsterId="301048" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="7350000" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="4224000" money="1358000" skillPoint="35100"/>
+	</FB>
+	<FB fbId="49" mapId="6002" fbName="神王" monsterId="301049" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="7749600" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="4372000" money="1396000" skillPoint="36000"/>
+	</FB>
+	<FB fbId="50" mapId="6002" fbName="远古魔神" monsterId="301050" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="8156400" isWin="1" maxPerson="2" keepTime="120" overload="1" recordtime="90">
+		<normalClean exp="4520000" money="1434000" skillPoint="36900"/>
+		<overloadreward overloaditem="109074" itemnum="1" bind="1"/>
+	</FB>
+	<FB fbId="51" mapId="6002" fbName="异域神虫" monsterId="301051" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="8156400" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="4668000" money="1472000" skillPoint="37800"/>
+	</FB>
+	<FB fbId="52" mapId="6002" fbName="异域神魔" monsterId="301052" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="8156400" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="4816000" money="1510000" skillPoint="38700"/>
+	</FB>
+	<FB fbId="53" mapId="6002" fbName="太古奇兽" monsterId="301053" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="8156400" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="4964000" money="1548000" skillPoint="39600"/>
+	</FB>
+	<FB fbId="54" mapId="6002" fbName="鸿蒙巨人" monsterId="301054" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="8156400" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="5112000" money="1586000" skillPoint="40500"/>
+	</FB>
+	<FB fbId="55" mapId="6002" fbName="异族战神" monsterId="301055" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="8156400" isWin="1" maxPerson="2" keepTime="120" overload="1" recordtime="90">
+		<normalClean exp="5260000" money="1624000" skillPoint="41400"/>
+		<overloadreward overloaditem="109075" itemnum="1" bind="1"/>
+	</FB>
+	<FB fbId="56" mapId="6002" fbName="上古天神" monsterId="301056" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="8156400" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="5408000" money="1662000" skillPoint="42300"/>
+	</FB>
+	<FB fbId="57" mapId="6002" fbName="大莫龙兽" monsterId="301057" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="8156400" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="5556000" money="1700000" skillPoint="43200"/>
+	</FB>
+	<FB fbId="58" mapId="6002" fbName="希斯战魔" monsterId="301058" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="8156400" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="5704000" money="1738000" skillPoint="44100"/>
+	</FB>
+	<FB fbId="59" mapId="6002" fbName="混沌生灵" monsterId="301059" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="8156400" isWin="1" maxPerson="2" keepTime="120">
+		<normalClean exp="5852000" money="1776000" skillPoint="45000"/>
+	</FB>
+	<FB fbId="60" mapId="6002" fbName="虚空巨兽" monsterId="301060" startPosition="29,29" position="21,41" revivePos="29,29" monsterDirection="1" fightCapacity="8156400" isWin="1" maxPerson="2" keepTime="120" overload="1" recordtime="90">
+		<normalClean exp="6000000" money="1814000" skillPoint="45900"/>
+		<overloadreward overloaditem="109076" itemnum="1" bind="1"/>
+	</FB>
+</CelebrityFBMap>

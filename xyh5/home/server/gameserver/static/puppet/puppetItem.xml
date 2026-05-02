@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+itemId 使用潜能丹/幻化丹功能需要的道具ID
+支持多个ID，用“，”隔开
+itemNum 消耗潜能丹/幻化丹的数量
+hp 神兵使用潜能丹附加的气血
+pow 神兵使用潜能丹附加的攻击
+def 神兵使用潜能丹附加的防御
+hit 神兵使用潜能丹附加的命中
+dodge 神兵使用潜能丹附加的闪避
+crit 神兵使用潜能丹附加的暴击
+toughness 神兵使用潜能丹附加的韧性
+item2Per 每次使用幻化丹功能增加的属性百分比，2=2%
+item2AvatarNum 使用幻化丹到达最大次数
+item2Avatar 使用幻化丹到达最大次数时的神兵形象
+-->
+  <item1 itemId="100001" itemNum="1" pow="72" def="21" hp="217" hit="16" dodge="13" crit="18" toughness="14"/>
+  <item2 itemId="100001" itemNum="1" item2Per="2" item2AvatarNum="50" item2Avatar="2000012"/>
+  <!--
+realm 大境界
+stage 小境界
+item1_maxNum 潜能丹最大使用次数
+item2_maxNum 幻化丹最大使用次数
+  -->
+  <info realm="1" stage="1" star="1" item1_maxNum="0" item2_maxNum="0"/>
+  <info realm="2" stage="1" star="1" item1_maxNum="0" item2_maxNum="0"/>
+  <info realm="3" stage="1" star="1" item1_maxNum="10" item2_maxNum="5"/>
+  <info realm="4" stage="1" star="1" item1_maxNum="20" item2_maxNum="10"/>
+  <info realm="5" stage="1" star="1" item1_maxNum="30" item2_maxNum="15"/>
+  <info realm="6" stage="1" star="1" item1_maxNum="40" item2_maxNum="20"/>
+  <info realm="7" stage="1" star="1" item1_maxNum="50" item2_maxNum="25"/>
+  <info realm="8" stage="1" star="1" item1_maxNum="60" item2_maxNum="30"/>
+  <info realm="9" stage="1" star="1" item1_maxNum="80" item2_maxNum="40"/>
+  <info realm="10" stage="1" star="1" item1_maxNum="100" item2_maxNum="50"/>
+</root>

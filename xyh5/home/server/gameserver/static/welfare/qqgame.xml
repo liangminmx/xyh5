@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!--新手礼包-->
+	<newbie>
+		<reward num="1" bind="1" item="900038"/>
+		<reward num="5" bind="1" item="101001"/>
+		<reward num="1" bind="1" item="100597"/>
+	</newbie>
+	<!--每日礼包-->
+	<dailyGift>
+		<reward num="1" bind="1" item="900038"/>
+		<reward num="5" bind="1" item="101001"/>
+		<reward num="1" bind="1" item="100597"/>
+	</dailyGift>
+	<!--等级礼包-->
+	<growGift>
+		<lv lv="20">
+			<reward item="105001" num="1" bind="1"/>
+			<reward item="100582" num="1" bind="1"/>
+			<reward item="100123" num="1" bind="1"/>
+		</lv>
+		<lv lv="30">
+			<reward item="105001" num="2" bind="1"/>
+			<reward item="100582" num="2" bind="1"/>
+			<reward item="100103" num="1" bind="1"/>
+		</lv>
+		<lv lv="40">
+			<reward item="105001" num="3" bind="1"/>
+			<reward item="100582" num="3" bind="1"/>
+			<reward item="100124" num="1" bind="1"/>
+		</lv>
+		<lv lv="50">
+			<reward item="105001" num="4" bind="1"/>
+			<reward item="100583" num="1" bind="1"/>
+			<reward item="100104" num="1" bind="1"/>
+		</lv>
+		<lv lv="60">
+			<reward item="105001" num="5" bind="1"/>
+			<reward item="100583" num="2" bind="1"/>
+			<reward item="100125" num="1" bind="1"/>
+		</lv>
+		<lv lv="70">
+			<reward item="105001" num="6" bind="1"/>
+			<reward item="100583" num="3" bind="1"/>
+			<reward item="100105" num="1" bind="1"/>
+			<reward item="900300" num="5" bind="1"/>
+		</lv>
+	</growGift>
+</root>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!--
+openLev	微端功能的开放等级
+exp	完成任务获得的经验
+money	完成任务获得的银两
+skillPoint	完成任务获得的元液
+emoney2	完成任务获得的礼金
+luodan	完成任务获得的大罗金丹
+itemId	获得的道具id
+equipId	获得的装备id
+strength	获得装备时，装备的强化等级
+stage	获得装备时，装备的品质
+bind	表示给予的奖励是否绑定：=0，不绑定;=1，绑定
+num	给予的奖励的数量
+-->
+	<pf id="sougou_mini" openLev="1" exp="0" money="0" skillPoint="0" emoney2="0" luodan="0">
+		<item itemId="100591" num="5" bind="1"/>
+		<item itemId="108503" num="5" bind="1"/>
+		<item itemId="100582" num="5" bind="1"/>
+		<item itemId="600019" num="20" bind="1"/>
+	</pf>
+	<pf id="sougou_skin" openLev="1" exp="0" money="0" skillPoint="0" emoney2="0" luodan="0">
+		<item itemId="100592" num="3" bind="1"/>
+		<item itemId="108705" num="10" bind="1"/>
+		<item itemId="100001" num="10" bind="1"/>
+		<item itemId="105001" num="10" bind="1"/>
+	</pf>
+</root>

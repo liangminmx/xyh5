@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+<!--
+activity标签		
+	functionid	功能开启
+	open_week	开放星期，1对应周一，7对应星期天
+	time_apply	报名时间，hh:mm:ss, hh:mm:ss
+	time_bet	押注时间，hh:mm:ss, hh:mm:ss
+	time_ready	三场战斗的准备开始时间，hh:mm:ss, hh:mm:ss, hh:mm:ss
+	time_invite	召集冷却时间，单位秒
+	ready	准备时间，单位秒
+	entryfee	报名消耗绑元
+	consolation	报名失败安慰奖itemid1:count1,item2:count2
+    mail_fail   报名失败邮件id
+	serverid	跨服配置
+	betmax	最大可押注次数
+	buffcd	鼓舞获得buff冷却时间，单位秒
+	point_elite	精英组隐藏分门槛
+	point_minus_lim	隐藏分扣分门槛
+    bet_num	押注最低帮派数要求
+-->
+	<activity functionid="2100" open_week="1,3,5,7" time_apply="10:00:00,16:59:59" time_bet="17:00:00,18:59:59" time_ready="19:30:00,19:45:00,20:00:00" time_invite="600" entryfee="2000" consolation="16010001:1,10000012:500" mail_fail="10001" serverid="1" betmax="3" buffcd="10" point_elite="25" point_minus_lim="20" bet_num="4"/>
+<!--
+fight标签		
+	fightcount	每轮战斗默认最大挑战次数
+	ext_count	每轮战斗可额外购买的连胜次数
+	ext_cost	购买连胜对应花费元宝，多次用逗号隔开
+	buffid	准备时间可手动鼓舞叠加的buffid
+	buffcount	状态允许叠加的最大层数
+buffrate标签
+	buffcount_now	已叠加次数
+	success_rate	叠加成功率，万分比
+-->
+    <fight fightcount="2" ext_count="2" ext_cost="1000,2000" buffid="3000009" buffcount="10">
+        <buffrate buffcount_now="0" success_rate="10000"/>
+        <buffrate buffcount_now="1" success_rate="8000"/>
+        <buffrate buffcount_now="2" success_rate="8000"/>
+        <buffrate buffcount_now="3" success_rate="7000"/>
+        <buffrate buffcount_now="4" success_rate="7000"/>
+        <buffrate buffcount_now="5" success_rate="6000"/>
+        <buffrate buffcount_now="6" success_rate="6000"/>
+        <buffrate buffcount_now="7" success_rate="5000"/>
+        <buffrate buffcount_now="8" success_rate="5000"/>
+        <buffrate buffcount_now="9" success_rate="4000"/>
+        <buffrate buffcount_now="10" success_rate="4000"/>
+    </fight>
+<!--
+bet标签
+	betid	押注编号
+	bettype	押注类别，=1元宝 =2绑元 =3银两
+	betcount	押注数量
+	betitem	押注正确获得道具奖励
+	betitem_wrong	押注错误获得道具奖励
+    bet_mail_right  押注正确邮件编号
+    bet_mail_wrong  押注错误邮件编号
+rank标签
+	id	排名编号
+	dec	排名描述
+    mailid 奖励发放邮件
+	covertpoint	该排名获得的隐藏分
+	itemid	奖励道具，格式：item1,item2
+	count	道具数量，格式：count1,count
+	bmoney	绑元奖励，没有则留空
+	money	银两奖励，没有则留空
+-->
+ <bet betid="1" bettype="1" betcount="1000" betitem="16010001:10,10000012:500" betitem_wrong="16010001:1,10000012:500" bet_mail_right="10002" bet_mail_wrong="10003"/>
+ <bet betid="2" bettype="2" betcount="1000" betitem="16010001:10,10000012:500" betitem_wrong="16010001:1,10000012:500" bet_mail_right="10002" bet_mail_wrong="10003"/>
+ <bet betid="3" bettype="3" betcount="1000" betitem="16010001:10,10000012:500" betitem_wrong="16010001:1,10000012:500" bet_mail_right="10002" bet_mail_wrong="10003"/>
+ <rank id="1" dec="冠军" mailid="10004" covertpoint="8" itemid="16010001:1,10000012:500" bmoney="5000" money="2000000"/>
+ <rank id="2" dec="亚军" mailid="10005" covertpoint="4" itemid="16010001:1,10000012:500" bmoney="5000" money="2000000"/>
+ <rank id="3" dec="四强" mailid="10006" covertpoint="2" itemid="16010001:1,10000012:500" bmoney="5000" money="2000000"/>
+ <rank id="4" dec="八强" mailid="10007" covertpoint="-2" itemid="16010001:1,10000012:500" money="2000000"/>
+</root>

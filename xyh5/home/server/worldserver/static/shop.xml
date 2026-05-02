@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+functionid	功能id			
+emoneyshop	 快捷购买元宝商店id（程序用） 			
+bmoneyshop	快捷购买绑元商店id（程序用）			
+shopid	商店id			
+name	商店名字			
+num	每次刷新的道具数量上限			
+refreshcost	单次刷新消耗元宝数			
+time	"是否是随机商店，time=1为随机商店，=0或不填为不是随机商店"			
+species	"是否为单独商店=0或不填为商店集合=1 为单独商店"			
+refreshtype	刷新商店时消耗的货币类型			
+refreshcost	单次刷新商店消耗的货币数量			
+shopsee	"是否显示该商店 =1 显示商店=-1 不显示"			
+counterid	货柜id			
+countername	货柜名字	货柜名字		
+level	进入商店时默认选中该商店的等级段			
+id	程序标识用			
+itemid	道具id（与称号id互斥）			
+chenghaoid	称号id（与道具id互斥）			
+itemnum	道具/称号数量			
+type	"道具花费的货币类型=1 银两=2 元宝=3 帮贡=4 绑元=5 伙伴魂魄=10000007 橙装碎片=10000008 红装碎片=8 武勋=9 比武币=7003000 神兵0阶=8003000 神甲0阶"			
+cost	商品原价（显示用）			
+newcost	花费货币的数量			
+cishu	限购次数，不填则无限制			
+cishutype	"限购类型=-1永久限购，=0为0点重置，填其他数字表示几天后刷新,=-2为刷新商店时重置购买次数"			
+unlock	"限制条件类型=0或不填 无限制=1 VIP等级=2 玩家等级=3 帮会等级=4 华山论剑最高历史排名"			
+parameter	限制条件参数			
+shelves	"商品是否上架=0或不填 表示上架=1 表示下架"			
+length	称号持续时间（天）	购买后称号持续时长		
+weight	道具权重（随机商店使用）			
+
+
+
+
+-->
+	<function functionid="2004" emoneyshop="1" bmoneyshop="2"/>
+	<shop shopid="1" xulie="1" name="元宝商店" time="0" species="0" shopsee="1">
+		<item id="1" itemid="14010201" itemnum="1" type="2" cost="100" newcost="100" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="2" itemid="14020201" itemnum="1" type="2" cost="100" newcost="100" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="3" itemid="14030201" itemnum="1" type="2" cost="100" newcost="100" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="4" itemid="14050201" itemnum="1" type="2" cost="100" newcost="100" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="5" itemid="14040201" itemnum="1" type="2" cost="100" newcost="100" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="6" itemid="14070201" itemnum="1" type="2" cost="100" newcost="100" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="13" itemid="14080201" itemnum="1" type="2" cost="100" newcost="100" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="7" itemid="10000016" itemnum="1" type="2" cost="100" newcost="100" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="8" itemid="10000004" itemnum="1" type="2" cost="2888" newcost="2888" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="9" itemid="10000010" itemnum="1" type="2" cost="50" newcost="50" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="10" itemid="10000015" itemnum="1" type="2" cost="50" newcost="50" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="11" itemid="10000100" itemnum="1" type="2" cost="100" newcost="100" cishu="50" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="12" itemid="10000042" itemnum="1" type="2" cost="200" newcost="200" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="14" itemid="10000044" itemnum="1" type="2" cost="5200" newcost="5200" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+	</shop>
+	<shop shopid="2" xulie="2" name="绑元商店" time="0" species="0" shopsee="1">
+		<item id="1" itemid="14010201" itemnum="1" type="4" cost="100" newcost="100" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="2" itemid="14020201" itemnum="1" type="4" cost="100" newcost="100" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="3" itemid="14030201" itemnum="1" type="4" cost="100" newcost="100" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="4" itemid="14050201" itemnum="1" type="4" cost="100" newcost="100" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="5" itemid="14040201" itemnum="1" type="4" cost="100" newcost="100" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="6" itemid="14070201" itemnum="1" type="4" cost="100" newcost="100" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="12" itemid="14080201" itemnum="1" type="4" cost="100" newcost="100" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="7" itemid="10000016" itemnum="1" type="4" cost="100" newcost="100" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="9" itemid="10000010" itemnum="1" type="4" cost="50" newcost="50" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="10" itemid="10000015" itemnum="1" type="4" cost="50" newcost="50" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="11" itemid="10000042" itemnum="1" type="4" cost="500" newcost="500" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+	</shop>
+	<shop shopid="3" xulie="6" name="橙装商店" time="0" species="0" shopsee="1">
+		<counter counterid="14" countername="每日特惠" level="1,9999">
+			<item id="1" itemid="10000008" itemnum="1" type="2,10000007" cost="2,20" newcost="2,20" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="2" itemid="10000008" itemnum="100" type="2,10000007" cost="100,500" newcost="100,500" cishu="1" cishutype="0" unlock="0" parameter="" shelves="0"/>
+			<item id="3" itemid="10000008" itemnum="200" type="2,10000007" cost="180,1000" newcost="180,1000" cishu="1" cishutype="0" unlock="0" parameter="" shelves="0"/>
+			<item id="4" itemid="16010013" itemnum="1" type="10000007" cost="200" newcost="200" cishu="10" cishutype="0" unlock="0" parameter="" shelves="0"/>
+			<item id="5" itemid="16010013" itemnum="10" type="10000007" cost="1800" newcost="1800" cishu="1" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		</counter>
+		<counter counterid="1" countername="1级橙装商店" level="1,39">
+			<item id="1" itemid="3000014" itemnum="1" type="10000007" cost="18" newcost="18" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="2" itemid="4000014" itemnum="1" type="10000007" cost="12" newcost="12" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="3" itemid="2000014" itemnum="1" type="10000007" cost="8" newcost="8" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="4" itemid="5000014" itemnum="1" type="10000007" cost="5" newcost="5" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="5" itemid="1000014" itemnum="1" type="10000007" cost="5" newcost="5" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="6" itemid="6000014" itemnum="1" type="10000007" cost="5" newcost="5" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		</counter>
+		<counter counterid="2" countername="40级橙装商店" level="40,49">
+			<item id="1" itemid="3000404" itemnum="1" type="10000007" cost="54" newcost="54" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="2" itemid="4000404" itemnum="1" type="10000007" cost="36" newcost="36" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="3" itemid="2000404" itemnum="1" type="10000007" cost="22" newcost="22" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="4" itemid="5000404" itemnum="1" type="10000007" cost="15" newcost="15" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="5" itemid="1000404" itemnum="1" type="10000007" cost="15" newcost="15" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="6" itemid="6000404" itemnum="1" type="10000007" cost="13" newcost="13" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		</counter>
+		<counter counterid="3" countername="50级橙装商店" level="50,59">
+			<item id="1" itemid="3000504" itemnum="1" type="10000007" cost="143" newcost="143" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="2" itemid="4000504" itemnum="1" type="10000007" cost="96" newcost="96" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="3" itemid="2000504" itemnum="1" type="10000007" cost="58" newcost="58" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="4" itemid="5000504" itemnum="1" type="10000007" cost="40" newcost="40" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="5" itemid="1000504" itemnum="1" type="10000007" cost="40" newcost="40" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="6" itemid="6000504" itemnum="1" type="10000007" cost="33" newcost="33" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		</counter>
+		<counter counterid="4" countername="60级橙装商店" level="60,69">
+			<item id="1" itemid="3000604" itemnum="1" type="10000007" cost="358" newcost="358" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="2" itemid="4000604" itemnum="1" type="10000007" cost="239" newcost="239" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="3" itemid="2000604" itemnum="1" type="10000007" cost="145" newcost="145" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="4" itemid="5000604" itemnum="1" type="10000007" cost="100" newcost="100" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="5" itemid="1000604" itemnum="1" type="10000007" cost="100" newcost="100" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="6" itemid="6000604" itemnum="1" type="10000007" cost="81" newcost="81" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		</counter>
+		<counter counterid="5" countername="70级橙装商店" level="70,79">
+			<item id="1" itemid="3000704" itemnum="1" type="10000007" cost="715" newcost="715" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="2" itemid="4000704" itemnum="1" type="10000007" cost="477" newcost="477" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="3" itemid="2000704" itemnum="1" type="10000007" cost="290" newcost="290" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="4" itemid="5000704" itemnum="1" type="10000007" cost="200" newcost="200" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="5" itemid="1000704" itemnum="1" type="10000007" cost="200" newcost="200" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="6" itemid="6000704" itemnum="1" type="10000007" cost="162" newcost="162" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		</counter>
+		<counter counterid="6" countername="80级橙装商店" level="80,89">
+			<item id="1" itemid="3000804" itemnum="1" type="10000007" cost="2145" newcost="2145" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="2" itemid="4000804" itemnum="1" type="10000007" cost="1430" newcost="1430" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="3" itemid="2000804" itemnum="1" type="10000007" cost="869" newcost="869" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="4" itemid="5000804" itemnum="1" type="10000007" cost="600" newcost="600" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="5" itemid="1000804" itemnum="1" type="10000007" cost="600" newcost="600" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="6" itemid="6000804" itemnum="1" type="10000007" cost="486" newcost="486" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		</counter>
+		<counter counterid="7" countername="90级橙装商店" level="90,99">
+			<item id="1" itemid="3000904" itemnum="1" type="10000007" cost="4290" newcost="4290" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="2" itemid="4000904" itemnum="1" type="10000007" cost="2860" newcost="2860" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="3" itemid="2000904" itemnum="1" type="10000007" cost="1737" newcost="1737" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="4" itemid="5000904" itemnum="1" type="10000007" cost="1200" newcost="1200" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="5" itemid="1000904" itemnum="1" type="10000007" cost="1200" newcost="1200" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="6" itemid="6000904" itemnum="1" type="10000007" cost="971" newcost="971" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		</counter>
+		<counter counterid="8" countername="100级橙装商店" level="100,109">
+			<item id="1" itemid="3001004" itemnum="1" type="10000007" cost="7149" newcost="7149" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="2" itemid="4001004" itemnum="1" type="10000007" cost="4766" newcost="4766" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="3" itemid="2001004" itemnum="1" type="10000007" cost="2894" newcost="2894" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="4" itemid="5001004" itemnum="1" type="10000007" cost="2000" newcost="2000" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="5" itemid="1001004" itemnum="1" type="10000007" cost="2000" newcost="2000" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="6" itemid="6001004" itemnum="1" type="10000007" cost="1618" newcost="1618" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		</counter>
+		<counter counterid="9" countername="110级橙装商店" level="110,119">
+			<item id="1" itemid="3001104" itemnum="1" type="10000007" cost="12511" newcost="12511" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="2" itemid="4001104" itemnum="1" type="10000007" cost="8341" newcost="8341" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="3" itemid="2001104" itemnum="1" type="10000007" cost="5064" newcost="5064" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="4" itemid="5001104" itemnum="1" type="10000007" cost="3500" newcost="3500" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="5" itemid="1001104" itemnum="1" type="10000007" cost="3500" newcost="3500" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="6" itemid="6001104" itemnum="1" type="10000007" cost="2830" newcost="2830" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		</counter>
+		<counter counterid="10" countername="120级橙装商店" level="120,129">
+			<item id="1" itemid="3001204" itemnum="1" type="10000007" cost="17873" newcost="17873" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="2" itemid="4001204" itemnum="1" type="10000007" cost="11915" newcost="11915" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="3" itemid="2001204" itemnum="1" type="10000007" cost="7235" newcost="7235" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="4" itemid="5001204" itemnum="1" type="10000007" cost="5000" newcost="5000" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="5" itemid="1001204" itemnum="1" type="10000007" cost="5000" newcost="5000" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="6" itemid="6001204" itemnum="1" type="10000007" cost="4043" newcost="4043" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		</counter>
+		<counter counterid="11" countername="130级橙装商店" level="130,139">
+			<item id="1" itemid="3001304" itemnum="1" type="10000007" cost="21447" newcost="21447" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="2" itemid="4001304" itemnum="1" type="10000007" cost="14298" newcost="14298" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="3" itemid="2001304" itemnum="1" type="10000007" cost="8681" newcost="8681" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="4" itemid="5001304" itemnum="1" type="10000007" cost="6000" newcost="6000" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="5" itemid="1001304" itemnum="1" type="10000007" cost="6000" newcost="6000" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="6" itemid="6001304" itemnum="1" type="10000007" cost="4852" newcost="4852" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		</counter>
+		<counter counterid="12" countername="140级橙装商店" level="140,149">
+			<item id="1" itemid="3001404" itemnum="1" type="10000007" cost="42894" newcost="42894" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="2" itemid="4001404" itemnum="1" type="10000007" cost="28596" newcost="28596" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="3" itemid="2001404" itemnum="1" type="10000007" cost="17362" newcost="17362" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="4" itemid="5001404" itemnum="1" type="10000007" cost="12000" newcost="12000" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="5" itemid="1001404" itemnum="1" type="10000007" cost="12000" newcost="12000" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="6" itemid="6001404" itemnum="1" type="10000007" cost="9703" newcost="9703" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		</counter>
+		<counter counterid="13" countername="150级橙装商店" level="150,159">
+			<item id="1" itemid="3001504" itemnum="1" type="10000007" cost="71490" newcost="71490" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="2" itemid="4001504" itemnum="1" type="10000007" cost="47660" newcost="47660" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="3" itemid="2001504" itemnum="1" type="10000007" cost="28937" newcost="28937" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="4" itemid="5001504" itemnum="1" type="10000007" cost="20000" newcost="20000" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="5" itemid="1001504" itemnum="1" type="10000007" cost="20000" newcost="20000" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="6" itemid="6001504" itemnum="1" type="10000007" cost="16171" newcost="16171" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		</counter>
+		<counter counterid="15" countername="160级橙装商店" level="160,169">
+			<item id="1" itemid="3002604" itemnum="1" type="10000007" cost="107235" newcost="107235" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="2" itemid="4002604" itemnum="1" type="10000007" cost="71490" newcost="71490" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="3" itemid="2002604" itemnum="1" type="10000007" cost="43405" newcost="43405" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="4" itemid="5002604" itemnum="1" type="10000007" cost="30000" newcost="30000" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="5" itemid="1002604" itemnum="1" type="10000007" cost="30000" newcost="30000" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="6" itemid="6002604" itemnum="1" type="10000007" cost="24256" newcost="24256" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		</counter>
+		<counter counterid="16" countername="170级橙装商店" level="170,179">
+			<item id="1" itemid="3002704" itemnum="1" type="10000007" cost="142979" newcost="142979" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="2" itemid="4002704" itemnum="1" type="10000007" cost="95320" newcost="95320" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="3" itemid="2002704" itemnum="1" type="10000007" cost="57873" newcost="57873" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="4" itemid="5002704" itemnum="1" type="10000007" cost="40000" newcost="40000" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="5" itemid="1002704" itemnum="1" type="10000007" cost="40000" newcost="40000" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="6" itemid="6002704" itemnum="1" type="10000007" cost="32341" newcost="32341" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		</counter>
+		<counter counterid="17" countername="180级橙装商店" level="180,9999">
+			<item id="1" itemid="3002804" itemnum="1" type="10000007" cost="214469" newcost="214469" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="2" itemid="4002804" itemnum="1" type="10000007" cost="142979" newcost="142979" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="3" itemid="2002804" itemnum="1" type="10000007" cost="86809" newcost="86809" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="4" itemid="5002804" itemnum="1" type="10000007" cost="60000" newcost="60000" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="5" itemid="1002804" itemnum="1" type="10000007" cost="60000" newcost="60000" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="6" itemid="6002804" itemnum="1" type="10000007" cost="48511" newcost="48511" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		</counter>
+	</shop>
+	<shop shopid="4" xulie="3" name="宠物商店" time="0" species="0" shopsee="1">
+		<item id="1" itemid="12010002" itemnum="1" type="2" cost="300" newcost="300" cishu="1" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="2" itemid="12020003" itemnum="1" type="2" cost="300" newcost="300" cishu="1" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="3" itemid="12020037" itemnum="1" type="2" cost="300" newcost="300" cishu="1" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="4" itemid="12020038" itemnum="1" type="2" cost="300" newcost="300" cishu="1" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="5" itemid="12020004" itemnum="1" type="2" cost="450" newcost="450" cishu="1" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="6" itemid="12030005" itemnum="1" type="2" cost="450" newcost="450" cishu="1" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="7" itemid="12020039" itemnum="1" type="2" cost="450" newcost="450" cishu="1" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="8" itemid="12020040" itemnum="1" type="2" cost="450" newcost="450" cishu="1" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="9" itemid="12030006" itemnum="1" type="2" cost="600" newcost="600" cishu="1" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="10" itemid="12030007" itemnum="1" type="2" cost="600" newcost="600" cishu="1" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="11" itemid="12040008" itemnum="1" type="2" cost="600" newcost="600" cishu="1" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="12" itemid="12040009" itemnum="1" type="2" cost="900" newcost="900" cishu="1" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="13" itemid="12040010" itemnum="1" type="2" cost="900" newcost="900" cishu="1" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="14" itemid="12050011" itemnum="1" type="2" cost="900" newcost="900" cishu="1" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="15" itemid="12050012" itemnum="1" type="2" cost="1500" newcost="1500" cishu="1" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="16" itemid="12050013" itemnum="1" type="2" cost="1500" newcost="1500" cishu="1" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="17" itemid="12060014" itemnum="1" type="2" cost="1500" newcost="1500" cishu="1" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="18" itemid="12060015" itemnum="1" type="2" cost="2100" newcost="2100" cishu="1" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="19" itemid="12060016" itemnum="1" type="2" cost="2100" newcost="2100" cishu="1" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="20" itemid="12070017" itemnum="1" type="2" cost="2100" newcost="2100" cishu="1" cishutype="0" unlock="0" parameter="" shelves="0"/>
+	</shop>
+	<shop shopid="5" xulie="4" name="伙伴商店" time="1" refreshtype="5" refreshcost="200" species="0" shopsee="1" num="8">
+		<item id="1" itemid="11041001" itemnum="5" type="5" cost="2500" newcost="2500" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="300"/>
+		<item id="2" itemid="11041002" itemnum="5" type="5" cost="2500" newcost="2500" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="300"/>
+		<item id="3" itemid="11041003" itemnum="5" type="5" cost="2500" newcost="2500" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="300"/>
+		<item id="4" itemid="11041004" itemnum="5" type="5" cost="2500" newcost="2500" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="300"/>
+		<item id="5" itemid="11042009" itemnum="5" type="5" cost="2500" newcost="2500" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="300"/>
+		<item id="6" itemid="11042010" itemnum="5" type="5" cost="2500" newcost="2500" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="300"/>
+		<item id="7" itemid="11042011" itemnum="5" type="5" cost="2500" newcost="2500" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="300"/>
+		<item id="8" itemid="11042012" itemnum="5" type="5" cost="2500" newcost="2500" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="300"/>
+		<item id="9" itemid="11043005" itemnum="5" type="5" cost="2500" newcost="2500" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="300"/>
+		<item id="10" itemid="11043006" itemnum="5" type="5" cost="2500" newcost="2500" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="300"/>
+		<item id="11" itemid="11043007" itemnum="5" type="5" cost="2500" newcost="2500" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="300"/>
+		<item id="12" itemid="11043008" itemnum="5" type="5" cost="2500" newcost="2500" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="300"/>
+		<item id="13" itemid="11041022" itemnum="10" type="5" cost="3000" newcost="3000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="1000"/>
+		<item id="14" itemid="11041023" itemnum="10" type="5" cost="3000" newcost="3000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="1000"/>
+		<item id="15" itemid="11041024" itemnum="10" type="5" cost="3000" newcost="3000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="1000"/>
+		<item id="16" itemid="11041025" itemnum="10" type="5" cost="3000" newcost="3000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="1000"/>
+		<item id="17" itemid="11042013" itemnum="10" type="5" cost="3000" newcost="3000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="1000"/>
+		<item id="18" itemid="11042014" itemnum="10" type="5" cost="3000" newcost="3000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="1000"/>
+		<item id="19" itemid="11042015" itemnum="10" type="5" cost="3000" newcost="3000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="1000"/>
+		<item id="20" itemid="11042016" itemnum="10" type="5" cost="3000" newcost="3000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="1000"/>
+		<item id="21" itemid="11043017" itemnum="10" type="5" cost="3000" newcost="3000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="1000"/>
+		<item id="22" itemid="11043018" itemnum="10" type="5" cost="3000" newcost="3000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="1000"/>
+		<item id="23" itemid="11043019" itemnum="10" type="5" cost="3000" newcost="3000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="1000"/>
+		<item id="24" itemid="11043020" itemnum="10" type="5" cost="3000" newcost="3000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="1000"/>
+		<item id="25" itemid="11031026" itemnum="20" type="5" cost="3000" newcost="3000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="2000"/>
+		<item id="26" itemid="11031027" itemnum="20" type="5" cost="3000" newcost="3000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="2000"/>
+		<item id="27" itemid="11031028" itemnum="20" type="5" cost="3000" newcost="3000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="2000"/>
+		<item id="28" itemid="11031029" itemnum="20" type="5" cost="3000" newcost="3000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="2000"/>
+		<item id="29" itemid="11031030" itemnum="20" type="5" cost="3000" newcost="3000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="2000"/>
+		<item id="30" itemid="11031031" itemnum="20" type="5" cost="3000" newcost="3000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="2000"/>
+		<item id="31" itemid="11031032" itemnum="20" type="5" cost="3000" newcost="3000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="2000"/>
+		<item id="32" itemid="11031033" itemnum="20" type="5" cost="3000" newcost="3000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="2000"/>
+		<item id="33" itemid="11032042" itemnum="20" type="5" cost="3000" newcost="3000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="2000"/>
+		<item id="34" itemid="11032043" itemnum="20" type="5" cost="3000" newcost="3000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="2000"/>
+		<item id="35" itemid="11032044" itemnum="20" type="5" cost="3000" newcost="3000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="2000"/>
+		<item id="36" itemid="11032045" itemnum="20" type="5" cost="3000" newcost="3000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="2000"/>
+		<item id="37" itemid="11032046" itemnum="20" type="5" cost="3000" newcost="3000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="2000"/>
+		<item id="38" itemid="11032047" itemnum="20" type="5" cost="3000" newcost="3000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="2000"/>
+		<item id="39" itemid="11032048" itemnum="20" type="5" cost="3000" newcost="3000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="2000"/>
+		<item id="40" itemid="11032049" itemnum="20" type="5" cost="3000" newcost="3000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="2000"/>
+		<item id="41" itemid="11033034" itemnum="20" type="5" cost="3000" newcost="3000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="2000"/>
+		<item id="42" itemid="11033035" itemnum="20" type="5" cost="3000" newcost="3000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="2000"/>
+		<item id="43" itemid="11033036" itemnum="20" type="5" cost="3000" newcost="3000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="2000"/>
+		<item id="44" itemid="11033037" itemnum="20" type="5" cost="3000" newcost="3000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="2000"/>
+		<item id="45" itemid="11033038" itemnum="20" type="5" cost="3000" newcost="3000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="2000"/>
+		<item id="46" itemid="11033039" itemnum="20" type="5" cost="3000" newcost="3000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="2000"/>
+		<item id="47" itemid="11033040" itemnum="20" type="5" cost="3000" newcost="3000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="2000"/>
+		<item id="48" itemid="11033041" itemnum="20" type="5" cost="3000" newcost="3000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="2000"/>
+		<item id="49" itemid="11041001" itemnum="100" type="5" cost="50000" newcost="50000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="100"/>
+		<item id="50" itemid="11041002" itemnum="100" type="5" cost="50000" newcost="50000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="100"/>
+		<item id="51" itemid="11041003" itemnum="100" type="5" cost="50000" newcost="50000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="100"/>
+		<item id="52" itemid="11041004" itemnum="100" type="5" cost="50000" newcost="50000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="100"/>
+		<item id="53" itemid="11042009" itemnum="100" type="5" cost="50000" newcost="50000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="100"/>
+		<item id="54" itemid="11042010" itemnum="100" type="5" cost="50000" newcost="50000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="100"/>
+		<item id="55" itemid="11042011" itemnum="100" type="5" cost="50000" newcost="50000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="100"/>
+		<item id="56" itemid="11042012" itemnum="100" type="5" cost="50000" newcost="50000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="100"/>
+		<item id="57" itemid="11043005" itemnum="100" type="5" cost="50000" newcost="50000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="100"/>
+		<item id="58" itemid="11043006" itemnum="100" type="5" cost="50000" newcost="50000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="100"/>
+		<item id="59" itemid="11043007" itemnum="100" type="5" cost="50000" newcost="50000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="100"/>
+		<item id="60" itemid="11043008" itemnum="100" type="5" cost="50000" newcost="50000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="100"/>
+		<item id="61" itemid="11041022" itemnum="80" type="5" cost="24000" newcost="24000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="62" itemid="11041023" itemnum="80" type="5" cost="24000" newcost="24000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="63" itemid="11041024" itemnum="80" type="5" cost="24000" newcost="24000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="64" itemid="11041025" itemnum="80" type="5" cost="24000" newcost="24000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="65" itemid="11042013" itemnum="80" type="5" cost="24000" newcost="24000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="66" itemid="11042014" itemnum="80" type="5" cost="24000" newcost="24000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="67" itemid="11042015" itemnum="80" type="5" cost="24000" newcost="24000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="68" itemid="11042016" itemnum="80" type="5" cost="24000" newcost="24000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="69" itemid="11043017" itemnum="80" type="5" cost="24000" newcost="24000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="70" itemid="11043018" itemnum="80" type="5" cost="24000" newcost="24000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="71" itemid="11043019" itemnum="80" type="5" cost="24000" newcost="24000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="72" itemid="11043020" itemnum="80" type="5" cost="24000" newcost="24000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="73" itemid="11031026" itemnum="40" type="5" cost="6000" newcost="6000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="74" itemid="11031027" itemnum="40" type="5" cost="6000" newcost="6000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="75" itemid="11031028" itemnum="40" type="5" cost="6000" newcost="6000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="76" itemid="11031029" itemnum="40" type="5" cost="6000" newcost="6000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="77" itemid="11031030" itemnum="40" type="5" cost="6000" newcost="6000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="78" itemid="11031031" itemnum="40" type="5" cost="6000" newcost="6000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="79" itemid="11031032" itemnum="40" type="5" cost="6000" newcost="6000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="80" itemid="11031033" itemnum="40" type="5" cost="6000" newcost="6000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="81" itemid="11032042" itemnum="40" type="5" cost="6000" newcost="6000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="82" itemid="11032043" itemnum="40" type="5" cost="6000" newcost="6000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="83" itemid="11032044" itemnum="40" type="5" cost="6000" newcost="6000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="84" itemid="11032045" itemnum="40" type="5" cost="6000" newcost="6000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="85" itemid="11032046" itemnum="40" type="5" cost="6000" newcost="6000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="86" itemid="11032047" itemnum="40" type="5" cost="6000" newcost="6000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="87" itemid="11032048" itemnum="40" type="5" cost="6000" newcost="6000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="88" itemid="11032049" itemnum="40" type="5" cost="6000" newcost="6000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="89" itemid="11033034" itemnum="40" type="5" cost="6000" newcost="6000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="90" itemid="11033035" itemnum="40" type="5" cost="6000" newcost="6000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="91" itemid="11033036" itemnum="40" type="5" cost="6000" newcost="6000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="92" itemid="11033037" itemnum="40" type="5" cost="6000" newcost="6000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="93" itemid="11033038" itemnum="40" type="5" cost="6000" newcost="6000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="94" itemid="11033039" itemnum="40" type="5" cost="6000" newcost="6000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="95" itemid="11033040" itemnum="40" type="5" cost="6000" newcost="6000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="96" itemid="11033041" itemnum="40" type="5" cost="6000" newcost="6000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="97" itemid="10000015" itemnum="5" type="5" cost="250" newcost="250" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="800"/>
+		<item id="98" itemid="10000015" itemnum="10" type="5" cost="500" newcost="500" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="800"/>
+		<item id="99" itemid="10000015" itemnum="20" type="5" cost="1000" newcost="1000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="800"/>
+		<item id="100" itemid="11041001" itemnum="5" type="2" cost="2500" newcost="1750" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="600"/>
+		<item id="101" itemid="11041002" itemnum="5" type="2" cost="2500" newcost="1750" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="600"/>
+		<item id="102" itemid="11041003" itemnum="5" type="2" cost="2500" newcost="1750" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="600"/>
+		<item id="103" itemid="11041004" itemnum="5" type="2" cost="2500" newcost="1750" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="600"/>
+		<item id="104" itemid="11042009" itemnum="5" type="2" cost="2500" newcost="1750" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="600"/>
+		<item id="105" itemid="11042010" itemnum="5" type="2" cost="2500" newcost="1750" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="600"/>
+		<item id="106" itemid="11042011" itemnum="5" type="2" cost="2500" newcost="1750" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="600"/>
+		<item id="107" itemid="11042012" itemnum="5" type="2" cost="2500" newcost="1750" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="600"/>
+		<item id="108" itemid="11043005" itemnum="5" type="2" cost="2500" newcost="1750" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="600"/>
+		<item id="109" itemid="11043006" itemnum="5" type="2" cost="2500" newcost="1750" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="600"/>
+		<item id="110" itemid="11043007" itemnum="5" type="2" cost="2500" newcost="1750" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="600"/>
+		<item id="111" itemid="11043008" itemnum="5" type="2" cost="2500" newcost="1750" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="600"/>
+		<item id="112" itemid="11041022" itemnum="10" type="2" cost="3000" newcost="2100" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="2000"/>
+		<item id="113" itemid="11041023" itemnum="10" type="2" cost="3000" newcost="2100" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="2000"/>
+		<item id="114" itemid="11041024" itemnum="10" type="2" cost="3000" newcost="2100" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="2000"/>
+		<item id="115" itemid="11042013" itemnum="10" type="2" cost="3000" newcost="2100" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="2000"/>
+		<item id="116" itemid="11042014" itemnum="10" type="2" cost="3000" newcost="2100" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="2000"/>
+		<item id="117" itemid="11042015" itemnum="10" type="2" cost="3000" newcost="2100" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="2000"/>
+		<item id="118" itemid="11042016" itemnum="10" type="2" cost="3000" newcost="2100" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="2000"/>
+		<item id="119" itemid="11043017" itemnum="10" type="2" cost="3000" newcost="2100" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="2000"/>
+		<item id="120" itemid="11043018" itemnum="10" type="2" cost="3000" newcost="2100" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="2000"/>
+		<item id="121" itemid="11043019" itemnum="10" type="2" cost="3000" newcost="2100" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="2000"/>
+		<item id="122" itemid="11043020" itemnum="10" type="2" cost="3000" newcost="2100" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="2000"/>
+		<item id="123" itemid="11041025" itemnum="10" type="2" cost="3000" newcost="2100" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="2000"/>
+		<item id="124" itemid="11043008" itemnum="100" type="2" cost="50000" newcost="30000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="125" itemid="11043007" itemnum="100" type="2" cost="50000" newcost="30000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="126" itemid="11043006" itemnum="100" type="2" cost="50000" newcost="30000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="127" itemid="11043005" itemnum="100" type="2" cost="50000" newcost="30000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="128" itemid="11042012" itemnum="100" type="2" cost="50000" newcost="30000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="129" itemid="11042011" itemnum="100" type="2" cost="50000" newcost="30000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="130" itemid="11042010" itemnum="100" type="2" cost="50000" newcost="30000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="131" itemid="11042009" itemnum="100" type="2" cost="50000" newcost="30000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="132" itemid="11041004" itemnum="100" type="2" cost="50000" newcost="30000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="133" itemid="11041003" itemnum="100" type="2" cost="50000" newcost="30000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="134" itemid="11041001" itemnum="100" type="2" cost="50000" newcost="30000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="135" itemid="11041002" itemnum="100" type="2" cost="50000" newcost="30000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="200"/>
+		<item id="136" itemid="11041024" itemnum="80" type="2" cost="24000" newcost="14400" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="400"/>
+		<item id="137" itemid="11041023" itemnum="80" type="2" cost="24000" newcost="14400" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="400"/>
+		<item id="138" itemid="11041022" itemnum="80" type="2" cost="24000" newcost="14400" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="400"/>
+		<item id="139" itemid="11043020" itemnum="80" type="2" cost="24000" newcost="14400" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="400"/>
+		<item id="140" itemid="11042013" itemnum="80" type="2" cost="24000" newcost="14400" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="400"/>
+		<item id="141" itemid="11043019" itemnum="80" type="2" cost="24000" newcost="14400" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="400"/>
+		<item id="142" itemid="11043018" itemnum="80" type="2" cost="24000" newcost="14400" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="400"/>
+		<item id="143" itemid="11043017" itemnum="80" type="2" cost="24000" newcost="14400" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="400"/>
+		<item id="144" itemid="11042016" itemnum="80" type="2" cost="24000" newcost="14400" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="400"/>
+		<item id="145" itemid="11042015" itemnum="80" type="2" cost="24000" newcost="14400" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="400"/>
+		<item id="146" itemid="11042014" itemnum="80" type="2" cost="24000" newcost="14400" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="400"/>
+		<item id="147" itemid="11041025" itemnum="80" type="2" cost="24000" newcost="14400" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="400"/>
+		<item id="148" itemid="10000015" itemnum="10" type="2" cost="500" newcost="350" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="1600"/>
+		<item id="149" itemid="10000015" itemnum="20" type="2" cost="1000" newcost="600" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="1600"/>
+		<item id="150" itemid="10000015" itemnum="5" type="2" cost="250" newcost="200" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="1600"/>
+		<item id="151" itemid="11041001" itemnum="20" type="5" cost="10000" newcost="10000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="300"/>
+		<item id="152" itemid="11041002" itemnum="20" type="5" cost="10000" newcost="10000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="300"/>
+		<item id="153" itemid="11041003" itemnum="20" type="5" cost="10000" newcost="10000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="300"/>
+		<item id="154" itemid="11041004" itemnum="20" type="5" cost="10000" newcost="10000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="300"/>
+		<item id="155" itemid="11042009" itemnum="20" type="5" cost="10000" newcost="10000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="300"/>
+		<item id="156" itemid="11042010" itemnum="20" type="5" cost="10000" newcost="10000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="300"/>
+		<item id="157" itemid="11042011" itemnum="20" type="5" cost="10000" newcost="10000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="300"/>
+		<item id="158" itemid="11042012" itemnum="20" type="5" cost="10000" newcost="10000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="300"/>
+		<item id="159" itemid="11043005" itemnum="20" type="5" cost="10000" newcost="10000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="300"/>
+		<item id="160" itemid="11043006" itemnum="20" type="5" cost="10000" newcost="10000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="300"/>
+		<item id="161" itemid="11043007" itemnum="20" type="5" cost="10000" newcost="10000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="300"/>
+		<item id="162" itemid="11043008" itemnum="20" type="5" cost="10000" newcost="10000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="300"/>
+		<item id="163" itemid="11041001" itemnum="20" type="2" cost="10000" newcost="7000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="600"/>
+		<item id="164" itemid="11041002" itemnum="20" type="2" cost="10000" newcost="7000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="600"/>
+		<item id="165" itemid="11041003" itemnum="20" type="2" cost="10000" newcost="7000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="600"/>
+		<item id="166" itemid="11041004" itemnum="20" type="2" cost="10000" newcost="7000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="600"/>
+		<item id="167" itemid="11042009" itemnum="20" type="2" cost="10000" newcost="7000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="600"/>
+		<item id="168" itemid="11042010" itemnum="20" type="2" cost="10000" newcost="7000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="600"/>
+		<item id="169" itemid="11042011" itemnum="20" type="2" cost="10000" newcost="7000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="600"/>
+		<item id="170" itemid="11042012" itemnum="20" type="2" cost="10000" newcost="7000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="600"/>
+		<item id="171" itemid="11043005" itemnum="20" type="2" cost="10000" newcost="7000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="600"/>
+		<item id="172" itemid="11043006" itemnum="20" type="2" cost="10000" newcost="7000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="600"/>
+		<item id="173" itemid="11043007" itemnum="20" type="2" cost="10000" newcost="7000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="600"/>
+		<item id="174" itemid="11043008" itemnum="20" type="2" cost="10000" newcost="7000" cishu="1" cishutype="-2" unlock="0" parameter="" shelves="0" weight="600"/>
+	</shop>
+	<shop shopid="6" xulie="5" name="竞技商店" time="0" species="0" shopsee="1">
+		<item id="1" itemid="14010101" itemnum="1" type="8" cost="1000" newcost="1000" cishu="2" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="2" itemid="14020101" itemnum="1" type="8" cost="1000" newcost="1000" cishu="2" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="3" itemid="14030101" itemnum="1" type="8" cost="1000" newcost="1000" cishu="2" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="4" itemid="14040101" itemnum="1" type="8" cost="1000" newcost="1000" cishu="2" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="5" itemid="14050101" itemnum="1" type="8" cost="1000" newcost="1000" cishu="2" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="21" itemid="14070101" itemnum="1" type="8" cost="1000" newcost="1000" cishu="2" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="6" itemid="10000012" itemnum="1000" type="8" cost="5000" newcost="5000" cishu="1" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="7" itemid="10000013" itemnum="500" type="8" cost="5000" newcost="5000" cishu="1" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="8" itemid="10000014" itemnum="500" type="8" cost="5000" newcost="5000" cishu="1" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="9" itemid="10000007" itemnum="500" type="8" cost="10000" newcost="10000" cishu="1" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="10" itemid="10000017" itemnum="1" type="8" cost="5000" newcost="5000" cishu="1" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="11" itemid="13010010" itemnum="1" type="8" cost="250000" newcost="250000" cishu="1" cishutype="0" unlock="4" parameter="1" shelves="0"/>
+		<item id="12" itemid="10000004" itemnum="20" type="8" cost="10000" newcost="10000" cishu="1" cishutype="-1" unlock="4" parameter="3" shelves="0"/>
+		<item id="13" itemid="10000018" itemnum="1" type="8" cost="10000" newcost="10000" cishu="1" cishutype="-1" unlock="4" parameter="10" shelves="0"/>
+		<item id="14" itemid="14010201" itemnum="500" type="8" cost="10000" newcost="10000" cishu="1" cishutype="-1" unlock="4" parameter="20" shelves="0"/>
+		<item id="15" itemid="10000019" itemnum="1" type="8" cost="10000" newcost="10000" cishu="1" cishutype="-1" unlock="4" parameter="50" shelves="0"/>
+		<item id="16" itemid="10000004" itemnum="10" type="8" cost="10000" newcost="10000" cishu="1" cishutype="-1" unlock="4" parameter="100" shelves="0"/>
+		<item id="17" itemid="10000007" itemnum="500" type="8" cost="5000" newcost="5000" cishu="1" cishutype="-1" unlock="4" parameter="200" shelves="0"/>
+		<item id="18" itemid="10000014" itemnum="1000" type="8" cost="4000" newcost="4000" cishu="1" cishutype="-1" unlock="4" parameter="300" shelves="0"/>
+		<item id="19" itemid="10000013" itemnum="1000" type="8" cost="3000" newcost="3000" cishu="1" cishutype="-1" unlock="4" parameter="400" shelves="0"/>
+		<item id="20" itemid="10000012" itemnum="1000" type="8" cost="2000" newcost="2000" cishu="1" cishutype="-1" unlock="4" parameter="500" shelves="0"/>
+	</shop>
+	<shop shopid="7" xulie="7" name="红装商店" time="0" species="0" shopsee="1">
+		<counter counterid="1" countername="1级红装商店" level="1,39">
+			<item id="1" itemid="3000015" itemnum="1" type="10000008" cost="18" newcost="18" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="2" itemid="4000015" itemnum="1" type="10000008" cost="12" newcost="12" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="3" itemid="2000015" itemnum="1" type="10000008" cost="8" newcost="8" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="4" itemid="5000015" itemnum="1" type="10000008" cost="5" newcost="5" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="5" itemid="1000015" itemnum="1" type="10000008" cost="5" newcost="5" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="6" itemid="6000015" itemnum="1" type="10000008" cost="5" newcost="5" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		</counter>
+		<counter counterid="2" countername="40级红装商店" level="40,49">
+			<item id="1" itemid="3000405" itemnum="1" type="10000008" cost="54" newcost="54" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="2" itemid="4000405" itemnum="1" type="10000008" cost="36" newcost="36" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="3" itemid="2000405" itemnum="1" type="10000008" cost="22" newcost="22" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="4" itemid="5000405" itemnum="1" type="10000008" cost="15" newcost="15" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="5" itemid="1000405" itemnum="1" type="10000008" cost="15" newcost="15" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="6" itemid="6000405" itemnum="1" type="10000008" cost="13" newcost="13" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		</counter>
+		<counter counterid="3" countername="50级红装商店" level="50,59">
+			<item id="1" itemid="3000505" itemnum="1" type="10000008" cost="143" newcost="143" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="2" itemid="4000505" itemnum="1" type="10000008" cost="96" newcost="96" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="3" itemid="2000505" itemnum="1" type="10000008" cost="58" newcost="58" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="4" itemid="5000505" itemnum="1" type="10000008" cost="40" newcost="40" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="5" itemid="1000505" itemnum="1" type="10000008" cost="40" newcost="40" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="6" itemid="6000505" itemnum="1" type="10000008" cost="33" newcost="33" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		</counter>
+		<counter counterid="4" countername="60级红装商店" level="60,69">
+			<item id="1" itemid="3000605" itemnum="1" type="10000008" cost="358" newcost="358" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="2" itemid="4000605" itemnum="1" type="10000008" cost="239" newcost="239" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="3" itemid="2000605" itemnum="1" type="10000008" cost="145" newcost="145" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="4" itemid="5000605" itemnum="1" type="10000008" cost="100" newcost="100" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="5" itemid="1000605" itemnum="1" type="10000008" cost="100" newcost="100" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="6" itemid="6000605" itemnum="1" type="10000008" cost="81" newcost="81" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		</counter>
+		<counter counterid="5" countername="70级红装商店" level="70,79">
+			<item id="1" itemid="3000705" itemnum="1" type="10000008" cost="715" newcost="715" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="2" itemid="4000705" itemnum="1" type="10000008" cost="477" newcost="477" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="3" itemid="2000705" itemnum="1" type="10000008" cost="290" newcost="290" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="4" itemid="5000705" itemnum="1" type="10000008" cost="200" newcost="200" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="5" itemid="1000705" itemnum="1" type="10000008" cost="200" newcost="200" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="6" itemid="6000705" itemnum="1" type="10000008" cost="162" newcost="162" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		</counter>
+		<counter counterid="6" countername="80级红装商店" level="80,89">
+			<item id="1" itemid="3000805" itemnum="1" type="10000008" cost="2145" newcost="2145" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="2" itemid="4000805" itemnum="1" type="10000008" cost="1430" newcost="1430" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="3" itemid="2000805" itemnum="1" type="10000008" cost="869" newcost="869" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="4" itemid="5000805" itemnum="1" type="10000008" cost="600" newcost="600" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="5" itemid="1000805" itemnum="1" type="10000008" cost="600" newcost="600" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="6" itemid="6000805" itemnum="1" type="10000008" cost="486" newcost="486" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		</counter>
+		<counter counterid="7" countername="90级红装商店" level="90,99">
+			<item id="1" itemid="3000905" itemnum="1" type="10000008" cost="4290" newcost="4290" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="2" itemid="4000905" itemnum="1" type="10000008" cost="2860" newcost="2860" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="3" itemid="2000905" itemnum="1" type="10000008" cost="1737" newcost="1737" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="4" itemid="5000905" itemnum="1" type="10000008" cost="1200" newcost="1200" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="5" itemid="1000905" itemnum="1" type="10000008" cost="1200" newcost="1200" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="6" itemid="6000905" itemnum="1" type="10000008" cost="971" newcost="971" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		</counter>
+		<counter counterid="8" countername="100级红装商店" level="100,109">
+			<item id="1" itemid="3001005" itemnum="1" type="10000008" cost="7149" newcost="7149" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="2" itemid="4001005" itemnum="1" type="10000008" cost="4766" newcost="4766" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="3" itemid="2001005" itemnum="1" type="10000008" cost="2894" newcost="2894" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="4" itemid="5001005" itemnum="1" type="10000008" cost="2000" newcost="2000" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="5" itemid="1001005" itemnum="1" type="10000008" cost="2000" newcost="2000" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="6" itemid="6001005" itemnum="1" type="10000008" cost="1618" newcost="1618" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		</counter>
+		<counter counterid="9" countername="110级红装商店" level="110,119">
+			<item id="1" itemid="3001105" itemnum="1" type="10000008" cost="12511" newcost="12511" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="2" itemid="4001105" itemnum="1" type="10000008" cost="8341" newcost="8341" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="3" itemid="2001105" itemnum="1" type="10000008" cost="5064" newcost="5064" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="4" itemid="5001105" itemnum="1" type="10000008" cost="3500" newcost="3500" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="5" itemid="1001105" itemnum="1" type="10000008" cost="3500" newcost="3500" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="6" itemid="6001105" itemnum="1" type="10000008" cost="2830" newcost="2830" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		</counter>
+		<counter counterid="10" countername="120级红装商店" level="120,129">
+			<item id="1" itemid="3001205" itemnum="1" type="10000008" cost="17873" newcost="17873" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="2" itemid="4001205" itemnum="1" type="10000008" cost="11915" newcost="11915" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="3" itemid="2001205" itemnum="1" type="10000008" cost="7235" newcost="7235" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="4" itemid="5001205" itemnum="1" type="10000008" cost="5000" newcost="5000" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="5" itemid="1001205" itemnum="1" type="10000008" cost="5000" newcost="5000" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="6" itemid="6001205" itemnum="1" type="10000008" cost="4043" newcost="4043" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		</counter>
+		<counter counterid="11" countername="130级红装商店" level="130,139">
+			<item id="1" itemid="3001305" itemnum="1" type="10000008" cost="21447" newcost="21447" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="2" itemid="4001305" itemnum="1" type="10000008" cost="14298" newcost="14298" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="3" itemid="2001305" itemnum="1" type="10000008" cost="8681" newcost="8681" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="4" itemid="5001305" itemnum="1" type="10000008" cost="6000" newcost="6000" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="5" itemid="1001305" itemnum="1" type="10000008" cost="6000" newcost="6000" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="6" itemid="6001305" itemnum="1" type="10000008" cost="4852" newcost="4852" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		</counter>
+		<counter counterid="12" countername="140级红装商店" level="140,149">
+			<item id="1" itemid="3001405" itemnum="1" type="10000008" cost="42894" newcost="42894" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="2" itemid="4001405" itemnum="1" type="10000008" cost="28596" newcost="28596" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="3" itemid="2001405" itemnum="1" type="10000008" cost="17362" newcost="17362" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="4" itemid="5001405" itemnum="1" type="10000008" cost="12000" newcost="12000" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="5" itemid="1001405" itemnum="1" type="10000008" cost="12000" newcost="12000" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="6" itemid="6001405" itemnum="1" type="10000008" cost="9703" newcost="9703" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		</counter>
+		<counter counterid="13" countername="150级红装商店" level="150,159">
+			<item id="1" itemid="3001505" itemnum="1" type="10000008" cost="71490" newcost="71490" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="2" itemid="4001505" itemnum="1" type="10000008" cost="47660" newcost="47660" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="3" itemid="2001505" itemnum="1" type="10000008" cost="28937" newcost="28937" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="4" itemid="5001505" itemnum="1" type="10000008" cost="20000" newcost="20000" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="5" itemid="1001505" itemnum="1" type="10000008" cost="20000" newcost="20000" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="6" itemid="6001505" itemnum="1" type="10000008" cost="16171" newcost="16171" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		</counter>
+		<counter counterid="14" countername="160级红装商店" level="160,169">
+			<item id="1" itemid="3002605" itemnum="1" type="10000008" cost="107235" newcost="107235" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="2" itemid="4002605" itemnum="1" type="10000008" cost="71490" newcost="71490" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="3" itemid="2002605" itemnum="1" type="10000008" cost="43405" newcost="43405" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="4" itemid="5002605" itemnum="1" type="10000008" cost="30000" newcost="30000" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="5" itemid="1002605" itemnum="1" type="10000008" cost="30000" newcost="30000" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="6" itemid="6002605" itemnum="1" type="10000008" cost="24256" newcost="24256" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		</counter>
+		<counter counterid="15" countername="170级红装商店" level="170,179">
+			<item id="1" itemid="3002705" itemnum="1" type="10000008" cost="142979" newcost="142979" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="2" itemid="4002705" itemnum="1" type="10000008" cost="95320" newcost="95320" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="3" itemid="2002705" itemnum="1" type="10000008" cost="57873" newcost="57873" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="4" itemid="5002705" itemnum="1" type="10000008" cost="40000" newcost="40000" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="5" itemid="1002705" itemnum="1" type="10000008" cost="40000" newcost="40000" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="6" itemid="6002705" itemnum="1" type="10000008" cost="32341" newcost="32341" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		</counter>
+		<counter counterid="16" countername="180级红装商店" level="180,9999">
+			<item id="1" itemid="3002805" itemnum="1" type="10000008" cost="214469" newcost="214469" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="2" itemid="4002805" itemnum="1" type="10000008" cost="142979" newcost="142979" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="3" itemid="2002805" itemnum="1" type="10000008" cost="86809" newcost="86809" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="4" itemid="5002805" itemnum="1" type="10000008" cost="60000" newcost="60000" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="5" itemid="1002805" itemnum="1" type="10000008" cost="60000" newcost="60000" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+			<item id="6" itemid="6002805" itemnum="1" type="10000008" cost="48511" newcost="48511" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		</counter>
+	</shop>
+	<shop shopid="8" xulie="8" name="帮会商店" time="0" species="0" shopsee="1">
+		<item id="1" itemid="14010201" itemnum="5" type="3" cost="300" newcost="300" cishu="2" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="2" itemid="14020201" itemnum="5" type="3" cost="300" newcost="300" cishu="2" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="3" itemid="14030201" itemnum="5" type="3" cost="300" newcost="300" cishu="2" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="4" itemid="14050201" itemnum="5" type="3" cost="300" newcost="300" cishu="2" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="5" itemid="14040201" itemnum="5" type="3" cost="300" newcost="300" cishu="2" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="6" itemid="14070201" itemnum="5" type="3" cost="300" newcost="300" cishu="2" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="11" itemid="14080201" itemnum="5" type="3" cost="300" newcost="300" cishu="2" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="7" itemid="12010001" itemnum="1" type="3" cost="300" newcost="300" cishu="1" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="8" itemid="10000017" itemnum="1" type="3" cost="500" newcost="500" cishu="5" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="9" itemid="10000014" itemnum="20" type="3" cost="100" newcost="100" cishu="2" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="10" itemid="10000100" itemnum="10" type="3" cost="200" newcost="200" cishu="5" cishutype="0" unlock="0" parameter="" shelves="0"/>
+	</shop>
+	<shop shopid="9" xulie="9" name="比武商店" time="0" species="0" shopsee="1">
+		<item id="1" itemid="12080022" itemnum="1" type="9" cost="12000" newcost="12000" cishu="1" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="2" itemid="12090024" itemnum="1" type="9" cost="15000" newcost="15000" cishu="1" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="3" itemid="12090025" itemnum="1" type="9" cost="15000" newcost="15000" cishu="1" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="4" itemid="12100028" itemnum="1" type="9" cost="18000" newcost="18000" cishu="1" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="5" itemid="12000029" itemnum="1" type="9" cost="18000" newcost="18000" cishu="1" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="6" itemid="10000006" itemnum="1" type="9" cost="500" newcost="500" cishu="20" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="7" itemid="10000007" itemnum="1" type="9" cost="50" newcost="50" cishu="500" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="8" itemid="10000008" itemnum="1" type="9" cost="100" newcost="100" cishu="500" cishutype="0" unlock="0" parameter="" shelves="0"/>
+		<item id="9" itemid="13010054" itemnum="1" type="9" cost="20000" newcost="20000" cishu="1" cishutype="-1" unlock="0" parameter="" shelves="0"/>
+		<item id="10" itemid="13010055" itemnum="1" type="9" cost="50000" newcost="50000" cishu="1" cishutype="-1" unlock="0" parameter="" shelves="0"/>
+		<item id="11" itemid="13010056" itemnum="1" type="9" cost="100000" newcost="100000" cishu="1" cishutype="-1" unlock="0" parameter="" shelves="0"/>
+		<item id="12" itemid="13010057" itemnum="1" type="9" cost="200000" newcost="200000" cishu="1" cishutype="-1" unlock="0" parameter="" shelves="0"/>
+		<item id="13" itemid="13010058" itemnum="1" type="9" cost="500000" newcost="500000" cishu="1" cishutype="-1" unlock="0" parameter="" shelves="0"/>
+	</shop>
+	<shop shopid="10" xulie="10" name="神兵商店" time="0" species="0" shopsee="-1">
+		<item id="11" itemid="7003000" itemnum="1" type="7003000" cost="1" newcost="1" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="1" itemid="7003001" itemnum="1" type="7003000" cost="2" newcost="2" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="2" itemid="7003002" itemnum="1" type="7003000" cost="3" newcost="3" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="3" itemid="7003003" itemnum="1" type="7003000" cost="4" newcost="4" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="4" itemid="7003004" itemnum="1" type="7003000" cost="5" newcost="5" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="5" itemid="7003005" itemnum="1" type="7003000" cost="7" newcost="7" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="6" itemid="7003006" itemnum="1" type="7003000" cost="9" newcost="9" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="7" itemid="7003007" itemnum="1" type="7003000" cost="12" newcost="12" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="8" itemid="7003008" itemnum="1" type="7003000" cost="16" newcost="16" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="9" itemid="7003009" itemnum="1" type="7003000" cost="21" newcost="21" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="10" itemid="7003010" itemnum="1" type="7003000" cost="26" newcost="26" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+	</shop>
+	<shop shopid="11" xulie="11" name="神甲商店" time="0" species="0" shopsee="-1">
+		<item id="11" itemid="8003000" itemnum="1" type="8003000" cost="1" newcost="1" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="1" itemid="8003001" itemnum="1" type="8003000" cost="2" newcost="2" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="2" itemid="8003002" itemnum="1" type="8003000" cost="3" newcost="3" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="3" itemid="8003003" itemnum="1" type="8003000" cost="4" newcost="4" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="4" itemid="8003004" itemnum="1" type="8003000" cost="5" newcost="5" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="5" itemid="8003005" itemnum="1" type="8003000" cost="7" newcost="7" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="6" itemid="8003006" itemnum="1" type="8003000" cost="9" newcost="9" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="7" itemid="8003007" itemnum="1" type="8003000" cost="12" newcost="12" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="8" itemid="8003008" itemnum="1" type="8003000" cost="16" newcost="16" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="9" itemid="8003009" itemnum="1" type="8003000" cost="21" newcost="21" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+		<item id="10" itemid="8003010" itemnum="1" type="8003000" cost="26" newcost="26" cishu="" cishutype="" unlock="0" parameter="" shelves="0"/>
+	</shop>
+</root>

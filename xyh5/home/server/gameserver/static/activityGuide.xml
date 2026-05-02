@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+functionId			功能开启								
+activityType			活动类型，=1为日常；=2挑战								
+activityGroup			=1,抓鬼								
+						=2,300环								
+						=3,华山论剑								
+						=4,封妖								
+						=5,材料副本								
+						=6,组队副本								
+						=7,帮会BOSS								
+						=8,帮会上香								
+						=9,运镖								
+						=10,答题								
+						=11,诗中仙								
+						=12,签到								
+						=13,妖王								
+						=14,门派闯关								
+						=15,雁塔								
+						=16,地煞								
+						=17,世界BOSS
+						=18,抓鬼(引导)	
+						=19,师门任务,次数根据count配置的值来显示			
+						=20,师门任务(有引导),次数根据guide_count配置的值来显示	
+						=21,加入帮派任务，完成该任务后消失
+roleMartial 	角色门派,不同角色门派对应不同任务NPC(师门任务专属,可以不配置)
+npcId			npcId，npcId调用maincity.xml中对应的Id，支持配置男女，用逗号隔开，男npcId,女npcId；若只配置一个，则视为通用npc。不配置代表不需要							
+displayType			显示类型，=1显示次数；=2显示时间，=3显示name配置的文本							
+buttonType			按钮状态，=0，打开城镇界面并寻路到对应NPC，=1打开parm配置的对应界面								
+name				活动任务名称																
+whetherItDisappears	完成该任务是否从面板消失，=0，不消失，=1：消失；可不配置，默认为0								
+param			点击按钮打开的界面配置格式:功能Id|界面类，为空时，不做任何处理	当buttonType=0时默认打开主城界面并寻路param可为空							
+rewardPreview	"奖励预览，支持配置多个道具，用封号隔开“;”配置格式：道具1，道具2,为空则不显示……"		
+increaseTheNumber	文本信息,有配置该字段就需要显示,显示位置为次数后面	
+automaticTracking		是否自动追踪任务
+=1,是
+=0否,可不配置(默认为不配置)
+每次要添加该字段时需要通知客户端那边代码进行添加判断,不然无法处理该状态
+buy 是否可购买，可购买时，完成基础次数后排序已完成的前面，购买完且次数都完成视为已完成，沉底
+				
+-->
+	<function functionId="2059"/>
+	<activity activityType="1">
+		<identification activityGroupid="20" name="师门任务(引导)" displayType="1" whetherItDisappears="1" parm="1021" buttonType="0" roleMartial="1,2,3" npcId="14,25,15" rewardPreview="1,5" automaticTracking="1" labelInformation="image_2"/>
+		<identification activityGroupid="18" name="抓鬼(引导)" displayType="1" whetherItDisappears="1" parm="6666" buttonType="0" npcId="16" rewardPreview="1,5" automaticTracking="1" labelInformation="image_2"/>
+		<identification activityGroupid="23" name="跑环任务(引导)" displayType="1" whetherItDisappears="1" parm="1023" buttonType="0" npcId="24" rewardPreview="1,5" automaticTracking="1" labelInformation="image_2"/>
+		<identification activityGroupid="19" name="师门任务" displayType="1" whetherItDisappears="0" parm="1020" buttonType="0" roleMartial="1,2,3" npcId="14,25,15" rewardPreview="10000006,16010003,2,10000014,1,5" automaticTracking="1" labelInformation="image_2"/>
+		<identification activityGroupid="1" name="抓鬼" displayType="1" whetherItDisappears="0" parm="2008" buttonType="0" npcId="16" rewardPreview="10000006,2,1,5" increaseTheNumber="(VIP可购额外次数)" automaticTracking="1" labelInformation="image_2" buy="1"/>
+		<identification activityGroupid="4" name="封妖" displayType="1" whetherItDisappears="0" parm="2054|SealMonsterView" buttonType="1" rewardPreview="10000007,102,101,100" increaseTheNumber="(VIP可增加次数)" automaticTracking="1" labelInformation="image_1" buy="1"/>
+		<identification activityGroupid="5" name="材料副本" displayType="1" whetherItDisappears="0" parm="2009" buttonType="0" npcId="6" rewardPreview="2,10000015,10000016,10000012,10000013,10000014,14010201,14020201,14030201,14040201,14050201" increaseTheNumber="(VIP可增加扫荡次数)" labelInformation="image_1" buy="1"/>
+		<identification activityGroupid="30" name="至尊副本" displayType="1" whetherItDisappears="0" parm="6696" buttonType="0" npcId="31" rewardPreview="2,12000238,16010013,10000101,16010059" labelInformation="image_1"/>
+		<identification activityGroupid="3" name="华山论剑" displayType="1" whetherItDisappears="0" parm="2055" buttonType="0" npcId="13" rewardPreview="2,9,1"/>
+		<identification activityGroupid="21" name="加入帮派" displayType="3" whetherItDisappears="1" parm="2041" buttonType="0" npcId="1" rewardPreview="7,8"/>
+		<identification activityGroupid="8" name="帮会上香" displayType="1" whetherItDisappears="0" parm="2041|GangDonateView" buttonType="1" rewardPreview="16010001,2,7,8"/>
+		<identification activityGroupid="12" name="签到" displayType="1" whetherItDisappears="0" parm="2035|WelfareView" buttonType="1" rewardPreview="10000007,10000004,10000012,10000009,10000014,6"/>
+		<identification activityGroupid="25" name="西游之路" displayType="1" whetherItDisappears="0" parm="4005|ChapterView" buttonType="1" rewardPreview="11042014,11041023,11031026,11031027,10000015,101" increaseTheNumber="(扫荡西游之路)" labelInformation="image_1"/>
+		<identification activityGroupid="22" name="招募" displayType="1" whetherItDisappears="0" parm="2005|PartnerRecruitView" buttonType="1" rewardPreview="110,111,112,113,114,6"/>
+		<identification activityGroupid="2" name="平定安邦" displayType="1" whetherItDisappears="0" parm="1034|SanBaiView" buttonType="1" rewardPreview="10000006,2,10000012,10000013,10000014,5" labelInformation="image_2"/>
+		<identification activityGroupid="24" name="跑环任务" displayType="1" whetherItDisappears="0" parm="1022" buttonType="0" npcId="24" rewardPreview="10000006,10000007,10000004,16010005,16010001,16010004,2,10000016,10000013,10000012,10000014,1,5" increaseTheNumber="(VIP可购额外次数)" automaticTracking="1" labelInformation="image_2" buy="1"/>
+		<identification activityGroupid="6" name="组队副本" displayType="1" whetherItDisappears="0" parm="2056" buttonType="0" npcId="5" rewardPreview="103,104,105,107,1,5" increaseTheNumber="(21点-23点双倍收益)"/>
+		<identification activityGroupid="29" name="官职" displayType="1" whetherItDisappears="0" parm="6668|OfficialdomView" buttonType="1" rewardPreview="11,12"/>
+	</activity>
+	<activity activityType="2">
+		<identification activityGroupid="17" name="三界除魔" displayType="2" whetherItDisappears="0" parm="2018" buttonType="0" npcId="4" rewardPreview="10000006,13010012,13010013,13010014,10000007,10000004,2,10000014,10000003,1"/>
+		<identification activityGroupid="27" name="刑天幻影" displayType="2" whetherItDisappears="0" parm="2067" buttonType="0" npcId="28" rewardPreview="10000006,13010012,13010013,13010014,10000004,2,1"/>
+		<identification activityGroupid="10" name="科举" displayType="2" whetherItDisappears="0" parm="2046|Question" buttonType="1" rewardPreview="13010006,13010007,13010008,13010009,2,10000013,5,1"/>
+		<identification activityGroupid="9" name="运镖" displayType="1" whetherItDisappears="0" parm="1033" buttonType="0" npcId="3" rewardPreview="10000006,10000014,10000016,1,5"/>
+		<identification activityGroupid="11" name="诗中仙" displayType="2" whetherItDisappears="0" parm="2047|poemView" buttonType="1" rewardPreview="4"/>
+		<identification activityGroupid="13" name="妖王" displayType="1" whetherItDisappears="0" parm="2022|DemonKing" buttonType="1" rewardPreview="102,10000007,101,100"/>
+		<identification activityGroupid="16" name="地煞" displayType="1" whetherItDisappears="0" parm="2021|DiShaView" buttonType="1" rewardPreview="102,10000007,2,10000014,101"/>
+		<identification activityGroupid="14" name="门派闯关" displayType="3" whetherItDisappears="0" parm="2017" buttonType="0" npcId="7" rewardPreview="102,2,10000014,10000009,5,1"/>
+		<identification activityGroupid="26" name="生死劫" displayType="3" whetherItDisappears="0" parm="2049" buttonType="0" npcId="27" rewardPreview="10000015,16010001,10000012,1"/>
+		<identification activityGroupid="7" name="帮会BOSS" displayType="1" whetherItDisappears="0" parm="2042|GangBossView" buttonType="1" rewardPreview="14060001,14060002,14060003,14060004,14060005,14060006,14060007,14060008,7,1,5"/>
+		<identification activityGroupid="28" name="比武大会" displayType="3" whetherItDisappears="0" parm="2068|CompetitionView" buttonType="1" rewardPreview="16010014,10000008,13010050,13010051,13010052,13010053,10000007,16010001,10000004,2,10" increaseTheNumber="(21:00-21:30开启活动)"/>
+	</activity>
+	<activityReminder>
+		<!--同样得时间开启,优先只会弹配置前得活动提示,比如比武大会、组队副本、诗中仙都是21点开启,但只会弹比武大会得提示-->
+		<remind Id="10" name="科举" des="1:答题越快（正确）获得的积分越高\n2:答题结束后,按照积分排名获得对应奖励\n3:称号可激活24小时，获得对应属性加成"/>
+		<remind Id="17" name="三界除魔" des="1:挑战BOSS获得大量奖励。\n2:击杀BOSS获得击杀奖励,并发放全服红包!\n3:活动结束后根据对BOSS造成的伤害排名获得排名奖励!"/>
+		<remind Id="27" name="刑天幻影" des="1:挑战BOSS获得大量奖励。\n2:玩家承受伤害越高排名越高奖励越好"/>
+		<remind Id="9" name="运镖" des="1:在双倍时间内运镖,可获得双倍奖励\n2:橙色镖车被掠夺不会减少资源"/>
+		<remind Id="28" name="比武大会" des="1:群雄逐鹿,全服竞技\n2:胜利给予对应积分,失败扣除对应积分\n3:活动结束后根据积分排行给予奖励\n4:活动货币可在比武商店中兑换稀有道具"/>
+		<remind Id="6" name="组队副本" des="1:晚上21:00-23:00银两和经验双倍收益\n2:3人组队收益加成10%\n3:组队副本挑战不限次数,但收益次数有上限"/>
+		<remind Id="11" name="诗中仙" des="1:答对诗仙题目即可获得体力\n2:答错无影响,继续答题直到答对即可\n3:错过的诗中仙活动,当天可消耗元宝追回"/>
+	</activityReminder>
+</root>

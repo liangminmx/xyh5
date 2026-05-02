@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+item	变形道具id
+num	使用数量
+	
+pofessionid	=0男，=1女
+skill	技能id
+change_skill	改变后的技能id
+skill	技能id
+change_skill	改变后的技能id
+skill	技能id
+change_skill	改变后的技能id
+
+-->
+<root>
+	<skill>
+		<changekill skill="1" change_skill="11"/>
+		<changekill skill="2" change_skill="12"/>
+		<changekill skill="3" change_skill="13"/>
+		<changekill skill="4" change_skill="14"/>
+		<changekill skill="81" change_skill="85"/>
+		<changekill skill="82" change_skill="86"/>
+		<changekill skill="83" change_skill="87"/>
+		<changekill skill="84" change_skill="88"/>
+		<changekill skill="41" change_skill="51"/>
+		<changekill skill="11" change_skill="1"/>
+		<changekill skill="12" change_skill="2"/>
+		<changekill skill="13" change_skill="3"/>
+		<changekill skill="14" change_skill="4"/>
+		<changekill skill="85" change_skill="81"/>
+		<changekill skill="86" change_skill="82"/>
+		<changekill skill="87" change_skill="83"/>
+		<changekill skill="88" change_skill="84"/>
+		<changekill skill="51" change_skill="41"/>
+	</skill>
+</root>

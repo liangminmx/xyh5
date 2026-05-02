@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<!--2.1.	ai.xml（怪物ai表）
+字段	说明	字段等级	标签
+aiid	ai对应的id，八位数，默认等于技能id
+前三位中的第一位
+=1代表门派技能
+=2代表特技
+=3其他
+=9代表剧情技能
+中间两位代表门派
+=10大唐官府
+=11方寸山
+=20龙  宫
+=21普陀山
+=30魔王寨
+=31阴曹地府
+最后三位代表Ai的序列	1	ai
+pri	优先级，优先级大的ai行为优先执行，优先级小的ai不执行，多个优先级相同时，按照权重随机执行。	1	ai
+CD	对应ai的执行时间间隔，CD=1代表第一回合释放后，第二回合不能释放，第三回合才可以继续释放。默认值0，代表无CD	1	ai
+round	执行对应行动的回合数,用“，”隔开代表回合数区间，默认值0，代表所有回合	2	time
+stage	执行对应行动的阶段
+1：回合开始时
+2：回合结束时
+3：此单位准备执行行动时
+4：此单位执行行动后	2	time
+target	行为判定的判定对象 
+0：不判断
+1：自身；
+2：友方阵营；
+3：敌方阵营；	3	require
+need	必须满足的判定条件，配置多个need时，所有need后的条件均需要满足
+1：对应门派单位个数为指定数量；
+2：门派总数为指定数量；
+3：存活单位个数为指定数量；
+4：指定门派目标指定属性为指定万分比；
+5：死亡且不附带特定BUFF（死亡召唤，鬼魂术等）的单位数量为指定数量；
+6：指定属性在指定万分比范围的单位数量为指定数量；
+7：有单位释放过指定技能；
+8：中特定BUFF的单位数量为指定数量；
+9：于当前行动中击杀过任意单位；
+10：携带指定的BUFF；	3	require
+or	必须满足的判定条件，配置多个or时，所有or后的条件只需要满足一个即可
+条件同need	3	require
+para1	参数1，根据need，or类型的不同，参数的含义也不同	3	require
+para2	参数2，根据need，or类型的不同，参数的含义也不同	3	require
+para3	参数3，根据need，or类型的不同，参数的含义也不同	3	require
+action	角色使用的行动
+0：普攻
+1：逃跑；
+其他：对应id的主动效果（包括技能和特技等）	3	action
+weight	行动的对应权重	3	action
+camp	目标的阵营(action类型为1时，此处不填)
+1：双方皆可；
+2：友方目标；
+3：敌方目标；	3	action
+goaltype	使用技能，特技时的目标类型(action类型为1或者发动的技能为召唤时，此处不填)
+1：随机存活目标；
+2：指定位置的目标
+3：死亡且不附带特定BUFF的即将最快出手的
+目标；
+4：中特定BUFF的即将最快出手的存活目标；
+5：指定类型属性第几名的存活目标（需要用到
+goalnum字段）
+6：自身；
+7：判定符合条件的存活目标中随机一个；	3	action
+goalnum	用“，”隔开，“，”前的为目标的属性类型
+同角色属性表对应id，例如：
+101：气血上限
+102：魔法上限
+103：愤怒上限
+……
+额外的
+1：当前气血万分比
+2：当前魔法万分比
+3：当前愤怒万分比
+
+“，”后填正数代表在对应阵营存活目标中，对应属性从高到低的排名，1代表最高，5代表第五高
+“，”后填负数代表在对应阵营存活目标中，对应属性从低到高的排名，-1代表最低，-5代表第五低		
+say	怪物喊话内容	3	say
+
+ -->
+ 	<ai aiid="30000001" ai_name="怪物普攻" pri="3000000">
+		<time stage="3">
+			<require target="0"/>
+			<action  action="0" weight="10000" camp="3" goaltype="1"/>
+		</time>
+	</ai>
+	<ai aiid="90000000" ai_name="李靖破釜沉舟" pri="9000000">
+		<time round="1,5" stage="1">
+			<require target="0"/>
+			<action  action="1010001" weight="10000" camp="3" goaltype="1"/>
+		</time>
+	</ai>
+	
+	<ai aiid="90000001" ai_name="测试横扫千军" pri="9000001">
+		<time round="1,5" stage="1">
+			<require target="3" need="1" para1="10" para2="1" alive="3" />
+			<action  action="1010002" weight="10000" camp="3" goaltype="1"/>
+			<say say="既然有大唐在，我就先先手为强了！"/>
+		</time>
+	</ai>
+	
+	<ai aiid="90000002" ai_name="特殊怪" pri="9000002">
+		<time round="1,5" stage="1">
+			<require target="3" need="2" alive="0" para1="3,5"/>
+			<action  action="1" weight="10000" camp="2" goaltype="6"/>
+			<say say="门派这么多，不跟你们玩了!"/>
+		</time>
+	</ai>
+	
+	<ai aiid="10070000" ai_name="横扫" pri="1007000">
+		<time stage="1">
+			<require target="3" need="3" alive="1" para1="3,10" />
+			<require target="1" need="9" alive="0"  para1="10001" />
+			<action  action="1010002" weight="10000" camp="3" goaltype="1"/>
+		</time>
+	</ai>	
+	
+	<ai aiid="20000000" ai_name="笑里藏刀" pri="2000000">
+		<time stage="1">
+			<require target="3" need="4" alive="1" para1="6"  para2="3" para3="6000,10000"/>
+			<action  action="2000000" weight="10000" camp="3" goaltype="7"/>
+		</time>
+	</ai>	
+	
+	<ai aiid="10040005" ai_name="杨柳甘露" pri="1004005">
+		<time stage="1">
+			<require need="5" alive="0" para1="10004,10011；20004,20011" para2="1,10"/>
+			<action  action="1010002" weight="10000" camp="3" goaltype="3" goalnum="1"/>
+		</time>
+	</ai>
+	
+	<ai aiid="10040004" ai_name="普渡众生" pri="1004004">
+		<time stage="1">
+			<require need="6" alive="1" para1="1" para2="0,8000" para3="2,10"/>
+			<action  action="1010002" weight="10000" camp="3" goaltype="5" goalnum="1,-1"/>
+		</time>
+	</ai>
+	
+	<ai aiid="10040003" ai_name="灵动九天" pri="1004003">
+		<time stage="1">
+			<require need="7" alive="0" para1="10001,10005；11001,11005"/>
+			<action  action="1010002" weight="10000" camp="3" goaltype="2" goalnum="1"/>
+		</time>
+	</ai>
+	
+	<ai aiid="20000001" ai_name="玉清诀" pri="2000001">
+		<time stage="1">
+			<require  need="6" alive="1" para1="20001,20005；21001,21005" para2="2,10"/>
+			<action  action="1010002" weight="10000" camp="2" goaltype="4" goalnum="2"/>
+		</time>
+	</ai>
+</root>

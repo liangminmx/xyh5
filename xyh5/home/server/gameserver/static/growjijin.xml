@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+functionid	功能id			
+time	活动开启时限（天）=-1表示永久开启			
+emoenycost	投资花费元宝数			
+groupid	返利id			
+level	领取奖励限制等级			
+emoney	元宝数量			
+bmoney	绑定元宝数量			
+
+
+
+
+-->
+	<function functionid="2011" time="-1" emoneycost="20000"/>
+	<group groupid="1" level="10" emoney="2000" bmoney="4000"/>
+	<group groupid="2" level="20" emoney="2000" bmoney="4000"/>
+	<group groupid="3" level="30" emoney="2000" bmoney="4000"/>
+	<group groupid="4" level="40" emoney="2000" bmoney="4000"/>
+	<group groupid="5" level="50" emoney="2000" bmoney="4000"/>
+	<group groupid="6" level="60" emoney="3000" bmoney="6000"/>
+	<group groupid="7" level="70" emoney="3000" bmoney="6000"/>
+	<group groupid="8" level="80" emoney="5000" bmoney="10000"/>
+	<group groupid="9" level="90" emoney="5000" bmoney="10000"/>
+	<group groupid="10" level="95" emoney="5000" bmoney="10000"/>
+	<group groupid="11" level="100" emoney="8000" bmoney="16000"/>
+	<group groupid="12" level="105" emoney="8000" bmoney="16000"/>
+	<group groupid="13" level="110" emoney="8000" bmoney="16000"/>
+	<group groupid="14" level="115" emoney="10000" bmoney="20000"/>
+	<group groupid="15" level="120" emoney="12000" bmoney="24000"/>
+	<group groupid="16" level="125" emoney="14000" bmoney="28000"/>
+	<group groupid="17" level="130" emoney="16000" bmoney="32000"/>
+	<group groupid="18" level="135" emoney="18000" bmoney="36000"/>
+	<group groupid="19" level="140" emoney="20000" bmoney="40000"/>
+	<group groupid="20" level="145" emoney="25000" bmoney="50000"/>
+	<group groupid="21" level="150" emoney="30000" bmoney="60000"/>
+</root>

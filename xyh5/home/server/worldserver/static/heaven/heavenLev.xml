@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2012 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+maxLev	洞天法宝最高等级
+noticeLev	公告触发等级
+notice	公告内容
+itemExp	每次升级操作可获得的经验
+critRate	经验暴击几率，万分比
+multiple	经验暴击倍数
+autoBuyId	自动购买的道具ID
+lev	洞天法宝等级
+heavenId	提升到当前等级会获得的洞天法宝id
+step	星级
+exp	星级升级经验
+itemID	升级所需的道具ID，可填写多个，以逗号分隔。
+扣除道具时，按顺序扣除。
+itemNum	升级所需的道具数量
+max_hp	洞天法宝等级附加的气血
+attack	洞天法宝等级附加的攻击
+defence	洞天法宝等级附加的防御
+hit	洞天法宝等级附加的命中
+dodge	洞天法宝等级附加的闪避
+crit	洞天法宝等级附加的暴击
+toughness	洞天法宝等级附加的韧性
+  -->
+	<heaven maxLev="10" noticeLev="7" notice="{0}将法宝升至{1}级" itemExp="10" critRate="1000" multiple="2" autoBuyId="103001">
+		<heavenLev lev="1" heavenId="1" name="一阶" maxStep="6">
+			<heavenStep step="0" exp="10" itemID="103011,103001,600019" itemNum="1" max_hp="2255" attack="834" defence="410" hit="108" dodge="106" crit="109" toughness="107"/>
+			<heavenStep step="1" exp="15" itemID="103011,103001,600019" itemNum="1" max_hp="2326" attack="843" defence="413" hit="111" dodge="108" crit="111" toughness="109"/>
+			<heavenStep step="2" exp="20" itemID="103011,103001,600019" itemNum="1" max_hp="2418" attack="856" defence="417" hit="114" dodge="111" crit="115" toughness="112"/>
+			<heavenStep step="3" exp="25" itemID="103011,103001,600019" itemNum="1" max_hp="2536" attack="871" defence="421" hit="117" dodge="114" crit="119" toughness="115"/>
+			<heavenStep step="4" exp="30" itemID="103011,103001,600019" itemNum="1" max_hp="2687" attack="891" defence="427" hit="122" dodge="117" crit="124" toughness="120"/>
+			<heavenStep step="5" exp="60" itemID="103011,103001,600019" itemNum="1" max_hp="2881" attack="917" defence="435" hit="129" dodge="122" crit="131" toughness="125"/>
+		</heavenLev>
+		<heavenLev lev="2" heavenId="2" name="二阶" maxStep="6">
+			<heavenStep step="0" exp="23" itemID="103012,103011,103001,600019" itemNum="1" max_hp="3273" attack="969" defence="451" hit="141" dodge="132" crit="144" toughness="136"/>
+			<heavenStep step="1" exp="29" itemID="103012,103011,103001,600019" itemNum="1" max_hp="3507" attack="1003" defence="460" hit="149" dodge="139" crit="153" toughness="143"/>
+			<heavenStep step="2" exp="36" itemID="103012,103011,103001,600019" itemNum="1" max_hp="3783" attack="1040" defence="471" hit="158" dodge="146" crit="163" toughness="151"/>
+			<heavenStep step="3" exp="45" itemID="103012,103011,103001,600019" itemNum="1" max_hp="4111" attack="1084" defence="484" hit="169" dodge="154" crit="174" toughness="160"/>
+			<heavenStep step="4" exp="57" itemID="103012,103011,103001,600019" itemNum="1" max_hp="4498" attack="1136" defence="500" hit="181" dodge="164" crit="188" toughness="171"/>
+			<heavenStep step="5" exp="112" itemID="103012,103011,103001,600019" itemNum="1" max_hp="4956" attack="1197" defence="518" hit="196" dodge="176" crit="204" toughness="184"/>
+		</heavenLev>
+		<heavenLev lev="3" heavenId="3" name="三阶" maxStep="6">
+			<heavenStep step="0" exp="106" itemID="103013,103012,103011,103001,600019" itemNum="1" max_hp="5820" attack="1313" defence="553" hit="224" dodge="198" crit="234" toughness="209"/>
+			<heavenStep step="1" exp="123" itemID="103013,103012,103011,103001,600019" itemNum="1" max_hp="6272" attack="1381" defence="571" hit="239" dodge="211" crit="252" toughness="222"/>
+			<heavenStep step="2" exp="158" itemID="103013,103012,103011,103001,600019" itemNum="1" max_hp="6778" attack="1449" defence="591" hit="255" dodge="224" crit="270" toughness="236"/>
+			<heavenStep step="3" exp="183" itemID="103013,103012,103011,103001,600019" itemNum="1" max_hp="7343" attack="1526" defence="614" hit="274" dodge="239" crit="290" toughness="252"/>
+			<heavenStep step="4" exp="212" itemID="103013,103012,103011,103001,600019" itemNum="1" max_hp="7975" attack="1612" defence="639" hit="294" dodge="255" crit="312" toughness="270"/>
+			<heavenStep step="5" exp="397" itemID="103013,103012,103011,103001,600019" itemNum="1" max_hp="8682" attack="1708" defence="667" hit="317" dodge="273" crit="337" toughness="290"/>
+		</heavenLev>
+		<heavenLev lev="4" heavenId="4" name="四阶" maxStep="6">
+			<heavenStep step="0" exp="166" itemID="103014,103013,103012,103011,103001,600019" itemNum="2" max_hp="9958" attack="1882" defence="718" hit="358" dodge="307" crit="383" toughness="327"/>
+			<heavenStep step="1" exp="189" itemID="103014,103013,103012,103011,103001,600019" itemNum="2" max_hp="10800" attack="2010" defence="752" hit="386" dodge="331" crit="416" toughness="351"/>
+			<heavenStep step="2" exp="214" itemID="103014,103013,103012,103011,103001,600019" itemNum="2" max_hp="11732" attack="2138" defence="789" hit="416" dodge="355" crit="449" toughness="377"/>
+			<heavenStep step="3" exp="243" itemID="103014,103013,103012,103011,103001,600019" itemNum="2" max_hp="12761" attack="2279" defence="830" hit="449" dodge="382" crit="486" toughness="407"/>
+			<heavenStep step="4" exp="275" itemID="103014,103013,103012,103011,103001,600019" itemNum="2" max_hp="13900" attack="2436" defence="876" hit="486" dodge="412" crit="527" toughness="439"/>
+			<heavenStep step="5" exp="546" itemID="103014,103013,103012,103011,103001,600019" itemNum="2" max_hp="15159" attack="2609" defence="926" hit="527" dodge="445" crit="573" toughness="475"/>
+		</heavenLev>
+		<heavenLev lev="5" heavenId="5" name="五阶" maxStep="6">
+			<heavenStep step="0" exp="273" itemID="103015,103014,103013,103012,103011,103001,600019" itemNum="2" max_hp="17598" attack="2944" defence="1024" hit="607" dodge="509" crit="660" toughness="544"/>
+			<heavenStep step="1" exp="304" itemID="103015,103014,103013,103012,103011,103001,600019" itemNum="2" max_hp="18798" attack="3134" defence="1072" hit="646" dodge="546" crit="710" toughness="579"/>
+			<heavenStep step="2" exp="339" itemID="103015,103014,103013,103012,103011,103001,600019" itemNum="2" max_hp="20090" attack="3314" defence="1124" hit="687" dodge="580" crit="757" toughness="615"/>
+			<heavenStep step="3" exp="378" itemID="103015,103014,103013,103012,103011,103001,600019" itemNum="2" max_hp="21482" attack="3507" defence="1179" hit="733" dodge="617" crit="807" toughness="655"/>
+			<heavenStep step="4" exp="420" itemID="103015,103014,103013,103012,103011,103001,600019" itemNum="2" max_hp="22980" attack="3716" defence="1239" hit="781" dodge="657" crit="862" toughness="698"/>
+			<heavenStep step="5" exp="571" itemID="103015,103014,103013,103012,103011,103001,600019" itemNum="2" max_hp="24594" attack="3940" defence="1304" hit="834" dodge="700" crit="920" toughness="744"/>
+		</heavenLev>
+		<heavenLev lev="6" heavenId="6" name="六阶" maxStep="6">
+			<heavenStep step="0" exp="344" itemID="103016,103015,103014,103013,103012,103011,103001,600019" itemNum="3" max_hp="27785" attack="4383" defence="1431" hit="937" dodge="784" crit="1036" toughness="835"/>
+			<heavenStep step="1" exp="378" itemID="103016,103015,103014,103013,103012,103011,103001,600019" itemNum="3" max_hp="29545" attack="4670" defence="1502" hit="994" dodge="839" crit="1111" toughness="885"/>
+			<heavenStep step="2" exp="415" itemID="103016,103015,103014,103013,103012,103011,103001,600019" itemNum="3" max_hp="31425" attack="4934" defence="1577" hit="1056" dodge="889" crit="1180" toughness="938"/>
+			<heavenStep step="3" exp="455" itemID="103016,103015,103014,103013,103012,103011,103001,600019" itemNum="3" max_hp="33433" attack="5216" defence="1657" hit="1121" dodge="943" crit="1254" toughness="995"/>
+			<heavenStep step="4" exp="499" itemID="103016,103015,103014,103013,103012,103011,103001,600019" itemNum="3" max_hp="35579" attack="5518" defence="1743" hit="1190" dodge="1001" crit="1333" toughness="1057"/>
+			<heavenStep step="5" exp="1017" itemID="103016,103015,103014,103013,103012,103011,103001,600019" itemNum="3" max_hp="37871" attack="5840" defence="1835" hit="1265" dodge="1062" crit="1417" toughness="1122"/>
+		</heavenLev>
+		<heavenLev lev="7" heavenId="7" name="七阶" maxStep="6">
+			<heavenStep step="0" exp="777" itemID="103017,103016,103015,103014,103013,103012,103011,103001,600019" itemNum="3" max_hp="42428" attack="6480" defence="2017" hit="1413" dodge="1185" crit="1584" toughness="1252"/>
+			<heavenStep step="1" exp="857" itemID="103017,103016,103015,103014,103013,103012,103011,103001,600019" itemNum="3" max_hp="45390" attack="6962" defence="2136" hit="1509" dodge="1277" crit="1710" toughness="1336"/>
+			<heavenStep step="2" exp="945" itemID="103017,103016,103015,103014,103013,103012,103011,103001,600019" itemNum="3" max_hp="48568" attack="7414" defence="2263" hit="1612" dodge="1363" crit="1828" toughness="1427"/>
+			<heavenStep step="3" exp="1040" itemID="103017,103016,103015,103014,103013,103012,103011,103001,600019" itemNum="3" max_hp="51980" attack="7898" defence="2399" hit="1723" dodge="1455" crit="1955" toughness="1524"/>
+			<heavenStep step="4" exp="1145" itemID="103017,103016,103015,103014,103013,103012,103011,103001,600019" itemNum="3" max_hp="55641" attack="8418" defence="2546" hit="1842" dodge="1555" crit="2091" toughness="1628"/>
+			<heavenStep step="5" exp="2294" itemID="103017,103016,103015,103014,103013,103012,103011,103001,600019" itemNum="3" max_hp="59571" attack="8976" defence="2703" hit="1970" dodge="1661" crit="2236" toughness="1740"/>
+		</heavenLev>
+		<heavenLev lev="8" heavenId="8" name="八阶" maxStep="6">
+			<heavenStep step="0" exp="1220" itemID="103018,103017,103016,103015,103014,103013,103012,103011,103001,600019" itemNum="4" max_hp="67258" attack="10068" defence="3010" hit="2219" dodge="1870" crit="2522" toughness="1959"/>
+			<heavenStep step="1" exp="1325" itemID="103018,103017,103016,103015,103014,103013,103012,103011,103001,600019" itemNum="4" max_hp="71565" attack="10786" defence="3183" hit="2359" dodge="2007" crit="2709" toughness="2082"/>
+			<heavenStep step="2" exp="1439" itemID="103018,103017,103016,103015,103014,103013,103012,103011,103001,600019" itemNum="4" max_hp="76157" attack="11445" defence="3366" hit="2508" dodge="2133" crit="2881" toughness="2212"/>
+			<heavenStep step="3" exp="1562" itemID="103018,103017,103016,103015,103014,103013,103012,103011,103001,600019" itemNum="4" max_hp="81052" attack="12148" defence="3562" hit="2667" dodge="2267" crit="3065" toughness="2352"/>
+			<heavenStep step="4" exp="1695" itemID="103018,103017,103016,103015,103014,103013,103012,103011,103001,600019" itemNum="4" max_hp="86269" attack="12897" defence="3771" hit="2837" dodge="2410" crit="3261" toughness="2501"/>
+			<heavenStep step="5" exp="3436" itemID="103018,103017,103016,103015,103014,103013,103012,103011,103001,600019" itemNum="4" max_hp="91832" attack="13695" defence="3993" hit="3017" dodge="2562" crit="3469" toughness="2659"/>
+		</heavenLev>
+		<heavenLev lev="9" heavenId="9" name="九阶" maxStep="6">
+			<heavenStep step="0" exp="1464" itemID="103019,103018,103017,103016,103015,103014,103013,103012,103011,103001,600019" itemNum="5" max_hp="102910" attack="15286" defence="4436" hit="3377" dodge="2866" crit="3885" toughness="2975"/>
+			<heavenStep step="1" exp="1562" itemID="103019,103018,103017,103016,103015,103014,103013,103012,103011,103001,600019" itemNum="5" max_hp="107918" attack="16166" defence="4637" hit="3540" dodge="3034" crit="4115" toughness="3117"/>
+			<heavenStep step="2" exp="1666" itemID="103019,103018,103017,103016,103015,103014,103013,103012,103011,103001,600019" itemNum="5" max_hp="113175" attack="16929" defence="4847" hit="3710" dodge="3180" crit="4314" toughness="3267"/>
+			<heavenStep step="3" exp="1777" itemID="103019,103018,103017,103016,103015,103014,103013,103012,103011,103001,600019" itemNum="5" max_hp="118692" attack="17729" defence="5068" hit="3889" dodge="3332" crit="4523" toughness="3424"/>
+			<heavenStep step="4" exp="1895" itemID="103019,103018,103017,103016,103015,103014,103013,103012,103011,103001,600019" itemNum="5" max_hp="124483" attack="18569" defence="5299" hit="4078" dodge="3493" crit="4743" toughness="3589"/>
+			<heavenStep step="5" exp="3884" itemID="103019,103018,103017,103016,103015,103014,103013,103012,103011,103001,600019" itemNum="5" max_hp="130562" attack="19451" defence="5542" hit="4275" dodge="3661" crit="4973" toughness="3762"/>
+		</heavenLev>
+		<heavenLev lev="10" heavenId="10" name="十阶" maxStep="1">
+			<heavenStep step="0" exp="2187" itemID="103019,103001,600019" itemNum="6" max_hp="142829" attack="21231" defence="6033" hit="4673" dodge="4001" crit="5438" toughness="4112"/>
+		</heavenLev>
+		
+		<flashshop probability="100" notice="{0}进阶法宝时触发了限时商店" showtext="您触发了限时商店，可在限定时间内购买超值道具" showtime="10" shoptext="您触发了限时商店，可在限定时间内购买超值道具" time="600" cdtime="6000">
+		    <item itemid="103001" num="10" oldprice="200" newprice="160"/>
+		</flashshop>
+	</heaven>
+</root>

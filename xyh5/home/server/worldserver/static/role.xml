@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+lvup标签
+    id	    初始属性类型
+    name	属性类型名称
+    num     对应类型初始属性值
+    addnum	每升一级增加属性值
+shuxing标签	
+    shuxing	属性编号
+    shuxingzhanli 一点属性对应的战力
+    skillidskillid	技能ID
+    skillzhanli	对应每级战斗
+gongshi标签
+    bupofang	不破防保底伤害系数（万分比），不破防时一定不会暴击，暂定5%
+    fudong	    伤害浮动系数（万分比），暂定10%
+    baojibeilv	基础暴击倍率（万分比），可以养成，暂定200%
+    baojipara	暴击几率参数（万分比） 暴击几率=min（（5%+攻击方暴击值crit/ 暴击几率参数baojipara ）*（1+max（攻击方等级-被击方等级）*5/攻击方等级，0），0.8）
+    dodgepara	闪避几率参数（万分比） 闪避几率=min（（2%+被攻击方闪避值dodge/闪避几率参数dodgepara）*（1+max（（被击方等级-攻击方等级）*5/被击方等级，0），0.6）
+    fennu	    增加愤怒值  
+lv标签
+    lvmax	等级上限
+    fennumax	愤怒上限
+    effect	升级特效文件名
+    sound	升级音效文件名
+    speed	角色在场景中的移动速度
+    staminamax	体力上限
+lvinfo标签
+    lv	等级
+    exp	该级升级经验
+	para 属性系数，万分比
+	-->
+	<!--气血上限-->
+	<lvup id="101" num="0"/>
+	<!--攻击力-->
+	<lvup id="102" num="0"/>
+	<!--防御力-->
+	<lvup id="103" num="0"/>
+	<!--速度-->
+	<lvup id="104" num="0"/>
+	<!--愤怒上限-->
+	<lvup id="105" num="150"/>
+	<!--暴击-->
+	<lvup id="106" num="0"/>
+	<!--暴击伤害-->
+	<lvup id="107" num="0"/>
+	<!--闪避-->
+	<lvup id="108" num="0"/>
+	<!--连击-->
+	<lvup id="109" num="0"/>
+	<!--伤害加成-->
+	<lvup id="110" num="0"/>
+	<!--伤害减免-->
+	<lvup id="111" num="0"/>
+	<!--人族加成-->
+	<lvup id="112" num="0"/>
+	<!--仙族加成-->
+	<lvup id="113" num="0"/>
+	<!--魔族加成-->
+	<lvup id="114" num="0"/>
+	<!--人族减免-->
+	<lvup id="115" num="0"/>
+	<!--仙族减免-->
+	<lvup id="116" num="0"/>
+	<!--魔族减免-->
+	<lvup id="117" num="0"/>
+	<!--进入战斗时愤怒-->
+	<lvup id="119" num="0"/>
+	<!--移动速度-->
+	<lvup id="120" num="300"/>
+	<!--波动下限减值-->
+	<lvup id="121" num="0"/>
+	<!--波动上限增值-->
+	<lvup id="122" num="0"/>
+	<skill skillidskillid="" skillzhanli=""/>
+	<gongshi bupofang="500" fudong="1000" baojibeilv="20000" baojipara="100000" dodgepara="100000" fennu="30" dodgelv="70"/>
+	<lv lvmax="180" fennumax="150" effect="" sound="" staminamax="100">
+	</lv>
+	<shuxinglv shuxingidlv="101" shuxingnumlv="120000"/>
+	<shuxinglv shuxingidlv="102" shuxingnumlv="5000"/>
+	<shuxinglv shuxingidlv="103" shuxingnumlv="5000"/>
+	<shuxinglv shuxingidlv="104" shuxingnumlv="1000"/>
+	<shuxinglv shuxingidlv="106" shuxingnumlv="0"/>
+	<shuxinglv shuxingidlv="110" shuxingnumlv="0"/>
+	<shuxinglv shuxingidlv="111" shuxingnumlv="0"/>
+	<skill roleid="10" skill="1001001,1001002,1001003,1001004,1001005,1001006,1001007,1001008" icon="110001"/>
+	<skill roleid="11" skill="1001001,1001002,1001003,1001004,1001005,1001006,1001007,1001008" icon="110001"/>
+	<skill roleid="20" skill="1003001,1003002,1003003,1003004,1003005,1003006,1003007,1003008" icon="110001"/>
+	<skill roleid="21" skill="1003001,1003002,1003003,1003004,1003005,1003006,1003007,1003008" icon="110001"/>
+	<skill roleid="30" skill="1002001,1002002,1002003,1002004,1002005,1002006,1002007,1002008" icon="110001"/>
+	<skill roleid="31" skill="1002001,1002002,1002003,1002004,1002005,1002006,1002007,1002008" icon="110001"/>
+	<lvinfo lv="1" exp="10000" para="5"/>
+	<lvinfo lv="2" exp="13000" para="10"/>
+	<lvinfo lv="3" exp="16900" para="15"/>
+	<lvinfo lv="4" exp="21970" para="20"/>
+	<lvinfo lv="5" exp="28561" para="25"/>
+	<lvinfo lv="6" exp="36558" para="30"/>
+	<lvinfo lv="7" exp="46794" para="35"/>
+	<lvinfo lv="8" exp="59896" para="40"/>
+	<lvinfo lv="9" exp="76667" para="45"/>
+	<lvinfo lv="10" exp="98134" para="50"/>
+	<lvinfo lv="11" exp="122668" para="60"/>
+	<lvinfo lv="12" exp="153335" para="70"/>
+	<lvinfo lv="13" exp="191669" para="80"/>
+	<lvinfo lv="14" exp="239586" para="90"/>
+	<lvinfo lv="15" exp="299483" para="100"/>
+	<lvinfo lv="16" exp="329483" para="110"/>
+	<lvinfo lv="17" exp="359483" para="120"/>
+	<lvinfo lv="18" exp="389483" para="130"/>
+	<lvinfo lv="19" exp="419483" para="140"/>
+	<lvinfo lv="20" exp="449483" para="150"/>
+	<lvinfo lv="21" exp="499483" para="180"/>
+	<lvinfo lv="22" exp="549483" para="210"/>
+	<lvinfo lv="23" exp="599483" para="240"/>
+	<lvinfo lv="24" exp="649483" para="270"/>
+	<lvinfo lv="25" exp="699483" para="300"/>
+	<lvinfo lv="26" exp="749483" para="330"/>
+	<lvinfo lv="27" exp="799483" para="360"/>
+	<lvinfo lv="28" exp="849483" para="390"/>
+	<lvinfo lv="29" exp="899483" para="420"/>
+	<lvinfo lv="30" exp="949483" para="450"/>
+	<lvinfo lv="31" exp="1029483" para="500"/>
+	<lvinfo lv="32" exp="1109483" para="550"/>
+	<lvinfo lv="33" exp="1189483" para="600"/>
+	<lvinfo lv="34" exp="1269483" para="650"/>
+	<lvinfo lv="35" exp="1349483" para="700"/>
+	<lvinfo lv="36" exp="1429483" para="750"/>
+	<lvinfo lv="37" exp="1509483" para="800"/>
+	<lvinfo lv="38" exp="1589483" para="850"/>
+	<lvinfo lv="39" exp="1669483" para="900"/>
+	<lvinfo lv="40" exp="1749483" para="950"/>
+	<lvinfo lv="41" exp="1849483" para="1020"/>
+	<lvinfo lv="42" exp="1949483" para="1090"/>
+	<lvinfo lv="43" exp="2049483" para="1160"/>
+	<lvinfo lv="44" exp="2149483" para="1230"/>
+	<lvinfo lv="45" exp="2249483" para="1300"/>
+	<lvinfo lv="46" exp="2349483" para="1370"/>
+	<lvinfo lv="47" exp="2449483" para="1440"/>
+	<lvinfo lv="48" exp="2549483" para="1510"/>
+	<lvinfo lv="49" exp="2649483" para="1580"/>
+	<lvinfo lv="50" exp="2749483" para="1650"/>
+	<lvinfo lv="51" exp="2849483" para="1720"/>
+	<lvinfo lv="52" exp="2949483" para="1790"/>
+	<lvinfo lv="53" exp="3049483" para="1860"/>
+	<lvinfo lv="54" exp="3149483" para="1930"/>
+	<lvinfo lv="55" exp="3249483" para="2000"/>
+	<lvinfo lv="56" exp="3349483" para="2070"/>
+	<lvinfo lv="57" exp="3449483" para="2140"/>
+	<lvinfo lv="58" exp="3549483" para="2210"/>
+	<lvinfo lv="59" exp="3649483" para="2280"/>
+	<lvinfo lv="60" exp="3749483" para="2350"/>
+	<lvinfo lv="61" exp="3849483" para="2420"/>
+	<lvinfo lv="62" exp="3949483" para="2490"/>
+	<lvinfo lv="63" exp="4049483" para="2560"/>
+	<lvinfo lv="64" exp="4149483" para="2630"/>
+	<lvinfo lv="65" exp="4249483" para="2700"/>
+	<lvinfo lv="66" exp="5099380" para="2770"/>
+	<lvinfo lv="67" exp="6119256" para="2840"/>
+	<lvinfo lv="68" exp="7343107" para="2910"/>
+	<lvinfo lv="69" exp="8811728" para="2980"/>
+	<lvinfo lv="70" exp="10574074" para="3050"/>
+	<lvinfo lv="71" exp="12688889" para="3120"/>
+	<lvinfo lv="72" exp="15226667" para="3190"/>
+	<lvinfo lv="73" exp="18272000" para="3260"/>
+	<lvinfo lv="74" exp="21926400" para="3330"/>
+	<lvinfo lv="75" exp="26311680" para="3400"/>
+	<lvinfo lv="76" exp="31574016" para="3470"/>
+	<lvinfo lv="77" exp="37888819" para="3540"/>
+	<lvinfo lv="78" exp="45466583" para="3610"/>
+	<lvinfo lv="79" exp="54559900" para="3680"/>
+	<lvinfo lv="80" exp="65471880" para="3750"/>
+	<lvinfo lv="81" exp="75292662" para="3820"/>
+	<lvinfo lv="82" exp="86586561" para="3890"/>
+	<lvinfo lv="83" exp="99574545" para="3960"/>
+	<lvinfo lv="84" exp="114510727" para="4030"/>
+	<lvinfo lv="85" exp="131687336" para="4100"/>
+	<lvinfo lv="86" exp="144856070" para="4170"/>
+	<lvinfo lv="87" exp="159341677" para="4240"/>
+	<lvinfo lv="88" exp="175275845" para="4310"/>
+	<lvinfo lv="89" exp="192803430" para="4380"/>
+	<lvinfo lv="90" exp="212083773" para="4450"/>
+	<lvinfo lv="91" exp="233292150" para="4520"/>
+	<lvinfo lv="92" exp="256621365" para="4590"/>
+	<lvinfo lv="93" exp="282283502" para="4660"/>
+	<lvinfo lv="94" exp="310511852" para="4730"/>
+	<lvinfo lv="95" exp="341563037" para="4800"/>
+	<lvinfo lv="96" exp="368888080" para="4870"/>
+	<lvinfo lv="97" exp="398399126" para="4940"/>
+	<lvinfo lv="98" exp="430271056" para="5010"/>
+	<lvinfo lv="99" exp="464692740" para="5080"/>
+	<lvinfo lv="100" exp="501868159" para="5150"/>
+	<lvinfo lv="101" exp="531980249" para="5220"/>
+	<lvinfo lv="102" exp="563899064" para="5290"/>
+	<lvinfo lv="103" exp="597733008" para="5360"/>
+	<lvinfo lv="104" exp="633596988" para="5430"/>
+	<lvinfo lv="105" exp="671612807" para="5500"/>
+	<lvinfo lv="106" exp="711909575" para="5570"/>
+	<lvinfo lv="107" exp="754624150" para="5640"/>
+	<lvinfo lv="108" exp="799901599" para="5710"/>
+	<lvinfo lv="109" exp="847895695" para="5780"/>
+	<lvinfo lv="110" exp="898769437" para="5850"/>
+	<lvinfo lv="111" exp="952695603" para="5920"/>
+	<lvinfo lv="112" exp="1009857339" para="5990"/>
+	<lvinfo lv="113" exp="1070448779" para="6060"/>
+	<lvinfo lv="114" exp="1134675706" para="6130"/>
+	<lvinfo lv="115" exp="1202756248" para="6200"/>
+	<lvinfo lv="116" exp="1274921623" para="6270"/>
+	<lvinfo lv="117" exp="1351416920" para="6340"/>
+	<lvinfo lv="118" exp="1432501935" para="6410"/>
+	<lvinfo lv="119" exp="1518452051" para="6480"/>
+	<lvinfo lv="120" exp="1609559174" para="6550"/>
+	<lvinfo lv="121" exp="1706132724" para="6650"/>
+	<lvinfo lv="122" exp="1808500687" para="6750"/>
+	<lvinfo lv="123" exp="1917010728" para="6850"/>
+	<lvinfo lv="124" exp="2032031372" para="6950"/>
+	<lvinfo lv="125" exp="2153953254" para="7050"/>
+	<lvinfo lv="126" exp="2283190449" para="7150"/>
+	<lvinfo lv="127" exp="2420181876" para="7250"/>
+	<lvinfo lv="128" exp="2565392789" para="7350"/>
+	<lvinfo lv="129" exp="2719316356" para="7450"/>
+	<lvinfo lv="130" exp="2882475337" para="7550"/>
+	<lvinfo lv="131" exp="2997774350" para="7670"/>
+	<lvinfo lv="132" exp="3117685324" para="7790"/>
+	<lvinfo lv="133" exp="3242392737" para="7910"/>
+	<lvinfo lv="134" exp="3372088446" para="8030"/>
+	<lvinfo lv="135" exp="3506971984" para="8150"/>
+	<lvinfo lv="136" exp="3647250863" para="8270"/>
+	<lvinfo lv="137" exp="3793140898" para="8390"/>
+	<lvinfo lv="138" exp="3944866534" para="8510"/>
+	<lvinfo lv="139" exp="4102661195" para="8630"/>
+	<lvinfo lv="140" exp="4266767643" para="8750"/>
+	<lvinfo lv="141" exp="4352102996" para="8870"/>
+	<lvinfo lv="142" exp="4439145056" para="8990"/>
+	<lvinfo lv="143" exp="4527927957" para="9110"/>
+	<lvinfo lv="144" exp="4618486516" para="9230"/>
+	<lvinfo lv="145" exp="4710856246" para="9350"/>
+	<lvinfo lv="146" exp="4805073371" para="9470"/>
+	<lvinfo lv="147" exp="4901174838" para="9590"/>
+	<lvinfo lv="148" exp="4999198335" para="9710"/>
+	<lvinfo lv="149" exp="5099182302" para="9830"/>
+	<lvinfo lv="150" exp="5201165948" para="10000"/>
+	<lvinfo lv="151" exp="5357200926" para="10100"/>
+	<lvinfo lv="152" exp="5517916954" para="10200"/>
+	<lvinfo lv="153" exp="5683454463" para="10300"/>
+	<lvinfo lv="154" exp="5853958097" para="10400"/>
+	<lvinfo lv="155" exp="6029576840" para="10500"/>
+	<lvinfo lv="156" exp="6210464145" para="10600"/>
+	<lvinfo lv="157" exp="6396778069" para="10700"/>
+	<lvinfo lv="158" exp="6588681411" para="10800"/>
+	<lvinfo lv="159" exp="6786341854" para="10900"/>
+	<lvinfo lv="160" exp="6989932109" para="11000"/>
+	<lvinfo lv="161" exp="7199630072" para="11100"/>
+	<lvinfo lv="162" exp="7415618975" para="11200"/>
+	<lvinfo lv="163" exp="7638087544" para="11300"/>
+	<lvinfo lv="164" exp="7867230170" para="11400"/>
+	<lvinfo lv="165" exp="8103247075" para="11500"/>
+	<lvinfo lv="166" exp="8346344488" para="11600"/>
+	<lvinfo lv="167" exp="8596734822" para="11700"/>
+	<lvinfo lv="168" exp="8854636867" para="11800"/>
+	<lvinfo lv="169" exp="9120275973" para="11900"/>
+	<lvinfo lv="170" exp="9257080112" para="12000"/>
+	<lvinfo lv="171" exp="9395936314" para="12100"/>
+	<lvinfo lv="172" exp="9536875359" para="12200"/>
+	<lvinfo lv="173" exp="9679928489" para="12300"/>
+	<lvinfo lv="174" exp="9825127417" para="12400"/>
+	<lvinfo lv="175" exp="9972504328" para="12500"/>
+	<lvinfo lv="176" exp="10122091893" para="12600"/>
+	<lvinfo lv="177" exp="10273923271" para="12700"/>
+	<lvinfo lv="178" exp="10428032120" para="12800"/>
+	<lvinfo lv="179" exp="10584452602" para="12900"/>
+	<lvinfo lv="180" exp="10743219391" para="13000"/>
+	<lvinfo lv="181" exp="10904367682" para="13100"/>
+	<lvinfo lv="182" exp="11067933197" para="13200"/>
+	<lvinfo lv="183" exp="11233952195" para="13300"/>
+	<lvinfo lv="184" exp="11402461478" para="13400"/>
+	<lvinfo lv="185" exp="11573498400" para="13500"/>
+	<lvinfo lv="186" exp="11747100876" para="13600"/>
+	<lvinfo lv="187" exp="11923307389" para="13700"/>
+	<lvinfo lv="188" exp="12102157000" para="13800"/>
+	<lvinfo lv="189" exp="12283689355" para="13900"/>
+	<lvinfo lv="190" exp="12467944696" para="14000"/>
+	<lvinfo lv="191" exp="12654963866" para="14100"/>
+	<lvinfo lv="192" exp="12844788324" para="14200"/>
+	<lvinfo lv="193" exp="13037460149" para="14300"/>
+	<lvinfo lv="194" exp="13233022051" para="14400"/>
+	<lvinfo lv="195" exp="13431517382" para="14500"/>
+	<lvinfo lv="196" exp="13632990143" para="14600"/>
+	<lvinfo lv="197" exp="13837484995" para="14700"/>
+	<lvinfo lv="198" exp="14045047270" para="14800"/>
+	<lvinfo lv="199" exp="14185497742" para="14900"/>
+	<lvinfo lv="200" exp="14270610729" para="15000"/>
+	<lvinfo lv="201" exp="14356234393" para="15100"/>
+	<lvinfo lv="202" exp="14442371799" para="15200"/>
+	<lvinfo lv="203" exp="14529026030" para="15300"/>
+	<lvinfo lv="204" exp="14616200186" para="15400"/>
+	<lvinfo lv="205" exp="14703897388" para="15500"/>
+	<lvinfo lv="206" exp="14792120772" para="15600"/>
+	<lvinfo lv="207" exp="14880873497" para="15700"/>
+	<lvinfo lv="208" exp="14970158737" para="15800"/>
+	<lvinfo lv="209" exp="15059979690" para="15900"/>
+	<lvinfo lv="210" exp="15150339568" para="16000"/>
+	<lvinfo lv="211" exp="15241241605" para="16100"/>
+	<lvinfo lv="212" exp="15332689055" para="16200"/>
+	<lvinfo lv="213" exp="15424685189" para="16300"/>
+	<lvinfo lv="214" exp="15517233301" para="16400"/>
+	<lvinfo lv="215" exp="15610336700" para="16500"/>
+	<lvinfo lv="216" exp="15703998721" para="16600"/>
+	<lvinfo lv="217" exp="15798222713" para="16700"/>
+	<lvinfo lv="218" exp="15893012049" para="16800"/>
+	<lvinfo lv="219" exp="15988370121" para="16900"/>
+	<lvinfo lv="220" exp="16084300342" para="17000"/>
+	<lvinfo lv="221" exp="16180806144" para="17100"/>
+	<lvinfo lv="222" exp="16277890981" para="17200"/>
+	<lvinfo lv="223" exp="16375558327" para="17300"/>
+	<lvinfo lv="224" exp="16473811677" para="17400"/>
+	<lvinfo lv="225" exp="16572654547" para="17500"/>
+	<lvinfo lv="226" exp="16672090474" para="17600"/>
+	<lvinfo lv="227" exp="16772123017" para="17700"/>
+	<lvinfo lv="228" exp="16872755755" para="17800"/>
+	<lvinfo lv="229" exp="16973992290" para="17900"/>
+	<lvinfo lv="230" exp="17075836244" para="18000"/>
+	<lvinfo lv="231" exp="17178291261" para="18100"/>
+	<lvinfo lv="232" exp="17281361009" para="18200"/>
+	<lvinfo lv="233" exp="17385049175" para="18300"/>
+	<lvinfo lv="234" exp="17489359470" para="18400"/>
+	<lvinfo lv="235" exp="17594295626" para="18500"/>
+	<lvinfo lv="236" exp="17699861400" para="18600"/>
+	<lvinfo lv="237" exp="17806060569" para="18700"/>
+	<lvinfo lv="238" exp="17912896932" para="18800"/>
+	<lvinfo lv="239" exp="18020374314" para="18900"/>
+	<lvinfo lv="240" exp="18128496560" para="19000"/>
+	<lvinfo lv="241" exp="18237267539" para="19100"/>
+	<lvinfo lv="242" exp="18346691144" para="19200"/>
+	<lvinfo lv="243" exp="18456771291" para="19300"/>
+	<lvinfo lv="244" exp="18567511919" para="19400"/>
+	<lvinfo lv="245" exp="18678916990" para="19500"/>
+	<lvinfo lv="246" exp="18790990492" para="19600"/>
+	<lvinfo lv="247" exp="18903736435" para="19700"/>
+	<lvinfo lv="248" exp="19017158854" para="19800"/>
+	<lvinfo lv="249" exp="19131261807" para="19900"/>
+	<lvinfo lv="250" exp="19179089961" para="20000"/>
+	<lvinfo lv="251" exp="19227037686" para="20100"/>
+	<lvinfo lv="252" exp="19275105280" para="20200"/>
+	<lvinfo lv="253" exp="19323293044" para="20300"/>
+	<lvinfo lv="254" exp="19371601276" para="20400"/>
+	<lvinfo lv="255" exp="19420030279" para="20500"/>
+	<lvinfo lv="256" exp="19468580355" para="20600"/>
+	<lvinfo lv="257" exp="19517251806" para="20700"/>
+	<lvinfo lv="258" exp="19566044936" para="20800"/>
+	<lvinfo lv="259" exp="19614960048" para="20900"/>
+	<lvinfo lv="260" exp="19663997448" para="21000"/>
+	<lvinfo lv="261" exp="19713157442" para="21100"/>
+	<lvinfo lv="262" exp="19762440335" para="21200"/>
+	<lvinfo lv="263" exp="19811846436" para="21300"/>
+	<lvinfo lv="264" exp="19861376052" para="21400"/>
+	<lvinfo lv="265" exp="19911029492" para="21500"/>
+	<lvinfo lv="266" exp="19960807066" para="21600"/>
+	<lvinfo lv="267" exp="20010709084" para="21700"/>
+	<lvinfo lv="268" exp="20060735856" para="21800"/>
+	<lvinfo lv="269" exp="20110887696" para="21900"/>
+	<lvinfo lv="270" exp="20161164915" para="22000"/>
+	<lvinfo lv="271" exp="20211567828" para="22100"/>
+	<lvinfo lv="272" exp="20262096747" para="22200"/>
+	<lvinfo lv="273" exp="20312751989" para="22300"/>
+	<lvinfo lv="274" exp="20363533869" para="22400"/>
+	<lvinfo lv="275" exp="20414442704" para="22500"/>
+	<lvinfo lv="276" exp="20465478810" para="22600"/>
+	<lvinfo lv="277" exp="20516642507" para="22700"/>
+	<lvinfo lv="278" exp="20567934114" para="22800"/>
+	<lvinfo lv="279" exp="20619353949" para="22900"/>
+	<lvinfo lv="280" exp="20670902334" para="23000"/>
+	<lvinfo lv="281" exp="20722579590" para="23100"/>
+	<lvinfo lv="282" exp="20774386039" para="23200"/>
+	<lvinfo lv="283" exp="20826322004" para="23300"/>
+	<lvinfo lv="284" exp="20878387809" para="23400"/>
+	<lvinfo lv="285" exp="20930583778" para="23500"/>
+	<lvinfo lv="286" exp="20982910238" para="23600"/>
+	<lvinfo lv="287" exp="21035367513" para="23700"/>
+	<lvinfo lv="288" exp="21087955932" para="23800"/>
+	<lvinfo lv="289" exp="21140675822" para="23900"/>
+	<lvinfo lv="290" exp="21193527512" para="24000"/>
+	<lvinfo lv="291" exp="21246511330" para="24100"/>
+	<lvinfo lv="292" exp="21299627609" para="24200"/>
+	<lvinfo lv="293" exp="21352876678" para="24300"/>
+	<lvinfo lv="294" exp="21406258869" para="24400"/>
+	<lvinfo lv="295" exp="21459774517" para="24500"/>
+	<lvinfo lv="296" exp="21513423953" para="24600"/>
+	<lvinfo lv="297" exp="21567207513" para="24700"/>
+	<lvinfo lv="298" exp="21621125531" para="24800"/>
+	<lvinfo lv="299" exp="21675178345" para="24900"/>
+	<lvinfo lv="300" exp="21729366291" para="25000"/>
+	<jiban jiban="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18"/>
+	<order order="1" lvupneed="0" lvupcost="10000015,75" pet="1" quality="2">
+		<shuxing shuxingid="101" shuxingnum="0"/>
+		<shuxing shuxingid="102" shuxingnum="0"/>
+		<shuxing shuxingid="103" shuxingnum="0"/>
+		<shuxing shuxingid="104" shuxingnum="0"/>
+		<shuxing shuxingid="112" shuxingnum="0"/>
+		<shuxing shuxingid="113" shuxingnum="0"/>
+		<shuxing shuxingid="114" shuxingnum="0"/>
+		<shuxing shuxingid="115" shuxingnum="0"/>
+		<shuxing shuxingid="116" shuxingnum="0"/>
+		<shuxing shuxingid="117" shuxingnum="0"/>
+	</order>
+	<order order="2" lvupneed="0" lvupcost="10000015,150" pet="1" quality="2">
+		<shuxing shuxingid="101" shuxingnum="91800"/>
+		<shuxing shuxingid="102" shuxingnum="7650"/>
+		<shuxing shuxingid="103" shuxingnum="3825"/>
+		<shuxing shuxingid="104" shuxingnum="2"/>
+		<shuxing shuxingid="112" shuxingnum="0"/>
+		<shuxing shuxingid="113" shuxingnum="0"/>
+		<shuxing shuxingid="114" shuxingnum="0"/>
+		<shuxing shuxingid="115" shuxingnum="0"/>
+		<shuxing shuxingid="116" shuxingnum="0"/>
+		<shuxing shuxingid="117" shuxingnum="0"/>
+	</order>
+	<order order="3" lvupneed="0" lvupcost="10000015,300" pet="1" quality="2">
+		<shuxing shuxingid="101" shuxingnum="259200"/>
+		<shuxing shuxingid="102" shuxingnum="21600"/>
+		<shuxing shuxingid="103" shuxingnum="10800"/>
+		<shuxing shuxingid="104" shuxingnum="7"/>
+		<shuxing shuxingid="112" shuxingnum="0"/>
+		<shuxing shuxingid="113" shuxingnum="0"/>
+		<shuxing shuxingid="114" shuxingnum="0"/>
+		<shuxing shuxingid="115" shuxingnum="0"/>
+		<shuxing shuxingid="116" shuxingnum="0"/>
+		<shuxing shuxingid="117" shuxingnum="0"/>
+	</order>
+	<order order="4" lvupneed="70" lvupcost="10000015,450;10000042,200" pet="1" quality="2">
+		<shuxing shuxingid="101" shuxingnum="567000"/>
+		<shuxing shuxingid="102" shuxingnum="47250"/>
+		<shuxing shuxingid="103" shuxingnum="23625"/>
+		<shuxing shuxingid="104" shuxingnum="15"/>
+		<shuxing shuxingid="112" shuxingnum="0"/>
+		<shuxing shuxingid="113" shuxingnum="0"/>
+		<shuxing shuxingid="114" shuxingnum="0"/>
+		<shuxing shuxingid="115" shuxingnum="0"/>
+		<shuxing shuxingid="116" shuxingnum="0"/>
+		<shuxing shuxingid="117" shuxingnum="0"/>
+	</order>
+	<order order="5" lvupneed="80" lvupcost="10000015,600" pet="1" quality="3">
+		<shuxing shuxingid="101" shuxingnum="2484000"/>
+		<shuxing shuxingid="102" shuxingnum="207000"/>
+		<shuxing shuxingid="103" shuxingnum="103500"/>
+		<shuxing shuxingid="104" shuxingnum="69"/>
+		<shuxing shuxingid="112" shuxingnum="0"/>
+		<shuxing shuxingid="113" shuxingnum="0"/>
+		<shuxing shuxingid="114" shuxingnum="0"/>
+		<shuxing shuxingid="115" shuxingnum="0"/>
+		<shuxing shuxingid="116" shuxingnum="0"/>
+		<shuxing shuxingid="117" shuxingnum="0"/>
+	</order>
+	<order order="6" lvupneed="90" lvupcost="10000015,750;10000042,300" pet="1" quality="3">
+		<shuxing shuxingid="101" shuxingnum="2808000"/>
+		<shuxing shuxingid="102" shuxingnum="234000"/>
+		<shuxing shuxingid="103" shuxingnum="117000"/>
+		<shuxing shuxingid="104" shuxingnum="78"/>
+		<shuxing shuxingid="112" shuxingnum="0"/>
+		<shuxing shuxingid="113" shuxingnum="0"/>
+		<shuxing shuxingid="114" shuxingnum="0"/>
+		<shuxing shuxingid="115" shuxingnum="0"/>
+		<shuxing shuxingid="116" shuxingnum="0"/>
+		<shuxing shuxingid="117" shuxingnum="0"/>
+	</order>
+	<order order="7" lvupneed="100" lvupcost="10000015,1200" pet="1" quality="3">
+		<shuxing shuxingid="101" shuxingnum="4320000"/>
+		<shuxing shuxingid="102" shuxingnum="360000"/>
+		<shuxing shuxingid="103" shuxingnum="180000"/>
+		<shuxing shuxingid="104" shuxingnum="120"/>
+		<shuxing shuxingid="119" shuxingnum="30"/>
+		<shuxing shuxingid="112" shuxingnum="0"/>
+		<shuxing shuxingid="113" shuxingnum="0"/>
+		<shuxing shuxingid="114" shuxingnum="0"/>
+		<shuxing shuxingid="115" shuxingnum="0"/>
+		<shuxing shuxingid="116" shuxingnum="0"/>
+		<shuxing shuxingid="117" shuxingnum="0"/>
+	</order>
+	<order order="8" lvupneed="110" lvupcost="10000015,2400;10000042,500" pet="1" quality="4">
+		<shuxing shuxingid="101" shuxingnum="4860000"/>
+		<shuxing shuxingid="102" shuxingnum="405000"/>
+		<shuxing shuxingid="103" shuxingnum="202500"/>
+		<shuxing shuxingid="104" shuxingnum="135"/>
+		<shuxing shuxingid="119" shuxingnum="30"/>
+		<shuxing shuxingid="112" shuxingnum="0"/>
+		<shuxing shuxingid="113" shuxingnum="0"/>
+		<shuxing shuxingid="114" shuxingnum="0"/>
+		<shuxing shuxingid="115" shuxingnum="0"/>
+		<shuxing shuxingid="116" shuxingnum="0"/>
+		<shuxing shuxingid="117" shuxingnum="0"/>
+	</order>
+	<order order="9" lvupneed="115" lvupcost="10000015,4500" pet="1" quality="4">
+		<shuxing shuxingid="101" shuxingnum="8100000"/>
+		<shuxing shuxingid="102" shuxingnum="675000"/>
+		<shuxing shuxingid="103" shuxingnum="337500"/>
+		<shuxing shuxingid="104" shuxingnum="225"/>
+		<shuxing shuxingid="119" shuxingnum="60"/>
+		<shuxing shuxingid="112" shuxingnum="0"/>
+		<shuxing shuxingid="113" shuxingnum="0"/>
+		<shuxing shuxingid="114" shuxingnum="0"/>
+		<shuxing shuxingid="115" shuxingnum="0"/>
+		<shuxing shuxingid="116" shuxingnum="0"/>
+		<shuxing shuxingid="117" shuxingnum="0"/>
+	</order>
+	<order order="10" lvupneed="120" lvupcost="10000015,7500;10000042,750" pet="1" quality="4">
+		<shuxing shuxingid="101" shuxingnum="10800000"/>
+		<shuxing shuxingid="102" shuxingnum="900000"/>
+		<shuxing shuxingid="103" shuxingnum="450000"/>
+		<shuxing shuxingid="104" shuxingnum="300"/>
+		<shuxing shuxingid="119" shuxingnum="60"/>
+		<shuxing shuxingid="112" shuxingnum="0"/>
+		<shuxing shuxingid="113" shuxingnum="0"/>
+		<shuxing shuxingid="114" shuxingnum="0"/>
+		<shuxing shuxingid="115" shuxingnum="0"/>
+		<shuxing shuxingid="116" shuxingnum="0"/>
+		<shuxing shuxingid="117" shuxingnum="0"/>
+	</order>
+	<order order="11" lvupneed="130" lvupcost="10000015,7500" pet="1" quality="5">
+		<shuxing shuxingid="101" shuxingnum="17820000"/>
+		<shuxing shuxingid="102" shuxingnum="1485000"/>
+		<shuxing shuxingid="103" shuxingnum="742500"/>
+		<shuxing shuxingid="104" shuxingnum="495"/>
+		<shuxing shuxingid="119" shuxingnum="60"/>
+		<shuxing shuxingid="112" shuxingnum="0"/>
+		<shuxing shuxingid="113" shuxingnum="0"/>
+		<shuxing shuxingid="114" shuxingnum="0"/>
+		<shuxing shuxingid="115" shuxingnum="0"/>
+		<shuxing shuxingid="116" shuxingnum="0"/>
+		<shuxing shuxingid="117" shuxingnum="0"/>
+	</order>
+	<order order="12" lvupneed="130" lvupcost="10000015,7500;10000042,1000" pet="1" quality="5">
+		<shuxing shuxingid="101" shuxingnum="21600000"/>
+		<shuxing shuxingid="102" shuxingnum="1800000"/>
+		<shuxing shuxingid="103" shuxingnum="900000"/>
+		<shuxing shuxingid="104" shuxingnum="600"/>
+		<shuxing shuxingid="119" shuxingnum="60"/>
+		<shuxing shuxingid="112" shuxingnum="0"/>
+		<shuxing shuxingid="113" shuxingnum="0"/>
+		<shuxing shuxingid="114" shuxingnum="0"/>
+		<shuxing shuxingid="115" shuxingnum="0"/>
+		<shuxing shuxingid="116" shuxingnum="0"/>
+		<shuxing shuxingid="117" shuxingnum="0"/>
+	</order>
+	<order order="13" lvupneed="130" lvupcost="10000015,7500" pet="1" quality="5">
+		<shuxing shuxingid="101" shuxingnum="28620000"/>
+		<shuxing shuxingid="102" shuxingnum="2385000"/>
+		<shuxing shuxingid="103" shuxingnum="1192500"/>
+		<shuxing shuxingid="104" shuxingnum="795"/>
+		<shuxing shuxingid="119" shuxingnum="60"/>
+		<shuxing shuxingid="112" shuxingnum="0"/>
+		<shuxing shuxingid="113" shuxingnum="0"/>
+		<shuxing shuxingid="114" shuxingnum="0"/>
+		<shuxing shuxingid="115" shuxingnum="0"/>
+		<shuxing shuxingid="116" shuxingnum="0"/>
+		<shuxing shuxingid="117" shuxingnum="0"/>
+	</order>
+	<order order="14" lvupneed="130" lvupcost="10000015,7500;10000042,1250" pet="1" quality="5">
+		<shuxing shuxingid="101" shuxingnum="31860000"/>
+		<shuxing shuxingid="102" shuxingnum="2655000"/>
+		<shuxing shuxingid="103" shuxingnum="1327500"/>
+		<shuxing shuxingid="104" shuxingnum="885"/>
+		<shuxing shuxingid="119" shuxingnum="60"/>
+		<shuxing shuxingid="112" shuxingnum="0"/>
+		<shuxing shuxingid="113" shuxingnum="0"/>
+		<shuxing shuxingid="114" shuxingnum="0"/>
+		<shuxing shuxingid="115" shuxingnum="0"/>
+		<shuxing shuxingid="116" shuxingnum="0"/>
+		<shuxing shuxingid="117" shuxingnum="0"/>
+	</order>
+	<order order="15" lvupneed="130" lvupcost="10000015,7500" pet="1" quality="5">
+		<shuxing shuxingid="101" shuxingnum="37800000"/>
+		<shuxing shuxingid="102" shuxingnum="3150000"/>
+		<shuxing shuxingid="103" shuxingnum="1575000"/>
+		<shuxing shuxingid="104" shuxingnum="1050"/>
+		<shuxing shuxingid="119" shuxingnum="60"/>
+		<shuxing shuxingid="112" shuxingnum="0"/>
+		<shuxing shuxingid="113" shuxingnum="0"/>
+		<shuxing shuxingid="114" shuxingnum="0"/>
+		<shuxing shuxingid="115" shuxingnum="0"/>
+		<shuxing shuxingid="116" shuxingnum="0"/>
+		<shuxing shuxingid="117" shuxingnum="0"/>
+	</order>
+	<order order="16" lvupneed="130" lvupcost="10000015,7500;10000042,1500" pet="1" quality="5">
+		<shuxing shuxingid="101" shuxingnum="38880000"/>
+		<shuxing shuxingid="102" shuxingnum="3240000"/>
+		<shuxing shuxingid="103" shuxingnum="1620000"/>
+		<shuxing shuxingid="104" shuxingnum="1080"/>
+		<shuxing shuxingid="119" shuxingnum="60"/>
+		<shuxing shuxingid="112" shuxingnum="0"/>
+		<shuxing shuxingid="113" shuxingnum="0"/>
+		<shuxing shuxingid="114" shuxingnum="0"/>
+		<shuxing shuxingid="115" shuxingnum="0"/>
+		<shuxing shuxingid="116" shuxingnum="0"/>
+		<shuxing shuxingid="117" shuxingnum="0"/>
+	</order>
+	<order order="17" lvupneed="130" lvupcost="10000015,7500" pet="1" quality="5">
+		<shuxing shuxingid="101" shuxingnum="43200000"/>
+		<shuxing shuxingid="102" shuxingnum="3600000"/>
+		<shuxing shuxingid="103" shuxingnum="1800000"/>
+		<shuxing shuxingid="104" shuxingnum="1200"/>
+		<shuxing shuxingid="119" shuxingnum="60"/>
+		<shuxing shuxingid="112" shuxingnum="0"/>
+		<shuxing shuxingid="113" shuxingnum="0"/>
+		<shuxing shuxingid="114" shuxingnum="0"/>
+		<shuxing shuxingid="115" shuxingnum="0"/>
+		<shuxing shuxingid="116" shuxingnum="0"/>
+		<shuxing shuxingid="117" shuxingnum="0"/>
+	</order>
+	<order order="18" lvupneed="130" lvupcost="10000015,7500;10000042,1750" pet="1" quality="5">
+		<shuxing shuxingid="101" shuxingnum="44280000"/>
+		<shuxing shuxingid="102" shuxingnum="3690000"/>
+		<shuxing shuxingid="103" shuxingnum="1845000"/>
+		<shuxing shuxingid="104" shuxingnum="1230"/>
+		<shuxing shuxingid="119" shuxingnum="60"/>
+		<shuxing shuxingid="112" shuxingnum="0"/>
+		<shuxing shuxingid="113" shuxingnum="0"/>
+		<shuxing shuxingid="114" shuxingnum="0"/>
+		<shuxing shuxingid="115" shuxingnum="0"/>
+		<shuxing shuxingid="116" shuxingnum="0"/>
+		<shuxing shuxingid="117" shuxingnum="0"/>
+	</order>
+	<order order="19" lvupneed="130" lvupcost="10000015,7500" pet="1" quality="5">
+		<shuxing shuxingid="101" shuxingnum="48600000"/>
+		<shuxing shuxingid="102" shuxingnum="4050000"/>
+		<shuxing shuxingid="103" shuxingnum="2025000"/>
+		<shuxing shuxingid="104" shuxingnum="1350"/>
+		<shuxing shuxingid="119" shuxingnum="60"/>
+		<shuxing shuxingid="112" shuxingnum="0"/>
+		<shuxing shuxingid="113" shuxingnum="0"/>
+		<shuxing shuxingid="114" shuxingnum="0"/>
+		<shuxing shuxingid="115" shuxingnum="0"/>
+		<shuxing shuxingid="116" shuxingnum="0"/>
+		<shuxing shuxingid="117" shuxingnum="0"/>
+	</order>
+	<order order="20" lvupneed="130" lvupcost="10000015,7500;10000042,2000" pet="1" quality="5">
+		<shuxing shuxingid="101" shuxingnum="49680000"/>
+		<shuxing shuxingid="102" shuxingnum="4140000"/>
+		<shuxing shuxingid="103" shuxingnum="2070000"/>
+		<shuxing shuxingid="104" shuxingnum="1380"/>
+		<shuxing shuxingid="119" shuxingnum="60"/>
+		<shuxing shuxingid="112" shuxingnum="0"/>
+		<shuxing shuxingid="113" shuxingnum="0"/>
+		<shuxing shuxingid="114" shuxingnum="0"/>
+		<shuxing shuxingid="115" shuxingnum="0"/>
+		<shuxing shuxingid="116" shuxingnum="0"/>
+		<shuxing shuxingid="117" shuxingnum="0"/>
+	</order>
+	<order order="21" lvupneed="" pet="1" quality="5">
+		<shuxing shuxingid="101" shuxingnum="54000000"/>
+		<shuxing shuxingid="102" shuxingnum="4500000"/>
+		<shuxing shuxingid="103" shuxingnum="2250000"/>
+		<shuxing shuxingid="104" shuxingnum="1500"/>
+		<shuxing shuxingid="119" shuxingnum="60"/>
+		<shuxing shuxingid="112" shuxingnum="0"/>
+		<shuxing shuxingid="113" shuxingnum="0"/>
+		<shuxing shuxingid="114" shuxingnum="0"/>
+		<shuxing shuxingid="115" shuxingnum="0"/>
+		<shuxing shuxingid="116" shuxingnum="0"/>
+		<shuxing shuxingid="117" shuxingnum="0"/>
+	</order>
+</root>

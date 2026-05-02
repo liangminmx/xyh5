@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<!--
+itemid	传送道具id
+sceneid	地图id
+posX	落点X坐标
+posY	落点Y坐标
+-->
+	<transfer itemid="910005" sceneid="6008" posX="146" posY="177"/>
+</config>

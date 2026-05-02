@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+function标签
+	functionid	功能开启编号	关联function.xml
+	reward_count	每日获得奖励次数	
+    double_begin	双倍伤害开始时间	在此时间段内发起的帮会战斗，玩家对怪物最终伤害增加100%
+    double_over	    双倍伤害结束时间	
+    double_buff     双倍伤害buff编号，关联buff.xml
+    first_kill_mail 每日首杀全帮成员奖励邮件
+    first_kill_level 首杀奖励boss等级限制(与帮会等级相比)
+
+boss标签
+	id	编号	
+	name	副本名称	
+	display	是否显示	显示开关，若不填则默认显示，填写-1则隐藏
+	style	模型	副本界面上，每个副本需要显示的模型
+	tollgate	关卡编号	关联zhenrong.xml表id字段
+	condition	帮派开启等级
+	damage_cycle	单场伤害的万分比单位	万分比
+	exp	单位经验奖励	单位伤害对应的经验奖励
+	banggong	单位帮贡奖励	单位伤害对应的帮贡奖励
+    moeny  单位银两
+    kill_banggong	击杀帮贡奖励	
+    first_kill_item 每日首杀奖励 item1:count1,item2:count2
+fall标签
+	fallid	掉落奖池
+    fallrate    掉落概率
+    fallcount	掉落数量
+    fallitem    掉落道具集合  用逗号隔开
+	weight	道具掉落权重值	与掉落道具集合一一对应，用逗号隔开
+-->
+	<function functionid="2042" reward_count="5" double_begin="12:30:00,22:00:00" double_over="13:30:00,23:59:59" double_buff="3000009" first_kill_mail="1007" first_kill_level="2"/>
+	<boss id="1" name="1级副本" condition="1" display="1" style="300022" tollgate="600060001" damage_cycle="100" exp="4000" banggong="1" money="2000" kill_banggong="200" first_kill_item="60000010:5">
+		<fall fallid="1" fallrate="10000" fallcount="2" fallitem="14060001,14060002,14060003,14060004,14060005,14060006,14060007,14060008" weight="100,100,100,100,100,100,100,100"/>
+	</boss>
+	<boss id="2" name="2级副本" condition="2" display="1" style="300034" tollgate="600070001" damage_cycle="100" exp="8000" banggong="2" money="4000" kill_banggong="500" first_kill_item="60000010:5">
+		<fall fallid="1" fallrate="10000" fallcount="2" fallitem="14060001,14060002,14060003,14060004,14060005,14060006,14060007,14060008" weight="100,100,100,100,100,100,100,100"/>
+	</boss>
+	<boss id="3" name="3级副本" condition="3" display="1" style="400008" tollgate="600080001" damage_cycle="100" exp="12000" banggong="3" money="6000" kill_banggong="700" first_kill_item="16010008:1,60000010:10">
+		<fall fallid="1" fallrate="10000" fallcount="3" fallitem="14060001,14060002,14060003,14060004,14060005,14060006,14060007,14060008" weight="100,100,100,100,100,100,100,100"/>
+	</boss>
+	<boss id="4" name="4级副本" condition="4" display="1" style="300020" tollgate="600090001" damage_cycle="100" exp="16000" banggong="4" money="8000" kill_banggong="1000" first_kill_item="16010008:1,60000010:10">
+		<fall fallid="1" fallrate="10000" fallcount="3" fallitem="14060001,14060002,14060003,14060004,14060005,14060006,14060007,14060008" weight="100,100,100,100,100,100,100,100"/>
+	</boss>
+	<boss id="5" name="5级副本" condition="5" display="1" style="200026" tollgate="600100001" damage_cycle="100" exp="24000" banggong="6" money="12000" kill_banggong="1500" first_kill_item="16010008:2,60000010:15">
+		<fall fallid="1" fallrate="10000" fallcount="4" fallitem="14060001,14060002,14060003,14060004,14060005,14060006,14060007,14060008" weight="100,100,100,100,100,100,100,100"/>
+	</boss>
+	<boss id="6" name="6级副本" condition="6" display="1" style="300027" tollgate="600110001" damage_cycle="100" exp="36000" banggong="9" money="18000" kill_banggong="2000" first_kill_item="16010008:2,60000010:15">
+		<fall fallid="1" fallrate="10000" fallcount="4" fallitem="14060001,14060002,14060003,14060004,14060005,14060006,14060007,14060008" weight="100,100,100,100,100,100,100,100"/>
+	</boss>
+	<boss id="7" name="7级副本" condition="7" display="1" style="200010" tollgate="600120001" damage_cycle="100" exp="60000" banggong="15" money="30000" kill_banggong="2500" first_kill_item="16010008:3,60000010:20">
+		<fall fallid="1" fallrate="10000" fallcount="5" fallitem="14060001,14060002,14060003,14060004,14060005,14060006,14060007,14060008" weight="100,100,100,100,100,100,100,100"/>
+	</boss>
+	<boss id="8" name="8级副本" condition="8" display="1" style="200038" tollgate="600130001" damage_cycle="100" exp="96000" banggong="24" money="48000" kill_banggong="3000" first_kill_item="16010008:3,60000010:30">
+		<fall fallid="1" fallrate="10000" fallcount="5" fallitem="14060001,14060002,14060003,14060004,14060005,14060006,14060007,14060008" weight="100,100,100,100,100,100,100,100"/>
+	</boss>
+	<boss id="9" name="9级副本" condition="9" display="1" style="200021" tollgate="600140001" damage_cycle="100" exp="140000" banggong="35" money="70000" kill_banggong="4000" first_kill_item="16010008:3,60000010:40">
+		<fall fallid="1" fallrate="10000" fallcount="6" fallitem="14060001,14060002,14060003,14060004,14060005,14060006,14060007,14060008" weight="100,100,100,100,100,100,100,100"/>
+	</boss>
+	<boss id="10" name="10级副本" condition="10" display="1" style="400016" tollgate="600150001" damage_cycle="100" exp="180000" banggong="45" money="90000" kill_banggong="5000" first_kill_item="16010008:4,60000010:50">
+		<fall fallid="1" fallrate="10000" fallcount="7" fallitem="14060001,14060002,14060003,14060004,14060005,14060006,14060007,14060008" weight="100,100,100,100,100,100,100,100"/>
+	</boss>
+</root>

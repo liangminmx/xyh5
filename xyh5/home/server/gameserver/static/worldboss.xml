@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+functionid	功能id			
+autovip	自动挑战VIP等级			
+removecost	清除一次冷却时间花费元宝数			
+opentime	活动开启时间			
+endtime	活动关闭时间			
+cd	单次挑战时间间隔（秒）			
+redbagid	红包id	
+npcmodel 活动未开启时npc模型id				
+diffculty	BOSS难度级别			
+zhandouid	战斗id			
+name	boss名字
+monster boss怪id		
+icon	boss贴图id			
+exp	单次挑战经验奖励			
+money	单次挑战银币奖励	
+bmoney 单次挑战绑元数量		
+
+diffculty	BOSS难度级别				
+itemid	击杀奖励道具id			
+num	击杀奖励道具数量			
+mailid	击杀奖励邮件发放id			
+				
+mingci	排名			
+itemid	道具id			
+num	道具数量			
+mailid	排行奖励邮件id			
+money  排名奖励银币数量
+bmoney 排名奖励绑元数量
+hpwarning	BOSS血量百分比	血量百分比		
+des	触发的文本内容			
+
+-->
+	<function functionid="2018" opentime="15:00:00" endtime="15:15:00" autoviplevel="6" removecost="50" cd="60" redbagid="5" npcmodel="400027"/>
+	<BOSS diffculty="1" zhandouid="140001001" bossname="不周山神" monster="140001001" icon="1" exp="166666" money="166666" bmoney="50"/>
+	<BOSS diffculty="2" zhandouid="140002001" bossname="不周山神" monster="140002001" icon="1" exp="166666" money="166666" bmoney="50"/>
+	<BOSS diffculty="3" zhandouid="140003001" bossname="不周山神" monster="140003001" icon="1" exp="166666" money="166666" bmoney="50"/>
+	<BOSS diffculty="4" zhandouid="140004001" bossname="不周山神" monster="140004001" icon="1" exp="166666" money="166666" bmoney="50"/>
+	<BOSS diffculty="5" zhandouid="140005001" bossname="不周山神" monster="140005001" icon="1" exp="166666" money="166666" bmoney="50"/>
+	<BOSS diffculty="6" zhandouid="140006001" bossname="不周山神" monster="140006001" icon="1" exp="166666" money="166666" bmoney="50"/>
+	<BOSS diffculty="7" zhandouid="140007001" bossname="不周山神" monster="140007001" icon="1" exp="166666" money="166666" bmoney="50"/>
+	<BOSS diffculty="8" zhandouid="140008001" bossname="不周山神" monster="140008001" icon="1" exp="166666" money="166666" bmoney="50"/>
+	<BOSS diffculty="9" zhandouid="140009001" bossname="不周山神" monster="140009001" icon="1" exp="166666" money="166666" bmoney="50"/>
+	<BOSS diffculty="10" zhandouid="140010001" bossname="不周山神" monster="140010001" icon="1" exp="166666" money="166666" bmoney="50"/>
+	<BOSS diffculty="11" zhandouid="140011001" bossname="不周山神" monster="140011001" icon="1" exp="166666" money="166666" bmoney="50"/>
+	<BOSS diffculty="12" zhandouid="140012001" bossname="不周山神" monster="140012001" icon="1" exp="166666" money="166666" bmoney="50"/>
+	<BOSS diffculty="13" zhandouid="140013001" bossname="不周山神" monster="140013001" icon="1" exp="166666" money="166666" bmoney="50"/>
+	<BOSS diffculty="14" zhandouid="140014001" bossname="不周山神" monster="140014001" icon="1" exp="166666" money="166666" bmoney="50"/>
+	<BOSS diffculty="15" zhandouid="140015001" bossname="不周山神" monster="140015001" icon="1" exp="166666" money="166666" bmoney="50"/>
+	<BOSS diffculty="16" zhandouid="140016001" bossname="不周山神" monster="140016001" icon="1" exp="166666" money="166666" bmoney="50"/>
+	<BOSS diffculty="17" zhandouid="140017001" bossname="不周山神" monster="140017001" icon="1" exp="166666" money="166666" bmoney="50"/>
+	<BOSS diffculty="18" zhandouid="140018001" bossname="不周山神" monster="140018001" icon="1" exp="166666" money="166666" bmoney="50"/>
+	<BOSS diffculty="19" zhandouid="140019001" bossname="不周山神" monster="140019001" icon="1" exp="166666" money="166666" bmoney="50"/>
+	<BOSS diffculty="20" zhandouid="140020001" bossname="不周山神" monster="140020001" icon="1" exp="166666" money="166666" bmoney="50"/>
+	<item diffculty="1" itemid="10000006,10000007,10000014" num="1,20,200" bmoney="100" mailid="3001"/>
+	<item diffculty="2" itemid="10000006,10000007,10000014" num="1,20,200" bmoney="100" mailid="3001"/>
+	<item diffculty="3" itemid="10000006,10000007,10000014" num="1,20,200" bmoney="100" mailid="3001"/>
+	<item diffculty="4" itemid="10000006,10000007,10000014" num="1,20,200" bmoney="100" mailid="3001"/>
+	<item diffculty="5" itemid="10000006,10000007,10000014" num="1,20,200" bmoney="100" mailid="3001"/>
+	<item diffculty="6" itemid="10000006,10000007,10000014" num="1,30,200" bmoney="150" mailid="3001"/>
+	<item diffculty="7" itemid="10000006,10000007,10000014" num="1,30,200" bmoney="150" mailid="3001"/>
+	<item diffculty="8" itemid="10000006,10000007,10000014" num="1,30,200" bmoney="150" mailid="3001"/>
+	<item diffculty="9" itemid="10000006,10000007,10000014" num="1,30,200" bmoney="150" mailid="3001"/>
+	<item diffculty="10" itemid="10000006,10000007,10000014" num="1,30,200" bmoney="150" mailid="3001"/>
+	<item diffculty="11" itemid="10000006,10000007,10000014" num="2,40,200" bmoney="200" mailid="3001"/>
+	<item diffculty="12" itemid="10000006,10000007,10000014" num="2,40,200" bmoney="200" mailid="3001"/>
+	<item diffculty="13" itemid="10000006,10000007,10000014" num="2,40,200" bmoney="200" mailid="3001"/>
+	<item diffculty="14" itemid="10000006,10000007,10000014" num="2,40,200" bmoney="200" mailid="3001"/>
+	<item diffculty="15" itemid="10000006,10000007,10000014" num="2,40,200" bmoney="200" mailid="3001"/>
+	<item diffculty="16" itemid="10000006,10000007,10000014" num="2,50,200" bmoney="200" mailid="3001"/>
+	<item diffculty="17" itemid="10000006,10000007,10000014" num="2,50,200" bmoney="200" mailid="3001"/>
+	<item diffculty="18" itemid="10000006,10000007,10000014" num="2,50,200" bmoney="200" mailid="3001"/>
+	<item diffculty="19" itemid="10000006,10000007,10000014" num="2,50,200" bmoney="200" mailid="3001"/>
+	<item diffculty="20" itemid="10000006,10000007,10000014" num="2,50,200" bmoney="200" mailid="3001"/>
+	<mingci mingci="1" itemid="13010012,10000004,10000003" num="1,5,10" bmoney="5000" money="50000000" mailid="3002"/>
+	<mingci mingci="2" itemid="13010013,10000004,10000003" num="1,3,8" bmoney="3000" money="30000000" mailid="3003"/>
+	<mingci mingci="3" itemid="13010013,10000004,10000003" num="1,2,5" bmoney="2000" money="20000000" mailid="3004"/>
+	<mingci mingci="4,5" itemid="13010014,10000004,10000003" num="1,1,5" bmoney="1500" money="15000000" mailid="3005"/>
+	<mingci mingci="6,10" itemid="13010014,10000003" num="1,5" bmoney="1000" money="10000000" mailid="3006"/>
+	<mingci mingci="11,20" itemid="10000003" num="4" bmoney="700" money="7000000" mailid="3007"/>
+	<mingci mingci="21,50" itemid="10000003" num="3" bmoney="600" money="6000000" mailid="3008"/>
+	<mingci mingci="51,99999" itemid="10000003" num="1" bmoney="500" money="5000000" mailid="3009"/>
+	<hp hpwarning="100" des="吾，不周山神，卷土重来！六界生灵，尽皆臣服!"/>
+	<hp hpwarning="10" des="尔等凡人，感受神灵的愤怒吧！"/>
+</root>

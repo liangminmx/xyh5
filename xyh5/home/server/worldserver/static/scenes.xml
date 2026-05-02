@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+scene标签
+	scene	场景编号	
+    name	场景名称	
+	province	所在省份	
+	map_id	场景资源	读取指定路径下地图资源名
+	map_icon	场景图标	主界面右上角场景图标，读取指定路径下资源
+	bgm	背景音乐	不同背景音乐读取指定路径下声音文件
+	model_limit	显示模型上限
+    chapterid	大关卡编号	关联instance.xml表chapter标签chapterid
+	width	地图实际宽
+	height	地图实际高
+world标签			
+	background	世界地图背景	读取指定路径图片资源
+
+world_pro标签			
+	province	省份编号	对应场景id字段
+	pro_name	省份名	
+	pro_icon	省份图标	在大地图上的省份icon，省份按钮，响应点击事件
+	sceneid	    省份包含的所有场景id，关联scene字段，允许填写多个用逗号隔开
+    exp         每小时挂机经验收益显示
+    money       每小时挂机银两收益显示
+
+-->
+	<world background="1000"/>
+	<scene id="2000" name="长安城" width="4787" height="2534" province="20003" pos_x="43,53" pos_y="57,69" lv_min="1" lv_max="150" map_id="20003" map_icon="20003" bgm="2001" model_limit="30" chapterid=""/>
+	<scene id="20001" name="东海湾" width="3072" height="1536" province="20001" pos_x="24,28" pos_y="27,31" lv_min="1" lv_max="150" map_id="20001" map_icon="20001" bgm="2001" model_limit="10"/>
+	<scene id="20002" name="建邺城" width="3312" height="1419" province="20002" pos_x="32,36" pos_y="55,58" lv_min="1" lv_max="150" map_id="20002" map_icon="20002" bgm="2001" model_limit="10" chapterid="2"/>
+	<scene id="20003" name="长安城" width="4787" height="2534" province="20003" pos_x="43,53" pos_y="57,69" lv_min="1" lv_max="150" map_id="20003" map_icon="20003" bgm="2001" model_limit="30" chapterid="3"/>
+	<scene id="20004" name="海底迷宫" width="3072" height="1536" province="20004" pos_x="21,28" pos_y="54,61" lv_min="1" lv_max="150" map_id="20004" map_icon="20004" bgm="2001" model_limit="10" chapterid="5"/>
+	<scene id="20005" name="花果山" width="3072" height="1536" province="20005" pos_x="28,32" pos_y="31,35" lv_min="1" lv_max="150" map_id="20005" map_icon="20005" bgm="2001" model_limit="10" chapterid="9"/>
+	<scene id="20006" name="傲来国" width="3072" height="1536" province="20006" pos_x="32,37" pos_y="34,41" lv_min="1" lv_max="150" map_id="20006" map_icon="20006" bgm="2001" model_limit="10" chapterid="14"/>
+	<scene id="20007" name="地狱迷宫" width="3066" height="1280" province="20007" pos_x="18,22" pos_y="45,49" lv_min="1" lv_max="150" map_id="20007" map_icon="20007" bgm="2001" model_limit="10" chapterid="19"/>
+	<scene id="20008" name="福寿村" width="2924" height="1865" province="20008" pos_x="40,45" pos_y="36,41" lv_min="1" lv_max="150" map_id="20008" map_icon="20008" bgm="2001" model_limit="10" chapterid="24"/>
+	<scene id="20009" name="凌霄天宫" width="3072" height="1536" province="20009" pos_x="40,44" pos_y="24,28" lv_min="1" lv_max="150" map_id="20009" map_icon="20009" bgm="2001" model_limit="10" chapterid="34"/>
+	<scene id="20010" name="瑶池" width="3072" height="1536" province="20010" pos_x="39,44" pos_y="38,44" lv_min="1" lv_max="150" map_id="20010" map_icon="20010" bgm="2001" model_limit="10" chapterid="44"/>
+	<scene id="20011" name="女娲宫" width="2924" height="2039" province="20011" pos_x="54,58" pos_y="39,44" lv_min="1" lv_max="150" map_id="20011" map_icon="20011" bgm="2001" model_limit="10" chapterid="54"/>
+	<scene id="20012" name="无名鬼狱" width="2924" height="2039" province="20012" pos_x="58,64" pos_y="24,28" lv_min="1" lv_max="150" map_id="20012" map_icon="20012" bgm="2001" model_limit="10" chapterid="64"/>
+	<scene id="20013" name="小西天" width="6940" height="4118" province="20013" pos_x="41,50" pos_y="55,62" lv_min="1" lv_max="150" map_id="20013" map_icon="20013" bgm="2001" model_limit="10" chapterid="74"/>
+	<scene id="20014" name="蟠桃园" width="2213" height="1637" province="20014" pos_x="29,32" pos_y="28,32" lv_min="1" lv_max="150" map_id="20014" map_icon="20014" bgm="2001" model_limit="10" chapterid="84"/>
+	<world_pro province="20001" pro_name="东海湾" pro_icon="20001" sceneid="20001" exp="86400" money="28800"/>
+	<world_pro province="20002" pro_name="建邺城" pro_icon="20002" sceneid="20002" exp="216000" money="28800"/>
+	<world_pro province="20003" pro_name="长安城" pro_icon="20003" sceneid="20003" exp="518400" money="36000"/>
+	<world_pro province="20004" pro_name="海底迷宫" pro_icon="20004" sceneid="20004" exp="1252800" money="43200"/>
+	<world_pro province="20005" pro_name="花果山" pro_icon="20005" sceneid="20005" exp="3002400" money="64800"/>
+	<world_pro province="20006" pro_name="傲来国" pro_icon="20006" sceneid="20006" exp="5860800" money="100800"/>
+	<world_pro province="20007" pro_name="地狱迷宫" pro_icon="20007" sceneid="20007" exp="9316800" money="158400"/>
+	<world_pro province="20008" pro_name="福寿村" pro_icon="20008" sceneid="20008" exp="13377600" money="230400"/>
+	<world_pro province="20009" pro_name="凌霄天宫" pro_icon="20009" sceneid="20009" exp="23068800" money="374400"/>
+	<world_pro province="20010" pro_name="瑶池" pro_icon="20010" sceneid="20010" exp="35179200" money="518400"/>
+	<world_pro province="20011" pro_name="女娲宫" pro_icon="20011" sceneid="20011" exp="51124500" money="710400"/>
+	<world_pro province="20012" pro_name="无名鬼狱" pro_icon="20012" sceneid="20012" exp="70942600" money="941400"/>
+	<world_pro province="20013" pro_name="小西天" pro_icon="20013" sceneid="20013" exp="93400600" money="1284000"/>
+	<world_pro province="20014" pro_name="蟠桃园" pro_icon="20014" sceneid="20014" exp="12941400" money="1604200"/>
+	<!--
+point 对应地图坐标点集合库id
+pointtype  对应功能类型
+=1 捉鬼
+=2 师门
+=3 门派闯关
+scene 对应地图
+pos 坐标点（X,Y;X,Y）
+
+
+-->
+	<point point="1" pointtype="1" scene="20001" pos="37,22;44,18;47,23;47,27;49,20"/>
+	<point point="2" pointtype="1" scene="20002" pos="39,39;34,56;48,48;52,35;63,24"/>
+	<point point="3" pointtype="1" scene="20003" pos="26,70;49,65;55,44;95,41;88,62"/>
+	<point point="4" pointtype="1" scene="20004" pos="26,61;12,47;35,29;46,16;59,20"/>
+	<point point="5" pointtype="1" scene="20005" pos="35,24;38,27;32,29;38,19;45,20"/>
+	<point point="6" pointtype="1" scene="20006" pos="15,44;19,41;20,43;23,46;24,49"/>
+	<point point="7" pointtype="1" scene="20007" pos="19,47;26,56;36,45;38,32;45,18"/>
+	<point point="8" pointtype="1" scene="20008" pos="54,22;59,27;18,49;30,48;41,38"/>
+	<point point="9" pointtype="1" scene="20009" pos="32,58;35,53;33,50;37,48;38,44"/>
+	<point point="10" pointtype="1" scene="20010" pos="22,41;29,38;32,42;38,41;41,45"/>
+	<point point="11" pointtype="1" scene="20011" pos="46,54;53,46;69,37;64,42;58,37"/>
+	<point point="12" pointtype="1" scene="20012" pos="48,19;46,25;54,29;63,27;62,23"/>
+	<point point="13" pointtype="1" scene="20013" pos="36,51;33,70;54,62;54,54;61,50"/>
+	<point point="14" pointtype="1" scene="20014" pos="33,18;29,30;36,15;35,28;40,26"/>
+	<point point="101" pointtype="2" scene="20001" pos="37,22;44,18;47,23;47,27;49,20"/>
+	<point point="102" pointtype="2" scene="20002" pos="39,39;34,56;48,48;52,35;63,24"/>
+	<point point="103" pointtype="2" scene="20003" pos="26,70;49,65;55,44;95,41;88,62"/>
+	<point point="104" pointtype="2" scene="20004" pos="26,61;12,47;35,29;46,16;59,20"/>
+	<point point="105" pointtype="2" scene="20005" pos="35,24;38,27;32,29;38,19;45,20"/>
+	<point point="106" pointtype="2" scene="20006" pos="15,44;19,41;20,43;23,46;24,49"/>
+	<point point="107" pointtype="2" scene="20007" pos="19,47;26,56;36,45;38,32;45,18"/>
+	<point point="108" pointtype="2" scene="20008" pos="54,22;59,27;18,49;30,48;41,38"/>
+	<point point="109" pointtype="2" scene="20009" pos="32,58;35,53;33,50;37,48;38,44"/>
+	<point point="110" pointtype="2" scene="20010" pos="22,41;29,38;32,42;38,41;41,45"/>
+	<point point="111" pointtype="2" scene="20011" pos="46,54;53,46;69,37;64,42;58,37"/>
+	<point point="112" pointtype="2" scene="20012" pos="48,19;46,25;54,29;63,27;62,23"/>
+	<point point="113" pointtype="2" scene="20013" pos="36,51;33,70;54,62;54,54;61,50"/>
+	<point point="114" pointtype="2" scene="20014" pos="33,18;29,30;36,15;35,28;40,26"/>
+	<point point="202" pointtype="3" scene="20003" pos="50,60"/>
+	<point point="203" pointtype="3" scene="20004" pos="17,53"/>
+	<point point="204" pointtype="3" scene="20005" pos="31,41"/>
+	<point point="205" pointtype="3" scene="20006" pos="31,41"/>
+	<point point="206" pointtype="3" scene="20007" pos="29,45"/>
+	<point point="207" pointtype="3" scene="20008" pos="28,41"/>
+</root>

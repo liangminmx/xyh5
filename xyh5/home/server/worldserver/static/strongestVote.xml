@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+functionId	功能开启
+group	活动组Id
+name	活动组名称
+sortId	活动排序值
+activityOPen	活动开启时间,配置格式
+2019-02-20
+视为20号的零点开启
+activityEnds	活动结束时间,配置格式
+2019-02-28
+视为28号的23:59:59
+activityBgMap	活动广告语
+activityEntraceIcon	活动图标
+maxNumOfVotes	最大支持数量,配置格式:状态,数量
+=0,X代表每天可投票X次，第二天零点重置
+=1,X代表活动期间总共可投票X次
+timeOfExistance	活动结束后界面存在时间(单位:时)
+TotalVates	三个Id相加的总票数达到该值时进行抽奖
+grandPrizeRewardMailId	大奖奖励邮件
+participateRewardMaidId	参与奖励邮件
+freeTimes	每天免费次数,第二天零点重置
+id	Id值
+name	Id值的名称,邮件发送需要用到该名称
+avatarId	avatarId值,索引对应的模型Id
+votingConsumsIngots	支持对应Id需要花费的元宝金额
+grandPrizeItemId	大奖奖励,配置格式
+道具Id,道具数量
+itemId	每次支持获得道具奖励,配置格式
+道具Id,道具数量;道具Id,道具数量
+itemId	参与奖励,配置格式
+道具Id,道具数量;道具Id,道具数量
+-->
+	<functionId functionId="6671"/>
+	<!--正式数据配置-->
+	<ActivityInformation group="1" name="这个时间我也不知道有什么节日活动" sortId="2" activityOpen="2019-03-15 00:00:00" activityEnds="2019-03-19 23:59:59" ActivityBgMap="strongestVoteBg1" activityEntraceIcon="strongestVote1" freeTimes="1" maxNumOfVotes="0,5" timeOfExistance="48" TotalVotes="188" grandPrizeRewardMailId="6670">
+		<votingSelection id="1" name="旃檀功德佛" avatarId="200031" votingConsumsIngots="288" grandPrizeItemId="11051065,100"/>
+		<votingSelection id="2" name="金身罗汉" avatarId="200027" votingConsumsIngots="288" grandPrizeItemId="11051064,100"/>
+		<votingSelection id="3" name="八部天龙" avatarId="200035" votingConsumsIngots="288" grandPrizeItemId="11051066,100"/>
+		<!--每次投票获得的奖励-->
+		<votingReward itemId="16010014,5;16010027,1;16010013,5"/>
+		<!--未获得大奖的参与奖励-->
+		<participationReward itemId="16010014,20;16010027,5;16010013,20"/>
+	</ActivityInformation>
+	<ActivityInformation group="2" name="谷雨活动" sortId="2" activityOpen="2019-04-19 00:00:00" activityEnds="2019-04-21 23:59:59" ActivityBgMap="strongestVoteBg2" activityEntraceIcon="strongestVote1" freeTimes="1" maxNumOfVotes="0,5" timeOfExistance="48" TotalVotes="88" grandPrizeRewardMailId="6670">
+		<votingSelection id="1" name="超级泡泡" avatarId="300004" votingConsumsIngots="288" grandPrizeItemId="12000032,1"/>
+		<votingSelection id="2" name="白泽" avatarId="300001" votingConsumsIngots="288" grandPrizeItemId="12000036,1"/>
+		<votingSelection id="3" name="小火龙" avatarId="300025" votingConsumsIngots="288" grandPrizeItemId="12000031,1"/>
+		<!--每次投票获得的奖励-->
+		<votingReward itemId="10000006,20;16010029,1;16010013,1"/>
+		<!--未获得大奖的参与奖励-->
+		<participationReward itemId="10000006,50;16010029,5;16010013,5"/>
+	</ActivityInformation>
+	<ActivityInformation group="3" name="五一活动" sortId="2" activityOpen="2019-04-30 00:00:00" activityEnds="2019-05-05 23:59:59" ActivityBgMap="strongestVoteBg1" activityEntraceIcon="strongestVote1" freeTimes="1" maxNumOfVotes="0,5" timeOfExistance="48" TotalVotes="88" grandPrizeRewardMailId="6670">
+		<votingSelection id="1" name="斗战胜佛" avatarId="200028" votingConsumsIngots="288" grandPrizeItemId="11051062,100"/>
+		<votingSelection id="2" name="旃檀功德佛" avatarId="200031" votingConsumsIngots="288" grandPrizeItemId="11051065,100"/>
+		<votingSelection id="3" name="八部天龙" avatarId="200035" votingConsumsIngots="288" grandPrizeItemId="11051066,100"/>
+		<!--每次投票获得的奖励-->
+		<votingReward itemId="10000015,20;16010028,5;16010027,1"/>
+		<!--未获得大奖的参与奖励-->
+		<participationReward itemId="10000015,50;16010027,5;16010026,1"/>
+	</ActivityInformation>
+	<ActivityInformation group="4" name="五月十七号活动" sortId="2" activityOpen="2019-05-17 00:00:00" activityEnds="2019-05-19 23:59:59" ActivityBgMap="strongestVoteBg2" activityEntraceIcon="strongestVote1" freeTimes="1" maxNumOfVotes="0,5" timeOfExistance="48" TotalVotes="88" grandPrizeRewardMailId="6670">
+		<votingSelection id="1" name="熊猫" avatarId="300029" votingConsumsIngots="288" grandPrizeItemId="12000034,1"/>
+		<votingSelection id="2" name="小火龙" avatarId="300025" votingConsumsIngots="288" grandPrizeItemId="12000031,1"/>
+		<votingSelection id="3" name="哮天犬" avatarId="300027" votingConsumsIngots="288" grandPrizeItemId="12000033,1"/>
+		<!--每次投票获得的奖励-->
+		<votingReward itemId="10000006,25;10000016,10;16010034,1"/>
+		<!--未获得大奖的参与奖励-->
+		<participationReward itemId="10000006,50;10000016,20;16010035,1"/>
+	</ActivityInformation>
+	<ActivityInformation group="5" name="最强辅助" sortId="2" activityOpen="2019-07-12 00:00:00" activityEnds="2019-07-14 23:59:59" ActivityBgMap="strongestVoteBg2" activityEntraceIcon="strongestVote1" freeTimes="1" maxNumOfVotes="0,5" timeOfExistance="48" TotalVotes="88" grandPrizeRewardMailId="6670">
+		<votingSelection id="1" name="淘气宝贝" avatarId="300051" votingConsumsIngots="288" grandPrizeItemId="12000239,100"/>
+		<votingSelection id="2" name="仙符女娲" avatarId="300043" votingConsumsIngots="288" grandPrizeItemId="12000240,100"/>
+		<votingSelection id="3" name="金饶僧" avatarId="300049" votingConsumsIngots="288" grandPrizeItemId="12000241,100"/>
+		<!--每次投票获得的奖励-->
+		<votingReward itemId="16010071,1;16010028,5;16010029,1"/>
+		<!--未获得大奖的参与奖励-->
+		<participationReward itemId="16010071,5;16010029,5;16010038,1"/>
+	</ActivityInformation>
+		<ActivityInformation group="6" name="最强输出" sortId="2" activityOpen="2019-07-26 00:00:00" activityEnds="2019-07-28 23:59:59" ActivityBgMap="strongestVoteBg2" activityEntraceIcon="strongestVote1" freeTimes="1" maxNumOfVotes="0,5" timeOfExistance="48" TotalVotes="88" grandPrizeRewardMailId="6670">
+		<votingSelection id="1" name="猪小戒" avatarId="300055" votingConsumsIngots="288" grandPrizeItemId="12000237,100"/>
+		<votingSelection id="2" name="炎魔仙" avatarId="300050" votingConsumsIngots="288" grandPrizeItemId="12000238,100"/>
+		<votingSelection id="3" name="夜罗刹" avatarId="300048" votingConsumsIngots="288" grandPrizeItemId="12000243,100"/>
+		<!--每次投票获得的奖励-->
+		<votingReward itemId="16010072,1;16010028,5;16010029,1"/>
+		<!--未获得大奖的参与奖励-->
+		<participationReward itemId="16010072,5;16010029,5;16010038,1"/>
+	</ActivityInformation>
+</root>

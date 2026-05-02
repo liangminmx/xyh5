@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+functionid	功能ID			
+type	角色属性类型			
+mod	对应系数			
+				
+skill	第X个门派技能			
+mod	对应系数			
+				
+texiao	装备特效ID			
+mod	对应战力			
+				
+teji	装备特技ID			
+mod	对应战力			
+				
+fabao	法宝ID			
+lv	法宝等级			
+mod	该等级战力			
+				
+petskill	宠物技能ID			
+mod	对应战力			
+				
+type	宠物属性类型			
+mod	对应系数			
+
+
+
+	-->
+	<config functionid="101"/>
+	<role type="101" mod="0.75"/>
+	<role type="102" mod="10"/>
+	<role type="103" mod="10"/>
+	<role type="104" mod="50"/>
+	<role type="106" mod="25"/>
+	<role type="107" mod="50"/>
+	<role type="108" mod="25"/>
+	<role type="109" mod="50"/>
+	<role type="110" mod="50"/>
+	<role type="111" mod="50"/>
+	<role type="112" mod="25"/>
+	<role type="113" mod="25"/>
+	<role type="114" mod="25"/>
+	<role type="115" mod="25"/>
+	<role type="116" mod="25"/>
+	<role type="117" mod="25"/>
+	<skill skill="1" mod="20"/>
+	<skill skill="2" mod="25"/>
+	<skill skill="3" mod="0"/>
+	<skill skill="4" mod="30"/>
+	<skill skill="5" mod="40"/>
+	<skill skill="6" mod="0"/>
+	<skill skill="7" mod="50"/>
+	<skill skill="8" mod="0"/>
+	<petskill petskill="2000001" mod="500"/>
+	<petskill petskill="2000002" mod="500"/>
+	<petskill petskill="2000003" mod="500"/>
+	<petskill petskill="2000004" mod="500"/>
+	<petskill petskill="2000005" mod="500"/>
+	<petskill petskill="2000006" mod="500"/>
+	<petskill petskill="2000007" mod="500"/>
+	<petskill petskill="2000008" mod="500"/>
+	<petskill petskill="2000009" mod="500"/>
+	<petskill petskill="2000010" mod="500"/>
+	<petskill petskill="2000011" mod="500"/>
+	<petskill petskill="2000012" mod="500"/>
+	<petskill petskill="2000013" mod="500"/>
+	<petskill petskill="2000014" mod="500"/>
+	<petskill petskill="2000015" mod="500"/>
+	<petskill petskill="2000016" mod="500"/>
+	<petskill petskill="2000017" mod="500"/>
+	<petskill petskill="2000018" mod="500"/>
+	<petskill petskill="2000019" mod="500"/>
+	<petskill petskill="2000020" mod="500"/>
+	<petskill petskill="2000021" mod="500"/>
+	<petskill petskill="2000022" mod="500"/>
+	<petskill petskill="2000101" mod="5000"/>
+	<petskill petskill="2000102" mod="5000"/>
+	<petskill petskill="2000103" mod="5000"/>
+	<petskill petskill="2000104" mod="5000"/>
+	<petskill petskill="2000105" mod="5000"/>
+	<petskill petskill="2000106" mod="5000"/>
+	<petskill petskill="2000107" mod="5000"/>
+	<petskill petskill="2000108" mod="5000"/>
+	<petskill petskill="2000109" mod="5000"/>
+	<petskill petskill="2000110" mod="5000"/>
+	<petskill petskill="2000111" mod="5000"/>
+	<petskill petskill="2000112" mod="5000"/>
+	<petskill petskill="2000113" mod="5000"/>
+	<petskill petskill="2000114" mod="5000"/>
+	<petskill petskill="2000115" mod="5000"/>
+	<petskill petskill="2000116" mod="5000"/>
+	<petskill petskill="2000117" mod="5000"/>
+	<petskill petskill="2000118" mod="5000"/>
+	<petskill petskill="2000119" mod="5000"/>
+	<petskill petskill="2000120" mod="5000"/>
+	<petskill petskill="2000121" mod="5000"/>
+	<petskill petskill="2000122" mod="5000"/>
+</root>

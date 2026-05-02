@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+functionid	功能id			
+fashionid	时装id			
+name	时装名字			
+model	avatar显示id			
+nameicon	时装名字图片id			
+costid	消耗道具id			
+num	消耗道具数量			
+type	激活属性类型			
+parameter	激活属性值			
+des	获取途径			
+facelink	界面id			
+length	"称号时限（天）=-1 永久"			
+fashiontype =1 神兵 ，=6 时装 
+seemodel =1 人物与时装模型都显示，=0 只显示时装模型
+	
+		
+
+
+
+-->
+	<function functionid="2016"/>
+	<fashion fashionid="1" name="金箍棒" model="200000" nameicon="shenbing_1" costid="13031001" num="1" type="101,102,103" parameter="19440,1620,810" des="首充赠送" facelink="" length="-1" fashiontype="1" seemodel="1"/>
+	<fashion fashionid="2" name="轩辕剑" model="200001" nameicon="shenbing_1" costid="13035001" num="1" type="101,102,103" parameter="19440,1620,810" des="0元购赠送" facelink="" length="-1" fashiontype="1" seemodel="1"/>
+	<fashion fashionid="3" name="凰炎剑" model="200002" nameicon="shenbing_1" costid="13035002" num="1" type="101,102,103" parameter="19440,1620,810" des="5倍首充赠送" facelink="" length="-1" fashiontype="1" seemodel="1"/>
+	<fashion fashionid="4" name="紫青宝剑" model="200003" nameicon="shenbing_1" costid="13035003" num="1" type="101,102,103" parameter="19440,1620,810" des="累计充值赠送" facelink="" length="-1" fashiontype="1" seemodel="1"/>
+</root>

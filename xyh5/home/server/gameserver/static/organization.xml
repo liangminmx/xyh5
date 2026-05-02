@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+function标签			
+	functionid	功能开启编号	关联function.xml
+	rename_cost	帮派改名消耗	改名费用（元宝）
+	broadcast_cd	招人喊话cd
+    declarecontent   默认公告
+    autozhanli   默认自动入帮的战力要求
+found标签			
+	foundtype	创建类型	类型=1创建1级帮派，类型=2创建3级帮派
+	found_vip	vip需求	创建vip等级需求
+    found_level	创建帮派的初始等级
+	cost_type	消耗货币编号	货币类型=1银两  =2元宝 =3绑定元宝
+	cost_count	消耗数量	
+level标签			
+	level	帮派等级	
+	peoplenum	人数上限	
+	consume	升级帮派消耗	升级帮派消耗资金数
+jurisdiction标签			
+	position	职位	职位=1帮主|=2副帮主|=3成员
+	position_name	职位名	职位=1帮主|=2副帮主|=3成员
+	jurisdiction	权限	权限=1任命|=2接收|=3拒绝|=4升级|=5修改名称|=6修改公告|=7招募信息发布|=8踢人
+more标签			
+	more_function	帮派功能编号	
+	more_icon	功能图标	
+	more_name	功能名称	
+	more_type	功能类型	类型=1打开界面
+	more_param	功能参数	界面参数
+donate标签			
+	donate_type	上香类型	
+	donate_name	上香名称	
+	donate_cost_type	消耗类型	消耗=1银两 =2元宝  =3绑定元宝
+	donate_cost_count	消耗数量	
+	organization_money	获得帮派资金	
+	banggong	获得帮派贡献	
+	insence	获得香火值	帮派香火值达到一定进度，帮派所有人员均可领取相应奖励
+
+reward标签			
+	insence_total	香火值进度	香火进度值
+	insence_banggong	香火进度帮贡奖励	
+	insence_bmoney	香火进度绑元奖励	
+    item      允许支持多个道具，逗号隔开
+    count     与道具一一对应，逗号隔开
+
+-->
+	<function functionid="2041" rename_cost="5888" broadcast_cd="3600" autozhanli="100000" declarecontent="1.每天完成日常任务\n2.进阶目标尽量达成，绑元花在养成进阶上\n3.别错过每周的跑环任务"/>
+	<found foundtype="1" found_vip="2" found_level="1" cost_type="2" cost_count="1666"/>
+	<found foundtype="2" found_vip="4" found_level="3" cost_type="2" cost_count="1998"/>
+	<level level="1" peoplenum="10" consume="2000"/>
+	<level level="2" peoplenum="15" consume="2000"/>
+	<level level="3" peoplenum="20" consume="5000"/>
+	<level level="4" peoplenum="25" consume="8000"/>
+	<level level="5" peoplenum="30" consume="10000"/>
+	<level level="6" peoplenum="35" consume="20000"/>
+	<level level="7" peoplenum="40" consume="30000"/>
+	<level level="8" peoplenum="40" consume="50000"/>
+	<level level="9" peoplenum="40" consume="100000"/>
+	<level level="10" peoplenum="40" consume="-1"/>
+	<jurisdiction position="1" position_name="帮主" jurisdiction="1,2,3,4,5,6,8"/>
+	<jurisdiction position="2" position_name="副帮" jurisdiction="2,3,5,6,7,8"/>
+	<jurisdiction position="3" position_name="成员" jurisdiction="7"/>
+	<more more_function="1" more_icon="img_bp_shop" more_name="帮派商店" more_type="1" more_param="ShopView8"/>
+	<more more_function="2" more_icon="img_bp_battle" more_name="帮会战（未开放）" more_type="1" more_param=""/>
+	<donate donate_type="1" donate_name="檀木香" donate_cost_type="1" donate_cost_count="666666" organization_money="50" banggong="200" insence="1"/>
+	<donate donate_type="2" donate_name="紫沉香" donate_cost_type="3" donate_cost_count="688" organization_money="200" banggong="1000" insence="3"/>
+	<donate donate_type="3" donate_name="龙头香" donate_cost_type="2" donate_cost_count="1888" organization_money="500" banggong="2000" insence="5"/>
+	<reward insence_total="20" insence_banggong="100" insence_bmoney="200" item="16010001" count="1"/>
+	<reward insence_total="40" insence_banggong="200" insence_bmoney="500" item="16010001" count="2"/>
+	<reward insence_total="60" insence_banggong="500" insence_bmoney="1000" item="16010001" count="3"/>
+</root>

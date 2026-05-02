@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<root>
+	<!--
+openlv	功能开放等级
+id	伙伴识别id
+avatarA	模型id
+quality	伙伴品质
+starnum	总星级数
+attack	攻击
+hit	命中
+cirt	暴击
+defence	防御
+max_hp	气血
+dodge	闪避
+toughness	韧性
+type	伙伴类型
+=1群攻
+=2单功
+=3控制
+lv	星级
+debris	升下一星所需碎片数
+item	代替碎片道具id
+skill	激活的技能id，对应skill表中的id
+
+attack _coe	攻击系数,万分比
+hit_coe	命中系数，万分比
+cirt_coe	暴击系数，万分比
+defence_coe	防御系数，万分比
+max_hp_coe	气血系数，万分比
+dodge_coe	闪避系数，万分比
+toughness_coe	韧性系数，万分比
+
+dubbing 配音
+opentype 打开界面类型（1，正常界面  2，绑定界面）
+getwaydescribe （获得路径描述）
+openui 打开界面ui，“，”隔开多个界面
+functionid 功能id
+fighting 未激活显示的战力
+
+
+
+
+-->
+	<functionid functionid="1010"/>
+	<partner id="1" name="狮人铜三" avatarA="2000" quality="2" starnum="10" attack="380651" hit="126563" crit="159029" defence="117334" max_hp="3312736" dodge="121055" toughness="111717" type="1" normal_attack="60001" speed="0.0066" dubbing="92000" jhdubbing="93001" sxdubbing="93000" opentype="1" getwaydescribe="[u][font color='#24c424']主线任务获得[/font][/u]" openui="V_TaskUI|1" functionid="" fighting="1062" inlv="10" describe="恭喜你获得伙伴狮人铜三|伙伴成长的同时能获得各种技能并提升您大量属性">
+		<star lv="0" debris="30 " item="900100" skill="0" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="15" skilllimit="69"/>
+		<star lv="1" debris="30 " item="900100,900201" skill="60001" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="15" skilllimit="69"/>
+		<star lv="2" debris="60 " item="900100,900201" skill="0" attack_coe="400" hit_coe="400" crit_coe="400" defence_coe="400" max_hp_coe="400" dodge_coe="400" toughness_coe="400" getdebris="15" skilllimit="69"/>
+		<star lv="3" debris="120 " item="900100,900201" skill="0" attack_coe="700" hit_coe="700" crit_coe="700" defence_coe="700" max_hp_coe="700" dodge_coe="700" toughness_coe="700" getdebris="15" skilllimit="69"/>
+		<star lv="4" debris="280 " item="900100,900201" skill="0" attack_coe="1300" hit_coe="1300" crit_coe="1300" defence_coe="1300" max_hp_coe="1300" dodge_coe="1300" toughness_coe="1300" getdebris="15" skilllimit="69"/>
+		<star lv="5" debris="650 " item="900100,900201" skill="60002" attack_coe="2200" hit_coe="2200" crit_coe="2200" defence_coe="2200" max_hp_coe="2200" dodge_coe="2200" toughness_coe="2200" getdebris="15" skilllimit="69"/>
+		<star lv="6" debris="1170 " item="900100,900201" skill="0" attack_coe="3300" hit_coe="3300" crit_coe="3300" defence_coe="3300" max_hp_coe="3300" dodge_coe="3300" toughness_coe="3300" getdebris="15" skilllimit="69"/>
+		<star lv="7" debris="1730 " item="900100,900201" skill="0" attack_coe="4600" hit_coe="4600" crit_coe="4600" defence_coe="4600" max_hp_coe="4600" dodge_coe="4600" toughness_coe="4600" getdebris="15" skilllimit="69"/>
+		<star lv="8" debris="2220 " item="900100,900201" skill="0" attack_coe="6100" hit_coe="6100" crit_coe="6100" defence_coe="6100" max_hp_coe="6100" dodge_coe="6100" toughness_coe="6100" getdebris="15" skilllimit="69"/>
+		<star lv="9" debris="3000 " item="900100,900201" skill="0" attack_coe="7800" hit_coe="7800" crit_coe="7800" defence_coe="7800" max_hp_coe="7800" dodge_coe="7800" toughness_coe="7800" getdebris="15" skilllimit="69"/>
+		<star lv="10" debris="" item="900100,900201" skill="0" attack_coe="10000" hit_coe="10000" crit_coe="10000" defence_coe="10000" max_hp_coe="10000" dodge_coe="10000" toughness_coe="10000" getdebris="15" skilllimit="69"/>
+	</partner>
+	<partner id="2" name="宗凌" avatarA="2001" quality="2" starnum="10" attack="507535" hit="101250" crit="132524" defence="123509" max_hp="3312736" dodge="96844" toughness="93098" type="2" normal_attack="60003" speed="0.0066" dubbing="92001" jhdubbing="93001" sxdubbing="93000" opentype="1" getwaydescribe="[u][font color='#24c424']黑风遗宝获得[/font][/u]" openui="ReshaharTreasurePanelExt" functionid="600" fighting="1068" inlv="10" describe="恭喜你获得伙伴宗凌|伙伴成长的同时能获得各种技能并提升您大量属性">
+		<star lv="0" debris="30 " item="900101" skill="0" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="15" skilllimit="69"/>
+		<star lv="1" debris="30 " item="900101,900201" skill="60003" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="15" skilllimit="69"/>
+		<star lv="2" debris="60 " item="900101,900201" skill="0" attack_coe="400" hit_coe="400" crit_coe="400" defence_coe="400" max_hp_coe="400" dodge_coe="400" toughness_coe="400" getdebris="15" skilllimit="69"/>
+		<star lv="3" debris="120 " item="900101,900201" skill="0" attack_coe="700" hit_coe="700" crit_coe="700" defence_coe="700" max_hp_coe="700" dodge_coe="700" toughness_coe="700" getdebris="15" skilllimit="69"/>
+		<star lv="4" debris="280 " item="900101,900201" skill="0" attack_coe="1300" hit_coe="1300" crit_coe="1300" defence_coe="1300" max_hp_coe="1300" dodge_coe="1300" toughness_coe="1300" getdebris="15" skilllimit="69"/>
+		<star lv="5" debris="650 " item="900101,900201" skill="60004" attack_coe="2200" hit_coe="2200" crit_coe="2200" defence_coe="2200" max_hp_coe="2200" dodge_coe="2200" toughness_coe="2200" getdebris="15" skilllimit="69"/>
+		<star lv="6" debris="1170 " item="900101,900201" skill="0" attack_coe="3300" hit_coe="3300" crit_coe="3300" defence_coe="3300" max_hp_coe="3300" dodge_coe="3300" toughness_coe="3300" getdebris="15" skilllimit="69"/>
+		<star lv="7" debris="1730 " item="900101,900201" skill="0" attack_coe="4600" hit_coe="4600" crit_coe="4600" defence_coe="4600" max_hp_coe="4600" dodge_coe="4600" toughness_coe="4600" getdebris="15" skilllimit="69"/>
+		<star lv="8" debris="2220 " item="900101,900201" skill="0" attack_coe="6100" hit_coe="6100" crit_coe="6100" defence_coe="6100" max_hp_coe="6100" dodge_coe="6100" toughness_coe="6100" getdebris="15" skilllimit="69"/>
+		<star lv="9" debris="3000 " item="900101,900201" skill="0" attack_coe="7800" hit_coe="7800" crit_coe="7800" defence_coe="7800" max_hp_coe="7800" dodge_coe="7800" toughness_coe="7800" getdebris="15" skilllimit="69"/>
+		<star lv="10" debris="" item="900101,900201" skill="0" attack_coe="10000" hit_coe="10000" crit_coe="10000" defence_coe="10000" max_hp_coe="10000" dodge_coe="10000" toughness_coe="10000" getdebris="15" skilllimit="69"/>
+	</partner>
+	<partner id="3" name="东伯青石" avatarA="2002" quality="2" starnum="10" attack="380651" hit="126563" crit="159029" defence="117334" max_hp="3312736" dodge="121055" toughness="111717" type="1" normal_attack="60005" speed="0.0066" dubbing="92002" jhdubbing="93001" sxdubbing="93000" opentype="1" getwaydescribe="[u][font color='#24c424']黑风遗宝获得[/font][/u]" openui="ReshaharTreasurePanelExt" functionid="600" fighting="1062" inlv="10" describe="恭喜你获得伙伴东伯青石|伙伴成长的同时能获得各种技能并提升您大量属性">
+		<star lv="0" debris="30 " item="900102" skill="0" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="15" skilllimit="69"/>
+		<star lv="1" debris="30 " item="900102,900201" skill="60005" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="15" skilllimit="69"/>
+		<star lv="2" debris="60 " item="900102,900201" skill="0" attack_coe="400" hit_coe="400" crit_coe="400" defence_coe="400" max_hp_coe="400" dodge_coe="400" toughness_coe="400" getdebris="15" skilllimit="69"/>
+		<star lv="3" debris="120 " item="900102,900201" skill="0" attack_coe="700" hit_coe="700" crit_coe="700" defence_coe="700" max_hp_coe="700" dodge_coe="700" toughness_coe="700" getdebris="15" skilllimit="69"/>
+		<star lv="4" debris="280 " item="900102,900201" skill="0" attack_coe="1300" hit_coe="1300" crit_coe="1300" defence_coe="1300" max_hp_coe="1300" dodge_coe="1300" toughness_coe="1300" getdebris="15" skilllimit="69"/>
+		<star lv="5" debris="650 " item="900102,900201" skill="60006" attack_coe="2200" hit_coe="2200" crit_coe="2200" defence_coe="2200" max_hp_coe="2200" dodge_coe="2200" toughness_coe="2200" getdebris="15" skilllimit="69"/>
+		<star lv="6" debris="1170 " item="900102,900201" skill="0" attack_coe="3300" hit_coe="3300" crit_coe="3300" defence_coe="3300" max_hp_coe="3300" dodge_coe="3300" toughness_coe="3300" getdebris="15" skilllimit="69"/>
+		<star lv="7" debris="1730 " item="900102,900201" skill="0" attack_coe="4600" hit_coe="4600" crit_coe="4600" defence_coe="4600" max_hp_coe="4600" dodge_coe="4600" toughness_coe="4600" getdebris="15" skilllimit="69"/>
+		<star lv="8" debris="2220 " item="900102,900201" skill="0" attack_coe="6100" hit_coe="6100" crit_coe="6100" defence_coe="6100" max_hp_coe="6100" dodge_coe="6100" toughness_coe="6100" getdebris="15" skilllimit="69"/>
+		<star lv="9" debris="3000 " item="900102,900201" skill="0" attack_coe="7800" hit_coe="7800" crit_coe="7800" defence_coe="7800" max_hp_coe="7800" dodge_coe="7800" toughness_coe="7800" getdebris="15" skilllimit="69"/>
+		<star lv="10" debris="" item="900102,900201" skill="0" attack_coe="10000" hit_coe="10000" crit_coe="10000" defence_coe="10000" max_hp_coe="10000" dodge_coe="10000" toughness_coe="10000" getdebris="15" skilllimit="69"/>
+	</partner>
+	<partner id="4" name="司良红" avatarA="2003" quality="3" starnum="10" attack="697860" hit="232031" crit="291552" defence="215112" max_hp="6073349" dodge="221935" toughness="204815" type="1" normal_attack="60007" speed="0.0072" dubbing="92003" jhdubbing="93001" sxdubbing="93000" opentype="2" getwaydescribe="[u][font color='#24c424']超凡生死战兑换[/font][/u]" openui="V_SingleCopyUI|Singe_LifeDeathCopy,V_CelebrityShopUI" functionid="600" fighting="4330" inlv="30" describe="恭喜你获得伙伴司良红|伙伴成长的同时能获得各种技能并提升您大量属性">
+		<star lv="0" debris="40 " item="900103" skill="0" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="20" skilllimit="69"/>
+		<star lv="1" debris="40 " item="900103,900202" skill="60007" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="20" skilllimit="69"/>
+		<star lv="2" debris="80 " item="900103,900202" skill="0" attack_coe="400" hit_coe="400" crit_coe="400" defence_coe="400" max_hp_coe="400" dodge_coe="400" toughness_coe="400" getdebris="20" skilllimit="69"/>
+		<star lv="3" debris="150 " item="900103,900202" skill="0" attack_coe="700" hit_coe="700" crit_coe="700" defence_coe="700" max_hp_coe="700" dodge_coe="700" toughness_coe="700" getdebris="20" skilllimit="69"/>
+		<star lv="4" debris="370 " item="900103,900202" skill="0" attack_coe="1300" hit_coe="1300" crit_coe="1300" defence_coe="1300" max_hp_coe="1300" dodge_coe="1300" toughness_coe="1300" getdebris="20" skilllimit="69"/>
+		<star lv="5" debris="850 " item="900103,900202" skill="60008" attack_coe="2200" hit_coe="2200" crit_coe="2200" defence_coe="2200" max_hp_coe="2200" dodge_coe="2200" toughness_coe="2200" getdebris="20" skilllimit="69"/>
+		<star lv="6" debris="1520 " item="900103,900202" skill="0" attack_coe="3300" hit_coe="3300" crit_coe="3300" defence_coe="3300" max_hp_coe="3300" dodge_coe="3300" toughness_coe="3300" getdebris="20" skilllimit="69"/>
+		<star lv="7" debris="2250 " item="900103,900202" skill="0" attack_coe="4600" hit_coe="4600" crit_coe="4600" defence_coe="4600" max_hp_coe="4600" dodge_coe="4600" toughness_coe="4600" getdebris="20" skilllimit="69"/>
+		<star lv="8" debris="2890 " item="900103,900202" skill="0" attack_coe="6100" hit_coe="6100" crit_coe="6100" defence_coe="6100" max_hp_coe="6100" dodge_coe="6100" toughness_coe="6100" getdebris="20" skilllimit="69"/>
+		<star lv="9" debris="3910 " item="900103,900202" skill="0" attack_coe="7800" hit_coe="7800" crit_coe="7800" defence_coe="7800" max_hp_coe="7800" dodge_coe="7800" toughness_coe="7800" getdebris="20" skilllimit="69"/>
+		<star lv="10" debris="0" item="900103,900202" skill="0" attack_coe="10000" hit_coe="10000" crit_coe="10000" defence_coe="10000" max_hp_coe="10000" dodge_coe="10000" toughness_coe="10000" getdebris="20" skilllimit="69"/>
+	</partner>
+	<partner id="5" name="项庞云" avatarA="2004" quality="3" starnum="10" attack="697860" hit="232031" crit="291552" defence="215112" max_hp="6073349" dodge="221935" toughness="204815" type="1" normal_attack="60009" speed="0.0072" dubbing="92004" jhdubbing="93001" sxdubbing="93000" opentype="2" getwaydescribe="[u][font color='#24c424']超凡生死战兑换[/font][/u]" openui="V_SingleCopyUI|Singe_LifeDeathCopy,V_CelebrityShopUI" functionid="600" fighting="4330" inlv="30" describe="恭喜你获得伙伴项庞云|伙伴成长的同时能获得各种技能并提升您大量属性">
+		<star lv="0" debris="40 " item="900104" skill="0" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="20" skilllimit="69"/>
+		<star lv="1" debris="40 " item="900104,900202" skill="60009" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="20" skilllimit="69"/>
+		<star lv="2" debris="80 " item="900104,900202" skill="0" attack_coe="400" hit_coe="400" crit_coe="400" defence_coe="400" max_hp_coe="400" dodge_coe="400" toughness_coe="400" getdebris="20" skilllimit="69"/>
+		<star lv="3" debris="150 " item="900104,900202" skill="0" attack_coe="700" hit_coe="700" crit_coe="700" defence_coe="700" max_hp_coe="700" dodge_coe="700" toughness_coe="700" getdebris="20" skilllimit="69"/>
+		<star lv="4" debris="370 " item="900104,900202" skill="0" attack_coe="1300" hit_coe="1300" crit_coe="1300" defence_coe="1300" max_hp_coe="1300" dodge_coe="1300" toughness_coe="1300" getdebris="20" skilllimit="69"/>
+		<star lv="5" debris="850 " item="900104,900202" skill="60010" attack_coe="2200" hit_coe="2200" crit_coe="2200" defence_coe="2200" max_hp_coe="2200" dodge_coe="2200" toughness_coe="2200" getdebris="20" skilllimit="69"/>
+		<star lv="6" debris="1520 " item="900104,900202" skill="0" attack_coe="3300" hit_coe="3300" crit_coe="3300" defence_coe="3300" max_hp_coe="3300" dodge_coe="3300" toughness_coe="3300" getdebris="20" skilllimit="69"/>
+		<star lv="7" debris="2250 " item="900104,900202" skill="0" attack_coe="4600" hit_coe="4600" crit_coe="4600" defence_coe="4600" max_hp_coe="4600" dodge_coe="4600" toughness_coe="4600" getdebris="20" skilllimit="69"/>
+		<star lv="8" debris="2890 " item="900104,900202" skill="0" attack_coe="6100" hit_coe="6100" crit_coe="6100" defence_coe="6100" max_hp_coe="6100" dodge_coe="6100" toughness_coe="6100" getdebris="20" skilllimit="69"/>
+		<star lv="9" debris="3910 " item="900104,900202" skill="0" attack_coe="7800" hit_coe="7800" crit_coe="7800" defence_coe="7800" max_hp_coe="7800" dodge_coe="7800" toughness_coe="7800" getdebris="20" skilllimit="69"/>
+		<star lv="10" debris="0" item="900104,900202" skill="0" attack_coe="10000" hit_coe="10000" crit_coe="10000" defence_coe="10000" max_hp_coe="10000" dodge_coe="10000" toughness_coe="10000" getdebris="20" skilllimit="69"/>
+	</partner>
+	<partner id="6" name="称号级余靖秋" avatarA="2005" quality="3" starnum="10" attack="930480" hit="185625" crit="242960" defence="226434" max_hp="6073349" dodge="177548" toughness="170679" type="2" normal_attack="60011" speed="0.0072" dubbing="92005" jhdubbing="93001" sxdubbing="93000" opentype="1" getwaydescribe="[u][font color='#24c424']主线任务获得[/font][/u]" openui="V_TaskUI|1" fighting="4348" inlv="30" describe="恭喜你获得伙伴称号级余靖秋|伙伴成长的同时能获得各种技能并提升您大量属性">
+		<star lv="0" debris="40 " item="900105" skill="0" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="20" skilllimit="69"/>
+		<star lv="1" debris="40 " item="900105,900202" skill="60011" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="20" skilllimit="69"/>
+		<star lv="2" debris="80 " item="900105,900202" skill="0" attack_coe="400" hit_coe="400" crit_coe="400" defence_coe="400" max_hp_coe="400" dodge_coe="400" toughness_coe="400" getdebris="20" skilllimit="69"/>
+		<star lv="3" debris="150 " item="900105,900202" skill="0" attack_coe="700" hit_coe="700" crit_coe="700" defence_coe="700" max_hp_coe="700" dodge_coe="700" toughness_coe="700" getdebris="20" skilllimit="69"/>
+		<star lv="4" debris="370 " item="900105,900202" skill="0" attack_coe="1300" hit_coe="1300" crit_coe="1300" defence_coe="1300" max_hp_coe="1300" dodge_coe="1300" toughness_coe="1300" getdebris="20" skilllimit="69"/>
+		<star lv="5" debris="850 " item="900105,900202" skill="60012" attack_coe="2200" hit_coe="2200" crit_coe="2200" defence_coe="2200" max_hp_coe="2200" dodge_coe="2200" toughness_coe="2200" getdebris="20" skilllimit="69"/>
+		<star lv="6" debris="1520 " item="900105,900202" skill="0" attack_coe="3300" hit_coe="3300" crit_coe="3300" defence_coe="3300" max_hp_coe="3300" dodge_coe="3300" toughness_coe="3300" getdebris="20" skilllimit="69"/>
+		<star lv="7" debris="2250 " item="900105,900202" skill="0" attack_coe="4600" hit_coe="4600" crit_coe="4600" defence_coe="4600" max_hp_coe="4600" dodge_coe="4600" toughness_coe="4600" getdebris="20" skilllimit="69"/>
+		<star lv="8" debris="2890 " item="900105,900202" skill="0" attack_coe="6100" hit_coe="6100" crit_coe="6100" defence_coe="6100" max_hp_coe="6100" dodge_coe="6100" toughness_coe="6100" getdebris="20" skilllimit="69"/>
+		<star lv="9" debris="3910 " item="900105,900202" skill="0" attack_coe="7800" hit_coe="7800" crit_coe="7800" defence_coe="7800" max_hp_coe="7800" dodge_coe="7800" toughness_coe="7800" getdebris="20" skilllimit="69"/>
+		<star lv="10" debris="0" item="900105,900202" skill="0" attack_coe="10000" hit_coe="10000" crit_coe="10000" defence_coe="10000" max_hp_coe="10000" dodge_coe="10000" toughness_coe="10000" getdebris="20" skilllimit="69"/>
+	</partner>
+	<partner id="7" name="称号级东伯雪鹰" avatarA="2006" quality="3" starnum="10" attack="930480" hit="185625" crit="242960" defence="226434" max_hp="6073349" dodge="177548" toughness="170679" type="2" normal_attack="60013" speed="0.0072" dubbing="92006" jhdubbing="93001" sxdubbing="93000" opentype="2" getwaydescribe="[u][font color='#24c424']超凡生死战兑换[/font][/u]" openui="V_SingleCopyUI|Singe_LifeDeathCopy,V_CelebrityShopUI" functionid="600" fighting="4348" inlv="30" describe="恭喜你获得伙伴称号级东伯雪鹰|伙伴成长的同时能获得各种技能并提升您大量属性">
+		<star lv="0" debris="40 " item="900106" skill="0" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="20" skilllimit="69"/>
+		<star lv="1" debris="40 " item="900106,900202" skill="60013" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="20" skilllimit="69"/>
+		<star lv="2" debris="80 " item="900106,900202" skill="0" attack_coe="400" hit_coe="400" crit_coe="400" defence_coe="400" max_hp_coe="400" dodge_coe="400" toughness_coe="400" getdebris="20" skilllimit="69"/>
+		<star lv="3" debris="150 " item="900106,900202" skill="0" attack_coe="700" hit_coe="700" crit_coe="700" defence_coe="700" max_hp_coe="700" dodge_coe="700" toughness_coe="700" getdebris="20" skilllimit="69"/>
+		<star lv="4" debris="370 " item="900106,900202" skill="0" attack_coe="1300" hit_coe="1300" crit_coe="1300" defence_coe="1300" max_hp_coe="1300" dodge_coe="1300" toughness_coe="1300" getdebris="20" skilllimit="69"/>
+		<star lv="5" debris="850 " item="900106,900202" skill="60014" attack_coe="2200" hit_coe="2200" crit_coe="2200" defence_coe="2200" max_hp_coe="2200" dodge_coe="2200" toughness_coe="2200" getdebris="20" skilllimit="69"/>
+		<star lv="6" debris="1520 " item="900106,900202" skill="0" attack_coe="3300" hit_coe="3300" crit_coe="3300" defence_coe="3300" max_hp_coe="3300" dodge_coe="3300" toughness_coe="3300" getdebris="20" skilllimit="69"/>
+		<star lv="7" debris="2250 " item="900106,900202" skill="0" attack_coe="4600" hit_coe="4600" crit_coe="4600" defence_coe="4600" max_hp_coe="4600" dodge_coe="4600" toughness_coe="4600" getdebris="20" skilllimit="69"/>
+		<star lv="8" debris="2890 " item="900106,900202" skill="0" attack_coe="6100" hit_coe="6100" crit_coe="6100" defence_coe="6100" max_hp_coe="6100" dodge_coe="6100" toughness_coe="6100" getdebris="20" skilllimit="69"/>
+		<star lv="9" debris="3910 " item="900106,900202" skill="0" attack_coe="7800" hit_coe="7800" crit_coe="7800" defence_coe="7800" max_hp_coe="7800" dodge_coe="7800" toughness_coe="7800" getdebris="20" skilllimit="69"/>
+		<star lv="10" debris="0" item="900106,900202" skill="0" attack_coe="10000" hit_coe="10000" crit_coe="10000" defence_coe="10000" max_hp_coe="10000" dodge_coe="10000" toughness_coe="10000" getdebris="20" skilllimit="69"/>
+	</partner>
+	<partner id="8" name="超凡级东伯雪鹰" avatarA="2007" quality="4" starnum="10" attack="1184247" hit="236250" crit="309222" defence="288189" max_hp="7729716" dodge="225970" toughness="217228" type="2" normal_attack="60015" speed="0.0075" dubbing="92007" jhdubbing="93001" sxdubbing="93000" opentype="2" getwaydescribe="[u][font color='#24c424']超凡生死战兑换[/font][/u]" openui="V_SingleCopyUI|Singe_LifeDeathCopy,V_CelebrityShopUI" functionid="600" fighting="10853" inlv="50" describe="恭喜你获得伙伴超凡级东伯雪鹰|伙伴成长的同时能获得各种技能并提升您大量属性">
+		<star lv="0" debris="50 " item="900107" skill="0" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="25" skilllimit="69"/>
+		<star lv="1" debris="40 " item="900107,900203" skill="60015" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="25" skilllimit="69"/>
+		<star lv="2" debris="80 " item="900107,900203" skill="0" attack_coe="400" hit_coe="400" crit_coe="400" defence_coe="400" max_hp_coe="400" dodge_coe="400" toughness_coe="400" getdebris="25" skilllimit="69"/>
+		<star lv="3" debris="150 " item="900107,900203" skill="0" attack_coe="700" hit_coe="700" crit_coe="700" defence_coe="700" max_hp_coe="700" dodge_coe="700" toughness_coe="700" getdebris="25" skilllimit="69"/>
+		<star lv="4" debris="370 " item="900107,900203" skill="0" attack_coe="1300" hit_coe="1300" crit_coe="1300" defence_coe="1300" max_hp_coe="1300" dodge_coe="1300" toughness_coe="1300" getdebris="25" skilllimit="69"/>
+		<star lv="5" debris="860 " item="900107,900203" skill="60016" attack_coe="2200" hit_coe="2200" crit_coe="2200" defence_coe="2200" max_hp_coe="2200" dodge_coe="2200" toughness_coe="2200" getdebris="25" skilllimit="69"/>
+		<star lv="6" debris="1540 " item="900107,900203" skill="0" attack_coe="3300" hit_coe="3300" crit_coe="3300" defence_coe="3300" max_hp_coe="3300" dodge_coe="3300" toughness_coe="3300" getdebris="25" skilllimit="69"/>
+		<star lv="7" debris="2280 " item="900107,900203" skill="0" attack_coe="4600" hit_coe="4600" crit_coe="4600" defence_coe="4600" max_hp_coe="4600" dodge_coe="4600" toughness_coe="4600" getdebris="25" skilllimit="69"/>
+		<star lv="8" debris="2930 " item="900107,900203" skill="60017" attack_coe="6100" hit_coe="6100" crit_coe="6100" defence_coe="6100" max_hp_coe="6100" dodge_coe="6100" toughness_coe="6100" getdebris="25" skilllimit="69"/>
+		<star lv="9" debris="3960 " item="900107,900203" skill="0" attack_coe="7800" hit_coe="7800" crit_coe="7800" defence_coe="7800" max_hp_coe="7800" dodge_coe="7800" toughness_coe="7800" getdebris="25" skilllimit="69"/>
+		<star lv="10" debris="0" item="900107,900203" skill="0" attack_coe="10000" hit_coe="10000" crit_coe="10000" defence_coe="10000" max_hp_coe="10000" dodge_coe="10000" toughness_coe="10000" getdebris="25" skilllimit="69"/>
+	</partner>
+	<partner id="9" name="超凡级余靖秋" avatarA="2008" quality="4" starnum="10" attack="1184247" hit="236250" crit="309222" defence="288189" max_hp="7729716" dodge="225970" toughness="217228" type="2" normal_attack="60018" speed="0.0075" dubbing="92008" jhdubbing="93001" sxdubbing="93000" opentype="2" getwaydescribe="[u][font color='#24c424']超凡生死战兑换[/font][/u]" openui="V_SingleCopyUI|Singe_LifeDeathCopy,V_CelebrityShopUI" functionid="600" fighting="10453" inlv="50" describe="恭喜你获得伙伴超凡级余靖秋|伙伴成长的同时能获得各种技能并提升您大量属性">
+		<star lv="0" debris="50 " item="900108" skill="0" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="25" skilllimit="69"/>
+		<star lv="1" debris="40 " item="900108,900203" skill="60018" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="25" skilllimit="69"/>
+		<star lv="2" debris="80 " item="900108,900203" skill="0" attack_coe="400" hit_coe="400" crit_coe="400" defence_coe="400" max_hp_coe="400" dodge_coe="400" toughness_coe="400" getdebris="25" skilllimit="69"/>
+		<star lv="3" debris="150 " item="900108,900203" skill="0" attack_coe="700" hit_coe="700" crit_coe="700" defence_coe="700" max_hp_coe="700" dodge_coe="700" toughness_coe="700" getdebris="25" skilllimit="69"/>
+		<star lv="4" debris="370 " item="900108,900203" skill="0" attack_coe="1300" hit_coe="1300" crit_coe="1300" defence_coe="1300" max_hp_coe="1300" dodge_coe="1300" toughness_coe="1300" getdebris="25" skilllimit="69"/>
+		<star lv="5" debris="860 " item="900108,900203" skill="60019" attack_coe="2200" hit_coe="2200" crit_coe="2200" defence_coe="2200" max_hp_coe="2200" dodge_coe="2200" toughness_coe="2200" getdebris="25" skilllimit="69"/>
+		<star lv="6" debris="1540 " item="900108,900203" skill="0" attack_coe="3300" hit_coe="3300" crit_coe="3300" defence_coe="3300" max_hp_coe="3300" dodge_coe="3300" toughness_coe="3300" getdebris="25" skilllimit="69"/>
+		<star lv="7" debris="2280 " item="900108,900203" skill="0" attack_coe="4600" hit_coe="4600" crit_coe="4600" defence_coe="4600" max_hp_coe="4600" dodge_coe="4600" toughness_coe="4600" getdebris="25" skilllimit="69"/>
+		<star lv="8" debris="2930 " item="900108,900203" skill="60020" attack_coe="6100" hit_coe="6100" crit_coe="6100" defence_coe="6100" max_hp_coe="6100" dodge_coe="6100" toughness_coe="6100" getdebris="25" skilllimit="69"/>
+		<star lv="9" debris="3960 " item="900108,900203" skill="0" attack_coe="7800" hit_coe="7800" crit_coe="7800" defence_coe="7800" max_hp_coe="7800" dodge_coe="7800" toughness_coe="7800" getdebris="25" skilllimit="69"/>
+		<star lv="10" debris="0" item="900108,900203" skill="0" attack_coe="10000" hit_coe="10000" crit_coe="10000" defence_coe="10000" max_hp_coe="10000" dodge_coe="10000" toughness_coe="10000" getdebris="25" skilllimit="69"/>
+	</partner>
+	<partner id="10" name="卓师姐" avatarA="2009" quality="4" starnum="10" attack="888186" hit="295313" crit="371067" defence="273779" max_hp="7729716" dodge="282462" toughness="260674" type="1" normal_attack="60021" speed="0.0075" dubbing="92009" jhdubbing="93001" sxdubbing="93000" opentype="1" getwaydescribe="[u][font color='#24c424']七日登录获得[/font][/u]" openui="V_WelfareHallUI|1" functionid="256" fighting="10409" inlv="50" describe="恭喜你获得伙伴卓师姐|伙伴成长的同时能获得各种技能并提升您大量属性">
+		<star lv="0" debris="50 " item="900109" skill="0" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="25" skilllimit="69"/>
+		<star lv="1" debris="40 " item="900109,900203" skill="60021" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="25" skilllimit="69"/>
+		<star lv="2" debris="80 " item="900109,900203" skill="0" attack_coe="400" hit_coe="400" crit_coe="400" defence_coe="400" max_hp_coe="400" dodge_coe="400" toughness_coe="400" getdebris="25" skilllimit="69"/>
+		<star lv="3" debris="150 " item="900109,900203" skill="0" attack_coe="700" hit_coe="700" crit_coe="700" defence_coe="700" max_hp_coe="700" dodge_coe="700" toughness_coe="700" getdebris="25" skilllimit="69"/>
+		<star lv="4" debris="370 " item="900109,900203" skill="0" attack_coe="1300" hit_coe="1300" crit_coe="1300" defence_coe="1300" max_hp_coe="1300" dodge_coe="1300" toughness_coe="1300" getdebris="25" skilllimit="69"/>
+		<star lv="5" debris="860 " item="900109,900203" skill="60022" attack_coe="2200" hit_coe="2200" crit_coe="2200" defence_coe="2200" max_hp_coe="2200" dodge_coe="2200" toughness_coe="2200" getdebris="25" skilllimit="69"/>
+		<star lv="6" debris="1540 " item="900109,900203" skill="0" attack_coe="3300" hit_coe="3300" crit_coe="3300" defence_coe="3300" max_hp_coe="3300" dodge_coe="3300" toughness_coe="3300" getdebris="25" skilllimit="69"/>
+		<star lv="7" debris="2280 " item="900109,900203" skill="0" attack_coe="4600" hit_coe="4600" crit_coe="4600" defence_coe="4600" max_hp_coe="4600" dodge_coe="4600" toughness_coe="4600" getdebris="25" skilllimit="69"/>
+		<star lv="8" debris="2930 " item="900109,900203" skill="60023" attack_coe="6100" hit_coe="6100" crit_coe="6100" defence_coe="6100" max_hp_coe="6100" dodge_coe="6100" toughness_coe="6100" getdebris="25" skilllimit="69"/>
+		<star lv="9" debris="3960 " item="900109,900203" skill="0" attack_coe="7800" hit_coe="7800" crit_coe="7800" defence_coe="7800" max_hp_coe="7800" dodge_coe="7800" toughness_coe="7800" getdebris="25" skilllimit="69"/>
+		<star lv="10" debris="0" item="900109,900203" skill="0" attack_coe="10000" hit_coe="10000" crit_coe="10000" defence_coe="10000" max_hp_coe="10000" dodge_coe="10000" toughness_coe="10000" getdebris="25" skilllimit="69"/>
+	</partner>
+	<partner id="11" name="程灵淑" avatarA="2010" quality="4" starnum="10" attack="1184247" hit="236250" crit="309222" defence="288189" max_hp="7729716" dodge="225970" toughness="217228" type="2" normal_attack="60024" speed="0.0075" dubbing="92010" jhdubbing="93001" sxdubbing="93000" opentype="1" getwaydescribe="[u][font color='#24c424']黑风遗宝获得[/font][/u]" openui="ReshaharTreasurePanelExt" functionid="600" fighting="10453" inlv="50" describe="恭喜你获得伙伴程灵淑|伙伴成长的同时能获得各种技能并提升您大量属性">
+		<star lv="0" debris="50 " item="900110" skill="0" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="25" skilllimit="69"/>
+		<star lv="1" debris="40 " item="900110,900203" skill="60024" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="25" skilllimit="69"/>
+		<star lv="2" debris="80 " item="900110,900203" skill="0" attack_coe="400" hit_coe="400" crit_coe="400" defence_coe="400" max_hp_coe="400" dodge_coe="400" toughness_coe="400" getdebris="25" skilllimit="69"/>
+		<star lv="3" debris="150 " item="900110,900203" skill="0" attack_coe="700" hit_coe="700" crit_coe="700" defence_coe="700" max_hp_coe="700" dodge_coe="700" toughness_coe="700" getdebris="25" skilllimit="69"/>
+		<star lv="4" debris="370 " item="900110,900203" skill="0" attack_coe="1300" hit_coe="1300" crit_coe="1300" defence_coe="1300" max_hp_coe="1300" dodge_coe="1300" toughness_coe="1300" getdebris="25" skilllimit="69"/>
+		<star lv="5" debris="860 " item="900110,900203" skill="60025" attack_coe="2200" hit_coe="2200" crit_coe="2200" defence_coe="2200" max_hp_coe="2200" dodge_coe="2200" toughness_coe="2200" getdebris="25" skilllimit="69"/>
+		<star lv="6" debris="1540 " item="900110,900203" skill="0" attack_coe="3300" hit_coe="3300" crit_coe="3300" defence_coe="3300" max_hp_coe="3300" dodge_coe="3300" toughness_coe="3300" getdebris="25" skilllimit="69"/>
+		<star lv="7" debris="2280 " item="900110,900203" skill="0" attack_coe="4600" hit_coe="4600" crit_coe="4600" defence_coe="4600" max_hp_coe="4600" dodge_coe="4600" toughness_coe="4600" getdebris="25" skilllimit="69"/>
+		<star lv="8" debris="2930 " item="900110,900203" skill="60026" attack_coe="6100" hit_coe="6100" crit_coe="6100" defence_coe="6100" max_hp_coe="6100" dodge_coe="6100" toughness_coe="6100" getdebris="25" skilllimit="69"/>
+		<star lv="9" debris="3960 " item="900110,900203" skill="0" attack_coe="7800" hit_coe="7800" crit_coe="7800" defence_coe="7800" max_hp_coe="7800" dodge_coe="7800" toughness_coe="7800" getdebris="25" skilllimit="69"/>
+		<star lv="10" debris="0" item="900110,900203" skill="0" attack_coe="10000" hit_coe="10000" crit_coe="10000" defence_coe="10000" max_hp_coe="10000" dodge_coe="10000" toughness_coe="10000" getdebris="25" skilllimit="69"/>
+	</partner>
+	<partner id="12" name="濮阳波" avatarA="2011" quality="4" starnum="10" attack="888186" hit="295313" crit="371067" defence="273779" max_hp="7729716" dodge="282462" toughness="260674" type="1" normal_attack="60027" speed="0.0075" dubbing="92011" jhdubbing="93001" sxdubbing="93000" opentype="2" getwaydescribe="[u][font color='#24c424']超凡生死战兑换[/font][/u]" openui="V_SingleCopyUI|Singe_LifeDeathCopy,V_CelebrityShopUI" functionid="600" fighting="10409" inlv="50" describe="恭喜你获得伙伴濮阳波|伙伴成长的同时能获得各种技能并提升您大量属性">
+		<star lv="0" debris="50 " item="900111" skill="0" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="25" skilllimit="69"/>
+		<star lv="1" debris="40 " item="900111,900203" skill="60027" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="25" skilllimit="69"/>
+		<star lv="2" debris="80 " item="900111,900203" skill="0" attack_coe="400" hit_coe="400" crit_coe="400" defence_coe="400" max_hp_coe="400" dodge_coe="400" toughness_coe="400" getdebris="25" skilllimit="69"/>
+		<star lv="3" debris="150 " item="900111,900203" skill="0" attack_coe="700" hit_coe="700" crit_coe="700" defence_coe="700" max_hp_coe="700" dodge_coe="700" toughness_coe="700" getdebris="25" skilllimit="69"/>
+		<star lv="4" debris="370 " item="900111,900203" skill="0" attack_coe="1300" hit_coe="1300" crit_coe="1300" defence_coe="1300" max_hp_coe="1300" dodge_coe="1300" toughness_coe="1300" getdebris="25" skilllimit="69"/>
+		<star lv="5" debris="860 " item="900111,900203" skill="60028" attack_coe="2200" hit_coe="2200" crit_coe="2200" defence_coe="2200" max_hp_coe="2200" dodge_coe="2200" toughness_coe="2200" getdebris="25" skilllimit="69"/>
+		<star lv="6" debris="1540 " item="900111,900203" skill="0" attack_coe="3300" hit_coe="3300" crit_coe="3300" defence_coe="3300" max_hp_coe="3300" dodge_coe="3300" toughness_coe="3300" getdebris="25" skilllimit="69"/>
+		<star lv="7" debris="2280 " item="900111,900203" skill="0" attack_coe="4600" hit_coe="4600" crit_coe="4600" defence_coe="4600" max_hp_coe="4600" dodge_coe="4600" toughness_coe="4600" getdebris="25" skilllimit="69"/>
+		<star lv="8" debris="2930 " item="900111,900203" skill="60029" attack_coe="6100" hit_coe="6100" crit_coe="6100" defence_coe="6100" max_hp_coe="6100" dodge_coe="6100" toughness_coe="6100" getdebris="25" skilllimit="69"/>
+		<star lv="9" debris="3960 " item="900111,900203" skill="0" attack_coe="7800" hit_coe="7800" crit_coe="7800" defence_coe="7800" max_hp_coe="7800" dodge_coe="7800" toughness_coe="7800" getdebris="25" skilllimit="69"/>
+		<star lv="10" debris="0" item="900111,900203" skill="0" attack_coe="10000" hit_coe="10000" crit_coe="10000" defence_coe="10000" max_hp_coe="10000" dodge_coe="10000" toughness_coe="10000" getdebris="25" skilllimit="69"/>
+	</partner>
+	<partner id="13" name="袁青" avatarA="2012" quality="4" starnum="10" attack="947398" hit="259875" crit="371067" defence="288189" max_hp="8116202" dodge="248567" toughness="260674" type="3" normal_attack="60030" speed="0.0075" dubbing="92012" jhdubbing="93001" sxdubbing="93000" opentype="2" getwaydescribe="[u][font color='#24c424']超凡生死战兑换[/font][/u]" openui="V_SingleCopyUI|Singe_LifeDeathCopy,V_CelebrityShopUI" functionid="600" fighting="10498" inlv="50" describe="恭喜你获得伙伴袁青|伙伴成长的同时能获得各种技能并提升您大量属性">
+		<star lv="0" debris="50 " item="900112" skill="0" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="25" skilllimit="69"/>
+		<star lv="1" debris="40 " item="900112,900203" skill="60030" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="25" skilllimit="69"/>
+		<star lv="2" debris="80 " item="900112,900203" skill="0" attack_coe="400" hit_coe="400" crit_coe="400" defence_coe="400" max_hp_coe="400" dodge_coe="400" toughness_coe="400" getdebris="25" skilllimit="69"/>
+		<star lv="3" debris="150 " item="900112,900203" skill="0" attack_coe="700" hit_coe="700" crit_coe="700" defence_coe="700" max_hp_coe="700" dodge_coe="700" toughness_coe="700" getdebris="25" skilllimit="69"/>
+		<star lv="4" debris="370 " item="900112,900203" skill="0" attack_coe="1300" hit_coe="1300" crit_coe="1300" defence_coe="1300" max_hp_coe="1300" dodge_coe="1300" toughness_coe="1300" getdebris="25" skilllimit="69"/>
+		<star lv="5" debris="860 " item="900112,900203" skill="60031" attack_coe="2200" hit_coe="2200" crit_coe="2200" defence_coe="2200" max_hp_coe="2200" dodge_coe="2200" toughness_coe="2200" getdebris="25" skilllimit="69"/>
+		<star lv="6" debris="1540 " item="900112,900203" skill="0" attack_coe="3300" hit_coe="3300" crit_coe="3300" defence_coe="3300" max_hp_coe="3300" dodge_coe="3300" toughness_coe="3300" getdebris="25" skilllimit="69"/>
+		<star lv="7" debris="2280 " item="900112,900203" skill="0" attack_coe="4600" hit_coe="4600" crit_coe="4600" defence_coe="4600" max_hp_coe="4600" dodge_coe="4600" toughness_coe="4600" getdebris="25" skilllimit="69"/>
+		<star lv="8" debris="2930 " item="900112,900203" skill="60032" attack_coe="6100" hit_coe="6100" crit_coe="6100" defence_coe="6100" max_hp_coe="6100" dodge_coe="6100" toughness_coe="6100" getdebris="25" skilllimit="69"/>
+		<star lv="9" debris="3960 " item="900112,900203" skill="0" attack_coe="7800" hit_coe="7800" crit_coe="7800" defence_coe="7800" max_hp_coe="7800" dodge_coe="7800" toughness_coe="7800" getdebris="25" skilllimit="69"/>
+		<star lv="10" debris="0" item="900112,900203" skill="0" attack_coe="10000" hit_coe="10000" crit_coe="10000" defence_coe="10000" max_hp_coe="10000" dodge_coe="10000" toughness_coe="10000" getdebris="25" skilllimit="69"/>
+	</partner>
+	<partner id="14" name="半神级东伯雪鹰" avatarA="2013" quality="5" starnum="10" attack="1691782" hit="337500" crit="441746" defence="411698" max_hp="11042452" dodge="322814" toughness="310326" type="2" normal_attack="60033" speed="0.0078" dubbing="92013" jhdubbing="93001" sxdubbing="93000" opentype="1" getwaydescribe="[u][font color='#24c424']黑风遗宝获得[/font][/u]" openui="ReshaharTreasurePanelExt" functionid="600" fighting="25356" inlv="70" describe="恭喜你获得伙伴半神级东伯雪鹰|伙伴成长的同时能获得各种技能并提升您大量属性">
+		<star lv="0" debris="200 " item="900113" skill="0" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="100" skilllimit="69"/>
+		<star lv="1" debris="150 " item="900113,900204" skill="60033" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="100" skilllimit="69"/>
+		<star lv="2" debris="300 " item="900113,900204" skill="0" attack_coe="400" hit_coe="400" crit_coe="400" defence_coe="400" max_hp_coe="400" dodge_coe="400" toughness_coe="400" getdebris="100" skilllimit="69"/>
+		<star lv="3" debris="500 " item="900113,900204" skill="0" attack_coe="700" hit_coe="700" crit_coe="700" defence_coe="700" max_hp_coe="700" dodge_coe="700" toughness_coe="700" getdebris="100" skilllimit="69"/>
+		<star lv="4" debris="800 " item="900113,900204" skill="0" attack_coe="1300" hit_coe="1300" crit_coe="1300" defence_coe="1300" max_hp_coe="1300" dodge_coe="1300" toughness_coe="1300" getdebris="100" skilllimit="69"/>
+		<star lv="5" debris="1500 " item="900113,900204" skill="60034" attack_coe="2200" hit_coe="2200" crit_coe="2200" defence_coe="2200" max_hp_coe="2200" dodge_coe="2200" toughness_coe="2200" getdebris="100" skilllimit="69"/>
+		<star lv="6" debris="3000 " item="900113,900204" skill="0" attack_coe="3300" hit_coe="3300" crit_coe="3300" defence_coe="3300" max_hp_coe="3300" dodge_coe="3300" toughness_coe="3300" getdebris="100" skilllimit="69"/>
+		<star lv="7" debris="5000 " item="900113,900204" skill="0" attack_coe="4600" hit_coe="4600" crit_coe="4600" defence_coe="4600" max_hp_coe="4600" dodge_coe="4600" toughness_coe="4600" getdebris="100" skilllimit="69"/>
+		<star lv="8" debris="8000 " item="900113,900204" skill="60035" attack_coe="6100" hit_coe="6100" crit_coe="6100" defence_coe="6100" max_hp_coe="6100" dodge_coe="6100" toughness_coe="6100" getdebris="100" skilllimit="69"/>
+		<star lv="9" debris="10000 " item="900113,900204" skill="0" attack_coe="7800" hit_coe="7800" crit_coe="7800" defence_coe="7800" max_hp_coe="7800" dodge_coe="7800" toughness_coe="7800" getdebris="100" skilllimit="69"/>
+		<star lv="10" debris="0" item="900113,900204" skill="0" attack_coe="10000" hit_coe="10000" crit_coe="10000" defence_coe="10000" max_hp_coe="10000" dodge_coe="10000" toughness_coe="10000" getdebris="100" skilllimit="69"/>
+	</partner>
+	<partner id="15" name="半神级余靖秋" avatarA="2014" quality="5" starnum="10" attack="1691782" hit="337500" crit="441746" defence="411698" max_hp="11042452" dodge="322814" toughness="310326" type="2" normal_attack="60036" speed="0.0078" dubbing="92014" jhdubbing="93001" sxdubbing="93000" opentype="1" getwaydescribe="[u][font color='#24c424']黑风遗宝获得[/font][/u]" openui="ReshaharTreasurePanelExt" functionid="600" fighting="25356" inlv="70" describe="恭喜你获得伙伴半神级余靖秋|伙伴成长的同时能获得各种技能并提升您大量属性">
+		<star lv="0" debris="200 " item="900114" skill="0" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="100" skilllimit="69"/>
+		<star lv="1" debris="150 " item="900114,900204" skill="60036" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="100" skilllimit="69"/>
+		<star lv="2" debris="300 " item="900114,900204" skill="0" attack_coe="400" hit_coe="400" crit_coe="400" defence_coe="400" max_hp_coe="400" dodge_coe="400" toughness_coe="400" getdebris="100" skilllimit="69"/>
+		<star lv="3" debris="500 " item="900114,900204" skill="0" attack_coe="700" hit_coe="700" crit_coe="700" defence_coe="700" max_hp_coe="700" dodge_coe="700" toughness_coe="700" getdebris="100" skilllimit="69"/>
+		<star lv="4" debris="800 " item="900114,900204" skill="0" attack_coe="1300" hit_coe="1300" crit_coe="1300" defence_coe="1300" max_hp_coe="1300" dodge_coe="1300" toughness_coe="1300" getdebris="100" skilllimit="69"/>
+		<star lv="5" debris="1500 " item="900114,900204" skill="60037" attack_coe="2200" hit_coe="2200" crit_coe="2200" defence_coe="2200" max_hp_coe="2200" dodge_coe="2200" toughness_coe="2200" getdebris="100" skilllimit="69"/>
+		<star lv="6" debris="3000 " item="900114,900204" skill="0" attack_coe="3300" hit_coe="3300" crit_coe="3300" defence_coe="3300" max_hp_coe="3300" dodge_coe="3300" toughness_coe="3300" getdebris="100" skilllimit="69"/>
+		<star lv="7" debris="5000 " item="900114,900204" skill="0" attack_coe="4600" hit_coe="4600" crit_coe="4600" defence_coe="4600" max_hp_coe="4600" dodge_coe="4600" toughness_coe="4600" getdebris="100" skilllimit="69"/>
+		<star lv="8" debris="8000 " item="900114,900204" skill="60038" attack_coe="6100" hit_coe="6100" crit_coe="6100" defence_coe="6100" max_hp_coe="6100" dodge_coe="6100" toughness_coe="6100" getdebris="100" skilllimit="69"/>
+		<star lv="9" debris="10000 " item="900114,900204" skill="0" attack_coe="7800" hit_coe="7800" crit_coe="7800" defence_coe="7800" max_hp_coe="7800" dodge_coe="7800" toughness_coe="7800" getdebris="100" skilllimit="69"/>
+		<star lv="10" debris="0" item="900114,900204" skill="0" attack_coe="10000" hit_coe="10000" crit_coe="10000" defence_coe="10000" max_hp_coe="10000" dodge_coe="10000" toughness_coe="10000" getdebris="100" skilllimit="69"/>
+	</partner>
+	<partner id="16" name="步城主" avatarA="2015" quality="5" starnum="10" attack="1691782" hit="337500" crit="441746" defence="411698" max_hp="11042452" dodge="322814" toughness="310326" type="2" normal_attack="60039" speed="0.0078" dubbing="92015" jhdubbing="93001" sxdubbing="93000" opentype="1" getwaydescribe="[u][font color='#24c424']领主特权获得[/font][/u]" openui="MonthCardPanelNewExt" functionid="1120" fighting="25356" inlv="70" describe="恭喜你获得伙伴步城主|伙伴成长的同时能获得各种技能并提升您大量属性">
+		<star lv="0" debris="200 " item="900115" skill="0" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="100" skilllimit="69"/>
+		<star lv="1" debris="150 " item="900115,900204" skill="60039" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="100" skilllimit="69"/>
+		<star lv="2" debris="300 " item="900115,900204" skill="0" attack_coe="400" hit_coe="400" crit_coe="400" defence_coe="400" max_hp_coe="400" dodge_coe="400" toughness_coe="400" getdebris="100" skilllimit="69"/>
+		<star lv="3" debris="500 " item="900115,900204" skill="0" attack_coe="700" hit_coe="700" crit_coe="700" defence_coe="700" max_hp_coe="700" dodge_coe="700" toughness_coe="700" getdebris="100" skilllimit="69"/>
+		<star lv="4" debris="800 " item="900115,900204" skill="0" attack_coe="1300" hit_coe="1300" crit_coe="1300" defence_coe="1300" max_hp_coe="1300" dodge_coe="1300" toughness_coe="1300" getdebris="100" skilllimit="69"/>
+		<star lv="5" debris="1500 " item="900115,900204" skill="60040" attack_coe="2200" hit_coe="2200" crit_coe="2200" defence_coe="2200" max_hp_coe="2200" dodge_coe="2200" toughness_coe="2200" getdebris="100" skilllimit="69"/>
+		<star lv="6" debris="3000 " item="900115,900204" skill="0" attack_coe="3300" hit_coe="3300" crit_coe="3300" defence_coe="3300" max_hp_coe="3300" dodge_coe="3300" toughness_coe="3300" getdebris="100" skilllimit="69"/>
+		<star lv="7" debris="5000 " item="900115,900204" skill="0" attack_coe="4600" hit_coe="4600" crit_coe="4600" defence_coe="4600" max_hp_coe="4600" dodge_coe="4600" toughness_coe="4600" getdebris="100" skilllimit="69"/>
+		<star lv="8" debris="8000 " item="900115,900204" skill="60041" attack_coe="6100" hit_coe="6100" crit_coe="6100" defence_coe="6100" max_hp_coe="6100" dodge_coe="6100" toughness_coe="6100" getdebris="100" skilllimit="69"/>
+		<star lv="9" debris="10000 " item="900115,900204" skill="0" attack_coe="7800" hit_coe="7800" crit_coe="7800" defence_coe="7800" max_hp_coe="7800" dodge_coe="7800" toughness_coe="7800" getdebris="100" skilllimit="69"/>
+		<star lv="10" debris="0" item="900115,900204" skill="0" attack_coe="10000" hit_coe="10000" crit_coe="10000" defence_coe="10000" max_hp_coe="10000" dodge_coe="10000" toughness_coe="10000" getdebris="100" skilllimit="69"/>
+	</partner>
+	<partner id="17" name="晁青" avatarA="2016" quality="5" starnum="10" attack="1268837" hit="421875" crit="530095" defence="391113" max_hp="11042452" dodge="403518" toughness="372391" type="1" normal_attack="60042" speed="0.0078" dubbing="92016" jhdubbing="93001" sxdubbing="93000" opentype="1" getwaydescribe="[u][font color='#24c424']开服充值送礼[/font][/u]" openui="HallPanelRebateExt" functionid="207" fighting="25250" inlv="70" describe="恭喜你获得伙伴晁青|伙伴成长的同时能获得各种技能并提升您大量属性">
+		<star lv="0" debris="200 " item="900116" skill="0" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="100" skilllimit="69"/>
+		<star lv="1" debris="150 " item="900116,900204" skill="60042" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="100" skilllimit="69"/>
+		<star lv="2" debris="300 " item="900116,900204" skill="0" attack_coe="400" hit_coe="400" crit_coe="400" defence_coe="400" max_hp_coe="400" dodge_coe="400" toughness_coe="400" getdebris="100" skilllimit="69"/>
+		<star lv="3" debris="500 " item="900116,900204" skill="0" attack_coe="700" hit_coe="700" crit_coe="700" defence_coe="700" max_hp_coe="700" dodge_coe="700" toughness_coe="700" getdebris="100" skilllimit="69"/>
+		<star lv="4" debris="800 " item="900116,900204" skill="0" attack_coe="1300" hit_coe="1300" crit_coe="1300" defence_coe="1300" max_hp_coe="1300" dodge_coe="1300" toughness_coe="1300" getdebris="100" skilllimit="69"/>
+		<star lv="5" debris="1500 " item="900116,900204" skill="60043" attack_coe="2200" hit_coe="2200" crit_coe="2200" defence_coe="2200" max_hp_coe="2200" dodge_coe="2200" toughness_coe="2200" getdebris="100" skilllimit="69"/>
+		<star lv="6" debris="3000 " item="900116,900204" skill="0" attack_coe="3300" hit_coe="3300" crit_coe="3300" defence_coe="3300" max_hp_coe="3300" dodge_coe="3300" toughness_coe="3300" getdebris="100" skilllimit="69"/>
+		<star lv="7" debris="5000 " item="900116,900204" skill="0" attack_coe="4600" hit_coe="4600" crit_coe="4600" defence_coe="4600" max_hp_coe="4600" dodge_coe="4600" toughness_coe="4600" getdebris="100" skilllimit="69"/>
+		<star lv="8" debris="8000 " item="900116,900204" skill="60044" attack_coe="6100" hit_coe="6100" crit_coe="6100" defence_coe="6100" max_hp_coe="6100" dodge_coe="6100" toughness_coe="6100" getdebris="100" skilllimit="69"/>
+		<star lv="9" debris="10000 " item="900116,900204" skill="0" attack_coe="7800" hit_coe="7800" crit_coe="7800" defence_coe="7800" max_hp_coe="7800" dodge_coe="7800" toughness_coe="7800" getdebris="100" skilllimit="69"/>
+		<star lv="10" debris="0" item="900116,900204" skill="0" attack_coe="10000" hit_coe="10000" crit_coe="10000" defence_coe="10000" max_hp_coe="10000" dodge_coe="10000" toughness_coe="10000" getdebris="100" skilllimit="69"/>
+	</partner>
+	<partner id="18" name="池丘白" avatarA="2017" quality="5" starnum="10" attack="1353426" hit="371250" crit="530095" defence="411698" max_hp="11594575" dodge="355095" toughness="372391" type="3" normal_attack="60045" speed="0.0078" dubbing="92017" jhdubbing="93001" sxdubbing="93000" opentype="1" getwaydescribe="[u][font color='#24c424']开服充值送礼[/font][/u]" openui="HallPanelRebateExt" functionid="207" fighting="25467" inlv="70" describe="恭喜你获得伙伴池丘白|伙伴成长的同时能获得各种技能并提升您大量属性">
+		<star lv="0" debris="200 " item="900117" skill="0" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="100" skilllimit="69"/>
+		<star lv="1" debris="150 " item="900117,900204" skill="60045" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="100" skilllimit="69"/>
+		<star lv="2" debris="300 " item="900117,900204" skill="0" attack_coe="400" hit_coe="400" crit_coe="400" defence_coe="400" max_hp_coe="400" dodge_coe="400" toughness_coe="400" getdebris="100" skilllimit="69"/>
+		<star lv="3" debris="500 " item="900117,900204" skill="0" attack_coe="700" hit_coe="700" crit_coe="700" defence_coe="700" max_hp_coe="700" dodge_coe="700" toughness_coe="700" getdebris="100" skilllimit="69"/>
+		<star lv="4" debris="800 " item="900117,900204" skill="0" attack_coe="1300" hit_coe="1300" crit_coe="1300" defence_coe="1300" max_hp_coe="1300" dodge_coe="1300" toughness_coe="1300" getdebris="100" skilllimit="69"/>
+		<star lv="5" debris="1500 " item="900117,900204" skill="60046" attack_coe="2200" hit_coe="2200" crit_coe="2200" defence_coe="2200" max_hp_coe="2200" dodge_coe="2200" toughness_coe="2200" getdebris="100" skilllimit="69"/>
+		<star lv="6" debris="3000 " item="900117,900204" skill="0" attack_coe="3300" hit_coe="3300" crit_coe="3300" defence_coe="3300" max_hp_coe="3300" dodge_coe="3300" toughness_coe="3300" getdebris="100" skilllimit="69"/>
+		<star lv="7" debris="5000 " item="900117,900204" skill="0" attack_coe="4600" hit_coe="4600" crit_coe="4600" defence_coe="4600" max_hp_coe="4600" dodge_coe="4600" toughness_coe="4600" getdebris="100" skilllimit="69"/>
+		<star lv="8" debris="8000 " item="900117,900204" skill="60047" attack_coe="6100" hit_coe="6100" crit_coe="6100" defence_coe="6100" max_hp_coe="6100" dodge_coe="6100" toughness_coe="6100" getdebris="100" skilllimit="69"/>
+		<star lv="9" debris="10000 " item="900117,900204" skill="0" attack_coe="7800" hit_coe="7800" crit_coe="7800" defence_coe="7800" max_hp_coe="7800" dodge_coe="7800" toughness_coe="7800" getdebris="100" skilllimit="69"/>
+		<star lv="10" debris="0" item="900117,900204" skill="0" attack_coe="10000" hit_coe="10000" crit_coe="10000" defence_coe="10000" max_hp_coe="10000" dodge_coe="10000" toughness_coe="10000" getdebris="100" skilllimit="69"/>
+	</partner>
+	<partner id="19" name="薪火宫宫主" avatarA="2018" quality="5" starnum="10" attack="1353426" hit="371250" crit="530095" defence="411698" max_hp="11594575" dodge="355095" toughness="372391" type="3" normal_attack="60048" speed="0.0078" dubbing="92018" jhdubbing="93001" sxdubbing="93000" opentype="1" getwaydescribe="[u][font color='#24c424']开服主题日活动[/font][/u]" openui="HallPanelRebateExt" functionid="207" fighting="25467" inlv="70" describe="恭喜你获得伙伴薪火宫宫主|伙伴成长的同时能获得各种技能并提升您大量属性">
+		<star lv="0" debris="200 " item="900118" skill="0" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="100" skilllimit="69"/>
+		<star lv="1" debris="150 " item="900118,900204" skill="60048" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="100" skilllimit="69"/>
+		<star lv="2" debris="300 " item="900118,900204" skill="0" attack_coe="400" hit_coe="400" crit_coe="400" defence_coe="400" max_hp_coe="400" dodge_coe="400" toughness_coe="400" getdebris="100" skilllimit="69"/>
+		<star lv="3" debris="500 " item="900118,900204" skill="0" attack_coe="700" hit_coe="700" crit_coe="700" defence_coe="700" max_hp_coe="700" dodge_coe="700" toughness_coe="700" getdebris="100" skilllimit="69"/>
+		<star lv="4" debris="800 " item="900118,900204" skill="0" attack_coe="1300" hit_coe="1300" crit_coe="1300" defence_coe="1300" max_hp_coe="1300" dodge_coe="1300" toughness_coe="1300" getdebris="100" skilllimit="69"/>
+		<star lv="5" debris="1500 " item="900118,900204" skill="60049" attack_coe="2200" hit_coe="2200" crit_coe="2200" defence_coe="2200" max_hp_coe="2200" dodge_coe="2200" toughness_coe="2200" getdebris="100" skilllimit="69"/>
+		<star lv="6" debris="3000 " item="900118,900204" skill="0" attack_coe="3300" hit_coe="3300" crit_coe="3300" defence_coe="3300" max_hp_coe="3300" dodge_coe="3300" toughness_coe="3300" getdebris="100" skilllimit="69"/>
+		<star lv="7" debris="5000 " item="900118,900204" skill="0" attack_coe="4600" hit_coe="4600" crit_coe="4600" defence_coe="4600" max_hp_coe="4600" dodge_coe="4600" toughness_coe="4600" getdebris="100" skilllimit="69"/>
+		<star lv="8" debris="8000 " item="900118,900204" skill="60050" attack_coe="6100" hit_coe="6100" crit_coe="6100" defence_coe="6100" max_hp_coe="6100" dodge_coe="6100" toughness_coe="6100" getdebris="100" skilllimit="69"/>
+		<star lv="9" debris="10000 " item="900118,900204" skill="0" attack_coe="7800" hit_coe="7800" crit_coe="7800" defence_coe="7800" max_hp_coe="7800" dodge_coe="7800" toughness_coe="7800" getdebris="100" skilllimit="69"/>
+		<star lv="10" debris="0" item="900118,900204" skill="0" attack_coe="10000" hit_coe="10000" crit_coe="10000" defence_coe="10000" max_hp_coe="10000" dodge_coe="10000" toughness_coe="10000" getdebris="100" skilllimit="69"/>
+	</partner>
+	<partner id="20" name="太叔宫主" avatarA="2019" quality="5" starnum="10" attack="1268837" hit="421875" crit="530095" defence="391113" max_hp="11042452" dodge="403518" toughness="372391" type="1" normal_attack="60051" speed="0.0078" dubbing="92019" jhdubbing="93001" sxdubbing="93000" opentype="1" getwaydescribe="[u][font color='#24c424']开服充值送礼[/font][/u]" openui="HallPanelRebateExt" functionid="207" fighting="25250" inlv="70" describe="恭喜你获得伙伴太叔宫主|伙伴成长的同时能获得各种技能并提升您大量属性">
+		<star lv="0" debris="200 " item="900119" skill="0" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="100" skilllimit="69"/>
+		<star lv="1" debris="150 " item="900119,900204" skill="60051" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="100" skilllimit="69"/>
+		<star lv="2" debris="300 " item="900119,900204" skill="0" attack_coe="400" hit_coe="400" crit_coe="400" defence_coe="400" max_hp_coe="400" dodge_coe="400" toughness_coe="400" getdebris="100" skilllimit="69"/>
+		<star lv="3" debris="500 " item="900119,900204" skill="0" attack_coe="700" hit_coe="700" crit_coe="700" defence_coe="700" max_hp_coe="700" dodge_coe="700" toughness_coe="700" getdebris="100" skilllimit="69"/>
+		<star lv="4" debris="800 " item="900119,900204" skill="0" attack_coe="1300" hit_coe="1300" crit_coe="1300" defence_coe="1300" max_hp_coe="1300" dodge_coe="1300" toughness_coe="1300" getdebris="100" skilllimit="69"/>
+		<star lv="5" debris="1500 " item="900119,900204" skill="60052" attack_coe="2200" hit_coe="2200" crit_coe="2200" defence_coe="2200" max_hp_coe="2200" dodge_coe="2200" toughness_coe="2200" getdebris="100" skilllimit="69"/>
+		<star lv="6" debris="3000 " item="900119,900204" skill="0" attack_coe="3300" hit_coe="3300" crit_coe="3300" defence_coe="3300" max_hp_coe="3300" dodge_coe="3300" toughness_coe="3300" getdebris="100" skilllimit="69"/>
+		<star lv="7" debris="5000 " item="900119,900204" skill="0" attack_coe="4600" hit_coe="4600" crit_coe="4600" defence_coe="4600" max_hp_coe="4600" dodge_coe="4600" toughness_coe="4600" getdebris="100" skilllimit="69"/>
+		<star lv="8" debris="8000 " item="900119,900204" skill="60053" attack_coe="6100" hit_coe="6100" crit_coe="6100" defence_coe="6100" max_hp_coe="6100" dodge_coe="6100" toughness_coe="6100" getdebris="100" skilllimit="69"/>
+		<star lv="9" debris="10000 " item="900119,900204" skill="0" attack_coe="7800" hit_coe="7800" crit_coe="7800" defence_coe="7800" max_hp_coe="7800" dodge_coe="7800" toughness_coe="7800" getdebris="100" skilllimit="69"/>
+		<star lv="10" debris="0" item="900119,900204" skill="0" attack_coe="10000" hit_coe="10000" crit_coe="10000" defence_coe="10000" max_hp_coe="10000" dodge_coe="10000" toughness_coe="10000" getdebris="100" skilllimit="69"/>
+	</partner>
+	<partner id="21" name="梅山主人" avatarA="2020" quality="5" starnum="10" attack="1691782" hit="337500" crit="441746" defence="411698" max_hp="11042452" dodge="322814" toughness="310326" type="2" normal_attack="60054" speed="0.0078" dubbing="92020" jhdubbing="93001" sxdubbing="93000" opentype="1" getwaydescribe="[u][font color='#24c424']开服充值送礼[/font][/u]" openui="HallPanelRebateExt" functionid="207" fighting="25356" inlv="70" describe="恭喜你获得伙伴梅山主人|伙伴成长的同时能获得各种技能并提升您大量属性">
+		<star lv="0" debris="200 " item="900120" skill="0" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="100" skilllimit="69"/>
+		<star lv="1" debris="150 " item="900120,900204" skill="60054" attack_coe="190" hit_coe="190" crit_coe="190" defence_coe="190" max_hp_coe="190" dodge_coe="190" toughness_coe="190" getdebris="100" skilllimit="69"/>
+		<star lv="2" debris="300 " item="900120,900204" skill="0" attack_coe="400" hit_coe="400" crit_coe="400" defence_coe="400" max_hp_coe="400" dodge_coe="400" toughness_coe="400" getdebris="100" skilllimit="69"/>
+		<star lv="3" debris="500 " item="900120,900204" skill="0" attack_coe="700" hit_coe="700" crit_coe="700" defence_coe="700" max_hp_coe="700" dodge_coe="700" toughness_coe="700" getdebris="100" skilllimit="69"/>
+		<star lv="4" debris="800 " item="900120,900204" skill="0" attack_coe="1300" hit_coe="1300" crit_coe="1300" defence_coe="1300" max_hp_coe="1300" dodge_coe="1300" toughness_coe="1300" getdebris="100" skilllimit="69"/>
+		<star lv="5" debris="1500 " item="900120,900204" skill="60055" attack_coe="2200" hit_coe="2200" crit_coe="2200" defence_coe="2200" max_hp_coe="2200" dodge_coe="2200" toughness_coe="2200" getdebris="100" skilllimit="69"/>
+		<star lv="6" debris="3000 " item="900120,900204" skill="0" attack_coe="3300" hit_coe="3300" crit_coe="3300" defence_coe="3300" max_hp_coe="3300" dodge_coe="3300" toughness_coe="3300" getdebris="100" skilllimit="69"/>
+		<star lv="7" debris="5000 " item="900120,900204" skill="0" attack_coe="4600" hit_coe="4600" crit_coe="4600" defence_coe="4600" max_hp_coe="4600" dodge_coe="4600" toughness_coe="4600" getdebris="100" skilllimit="69"/>
+		<star lv="8" debris="8000 " item="900120,900204" skill="60056" attack_coe="6100" hit_coe="6100" crit_coe="6100" defence_coe="6100" max_hp_coe="6100" dodge_coe="6100" toughness_coe="6100" getdebris="100" skilllimit="69"/>
+		<star lv="9" debris="10000 " item="900120,900204" skill="0" attack_coe="7800" hit_coe="7800" crit_coe="7800" defence_coe="7800" max_hp_coe="7800" dodge_coe="7800" toughness_coe="7800" getdebris="100" skilllimit="69"/>
+		<star lv="10" debris="0" item="900120,900204" skill="0" attack_coe="10000" hit_coe="10000" crit_coe="10000" defence_coe="10000" max_hp_coe="10000" dodge_coe="10000" toughness_coe="10000" getdebris="100" skilllimit="69"/>
+	</partner>
+	<return>
+		<partner quality="1" gold="100">
+			<star starnum="1" item="900200" num="0" bind="1"/>
+			<star starnum="2" item="900200" num="27" bind="1"/>
+			<star starnum="3" item="900200" num="81" bind="1"/>
+			<star starnum="4" item="900200" num="189" bind="1"/>
+			<star starnum="5" item="900200" num="441" bind="1"/>
+			<star starnum="6" item="900200" num="1026" bind="1"/>
+			<star starnum="7" item="900200" num="2079" bind="1"/>
+			<star starnum="8" item="900200" num="3636" bind="1"/>
+			<star starnum="9" item="900200" num="5634" bind="1"/>
+			<star starnum="10" item="900200" num="8334" bind="1"/>
+			<skill money_coe="0.6"/>
+		</partner>
+		<partner quality="2" gold="200">
+			<star starnum="1" item="900201" num="0" bind="1"/>
+			<star starnum="2" item="900201" num="27" bind="1"/>
+			<star starnum="3" item="900201" num="81" bind="1"/>
+			<star starnum="4" item="900201" num="189" bind="1"/>
+			<star starnum="5" item="900201" num="441" bind="1"/>
+			<star starnum="6" item="900201" num="1026" bind="1"/>
+			<star starnum="7" item="900201" num="2079" bind="1"/>
+			<star starnum="8" item="900201" num="3636" bind="1"/>
+			<star starnum="9" item="900201" num="5634" bind="1"/>
+			<star starnum="10" item="900201" num="8334" bind="1"/>
+			<skill money_coe="0.6"/>
+		</partner>
+		<partner quality="3" gold="300">
+			<star starnum="1" item="900202" num="0" bind="1"/>
+			<star starnum="2" item="900202" num="32" bind="1"/>
+			<star starnum="3" item="900202" num="96" bind="1"/>
+			<star starnum="4" item="900202" num="216" bind="1"/>
+			<star starnum="5" item="900202" num="512" bind="1"/>
+			<star starnum="6" item="900202" num="1192" bind="1"/>
+			<star starnum="7" item="900202" num="2408" bind="1"/>
+			<star starnum="8" item="900202" num="4208" bind="1"/>
+			<star starnum="9" item="900202" num="6520" bind="1"/>
+			<star starnum="10" item="900202" num="9648" bind="1"/>
+			<skill money_coe="0.6"/>
+		</partner>
+		<partner quality="4" gold="400">
+			<star starnum="1" item="900203" num="0" bind="1"/>
+			<star starnum="2" item="900203" num="28" bind="1"/>
+			<star starnum="3" item="900203" num="84" bind="1"/>
+			<star starnum="4" item="900203" num="189" bind="1"/>
+			<star starnum="5" item="900203" num="448" bind="1"/>
+			<star starnum="6" item="900203" num="1050" bind="1"/>
+			<star starnum="7" item="900203" num="2128" bind="1"/>
+			<star starnum="8" item="900203" num="3724" bind="1"/>
+			<star starnum="9" item="900203" num="5775" bind="1"/>
+			<star starnum="10" item="900203" num="8547" bind="1"/>
+			<skill money_coe="0.6"/>
+		</partner>
+		<partner quality="5" gold="500">
+			<star starnum="1" item="900204" num="0" bind="1"/>
+			<star starnum="2" item="900204" num="90" bind="1"/>
+			<star starnum="3" item="900204" num="270" bind="1"/>
+			<star starnum="4" item="900204" num="570" bind="1"/>
+			<star starnum="5" item="900204" num="1050" bind="1"/>
+			<star starnum="6" item="900204" num="1950" bind="1"/>
+			<star starnum="7" item="900204" num="3750" bind="1"/>
+			<star starnum="8" item="900204" num="6750" bind="1"/>
+			<star starnum="9" item="900204" num="11550" bind="1"/>
+			<star starnum="10" item="900204" num="17550" bind="1"/>
+			<skill money_coe="0.6"/>
+		</partner>
+		<partner quality="6" gold="500">
+			<star starnum="1" item="900205" num="0" bind="1"/>
+			<star starnum="2" item="900205" num="75" bind="1"/>
+			<star starnum="3" item="900205" num="225" bind="1"/>
+			<star starnum="4" item="900205" num="475" bind="1"/>
+			<star starnum="5" item="900205" num="875" bind="1"/>
+			<star starnum="6" item="900205" num="1625" bind="1"/>
+			<star starnum="7" item="900205" num="3125" bind="1"/>
+			<star starnum="8" item="900205" num="5625" bind="1"/>
+			<star starnum="9" item="900205" num="9625" bind="1"/>
+			<star starnum="10" item="900205" num="14625" bind="1"/>
+			<skill money_coe="0.6"/>
+		</partner>
+	</return>
+</root>

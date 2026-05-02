@@ -1,0 +1,135 @@
+2020-03-24 22:06:39 path:/home/server/operationanalysisserver/unix, key_t:44888, shmid: 294917
+2020-03-24 22:06:39 the gameserver binder IP:127.0.0.1, port:12001
+2020-03-24 22:06:39 database[0] asyn connection over
+2020-03-24 22:06:39 database[0] syn connection over
+700001	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700002	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700003	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700004	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700005	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700006	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700007	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700008	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700009	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700010	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700011	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700012	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700013	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700014	127.0.0.1	root	echeverra	operationanalysisserver	3306
+2020-03-24 22:06:39 server start over
+2020-03-24 23:35:45 path:/home/server/operationanalysisserver/unix, key_t:45548, shmid: 524294
+2020-03-24 23:35:45 the gameserver binder IP:127.0.0.1, port:12001
+2020-03-24 23:35:45 database[0] asyn connection over
+2020-03-24 23:35:45 database[0] syn connection over
+700001	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700002	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700003	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700004	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700005	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700006	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700007	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700008	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700009	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700010	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700011	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700012	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700013	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700014	127.0.0.1	root	echeverra	operationanalysisserver	3306
+2020-03-24 23:35:45 server start over
+2020-03-24 23:43:09 path:/home/server/operationanalysisserver/unix, key_t:10209, shmid: 163845
+2020-03-24 23:43:09 the gameserver binder IP:127.0.0.1, port:12001
+2020-03-24 23:43:09 database[0] asyn connection over
+2020-03-24 23:43:09 database[0] syn connection over
+700001	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700002	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700003	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700004	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700005	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700006	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700007	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700008	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700009	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700010	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700011	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700012	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700013	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700014	127.0.0.1	root	echeverra	operationanalysisserver	3306
+2020-03-24 23:43:09 server start over
+2020-03-25 00:41:38 path:/home/server/operationanalysisserver/unix, key_t:10603, shmid: 327686
+2020-03-25 00:41:38 the gameserver binder IP:127.0.0.1, port:12001
+2020-03-25 00:41:38 database[0] asyn connection over
+2020-03-25 00:41:38 database[0] syn connection over
+700001	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700002	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700003	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700004	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700005	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700006	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700007	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700008	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700009	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700010	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700011	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700012	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700013	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700014	127.0.0.1	root	echeverra	operationanalysisserver	3306
+2020-03-25 00:41:38 server start over
+2020-03-25 00:55:43 path:/home/server/operationanalysisserver/unix, key_t:2373, shmid: 163845
+2020-03-25 00:55:43 the gameserver binder IP:127.0.0.1, port:12001
+2020-03-25 00:55:43 database[0] asyn connection over
+2020-03-25 00:55:43 database[0] syn connection over
+700001	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700002	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700003	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700004	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700005	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700006	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700007	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700008	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700009	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700010	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700011	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700012	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700013	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700014	127.0.0.1	root	echeverra	operationanalysisserver	3306
+2020-03-25 00:55:43 server start over
+2020-03-25 01:14:55 path:/home/server/operationanalysisserver/unix, key_t:2689, shmid: 360458
+2020-03-25 01:17:13 path:/home/server/operationanalysisserver/unix, key_t:2826, shmid: 524299
+2020-03-25 01:17:13 the gameserver binder IP:127.0.0.1, port:12001
+2020-03-25 01:17:13 database[0] asyn connection over
+2020-03-25 01:17:13 database[0] syn connection over
+700001	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700002	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700003	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700004	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700005	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700006	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700007	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700008	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700009	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700010	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700011	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700012	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700013	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700014	127.0.0.1	root	echeverra	operationanalysisserver	3306
+2020-03-25 01:17:13 server start over
+2020-03-25 18:43:06 path:/home/server/operationanalysisserver/unix, key_t:32312, shmid: 688140
+2020-03-25 18:43:06 the gameserver binder IP:127.0.0.1, port:12001
+2020-03-25 18:43:06 database[0] asyn connection over
+2020-03-25 18:43:06 database[0] syn connection over
+700001	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700002	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700003	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700004	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700005	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700006	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700007	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700008	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700009	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700010	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700011	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700012	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700013	127.0.0.1	root	echeverra	operationanalysisserver	3306
+700014	127.0.0.1	root	echeverra	operationanalysisserver	3306
+2020-03-25 18:43:06 server start over
+2020-03-25 22:22:08 path:/home/server/operationanalysisserver/unix, key_t:37414, shmid: 851985

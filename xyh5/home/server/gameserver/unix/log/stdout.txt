@@ -1,0 +1,816 @@
+               **************************************************
+               **************************************************
+               ***               Light Server                 ***
+               ***             Copyright (c) 2013             ***
+               ***             All rights reserved.           ***
+               **************************************************
+               **************************************************
+2020-03-25 00:41:35 server is starting...
+2020-03-25 00:41:35 path:/home/server/gameserver/unix, key_t:10587, shmid: 294917
+2020-03-25 00:41:35 database[0] asyn connection over
+2020-03-25 00:41:35 database[0] syn connection over
+2020-03-25 00:41:35 database[900000002] asyn connection over
+2020-03-25 00:41:35 database[900000002] syn connection over
+2020-03-25 00:41:35 database[900000001] asyn connection over
+2020-03-25 00:41:35 database[900000001] syn connection over
+2020-03-25 00:41:35 wlanlistener bind ip:0.0.0.0, port:10001
+2020-03-25 00:41:35 lanlistener bind ip:0.0.0.0, port:11001
+2020-03-25 00:41:35 load module gametimer
+2020-03-25 00:41:35 load module action
+2020-03-25 00:41:35 load module scenelogic
+2020-03-25 00:41:35 load module userlogic
+2020-03-25 00:41:35 load module system
+2020-03-25 00:41:35 load module characterbase
+2020-03-25 00:41:35 load module battle
+2020-03-25 00:41:35 load module refresh
+2020-03-25 00:41:35 load module arena
+2020-03-25 00:41:35 load module currency
+2020-03-25 00:41:35 load module chat
+2020-03-25 00:41:35 load module servermanager
+2020-03-25 00:41:35 load module operationanalysis
+2020-03-25 00:41:35 load module worldserver
+2020-03-25 00:41:35 load module thing
+2020-03-25 00:41:35 load module quest
+2020-03-25 00:41:35 load module rechargeactive
+2020-03-25 00:41:35 load module shop
+2020-03-25 00:41:35 load module welfare
+2020-03-25 00:41:35 load module relation
+2020-03-25 00:41:35 load module maketeam
+2020-03-25 00:41:35 load module guild
+2020-03-25 00:41:35 load module activity
+2020-03-25 00:41:35 load module singlebattle
+2020-03-25 00:41:35 load module charge
+2020-03-25 00:41:35 load module citywar
+2020-03-25 00:41:35 load module maillogic
+2020-03-25 00:41:35 load module gm
+2020-03-25 00:41:35 load module globalconfig
+2020-03-25 00:41:35 loadFile error! pszFile:cannot open ./lua/system/pay.lua: No such file or directory! 
+2020-03-25 00:41:36 load cdtime.xml
+2020-03-25 00:41:36 load buff.xml
+2020-03-25 00:41:36 load monsterAI.xml
+2020-03-25 00:41:36 load drops.xml
+2020-03-25 00:41:36 load dropslist.xml
+2020-03-25 00:41:36 load npcs.xml
+2020-03-25 00:41:36 load exp_profit.xml
+2020-03-25 00:41:36 load jump.xml
+2020-03-25 00:41:36 load scenes.xml
+2020-03-25 00:41:36 load miniWorldMap.xml
+2020-03-25 00:41:36 [warning] map has remain 7 rows
+2020-03-25 00:41:36 [warning] map has remain 7 rows
+2020-03-25 00:41:36 [warning] map has remain 6 rows
+2020-03-25 00:41:36 [warning] map has remain 7 rows
+2020-03-25 00:41:36 [warning] map has remain 4 rows
+2020-03-25 00:41:36 [warning] map has remain 4 cols
+2020-03-25 00:41:36 [warning] map has remain 3 rows
+2020-03-25 00:41:36 [warning] map has remain 7 rows
+2020-03-25 00:41:36 [warning] map has remain 8 rows
+2020-03-25 00:41:36 [warning] map has remain 8 rows
+2020-03-25 00:41:36 [warning] map has remain 6 rows
+2020-03-25 00:41:36 start fix update time
+2020-03-25 00:41:36 fix update time over
+2020-03-25 00:41:36 load roleskill.xml
+2020-03-25 00:41:36 load role.xml
+2020-03-25 00:41:36 load profession.xml
+2020-03-25 00:41:36 load yellowDiamond.xml
+2020-03-25 00:41:36 load battlePointPush.xml
+2020-03-25 00:41:36 load bonusmagic.xml
+2020-03-25 00:41:36 load gangskill.xml
+2020-03-25 00:41:36 load vip.xml
+2020-03-25 00:41:36 load partner.xml
+2020-03-25 00:41:36 load train.xml
+2020-03-25 00:41:36 load recruit.xml
+2020-03-25 00:41:36 load pk.xml
+2020-03-25 00:41:36 load ./../static/eduup.xml
+2020-03-25 00:41:36 load ./../static/eduskin.xml
+2020-03-25 00:41:36 load ./../static/eduequip.xml
+2020-03-25 00:41:36 load ./../static/eduskill.xml
+2020-03-25 00:41:36 load ./../static/eduitem.xml
+2020-03-25 00:41:36 load ./../static/eduNote.xml
+2020-03-25 00:41:36 load rank.xml
+2020-03-25 00:41:36 load storyquest.xml
+2020-03-25 00:41:36 load story.xml
+2020-03-25 00:41:36 load jump.xml
+2020-03-25 00:41:36 start check role.xml
+2020-03-25 00:41:36 load function.xml
+2020-03-25 00:41:36 load huoyuedu.xml
+2020-03-25 00:41:36 load zhenfa.xml
+2020-03-25 00:41:36 load pet.xml
+2020-03-25 00:41:36 load skilltrain.xml
+2020-03-25 00:41:36 load danyao.xml
+2020-03-25 00:41:36 load instance.xml
+2020-03-25 00:41:36 load sysconfig.xml
+2020-03-25 00:41:36 load officialdom.xml
+2020-03-25 00:41:36 load sysconfig.xml
+2020-03-25 00:41:36 load fenxiang.xml
+2020-03-25 00:41:36 load chart.xml
+2020-03-25 00:41:36 load picture.xml
+2020-03-25 00:41:36 load jinjierank.xml
+2020-03-25 00:41:36 load zhenfa.xml
+2020-03-25 00:41:36 load skill.xml
+2020-03-25 00:41:37 load buff.xml
+2020-03-25 00:41:37 load zhenrong.xml
+2020-03-25 00:41:37 load monster.xml
+2020-03-25 00:41:37 load role.xml
+2020-03-25 00:41:37 load bot.xml
+2020-03-25 00:41:37 load soloserver_arena.xml
+2020-03-25 00:41:37 start check thing module
+2020-03-25 00:41:37 load ./../static/equip.xml
+2020-03-25 00:41:37 load ./../static/equipmentSet.xml
+2020-03-25 00:41:37 load ./../static/train.xml
+2020-03-25 00:41:37 load ./../static/hecheng.xml
+2020-03-25 00:41:37 load zhuogui.xml
+2020-03-25 00:41:37 load menpaichuanguan.xml
+2020-03-25 00:41:37 load newsealmonster.xml
+2020-03-25 00:41:37 start check quest module
+2020-03-25 00:41:37 load recharge_turn.xml
+2020-03-25 00:41:37 load qiday.xml
+2020-03-25 00:41:37 load supervip.xml
+2020-03-25 00:41:37 load pfweiduan.xml
+2020-03-25 00:41:37 load weixin.xml
+2020-03-25 00:41:37 load strongestVote.xml
+2020-03-25 00:41:37 load brings.xml
+2020-03-25 00:41:37 load landingCeremony.xml
+2020-03-25 00:41:37 load mobile_verification.xml
+2020-03-25 00:41:37 load fuben.xml
+2020-03-25 00:41:37 load firstimpulseday.xml
+2020-03-25 00:41:37 load firstimpulse.xml
+2020-03-25 00:41:37 load touzijihua.xml
+2020-03-25 00:41:37 load growjijin.xml
+2020-03-25 00:41:37 load allevolution.xml
+2020-03-25 00:41:37 load jinjieri.xml
+2020-03-25 00:41:37 load bosschallenge.xml
+2020-03-25 00:41:37 load rechargeday.xml
+2020-03-25 00:41:37 load groupbuy.xml
+2020-03-25 00:41:37 load dayup.xml
+2020-03-25 00:41:37 load turntable.xml
+2020-03-25 00:41:37 load firstimpulsethree.xml
+2020-03-25 00:41:37 load preferenceday.xml
+2020-03-25 00:41:37 load ptvipgift.xml
+2020-03-25 00:41:37 load ptvip.xml
+2020-03-25 00:41:37 load zerobuy.xml
+2020-03-25 00:41:37 load doubleactive.xml
+2020-03-25 00:41:37 load biggift.xml
+2020-03-25 00:41:37 load fold.xml
+2020-03-25 00:41:37 load ReplenishingRebate.xml
+2020-03-25 00:41:37 load taskbrings.xml
+2020-03-25 00:41:37 load bright.xml
+2020-03-25 00:41:37 load FestivalLuckyTurntable.xml
+2020-03-25 00:41:37 load friend.xml
+2020-03-25 00:41:37 load marry.xml
+2020-03-25 00:41:37 load organizationboss.xml
+2020-03-25 00:41:37 load huodongdating.xml
+2020-03-25 00:41:37 load taskescort.xml
+2020-03-25 00:41:37 load eliminatemonster.xml
+2020-03-25 00:41:37 load worldboss.xml
+2020-03-25 00:41:37 load redbag.xml
+2020-03-25 00:41:37 load attendance.xml
+2020-03-25 00:41:38 load question.xml
+2020-03-25 00:41:38 load dollmachine.xml
+2020-03-25 00:41:38 load earthly.xml
+2020-03-25 00:41:38 load lifeAndDeath.xml
+2020-03-25 00:41:38 load climbingtower.xml
+2020-03-25 00:41:38 load worldexp.xml
+2020-03-25 00:41:38 load teamcopy.xml
+2020-03-25 00:41:38 load hsdroiyan.xml
+2020-03-25 00:41:38 load poem.xml
+2020-03-25 00:41:38 load sysconfig.xml
+2020-03-25 00:41:38 load powerdoubling.xml
+2020-03-25 00:41:38 load luckytable.xml
+2020-03-25 00:41:38 load rac.xml
+2020-03-25 00:41:38 load trial.xml
+2020-03-25 00:41:38 load arrest.xml
+2020-03-25 00:41:38 load woyaobianqiang.xml
+2020-03-25 00:41:38 load peach.xml
+2020-03-25 00:41:38 load jieyi.xml
+2020-03-25 00:41:38 load buchang.xml
+2020-03-25 00:41:38 load vipfuben.xml
+2020-03-25 00:41:38 load petkursaal.xml
+2020-03-25 00:41:38 load jinmai.xml
+2020-03-25 00:41:38 load functiongoal.xml
+2020-03-25 00:41:38 load recharge.xml
+2020-03-25 00:41:38 load competition.xml
+2020-03-25 00:41:38 load mail.xml
+2020-03-25 00:41:38 start check arenaconfig.xml
+2020-03-25 00:41:38 server start over
+2020-03-25 00:41:38 gameserver md5 is 25f26b1cbab50933d640a2cbeb3d093d
+2020-03-25 00:54:05 database[0] asyn re-connection over
+2020-03-25 00:54:05 database[900000001] asyn re-connection over
+2020-03-25 00:54:05 database[900000002] asyn re-connection over
+               **************************************************
+               **************************************************
+               ***               Light Server                 ***
+               ***             Copyright (c) 2013             ***
+               ***             All rights reserved.           ***
+               **************************************************
+               **************************************************
+2020-03-25 00:55:40 server is starting...
+2020-03-25 00:55:40 path:/home/server/gameserver/unix, key_t:2352, shmid: 131076
+2020-03-25 00:55:40 database[0] asyn connection over
+2020-03-25 00:55:40 database[0] syn connection over
+2020-03-25 00:55:40 database[900000002] asyn connection over
+2020-03-25 00:55:40 database[900000002] syn connection over
+2020-03-25 00:55:40 database[900000001] asyn connection over
+2020-03-25 00:55:40 database[900000001] syn connection over
+2020-03-25 00:55:40 wlanlistener bind ip:0.0.0.0, port:10001
+2020-03-25 00:55:40 lanlistener bind ip:0.0.0.0, port:11001
+2020-03-25 00:55:40 load module gametimer
+2020-03-25 00:55:40 load module action
+2020-03-25 00:55:40 load module scenelogic
+2020-03-25 00:55:40 load module userlogic
+2020-03-25 00:55:40 load module system
+2020-03-25 00:55:40 load module characterbase
+2020-03-25 00:55:40 load module battle
+2020-03-25 00:55:40 load module refresh
+2020-03-25 00:55:40 load module arena
+2020-03-25 00:55:40 load module currency
+2020-03-25 00:55:40 load module chat
+2020-03-25 00:55:40 load module servermanager
+2020-03-25 00:55:40 load module operationanalysis
+2020-03-25 00:55:40 load module worldserver
+2020-03-25 00:55:40 load module thing
+2020-03-25 00:55:40 load module quest
+2020-03-25 00:55:40 load module rechargeactive
+2020-03-25 00:55:40 load module shop
+2020-03-25 00:55:40 load module welfare
+2020-03-25 00:55:40 load module relation
+2020-03-25 00:55:40 load module maketeam
+2020-03-25 00:55:40 load module guild
+2020-03-25 00:55:40 load module activity
+2020-03-25 00:55:40 load module singlebattle
+2020-03-25 00:55:40 load module charge
+2020-03-25 00:55:40 load module citywar
+2020-03-25 00:55:40 load module maillogic
+2020-03-25 00:55:40 load module gm
+2020-03-25 00:55:40 load module globalconfig
+2020-03-25 00:55:40 loadFile error! pszFile:cannot open ./lua/system/pay.lua: No such file or directory! 
+2020-03-25 00:55:41 load cdtime.xml
+2020-03-25 00:55:41 load buff.xml
+2020-03-25 00:55:41 load monsterAI.xml
+2020-03-25 00:55:41 load drops.xml
+2020-03-25 00:55:41 load dropslist.xml
+2020-03-25 00:55:41 load npcs.xml
+2020-03-25 00:55:41 load exp_profit.xml
+2020-03-25 00:55:41 load jump.xml
+2020-03-25 00:55:41 load scenes.xml
+2020-03-25 00:55:41 load miniWorldMap.xml
+2020-03-25 00:55:41 [warning] map has remain 7 rows
+2020-03-25 00:55:41 [warning] map has remain 7 rows
+2020-03-25 00:55:41 [warning] map has remain 6 rows
+2020-03-25 00:55:41 [warning] map has remain 7 rows
+2020-03-25 00:55:41 [warning] map has remain 4 rows
+2020-03-25 00:55:41 [warning] map has remain 4 cols
+2020-03-25 00:55:41 [warning] map has remain 3 rows
+2020-03-25 00:55:41 [warning] map has remain 7 rows
+2020-03-25 00:55:41 [warning] map has remain 8 rows
+2020-03-25 00:55:41 [warning] map has remain 8 rows
+2020-03-25 00:55:41 [warning] map has remain 6 rows
+2020-03-25 00:55:41 start fix update time
+2020-03-25 00:55:41 fix update time over
+2020-03-25 00:55:41 load roleskill.xml
+2020-03-25 00:55:41 load role.xml
+2020-03-25 00:55:41 load profession.xml
+2020-03-25 00:55:41 load yellowDiamond.xml
+2020-03-25 00:55:41 load battlePointPush.xml
+2020-03-25 00:55:41 load bonusmagic.xml
+2020-03-25 00:55:41 load gangskill.xml
+2020-03-25 00:55:41 load vip.xml
+2020-03-25 00:55:41 load partner.xml
+2020-03-25 00:55:41 load train.xml
+2020-03-25 00:55:41 load recruit.xml
+2020-03-25 00:55:41 load pk.xml
+2020-03-25 00:55:41 load ./../static/eduup.xml
+2020-03-25 00:55:41 load ./../static/eduskin.xml
+2020-03-25 00:55:41 load ./../static/eduequip.xml
+2020-03-25 00:55:41 load ./../static/eduskill.xml
+2020-03-25 00:55:41 load ./../static/eduitem.xml
+2020-03-25 00:55:41 load ./../static/eduNote.xml
+2020-03-25 00:55:41 load rank.xml
+2020-03-25 00:55:41 load storyquest.xml
+2020-03-25 00:55:41 load story.xml
+2020-03-25 00:55:41 load jump.xml
+2020-03-25 00:55:41 start check role.xml
+2020-03-25 00:55:41 load function.xml
+2020-03-25 00:55:41 load huoyuedu.xml
+2020-03-25 00:55:41 load zhenfa.xml
+2020-03-25 00:55:41 load pet.xml
+2020-03-25 00:55:41 load skilltrain.xml
+2020-03-25 00:55:41 load danyao.xml
+2020-03-25 00:55:41 load instance.xml
+2020-03-25 00:55:41 load sysconfig.xml
+2020-03-25 00:55:41 load officialdom.xml
+2020-03-25 00:55:42 load sysconfig.xml
+2020-03-25 00:55:42 load fenxiang.xml
+2020-03-25 00:55:42 load chart.xml
+2020-03-25 00:55:42 load picture.xml
+2020-03-25 00:55:42 load jinjierank.xml
+2020-03-25 00:55:42 load zhenfa.xml
+2020-03-25 00:55:42 load skill.xml
+2020-03-25 00:55:42 load buff.xml
+2020-03-25 00:55:42 load zhenrong.xml
+2020-03-25 00:55:42 load monster.xml
+2020-03-25 00:55:43 load role.xml
+2020-03-25 00:55:43 load bot.xml
+2020-03-25 00:55:43 load soloserver_arena.xml
+2020-03-25 00:55:43 start check thing module
+2020-03-25 00:55:43 load ./../static/equip.xml
+2020-03-25 00:55:43 load ./../static/equipmentSet.xml
+2020-03-25 00:55:43 load ./../static/train.xml
+2020-03-25 00:55:43 load ./../static/hecheng.xml
+2020-03-25 00:55:43 load zhuogui.xml
+2020-03-25 00:55:43 load menpaichuanguan.xml
+2020-03-25 00:55:43 load newsealmonster.xml
+2020-03-25 00:55:43 start check quest module
+2020-03-25 00:55:43 load recharge_turn.xml
+2020-03-25 00:55:43 load qiday.xml
+2020-03-25 00:55:43 load supervip.xml
+2020-03-25 00:55:43 load pfweiduan.xml
+2020-03-25 00:55:43 load weixin.xml
+2020-03-25 00:55:43 load strongestVote.xml
+2020-03-25 00:55:43 load brings.xml
+2020-03-25 00:55:43 load landingCeremony.xml
+2020-03-25 00:55:43 load mobile_verification.xml
+2020-03-25 00:55:43 load fuben.xml
+2020-03-25 00:55:43 load firstimpulseday.xml
+2020-03-25 00:55:43 load firstimpulse.xml
+2020-03-25 00:55:43 load touzijihua.xml
+2020-03-25 00:55:43 load growjijin.xml
+2020-03-25 00:55:43 load allevolution.xml
+2020-03-25 00:55:43 load jinjieri.xml
+2020-03-25 00:55:43 load bosschallenge.xml
+2020-03-25 00:55:43 load rechargeday.xml
+2020-03-25 00:55:43 load groupbuy.xml
+2020-03-25 00:55:43 load dayup.xml
+2020-03-25 00:55:43 load turntable.xml
+2020-03-25 00:55:43 load firstimpulsethree.xml
+2020-03-25 00:55:43 load preferenceday.xml
+2020-03-25 00:55:43 load ptvipgift.xml
+2020-03-25 00:55:43 load ptvip.xml
+2020-03-25 00:55:43 load zerobuy.xml
+2020-03-25 00:55:43 load doubleactive.xml
+2020-03-25 00:55:43 load biggift.xml
+2020-03-25 00:55:43 load fold.xml
+2020-03-25 00:55:43 load ReplenishingRebate.xml
+2020-03-25 00:55:43 load taskbrings.xml
+2020-03-25 00:55:43 load bright.xml
+2020-03-25 00:55:43 load FestivalLuckyTurntable.xml
+2020-03-25 00:55:44 load friend.xml
+2020-03-25 00:55:44 load marry.xml
+2020-03-25 00:55:44 load organizationboss.xml
+2020-03-25 00:55:44 load huodongdating.xml
+2020-03-25 00:55:44 load taskescort.xml
+2020-03-25 00:55:44 load eliminatemonster.xml
+2020-03-25 00:55:44 load worldboss.xml
+2020-03-25 00:55:44 load redbag.xml
+2020-03-25 00:55:44 load attendance.xml
+2020-03-25 00:55:44 load question.xml
+2020-03-25 00:55:44 load dollmachine.xml
+2020-03-25 00:55:44 load earthly.xml
+2020-03-25 00:55:44 load lifeAndDeath.xml
+2020-03-25 00:55:44 load climbingtower.xml
+2020-03-25 00:55:44 load worldexp.xml
+2020-03-25 00:55:44 load teamcopy.xml
+2020-03-25 00:55:44 load hsdroiyan.xml
+2020-03-25 00:55:44 load poem.xml
+2020-03-25 00:55:44 load sysconfig.xml
+2020-03-25 00:55:44 load powerdoubling.xml
+2020-03-25 00:55:44 load luckytable.xml
+2020-03-25 00:55:44 load rac.xml
+2020-03-25 00:55:44 load trial.xml
+2020-03-25 00:55:44 load arrest.xml
+2020-03-25 00:55:44 load woyaobianqiang.xml
+2020-03-25 00:55:44 load peach.xml
+2020-03-25 00:55:44 load jieyi.xml
+2020-03-25 00:55:44 load buchang.xml
+2020-03-25 00:55:44 load vipfuben.xml
+2020-03-25 00:55:44 load petkursaal.xml
+2020-03-25 00:55:44 load jinmai.xml
+2020-03-25 00:55:44 load functiongoal.xml
+2020-03-25 00:55:44 load recharge.xml
+2020-03-25 00:55:44 load competition.xml
+2020-03-25 00:55:44 load mail.xml
+2020-03-25 00:55:45 start check arenaconfig.xml
+2020-03-25 00:55:45 server start over
+2020-03-25 00:55:45 gameserver md5 is 25f26b1cbab50933d640a2cbeb3d093d
+               **************************************************
+               **************************************************
+               ***               Light Server                 ***
+               ***             Copyright (c) 2013             ***
+               ***             All rights reserved.           ***
+               **************************************************
+               **************************************************
+2020-03-25 01:14:52 server is starting...
+2020-03-25 01:14:52 path:/home/server/gameserver/unix, key_t:2668, shmid: 327689
+2020-03-25 01:14:52 database[0] asyn connection over
+2020-03-25 01:14:52 database[0] syn connection over
+2020-03-25 01:14:52 database[900000002] asyn connection over
+2020-03-25 01:14:52 database[900000002] syn connection over
+2020-03-25 01:14:52 database[900000001] asyn connection over
+2020-03-25 01:14:52 database[900000001] syn connection over
+2020-03-25 01:16:51 m_evTimers is not unreg clearly! remain count:111
+               **************************************************
+               **************************************************
+               ***               Light Server                 ***
+               ***             Copyright (c) 2013             ***
+               ***             All rights reserved.           ***
+               **************************************************
+               **************************************************
+2020-03-25 01:17:10 server is starting...
+2020-03-25 01:17:10 path:/home/server/gameserver/unix, key_t:2811, shmid: 491525
+2020-03-25 01:17:10 database[0] asyn connection over
+2020-03-25 01:17:10 database[0] syn connection over
+2020-03-25 01:17:10 database[900000002] asyn connection over
+2020-03-25 01:17:10 database[900000002] syn connection over
+2020-03-25 01:17:10 database[900000001] asyn connection over
+2020-03-25 01:17:10 database[900000001] syn connection over
+2020-03-25 01:17:10 wlanlistener bind ip:0.0.0.0, port:10001
+2020-03-25 01:17:10 lanlistener bind ip:0.0.0.0, port:11001
+2020-03-25 01:17:10 load module gametimer
+2020-03-25 01:17:10 load module action
+2020-03-25 01:17:10 load module scenelogic
+2020-03-25 01:17:10 load module userlogic
+2020-03-25 01:17:10 load module system
+2020-03-25 01:17:10 load module characterbase
+2020-03-25 01:17:10 load module battle
+2020-03-25 01:17:10 load module refresh
+2020-03-25 01:17:10 load module arena
+2020-03-25 01:17:10 load module currency
+2020-03-25 01:17:10 load module chat
+2020-03-25 01:17:10 load module servermanager
+2020-03-25 01:17:10 load module operationanalysis
+2020-03-25 01:17:10 load module worldserver
+2020-03-25 01:17:10 load module thing
+2020-03-25 01:17:10 load module quest
+2020-03-25 01:17:10 load module rechargeactive
+2020-03-25 01:17:10 load module shop
+2020-03-25 01:17:10 load module welfare
+2020-03-25 01:17:10 load module relation
+2020-03-25 01:17:10 load module maketeam
+2020-03-25 01:17:10 load module guild
+2020-03-25 01:17:10 load module activity
+2020-03-25 01:17:10 load module singlebattle
+2020-03-25 01:17:10 load module charge
+2020-03-25 01:17:10 load module citywar
+2020-03-25 01:17:10 load module maillogic
+2020-03-25 01:17:10 load module gm
+2020-03-25 01:17:10 load module globalconfig
+2020-03-25 01:17:10 loadFile error! pszFile:cannot open ./lua/system/pay.lua: No such file or directory! 
+2020-03-25 01:17:11 load cdtime.xml
+2020-03-25 01:17:11 load buff.xml
+2020-03-25 01:17:11 load monsterAI.xml
+2020-03-25 01:17:11 load drops.xml
+2020-03-25 01:17:11 load dropslist.xml
+2020-03-25 01:17:11 load npcs.xml
+2020-03-25 01:17:11 load exp_profit.xml
+2020-03-25 01:17:11 load jump.xml
+2020-03-25 01:17:11 load scenes.xml
+2020-03-25 01:17:11 load miniWorldMap.xml
+2020-03-25 01:17:11 [warning] map has remain 7 rows
+2020-03-25 01:17:11 [warning] map has remain 7 rows
+2020-03-25 01:17:11 [warning] map has remain 6 rows
+2020-03-25 01:17:11 [warning] map has remain 7 rows
+2020-03-25 01:17:11 [warning] map has remain 4 rows
+2020-03-25 01:17:11 [warning] map has remain 4 cols
+2020-03-25 01:17:11 [warning] map has remain 3 rows
+2020-03-25 01:17:11 [warning] map has remain 7 rows
+2020-03-25 01:17:11 [warning] map has remain 8 rows
+2020-03-25 01:17:11 [warning] map has remain 8 rows
+2020-03-25 01:17:11 [warning] map has remain 6 rows
+2020-03-25 01:17:11 start fix update time
+2020-03-25 01:17:11 fix update time over
+2020-03-25 01:17:11 load roleskill.xml
+2020-03-25 01:17:11 load role.xml
+2020-03-25 01:17:11 load profession.xml
+2020-03-25 01:17:11 load yellowDiamond.xml
+2020-03-25 01:17:11 load battlePointPush.xml
+2020-03-25 01:17:11 load bonusmagic.xml
+2020-03-25 01:17:11 load gangskill.xml
+2020-03-25 01:17:11 load vip.xml
+2020-03-25 01:17:11 load partner.xml
+2020-03-25 01:17:11 load train.xml
+2020-03-25 01:17:11 load recruit.xml
+2020-03-25 01:17:11 load pk.xml
+2020-03-25 01:17:11 load ./../static/eduup.xml
+2020-03-25 01:17:11 load ./../static/eduskin.xml
+2020-03-25 01:17:11 load ./../static/eduequip.xml
+2020-03-25 01:17:11 load ./../static/eduskill.xml
+2020-03-25 01:17:11 load ./../static/eduitem.xml
+2020-03-25 01:17:11 load ./../static/eduNote.xml
+2020-03-25 01:17:11 load rank.xml
+2020-03-25 01:17:11 load storyquest.xml
+2020-03-25 01:17:11 load story.xml
+2020-03-25 01:17:11 load jump.xml
+2020-03-25 01:17:11 start check role.xml
+2020-03-25 01:17:11 load function.xml
+2020-03-25 01:17:11 load huoyuedu.xml
+2020-03-25 01:17:11 load zhenfa.xml
+2020-03-25 01:17:11 load pet.xml
+2020-03-25 01:17:11 load skilltrain.xml
+2020-03-25 01:17:11 load danyao.xml
+2020-03-25 01:17:11 load instance.xml
+2020-03-25 01:17:11 load sysconfig.xml
+2020-03-25 01:17:11 load officialdom.xml
+2020-03-25 01:17:11 load sysconfig.xml
+2020-03-25 01:17:11 load fenxiang.xml
+2020-03-25 01:17:11 load chart.xml
+2020-03-25 01:17:11 load picture.xml
+2020-03-25 01:17:11 load jinjierank.xml
+2020-03-25 01:17:11 load zhenfa.xml
+2020-03-25 01:17:11 load skill.xml
+2020-03-25 01:17:12 load buff.xml
+2020-03-25 01:17:12 load zhenrong.xml
+2020-03-25 01:17:12 load monster.xml
+2020-03-25 01:17:12 load role.xml
+2020-03-25 01:17:12 load bot.xml
+2020-03-25 01:17:12 load soloserver_arena.xml
+2020-03-25 01:17:12 start check thing module
+2020-03-25 01:17:12 load ./../static/equip.xml
+2020-03-25 01:17:12 load ./../static/equipmentSet.xml
+2020-03-25 01:17:12 load ./../static/train.xml
+2020-03-25 01:17:12 load ./../static/hecheng.xml
+2020-03-25 01:17:12 load zhuogui.xml
+2020-03-25 01:17:12 load menpaichuanguan.xml
+2020-03-25 01:17:12 load newsealmonster.xml
+2020-03-25 01:17:12 start check quest module
+2020-03-25 01:17:12 load recharge_turn.xml
+2020-03-25 01:17:12 load qiday.xml
+2020-03-25 01:17:12 load supervip.xml
+2020-03-25 01:17:12 load pfweiduan.xml
+2020-03-25 01:17:12 load weixin.xml
+2020-03-25 01:17:12 load strongestVote.xml
+2020-03-25 01:17:12 load brings.xml
+2020-03-25 01:17:12 load landingCeremony.xml
+2020-03-25 01:17:12 load mobile_verification.xml
+2020-03-25 01:17:12 load fuben.xml
+2020-03-25 01:17:12 load firstimpulseday.xml
+2020-03-25 01:17:12 load firstimpulse.xml
+2020-03-25 01:17:12 load touzijihua.xml
+2020-03-25 01:17:12 load growjijin.xml
+2020-03-25 01:17:12 load allevolution.xml
+2020-03-25 01:17:12 load jinjieri.xml
+2020-03-25 01:17:12 load bosschallenge.xml
+2020-03-25 01:17:12 load rechargeday.xml
+2020-03-25 01:17:12 load groupbuy.xml
+2020-03-25 01:17:13 load dayup.xml
+2020-03-25 01:17:13 load turntable.xml
+2020-03-25 01:17:13 load firstimpulsethree.xml
+2020-03-25 01:17:13 load preferenceday.xml
+2020-03-25 01:17:13 load ptvipgift.xml
+2020-03-25 01:17:13 load ptvip.xml
+2020-03-25 01:17:13 load zerobuy.xml
+2020-03-25 01:17:13 load doubleactive.xml
+2020-03-25 01:17:13 load biggift.xml
+2020-03-25 01:17:13 load fold.xml
+2020-03-25 01:17:13 load ReplenishingRebate.xml
+2020-03-25 01:17:13 load taskbrings.xml
+2020-03-25 01:17:13 load bright.xml
+2020-03-25 01:17:13 load FestivalLuckyTurntable.xml
+2020-03-25 01:17:13 load friend.xml
+2020-03-25 01:17:13 load marry.xml
+2020-03-25 01:17:13 load organizationboss.xml
+2020-03-25 01:17:13 load huodongdating.xml
+2020-03-25 01:17:13 load taskescort.xml
+2020-03-25 01:17:13 load eliminatemonster.xml
+2020-03-25 01:17:13 load worldboss.xml
+2020-03-25 01:17:13 load redbag.xml
+2020-03-25 01:17:13 load attendance.xml
+2020-03-25 01:17:13 load question.xml
+2020-03-25 01:17:13 load dollmachine.xml
+2020-03-25 01:17:13 load earthly.xml
+2020-03-25 01:17:13 load lifeAndDeath.xml
+2020-03-25 01:17:13 load climbingtower.xml
+2020-03-25 01:17:13 load worldexp.xml
+2020-03-25 01:17:13 load teamcopy.xml
+2020-03-25 01:17:13 load hsdroiyan.xml
+2020-03-25 01:17:13 load poem.xml
+2020-03-25 01:17:13 load sysconfig.xml
+2020-03-25 01:17:13 load powerdoubling.xml
+2020-03-25 01:17:13 load luckytable.xml
+2020-03-25 01:17:13 load rac.xml
+2020-03-25 01:17:13 load trial.xml
+2020-03-25 01:17:13 load arrest.xml
+2020-03-25 01:17:13 load woyaobianqiang.xml
+2020-03-25 01:17:13 load peach.xml
+2020-03-25 01:17:13 load jieyi.xml
+2020-03-25 01:17:13 load buchang.xml
+2020-03-25 01:17:13 load vipfuben.xml
+2020-03-25 01:17:13 load petkursaal.xml
+2020-03-25 01:17:13 load jinmai.xml
+2020-03-25 01:17:13 load functiongoal.xml
+2020-03-25 01:17:13 load recharge.xml
+2020-03-25 01:17:13 load competition.xml
+2020-03-25 01:17:13 load mail.xml
+2020-03-25 01:17:13 start check arenaconfig.xml
+2020-03-25 01:17:13 server start over
+2020-03-25 01:17:13 gameserver md5 is 25f26b1cbab50933d640a2cbeb3d093d
+2020-03-25 14:38:04 frame take 168
+2020-03-25 18:42:31 m_evTimers is not unreg clearly! remain count:114
+               **************************************************
+               **************************************************
+               ***               Light Server                 ***
+               ***             Copyright (c) 2013             ***
+               ***             All rights reserved.           ***
+               **************************************************
+               **************************************************
+2020-03-25 18:43:03 server is starting...
+2020-03-25 18:43:03 path:/home/server/gameserver/unix, key_t:32297, shmid: 655371
+2020-03-25 18:43:03 database[0] asyn connection over
+2020-03-25 18:43:03 database[0] syn connection over
+2020-03-25 18:43:03 database[900000002] asyn connection over
+2020-03-25 18:43:03 database[900000002] syn connection over
+2020-03-25 18:43:03 database[900000001] asyn connection over
+2020-03-25 18:43:03 database[900000001] syn connection over
+2020-03-25 18:43:03 wlanlistener bind ip:0.0.0.0, port:10001
+2020-03-25 18:43:03 lanlistener bind ip:0.0.0.0, port:11001
+2020-03-25 18:43:03 load module gametimer
+2020-03-25 18:43:03 load module action
+2020-03-25 18:43:03 load module scenelogic
+2020-03-25 18:43:03 load module userlogic
+2020-03-25 18:43:03 load module system
+2020-03-25 18:43:03 load module characterbase
+2020-03-25 18:43:03 load module battle
+2020-03-25 18:43:03 load module refresh
+2020-03-25 18:43:03 load module arena
+2020-03-25 18:43:03 load module currency
+2020-03-25 18:43:03 load module chat
+2020-03-25 18:43:03 load module servermanager
+2020-03-25 18:43:03 load module operationanalysis
+2020-03-25 18:43:03 load module worldserver
+2020-03-25 18:43:03 load module thing
+2020-03-25 18:43:03 load module quest
+2020-03-25 18:43:03 load module rechargeactive
+2020-03-25 18:43:03 load module shop
+2020-03-25 18:43:03 load module welfare
+2020-03-25 18:43:03 load module relation
+2020-03-25 18:43:03 load module maketeam
+2020-03-25 18:43:03 load module guild
+2020-03-25 18:43:03 load module activity
+2020-03-25 18:43:03 load module singlebattle
+2020-03-25 18:43:03 load module charge
+2020-03-25 18:43:03 load module citywar
+2020-03-25 18:43:03 load module maillogic
+2020-03-25 18:43:03 load module gm
+2020-03-25 18:43:03 load module globalconfig
+2020-03-25 18:43:03 loadFile error! pszFile:cannot open ./lua/system/pay.lua: No such file or directory! 
+2020-03-25 18:43:03 load cdtime.xml
+2020-03-25 18:43:03 load buff.xml
+2020-03-25 18:43:03 load monsterAI.xml
+2020-03-25 18:43:03 load drops.xml
+2020-03-25 18:43:03 load dropslist.xml
+2020-03-25 18:43:03 load npcs.xml
+2020-03-25 18:43:03 load exp_profit.xml
+2020-03-25 18:43:03 load jump.xml
+2020-03-25 18:43:03 load scenes.xml
+2020-03-25 18:43:03 load miniWorldMap.xml
+2020-03-25 18:43:04 [warning] map has remain 7 rows
+2020-03-25 18:43:04 [warning] map has remain 7 rows
+2020-03-25 18:43:04 [warning] map has remain 6 rows
+2020-03-25 18:43:04 [warning] map has remain 7 rows
+2020-03-25 18:43:04 [warning] map has remain 4 rows
+2020-03-25 18:43:04 [warning] map has remain 4 cols
+2020-03-25 18:43:04 [warning] map has remain 3 rows
+2020-03-25 18:43:04 [warning] map has remain 7 rows
+2020-03-25 18:43:04 [warning] map has remain 8 rows
+2020-03-25 18:43:04 [warning] map has remain 8 rows
+2020-03-25 18:43:04 [warning] map has remain 6 rows
+2020-03-25 18:43:04 start fix update time
+2020-03-25 18:43:04 fix update time over
+2020-03-25 18:43:04 load roleskill.xml
+2020-03-25 18:43:04 load role.xml
+2020-03-25 18:43:04 load profession.xml
+2020-03-25 18:43:04 load yellowDiamond.xml
+2020-03-25 18:43:04 load battlePointPush.xml
+2020-03-25 18:43:04 load bonusmagic.xml
+2020-03-25 18:43:04 load gangskill.xml
+2020-03-25 18:43:04 load vip.xml
+2020-03-25 18:43:04 load partner.xml
+2020-03-25 18:43:04 load train.xml
+2020-03-25 18:43:04 load recruit.xml
+2020-03-25 18:43:04 load pk.xml
+2020-03-25 18:43:04 load ./../static/eduup.xml
+2020-03-25 18:43:04 load ./../static/eduskin.xml
+2020-03-25 18:43:04 load ./../static/eduequip.xml
+2020-03-25 18:43:04 load ./../static/eduskill.xml
+2020-03-25 18:43:04 load ./../static/eduitem.xml
+2020-03-25 18:43:04 load ./../static/eduNote.xml
+2020-03-25 18:43:04 load rank.xml
+2020-03-25 18:43:04 load storyquest.xml
+2020-03-25 18:43:04 load story.xml
+2020-03-25 18:43:04 load jump.xml
+2020-03-25 18:43:04 start check role.xml
+2020-03-25 18:43:04 load function.xml
+2020-03-25 18:43:04 load huoyuedu.xml
+2020-03-25 18:43:04 load zhenfa.xml
+2020-03-25 18:43:04 load pet.xml
+2020-03-25 18:43:04 load skilltrain.xml
+2020-03-25 18:43:04 load danyao.xml
+2020-03-25 18:43:04 load instance.xml
+2020-03-25 18:43:04 load sysconfig.xml
+2020-03-25 18:43:04 load officialdom.xml
+2020-03-25 18:43:04 load sysconfig.xml
+2020-03-25 18:43:04 load fenxiang.xml
+2020-03-25 18:43:04 load chart.xml
+2020-03-25 18:43:04 load picture.xml
+2020-03-25 18:43:04 load jinjierank.xml
+2020-03-25 18:43:04 load zhenfa.xml
+2020-03-25 18:43:04 load skill.xml
+2020-03-25 18:43:05 load buff.xml
+2020-03-25 18:43:05 load zhenrong.xml
+2020-03-25 18:43:05 load monster.xml
+2020-03-25 18:43:05 load role.xml
+2020-03-25 18:43:05 load bot.xml
+2020-03-25 18:43:05 load soloserver_arena.xml
+2020-03-25 18:43:05 start check thing module
+2020-03-25 18:43:05 load ./../static/equip.xml
+2020-03-25 18:43:05 load ./../static/equipmentSet.xml
+2020-03-25 18:43:05 load ./../static/train.xml
+2020-03-25 18:43:05 load ./../static/hecheng.xml
+2020-03-25 18:43:05 load zhuogui.xml
+2020-03-25 18:43:05 load menpaichuanguan.xml
+2020-03-25 18:43:05 load newsealmonster.xml
+2020-03-25 18:43:05 start check quest module
+2020-03-25 18:43:05 load recharge_turn.xml
+2020-03-25 18:43:05 load qiday.xml
+2020-03-25 18:43:05 load supervip.xml
+2020-03-25 18:43:05 load pfweiduan.xml
+2020-03-25 18:43:05 load weixin.xml
+2020-03-25 18:43:05 load strongestVote.xml
+2020-03-25 18:43:05 load brings.xml
+2020-03-25 18:43:05 load landingCeremony.xml
+2020-03-25 18:43:05 load mobile_verification.xml
+2020-03-25 18:43:05 load fuben.xml
+2020-03-25 18:43:05 load firstimpulseday.xml
+2020-03-25 18:43:05 load firstimpulse.xml
+2020-03-25 18:43:05 load touzijihua.xml
+2020-03-25 18:43:05 load growjijin.xml
+2020-03-25 18:43:05 load allevolution.xml
+2020-03-25 18:43:05 load jinjieri.xml
+2020-03-25 18:43:05 load bosschallenge.xml
+2020-03-25 18:43:05 load rechargeday.xml
+2020-03-25 18:43:05 load groupbuy.xml
+2020-03-25 18:43:05 load dayup.xml
+2020-03-25 18:43:05 load turntable.xml
+2020-03-25 18:43:05 load firstimpulsethree.xml
+2020-03-25 18:43:05 load preferenceday.xml
+2020-03-25 18:43:05 load ptvipgift.xml
+2020-03-25 18:43:05 load ptvip.xml
+2020-03-25 18:43:05 load zerobuy.xml
+2020-03-25 18:43:05 load doubleactive.xml
+2020-03-25 18:43:05 load biggift.xml
+2020-03-25 18:43:05 load fold.xml
+2020-03-25 18:43:05 load ReplenishingRebate.xml
+2020-03-25 18:43:05 load taskbrings.xml
+2020-03-25 18:43:05 load bright.xml
+2020-03-25 18:43:05 load FestivalLuckyTurntable.xml
+2020-03-25 18:43:05 load friend.xml
+2020-03-25 18:43:05 load marry.xml
+2020-03-25 18:43:05 load organizationboss.xml
+2020-03-25 18:43:05 load huodongdating.xml
+2020-03-25 18:43:05 load taskescort.xml
+2020-03-25 18:43:05 load eliminatemonster.xml
+2020-03-25 18:43:05 load worldboss.xml
+2020-03-25 18:43:05 load redbag.xml
+2020-03-25 18:43:05 load attendance.xml
+2020-03-25 18:43:06 load question.xml
+2020-03-25 18:43:06 load dollmachine.xml
+2020-03-25 18:43:06 load earthly.xml
+2020-03-25 18:43:06 load lifeAndDeath.xml
+2020-03-25 18:43:06 load climbingtower.xml
+2020-03-25 18:43:06 load worldexp.xml
+2020-03-25 18:43:06 load teamcopy.xml
+2020-03-25 18:43:06 load hsdroiyan.xml
+2020-03-25 18:43:06 load poem.xml
+2020-03-25 18:43:06 load sysconfig.xml
+2020-03-25 18:43:06 load powerdoubling.xml
+2020-03-25 18:43:06 load luckytable.xml
+2020-03-25 18:43:06 load rac.xml
+2020-03-25 18:43:06 load trial.xml
+2020-03-25 18:43:06 load arrest.xml
+2020-03-25 18:43:06 load woyaobianqiang.xml
+2020-03-25 18:43:06 load peach.xml
+2020-03-25 18:43:06 load jieyi.xml
+2020-03-25 18:43:06 load buchang.xml
+2020-03-25 18:43:06 load vipfuben.xml
+2020-03-25 18:43:06 load petkursaal.xml
+2020-03-25 18:43:06 load jinmai.xml
+2020-03-25 18:43:06 load functiongoal.xml
+2020-03-25 18:43:06 load recharge.xml
+2020-03-25 18:43:06 load competition.xml
+2020-03-25 18:43:06 load mail.xml
+2020-03-25 18:43:06 start check arenaconfig.xml
+2020-03-25 18:43:06 server start over
+2020-03-25 18:43:06 gameserver md5 is 25f26b1cbab50933d640a2cbeb3d093d
+               **************************************************
+               **************************************************
+               ***               Light Server                 ***
+               ***             Copyright (c) 2013             ***
+               ***             All rights reserved.           ***
+               **************************************************
+               **************************************************
+2020-03-25 22:22:05 server is starting...
+2020-03-25 22:22:05 path:/home/server/gameserver/unix, key_t:37398, shmid: 819216
+2020-03-25 22:22:05 database[0] asyn connection over
+2020-03-25 22:22:05 database[0] syn connection over
+2020-03-25 22:22:05 database[900000002] asyn connection over
+2020-03-25 22:22:05 database[900000002] syn connection over
+2020-03-25 22:22:05 database[900000001] asyn connection over
+2020-03-25 22:22:05 database[900000001] syn connection over

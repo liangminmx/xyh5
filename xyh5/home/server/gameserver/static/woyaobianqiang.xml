@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!--
+	Id=1，寻星
+	寻星X次
+	Id=2，养成进阶
+	任意养成进阶1次
+	Id=3，妖王
+	妖王挑战X次
+	Id=4，锻造
+	强化、锻造、精炼、镶嵌任意完成1次
+	Id=5，宠物
+	宠物升级1次
+	Id=6，跑环
+	完成X次
+	Id=7，师门
+	完成X次
+	Id=8，抓鬼
+	完成X次
+	Id=9，西游之路
+	挑战或扫荡X次
+	Id=10，封妖
+	完成X次
+	Id=11，材料副本
+	任意材料副本完成X次
+	Id=12，地煞
+	挑战X次
+	Id=13，门派闯关
+	完成X次
+	Id=14，雁塔地宫
+	挑战X次
+	Id=15，生死劫
+	挑战X次(部分攻本和御本)
+	Id=16，组队
+	完成X次
+	Id=17，帮会副本
+	完成X次
+
+FunctionId	功能开启
+MailId	邮件Id
+type	分类类型
+=1我要变强
+=2我要升级
+=3我要材料
+wayId	4.3Id值定义
+除了这些定义的值，=其他值视为没有次数要求，也可不配置
+wayIcon	图标资源,索引对应路径
+wayName	功能名称
+star	功能星级推荐指数
+wayDec	功能描述
+npc	npcId,调用maincity.xml中对应的Id
+支持配置多个npc,师门任务需要用到,根据对应门派寻找对应npc
+parm	打开的界面
+功能Id|界面类|分页Id
+无分页Id可不配置
+当有配置npc字段时该字段可配置一个功能Id,用来判断功能是否开启
+buttonName	按钮名称
+integral	每完成1次,增加的积分,默认可不配
+ferquency	当天可完成次数,隔天重置,默认可不配
+totalIntergral	总积分值
+rewardId	奖励的道具Id
+num	道具数量
+-->
+<root>
+	<Function FunctionId="6679" MailId="6679"/>
+	<type type="1" tabName="bq_wybq" name="我要变强">
+		<way wayId="1" wayIcon="way_xx" wayName="寻星" star="5" wayDec="激活、升级星盘,可提升战力" parm="6669|StarSearchView" ferquency="50" integral="3" buttonName="ttf_QianWangTiSheng_176"/>
+		<way wayId="18" wayIcon="way_xb" wayName="寻宝" star="5" wayDec="获得神装,可提升战力" parm="2052|TurntableView" ferquency="50" integral="3" buttonName="ttf_QianWangTiSheng_176"/>
+		<way wayId="2" wayIcon="way_ycjj" wayName="养成进阶" star="4" wayDec="养成进阶,可提升战力" parm="4006|DevelopHorseView" ferquency="10" integral="2" buttonName="ttf_QianWangTiSheng_176"/>
+		<way wayId="3" wayIcon="way_yw" wayName="获得装备" star="4" wayDec="挑战妖王,获得穿戴装备,可提升战力" parm="2022|DemonKing" ferquency="2" integral="5" buttonName="ttf_QianWangTiaoZhan_176"/>
+		<way wayId="4" wayIcon="way_dz" wayName="锻造" star="4" wayDec="锻造装备,可提升战力" parm="2004|EquipmentWnd" ferquency="5" integral="5" buttonName="ttf_QianWangTiSheng_176"/>
+		<way wayId="102" wayIcon="way_tj" wayName="图鉴" star="5" wayDec="激活和升级图鉴,可提升战力" parm="2102|PictureView" buttonName="ttf_QianWangTiSheng_176"/>
+		<way wayId="103" wayIcon="way_zl" wayName="注灵" star="5" wayDec="提升注灵升级,可提升战力" parm="4006|DevelopEduNoteView0" buttonName="ttf_QianWangTiSheng_176"/>
+		<way wayId="5" wayIcon="way_cw" wayName="宠物培养" star="4" wayDec="宠物升级,可提升战力" parm="5001|PetView0" ferquency="1" integral="5" buttonName="ttf_QianWangTiSheng_176"/>
+		<way wayId="100" wayIcon="way_cw" wayName="宠物激活" star="5" wayDec="宠物激活,可提升战力" parm="2053|DollMachineView" buttonName="ttf_QianWangHuoDe_176"/>
+		<way wayId="20" wayIcon="way_hb" wayName="伙伴招募" star="5" wayDec="激活、突破伙伴,可提升战力" parm="2005|PartnerRecruitView" ferquency="2" integral="10" buttonName="ttf_QianWangHuoDe_176"/>
+	</type>
+	<type type="2" tabName="bq_wysj" name="我要升级">
+		<way wayId="19" wayIcon="way_pty" wayName="蟠桃宴" star="4" wayDec="完成1次蟠桃宴" parm="6684|PeachBanquetView" ferquency="1" integral="20" buttonName="ttf_QianWangTiSheng_176"/>
+		<way wayId="6" wayIcon="way_ph" wayName="跑环" star="5" wayDec="完成20次跑环任务" parm="1023" npcId="24" ferquency="20" integral="2" buttonName="ttf_QianWangTiaoZhan_176"/>
+		<way wayId="7" wayIcon="way_smrw" wayName="师门任务" star="4" wayDec="完成20次师门任务" parm="1020" npcId="14,25,15" ferquency="20" integral="2" buttonName="ttf_QianWangTiaoZhan_176"/>
+		<way wayId="8" wayIcon="way_zkzg" wayName="钟馗抓鬼" star="4" wayDec="完成10次抓鬼任务" parm="2008" npcId="16" ferquency="10" integral="2" buttonName="ttf_QianWangTiaoZhan_176"/>
+		<way wayId="9" wayIcon="way_xyzl" wayName="西游之路" star="4" wayDec="挑战或扫荡10次西游之路" parm="4005|ChapterView" ferquency="10" integral="2" buttonName="ttf_QianWangTiaoZhan_176"/>
+	</type>
+	<type type="3" tabName="bq_wycl" name="我要材料">
+		<way wayId="10" wayIcon="way_fy" wayName="封妖" star="4" wayDec="挑战封妖5次" parm="2054|SealMonsterView" ferquency="5" integral="5" buttonName="ttf_QianWangTiaoZhan_176"/>
+		<way wayId="11" wayIcon="way_clfb" wayName="材料副本" star="5" wayDec="挑战任意材料副本5次" parm="2009" npcId="6" ferquency="5" integral="5" buttonName="ttf_QianWangTiaoZhan_176"/>
+		<way wayId="3" wayIcon="way_yw" wayName="妖王" star="4" wayDec="挑战妖王10次" parm="2022|DemonKing" ferquency="10" integral="5" buttonName="ttf_QianWangTiaoZhan_176"/>
+		<way wayId="12" wayIcon="way_ds" wayName="地煞" star="4" wayDec="挑战地煞2次" parm="2021|DiShaView" ferquency="2" integral="10" buttonName="ttf_QianWangTiaoZhan_176"/>
+		<way wayId="13" wayIcon="way_mpcg" wayName="门派闯关" star="4" wayDec="挑战门派闯关5次" parm="2017" npcId="7" ferquency="5" integral="5" buttonName="ttf_QianWangTiaoZhan_176"/>
+		<way wayId="15" wayIcon="way_ssj" wayName="生死劫" star="4" wayDec="挑战生死劫2次" parm="2049" npcId="27" ferquency="2" integral="10" buttonName="ttf_QianWangTiaoZhan_176"/>
+		<way wayId="16" wayIcon="way_zdfb" wayName="组队副本" star="5" wayDec="挑战组队副本5次" parm="2056" npcId="5" ferquency="5" integral="10" buttonName="ttf_QianWangTiaoZhan_176"/>
+		<way wayId="17" wayIcon="way_bhfb" wayName="帮会副本" star="5" wayDec="挑战帮会副本5次" parm="2042|GangBossView" ferquency="5" integral="10" buttonName="ttf_QianWangTiaoZhan_176"/>
+	</type>
+	<integralReward totalIntegral="175">
+		<reward rewardId="10000014" num="100"/>
+		<reward rewardId="10000013" num="50"/>
+		<reward rewardId="72000000" num="1"/>
+	</integralReward>
+	<integralReward totalIntegral="350">
+		<reward rewardId="10000007" num="200"/>
+		<reward rewardId="10000014" num="200"/>
+		<reward rewardId="10000013" num="100"/>
+		<reward rewardId="60001000" num="1"/>
+	</integralReward>
+	<integralReward totalIntegral="525">
+		<reward rewardId="10000007" num="500"/>
+		<reward rewardId="10000014" num="300"/>
+		<reward rewardId="10000013" num="150"/>
+		<reward rewardId="60001000" num="2"/>
+	</integralReward>
+	<integralReward totalIntegral="700">
+		<reward rewardId="10000006" num="20"/>
+		<reward rewardId="10000007" num="1000"/>
+		<reward rewardId="10000014" num="400"/>
+		<reward rewardId="10000013" num="200"/>
+		<reward rewardId="60001000" num="5"/>
+	</integralReward>
+</root>

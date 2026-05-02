@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+level	VIP等级			
+vipmoney	VIP所需充值元宝			
+advertisement	广告面板id			
+money	VIP特价礼包原价			
+discountmoney	VIP特价礼包折扣价			
+id	特权文本序号			
+txt	特权文本内容			
+item	VIP礼包物品			
+num	VIP礼包物品数量			
+bind	是否绑定（=1绑定 =0不绑定）			
+time	是否为限时道具（=0或不填为无时限；填数字则为秒钟，数字过大需要转换格式，时：分：秒）			
+item	VIP特价礼包物品			
+num	VIP特价礼包物品数量			
+bind	是否绑定（=1绑定 =0不绑定）			
+time	是否为限时道具（=0或不填为无时限；填数字则为秒钟，数字过大需要转换格式，时：分：秒）			
+bs  标识字段		
+privilege 特权图标
+colour 颜色	
+by 绑元
+yl 银两
+yb 元宝
+hp 魂魄
+
+
+
+-->
+	<vip level="1" vipmoney="5" advertisement="" money="888" discountmoney="1" by="5" yl="1000000" yb="" hp="">
+		<text id="1" txt="开启熔炼装备50件" privilege="vip_xz"/>
+		<text id="2" txt="妖王复活购买次数+1" privilege="vip_xz"/>
+		<text id="3" txt="银两购买次数+2" privilege="vip_xz"/>
+		<text id="4" txt="抢红包次数+1" privilege="vip_xz"/>
+		<gift item="11041025" num="20" bind="1" time=""/>
+		<gift item="14010201" num="5" bind="1" time=""/>
+		<specialoffer item="3000604" num="1" bind="1" time=""/>
+		<specialoffer item="4000604" num="1" bind="1" time=""/>
+		<specialoffer item="2000604" num="1" bind="1" time=""/>
+		<specialoffer item="1000604" num="1" bind="1" time=""/>
+	</vip>
+	<vip level="2" vipmoney="10" advertisement="" money="1888" discountmoney="88" by="10" yl="2000000" yb="" hp="1000">
+		<text id="1" txt="可创建1级帮派" privilege="vip_xz"/>
+		<text id="2" txt="开启2倍战斗速度功能" privilege="vip_xz"/>
+		<text id="3" txt="体力购买次数+1" privilege="vip_xz"/>
+		<text id="4" txt="妖王复活购买次数+1"/>
+		<text id="5" txt="银两购买次数+2"/>
+		<text id="6" txt="抢红包次数+1"/>
+		<gift item="11041025" num="30" bind="1" time=""/>
+		<gift item="14030201" num="10" bind="1" time=""/>
+		<specialoffer item="16010013" num="5" bind="1" time=""/>
+		<specialoffer item="10000015" num="20" bind="1" time=""/>
+		<specialoffer item="14030201" num="10" bind="1" time=""/>
+	</vip>
+	<vip level="3" vipmoney="20" advertisement="" money="2888" discountmoney="188" by="20" yl="5000000" yb="" hp="">
+		<text id="1" txt="开启封妖扫荡功能" privilege="vip_xz"/>
+		<text id="2" txt="妖王复活购买次数+2" colour="#209d13"/>
+		<text id="3" txt="银两购买次数+3" colour="#209d13"/>
+		<text id="4" txt="体力购买次数+1"/>
+		<text id="5" txt="抢红包次数+1"/>
+		<gift item="11041025" num="50" bind="1" time=""/>
+		<gift item="14050201" num="15" bind="1" time=""/>
+		<specialoffer item="14010201" num="10" bind="1" time=""/>
+		<specialoffer item="14010001" num="1" bind="1" time=""/>
+		<specialoffer item="14010101" num="2" bind="1" time=""/>
+		<specialoffer item="1020404" num="1" bind="1" time=""/>
+	</vip>
+	<vip level="4" vipmoney="30" advertisement="" money="5888" discountmoney="688" by="30" yl="8000000" yb="1000" hp="">
+		<text id="1" txt="可创建3级帮派" privilege="vip_xz"/>
+		<text id="2" txt="开启3倍战斗速度功能" privilege="vip_xz"/>
+		<text id="3" txt="开启材料副本扫荡功能" privilege="vip_xz"/>
+		<text id="4" txt="钟馗抓鬼购买次数+1" privilege="vip_xz"/>
+		<text id="5" txt="材料副本购买次数+1" privilege="vip_xz"/>
+		<text id="6" txt="跑环任务购买次数+1" privilege="vip_xz"/>
+		<text id="7" txt="体力购买次数+2" colour="#209d13"/>
+		<text id="8" txt="银两购买次数+3"/>
+		<text id="9" txt="妖王复活购买次数+2"/>
+		<text id="10" txt="抢红包次数+3" colour="#209d13"/>
+		<gift item="11041025" num="100" bind="1" time=""/>
+		<gift item="14040201" num="30" bind="1" time=""/>
+		<specialoffer item="12070017" num="1" bind="1" time=""/>
+		<specialoffer item="10000009" num="20" bind="1" time=""/>
+		<specialoffer item="10000014" num="100" bind="1" time=""/>
+		<flashsale day="1" saleitem="16010043" num="1" saleicon="sale_slogan_4" mainid="6693"/>
+	</vip>
+	<vip level="5" vipmoney="40" advertisement="" money="11888" discountmoney="1888" by="40" yl="10000000" yb="2000" hp="" mainid="6693">
+		<text id="1" txt="开启一键抓鬼功能" privilege="vip_xz"/>
+		<text id="2" txt="开启门派闯关扫荡功能" privilege="vip_xz"/>
+		<text id="3" txt="提前开启第2个伙伴上阵位" privilege="vip_xz"/>
+		<text id="4" txt="华山论剑重置次数+1" privilege="vip_xz"/>
+		<text id="5" txt="妖王复活购买次数+3" colour="#209d13"/>
+		<text id="6" txt="体力购买次数+2"/>
+		<text id="7" txt="银两购买次数+4" colour="#209d13"/>
+		<text id="8" txt="材料副本购买次数+2" colour="#209d13"/>
+		<text id="9" txt="抢红包次数+3"/>
+		<text id="10" txt="钟馗抓鬼购买次数+1"/>
+		<gift item="11051066" num="20" bind="1" time=""/>
+		<gift item="14020201" num="50" bind="1" time=""/>
+		<specialoffer item="11051066" num="18" bind="1" time=""/>
+		<specialoffer item="10000009" num="30" bind="1" time=""/>
+		<specialoffer item="10000014" num="200" bind="1" time=""/>
+		<flashsale day="3" saleitem="16010044" num="1" saleicon="sale_slogan_5" mainid="6693"/>
+	</vip>
+	<vip level="6" vipmoney="50" advertisement="" money="18888" discountmoney="3888" by="50" yl="15000000" yb="3000" hp="">
+		<text id="1" txt="开启三界除魔自动挑战" privilege="vip_xz"/>
+		<text id="3" txt="开启快速运镖功能" privilege="vip_xz"/>
+		<text id="4" txt="妖王复活购买次数+3"/>
+		<text id="5" txt="体力购买次数+3" colour="#209d13"/>
+		<text id="6" txt="银两购买次数+4"/>
+		<text id="7" txt="材料副本购买次数+3" colour="#209d13"/>
+		<text id="8" txt="华山论剑重置次数+1"/>
+		<text id="9" txt="抢红包次数+5" colour="#209d13"/>
+		<text id="10" txt="钟馗抓鬼购买次数+2" colour="#209d13"/>
+		<text id="11" txt="跑环任务购买次数+2" colour="#209d13"/>
+		<gift item="11051066" num="30" bind="1" time=""/>
+		<gift item="10000009" num="60" bind="1" time=""/>
+		<specialoffer item="11051066" num="28" bind="1" time=""/>
+		<specialoffer item="10000009" num="50" bind="1" time=""/>
+		<specialoffer item="10000014" num="300" bind="1" time=""/>
+		<flashsale day="5" saleitem="16010045" num="1" saleicon="sale_slogan_6" mainid="6693"/>
+	</vip>
+	<vip level="7" vipmoney="100" advertisement="" money="28888" discountmoney="7888" by="100" yl="20000000" yb="5000" hp="">
+		<text id="1" txt="开启自动熔炼功能" privilege="vip_xz"/>
+		<text id="2" txt="开启跳过战斗功能" privilege="vip_xz"/>
+		<text id="3" txt="提前开启第3个伙伴上阵位" privilege="vip_xz"/>
+		<text id="4" txt="妖王复活购买次数+5" colour="#209d13"/>
+		<text id="5" txt="体力购买次数+3"/>
+		<text id="6" txt="银两购买次数+5" colour="#209d13"/>
+		<text id="7" txt="材料副本购买次数+4" colour="#209d13"/>
+		<text id="8" txt="华山论剑重置次数+2" colour="#209d13"/>
+		<text id="9" txt="抢红包次数+5"/>
+		<text id="10" txt="钟馗抓鬼购买次数+2"/>
+		<gift item="11051066" num="40" bind="1" time=""/>
+		<gift item="10000009" num="80" bind="1" time=""/>
+		<specialoffer item="11051066" num="38" bind="1" time=""/>
+		<specialoffer item="10000009" num="80" bind="1" time=""/>
+		<specialoffer item="10000014" num="500" bind="1" time=""/>
+		<flashsale day="7" saleitem="16010049" num="100" saleicon="sale_slogan_7" mainid="6693"/>
+	</vip>
+	<vip level="8" vipmoney="150" advertisement="" money="42888" discountmoney="12888" by="150" yl="" yb="8000" hp="">
+		<text id="1" txt="开启至尊招募" privilege="vip_xz"/>
+		<text id="2" txt="妖王复活购买次数+5"/>
+		<text id="3" txt="体力购买次数+5" colour="#209d13"/>
+		<text id="4" txt="银两购买次数+5"/>
+		<text id="5" txt="材料副本购买次数+5" colour="#209d13"/>
+		<text id="6" txt="华山论剑重置次数+2"/>
+		<text id="7" txt="抢红包次数+5"/>
+		<text id="8" txt="钟馗抓鬼购买次数+3" colour="#209d13"/>
+		<text id="9" txt="跑环任务购买次数+3" colour="#209d13"/>
+		<gift item="12000034" num="1" bind="1" time=""/>
+		<gift item="11051066" num="50" bind="1" time=""/>
+		<gift item="10000009" num="100" bind="1" time=""/>
+		<specialoffer item="11051066" num="48" bind="1" time=""/>
+		<specialoffer item="10000009" num="100" bind="1" time=""/>
+		<specialoffer item="10000014" num="1000" bind="1" time=""/>
+		<flashsale day="10" saleitem="16010060" num="100" saleicon="sale_slogan_8" mainid="6693"/>
+	</vip>
+	<vip level="9" vipmoney="200" advertisement="" money="58888" discountmoney="22888" by="200" yl="40000000" yb="10000" hp="">
+		<text id="1" txt="提前开启第4个伙伴上阵位" privilege="vip_xz"/>
+		<text id="2" txt="妖王复活购买次数+7" colour="#209d13"/>
+		<text id="3" txt="体力购买次数+5"/>
+		<text id="4" txt="银两购买次数+8" colour="#209d13"/>
+		<text id="5" txt="材料副本购买次数+5"/>
+		<text id="6" txt="华山论剑重置次数+3" colour="#209d13"/>
+		<text id="7" txt="抢红包次数+8" colour="#209d13"/>
+		<text id="8" txt="钟馗抓鬼购买次数+3"/>
+		<gift item="11051066" num="100" bind="1" time=""/>
+		<gift item="10000009" num="120" bind="1" time=""/>
+		<specialoffer item="12000034" num="1" bind="1" time=""/>
+		<specialoffer item="10000009" num="150" bind="1" time=""/>
+		<specialoffer item="10000014" num="2000" bind="1" time=""/>
+		<flashsale day="12" saleitem="16010041" num="1" saleicon="sale_slogan_9" mainid="6693"/>
+	</vip>
+	<vip level="10" vipmoney="250" advertisement="" money="88888" discountmoney="36666" by="250" yl="" yb="15000" hp="">
+		<text id="1" txt="妖王复活购买次数+7"/>
+		<text id="2" txt="体力购买次数+7" colour="#209d13"/>
+		<text id="3" txt="银两购买次数+8"/>
+		<text id="4" txt="材料副本购买次数+6" colour="#209d13"/>
+		<text id="5" txt="华山论剑重置次数+3"/>
+		<text id="6" txt="抢红包次数+8"/>
+		<text id="7" txt="钟馗抓鬼购买次数+5" colour="#209d13"/>
+		<text id="8" txt="跑环任务购买次数+5" colour="#209d13"/>
+		<gift item="12000030" num="1" bind="1" time="" bs="vip_xy"/>
+		<gift item="10000009" num="150" bind="1" time=""/>
+		<gift item="11051062" num="100" bind="1" time=""/>
+		<specialoffer item="11051062" num="108" bind="1" time=""/>
+		<specialoffer item="10000009" num="200" bind="1" time=""/>
+		<specialoffer item="10000014" num="3000" bind="1" time=""/>
+		<flashsale day="15" saleitem="16010040" num="1" saleicon="sale_slogan_10" mainid="6693"/>
+	</vip>
+	<vip level="11" vipmoney="300" advertisement="" money="118888" discountmoney="52888" by="300" yl="" yb="20000" hp="">
+		<text id="1" txt="妖王复活购买次数+10" colour="#209d13"/>
+		<text id="2" txt="体力购买次数+7"/>
+		<text id="3" txt="银两购买次数+10" colour="#209d13"/>
+		<text id="4" txt="材料副本购买次数+6"/>
+		<text id="5" txt="华山论剑重置次数+5" colour="#209d13"/>
+		<text id="6" txt="抢红包次数+10" colour="#209d13"/>
+		<text id="7" txt="钟馗抓鬼购买次数+5"/>
+		<gift item="3001500" num="1" bind="1" time="" bs="vip_wy"/>
+		<gift item="11051062" num="150" bind="1" time=""/>
+		<gift item="10000009" num="200" bind="1" time=""/>
+		<specialoffer item="11051062" num="168" bind="1" time=""/>
+		<specialoffer item="10000009" num="300" bind="1" time=""/>
+		<specialoffer item="10000014" num="5000" bind="1" time=""/>
+		<flashsale day="20" saleitem="16010014" num="100" saleicon="sale_slogan_11" mainid="6693"/>
+	</vip>
+	<vip level="12" vipmoney="388" advertisement="" money="188888" discountmoney="88888" by="388" yl="" yb="30000" hp="">
+		<text id="1" txt="妖王复活购买次数+10"/>
+		<text id="2" txt="体力购买次数+10" colour="#209d13"/>
+		<text id="3" txt="银两购买次数+10"/>
+		<text id="4" txt="材料副本购买次数+6"/>
+		<text id="5" txt="华山论剑重置次数+5"/>
+		<text id="6" txt="抢红包次数+10"/>
+		<text id="7" txt="钟馗抓鬼购买次数+5"/>
+		<gift item="11051062" num="100" bind="1" time="" bs="vip_jb"/>
+		<gift item="11051062" num="200" bind="1" time=""/>
+		<gift item="10000009" num="300" bind="1" time=""/>
+		<specialoffer item="11051062" num="268" bind="1" time=""/>
+		<specialoffer item="10000009" num="500" bind="1" time=""/>
+		<specialoffer item="10000014" num="10000" bind="1" time=""/>
+		<flashsale day="30" saleitem="16010064" num="100" saleicon="sale_slogan_12" mainid="6693"/>
+	</vip>
+</root>

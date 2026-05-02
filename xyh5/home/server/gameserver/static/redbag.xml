@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+functionid	功能id			
+limitnum	单封红包领取人数最大上限			
+minnum	单封红包领取最低人数			
+icon	图标id			
+help	帮助文档	
+ceiling 红包显示上限
+fallingtime 红包飘落特效持续时间（秒） 
+redbagid	红包id			
+type	"发送红包类型=0系统红包 =1玩家红包 =2个人红包"			
+name	红包名字			
+people	领取人数系数（百分比）
+peoplenum 领取红包固定人数（与people字段互斥）			
+moneytype	"红包货币类型=1 银两=2 元宝=3 绑元"			
+num	货币数量		
+scope 红包金额随机范围（与num字段互斥,用于个人红包）	
+viplevel	vip等级			
+count	次数			
+redbagid	对应红包id			
+disappear	红包存在时间（分钟）			
+refresh	红包刷新时间间隔（分钟）			
+shownum	红包展示金额			
+showhuman	红包人数显示限制			
+redbagnum	红包领取个数展示值			
+refreshlimit	每日每个玩家最多刷新的个人红包个数			
+refreshnum	玩家刷新的个人红包次数			
+interval	下个个人红包刷新间隔次数			
+		
+
+
+
+-->
+	<function functionid="2019" limitnum="50" minnum="10" icon="100" help="你好你好" ceiling="30" fallingtime="30"/>
+	<redbag redbagid="1" type="1" name="{1}的红包" people="10" moneytype="3" num="1000" des="地煞击杀1-3星红包"/>
+	<redbag redbagid="2" type="1" name="{1}的红包" people="10" moneytype="3" num="2000" des="地煞击杀4-6星红包"/>
+	<redbag redbagid="3" type="1" name="{1}的红包" people="10" moneytype="3" num="3000" des="地煞击杀7-10星红包"/>
+	<redbag redbagid="4" type="1" name="{1}的红包" people="10" moneytype="3" num="5000" des="地煞击杀11星+红包"/>
+	<redbag redbagid="5" type="1" name="{1}的红包" people="30" moneytype="3" num="5000" des="击杀世界BOSS发放奖励"/>
+	<redbag redbagid="11" type="1" name="{1}的红包" peoplenum="1" moneytype="3" num="50" des="妖王"/>
+	<redbag redbagid="12" type="1" name="{1}的红包" peoplenum="1" moneytype="3" num="100" des="妖王"/>
+	<redbag redbagid="13" type="1" name="{1}的红包" peoplenum="1" moneytype="3" num="200" des="妖王"/>
+	<redbag redbagid="14" type="1" name="{1}的红包" peoplenum="1" moneytype="3" num="300" des="妖王"/>
+	<redbag redbagid="15" type="1" name="{1}的红包" peoplenum="1" moneytype="3" num="400" des="妖王"/>
+	<redbag redbagid="16" type="1" name="{1}的红包" peoplenum="1" moneytype="3" num="500" des="妖王"/>
+	<redbag redbagid="17" type="1" name="{1}的红包" peoplenum="1" moneytype="3" num="600" des="妖王"/>
+	<redbag redbagid="18" type="1" name="{1}的红包" peoplenum="1" moneytype="3" num="700" des="妖王"/>
+	<redbag redbagid="19" type="1" name="{1}的红包" peoplenum="1" moneytype="3" num="800" des="妖王"/>
+	<redbag redbagid="20" type="1" name="{1}的红包" peoplenum="1" moneytype="3" num="900" des="妖王"/>
+	<redbag redbagid="21" type="1" name="{1}的红包" peoplenum="1" moneytype="3" num="1000" des="妖王"/>
+	
+	
+	
+	<redbag redbagid="888" type="2" name="天降红包" moneytype="3" scope="288,666" des="个人红包" />
+	<redbag redbagid="999" type="0" name="系统红包" people="50" moneytype="3" num="200"/>
+	<vip viplevel="0" count="6"/>
+	<vip viplevel="1" count="6"/>
+	<vip viplevel="2" count="6"/>
+	<vip viplevel="3" count="6"/>
+	<vip viplevel="4" count="8"/>
+	<vip viplevel="5" count="8"/>
+	<vip viplevel="6" count="10"/>
+	<vip viplevel="7" count="10"/>
+	<vip viplevel="8" count="10"/>
+	<vip viplevel="9" count="13"/>
+	<vip viplevel="10" count="13"/>
+	<vip viplevel="11" count="15"/>
+	<vip viplevel="12" count="15"/>
+	<personal redbagid="888" disappear="10" refresh="5"  shownum="6666" showhuman="9" redbagnum="12" refreshlimit="8"/>
+	<count refreshnum="1" interval="0"/>
+	<count refreshnum="2" interval="0"/>
+	<count refreshnum="3" interval="0"/>
+	<count refreshnum="4" interval="0"/>
+	<count refreshnum="5" interval="0"/>
+	<count refreshnum="6" interval="1"/>
+	<count refreshnum="7" interval="1"/>
+	<count refreshnum="8" interval="1"/>
+
+</root>

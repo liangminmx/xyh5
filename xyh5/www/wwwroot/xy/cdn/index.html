@@ -1,0 +1,634 @@
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta content="width=device-width, initial-scale=1,maximum-scale=1.0,user-scalable=no" name="viewport"/>
+        <meta content="yes" name="apple-mobile-web-app-capable" />
+        <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+        <meta content="telephone=no" name="format-detection" />
+        <meta http-equiv="Cache-Control" content="max-age=3600" />		
+        <link rel="stylesheet" type="text/css" href="login/css/sdk.css">
+        <title>梦幻H5</title>
+        <script type="text/javascript" src="login/js/jquery.js"></script>
+        
+
+        <script type="text/javascript">
+        try{
+            //document.domain = 'h5game.com';
+        }catch(e){
+
+        }
+        </script>
+        <script type="text/javascript">
+        /**
+         * type = 1 登录
+         * type = 2 注册
+         */
+
+            // var gameRegisterOnlyMoble = 'echo $gameRegisterOnlyMoble ';
+
+            var mvIsMobile = false;
+            $(document).ready(function () {
+                if ($(".tishi span").text() == "")
+                    $(".tishi").hide();
+                else
+                    $(".tishi").show();
+                /**
+                 * 登录
+                 */
+                $("#btnlogin").click(function () {
+                    $("#type").val("1");
+                    checkLoginForm();
+                });
+                /**
+                 * 注册并登录
+                 */
+                $("#btnreg").click(function () {
+                    $("#type").val("2");
+                    if(GetQueryString("packageid")){
+                        GetQueryString("packageid")
+                        $('#frmLogin').append('<input type="hidden" name="packageid" value="'+ GetQueryString("packageid") +'" />')
+                    }
+                    checkRegForm();
+                });
+                /**
+                 * 一键注册 
+                 */
+                $("#btnonekey").click(function () {
+					$(this).hide();
+                	$("#replace_shiwan").show();
+                    $("#type").val("3");
+                    if(GetQueryString("packageid")){
+                        GetQueryString("packageid")
+                        $('#frmLogin').append('<input type="hidden" name="packageid" value="'+ GetQueryString("packageid") +'" />')
+                    }
+                    document.getElementById('frmLogin').submit();
+                });
+                // $("#username").blur(function () {
+                //     checkRegMobile();
+                // });
+                /**
+                 * 进入注册页面
+                 */
+                $("#btnreg1").click(function () {
+                    $("#type").val("2");
+                    $("#forget_pwd").hide()
+                    $("#username").attr("placeholder", "请输入用户名/手机号码");
+                    $('#ismobileregister2').show()
+                    $("#p_login").hide();
+					if ( $(".p_login_2").length > 0 ) {
+                    	$(".p_login_2").hide();
+                    }
+                    $("#p_reg").show();
+                    $('#yzm').val('');
+                    // $("#validcode,#ismobileregister2").show();
+                    $("#validcode").show();
+                });
+                /**
+                 * 返回登录页面
+                 */
+                $("#btnback").click(function () {
+                    mvIsMobile = false;
+                    $("#username").attr("placeholder", "请输入用户名/手机号码");
+                    $("#p_login").show();
+					if ( $(".p_login_2").length > 0 ) {
+                    	$(".p_login_2").show();
+                    }
+                    $("#p_reg").hide();
+                    // $("#validcode,#ismobileregister2").hide();
+                    $("#validcode").hide();
+                    $("#sfzcard_wrap").hide();
+                    $(".tishi").hide();
+                });
+
+                $("#send_yzm").click(function () {
+                    //$(this).css("background", "#b3b3b3");
+                    //$(this).html("56秒后重试");
+                });
+
+                //粘性表单
+                var lvTMP = '';
+                if (lvTMP == "reg")
+                {
+                    $("#btnreg1").trigger('click');
+                }
+
+
+                //邀请用户隐藏一键试玩按钮
+                var pt = new RegExp("suid");
+                if( pt.test(document.referrer) ){
+                    $("#btnonekey").hide();
+                    $("#btnreg1,#btnlogin").css('width', "49%");
+                }//
+
+            });
+            /*
+            *获取url参数
+            * 
+             */
+            
+            function GetQueryString(name){
+                 var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+                 var r = window.location.search.substr(1).match(reg);
+                 if(r!=null)return  unescape(r[2]); return null;
+            }
+             /**
+             * FIXME: 代码重复
+             * 忘记密码获取验证码
+             */
+            var forgetcanSendYzm = true;
+            function forgetGetCode()
+            {
+                if(!forgetcanSendYzm)
+                {
+                    return ;
+                }
+                var mobile = $("#forget_username").val();
+                var forget_tpyzm = $("#forget_tpyzm").val();
+                if (!checkmobile())
+                {
+                    $("#forget_div .tishi").show();
+                    $("#forget_div .tishi span").text("请输入正确的手机号码!");
+                    return;
+                }
+                // if (!forget_tpyzm)
+                // {
+                //     $("#forget_div .tishi").show();
+                //     $("#forget_div .tishi span").text("请输入图片验证码!");
+                //     return;
+                // }
+
+                forgetyzmInterval = setInterval("forgetyzmClock('#forget_send_yzm')", 1000);
+                $('#forget_send_yzm').text('重发(180)').css('background','gray');
+
+                $.post("/user/mobilecode2", {"mobile": mobile,"flag":2,"mobile_code":forget_tpyzm}, function (data) {
+                    data = JSON.parse(data);
+                    $("#forget_div .tishi").show();
+                    $("#forget_div .tishi span").text(data.msg);
+                });
+            }
+            //发送验证码倒计时
+            var forgetyzmWait = 180;
+            function forgetyzmClock(id){
+              forgetyzmWait--;
+              if(forgetyzmWait <= 0 ){
+                forgetcanSendYzm = true;
+                forgetyzmWait = 180;
+                window.clearInterval(forgetyzmInterval);
+                $(id).html('重送').css('background', '#00b1fd');
+              }else{
+                forgetcanSendYzm = false;
+                $(id).text('重送('+forgetyzmWait+')');
+              }
+            }
+
+            
+            var canSendYzm = true;
+            function getCode()
+            {
+                if(!canSendYzm){
+                    return ;
+                }
+                var mobile = $("#username").val();
+                var tpyzm = $("#tpyzm").val();
+                if (!checkmobile())
+                {
+                    $(".tishi").show();
+                    $(".tishi span").text("请输入正确的手机号码!");
+                    return;
+                }
+                 if (!tpyzm)
+                 {
+                     $(".tishi").show();
+                     $(".tishi span").text("请输入图片验证码!");
+                     return;
+                 }
+
+                $.post("/user/mobilecode234", {"mobile": mobile,'mobile_code':tpyzm}, function (data) {
+                    data = JSON.parse(data);
+                    $(".tishi").show();
+                    $(".tishi span").text(data.msg);
+
+                    if(data.code == '0')
+                    {
+                        yzmInterval = setInterval("yzmClock('#send_yzm')", 1000);
+                        $('#send_yzm').text('重发(180)').css('background','gray');
+                    }
+
+                });
+            }
+
+            //发送验证码倒计时
+            var yzmWait = 180;
+            function yzmClock(id){
+              yzmWait--;
+              if(yzmWait <= 0 ){
+                canSendYzm = true;
+                yzmWait = 180;
+                window.clearInterval(yzmInterval);
+                $(id).html('重发').css('background', '#00b1fd');
+              }else{
+                canSendYzm = false;
+                $(id).text('重发('+yzmWait+')');
+              }
+            }
+
+            function checkmobile()
+            { //debugger;
+                var mobile = $.trim($("#username").val());
+                var my = false;
+                var partten = /^1[3-9]\d{9}$/;
+                if (partten.test(mobile))
+                    my = true;
+                if (mobile.length != 11)
+                    my = false;
+                if (!my) {
+                    return false;
+                }
+                return true;
+            }
+
+            function checkisInt()
+            {
+                var mobile = $.trim($("#username").val());
+                var my = false;
+                var partten = /^\d{11}$/;
+                if (partten.test(mobile))
+                    my = true;
+                if (mobile.length != 11)
+                    my = false;
+                if (!my) {
+                    return false;
+                }
+                return true;
+            }
+
+            function funcChina(str) {
+                if (/.*[\u4e00-\u9fa5]+.*$/.test(str))
+                {
+                    //alert("不能含有汉字！");
+                    return false;
+                }
+                return true;
+            }
+
+            /**
+             * 判断数字和字母
+             */
+            function checkUserName(str) {
+                if (/^[A-Za-z0-9]+$/.test(str))
+                {
+                    //alert("不能含有汉字！");
+                    return false;
+                }
+                return true;
+            }
+
+            /**
+             * Comment
+             */
+            function checkRegMobile() {
+                mvIsMobile = false;
+                var lvType = $("#type").val();
+                if (lvType == "2") {
+
+                    mvIsMobile = checkmobile();
+
+                    //patch in 20160415
+                    // if(gameRegisterOnlyMoble == 'yes' && !mvIsMobile){
+                    //     $(".tishi").show();
+                    //     $(".tishi span").text("请输入手机号码！");
+                    //     return false;
+                    // }else{
+                    //     $(".tishi").hide();
+                    //     $(".tishi span").text("");
+                    // }//
+
+                    if (mvIsMobile) {
+                        $("#validcode").show();
+                        // $("#ismobileregister2").show();
+                        $("#yzm").focus();
+                    }
+                    else if (checkisInt())
+                    {
+                        $(".tishi").show();
+                        $(".tishi span").text("请输入手机号码或非11位纯数字！");
+                    }
+                    else
+                    {
+                        $(".tishi span").text("");
+                        $(".tishi").hide();
+                        $("#validcode").hide();
+                        // $("#ismobileregister2").hide();
+                    }
+                }
+            }
+            function checkRegForm(){
+                $(".tishi").hide();
+                var lvUsername = $("#username").val();
+                var lvPWD = $("#passwd").val();
+
+                if (lvUsername == "") {
+                    $(".tishi").show();
+                    $(".tishi span").text("请输入用户名！");
+					return;
+                }
+                else if (lvUsername.length < 2)
+                {
+                    $(".tishi").show();
+                    $(".tishi span").text("用户名长度不得小于6位！");
+					return;
+                }
+                else if (!funcChina(lvUsername))
+                {
+                    $(".tishi").show();
+                    $(".tishi span").text("用户名不能含有汉字！");
+					return;
+                }
+                else if (checkUserName(lvUsername))
+                {
+                    $(".tishi").show();
+                    $(".tishi span").text("用户名只能是字母和数字！");
+					return;
+                }
+                else if (lvPWD == "" || lvPWD == "输入密码") {
+                    $(".tishi").show();
+                    $(".tishi span").text("输入密码！");
+					return;
+                }
+                else if (lvPWD.length < 2)
+                {
+                    $(".tishi").show();
+                    $(".tishi span").text("密码长度不得小于6位！");
+					return;
+                }
+				
+				/*
+                if(!checkmobile()){
+                    $(".tishi").show();
+                    $(".tishi span").text("请输入手机号码！");
+                    return false;
+                }
+
+                if(!lvPWD){
+                    $(".tishi").show();
+                    $(".tishi span").text("请输入密码!");
+                    return false;
+                }
+				*/
+
+                $("#frmLogin").submit();
+            }
+
+            function checkLoginForm() {
+                $(".tishi").hide();
+                var lvUsername = $("#username").val();
+                var lvPWD = $("#passwd").val();
+
+		        SetCookie('cookie_username', lvUsername);
+		        SetCookie('cookie_password', lvPWD);
+
+                if (lvUsername == "") {
+                    $(".tishi").show();
+                    $(".tishi span").text("请输入用户名！");
+                }
+                else if (lvUsername.length < 2)
+                {
+                    $(".tishi").show();
+                    $(".tishi span").text("用户名长度不得小于6位！");
+                }
+                else if (!funcChina(lvUsername))
+                {
+                    $(".tishi").show();
+                    $(".tishi span").text("用户名不能含有汉字！");
+                }
+                else if (checkUserName(lvUsername))
+                {
+                    $(".tishi").show();
+                    $(".tishi span").text("用户名只能是字母和数字！");
+                }
+                else if (lvPWD == "" || lvPWD == "输入密码") {
+                    $(".tishi").show();
+                    $(".tishi span").text("输入密码！");
+                }
+                else if (lvPWD.length < 2)
+                {
+                    $(".tishi").show();
+                    $(".tishi span").text("密码长度不得小于6位！");
+                }
+                else
+                {
+                    document.getElementById('frmLogin').submit();
+                }
+            }
+
+        </script>
+		
+				
+    </head>
+
+    <body>
+        <form id="frmLogin" method="post" action="check.php">
+            <img src="login/img/loginbg.jpg" style="width:100%; z-index:1;">
+            <div class="content_box">
+                <p class="con_tit">登录</p>				
+                <ul>
+                    <li>
+                        <span class="user"></span>
+                        <p><input type="text" id="username" name="username" class="input_1" value="" placeholder="请输入用户名/手机号码"></p>
+                    </li>
+
+                    <li> 
+                        <span class="password"></span>
+                        <p><input type="password" id="passwd" name="passwd" class="input_1"  value="" placeholder="请输入6-15位字母或数字"></p>
+                                            </li>
+                </ul>
+                <p class="tishi"><span></span></p>
+                <p class="button" id="p_login">
+                    <a href="javascript:void(0);" class="SW" id="btnonekey" style="display:none;">一键试玩</a>
+					<!-- 不可点击的  一键试玩-->
+					<a href="javascript:;" class="SW" id="replace_shiwan" style="display:none;">一键试玩</a>
+					
+					<a href="javascript:;"  id="btnreg1" class="RG">注册</a>
+					<a href="javascript:;"  id="btnlogin" class="LG" style="float: right">一键注册登录</a>
+                </p>
+	
+				
+
+				<p class="button" id="p_reg" style="display: none;">
+                    <a href="#" class="SW"  id="btnback" style="display: inline-block;">返回登录</a>
+                                        <a href="#" class="LG" style="visibility:hidden;">占位符</a>
+                                        <a href="#" class="LG" id="btnreg"  >注册并登录</a>
+                </p>
+
+            </div>
+        </form>
+
+
+    </body>
+
+<script type="text/javascript">
+
+function otherRLChange(val){
+	if(val==1){
+		$('#wxplatform_quick_login').hide();
+		$('#wxplatform_register_login').show();
+	}else if(val==2){
+		$('#wxplatform_quick_login').show();
+		$('#wxplatform_register_login').hide();
+	}
+}
+
+//忘记密码
+function forgetPwd(){
+    $(".content_box").hide();
+    $("#forget_div").show();
+    var forget_username = $(".content_box #username").val();
+    if(forget_username){
+        $("#forget_username").val(forget_username);
+       // $("#forget_send_yzm").trigger('click');
+    }
+}
+//忘记密码返回
+function forgetBack(){
+    $(".content_box").show();
+    $("#forget_div").hide();
+}
+//忘记密码完成
+function forgetFinish(){
+    var username = $("#forget_username").val();
+    var password = $("#forget_passwd").val();
+    var yzm      = $("#forget_yzm").val();
+    var tpyzm      = $("#forget_tpyzm").val();
+
+    if(!username){
+        $("#forget_div .tishi").show();
+        $("#forget_div .tishi span").text('请输入手机号码');
+        return false;
+    }
+
+    // if(!tpyzm){
+    //     $("#forget_div .tishi").show();
+    //     $("#forget_div .tishi span").text('请输入图片验证码');
+    //     return false;
+    // }
+
+    if(!yzm){
+        $("#forget_div .tishi").show();
+        $("#forget_div .tishi span").text('请输入验证码');
+        return false;
+    }
+
+    if(!password){
+         $("#forget_div .tishi").show();
+        $("#forget_div .tishi span").text('密码不能小于6位');
+        return false;
+    }
+
+    var url = "/user/findpwd";
+    var data = {'username':username,'password':password,"mobile_yzm":yzm};
+    $.post(url,data, function(rs){
+        $("#forget_div .tishi").show();
+        $("#forget_div .tishi span").text(rs.msg);
+        if(rs.code === 1){
+            //login
+            $("#username").val(username);
+            $("#passwd").val(password);
+            checkLoginForm();
+        }
+    }, 'json');
+}
+
+
+function SetCookie(name, value) {
+        var key = '';
+        var Days = 30;
+        var exp = new Date();
+        var domain = "";
+        exp.setTime(exp.getTime() + Days * 24 * 60 * 60 * 1000);
+        if (key == null || key == "") {
+            document.cookie = name + "=" + encodeURI(value) + ";expires=" + exp.toGMTString() + ";path=/;domain=" + domain + ";";
+        }
+        else {
+            var nameValue = GetCookie(name);
+            if (nameValue == "") {
+                document.cookie = name + "=" + key + "=" + encodeURI(value) + ";expires=" + exp.toGMTString() + ";path=/;domain=" + domain + ";";
+            }
+            else {
+                var keyValue = getCookie(name, key);
+                if (keyValue != "") {
+                    nameValue = nameValue.replace(key + "=" + keyValue, key + "=" + encodeURI(value));
+                    document.cookie = name + "=" + nameValue + ";expires=" + exp.toGMTString() + ";path=/;domain=" + domain + ";";
+                }
+                else {
+                    document.cookie = name + "=" + nameValue + "&" + key + "=" + encodeURI(value) + ";expires=" + exp.toGMTString() + ";path=/;" + domain + ";";
+                }
+            }
+        }
+    }
+
+    function GetCookie(name) {
+        var nameValue = "";
+        var key = "";
+        var arr, reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
+        if (arr = document.cookie.match(reg)) {
+            nameValue = decodeURI(arr[2]);
+        }
+        if (key != null && key != "") {
+            reg = new RegExp("(^| |&)" + key + "=([^(;|&|=)]*)(&|$)");
+            if (arr = nameValue.match(reg)) {
+                return decodeURI(arr[2]);
+            }
+            else return "";
+        }
+        else {
+            return nameValue;
+        }
+    }
+
+    var cookie_username = GetCookie('cookie_username');
+    var cookie_password = GetCookie('cookie_password');
+    if(cookie_username != ''){
+        $("#username").val(cookie_username);
+    }
+    if(cookie_password != ''){
+        $("#passwd").val(cookie_password);
+    }
+
+
+</script>
+
+<style>
+
+/*第三方登录*/
+.p_login_2{
+	position: relative;line-height: 20px;height: 20px;text-align: center;font-size: 12px;color: #999;margin-bottom: 5px;
+}
+.p_login_em{
+	position: absolute;top: 10px;left: 0;height: 1px;background: #ccc;width: 100%;z-index: -1;
+}
+
+.p_login_em_left{
+	position: absolute;top: 10px;left: 0;height: 1px;background: #ccc;width: 40%;z-index: -1;
+}
+
+.p_login_em_right{
+	position: absolute;top: 10px;right: 0;height: 1px;background: #ccc;width: 40%;z-index: -1;
+}
+
+.p_login_span{
+	background:none;font-size: 13px;padding: 0 3px;display: inline-block;
+}
+.di_bd_css{
+	border-bottom:0;background:none;height: 50px;
+}
+.third_login_img{
+	width: 45px;
+}
+.link_third_css{
+	padding: 0px 10px;
+	text-decoration: none;
+}
+</style>
+
+</html>

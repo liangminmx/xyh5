@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!--function id=2029-->
+<root>
+	<!--
+tiemhidden 是否显示倒计时 =0或不填该字段表示隐藏，=1表示显示
+-->
+	
+	
+	<!--左上第1栏-->
+	<part part="1">
+		<btn btn_id="101" name="开服活动" sys_id="OpenActivityView" functionid="2026,2010,2015,2036,2037,3032" show="1" type="0" hide="1" sort="2" icon="10003"/>
+		<btn btn_id="102" name="福利大厅" sys_id="WelfareView" functionid="2035,2043,2044,2011,2012,2030,2031,2019,2027,2024" show="1" type="0" hide="1" sort="3" icon="10002"/>
+		<btn btn_id="103" name="成长基金" sys_id="GrowthCapitalWnd" functionid="2011" show="1" type="0" hide="1" sort="4" icon="2011"/>
+		<btn btn_id="104" name="直升一阶" sys_id="MountupView" functionid="2026" show="1" type="0" hide="1" sort="5" effect="1" icon="2026" tiemhidden="1"/>
+		<btn btn_id="105" name="每日充值" sys_id="FirstimpulsedayView" functionid="2034" show="1" type="0" hide="1" sort="6" effect="1" icon="2034"/>
+		<btn btn_id="200" name="节日大厅（临时）" sys_id="FestivalHallView" functionid="100000" show="1" type="0" hide="1" sort="8" icon="20001"/>
+		<btn btn_id="201" name="寻宝" sys_id="TreasureHuntView" functionid="2052" show="1" type="0" hide="1" sort="8" icon="2052"/>
+		<btn btn_id="217" name="寻星" sys_id="StarSearchView" functionid="6669" show="1" type="0" hide="1" sort="9" effect="1" icon="6669"/>
+		<btn btn_id="202" name="BOSS挑战" sys_id="BossChallengeView" functionid="2045" show="1" type="0" hide="1" sort="9" icon="2045"/>
+		<btn btn_id="209" name="每日特惠" sys_id="DayPreferentialView" show="1" type="0" hide="1" sort="1" effect="1" icon="10010"/>
+		<btn btn_id="203" name="招财猫" sys_id="FortuneCatView" functionid="2070" show="1" type="0" hide="1" sort="9" effect="1" icon="2070"/>
+		<btn btn_id="204" name="在线客服" sys_id="ClientService" show="1" type="0" hide="1" sort="1" icon="10007"/>
+       	<btn btn_id="205" name="限时抢购" sys_id="ShoppingLimitView" functionid="2060" show="1" type="0" hide="1" sort="10" effect="1" icon="2060" tiemhidden="1"/>
+		<btn btn_id="206" name="平台VIP特权礼包" sys_id="PlatformVipView" functionid="6001" show="1" type="0" hide="1" sort="10" effect="1" icon="6001"/>
+		<btn btn_id="211" name="兴趣部落" sys_id="url" pfId="2" functionid="6003" show="1" type="3" hide="1" sort="10" effect="1" icon="6003" url=""/>
+      	<btn btn_id="207" name="分享有礼" sys_id="ShareView" functionid="6002" show="1" type="0" hide="" sort="" effect="1" icon="10011" url="http://wap.xy.com/login?gid=48"/>
+        <btn btn_id="208" name="收藏有礼" sys_id="SaveToDesktopView" show="1" type="0" hide="1" sort="11" effect="0" icon="10009" tiemhidden="1"/>
+        <btn btn_id="209" name="微端奖励" sys_id="SmallClientRewardView" show="1" type="0" hide="1" sort="11" effect="0" icon="10009" tiemhidden="1"/>
+        <btn btn_id="210" name="平台特权礼包" sys_id="PlatformPackageView" show="1" type="0" hide="1" sort="11" effect="0" icon="10009" tiemhidden="1"/>
+        <btn btn_id="212" name="电竞特权" sys_id="PlatformPackageView10002" show="1" type="0" hide="1" sort="11" effect="0" icon="icon_qiedianjing" />
+        <btn btn_id="213" name="心悦特权" sys_id="PlatformPackageView10001" show="1" type="0" hide="1" sort="11" effect="0" icon="icon_xinyue" />	
+        <btn btn_id="214" name="腾讯视频（安卓）" sys_id="TenXunMovieView100001" show="1" type="0" hide="1" sort="11" effect="1" icon="icon_txsp" />
+        <btn btn_id="215" name="腾讯视频（iOS）" sys_id="TenXunMovieView100002" show="1" type="0" hide="1" sort="11" effect="1" icon="icon_gdjc" />
+		<btn btn_id="216" name="宝图" sys_id="TasktreasureView" functionid="2101" show="1" type="0" hide="1" sort="9" effect="1" icon="2101"/>
+		<btn btn_id="217" name="空间背景" sys_id="WanBaCoverView" show="1" type="0" hide="1" sort="11" effect="0" icon="10012" />
+		<btn btn_id="218" name="QQ会员" sys_id="WanBaQQMemberView" show="1" type="0" hide="1" sort="11" effect="0" icon="10014" />
+		<btn btn_id="219" name="微端有礼" sys_id="DownloadMicroView" show="1" type="0" hide="1" sort="11" effect="0" icon="10015" />
+		<btn btn_id="220" name="视频礼包" sys_id="WanBaVideoGiftView" show="1" type="0" hide="1" sort="11" effect="0" icon="10016" />	
+		<btn btn_id="221" name="黄钻礼包" sys_id="WanBaYellowDiamonView" show="1" type="0" hide="1" sort="11" effect="0" icon="10017" />
+		<btn btn_id="222" name="红包活动" sys_id="" time="2019-04-28 00:00:00,2019-05-02 00:00:00" functionid="" show="1" type="0" hide="" sort="" effect="1" icon="10019" url="https://mobile.qzone.qq.com/l?g=7579"/>		
+		<btn btn_id="223" name="回馈礼包" sys_id="FeedbackPackageView" functionid="2075" show="1" type="0" hide="1" sort="10" effect="1" icon="2075" tiemhidden="1"/>
+		<btn btn_id="224" name="神宠转盘" sys_id="TurntablePetView" functionid="6687" show="1" type="0" hide="1" sort="9" effect="1" icon="6687"/>	
+	</part>
+	
+	<!--左下第2栏-->
+	<part part="2">
+		<btn btn_id="205" name="战力翻倍" sys_id="PowerDoubleView" functionid="2048" show="1" type="0" hide="1" sort="1" effect="1" icon="2048"/>
+		<btn btn_id="204" name="三倍首充" sys_id="FirstimpulsethreeView" functionid="2062" show="1" type="0" hide="1" sort="2" effect="1" icon="2062"/>
+		<btn btn_id="201" name="首充" sys_id="LuckdrawView" functionid="2033" show="1" type="0" hide="1" sort="2" effect="1" icon="2033"/>
+		<btn btn_id="206" name="七日登录" sys_id="QiridengluGView" functionid="2014" show="1" type="0" hide="1" sort="2" effect="1" icon="2014_1"/>
+		<btn btn_id="106" name="月卡" sys_id="MonthCardView" functionid="2043" show="1" type="0" hide="1" sort="7" effect="1" icon="2043"/>
+		<btn btn_id="207" name="终身卡" sys_id="LifeLongView" functionid="2066" show="1" type="0" hide="1" sort="7" effect="1" icon="2066"/>
+		<btn btn_id="208" name="周卡" sys_id="WeekCardView" functionid="2044" show="1" type="0" hide="1" sort="7" effect="1" icon="2044"/>
+		<btn btn_id="202" name="背包" sys_id="BagView" show="1" type="0" hide="1" sort="4" icon="10001"/>
+		<btn btn_id="203" name="日常" sys_id="EverydayActivityWnd" functionid="2059,1034,2003" show="1" type="0" hide="1" sort="5" icon="10004"/>
+	</part>
+	<!--右下更多栏-->
+	<part part="3">
+		<btn btn_id="307" name="招募" sys_id="PartnerRecruitView" functionid="2005" show="1" type="1" hide="1" sprt="1" icon="2005"/>
+		<btn btn_id="301" name="好友" sys_id="FriendsWnd" functionid="2051" show="1" type="1" hide="1" sprt="1" icon="2051"/>
+		<btn btn_id="302" name="排行榜" sys_id="RankView" functionid="2050" show="1" type="1" hide="1" sprt="1" icon="2050"/>
+		<btn btn_id="303" name="邮件" sys_id="MailWnd" functionid="2002" show="1" type="1" hide="1" sprt="1" icon="2002"/>
+		<btn btn_id="304" name="伙伴分解" sys_id="PartnerResolveView" functionid="3004" show="1" type="1" hide="1" sprt="1" icon="3004"/>
+		<btn btn_id="305" name="商店" sys_id="ShopView" functionid="2004" show="1" type="1" hide="1" sprt="1" icon="2004"/>
+		<btn btn_id="306" name="帮会" sys_id="GangView" functionid="2041" show="1" type="1" hide="1" sprt="1" icon="2041"/>
+		<btn btn_id="308" name="系统设置" sys_id="SystemSettingView" functionid="2028" show="1" type="1" hide="1" sprt="1" icon="2028"/>
+		<btn btn_id="309" name="图鉴" sys_id="PictureView" functionid="2102" show="1" type="1" hide="1" sprt="1" icon="2102"/>
+		<btn btn_id="310" name="合成" sys_id="SynthetizeView" functionid="2337" show="1" type="1" hide="1" sprt="1" icon="2337"/>
+	</part>
+</root>

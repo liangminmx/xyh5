@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!--
+type	=1，单服界域大战
+=2，单平台跨服界域大战
+openlev	开放等级
+deathscore	死亡获得积分
+rewardscore	奖励所需积分
+item	展览奖励物品
+monenybuff	元宝复活buff
+normal_days	表示周几举办活动，支持多个“，”
+0=周天、1=周1、6=周六
+openday	表示开服多少天后开启
+relive_cooltime	复活弹出窗，倒数时间，单位秒
+sceneid	地图id
+bossscore	击杀BOSS玩家所获积分
+winscore	胜利团队玩家所获积分
+killscore	击杀玩家基础积分
+rankmailid	积分排名奖励邮件ID
+level	界域等级（只有跨服才生效）
+buff	buffid（只有跨服才生效）
+camp	阵营, =1女娲阵营 =2无间门阵营
+posx	复活点X轴
+posy	复活点Y轴
+radius	半径
+rank	排名
+item	排名奖励道具
+num	数量
+bind	是否绑定，=1绑定 =0不绑定
+number	元宝复活次数
+money	复活所需元宝
+item	阵营集体奖励
+num	数量
+bind	是否绑定，=1绑定 =0不绑定
+mailid	邮件id 
+bossid	怪物id
+camp	怪物阵营, =1女娲阵营 =2无间门阵营
+posx	BOSS所在位置X轴
+posy	BOSS所在位置Y轴
+killing	连杀次数
+score	连杀奖励积分
+desc	连杀公告文本
+closeday  单服活动关闭时间，距离开服后第X天关闭
+
+-->
+	<world_contend openlev="55" begin_time="20:00:00" end_time="21:00:00" normal_days="1,4" interval_day="1,5" stop_time="6"  combined_normal_days="1,4" combined_inerval_day="1,5"  combined_stop_time="6" closeday="6" combined_closeday="6" type="1" relive_cool_time="10" sceneid="6002" bossscore="100" winscore="30" deathscore="10" rewardscore="50" item="100001,100001,100001" monenybuff="2401" killscore="20" rankmailid="24" text="如天道所预言，女娲阵营与无间门阵营开始了全面对立，为了争夺更多气运，双方在三界的众多大世界展开了激烈的争夺。为了征服一方大世界，双方不惜爆发仙人间的战争和杀戮，这就是界域战争！">
+		<money number="1" money="10"/>
+		<money number="2" money="20"/>
+		<money number="3" money="40"/>
+		<money number="4" money="80"/>
+		<money number="5" money="160"/>
+		<money number="6" money="320"/>
+		<money number="7" money="640"/>
+		<money number="8" money="1280"/>
+		<revive camp="1">
+			<pos posx="33" posy="43"/>
+			<pos posx="19" posy="125"/>
+			<pos posx="33" posy="205"/>
+		</revive>
+		<revive camp="2">
+			<pos posx="128" posy="205"/>
+			<pos posx="143" posy="123"/>
+			<pos posx="128" posy="42"/>
+		</revive>
+		<rankreward rank="1" item="100001" num="1" bind="1"/>
+		<rankreward rank="2" item="100001" num="1" bind="1"/>
+		<rankreward rank="3" item="100001" num="1" bind="1"/>
+		<rankreward rank="4" item="100001" num="1" bind="1"/>
+		<rankreward rank="5" item="100001" num="1" bind="1"/>
+		<rankreward rank="6" item="100001" num="1" bind="1"/>
+		<rankreward rank="7" item="100001" num="1" bind="1"/>
+		<rankreward rank="8" item="100001" num="1" bind="1"/>
+		<rankreward rank="9" item="100001" num="1" bind="1"/>
+		<rankreward rank="10" item="100001" num="1" bind="1"/>
+		<win item="100001" num="1" bind="1" mailid="22"/>
+		<lose item="100001" num="1" bind="1" mailid="23"/>
+		<monster bossid="502301" camp="1" posx="76" posy="119" refreshtime="300"/>
+		<monster bossid="502302" camp="2" posx="89" posy="119" refreshtime="300"/>
+		<kill killing="5" score="20" desc="#value1#已达到5连杀,奖励20积分"/>
+		<kill killing="10" score="40" desc="#value1#已达到10连杀,奖励40积分"/>
+		<kill killing="15" score="60" desc="#value1#已达到15连杀,奖励60积分"/>
+		<kill killing="20" score="80" desc="#value1#已达到20连杀,奖励80积分"/>
+		<kill killing="30" score="100" desc="#value1#已达到30连杀,奖励100积分"/>
+	</world_contend>
+</root>

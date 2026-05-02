@@ -1,0 +1,536 @@
+/*@font-face
+{
+	font-family : "myfont";
+	src : url("bitmapFont/myfont.TTF");
+}*/
+body{
+	text-align: center;
+	-webkit-user-select: none;
+}
+.sevicer{
+	z-index: 5;
+    position: absolute;
+    width: 750px;
+    height: 1334px;
+    display: none;
+	top: 0px;
+	left: 0px;
+}
+.customerservice{
+	z-index: 5;
+    position: absolute;
+    width: 750px;
+    height: 1334px;
+    display: none;
+	top: 0px;
+	left: 0px;
+}
+.panel-msk{
+	z-index: -1;
+    position: absolute;
+    width: 750px;
+    height: 1334px;
+    background-color: rgba(0,0,0,0.5);
+	top: 0px;
+	left: 0px;
+}
+.s-panel{
+	position: absolute;
+    width: 680px;
+    height: 949px;
+    left: 35px;
+    top: 192px;
+    background: url(comp/loading/bg_login_window.png) no-repeat;
+    font-size: 20;
+}
+.s-panel-cs{
+	position: absolute;
+    width: 680px;
+    height: 1125px;
+    left: 35px;
+    top: 104px;
+    background: url(comp/loading/bg_cs_window.png) no-repeat;
+    font-size: 20;
+}
+.s-panel-cs2{
+	position: absolute;
+    width: 680px;
+    height: 1125px;
+    left: 0px;
+    top: 300px;
+}
+.panel-title{
+	width: 666px;
+    height: 80px;
+    line-height: 80px;
+    color: #d7dbde;
+    font-size: 43;
+}
+.s-panel-left{
+	position: absolute;
+	width: 153px;
+	height: 400px;
+	top: 92px;
+	left: 3px;
+}
+.s-panel-left ul{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	overflow-y: auto;
+	margin: 0;
+	padding-left: 0;
+}
+.s-panel-left ul li{
+	display: list-item;
+	width: 153px;
+	height: 109px;
+	left: 2px;
+	line-height: 109px;
+	background: url(preloading/tab_login_unselect.png) no-repeat;
+	color: white;
+	font-size: 26;
+	list-style: none;
+}
+.s-panel-right{
+	position: absolute;
+	width: 500px;
+	height: 760px;
+	top: 92px;
+	left: 191px;
+}
+.s-panel-right-top{
+	width: 500px;
+	height: 45px;
+}
+.s-panel-right-top-imgL{
+	position: absolute;
+	left: 10px;
+	transform:rotate(180deg);
+	-ms-transform:rotate(180deg); 	/* IE 9 */
+	-moz-transform:rotate(180deg); 	/* Firefox */
+	-webkit-transform:rotate(180deg); /* Safari �� Chrome */
+	-o-transform:rotate(180deg); 	/* Opera */
+	top: 18px;
+}
+.s-panel-right-top-imgR{
+	position: absolute;
+	left: 340px;
+	top: 18px;
+}
+.s-panel-right-title{
+	position: absolute;
+	left: 170px;
+	width: 170px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 28;
+	color: #feda90;
+}
+.sevice-group-list{
+	width: 480px;
+	height: 756px;
+	overflow:hidden;
+	margin-left: 10;
+}
+.sevice-group-list ul{
+	width: 500px;
+	height: 100%;
+	text-align: center;
+	overflow-y: auto;
+	margin: 0;
+	padding-left: 0;
+}
+.sevice-group-list ul li{
+	width: 182px;
+	height: 84px;
+	background: url(comp/loading/img_btn_1.png) no-repeat;
+	list-style: none;
+}
+.serice-group-item-txt-name{
+	float: left;
+	width: 160px;
+	height: 30px;
+	line-height: 82px;
+	font-size: 26;
+	margin-left: 10px;
+	color: #7F4B20;
+}
+.sevice-list{
+	width: 480px;
+	height: 756px;
+	overflow:hidden;
+	margin-left: 10;
+}
+.sevice-list ul{
+	width: 500px;
+	height: 100%;
+	text-align: center;
+	overflow-y: auto;
+	margin: 0;
+	padding-left: 0;
+}
+.sevice-list ul li{
+	width: 462px;
+	height: 84px;
+	background: url(comp/loading/img_btn_11.png) no-repeat;
+	list-style: none;
+}
+.serice-item-icon{
+	float: left;
+	margin-left: 0px;
+	width: 60px;
+	height: 60px;
+	margin-top: 0px;
+}
+.serice-item-txt-num{
+	float: left;
+	width: 120px;
+	height: 30px;
+	font-size: 30;
+	line-height: 82px;
+	margin-left: 0px;
+}
+.serice-item-txt-name{
+	float: left;
+	width: 360px;
+	height: 30px;
+	line-height: 82px;
+	font-size: 26;
+	margin-left: 0px;
+	color: #7F4B20;
+}
+.serice-item-txt-state{
+	float: left;
+	width: 90px;
+	height: 30px;
+	line-height: 82px;
+	font-size: 30;
+	margin-left: 30px;
+}
+.near-login{
+	margin-top: 12px;
+	width: 600px;
+	height: 32px;
+}
+.near-login-title{
+	float: left;
+	width: 85px;
+	line-height: 32px;
+	font-size: 21;
+	margin-left: 83px;
+	color: #FFFFFF;
+}
+.near-login-icon{
+	float: left;
+	margin-left: 15px;
+	margin-top: 5px;
+}
+.near-login-num{
+	float: left;
+	width: 85px;
+	line-height: 32px;
+	font-size: 21;
+	color: #FFFFFF;
+}
+.near-login-name{
+	float: left;
+	width: 220px;
+	line-height: 32px;
+	font-size: 21;
+	color: #FFFFFF;
+}
+.s-panel-bottom{
+	position: absolute;
+	top: 505px;
+	left: 0px;
+	width: 750px;
+	height: 43px;
+}
+.s-panel-bottom ul{
+	width: 100%;
+	height: 100%;
+}
+.s-panel-bottom ul li{
+	float: left;
+	list-style: none;
+	margin-right: 90;
+	width: 83px;
+}
+.bottom-icon{
+	float: left;
+	margin-top: 13px;
+}
+.bottom-name{
+	float: left;
+	font-size: 26;
+	line-height: 43px;
+	margin-left: 10px;
+}
+.game-msg-new{
+	position: absolute;
+	width: 318px;
+	height: 40px;
+	left: 217px;
+	top: 904px;
+	display: none;
+}
+.game-msg-new-bg{
+	position: absolute;
+	width: 318px;
+	height: 40px;
+	left: 0px;
+	top: 0px;
+}
+.game-msg-new-content{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.game-msg-txt-new-state{
+	float: left;
+	width: 120px;
+	height: 67px;
+	line-height: 42px;
+	font-size: 24;
+	margin-left: 10px;
+}
+.game-msg-txt-new-name{
+	text-align:left;
+	float: left;
+	width: 160px;
+	height: 67px;
+	line-height: 42px;
+	font-size: 24;
+	margin-left: 15px;
+}
+.game-msg{
+	position: absolute;
+	width: 600px;
+	height: 67px;
+	left: 109px;
+	top: 980px;
+	display: none;
+}
+.game-msg-bg{
+	position: absolute;
+	width: 532px;
+	height: 44px;
+	left: 0px;
+	top: 0px;
+}
+.game-msg-content{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.game-msg-icon{
+	float: left;
+	margin-left: 30px;
+	width: 41px;
+	height: 65px;
+	margin-top: 0px;
+}
+.game-msg-divide{
+	float: left;
+	margin-left: 15px;
+	width: 1px;
+	height: 35px;
+	margin-top: 6px;
+}
+.game-msg-txt-num{
+	float: left;
+	width: 150px;
+	height: 67px;
+	line-height: 67px;
+	font-size: 30;
+	margin-left: 8px;
+}
+.game-msg-txt-name{
+	text-align:left;
+	float: left;
+	width: 160px;
+	height: 67px;
+	line-height: 42px;
+	font-size: 24;
+	margin-left: 15px;
+}
+.game-msg-txt-state{
+	float: left;
+	width: 120px;
+	height: 67px;
+	line-height: 42px;
+	font-size: 24;
+	margin-left: 10px;
+}
+.game-msg-txt-click{
+	float: left;
+	width: 10px;
+	height: 67px;
+	line-height: 67px;
+	font-size: 30;
+	margin-left: 75px;
+}
+.game-msg-click{
+	float: left;
+	margin-left: 15px;
+	width: 110px;
+	height: 31px;
+	margin-top: 6px;
+}
+.btn-login{
+	position: absolute;
+	left: 206px;
+	top: 1059px;
+	display: none;
+}
+.icon-announcement{
+	position: absolute;
+    width: 115px;
+    height: 103px;
+	left: 21px;
+	top: 21px;
+}
+.announcement{
+	z-index: 5;
+    position: absolute;
+    width: 750px;
+    height: 1334px;
+    background-color: rgba(0,0,0,0.5);
+    display: none;
+}
+.ann-panel{
+	position: absolute;
+    width: 720px;
+    height: 575px;
+    left: 24;
+    top: 29%;
+    background: url(comp/common/window_1.png) no-repeat;
+    font-size: 20;
+}
+.ann-title{
+	width: 666px;
+    height: 90px;
+    line-height: 90px;
+    color: white;
+    font-size: 43;
+    color: #d7dbde;
+}
+.ann-content-title{
+	width: 646px;
+    margin-left: 10px;
+    color: white;
+    font-size: 28;
+    color: #d7dbde;
+    line-height: 35px;
+}
+.ann-content-parent
+{
+	width: 646px;
+	height: 280px;
+    margin-left: 20px;
+    overflow: hidden;
+}
+.ann-content{
+	text-align: left;
+	width: 646px;
+	height: 100%;
+    color: white;
+    font-size: 28;
+    color: #d7dbde;
+    line-height: 35px;
+    overflow-y: auto;
+}
+.log-panel{
+	z-index: 999;
+    position: absolute;
+    width: 768px;
+    height: 1200px;
+    top: 80px;
+    color: #FFFFFF;
+    pointer-events: none;
+    text-align: left;
+}
+.game-roles{
+	position: absolute;
+	width: 627px;
+	height: 67px;
+	left: 70px;
+	top: 900px;
+	display: none;
+}
+.game-roles-txt-title{
+	float: left;
+	width: 130px;
+	height: 67px;
+	line-height: 67px;
+	font-size: 30;
+	margin-left: 30px;
+}
+.game-roles-txt-lv{
+	float: left;
+	width: 80px;
+	height: 67px;
+	line-height: 67px;
+	font-size: 30;
+	margin-left: 40px;
+}
+.game-roles-txt-name{
+	float: left;
+	width: 270px;
+	height: 67px;
+	line-height: 67px;
+	font-size: 30;
+	margin-left: 0px;
+}
+.game-roles-txt-change{
+	float: left;
+	width: 10px;
+	height: 67px;
+	line-height: 67px;
+	font-size: 30;
+	margin-left: 20px;
+}
+.role-item-txt-server{
+	float: left;
+	width: 170px;
+	height: 30px;
+	font-size: 30;
+	line-height: 82px;
+	margin-left: 0px;
+}
+.role-item-txt-name{
+	float: left;
+	width: 210px;
+	height: 30px;
+	line-height: 82px;
+	font-size: 30;
+	margin-left: 0px;
+}
+.role-item-txt-lv{
+	float: left;
+	width: 100px;
+	height: 30px;
+	line-height: 82px;
+	font-size: 30;
+	margin-left: 0px;
+}
+.qrcode_inner{
+    position: absolute;
+    width:612px;
+    height:601px;
+    margin-left:69px;
+    margin-top:366px;
+    pointer-events:auto;
+}
+.qrcode_img{
+    position:absolute;
+    width: 612px;
+    height: 601px;
+    left: 69px
+}
+.qrcode_css{
+    position:absolute;
+    margin-left: 262px;
+    margin-top:212px
+}

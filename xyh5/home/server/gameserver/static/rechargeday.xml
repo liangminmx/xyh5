@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+functionid	每日累计充值开启ID			
+advertisement	广告语资源ID			
+openday	开服第X天开始			
+begintime	开始时间（格式XX：XX:XX）时：分：秒			
+endtime	结束时间（格式XX：XX:XX）时：分：秒			
+matchesid	场次标识ID			
+lastmatchesid	下一场次标识ID（等于当前matchesid，代表一直循环该场，填0代表不循环）			
+money	需要充值对应金额才可领取			
+item	道具ID			
+num	道具数量			
+bind	是否绑定（绑定=1）			
+time	过期时间（格式XX-XX-XX）填0无时限			
+	
+		
+		
+	
+
+
+
+
+-->
+	<server serverNum="-1">
+		<pro functionid="2037" advertisement="" openday="1" begin_time="00:00:00" end_time="23:59:59" firstmatchesid="1" mailid="1011001"/>
+		<time matchesid="1" lastmatchesid="1">
+			<type type="1" money="10">
+				<item item="10000009" num="5" bind="1" time="0"/>
+				<item item="16010013" num="2" bind="1" time="0"/>
+				<item item="10000006" num="10" bind="1" time="0"/>
+			</type>
+			<type type="2" money="20">
+				<item item="10000009" num="10" bind="1" time="0"/>
+				<item item="16010013" num="3" bind="1" time="0"/>
+				<item item="10000006" num="20" bind="1" time="0"/>
+				<item item="10000008" num="500" bind="1" time="0"/>
+			</type>
+			<type type="3" money="50">
+				<item item="10000009" num="30" bind="1" time="0"/>
+				<item item="16010013" num="5" bind="1" time="0"/>
+				<item item="10000006" num="30" bind="1" time="0"/>
+				<item item="10000008" num="1000" bind="1" time="0"/>
+			</type>
+			<type type="4" money="100">
+				<item item="10000009" num="50" bind="1" time="0"/>
+				<item item="16010013" num="8" bind="1" time="0"/>
+				<item item="10000006" num="50" bind="1" time="0"/>
+				<item item="10000008" num="1600" bind="1" time="0"/>
+				<item item="16010038" num="1" bind="1" time="0"/>
+			</type>
+			<type type="5" money="200">
+				<item item="10000009" num="100" bind="1" time="0"/>
+				<item item="16010013" num="12" bind="1" time="0"/>
+				<item item="10000006" num="80" bind="1" time="0"/>
+				<item item="10000008" num="2400" bind="1" time="0"/>
+				<item item="16010038" num="2" bind="1" time="0"/>
+			</type>
+			<type type="6" money="500">
+				<item item="10000009" num="300" bind="1" time="0"/>
+				<item item="16010013" num="20" bind="1" time="0"/>
+				<item item="10000006" num="120" bind="1" time="0"/>
+				<item item="10000008" num="3500" bind="1" time="0"/>
+				<item item="16010038" num="3" bind="1" time="0"/>
+			</type>
+			<type type="7" money="1000">
+				<item item="10000009" num="500" bind="1" time="0"/>
+				<item item="16010013" num="35" bind="1" time="0"/>
+				<item item="10000006" num="160" bind="1" time="0"/>
+				<item item="10000008" num="6000" bind="1" time="0"/>
+				<item item="16010039" num="1" bind="1" time="0"/>
+			</type>
+			<type type="8" money="2000">
+				<item item="10000009" num="1000" bind="1" time="0"/>
+				<item item="16010013" num="60" bind="1" time="0"/>
+				<item item="10000006" num="200" bind="1" time="0"/>
+				<item item="10000008" num="10000" bind="1" time="0"/>
+				<item item="16010039" num="2" bind="1" time="0"/>
+			</type>
+		</time>
+	</server>
+	<server serverNum="0">
+		<pro functionid="2037" advertisement="" openday="1" begin_time="00:00:00" end_time="23:59:59" firstmatchesid="1" mailid="1011001"/>
+		<time matchesid="1" lastmatchesid="2">
+			<type type="1" money="10">
+				<item item="14010201" num="5" bind="1" time="0"/>
+				<item item="14010101" num="1" bind="1" time="0"/>
+				<item item="16010001" num="1" bind="1" time="0"/>
+			</type>
+			<type type="2" money="20">
+				<item item="14010201" num="10" bind="1" time="0"/>
+				<item item="14010101" num="3" bind="1" time="0"/>
+				<item item="16010001" num="2" bind="1" time="0"/>
+				<item item="10000004" num="2" bind="1" time="0"/>
+			</type>
+			<type type="3" money="50">
+				<item item="14010201" num="30" bind="1" time="0"/>
+				<item item="14010101" num="6" bind="1" time="0"/>
+				<item item="16010001" num="3" bind="1" time="0"/>
+				<item item="10000004" num="3" bind="1" time="0"/>
+				<item item="10000007" num="500" bind="1" time="0"/>
+			</type>
+			<type type="4" money="100">
+				<item item="14010201" num="50" bind="1" time="0"/>
+				<item item="14010101" num="10" bind="1" time="0"/>
+				<item item="14010001" num="2" bind="1" time="0"/>
+				<item item="16010001" num="6" bind="1" time="0"/>
+				<item item="10000004" num="5" bind="1" time="0"/>
+				<item item="10000007" num="1000" bind="1" time="0"/>
+			</type>
+			<type type="5" money="200">
+				<item item="14010201" num="100" bind="1" time="0"/>
+				<item item="14010101" num="20" bind="1" time="0"/>
+				<item item="14010001" num="5" bind="1" time="0"/>
+				<item item="16010001" num="10" bind="1" time="0"/>
+				<item item="10000004" num="8" bind="1" time="0"/>
+				<item item="10000007" num="2000" bind="1" time="0"/>
+			</type>
+			<type type="6" money="500">
+				<item item="14010201" num="300" bind="1" time="0"/>
+				<item item="14010101" num="35" bind="1" time="0"/>
+				<item item="14010001" num="10" bind="1" time="0"/>
+				<item item="16010001" num="20" bind="1" time="0"/>
+				<item item="10000004" num="12" bind="1" time="0"/>
+				<item item="10000007" num="3500" bind="1" time="0"/>
+			</type>
+			<type type="7" money="1000">
+				<item item="14010201" num="500" bind="1" time="0"/>
+				<item item="14010101" num="60" bind="1" time="0"/>
+				<item item="14010001" num="20" bind="1" time="0"/>
+				<item item="16010001" num="35" bind="1" time="0"/>
+				<item item="10000004" num="20" bind="1" time="0"/>
+				<item item="10000007" num="5500" bind="1" time="0"/>
+			</type>
+			<type type="8" money="2000">
+				<item item="14010201" num="1000" bind="1" time="0"/>
+				<item item="14010101" num="100" bind="1" time="0"/>
+				<item item="14010001" num="35" bind="1" time="0"/>
+				<item item="16010001" num="60" bind="1" time="0"/>
+				<item item="10000004" num="35" bind="1" time="0"/>
+				<item item="10000007" num="8000" bind="1" time="0"/>
+			</type>
+		</time>
+		<time matchesid="2" lastmatchesid="3">
+			<type type="1" money="10">
+				<item item="14030201" num="5" bind="1" time="0"/>
+				<item item="14030101" num="1" bind="1" time="0"/>
+				<item item="16010001" num="1" bind="1" time="0"/>
+			</type>
+			<type type="2" money="20">
+				<item item="14030201" num="10" bind="1" time="0"/>
+				<item item="14030101" num="3" bind="1" time="0"/>
+				<item item="16010001" num="2" bind="1" time="0"/>
+				<item item="10000004" num="2" bind="1" time="0"/>
+			</type>
+			<type type="3" money="50">
+				<item item="14030201" num="30" bind="1" time="0"/>
+				<item item="14030101" num="6" bind="1" time="0"/>
+				<item item="16010001" num="3" bind="1" time="0"/>
+				<item item="10000004" num="3" bind="1" time="0"/>
+				<item item="10000007" num="500" bind="1" time="0"/>
+			</type>
+			<type type="4" money="100">
+				<item item="14030201" num="50" bind="1" time="0"/>
+				<item item="14030101" num="10" bind="1" time="0"/>
+				<item item="14030001" num="2" bind="1" time="0"/>
+				<item item="16010001" num="6" bind="1" time="0"/>
+				<item item="10000004" num="5" bind="1" time="0"/>
+				<item item="10000007" num="1000" bind="1" time="0"/>
+			</type>
+			<type type="5" money="200">
+				<item item="14030201" num="100" bind="1" time="0"/>
+				<item item="14030101" num="20" bind="1" time="0"/>
+				<item item="14030001" num="5" bind="1" time="0"/>
+				<item item="16010001" num="10" bind="1" time="0"/>
+				<item item="10000004" num="8" bind="1" time="0"/>
+				<item item="10000007" num="2000" bind="1" time="0"/>
+			</type>
+			<type type="6" money="500">
+				<item item="14030201" num="300" bind="1" time="0"/>
+				<item item="14030101" num="35" bind="1" time="0"/>
+				<item item="14030001" num="10" bind="1" time="0"/>
+				<item item="16010001" num="20" bind="1" time="0"/>
+				<item item="10000004" num="12" bind="1" time="0"/>
+				<item item="10000007" num="3500" bind="1" time="0"/>
+			</type>
+			<type type="7" money="1000">
+				<item item="14030201" num="500" bind="1" time="0"/>
+				<item item="14030101" num="60" bind="1" time="0"/>
+				<item item="14030001" num="20" bind="1" time="0"/>
+				<item item="16010001" num="35" bind="1" time="0"/>
+				<item item="10000004" num="20" bind="1" time="0"/>
+				<item item="10000007" num="5500" bind="1" time="0"/>
+			</type>
+			<type type="8" money="2000">
+				<item item="14030201" num="1000" bind="1" time="0"/>
+				<item item="14030101" num="100" bind="1" time="0"/>
+				<item item="14030001" num="35" bind="1" time="0"/>
+				<item item="16010001" num="60" bind="1" time="0"/>
+				<item item="10000004" num="35" bind="1" time="0"/>
+				<item item="10000007" num="8000" bind="1" time="0"/>
+			</type>
+		</time>
+		<time matchesid="3" lastmatchesid="4">
+			<type type="1" money="10">
+				<item item="14050201" num="5" bind="1" time="0"/>
+				<item item="14050101" num="1" bind="1" time="0"/>
+				<item item="16010001" num="1" bind="1" time="0"/>
+			</type>
+			<type type="2" money="20">
+				<item item="14050201" num="10" bind="1" time="0"/>
+				<item item="14050101" num="3" bind="1" time="0"/>
+				<item item="16010001" num="2" bind="1" time="0"/>
+				<item item="10000004" num="2" bind="1" time="0"/>
+			</type>
+			<type type="3" money="50">
+				<item item="14050201" num="30" bind="1" time="0"/>
+				<item item="14050101" num="6" bind="1" time="0"/>
+				<item item="16010001" num="3" bind="1" time="0"/>
+				<item item="10000004" num="3" bind="1" time="0"/>
+				<item item="10000007" num="500" bind="1" time="0"/>
+			</type>
+			<type type="4" money="100">
+				<item item="14050201" num="50" bind="1" time="0"/>
+				<item item="14050101" num="10" bind="1" time="0"/>
+				<item item="14050001" num="2" bind="1" time="0"/>
+				<item item="16010001" num="6" bind="1" time="0"/>
+				<item item="10000004" num="5" bind="1" time="0"/>
+				<item item="10000007" num="1000" bind="1" time="0"/>
+			</type>
+			<type type="5" money="200">
+				<item item="14050201" num="100" bind="1" time="0"/>
+				<item item="14050101" num="20" bind="1" time="0"/>
+				<item item="14050001" num="5" bind="1" time="0"/>
+				<item item="16010001" num="10" bind="1" time="0"/>
+				<item item="10000004" num="8" bind="1" time="0"/>
+				<item item="10000007" num="2000" bind="1" time="0"/>
+			</type>
+			<type type="6" money="500">
+				<item item="14050201" num="300" bind="1" time="0"/>
+				<item item="14050101" num="35" bind="1" time="0"/>
+				<item item="14050001" num="10" bind="1" time="0"/>
+				<item item="16010001" num="20" bind="1" time="0"/>
+				<item item="10000004" num="12" bind="1" time="0"/>
+				<item item="10000007" num="3500" bind="1" time="0"/>
+			</type>
+			<type type="7" money="1000">
+				<item item="14050201" num="500" bind="1" time="0"/>
+				<item item="14050101" num="60" bind="1" time="0"/>
+				<item item="14050001" num="20" bind="1" time="0"/>
+				<item item="16010001" num="35" bind="1" time="0"/>
+				<item item="10000004" num="20" bind="1" time="0"/>
+				<item item="10000007" num="5500" bind="1" time="0"/>
+			</type>
+			<type type="8" money="2000">
+				<item item="14050201" num="1000" bind="1" time="0"/>
+				<item item="14050101" num="100" bind="1" time="0"/>
+				<item item="14050001" num="35" bind="1" time="0"/>
+				<item item="16010001" num="60" bind="1" time="0"/>
+				<item item="10000004" num="35" bind="1" time="0"/>
+				<item item="10000007" num="8000" bind="1" time="0"/>
+			</type>
+		</time>
+		<time matchesid="4" lastmatchesid="5">
+			<type type="1" money="10">
+				<item item="14040201" num="5" bind="1" time="0"/>
+				<item item="14040101" num="1" bind="1" time="0"/>
+				<item item="16010001" num="1" bind="1" time="0"/>
+			</type>
+			<type type="2" money="20">
+				<item item="14040201" num="10" bind="1" time="0"/>
+				<item item="14040101" num="3" bind="1" time="0"/>
+				<item item="16010001" num="2" bind="1" time="0"/>
+				<item item="10000004" num="2" bind="1" time="0"/>
+			</type>
+			<type type="3" money="50">
+				<item item="14040201" num="30" bind="1" time="0"/>
+				<item item="14040101" num="6" bind="1" time="0"/>
+				<item item="16010001" num="3" bind="1" time="0"/>
+				<item item="10000004" num="3" bind="1" time="0"/>
+				<item item="10000007" num="500" bind="1" time="0"/>
+			</type>
+			<type type="4" money="100">
+				<item item="14040201" num="50" bind="1" time="0"/>
+				<item item="14040101" num="10" bind="1" time="0"/>
+				<item item="14040001" num="2" bind="1" time="0"/>
+				<item item="16010001" num="6" bind="1" time="0"/>
+				<item item="10000004" num="5" bind="1" time="0"/>
+				<item item="10000007" num="1000" bind="1" time="0"/>
+			</type>
+			<type type="5" money="200">
+				<item item="14040201" num="100" bind="1" time="0"/>
+				<item item="14040101" num="20" bind="1" time="0"/>
+				<item item="14040001" num="5" bind="1" time="0"/>
+				<item item="16010001" num="10" bind="1" time="0"/>
+				<item item="10000004" num="8" bind="1" time="0"/>
+				<item item="10000007" num="2000" bind="1" time="0"/>
+			</type>
+			<type type="6" money="500">
+				<item item="14040201" num="300" bind="1" time="0"/>
+				<item item="14040101" num="35" bind="1" time="0"/>
+				<item item="14040001" num="10" bind="1" time="0"/>
+				<item item="16010001" num="20" bind="1" time="0"/>
+				<item item="10000004" num="12" bind="1" time="0"/>
+				<item item="10000007" num="3500" bind="1" time="0"/>
+			</type>
+			<type type="7" money="1000">
+				<item item="14040201" num="500" bind="1" time="0"/>
+				<item item="14040101" num="60" bind="1" time="0"/>
+				<item item="14040001" num="20" bind="1" time="0"/>
+				<item item="16010001" num="35" bind="1" time="0"/>
+				<item item="10000004" num="20" bind="1" time="0"/>
+				<item item="10000007" num="5500" bind="1" time="0"/>
+			</type>
+			<type type="8" money="2000">
+				<item item="14040201" num="1000" bind="1" time="0"/>
+				<item item="14040101" num="100" bind="1" time="0"/>
+				<item item="14040001" num="35" bind="1" time="0"/>
+				<item item="16010001" num="60" bind="1" time="0"/>
+				<item item="10000004" num="35" bind="1" time="0"/>
+				<item item="10000007" num="8000" bind="1" time="0"/>
+			</type>
+		</time>
+		<time matchesid="5" lastmatchesid="6">
+			<type type="1" money="10">
+				<item item="14020201" num="5" bind="1" time="0"/>
+				<item item="14020101" num="1" bind="1" time="0"/>
+				<item item="16010001" num="1" bind="1" time="0"/>
+			</type>
+			<type type="2" money="20">
+				<item item="14020201" num="10" bind="1" time="0"/>
+				<item item="14020101" num="3" bind="1" time="0"/>
+				<item item="16010001" num="2" bind="1" time="0"/>
+				<item item="10000004" num="2" bind="1" time="0"/>
+			</type>
+			<type type="3" money="50">
+				<item item="14020201" num="30" bind="1" time="0"/>
+				<item item="14020101" num="6" bind="1" time="0"/>
+				<item item="16010001" num="3" bind="1" time="0"/>
+				<item item="10000004" num="3" bind="1" time="0"/>
+				<item item="10000007" num="500" bind="1" time="0"/>
+			</type>
+			<type type="4" money="100">
+				<item item="14020201" num="50" bind="1" time="0"/>
+				<item item="14020101" num="10" bind="1" time="0"/>
+				<item item="14020001" num="2" bind="1" time="0"/>
+				<item item="16010001" num="6" bind="1" time="0"/>
+				<item item="10000004" num="5" bind="1" time="0"/>
+				<item item="10000007" num="1000" bind="1" time="0"/>
+			</type>
+			<type type="5" money="200">
+				<item item="14020201" num="100" bind="1" time="0"/>
+				<item item="14020101" num="20" bind="1" time="0"/>
+				<item item="14020001" num="5" bind="1" time="0"/>
+				<item item="16010001" num="10" bind="1" time="0"/>
+				<item item="10000004" num="8" bind="1" time="0"/>
+				<item item="10000007" num="2000" bind="1" time="0"/>
+			</type>
+			<type type="6" money="500">
+				<item item="14020201" num="300" bind="1" time="0"/>
+				<item item="14020101" num="35" bind="1" time="0"/>
+				<item item="14020001" num="10" bind="1" time="0"/>
+				<item item="16010001" num="20" bind="1" time="0"/>
+				<item item="10000004" num="12" bind="1" time="0"/>
+				<item item="10000007" num="3500" bind="1" time="0"/>
+			</type>
+			<type type="7" money="1000">
+				<item item="14020201" num="500" bind="1" time="0"/>
+				<item item="14020101" num="60" bind="1" time="0"/>
+				<item item="14020001" num="20" bind="1" time="0"/>
+				<item item="16010001" num="35" bind="1" time="0"/>
+				<item item="10000004" num="20" bind="1" time="0"/>
+				<item item="10000007" num="5500" bind="1" time="0"/>
+			</type>
+			<type type="8" money="2000">
+				<item item="14020201" num="1000" bind="1" time="0"/>
+				<item item="14020101" num="100" bind="1" time="0"/>
+				<item item="14020001" num="35" bind="1" time="0"/>
+				<item item="16010001" num="60" bind="1" time="0"/>
+				<item item="10000004" num="35" bind="1" time="0"/>
+				<item item="10000007" num="8000" bind="1" time="0"/>
+			</type>
+		</time>
+		<time matchesid="6" lastmatchesid="7">
+			<type type="1" money="10">
+				<item item="14070201" num="5" bind="1" time="0"/>
+				<item item="14070101" num="1" bind="1" time="0"/>
+				<item item="16010001" num="1" bind="1" time="0"/>
+			</type>
+			<type type="2" money="20">
+				<item item="14070201" num="10" bind="1" time="0"/>
+				<item item="14070101" num="3" bind="1" time="0"/>
+				<item item="16010001" num="2" bind="1" time="0"/>
+				<item item="10000004" num="2" bind="1" time="0"/>
+			</type>
+			<type type="3" money="50">
+				<item item="14070201" num="30" bind="1" time="0"/>
+				<item item="14070101" num="6" bind="1" time="0"/>
+				<item item="16010001" num="3" bind="1" time="0"/>
+				<item item="10000004" num="3" bind="1" time="0"/>
+				<item item="10000007" num="500" bind="1" time="0"/>
+			</type>
+			<type type="4" money="100">
+				<item item="14070201" num="50" bind="1" time="0"/>
+				<item item="14070101" num="10" bind="1" time="0"/>
+				<item item="14070001" num="2" bind="1" time="0"/>
+				<item item="16010001" num="6" bind="1" time="0"/>
+				<item item="10000004" num="5" bind="1" time="0"/>
+				<item item="10000007" num="1000" bind="1" time="0"/>
+			</type>
+			<type type="5" money="200">
+				<item item="14070201" num="100" bind="1" time="0"/>
+				<item item="14070101" num="20" bind="1" time="0"/>
+				<item item="14070001" num="5" bind="1" time="0"/>
+				<item item="16010001" num="10" bind="1" time="0"/>
+				<item item="10000004" num="8" bind="1" time="0"/>
+				<item item="10000007" num="2000" bind="1" time="0"/>
+			</type>
+			<type type="6" money="500">
+				<item item="14070201" num="300" bind="1" time="0"/>
+				<item item="14070101" num="35" bind="1" time="0"/>
+				<item item="14070001" num="10" bind="1" time="0"/>
+				<item item="16010001" num="20" bind="1" time="0"/>
+				<item item="10000004" num="12" bind="1" time="0"/>
+				<item item="10000007" num="3500" bind="1" time="0"/>
+			</type>
+			<type type="7" money="1000">
+				<item item="14070201" num="500" bind="1" time="0"/>
+				<item item="14070101" num="60" bind="1" time="0"/>
+				<item item="14070001" num="20" bind="1" time="0"/>
+				<item item="16010001" num="35" bind="1" time="0"/>
+				<item item="10000004" num="20" bind="1" time="0"/>
+				<item item="10000007" num="5500" bind="1" time="0"/>
+			</type>
+			<type type="8" money="2000">
+				<item item="14070201" num="1000" bind="1" time="0"/>
+				<item item="14070101" num="100" bind="1" time="0"/>
+				<item item="14070001" num="35" bind="1" time="0"/>
+				<item item="16010001" num="60" bind="1" time="0"/>
+				<item item="10000004" num="35" bind="1" time="0"/>
+				<item item="10000007" num="8000" bind="1" time="0"/>
+			</type>
+		</time>
+		<time matchesid="7" lastmatchesid="8">
+			<type type="1" money="10">
+				<item item="14080201" num="5" bind="1" time="0"/>
+				<item item="14080101" num="1" bind="1" time="0"/>
+				<item item="16010001" num="1" bind="1" time="0"/>
+			</type>
+			<type type="2" money="20">
+				<item item="14080201" num="10" bind="1" time="0"/>
+				<item item="14080101" num="3" bind="1" time="0"/>
+				<item item="16010001" num="2" bind="1" time="0"/>
+				<item item="10000004" num="2" bind="1" time="0"/>
+			</type>
+			<type type="3" money="50">
+				<item item="14080201" num="30" bind="1" time="0"/>
+				<item item="14080101" num="6" bind="1" time="0"/>
+				<item item="16010001" num="3" bind="1" time="0"/>
+				<item item="10000004" num="3" bind="1" time="0"/>
+				<item item="10000007" num="500" bind="1" time="0"/>
+			</type>
+			<type type="4" money="100">
+				<item item="14080201" num="50" bind="1" time="0"/>
+				<item item="14080101" num="10" bind="1" time="0"/>
+				<item item="14080001" num="2" bind="1" time="0"/>
+				<item item="16010001" num="6" bind="1" time="0"/>
+				<item item="10000004" num="5" bind="1" time="0"/>
+				<item item="10000007" num="1000" bind="1" time="0"/>
+			</type>
+			<type type="5" money="200">
+				<item item="14080201" num="100" bind="1" time="0"/>
+				<item item="14080101" num="20" bind="1" time="0"/>
+				<item item="14080001" num="5" bind="1" time="0"/>
+				<item item="16010001" num="10" bind="1" time="0"/>
+				<item item="10000004" num="8" bind="1" time="0"/>
+				<item item="10000007" num="2000" bind="1" time="0"/>
+			</type>
+			<type type="6" money="500">
+				<item item="14080201" num="300" bind="1" time="0"/>
+				<item item="14080101" num="35" bind="1" time="0"/>
+				<item item="14080001" num="10" bind="1" time="0"/>
+				<item item="16010001" num="20" bind="1" time="0"/>
+				<item item="10000004" num="12" bind="1" time="0"/>
+				<item item="10000007" num="3500" bind="1" time="0"/>
+			</type>
+			<type type="7" money="1000">
+				<item item="14080201" num="500" bind="1" time="0"/>
+				<item item="14080101" num="60" bind="1" time="0"/>
+				<item item="14080001" num="20" bind="1" time="0"/>
+				<item item="16010001" num="35" bind="1" time="0"/>
+				<item item="10000004" num="20" bind="1" time="0"/>
+				<item item="10000007" num="5500" bind="1" time="0"/>
+			</type>
+			<type type="8" money="2000">
+				<item item="14080201" num="1000" bind="1" time="0"/>
+				<item item="14080101" num="100" bind="1" time="0"/>
+				<item item="14080001" num="35" bind="1" time="0"/>
+				<item item="16010001" num="60" bind="1" time="0"/>
+				<item item="10000004" num="35" bind="1" time="0"/>
+				<item item="10000007" num="8000" bind="1" time="0"/>
+			</type>
+		</time>
+		<time matchesid="8" lastmatchesid="8">
+			<type type="1" money="10">
+				<item item="10000009" num="5" bind="1" time="0"/>
+				<item item="10000006" num="10" bind="1" time="0"/>
+				<item item="16010001" num="1" bind="1" time="0"/>
+			</type>
+			<type type="2" money="20">
+				<item item="10000009" num="10" bind="1" time="0"/>
+				<item item="10000006" num="20" bind="1" time="0"/>
+				<item item="16010001" num="2" bind="1" time="0"/>
+				<item item="10000004" num="2" bind="1" time="0"/>
+			</type>
+			<type type="3" money="50">
+				<item item="10000009" num="30" bind="1" time="0"/>
+				<item item="10000006" num="30" bind="1" time="0"/>
+				<item item="16010001" num="3" bind="1" time="0"/>
+				<item item="10000004" num="3" bind="1" time="0"/>
+				<item item="10000007" num="500" bind="1" time="0"/>
+			</type>
+			<type type="4" money="100">
+				<item item="10000009" num="50" bind="1" time="0"/>
+				<item item="10000006" num="50" bind="1" time="0"/>
+				<item item="16010013" num="4" bind="1" time="0"/>
+				<item item="16010001" num="6" bind="1" time="0"/>
+				<item item="10000004" num="5" bind="1" time="0"/>
+				<item item="10000007" num="1000" bind="1" time="0"/>
+			</type>
+			<type type="5" money="200">
+				<item item="10000009" num="100" bind="1" time="0"/>
+				<item item="10000006" num="80" bind="1" time="0"/>
+				<item item="16010013" num="10" bind="1" time="0"/>
+				<item item="16010001" num="10" bind="1" time="0"/>
+				<item item="10000004" num="8" bind="1" time="0"/>
+				<item item="10000007" num="2000" bind="1" time="0"/>
+			</type>
+			<type type="6" money="500">
+				<item item="10000009" num="300" bind="1" time="0"/>
+				<item item="10000006" num="120" bind="1" time="0"/>
+				<item item="16010013" num="20" bind="1" time="0"/>
+				<item item="16010001" num="20" bind="1" time="0"/>
+				<item item="10000004" num="12" bind="1" time="0"/>
+				<item item="10000007" num="3500" bind="1" time="0"/>
+			</type>
+			<type type="7" money="1000">
+				<item item="10000009" num="500" bind="1" time="0"/>
+				<item item="10000006" num="160" bind="1" time="0"/>
+				<item item="16010013" num="40" bind="1" time="0"/>
+				<item item="16010001" num="35" bind="1" time="0"/>
+				<item item="10000004" num="20" bind="1" time="0"/>
+				<item item="10000007" num="5500" bind="1" time="0"/>
+			</type>
+			<type type="8" money="2000">
+				<item item="10000009" num="1000" bind="1" time="0"/>
+				<item item="10000006" num="200" bind="1" time="0"/>
+				<item item="16010013" num="70" bind="1" time="0"/>
+				<item item="16010001" num="60" bind="1" time="0"/>
+				<item item="10000004" num="35" bind="1" time="0"/>
+				<item item="10000007" num="8000" bind="1" time="0"/>
+			</type>
+		</time>
+	</server>
+</root>

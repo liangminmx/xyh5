@@ -1,0 +1,839 @@
+<root>
+	<baseConfig mapId="6002" grid="32,53" addBlood="500" attack="400,401" hurtMin="111" hurtMax="111" giftHurt="1211" giftSkill="41#51">
+		<baseAssentObject type="1" url="uiRes/story/storybg/startPng.swf"/>
+		<baseAssentObject type="1" url="uiRes/story/storybg/endPng.swf"/>
+	</baseConfig>
+	<!--出现开场图片-->
+	<baseConfig>
+		<content type="1" res="uiRes/story/storybg/startPng.swf" showTime="500" hideTime="500" waitTime="1000" msg="{0},你已经结束了前世的生命，现在魂魄进入了地府中，我是牛头神，奉崔府君之命前来接你。" interval="100" left="200" bottom="200"/>
+	</baseConfig>
+	<!--设置方向-->
+	<node index="2" type="8" auto="1" excuteTime="500">
+		<content id="0" type="4" dir="1"/>
+	</node>
+	<!--打开本地操作键盘事件和UI事件\锁屏-->
+	<node index="3" type="4" auto="1" excuteTime="100">
+		<content open="0" type="3"/>
+	</node>
+	<!--泡泡-->
+	<node index="3" type="2" auto="1" excuteTime="5000">
+		<content id="0" message="牛头神呢，消失了？|这里就是地府？|前面有光，去看看" waitTime="4500"/>
+	</node>
+	<!--漫画形式切入>
+		<node index="17" type="20" auto="1" excuteTime="1500">
+		<content id="1001" iconUrl="uiRes/story/storybg/dadaoheilong.swf" width="550" height="206" posType="1" pos="55,-35" tweenShow="1" tweenTime="0.5" tweenStartPos="0,0"/>
+	</node-->
+	<!--接第一个任务 1-->
+	<node index="6" type="9" auto="1" excuteTime="0">
+		<content chapterId="1" chapterName="序章">
+			<info indexId="1" taskId="10001" taskName="崔府君？" taskDesc="刚来地府便有一牛头鬼神把你带到此处，让你去见崔府君。崔府君？他是何人？" minLev="1" taskType="1" scene="6002" point="20,30" preTaskIdList="0" nextTaskIdList="10002" isClose="0" money="1000" emoney="0" emoney2="0" skillPoint="122" talkNpcId="10001" talkID="9000">
+			</info>
+		</content>
+	</node>
+	<!--创建NPC-->
+	<node index="7" type="7" auto="1" excuteTime="0">
+		<content id="10001" name="崔府君" type="5" avatarA="124" designation="地府第一判官" grid="22,68" talkId="9000" cfgId="10001" orient="0.79" title="npc"/>
+	</node>
+	<!--主角伤害-->
+	<node index="28" type="18" auto="1" excuteTime="0">
+		<content type="1" hurtMin="30" hurtMax="50"/>
+	</node>
+	<!--移动主角到固定点-->
+	<node index="8" type="8" auto="0" excuteTime="0">
+		<content id="0" type="1" grid="24,65"/>
+	</node>
+	
+		<!--打开本地操作键盘事件和UI事件\锁屏-->
+	<node index="3" type="4" auto="1" excuteTime="100">
+		<content open="1" type="3"/>
+	</node>
+	
+	<!--创建全屏对话信息-->
+	<node index="9" type="6" auto="0" excuteTime="0">
+		<!--roleName:对话角色名字 rolePicUrl:对话角色半身像 dialogContent:对话内容-->
+		<content roleName="崔府君" rolePicUrl="1000" dialogContent="难得你也有如此悟性，竟然能看出此女娲图的不凡。此物乃是女娲娘娘所留，内藏一观想法甚是神妙。" waitTime="3000"/>
+	</node>
+	<!--引导到对话NPC旁边并且打开任务对话框-->
+	<node index="10" type="8" auto="1" excuteTime="0">
+		<content id="0" type="2" targetId="10001"/>
+	</node>
+	
+	<!--打开本地操作键盘事件和UI事件\解锁>
+	<node index="11" type="4" auto="1" excuteTime="100">
+		<content open="1" type="2"/>
+	</node-->
+	
+	<!--等待任务1001完成-->
+	<node index="12" type="5" auto="0" excuteTime="0">
+		<content taskId="10001" waitTime="10000"/>
+	</node>
+	<!--获得第一个技能-->
+	<node index="13" type="17" auto="1" excuteTime="0">
+		<content id="0" skill="1#11"/>
+	</node>
+	<!--接取章节任务(剧情任务) 2-->
+	<node index="19" type="9" auto="1" excuteTime="0">
+		<content chapterId="1" chapterName="序章">
+			<info indexId="2" taskId="10002" taskName="荒野" taskDesc="听崔府君所言，要去寻一紫衣女子，只是这荒野之上，处处孤魂，何处去寻？" minLev="2" taskType="2" scene="6002" point="22,89" preTaskIdList="10001" nextTaskIdList="10003" isClose="0" money="1500" emoney="0" emoney2="0" skillPoint="183" monsterId="100000" monsterNum="5"/>
+		</content>
+	</node>
+	<!--主角伤害-->
+	<node index="28" type="18" auto="1" excuteTime="0">
+		<content type="1" hurtMin="30" hurtMax="50"/>
+	</node>
+	<!--创建主动攻击怪物-->
+	<node index="14" type="7" auto="1" excuteTime="0">
+		<content id="120001" type="1" objName="孤魂" avatarA="1011" level="3" monsterType="0" cfgId="100000" grid="20,87" maxHp="120" dir="2" hasAI="1" speed="0.004">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="10" attack="5" skill="5000"/>
+		</content>
+	</node>
+	<node index="15" type="7" auto="1" excuteTime="0">
+		<content id="120002" type="1" objName="孤魂" avatarA="1011" level="3" monsterType="0" cfgId="100000" grid="22,83" maxHp="120" dir="2" hasAI="1" speed="0.004">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="10" attack="0" skill="5000"/>
+		</content>
+	</node>
+	<node index="16" type="7" auto="1" excuteTime="0">
+		<content id="120003" type="1" objName="孤魂" avatarA="1011" level="3" monsterType="0" cfgId="100000" grid="20,92" maxHp="120" dir="2" hasAI="1" speed="0.004">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="15" attack="0" skill="5000"/>
+		</content>
+	</node>
+	<node index="16" type="7" auto="1" excuteTime="0">
+		<content id="120004" type="1" objName="孤魂" avatarA="1011" level="3" monsterType="0" cfgId="100000" grid="24,89" maxHp="120" dir="2" hasAI="1" speed="0.004">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="15" attack="0" skill="5000"/>
+		</content>
+	</node>
+	<node index="16" type="7" auto="1" excuteTime="0">
+		<content id="120005" type="1" objName="孤魂" avatarA="1011" level="3" monsterType="0" cfgId="100000" grid="26,86" maxHp="120" dir="2" hasAI="1" speed="0.004">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="15" attack="0" skill="5000"/>
+		</content>
+	</node>
+	<!--主角移动到固定点-->
+	<node index="21" type="8" auto="1" excuteTime="0">
+		<content id="0" type="1" grid="22,88"/>
+	</node>
+	<!--等待杀怪任务完成弹出任务领取奖励框-->
+	<node index="23" type="5" auto="0" excuteTime="0">
+		<content taskId="10002"/>
+	</node>
+	<!--接取章节任务(剧情任务) 3-->
+	<node index="25" type="9" auto="1" excuteTime="0">
+		<content chapterId="1" chapterName="序章">
+			<info indexId="3" taskId="10003" taskName="接引" taskDesc="前面有一女子，身穿紫衣，莫非就是......" minLev="2" taskType="1" scene="6002" point="22,88" preTaskIdList="10002" nextTaskIdList="10004" isClose="0" money="2000" emoney="0" emoney2="0" skillPoint="244" talkNpcId="10002" talkID="9001"/>
+		</content>
+	</node>
+	<!--主角伤害-->
+	<node index="28" type="18" auto="1" excuteTime="0">
+		<content type="1" hurtMin="30" hurtMax="50"/>
+	</node>
+	<!--创建NPC-->
+	<node index="26" type="7" auto="1" excuteTime="0">
+		<content id="10021" name="紫衣女子" type="5" avatarA="153" designation="神秘女子" grid="45,105" talkId="9000" cfgId="10002" orient="0.79" title="npc"/>
+	</node>
+		<!--打开本地操作键盘事件和UI事件\锁屏-->
+	<node index="3" type="4" auto="1" excuteTime="100">
+		<content open="0" type="3"/>
+	</node>
+	<!--主角移动到固定点-->
+	<node index="28" type="8" auto="1" excuteTime="2000">
+		<content id="0" type="1" grid="28,100"/>
+	</node>
+	<!--主角跳跃到固定点-->
+	<node index="38" type="8" auto="1" excuteTime="800">
+		<content id="0" type="11" grid="36,101" landTime="1000"/>
+	</node>
+	<!--主角跳跃到固定点-->
+	<node index="39" type="8" auto="1" excuteTime="1400">
+		<content id="0" type="12" grid="43,107" landTime="1000"/>
+	</node>
+	<!--打开本地操作键盘事件和UI事件\锁屏-->
+	<node index="3" type="4" auto="1" excuteTime="100">
+		<content open="1" type="3"/>
+	</node>
+	<!--引导到对话NPC旁边并且打开任务对话框-->
+	<node index="10" type="8" auto="1" excuteTime="0">
+		<content id="0" type="2" targetId="10002"/>
+	</node>
+	<!--等待任务完成弹出任务领取奖励框-->
+	<node index="26" type="5" auto="0" excuteTime="0">
+		<content taskId="10003"/>
+	</node>
+
+	<!--接取章节任务(剧情任务) 4-->
+	<node index="39" type="9" auto="1" excuteTime="0">
+		<content chapterId="1" chapterName="序章">
+			<info indexId="4" taskId="10004" taskName="奈何桥" taskDesc="按引导使用绝技，清除奈何桥上的冥妖。" minLev="2" taskType="2" scene="6002" point="45,105" preTaskIdList="10003" nextTaskIdList="100040" isClose="0" money="2500" emoney="0" emoney2="0" skillPoint="305" monsterId="100001" monsterNum="10"/>
+		</content>
+	</node>
+		<!--打开本地操作键盘事件和UI事件-->
+	<node index="27" type="4" auto="1" excuteTime="100">
+		<content open="0" type="3"/>
+	</node>
+	<!--XP技能伤害-->
+	<node index="28" type="18" auto="1" excuteTime="0">
+		<content type="2" hurtGift="160"/>
+	</node>
+	<!--主角伤害-->
+	<node index="28" type="18" auto="1" excuteTime="0">
+		<content hurtMin="30" hurtMax="50"/>
+	</node>
+	<!--主角移动到固定点-->
+	<node index="27" type="8" auto="1" excuteTime="0">
+		<content id="0" type="1" grid="45,107"/>
+	</node>
+	<!--创建怪物-->
+	<!--我方怪物-->
+	<node index="28" type="7" auto="1" excuteTime="0">
+		<content id="127001" type="4" objName="牛头" avatarA="1021" level="3" monsterType="4" cfgId="100003" grid="61.6,76.8" maxHp="500" dir="2" hasAI="0"/>
+	</node>
+	<node index="29" type="7" auto="1" excuteTime="0">
+		<content id="127002" type="4" objName="马面" avatarA="1054" level="3" monsterType="4" cfgId="100003" grid="62.8,82.0" maxHp="500" dir="2" hasAI="0"/>
+	</node>
+	<node index="28" type="7" auto="1" excuteTime="0">
+		<content id="127003" type="4" objName="牛头" avatarA="1021" level="3" monsterType="4" cfgId="100003" grid="65.8,72.5" maxHp="500" dir="2" hasAI="0"/>
+	</node>
+	<node index="28" type="7" auto="1" excuteTime="0">
+		<content id="127004" type="4" objName="马面" avatarA="1054" level="3" monsterType="4" cfgId="100003" grid="67.4,66.4" maxHp="500" dir="2" hasAI="0"/>
+	</node>
+	<node index="28" type="7" auto="1" excuteTime="0">
+		<content id="127005" type="4" objName="牛头" avatarA="1021" level="3" monsterType="4" cfgId="100003" grid="71.7,64.3" maxHp="500" dir="2" hasAI="0"/>
+	</node>
+	<node index="28" type="7" auto="1" excuteTime="0">
+		<content id="127006" type="4" objName="马面" avatarA="1054" level="3" monsterType="4" cfgId="100003" grid="51.9,102.9" maxHp="500" dir="2" hasAI="0"/>
+	</node>
+	<node index="28" type="7" auto="1" excuteTime="0">
+		<content id="127007" type="4" objName="牛头" avatarA="1021" level="3" monsterType="4" cfgId="100003" grid="53.4,96.3" maxHp="500" dir="2" hasAI="0"/>
+	</node>
+	<!--敌方方怪物-->
+	<node index="30" type="7" auto="1" excuteTime="0">
+		<content id="126001" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100002" grid="62.3,75.2" maxHp="200" dir="2" hasAI="0"/>
+	</node>
+	<node index="32" type="7" auto="1" excuteTime="0">
+		<content id="126002" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100002" grid="63.7,80.2" maxHp="200" dir="2" hasAI="0"/>
+	</node>
+	<node index="32" type="7" auto="1" excuteTime="0">
+		<content id="126003" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100002" grid="66.7,74.3" maxHp="200" dir="2" hasAI="0"/>
+	</node>
+	<node index="32" type="7" auto="1" excuteTime="0">
+		<content id="126004" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100002" grid="68.2,67.6" maxHp="200" dir="2" hasAI="0"/>
+	</node>
+	<node index="32" type="7" auto="1" excuteTime="0">
+		<content id="126005" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100002" grid="72.7,62.7" maxHp="200" dir="2" hasAI="0"/>
+	</node>
+	<node index="32" type="7" auto="1" excuteTime="0">
+		<content id="126006" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100002" grid="53.3,101.3" maxHp="200" dir="2" hasAI="0"/>
+	</node>
+	<node index="32" type="7" auto="1" excuteTime="0">
+		<content id="126007" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100002" grid="53.5,93.7" maxHp="200" dir="2" hasAI="0"/>
+	</node>
+	<!--怪物泡泡-->
+	<node index="3" type="2" auto="1" excuteTime="0">
+		<content id="126001" message="杀~杀~杀" waitTime="150000"/>
+	</node>
+	<node index="3" type="2" auto="1" excuteTime="0">
+		<content id="127006" message="拦住他们" waitTime="150000"/>
+	</node>
+	<node index="3" type="2" auto="1" excuteTime="0">
+		<content id="127005" message="妖怪，尝尝俺的斧子" waitTime="150000"/>
+	</node>
+	<node index="3" type="2" auto="1" excuteTime="0">
+		<content id="126003" message="占领地府，给我冲阿~" waitTime="150000"/>
+	</node>
+	<!--我放怪物释放技能-->
+	<node index="34" type="11" auto="1" excuteTime="0">
+		<content id="127001" targetId="126001" skillReleaseInterval="600" searchRange="5" attack="0" skill="5000"/>
+	</node>
+	<node index="34" type="11" auto="1" excuteTime="0">
+		<content id="127002" targetId="126002" skillReleaseInterval="600" searchRange="5" attack="0" skill="5000"/>
+	</node>
+	<node index="34" type="11" auto="1" excuteTime="0">
+		<content id="127003" targetId="126003" skillReleaseInterval="600" searchRange="5" attack="0" skill="5000"/>
+	</node>
+	<node index="34" type="11" auto="1" excuteTime="0">
+		<content id="127004" targetId="126004" skillReleaseInterval="600" searchRange="5" attack="0" skill="5000"/>
+	</node>
+	<node index="34" type="11" auto="1" excuteTime="0">
+		<content id="127005" targetId="126005" skillReleaseInterval="600" searchRange="5" attack="0" skill="5000"/>
+	</node>
+	<node index="34" type="11" auto="1" excuteTime="0">
+		<content id="127006" targetId="126006" skillReleaseInterval="600" searchRange="5" attack="0" skill="5000"/>
+	</node>
+	<node index="34" type="11" auto="1" excuteTime="0">
+		<content id="127007" targetId="126007" skillReleaseInterval="600" searchRange="5" attack="0" skill="5000"/>
+	</node>
+	<node index="34" type="11" auto="1" excuteTime="0">
+		<content id="126001" targetId="127001" skillReleaseInterval="800" searchRange="5" attack="0" skill="5000"/>
+	</node>
+	<node index="36" type="11" auto="1" excuteTime="0">
+		<content id="126002" targetId="127002" skillReleaseInterval="800" searchRange="5" attack="0" skill="5000"/>
+	</node>
+	<node index="36" type="11" auto="1" excuteTime="0">
+		<content id="126003" targetId="127003" skillReleaseInterval="800" searchRange="5" attack="0" skill="5000"/>
+	</node>
+	<node index="36" type="11" auto="1" excuteTime="0">
+		<content id="126004" targetId="127004" skillReleaseInterval="800" searchRange="5" attack="0" skill="5000"/>
+	</node>
+	<node index="36" type="11" auto="1" excuteTime="0">
+		<content id="126005" targetId="127005" skillReleaseInterval="800" searchRange="5" attack="0" skill="5000"/>
+	</node>
+	<node index="36" type="11" auto="1" excuteTime="0">
+		<content id="126006" targetId="127006" skillReleaseInterval="800" searchRange="5" attack="0" skill="5000"/>
+	</node>
+	<node index="36" type="11" auto="1" excuteTime="0">
+		<content id="126007" targetId="127007" skillReleaseInterval="800" searchRange="5" attack="0" skill="5000"/>
+	</node>
+	<!--创建全屏对话信息-->
+	<node index="25" type="6" auto="1" excuteTime="4500">
+		<!--roleName:对话角色名字 rolePicUrl:对话角色半身像 dialogContent:对话内容-->
+		<content roleName="牛头" rolePicUrl="1004" dialogContent="我等乃地府鬼卒，现在地府发生变乱，奈何桥上有大量鬼魂、冥妖暴乱，唯有施展你的绝技才能打出去。" waitTime="3000"/>
+	</node>
+	<!--移动摄像头-->
+	<node index="38" type="12" auto="0" excuteTime="0">
+		<content id="0" type="1" grid="62,76" speed="0.012000000189989805" waitTime="800"/>
+	</node>
+	<!--创建有AI的敌方怪物-->
+	<node index="40" type="7" auto="1" excuteTime="0">
+		<content id="150001" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100001" grid="53,93" maxHp="200" dir="2" hasAI="1" speed="0.009">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<node index="41" type="7" auto="1" excuteTime="0">
+		<content id="150002" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100001" grid="54,93" maxHp="200" dir="2" hasAI="1" speed="0.009">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<node index="42" type="7" auto="1" excuteTime="0">
+		<content id="150003" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100001" grid="55,93" maxHp="200" dir="2" hasAI="1" speed="0.009">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<node index="42" type="7" auto="1" excuteTime="0">
+		<content id="150004" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100001" grid="54,93" maxHp="200" dir="2" hasAI="1" speed="0.009">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<node index="42" type="7" auto="1" excuteTime="0">
+		<content id="150005" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100001" grid="54,95" maxHp="200" dir="2" hasAI="1" speed="0.009">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<node index="42" type="7" auto="1" excuteTime="0">
+		<content id="150006" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100001" grid="54,95" maxHp="200" dir="2" hasAI="1" speed="0.009">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<node index="42" type="7" auto="1" excuteTime="0">
+		<content id="150007" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100001" grid="54,95" maxHp="200" dir="2" hasAI="1" speed="0.009">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<node index="42" type="7" auto="1" excuteTime="0">
+		<content id="150008" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100001" grid="55,93" maxHp="200" dir="2" hasAI="1" speed="0.009">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<node index="42" type="7" auto="1" excuteTime="0">
+		<content id="150009" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100001" grid="55,94" maxHp="200" dir="2" hasAI="1" speed="0.009">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<node index="42" type="7" auto="1" excuteTime="0">
+		<content id="150010" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100001" grid="55,94" maxHp="200" dir="2" hasAI="1" speed="0.009">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<!--打开本地操作键盘事件和UI事件-->
+	<node index="3" type="4" auto="1" excuteTime="100">
+		<content open="1" type="3"/>
+	</node>
+	<!--弹出大招释放界面-->
+	<node index="46" type="3" auto="1" excuteTime="0">
+		<content moduleName="game.manager.story.ui.StoryGiftSpellIcoExt" isShow="1"/>
+	</node>
+	<!--等待任务完成-->
+	<node index="48" type="5" auto="0" excuteTime="0">
+		<content taskId="10004"/>
+	</node>
+		<!--主角移动到固定点-->
+	<node index="27" type="8" auto="1" excuteTime="0">
+		<content id="0" type="1" grid="65,65"/>
+	</node>
+	<!--接取章节任务(剧情任务) 5-->
+	<node index="39" type="9" auto="1" excuteTime="0">
+		<content chapterId="1" chapterName="序章">
+			<info indexId="5" taskId="100040" taskName="奈何桥2" taskDesc="又是一波冥妖冲了上来。" minLev="2" taskType="2" scene="6002" point="59,86" preTaskIdList="10004" nextTaskIdList="100041" isClose="0" money="2500" emoney="0" emoney2="0" skillPoint="305" monsterId="100001" monsterNum="10"/>
+		</content>
+	</node>
+	<!--主角伤害-->
+	<node index="28" type="18" auto="1" excuteTime="0">
+		<content type="1" hurtMin="30" hurtMax="50"/>
+	</node>
+	<!--创建有AI的敌方怪物-->
+	<node index="40" type="7" auto="1" excuteTime="0">
+		<content id="150011" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100001" grid="60,80" maxHp="40" dir="2" hasAI="1" speed="0.009">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<node index="41" type="7" auto="1" excuteTime="0">
+		<content id="150012" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100001" grid="60,81" maxHp="40" dir="2" hasAI="1" speed="0.009">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<node index="42" type="7" auto="1" excuteTime="0">
+		<content id="150013" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100001" grid="61,80" maxHp="40" dir="2" hasAI="1" speed="0.009">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<node index="42" type="7" auto="1" excuteTime="0">
+		<content id="150014" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100001" grid="62,83" maxHp="40" dir="2" hasAI="1" speed="0.009">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<node index="42" type="7" auto="1" excuteTime="0">
+		<content id="150015" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100001" grid="62,82" maxHp="40" dir="2" hasAI="1" speed="0.009">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<node index="42" type="7" auto="1" excuteTime="0">
+		<content id="150016" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100001" grid="63,82" maxHp="40" dir="2" hasAI="1" speed="0.009">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<node index="42" type="7" auto="1" excuteTime="0">
+		<content id="150017" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100001" grid="63,83" maxHp="40" dir="2" hasAI="1" speed="0.009">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<node index="42" type="7" auto="1" excuteTime="0">
+		<content id="150018" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100001" grid="64,82" maxHp="40" dir="2" hasAI="1" speed="0.009">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<node index="42" type="7" auto="1" excuteTime="0">
+		<content id="150019" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100001" grid="64,83" maxHp="40" dir="2" hasAI="1" speed="0.009">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<node index="42" type="7" auto="1" excuteTime="0">
+		<content id="150020" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100001" grid="64,83" maxHp="40" dir="2" hasAI="1" speed="0.009">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<!--等待任务完成-->
+	<node index="48" type="5" auto="0" excuteTime="0">
+		<content taskId="100040"/>
+	</node>
+		<!--主角移动到固定点-->
+	<node index="27" type="8" auto="1" excuteTime="0">
+		<content id="0" type="1" grid="74,55"/>
+	</node>
+	<!--接取章节任务(剧情任务) 5-->
+	<node index="39" type="9" auto="1" excuteTime="0">
+		<content chapterId="1" chapterName="序章">
+			<info indexId="6" taskId="100041" taskName="奈何桥3" taskDesc="源源不绝的冥妖" minLev="2" taskType="2" scene="6002" point="59,86" preTaskIdList="100040" nextTaskIdList="100042" isClose="0" money="2500" emoney="0" emoney2="0" skillPoint="305" monsterId="100001" monsterNum="10"/>
+		</content>
+	</node>
+	<!--主角伤害-->
+	<node index="28" type="18" auto="1" excuteTime="0">
+		<content type="1" hurtMin="30" hurtMax="50"/>
+	</node>
+	<!--创建有AI的敌方怪物-->
+	<node index="40" type="7" auto="1" excuteTime="0">
+		<content id="150021" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100001" grid="60,80" maxHp="40" dir="2" hasAI="1" speed="0.009">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<node index="41" type="7" auto="1" excuteTime="0">
+		<content id="150022" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100001" grid="60,81" maxHp="40" dir="2" hasAI="1" speed="0.009">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<node index="42" type="7" auto="1" excuteTime="0">
+		<content id="150023" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100001" grid="61,80" maxHp="40" dir="2" hasAI="1" speed="0.009">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<node index="42" type="7" auto="1" excuteTime="0">
+		<content id="150024" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100001" grid="62,83" maxHp="40" dir="2" hasAI="1" speed="0.009">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<node index="42" type="7" auto="1" excuteTime="0">
+		<content id="150025" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100001" grid="62,82" maxHp="40" dir="2" hasAI="1" speed="0.009">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<node index="42" type="7" auto="1" excuteTime="0">
+		<content id="150026" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100001" grid="63,82" maxHp="40" dir="2" hasAI="1" speed="0.009">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<node index="42" type="7" auto="1" excuteTime="0">
+		<content id="150027" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100001" grid="63,83" maxHp="40" dir="2" hasAI="1" speed="0.009">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<node index="42" type="7" auto="1" excuteTime="0">
+		<content id="150028" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100001" grid="64,82" maxHp="40" dir="2" hasAI="1" speed="0.009">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<node index="42" type="7" auto="1" excuteTime="0">
+		<content id="150029" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100001" grid="64,83" maxHp="40" dir="2" hasAI="1" speed="0.009">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<node index="42" type="7" auto="1" excuteTime="0">
+		<content id="150030" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100001" grid="64,84" maxHp="40" dir="2" hasAI="1" speed="0.009">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<!--等待任务完成-->
+	<node index="48" type="5" auto="0" excuteTime="0">
+		<content taskId="100041"/>
+	</node>
+	<!--主角移动到固定点-->
+	<node index="27" type="8" auto="1" excuteTime="0">
+		<content id="0" type="1" grid="74,55"/>
+	</node>
+	<!--接取章节任务(剧情任务) 5-->
+	<node index="39" type="9" auto="1" excuteTime="0">
+		<content chapterId="1" chapterName="序章">
+			<info indexId="7" taskId="100042" taskName="奈何桥4" taskDesc="只剩最后几只冥妖了。" minLev="2" taskType="2" scene="6002" point="76,53" preTaskIdList="100041" nextTaskIdList="10005" isClose="0" money="2500" emoney="0" emoney2="0" skillPoint="305" monsterId="100001" monsterNum="10"/>
+		</content>
+	</node>
+	<!--主角伤害-->
+	<node index="28" type="18" auto="1" excuteTime="0">
+		<content type="1" hurtMin="30" hurtMax="50"/>
+	</node>
+	<!--创建有AI的敌方怪物-->
+	<node index="40" type="7" auto="1" excuteTime="0">
+		<content id="150031" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100001" grid="78,49" maxHp="40" dir="2" hasAI="1" speed="0.009">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="100" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<node index="41" type="7" auto="1" excuteTime="0">
+		<content id="150032" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100001" grid="78,50" maxHp="40" dir="2" hasAI="1" speed="0.009">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="100" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<node index="42" type="7" auto="1" excuteTime="0">
+		<content id="150033" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100001" grid="78,51" maxHp="40" dir="2" hasAI="1" speed="0.009">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="100" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<node index="42" type="7" auto="1" excuteTime="0">
+		<content id="150034" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100001" grid="78,48" maxHp="40" dir="2" hasAI="1" speed="0.009">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="100" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<node index="42" type="7" auto="1" excuteTime="0">
+		<content id="150035" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100001" grid="78,47" maxHp="40" dir="2" hasAI="1" speed="0.009">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="100" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<node index="42" type="7" auto="1" excuteTime="0">
+		<content id="150036" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100001" grid="66,69" maxHp="40" dir="2" hasAI="1" speed="0.009">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="100" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<node index="42" type="7" auto="1" excuteTime="0">
+		<content id="150037" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100001" grid="79,50" maxHp="40" dir="2" hasAI="1" speed="0.009">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="100" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<node index="42" type="7" auto="1" excuteTime="0">
+		<content id="150038" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100001" grid="79,46" maxHp="40" dir="2" hasAI="1" speed="0.009">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="100" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<node index="42" type="7" auto="1" excuteTime="0">
+		<content id="150039" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100001" grid="79,47" maxHp="40" dir="2" hasAI="1" speed="0.009">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="100" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<node index="42" type="7" auto="1" excuteTime="0">
+		<content id="150040" type="1" objName="冥妖" avatarA="1037" level="3" monsterType="0" cfgId="100001" grid="79,48" maxHp="40" dir="2" hasAI="1" speed="0.009">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="100" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<!--主角移动到固定点-->
+	<node index="27" type="8" auto="1" excuteTime="0">
+		<content id="0" type="1" grid="101,14"/>
+	</node>
+	<!--等待任务完成-->
+	<node index="48" type="5" auto="0" excuteTime="0">
+		<content taskId="100042"/>
+	</node>
+	<!--打开本地操作键盘事件和UI事件-->
+	<node index="3" type="4" auto="1" excuteTime="100">
+		<content open="0" type="3"/>
+	</node>
+	<!--接第一个任务 5-->
+	<node index="49" type="9" auto="1" excuteTime="0">
+		<content chapterId="1" chapterName="序章">
+			<info indexId="8" taskId="10005" taskName="相助" taskDesc="通过奈何桥后，也不知此处是何地？那六道轮回又在何处？" minLev="3" taskType="1" scene="6002" point="102,30" preTaskIdList="100042" nextTaskIdList="10006" isClose="0" money="3000" emoney="0" emoney2="0" skillPoint="366" talkNpcId="10062" talkID="9002"/>
+		</content>
+	</node>
+	<!--创建NPC-->
+	<node index="51" type="7" auto="1" excuteTime="0">
+		<content id="10062" name="孟婆" type="5" avatarA="163" designation="地府第一老婆婆" grid="102,30" talkId="5002" cfgId="10062" orient="0.79" title="npc"/>
+	</node>
+	<!--主角伤害-->
+	<node index="28" type="18" auto="1" excuteTime="0">
+		<content type="1" hurtMin="30" hurtMax="50"/>
+	</node>
+	<!--主角移动到固定点-->
+	<node index="50" type="8" auto="1" excuteTime="0">
+		<content id="0" type="1" grid="102,31"/>
+	</node>
+	<!--等待5秒执行下个-->
+	<node index="71" type="14" auto="1" excuteTime="4000"/>
+	<!--创建全屏对话信息-->
+	<node index="52" type="6" auto="1" excuteTime="3000">
+		<!--roleName:对话角色名字 rolePicUrl:对话角色半身像 dialogContent:对话内容-->
+		<content roleName="孟婆" rolePicUrl="1003" dialogContent="你是来投胎的生魂？来得可真不是时候，六道轮回已被两界劫龙生灭阵封锁，老婆子要重开六道轮回，快来助老婆子一臂之力" waitTime="4000"/>
+	</node>
+	<!--打开本地操作键盘事件和UI事件-->
+	<node index="3" type="4" auto="1" excuteTime="100">
+		<content open="1" type="3"/>
+	</node>
+	<!--引导到对话NPC旁边并且打开任务对话框-->
+	<node index="10" type="8" auto="1" excuteTime="0">
+		<content id="0" type="2" targetId="10062"/>
+	</node>
+	<!--等待任务完成-->
+	<node index="53" type="5" auto="0" excuteTime="0">
+		<content taskId="10005"/>
+	</node>
+	<!--删除地图对象-->
+	<node index="66" type="13" auto="1" excuteTime="0">
+		<content id="10062" type="2"/>
+	</node>
+	<!--接第一个任务 6-->
+	<node index="54" type="9" auto="1" excuteTime="0">
+		<content chapterId="1" chapterName="序章">
+			<info indexId="9" taskId="10006" taskName="杀敌（一）" taskDesc="虽然很想问怎么去投胎转世，不过，现在还是先帮助孟婆杀退那些玄魔道兵。" minLev="3" taskType="2" scene="6002" point="103,64" preTaskIdList="10005" nextTaskIdList="10007" isClose="0" money="3500" emoney="0" emoney2="0" skillPoint="427" monsterId="100002" monsterNum="5"/>
+		</content>
+	</node>
+	<!--创建一个宝宝-->
+	<node index="55" type="7" auto="1" excuteTime="0">
+		<content id="169016" type="6" objName="孟婆" avatarA="9019" level="3" monsterType="5" cfgId="100005" grid="102,30" maxHp="10000" dir="2" hasAI="1" followTargetId="0" speed="0.006">
+			<ai targetId="0" skillReleaseInterval="800" searchRange="10" attack="5000" skill="5001"/>
+		</content>
+	</node>
+	<!--主角伤害-->
+	<node index="28" type="18" auto="1" excuteTime="0">
+		<content type="1" hurtMin="30" hurtMax="50"/>
+	</node>
+	<!--创建任务6的任务怪物-->
+	<node index="58" type="7" auto="1" excuteTime="0">
+		<content id="156001" type="1" objName="玄魔道人" avatarA="1019" level="3" monsterType="0" cfgId="100002" grid="100,64" maxHp="15000" dir="2" hasAI="1" speed="0.004">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="1" skill="5000"/>
+		</content>
+	</node>
+	<node index="59" type="7" auto="1" excuteTime="0">
+		<content id="156002" type="1" objName="玄魔道人" avatarA="1019" level="3" monsterType="0" cfgId="100002" grid="102,63" maxHp="15000" dir="2" hasAI="1" speed="0.004">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="1" skill="5000"/>
+		</content>
+	</node>
+	<node index="60" type="7" auto="1" excuteTime="0">
+		<content id="156003" type="1" objName="玄魔道人" avatarA="1019" level="3" monsterType="0" cfgId="100002" grid="103,64" maxHp="15000" dir="2" hasAI="1" speed="0.004">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="1" skill="5000"/>
+		</content>
+	</node>
+	<node index="60" type="7" auto="1" excuteTime="0">
+		<content id="156004" type="1" objName="玄魔道人" avatarA="1019" level="3" monsterType="0" cfgId="100002" grid="104,64" maxHp="15000" dir="2" hasAI="1" speed="0.004">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="1" skill="5000"/>
+		</content>
+	</node>
+	<node index="60" type="7" auto="1" excuteTime="0">
+		<content id="156005" type="1" objName="玄魔道人" avatarA="1019" level="3" monsterType="0" cfgId="100002" grid="103,66" maxHp="15000" dir="2" hasAI="1" speed="0.004">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="1" skill="5000"/>
+		</content>
+	</node>
+	<!--主角移动到固定点-->
+	<node index="63" type="8" auto="1" excuteTime="0">
+		<content id="0" type="1" grid="103,62"/>
+	</node>
+	<!--等待任务完成-->
+	<node index="55" type="5" auto="0" excuteTime="0">
+		<content taskId="10006"/>
+	</node>
+	<!--接第一个任务 7-->
+	<node index="56" type="9" auto="1" excuteTime="0">
+		<content chapterId="1" chapterName="序章">
+			<info indexId="10" taskId="10007" taskName="杀敌（二）" taskDesc="又有新的入侵者闯入地府，那些魔煞鬼兵数量太多，只有耐心应战。" minLev="3" taskType="2" scene="6002" point="107,114" preTaskIdList="10006" nextTaskIdList="10008" isClose="0" money="4000" emoney="0" emoney2="0" skillPoint="488" monsterId="100003" monsterNum="5"/>
+		</content>
+	</node>
+	<!--创建一个宝宝-->
+	<node index="55" type="7" auto="1" excuteTime="0">
+		<content id="169016" type="6" objName="孟婆" avatarA="9019" level="3" monsterType="5" cfgId="100005" grid="108,102" maxHp="10000" dir="2" hasAI="1" followTargetId="0" speed="0.005">
+			<ai targetId="0" skillReleaseInterval="800" searchRange="10" attack="5000" skill="5001"/>
+		</content>
+	</node>
+	<!--主角伤害-->
+	<node index="28" type="18" auto="1" excuteTime="0">
+		<content type="1" hurtMin="30" hurtMax="50"/>
+	</node>
+	<!--创建任务7的任务怪物-->
+	<node index="57" type="7" auto="1" excuteTime="0">
+		<content id="157011" type="1" objName="魔煞鬼兵" avatarA="1019" level="3" monsterType="0" cfgId="100003" grid="108,102" maxHp="15000" dir="2" hasAI="1" speed="0.004">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<node index="58" type="7" auto="1" excuteTime="0">
+		<content id="157012" type="1" objName="魔煞鬼兵" avatarA="1019" level="3" monsterType="0" cfgId="100003" grid="107,102" maxHp="15000" dir="2" hasAI="1" speed="0.004">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<node index="59" type="7" auto="1" excuteTime="0">
+		<content id="157013" type="1" objName="魔煞鬼兵" avatarA="1019" level="3" monsterType="0" cfgId="100003" grid="105,103" maxHp="15000" dir="2" hasAI="1" speed="0.004">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<node index="59" type="7" auto="1" excuteTime="0">
+		<content id="157014" type="1" objName="魔煞鬼兵" avatarA="1019" level="3" monsterType="0" cfgId="100003" grid="105,106" maxHp="15000" dir="2" hasAI="1" speed="0.004">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<node index="59" type="7" auto="1" excuteTime="0">
+		<content id="157015" type="1" objName="魔煞鬼兵" avatarA="1019" level="3" monsterType="0" cfgId="100003" grid="106,105" maxHp="15000" dir="2" hasAI="1" speed="0.004">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="2" skill="5000"/>
+		</content>
+	</node>
+	<!--主角移动到固定点-->
+	<node index="62" type="8" auto="1" excuteTime="0">
+		<content id="0" type="1" grid="105,103"/>
+	</node>
+	<!--等待任务完成-->
+	<node index="63" type="5" auto="0" excuteTime="0">
+		<content taskId="10007"/>
+	</node>
+	<!--打开本地操作键盘事件和UI事件-->
+	<node index="3" type="4" auto="1" excuteTime="100">
+		<content open="0" type="3"/>
+	</node>
+	<!--主角移动到固定点-->
+	<node index="64" type="8" auto="0" excuteTime="0">
+		<content id="0" type="1" grid="105,119"/>
+	</node>
+	<!--创建全屏对话信息-->
+	<node index="65" type="6" auto="1" excuteTime="3000">
+		<!--roleName:对话角色名字 rolePicUrl:对话角色半身像 dialogContent:对话内容-->
+		<content roleName="孟婆" rolePicUrl="1003" dialogContent="前面就是两界劫龙生灭阵所化黑龙，只有除了它，老婆子才能重开六道轮回。" waitTime="3000"/>
+	</node>
+	<!--删除地图对象-->
+	<node index="66" type="13" auto="1" excuteTime="0">
+		<content id="169016" type="4"/>
+	</node>
+	<!--接取杀BOSS剧情任务-->
+	<node index="69" type="9" auto="1" excuteTime="0">
+		<content chapterId="1" chapterName="序章">
+			<info indexId="11" taskId="10008" taskName="战黑龙" taskDesc="一头黑龙朝你扑来，猝不及防，你只能紧急应战！" minLev="4" taskType="2" scene="6002" point="97,127" preTaskIdList="10007" nextTaskIdList="10009" isClose="0" money="4500" emoney="0" emoney2="0" skillPoint="549" monsterId="150000" monsterNum="1"/>
+		</content>
+	</node>
+	<!--主角伤害-->
+	<node index="28" type="18" auto="1" excuteTime="0">
+		<content type="1" hurtMin="30" hurtMax="50"/>
+	</node>
+	<!--创建剧情BOSS-->
+	<node index="68" type="7" auto="1" excuteTime="0">
+		<content id="158901" type="1" objName="黑龙（剧情）" avatarA="9003" level="5" monsterType="2" cfgId="150000" grid="95,136" maxHp="20000" dir="2" hasAI="1" speed="0.004">
+			<ai targetId="0" skillReleaseInterval="600" searchRange="20" attack="2" skill="5002"/>
+		</content>
+	</node>
+	<!--主角移动到固定点-->
+	<node index="70" type="8" auto="0" excuteTime="">
+		<content id="0" type="1" grid="97,127"/>
+	</node>
+	<!--等待5秒执行下个-->
+	<node index="71" type="14" auto="1" excuteTime="6000"/>
+	<!--被怪物击退-->
+	<node index="72" type="8" auto="0" excuteTime="0">
+		<content id="0" type="9" casterId="158901 " stpe="8"/>
+	</node>
+	<!--等待2秒执行下个-->
+	<node index="71" type="14" auto="1" excuteTime="2000"/>
+	<!--AI停止-->
+	<node index="41" type="8" auto="1" excuteTime="500">
+		<content id="158901" type="8" standTime="7000"/>
+	</node>
+	<!--活物停止所有动作-->
+	<node index="73" type="8" auto="1" excuteTime="500">
+		<content id="0" type="8"/>
+	</node>
+	<!--创建全屏对话信息-->
+	<node index="74" type="6" auto="1" excuteTime="3000">
+		<!--roleName:对话角色名字 rolePicUrl:对话角色半身像 dialogContent:对话内容-->
+		<content roleName="崔府君" rolePicUrl="1000" dialogContent="黑龙的力量来自两界劫龙生灭阵，以你现在的力量还无法打败它，待我借你一件法宝 三清剑.它的神威能助你打倒黑龙！" waitTime="3000"/>
+	</node>
+	<!--飞入法宝-->
+	<node index="74" type="15" auto="1" excuteTime="2000">
+		<content id="1"/>
+	</node>
+	<node index="75" type="15" auto="1" excuteTime="0">
+		<content id="3" weaponType="2000001"/>
+	</node>
+	<!--增加伤害值-->
+	<node index="76" type="16" auto="1" excuteTime="0">
+		<content type="2" value="2000"/>
+	</node>
+	<!--node index="70" type="8" auto="1" excuteTime="0">
+		<content id="0" type="1" grid="96,129"/>
+	</node-->
+		<node index="77" type="5" auto="0" excuteTime="0">
+		<content taskId="10008"/>
+	</node>
+	<!--等待任务完成-->
+	<node index="63" type="5" auto="1" excuteTime="0">
+		<content taskId="10008"/>
+	</node>
+	
+	<!--创建全屏对话信息-->
+	<node index="74" type="6" auto="1" excuteTime="3000">
+		<!--roleName:对话角色名字 rolePicUrl:对话角色半身像 dialogContent:对话内容-->
+		<content roleName="崔府君" rolePicUrl="1000" dialogContent="切记,功力不够,强行驾驭 三清剑只会被吸成人干，等你修为足够才可运用" waitTime="3000"/>
+	</node>
+		<!--飞出法宝-->
+	<node index="74" type="15" auto="1" excuteTime="2000">
+		<content id="4"/>
+	</node>
+		<!--打开本地操作键盘事件和UI事件-->
+	<node index="3" type="4" auto="1" excuteTime="100">
+		<content open="1" type="3"/>
+	</node>
+	<!--接最后一个任务-->
+	<node index="6" type="9" auto="1" excuteTime="0">
+		<content chapterId="1" chapterName="序章">
+			<info indexId="12" taskId="10009" taskName="轮回转世" taskDesc="时不我待，劫龙随时再生，地府即将崩溃，你与崔府君道别，直奔六道轮回而去" minLev="4" taskType="1" scene="6002" point="95,136" sceneId="6002" scenepoint="28,209" preTaskIdList="10008" nextTaskIdList="20010" isClose="1" money="1000" emoney="0" emoney2="0" skillPoint="122" talkNpcId="45001">
+			</info>
+		</content>
+	</node>
+	<!--打开本地操作键盘事件和UI事件-->
+	<node index="3" type="4" auto="1" excuteTime="100">
+		<content open="0" type="3"/>
+	</node>
+	<!--显示或者隐藏传送门-->
+	<node index="1" type="7" auto="1" excuteTime="0">
+		<content id="173001" name="六道轮回" type="7" avatarA="26001" grid="83,92" cfgId="45001" sceneId="6002"/>
+	</node>
+	<node index="311" type="15" auto="1" excuteTime="500">
+		<content id="5"/>
+	</node>
+	<!--主角移动到固定点-->
+	<node index="70" type="8" auto="0" excuteTime="0">
+		<content id="0" type="1" grid="83,92"/>
+	</node>
+	<!--出现开场图片-->
+	<node index="1" type="1" auto="1" excuteTime="0">
+		<content type="2" res="uiRes/story/storybg/endPng.swf" showTime="500" hideTime="5000" waitTime="1000"  msg="{0},当你醒来，发现自己投胎到一个名叫纪府的家族。数年后，你成为族中最天才的少年。" interval="100" left="200" bottom="200" />
+	</node>
+	<!--打开本地操作键盘事件和UI事件-->
+	<node index="3" type="4" auto="1" excuteTime="100">
+		<content open="1" type="3"/>
+	</node>
+	<!--结束-->
+	<node index="10" type="19" auto="1" excuteTime="0">
+		<content taskId="10009"/>
+	</node>
+</root>

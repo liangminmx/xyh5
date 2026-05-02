@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by www.cr173.com (cr173) -->
+<!-- funType	功能id，支持多“,”隔开
+=1，押镖功能
+=2，打开界面NPC
+id	        编号
+name	    名称
+designation	NPC头衔
+avatarA	    npc对应模型id
+halfBody	半身像
+talkId	    闲聊内容
+
+-->
+<NPCInfo>
+	<flag id="10000" name="世界之星" avatarA="204" halfBody="151" talkId="0"/>
+	<!--男女主角-->
+	<npc id="179" name="" designation="" avatarA="" halfBody="179" talkId="" dubbing="" distance="10"/>
+	<npc id="180" name="" designation="" avatarA="" halfBody="180" talkId="" dubbing="" distance="10"/>
+	<!--第一章（雪鹰领）-->
+	<npc id="10001" name="接引女仆" designation="" avatarA="101" halfBody="101" talkId="100001" dubbing="90101" distance="10"/>
+	<npc id="10002" name="宗凌" designation="" avatarA="104" halfBody="104" talkId="100006" dubbing="90104" distance="10"/>
+	<npc id="10003" name="墨阳瑜" designation="" avatarA="103" halfBody="103" talkId="100003" dubbing="90103" distance="10"/>
+	<npc id="10005" name="东伯烈" designation="" avatarA="102" halfBody="102" talkId="100084" dubbing="90102" distance="10"/>
+	<npc id="10007" name="仆人" designation="" avatarA="107" halfBody="105" talkId="100007" dubbing="90107" distance="10"/>
+	<npc id="10008" name="东伯青石" designation="" avatarA="106" halfBody="158" talkId="100008" dubbing="90106" distance="10"/>
+	<npc id="10009" name="铜三" designation="" avatarA="170" halfBody="139" talkId="100009" dubbing="92000" distance="10"/>
+	<npc id="10010" name="樵夫" designation="" avatarA="109" halfBody="107" talkId="100010" dubbing="90109" distance="10"/>
+	<npc id="10011" name="马贩子" designation="" avatarA="108" halfBody="106" talkId="100011" dubbing="90108" distance="10"/>
+	<npc id="10012" name="行脚商" designation="" avatarA="110" halfBody="108" talkId="100012" dubbing="90110" distance="10"/>
+	<npc id="10013" name="仪水城百姓" designation="" avatarA="114" halfBody="112" talkId="100013" dubbing="90114" distance="10"/>
+	<npc id="10014" name="城卫" designation="" avatarA="111" halfBody="109" talkId="100014" dubbing="90111" distance="10"/>
+	<npc id="10015" name="杂货铺掌柜" designation="" avatarA="112" halfBody="110" talkId="100015" dubbing="90112" distance="10"/>
+	<npc id="10016" name="龙山楼楼主" designation="" avatarA="140" halfBody="130" talkId="100047" dubbing="90140" distance="10"/>
+	<npc id="10017" name="白府弟子" designation="" avatarA="138" halfBody="128" talkId="100017" dubbing="90138" distance="10"/>
+	<npc id="10018" name="白源之" designation="大法师" avatarA="105" halfBody="155" talkId="100018" dubbing="90105" distance="10"/>
+	<npc id="10019" name="城卫" designation="" avatarA="111" halfBody="109" talkId="100019" dubbing="90111" distance="10"/>
+	<npc id="10020" name="墨阳琛" designation="" avatarA="143" halfBody="163" talkId="100086" dubbing="90143" distance="10"/>
+	<!--第二章（毁灭山脉）-->
+	<npc id="20001" name="杨程" designation="护卫队长" avatarA="119" halfBody="116" talkId="100020" dubbing="90119" distance="10"/>
+	<npc id="20002" name="家族护卫" designation="" avatarA="118" halfBody="115" talkId="100021" dubbing="90118" distance="10"/>
+	<npc id="20003" name="家族护卫" designation="" avatarA="118" halfBody="115" talkId="100022" dubbing="90118" distance="10"/>
+	<npc id="20004" name="宗凌" designation="" avatarA="104" halfBody="104" talkId="100023" dubbing="90104" distance="10"/>
+	<npc id="20006" name="贵族小姐" designation="" avatarA="113" halfBody="111" talkId="100024" dubbing="90113" distance="10"/>
+	<npc id="20007" name="弯刀盟喽啰" designation="" avatarA="168" halfBody="168" talkId="100025" dubbing="90168" distance="10"/>
+	<npc id="20008" name="弯刀盟精英" designation="" avatarA="169" halfBody="150" talkId="100026" dubbing="90169" distance="10"/>
+	<npc id="20009" name="龙山楼使者" designation="" avatarA="117" halfBody="114" talkId="100027" dubbing="90117" distance="10"/>
+	<npc id="20010" name="家族护卫" designation="" avatarA="118" halfBody="115" talkId="100028" dubbing="90118" distance="10"/>
+	<npc id="20011" name="贵族侍卫" designation="" avatarA="124" halfBody="119" talkId="100029" dubbing="90124" distance="10"/>
+	<!--第三章（卢家堡）-->
+	<npc id="30001" name="元武" designation="" avatarA="121" halfBody="117" talkId="100030" dubbing="90121" distance="10"/>
+	<npc id="30002" name="余靖秋" designation="" avatarA="166" halfBody="141" talkId="100031" dubbing="90166" distance="10"/>
+	<npc id="30003" name="铜三" designation="" avatarA="170" halfBody="139" talkId="100009" dubbing="92000" distance="10"/>
+	<npc id="30004" name="梁雍" designation="" avatarA="124" halfBody="119" talkId="100033" dubbing="90124" distance="10"/>
+	<npc id="30005" name="平民" designation="" avatarA="114" halfBody="112" talkId="100034" dubbing="90114" distance="10"/>
+	<npc id="30006" name="唐熊" designation="" avatarA="122" halfBody="118" talkId="100035" dubbing="90122" distance="10"/>
+	<npc id="30007" name="龙山楼探哨" designation="" avatarA="136" halfBody="126" talkId="100036" dubbing="90136" distance="10"/>
+	<npc id="30008" name="龙山楼探哨" designation="" avatarA="136" halfBody="126" talkId="100037" dubbing="90136" distance="10"/>
+	<npc id="30009" name="司柏荣" designation="" avatarA="123" halfBody="159" talkId="100038" dubbing="90123" distance="10"/>
+	<npc id="30010" name="龙山楼侍卫" designation="" avatarA="151" halfBody="135" talkId="100039" dubbing="90151" distance="10"/>
+	<npc id="30011" name="仇凡" designation="" avatarA="189" halfBody="189" talkId="100040" dubbing="90136" distance="10"/>
+	<!--第四章(清河郡)-->
+	<npc id="40001" name="龙山楼侍卫" designation="" avatarA="151" halfBody="135" talkId="100041" dubbing="90151" distance="10"/>
+	<npc id="40002" name="清河郡居民" designation="" avatarA="112" halfBody="110" talkId="100042" dubbing="90112" distance="10"/>
+	<npc id="40003" name="女子" designation="" avatarA="113" halfBody="111" talkId="100043" dubbing="90113" distance="10"/>
+	<npc id="40004" name="崔府总管" designation="" avatarA="127" halfBody="132" talkId="100044" dubbing="90127" distance="10"/>
+	<npc id="40005" name="龙山楼侍卫" designation="" avatarA="151" halfBody="135" talkId="100045" dubbing="90151" distance="10"/>
+	<npc id="40006" name="仆人" designation="" avatarA="107" halfBody="105" talkId="100046" dubbing="90107" distance="10"/>
+	<npc id="40007" name="龙山楼楼主" designation="" avatarA="140" halfBody="130" talkId="100047" dubbing="90140" distance="10"/>
+	<npc id="40008" name="东伯青石" designation="" avatarA="184" halfBody="156" talkId="100048" dubbing="90106" distance="10"/>
+	<npc id="40009" name="铜三" designation="" avatarA="170" halfBody="139" talkId="100049" dubbing="90170" distance="10"/>
+	<npc id="40010" name="仆人" designation="" avatarA="107" halfBody="105" talkId="100050" dubbing="90107" distance="10"/>
+	<npc avatarA="107" halfBody="105"/>
+	<!--第五章（黑风崖）-->
+	<npc id="50001" name="山民" designation="" avatarA="114" halfBody="112" talkId="100051" dubbing="90114" distance="10"/>
+	<npc id="50002" name="樵夫" designation="" avatarA="109" halfBody="107" talkId="100052" dubbing="90109" distance="10"/>
+	<npc id="50003" name="士兵" designation="" avatarA="151" halfBody="135" talkId="100053" dubbing="90151" distance="10"/>
+	<npc id="50004" name="猎人" designation="" avatarA="128" halfBody="121" talkId="100054" dubbing="90128" distance="10"/>
+	<npc id="50005" name="士兵" designation="" avatarA="151" halfBody="135" talkId="100055" dubbing="90151" distance="10"/>
+	<npc id="50006" name="士兵" designation="" avatarA="150" halfBody="166" talkId="100056" dubbing="90150" distance="10"/>
+	<npc id="50007" name="士兵" designation="" avatarA="150" halfBody="166" talkId="100057" dubbing="90150" distance="10"/>
+	<npc id="50008" name="变异项庞云" designation="" avatarA="200" halfBody="143" talkId="100126" dubbing="90150" distance="10"/>
+	<!--第六章（黑风神宫）-->
+	<npc id="60001" name="黑风神宫守卫" designation="" avatarA="131" halfBody="122" talkId="100058" dubbing="90131" distance="10"/>
+	<npc id="60002" name="黑风神宫守卫" designation="" avatarA="132" halfBody="123" talkId="100059" dubbing="90132" distance="10"/>
+	<npc id="60003" name="雷真" designation="" avatarA="105" halfBody="155" talkId="100060" dubbing="90105" distance="10"/>
+	<npc id="60004" name="黑风神宫守卫" designation="" avatarA="131" halfBody="122" talkId="100061" dubbing="90131" distance="10"/>
+	<npc id="60005" name="黑风神宫守卫" designation="" avatarA="132" halfBody="123" talkId="100062" dubbing="90132" distance="10"/>
+	<npc id="60006" name="金翅大鹏" designation="" avatarA="188" halfBody="188" talkId="100125" dubbing="90132" distance="10"/>
+	<!--第七章（夏都城）-->
+	<npc id="70001" name="靖秋法师" designation="" avatarA="166" halfBody="141" talkId="100065" dubbing="90166" distance="10"/>
+	<npc id="70002" name="薪火宫侍卫" designation="" avatarA="151" halfBody="135" talkId="100064" dubbing="90151" distance="10"/>
+	<npc id="70003" name="夏都城卫" designation="" avatarA="111" halfBody="109" talkId="100063" dubbing="90111" distance="10"/>
+	<npc id="70004" name="薪火宫侍卫" designation="" avatarA="136" halfBody="126" talkId="100066" dubbing="90136" distance="10"/>
+	<npc id="70005" name="梦瑶" designation="" avatarA="101" halfBody="101" talkId="100067" dubbing="90101" distance="10"/>
+	<npc id="70006" name="葛老头" designation="" avatarA="126" halfBody="120" talkId="100068" dubbing="90126" distance="10"/>
+	<npc id="70007" name="薪火宫侍卫" designation="" avatarA="136" halfBody="126" talkId="100069" dubbing="90136" distance="10"/>
+	<npc id="70008" name="长风骑士" designation="" avatarA="171" halfBody="149" talkId="100070" dubbing="90171" distance="10"/>
+	<npc id="70009" name="老仆" designation="" avatarA="112" halfBody="110" talkId="100071" dubbing="90112" distance="10"/>
+	<npc id="70010" name="司家总管" designation="" avatarA="117" halfBody="114" talkId="100072" dubbing="90117" distance="10"/>
+	<npc id="70011" name="少年" designation="" avatarA="138" halfBody="128" talkId="100073" dubbing="90138" distance="10"/>
+	<npc id="70012" name="月老" designation="" avatarA="139" halfBody="129" talkId="100074" dubbing="90139" distance="10"/>
+	<npc id="70013" name="公良府总管" designation="" avatarA="123" halfBody="159" talkId="100075" dubbing="90123" distance="10"/>
+"	<!--npc"	id="70014"	name="公良府总管	"	designation=""	avatarA="142	"	halfBody="1142"	talkId="2503"	dubbing="90142	"	distance="10"/-->
+	<npc id="70015" name="薪火宫宫主" designation="薪火宫" avatarA="140" halfBody="130" talkId="100077" dubbing="90140" distance="10"/>
+	<npc id="70016" name="擂台武师" designation="" avatarA="173" halfBody="169" talkId="100078" dubbing="90173" distance="10"/>
+	<npc id="70017" name="副观主" designation="水源道观" avatarA="172" halfBody="148" talkId="100079" dubbing="90172" distance="10"/>
+	<!--第八章（墨阳家族）-->
+	<npc id="80001" name="渔民" designation="" avatarA="114" halfBody="112" talkId="100013" dubbing="90114" distance="10"/>
+	<npc id="80002" name="墨阳家族守卫" designation="" avatarA="138" halfBody="128" talkId="100081" dubbing="90138" distance="10"/>
+	<npc id="80003" name="雷潮涯守卫" designation="" avatarA="145" halfBody="133" talkId="100082" dubbing="90145" distance="10"/>
+	<npc id="80004" name="墨阳瑜" designation="" avatarA="103" halfBody="103" talkId="100083" dubbing="90103" distance="10"/>
+	<npc id="80005" name="东伯烈" designation="" avatarA="102" halfBody="102" talkId="100084" dubbing="90102" distance="10"/>
+	<npc id="80006" name="许光清" designation="" avatarA="142" halfBody="131" talkId="100085" dubbing="90142" distance="10"/>
+	<npc id="80007" name="墨阳琛" designation="" avatarA="143" halfBody="163" talkId="100086" dubbing="90143" distance="10"/>
+	<npc id="80008" name="墨阳辰白" designation="" avatarA="174" halfBody="170" talkId="100087" dubbing="90174" distance="10"/>
+	<!--第九章（赤云山）-->
+	<npc id="80101" name="濮阳波" designation="" avatarA="175" halfBody="151" talkId="100088" dubbing="90175" distance="10"/>
+	<npc id="80102" name="卓师姐" designation="" avatarA="176" halfBody="142" talkId="100089" dubbing="90176" distance="10"/>
+	<npc id="80103" name="司徒鸿" designation="" avatarA="146" halfBody="164" talkId="100090" dubbing="90146" distance="10"/>
+	<npc id="80104" name="余风" designation="" avatarA="133" halfBody="124" talkId="100091" dubbing="90133" distance="10"/>
+	<npc id="80105" name="宫愚师父" designation="" avatarA="144" halfBody="132" talkId="100092" dubbing="90144" distance="10"/>
+	<npc id="80106" name="司空阳" designation="" avatarA="145" halfBody="133" talkId="100093" dubbing="90145" distance="10"/>
+	<npc id="80107" name="薪火宫宫主" designation="" avatarA="140" halfBody="130" talkId="100094" dubbing="90140" distance="10"/>
+	<npc id="80108" name="都柔柔" designation="" avatarA="147" halfBody="134" talkId="100095" dubbing="90147" distance="10"/>
+	<npc id="80109" name="张鹏" designation="" avatarA="148" halfBody="165" talkId="100096" dubbing="90148" distance="10"/>
+	<!--第十章(小型超凡世界)-->
+	<npc id="80201" name="薪火宫宫主" designation="" avatarA="140" halfBody="130" talkId="100097" dubbing="90140" distance="10"/>
+	<npc id="80202" name="薪火宫探哨" designation="" avatarA="150" halfBody="166" talkId="100098" dubbing="90150" distance="10"/>
+	<npc id="80203" name="薪火宫侍卫" designation="" avatarA="151" halfBody="135" talkId="100099" dubbing="90151" distance="10"/>
+	<npc id="80204" name="薪火宫守卫" designation="" avatarA="151" halfBody="135" talkId="100100" dubbing="90151" distance="10"/>
+	<npc id="80205" name="薪火宫守卫" designation="" avatarA="150" halfBody="166" talkId="100101" dubbing="90150" distance="10"/>
+	<npc id="80206" name="薪火宫守卫" designation="" avatarA="151" halfBody="135" talkId="100102" dubbing="90151" distance="10"/>
+	<!--第十一章（大型超凡世界）-->
+	<npc id="80301" name="小女孩" designation="" avatarA="152" halfBody="167" talkId="100103" dubbing="90152" distance="10"/>
+	<npc id="80302" name="土著老头" designation="" avatarA="126" halfBody="120" talkId="100104" dubbing="90126" distance="10"/>
+	<npc id="80303" name="宝藏猎人" designation="" avatarA="153" halfBody="136" talkId="100105" dubbing="90153" distance="10"/>
+	<npc id="80304" name="路人" designation="" avatarA="128" halfBody="121" talkId="100106" dubbing="90128" distance="10"/>
+	<npc id="80305" name="活死人" designation="" avatarA="154" halfBody="137" talkId="100107" dubbing="90154" distance="10"/>
+	<npc id="80306" name="守门人" designation="" avatarA="129" halfBody="161" talkId="100108" dubbing="90129" distance="10"/>
+	<!--第十二章（魔神会总部）-->
+	<npc id="80401" name="薪火宫宫主" designation="" avatarA="140" halfBody="130" talkId="100109" dubbing="90140" distance="10"/>
+	<npc id="80402" name="濮阳波" designation="" avatarA="175" halfBody="151" talkId="100110" dubbing="90175" distance="10"/>
+	<npc id="80403" name="魔神会祭司" designation="" avatarA="177" halfBody="177" talkId="100111" dubbing="90177" distance="10"/>
+	<npc id="80404" name="长风骑士" designation="" avatarA="171" halfBody="149" talkId="100112" dubbing="90171" distance="10"/>
+	<npc id="80405" name="司空阳" designation="" avatarA="145" halfBody="133" talkId="100113" dubbing="90145" distance="10"/>
+	<npc id="80406" name="宫愚" designation="" avatarA="144" halfBody="132" talkId="100114" dubbing="90144" distance="10"/>
+	<npc id="80407" name="晁青" designation="" avatarA="172" halfBody="148" talkId="100115" dubbing="90172" distance="10"/>
+	<!--第十三章(海神之岛)-->
+	<npc id="80501" name="海神宫侍婢" designation="" avatarA="159" halfBody="138" talkId="100116" dubbing="90159" distance="10"/>
+	<npc id="80502" name="海神宫宫主" designation="" avatarA="178" halfBody="146" talkId="100117" dubbing="90178" distance="10"/>
+	<npc id="80503" name="海神宫神医" designation="" avatarA="126" halfBody="120" talkId="100118" dubbing="90126" distance="10"/>
+	<npc id="80504" name="海神宫女弟子" designation="" avatarA="128" halfBody="121" talkId="100119" dubbing="90128" distance="10"/>
+	<!--第十四章(树海世界)-->
+	<npc id="80601" name="太叔宫主" designation="" avatarA="178" halfBody="146" talkId="100120" dubbing="90178" distance="10"/>
+	<npc id="80602" name="土著狐女" designation="" avatarA="162" halfBody="145" talkId="100121" dubbing="90162" distance="10"/>
+	<npc id="80603" name="土著先知" designation="" avatarA="142" halfBody="131" talkId="100122" dubbing="90142" distance="10"/>
+	<npc id="80604" name="土著长老" designation="" avatarA="143" halfBody="163" talkId="100123" dubbing="90143" distance="10"/>
+	<!--第十五章(浮空岛)-->
+	<npc id="80701" name="东伯雪鹰" designation="" avatarA="178" halfBody="146" talkId="" dubbing="90178" distance="10"/>
+	<npc id="80702" name="晁青" designation="" avatarA="148" halfBody="145" talkId="" dubbing="90162" distance="10"/>
+	<npc id="80703" name="奚微" designation="" avatarA="142" halfBody="131" talkId="" dubbing="90142" distance="10"/>
+	<npc id="80704" name="守关人" designation="" avatarA="143" halfBody="163" talkId="" dubbing="90143" distance="10"/>
+	<npc id="80705" name="红石" designation="" avatarA="143" halfBody="163" talkId="" dubbing="90143" distance="10"/>
+	<npc id="80706" name="梅山主人" designation="" avatarA="143" halfBody="163" talkId="" dubbing="90143" distance="10"/>
+	<!--传送点-->
+	<tp id="45001" name="六道轮回" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6002" pos="26,208" range="50"/>
+	<tp id="45002" name="毁灭山脉" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6003" pos="169.0,7.0" range="50"/>
+	<tp id="45003" name="雪鹰领" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6002" pos="195.0,381.0" range="50"/>
+	<tp id="45004" name="卢家堡" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6004" pos="150.5,16.7" range="50"/>
+	<tp id="45005" name="毁灭山脉" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6003" pos="16.0,101.0" range="50"/>
+	<tp id="45006" name="清河郡" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6005" pos="7.6,199.5" range="50"/>
+	<tp id="45007" name="黑风崖" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6006" pos="151.0,145.0" range="50"/>
+	<tp id="45008" name="卢家堡" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6004" pos="24.6,125.3" range="50"/>
+	<tp id="45009" name="清河郡" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6005" pos="124.0,151.0" range="50"/>
+	<tp id="45010" name="黑风神宫" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6007" pos="107.4,30.5" range="50"/>
+	<tp id="45011" name="黑风崖" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6006" pos="20.6,85.3" range="50"/>
+	<tp id="45012" name="夏都" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6008" pos="40.0,299.9" range="50"/>
+	<tp id="45013" name="黑风神宫" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6007" pos="45.9,144.0" range="50"/>
+	<tp id="45014" name="墨阳家族" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6009" pos="83.0,55.0" range="50"/>
+	<tp id="45015" name="夏都" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6008" pos="280.0,381.0" range="50"/>
+	<tp id="45016" name="赤云山" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6010" pos="49.0,79.1" range="50"/>
+	<tp id="45017" name="墨阳家族" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6009" pos="21.9,193.1" range="50"/>
+	<tp id="45018" name="小型超凡世界" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6011" pos="22.0,34.0" range="50"/>
+	<tp id="45019" name="赤云山" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6010" pos="123.0,62.0" range="50"/>
+	<tp id="45020" name="大型超凡世界" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6015" pos="38.9,11.0" range="50"/>
+	<tp id="45021" name="小型超凡世界" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6011" pos="21.9,104.0" range="50"/>
+	<tp id="45022" name="魔神会总部" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6016" pos="119.0,14.0" range="50"/>
+	<tp id="45023" name="大型超凡世界" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6015" pos="110.8,226.0" range="50"/>
+	<tp id="45024" name="海神之岛" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6018" pos="147,22" range="50"/>
+	<tp id="45025" name="魔神会" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6016" pos="90,149" range="50"/>
+	<tp id="45026" name="树海世界" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6019" pos="155,80" range="50"/>
+	<tp id="45027" name="海神之岛" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6018" pos="19,150" range="50"/>
+	<tp id="45028" name="东林宗" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6011" pos="139,149" range="50"/>
+	<tp id="45029" name="虚空遗迹" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6016" pos="113,33" range="50"/>
+	<tp id="45030" name="寂灭之域" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6012" pos="154,98" range="50"/>
+	<tp id="45031" name="墟境一层" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="3001" pos="37,194" range="50"/>
+	<tp id="45032" name="大夏王都" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6004" pos="28,148" range="50"/>
+	<tp id="45033" name="墟境二层" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="3002" pos="37,194" range="50"/>
+	<tp id="45034" name="墟境一层" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="3001" pos="102,10" range="50"/>
+	<tp id="45035" name="墟境三层" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="3003" pos="37,194" range="50"/>
+	<tp id="45036" name="墟境二层" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="3002" pos="102,10" range="50"/>
+	<tp id="45037" name="墟境四层" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="3004" pos="37,194" range="50"/>
+	<tp id="45038" name="墟境三层" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="3003" pos="102,10" range="50"/>
+	<tp id="45039" name="墟境五层" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="3005" pos="37,194" range="50"/>
+	<tp id="45040" name="墟境四层" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="3004" pos="102,10" range="50"/>
+	<tp id="45041" name="墟境六层" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="3006" pos="37,194" range="50"/>
+	<tp id="45042" name="墟境五层" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="3005" pos="102,10" range="50"/>
+	<tp id="45043" name="墟境七层" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="3007" pos="37,194" range="50"/>
+	<tp id="45044" name="墟境六层" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="3006" pos="102,10" range="50"/>
+	<tp id="45045" name="月下潭" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6013" pos="21,104" range="50"/>
+	<tp id="45046" name="虚空遗迹" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6016" pos="66,59" range="50"/>
+	<tp id="45047" name="无间魔域" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6014" pos="135,11" range="50"/>
+	<tp id="45048" name="月下潭" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6013" pos="101,4" range="50"/>
+	<tp id="45049" name="上古废墟" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6015" pos="10,103" range="50"/>
+	<tp id="45050" name="无间魔域" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6014" pos="25,119" range="50"/>
+	<tp id="45051" name="沙漠遗迹" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6017" pos="124,17" range="50"/>
+	<tp id="45052" name="巫江仙府" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6007" pos="137,14" range="50"/>
+	<tp id="45053" name="雪龙山" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6018" pos="123,11" range="50"/>
+	<tp id="45054" name="黑白学宫" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6006" pos="53,156" range="50"/>
+	<tp id="45055" name="轩辕皇城" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6009" pos="43,96" range="50"/>
+	<tp id="45056" name="无间魔域" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6014" pos="29,115" range="50"/>
+	<tp id="45057" name="明月山水图" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6008" pos="113,242" range="50"/>
+	<tp id="45058" name="仙云台" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="8002" pos="38,21" range="50"/>
+	<tp id="45059" name="夏都城" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6008" pos="98,306" range="50"/>
+	<tp id="45060" name="莲台天阙" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="8003" pos="37,22" range="50"/>
+	<tp id="45061" name="夏都城" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6008" pos="203,72" range="50"/>
+	<tp id="45062" name="苍玄废墟" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6017" pos="39,26" range="50"/>
+	<tp id="45063" name="墨阳家族" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6009" pos="25,119" range="50"/>
+	<tp id="45064" name="莲池仙境" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6014" pos="20,10" range="50"/>
+	<tp id="45065" name="赤云山" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6010" pos="81,13" range="50"/>
+	<tp id="45066" name="森罗鬼域" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6013" pos="52,55" range="50"/>
+	<tp id="45067" name="小型超凡世界" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6011" pos="34,62" range="50"/>
+	<tp id="45068" name="修罗殿" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="8009" pos="20,55" range="50"/>
+	<tp id="45069" name="大型超凡世界" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6015" pos="110,173" range="50"/>
+	<tp id="45070" name="明月殿" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="8008" pos="44,36" range="50"/>
+	<tp id="45071" name="海神之岛" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6018" pos="120,160" range="50"/>
+	<tp id="45072" name="熔岩炼域" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="8010" pos="62,78" range="50"/>
+	<tp id="45073" name="魔神会总部" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6016" pos="34,116" range="50"/>
+	<tp id="45074" name="熔岩古洞" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="8014" pos="86,24" range="50"/>
+	<tp id="45075" name="树海世界" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6019" pos="98,48" range="50"/>
+	<tp id="45076" name="赤魂魔台" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="8015" pos="98,48" range="50"/>
+	<tp id="45077" name="红石山浮空岛" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="8000" pos="98,48" range="50"/>
+	<tp id="45500" name="夏都城" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6008" pos="210,63" range="50"/>
+	<tp id="45501" name="夏都城" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6008" pos="98,309" range="50"/>
+	<tp id="45502" name="墨阳家族" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6009" pos="23,118" range="50"/>
+	<tp id="45503" name="赤云山" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6010" pos="77,9" range="50"/>
+	<tp id="45504" name="小超凡世界" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6011" pos="32,64" range="50"/>
+	<tp id="45505" name="超凡土著巨人" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6015" pos="111,177" range="50"/>
+	<tp id="45506" name="树海世界" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6019" pos="117,158" range="50"/>
+	<tp id="45507" name="海神之岛" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6018" pos="117,158" range="50"/>
+	<tp id="45508" name="血色战台" avatarA="20001" halfBody="1000" talkId="0" minLev="1" sceneId="6021" pos="117,158" range="50"/>
+	<!--跳跃点-->
+	<jump id="10021" name="" avatarA="209" jumpposx="161.9" jumpposy="32.0" injump="137.0,29.0;148.0,26.0" range="50"/>
+	<jump id="10022" name="" avatarA="209" jumpposx="138.9" jumpposy="90.0" injump="159.5,86.4" range="50"/>
+	<jump id="10027" name="" avatarA="209" jumpposx="166.0" jumpposy="65.0" injump="159.5,86.4" range="50"/>
+	<jump id="10023" name="" avatarA="209" jumpposx="100.0" jumpposy="74.0" injump="121.6,78.0;111.6,64.6" range="50"/>
+	<jump id="10028" name="" avatarA="209" jumpposx="132.0" jumpposy="94.0" injump="108.7,89.7;119.5,89.2" range="50"/>
+	<jump id="10024" name="" avatarA="209" jumpposx="38.0" jumpposy="106.0" injump="58.5,94.3;50.2,98.0" range="50"/>
+	<jump id="10025" name="" avatarA="209" jumpposx="73.9" jumpposy="140.0" injump="64.8,134.7" range="50"/>
+	<jump id="10029" name="" avatarA="209" jumpposx="41.3" jumpposy="139.9" injump="56.0,151.0" range="50"/>
+	<jump id="10026" name="" avatarA="209" jumpposx="197.0" jumpposy="109.9" injump="174.1,111.9;181.0,106.6" range="50"/>
+	<jump id="10030" name="" avatarA="209" jumpposx="190.7" jumpposy="134.0" injump="197.9,120.9" range="50"/>
+	<jump id="10031" name="" avatarA="209" jumpposx="197.0" jumpposy="111.1" injump="197.9,120.9" range="50"/>
+    <jump id="10032" name="" avatarA="209" jumpposx="70.0" jumpposy="94.0" injump="50.2,98.0;58.5,94.3" range="50"/>
+	<jump id="10033" name="" avatarA="209" jumpposx="84.9" jumpposy="192.0" injump="62.9,187.0;71.0,193.0" range="50"/>
+	<jump id="10034" name="" avatarA="209" jumpposx="59.1" jumpposy="169.3" injump="67.0,172.0" range="50"/>
+	<!--主线任务-->
+	<collect id="11001" name="寒冰草" designation="" avatarA="116" halfBody="50010" talkId="6692" collectDesc="正在采集"/>
+	<collect id="11002" name="何首乌" designation="" avatarA="120" halfBody="50010" talkId="6692" collectDesc="正在采集"/>
+	<collect id="11003" name="紫晶精华" designation="" avatarA="125" halfBody="50010" talkId="6692" collectDesc="正在采集"/>
+	<collect id="11004" name="海洋界石" designation="" avatarA="130" halfBody="50010" talkId="6692" collectDesc="正在采集"/>
+	<collect id="11005" name="铁木灵叶" designation="" avatarA="141" halfBody="50010" talkId="6692" collectDesc="正在采集"/>
+	<collect id="11006" name="火莲果" designation="" avatarA="149" halfBody="50010" talkId="6692" collectDesc="正在采集"/>
+	<collect id="11007" name="白花蛇舌草" designation="" avatarA="155" halfBody="50010" talkId="6692" collectDesc="正在收集"/>
+	<collect id="11008" name="六神曲" designation="" avatarA="156" halfBody="50010" talkId="6692" collectDesc="正在采集"/>
+	<collect id="11009" name="火焰灵菇" designation="" avatarA="157" halfBody="50010" talkId="6692" collectDesc="正在采集"/>
+	<collect id="11010" name="紫魂母莲" designation="" avatarA="158" halfBody="50010" talkId="6692" collectDesc="记忆"/>
+	<collect id="11011" name="海神花" designation="" avatarA="160" halfBody="50010" talkId="6692" collectDesc="正在采集"/>
+	<collect id="11012" name="镇元棍" designation="" avatarA="161" halfBody="50010" talkId="6692" collectDesc="正在采集"/>
+	<collect id="11013" name="龟息草" designation="" avatarA="163" halfBody="50010" talkId="6692" collectDesc="正在采集"/>
+	<collect id="11014" name="兽血花" designation="" avatarA="164" halfBody="50010" talkId="6692" collectDesc="正在采集"/>
+	<collect id="11015" name="树海之心" designation="" avatarA="165" halfBody="50010" talkId="6692" collectDesc="正在采集"/>
+	<collect id="11016" name="青婴花" designation="" avatarA="165" halfBody="50010" talkId="6692" collectDesc="正在采集"/>
+	<collect id="11017" name="腐骨灵花" designation="" avatarA="165" halfBody="50010" talkId="6692" collectDesc="正在采集"/>
+	<!--装备副本-->
+	<euqipfbmap id="90000" name="机关木人" designation="" avatarA="201" halfBody="50010" talkId="6692" collectDesc="正在采集"/>
+	<euqipfbmap id="90001" name="机关木人" designation="" avatarA="201" halfBody="50010" talkId="6692" collectDesc="正在采集"/>
+	<euqipfbmap id="90002" name="机关木人" designation="" avatarA="201" halfBody="50010" talkId="6692" collectDesc="正在采集"/>
+	<euqipfbmap id="90003" name="机关木人" designation="" avatarA="201" halfBody="50010" talkId="6692" collectDesc="正在采集"/>
+	<euqipfbmap id="90004" name="机关木人" designation="" avatarA="201" halfBody="50010" talkId="6692" collectDesc="正在采集"/>
+	<euqipfbmap id="90005" name="机关木人" designation="" avatarA="201" halfBody="50010" talkId="6692" collectDesc="正在采集"/>
+	<euqipfbmap id="90006" name="机关木人" designation="" avatarA="201" halfBody="50010" talkId="6692" collectDesc="正在采集"/>
+	<euqipfbmap id="90007" name="机关木人" designation="" avatarA="201" halfBody="50010" talkId="6692" collectDesc="正在采集"/>
+	<euqipfbmap id="90008" name="机关木人" designation="" avatarA="201" halfBody="50010" talkId="6692" collectDesc="正在采集"/>
+	<euqipfbmap id="90009" name="机关木人" designation="" avatarA="201" halfBody="50010" talkId="6692" collectDesc="正在采集"/>
+	<euqipfbmap id="90010" name="机关木人" designation="" avatarA="201" halfBody="50010" talkId="6692" collectDesc="正在采集"/>
+	<euqipfbmap id="90011" name="机关木人" designation="" avatarA="201" halfBody="50010" talkId="6692" collectDesc="正在采集"/>
+	<euqipfbmap id="90012" name="机关木人" designation="" avatarA="201" halfBody="50010" talkId="6692" collectDesc="正在采集"/>
+	<euqipfbmap id="90013" name="机关木人" designation="" avatarA="201" halfBody="50010" talkId="6692" collectDesc="正在采集"/>
+	<euqipfbmap id="90014" name="机关木人" designation="" avatarA="201" halfBody="50010" talkId="6692" collectDesc="正在采集"/>
+	<euqipfbmap id="90015" name="机关木人" designation="" avatarA="201" halfBody="50010" talkId="6692" collectDesc="正在采集"/>
+	<!--黑风神宫副本-->
+	<babel id="95500" name="下一层" avatarA="20001" halfBody="1000" talkId="0"/>
+	<!--装备副本传送点-->
+	<euqipfbmap_fb id="95000" name="门" avatarA="20001" halfBody="151" talkId="0"/>
+	<!--多人副本-->
+	<fb_portal id="40000" name="门" avatarA="20001" halfBody="151" talkId="0"/>
+	<!--押镖npc-->
+	<escort id="20000" name="福銮" designation="源石总管" avatarA="166" halfBody="141" talkId="100124" funType="1" funDesc="护送源石车"/>
+	<!--家族领地NPC-->
+	<escort id="20120" name="道尘" designation="家族发展" avatarA="121" halfBody="1121" talkId="100" funType="2" limittype="3" limit_guideid="106" target_ui="GuildUIPanelExt|mc_MainGroup_2|0" funDesc="查看家族发展" failmsg="很抱歉，家族功能未开启"/>
+	<escort id="20104" name="包满意" designation="家族商店" avatarA="142" halfBody="1142" talkId="104" funType="2" limittype="3" limit_guideid="106" target_ui="GuildUIPanelExt|mc_MainGroup_4" funDesc="查看家族商店" failmsg="很抱歉，家族功能未开启"/>
+	<escort id="20110" name="莫卿城" designation="家族列表" avatarA="147" halfBody="1147" talkId="110" funType="2" limittype="3" limit_guideid="106" target_ui="GuildUIPanelExt|mc_MainGroup_6" funDesc="查看家族列表" failmsg="很抱歉，家族功能未开启"/>
+	<escort id="20121" name="战纪" designation="家族领地" avatarA="213" halfBody="1213" talkId="109" funType="2" limittype="3" limit_guideid="106" target_ui="GuildUIPanelExt|mc_MainGroup_5|0" funDesc="查看家族领地" failmsg="很抱歉，家族功能未开启"/>
+	<escort id="20108" name="金戈" designation="家族战场" avatarA="111" halfBody="" talkId="108" funType="2" limittype="3" limit_guideid="106" target_ui="PlayerPanelExt|SHOW_TAB_CLOAK" funDesc="家族战场" failmsg="很抱歉，家族功能未开启"/>
+	<escort id="20103" name="包馆" designation="家族仓库" avatarA="111" halfBody="" talkId="103" funType="2" limittype="3" limit_guideid="106" target_ui="V_ActivitiesHallUI|Activity_Time" funDesc="查看仓库" failmsg="很抱歉，家族功能未开启"/>
+	<escort id="20122" name="斩仙" designation="挑战大妖" avatarA="111" halfBody="" talkId="105" funType="2" limittype="3" limit_guideid="106" target_ui="PlayerPanelExt|SHOW_TAB_CLOAK" funDesc="挑战大妖" failmsg="很抱歉，家族功能未开启"/>
+	<npc id="20111" name="" designation="" avatarA="519" halfBody="151" talkId="111"/>
+	<npc id="20112" name="" designation="" avatarA="503" halfBody="151" talkId="112"/>
+	<npc id="20113" name="寂灭之域" designation="领地旗帜" avatarA="519" halfBody="151" talkId="113"/>
+	<npc id="20114" name="寂灭之域" designation="领地旗帜" avatarA="502" halfBody="151" talkId="114"/>
+	<npc id="20115" name="纪氏西府" designation="西府臣子令" avatarA="519" halfBody="151" talkId="115"/>
+	<npc id="20116" name="纪氏西府" designation="西府臣子令" avatarA="501" halfBody="151" talkId="116"/>
+	<dinner_collect id="20117" name="深海鱼翅" designation="" avatarA="181" halfBody="" talkId="6692" collectDesc="正在享用家族大宴"/>
+	<dinner_collect id="20118" name="青琉仙烧鹅" designation="" avatarA="182" halfBody="" talkId="6692" collectDesc="正在享用家族大宴"/>
+	<dinner_collect id="20119" name="十全大补汤" designation="" avatarA="183" halfBody="" talkId="6692" collectDesc="正在享用家族大宴"/>
+	<!--领主雕像-->
+	<escort id="21000" name="领主雕像" designation="小型超凡世界" avatarA="202" halfBody="151" talkId="100124" funType="3" limittype="1" limit_lev="56" target_ui="CapitalMobaiPanelExt" funDesc="膜拜领主" failmsg="等级不足无法膜拜"/>
+	<!--结婚-->
+	<wedding id="99999" name="红包" designation="" avatarA="158" halfBody="50010" talkId="6692" collectDesc="正在采集"/>
+	<!--薪火幻域神石-->
+	<xinhuohuanyu id="470001" name="血月神石" designation="" avatarA="205" halfBody="" talkId="" collectDesc="正在拾取"/>
+	<xinhuohuanyu id="470002" name="地婴神石" designation="" avatarA="206" halfBody="" talkId="" collectDesc="正在拾取"/>
+	<xinhuohuanyu id="470003" name="幽影神石" designation="" avatarA="208" halfBody="" talkId="" collectDesc="正在拾取"/>
+	<xinhuohuanyu id="470004" name="虚缈神石" designation="" avatarA="207" halfBody="" talkId="" collectDesc="正在拾取"/>
+	<!--红石山-->
+	<redstone_collect id="100001" name="寒冰草" avatarA="158" halfBody="151" collectDesc="正在采集"/>
+	<redstone_transfer id="100002" name="红石山" avatarA="20001" halfBody="151" talkId="0"/>
+	<redstone_transfer id="100003" name="红石山北" avatarA="20001" halfBody="151" talkId="0"/>
+	<redstone_transfer id="100004" name="红石山西" avatarA="20001" halfBody="151" talkId="0"/>
+	<redstone_transfer id="100005" name="红石山南" avatarA="20001" halfBody="151" talkId="0"/>
+	<redstone_transfer id="100006" name="红石山东" avatarA="20001" halfBody="151" talkId="0"/>
+	<redstone_transfer id="100007" name="红石山" avatarA="20001" halfBody="151" talkId="0"/>
+	<redstone_transfer id="100008" name="红石山" avatarA="20001" halfBody="151" talkId="0"/>
+	<redstone_transfer id="100009" name="红石山" avatarA="20001" halfBody="151" talkId="0"/>
+	<redstone_transfer id="100010" name="红石山" avatarA="20001" halfBody="151" talkId="0"/>
+	<!--红石山宝箱-->
+	<redStoneChest id="470011" name="青铜宝箱" designation="" avatarA="185" halfBody="" talkId="" collectDesc="正在拾取" chest="1"/>
+	<redStoneChest id="470012" name="白银宝箱" designation="" avatarA="186" halfBody="" talkId="" collectDesc="正在拾取" chest="2"/>
+	<redStoneChest id="470013" name="黄金宝箱" designation="" avatarA="187" halfBody="" talkId="" collectDesc="正在拾取" chest="3"/>
+</NPCInfo>

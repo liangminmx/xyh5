@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- 
+functionid	雁塔补偿活动开启ID			
+opentime	活动开放时间 格式为2019-4-24 00:00:00,2019-4-25 00:00:00			
+layer	层数			
+fight	预估战力			
+				
+itemid	道具id（多个逗号隔开）			
+num	道具数量（多个逗号隔开）			
+bmoney	绑元奖励			
+money	银两奖励			
+
+
+
+-->
+<root>
+	<function functionid="6694" opentime="2019-4-28 00:00:00,2019-5-3 23:59:59"/>
+	<layer layer="20" fight="196000000"/>
+	<layer layer="30" fight="329000000"/>
+	<layer layer="40" fight="490000000"/>
+	<layer layer="50" fight="560000000"/>
+	<layer layer="60" fight="700000000"/>
+	<layer layer="70" fight="910000000"/>
+	<layer layer="80" fight="1120000000"/>
+	<layer layer="90" fight="1250000000"/>
+	<layer layer="100" fight="1730000000"/>
+	<poor itemid="13010071,16010033,10000008,10000007,16010022,10000100" num="1,20,20000,30000,200,100" bmoney="" money=""/>
+
+</root>

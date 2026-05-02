@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+functionid	功能id			
+chenghaoid	称号id			
+name	称号名字			
+icon	称号展示avatarid
+nameicon 称号名字图片id			
+costid	消耗道具id			
+num	消耗道具数量			
+type	激活属性类型			
+parameter	激活属性值			
+des	获取途径			
+facelink	界面id			
+length  称号时限
+aboutrecharge 特殊字段，用于平台屏蔽
+		
+
+
+
+-->
+	<function functionid="2025"/>
+	<chenghao chenghaoid="10" name="科举状元" icon="10010" nameicon="1" costid="13010006" num="1" type="101,102,103" parameter="9464,786,393" des="答题活动第一名" facelink="" length="1"/>
+	<chenghao chenghaoid="11" name="科举榜眼" icon="10011" nameicon="2" costid="13010007" num="1" type="101,102,103" parameter="6464,536,268" des="答题活动第二名" facelink="" length="1"/>
+	<chenghao chenghaoid="12" name="科举探花" icon="10012" nameicon="3" costid="13010008" num="1" type="101,102,103" parameter="4451,370,185" des="答题活动第三名" facelink="" length="1"/>
+	<chenghao chenghaoid="13" name="科举进士" icon="10013" nameicon="4" costid="13010009" num="1" type="101,102,103" parameter="3368,276,138" des="答题活动第四至十名" facelink="" length="1"/>
+	<chenghao chenghaoid="14" name="问鼎华山" icon="10014" nameicon="5" costid="13010010" num="1" type="101,102,103" parameter="19440,1620,810" des="华山论剑商店" facelink="" length="7"/>
+	<chenghao chenghaoid="15" name="取经人" icon="10015" nameicon="6" costid="13010011" num="1" type="101,102,103" parameter="9464,786,393" des="七日登录" facelink="" length="-1"/>
+	<chenghao chenghaoid="16" name="江湖小虾" icon="10027" nameicon="18" costid="13010023" num="1" type="101,102,103" parameter="3368,279,138" des="运营活动" facelink="" length="-1"/>
+	<chenghao chenghaoid="31" name="一骑当千" icon="10016" nameicon="7" costid="13010015" num="1" type="101,102,103" parameter="44478,3702,1851" des="坐骑进阶排行第一名" facelink="" length="-1"/>
+	<chenghao chenghaoid="32" name="七十二变" icon="10017" nameicon="8" costid="13010016" num="1" type="101,102,103" parameter="44478,3702,1851" des="变身进阶排行第一名" facelink="" length="-1"/>
+	<chenghao chenghaoid="33" name="扶摇直上" icon="10018" nameicon="9" costid="13010017" num="1" type="101,102,103" parameter="44478,3702,1851" des="羽翼进阶排行第一名" facelink="" length="-1"/>
+	<chenghao chenghaoid="34" name="巧夺天工" icon="10019" nameicon="10" costid="13010018" num="1" type="101,102,103" parameter="44478,3702,1851" des="法宝进阶排行第一名" facelink="" length="-1"/>
+	<chenghao chenghaoid="35" name="奇门遁甲" icon="10020" nameicon="11" costid="13010019" num="1" type="101,102,103" parameter="44478,3702,1851" des="法阵进阶排行第一名" facelink="" length="-1"/>
+	<chenghao chenghaoid="36" name="神宠青睐" icon="10021" nameicon="12" costid="13010020" num="1" type="101,102,103" parameter="44478,3702,1851" des="宠物进阶排行第一名" facelink="" length="-1"/>
+	<chenghao chenghaoid="37" name="风雨同舟" icon="10022" nameicon="13" costid="13010021" num="1" type="101,102,103" parameter="44478,3702,1851" des="伙伴进阶排行第一名" facelink="" length="-1"/>
+	<chenghao chenghaoid="38" name="斗战胜佛" icon="10023" nameicon="14" costid="13010022" num="1" type="101,102,103" parameter="44478,3702,1851" des="战力进阶排行第一名" facelink="" length="-1"/>
+	<chenghao chenghaoid="39" name="无上真仙" icon="10028" nameicon="19" costid="13010024" num="1" type="101,102,103" parameter="44478,3702,1851" des="仙位进阶排行第一名" facelink="" length="-1"/>
+	<chenghao chenghaoid="40" name="除魔霸主" icon="10024" nameicon="15" costid="13010012" num="1" type="101,102,103" parameter="9464,786,393" des="三界除魔活动排行第一名" facelink="" length="1"/>
+	<chenghao chenghaoid="41" name="除魔勇士" icon="10025" nameicon="16" costid="13010013" num="1" type="101,102,103" parameter="6464,536,268" des="三界除魔活动排行第二至三名" facelink="" length="1"/>
+	<chenghao chenghaoid="42" name="除魔先锋" icon="10026" nameicon="17" costid="13010014" num="1" type="101,102,103" parameter="4451,370,185" des="三界除魔活动排行第四至十名" facelink="" length="1"/>
+	<chenghao chenghaoid="50" name="比武状元" icon="10050" nameicon="50" costid="13010050" num="1" type="101,102,103" parameter="19440,1620,810" des="比武大会第一名" facelink="" length="1"/>
+	<chenghao chenghaoid="51" name="比武榜眼" icon="10051" nameicon="51" costid="13010051" num="1" type="101,102,103" parameter="9464,786,393" des="比武大会第二名" facelink="" length="1"/>
+	<chenghao chenghaoid="52" name="比武探花" icon="10052" nameicon="52" costid="13010052" num="1" type="101,102,103" parameter="4451,370,185" des="比武大会第三名" facelink="" length="1"/>
+	<chenghao chenghaoid="53" name="比武精英" icon="10053" nameicon="53" costid="13010053" num="1" type="101,102,103" parameter="3368,276,138" des="比武大会第四至十名" facelink="" length="1"/>
+	<chenghao chenghaoid="54" name="明日之星" icon="10054" nameicon="54" costid="13010054" num="1" type="101,102,103" parameter="3368,276,138" des="比武商店" facelink="" length="-1"/>
+	<chenghao chenghaoid="55" name="武林高手" icon="10055" nameicon="55" costid="13010055" num="1" type="101,102,103" parameter="4440,370,185" des="比武商店" facelink="" length="-1"/>
+	<chenghao chenghaoid="56" name="绝世奇才" icon="10056" nameicon="56" costid="13010056" num="1" type="101,102,103" parameter="9464,786,393" des="比武商店" facelink="" length="-1"/>
+	<chenghao chenghaoid="57" name="威震三界" icon="10057" nameicon="57" costid="13010057" num="1" type="101,102,103" parameter="19440,1620,810" des="比武商店" facelink="" length="-1"/>
+	<chenghao chenghaoid="58" name="盖世英雄" icon="10058" nameicon="58" costid="13010058" num="1" type="101,102,103" parameter="24464,2036,1018" des="比武商店" facelink="" length="-1"/>
+	<chenghao chenghaoid="60" name="富甲天下" icon="10060" nameicon="60" costid="13010060" num="1" type="101,102,103" parameter="4451,370,185" des="连充返利活动专有称号" facelink="" length="14" aboutrecharge="1"/>
+	<chenghao chenghaoid="61" name="有钱任性" icon="10061" nameicon="61" costid="13010061" num="1" type="101,102,103" parameter="9464,786,393" des="消费返利活动专有称号" facelink="" length="14" aboutrecharge="1"/>
+	<chenghao chenghaoid="62" name="挥金如土" icon="10062" nameicon="62" costid="13010062" num="1" type="101,102,103" parameter="24464,2036,1018" des="消费返利活动专有称号" facelink="" length="14" aboutrecharge="1"/>
+	<chenghao chenghaoid="64" name="一路向西" icon="10064" nameicon="64" costid="13010064" num="1" type="101,102,103" parameter="9464,786,393" des="0元购" facelink="" length="-1"/>
+	<chenghao chenghaoid="65" name="齐天大圣" icon="10065" nameicon="65" costid="13010065" num="1" type="101,102,103" parameter="9464,786,393" des="0元购" facelink="" length="-1"/>
+	<chenghao chenghaoid="66" name="西游首富" icon="10066" nameicon="66" costid="13010066" num="1" type="101,102,103" parameter="9464,786,393" des="0元购" facelink="" length="-1"/>
+	<chenghao chenghaoid="67" name="寻宝达人" icon="10067" nameicon="67" costid="13010067" num="1" type="101,102,103" parameter="9464,786,393" des="0元购" facelink="" length="-1"/>
+	<chenghao chenghaoid="68" name="一掷千金" icon="10068" nameicon="68" costid="13010068" num="1" type="101,102,103" parameter="9464,786,393" des="0元购" facelink="" length="-1"/>
+	<chenghao chenghaoid="69" name="追星人" icon="10069" nameicon="69" costid="13010069" num="1" type="101,102,103" parameter="9464,786,393" des="0元购" facelink="" length="-1"/>
+	<chenghao chenghaoid="70" name="紫气东来" icon="10070" nameicon="70" costid="13010070" num="1" type="101,102,103" parameter="44478,3702,1851" des="灵骑进阶排行第一名" facelink="" length="-1"/>
+	<chenghao chenghaoid="71" name="守序者" icon="10071" nameicon="71" costid="13010071" num="1" type="101,102,103" parameter="88888,6666,6666" des="给予维护游戏秩序玩家的奖励" facelink="" length="-1"/>
+</root>

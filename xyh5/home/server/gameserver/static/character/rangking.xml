@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ranking>
+	<!--
+openLev	开放等级
+cd	刷新cd
+top	魁首汇总
+power 具体实力点排行
+id	   功能编号
+name   功能名称
+-->
+	<openLev openLev="50"/>
+	<cd cd="300"/>
+	<minLev minLev="30"/>
+	<top id="1" name="等级魁首"/>
+	<top id="2" name="战斗力魁首"/>
+	<top id="3" name="坐骑魁首"/>
+	<top id="4" name="羽翼魁首"/>
+	<top id="5" name="神兵魁首"/>
+	<top id="6" name="神弓魁首"/>
+	<top id="7" name="神魔盾魁首"/>
+	<top id="8" name="第二元神魁首"/>
+	<top id="9" name="披风魁首"/>
+	<top id="10" name="灵兽魁首"/>
+	<top id="11" name="女娲图魁首"/>
+	<top id="12" name="崇拜榜魁首"/>
+	<top id="13" name="人物境界魁首"/>
+	<top id="14" name="单服送花魁首"/>
+	<top id="15" name="单服收花魁首"/>
+	<power id="1" name="等级魁首"/>
+	<power id="2" name="战斗力魁首"/>
+	<power id="3" name="坐骑魁首"/>
+	<power id="4" name="羽翼魁首"/>
+	<power id="5" name="神兵魁首"/>
+	<power id="6" name="神弓魁首"/>
+	<power id="7" name="神魔盾魁首"/>
+	<power id="8" name="第二元神魁首"/>
+	<power id="9" name="披风魁首"/>
+	<power id="10" name="灵兽魁首"/>
+	<power id="11" name="女娲图魁首"/>
+	<power id="12" name="崇拜榜魁首"/>
+	<power id="13" name="人物境界魁首"/>
+	<power id="14" name="单服送花魁首"/>
+	<power id="15" name="单服收花魁首"/>
+	<worship max="10" exp="100" skillpoint="1000" appoint="1"/>
+</ranking>

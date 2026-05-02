@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+FunctionId	功能id	1	Function
+dec	提示信息	1	dec
+grouplvid	图鉴组合id	1	para
+grouplv	图鉴组合所需图鉴等级	1	para
+grouplvpara	图鉴组合等级属性系数,万分比	1	para
+type	图鉴类型：1装备图鉴；2宠物图鉴；3伙伴图鉴；4怪物图鉴；5特殊图鉴	1	type
+typename	图鉴类型名称	1	type
+groupid	组合id(组合id小的排前面)	2	group
+groupname	组合名称	2	group
+grouporder	组合序列,需配置多个图鉴id,多个图鉴id组合一个组合	2	group
+groupadd	图鉴组合基础加成属性
+用,和;隔开
+,前后分别代表属性id和加成的数值
+;前后分别代表一条单独的属性加成	2	group
+			
+id	图鉴id	2	picture
+name	图鉴名称	2	picture
+icon	图鉴icon	2	picture
+item	激活/升级消耗道具id	2	picture
+quality	图鉴品质	2	picture
+			
+qualityid	品质id	1	quality
+lv	图鉴等级区间，用“，”隔开，代表数字之间的闭区间	1	quality
+num	从上一级升到该等级所需道具数量	1	quality
+add	该区间内每级图鉴加成
+用,和;隔开
+,前后分别代表属性id和加成的数值
+;前后分别代表一条单独的属性加成	1	quality
+
+-->
+	<function functionid="2102"/>
+	<dec dec="此处显示该类图鉴的属性总加成（含激活加成和组合加成）"/>
+	<para grouplvid="1" grouplv="1" grouplvpara="10000"/>
+	<para grouplvid="2" grouplv="3" grouplvpara="20000"/>
+	<para grouplvid="3" grouplv="5" grouplvpara="30000"/>
+	<para grouplvid="4" grouplv="7" grouplvpara="50000"/>
+	<para grouplvid="5" grouplv="10" grouplvpara="70000"/>
+	<para grouplvid="6" grouplv="15" grouplvpara="80000"/>
+	<para grouplvid="7" grouplv="20" grouplvpara="100000"/>
+	<para grouplvid="8" grouplv="30" grouplvpara="130000"/>
+	<para grouplvid="9" grouplv="50" grouplvpara="170000"/>
+	<para grouplvid="10" grouplv="100" grouplvpara="300000"/>
+	<quality qualityid="2">
+		<lv lv="1,10" num="1" add="102,100;103,50;101,1200"/>
+		<lv lv="11,20" num="2" add="102,160;103,80;101,1920"/>
+		<lv lv="21,30" num="3" add="102,220;103,110;101,2640"/>
+		<lv lv="31,50" num="4" add="102,280;103,140;101,3360"/>
+		<lv lv="51,100" num="6" add="102,360;103,180;101,4320"/>
+		<lv lv="101,200" num="8" add="102,440;103,220;101,5280"/>
+		<lv lv="201,999" num="10" add="102,500;103,250;101,6000"/>
+	</quality>
+	<quality qualityid="3">
+		<lv lv="1,10" num="1" add="102,300;103,150;101,3600"/>
+		<lv lv="11,20" num="2" add="102,480;103,240;101,5760"/>
+		<lv lv="21,30" num="3" add="102,660;103,330;101,7920"/>
+		<lv lv="31,50" num="4" add="102,840;103,420;101,10080"/>
+		<lv lv="51,100" num="6" add="102,1080;103,540;101,12960"/>
+		<lv lv="101,200" num="8" add="102,1320;103,660;101,15840"/>
+		<lv lv="201,999" num="10" add="102,1500;103,750;101,18000"/>
+	</quality>
+	<quality qualityid="4">
+		<lv lv="1,10" num="1" add="102,1200;103,600;101,14400"/>
+		<lv lv="11,20" num="2" add="102,1920;103,960;101,23040"/>
+		<lv lv="21,30" num="3" add="102,2640;103,1320;101,31680"/>
+		<lv lv="31,50" num="4" add="102,3360;103,1680;101,40320"/>
+		<lv lv="51,100" num="6" add="102,4320;103,2160;101,51840"/>
+		<lv lv="101,200" num="8" add="102,5280;103,2640;101,63360"/>
+		<lv lv="201,999" num="10" add="102,6000;103,3000;101,72000"/>
+	</quality>
+	<quality qualityid="5">
+		<lv lv="1,10" num="1" add="102,7000;103,3500;101,84000"/>
+		<lv lv="11,20" num="2" add="102,11200;103,5600;101,134400"/>
+		<lv lv="21,30" num="3" add="102,15400;103,7700;101,184800"/>
+		<lv lv="31,50" num="4" add="102,19600;103,9800;101,235200"/>
+		<lv lv="51,100" num="6" add="102,25200;103,12600;101,302400"/>
+		<lv lv="101,200" num="8" add="102,30800;103,15400;101,369600"/>
+		<lv lv="201,999" num="10" add="102,35000;103,17500;101,420000"/>
+	</quality>
+	<type type="1" typename="宠物图鉴">
+		<group groupid="1" groupname="虾兵蟹将" grouporder="201,202,203,204" groupadd="102,270;103,130;101,3200"/>
+		<group groupid="2" groupname="龙宫三杰" grouporder="209,205,206" groupadd="102,400;103,200;101,4800"/>
+		<group groupid="3" groupname="瑶池散仙" grouporder="210,211,212,208" groupadd="102,730;103,370;101,8800"/>
+		<group groupid="4" groupname="天宫众仙" grouporder="213,214,215,216" groupadd="102,800;103,400;101,9600"/>
+		<group groupid="5" groupname="萌宠无敌" grouporder="217,207" groupadd="102,400;103,200;101,4800"/>
+		<group groupid="6" groupname="九霄神兽" grouporder="218,219,220" groupadd="102,1000;103,500;101,12000"/>
+		<group groupid="7" groupname="八方瑞兽" grouporder="221,222,223" groupadd="102,1000;103,500;101,12000"/>
+		<picture id="201" name="小海龟" icon="300024" item="19000201" quality="2"/>
+		<picture id="202" name="巨蛙" icon="300038" item="19000202" quality="2"/>
+		<picture id="203" name="寄居蟹" icon="300010" item="19000203" quality="2"/>
+		<picture id="204" name="海星" icon="300039" item="19000204" quality="2"/>
+		<picture id="205" name="虾兵" icon="300035" item="19000205" quality="2"/>
+		<picture id="206" name="蟹将" icon="300037" item="19000206" quality="2"/>
+		<picture id="207" name="泡泡" icon="300054" item="19000207" quality="2"/>
+		<picture id="208" name="仙鹤童子" icon="300023" item="19000208" quality="3"/>
+		<picture id="209" name="上古瑞兽" icon="300013" item="19000209" quality="4"/>
+		<picture id="210" name="蟠桃童子" icon="300015" item="19000210" quality="4"/>
+		<picture id="211" name="瑶池天兵" icon="300018" item="19000211" quality="4"/>
+		<picture id="212" name="彩凤仙女" icon="300002" item="19000212" quality="4"/>
+		<picture id="213" name="芙蓉仙女" icon="300003" item="19000213" quality="4"/>
+		<picture id="214" name="吞天虎" icon="300020" item="19000214" quality="4"/>
+		<picture id="215" name="西海蛟龙" icon="300021" item="19000215" quality="4"/>
+		<picture id="216" name="巡天神将" icon="300014" item="19000216" quality="4"/>
+		<picture id="217" name="超级泡泡" icon="300004" item="19000217" quality="5"/>
+		<picture id="218" name="鲲鹏" icon="300006" item="19000218" quality="5"/>
+		<picture id="219" name="小火龙" icon="300025" item="19000219" quality="5"/>
+		<picture id="220" name="白泽" icon="300001" item="19000220" quality="5"/>
+		<picture id="221" name="熊猫" icon="300029" item="19000221" quality="5"/>
+		<picture id="222" name="九色鹿" icon="300011" item="19000222" quality="5"/>
+		<picture id="223" name="哮天犬" icon="300027" item="19000223" quality="5"/>
+	</type>
+	<type type="2" typename="伙伴图鉴">
+		<group groupid="1" groupname="生死轮回" grouporder="301,302" groupadd="102,270;103,130;101,3200"/>
+		<group groupid="2" groupname="济世为怀" grouporder="303,304" groupadd="102,270;103,130;101,3200"/>
+		<group groupid="3" groupname="道法自然" grouporder="305,306" groupadd="102,270;103,130;101,3200"/>
+		<group groupid="4" groupname="姐妹情深" grouporder="307,308" groupadd="102,270;103,130;101,3200"/>
+		<group groupid="5" groupname="天界下凡" grouporder="325,309" groupadd="102,330;103,170;101,4000"/>
+		<group groupid="6" groupname="狮驼三魔" grouporder="310,311,312" groupadd="102,400;103,200;101,4800"/>
+		<group groupid="7" groupname="为非作歹" grouporder="313,314,315,316" groupadd="102,530;103,270;101,6400"/>
+		<group groupid="8" groupname="东海龙族" grouporder="317,318,319,320" groupadd="102,530;103,270;101,6400"/>
+		<group groupid="9" groupname="绝世独立" grouporder="326,321,322" groupadd="102,470;103,230;101,5600"/>
+		<group groupid="10" groupname="天宫神将" grouporder="327,328,323,324" groupadd="102,670;103,330;101,8000"/>
+		<group groupid="11" groupname="金银二圣" grouporder="329,330" groupadd="102,400;103,200;101,4800"/>
+		<group groupid="12" groupname="玄门四仙" grouporder="331,332,333,334" groupadd="102,800;103,400;101,9600"/>
+		<group groupid="13" groupname="普度众生" grouporder="335,336,337,338" groupadd="102,800;103,400;101,9600"/>
+		<group groupid="14" groupname="凌霄双圣" grouporder="339,340" groupadd="102,400;103,200;101,4800"/>
+		<group groupid="15" groupname="吉祥一家" grouporder="341,342,343" groupadd="102,600;103,300;101,7200"/>
+		<group groupid="16" groupname="西行取经" grouporder="344,345,346,347,348" groupadd="102,1000;103,500;101,12000"/>
+		<group groupid="17" groupname="修成正果" grouporder="349,350,351,352,353" groupadd="102,1670;103,830;101,20000"/>
+		<picture id="301" name="阎罗王" icon="200038" item="19000301" quality="3"/>
+		<picture id="302" name="空度禅师" icon="200018" item="19000302" quality="3"/>
+		<picture id="303" name="青玄仙女" icon="200026" item="19000303" quality="3"/>
+		<picture id="304" name="延寿星君" icon="200037" item="19000304" quality="3"/>
+		<picture id="305" name="袁天罡" icon="200043" item="19000305" quality="3"/>
+		<picture id="306" name="钟馗" icon="200045" item="19000306" quality="3"/>
+		<picture id="307" name="白菁晶" icon="200002" item="19000307" quality="3"/>
+		<picture id="308" name="春十三娘" icon="200006" item="19000308" quality="3"/>
+		<picture id="309" name="玉兔精" icon="200042" item="19000309" quality="3"/>
+		<picture id="310" name="青狮王" icon="200025" item="19000310" quality="3"/>
+		<picture id="311" name="白象王" icon="200003" item="19000311" quality="3"/>
+		<picture id="312" name="大鹏王" icon="200008" item="19000312" quality="3"/>
+		<picture id="313" name="大当家" icon="200007" item="19000313" quality="3"/>
+		<picture id="314" name="猪刚鬣" icon="200047" item="19000314" quality="3"/>
+		<picture id="315" name="白骨精" icon="200001" item="19000315" quality="3"/>
+		<picture id="316" name="蝎子精" icon="200036" item="19000316" quality="3"/>
+		<picture id="317" name="东海龙王" icon="200010" item="19000317" quality="3"/>
+		<picture id="318" name="北海龙子" icon="200004" item="19000318" quality="3"/>
+		<picture id="319" name="九头虫" icon="200016" item="19000319" quality="3"/>
+		<picture id="320" name="蛟魔王" icon="200014" item="19000320" quality="3"/>
+		<picture id="321" name="嫦娥" icon="200005" item="19000321" quality="3"/>
+		<picture id="322" name="女儿国国王" icon="200022" item="19000322" quality="3"/>
+		<picture id="323" name="托塔天王" icon="200033" item="19000323" quality="3"/>
+		<picture id="324" name="巨灵神" icon="200017" item="19000324" quality="3"/>
+		<picture id="325" name="青牛精" icon="200024" item="19000325" quality="4"/>
+		<picture id="326" name="紫霞" icon="200048" item="19000326" quality="4"/>
+		<picture id="327" name="二郎真君" icon="200011" item="19000327" quality="4"/>
+		<picture id="328" name="哪吒" icon="200019" item="19000328" quality="4"/>
+		<picture id="329" name="金角大王" icon="200015" item="19000329" quality="4"/>
+		<picture id="330" name="银角大王" icon="200039" item="19000330" quality="4"/>
+		<picture id="331" name="太乙真人" icon="200030" item="19000331" quality="4"/>
+		<picture id="332" name="镇元子" icon="200044" item="19000332" quality="4"/>
+		<picture id="333" name="菩提子" icon="200023" item="19000333" quality="4"/>
+		<picture id="334" name="太白金星" icon="200029" item="19000334" quality="4"/>
+		<picture id="335" name="观音" icon="200012" item="19000335" quality="4"/>
+		<picture id="336" name="玉面狐狸" icon="200041" item="19000336" quality="4"/>
+		<picture id="337" name="南极仙翁" icon="200020" item="19000337" quality="4"/>
+		<picture id="338" name="地涌夫人" icon="200009" item="19000338" quality="4"/>
+		<picture id="339" name="玉帝" icon="200040" item="19000339" quality="4"/>
+		<picture id="340" name="王母" icon="200034" item="19000340" quality="4"/>
+		<picture id="341" name="牛魔王" icon="200021" item="19000341" quality="4"/>
+		<picture id="342" name="铁扇公主" icon="200032" item="19000342" quality="4"/>
+		<picture id="343" name="红孩儿" icon="200013" item="19000343" quality="4"/>
+		<picture id="344" name="孙悟空" icon="200028" item="19000344" quality="4"/>
+		<picture id="345" name="猪悟能" icon="200046" item="19000345" quality="4"/>
+		<picture id="346" name="唐僧" icon="200031" item="19000346" quality="4"/>
+		<picture id="347" name="小白龙" icon="200035" item="19000347" quality="4"/>
+		<picture id="348" name="沙悟净" icon="200027" item="19000348" quality="4"/>
+		<picture id="349" name="斗战圣佛" icon="200028" item="19000349" quality="5"/>
+		<picture id="350" name="净坛使者" icon="200046" item="19000350" quality="5"/>
+		<picture id="351" name="旃檀功德佛" icon="200031" item="19000351" quality="5"/>
+		<picture id="352" name="金身罗汉" icon="200027" item="19000352" quality="5"/>
+		<picture id="353" name="八部天龙" icon="200035" item="19000353" quality="5"/>
+	</type>
+	<type type="3" typename="怪物图鉴">
+		<group groupid="1" groupname="山精野怪" grouporder="401,402,403,404" groupadd="102,270;103,130;101,3200"/>
+		<group groupid="2" groupname="爪牙小妖" grouporder="405,406,407" groupadd="102,200;103,100;101,2400"/>
+		<group groupid="3" groupname="卧虎藏龙" grouporder="412,408,409" groupadd="102,270;103,130;101,6400"/>
+		<group groupid="4" groupname="地府三煞" grouporder="416,410,411" groupadd="102,270;103,130;101,3200"/>
+		<group groupid="5" groupname="夺命亡魂" grouporder="417,413,414,415" groupadd="102,600;103,300;101,7200"/>
+		<picture id="401" name="野猪" icon="300031" item="19000401" quality="2"/>
+		<picture id="402" name="树妖" icon="300019" item="19000402" quality="2"/>
+		<picture id="403" name="蛤蟆精" icon="300040" item="19000403" quality="2"/>
+		<picture id="404" name="狼" icon="300041" item="19000404" quality="2"/>
+		<picture id="405" name="羊角怪" icon="300030" item="19000405" quality="2"/>
+		<picture id="406" name="狐妖" icon="300007" item="19000406" quality="2"/>
+		<picture id="407" name="小花妖" icon="300036" item="19000407" quality="2"/>
+		<picture id="408" name="虎精" icon="300008" item="19000408" quality="2"/>
+		<picture id="409" name="蛮熊" icon="300028" item="19000409" quality="2"/>
+		<picture id="410" name="牛头" icon="300033" item="19000410" quality="2"/>
+		<picture id="411" name="马面" icon="300012" item="19000411" quality="2"/>
+		<picture id="412" name="小龙女" icon="300026" item="19000412" quality="3"/>
+		<picture id="413" name="画中仙" icon="300009" item="19000413" quality="3"/>
+		<picture id="414" name="嗜血鬼" icon="300022" item="19000414" quality="3"/>
+		<picture id="415" name="黑山老妖" icon="300005" item="19000415" quality="3"/>
+		<picture id="416" name="伞妖" icon="300017" item="19000416" quality="3"/>
+		<picture id="417" name="无面鬼将" icon="300034" item="19000417" quality="4"/>
+	</type>
+	<type type="4" typename="特殊图鉴">
+</type>
+</root>

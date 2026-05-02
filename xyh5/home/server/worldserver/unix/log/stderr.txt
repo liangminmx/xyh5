@@ -1,0 +1,2 @@
+2020-03-25 01:14:49 the gameserver binder port: is not open
+2020-03-25 22:22:02 the gameserver binder port: is not open

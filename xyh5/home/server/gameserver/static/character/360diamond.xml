@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<ui activityid="1" name="每日礼包" index="1"/>
+	<ui activityid="2" name="成长礼包" index="2"/>
+	<!--360每日礼包-->
+		<dailyGift>
+			<level lv="5">
+				<item reward="100590" num="2" bind="1"/>
+				<item reward="100591" num="2" bind="1"/>
+				<item reward="108306" num="3" bind="1"/>
+				<item reward="108503" num="5" bind="1"/>
+			</level>
+		</dailyGift>
+		<!--360成长-->
+		<growGift>
+			<level lv="10">
+				<item reward="100592" num="2" bind="1"/>
+				<item reward="100582" num="2" bind="1"/>
+				<item reward="108306" num="5" bind="1"/>
+				<item reward="108701" num="20" bind="1"/>
+			</level>
+			<level lv="15">
+				<item reward="108082" num="1" bind="1"/>
+				<item reward="100592" num="3" bind="1"/>
+				<item reward="105001" num="5" bind="1"/>
+				<item reward="101001" num="5" bind="1"/>
+				<item reward="108701" num="40" bind="1"/>
+			</level>
+			<level lv="20">
+				<item reward="108083" num="1" bind="1"/>
+				<item reward="100594" num="2" bind="1"/>
+				<item reward="100001" num="5" bind="1"/>
+				<item reward="600019" num="5" bind="1"/>
+				<item reward="108701" num="60" bind="1"/>
+			</level>
+			<level lv="25">
+				<item reward="108084" num="1" bind="1"/>
+				<item reward="105002" num="1" bind="1"/>
+				<item reward="106001" num="5" bind="1"/>
+				<item reward="100001" num="5" bind="1"/>
+				<item reward="108701" num="80" bind="1"/>
+			</level>
+		</growGift>
+</root>

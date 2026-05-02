@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<root>
+	<!--cdkey=key码 type=cdkey类型 endTime=key失效时间 beginTime=key生效时间 rewardId=key对应的奖励编号
+	<data cdkey="tmiwan77" type="900" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="1"/>
+	<data cdkey="tianming" type="901" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="1"/>
+	<data cdkey="baoshi+tianming" type="902" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="1"/>-->
+	<data cdkey="mhjweixin" type="229" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="110179"/>
+	<!--斗鱼平台-->
+	<data cdkey="4g78ge1v4V" type="1001" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="L4qUqLPaB2" type="1002" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="Oc4B0tm0L4" type="1003" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="deIQkf6x8v" type="1004" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="yO1X48RWNa" type="1005" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="5qiG0Gqv7w" type="1006" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="LS62310BEf" type="1007" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="8kSQLbkwBw" type="1008" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="G16XkmcyR6" type="1009" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="8w8BVXa7Sg" type="1010" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="5RF1K1il2i" type="1011" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="1a8caxX5p5" type="1012" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="7GkS4IfkPr" type="1013" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="3LufGrpKiv" type="1014" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="q5n8Q7cTQS" type="1015" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="FO48xlXPns" type="1016" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="DyR5sVT6mS" type="1017" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="ygg3P22ltd" type="1018" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="frbD85c7em" type="1019" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="M8o4ePFjNU" type="1020" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="bQIt7dkS3c" type="1021" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="1hcV7G5w24" type="1022" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="m53U0c2iaY" type="1023" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="Q6TUx7Pdhu" type="1024" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="d2BMFx6qKw" type="1025" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="cd1mF6b414" type="1026" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="DsWwVbQXdt" type="1027" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="B201n48Tvi" type="1028" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="6BD3vHlFeW" type="1029" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="K6UQ6j2O8s" type="1030" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="1R6s2p440F" type="1031" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="JDVNB52i76" type="1032" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="3553qQKAjj" type="1033" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="Lbc26LGaRa" type="1034" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="Q71l0yvjRx" type="1035" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="75UTUVKlOj" type="1036" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="Nf1L0G5hRM" type="1037" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="7378ABWmqS" type="1038" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="8n2P7e81aE" type="1039" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="74j2vNN11x" type="1040" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="uxqachhLc2" type="1041" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="Gfu3t37fvH" type="1042" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="TD2B1wAn1o" type="1043" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="woB068X3c0" type="1044" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="R8buB45KrJ" type="1045" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="s31imySH3T" type="1046" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="oS6aLg5IO1" type="1047" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="G1EgWC3wOu" type="1048" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="A622B41a3s" type="1049" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+	<data cdkey="w6NAHRcdb1" type="1050" endTime="2099-02-06 00:00:00" beginTime="2013-9-6 00:00:00" rewardId="180016"/>
+</root>

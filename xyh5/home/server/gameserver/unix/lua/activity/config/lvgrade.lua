@@ -1,0 +1,76 @@
+_lvgrade_Info = {
+	root = {
+		[1] = {
+			open = {
+				[1] = {lv = 1,openday = 1,servernum = 0,continueday = 7,holdday = 1,text = [[活动期间，只要在指定名次内达到相应等级，即可领取丰厚奖励！]],
+					reward = {
+						[1] = {lev = 65,grade = 500,exp = 0,money = 0,emony = 0,introduce = 0,
+							thing = {
+								[1] = {itemid = 999981,num = 50,bind = 1,},
+								[2] = {itemid = 100590,num = 2,bind = 1,},
+								[3] = {itemid = 108306,num = 2,bind = 1,},
+								[4] = {itemid = 105001,num = 5,bind = 1,},
+							},
+						},
+						[2] = {lev = 70,grade = 200,exp = 0,money = 0,emony = 0,introduce = 0,
+							thing = {
+								[1] = {itemid = 999981,num = 100,bind = 1,},
+								[2] = {itemid = 100591,num = 2,bind = 1,},
+								[3] = {itemid = 108306,num = 5,bind = 1,},
+								[4] = {itemid = 105302,num = 1,bind = 1,},
+							},
+						},
+						[3] = {lev = 75,grade = 100,exp = 0,money = 0,emony = 0,introduce = 0,
+							thing = {
+								[1] = {itemid = 999981,num = 200,bind = 1,},
+								[2] = {itemid = 100592,num = 2,bind = 1,},
+								[3] = {itemid = 105001,num = 10,bind = 1,},
+								[4] = {itemid = 110001,num = 1,bind = 1,},
+							},
+						},
+						[4] = {lev = 80,grade = 50,exp = 0,money = 0,emony = 0,introduce = 0,
+							thing = {
+								[1] = {itemid = 999981,num = 300,bind = 1,},
+								[2] = {itemid = 105401,num = 15,bind = 1,},
+								[3] = {itemid = 105302,num = 2,bind = 1,},
+								[4] = {itemid = 110201,num = 2,bind = 1,},
+							},
+						},
+						[5] = {lev = 85,grade = 10,exp = 0,money = 0,emony = 0,introduce = 0,
+							thing = {
+								[1] = {itemid = 999981,num = 400,bind = 1,},
+								[2] = {itemid = 108306,num = 5,bind = 1,},
+								[3] = {itemid = 3080101,num = 1,bind = 1,},
+								[4] = {itemid = 110902,num = 1,bind = 1,},
+							},
+						},
+						[6] = {lev = 90,grade = 5,exp = 0,money = 0,emony = 0,introduce = 0,
+							thing = {
+								[1] = {itemid = 999981,num = 500,bind = 1,},
+								[2] = {itemid = 3090107,num = 1,bind = 1,},
+								[3] = {itemid = 310105,num = 1,bind = 1,},
+								[4] = {itemid = 110102,num = 2,bind = 1,},
+							},
+						},
+						[7] = {lev = 95,grade = 3,exp = 0,money = 0,emony = 0,introduce = 0,
+							thing = {
+								[1] = {itemid = 999981,num = 800,bind = 1,},
+								[2] = {itemid = 110402,num = 5,bind = 1,},
+								[3] = {itemid = 110403,num = 3,bind = 1,},
+								[4] = {itemid = 110301,num = 10,bind = 1,},
+							},
+						},
+						[8] = {lev = 100,grade = 1,exp = 0,money = 0,emony = 0,introduce = 0,
+							thing = {
+								[1] = {itemid = 999981,num = 1000,bind = 1,},
+								[2] = {itemid = 703059,num = 1,bind = 1,},
+								[3] = {itemid = 4100101,num = 1,bind = 1,},
+								[4] = {itemid = 600019,num = 30,bind = 1,},
+							},
+						},
+					},
+				},
+			},
+		},
+	},
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+	functionid	功能id	关联function.xml
+
+	rank	排行榜编号	
+	name	排行榜名字	
+	sort	排行榜排序	值小的排在前面，填≤0则不显示
+	condition	上榜条件	≥参数才允许上榜
+	des	榜单内容备注	文字描述
+
+-->
+	<function functionid="2050"/>
+	<rank rank="1" name="战力榜" sort="1" condition="200000" des="总战力≥20万入榜"/>
+	<rank rank="2" name="等级榜" sort="2" condition="60" des="等级≥60入榜"/>
+	<rank rank="3" name="伙伴榜" sort="3" condition="100000" des="上阵伙伴总战力≥10万入榜"/>
+	<rank rank="4" name="宠物榜" sort="4" condition="50000" des="宠物激活总战力≥5万入榜"/>
+	<rank rank="5" name="西行榜" sort="5" condition="70" des="推图达到70星"/>
+	<rank rank="6" name="比武榜" sort="6" condition="20" des="比武积分≥20分入榜"/>
+	<rank rank="7" name="坐骑榜" sort="7" condition="160000" des="坐骑战力≥16万入榜"/>
+	<rank rank="8" name="神兵榜" sort="-1" condition="1600000000" des="神兵榜弃用"/>
+	<rank rank="9" name="羽翼榜" sort="9" condition="160000" des="羽翼战力≥16万入榜"/>
+	<rank rank="10" name="法宝榜" sort="10" condition="160000" des="法宝战力≥16万入榜"/>
+	<rank rank="11" name="阵法榜" sort="11" condition="160000" des="阵法战力≥16万入榜"/>
+	<rank rank="12" name="变身榜" sort="12" condition="160000" des="变身战力≥16万入榜"/>
+	<rank rank="13" name="仙阶榜" sort="13" condition="160000" des="仙阶战力≥16万入榜"/>
+	<rank rank="14" name="灵骑榜" sort="14" condition="160000" des="灵骑战力≥16万入榜"/>
+</root>

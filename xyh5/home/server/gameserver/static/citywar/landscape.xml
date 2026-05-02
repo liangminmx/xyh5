@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<root>
+	<!--
+openlev	开放等级
+begin_time	活动开放时间
+end_time	活动结束时间
+normal_days	表示周几举办活动，支持多个“，”
+0=周天、1=周1、6=周六
+interval_day	当开新服或合服后，活动开启的间隔时间
+stop_time	开服或合服后，活动持续几天不开（除了间隔时间的那一场）
+relive_cooltime	复活弹出窗，倒数时间，单位秒
+killscore	击杀获得积分
+Rewardtime	奖励时间/单位秒
+timescore	在线奖励积分
+text	活动简介(需要支持换行，逐字变色)
+item	预览道具（多个道具用“,”隔开）
+rankmail	排名邮件id 
+scoremail	积分邮件id 
+matchesid	场次id	
+sceneid	地图id
+overtime	单场结束时间
+peoplenum	晋级人数上限（填0表示最后一场，无法继续晋级）
+token 	初始令牌/填0表示令牌不重置，继承上场活动令牌
+wintoken	晋级所需令牌数量（填0表示无法通过累积令牌晋级）
+type	场次类型/=1预赛 =2复赛 =3决赛
+preparetime	准备时间/单位秒
+posx	复活点X轴
+posy	复活点Y轴
+leastscore	最低积分
+maxscore	最高积分
+rank	排名
+item	奖励道具
+num	数量
+bind	是否绑定，=1绑定 =0不绑定
+title	称号奖励
+titletime	称号持续时间（单位秒）
+"2,5" interval_day="2"
+
+-->
+	<landscape openlev="55" begin_time="20:00:00" end_time="20:50:00" normal_days="2,5" interval_day="2" stop_time="5" relive_cool_time="10" killscore="10" Rewardtime="60" rankmail="34" scoremail="33" timescore="10" text="为了选拔出大夏的精英人物，夏皇下谕各地仙人汇集大夏王都，参加在明月山水世界举行的仙缘争锋大会" item="600002,101001,100001,100001">
+		<matches matchesid="1" token="50" sceneid="6002" preparetime="180" overtime="900" peoplenum="50" wintoken="100" type="1">
+			<position posx="23.3" posy="210.7"/>
+			<position posx="29.3" posy="173.1"/>
+			<position posx="29.7" posy="64.3"/>
+			<position posx="36.1" posy="99.7"/>
+			<position posx="37" posy="41.3"/>
+			<position posx="39.2" posy="199.6"/>
+			<position posx="39.8" posy="80.6"/>
+			<position posx="43.2" posy="63.2"/>
+			<position posx="43.9" posy="182.2"/>
+			<position posx="45.1" posy="145.4"/>
+			<position posx="47.2" posy="126.9"/>
+			<position posx="50.8" posy="167"/>
+			<position posx="54.8" posy="220.1"/>
+			<position posx="56.4" posy="54.6"/>
+			<position posx="58.7" posy="73.7"/>
+			<position posx="59.7" posy="200.9"/>
+			<position posx="64" posy="166.1"/>
+			<position posx="67.1" posy="105.8"/>
+			<position posx="70.1" posy="49.7"/>
+			<position posx="71.3" posy="134.8"/>
+			<position posx="72.2" posy="184.9"/>
+			<position posx="78.1" posy="35.4"/>
+			<position posx="82.5" posy="165.8"/>
+			<position posx="82.7" posy="116.5"/>
+			<position posx="84.1" posy="21.2"/>
+			<position posx="87.7" posy="145.2"/>
+			<position posx="88.8" posy="100.2"/>
+			<position posx="94.7" posy="61.8"/>
+			<position posx="99.9" posy="82.7"/>
+			<position posx="100.5" posy="176"/>
+			<position posx="101.2" posy="233"/>
+			<position posx="104.3" posy="41.5"/>
+			<position posx="108.6" posy="201.1"/>
+			<position posx="108.7" posy="115.3"/>
+			<position posx="108.9" posy="188.5"/>
+			<position posx="114.6" posy="239.1"/>
+			<position posx="115.7" posy="132.1"/>
+			<position posx="117.3" posy="94.9"/>
+			<position posx="117.4" posy="217.1"/>
+			<position posx="119.2" posy="147.6"/>
+			<position posx="119.6" posy="174.5"/>
+			<position posx="119.9" posy="158.1"/>
+			<position posx="121.6" posy="66.8"/>
+			<position posx="129" posy="173.4"/>
+			<position posx="132.5" posy="185.7"/>
+			<position posx="137.5" posy="19.6"/>
+			<position posx="140.3" posy="34.3"/>
+			<position posx="145.7" posy="53.9"/>
+			<position posx="147.8" posy="197.4"/>
+			<position posx="149" posy="150.7"/>
+			<position posx="151.5" posy="222.2"/>
+			<position posx="154.1" posy="71.9"/>
+			<score leastscore="0" maxscore="49">
+				<item item="101001" num="10" bind="1" time="0"/>
+				<item item="108306" num="1" bind="1" time="0"/>
+				<item item="108506" num="1" bind="1" time="0"/>
+				<item item="108106" num="1" bind="1" time="0"/>
+			</score>
+			<score leastscore="50" maxscore="99">
+				<item item="101001" num="15" bind="1" time="0"/>
+				<item item="108306" num="2" bind="1" time="0"/>
+				<item item="108506" num="2" bind="1" time="0"/>
+				<item item="108106" num="2" bind="1" time="0"/>
+			</score>
+			<score leastscore="100" maxscore="10000000">
+				<item item="101001" num="20" bind="1" time="0"/>
+				<item item="108306" num="5" bind="1" time="0"/>
+				<item item="108506" num="5" bind="1" time="0"/>
+				<item item="108106" num="5" bind="1" time="0"/>
+			</score>
+		</matches>
+		<matches matchesid="2" token="0" sceneid="6002" preparetime="120" overtime="900" peoplenum="10" wintoken="300" type="2">
+			<position posx="32.8" posy="145.9"/>
+			<position posx="34.8" posy="159.2"/>
+			<position posx="36.0" posy="131.8"/>
+			<position posx="47.8" posy="132.2"/>
+			<position posx="51.8" posy="108.4"/>
+			<position posx="59.0" posy="93.0"/>
+			<position posx="61.9" posy="133.1"/>
+			<position posx="63.8" posy="75.8"/>
+			<position posx="64.8" posy="115.1"/>
+			<position posx="67.7" posy="103.9"/>
+			<position posx="69.2" posy="90.4"/>
+			<position posx="71.4" posy="64.2"/>
+			<position posx="75.8" posy="74.1"/>
+			<position posx="77.3" posy="99.7"/>
+			<position posx="77.8" posy="50.9"/>
+			<position posx="81.3" posy="86.0"/>
+			<position posx="83.2" posy="112.7"/>
+			<position posx="88.2" posy="70.1"/>
+			<position posx="91.0" posy="100.6"/>
+			<position posx="93.6" posy="85.6"/>
+			<position posx="96.3" posy="115.5"/>
+			<position posx="102.3" posy="141.5"/>
+			<position posx="105.2" posy="126.9"/>
+			<position posx="106.3" posy="100.4"/>
+			<position posx="109.3" posy="72.6"/>
+			<position posx="116.4" posy="113.9"/>
+			<position posx="118.1" posy="56.3"/>
+			<position posx="127.8" posy="40.9"/>
+			<position posx="130.0" posy="19.8"/>
+			<position posx="137.3" posy="8.8"/>
+			<score leastscore="0" maxscore="49">
+				<item item="101001" num="15" bind="1" time="0"/>
+				<item item="108306" num="2" bind="1" time="0"/>
+				<item item="108506" num="2" bind="1" time="0"/>
+				<item item="108106" num="2" bind="1" time="0"/>
+			</score>
+			<score leastscore="50" maxscore="99">
+				<item item="101001" num="20" bind="1" time="0"/>
+				<item item="108306" num="3" bind="1" time="0"/>
+				<item item="108506" num="3" bind="1" time="0"/>
+				<item item="108106" num="3" bind="1" time="0"/>
+			</score>
+			<score leastscore="100" maxscore="10000000">
+				<item item="101001" num="30" bind="1" time="0"/>
+				<item item="108306" num="5" bind="1" time="0"/>
+				<item item="108506" num="5" bind="1" time="0"/>
+				<item item="108106" num="5" bind="1" time="0"/>
+			</score>
+		</matches>
+		<matches matchesid="3" token="0" sceneid="6002" preparetime="120" overtime="600" type="3">
+			<position posx="32.5" posy="91.4"/>
+			<position posx="33.8" posy="72.4"/>
+			<position posx="41.6" posy="57.8"/>
+			<position posx="42.3" posy="104.8"/>
+			<position posx="47.9" posy="117.8"/>
+			<position posx="53.2" posy="46.7"/>
+			<position posx="58.4" posy="118.0"/>
+			<position posx="61.1" posy="60.0"/>
+			<position posx="68.8" posy="100.0"/>
+			<position posx="69.1" posy="74.0"/>
+			<rank rank="1">
+				<title title="22" titletime="259200"/>
+				<showitem item="108062" num="1" bind="1" time="3"/>
+				<item item="101001" num="100" bind="1" time="0"/>
+				<item item="100001" num="5" bind="1" time="0"/>
+				<item item="100001" num="1" bind="1" time="1"/>
+			</rank>
+			<rank rank="2">
+				<item item="101001" num="70" bind="1" time="0"/>
+				<item item="108106" num="30" bind="1" time="0"/>
+				<item item="100001" num="3" bind="1" time="0"/>
+				<item item="100001" num="1" bind="1" time="1"/>
+			</rank>
+			<rank rank="3">
+				<item item="101001" num="50" bind="1" time="0"/>
+				<item item="108106" num="20" bind="1" time="0"/>
+				<item item="100001" num="2" bind="1" time="0"/>
+				<item item="101202" num="1" bind="1" time="1"/>
+			</rank>
+			<rank rank="4">
+				<item item="101001" num="40" bind="1" time="0"/>
+				<item item="108106" num="10" bind="1" time="0"/>
+				<item item="108306" num="10" bind="1" time="0"/>
+				<item item="100001" num="3" bind="1" time="0"/>
+			</rank>
+			<rank rank="5">
+				<item item="101001" num="30" bind="1" time="0"/>
+				<item item="108106" num="5" bind="1" time="0"/>
+				<item item="108306" num="5" bind="1" time="0"/>
+				<item item="100001" num="2" bind="1" time="0"/>
+			</rank>
+			<rank rank="6">
+				<item item="101001" num="20" bind="1" time="0"/>
+				<item item="108106" num="2" bind="1" time="0"/>
+				<item item="108306" num="2" bind="1" time="0"/>
+				<item item="100001" num="1" bind="1" time="0"/>
+			</rank>
+			<rank rank="7">
+				<item item="101001" num="20" bind="1" time="0"/>
+				<item item="108106" num="2" bind="1" time="0"/>
+				<item item="108306" num="2" bind="1" time="0"/>
+				<item item="100001" num="1" bind="1" time="0"/>
+			</rank>
+			<rank rank="8">
+				<item item="101001" num="20" bind="1" time="0"/>
+				<item item="108106" num="2" bind="1" time="0"/>
+				<item item="108306" num="2" bind="1" time="0"/>
+				<item item="100001" num="1" bind="1" time="0"/>
+			</rank>
+			<rank rank="9">
+				<item item="101001" num="20" bind="1" time="0"/>
+				<item item="108106" num="2" bind="1" time="0"/>
+				<item item="108306" num="2" bind="1" time="0"/>
+				<item item="100001" num="1" bind="1" time="0"/>
+			</rank>
+			<rank rank="10">
+				<item item="101001" num="20" bind="1" time="0"/>
+				<item item="108106" num="2" bind="1" time="0"/>
+				<item item="108306" num="2" bind="1" time="0"/>
+				<item item="100001" num="1" bind="1" time="0"/>
+			</rank>
+		</matches>
+	</landscape>
+</root>

@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+pvetime	对怪物战斗的操作时间（单位秒）
+pvptime	对玩家战斗的操作时间（单位秒）
+lv2max	2级药单场使用上限
+lv3max	3级药单场使用上限
+itemtips	道具使用界面文字提示
+huihemax	默认回合上限
+暂定150
+
+
+
+	-->
+	<!--战斗相关信息-->
+	<fight pvetime="20" pvptime="30" lv2max="30" lv3max="10" huihemax="99">
+		<fightitem id="1" name="回血" itemid="10011" eff="1000010_1_f" eff_delay="300"/>
+		<fightitem id="2" name="解封" itemid="10012" eff="1000010_1_f" eff_delay="300"/>
+		<fightitem id="3" name="复活" itemid="10013" eff="1000010_1_f" eff_delay="300"/>
+		<fightitem id="4" name="加蓝" itemid="10010" eff="1000020_1_f" eff_delay="300"/>
+		<fightitem id="5" name="回怒" itemid="10009" eff="1000010_1_f" eff_delay="300"/>
+		<fightinfo itemtips="不要乱嗑药，嗑多了伤身体"/>
+	</fight>
+	
+	<!--充值屏蔽相关(当一个类型有多个条件，条件之间用分号分开-->
+	<recharge_wall pf="4">
+		<recharge_wall id="1" type="1,2" num="65,16010003"/>
+		<recharge_wall id="2" type="2" num="16010003"/>
+		<recharge_wall id="3" type="5" num="2022;10"/>
+	</recharge_wall>	
+	
+	<!--OPPO充值回调地址-->
+	<oppoCallBackUrl url="http://xyjdjs-chargeserver1.gankh5.com:8006/pay/"/>
+	<qqhall url="openapi.tencentyun.com"/>
+	
+	
+	<!--PVP相关
+      id=对应pvp战斗类型 12=华山论剑 14=押镖 15=地煞pvp
+      max=最大回合数
+      skip=可否跳过，N表示第N回合后可以跳过战斗 0为不可跳过
+      id=1
+    -->
+	<pvp id="12" max="20" skip="3"/>
+	<pvp id="14" max="10" skip="3"/>
+	<pvp id="15" max="10" skip="3"/>
+	<!--战斗指挥-->
+	<zhihui type="1" word="复活,加血,解封,保护,加蓝"/>
+	<zhihui type="2" word="集火,封印,物攻,法攻,守尸"/>
+	<!--传送
+transfer_cd_time=传送冷却时间
+transfer_lv=传送等级差，玩家等级-地图等级≥transfer_cd_time则会提示
+transfer_range=传送区衍生线数值-->
+	<transfer transfer_cd_time="1" transfer_lv="5"/>
+	<!--主界面系统消息
+main_banner_pos=走马灯位置坐标
+main_banner_speed=走马灯播放速速
+main_message_life=系统消息区域1的消息时长
+mian_progress_life=主界面走马灯坐标、移动速率、操作读条的时长-->
+	<main main_banner_pos="50,70" main_banner_speed="3000" main_message_life="500" mian_progress_life="300"/>
+	<!--剧情对话文本播放速率，单位毫秒-->
+	<speed instancetext="100"/>
+	<!--npc对话气泡窗高度-->
+	<npctalkhigh npctalkhigh="0"/>
+	<!--模型高光参数-->
+	
+	<!--节日大厅icon-->
+	<mainicon>
+		<pf pfid="1" time="-1" icon="20001">
+		<mainuiholiday id="2" time="2019-06-07 00:00:00,2019-06-10 00:00:00" icon="30008" name="端午活动"/>	
+		</pf>
+
+		<pf pfid="2" time="-1" icon="20001">
+		<mainuiholiday id="2" time="2019-06-07 00:00:00,2019-06-10 00:00:00" icon="30008" name="端午活动"/>	
+		</pf>
+	</mainicon>
+
+	<!--战斗中boss放大系数,百分比-->
+	<role role_focus="100" boss_avatar_scala="20" battle_speed="1.2"/>
+	<!--平台过滤新手剧情-->
+	<ptcolation pfid="3"/>
+	<!--平台充值限制等级-->
+	<pfrecharge lvmin="30"/>
+	<!--玩吧cover奖励精炼石x500 锻炼石x300 宝石碎片x300 银两20w-->
+	<wanba_cover_reward itemid="10000012;10000013;10000014" num="500;300;300" yl="2000000"/>
+	<!--QQ会员奖励精炼石x500 锻炼石x300 宝石碎片x300 银两20w-->
+	<qq_member_reward itemid="10000012;10000013;10000014;10000006" num="300;100;100;10" />
+	<!--登录界面提示speed为速率，单位为毫秒-->
+	<loadingtips>
+		<loading_tips speed="3000"/>
+		<loadingtips id="1" text="获得宠物可以提升战力。" weight="300"/>
+		<loadingtips id="2" text="上阵伙伴的突破阶数达到4，可解锁对应宠物上阵。" weight="300"/>
+		<loadingtips id="3" text="穿着、强化装备可以提升战力。" weight="300"/>
+		<loadingtips id="4" text="升阶坐骑可以提升战斗力，解锁坐骑的新外观。" weight="300"/>
+		<loadingtips id="5" text="招募伙伴可以提升战力、伙伴可以随主角一起出战。" weight="300"/>
+		<loadingtips id="6" text="参与日常活动可以获得丰厚的收益。" weight="300"/>
+		<loadingtips id="7" text="参与“西游之路”，可以解锁宝箱获取奖励。" weight="300"/>
+		<loadingtips id="8" text="部分活动的奖励会在活动结束后发放到邮箱。" weight="300"/>
+		<loadingtips id="9" text="参与活动、副本需要消耗体力，请合理使用。" weight="300"/>
+		<loadingtips id="10" text="背包满了的话，有些活动无法参与，请及时熔炼掉背包中的多余装备哦。" weight="300"/>
+		<loadingtips id="11" text="熔炼装备可以获得银两和精炼道具。" weight="300"/>
+		<loadingtips id="12" text="可以有多个宠物同时上阵出战。" weight="300"/>
+		<loadingtips id="13" text="城镇中有多位NPC，可以找他们参与活动。" weight="300"/>
+		<loadingtips id="14" text="有些副本可以反复挑战。" weight="300"/>
+		<loadingtips id="15" text="进阶你的武器，可以解锁新的武器外观。" weight="300"/>
+		<loadingtips id="16" text="即使下线也可以获得离线挂机经验。" weight="300"/>
+		<loadingtips id="17" text="点击主界面头像位置，可以查看玩家信息、打开系统设置界面。" weight="300"/>
+		<loadingtips id="18" text="记得每天上线领取离线挂机奖励哦。" weight="300"/>
+		<loadingtips id="19" text="升级你的装备，提升你的战力。" weight="300"/>
+		<loadingtips id="20" text="品质越高的宠物，战力越高。" weight="300"/>
+	</loadingtips>
+	<!--游戏系统频道每隔auto_time时间（单位秒）自动随机发送系统消息 weight为播放权重，不允许重复相同id-->
+	<sysnotice>
+		<systime auto_time="300"/>
+		<sysnotice id="1" talk="背包满了的话，有些活动无法参与，请及时熔炼掉背包中的多余装备哦。" weight="300"/>
+		<sysnotice id="2" talk="上阵伙伴的突破阶数达到4，可解锁对应宠物上阵。" weight="300"/>
+		<sysnotice id="3" talk="招募伙伴可以提升战力、伙伴可以随主角一起出战。" weight="300"/>
+		<sysnotice id="4" talk="品质越高的宠物，战力越高。" weight="300"/>
+		<sysnotice id="5" talk="即使下线也可以获得离线挂机经验。" weight="300"/>
+		<sysnotice id="6" talk="参与日常活动可以获得丰厚的收益。" weight="300"/>
+	</sysnotice>
+	<!--剧情引导-->
+	<!--type剧情类型（1.文本，2.添加玩家自己模型，3向往NPC，4发起战斗，5.放特效，6切场景）-->
+	<storylines defalutChangeId="3" weapon="100010" wing="100010" horse="100010" fabao="100010">
+		<storyline id="1" type="1" text="公元525年\n蚩尤座下首领刑天带领众邪魔\n侵蚀大唐意图复活蚩尤" speed="100" height="5" time="60" skip="5" tips="newbie_finger" mark="1"/>
+		<storyline id="2" type="1" text="人仙魔三族联手抵抗依然不敌\n最后关头你率先攻入刑天老巢背水一战" speed="100" height="5" time="60" skip="5" tips="newbie_finger"/>
+		<storyline id="3" type="2" scenes="20007" pos="21,47" weapon="200000" wing="100019" horse="100020" fabao="100019" mark="1"/>
+		<storyline id="4" type="3" img="" scenes="20007" avatar="400023" name="刑天" title="zc_title_zhanshen" talk="刑天一舞，天地变色！蚩尤复活！尔等俱灭！" nameimg="zc_name_xsnpc" pos="11,49" startPos="34,43" talk_time="5"/>
+		<storyline id="5" type="4" scenes="20007" startPos="11,49" mark="1">
+			<roleid id="10" zhenrong="191001001"/>
+			<roleid id="11" zhenrong="191001002"/>
+			<roleid id="20" zhenrong="191001003"/>
+			<roleid id="21" zhenrong="191001004"/>
+			<roleid id="30" zhenrong="191001005"/>
+			<roleid id="31" zhenrong="191001006"/>
+		</storyline>
+		<storyline id="6" type="1" text="月光宝盒可助你穿越时空\n回到过去\n斩杀羽翼未丰的刑天" speed="100" height="5" time="60" skip="8" tips="newbie_finger" mark="1"/>
+		<storyline id="7" type="5" skip="10" effect="moonbox_1" time="60" mark="1"/>
+		<storyline id="8" type="5" skip="10" effect="moonbox_2" effectloopstart="7" time="60" mark="1"/>
+		<storyline id="9" type="1" text="20年前  公元505年\n\n长安" speed="100" height="5" time="60" skip="10" tips="newbie_finger" mark="1"/>
+		<storyline id="10" type="6" scenes="2000" mark="1" end="1"/>
+	</storylines>
+	<!--货币兑换-->
+	<emoney goldmoney="100" money="10000"/>
+	<goldmoney money="100"/>
+	<born>
+		<!--角色初始位置 sceneId场景ID  posX_min=X坐标最小值 posX_max=X坐标最大值 posY_min=Y坐标最小值 posY_max=Y坐标最大值-->
+		<born sceneId="20001" posX_min="25" posX_max="30" posY_min="25" posY_max="30"/>
+	</born>
+	<!--主界面消息的客户端存在时间-->
+	<main system_message_life_1="1" system_message_life_2="1" system_message_life_3="1" system_message_life_4="1"/>
+	<!--trans_eff_time=过渡效果切换时间（毫秒），过trans_eff_alpha1=渡效果起始透明度（1~0）-->
+	<map trans_eff_time="1000" trans_eff_alpha1="1"/>
+	<!--
+functionid	功能id			
+addwardcost	消耗道具id			
+countcost	每转换一次门派或角色消耗道具的数量			
+goldmoneycost	每差一个转换道具需求补足的金币数			
+roleid	对应门派可选择的角色ID，用逗号隔开			
+professionid	门派ID			
+
+
+-->
+	<profession functionid="1006" addwardcost="100" countcost="1" goldmoneycost="10000"/>
+	<change professionid="10" roleid="10,11"/>
+	<change professionid="11" roleid="10,11"/>
+	<change professionid="20" roleid="20,21"/>
+	<change professionid="21" roleid="20,21"/>
+	<change professionid="30" roleid="30,31"/>
+	<change professionid="31" roleid="30,31"/>
+	<!--
+function	功能id			
+openlevel	功能开启等级			
+people	选取排行榜前X名玩家等级			
+des	文本描述			
+levelgap	等级差值区间(逗号隔开)			
+expup	经验加成系数百分比			
+		
+-->
+	<function functionid="1027" people="30" des="加成" openlevel="30"/>
+	<level levelgap="5,9" expup="10"/>
+	<level levelgap="10,14" expup="20"/>
+	<level levelgap="15,19" expup="40"/>
+	<level levelgap="20,29" expup="50"/>
+	<level levelgap="30,50" expup="100"/>
+	<!--
+speed 近战位移速度
+repeltime 击退表现持续时间,万分之
+repeldistanceX 击退表现距离(像素)
+repeldistanceY 击退表现距离(像素)
+deadflyspd 死亡飞走速度，像素/毫秒
+attacktime 攻击动作打击帧时间，万分之
+magictime 施法动作打击帧时间，万分之
+falltime 技能过程表现特效持续时间（如火球落下），万分之
+interval 多段技能施法间隔时间（如火球下落，破釜沉舟冲锋表现间隔），万分之
+hurtInterval 多段伤害表现间隔时间（如万剑归一），万分之
+hiteffect 普攻受击特效
+buffeffecttime1：多个效果同时播放时，错开多久播放
+buffeffecttime2：停顿时间
+buffeffecttime3：停顿完，飘的时间
+angereffectdist1：向上飞距离
+angereffecttime1：向上飞效果播放时间
+angereffecttime2：向下飞效果播放时间
+-->
+	<skill speed="200" repeltime="2000" attacktime="6000" magictime="10000" falltime="6000" interval="500" hurtInterval="5000" repeldistanceX="5" repeldistanceY="5" deadflyspd="0.8" hiteffect="101000202_1_f" hitbackdistance="20" combopic="2000001" shockTime="500" shockRange="32" partenershoweffect="monster_born_1_f" effectspeedup="1" battlestartdelay="1" enterbattleeffecttime="300" hpbarchangetime="600" buffeffecttime1="300" buffeffecttime2="500" buffeffecttime3="1000" angereffectdist1="10" angereffecttime1="350" angereffecttime2="250" angereffectbezierw="10"/>
+	<!--购买体力VIP等级与次数-->
+	<buy_stamina_time maxVip="10">
+		<level viplv="0" maxtime="0"/>
+		<level viplv="1" maxtime="0"/>
+		<level viplv="2" maxtime="1"/>
+		<level viplv="3" maxtime="1"/>
+		<level viplv="4" maxtime="2"/>
+		<level viplv="5" maxtime="2"/>
+		<level viplv="6" maxtime="3"/>
+		<level viplv="7" maxtime="3"/>
+		<level viplv="8" maxtime="5"/>
+		<level viplv="9" maxtime="5"/>
+		<level viplv="10" maxtime="7"/>
+		<level viplv="11" maxtime="7"/>
+		<level viplv="12" maxtime="10"/>
+	</buy_stamina_time>
+	<!--购买体力次数与成本-->
+	<buy_stamina_cost>
+		<time time="1,3" cost="50"/>
+		<time time="4,5" cost="100"/>
+		<time time="6,8" cost="200"/>
+		<time time="9,9" cost="300"/>
+		<time time="10,10" cost="500"/>
+	</buy_stamina_cost>
+	<!--体力自然恢复时间没5分钟1点（单位毫秒）-->
+	<stamina recovery_time="300000"/>
+	<!--购买银币成本-->
+	<stamina recovery_time="300000"/>
+	<!--购买银币单次消耗（绑元）-->
+	<buy_money bug_money_cost="50"/>
+	<buy_money_time>
+		<level viplv="0" maxtime="1"/>
+		<level viplv="1" maxtime="2"/>
+		<level viplv="2" maxtime="2"/>
+		<level viplv="3" maxtime="3"/>
+		<level viplv="4" maxtime="3"/>
+		<level viplv="5" maxtime="4"/>
+		<level viplv="6" maxtime="4"/>
+		<level viplv="7" maxtime="5"/>
+		<level viplv="8" maxtime="5"/>
+		<level viplv="9" maxtime="8"/>
+		<level viplv="10" maxtime="8"/>
+		<level viplv="11" maxtime="10"/>
+		<level viplv="12" maxtime="10"/>
+	</buy_money_time>
+	<!--购买银币次数与获取额度-->
+	<buy_money_value>
+		<level lv="1,40" value="1700000"/>
+		<level lv="41,50" value="1800000"/>
+		<level lv="51,60" value="1900000"/>
+		<level lv="61,70" value="2000000"/>
+		<level lv="71,80" value="2200000"/>
+		<level lv="81,90" value="2400000"/>
+		<level lv="91,100" value="2600000"/>
+		<level lv="101,110" value="2800000"/>
+		<level lv="111,120" value="3000000"/>
+		<level lv="121,130" value="3200000"/>
+		<level lv="131,140" value="3400000"/>
+		<level lv="141,150" value="3600000"/>
+		<level lv="151,160" value="3800000"/>
+		<level lv="161,170" value="4000000"/>
+		<level lv="171,180" value="4200000"/>
+		<level lv="181,200" value="4400000"/>
+		<level lv="201,220" value="4600000"/>
+		<level lv="221,250" value="5000000"/>
+	</buy_money_value>
+	<!--
+world_chat_openlv	世界频道聊天开启等级
+interval	频道公共基础发言间隔 单位秒
+quick_interval_vip  聊天快速间隔vip开启等级
+quick_interval_level 聊天快读间隔开启等级
+quick_interval       聊天快速间隔时间 单位秒
+chat_words_limit	发言字符限制
+mian_banner_speed  走马灯移动速度
+info_limit  聊天窗口最大保留信息条数，超过后清除旧消息
+-->
+	<chat world_chat_openlv="70" interval="300" quick_interval_vip="5" quick_interval_level="70" quick_interval="5" chat_words_limit="60" info_limit="100" chat_p2p_viplv="3"/>
+	<!--走马灯播放速度-->
+	<banner mian_banner_speed="100"/>
+	<!--改名消耗-->
+	<changename functionid="2028" emoneycost="200" num="1"/>
+	<attrname id="101" name="最大生命"/>
+	<attrname id="102" name="攻击力"/>
+	<attrname id="103" name="防御力"/>
+	<attrname id="104" name="战斗速度"/>
+	<attrname id="105" name="最大愤怒"/>
+	<attrname id="106" name="暴击"/>
+	<attrname id="107" name="暴击伤害"/>
+	<attrname id="108" name="闪避"/>
+	<attrname id="109" name="连击"/>
+	<attrname id="110" name="伤害加成"/>
+	<attrname id="111" name="伤害减免"/>
+	<attrname id="112" name="人族加成"/>
+	<attrname id="113" name="仙族加成"/>
+	<attrname id="114" name="魔族加成"/>
+	<attrname id="115" name="人族减免"/>
+	<attrname id="116" name="仙族减免"/>
+	<attrname id="117" name="魔族减免"/>
+	<attrname id="118" name="最大体力值"/>
+	<attrname id="119" name="进入战斗时愤怒"/>
+	<attrname id="120" name="移动速度"/>
+	<attrname id="121" name="波动下限修正"/>
+	<attrname id="122" name="波动上限修正"/>
+	<!--VIP免费送-->
+	<!--
+functionId			功能开启								
+totalCap			总共可增加VIP经验点数								
+numberOfBattles			战斗次数								
+battleType			战斗类型,支持配置多种类型,用逗号隔开",";类型1,类型2,……，若没有逗号分隔则视为只有一种类型								
+increaseVipExperience			增加的VIP经验点数								
+rolePerLiter			角色每升X级								
+upgradeIncrease			升级增加XVIP经验点数								
+-->
+	<vipFree>
+		<function functionId="2058"/>
+		<total totalCap="40">
+			<fighting numberOfBattles="10" battleType="999" increaseVipExperience="0"/>
+			<upgrade rolePerLiter="1" upgradeIncrease="1"/>
+		</total>
+	</vipFree>
+	<!--转职消耗
+
+freenum	     免费转职次数			
+moneytype	"单次转职消耗货币类型=1 银两=2 元宝=3 绑元"			
+moneynum	转职消耗货币数量			
+				
+-->
+	<changerole freenum="1" moneytype="2" moneynum="500"/>
+	<!--玩吧推送
+       type=1  等级达到配置等级   {1} 玩家名称
+       type=2  获得无级别装备    {1} 玩家名称
+       type=3  获得红色宠物      {1} 玩家名称   {2}宠物名称
+       type=4  获得红色伙伴    {1} 玩家名称   {2}伙伴名称-->
+	<tuisong id="1" type="1" num="60" word="取经路上，劈荆斩棘，`%s`成功升级到了60级"/>
+	<tuisong id="2" type="1" num="80" word="取经路上，劈荆斩棘，`%s`成功升级到了80级"/>
+	<tuisong id="3" type="1" num="90" word="取经路上，劈荆斩棘，`%s`成功升级到了90级"/>
+	<tuisong id="4" type="1" num="100" word="取经路上，劈荆斩棘，`%s`成功升级到了100级"/>
+	<tuisong id="5" type="1" num="110" word="取经路上，劈荆斩棘，`%s`成功升级到了110级"/>
+	<tuisong id="6" type="1" num="120" word="取经路上，劈荆斩棘，`%s`成功升级到了120级"/>
+	<tuisong id="7" type="1" num="130" word="取经路上，劈荆斩棘，`%s`成功升级到了130级"/>
+	<tuisong id="8" type="1" num="140" word="取经路上，劈荆斩棘，`%s`成功升级到了140级"/>
+	<tuisong id="9" type="1" num="150" word="取经路上，劈荆斩棘，`%s`成功升级到了150级"/>
+	<tuisong id="10" type="2" num="" word="又出无级别！`%s`成功获得无级别装备"/>
+	<tuisong id="11" type="3" num="" word="抓鬼居然遇到神兽，`%s`成功捕获神兽`%s`"/>
+	<tuisong id="12" type="4" num="" word="`%s`竟结交了名冠三界的`%s`，西行路上不再孤独"/>
+	<!--属性说明-->
+	<PropertyDetails>
+		<AttributeType Id="101" PropertyDescription="单位气血上限,受到伤害后≤0时死亡"/>
+		<AttributeType Id="102" PropertyDescription="单位攻击,造成伤害时影响伤害结果;封印时影响命中率;治疗时影响治疗量"/>
+		<AttributeType Id="103" PropertyDescription="单位受到攻击时用于计算伤害结果"/>
+		<AttributeType Id="104" PropertyDescription="用于判断出手顺序"/>
+		<AttributeType Id="119" PropertyDescription="进入战斗时的愤怒值,愤怒值可用于释放大招"/>
+		<AttributeType Id="106" PropertyDescription="攻击、治疗时根据暴击值计算暴击几率"/>
+		<AttributeType Id="107" PropertyDescription="影响触发暴击时的效果。初始为200%"/>
+		<AttributeType Id="108" PropertyDescription="被攻击时闪避攻击的概率"/>
+		<AttributeType Id="109" PropertyDescription="造成伤害和治疗时触发连击的概率"/>
+		<AttributeType Id="110" PropertyDescription="对敌对单位造成伤害加成"/>
+		<AttributeType Id="111" PropertyDescription="受到敌对单位伤害减免"/>
+		<AttributeType Id="112" PropertyDescription="对人族伙伴造成伤害的额外加成"/>
+		<AttributeType Id="113" PropertyDescription="对仙族伙伴造成伤害的额外加成"/>
+		<AttributeType Id="114" PropertyDescription="对魔族伙伴造成伤害的额外加成"/>
+		<AttributeType Id="115" PropertyDescription="受到人族伙伴攻击时的伤害减免"/>
+		<AttributeType Id="116" PropertyDescription="受到仙族伙伴攻击时的伤害减免"/>
+		<AttributeType Id="117" PropertyDescription="受到魔族伙伴攻击时的伤害减免"/>
+		<AttributeType Id="105" PropertyDescription="行动时增加固定值,可用于施法大招。"/>
+	</PropertyDetails>
+</root>

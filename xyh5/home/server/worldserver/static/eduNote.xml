@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+edu	养成类型,关联eduup.xml中的type
+=0坐骑
+=1神兵
+=2羽翼
+=3阵法
+=4法宝
+=5变身
+=6仙位
+=7灵骑
+type	操作类型
+typeName	策划自己备注看
+bMoney	需要消耗的绑定元宝数量
+不需要可不配置
+emoney	需要消耗的元宝数量
+不需要可不配置
+itemId	需要消耗的道具Id
+num	需要消耗的道具数量
+increasedExp	增加的注灵经验
+attachedSoulLev	注灵等级,支持配置区间范围,用逗号隔开
+needExp	该等级需要的经验
+attributeId	增加的属性类型Id,支持配置多个用逗号隔开
+attributeIncrease	增加的属性值,支持配置多个用逗号隔开
+-->
+	<edu eduType="0">
+		<consumption type="1" typeName="注灵" itemId="16010100" num="1" increasedExp="100"/>
+		<consumption type="2" typeName="双倍注灵" bMoney="100" itemId="16010100" num="1" increasedExp="150"/>
+		<consumption type="3" typeName="五倍注灵" emoney="100" itemId="16010100" num="1" increasedExp="300"/>
+		<attachedSoul attachedSoulLev="1,10" needExp="100" attributeId="101,102,103,104" attributeIncrease="1200,100,50,0"/>
+		<attachedSoul attachedSoulLev="11,20" needExp="150" attributeId="101,102,103,104" attributeIncrease="1680,140,70,0"/>
+		<attachedSoul attachedSoulLev="21,30" needExp="200" attributeId="101,102,103,104" attributeIncrease="2160,180,90,0"/>
+		<attachedSoul attachedSoulLev="31,50" needExp="250" attributeId="101,102,103,104" attributeIncrease="2640,220,110,0"/>
+		<attachedSoul attachedSoulLev="51,100" needExp="300" attributeId="101,102,103,104" attributeIncrease="2880,240,120,0"/>
+		<attachedSoul attachedSoulLev="101,200" needExp="400" attributeId="101,102,103,104" attributeIncrease="3120,260,130,0"/>
+		<attachedSoul attachedSoulLev="201,999" needExp="500" attributeId="101,102,103,104" attributeIncrease="3360,280,140,0"/>
+	</edu>
+	<edu eduType="2">
+		<consumption type="1" typeName="注灵" itemId="16010102" num="1" increasedExp="100"/>
+		<consumption type="2" typeName="双倍注灵" bMoney="100" itemId="16010102" num="1" increasedExp="150"/>
+		<consumption type="3" typeName="五倍注灵" emoney="100" itemId="16010102" num="1" increasedExp="300"/>
+		<attachedSoul attachedSoulLev="1,10" needExp="100" attributeId="101,102,103,104" attributeIncrease="1200,100,50,0"/>
+		<attachedSoul attachedSoulLev="11,20" needExp="150" attributeId="101,102,103,104" attributeIncrease="1680,140,70,0"/>
+		<attachedSoul attachedSoulLev="21,30" needExp="200" attributeId="101,102,103,104" attributeIncrease="2160,180,90,0"/>
+		<attachedSoul attachedSoulLev="31,50" needExp="250" attributeId="101,102,103,104" attributeIncrease="2640,220,110,0"/>
+		<attachedSoul attachedSoulLev="51,100" needExp="300" attributeId="101,102,103,104" attributeIncrease="2880,240,120,0"/>
+		<attachedSoul attachedSoulLev="101,200" needExp="400" attributeId="101,102,103,104" attributeIncrease="3120,260,130,0"/>
+		<attachedSoul attachedSoulLev="201,999" needExp="500" attributeId="101,102,103,104" attributeIncrease="3360,280,140,0"/>
+	</edu>
+	<edu eduType="3">
+		<consumption type="1" typeName="注灵" itemId="16010103" num="1" increasedExp="100"/>
+		<consumption type="2" typeName="双倍注灵" bMoney="100" itemId="16010103" num="1" increasedExp="150"/>
+		<consumption type="3" typeName="五倍注灵" emoney="100" itemId="16010103" num="1" increasedExp="300"/>
+		<attachedSoul attachedSoulLev="1,10" needExp="100" attributeId="101,102,103,104" attributeIncrease="1200,100,50,0"/>
+		<attachedSoul attachedSoulLev="11,20" needExp="150" attributeId="101,102,103,104" attributeIncrease="1680,140,70,0"/>
+		<attachedSoul attachedSoulLev="21,30" needExp="200" attributeId="101,102,103,104" attributeIncrease="2160,180,90,0"/>
+		<attachedSoul attachedSoulLev="31,50" needExp="250" attributeId="101,102,103,104" attributeIncrease="2640,220,110,0"/>
+		<attachedSoul attachedSoulLev="51,100" needExp="300" attributeId="101,102,103,104" attributeIncrease="2880,240,120,0"/>
+		<attachedSoul attachedSoulLev="101,200" needExp="400" attributeId="101,102,103,104" attributeIncrease="3120,260,130,0"/>
+		<attachedSoul attachedSoulLev="201,999" needExp="500" attributeId="101,102,103,104" attributeIncrease="3360,280,140,0"/>
+	</edu>
+	<edu eduType="4">
+		<consumption type="1" typeName="注灵" itemId="16010104" num="1" increasedExp="100"/>
+		<consumption type="2" typeName="双倍注灵" bMoney="100" itemId="16010104" num="1" increasedExp="150"/>
+		<consumption type="3" typeName="五倍注灵" emoney="100" itemId="16010104" num="1" increasedExp="300"/>
+		<attachedSoul attachedSoulLev="1,10" needExp="100" attributeId="101,102,103,104" attributeIncrease="1200,100,50,0"/>
+		<attachedSoul attachedSoulLev="11,20" needExp="150" attributeId="101,102,103,104" attributeIncrease="1680,140,70,0"/>
+		<attachedSoul attachedSoulLev="21,30" needExp="200" attributeId="101,102,103,104" attributeIncrease="2160,180,90,0"/>
+		<attachedSoul attachedSoulLev="31,50" needExp="250" attributeId="101,102,103,104" attributeIncrease="2640,220,110,0"/>
+		<attachedSoul attachedSoulLev="51,100" needExp="300" attributeId="101,102,103,104" attributeIncrease="2880,240,120,0"/>
+		<attachedSoul attachedSoulLev="101,200" needExp="400" attributeId="101,102,103,104" attributeIncrease="3120,260,130,0"/>
+		<attachedSoul attachedSoulLev="201,999" needExp="500" attributeId="101,102,103,104" attributeIncrease="3360,280,140,0"/>
+	</edu>
+	<edu eduType="5">
+		<consumption type="1" typeName="注灵" itemId="16010105" num="1" increasedExp="100"/>
+		<consumption type="2" typeName="双倍注灵" bMoney="100" itemId="16010105" num="1" increasedExp="150"/>
+		<consumption type="3" typeName="五倍注灵" emoney="100" itemId="16010105" num="1" increasedExp="300"/>
+		<attachedSoul attachedSoulLev="1,10" needExp="100" attributeId="101,102,103,104" attributeIncrease="1200,100,50,0"/>
+		<attachedSoul attachedSoulLev="11,20" needExp="150" attributeId="101,102,103,104" attributeIncrease="1680,140,70,0"/>
+		<attachedSoul attachedSoulLev="21,30" needExp="200" attributeId="101,102,103,104" attributeIncrease="2160,180,90,0"/>
+		<attachedSoul attachedSoulLev="31,50" needExp="250" attributeId="101,102,103,104" attributeIncrease="2640,220,110,0"/>
+		<attachedSoul attachedSoulLev="51,100" needExp="300" attributeId="101,102,103,104" attributeIncrease="2880,240,120,0"/>
+		<attachedSoul attachedSoulLev="101,200" needExp="400" attributeId="101,102,103,104" attributeIncrease="3120,260,130,0"/>
+		<attachedSoul attachedSoulLev="201,999" needExp="500" attributeId="101,102,103,104" attributeIncrease="3360,280,140,0"/>
+	</edu>
+	<edu eduType="6">
+		<consumption type="1" typeName="注灵" itemId="16010106" num="1" increasedExp="100"/>
+		<consumption type="2" typeName="双倍注灵" bMoney="100" itemId="16010106" num="1" increasedExp="150"/>
+		<consumption type="3" typeName="五倍注灵" emoney="100" itemId="16010106" num="1" increasedExp="300"/>
+		<attachedSoul attachedSoulLev="1,10" needExp="100" attributeId="101,102,103,104" attributeIncrease="1200,100,50,0"/>
+		<attachedSoul attachedSoulLev="11,20" needExp="150" attributeId="101,102,103,104" attributeIncrease="1680,140,70,0"/>
+		<attachedSoul attachedSoulLev="21,30" needExp="200" attributeId="101,102,103,104" attributeIncrease="2160,180,90,0"/>
+		<attachedSoul attachedSoulLev="31,50" needExp="250" attributeId="101,102,103,104" attributeIncrease="2640,220,110,0"/>
+		<attachedSoul attachedSoulLev="51,100" needExp="300" attributeId="101,102,103,104" attributeIncrease="2880,240,120,0"/>
+		<attachedSoul attachedSoulLev="101,200" needExp="400" attributeId="101,102,103,104" attributeIncrease="3120,260,130,0"/>
+		<attachedSoul attachedSoulLev="201,999" needExp="500" attributeId="101,102,103,104" attributeIncrease="3360,280,140,0"/>
+	</edu>
+	<edu eduType="7">
+		<consumption type="1" typeName="注灵" itemId="16010107" num="1" increasedExp="100"/>
+		<consumption type="2" typeName="双倍注灵" bMoney="100" itemId="16010107" num="1" increasedExp="150"/>
+		<consumption type="3" typeName="五倍注灵" emoney="100" itemId="16010107" num="1" increasedExp="300"/>
+		<attachedSoul attachedSoulLev="1,10" needExp="100" attributeId="101,102,103,104" attributeIncrease="1200,100,50,0"/>
+		<attachedSoul attachedSoulLev="11,20" needExp="150" attributeId="101,102,103,104" attributeIncrease="1680,140,70,0"/>
+		<attachedSoul attachedSoulLev="21,30" needExp="200" attributeId="101,102,103,104" attributeIncrease="2160,180,90,0"/>
+		<attachedSoul attachedSoulLev="31,50" needExp="250" attributeId="101,102,103,104" attributeIncrease="2640,220,110,0"/>
+		<attachedSoul attachedSoulLev="51,100" needExp="300" attributeId="101,102,103,104" attributeIncrease="2880,240,120,0"/>
+		<attachedSoul attachedSoulLev="101,200" needExp="400" attributeId="101,102,103,104" attributeIncrease="3120,260,130,0"/>
+		<attachedSoul attachedSoulLev="201,999" needExp="500" attributeId="101,102,103,104" attributeIncrease="3360,280,140,0"/>
+	</edu>
+</root>

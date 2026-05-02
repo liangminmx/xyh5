@@ -1,0 +1,1141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+id	编号id
+limittype	表示限制的条件的方式
+=1 等于指定境界
+=2 等于或高于指定境界
+=3 等于或小于指定境界
+realm	神兵大境界
+stage	神兵小境界
+	normal标签下表示正常奖励
+	vip标签下表示VIP奖励
+viplev	领取VIP奖励需要的VIP等级
+itemid	奖励的道具id
+num	奖励的道具数量
+bind	给予的奖励绑定方式
+timemode	=0，没有时间限制。
+=1，玩家获得后经过指定的时间后，无法使用。
+=2，玩家获得后经过指定的在线时间后，无法使用，离线不计算有效期。
+=3，玩家获得后经过指定的时间后才可使用。
+=4，玩家获得后经过指定的在线时间后才可使用。
+=5，玩家获得后，达到指定的日期，该道具无法使用
+来自道具的案子
+expiredtime	根据timemode写入对应的时间
+经过时间，单位秒
+指定日期，yyyy-mm-dd hh:mm:ss                                                     
+  -->
+  <start startid="61"/>
+  <rebate id="61" nextid="62" realm="4" stage="1" star="1">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="1">
+      <itemreward itemid="100001" num="1" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="62" nextid="63" realm="4" stage="1" star="2">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="1">
+      <itemreward itemid="100001" num="1" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="63" nextid="64" realm="4" stage="1" star="3">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="1">
+      <itemreward itemid="100001" num="1" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="64" nextid="65" realm="4" stage="1" star="4">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="1">
+      <itemreward itemid="100001" num="1" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="65" nextid="66" realm="4" stage="1" star="5">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="1">
+      <itemreward itemid="100001" num="1" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="66" nextid="67" realm="4" stage="2" star="1">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="1">
+      <itemreward itemid="100001" num="1" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="67" nextid="68" realm="4" stage="2" star="2">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="1">
+      <itemreward itemid="100001" num="1" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="68" nextid="69" realm="4" stage="2" star="3">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="1">
+      <itemreward itemid="100001" num="1" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="69" nextid="70" realm="4" stage="2" star="4">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="1">
+      <itemreward itemid="100001" num="1" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="70" nextid="71" realm="4" stage="2" star="5">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="1">
+      <itemreward itemid="100001" num="1" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="71" nextid="72" realm="4" stage="3" star="1">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="2">
+      <itemreward itemid="100001" num="1" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="72" nextid="73" realm="4" stage="3" star="2">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="2">
+      <itemreward itemid="100001" num="1" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="73" nextid="74" realm="4" stage="3" star="3">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="2">
+      <itemreward itemid="100001" num="1" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="74" nextid="75" realm="4" stage="3" star="4">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="2">
+      <itemreward itemid="100001" num="1" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="75" nextid="76" realm="4" stage="3" star="5">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="2">
+      <itemreward itemid="100001" num="1" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="76" nextid="77" realm="4" stage="4" star="1">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="2">
+      <itemreward itemid="100001" num="1" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="77" nextid="78" realm="4" stage="4" star="2">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="2">
+      <itemreward itemid="100001" num="1" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="78" nextid="79" realm="4" stage="4" star="3">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="2">
+      <itemreward itemid="100001" num="1" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="79" nextid="80" realm="4" stage="4" star="4">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="2">
+      <itemreward itemid="100001" num="1" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="80" nextid="81" realm="4" stage="4" star="5">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="2">
+      <itemreward itemid="100001" num="1" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="81" nextid="82" realm="5" stage="1" star="1">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="3">
+      <itemreward itemid="100001" num="2" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="82" nextid="83" realm="5" stage="1" star="2">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="3">
+      <itemreward itemid="100001" num="2" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="83" nextid="84" realm="5" stage="1" star="3">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="3">
+      <itemreward itemid="100001" num="2" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="84" nextid="85" realm="5" stage="1" star="4">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="3">
+      <itemreward itemid="100001" num="2" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="85" nextid="86" realm="5" stage="1" star="5">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="3">
+      <itemreward itemid="100001" num="2" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="86" nextid="87" realm="5" stage="2" star="1">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="3">
+      <itemreward itemid="100001" num="2" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="87" nextid="88" realm="5" stage="2" star="2">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="3">
+      <itemreward itemid="100001" num="2" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="88" nextid="89" realm="5" stage="2" star="3">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="3">
+      <itemreward itemid="100001" num="2" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="89" nextid="90" realm="5" stage="2" star="4">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="3">
+      <itemreward itemid="100001" num="2" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="90" nextid="91" realm="5" stage="2" star="5">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="3">
+      <itemreward itemid="100001" num="2" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="91" nextid="92" realm="5" stage="3" star="1">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="4">
+      <itemreward itemid="100001" num="2" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="92" nextid="93" realm="5" stage="3" star="2">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="4">
+      <itemreward itemid="100001" num="2" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="93" nextid="94" realm="5" stage="3" star="3">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="4">
+      <itemreward itemid="100001" num="2" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="94" nextid="95" realm="5" stage="3" star="4">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="4">
+      <itemreward itemid="100001" num="2" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="95" nextid="96" realm="5" stage="3" star="5">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="4">
+      <itemreward itemid="100001" num="2" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="96" nextid="97" realm="5" stage="4" star="1">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="4">
+      <itemreward itemid="100001" num="2" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="97" nextid="98" realm="5" stage="4" star="2">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="4">
+      <itemreward itemid="100001" num="2" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="98" nextid="99" realm="5" stage="4" star="3">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="4">
+      <itemreward itemid="100001" num="2" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="99" nextid="100" realm="5" stage="4" star="4">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="4">
+      <itemreward itemid="100001" num="2" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="100" nextid="101" realm="5" stage="4" star="5">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="4">
+      <itemreward itemid="100001" num="2" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="101" nextid="102" realm="6" stage="1" star="1">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="5">
+      <itemreward itemid="100001" num="2" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="102" nextid="103" realm="6" stage="1" star="2">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="5">
+      <itemreward itemid="100001" num="2" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="103" nextid="104" realm="6" stage="1" star="3">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="5">
+      <itemreward itemid="100001" num="2" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="104" nextid="105" realm="6" stage="1" star="4">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="5">
+      <itemreward itemid="100001" num="2" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="105" nextid="106" realm="6" stage="1" star="5">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="5">
+      <itemreward itemid="100001" num="2" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="106" nextid="107" realm="6" stage="2" star="1">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="5">
+      <itemreward itemid="100001" num="2" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="107" nextid="108" realm="6" stage="2" star="2">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="5">
+      <itemreward itemid="100001" num="2" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="108" nextid="109" realm="6" stage="2" star="3">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="5">
+      <itemreward itemid="100001" num="2" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="109" nextid="110" realm="6" stage="2" star="4">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="5">
+      <itemreward itemid="100001" num="2" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="110" nextid="111" realm="6" stage="2" star="5">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="5">
+      <itemreward itemid="100001" num="2" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="111" nextid="112" realm="6" stage="3" star="1">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="6">
+      <itemreward itemid="100001" num="2" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="112" nextid="113" realm="6" stage="3" star="2">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="6">
+      <itemreward itemid="100001" num="2" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="113" nextid="114" realm="6" stage="3" star="3">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="6">
+      <itemreward itemid="100001" num="2" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="114" nextid="115" realm="6" stage="3" star="4">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="6">
+      <itemreward itemid="100001" num="2" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="115" nextid="116" realm="6" stage="3" star="5">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="6">
+      <itemreward itemid="100001" num="2" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="116" nextid="117" realm="6" stage="4" star="1">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="6">
+      <itemreward itemid="100001" num="2" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="117" nextid="118" realm="6" stage="4" star="2">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="6">
+      <itemreward itemid="100001" num="2" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="118" nextid="119" realm="6" stage="4" star="3">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="6">
+      <itemreward itemid="100001" num="2" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="119" nextid="120" realm="6" stage="4" star="4">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="6">
+      <itemreward itemid="100001" num="2" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="120" nextid="121" realm="6" stage="4" star="5">
+    <normal>
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="6">
+      <itemreward itemid="100001" num="2" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="121" nextid="122" realm="7" stage="1" star="1">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="7">
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="122" nextid="123" realm="7" stage="1" star="2">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="7">
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="123" nextid="124" realm="7" stage="1" star="3">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="7">
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="124" nextid="125" realm="7" stage="1" star="4">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="7">
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="125" nextid="126" realm="7" stage="1" star="5">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="7">
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="126" nextid="127" realm="7" stage="2" star="1">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="7">
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="127" nextid="128" realm="7" stage="2" star="2">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="7">
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="128" nextid="129" realm="7" stage="2" star="3">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="7">
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="129" nextid="130" realm="7" stage="2" star="4">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="7">
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="130" nextid="131" realm="7" stage="2" star="5">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="7">
+      <itemreward itemid="100001" num="3" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="131" nextid="132" realm="7" stage="3" star="1">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="8">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="132" nextid="133" realm="7" stage="3" star="2">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="8">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="133" nextid="134" realm="7" stage="3" star="3">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="8">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="134" nextid="135" realm="7" stage="3" star="4">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="8">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="135" nextid="136" realm="7" stage="3" star="5">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="8">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="136" nextid="137" realm="7" stage="4" star="1">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="8">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="137" nextid="138" realm="7" stage="4" star="2">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="8">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="138" nextid="139" realm="7" stage="4" star="3">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="8">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="139" nextid="140" realm="7" stage="4" star="4">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="8">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="140" nextid="141" realm="7" stage="4" star="5">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="8">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="141" nextid="142" realm="8" stage="1" star="1">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="9">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="142" nextid="143" realm="8" stage="1" star="2">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="9">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="143" nextid="144" realm="8" stage="1" star="3">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="9">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="144" nextid="145" realm="8" stage="1" star="4">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="9">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="145" nextid="146" realm="8" stage="1" star="5">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="9">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="146" nextid="147" realm="8" stage="2" star="1">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="9">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="147" nextid="148" realm="8" stage="2" star="2">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="9">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="148" nextid="149" realm="8" stage="2" star="3">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="9">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="149" nextid="150" realm="8" stage="2" star="4">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="9">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="150" nextid="151" realm="8" stage="2" star="5">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="9">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="151" nextid="152" realm="8" stage="3" star="1">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="9">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="152" nextid="153" realm="8" stage="3" star="2">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="9">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="153" nextid="154" realm="8" stage="3" star="3">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="9">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="154" nextid="155" realm="8" stage="3" star="4">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="9">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="155" nextid="156" realm="8" stage="3" star="5">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="9">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="156" nextid="157" realm="8" stage="4" star="1">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="9">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="157" nextid="158" realm="8" stage="4" star="2">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="9">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="158" nextid="159" realm="8" stage="4" star="3">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="9">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="159" nextid="160" realm="8" stage="4" star="4">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="9">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="160" nextid="161" realm="8" stage="4" star="5">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="9">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="161" nextid="162" realm="9" stage="1" star="1">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="9">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="162" nextid="163" realm="9" stage="1" star="2">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="10">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="163" nextid="164" realm="9" stage="1" star="3">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="10">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="164" nextid="165" realm="9" stage="1" star="4">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="10">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="165" nextid="166" realm="9" stage="1" star="5">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="10">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="166" nextid="167" realm="9" stage="2" star="1">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="10">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="167" nextid="168" realm="9" stage="2" star="2">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="10">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="168" nextid="169" realm="9" stage="2" star="3">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="10">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="169" nextid="170" realm="9" stage="2" star="4">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="10">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="170" nextid="171" realm="9" stage="2" star="5">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="10">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="171" nextid="172" realm="9" stage="3" star="1">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="10">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="172" nextid="173" realm="9" stage="3" star="2">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="10">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="173" nextid="174" realm="9" stage="3" star="3">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="10">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="174" nextid="175" realm="9" stage="3" star="4">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="10">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="175" nextid="176" realm="9" stage="3" star="5">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="10">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="176" nextid="177" realm="9" stage="4" star="1">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="10">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="177" nextid="178" realm="9" stage="4" star="2">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="10">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="178" nextid="179" realm="9" stage="4" star="3">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="10">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="179" nextid="180" realm="9" stage="4" star="4">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="10">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="180" nextid="181" realm="9" stage="4" star="5">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="10">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="181" nextid="182" realm="10" stage="1" star="1">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="10">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="182" nextid="183" realm="10" stage="1" star="2">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="10">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="183" nextid="184" realm="10" stage="1" star="3">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="10">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="184" nextid="185" realm="10" stage="1" star="4">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="10">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="185" nextid="186" realm="10" stage="1" star="5">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="10">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="186" nextid="187" realm="10" stage="2" star="1">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="10">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="187" nextid="188" realm="10" stage="2" star="2">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="10">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="188" nextid="189" realm="10" stage="2" star="3">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="10">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="189" nextid="190" realm="10" stage="2" star="4">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="10">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="190" nextid="191" realm="10" stage="2" star="5">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="10">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="191" nextid="192" realm="10" stage="3" star="1">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="10">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="192" nextid="193" realm="10" stage="3" star="2">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="10">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="193" nextid="194" realm="10" stage="3" star="3">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="10">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="194" nextid="195" realm="10" stage="3" star="4">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="10">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="195" nextid="196" realm="10" stage="3" star="5">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="10">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="196" nextid="197" realm="10" stage="4" star="1">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="10">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="197" nextid="198" realm="10" stage="4" star="2">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="10">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="198" nextid="199" realm="10" stage="4" star="3">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="10">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+  <rebate id="199" nextid="0" realm="10" stage="4" star="4">
+    <normal>
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </normal>
+    <vip viplev="10">
+      <itemreward itemid="100001" num="4" bind="1" timemode="0" expiredtime="0"/>
+    </vip>
+  </rebate>
+</root>

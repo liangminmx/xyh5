@@ -1,0 +1,12 @@
+<!-- gpoint 扣Q点数
+emoney 实际获得元宝数-->
+<root>
+	<config name="元宝" goodsurl=""/>
+	<data id="2" qpoint="100" emoney="100" text="100元宝" goodsurl="http://img.cdn.mhj.uwan.com/money/1002.jpg"/>
+	<data id="3" qpoint="500" emoney="500" text="500元宝" goodsurl="http://img.cdn.mhj.uwan.com/money/1003.jpg"/>
+	<data id="4" qpoint="1000" emoney="1000" text="1000元宝" goodsurl="http://img.cdn.mhj.uwan.com/money/1004.jpg"/>
+	<data id="5" qpoint="5000" emoney="5000" text="5000元宝" goodsurl="http://img.cdn.mhj.uwan.com/money/1005.jpg"/>
+	<data id="6" qpoint="10000" emoney="10000" text="10000元宝" goodsurl="http://img.cdn.mhj.uwan.com/money/1006.jpg"/>
+	<!--
+	<data id="7" qpoint="20000" emoney="25000" text="20000元宝" goodsurl="http://app1101059905.imgcache.qzoneapp.com/app1101059905/img/goods/1007.jpg"/>-->
+</root>

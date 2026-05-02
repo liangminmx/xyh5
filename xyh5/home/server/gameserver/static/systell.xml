@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+functionid	功能id
+openday 开服前几天不显示系统公告功能入口			
+help	预告文本	（无配置时则无）
+help2	新增内容文本（无配置时则无）	
+help3   优化内容文本（无配置时则无）
+seetime	"公告可见时间配置时间示例如下:2018/12/12 00:00:00-2018/12/15 00:00:00"			
+icon	公告图片展示			
+pfid	"平台id 填-1表示全平台 "			
+
+-->
+	<function functionid="2024" openday="7"/>
+	<pf pfid="2,3,4,7" help="" help2="
+|ltspan style='color:#7f4b20;font:26px Arial'|gt新增：|lt/span|gt
+|ltspan style='color:#209d13;font:26px Arial'|gt神宠：斗战胜佛|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt技能【七十二变】：法术攻击敌方3个单位，造成大量伤害，同时有35%概率提升本次伤害50%|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt|lt/span|gt|ltbr|gt	
+
+|ltspan style='color:#209d13;font:26px Arial'|gt节日转盘|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt活动时间：7月12日-7月14日|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt活动时间内可以在节日转盘中抽取奖励，产出新神宠斗战胜佛碎片、突破丹、注灵石礼包、寻宝券、寻星石等珍稀道具。活动期间每天有1次免费抽奖机会，祝好运。|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt|lt/span|gt|ltbr|gt
+
+|ltspan style='color:#209d13;font:26px Arial'|gt节日累充|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt活动时间：7月12日-7月14日|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt活动期间可以充值购买超值礼包，内含珍稀道具（产出新神宠-斗战胜佛碎片、突破丹、寻宝卷轴、橙装碎片、红装碎片等）。|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt|lt/span|gt|ltbr|gt	
+
+|ltspan style='color:#209d13;font:26px Arial'|gt特惠专区|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt活动时间：7月12日-7月14日|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt活动期间可以将道具加入购物车，加入后可以进行购买。加入的件数越多，可以获得越高的折扣。|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt|lt/span|gt|ltbr|gt	
+
+|ltspan style='color:#209d13;font:26px Arial'|gt最强辅助|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt活动时间：7月12日-7月14日|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt活动期间可以对自己认为最强的辅助宠物进行投票，获得丰厚的投票奖励。同时，如果所选宠物最终胜出，将有一定几率获得对应的宠物碎片*100。|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt|lt/span|gt|ltbr|gt	
+" icon="1" updatetime="2019/7/11" seetime="2019/7/11 00:00:00-2019/7/15 00:00:00"/>
+	<pf pfid="2,3,4,7" help="" help2="
+|ltspan style='color:#7f4b20;font:26px Arial'|gt新增：|lt/span|gt
+|ltspan style='color:#209d13;font:26px Arial'|gt神宠：卷帘大将|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt技能【乾坤倒转】：攻击对方攻击力最高的单位，并对目标附加虚弱buff，buff效果：降低20%攻击力，持续1回合|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt|lt/span|gt|ltbr|gt	
+
+|ltspan style='color:#209d13;font:26px Arial'|gt节日转盘|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt活动时间：7月19日-7月21日|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt活动时间内可以在节日转盘中抽取奖励，产出新神宠卷帘大将碎片、突破丹、注灵石礼包、寻宝券、寻星石等珍稀道具。活动期间每天有1次免费抽奖机会，祝好运。|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt|lt/span|gt|ltbr|gt
+
+|ltspan style='color:#209d13;font:26px Arial'|gt节日累充|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt活动时间：7月19日-7月21日|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt活动期间可以充值购买超值礼包，内含珍稀道具（产出新神宠卷帘大将碎片、突破丹、寻宝卷轴、橙装碎片、红装碎片等）。|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt|lt/span|gt|ltbr|gt	
+
+|ltspan style='color:#209d13;font:26px Arial'|gt豪华返利|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt活动时间：7月19日-7月21日|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt活动期间玩家可以花费元宝购买，然后在接下来的若干天内领取丰厚礼包，玩家也可以花费元宝进行双倍领取。|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt|lt/span|gt|ltbr|gt	
+
+|ltspan style='color:#209d13;font:26px Arial'|gt乐透抽奖|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt活动时间：7月19日-7月21日|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt活动期间玩家可以花费元宝购买礼包，并获得一定的抽奖次数。玩家可以花费抽奖次数进行抽奖，有一定概率获得大量元宝奖励。|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt|lt/span|gt|ltbr|gt	
+
+|ltspan style='color:#209d13;font:26px Arial'|gt节日转盘|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt活动时间：7月19日-7月21日|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt活动时间内完成指定任务，可以获得免费抽奖次数，使用抽奖次数进行抽奖，可以获得丰厚奖励。|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt|lt/span|gt|ltbr|gt
+" icon="1" updatetime="2019/7/18" seetime="2019/7/18 00:00:00-2019/7/22 00:00:00"/>
+<pf pfid="2,3,4,7" help="" help2="
+|ltspan style='color:#7f4b20;font:26px Arial'|gt新增：|lt/span|gt
+|ltspan style='color:#209d13;font:26px Arial'|gt神宠：天蓬元帅|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt技能【九齿钉耙】：法术攻击敌方2个单位，造成大量伤害，同时分别有50%概率封印对方，效果持续1回合，另外，有30%概率额外增加一个攻击目标。|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt|lt/span|gt|ltbr|gt	
+
+|ltspan style='color:#209d13;font:26px Arial'|gt节日转盘|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt活动时间：7月26日-7月28日|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt活动时间内可以在节日转盘中抽取奖励，产出新神宠天蓬元帅碎片、突破丹、注灵石礼包、寻宝券、寻星石等珍稀道具。活动期间每天有1次免费抽奖机会，祝好运。|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt|lt/span|gt|ltbr|gt
+
+|ltspan style='color:#209d13;font:26px Arial'|gt节日累充|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt活动时间：7月26日-7月28日|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt活动期间可以充值购买超值礼包，内含珍稀道具（产出新神宠-天蓬元帅碎片、突破丹、寻宝卷轴、橙装碎片、红装碎片等）。|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt|lt/span|gt|ltbr|gt	
+
+|ltspan style='color:#209d13;font:26px Arial'|gt特惠专区|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt活动时间：7月26日-7月28日|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt活动期间可以将道具加入购物车，加入后可以进行购买。加入的件数越多，可以获得越高的折扣。|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt|lt/span|gt|ltbr|gt	
+
+|ltspan style='color:#209d13;font:26px Arial'|gt最强辅助|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt活动时间：7月26日-7月28日|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt活动期间可以对自己认为最强的辅助宠物进行投票，获得丰厚的投票奖励。同时，如果所选宠物最终胜出，将有一定几率获得对应的宠物碎片*100。|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt|lt/span|gt|ltbr|gt	
+" icon="1" updatetime="2019/7/25" seetime="2019/7/25 00:00:00-2019/7/29 00:00:00"/>
+<pf pfid="2,3,4,7" help="" help2="
+|ltspan style='color:#7f4b20;font:26px Arial'|gt新增：|lt/span|gt
+|ltspan style='color:#209d13;font:26px Arial'|gt神宠：大唐圣僧|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt技能【唧唧歪歪】：攻击敌方随机单位，造成大量伤害，同时有15%概率提升本次伤害100%|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt|lt/span|gt|ltbr|gt	
+
+|ltspan style='color:#209d13;font:26px Arial'|gt节日转盘|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt活动时间：8月2日-8月4日|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt活动时间内可以在节日转盘中抽取奖励，产出新神宠大唐圣僧碎片、突破丹、注灵石礼包、寻宝券、寻星石等珍稀道具。活动期间每天有1次免费抽奖机会，祝好运。|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt|lt/span|gt|ltbr|gt
+
+|ltspan style='color:#209d13;font:26px Arial'|gt节日累充|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt活动时间：8月2日-8月4日|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt活动期间可以充值购买超值礼包，内含珍稀道具（产出新神宠大唐圣僧碎片、突破丹、寻宝卷轴、橙装碎片、红装碎片等）。|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt|lt/span|gt|ltbr|gt	
+
+|ltspan style='color:#209d13;font:26px Arial'|gt豪华返利|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt活动时间：8月2日-8月4日|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt活动期间玩家可以花费元宝购买，然后在接下来的若干天内领取丰厚礼包，玩家也可以花费元宝进行双倍领取。|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt|lt/span|gt|ltbr|gt	
+
+|ltspan style='color:#209d13;font:26px Arial'|gt乐透抽奖|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt活动时间：8月2日-8月4日|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt活动期间玩家可以花费元宝购买礼包，并获得一定的抽奖次数。玩家可以花费抽奖次数进行抽奖，有一定概率获得大量元宝奖励。|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt|lt/span|gt|ltbr|gt	
+
+|ltspan style='color:#209d13;font:26px Arial'|gt节日转盘|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt活动时间：8月2日-8月4日|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt活动时间内完成指定任务，可以获得免费抽奖次数，使用抽奖次数进行抽奖，可以获得丰厚奖励。|lt/span|gt|ltbr|gt
+|ltspan style='color:#7f4b20;font:22px Arial'|gt|lt/span|gt|ltbr|gt
+" icon="1" updatetime="2019/8/1" seetime="2019/8/1 00:00:00-2019/8/5 00:00:00"/>
+</root>

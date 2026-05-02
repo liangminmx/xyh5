@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+functionid	功能开启	1	function
+des	vip效果描述	1	function
+des2	vip副本规则描述	1	function
+icon	副本icon	1	function
+id	副本id	1	fuben
+name	副本名称	1	fuben
+viplv	开启vip等级	1	fuben
+zhandouid	战斗id	1	fuben
+pxid	排序id	1	fuben
+by	绑元数量	1	fuben
+itemid	道具id	2	item
+itemnum	道具数量	2	item
+
+
+-->
+	<function functionid="6696" des="提升VIP可以挑战更高级的至尊副本" des2="1.提升VIP可以挑战更高级的至尊副本；|n2.提升VIP后，原有VIP对应的至尊副本也可以挑战；|n3.每天0点，当前VIP对应的至尊副本次数会进行刷新，原有VIP对应的至尊副本次数不刷新；" icon="6696"/>
+	<fuben id="1" name="一重天" viplv="1" zhandouid="152001001" pxid="1" by="500"/>
+	<fuben id="2" name="二重天" viplv="2" zhandouid="152002001" pxid="2" by="1000"/>
+	<fuben id="3" name="三重天" viplv="3" zhandouid="152003001" pxid="3" by="">
+		<item itemid="16010013" itemnum="1"/>
+		<item itemid="10000101" itemnum="1"/>
+		<item itemid="16010059" itemnum="5"/>
+	</fuben>
+	<fuben id="4" name="四重天" viplv="4" zhandouid="152004001" pxid="4" by="">
+		<item itemid="12000238" itemnum="1"/>
+		<item itemid="16010013" itemnum="2"/>
+		<item itemid="10000101" itemnum="2"/>
+		<item itemid="16010059" itemnum="10"/>
+	</fuben>
+	<fuben id="5" name="五重天" viplv="5" zhandouid="152005001" pxid="1" by="">
+		<item itemid="12000238" itemnum="2"/>
+		<item itemid="16010013" itemnum="3"/>
+		<item itemid="10000101" itemnum="3"/>
+		<item itemid="16010059" itemnum="12"/>
+	</fuben>
+	<fuben id="6" name="六重天" viplv="6" zhandouid="152006001" pxid="2" by="">
+		<item itemid="12000238" itemnum="3"/>
+		<item itemid="16010013" itemnum="5"/>
+		<item itemid="10000101" itemnum="5"/>
+		<item itemid="16010059" itemnum="15"/>
+	</fuben>
+	<fuben id="7" name="七重天" viplv="7" zhandouid="152007001" pxid="3" by="">
+		<item itemid="12000238" itemnum="4"/>
+		<item itemid="16010013" itemnum="7"/>
+		<item itemid="10000101" itemnum="7"/>
+		<item itemid="16010059" itemnum="17"/>
+	</fuben>
+	<fuben id="8" name="八重天" viplv="8" zhandouid="152008001" pxid="4" by="">
+		<item itemid="12000238" itemnum="5"/>
+		<item itemid="16010013" itemnum="10"/>
+		<item itemid="10000101" itemnum="10"/>
+		<item itemid="16010059" itemnum="20"/>
+	</fuben>
+	<fuben id="9" name="九重天" viplv="9" zhandouid="152009001" pxid="4" by="">
+		<item itemid="12000238" itemnum="6"/>
+		<item itemid="16010013" itemnum="12"/>
+		<item itemid="10000101" itemnum="12"/>
+		<item itemid="16010059" itemnum="22"/>
+	</fuben>
+	<fuben id="10" name="十重天" viplv="10" zhandouid="152010001" pxid="4" by="">
+		<item itemid="12000238" itemnum="7"/>
+		<item itemid="16010013" itemnum="15"/>
+		<item itemid="10000101" itemnum="15"/>
+		<item itemid="16010059" itemnum="25"/>
+	</fuben>
+	<fuben id="11" name="十一重天" viplv="11" zhandouid="152011001" pxid="4" by="">
+		<item itemid="12000238" itemnum="8"/>
+		<item itemid="16010013" itemnum="17"/>
+		<item itemid="10000101" itemnum="17"/>
+		<item itemid="16010059" itemnum="28"/>
+	</fuben>
+	<fuben id="12" name="十二重天" viplv="12" zhandouid="152012001" pxid="4" by="">
+		<item itemid="12000238" itemnum="10"/>
+		<item itemid="16010013" itemnum="20"/>
+		<item itemid="10000101" itemnum="20"/>
+		<item itemid="16010059" itemnum="30"/>
+	</fuben>
+</root>

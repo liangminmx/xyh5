@@ -1,0 +1,1535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+FunctionId	功能开启	1	Function
+group	活动组别	1	group
+PF	平台PF值
+=-1，所有平台都开启该活动
+=指定值，只在指定的平台开启活动
+可配置多个，用逗号隔开	1	group
+name	活动名称，策划自己看	1	group
+activityOpen	活动开启时间
+2019-04-05 00:00:00	1	group
+activityEnds	活动结束时间
+2019-04-15 23:59:59	1	group
+activityEntraceIcon	活动图标	1	group
+sortId	功能图标排序	1	group
+ActivityBgMap	广告背景图	1	group   该字段不起作用
+mailId	积分宝箱邮件Id	1	group
+openDrawVip	开启50连抽的VIP等级需求	1	group
+itemId	首次十连抽必得奖励	2	mustWin
+num	道具数量	2	mustWin
+mustWinIcon	必得的奖励展示图标	2	mustWin   该字段不起作用根据laya来
+integral	积分值	2	PointReward
+RewardItemId	奖励道具	3	reward
+num	道具数量	3	reward
+type	获得的奖励货币类型
+=1银两
+=2元宝
+=3绑元	3	currency
+currencyValue	获得的货币数值	3	currency
+lotteryTypeId	抽奖类型Id，不同重复	2	lotteryType
+lotteryConsumption	抽奖消耗类型
+=1银两
+=2元宝
+=3绑元	2	lotteryType
+CoolingTime	免费抽奖冷却时间(单位:秒)
+不需要可不配置	2	lotteryType
+numberDraws	抽奖的次数	2	lotteryType
+consumptionValue	消耗的货币数量	2	lotteryType
+integral	获得的积分	2	lotteryType
+consumptionItem	替代的消耗道具
+为空或不配置视为不可替代	2	lotteryType
+consumptionNum	替代的消耗道具数量
+为空或不配置视为不可替代	2	lotteryType
+no	道具编号	3	prizePool
+itemId	道具Id	3	prizePool
+name	道具名称，策划自己看	3	prizePool
+num	道具数量	3	prizePool
+weights	道具权重	3	prizePool
+guaranteedNumber	保底次数
+不配置该字段视为没有保底次数	3	prizePool
+upperlimit	上限次数，超过配置的次数没有抽中该道具时下次抽取必中该道具
+不需要可不配置	3	prizePool
+replacementLibrary	替换库Id，值所引导libraryId的值
+不需要可不配置	3	prizePool
+broadcast	是否广播
+=1跑马灯处理并记录
+不配置代表不需要	3	prizePool
+itemId	展示道具Id	2	show
+showProbability	展示概率，配值具体值
+显示的时候显示该值+百分号
+showProbability=18.50，显示的就处理成18.50%	2	show
+libraryId	替换库Id值	2	library
+libraryName	策划自己看	2	library
+itemId	道具Id	3	replacement
+name	策划自己看	3	replacement
+num	道具数量	3	replacement
+-->
+	<Function FunctionId="6692"/>
+	<group group="1" name="活动" PF="-1" activityOpen="2019-05-19 00:00:00" activityEnds="2019-05-26 23:59:59" activityEntraceIcon="FestivalLuckyTurntable1" sortId="10" ActivityBgMap="FestiveReplenishmentBg" mailId="6692" openDrawVip="8">
+		<!--首次十连抽必得奖励-->
+		<mustWin itemId="12000237" num="1"/>
+		<!--积分奖励-->
+		<PointReward integral="2000">
+			<reward RewardItemId="12000237" num="2"/>
+			<reward RewardItemId="16010035" num="1"/>
+			<reward RewardItemId="10000016" num="10"/>
+			<currency type="3" currencyValue="1888"/>
+		</PointReward>
+		<PointReward integral="5000">
+			<reward RewardItemId="12000237" num="3"/>
+			<reward RewardItemId="16010035" num="2"/>
+			<reward RewardItemId="10000016" num="20"/>
+			<currency type="3" currencyValue="2888"/>
+		</PointReward>
+		<PointReward integral="10000">
+			<reward RewardItemId="12000237" num="5"/>
+			<reward RewardItemId="16010036" num="1"/>
+			<reward RewardItemId="10000016" num="50"/>
+			<currency type="3" currencyValue="5888"/>
+		</PointReward>
+		<!--抽奖数据-->
+		<lotteryType lotteryTypeId="1" lotteryConsumption="3" numberDraws="10" consumptionValue="5000" integral="200" lotteryName="绑元十连抽">
+			<prizePool no="1" itemId="12000237" name="猪小戒碎片" num="10" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="2" itemId="12000032" name="超级泡泡" num="1" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="3" itemId="12090025" name="彩凤仙女" num="1" weights="90" guaranteedNumber="0" upperlimit="0" replacementLibrary="4"/>
+			<prizePool no="4" itemId="12060016" name="蟹将" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="5" itemId="12000237" name="猪小戒碎片" num="5" weights="30" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="6" itemId="12100026" name="芙蓉仙女" num="1" weights="90" guaranteedNumber="0" upperlimit="0" replacementLibrary="4"/>
+			<prizePool no="7" itemId="12080022" name="仙鹤童子" num="1" weights="400" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="8" itemId="12060015" name="虾兵" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="9" itemId="12000031" name="小火龙" num="1" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="10" itemId="12080020" name="无面鬼将" num="1" weights="90" guaranteedNumber="0" upperlimit="0" replacementLibrary="4"/>
+			<prizePool no="11" itemId="12050011" name="小龙女" num="1" weights="400" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="12" itemId="12060014" name="伞妖" num="1" weights="400" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="13" itemId="12000030" name="鲲鹏" num="1" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="14" itemId="10000016" name="月花露" num="10" weights="1700" guaranteedNumber="0" upperlimit="0"/>
+			<prizePool no="15" itemId="12050012" name="牛头怪" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="16" itemId="12050013" name="马面怪" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+		</lotteryType>
+		<lotteryType lotteryTypeId="2" lotteryConsumption="2" numberDraws="1" consumptionValue="500" integral="100" CoolingTime="23:59:59" lotteryName="元宝单抽">
+			<prizePool no="1" itemId="12000237" name="猪小戒碎片" num="10" weights="79" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="2" itemId="12000032" name="超级泡泡" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="3" itemId="12090025" name="彩凤仙女" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="4" itemId="12060016" name="蟹将" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="5" itemId="12000237" name="猪小戒碎片" num="5" weights="500" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="6" itemId="12100026" name="芙蓉仙女" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="7" itemId="12080022" name="仙鹤童子" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="8" itemId="12060015" name="虾兵" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="9" itemId="12000031" name="小火龙" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="10" itemId="12080020" name="无面鬼将" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="11" itemId="12050011" name="小龙女" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="12" itemId="12060014" name="伞妖" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="13" itemId="12000030" name="鲲鹏" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="14" itemId="10000016" name="月花露" num="10" weights="1400" guaranteedNumber="0" upperlimit="0"/>
+			<prizePool no="15" itemId="12050012" name="牛头怪" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="16" itemId="12050013" name="马面怪" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+		</lotteryType>
+		<lotteryType lotteryTypeId="3" lotteryConsumption="2" numberDraws="10" consumptionValue="5000" integral="1200" lotteryName="元宝十连抽">
+			<prizePool no="1" itemId="12000237" name="猪小戒碎片" num="10" weights="79" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="2" itemId="12000032" name="超级泡泡" num="1" weights="7" guaranteedNumber="50" upperlimit="210" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="3" itemId="12090025" name="彩凤仙女" num="1" weights="300" guaranteedNumber="0" upperlimit="20" replacementLibrary="4"/>
+			<prizePool no="4" itemId="12060016" name="蟹将" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="5" itemId="12000237" name="猪小戒碎片" num="5" weights="500" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="6" itemId="12100026" name="芙蓉仙女" num="1" weights="300" guaranteedNumber="0" upperlimit="20" replacementLibrary="4"/>
+			<prizePool no="7" itemId="12080022" name="仙鹤童子" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="8" itemId="12060015" name="虾兵" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="9" itemId="12000031" name="小火龙" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="10" itemId="12080020" name="无面鬼将" num="1" weights="300" guaranteedNumber="0" upperlimit="20" replacementLibrary="4"/>
+			<prizePool no="11" itemId="12050011" name="小龙女" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="12" itemId="12060014" name="伞妖" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="13" itemId="12000030" name="鲲鹏" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="14" itemId="10000016" name="月花露" num="10" weights="1400" guaranteedNumber="0" upperlimit="0"/>
+			<prizePool no="15" itemId="12050012" name="牛头怪" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="16" itemId="12050013" name="马面怪" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+		</lotteryType>
+		<!--道具展示概率-->
+		<show itemId="12000237" showProbability="5.00"/>
+		<show itemId="115" showProbability="1.00"/>
+		<show itemId="116" showProbability="9.00"/>
+		<show itemId="117" showProbability="15.00"/>
+		<show itemId="118" showProbability="56.00"/>
+		<show itemId="10000016" showProbability="14.00"/>
+		<!--替换库-->
+		<library libraryId="5" libraryName="红色宠物库">
+			<replacement itemId="12000032" name="超级泡泡" num="1"/>
+			<replacement itemId="12000030" name="鲲鹏" num="1"/>
+			<replacement itemId="12000031" name="小火龙" num="1"/>
+			<replacement itemId="12000033" name="哮天犬" num="1"/>
+			<replacement itemId="12000035" name="九色鹿" num="1"/>
+			<replacement itemId="12000036" name="白泽" num="1"/>
+			<replacement itemId="12000034" name="熊猫" num="1"/>
+		</library>
+		<library libraryId="4" libraryName="橙色宠物库">
+			<replacement itemId="12090025" name="彩凤仙女" num="1"/>
+			<replacement itemId="12100026" name="芙蓉仙女" num="1"/>
+			<replacement itemId="12080021" name="蟠桃童子" num="1"/>
+			<replacement itemId="12080020" name="无面鬼将" num="1"/>
+			<replacement itemId="12070017" name="上古瑞兽" num="1"/>
+			<replacement itemId="12000029" name="巡天神将" num="1"/>
+			<replacement itemId="12100027" name="吞天虎" num="1"/>
+			<replacement itemId="12100028" name="西海蛟龙" num="1"/>
+			<replacement itemId="12090024" name="瑶池天兵" num="1"/>
+		</library>
+		<library libraryId="3" libraryName="紫色宠物库">
+			<replacement itemId="12080022" name="仙鹤童子" num="1"/>
+			<replacement itemId="12060014" name="伞妖" num="1"/>
+			<replacement itemId="12050011" name="小龙女" num="1"/>
+			<replacement itemId="12090023" name="黑山老妖" num="1"/>
+			<replacement itemId="12070018" name="画中仙" num="1"/>
+			<replacement itemId="12070019" name="嗜血鬼" num="1"/>
+		</library>
+		<library libraryId="2" libraryName="蓝色宠物库">
+			<replacement itemId="12010001" name="泡泡" num="1"/>
+			<replacement itemId="12020037" name="巨蛙" num="1"/>
+			<replacement itemId="12020003" name="寄居蟹" num="1"/>
+			<replacement itemId="12010002" name="小海龟" num="1"/>
+			<replacement itemId="12020038" name="海星" num="1"/>
+			<replacement itemId="12020004" name="野猪" num="1"/>
+			<replacement itemId="12030005" name="树妖" num="1"/>
+			<replacement itemId="12020039" name="蛤蟆精" num="1"/>
+			<replacement itemId="12020040" name="狼" num="1"/>
+			<replacement itemId="12030006" name="羊角怪" num="1"/>
+			<replacement itemId="12030007" name="狐妖" num="1"/>
+			<replacement itemId="12040008" name="小花妖" num="1"/>
+			<replacement itemId="12040010" name="蛮熊怪" num="1"/>
+			<replacement itemId="12050012" name="牛头怪" num="1"/>
+			<replacement itemId="12050013" name="马面怪" num="1"/>
+			<replacement itemId="12060015" name="虾兵" num="1"/>
+			<replacement itemId="12060016" name="蟹将" num="1"/>
+		</library>
+	</group>
+	<group group="2" name="活动" PF="-1" activityOpen="2019-05-31 00:00:00" activityEnds="2019-06-2 23:59:59" activityEntraceIcon="FestivalLuckyTurntable1" sortId="10" ActivityBgMap="FestiveReplenishmentBg" mailId="6692" openDrawVip="8">
+		<!--首次十连抽必得奖励-->
+		<mustWin itemId="12000239" num="1"/>
+		<!--积分奖励-->
+		<PointReward integral="2000">
+			<reward RewardItemId="12000239" num="2"/>
+			<reward RewardItemId="16010035" num="1"/>
+			<reward RewardItemId="10000016" num="10"/>
+			<currency type="3" currencyValue="1888"/>
+		</PointReward>
+		<PointReward integral="5000">
+			<reward RewardItemId="12000239" num="3"/>
+			<reward RewardItemId="16010035" num="2"/>
+			<reward RewardItemId="10000016" num="20"/>
+			<currency type="3" currencyValue="2888"/>
+		</PointReward>
+		<PointReward integral="10000">
+			<reward RewardItemId="12000239" num="5"/>
+			<reward RewardItemId="16010036" num="1"/>
+			<reward RewardItemId="10000016" num="50"/>
+			<currency type="3" currencyValue="5888"/>
+		</PointReward>
+		<!--抽奖数据-->
+		<lotteryType lotteryTypeId="1" lotteryConsumption="3" numberDraws="10" consumptionValue="5000" integral="200" lotteryName="绑元十连抽">
+			<prizePool no="1" itemId="12000239" name="淘气宝贝碎片" num="10" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="2" itemId="12000033" name="哮天犬" num="1" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="3" itemId="12080021" name="蟠桃童子" num="1" weights="90" guaranteedNumber="0" upperlimit="0" replacementLibrary="4"/>
+			<prizePool no="4" itemId="12010001" name="泡泡" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="5" itemId="12000239" name="淘气宝贝碎片" num="5" weights="30" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="6" itemId="12000029" name="巡天神将" num="1" weights="90" guaranteedNumber="0" upperlimit="0" replacementLibrary="4"/>
+			<prizePool no="7" itemId="12090023" name="黑山老妖" num="1" weights="400" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="8" itemId="12020037" name="巨蛙" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="9" itemId="12000034" name="熊猫" num="1" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="10" itemId="12070017" name="上古瑞兽" num="1" weights="90" guaranteedNumber="0" upperlimit="0" replacementLibrary="4"/>
+			<prizePool no="11" itemId="12070018" name="画中仙" num="1" weights="400" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="12" itemId="12070019" name="嗜血鬼" num="1" weights="400" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="13" itemId="12000036" name="白泽" num="1" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="14" itemId="10000016" name="月花露" num="10" weights="1700" guaranteedNumber="0" upperlimit="0"/>
+			<prizePool no="15" itemId="12030007" name="狐妖" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="16" itemId="12040008" name="小花妖" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+		</lotteryType>
+		<lotteryType lotteryTypeId="2" lotteryConsumption="2" numberDraws="1" consumptionValue="500" integral="100" CoolingTime="23:59:59" lotteryName="元宝单抽">
+			<prizePool no="1" itemId="12000239" name="淘气宝贝碎片" num="10" weights="79" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="2" itemId="12000033" name="哮天犬" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="3" itemId="12080021" name="蟠桃童子" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="4" itemId="12010001" name="泡泡" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="5" itemId="12000239" name="淘气宝贝碎片" num="5" weights="500" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="6" itemId="12000029" name="巡天神将" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="7" itemId="12090023" name="黑山老妖" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="8" itemId="12020037" name="巨蛙" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="9" itemId="12000034" name="熊猫" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="10" itemId="12070017" name="上古瑞兽" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="11" itemId="12070018" name="画中仙" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="12" itemId="12070019" name="嗜血鬼" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="13" itemId="12000036" name="白泽" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="14" itemId="10000016" name="月花露" num="10" weights="1400" guaranteedNumber="0" upperlimit="0"/>
+			<prizePool no="15" itemId="12030007" name="狐妖" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="16" itemId="12040008" name="小花妖" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+		</lotteryType>
+		<lotteryType lotteryTypeId="3" lotteryConsumption="2" numberDraws="10" consumptionValue="5000" integral="1200" lotteryName="元宝十连抽">
+			<prizePool no="1" itemId="12000239" name="淘气宝贝碎片" num="10" weights="79" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="2" itemId="12000033" name="哮天犬" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="3" itemId="12080021" name="蟠桃童子" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="4" itemId="12010001" name="泡泡" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="5" itemId="12000239" name="淘气宝贝碎片" num="5" weights="500" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="6" itemId="12000029" name="巡天神将" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="7" itemId="12090023" name="黑山老妖" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="8" itemId="12020037" name="巨蛙" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="9" itemId="12000034" name="熊猫" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="10" itemId="12070017" name="上古瑞兽" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="11" itemId="12070018" name="画中仙" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="12" itemId="12070019" name="嗜血鬼" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="13" itemId="12000036" name="白泽" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="14" itemId="10000016" name="月花露" num="10" weights="1400" guaranteedNumber="0" upperlimit="0"/>
+			<prizePool no="15" itemId="12030007" name="狐妖" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="16" itemId="12040008" name="小花妖" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+		</lotteryType>
+		<!--道具展示概率-->
+		<show itemId="12000239" showProbability="5.00"/>
+		<show itemId="115" showProbability="1.00"/>
+		<show itemId="116" showProbability="9.00"/>
+		<show itemId="117" showProbability="15.00"/>
+		<show itemId="118" showProbability="56.00"/>
+		<show itemId="10000016" showProbability="14.00"/>
+		<!--替换库-->
+		<library libraryId="5" libraryName="红色宠物库">
+			<replacement itemId="12000032" name="超级泡泡" num="1"/>
+			<replacement itemId="12000030" name="鲲鹏" num="1"/>
+			<replacement itemId="12000031" name="小火龙" num="1"/>
+			<replacement itemId="12000033" name="哮天犬" num="1"/>
+			<replacement itemId="12000035" name="九色鹿" num="1"/>
+			<replacement itemId="12000036" name="白泽" num="1"/>
+			<replacement itemId="12000034" name="熊猫" num="1"/>
+		</library>
+		<library libraryId="4" libraryName="橙色宠物库">
+			<replacement itemId="12090025" name="彩凤仙女" num="1"/>
+			<replacement itemId="12100026" name="芙蓉仙女" num="1"/>
+			<replacement itemId="12080021" name="蟠桃童子" num="1"/>
+			<replacement itemId="12080020" name="无面鬼将" num="1"/>
+			<replacement itemId="12070017" name="上古瑞兽" num="1"/>
+			<replacement itemId="12000029" name="巡天神将" num="1"/>
+			<replacement itemId="12100027" name="吞天虎" num="1"/>
+			<replacement itemId="12100028" name="西海蛟龙" num="1"/>
+			<replacement itemId="12090024" name="瑶池天兵" num="1"/>
+		</library>
+		<library libraryId="3" libraryName="紫色宠物库">
+			<replacement itemId="12080022" name="仙鹤童子" num="1"/>
+			<replacement itemId="12060014" name="伞妖" num="1"/>
+			<replacement itemId="12050011" name="小龙女" num="1"/>
+			<replacement itemId="12090023" name="黑山老妖" num="1"/>
+			<replacement itemId="12070018" name="画中仙" num="1"/>
+			<replacement itemId="12070019" name="嗜血鬼" num="1"/>
+		</library>
+		<library libraryId="2" libraryName="蓝色宠物库">
+			<replacement itemId="12010001" name="泡泡" num="1"/>
+			<replacement itemId="12020037" name="巨蛙" num="1"/>
+			<replacement itemId="12020003" name="寄居蟹" num="1"/>
+			<replacement itemId="12010002" name="小海龟" num="1"/>
+			<replacement itemId="12020038" name="海星" num="1"/>
+			<replacement itemId="12020004" name="野猪" num="1"/>
+			<replacement itemId="12030005" name="树妖" num="1"/>
+			<replacement itemId="12020039" name="蛤蟆精" num="1"/>
+			<replacement itemId="12020040" name="狼" num="1"/>
+			<replacement itemId="12030006" name="羊角怪" num="1"/>
+			<replacement itemId="12030007" name="狐妖" num="1"/>
+			<replacement itemId="12040008" name="小花妖" num="1"/>
+			<replacement itemId="12040010" name="蛮熊怪" num="1"/>
+			<replacement itemId="12050012" name="牛头怪" num="1"/>
+			<replacement itemId="12050013" name="马面怪" num="1"/>
+			<replacement itemId="12060015" name="虾兵" num="1"/>
+			<replacement itemId="12060016" name="蟹将" num="1"/>
+		</library>
+	</group>
+	<group group="3" name="活动" PF="-1" activityOpen="2019-06-07 00:00:00" activityEnds="2019-06-09 23:59:59" activityEntraceIcon="FestivalLuckyTurntable1" sortId="10" ActivityBgMap="FestiveReplenishmentBg" mailId="6692" openDrawVip="8">
+		<!--首次十连抽必得奖励-->
+		<mustWin itemId="12000240" num="1"/>
+		<!--积分奖励-->
+		<PointReward integral="2000">
+			<reward RewardItemId="12000240" num="2"/>
+			<reward RewardItemId="16010035" num="1"/>
+			<reward RewardItemId="10000016" num="10"/>
+			<currency type="3" currencyValue="1888"/>
+		</PointReward>
+		<PointReward integral="5000">
+			<reward RewardItemId="12000240" num="3"/>
+			<reward RewardItemId="16010035" num="2"/>
+			<reward RewardItemId="10000016" num="20"/>
+			<currency type="3" currencyValue="2888"/>
+		</PointReward>
+		<PointReward integral="10000">
+			<reward RewardItemId="12000240" num="5"/>
+			<reward RewardItemId="16010036" num="1"/>
+			<reward RewardItemId="10000016" num="50"/>
+			<currency type="3" currencyValue="5888"/>
+		</PointReward>
+		<!--抽奖数据-->
+		<lotteryType lotteryTypeId="1" lotteryConsumption="3" numberDraws="10" consumptionValue="5000" integral="200" lotteryName="绑元十连抽">
+			<prizePool no="1" itemId="12000240" name="仙符女娲碎片" num="10" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="2" itemId="12000033" name="哮天犬" num="1" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="3" itemId="12080021" name="蟠桃童子" num="1" weights="90" guaranteedNumber="0" upperlimit="0" replacementLibrary="4"/>
+			<prizePool no="4" itemId="12010001" name="泡泡" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="5" itemId="12000240" name="仙符女娲碎片" num="5" weights="30" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="6" itemId="12000029" name="巡天神将" num="1" weights="90" guaranteedNumber="0" upperlimit="0" replacementLibrary="4"/>
+			<prizePool no="7" itemId="12090023" name="黑山老妖" num="1" weights="400" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="8" itemId="12020037" name="巨蛙" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="9" itemId="12000034" name="熊猫" num="1" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="10" itemId="12070017" name="上古瑞兽" num="1" weights="90" guaranteedNumber="0" upperlimit="0" replacementLibrary="4"/>
+			<prizePool no="11" itemId="12070018" name="画中仙" num="1" weights="400" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="12" itemId="12070019" name="嗜血鬼" num="1" weights="400" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="13" itemId="12000036" name="白泽" num="1" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="14" itemId="10000016" name="月花露" num="10" weights="1700" guaranteedNumber="0" upperlimit="0"/>
+			<prizePool no="15" itemId="12030007" name="狐妖" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="16" itemId="12040008" name="小花妖" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+		</lotteryType>
+		<lotteryType lotteryTypeId="2" lotteryConsumption="2" numberDraws="1" consumptionValue="500" integral="100" CoolingTime="23:59:59" lotteryName="元宝单抽">
+			<prizePool no="1" itemId="12000240" name="仙符女娲碎片" num="10" weights="79" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="2" itemId="12000033" name="哮天犬" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="3" itemId="12080021" name="蟠桃童子" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="4" itemId="12010001" name="泡泡" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="5" itemId="12000240" name="仙符女娲碎片" num="5" weights="500" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="6" itemId="12000029" name="巡天神将" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="7" itemId="12090023" name="黑山老妖" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="8" itemId="12020037" name="巨蛙" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="9" itemId="12000034" name="熊猫" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="10" itemId="12070017" name="上古瑞兽" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="11" itemId="12070018" name="画中仙" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="12" itemId="12070019" name="嗜血鬼" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="13" itemId="12000036" name="白泽" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="14" itemId="10000016" name="月花露" num="10" weights="1400" guaranteedNumber="0" upperlimit="0"/>
+			<prizePool no="15" itemId="12030007" name="狐妖" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="16" itemId="12040008" name="小花妖" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+		</lotteryType>
+		<lotteryType lotteryTypeId="3" lotteryConsumption="2" numberDraws="10" consumptionValue="5000" integral="1200" lotteryName="元宝十连抽">
+			<prizePool no="1" itemId="12000240" name="仙符女娲碎片" num="10" weights="79" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="2" itemId="12000033" name="哮天犬" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="3" itemId="12080021" name="蟠桃童子" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="4" itemId="12010001" name="泡泡" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="5" itemId="12000240" name="仙符女娲碎片" num="5" weights="500" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="6" itemId="12000029" name="巡天神将" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="7" itemId="12090023" name="黑山老妖" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="8" itemId="12020037" name="巨蛙" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="9" itemId="12000034" name="熊猫" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="10" itemId="12070017" name="上古瑞兽" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="11" itemId="12070018" name="画中仙" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="12" itemId="12070019" name="嗜血鬼" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="13" itemId="12000036" name="白泽" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="14" itemId="10000016" name="月花露" num="10" weights="1400" guaranteedNumber="0" upperlimit="0"/>
+			<prizePool no="15" itemId="12030007" name="狐妖" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="16" itemId="12040008" name="小花妖" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+		</lotteryType>
+		<!--道具展示概率-->
+		<show itemId="12000240" showProbability="5.00"/>
+		<show itemId="115" showProbability="1.00"/>
+		<show itemId="116" showProbability="9.00"/>
+		<show itemId="117" showProbability="15.00"/>
+		<show itemId="118" showProbability="56.00"/>
+		<show itemId="10000016" showProbability="14.00"/>
+		<!--替换库-->
+		<library libraryId="2" libraryName="蓝色宠物库">
+			<replacement itemId="12010001" name="泡泡" num="1"/>
+			<replacement itemId="12020037" name="巨蛙" num="1"/>
+			<replacement itemId="12020003" name="寄居蟹" num="1"/>
+			<replacement itemId="12010002" name="小海龟" num="1"/>
+			<replacement itemId="12020038" name="海星" num="1"/>
+			<replacement itemId="12020004" name="野猪" num="1"/>
+			<replacement itemId="12030005" name="树妖" num="1"/>
+			<replacement itemId="12020039" name="蛤蟆精" num="1"/>
+			<replacement itemId="12020040" name="狼" num="1"/>
+			<replacement itemId="12030006" name="羊角怪" num="1"/>
+			<replacement itemId="12030007" name="狐妖" num="1"/>
+			<replacement itemId="12040008" name="小花妖" num="1"/>
+			<replacement itemId="12040010" name="蛮熊怪" num="1"/>
+			<replacement itemId="12050012" name="牛头怪" num="1"/>
+			<replacement itemId="12050013" name="马面怪" num="1"/>
+			<replacement itemId="12060015" name="虾兵" num="1"/>
+			<replacement itemId="12060016" name="蟹将" num="1"/>
+		</library>
+		<library libraryId="3" libraryName="紫色宠物库">
+			<replacement itemId="12080022" name="仙鹤童子" num="1"/>
+			<replacement itemId="12060014" name="伞妖" num="1"/>
+			<replacement itemId="12050011" name="小龙女" num="1"/>
+			<replacement itemId="12090023" name="黑山老妖" num="1"/>
+			<replacement itemId="12070018" name="画中仙" num="1"/>
+			<replacement itemId="12070019" name="嗜血鬼" num="1"/>
+		</library>
+		<library libraryId="4" libraryName="橙色宠物库">
+			<replacement itemId="12090025" name="彩凤仙女" num="1"/>
+			<replacement itemId="12100026" name="芙蓉仙女" num="1"/>
+			<replacement itemId="12080021" name="蟠桃童子" num="1"/>
+			<replacement itemId="12080020" name="无面鬼将" num="1"/>
+			<replacement itemId="12070017" name="上古瑞兽" num="1"/>
+			<replacement itemId="12000029" name="巡天神将" num="1"/>
+			<replacement itemId="12100027" name="吞天虎" num="1"/>
+			<replacement itemId="12100028" name="西海蛟龙" num="1"/>
+			<replacement itemId="12090024" name="瑶池天兵" num="1"/>
+		</library>
+		<library libraryId="5" libraryName="红色宠物库">
+			<replacement itemId="12000032" name="超级泡泡" num="1"/>
+			<replacement itemId="12000030" name="鲲鹏" num="1"/>
+			<replacement itemId="12000031" name="小火龙" num="1"/>
+			<replacement itemId="12000033" name="哮天犬" num="1"/>
+			<replacement itemId="12000035" name="九色鹿" num="1"/>
+			<replacement itemId="12000036" name="白泽" num="1"/>
+			<replacement itemId="12000034" name="熊猫" num="1"/>
+		</library>
+	</group>
+	<group group="4" name="活动" PF="-1" activityOpen="2019-06-14 00:00:00" activityEnds="2019-06-16 23:59:59" activityEntraceIcon="FestivalLuckyTurntable1" sortId="10" ActivityBgMap="FestiveReplenishmentBg" mailId="6692" openDrawVip="8">
+		<!--首次十连抽必得奖励-->
+		<mustWin itemId="12000241" num="1"/>
+		<!--积分奖励-->
+		<PointReward integral="2000">
+			<reward RewardItemId="12000241" num="2"/>
+			<reward RewardItemId="16010035" num="1"/>
+			<reward RewardItemId="10000016" num="10"/>
+			<currency type="3" currencyValue="1888"/>
+		</PointReward>
+		<PointReward integral="5000">
+			<reward RewardItemId="12000241" num="3"/>
+			<reward RewardItemId="16010035" num="2"/>
+			<reward RewardItemId="10000016" num="20"/>
+			<currency type="3" currencyValue="2888"/>
+		</PointReward>
+		<PointReward integral="10000">
+			<reward RewardItemId="12000241" num="5"/>
+			<reward RewardItemId="16010036" num="1"/>
+			<reward RewardItemId="10000016" num="50"/>
+			<currency type="3" currencyValue="5888"/>
+		</PointReward>
+		<!--抽奖数据-->
+		<lotteryType lotteryTypeId="1" lotteryConsumption="3" numberDraws="10" consumptionValue="5000" integral="200" lotteryName="绑元十连抽">
+			<prizePool no="1" itemId="12000241" name="金饶僧碎片" num="10" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="2" itemId="12000033" name="哮天犬" num="1" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="3" itemId="12080021" name="蟠桃童子" num="1" weights="90" guaranteedNumber="0" upperlimit="0" replacementLibrary="4"/>
+			<prizePool no="4" itemId="12010001" name="泡泡" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="5" itemId="12000241" name="金饶僧碎片" num="5" weights="30" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="6" itemId="12000029" name="巡天神将" num="1" weights="90" guaranteedNumber="0" upperlimit="0" replacementLibrary="4"/>
+			<prizePool no="7" itemId="12090023" name="黑山老妖" num="1" weights="400" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="8" itemId="12020037" name="巨蛙" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="9" itemId="12000034" name="熊猫" num="1" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="10" itemId="12070017" name="上古瑞兽" num="1" weights="90" guaranteedNumber="0" upperlimit="0" replacementLibrary="4"/>
+			<prizePool no="11" itemId="12070018" name="画中仙" num="1" weights="400" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="12" itemId="12070019" name="嗜血鬼" num="1" weights="400" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="13" itemId="12000036" name="白泽" num="1" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="14" itemId="10000016" name="月花露" num="10" weights="1700" guaranteedNumber="0" upperlimit="0"/>
+			<prizePool no="15" itemId="12030007" name="狐妖" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="16" itemId="12040008" name="小花妖" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+		</lotteryType>
+		<lotteryType lotteryTypeId="2" lotteryConsumption="2" numberDraws="1" consumptionValue="500" integral="100" CoolingTime="23:59:59" lotteryName="元宝单抽">
+			<prizePool no="1" itemId="12000241" name="金饶僧碎片" num="10" weights="79" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="2" itemId="12000033" name="哮天犬" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="3" itemId="12080021" name="蟠桃童子" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="4" itemId="12010001" name="泡泡" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="5" itemId="12000241" name="金饶僧碎片" num="5" weights="500" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="6" itemId="12000029" name="巡天神将" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="7" itemId="12090023" name="黑山老妖" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="8" itemId="12020037" name="巨蛙" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="9" itemId="12000034" name="熊猫" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="10" itemId="12070017" name="上古瑞兽" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="11" itemId="12070018" name="画中仙" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="12" itemId="12070019" name="嗜血鬼" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="13" itemId="12000036" name="白泽" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="14" itemId="10000016" name="月花露" num="10" weights="1400" guaranteedNumber="0" upperlimit="0"/>
+			<prizePool no="15" itemId="12030007" name="狐妖" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="16" itemId="12040008" name="小花妖" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+		</lotteryType>
+		<lotteryType lotteryTypeId="3" lotteryConsumption="2" numberDraws="10" consumptionValue="5000" integral="1200" lotteryName="元宝十连抽">
+			<prizePool no="1" itemId="12000241" name="金饶僧碎片" num="10" weights="79" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="2" itemId="12000033" name="哮天犬" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="3" itemId="12080021" name="蟠桃童子" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="4" itemId="12010001" name="泡泡" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="5" itemId="12000241" name="金饶僧碎片" num="5" weights="500" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="6" itemId="12000029" name="巡天神将" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="7" itemId="12090023" name="黑山老妖" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="8" itemId="12020037" name="巨蛙" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="9" itemId="12000034" name="熊猫" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="10" itemId="12070017" name="上古瑞兽" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="11" itemId="12070018" name="画中仙" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="12" itemId="12070019" name="嗜血鬼" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="13" itemId="12000036" name="白泽" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="14" itemId="10000016" name="月花露" num="10" weights="1400" guaranteedNumber="0" upperlimit="0"/>
+			<prizePool no="15" itemId="12030007" name="狐妖" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="16" itemId="12040008" name="小花妖" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+		</lotteryType>
+		<!--道具展示概率-->
+		<show itemId="12000241" showProbability="5.00"/>
+		<show itemId="115" showProbability="1.00"/>
+		<show itemId="116" showProbability="9.00"/>
+		<show itemId="117" showProbability="15.00"/>
+		<show itemId="118" showProbability="56.00"/>
+		<show itemId="10000016" showProbability="14.00"/>
+		<!--替换库-->
+		<library libraryId="5" libraryName="红色宠物库">
+			<replacement itemId="12000032" name="超级泡泡" num="1"/>
+			<replacement itemId="12000030" name="鲲鹏" num="1"/>
+			<replacement itemId="12000031" name="小火龙" num="1"/>
+			<replacement itemId="12000033" name="哮天犬" num="1"/>
+			<replacement itemId="12000035" name="九色鹿" num="1"/>
+			<replacement itemId="12000036" name="白泽" num="1"/>
+			<replacement itemId="12000034" name="熊猫" num="1"/>
+		</library>
+		<library libraryId="4" libraryName="橙色宠物库">
+			<replacement itemId="12090025" name="彩凤仙女" num="1"/>
+			<replacement itemId="12100026" name="芙蓉仙女" num="1"/>
+			<replacement itemId="12080021" name="蟠桃童子" num="1"/>
+			<replacement itemId="12080020" name="无面鬼将" num="1"/>
+			<replacement itemId="12070017" name="上古瑞兽" num="1"/>
+			<replacement itemId="12000029" name="巡天神将" num="1"/>
+			<replacement itemId="12100027" name="吞天虎" num="1"/>
+			<replacement itemId="12100028" name="西海蛟龙" num="1"/>
+			<replacement itemId="12090024" name="瑶池天兵" num="1"/>
+		</library>
+		<library libraryId="3" libraryName="紫色宠物库">
+			<replacement itemId="12080022" name="仙鹤童子" num="1"/>
+			<replacement itemId="12060014" name="伞妖" num="1"/>
+			<replacement itemId="12050011" name="小龙女" num="1"/>
+			<replacement itemId="12090023" name="黑山老妖" num="1"/>
+			<replacement itemId="12070018" name="画中仙" num="1"/>
+			<replacement itemId="12070019" name="嗜血鬼" num="1"/>
+		</library>
+		<library libraryId="2" libraryName="蓝色宠物库">
+			<replacement itemId="12010001" name="泡泡" num="1"/>
+			<replacement itemId="12020037" name="巨蛙" num="1"/>
+			<replacement itemId="12020003" name="寄居蟹" num="1"/>
+			<replacement itemId="12010002" name="小海龟" num="1"/>
+			<replacement itemId="12020038" name="海星" num="1"/>
+			<replacement itemId="12020004" name="野猪" num="1"/>
+			<replacement itemId="12030005" name="树妖" num="1"/>
+			<replacement itemId="12020039" name="蛤蟆精" num="1"/>
+			<replacement itemId="12020040" name="狼" num="1"/>
+			<replacement itemId="12030006" name="羊角怪" num="1"/>
+			<replacement itemId="12030007" name="狐妖" num="1"/>
+			<replacement itemId="12040008" name="小花妖" num="1"/>
+			<replacement itemId="12040010" name="蛮熊怪" num="1"/>
+			<replacement itemId="12050012" name="牛头怪" num="1"/>
+			<replacement itemId="12050013" name="马面怪" num="1"/>
+			<replacement itemId="12060015" name="虾兵" num="1"/>
+			<replacement itemId="12060016" name="蟹将" num="1"/>
+		</library>
+	</group>
+	<group group="5" name="活动" PF="-1" activityOpen="2019-06-21 00:00:00" activityEnds="2019-06-23 23:59:59" activityEntraceIcon="FestivalLuckyTurntable1" sortId="10" ActivityBgMap="FestiveReplenishmentBg" mailId="6692" openDrawVip="8">
+		<!--首次十连抽必得奖励-->
+		<mustWin itemId="12000242" num="1"/>
+		<!--积分奖励-->
+		<PointReward integral="2000">
+			<reward RewardItemId="12000242" num="2"/>
+			<reward RewardItemId="16010035" num="1"/>
+			<reward RewardItemId="10000016" num="10"/>
+			<currency type="3" currencyValue="1888"/>
+		</PointReward>
+		<PointReward integral="5000">
+			<reward RewardItemId="12000242" num="3"/>
+			<reward RewardItemId="16010035" num="2"/>
+			<reward RewardItemId="10000016" num="20"/>
+			<currency type="3" currencyValue="2888"/>
+		</PointReward>
+		<PointReward integral="10000">
+			<reward RewardItemId="12000242" num="5"/>
+			<reward RewardItemId="16010036" num="1"/>
+			<reward RewardItemId="10000016" num="50"/>
+			<currency type="3" currencyValue="5888"/>
+		</PointReward>
+		<!--抽奖数据-->
+		<lotteryType lotteryTypeId="1" lotteryConsumption="3" numberDraws="10" consumptionValue="5000" integral="200" lotteryName="绑元十连抽">
+			<prizePool no="1" itemId="12000242" name="长眉灵猴碎片" num="10" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="2" itemId="12000033" name="哮天犬" num="1" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="3" itemId="12080021" name="蟠桃童子" num="1" weights="90" guaranteedNumber="0" upperlimit="0" replacementLibrary="4"/>
+			<prizePool no="4" itemId="12010001" name="泡泡" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="5" itemId="12000242" name="长眉灵猴碎片" num="5" weights="30" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="6" itemId="12000029" name="巡天神将" num="1" weights="90" guaranteedNumber="0" upperlimit="0" replacementLibrary="4"/>
+			<prizePool no="7" itemId="12090023" name="黑山老妖" num="1" weights="400" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="8" itemId="12020037" name="巨蛙" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="9" itemId="12000034" name="熊猫" num="1" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="10" itemId="12070017" name="上古瑞兽" num="1" weights="90" guaranteedNumber="0" upperlimit="0" replacementLibrary="4"/>
+			<prizePool no="11" itemId="12070018" name="画中仙" num="1" weights="400" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="12" itemId="12070019" name="嗜血鬼" num="1" weights="400" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="13" itemId="12000036" name="白泽" num="1" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="14" itemId="10000016" name="月花露" num="10" weights="1700" guaranteedNumber="0" upperlimit="0"/>
+			<prizePool no="15" itemId="12030007" name="狐妖" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="16" itemId="12040008" name="小花妖" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+		</lotteryType>
+		<lotteryType lotteryTypeId="2" lotteryConsumption="2" numberDraws="1" consumptionValue="500" integral="100" CoolingTime="23:59:59" lotteryName="元宝单抽">
+			<prizePool no="1" itemId="12000242" name="长眉灵猴碎片" num="10" weights="79" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="2" itemId="12000033" name="哮天犬" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="3" itemId="12080021" name="蟠桃童子" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="4" itemId="12010001" name="泡泡" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="5" itemId="12000242" name="长眉灵猴碎片" num="5" weights="500" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="6" itemId="12000029" name="巡天神将" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="7" itemId="12090023" name="黑山老妖" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="8" itemId="12020037" name="巨蛙" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="9" itemId="12000034" name="熊猫" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="10" itemId="12070017" name="上古瑞兽" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="11" itemId="12070018" name="画中仙" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="12" itemId="12070019" name="嗜血鬼" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="13" itemId="12000036" name="白泽" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="14" itemId="10000016" name="月花露" num="10" weights="1400" guaranteedNumber="0" upperlimit="0"/>
+			<prizePool no="15" itemId="12030007" name="狐妖" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="16" itemId="12040008" name="小花妖" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+		</lotteryType>
+		<lotteryType lotteryTypeId="3" lotteryConsumption="2" numberDraws="10" consumptionValue="5000" integral="1200" lotteryName="元宝十连抽">
+			<prizePool no="1" itemId="12000242" name="长眉灵猴碎片" num="10" weights="79" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="2" itemId="12000033" name="哮天犬" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="3" itemId="12080021" name="蟠桃童子" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="4" itemId="12010001" name="泡泡" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="5" itemId="12000242" name="长眉灵猴碎片" num="5" weights="500" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="6" itemId="12000029" name="巡天神将" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="7" itemId="12090023" name="黑山老妖" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="8" itemId="12020037" name="巨蛙" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="9" itemId="12000034" name="熊猫" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="10" itemId="12070017" name="上古瑞兽" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="11" itemId="12070018" name="画中仙" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="12" itemId="12070019" name="嗜血鬼" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="13" itemId="12000036" name="白泽" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="14" itemId="10000016" name="月花露" num="10" weights="1400" guaranteedNumber="0" upperlimit="0"/>
+			<prizePool no="15" itemId="12030007" name="狐妖" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="16" itemId="12040008" name="小花妖" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+		</lotteryType>
+		<!--道具展示概率-->
+		<show itemId="12000242" showProbability="5.00"/>
+		<show itemId="115" showProbability="1.00"/>
+		<show itemId="116" showProbability="9.00"/>
+		<show itemId="117" showProbability="15.00"/>
+		<show itemId="118" showProbability="56.00"/>
+		<show itemId="10000016" showProbability="14.00"/>
+		<!--替换库-->
+		<library libraryId="5" libraryName="红色宠物库">
+			<replacement itemId="12000032" name="超级泡泡" num="1"/>
+			<replacement itemId="12000030" name="鲲鹏" num="1"/>
+			<replacement itemId="12000031" name="小火龙" num="1"/>
+			<replacement itemId="12000033" name="哮天犬" num="1"/>
+			<replacement itemId="12000035" name="九色鹿" num="1"/>
+			<replacement itemId="12000036" name="白泽" num="1"/>
+			<replacement itemId="12000034" name="熊猫" num="1"/>
+		</library>
+		<library libraryId="4" libraryName="橙色宠物库">
+			<replacement itemId="12090025" name="彩凤仙女" num="1"/>
+			<replacement itemId="12100026" name="芙蓉仙女" num="1"/>
+			<replacement itemId="12080021" name="蟠桃童子" num="1"/>
+			<replacement itemId="12080020" name="无面鬼将" num="1"/>
+			<replacement itemId="12070017" name="上古瑞兽" num="1"/>
+			<replacement itemId="12000029" name="巡天神将" num="1"/>
+			<replacement itemId="12100027" name="吞天虎" num="1"/>
+			<replacement itemId="12100028" name="西海蛟龙" num="1"/>
+			<replacement itemId="12090024" name="瑶池天兵" num="1"/>
+		</library>
+		<library libraryId="3" libraryName="紫色宠物库">
+			<replacement itemId="12080022" name="仙鹤童子" num="1"/>
+			<replacement itemId="12060014" name="伞妖" num="1"/>
+			<replacement itemId="12050011" name="小龙女" num="1"/>
+			<replacement itemId="12090023" name="黑山老妖" num="1"/>
+			<replacement itemId="12070018" name="画中仙" num="1"/>
+			<replacement itemId="12070019" name="嗜血鬼" num="1"/>
+		</library>
+		<library libraryId="2" libraryName="蓝色宠物库">
+			<replacement itemId="12010001" name="泡泡" num="1"/>
+			<replacement itemId="12020037" name="巨蛙" num="1"/>
+			<replacement itemId="12020003" name="寄居蟹" num="1"/>
+			<replacement itemId="12010002" name="小海龟" num="1"/>
+			<replacement itemId="12020038" name="海星" num="1"/>
+			<replacement itemId="12020004" name="野猪" num="1"/>
+			<replacement itemId="12030005" name="树妖" num="1"/>
+			<replacement itemId="12020039" name="蛤蟆精" num="1"/>
+			<replacement itemId="12020040" name="狼" num="1"/>
+			<replacement itemId="12030006" name="羊角怪" num="1"/>
+			<replacement itemId="12030007" name="狐妖" num="1"/>
+			<replacement itemId="12040008" name="小花妖" num="1"/>
+			<replacement itemId="12040010" name="蛮熊怪" num="1"/>
+			<replacement itemId="12050012" name="牛头怪" num="1"/>
+			<replacement itemId="12050013" name="马面怪" num="1"/>
+			<replacement itemId="12060015" name="虾兵" num="1"/>
+			<replacement itemId="12060016" name="蟹将" num="1"/>
+		</library>
+	</group>
+	<group group="6" name="活动" PF="-1" activityOpen="2019-06-28 00:00:00" activityEnds="2019-06-30 23:59:59" activityEntraceIcon="FestivalLuckyTurntable1" sortId="10" ActivityBgMap="FestiveReplenishmentBg" mailId="6692" openDrawVip="8">
+		<!--首次十连抽必得奖励-->
+		<mustWin itemId="12000243" num="1"/>
+		<!--积分奖励-->
+		<PointReward integral="2000">
+			<reward RewardItemId="12000243" num="2"/>
+			<reward RewardItemId="16010035" num="1"/>
+			<reward RewardItemId="10000016" num="10"/>
+			<currency type="3" currencyValue="1888"/>
+		</PointReward>
+		<PointReward integral="5000">
+			<reward RewardItemId="12000243" num="3"/>
+			<reward RewardItemId="16010035" num="2"/>
+			<reward RewardItemId="10000016" num="20"/>
+			<currency type="3" currencyValue="2888"/>
+		</PointReward>
+		<PointReward integral="10000">
+			<reward RewardItemId="12000243" num="5"/>
+			<reward RewardItemId="16010036" num="1"/>
+			<reward RewardItemId="10000016" num="50"/>
+			<currency type="3" currencyValue="5888"/>
+		</PointReward>
+		<!--抽奖数据-->
+		<lotteryType lotteryTypeId="1" lotteryConsumption="3" numberDraws="10" consumptionValue="5000" integral="200" lotteryName="绑元十连抽">
+			<prizePool no="1" itemId="12000243" name="夜罗刹碎片" num="10" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="2" itemId="12000033" name="哮天犬" num="1" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="3" itemId="12080021" name="蟠桃童子" num="1" weights="90" guaranteedNumber="0" upperlimit="0" replacementLibrary="4"/>
+			<prizePool no="4" itemId="12010001" name="泡泡" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="5" itemId="12000243" name="夜罗刹碎片" num="5" weights="30" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="6" itemId="12000029" name="巡天神将" num="1" weights="90" guaranteedNumber="0" upperlimit="0" replacementLibrary="4"/>
+			<prizePool no="7" itemId="12090023" name="黑山老妖" num="1" weights="400" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="8" itemId="12020037" name="巨蛙" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="9" itemId="12000034" name="熊猫" num="1" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="10" itemId="12070017" name="上古瑞兽" num="1" weights="90" guaranteedNumber="0" upperlimit="0" replacementLibrary="4"/>
+			<prizePool no="11" itemId="12070018" name="画中仙" num="1" weights="400" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="12" itemId="12070019" name="嗜血鬼" num="1" weights="400" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="13" itemId="12000036" name="白泽" num="1" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="14" itemId="10000016" name="月花露" num="10" weights="1700" guaranteedNumber="0" upperlimit="0"/>
+			<prizePool no="15" itemId="12030007" name="狐妖" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="16" itemId="12040008" name="小花妖" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+		</lotteryType>
+		<lotteryType lotteryTypeId="2" lotteryConsumption="2" numberDraws="1" consumptionValue="500" integral="100" CoolingTime="23:59:59" lotteryName="元宝单抽">
+			<prizePool no="1" itemId="12000243" name="夜罗刹碎片" num="10" weights="79" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="2" itemId="12000033" name="哮天犬" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="3" itemId="12080021" name="蟠桃童子" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="4" itemId="12010001" name="泡泡" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="5" itemId="12000243" name="夜罗刹碎片" num="5" weights="500" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="6" itemId="12000029" name="巡天神将" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="7" itemId="12090023" name="黑山老妖" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="8" itemId="12020037" name="巨蛙" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="9" itemId="12000034" name="熊猫" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="10" itemId="12070017" name="上古瑞兽" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="11" itemId="12070018" name="画中仙" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="12" itemId="12070019" name="嗜血鬼" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="13" itemId="12000036" name="白泽" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="14" itemId="10000016" name="月花露" num="10" weights="1400" guaranteedNumber="0" upperlimit="0"/>
+			<prizePool no="15" itemId="12030007" name="狐妖" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="16" itemId="12040008" name="小花妖" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+		</lotteryType>
+		<lotteryType lotteryTypeId="3" lotteryConsumption="2" numberDraws="10" consumptionValue="5000" integral="1200" lotteryName="元宝十连抽">
+			<prizePool no="1" itemId="12000243" name="夜罗刹碎片" num="10" weights="79" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="2" itemId="12000033" name="哮天犬" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="3" itemId="12080021" name="蟠桃童子" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="4" itemId="12010001" name="泡泡" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="5" itemId="12000243" name="夜罗刹碎片" num="5" weights="500" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="6" itemId="12000029" name="巡天神将" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="7" itemId="12090023" name="黑山老妖" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="8" itemId="12020037" name="巨蛙" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="9" itemId="12000034" name="熊猫" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="10" itemId="12070017" name="上古瑞兽" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="11" itemId="12070018" name="画中仙" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="12" itemId="12070019" name="嗜血鬼" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="13" itemId="12000036" name="白泽" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="14" itemId="10000016" name="月花露" num="10" weights="1400" guaranteedNumber="0" upperlimit="0"/>
+			<prizePool no="15" itemId="12030007" name="狐妖" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="16" itemId="12040008" name="小花妖" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+		</lotteryType>
+		<!--道具展示概率-->
+		<show itemId="12000243" showProbability="5.00"/>
+		<show itemId="115" showProbability="1.00"/>
+		<show itemId="116" showProbability="9.00"/>
+		<show itemId="117" showProbability="15.00"/>
+		<show itemId="118" showProbability="56.00"/>
+		<show itemId="10000016" showProbability="14.00"/>
+		<!--替换库-->
+		<library libraryId="5" libraryName="红色宠物库">
+			<replacement itemId="12000032" name="超级泡泡" num="1"/>
+			<replacement itemId="12000030" name="鲲鹏" num="1"/>
+			<replacement itemId="12000031" name="小火龙" num="1"/>
+			<replacement itemId="12000033" name="哮天犬" num="1"/>
+			<replacement itemId="12000035" name="九色鹿" num="1"/>
+			<replacement itemId="12000036" name="白泽" num="1"/>
+			<replacement itemId="12000034" name="熊猫" num="1"/>
+		</library>
+		<library libraryId="4" libraryName="橙色宠物库">
+			<replacement itemId="12090025" name="彩凤仙女" num="1"/>
+			<replacement itemId="12100026" name="芙蓉仙女" num="1"/>
+			<replacement itemId="12080021" name="蟠桃童子" num="1"/>
+			<replacement itemId="12080020" name="无面鬼将" num="1"/>
+			<replacement itemId="12070017" name="上古瑞兽" num="1"/>
+			<replacement itemId="12000029" name="巡天神将" num="1"/>
+			<replacement itemId="12100027" name="吞天虎" num="1"/>
+			<replacement itemId="12100028" name="西海蛟龙" num="1"/>
+			<replacement itemId="12090024" name="瑶池天兵" num="1"/>
+		</library>
+		<library libraryId="3" libraryName="紫色宠物库">
+			<replacement itemId="12080022" name="仙鹤童子" num="1"/>
+			<replacement itemId="12060014" name="伞妖" num="1"/>
+			<replacement itemId="12050011" name="小龙女" num="1"/>
+			<replacement itemId="12090023" name="黑山老妖" num="1"/>
+			<replacement itemId="12070018" name="画中仙" num="1"/>
+			<replacement itemId="12070019" name="嗜血鬼" num="1"/>
+		</library>
+		<library libraryId="2" libraryName="蓝色宠物库">
+			<replacement itemId="12010001" name="泡泡" num="1"/>
+			<replacement itemId="12020037" name="巨蛙" num="1"/>
+			<replacement itemId="12020003" name="寄居蟹" num="1"/>
+			<replacement itemId="12010002" name="小海龟" num="1"/>
+			<replacement itemId="12020038" name="海星" num="1"/>
+			<replacement itemId="12020004" name="野猪" num="1"/>
+			<replacement itemId="12030005" name="树妖" num="1"/>
+			<replacement itemId="12020039" name="蛤蟆精" num="1"/>
+			<replacement itemId="12020040" name="狼" num="1"/>
+			<replacement itemId="12030006" name="羊角怪" num="1"/>
+			<replacement itemId="12030007" name="狐妖" num="1"/>
+			<replacement itemId="12040008" name="小花妖" num="1"/>
+			<replacement itemId="12040010" name="蛮熊怪" num="1"/>
+			<replacement itemId="12050012" name="牛头怪" num="1"/>
+			<replacement itemId="12050013" name="马面怪" num="1"/>
+			<replacement itemId="12060015" name="虾兵" num="1"/>
+			<replacement itemId="12060016" name="蟹将" num="1"/>
+		</library>
+	</group>
+	<group group="7" name="活动" PF="-1" activityOpen="2019-07-05 00:00:00" activityEnds="2019-07-07 23:59:59" activityEntraceIcon="FestivalLuckyTurntable1" sortId="10" ActivityBgMap="FestiveReplenishmentBg" mailId="6692" openDrawVip="8">
+		<!--首次十连抽必得奖励-->
+		<mustWin itemId="12000244" num="1"/>
+		<!--积分奖励-->
+		<PointReward integral="2000">
+			<reward RewardItemId="12000244" num="2"/>
+			<reward RewardItemId="16010035" num="1"/>
+			<reward RewardItemId="10000016" num="10"/>
+			<currency type="3" currencyValue="1888"/>
+		</PointReward>
+		<PointReward integral="5000">
+			<reward RewardItemId="12000244" num="3"/>
+			<reward RewardItemId="16010035" num="2"/>
+			<reward RewardItemId="10000016" num="20"/>
+			<currency type="3" currencyValue="2888"/>
+		</PointReward>
+		<PointReward integral="10000">
+			<reward RewardItemId="12000244" num="5"/>
+			<reward RewardItemId="16010036" num="1"/>
+			<reward RewardItemId="10000016" num="50"/>
+			<currency type="3" currencyValue="5888"/>
+		</PointReward>
+		<!--抽奖数据-->
+		<lotteryType lotteryTypeId="1" lotteryConsumption="3" numberDraws="10" consumptionValue="5000" integral="200" lotteryName="绑元十连抽">
+			<prizePool no="1" itemId="12000244" name="净瓶女娲碎片" num="10" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="2" itemId="12000033" name="哮天犬" num="1" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="3" itemId="12080021" name="蟠桃童子" num="1" weights="90" guaranteedNumber="0" upperlimit="0" replacementLibrary="4"/>
+			<prizePool no="4" itemId="12010001" name="泡泡" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="5" itemId="12000244" name="净瓶女娲碎片" num="5" weights="30" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="6" itemId="12000029" name="巡天神将" num="1" weights="90" guaranteedNumber="0" upperlimit="0" replacementLibrary="4"/>
+			<prizePool no="7" itemId="12090023" name="黑山老妖" num="1" weights="400" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="8" itemId="12020037" name="巨蛙" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="9" itemId="12000034" name="熊猫" num="1" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="10" itemId="12070017" name="上古瑞兽" num="1" weights="90" guaranteedNumber="0" upperlimit="0" replacementLibrary="4"/>
+			<prizePool no="11" itemId="12070018" name="画中仙" num="1" weights="400" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="12" itemId="12070019" name="嗜血鬼" num="1" weights="400" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="13" itemId="12000036" name="白泽" num="1" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="14" itemId="10000016" name="月花露" num="10" weights="1700" guaranteedNumber="0" upperlimit="0"/>
+			<prizePool no="15" itemId="12030007" name="狐妖" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="16" itemId="12040008" name="小花妖" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+		</lotteryType>
+		<lotteryType lotteryTypeId="2" lotteryConsumption="2" numberDraws="1" consumptionValue="500" integral="100" CoolingTime="23:59:59" lotteryName="元宝单抽">
+			<prizePool no="1" itemId="12000244" name="净瓶女娲碎片" num="10" weights="79" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="2" itemId="12000033" name="哮天犬" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="3" itemId="12080021" name="蟠桃童子" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="4" itemId="12010001" name="泡泡" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="5" itemId="12000244" name="净瓶女娲碎片" num="5" weights="500" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="6" itemId="12000029" name="巡天神将" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="7" itemId="12090023" name="黑山老妖" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="8" itemId="12020037" name="巨蛙" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="9" itemId="12000034" name="熊猫" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="10" itemId="12070017" name="上古瑞兽" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="11" itemId="12070018" name="画中仙" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="12" itemId="12070019" name="嗜血鬼" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="13" itemId="12000036" name="白泽" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="14" itemId="10000016" name="月花露" num="10" weights="1400" guaranteedNumber="0" upperlimit="0"/>
+			<prizePool no="15" itemId="12030007" name="狐妖" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="16" itemId="12040008" name="小花妖" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+		</lotteryType>
+		<lotteryType lotteryTypeId="3" lotteryConsumption="2" numberDraws="10" consumptionValue="5000" integral="1200" lotteryName="元宝十连抽">
+			<prizePool no="1" itemId="12000244" name="净瓶女娲碎片" num="10" weights="79" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="2" itemId="12000033" name="哮天犬" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="3" itemId="12080021" name="蟠桃童子" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="4" itemId="12010001" name="泡泡" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="5" itemId="12000244" name="净瓶女娲碎片" num="5" weights="500" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="6" itemId="12000029" name="巡天神将" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="7" itemId="12090023" name="黑山老妖" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="8" itemId="12020037" name="巨蛙" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="9" itemId="12000034" name="熊猫" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="10" itemId="12070017" name="上古瑞兽" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="11" itemId="12070018" name="画中仙" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="12" itemId="12070019" name="嗜血鬼" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="13" itemId="12000036" name="白泽" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="14" itemId="10000016" name="月花露" num="10" weights="1400" guaranteedNumber="0" upperlimit="0"/>
+			<prizePool no="15" itemId="12030007" name="狐妖" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="16" itemId="12040008" name="小花妖" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+		</lotteryType>
+		<!--道具展示概率-->
+		<show itemId="12000244" showProbability="5.00"/>
+		<show itemId="115" showProbability="1.00"/>
+		<show itemId="116" showProbability="9.00"/>
+		<show itemId="117" showProbability="15.00"/>
+		<show itemId="118" showProbability="56.00"/>
+		<show itemId="10000016" showProbability="14.00"/>
+		<!--替换库-->
+		<library libraryId="5" libraryName="红色宠物库">
+			<replacement itemId="12000032" name="超级泡泡" num="1"/>
+			<replacement itemId="12000030" name="鲲鹏" num="1"/>
+			<replacement itemId="12000031" name="小火龙" num="1"/>
+			<replacement itemId="12000033" name="哮天犬" num="1"/>
+			<replacement itemId="12000035" name="九色鹿" num="1"/>
+			<replacement itemId="12000036" name="白泽" num="1"/>
+			<replacement itemId="12000034" name="熊猫" num="1"/>
+		</library>
+		<library libraryId="4" libraryName="橙色宠物库">
+			<replacement itemId="12090025" name="彩凤仙女" num="1"/>
+			<replacement itemId="12100026" name="芙蓉仙女" num="1"/>
+			<replacement itemId="12080021" name="蟠桃童子" num="1"/>
+			<replacement itemId="12080020" name="无面鬼将" num="1"/>
+			<replacement itemId="12070017" name="上古瑞兽" num="1"/>
+			<replacement itemId="12000029" name="巡天神将" num="1"/>
+			<replacement itemId="12100027" name="吞天虎" num="1"/>
+			<replacement itemId="12100028" name="西海蛟龙" num="1"/>
+			<replacement itemId="12090024" name="瑶池天兵" num="1"/>
+		</library>
+		<library libraryId="3" libraryName="紫色宠物库">
+			<replacement itemId="12080022" name="仙鹤童子" num="1"/>
+			<replacement itemId="12060014" name="伞妖" num="1"/>
+			<replacement itemId="12050011" name="小龙女" num="1"/>
+			<replacement itemId="12090023" name="黑山老妖" num="1"/>
+			<replacement itemId="12070018" name="画中仙" num="1"/>
+			<replacement itemId="12070019" name="嗜血鬼" num="1"/>
+		</library>
+		<library libraryId="2" libraryName="蓝色宠物库">
+			<replacement itemId="12010001" name="泡泡" num="1"/>
+			<replacement itemId="12020037" name="巨蛙" num="1"/>
+			<replacement itemId="12020003" name="寄居蟹" num="1"/>
+			<replacement itemId="12010002" name="小海龟" num="1"/>
+			<replacement itemId="12020038" name="海星" num="1"/>
+			<replacement itemId="12020004" name="野猪" num="1"/>
+			<replacement itemId="12030005" name="树妖" num="1"/>
+			<replacement itemId="12020039" name="蛤蟆精" num="1"/>
+			<replacement itemId="12020040" name="狼" num="1"/>
+			<replacement itemId="12030006" name="羊角怪" num="1"/>
+			<replacement itemId="12030007" name="狐妖" num="1"/>
+			<replacement itemId="12040008" name="小花妖" num="1"/>
+			<replacement itemId="12040010" name="蛮熊怪" num="1"/>
+			<replacement itemId="12050012" name="牛头怪" num="1"/>
+			<replacement itemId="12050013" name="马面怪" num="1"/>
+			<replacement itemId="12060015" name="虾兵" num="1"/>
+			<replacement itemId="12060016" name="蟹将" num="1"/>
+		</library>
+	</group>
+	<group group="8" name="活动" PF="-1" activityOpen="2019-07-12 00:00:00" activityEnds="2019-07-14 23:59:59" activityEntraceIcon="FestivalLuckyTurntable1" sortId="10" ActivityBgMap="FestiveReplenishmentBg" mailId="6692" openDrawVip="8">
+		<!--首次十连抽必得奖励-->
+		<mustWin itemId="12000245" num="1"/>
+		<!--积分奖励-->
+		<PointReward integral="2000">
+			<reward RewardItemId="12000245" num="2"/>
+			<reward RewardItemId="16010035" num="1"/>
+			<reward RewardItemId="10000016" num="10"/>
+			<currency type="3" currencyValue="1888"/>
+		</PointReward>
+		<PointReward integral="5000">
+			<reward RewardItemId="12000245" num="3"/>
+			<reward RewardItemId="16010035" num="2"/>
+			<reward RewardItemId="10000016" num="20"/>
+			<currency type="3" currencyValue="2888"/>
+		</PointReward>
+		<PointReward integral="10000">
+			<reward RewardItemId="12000245" num="5"/>
+			<reward RewardItemId="16010036" num="1"/>
+			<reward RewardItemId="10000016" num="50"/>
+			<currency type="3" currencyValue="5888"/>
+		</PointReward>
+		<!--抽奖数据-->
+		<lotteryType lotteryTypeId="1" lotteryConsumption="3" numberDraws="10" consumptionValue="5000" integral="200" lotteryName="绑元十连抽">
+			<prizePool no="1" itemId="12000245" name="斗战胜佛碎片" num="10" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="2" itemId="12000033" name="哮天犬" num="1" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="3" itemId="12080021" name="蟠桃童子" num="1" weights="90" guaranteedNumber="0" upperlimit="0" replacementLibrary="4"/>
+			<prizePool no="4" itemId="12010001" name="泡泡" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="5" itemId="12000245" name="斗战胜佛碎片" num="5" weights="30" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="6" itemId="12000029" name="巡天神将" num="1" weights="90" guaranteedNumber="0" upperlimit="0" replacementLibrary="4"/>
+			<prizePool no="7" itemId="12090023" name="黑山老妖" num="1" weights="400" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="8" itemId="12020037" name="巨蛙" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="9" itemId="12000034" name="熊猫" num="1" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="10" itemId="12070017" name="上古瑞兽" num="1" weights="90" guaranteedNumber="0" upperlimit="0" replacementLibrary="4"/>
+			<prizePool no="11" itemId="12070018" name="画中仙" num="1" weights="400" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="12" itemId="12070019" name="嗜血鬼" num="1" weights="400" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="13" itemId="12000036" name="白泽" num="1" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="14" itemId="10000016" name="月花露" num="10" weights="1700" guaranteedNumber="0" upperlimit="0"/>
+			<prizePool no="15" itemId="12030007" name="狐妖" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="16" itemId="12040008" name="小花妖" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+		</lotteryType>
+		<lotteryType lotteryTypeId="2" lotteryConsumption="2" numberDraws="1" consumptionValue="500" integral="100" CoolingTime="23:59:59" lotteryName="元宝单抽">
+			<prizePool no="1" itemId="12000245" name="斗战胜佛碎片" num="10" weights="79" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="2" itemId="12000033" name="哮天犬" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="3" itemId="12080021" name="蟠桃童子" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="4" itemId="12010001" name="泡泡" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="5" itemId="12000245" name="斗战胜佛碎片" num="5" weights="500" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="6" itemId="12000029" name="巡天神将" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="7" itemId="12090023" name="黑山老妖" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="8" itemId="12020037" name="巨蛙" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="9" itemId="12000034" name="熊猫" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="10" itemId="12070017" name="上古瑞兽" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="11" itemId="12070018" name="画中仙" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="12" itemId="12070019" name="嗜血鬼" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="13" itemId="12000036" name="白泽" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="14" itemId="10000016" name="月花露" num="10" weights="1400" guaranteedNumber="0" upperlimit="0"/>
+			<prizePool no="15" itemId="12030007" name="狐妖" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="16" itemId="12040008" name="小花妖" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+		</lotteryType>
+		<lotteryType lotteryTypeId="3" lotteryConsumption="2" numberDraws="10" consumptionValue="5000" integral="1200" lotteryName="元宝十连抽">
+			<prizePool no="1" itemId="12000245" name="斗战胜佛碎片" num="10" weights="79" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="2" itemId="12000033" name="哮天犬" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="3" itemId="12080021" name="蟠桃童子" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="4" itemId="12010001" name="泡泡" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="5" itemId="12000245" name="斗战胜佛碎片" num="5" weights="500" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="6" itemId="12000029" name="巡天神将" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="7" itemId="12090023" name="黑山老妖" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="8" itemId="12020037" name="巨蛙" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="9" itemId="12000034" name="熊猫" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="10" itemId="12070017" name="上古瑞兽" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="11" itemId="12070018" name="画中仙" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="12" itemId="12070019" name="嗜血鬼" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="13" itemId="12000036" name="白泽" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="14" itemId="10000016" name="月花露" num="10" weights="1400" guaranteedNumber="0" upperlimit="0"/>
+			<prizePool no="15" itemId="12030007" name="狐妖" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="16" itemId="12040008" name="小花妖" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+		</lotteryType>
+		<!--道具展示概率-->
+		<show itemId="12000245" showProbability="5.00"/>
+		<show itemId="115" showProbability="1.00"/>
+		<show itemId="116" showProbability="9.00"/>
+		<show itemId="117" showProbability="15.00"/>
+		<show itemId="118" showProbability="56.00"/>
+		<show itemId="10000016" showProbability="14.00"/>
+		<!--替换库-->
+		<library libraryId="5" libraryName="红色宠物库">
+			<replacement itemId="12000032" name="超级泡泡" num="1"/>
+			<replacement itemId="12000030" name="鲲鹏" num="1"/>
+			<replacement itemId="12000031" name="小火龙" num="1"/>
+			<replacement itemId="12000033" name="哮天犬" num="1"/>
+			<replacement itemId="12000035" name="九色鹿" num="1"/>
+			<replacement itemId="12000036" name="白泽" num="1"/>
+			<replacement itemId="12000034" name="熊猫" num="1"/>
+		</library>
+		<library libraryId="4" libraryName="橙色宠物库">
+			<replacement itemId="12090025" name="彩凤仙女" num="1"/>
+			<replacement itemId="12100026" name="芙蓉仙女" num="1"/>
+			<replacement itemId="12080021" name="蟠桃童子" num="1"/>
+			<replacement itemId="12080020" name="无面鬼将" num="1"/>
+			<replacement itemId="12070017" name="上古瑞兽" num="1"/>
+			<replacement itemId="12000029" name="巡天神将" num="1"/>
+			<replacement itemId="12100027" name="吞天虎" num="1"/>
+			<replacement itemId="12100028" name="西海蛟龙" num="1"/>
+			<replacement itemId="12090024" name="瑶池天兵" num="1"/>
+		</library>
+		<library libraryId="3" libraryName="紫色宠物库">
+			<replacement itemId="12080022" name="仙鹤童子" num="1"/>
+			<replacement itemId="12060014" name="伞妖" num="1"/>
+			<replacement itemId="12050011" name="小龙女" num="1"/>
+			<replacement itemId="12090023" name="黑山老妖" num="1"/>
+			<replacement itemId="12070018" name="画中仙" num="1"/>
+			<replacement itemId="12070019" name="嗜血鬼" num="1"/>
+		</library>
+		<library libraryId="2" libraryName="蓝色宠物库">
+			<replacement itemId="12010001" name="泡泡" num="1"/>
+			<replacement itemId="12020037" name="巨蛙" num="1"/>
+			<replacement itemId="12020003" name="寄居蟹" num="1"/>
+			<replacement itemId="12010002" name="小海龟" num="1"/>
+			<replacement itemId="12020038" name="海星" num="1"/>
+			<replacement itemId="12020004" name="野猪" num="1"/>
+			<replacement itemId="12030005" name="树妖" num="1"/>
+			<replacement itemId="12020039" name="蛤蟆精" num="1"/>
+			<replacement itemId="12020040" name="狼" num="1"/>
+			<replacement itemId="12030006" name="羊角怪" num="1"/>
+			<replacement itemId="12030007" name="狐妖" num="1"/>
+			<replacement itemId="12040008" name="小花妖" num="1"/>
+			<replacement itemId="12040010" name="蛮熊怪" num="1"/>
+			<replacement itemId="12050012" name="牛头怪" num="1"/>
+			<replacement itemId="12050013" name="马面怪" num="1"/>
+			<replacement itemId="12060015" name="虾兵" num="1"/>
+			<replacement itemId="12060016" name="蟹将" num="1"/>
+		</library>
+	</group>
+	<group group="9" name="活动" PF="-1" activityOpen="2019-07-19 00:00:00" activityEnds="2019-07-21 23:59:59" activityEntraceIcon="FestivalLuckyTurntable1" sortId="10" ActivityBgMap="FestiveReplenishmentBg" mailId="6692" openDrawVip="8">
+		<!--首次十连抽必得奖励-->
+		<mustWin itemId="12000246" num="1"/>
+		<!--积分奖励-->
+		<PointReward integral="2000">
+			<reward RewardItemId="12000246" num="2"/>
+			<reward RewardItemId="16010035" num="1"/>
+			<reward RewardItemId="10000016" num="10"/>
+			<currency type="3" currencyValue="1888"/>
+		</PointReward>
+		<PointReward integral="5000">
+			<reward RewardItemId="12000246" num="3"/>
+			<reward RewardItemId="16010035" num="2"/>
+			<reward RewardItemId="10000016" num="20"/>
+			<currency type="3" currencyValue="2888"/>
+		</PointReward>
+		<PointReward integral="10000">
+			<reward RewardItemId="12000246" num="5"/>
+			<reward RewardItemId="16010036" num="1"/>
+			<reward RewardItemId="10000016" num="50"/>
+			<currency type="3" currencyValue="5888"/>
+		</PointReward>
+		<!--抽奖数据-->
+		<lotteryType lotteryTypeId="1" lotteryConsumption="3" numberDraws="10" consumptionValue="5000" integral="200" lotteryName="绑元十连抽">
+			<prizePool no="1" itemId="12000246" name="卷帘大将碎片" num="10" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="2" itemId="12000033" name="哮天犬" num="1" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="3" itemId="12080021" name="蟠桃童子" num="1" weights="90" guaranteedNumber="0" upperlimit="0" replacementLibrary="4"/>
+			<prizePool no="4" itemId="12010001" name="泡泡" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="5" itemId="12000246" name="卷帘大将碎片" num="5" weights="30" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="6" itemId="12000029" name="巡天神将" num="1" weights="90" guaranteedNumber="0" upperlimit="0" replacementLibrary="4"/>
+			<prizePool no="7" itemId="12090023" name="黑山老妖" num="1" weights="400" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="8" itemId="12020037" name="巨蛙" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="9" itemId="12000034" name="熊猫" num="1" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="10" itemId="12070017" name="上古瑞兽" num="1" weights="90" guaranteedNumber="0" upperlimit="0" replacementLibrary="4"/>
+			<prizePool no="11" itemId="12070018" name="画中仙" num="1" weights="400" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="12" itemId="12070019" name="嗜血鬼" num="1" weights="400" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="13" itemId="12000036" name="白泽" num="1" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="14" itemId="10000016" name="月花露" num="10" weights="1700" guaranteedNumber="0" upperlimit="0"/>
+			<prizePool no="15" itemId="12030007" name="狐妖" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="16" itemId="12040008" name="小花妖" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+		</lotteryType>
+		<lotteryType lotteryTypeId="2" lotteryConsumption="2" numberDraws="1" consumptionValue="500" integral="100" CoolingTime="23:59:59" lotteryName="元宝单抽">
+			<prizePool no="1" itemId="12000246" name="卷帘大将碎片" num="10" weights="79" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="2" itemId="12000033" name="哮天犬" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="3" itemId="12080021" name="蟠桃童子" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="4" itemId="12010001" name="泡泡" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="5" itemId="12000246" name="卷帘大将碎片" num="5" weights="500" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="6" itemId="12000029" name="巡天神将" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="7" itemId="12090023" name="黑山老妖" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="8" itemId="12020037" name="巨蛙" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="9" itemId="12000034" name="熊猫" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="10" itemId="12070017" name="上古瑞兽" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="11" itemId="12070018" name="画中仙" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="12" itemId="12070019" name="嗜血鬼" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="13" itemId="12000036" name="白泽" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="14" itemId="10000016" name="月花露" num="10" weights="1400" guaranteedNumber="0" upperlimit="0"/>
+			<prizePool no="15" itemId="12030007" name="狐妖" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="16" itemId="12040008" name="小花妖" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+		</lotteryType>
+		<lotteryType lotteryTypeId="3" lotteryConsumption="2" numberDraws="10" consumptionValue="5000" integral="1200" lotteryName="元宝十连抽">
+			<prizePool no="1" itemId="12000246" name="卷帘大将碎片" num="10" weights="79" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="2" itemId="12000033" name="哮天犬" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="3" itemId="12080021" name="蟠桃童子" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="4" itemId="12010001" name="泡泡" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="5" itemId="12000246" name="卷帘大将碎片" num="5" weights="500" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="6" itemId="12000029" name="巡天神将" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="7" itemId="12090023" name="黑山老妖" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="8" itemId="12020037" name="巨蛙" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="9" itemId="12000034" name="熊猫" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="10" itemId="12070017" name="上古瑞兽" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="11" itemId="12070018" name="画中仙" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="12" itemId="12070019" name="嗜血鬼" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="13" itemId="12000036" name="白泽" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="14" itemId="10000016" name="月花露" num="10" weights="1400" guaranteedNumber="0" upperlimit="0"/>
+			<prizePool no="15" itemId="12030007" name="狐妖" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="16" itemId="12040008" name="小花妖" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+		</lotteryType>
+		<!--道具展示概率-->
+		<show itemId="12000246" showProbability="5.00"/>
+		<show itemId="115" showProbability="1.00"/>
+		<show itemId="116" showProbability="9.00"/>
+		<show itemId="117" showProbability="15.00"/>
+		<show itemId="118" showProbability="56.00"/>
+		<show itemId="10000016" showProbability="14.00"/>
+		<!--替换库-->
+		<library libraryId="5" libraryName="红色宠物库">
+			<replacement itemId="12000032" name="超级泡泡" num="1"/>
+			<replacement itemId="12000030" name="鲲鹏" num="1"/>
+			<replacement itemId="12000031" name="小火龙" num="1"/>
+			<replacement itemId="12000033" name="哮天犬" num="1"/>
+			<replacement itemId="12000035" name="九色鹿" num="1"/>
+			<replacement itemId="12000036" name="白泽" num="1"/>
+			<replacement itemId="12000034" name="熊猫" num="1"/>
+		</library>
+		<library libraryId="4" libraryName="橙色宠物库">
+			<replacement itemId="12090025" name="彩凤仙女" num="1"/>
+			<replacement itemId="12100026" name="芙蓉仙女" num="1"/>
+			<replacement itemId="12080021" name="蟠桃童子" num="1"/>
+			<replacement itemId="12080020" name="无面鬼将" num="1"/>
+			<replacement itemId="12070017" name="上古瑞兽" num="1"/>
+			<replacement itemId="12000029" name="巡天神将" num="1"/>
+			<replacement itemId="12100027" name="吞天虎" num="1"/>
+			<replacement itemId="12100028" name="西海蛟龙" num="1"/>
+			<replacement itemId="12090024" name="瑶池天兵" num="1"/>
+		</library>
+		<library libraryId="3" libraryName="紫色宠物库">
+			<replacement itemId="12080022" name="仙鹤童子" num="1"/>
+			<replacement itemId="12060014" name="伞妖" num="1"/>
+			<replacement itemId="12050011" name="小龙女" num="1"/>
+			<replacement itemId="12090023" name="黑山老妖" num="1"/>
+			<replacement itemId="12070018" name="画中仙" num="1"/>
+			<replacement itemId="12070019" name="嗜血鬼" num="1"/>
+		</library>
+		<library libraryId="2" libraryName="蓝色宠物库">
+			<replacement itemId="12010001" name="泡泡" num="1"/>
+			<replacement itemId="12020037" name="巨蛙" num="1"/>
+			<replacement itemId="12020003" name="寄居蟹" num="1"/>
+			<replacement itemId="12010002" name="小海龟" num="1"/>
+			<replacement itemId="12020038" name="海星" num="1"/>
+			<replacement itemId="12020004" name="野猪" num="1"/>
+			<replacement itemId="12030005" name="树妖" num="1"/>
+			<replacement itemId="12020039" name="蛤蟆精" num="1"/>
+			<replacement itemId="12020040" name="狼" num="1"/>
+			<replacement itemId="12030006" name="羊角怪" num="1"/>
+			<replacement itemId="12030007" name="狐妖" num="1"/>
+			<replacement itemId="12040008" name="小花妖" num="1"/>
+			<replacement itemId="12040010" name="蛮熊怪" num="1"/>
+			<replacement itemId="12050012" name="牛头怪" num="1"/>
+			<replacement itemId="12050013" name="马面怪" num="1"/>
+			<replacement itemId="12060015" name="虾兵" num="1"/>
+			<replacement itemId="12060016" name="蟹将" num="1"/>
+		</library>
+	</group>
+	<group group="10" name="活动" PF="-1" activityOpen="2019-07-26 00:00:00" activityEnds="2019-07-28 23:59:59" activityEntraceIcon="FestivalLuckyTurntable1" sortId="10" ActivityBgMap="FestiveReplenishmentBg" mailId="6692" openDrawVip="8">
+		<!--首次十连抽必得奖励-->
+		<mustWin itemId="12000247" num="1"/>
+		<!--积分奖励-->
+		<PointReward integral="2000">
+			<reward RewardItemId="12000247" num="2"/>
+			<reward RewardItemId="16010035" num="1"/>
+			<reward RewardItemId="10000016" num="10"/>
+			<currency type="3" currencyValue="1888"/>
+		</PointReward>
+		<PointReward integral="5000">
+			<reward RewardItemId="12000247" num="3"/>
+			<reward RewardItemId="16010035" num="2"/>
+			<reward RewardItemId="10000016" num="20"/>
+			<currency type="3" currencyValue="2888"/>
+		</PointReward>
+		<PointReward integral="10000">
+			<reward RewardItemId="12000247" num="5"/>
+			<reward RewardItemId="16010036" num="1"/>
+			<reward RewardItemId="10000016" num="50"/>
+			<currency type="3" currencyValue="5888"/>
+		</PointReward>
+		<!--抽奖数据-->
+		<lotteryType lotteryTypeId="1" lotteryConsumption="3" numberDraws="10" consumptionValue="5000" integral="200" lotteryName="绑元十连抽">
+			<prizePool no="1" itemId="12000247" name="天蓬元帅碎片" num="10" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="2" itemId="12000033" name="哮天犬" num="1" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="3" itemId="12080021" name="蟠桃童子" num="1" weights="90" guaranteedNumber="0" upperlimit="0" replacementLibrary="4"/>
+			<prizePool no="4" itemId="12010001" name="泡泡" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="5" itemId="12000247" name="天蓬元帅碎片" num="5" weights="30" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="6" itemId="12000029" name="巡天神将" num="1" weights="90" guaranteedNumber="0" upperlimit="0" replacementLibrary="4"/>
+			<prizePool no="7" itemId="12090023" name="黑山老妖" num="1" weights="400" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="8" itemId="12020037" name="巨蛙" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="9" itemId="12000034" name="熊猫" num="1" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="10" itemId="12070017" name="上古瑞兽" num="1" weights="90" guaranteedNumber="0" upperlimit="0" replacementLibrary="4"/>
+			<prizePool no="11" itemId="12070018" name="画中仙" num="1" weights="400" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="12" itemId="12070019" name="嗜血鬼" num="1" weights="400" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="13" itemId="12000036" name="白泽" num="1" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="14" itemId="10000016" name="月花露" num="10" weights="1700" guaranteedNumber="0" upperlimit="0"/>
+			<prizePool no="15" itemId="12030007" name="狐妖" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="16" itemId="12040008" name="小花妖" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+		</lotteryType>
+		<lotteryType lotteryTypeId="2" lotteryConsumption="2" numberDraws="1" consumptionValue="500" integral="100" CoolingTime="23:59:59" lotteryName="元宝单抽">
+			<prizePool no="1" itemId="12000247" name="天蓬元帅碎片" num="10" weights="79" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="2" itemId="12000033" name="哮天犬" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="3" itemId="12080021" name="蟠桃童子" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="4" itemId="12010001" name="泡泡" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="5" itemId="12000247" name="天蓬元帅碎片" num="5" weights="500" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="6" itemId="12000029" name="巡天神将" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="7" itemId="12090023" name="黑山老妖" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="8" itemId="12020037" name="巨蛙" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="9" itemId="12000034" name="熊猫" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="10" itemId="12070017" name="上古瑞兽" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="11" itemId="12070018" name="画中仙" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="12" itemId="12070019" name="嗜血鬼" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="13" itemId="12000036" name="白泽" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="14" itemId="10000016" name="月花露" num="10" weights="1400" guaranteedNumber="0" upperlimit="0"/>
+			<prizePool no="15" itemId="12030007" name="狐妖" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="16" itemId="12040008" name="小花妖" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+		</lotteryType>
+		<lotteryType lotteryTypeId="3" lotteryConsumption="2" numberDraws="10" consumptionValue="5000" integral="1200" lotteryName="元宝十连抽">
+			<prizePool no="1" itemId="12000247" name="天蓬元帅碎片" num="10" weights="79" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="2" itemId="12000033" name="哮天犬" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="3" itemId="12080021" name="蟠桃童子" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="4" itemId="12010001" name="泡泡" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="5" itemId="12000247" name="天蓬元帅碎片" num="5" weights="500" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="6" itemId="12000029" name="巡天神将" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="7" itemId="12090023" name="黑山老妖" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="8" itemId="12020037" name="巨蛙" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="9" itemId="12000034" name="熊猫" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="10" itemId="12070017" name="上古瑞兽" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="11" itemId="12070018" name="画中仙" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="12" itemId="12070019" name="嗜血鬼" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="13" itemId="12000036" name="白泽" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="14" itemId="10000016" name="月花露" num="10" weights="1400" guaranteedNumber="0" upperlimit="0"/>
+			<prizePool no="15" itemId="12030007" name="狐妖" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="16" itemId="12040008" name="小花妖" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+		</lotteryType>
+		<!--道具展示概率-->
+		<show itemId="12000247" showProbability="5.00"/>
+		<show itemId="115" showProbability="1.00"/>
+		<show itemId="116" showProbability="9.00"/>
+		<show itemId="117" showProbability="15.00"/>
+		<show itemId="118" showProbability="56.00"/>
+		<show itemId="10000016" showProbability="14.00"/>
+		<!--替换库-->
+		<library libraryId="5" libraryName="红色宠物库">
+			<replacement itemId="12000032" name="超级泡泡" num="1"/>
+			<replacement itemId="12000030" name="鲲鹏" num="1"/>
+			<replacement itemId="12000031" name="小火龙" num="1"/>
+			<replacement itemId="12000033" name="哮天犬" num="1"/>
+			<replacement itemId="12000035" name="九色鹿" num="1"/>
+			<replacement itemId="12000036" name="白泽" num="1"/>
+			<replacement itemId="12000034" name="熊猫" num="1"/>
+		</library>
+		<library libraryId="4" libraryName="橙色宠物库">
+			<replacement itemId="12090025" name="彩凤仙女" num="1"/>
+			<replacement itemId="12100026" name="芙蓉仙女" num="1"/>
+			<replacement itemId="12080021" name="蟠桃童子" num="1"/>
+			<replacement itemId="12080020" name="无面鬼将" num="1"/>
+			<replacement itemId="12070017" name="上古瑞兽" num="1"/>
+			<replacement itemId="12000029" name="巡天神将" num="1"/>
+			<replacement itemId="12100027" name="吞天虎" num="1"/>
+			<replacement itemId="12100028" name="西海蛟龙" num="1"/>
+			<replacement itemId="12090024" name="瑶池天兵" num="1"/>
+		</library>
+		<library libraryId="3" libraryName="紫色宠物库">
+			<replacement itemId="12080022" name="仙鹤童子" num="1"/>
+			<replacement itemId="12060014" name="伞妖" num="1"/>
+			<replacement itemId="12050011" name="小龙女" num="1"/>
+			<replacement itemId="12090023" name="黑山老妖" num="1"/>
+			<replacement itemId="12070018" name="画中仙" num="1"/>
+			<replacement itemId="12070019" name="嗜血鬼" num="1"/>
+		</library>
+		<library libraryId="2" libraryName="蓝色宠物库">
+			<replacement itemId="12010001" name="泡泡" num="1"/>
+			<replacement itemId="12020037" name="巨蛙" num="1"/>
+			<replacement itemId="12020003" name="寄居蟹" num="1"/>
+			<replacement itemId="12010002" name="小海龟" num="1"/>
+			<replacement itemId="12020038" name="海星" num="1"/>
+			<replacement itemId="12020004" name="野猪" num="1"/>
+			<replacement itemId="12030005" name="树妖" num="1"/>
+			<replacement itemId="12020039" name="蛤蟆精" num="1"/>
+			<replacement itemId="12020040" name="狼" num="1"/>
+			<replacement itemId="12030006" name="羊角怪" num="1"/>
+			<replacement itemId="12030007" name="狐妖" num="1"/>
+			<replacement itemId="12040008" name="小花妖" num="1"/>
+			<replacement itemId="12040010" name="蛮熊怪" num="1"/>
+			<replacement itemId="12050012" name="牛头怪" num="1"/>
+			<replacement itemId="12050013" name="马面怪" num="1"/>
+			<replacement itemId="12060015" name="虾兵" num="1"/>
+			<replacement itemId="12060016" name="蟹将" num="1"/>
+		</library>
+	</group>
+	<group group="11" name="活动" PF="-1" activityOpen="2019-08-02 00:00:00" activityEnds="2019-08-04 23:59:59" activityEntraceIcon="FestivalLuckyTurntable1" sortId="10" ActivityBgMap="FestiveReplenishmentBg" mailId="6692" openDrawVip="8">
+		<!--首次十连抽必得奖励-->
+		<mustWin itemId="12000248" num="1"/>
+		<!--积分奖励-->
+		<PointReward integral="2000">
+			<reward RewardItemId="12000248" num="2"/>
+			<reward RewardItemId="16010035" num="1"/>
+			<reward RewardItemId="10000016" num="10"/>
+			<currency type="3" currencyValue="1888"/>
+		</PointReward>
+		<PointReward integral="5000">
+			<reward RewardItemId="12000248" num="3"/>
+			<reward RewardItemId="16010035" num="2"/>
+			<reward RewardItemId="10000016" num="20"/>
+			<currency type="3" currencyValue="2888"/>
+		</PointReward>
+		<PointReward integral="10000">
+			<reward RewardItemId="12000248" num="5"/>
+			<reward RewardItemId="16010036" num="1"/>
+			<reward RewardItemId="10000016" num="50"/>
+			<currency type="3" currencyValue="5888"/>
+		</PointReward>
+		<!--抽奖数据-->
+		<lotteryType lotteryTypeId="1" lotteryConsumption="3" numberDraws="10" consumptionValue="5000" integral="200" lotteryName="绑元十连抽">
+			<prizePool no="1" itemId="12000248" name="大唐圣僧碎片" num="10" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="2" itemId="12000033" name="哮天犬" num="1" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="3" itemId="12080021" name="蟠桃童子" num="1" weights="90" guaranteedNumber="0" upperlimit="0" replacementLibrary="4"/>
+			<prizePool no="4" itemId="12010001" name="泡泡" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="5" itemId="12000248" name="大唐圣僧碎片" num="5" weights="30" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="6" itemId="12000029" name="巡天神将" num="1" weights="90" guaranteedNumber="0" upperlimit="0" replacementLibrary="4"/>
+			<prizePool no="7" itemId="12090023" name="黑山老妖" num="1" weights="400" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="8" itemId="12020037" name="巨蛙" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="9" itemId="12000034" name="熊猫" num="1" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="10" itemId="12070017" name="上古瑞兽" num="1" weights="90" guaranteedNumber="0" upperlimit="0" replacementLibrary="4"/>
+			<prizePool no="11" itemId="12070018" name="画中仙" num="1" weights="400" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="12" itemId="12070019" name="嗜血鬼" num="1" weights="400" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="13" itemId="12000036" name="白泽" num="1" weights="0" guaranteedNumber="0" upperlimit="0" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="14" itemId="10000016" name="月花露" num="10" weights="1700" guaranteedNumber="0" upperlimit="0"/>
+			<prizePool no="15" itemId="12030007" name="狐妖" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="16" itemId="12040008" name="小花妖" num="1" weights="1700" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+		</lotteryType>
+		<lotteryType lotteryTypeId="2" lotteryConsumption="2" numberDraws="1" consumptionValue="500" integral="100" CoolingTime="23:59:59" lotteryName="元宝单抽">
+			<prizePool no="1" itemId="12000248" name="大唐圣僧碎片" num="10" weights="79" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="2" itemId="12000033" name="哮天犬" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="3" itemId="12080021" name="蟠桃童子" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="4" itemId="12010001" name="泡泡" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="5" itemId="12000248" name="大唐圣僧碎片" num="5" weights="500" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="6" itemId="12000029" name="巡天神将" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="7" itemId="12090023" name="黑山老妖" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="8" itemId="12020037" name="巨蛙" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="9" itemId="12000034" name="熊猫" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="10" itemId="12070017" name="上古瑞兽" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="11" itemId="12070018" name="画中仙" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="12" itemId="12070019" name="嗜血鬼" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="13" itemId="12000036" name="白泽" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="14" itemId="10000016" name="月花露" num="10" weights="1400" guaranteedNumber="0" upperlimit="0"/>
+			<prizePool no="15" itemId="12030007" name="狐妖" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="16" itemId="12040008" name="小花妖" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+		</lotteryType>
+		<lotteryType lotteryTypeId="3" lotteryConsumption="2" numberDraws="10" consumptionValue="5000" integral="1200" lotteryName="元宝十连抽">
+			<prizePool no="1" itemId="12000248" name="大唐圣僧碎片" num="10" weights="79" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="2" itemId="12000033" name="哮天犬" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="3" itemId="12080021" name="蟠桃童子" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="4" itemId="12010001" name="泡泡" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="5" itemId="12000248" name="大唐圣僧碎片" num="5" weights="500" guaranteedNumber="0" upperlimit="0" broadcast="1"/>
+			<prizePool no="6" itemId="12000029" name="巡天神将" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="7" itemId="12090023" name="黑山老妖" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="8" itemId="12020037" name="巨蛙" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="9" itemId="12000034" name="熊猫" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="10" itemId="12070017" name="上古瑞兽" num="1" weights="300" guaranteedNumber="0" upperlimit="10" replacementLibrary="4"/>
+			<prizePool no="11" itemId="12070018" name="画中仙" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="12" itemId="12070019" name="嗜血鬼" num="1" weights="500" guaranteedNumber="0" upperlimit="0" replacementLibrary="3"/>
+			<prizePool no="13" itemId="12000036" name="白泽" num="1" weights="7" guaranteedNumber="50" upperlimit="200" broadcast="1" replacementLibrary="5"/>
+			<prizePool no="14" itemId="10000016" name="月花露" num="10" weights="1400" guaranteedNumber="0" upperlimit="0"/>
+			<prizePool no="15" itemId="12030007" name="狐妖" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+			<prizePool no="16" itemId="12040008" name="小花妖" num="1" weights="1400" guaranteedNumber="0" upperlimit="0" replacementLibrary="2"/>
+		</lotteryType>
+		<!--道具展示概率-->
+		<show itemId="12000248" showProbability="5.00"/>
+		<show itemId="115" showProbability="1.00"/>
+		<show itemId="116" showProbability="9.00"/>
+		<show itemId="117" showProbability="15.00"/>
+		<show itemId="118" showProbability="56.00"/>
+		<show itemId="10000016" showProbability="14.00"/>
+		<!--替换库-->
+		<library libraryId="5" libraryName="红色宠物库">
+			<replacement itemId="12000032" name="超级泡泡" num="1"/>
+			<replacement itemId="12000030" name="鲲鹏" num="1"/>
+			<replacement itemId="12000031" name="小火龙" num="1"/>
+			<replacement itemId="12000033" name="哮天犬" num="1"/>
+			<replacement itemId="12000035" name="九色鹿" num="1"/>
+			<replacement itemId="12000036" name="白泽" num="1"/>
+			<replacement itemId="12000034" name="熊猫" num="1"/>
+		</library>
+		<library libraryId="4" libraryName="橙色宠物库">
+			<replacement itemId="12090025" name="彩凤仙女" num="1"/>
+			<replacement itemId="12100026" name="芙蓉仙女" num="1"/>
+			<replacement itemId="12080021" name="蟠桃童子" num="1"/>
+			<replacement itemId="12080020" name="无面鬼将" num="1"/>
+			<replacement itemId="12070017" name="上古瑞兽" num="1"/>
+			<replacement itemId="12000029" name="巡天神将" num="1"/>
+			<replacement itemId="12100027" name="吞天虎" num="1"/>
+			<replacement itemId="12100028" name="西海蛟龙" num="1"/>
+			<replacement itemId="12090024" name="瑶池天兵" num="1"/>
+		</library>
+		<library libraryId="3" libraryName="紫色宠物库">
+			<replacement itemId="12080022" name="仙鹤童子" num="1"/>
+			<replacement itemId="12060014" name="伞妖" num="1"/>
+			<replacement itemId="12050011" name="小龙女" num="1"/>
+			<replacement itemId="12090023" name="黑山老妖" num="1"/>
+			<replacement itemId="12070018" name="画中仙" num="1"/>
+			<replacement itemId="12070019" name="嗜血鬼" num="1"/>
+		</library>
+		<library libraryId="2" libraryName="蓝色宠物库">
+			<replacement itemId="12010001" name="泡泡" num="1"/>
+			<replacement itemId="12020037" name="巨蛙" num="1"/>
+			<replacement itemId="12020003" name="寄居蟹" num="1"/>
+			<replacement itemId="12010002" name="小海龟" num="1"/>
+			<replacement itemId="12020038" name="海星" num="1"/>
+			<replacement itemId="12020004" name="野猪" num="1"/>
+			<replacement itemId="12030005" name="树妖" num="1"/>
+			<replacement itemId="12020039" name="蛤蟆精" num="1"/>
+			<replacement itemId="12020040" name="狼" num="1"/>
+			<replacement itemId="12030006" name="羊角怪" num="1"/>
+			<replacement itemId="12030007" name="狐妖" num="1"/>
+			<replacement itemId="12040008" name="小花妖" num="1"/>
+			<replacement itemId="12040010" name="蛮熊怪" num="1"/>
+			<replacement itemId="12050012" name="牛头怪" num="1"/>
+			<replacement itemId="12050013" name="马面怪" num="1"/>
+			<replacement itemId="12060015" name="虾兵" num="1"/>
+			<replacement itemId="12060016" name="蟹将" num="1"/>
+		</library>
+	</group>
+</root>

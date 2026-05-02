@@ -1,0 +1,3247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2012 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<config>
+	<!--
+id	礼包ID
+name	礼包名字
+desc	礼包说明
+needbag	所需背包空格子数
+bind	是否绑定，=0不绑定，=1绑定
+roll	随机次数
+isrepeat	随机时是否会重复获得相同道具，=0否，=1是。
+minnum	最低数量
+maxnum	最高数量
+equip	装备ID
+stage	装备品质
+item	道具ID
+minnum	道具最低数量
+maxnum	道具最高数量
+weight	权重
+needmoney 需要元宝数量
+isuse 获得道具时是否弹出快捷使用的界面 1是，0否
+userrealm 开启背包的角色大境界需求
+userstage 开启背包的角色小境界需求
+<giftsitem id="108101" name="杂礼包礼包" needmoney="0" desc="使用后可以获得各种道具" needbag="3" bind="2">
+	<fixinfo>
+		<exp minnum="9998" maxnum="19998"/>
+		<money minnum="10000" maxnum="20000"/>
+		<skillpoint minnum="10000" maxnum="20000"/>
+		<emoney2 minnum="10000" maxnum="20000"/>
+		<item item="103001" minnum="50" maxnum="100" bind="2"/>
+		<equip equip="2040038" minnum="1" maxnum="1" stage="1" bind="2"/>2015/9/5
+	</fixinfo>
+	<randominfo roll="3" isrepeat="1">
+		<item item="100501" minnum="50" maxnum="100" weight="15" bind="2"/>
+		<item item="100502" minnum="50" maxnum="100" weight="15" bind="2"/>
+		<item item="100503" minnum="50" maxnum="100" weight="15" bind="2"/>
+		<item item="100504" minnum="50" maxnum="100" weight="15" bind="2"/>
+		<item item="100505" minnum="50" maxnum="100" weight="15" bind="2"/>
+		<exp minnum="0" maxnum="0" weight="25"/>
+	</randominfo>
+</giftsitem>
+-->
+	<giftsitem id="999998" name="血脉" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<blood minnum="1" maxnum="1"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="999997" name="真页" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<truepage minnum="1" maxnum="1"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="999996" name="悟性" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<savvy minnum="1" maxnum="1"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="999995" name="家族贡献" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<guild minnum="10000" maxnum="10000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="600067" name="100点家族贡献" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<guild minnum="100" maxnum="100"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="999994" name="超凡争霸贡献" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<arena minnum="10000" maxnum="10000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="999993" name="红石山狩猎积分" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<redstone minnum="10000" maxnum="10000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="999992" name="超凡生死战贡献" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<lifedeath minnum="10000" maxnum="10000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="999991" name="炼化值" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<metals minnum="10000" maxnum="10000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="600091" name="竞技场荣誉值" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<arena minnum="1" maxnum="1"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="999990" name="1000元宝" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<emoney minnum="1000" maxnum="1000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="108101" name="一万经验" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<exp minnum="10000" maxnum="10000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="108102" name="五万经验" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<exp minnum="50000" maxnum="50000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="108103" name="十万经验" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<exp minnum="100000" maxnum="100000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="108104" name="二十万经验" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<exp minnum="200000" maxnum="200000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="108105" name="五十万经验" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<exp minnum="500000" maxnum="500000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="108106" name="一百万经验" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<exp minnum="1000000" maxnum="1000000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="108107" name="五百万经验" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<exp minnum="5000000" maxnum="5000000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="108108" name="一千万经验" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<exp minnum="10000000" maxnum="10000000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="108109" name="一百万经验" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<exp minnum="1000000" maxnum="1000000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="108110" name="三十万经验" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<exp minnum="300000" maxnum="300000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="108301" name="一万银两" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<money minnum="10000" maxnum="10000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="108302" name="五万银两" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<money minnum="50000" maxnum="50000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="108303" name="十万银两" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<money minnum="100000" maxnum="100000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="108304" name="二十万银两" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<money minnum="200000" maxnum="200000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="108305" name="五十万银两" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<money minnum="500000" maxnum="500000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="108306" name="一百万银两" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<money minnum="1000000" maxnum="1000000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="108307" name="五百万银两" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<money minnum="5000000" maxnum="5000000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="108308" name="一千万银两" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<money minnum="10000000" maxnum="10000000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="108309" name="一亿银两" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<money minnum="100000000" maxnum="100000000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="108310" name="三十万银两" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<money minnum="300000" maxnum="300000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="108601" name="一百境界点" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<luodan minnum="100" maxnum="100"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="108602" name="一千大罗金丹" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<luodan minnum="1000" maxnum="1000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="108700" name="一元宝" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<emoney minnum="1" maxnum="1"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="108701" name="五元宝" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<emoney minnum="5" maxnum="5"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="108708" name="五十元宝" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<emoney minnum="50" maxnum="50"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="108749" name="一真页" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<truepage minnum="1" maxnum="1"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="108750" name="十真页" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<truepage minnum="10" maxnum="10"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="108751" name="五十真页" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<truepage minnum="50" maxnum="50"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="108752" name="一百真页" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<truepage minnum="100" maxnum="100"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="108753" name="五百真页" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<truepage minnum="500" maxnum="500"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="108754" name="一千真页" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<truepage minnum="1000" maxnum="1000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="108755" name="一万境界点" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<luodan minnum="10000" maxnum="10000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="108770" name="一千悟性" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<savvy minnum="1000" maxnum="1000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="108771" name="一百悟性" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<savvy minnum="100" maxnum="100"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="108772" name="五万家族贡献" needmoney="0" desc="开启后可获得五万点家族贡献" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<guild minnum="50000" maxnum="50000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="108773" name="一万家族贡献" needmoney="0" desc="开启后可获得一万点家族贡献" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<guild minnum="10000" maxnum="10000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="108774" name="一万元宝" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<emoney minnum="10000" maxnum="10000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="108775" name="超凡贡献值" needmoney="0" desc="使用后可获得一点超凡生死战积分" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<lifedeath minnum="1" maxnum="1"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="600008" name="筹码" needmoney="0" desc="传说可用于拍卖的筹码|[font color='#00b0ff']可用于每日拍卖活动中拍卖各种稀有道具。[/font]|双击使用可获得500礼金" isuse="0" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<emoney2 minnum="500" maxnum="500"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="109273" name="特惠神兵熟练丹礼包" needmoney="188" desc="使用188元宝打开礼包可获得：|15个神兵熟练丹" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="900007" minnum="15" maxnum="15" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="109274" name="特惠兽魂衍化丹礼包" needmoney="188" desc="使用188元宝打开礼包可获得：|15个兽魂衍化丹" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="101001" minnum="15" maxnum="15" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="109275" name="特惠羽翼进阶丹礼包" needmoney="188" desc="使用188元宝打开礼包可获得：|15个羽翼进阶丹" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="101501" minnum="15" maxnum="15" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="109276" name="特惠紫色伙伴碎片礼包" needmoney="188" desc="使用188元宝打开礼包可获得：|8个通用紫色伙伴碎片" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="900203" minnum="8" maxnum="8" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="109277" name="特惠装备强化石礼包" needmoney="188" desc="使用188元宝打开礼包可获得获得：|15个一级装备强化石" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="105001" minnum="15" maxnum="15" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="109278" name="特惠血脉礼包" needmoney="188" desc="使用188元宝打开礼包可获得：|1500个血脉" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<blood minnum="1500" maxnum="1500" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="109279" name="特惠法宝礼包" needmoney="188" desc="使用188元宝打开礼包可获得获得：|15个血玉" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="103001" minnum="15" maxnum="15" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<!--境界礼包-->
+	<giftsitem id="109300" name="境界礼包(地阶前期)" needmoney="100" desc="花费100元宝打开获得：|10个神兵熟练丹" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="900007" minnum="10" maxnum="10" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="109301" name="境界礼包(天阶前期)" needmoney="150" desc="花费150元宝打开获得：|15个神兵熟练丹" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="900007" minnum="15" maxnum="15" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="109302" name="境界礼包(流星前期)" needmoney="200" desc="花费200元宝打开获得：|20个神兵熟练丹" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="900007" minnum="20" maxnum="20" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="109303" name="境界礼包(银月前期)" needmoney="250" desc="花费250元宝打开获得：|25个神兵熟练丹" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="900007" minnum="25" maxnum="25" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="109304" name="境界礼包(称号中期)" needmoney="300" desc="花费300元宝打开获得：|30个坐骑进阶丹" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="101001" minnum="30" maxnum="30" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="109305" name="境界礼包(飞天前期)" needmoney="350" desc="花费350元宝打开获得：|35个坐骑进阶丹" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="101001" minnum="35" maxnum="35" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="109306" name="境界礼包(飞天后期)" needmoney="400" desc="花费400元宝打开获得：|40个坐骑进阶丹" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="101001" minnum="40" maxnum="40" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="109307" name="境界礼包(圣级初期)" needmoney="500" desc="花费500元宝打开获得：|50个万能进阶丹" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="600019" minnum="50" maxnum="50" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="109308" name="境界礼包(圣级中期 )" needmoney="600" desc="花费600元宝打开获得：|60个万能进阶丹" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="600019" minnum="60" maxnum="60" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="109309" name="境界礼包(圣级后期)" needmoney="700" desc="花费700元宝打开获得：|70个万能进阶丹" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="600019" minnum="70" maxnum="70" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="109310" name="境界礼包(圣级圆满)" needmoney="800" desc="花费800元宝打开获得：|80个万能进阶丹" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="600019" minnum="80" maxnum="80" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="109311" name="境界礼包(圣级巅峰)" needmoney="1000" desc="花费1000元宝打开获得：|100个万能进阶丹" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="600019" minnum="100" maxnum="100" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="109312" name="境界礼包(半神初期)" needmoney="1500" desc="花费1500元宝打开获得：|150个万能进阶丹" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="600019" minnum="150" maxnum="150" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="109313" name="境界礼包(半神中期 )" needmoney="1700" desc="花费1700元宝打开获得：|170个万能进阶丹" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="600019" minnum="170" maxnum="170" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="109314" name="境界礼包(半神后期)" needmoney="2000" desc="花费2000元宝打开获得：|200个万能进阶丹" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="600019" minnum="200" maxnum="200" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="109315" name="境界礼包(半神圆满)" needmoney="2300" desc="花费2300元宝打开获得：|230个万能进阶丹" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="600019" minnum="230" maxnum="230" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="109316" name="境界礼包(半神巅峰)" needmoney="2500" desc="花费2500元宝打开获得：|250个万能进阶丹" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="600019" minnum="250" maxnum="250" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="109317" name="境界礼包(半神传说)" needmoney="2800" desc="花费2800元宝打开获得：|280个万能进阶丹" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="600019" minnum="280" maxnum="280" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="109318" name="境界礼包(半神极限)" needmoney="3000" desc="花费3000元宝打开获得：|300个万能进阶丹" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="600019" minnum="300" maxnum="300" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<!-- -->
+	<giftsitem id="190133" name="一点境界点" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<luodan minnum="1" maxnum="1"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190134" name="二十境界点" needmoney="0" desc="" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<luodan minnum="20" maxnum="20"/>
+		</fixinfo>
+	</giftsitem>
+	<!--媒体礼包-->
+	<giftsitem id="109603" name="10万元宝袋" needmoney="0" desc="开启后获得10万元宝" isuse="1" userrealm="0" userstage="0" vip="0" needbag="0" bind="2">
+		<fixinfo>
+			<emoney minnum="100000" maxnum="100000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="109604" name="50万元宝袋" needmoney="0" desc="开启后获得50万元宝" isuse="1" userrealm="0" userstage="0" vip="0" needbag="0" bind="2">
+		<fixinfo>
+			<emoney minnum="500000" maxnum="500000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="109605" name="100万元宝袋" needmoney="0" desc="开启后获得100万元宝" isuse="1" userrealm="0" userstage="0" vip="0" needbag="0" bind="2">
+		<fixinfo>
+			<emoney minnum="1000000" maxnum="1000000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190087" name="在线礼包一档" needmoney="0" desc="开启后可获得：|气血包（小）|10万银两|初级强化石*1" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<money minnum="100000" maxnum="100000"/>
+			<item item="100581" minnum="1" maxnum="1" bind="2"/>
+			<item item="105001" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190088" name="在线礼包二档" needmoney="0" desc="开启后可获得：|1.2倍收益丹|20万银两|初级强化石*1" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<money minnum="200000" maxnum="200000"/>
+			<item item="100590" minnum="1" maxnum="1" bind="2"/>
+			<item item="105001" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190089" name="在线礼包三档" needmoney="0" desc="开启后可获得：|气血包（中）|30万银两|5元宝|初级强化石*2" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<money minnum="300000" maxnum="300000"/>
+			<emoney minnum="5" maxnum="5"/>
+			<item item="100582" minnum="1" maxnum="1" bind="2"/>
+			<item item="105001" minnum="2" maxnum="2" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190090" name="在线礼包四档" needmoney="0" desc="开启后可获得：|1.4倍收益丹|40万银两|10元宝|初级强化石*3" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<money minnum="400000" maxnum="400000"/>
+			<emoney minnum="10" maxnum="10"/>
+			<item item="100591" minnum="1" maxnum="1" bind="2"/>
+			<item item="105001" minnum="3" maxnum="3" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190091" name="在线礼包五档" needmoney="0" desc="开启后可获得：|气血包（大）|50万银两|20元宝|初级强化石*5" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<money minnum="500000" maxnum="500000"/>
+			<emoney minnum="15" maxnum="15"/>
+			<item item="100583" minnum="1" maxnum="1" bind="2"/>
+			<item item="105001" minnum="5" maxnum="5" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190092" name="一百悟性值" needmoney="0" desc="开启后可获得一百悟性值" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<savvy minnum="100" maxnum="100"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190093" name="两百悟性值" needmoney="0" desc="开启后可获得两百悟性值" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<savvy minnum="200" maxnum="200"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190094" name="五百悟性值" needmoney="0" desc="开启后可获得五百悟性值" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<savvy minnum="500" maxnum="500"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190095" name="一千悟性值" needmoney="0" desc="开启后可获得一千悟性值" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<savvy minnum="1000" maxnum="1000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190096" name="七十血脉" needmoney="0" desc="使用后获得七十血脉点" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<blood minnum="70" maxnum="70"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190097" name="四十血脉" needmoney="0" desc="使用后获得四十血脉点" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<blood minnum="40" maxnum="40"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190098" name="足迹、气泡礼包" needmoney="0" desc="开启后可获得：|足迹时装*1|聊天气泡框*1" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<item item="215401" minnum="1" maxnum="1" bind="2"/>
+			<item item="215402" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="121001" name="第1名礼包" needmoney="0" desc="开启后可获得：|黑风遗宝代币*50|10倍经验丹*10" isuse="0" userrealm="0" userstage="0" vip="0" needbag="4" bind="2">
+		<fixinfo>
+			<item item="600070" minnum="50" maxnum="50" bind="2"/>
+			<item item="100599" minnum="10" maxnum="10" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="121002" name="第2名礼包" needmoney="0" desc="开启后可获得：|黑风遗宝代币*30|10倍经验丹*5" isuse="0" userrealm="0" userstage="0" vip="0" needbag="4" bind="2">
+		<fixinfo>
+			<item item="600070" minnum="30" maxnum="30" bind="2"/>
+			<item item="100599" minnum="5" maxnum="5" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="121003" name="第3名礼包" needmoney="0" desc="开启后可获得：|黑风遗宝代币*15|5倍经验丹*5" isuse="0" userrealm="0" userstage="0" vip="0" needbag="4" bind="2">
+		<fixinfo>
+			<item item="600070" minnum="15" maxnum="15" bind="2"/>
+			<item item="100594" minnum="5" maxnum="5" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="121004" name="第4名礼包" needmoney="0" desc="开启后可获得：|黑风遗宝代币*10|5倍经验丹*3" isuse="0" userrealm="0" userstage="0" vip="0" needbag="4" bind="2">
+		<fixinfo>
+			<item item="600070" minnum="10" maxnum="10" bind="2"/>
+			<item item="100594" minnum="3" maxnum="3" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="121005" name="第5名礼包" needmoney="0" desc="开启后可获得：|黑风遗宝代币*10|5倍经验丹*3" isuse="0" userrealm="0" userstage="0" vip="0" needbag="4" bind="2">
+		<fixinfo>
+			<item item="600070" minnum="10" maxnum="10" bind="2"/>
+			<item item="100594" minnum="3" maxnum="3" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="121006" name="第6名礼包" needmoney="0" desc="开启后可获得：|黑风遗宝代币*7|5倍经验丹*2" isuse="0" userrealm="0" userstage="0" vip="0" needbag="4" bind="2">
+		<fixinfo>
+			<item item="600070" minnum="7" maxnum="7" bind="2"/>
+			<item item="100594" minnum="2" maxnum="2" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="121007" name="第7名礼包" needmoney="0" desc="开启后可获得：|黑风遗宝代币*7|5倍经验丹*2" isuse="0" userrealm="0" userstage="0" vip="0" needbag="4" bind="2">
+		<fixinfo>
+			<item item="600070" minnum="7" maxnum="7" bind="2"/>
+			<item item="100594" minnum="2" maxnum="2" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="121008" name="第8名礼包" needmoney="0" desc="开启后可获得：|黑风遗宝代币*7|5倍经验丹*2" isuse="0" userrealm="0" userstage="0" vip="0" needbag="4" bind="2">
+		<fixinfo>
+			<item item="600070" minnum="7" maxnum="7" bind="2"/>
+			<item item="100594" minnum="2" maxnum="2" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="121009" name="第9名礼包" needmoney="0" desc="开启后可获得：|黑风遗宝代币*7|5倍经验丹*2" isuse="0" userrealm="0" userstage="0" vip="0" needbag="4" bind="2">
+		<fixinfo>
+			<item item="600070" minnum="7" maxnum="7" bind="2"/>
+			<item item="100594" minnum="2" maxnum="2" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="121010" name="第10名礼包" needmoney="0" desc="开启后可获得：|黑风遗宝代币*7|5倍经验丹*2" isuse="0" userrealm="0" userstage="0" vip="0" needbag="4" bind="2">
+		<fixinfo>
+			<item item="600070" minnum="7" maxnum="7" bind="2"/>
+			<item item="100594" minnum="2" maxnum="2" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="121011" name="参与礼包" needmoney="0" desc="开启后可获得：|黑风遗宝代币*2|3倍经验丹*2" isuse="0" userrealm="0" userstage="0" vip="0" needbag="4" bind="2">
+		<fixinfo>
+			<item item="600070" minnum="2" maxnum="2" bind="2"/>
+			<item item="100592" minnum="2" maxnum="2" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="800017" name="伙伴礼包" needmoney="0" desc="开启后可获得对应职业的伙伴" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="900014" minnum="1" maxnum="1" occupation="2" bind="2"/>
+			<item item="900015" minnum="1" maxnum="1" occupation="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="800018" name="残卷礼包2" needmoney="188" desc="花费188元宝开启后获得对应职业的第二个技能残卷|骑士：玄冰枪法*5|法师：巽风术*5" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="930002" minnum="5" maxnum="5" occupation="0" bind="2"/>
+			<item item="930008" minnum="5" maxnum="5" occupation="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="800019" name="残卷礼包3" needmoney="0" desc="开启后获得对应职业的第三个技能残卷|骑士：水火龙绞杀*5|法师：水火龙绞杀*5" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="930003" minnum="5" maxnum="5" occupation="0" bind="2"/>
+			<item item="930009" minnum="5" maxnum="5" occupation="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="800024" name="残卷礼包5" needmoney="0" desc="开启后获得对应职业的第五个技能残卷|骑士：大混洞真力*5|法师：庚金秘法*5" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="930005" minnum="5" maxnum="5" occupation="0" bind="2"/>
+			<item item="930011" minnum="5" maxnum="5" occupation="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<!--<giftsitem id="820001" name="二品真意包" needmoney="0" desc="使用后随机获得一个二品真意" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<item item="173000" minnum="1" maxnum="1" occupation="2" weight="1" bind="2"/>
+			<item item="173001" minnum="1" maxnum="1" occupation="2" weight="1" bind="2"/>
+			<item item="173002" minnum="1" maxnum="1" occupation="2" weight="1" bind="2"/>
+			<item item="173003" minnum="1" maxnum="1" occupation="2" weight="1" bind="2"/>
+			<item item="173004" minnum="1" maxnum="1" occupation="2" weight="1" bind="2"/>
+			<item item="173005" minnum="1" maxnum="1" occupation="2" weight="1" bind="2"/>
+			<item item="173006" minnum="1" maxnum="1" occupation="2" weight="1" bind="2"/>
+			<item item="173008" minnum="1" maxnum="1" occupation="2" weight="1" bind="2"/>
+			<item item="173010" minnum="1" maxnum="1" occupation="2" weight="1" bind="2"/>
+			<item item="173011" minnum="1" maxnum="1" occupation="2" weight="1" bind="2"/>
+			<item item="173012" minnum="1" maxnum="1" occupation="2" weight="1" bind="2"/>
+			<item item="173013" minnum="1" maxnum="1" occupation="2" weight="1" bind="2"/>
+			<item item="173014" minnum="1" maxnum="1" occupation="2" weight="1" bind="2"/>
+		</randominfo>
+	</giftsitem>-->
+	<!--神兵道具-->
+	<giftsitem id="900001" name="至尊神兵大礼" needmoney="888" desc="使用888元宝开启礼包可开出对应职业的第四把神兵" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="255004" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="900006" name="超凡·人阶极品神兵" needmoney="0" desc="使用后可获得对应职业第三把极品神兵:|骑士：龙凰神枪|法师：玄天封魔杖" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="255003" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="900037" name="一百五十万经验" needmoney="0" desc="使用后获得一百五十万经验" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<exp minnum="1500000" maxnum="1500000" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="900038" name="五十元宝" needmoney="0" desc="使用后获得五十元宝" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<emoney minnum="50" maxnum="50"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="900039" name="十元宝" needmoney="0" desc="使用后获得十元宝" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<emoney minnum="10" maxnum="10"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="900040" name="二十元宝" needmoney="0" desc="使用后获得二十元宝" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<emoney minnum="20" maxnum="20"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="900041" name="三十元宝" needmoney="0" desc="使用后获得三十元宝" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<emoney minnum="30" maxnum="30"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="900042" name="一百元宝" needmoney="0" desc="使用后获得一百元宝" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<emoney minnum="100" maxnum="100"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="152001" name="答题第1名" needmoney="0" desc="答题活动排名奖励，使用后获得：|装备强化石*10|200元宝" isuse="1" needbag="4" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<emoney minnum="200" maxnum="200"/>
+			<item item="105001" minnum="10" maxnum="10" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="152002" name="答题第2名" needmoney="0" desc="答题活动排名奖励，使用后获得：|装备强化石*5|100元宝" isuse="1" needbag="4" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<emoney minnum="100" maxnum="100"/>
+			<item item="105001" minnum="5" maxnum="5" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="152003" name="答题第3名" needmoney="0" desc="使答题活动排名奖励，使用后获得：|装备强化石*5|100元宝" isuse="1" needbag="4" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<emoney minnum="100" maxnum="100"/>
+			<item item="105001" minnum="3" maxnum="5" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="152004" name="答题第4-20名" needmoney="0" desc="使答题活动排名奖励，使用后获得：|装备强化石*3|50元宝" isuse="1" needbag="4" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<emoney minnum="50" maxnum="50"/>
+			<item item="105001" minnum="3" maxnum="3" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="152005" name="进阶丹礼包（24小时）" needmoney="100" desc="使用后可获得10个万能进阶丹" isuse="1" needbag="1" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<item item="600019" minnum="10" maxnum="10" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="152006" name="1000元宝" needmoney="" desc="使用后可获得1000元宝" isuse="1" needbag="1" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<emoney minnum="1000" maxnum="1000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="152007" name="50万经验" needmoney="" desc="使用后可获得50万经验" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<exp minnum="500000" maxnum="500000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="152008" name="20万银两" needmoney="" desc="使用后可获得20万银两" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<money minnum="200000" maxnum="200000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="150509" name="神兵超值礼盒" needmoney="80" desc="打开后获得：|神兵熟练丹*10|中级神兵超值礼盒*1|打开礼包需花费80元宝" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<item item="900007" minnum="10" maxnum="10" bind="2"/>
+			<item item="150510" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="150510" name="中级神兵超值礼盒" needmoney="160" desc="打开后获得：|神兵熟练丹*20|高级神兵超值礼盒*1|打开礼包需花费160元宝" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<item item="900007" minnum="20" maxnum="20" bind="2"/>
+			<item item="150511" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="150511" name="高级神兵超值礼盒" needmoney="320" desc="打开后获得：|神兵熟练丹*40|超级神兵超值礼盒*1|打开礼包需花费320元宝" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<item item="900007" minnum="40" maxnum="40" bind="2"/>
+			<item item="150512" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="150512" name="超级神兵超值礼盒" needmoney="800" desc="打开后获得：|神兵熟练丹*100|神兵精魂丹*1|打开礼包需花费800元宝" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<item item="900007" minnum="100" maxnum="100" bind="2"/>
+			<item item="900030" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="150513" name="坐骑超值礼盒" needmoney="80" desc="打开后获得：|兽魂衍化丹*10|中级坐骑超值礼盒*1|打开礼包需花费80元宝" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<item item="101001" minnum="10" maxnum="10" bind="2"/>
+			<item item="150514" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="150514" name="中级坐骑超值礼盒" needmoney="160" desc="打开后获得：|兽魂衍化丹*20|高级坐骑超值礼盒*1|打开礼包需花费160元宝" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<item item="101001" minnum="20" maxnum="20" bind="2"/>
+			<item item="150515" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="150515" name="高级坐骑超值礼盒" needmoney="320" desc="打开后获得：|兽魂衍化丹*40|超级坐骑超值礼盒*1|打开礼包需花费320元宝" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<item item="101001" minnum="40" maxnum="40" bind="2"/>
+			<item item="150516" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="150516" name="超级坐骑超值礼盒" needmoney="800" desc="打开后获得：|兽魂衍化丹*100|涤魂丹*1|打开礼包需花费800元宝" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<item item="101001" minnum="100" maxnum="100" bind="2"/>
+			<item item="101401" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="150517" name="羽翼超值礼盒" needmoney="80" desc="打开后获得：|羽翼凤灵*10|中级羽翼超值礼盒*1|打开礼包需花费80元宝" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<item item="101501" minnum="10" maxnum="10" bind="2"/>
+			<item item="150518" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="150518" name="中级羽翼超值礼盒" needmoney="160" desc="打开后获得：|羽翼凤灵*20|高级羽翼超值礼盒*1|打开礼包需花费160元宝" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<item item="101501" minnum="20" maxnum="20" bind="2"/>
+			<item item="150519" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="150519" name="高级羽翼超值礼盒" needmoney="320" desc="打开后获得：|羽翼凤灵*40|超级羽翼超值礼盒*1|打开礼包需花费320元宝" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<item item="101501" minnum="40" maxnum="40" bind="2"/>
+			<item item="150520" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="150520" name="超级羽翼超值礼包" needmoney="800" desc="打开后获得：|羽翼凤灵*100|破羽丹*1|打开礼包需花费800元宝" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<item item="101501" minnum="100" maxnum="100" bind="2"/>
+			<item item="101901" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="150521" name="伙伴超值礼盒" needmoney="72" desc="打开后获得：|橙色伙伴碎片*3|中级伙伴超值礼盒*1|打开礼包需花费72元宝" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<item item="900204" minnum="3" maxnum="3" bind="2"/>
+			<item item="150522" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="150522" name="中级伙伴超值礼盒" needmoney="240" desc="打开后获得：|橙色伙伴碎片*10|高级伙伴超值礼盒*1|打开礼包需花费240元宝" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<item item="900204" minnum="10" maxnum="10" bind="2"/>
+			<item item="150523" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="150523" name="高级伙伴超值礼盒" needmoney="480" desc="打开后获得：|橙色伙伴碎片*20|超级伙伴超值礼盒*1|打开礼包需花费480元宝" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<item item="900204" minnum="20" maxnum="20" bind="2"/>
+			<item item="150524" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="150524" name="超级伙伴超值礼盒" needmoney="1200" desc="打开后获得：|橙色伙伴碎片*50|打开礼包需花费1200元宝" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<item item="900204" minnum="50" maxnum="50" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="150525" name="装备超值礼盒" needmoney="80" desc="打开后获得：|初级强化石*10|中级装备超值礼盒*1|打开礼包需花费80元宝" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<item item="105001" minnum="10" maxnum="10" bind="2"/>
+			<item item="150526" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="150526" name="中级装备超值礼盒" needmoney="160" desc="打开后获得：|初级强化石*20|高级装备超值礼盒*1|打开礼包需花费160元宝" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<item item="105001" minnum="20" maxnum="20" bind="2"/>
+			<item item="150527" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="150527" name="高级装备超值礼盒" needmoney="320" desc="打开后获得：|初级强化石*40|超级装备超值礼盒*1|打开礼包需花费320元宝" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<item item="105001" minnum="40" maxnum="40" bind="2"/>
+			<item item="150528" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="150528" name="超级装备超值礼盒" needmoney="800" desc="打开后获得：|初级强化石*100|打开礼包需花费800元宝" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<item item="105001" minnum="100" maxnum="100" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="150529" name="血脉超值礼盒" needmoney="80" desc="打开后获得：|血脉点*500|中级血脉超值礼盒*1|打开礼包需花费80元宝" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<blood minnum="300" maxnum="300"/>
+			<item item="150530" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="150530" name="中级血脉超值礼盒" needmoney="160" desc="打开后获得：|血脉点*1000|高级血脉超值礼盒*1|打开礼包需花费160元宝" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<blood minnum="600" maxnum="600"/>
+			<item item="150531" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="150531" name="高级血脉超值礼盒" needmoney="320" desc="打开后获得：|血脉点*2000|超级血脉超值礼盒*1|打开礼包需花费320元宝" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<blood minnum="2000" maxnum="2000"/>
+			<item item="150532" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="150532" name="超级血脉超值礼盒" needmoney="800" desc="打开后获得：|血脉点*5000|打开礼包需花费800元宝" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<blood minnum="5000" maxnum="5000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="150533" name="境界超值礼盒" needmoney="80" desc="打开后获得：|境界点*10000|中级境界超值礼盒*1|打开礼包需花费80元宝" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<luodan minnum="10000" maxnum="10000"/>
+			<item item="150534" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="150534" name="中级境界超值礼盒" needmoney="160" desc="打开后获得：|境界点*20000|高级境界超值礼盒*1|打开礼包需花费160元宝" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<luodan minnum="20000" maxnum="20000"/>
+			<item item="150535" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="150535" name="高级境界超值礼盒" needmoney="320" desc="打开后获得：|境界点*40000|超级境界超值礼盒*1|打开礼包需花费320元宝" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<luodan minnum="40000" maxnum="40000"/>
+			<item item="150536" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="150536" name="超级境界超值礼盒" needmoney="800" desc="打开后获得：|境界点*100000|打开礼包需花费800元宝" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<luodan minnum="100000" maxnum="100000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="150537" name="法宝超值礼盒" needmoney="80" desc="打开后获得：|法宝进阶丹*10|中级法宝超值礼盒*1|打开礼包需花费80元宝" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<item item="103001" minnum="10" maxnum="10" bind="2"/>
+			<item item="150538" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="150538" name="中级法宝超值礼盒" needmoney="160" desc="打开后获得：|法宝进阶丹*20|高级法宝超值礼盒*1|打开礼包需花费160元宝" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<item item="103001" minnum="20" maxnum="20" bind="2"/>
+			<item item="150539" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="150539" name="高级法宝超值礼盒" needmoney="320" desc="打开后获得：|法宝进阶丹*40|超级法宝超值礼盒*1|打开礼包需花费320元宝" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<item item="103001" minnum="40" maxnum="40" bind="2"/>
+			<item item="150540" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="150540" name="超级法宝超值礼盒" needmoney="800" desc="打开后获得：|法宝进阶丹*100|龙髓珠*1|打开礼包需花费800元宝" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<item item="103001" minnum="100" maxnum="100" bind="2"/>
+			<item item="103301" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="150600" name="超凡冠军礼盒【普】" needmoney="0" desc="打开后获得：|必定获得橙色伙伴碎片包×1|随机获得3-4级坐骑技能书×1" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="190100" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+		<randominfo roll="1" isrepeat="1">
+			<item item="132013" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132023" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132033" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132043" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132053" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132063" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132073" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132083" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132093" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133013" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133023" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133033" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133043" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133053" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133063" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133073" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134013" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134023" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134033" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134043" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134053" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134063" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134073" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132014" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132024" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132034" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132044" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132054" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132064" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132074" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132084" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132094" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133014" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133024" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133034" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133044" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133054" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133064" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133074" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134014" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134024" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134034" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134044" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134054" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134064" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134074" minnum="1" maxnum="1" weight="1" bind="2"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="150601" name="超凡冠军礼盒【特】" needmoney="188" desc="消耗188元宝开启：|随机获得3-5级坐骑技能书×1|必然获得橙色伙伴碎片包×5" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="190100" minnum="5" maxnum="5" bind="2"/>
+		</fixinfo>
+		<randominfo roll="1" isrepeat="1">
+			<item item="132013" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132023" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132033" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132043" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132053" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132063" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132073" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132083" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132093" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133013" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133023" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133033" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133043" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133053" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133063" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133073" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134013" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134023" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134033" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134043" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134053" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134063" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134073" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132015" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132025" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132035" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132045" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132055" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132065" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132075" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132085" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132095" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133015" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133025" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133035" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133045" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133055" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133065" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133075" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134015" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134025" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134035" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134045" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134055" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134065" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134075" minnum="1" maxnum="1" weight="1" bind="2"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="150602" name="后起之秀礼盒【普】" needmoney="0" desc="打开后获得：|必定获得紫色伙伴碎片包×1|随机获得1-3级坐骑技能书×1" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="190101" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+		<randominfo roll="1" isrepeat="1">
+			<item item="132013" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132023" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132033" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132043" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132053" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132063" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132073" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132083" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132093" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133013" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133023" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133033" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133043" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133053" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133063" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133073" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134013" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134023" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134033" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134043" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134053" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134063" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134073" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132011" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132021" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132031" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132041" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132051" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132061" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132071" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132081" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132091" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133011" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133021" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133031" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133041" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133051" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133061" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133071" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134011" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134021" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134031" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134041" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134051" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134061" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134071" minnum="1" maxnum="1" weight="1" bind="2"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="150603" name="后起之秀礼盒【特】" needmoney="88" desc="消耗88元宝开启获得：|必定获得紫色伙伴碎片包×5|随机获得2-4级坐骑技能书×1" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="190101" minnum="5" maxnum="5" bind="2"/>
+		</fixinfo>
+		<randominfo roll="1" isrepeat="1">
+			<item item="132012" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132022" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132032" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132042" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132052" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132062" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132072" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132082" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132092" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133012" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133022" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133032" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133042" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133052" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133062" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133072" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134012" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134022" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134032" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134042" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134052" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134062" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134072" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132014" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132024" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132034" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132044" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132054" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132064" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132074" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132084" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132094" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133014" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133024" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133034" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133044" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133054" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133064" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133074" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134014" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134024" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134034" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134044" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134054" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134064" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134074" minnum="1" maxnum="1" weight="1" bind="2"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="150604" name="奋起直追礼盒【普】" needmoney="0" desc="打开后获得：|随机获得1-5个低阶万能进阶丹|（坐骑，羽翼，神兵熟练4阶以下可用）" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<item item="600019" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="600019" minnum="2" maxnum="2" weight="1" bind="2"/>
+			<item item="600019" minnum="3" maxnum="3" weight="1" bind="2"/>
+			<item item="600019" minnum="4" maxnum="4" weight="1" bind="2"/>
+			<item item="600019" minnum="5" maxnum="5" weight="1" bind="2"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="150605" name="奋起直追礼盒【特】" needmoney="58" desc="消耗58元宝开启获得：|随机获得4-10个低阶万能进阶丹|（坐骑，羽翼，神兵熟练4阶以下可用）" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<item item="600019" minnum="4" maxnum="4" weight="1" bind="2"/>
+			<item item="600019" minnum="5" maxnum="5" weight="1" bind="2"/>
+			<item item="600019" minnum="6" maxnum="6" weight="1" bind="2"/>
+			<item item="600019" minnum="7" maxnum="7" weight="1" bind="2"/>
+			<item item="600019" minnum="8" maxnum="8" weight="1" bind="2"/>
+			<item item="600019" minnum="9" maxnum="9" weight="1" bind="2"/>
+			<item item="600019" minnum="10" maxnum="10" weight="1" bind="2"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="150606" name="黄金荣誉宝箱（普）" needmoney="" desc="开启后：|随机获得1-5个万能进阶丹|必然获得橙色伙伴碎片包*1" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<item item="190100" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+		<randominfo roll="1" isrepeat="1">
+			<item item="600019" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="600019" minnum="2" maxnum="2" weight="1" bind="2"/>
+			<item item="600019" minnum="3" maxnum="3" weight="1" bind="2"/>
+			<item item="600019" minnum="4" maxnum="4" weight="1" bind="2"/>
+			<item item="600019" minnum="5" maxnum="5" weight="1" bind="2"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="150607" name="黄金荣誉宝箱（特）" needmoney="188" desc="消耗188元宝开启后：|随机获得4-8个万能进阶丹|必然获得橙色伙伴碎片包*5" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<item item="190100" minnum="5" maxnum="5" bind="2"/>
+		</fixinfo>
+		<randominfo roll="1" isrepeat="1">
+			<item item="600019" minnum="4" maxnum="4" weight="1" bind="2"/>
+			<item item="600019" minnum="5" maxnum="5" weight="1" bind="2"/>
+			<item item="600019" minnum="6" maxnum="6" weight="1" bind="2"/>
+			<item item="600019" minnum="7" maxnum="7" weight="1" bind="2"/>
+			<item item="600019" minnum="8" maxnum="8" weight="1" bind="2"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="150608" name="白银荣誉宝箱（普）" needmoney="" desc="开启后：|随机获得1-5个万能进阶丹|必然获得紫色伙伴碎片包*1" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<item item="190101" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+		<randominfo roll="1" isrepeat="1">
+			<item item="600019" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="600019" minnum="2" maxnum="2" weight="1" bind="2"/>
+			<item item="600019" minnum="3" maxnum="3" weight="1" bind="2"/>
+			<item item="600019" minnum="4" maxnum="4" weight="1" bind="2"/>
+			<item item="600019" minnum="5" maxnum="5" weight="1" bind="2"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="150609" name="白银荣誉宝箱（特）" needmoney="88" desc="消耗88元宝开启后：|随机获得4-8个万能进阶丹|必然获得紫色伙伴碎片包*5" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<item item="190101" minnum="5" maxnum="5" bind="2"/>
+		</fixinfo>
+		<randominfo roll="1" isrepeat="1">
+			<item item="600019" minnum="4" maxnum="4" weight="1" bind="2"/>
+			<item item="600019" minnum="5" maxnum="5" weight="1" bind="2"/>
+			<item item="600019" minnum="6" maxnum="6" weight="1" bind="2"/>
+			<item item="600019" minnum="7" maxnum="7" weight="1" bind="2"/>
+			<item item="600019" minnum="8" maxnum="8" weight="1" bind="2"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="150610" name="青铜荣誉宝箱（普）" needmoney="0" desc="开启后：|随机获得1-5个万能进阶丹" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<item item="600019" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="600019" minnum="2" maxnum="2" weight="1" bind="2"/>
+			<item item="600019" minnum="3" maxnum="3" weight="1" bind="2"/>
+			<item item="600019" minnum="4" maxnum="4" weight="1" bind="2"/>
+			<item item="600019" minnum="5" maxnum="5" weight="1" bind="2"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="150611" name="青铜荣誉宝箱（特）" needmoney="58" desc="消耗58元宝开启后：|随机获得4-8个万能进阶丹" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<item item="600019" minnum="4" maxnum="4" weight="1" bind="2"/>
+			<item item="600019" minnum="5" maxnum="5" weight="1" bind="2"/>
+			<item item="600019" minnum="6" maxnum="6" weight="1" bind="2"/>
+			<item item="600019" minnum="7" maxnum="7" weight="1" bind="2"/>
+			<item item="600019" minnum="8" maxnum="8" weight="1" bind="2"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="109101" name="潜能丹宝盒" needmoney="0" desc="可随机获得以下的潜能丹一个|火凤血|精魂丹|涤魂丹" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<item item="101901" minnum="1" maxnum="1" weight="3" bind="2"/>
+			<item item="900030" minnum="1" maxnum="1" weight="3" bind="2"/>
+			<item item="101401" minnum="1" maxnum="1" weight="3" bind="2"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="109102" name="潜能丹碎片盒" needmoney="0" desc="可随机获得以下的潜能丹碎片一个|火凤血碎片|精魂丹碎片|涤魂丹碎片" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<item item="155001" minnum="1" maxnum="1" weight="3" bind="2"/>
+			<item item="155002" minnum="1" maxnum="1" weight="3" bind="2"/>
+			<item item="155003" minnum="1" maxnum="1" weight="3" bind="2"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="109103" name="幻化丹宝盒" needmoney="0" desc="可随机获得以下的幻化丹一个|培元丹|炼体丹|羽神晶" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<item item="101301" minnum="1" maxnum="1" weight="3" bind="2"/>
+			<item item="900031" minnum="1" maxnum="1" weight="3" bind="2"/>
+			<item item="101801" minnum="1" maxnum="1" weight="3" bind="2"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="109104" name="幻化丹礼包" needmoney="0" desc="获得以下幻化丹各一个|培元丹|炼体丹|羽神晶" isuse="1" userrealm="0" userstage="0" vip="0" needbag="3" bind="2">
+		<fixinfo>
+			<item item="101301" minnum="1" maxnum="1" bind="2"/>
+			<item item="900031" minnum="1" maxnum="1" bind="2"/>
+			<item item="101801" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190135" name="坐骑精英大礼" needmoney="2000" desc="打开礼包需花费2000元宝，打开后获得:|获得288个坐骑进阶丹" isuse="0" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="101001" minnum="288" maxnum="288" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190136" name="羽翼精英大礼" needmoney="2000" desc="打开礼包需花费2000元宝，打开后获得:|获得288个羽翼进阶丹" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="101501" minnum="288" maxnum="288" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190137" name="神武精英大礼" needmoney="2000" desc="打开礼包需花费2000元宝，打开后获得:|获得288个神兵进阶丹" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="900007" minnum="288" maxnum="288" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190138" name="伙伴精英大礼" needmoney="2000" desc="打开礼包需花费2000元宝，打开后获得:|获得100个橙色伙伴碎片" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="900204" minnum="100" maxnum="100" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190139" name="装备精英大礼" needmoney="2000" desc="打开礼包需花费2000元宝，打开后获得:|获得10个中级装备提品石" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="105202" minnum="10" maxnum="10" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190140" name="血脉精英大礼" needmoney="2000" desc="打开礼包需花费2000元宝，打开后获得:|获得30000血脉值" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="190004" minnum="30" maxnum="30" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190141" name="法宝精英大礼" needmoney="2000" desc="打开礼包需花费2000元宝，打开后获得价值5760元宝的:|血玉*288" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="103001" minnum="288" maxnum="288" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<!--常规资源礼包-->
+	<giftsitem id="190000" name="5血脉" needmoney="0" desc="使用后获得5点血脉" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<blood minnum="5" maxnum="5"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190001" name="50血脉" needmoney="0" desc="使用后获得50点血脉" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<blood minnum="50" maxnum="50"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190002" name="100血脉" needmoney="0" desc="使用后获得100点血脉" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<blood minnum="100" maxnum="100"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190003" name="500血脉" needmoney="0" desc="使用后获得500点血脉" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<blood minnum="500" maxnum="500"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190004" name="1000血脉" needmoney="0" desc="使用后获得1000点血脉" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<blood minnum="1000" maxnum="1000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190005" name="五千境界点" needmoney="0" desc="使用后获得五千境界点" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<luodan minnum="5000" maxnum="5000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190006" name="一万境界点" needmoney="0" desc="使用后获得一万境界点" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<luodan minnum="10000" maxnum="10000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190007" name="五万境界点" needmoney="0" desc="使用后获得五万境界点" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<luodan minnum="50000" maxnum="50000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190008" name="十万境界点" needmoney="0" desc="使用后获得十万境界点" isuse="1" needbag="0" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<luodan minnum="100000" maxnum="100000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190009" name="神兵五折礼包1" needmoney="50" desc="消耗50元宝打开后可获得：|神兵熟练丹*5" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="900007" minnum="5" maxnum="5" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190010" name="神兵五折礼包2" needmoney="100" desc="消耗100元宝打开后可获得：|神兵熟练丹*10" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="900007" minnum="10" maxnum="10" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190011" name="神兵五折礼包3" needmoney="150" desc="消耗150元宝打开后可获得：|神兵熟练丹*15" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="900007" minnum="15" maxnum="15" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190012" name="神兵五折礼包4" needmoney="200" desc="消耗200元宝打开后可获得：|神兵熟练丹*20" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="900007" minnum="20" maxnum="20" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190013" name="神兵五折礼包5" needmoney="250" desc="消耗250元宝打开后可获得：|神兵熟练丹*25" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="900007" minnum="25" maxnum="25" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190014" name="神兵五折礼包6" needmoney="300" desc="消耗300元宝打开后可获得：|神兵熟练丹*30" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="900007" minnum="30" maxnum="30" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190015" name="神兵五折礼包7" needmoney="500" desc="消耗500元宝打开后可获得：|神兵熟练丹*50" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="900007" minnum="50" maxnum="50" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190016" name="神兵五折礼包8" needmoney="800" desc="消耗800元宝打开后可获得：|神兵熟练丹*80" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="900007" minnum="80" maxnum="80" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190017" name="神兵五折礼包9" needmoney="1000" desc="消耗1000元宝打开后可获得：|神兵熟练丹*100" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="900007" minnum="100" maxnum="100" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190018" name="神兵五折礼包10" needmoney="3000" desc="消耗3000元宝打开后可获得：|神兵熟练丹*300" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="900007" minnum="300" maxnum="300" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190019" name="神兵五折礼包11" needmoney="5000" desc="消耗5000元宝打开后可获得：|神兵熟练丹*500" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="900007" minnum="500" maxnum="500" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190020" name="坐骑五折礼包1" needmoney="50" desc="消耗50元宝打开后可获得：|兽魂衍化丹*5" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="101001" minnum="5" maxnum="5" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190021" name="坐骑五折礼包2" needmoney="100" desc="消耗100元宝打开后可获得：|兽魂衍化丹*10" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="101001" minnum="10" maxnum="10" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190022" name="坐骑五折礼包3" needmoney="150" desc="消耗150元宝打开后可获得：|兽魂衍化丹*15" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="101001" minnum="15" maxnum="15" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190023" name="坐骑五折礼包4" needmoney="200" desc="消耗200元宝打开后可获得：|兽魂衍化丹*20" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="101001" minnum="20" maxnum="20" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190024" name="坐骑五折礼包5" needmoney="250" desc="消耗250元宝打开后可获得：|兽魂衍化丹*25" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="101001" minnum="25" maxnum="25" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190025" name="坐骑五折礼包6" needmoney="300" desc="消耗300元宝打开后可获得：|兽魂衍化丹*30" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="101001" minnum="30" maxnum="30" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190026" name="坐骑五折礼包7" needmoney="500" desc="消耗500元宝打开后可获得：|兽魂衍化丹*50" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="101001" minnum="50" maxnum="50" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190027" name="坐骑五折礼包8" needmoney="800" desc="消耗800元宝打开后可获得：|兽魂衍化丹*80" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="101001" minnum="80" maxnum="80" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190028" name="坐骑五折礼包9" needmoney="1000" desc="消耗1000元宝打开后可获得：|兽魂衍化丹*100" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="101001" minnum="100" maxnum="100" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190029" name="坐骑五折礼包10" needmoney="3000" desc="消耗3000元宝打开后可获得：|兽魂衍化丹*300" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="101001" minnum="300" maxnum="300" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190030" name="坐骑五折礼包11" needmoney="5000" desc="消耗5000元宝打开后可获得：|兽魂衍化丹*500" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="101001" minnum="500" maxnum="500" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190031" name="羽翼五折礼包1" needmoney="50" desc="消耗50元宝打开后可获得：|羽翼凤灵*5" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="101501" minnum="5" maxnum="5" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190032" name="羽翼五折礼包2" needmoney="100" desc="消耗100元宝打开后可获得：|羽翼凤灵*10" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="101501" minnum="10" maxnum="10" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190033" name="羽翼五折礼包3" needmoney="150" desc="消耗150元宝打开后可获得：|羽翼凤灵*15" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="101501" minnum="15" maxnum="15" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190034" name="羽翼五折礼包4" needmoney="200" desc="消耗200元宝打开后可获得：|羽翼凤灵*20" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="101501" minnum="20" maxnum="20" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190035" name="羽翼五折礼包5" needmoney="250" desc="消耗250元宝打开后可获得：|羽翼凤灵*25" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="101501" minnum="25" maxnum="25" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190036" name="羽翼五折礼包6" needmoney="300" desc="消耗300元宝打开后可获得：|羽翼凤灵*30" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="101501" minnum="30" maxnum="30" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190037" name="羽翼五折礼包7" needmoney="500" desc="消耗500元宝打开后可获得：|羽翼凤灵*50" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="101501" minnum="50" maxnum="50" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190038" name="羽翼五折礼包8" needmoney="800" desc="消耗800元宝打开后可获得：|羽翼凤灵*80" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="101501" minnum="80" maxnum="80" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190039" name="羽翼五折礼包9" needmoney="1000" desc="消耗1000元宝打开后可获得：|羽翼凤灵*100" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="101501" minnum="100" maxnum="100" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190040" name="羽翼五折礼包10" needmoney="3000" desc="消耗3000元宝打开后可获得：|羽翼凤灵*300" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="101501" minnum="300" maxnum="300" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190041" name="羽翼五折礼包11" needmoney="5000" desc="消耗5000元宝打开后可获得：|羽翼凤灵*500" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="101501" minnum="500" maxnum="500" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190042" name="伙伴五折礼包1" needmoney="50" desc="消耗50元宝打开后可获得：|橙色伙伴碎片*2" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="900204" minnum="2" maxnum="2" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190043" name="伙伴五折礼包2" needmoney="100" desc="消耗100元宝打开后可获得：|橙色伙伴碎片*3" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="900204" minnum="3" maxnum="3" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190044" name="伙伴五折礼包3" needmoney="150" desc="消耗150元宝打开后可获得：|橙色伙伴碎片*5" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="900204" minnum="5" maxnum="5" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190045" name="伙伴五折礼包4" needmoney="200" desc="消耗200元宝打开后可获得：|橙色伙伴碎片*7" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="900204" minnum="7" maxnum="7" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190046" name="伙伴五折礼包5" needmoney="250" desc="消耗250元宝打开后可获得：|橙色伙伴碎片*8" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="900204" minnum="8" maxnum="8" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190047" name="伙伴五折礼包6" needmoney="300" desc="消耗300元宝打开后可获得：|橙色伙伴碎片*10" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="900204" minnum="10" maxnum="10" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190048" name="伙伴五折礼包7" needmoney="500" desc="消耗500元宝打开后可获得：|橙色伙伴碎片*17" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="900204" minnum="17" maxnum="17" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190049" name="伙伴五折礼包8" needmoney="800" desc="消耗800元宝打开后可获得：|橙色伙伴碎片*27" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="900204" minnum="27" maxnum="27" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190050" name="伙伴五折礼包9" needmoney="1000" desc="消耗1000元宝打开后可获得：|橙色伙伴碎片*33" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="900204" minnum="33" maxnum="33" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190051" name="伙伴五折礼包10" needmoney="3000" desc="消耗3000元宝打开后可获得：|橙色伙伴碎片*100" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="900204" minnum="100" maxnum="100" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190052" name="伙伴五折礼包11" needmoney="5000" desc="消耗5000元宝打开后可获得：|橙色伙伴碎片*167" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="900204" minnum="167" maxnum="167" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190053" name="装备五折礼包1" needmoney="50" desc="消耗50元宝打开后可获得：|洗练石*5" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="105401" minnum="5" maxnum="5" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190054" name="装备五折礼包2" needmoney="100" desc="消耗100元宝打开后可获得：|洗练石*10" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="105401" minnum="10" maxnum="10" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190055" name="装备五折礼包3" needmoney="150" desc="消耗150元宝打开后可获得：|洗练石*15" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="105401" minnum="15" maxnum="15" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190056" name="装备五折礼包4" needmoney="200" desc="消耗200元宝打开后可获得：|洗练石*20" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="105401" minnum="20" maxnum="20" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190057" name="装备五折礼包5" needmoney="250" desc="消耗250元宝打开后可获得：|洗练石*25" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="105401" minnum="25" maxnum="25" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190058" name="装备五折礼包6" needmoney="300" desc="消耗300元宝打开后可获得：|洗练石*30" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="105401" minnum="30" maxnum="30" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190059" name="装备五折礼包7" needmoney="500" desc="消耗500元宝打开后可获得：|洗练石*50" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="105401" minnum="50" maxnum="50" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190060" name="装备五折礼包8" needmoney="800" desc="消耗800元宝打开后可获得：|洗练石*80" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="105401" minnum="80" maxnum="80" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190061" name="装备五折礼包9" needmoney="1000" desc="消耗1000元宝打开后可获得：|洗练石*100" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="105401" minnum="100" maxnum="100" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190062" name="装备五折礼包10" needmoney="3000" desc="消耗3000元宝打开后可获得：|洗练石*300" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="105401" minnum="300" maxnum="300" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190063" name="装备五折礼包11" needmoney="5000" desc="消耗5000元宝打开后可获得：|洗练石*500" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="105401" minnum="500" maxnum="500" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190064" name="血脉五折礼包1" needmoney="50" desc="消耗50元宝打开后可获得：|血脉点*250" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<blood minnum="250" maxnum="250"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190065" name="血脉五折礼包2" needmoney="100" desc="消耗100元宝打开后可获得：|血脉点*500" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<blood minnum="500" maxnum="500"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190066" name="血脉五折礼包3" needmoney="150" desc="消耗150元宝打开后可获得：|血脉点*750" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<blood minnum="750" maxnum="750"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190067" name="血脉五折礼包4" needmoney="200" desc="消耗200元宝打开后可获得：|血脉点*1000" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<blood minnum="1000" maxnum="1000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190068" name="血脉五折礼包5" needmoney="250" desc="消耗250元宝打开后可获得：|血脉点*1250" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<blood minnum="1250" maxnum="1250"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190069" name="血脉五折礼包6" needmoney="300" desc="消耗300元宝打开后可获得：|血脉点*1500" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<blood minnum="1500" maxnum="1500"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190070" name="血脉五折礼包7" needmoney="500" desc="消耗500元宝打开后可获得：|血脉点*2500" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<blood minnum="2500" maxnum="2500"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190071" name="血脉五折礼包8" needmoney="800" desc="消耗800元宝打开后可获得：|血脉点*4000" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<blood minnum="4000" maxnum="4000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190072" name="血脉五折礼包9" needmoney="1000" desc="消耗1000元宝打开后可获得：|血脉点*5000" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<blood minnum="5000" maxnum="5000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190073" name="血脉五折礼包10" needmoney="3000" desc="消耗3000元宝打开后可获得：|血脉点*15000" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<blood minnum="15000" maxnum="15000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190074" name="血脉五折礼包11" needmoney="5000" desc="消耗5000元宝打开后可获得：|血脉点*25000" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<blood minnum="25000" maxnum="25000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190075" name="法宝五折礼包1" needmoney="50" desc="消耗50元宝打开后可获得：|法宝*5" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="103001" minnum="5" maxnum="5" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190076" name="法宝五折礼包2" needmoney="100" desc="消耗100元宝打开后可获得：|法宝*10" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="103001" minnum="10" maxnum="10" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190077" name="法宝五折礼包3" needmoney="150" desc="消耗150元宝打开后可获得：|法宝*15" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="103001" minnum="15" maxnum="15" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190078" name="法宝五折礼包4" needmoney="200" desc="消耗200元宝打开后可获得：|法宝*20" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="103001" minnum="20" maxnum="20" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190079" name="法宝五折礼包5" needmoney="250" desc="消耗250元宝打开后可获得：|法宝*25" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="103001" minnum="25" maxnum="25" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190080" name="法宝五折礼包6" needmoney="300" desc="消耗300元宝打开后可获得：|法宝*30" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="103001" minnum="30" maxnum="30" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190081" name="法宝五折礼包7" needmoney="500" desc="消耗500元宝打开后可获得：|法宝*50" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="103001" minnum="50" maxnum="50" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190082" name="法宝五折礼包8" needmoney="800" desc="消耗800元宝打开后可获得：|法宝*80" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="103001" minnum="80" maxnum="80" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190083" name="法宝五折礼包9" needmoney="1000" desc="消耗1000元宝打开后可获得：|法宝*100" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="103001" minnum="100" maxnum="100" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190084" name="法宝五折礼包10" needmoney="3000" desc="消耗3000元宝打开后可获得：|法宝*300" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="103001" minnum="300" maxnum="300" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190085" name="法宝五折礼包11" needmoney="5000" desc="消耗5000元宝打开后可获得：|法宝*500" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="103001" minnum="500" maxnum="500" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190086" name="橙色伙伴碎片包（大）" needmoney="0" desc="开启后可随机获得50个橙色伙伴碎片" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<item item="900113" minnum="50" maxnum="50" weight="1" bind="2"/>
+			<item item="900114" minnum="50" maxnum="50" weight="1" bind="2"/>
+			<item item="900115" minnum="50" maxnum="50" weight="1" bind="2"/>
+			<item item="900116" minnum="50" maxnum="50" weight="1" bind="2"/>
+			<item item="900117" minnum="50" maxnum="50" weight="1" bind="2"/>
+			<item item="900118" minnum="50" maxnum="50" weight="1" bind="2"/>
+			<item item="900119" minnum="50" maxnum="50" weight="1" bind="2"/>
+			<item item="900120" minnum="50" maxnum="50" weight="1" bind="2"/>
+			<item item="900204" minnum="50" maxnum="50" weight="1" bind="2"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="190142" name="绿色伙伴碎片包（小）" needmoney="0" desc="开启后可随机获得1个绿色伙伴碎片" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<item item="900100" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="900101" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="900102" minnum="1" maxnum="1" weight="1" bind="2"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="190099" name="蓝色伙伴碎片包（小）" needmoney="0" desc="开启后可随机获得1个蓝色伙伴碎片" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<item item="900103" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="900104" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="900105" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="900106" minnum="1" maxnum="1" weight="1" bind="2"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="190100" name="橙色伙伴碎片包（小）" needmoney="0" desc="开启后可随机获得1个橙色伙伴碎片" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<item item="900113" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="900114" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="900115" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="900116" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="900117" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="900118" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="900119" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="900120" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="900204" minnum="1" maxnum="1" weight="1" bind="2"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="190101" name="紫色伙伴碎片包（小）" needmoney="0" desc="开启后可随机获得1个紫色伙伴碎片" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<item item="900107" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="900108" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="900109" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="900110" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="900111" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="900112" minnum="1" maxnum="1" weight="1" bind="2"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="190102" name="小型超凡占领奖励" needmoney="" desc="开启后可获得：|橙色伙伴碎片*1|紫色伙伴碎片*2|一百万经验|一百万银两" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<exp minnum="1000000" maxnum="1000000"/>
+			<money minnum="1000000" maxnum="1000000"/>
+			<item item="900203" minnum="2" maxnum="2" bind="2"/>
+			<item item="900204" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190103" name="小型超凡官职奖励" needmoney="" desc="开启后可获得：|橙色伙伴碎片包*1|紫色伙伴碎片包*5|一百万银两" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<money minnum="1000000" maxnum="1000000"/>
+			<item item="190100" minnum="1" maxnum="1" bind="2"/>
+			<item item="190101" minnum="5" maxnum="5" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190104" name="领主赏赐（一）" needmoney="58" desc="消耗58元宝开启获得：|万能进阶丹*10" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="600019" minnum="10" maxnum="10" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190105" name="领主赏赐（二）" needmoney="88" desc="消耗88元宝开启获得：|万能进阶丹*15" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="600019" minnum="15" maxnum="15" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190106" name="领主赏赐（三）" needmoney="128" desc="消耗128元宝开启获得：|万能进阶丹*23" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="600019" minnum="23" maxnum="23" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190107" name="领主赏赐（四）" needmoney="158" desc="消耗158元宝开启获得：|万能进阶丹*30" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="600019" minnum="30" maxnum="30" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190108" name="领主赏赐（五）" needmoney="228" desc="消耗228元宝开启获得：|万能进阶丹*45" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="600019" minnum="45" maxnum="45" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190109" name="40级装备套装箱" needmoney="0" desc="开启后随机获得一件40级装备" isuse="1" needbag="1" userrealm="0" userstage="0" vip="0" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<equip equip="1040101" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1040102" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1040103" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1040104" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1040105" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1040106" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1040107" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1040108" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1040109" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1040110" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="190110" name="60级装备套装箱" needmoney="0" desc="开启后随机获得一件60级装备" isuse="1" needbag="1" userrealm="0" userstage="0" vip="0" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<equip equip="1060101" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1060102" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1060103" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1060104" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1060105" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1060106" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1060107" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1060108" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1060109" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1060110" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="190111" name="80级装备套装箱" needmoney="0" desc="开启后随机获得一件80级装备" isuse="1" needbag="1" userrealm="0" userstage="0" vip="0" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<equip equip="1080101" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1080102" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1080103" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1080104" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1080105" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1080106" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1080107" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1080108" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1080109" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1080110" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="190112" name="100级装备套装箱" needmoney="0" desc="开启后随机获得一件100级装备" isuse="1" needbag="1" userrealm="0" userstage="0" vip="0" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<equip equip="1100101" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1100102" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1100103" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1100104" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1100105" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1100106" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1100107" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1100108" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1100109" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1100110" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="190113" name="120级装备套装箱" needmoney="0" desc="开启后随机获得一件120级装备" isuse="1" needbag="1" userrealm="0" userstage="0" vip="0" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<equip equip="1120101" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1120102" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1120103" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1120104" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1120105" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1120106" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1120107" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1120108" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1120109" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1120110" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="190114" name="140级装备套装箱" needmoney="0" desc="开启后随机获得一件140级装备" isuse="1" needbag="1" userrealm="0" userstage="0" vip="0" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<equip equip="1140101" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1140102" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1140103" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1140104" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1140105" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1140106" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1140107" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1140108" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1140109" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1140110" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="190115" name="160级装备套装箱" needmoney="0" desc="开启后随机获得一件160级装备" isuse="1" needbag="1" userrealm="0" userstage="0" vip="0" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<equip equip="1160101" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1160102" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1160103" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1160104" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1160105" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1160106" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1160107" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1160108" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1160109" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1160110" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="190116" name="180级装备套装箱" needmoney="0" desc="开启后随机获得一件180级装备" isuse="1" needbag="1" userrealm="0" userstage="0" vip="0" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<equip equip="1180101" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1180102" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1180103" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1180104" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1180105" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1180106" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1180107" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1180108" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1180109" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1180110" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="190117" name="200级装备套装箱" needmoney="0" desc="开启后随机获得一件200级装备" isuse="1" needbag="1" userrealm="0" userstage="0" vip="0" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<equip equip="1200101" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1200102" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1200103" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1200104" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1200105" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1200106" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1200107" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1200108" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1200109" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="1200110" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="190200" name="黑风项链" needmoney="0" desc="开启后可获得：黑风耳坠【流星】" isuse="1" needbag="1" userrealm="0" userstage="0" vip="0" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<equip equip="2060109" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="190201" name="80级黑风套装装备箱" needmoney="0" desc="开启后随机获得一件80级黑风套装" isuse="1" needbag="1" userrealm="0" userstage="0" vip="0" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<equip equip="2080101" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2080102" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2080103" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2080104" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2080105" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2080106" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2080107" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2080108" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2080109" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2080110" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="190202" name="100级黑风套装装备箱" needmoney="0" desc="开启后随机获得一件100级黑风套装" isuse="1" needbag="1" userrealm="0" userstage="0" vip="0" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<equip equip="2100101" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2100102" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2100103" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2100104" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2100105" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2100106" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2100107" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2100108" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2100109" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2100110" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="190203" name="120级黑风套装装备箱" needmoney="0" desc="开启后随机获得一件120级黑风套装" isuse="1" needbag="1" userrealm="0" userstage="0" vip="0" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<equip equip="2120101" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2120102" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2120103" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2120104" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2120105" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2120106" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2120107" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2120108" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2120109" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2120110" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="190204" name="140级黑风套装装备箱" needmoney="0" desc="开启后随机获得一件140级黑风套装" isuse="1" needbag="1" userrealm="0" userstage="0" vip="0" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<equip equip="2140101" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2140102" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2140103" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2140104" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2140105" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2140106" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2140107" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2140108" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2140109" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2140110" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="190205" name="160级黑风套装装备箱" needmoney="0" desc="开启后随机获得一件160级黑风套装" isuse="1" needbag="1" userrealm="0" userstage="0" vip="0" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<equip equip="2160101" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2160102" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2160103" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2160104" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2160105" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2160106" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2160107" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2160108" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2160109" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<equip equip="2160110" stage="1" minnum="1" maxnum="1" bind="2" weight="1"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="190122" name="小型特惠礼包" needmoney="40" desc="消耗40元宝打开后可获得:|万能进阶丹*2|紫色伙伴碎片*1" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<item item="600019" minnum="2" maxnum="2" bind="2"/>
+			<item item="900203" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190123" name="中型特惠礼包" needmoney="80" desc="消耗80元宝打开后可获得:|万能进阶丹*4|紫色伙伴碎片*2" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<item item="600019" minnum="4" maxnum="4" bind="2"/>
+			<item item="900203" minnum="2" maxnum="2" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190124" name="大型特惠礼包" needmoney="120" desc="消耗120元宝打开后可获得:|万能进阶丹*6|紫色伙伴碎片*3" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<item item="600019" minnum="6" maxnum="6" bind="2"/>
+			<item item="900203" minnum="3" maxnum="3" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190125" name="小型超值大礼" needmoney="160" desc="消耗160元宝打开后可获得:|万能进阶丹*8|紫色伙伴碎片*4" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<item item="600019" minnum="8" maxnum="8" bind="2"/>
+			<item item="900203" minnum="4" maxnum="4" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190126" name="中型超值大礼" needmoney="400" desc="消耗400元宝打开后可获得:|万能进阶丹*20|紫色伙伴碎片*10" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<item item="600019" minnum="20" maxnum="20" bind="2"/>
+			<item item="900203" minnum="10" maxnum="10" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190127" name="大型超值大礼" needmoney="800" desc="消耗800元宝打开后可获得:|万能进阶丹*35|橙色伙伴碎片*15" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<item item="600019" minnum="35" maxnum="35" bind="2"/>
+			<item item="900204" minnum="15" maxnum="15" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190128" name="白银大礼包" needmoney="1400" desc="消耗1400元宝打开后可获得:|万能进阶丹*40|橙色伙伴碎片*20|悟性*10000" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<item item="600019" minnum="40" maxnum="40" bind="2"/>
+			<item item="900204" minnum="20" maxnum="20" bind="2"/>
+			<savvy minnum="10000" maxnum="10000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190129" name="黄金大礼包" needmoney="2200" desc="消耗2200元宝打开后可获得:|万能进阶丹*60|橙色伙伴碎片*30|悟性*10000" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<item item="600019" minnum="60" maxnum="60" bind="2"/>
+			<item item="900204" minnum="30" maxnum="30" bind="2"/>
+			<savvy minnum="10000" maxnum="10000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190130" name="钻石大礼包" needmoney="3300" desc="消耗3300元宝打开后可获得:|万能进阶丹*80|橙色伙伴碎片*40|悟性*15000" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<item item="600019" minnum="80" maxnum="80" bind="2"/>
+			<item item="900204" minnum="40" maxnum="40" bind="2"/>
+			<savvy minnum="15000" maxnum="15000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190131" name="豪华黄金大礼包" needmoney="5000" desc="消耗5000元宝打开后可获得:|万能进阶丹*120|橙色伙伴碎片*60|悟性*20000" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<item item="600019" minnum="120" maxnum="120" bind="2"/>
+			<item item="900204" minnum="60" maxnum="60" bind="2"/>
+			<savvy minnum="20000" maxnum="20000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="190132" name="豪华钻石大礼包" needmoney="8500" desc="消耗8500元宝打开后可获得:|万能进阶丹*200|橙色伙伴碎片*100|悟性*30000" isuse="1" userrealm="0" userstage="0" vip="0" needbag="2" bind="2">
+		<fixinfo>
+			<item item="600019" minnum="200" maxnum="200" bind="2"/>
+			<item item="900204" minnum="100" maxnum="100" bind="2"/>
+			<savvy minnum="30000" maxnum="30000"/>
+		</fixinfo>
+	</giftsitem>
+	<!--技能书礼包  occupation=1为法师；=0为战士-->
+	<giftsitem id="200001" name="残卷礼包4" needmoney="0" desc="开启后获得对应职业的第四个技能残卷|骑士：星辰陨灭击*5|法师：离火八卦阵*5" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<fixinfo>
+			<item item="930004" minnum="5" maxnum="5" occupation="0" bind="2"/>
+			<item item="930010" minnum="5" maxnum="5" occupation="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="200002" name="四品真意包" needmoney="0" desc="使用后随机获得一种四品真意" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<item item="174000" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="174001" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="174002" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="174003" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="174004" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="174005" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="174006" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="174007" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="174008" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="174009" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="174010" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="174011" minnum="1" maxnum="1" bind="2" weight="1"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="200014" name="三品真意包" needmoney="0" desc="使用后随机获得一种三品真意" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<item item="173000" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="173001" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="173002" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="173003" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="173004" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="173005" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="173006" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="173007" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="173008" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="173009" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="173010" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="173011" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="173012" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="173013" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="173014" minnum="1" maxnum="1" bind="2" weight="1"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="200015" name="二品真意包" needmoney="0" desc="使用后随机获得一种二品真意" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<item item="172000" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="172001" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="172002" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="172003" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="172004" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="172005" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="172006" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="172007" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="172008" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="172009" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="172010" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="172011" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="172012" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="172013" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="172014" minnum="1" maxnum="1" bind="2" weight="1"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="200004" name="宗师级坐骑技能包" needmoney="0" desc="随机开出一本宗师级坐骑技能书" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<item item="132015" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="132025" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="132035" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="132045" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="132055" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="132065" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="132075" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="132085" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="132095" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="133015" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="133025" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="133035" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="133045" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="133055" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="133065" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="133075" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="134015" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="134025" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="134035" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="134045" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="134055" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="134065" minnum="1" maxnum="1" bind="2" weight="1"/>
+			<item item="134075" minnum="1" maxnum="1" bind="2" weight="1"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="200005" name="大师级坐骑技能包" needmoney="0" desc="随机开出一本大师级坐骑技能书" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<item item="132014" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132024" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132034" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132044" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132054" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132064" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132074" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132084" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132094" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133014" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133024" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133034" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133044" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133054" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133064" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133074" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134014" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134024" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134034" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134044" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134054" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134064" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134074" minnum="1" maxnum="1" weight="1" bind="2"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="200006" name="天阶坐骑技能书" needmoney="0" desc="随机开出一本初、中级坐骑技能书" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<item item="132011" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132012" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132021" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132022" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132031" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132032" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132041" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132042" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132051" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132052" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132061" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132062" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132071" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132072" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132081" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132082" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132091" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132092" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133011" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133012" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133021" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133022" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133031" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133032" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133041" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133042" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133051" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133052" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133061" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133062" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133071" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133072" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134011" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134012" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134021" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134022" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134031" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134032" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134041" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134042" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134051" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134052" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134061" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134062" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134071" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134072" minnum="1" maxnum="1" weight="1" bind="2"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="200007" name="流星级坐骑技能书" needmoney="0" desc="随机开出一本中、高级坐骑技能书" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<item item="132012" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132013" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132022" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132023" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132032" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132033" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132042" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132043" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132052" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132053" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132062" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132063" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132072" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132073" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132082" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132083" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132092" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132093" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133012" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133013" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133022" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133023" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133032" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133033" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133042" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133043" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133052" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133053" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133062" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133063" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133072" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133073" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134012" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134013" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134022" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134023" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134032" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134033" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134042" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134043" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134052" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134053" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134062" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134063" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134072" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134073" minnum="1" maxnum="1" weight="1" bind="2"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="200008" name="银月级坐骑技能书" needmoney="0" desc="随机开出一本初、中、高级坐骑技能书" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<item item="132011" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132012" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132013" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132021" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132022" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132023" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132031" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132032" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132033" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132041" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132042" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132043" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132051" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132052" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132053" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132061" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132062" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132063" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132071" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132072" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132073" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132081" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132082" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132083" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132091" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132092" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="132093" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133011" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133012" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133013" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133021" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133022" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133023" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133031" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133032" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133033" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133041" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133042" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133043" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133051" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133052" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133053" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133061" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133062" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133063" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133071" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133072" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="133073" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134011" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134012" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134013" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134021" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134022" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134023" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134031" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134032" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134033" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134041" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134042" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134043" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134051" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134052" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134053" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134061" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134062" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134063" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134071" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134072" minnum="1" maxnum="1" weight="1" bind="2"/>
+			<item item="134073" minnum="1" maxnum="1" weight="1" bind="2"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="152010" name="神魔降临第1名奖励" needmoney="0" desc="神魔降临排名奖励，使用后获得：|血脉*2000|500万经验" isuse="1" needbag="1" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<exp minnum="5000000" maxnum="5000000"/>
+			<blood minnum="2000" maxnum="2000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="152011" name="神魔降临第2名奖励" needmoney="0" desc="神魔降临排名奖励，使用后获得：|血脉*1000|200万经验" isuse="1" needbag="1" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<exp minnum="2000000" maxnum="2000000"/>
+			<blood minnum="1000" maxnum="1000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="152012" name="神魔降临第3名奖励" needmoney="0" desc="神魔降临排名奖励，使用后获得：|血脉*500|100万经验" isuse="1" needbag="1" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<exp minnum="1000000" maxnum="1000000"/>
+			<blood minnum="500" maxnum="500"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="152013" name="神魔降临第4-10名奖励" needmoney="0" desc="神魔降临排名奖励，使用后获得：|血脉*300|50万经验" isuse="1" needbag="1" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<exp minnum="500000" maxnum="500000"/>
+			<blood minnum="300" maxnum="300"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="152014" name="神魔降临参与奖" needmoney="0" desc="神魔降临排名奖励，使用后获得：|血脉*1000|20万经验" isuse="1" needbag="1" userrealm="0" userstage="0" vip="0" bind="2">
+		<fixinfo>
+			<exp minnum="200000" maxnum="200000"/>
+			<blood minnum="1000" maxnum="1000"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="200009" name="低级技能书箱" needmoney="0" desc="随机开出一本低级坐骑技能书" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<item item="132011" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="132012" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132021" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="132022" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132031" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="132032" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132041" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="132042" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132051" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="132052" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132061" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="132062" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132071" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="132072" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132081" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="132082" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132091" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="132092" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="133011" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="133012" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="133021" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="133022" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="133031" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="133032" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="133041" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="133042" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="133051" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="133052" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="133061" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="133062" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="133071" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="133072" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="134011" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="134012" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="134021" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="134022" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="134031" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="134032" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="134041" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="134042" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="134051" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="134052" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="134061" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="134062" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="134071" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="134072" minnum="1" maxnum="1" weight="30" bind="2"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="200010" name="高级技能书箱" needmoney="0" desc="随机开出一本高级坐骑技能书" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<item item="132012" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="132013" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132014" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="132022" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="132023" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132024" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="132032" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="132033" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132034" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="132042" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="132043" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132044" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="132052" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="132053" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132054" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="132062" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="132063" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132064" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="132072" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="132073" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132074" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="132082" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="132083" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132084" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="132092" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="132093" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132094" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="133012" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="133013" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="133014" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="133022" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="133023" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="133024" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="133032" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="133033" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="133034" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="133042" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="133043" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="133044" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="133052" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="133053" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="133054" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="133062" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="133063" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="133064" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="133072" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="133073" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="133074" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="134012" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="134013" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="134014" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="134022" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="134023" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="134024" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="134032" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="134033" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="134034" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="134042" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="134043" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="134044" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="134052" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="134053" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="134054" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="134062" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="134063" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="134064" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="134072" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="134073" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="134074" minnum="1" maxnum="1" weight="20" bind="2"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="200011" name="超级技能书箱" needmoney="0" desc="随机开出一本超级坐骑技能书" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<item item="132012" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132013" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="132014" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="132022" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132023" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="132024" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="132032" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132033" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="132034" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="132042" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132043" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="132044" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="132052" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132053" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="132054" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="132062" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132063" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="132064" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="132072" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132073" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="132074" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="132082" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132083" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="132084" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="132092" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132093" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="132094" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="133012" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="133013" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="133014" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="133022" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="133023" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="133024" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="133032" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="133033" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="133034" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="133042" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="133043" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="133044" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="133052" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="133053" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="133054" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="133062" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="133063" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="133064" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="133072" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="133073" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="133074" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="134012" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="134013" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="134014" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="134022" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="134023" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="134024" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="134032" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="134033" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="134034" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="134042" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="134043" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="134044" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="134052" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="134053" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="134054" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="134062" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="134063" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="134064" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="134072" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="134073" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="134074" minnum="1" maxnum="1" weight="25" bind="2"/>
+			<item item="132015" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="132025" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="132035" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="132045" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="132055" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="132065" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="132075" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="132085" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="132095" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="133015" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="133025" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="133035" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="133045" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="133055" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="133065" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="133075" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="134015" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="134025" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="134035" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="134045" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="134055" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="134065" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="134075" minnum="1" maxnum="1" weight="20" bind="2"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="200012" name="钻石技能书箱" needmoney="0" desc="随机开出一本钻石级坐骑技能书" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<item item="132013" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="132014" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132023" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="132024" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132033" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="132034" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132043" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="132044" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132053" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="132054" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132063" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="132064" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132073" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="132074" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132083" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="132084" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132093" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="132094" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="133013" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="133014" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="133023" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="133024" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="133033" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="133034" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="133043" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="133044" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="133053" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="133054" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="133063" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="133064" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="133073" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="133074" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="134013" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="134014" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="134023" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="134024" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="134033" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="134034" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="134043" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="134044" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="134053" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="134054" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="134063" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="134064" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="134073" minnum="1" maxnum="1" weight="50" bind="2"/>
+			<item item="134074" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132015" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="132025" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="132035" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="132045" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="132055" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="132065" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="132075" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="132085" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="132095" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="133015" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="133025" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="133035" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="133045" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="133055" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="133065" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="133075" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="134015" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="134025" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="134035" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="134045" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="134055" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="134065" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="134075" minnum="1" maxnum="1" weight="20" bind="2"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="200013" name="中级技能书箱" needmoney="0" desc="随机开出一本中级坐骑技能书" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<item item="132012" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="132022" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="132032" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="132042" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="132052" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="132062" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="132072" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="132082" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="132092" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="133012" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="133022" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="133032" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="133042" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="133052" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="133062" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="133072" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="134012" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="134022" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="134032" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="134042" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="134052" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="134062" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="134072" minnum="1" maxnum="1" weight="70" bind="2"/>
+			<item item="132013" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132023" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132033" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132043" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132053" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132063" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132073" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132083" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="132093" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="133013" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="133023" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="133033" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="133043" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="133053" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="133063" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="133073" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="134013" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="134023" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="134033" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="134043" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="134053" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="134063" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="134073" minnum="1" maxnum="1" weight="30" bind="2"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="200016" name="中级坐骑技能书" needmoney="0" desc="随机开出一本中级坐骑技能书" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="1">
+		<randominfo roll="1" isrepeat="1">
+			<item item="132012" minnum="1" maxnum="1" weight="70" bind="1"/>
+			<item item="132022" minnum="1" maxnum="1" weight="70" bind="1"/>
+			<item item="132032" minnum="1" maxnum="1" weight="70" bind="1"/>
+			<item item="132042" minnum="1" maxnum="1" weight="70" bind="1"/>
+			<item item="132052" minnum="1" maxnum="1" weight="70" bind="1"/>
+			<item item="132062" minnum="1" maxnum="1" weight="70" bind="1"/>
+			<item item="132072" minnum="1" maxnum="1" weight="70" bind="1"/>
+			<item item="132082" minnum="1" maxnum="1" weight="70" bind="1"/>
+			<item item="132092" minnum="1" maxnum="1" weight="70" bind="1"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="200017" name="高级坐骑技能书" needmoney="0" desc="随机开出一本高级坐骑技能书" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="1">
+		<randominfo roll="1" isrepeat="1">
+			<item item="132013" minnum="1" maxnum="1" weight="70" bind="1"/>
+			<item item="132023" minnum="1" maxnum="1" weight="70" bind="1"/>
+			<item item="132033" minnum="1" maxnum="1" weight="70" bind="1"/>
+			<item item="132043" minnum="1" maxnum="1" weight="70" bind="1"/>
+			<item item="132053" minnum="1" maxnum="1" weight="70" bind="1"/>
+			<item item="132063" minnum="1" maxnum="1" weight="70" bind="1"/>
+			<item item="132073" minnum="1" maxnum="1" weight="70" bind="1"/>
+			<item item="132083" minnum="1" maxnum="1" weight="70" bind="1"/>
+			<item item="132093" minnum="1" maxnum="1" weight="70" bind="1"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="190118" name="百战密室连斩宝箱" needmoney="0" desc="开出随机获得对应职业的技能残卷。" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<item item="930001" minnum="1" maxnum="1" weight="1" occupation="0" bind="2"/>
+			<item item="930002" minnum="1" maxnum="1" weight="1" occupation="0" bind="2"/>
+			<item item="930003" minnum="1" maxnum="1" weight="1" occupation="0" bind="2"/>
+			<item item="930004" minnum="1" maxnum="1" weight="1" occupation="0" bind="2"/>
+			<item item="930005" minnum="1" maxnum="1" weight="1" occupation="0" bind="2"/>
+			<item item="930006" minnum="1" maxnum="1" weight="1" occupation="0" bind="2"/>
+			<item item="930007" minnum="1" maxnum="1" weight="1" occupation="1" bind="2"/>
+			<item item="930008" minnum="1" maxnum="1" weight="1" occupation="1" bind="2"/>
+			<item item="930009" minnum="1" maxnum="1" weight="1" occupation="1" bind="2"/>
+			<item item="930010" minnum="1" maxnum="1" weight="1" occupation="1" bind="2"/>
+			<item item="930011" minnum="1" maxnum="1" weight="1" occupation="1" bind="2"/>
+			<item item="930012" minnum="1" maxnum="1" weight="1" occupation="1" bind="2"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="190119" name="中级宝箱" needmoney="0" desc="随机开出一本角色技能书" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<item item="930002" minnum="1" maxnum="1" weight="25" occupation="0" bind="2"/>
+			<item item="930003" minnum="1" maxnum="1" weight="25" occupation="0" bind="2"/>
+			<item item="930004" minnum="1" maxnum="1" weight="25" occupation="0" bind="2"/>
+			<item item="930005" minnum="1" maxnum="1" weight="25" occupation="0" bind="2"/>
+			<item item="930008" minnum="1" maxnum="1" weight="25" occupation="1" bind="2"/>
+			<item item="930009" minnum="1" maxnum="1" weight="25" occupation="1" bind="2"/>
+			<item item="930010" minnum="1" maxnum="1" weight="25" occupation="1" bind="2"/>
+			<item item="930011" minnum="1" maxnum="1" weight="25" occupation="1" bind="2"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="190120" name="高级宝箱" needmoney="0" desc="随机开出一本角色技能书" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<item item="930001" minnum="1" maxnum="1" weight="12" occupation="0" bind="2"/>
+			<item item="930002" minnum="1" maxnum="1" weight="22" occupation="0" bind="2"/>
+			<item item="930003" minnum="1" maxnum="1" weight="22" occupation="0" bind="2"/>
+			<item item="930004" minnum="1" maxnum="1" weight="22" occupation="0" bind="2"/>
+			<item item="930005" minnum="1" maxnum="1" weight="22" occupation="0" bind="2"/>
+			<item item="930007" minnum="1" maxnum="1" weight="12" occupation="1" bind="2"/>
+			<item item="930008" minnum="1" maxnum="1" weight="22" occupation="1" bind="2"/>
+			<item item="930009" minnum="1" maxnum="1" weight="22" occupation="1" bind="2"/>
+			<item item="930010" minnum="1" maxnum="1" weight="22" occupation="1" bind="2"/>
+			<item item="930011" minnum="1" maxnum="1" weight="22" occupation="1" bind="2"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="190121" name="黄金宝箱" needmoney="0" desc="随机开出一本角色技能书" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<item item="930001" minnum="1" maxnum="1" weight="12" occupation="0" bind="2"/>
+			<item item="930002" minnum="1" maxnum="1" weight="19" occupation="0" bind="2"/>
+			<item item="930003" minnum="1" maxnum="1" weight="19" occupation="0" bind="2"/>
+			<item item="930004" minnum="1" maxnum="1" weight="19" occupation="0" bind="2"/>
+			<item item="930005" minnum="1" maxnum="1" weight="19" occupation="0" bind="2"/>
+			<item item="930006" minnum="1" maxnum="1" weight="12" occupation="0" bind="2"/>
+			<item item="930007" minnum="1" maxnum="1" weight="12" occupation="0" bind="2"/>
+			<item item="930008" minnum="1" maxnum="1" weight="19" occupation="1" bind="2"/>
+			<item item="930009" minnum="1" maxnum="1" weight="19" occupation="1" bind="2"/>
+			<item item="930010" minnum="1" maxnum="1" weight="19" occupation="1" bind="2"/>
+			<item item="930011" minnum="1" maxnum="1" weight="19" occupation="1" bind="2"/>
+			<item item="930012" minnum="1" maxnum="1" weight="12" occupation="1" bind="2"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="160001" name="炼器礼包" needmoney="0" desc="随机获得以下道具中的一个|初级强化石*1|初级强化石*2|初级强化石*3|初级提品石*1|1阶星河紫砂*1" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<item item="105001" minnum="1" maxnum="1" weight="30" bind="2"/>
+			<item item="105001" minnum="2" maxnum="2" weight="20" bind="2"/>
+			<item item="105001" minnum="3" maxnum="3" weight="10" bind="2"/>
+			<item item="105201" minnum="1" maxnum="1" weight="10" bind="2"/>
+			<item item="105301" minnum="1" maxnum="1" weight="30" bind="2"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="160002" name="炼器礼包" needmoney="0" desc="随机获得以下道具中的一个|初级强化石*1|初级强化石*2|初级强化石*3|初级提品石*1|1阶星河紫砂*1" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<item item="105001" minnum="1" maxnum="1" weight="0" bind="2"/>
+			<item item="105001" minnum="2" maxnum="2" weight="35" bind="2"/>
+			<item item="105001" minnum="3" maxnum="3" weight="10" bind="2"/>
+			<item item="105201" minnum="1" maxnum="1" weight="20" bind="2"/>
+			<item item="105301" minnum="1" maxnum="1" weight="35" bind="2"/>
+		</randominfo>
+	</giftsitem>
+	<giftsitem id="130100" name="神宫礼包" needmoney="0" desc="使用后获得:|1.2倍经验丹*1|小飞鞋*5|气血包（中）*1|银两*10W|初级强化石*1" isuse="1" userrealm="0" userstage="0" vip="0" needbag="5" bind="2">
+		<fixinfo>
+			<item item="100590" minnum="1" maxnum="1" bind="2"/>
+			<item item="107003" minnum="5" maxnum="5" bind="2"/>
+			<item item="100582" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="1" maxnum="1" bind="2"/>
+			<item item="105001" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="130101" name="归真礼包" needmoney="0" desc="使用后获得:|1.2倍经验丹*1|护送令*1|气血包（中）*1|银两*10W|初级强化石*1" isuse="1" userrealm="0" userstage="0" vip="0" needbag="5" bind="2">
+		<fixinfo>
+			<item item="100590" minnum="1" maxnum="1" bind="2"/>
+			<item item="600018" minnum="1" maxnum="1" bind="2"/>
+			<item item="100582" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="1" maxnum="1" bind="2"/>
+			<item item="105001" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="130102" name="孤星礼包" needmoney="0" desc="使用后获得:|1.2倍经验丹*1|九转还魂丹*1|气血包（中）*1|银两*10W|初级强化石*1" isuse="1" userrealm="0" userstage="0" vip="0" needbag="5" bind="2">
+		<fixinfo>
+			<item item="100590" minnum="1" maxnum="1" bind="2"/>
+			<item item="600010" minnum="1" maxnum="1" bind="2"/>
+			<item item="100582" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="1" maxnum="1" bind="2"/>
+			<item item="105001" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="130200" name="超凡礼包" needmoney="0" desc="使用后获得:|1.4倍经验丹*1|九转还魂丹*1|气血包（中）*1|银两*20W|初级强化石*2" isuse="1" userrealm="0" userstage="0" vip="0" needbag="5" bind="2">
+		<fixinfo>
+			<item item="100591" minnum="1" maxnum="1" bind="2"/>
+			<item item="600010" minnum="1" maxnum="1" bind="2"/>
+			<item item="100582" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="2" maxnum="2" bind="2"/>
+			<item item="105001" minnum="2" maxnum="2" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="130201" name="凤舞礼包" needmoney="0" desc="使用后获得:|1.4倍经验丹*1|小飞鞋*10|气血包（中）*1|银两*20W|初级强化石*2" isuse="1" userrealm="0" userstage="0" vip="0" needbag="5" bind="2">
+		<fixinfo>
+			<item item="100591" minnum="1" maxnum="1" bind="2"/>
+			<item item="107003" minnum="10" maxnum="10" bind="2"/>
+			<item item="100582" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="2" maxnum="2" bind="2"/>
+			<item item="105001" minnum="2" maxnum="2" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="130202" name="中品礼包" needmoney="0" desc="使用后获得:|1.4倍经验丹*1|护送令*1|气血包（中）*1|银两*20W|初级强化石*2" isuse="1" userrealm="0" userstage="0" vip="0" needbag="5" bind="2">
+		<fixinfo>
+			<item item="100591" minnum="1" maxnum="1" bind="2"/>
+			<item item="600018" minnum="1" maxnum="1" bind="2"/>
+			<item item="100582" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="2" maxnum="2" bind="2"/>
+			<item item="105001" minnum="2" maxnum="2" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="130300" name="高级礼包" needmoney="0" desc="使用后获得:|气血包（大）*1|九转还魂丹*2|小飞鞋*10|3级血量增益丹*1|银两*30W|初级强化石*3" isuse="1" userrealm="0" userstage="0" vip="0" needbag="6" bind="2">
+		<fixinfo>
+			<item item="100583" minnum="1" maxnum="1" bind="2"/>
+			<item item="600010" minnum="2" maxnum="2" bind="2"/>
+			<item item="107003" minnum="10" maxnum="10" bind="2"/>
+			<item item="100103" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="3" maxnum="3" bind="2"/>
+			<item item="105001" minnum="3" maxnum="3" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="130301" name="黄金礼包" needmoney="0" desc="使用后获得:|气血包（大）*1|护送令*2|1.4倍经验丹*1|3级暴击增益丹*1|银两*30W|初级强化石*3" isuse="1" userrealm="0" userstage="0" vip="0" needbag="6" bind="2">
+		<fixinfo>
+			<item item="100583" minnum="1" maxnum="1" bind="2"/>
+			<item item="600018" minnum="2" maxnum="2" bind="2"/>
+			<item item="100591" minnum="1" maxnum="1" bind="2"/>
+			<item item="100153" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="3" maxnum="3" bind="2"/>
+			<item item="105001" minnum="3" maxnum="3" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="130302" name="高品礼包" needmoney="0" desc="使用后获得:|气血包（大）*1|龙山楼恩赦令*1|1.4倍经验丹*1|3级攻击增益丹*1|银两*30W|初级强化石*3" isuse="1" userrealm="0" userstage="0" vip="0" needbag="6" bind="2">
+		<fixinfo>
+			<item item="100583" minnum="1" maxnum="1" bind="2"/>
+			<item item="107562" minnum="1" maxnum="1" bind="2"/>
+			<item item="100591" minnum="1" maxnum="1" bind="2"/>
+			<item item="100113" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="3" maxnum="3" bind="2"/>
+			<item item="105001" minnum="3" maxnum="3" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="130400" name="颠峰礼包" needmoney="0" desc="使用后获得:|气血包（大）*2|九转还魂丹*2|1.4倍经验丹*2|3级血量增益丹*1|银两*40W|初级强化石*4" isuse="1" userrealm="0" userstage="0" vip="0" needbag="6" bind="2">
+		<fixinfo>
+			<item item="100583" minnum="2" maxnum="2" bind="2"/>
+			<item item="600010" minnum="2" maxnum="2" bind="2"/>
+			<item item="100591" minnum="2" maxnum="2" bind="2"/>
+			<item item="100103" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="4" maxnum="4" bind="2"/>
+			<item item="105001" minnum="4" maxnum="4" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="130401" name="铂金礼包" needmoney="0" desc="使用后获得:|气血包（大）*2|护送令*2|1.4倍经验丹*2|3级暴击增益丹*1|银两*40W|初级强化石*4" isuse="1" userrealm="0" userstage="0" vip="0" needbag="6" bind="2">
+		<fixinfo>
+			<item item="100583" minnum="2" maxnum="2" bind="2"/>
+			<item item="600018" minnum="2" maxnum="2" bind="2"/>
+			<item item="100591" minnum="2" maxnum="2" bind="2"/>
+			<item item="100153" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="4" maxnum="4" bind="2"/>
+			<item item="105001" minnum="4" maxnum="4" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="130402" name="红石山礼包" needmoney="0" desc="使用后获得:|气血包（大）*2|龙山楼恩赦令*1|1.4倍经验丹*2|3级攻击增益丹*1|银两*40W|初级强化石*4" isuse="1" userrealm="0" userstage="0" vip="0" needbag="6" bind="2">
+		<fixinfo>
+			<item item="100583" minnum="2" maxnum="2" bind="2"/>
+			<item item="107562" minnum="1" maxnum="1" bind="2"/>
+			<item item="100591" minnum="2" maxnum="2" bind="2"/>
+			<item item="100113" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="4" maxnum="4" bind="2"/>
+			<item item="105001" minnum="4" maxnum="4" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="130500" name="特级礼包" needmoney="0" desc="使用后获得:|气血包（大）*2|九转还魂丹*2|1.4倍经验丹*2|4级血量增益丹*1|银两*50W|初级强化石*5" isuse="1" userrealm="0" userstage="0" vip="0" needbag="6" bind="2">
+		<fixinfo>
+			<item item="100583" minnum="2" maxnum="2" bind="2"/>
+			<item item="600010" minnum="2" maxnum="2" bind="2"/>
+			<item item="100591" minnum="2" maxnum="2" bind="2"/>
+			<item item="100104" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="5" maxnum="5" bind="2"/>
+			<item item="105001" minnum="5" maxnum="5" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="130501" name="钻石礼包" needmoney="0" desc="使用后获得:|气血包（大）*2|护送令*2|1.4倍经验丹*2|4级暴击增益丹*1|银两*50W|初级强化石*5" isuse="1" userrealm="0" userstage="0" vip="0" needbag="6" bind="2">
+		<fixinfo>
+			<item item="100583" minnum="2" maxnum="2" bind="2"/>
+			<item item="600018" minnum="2" maxnum="2" bind="2"/>
+			<item item="100591" minnum="2" maxnum="2" bind="2"/>
+			<item item="100154" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="5" maxnum="5" bind="2"/>
+			<item item="105001" minnum="5" maxnum="5" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="130502" name="特品礼包" needmoney="0" desc="使用后获得:|气血包（大）*2|龙山楼恩赦令*1|1.4倍经验丹*2|4级攻击增益丹*1|银两*50W|初级强化石*5" isuse="1" userrealm="0" userstage="0" vip="0" needbag="6" bind="2">
+		<fixinfo>
+			<item item="100583" minnum="2" maxnum="2" bind="2"/>
+			<item item="107562" minnum="1" maxnum="1" bind="2"/>
+			<item item="100591" minnum="2" maxnum="2" bind="2"/>
+			<item item="100114" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="5" maxnum="5" bind="2"/>
+			<item item="105001" minnum="5" maxnum="5" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="130600" name="新手豪礼" needmoney="0" desc="使用后获得:|气血包（大）*2|九转还魂丹*2|1.6倍经验丹*2|3级血量增益丹*1|银两*10W|初级强化石*1" isuse="1" userrealm="0" userstage="0" vip="0" needbag="6" bind="2">
+		<fixinfo>
+			<item item="100583" minnum="2" maxnum="2" bind="2"/>
+			<item item="600010" minnum="2" maxnum="2" bind="2"/>
+			<item item="100592" minnum="2" maxnum="2" bind="2"/>
+			<item item="100103" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="1" maxnum="1" bind="2"/>
+			<item item="105001" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="130601" name="豪华飞升礼包" needmoney="0" desc="使用后获得:|气血包（大）*2|护送令*2|1.6倍经验丹*2|3级暴击增益丹*1|银两*20W|初级强化石*2" isuse="1" userrealm="0" userstage="0" vip="0" needbag="6" bind="2">
+		<fixinfo>
+			<item item="100583" minnum="2" maxnum="2" bind="2"/>
+			<item item="600018" minnum="2" maxnum="2" bind="2"/>
+			<item item="100592" minnum="2" maxnum="2" bind="2"/>
+			<item item="100153" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="2" maxnum="2" bind="2"/>
+			<item item="105001" minnum="2" maxnum="2" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="130602" name="豪华至尊礼包" needmoney="0" desc="使用后获得:|气血包（大）*2|龙山楼恩赦令*2|1.6倍经验丹*2|3级攻击增益丹*1|银两*30W|初级强化石*3" isuse="1" userrealm="0" userstage="0" vip="0" needbag="6" bind="2">
+		<fixinfo>
+			<item item="100583" minnum="2" maxnum="2" bind="2"/>
+			<item item="107562" minnum="2" maxnum="2" bind="2"/>
+			<item item="100592" minnum="2" maxnum="2" bind="2"/>
+			<item item="100113" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="3" maxnum="3" bind="2"/>
+			<item item="105001" minnum="3" maxnum="3" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="130900" name="推广礼包" needmoney="0" desc="使用后获得:|气血包（大）*2|龙山楼恩赦令*2|小飞鞋*10|3级闪避增益丹*1|银两*30W|装备洗炼石*3" isuse="1" userrealm="0" userstage="0" vip="0" needbag="6" bind="2">
+		<fixinfo>
+			<item item="100583" minnum="2" maxnum="2" bind="2"/>
+			<item item="107562" minnum="2" maxnum="2" bind="2"/>
+			<item item="107003" minnum="10" maxnum="10" bind="2"/>
+			<item item="100143" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="3" maxnum="3" bind="2"/>
+			<item item="105401" minnum="3" maxnum="3" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="130901" name="领主大礼包" needmoney="0" desc="使用后获得:|气血包（大）*2|护送令*2|小飞鞋*10|3级防御增益丹*1|银两*30W|初级强化石*3" isuse="1" userrealm="0" userstage="0" vip="0" needbag="6" bind="2">
+		<fixinfo>
+			<item item="100583" minnum="2" maxnum="2" bind="2"/>
+			<item item="600018" minnum="2" maxnum="2" bind="2"/>
+			<item item="107003" minnum="10" maxnum="10" bind="2"/>
+			<item item="100123" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="3" maxnum="3" bind="2"/>
+			<item item="105001" minnum="3" maxnum="3" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="10000" name="新手礼包" needmoney="0" desc="使用后获得:|1.4倍经验丹*1|小飞鞋*5|气血包（中）*1|银两*10W|初级强化石*1" isuse="1" userrealm="0" userstage="0" vip="0" needbag="5" bind="2">
+		<fixinfo>
+			<item item="100591" minnum="1" maxnum="1" bind="2"/>
+			<item item="107003" minnum="5" maxnum="5" bind="2"/>
+			<item item="100582" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="1" maxnum="1" bind="2"/>
+			<item item="105001" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="130103" name="界神礼包" needmoney="0" desc="使用后获得:|1.4倍经验丹*1|小飞鞋*5|气血包（中）*1|银两*10W|装备洗炼石*1" isuse="1" userrealm="0" userstage="0" vip="0" needbag="5" bind="2">
+		<fixinfo>
+			<item item="100591" minnum="1" maxnum="1" bind="2"/>
+			<item item="107003" minnum="5" maxnum="5" bind="2"/>
+			<item item="100582" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="1" maxnum="1" bind="2"/>
+			<item item="105401" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="130104" name="龙翔礼包" needmoney="0" desc="使用后获得:|1.4倍经验丹*1|护送令*1|气血包（中）*1|银两*10W|装备洗炼石*1" isuse="1" userrealm="0" userstage="0" vip="0" needbag="5" bind="2">
+		<fixinfo>
+			<item item="100591" minnum="1" maxnum="1" bind="2"/>
+			<item item="600018" minnum="1" maxnum="1" bind="2"/>
+			<item item="100582" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="1" maxnum="1" bind="2"/>
+			<item item="105401" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="130105" name="摘月礼包" needmoney="0" desc="使用后获得:|1.4倍经验丹*1|九转还魂丹*1|气血包（中）*1|银两*10W|装备洗炼石*1" isuse="1" userrealm="0" userstage="0" vip="0" needbag="5" bind="2">
+		<fixinfo>
+			<item item="100591" minnum="1" maxnum="1" bind="2"/>
+			<item item="600010" minnum="1" maxnum="1" bind="2"/>
+			<item item="100582" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="1" maxnum="1" bind="2"/>
+			<item item="105401" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+   <giftsitem id="130106" name="尊者礼包" needmoney="0" desc="使用后获得:|1.6倍经验丹*1|九转还魂丹*1|气血包（中）*1|银两*20W|装备洗炼石*2" isuse="1" userrealm="0" userstage="0" vip="0" needbag="5" bind="2">
+		<fixinfo>
+			<item item="100592" minnum="1" maxnum="1" bind="2"/>
+			<item item="600010" minnum="1" maxnum="1" bind="2"/>
+			<item item="100582" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="2" maxnum="2" bind="2"/>
+			<item item="105401" minnum="2" maxnum="2" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="130107" name="玄冥礼包" needmoney="0" desc="使用后获得:|1.6倍经验丹*1|小飞鞋*10|气血包（中）*1|银两*20W|装备洗炼石*2" isuse="1" userrealm="0" userstage="0" vip="0" needbag="5" bind="2">
+		<fixinfo>
+			<item item="100592" minnum="1" maxnum="1" bind="2"/>
+			<item item="107003" minnum="10" maxnum="10" bind="2"/>
+			<item item="100582" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="2" maxnum="2" bind="2"/>
+			<item item="105401" minnum="2" maxnum="2" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="130108" name="薪火礼包" needmoney="0" desc="使用后获得:|1.6倍经验丹*1|护送令*1|气血包（中）*1|银两*20W|装备洗炼石*2" isuse="1" userrealm="0" userstage="0" vip="0" needbag="5" bind="2">
+		<fixinfo>
+			<item item="100592" minnum="1" maxnum="1" bind="2"/>
+			<item item="600018" minnum="1" maxnum="1" bind="2"/>
+			<item item="100582" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="2" maxnum="2" bind="2"/>
+			<item item="105401" minnum="2" maxnum="2" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+    <giftsitem id="130109" name="半神礼包" needmoney="0" desc="使用后获得:|1.8倍经验丹*1|九转还魂丹*2|小飞鞋*10|3级血量增益丹*1|银两*30W|装备洗炼石*2" isuse="1" userrealm="0" userstage="0" vip="0" needbag="6" bind="2">
+		<fixinfo>
+			<item item="100593" minnum="1" maxnum="1" bind="2"/>
+			<item item="600010" minnum="2" maxnum="2" bind="2"/>
+			<item item="107003" minnum="10" maxnum="10" bind="2"/>
+			<item item="100103" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="3" maxnum="3" bind="2"/>
+			<item item="105401" minnum="2" maxnum="2" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="130110" name="虎跃礼包" needmoney="0" desc="使用后获得:|1.8倍经验丹*1|护送令*2|1.4倍经验丹*1|3级暴击增益丹*1|银两*30W|装备洗炼石*2" isuse="1" userrealm="0" userstage="0" vip="0" needbag="6" bind="2">
+		<fixinfo>
+			<item item="100593" minnum="1" maxnum="1" bind="2"/>
+			<item item="600018" minnum="2" maxnum="2" bind="2"/>
+			<item item="100591" minnum="1" maxnum="1" bind="2"/>
+			<item item="100153" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="3" maxnum="3" bind="2"/>
+			<item item="105401" minnum="2" maxnum="2" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="130111" name="至尊大礼包" needmoney="0" desc="使用后获得:|1.8倍经验丹*1|龙山楼恩赦令*1|1.4倍经验丹*1|3级攻击增益丹*1|银两*30W|装备洗炼石*2" isuse="1" userrealm="0" userstage="0" vip="0" needbag="6" bind="2">
+		<fixinfo>
+			<item item="100593" minnum="1" maxnum="1" bind="2"/>
+			<item item="107562" minnum="1" maxnum="1" bind="2"/>
+			<item item="100591" minnum="1" maxnum="1" bind="2"/>
+			<item item="100113" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="3" maxnum="3" bind="2"/>
+			<item item="105401" minnum="2" maxnum="2" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+   <giftsitem id="130112" name="神殿礼包" needmoney="0" desc="使用后获得:|气血包（大）*1|九转还魂丹*2|1.4倍经验丹*2|3级血量增益丹*1|银两*40W|初级强化石*4" isuse="1" userrealm="0" userstage="0" vip="0" needbag="6" bind="2">
+		<fixinfo>
+			<item item="100583" minnum="1" maxnum="1" bind="2"/>
+			<item item="600010" minnum="2" maxnum="2" bind="2"/>
+			<item item="100591" minnum="2" maxnum="2" bind="2"/>
+			<item item="100103" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="4" maxnum="4" bind="2"/>
+			<item item="105001" minnum="4" maxnum="4" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="130113" name="凡尘礼包" needmoney="0" desc="使用后获得:|气血包（大）*1|护送令*2|1.4倍经验丹*2|3级暴击增益丹*1|银两*40W|初级强化石*4" isuse="1" userrealm="0" userstage="0" vip="0" needbag="6" bind="2">
+		<fixinfo>
+			<item item="100583" minnum="1" maxnum="1" bind="2"/>
+			<item item="600018" minnum="2" maxnum="2" bind="2"/>
+			<item item="100591" minnum="2" maxnum="2" bind="2"/>
+			<item item="100153" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="4" maxnum="4" bind="2"/>
+			<item item="105001" minnum="4" maxnum="4" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="130114" name="神山礼包" needmoney="0" desc="使用后获得:|气血包（大）*1|龙山楼恩赦令*1|1.4倍经验丹*2|3级攻击增益丹*1|银两*40W|初级强化石*4" isuse="1" userrealm="0" userstage="0" vip="0" needbag="6" bind="2">
+		<fixinfo>
+			<item item="100583" minnum="1" maxnum="1" bind="2"/>
+			<item item="107562" minnum="1" maxnum="1" bind="2"/>
+			<item item="100591" minnum="2" maxnum="2" bind="2"/>
+			<item item="100113" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="4" maxnum="4" bind="2"/>
+			<item item="105001" minnum="4" maxnum="4" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+    <giftsitem id="130115" name="150元礼包1" needmoney="0" desc="使用后获得:|气血包（大）*2|九转还魂丹*2|2倍经验丹*2|4级血量增益丹*1|银两*50W|初级强化石*5" isuse="1" userrealm="0" userstage="0" vip="0" needbag="6" bind="2">
+		<fixinfo>
+			<item item="100583" minnum="2" maxnum="2" bind="2"/>
+			<item item="600010" minnum="2" maxnum="2" bind="2"/>
+			<item item="100594" minnum="2" maxnum="2" bind="2"/>
+			<item item="100104" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="5" maxnum="5" bind="2"/>
+			<item item="105001" minnum="5" maxnum="5" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="130116" name="150元礼包2" needmoney="0" desc="使用后获得:|气血包（大）*2|护送令*2|2倍经验丹*2|4级暴击增益丹*1|银两*50W|初级强化石*5" isuse="1" userrealm="0" userstage="0" vip="0" needbag="6" bind="2">
+		<fixinfo>
+			<item item="100583" minnum="2" maxnum="2" bind="2"/>
+			<item item="600018" minnum="2" maxnum="2" bind="2"/>
+			<item item="100594" minnum="2" maxnum="2" bind="2"/>
+			<item item="100154" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="5" maxnum="5" bind="2"/>
+			<item item="105001" minnum="5" maxnum="5" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="130117" name="150元礼包3" needmoney="0" desc="使用后获得:|气血包（大）*2|龙山楼恩赦令*1|2倍经验丹*2|4级攻击增益丹*1|银两*50W|初级强化石*5" isuse="1" userrealm="0" userstage="0" vip="0" needbag="6" bind="2">
+		<fixinfo>
+			<item item="100583" minnum="2" maxnum="2" bind="2"/>
+			<item item="107562" minnum="1" maxnum="1" bind="2"/>
+			<item item="100594" minnum="2" maxnum="2" bind="2"/>
+			<item item="100114" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="5" maxnum="5" bind="2"/>
+			<item item="105001" minnum="5" maxnum="5" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+    <giftsitem id="130118" name="主宰礼包" needmoney="0" desc="使用后获得:|气血包（大）*2|九转还魂丹*2|2倍经验丹*2|5级血量增益丹*1|银两*50W|初级强化石*5" isuse="1" userrealm="0" userstage="0" vip="0" needbag="6" bind="2">
+		<fixinfo>
+			<item item="100583" minnum="2" maxnum="2" bind="2"/>
+			<item item="600010" minnum="2" maxnum="2" bind="2"/>
+			<item item="100594" minnum="2" maxnum="2" bind="2"/>
+			<item item="100105" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="5" maxnum="5" bind="2"/>
+			<item item="105001" minnum="5" maxnum="5" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="130119" name="200元礼包2" needmoney="0" desc="使用后获得:|气血包（大）*2|护送令*2|2倍经验丹*2|5级暴击增益丹*1|银两*50W|初级强化石*5" isuse="1" userrealm="0" userstage="0" vip="0" needbag="6" bind="2">
+		<fixinfo>
+			<item item="100583" minnum="2" maxnum="2" bind="2"/>
+			<item item="600018" minnum="2" maxnum="2" bind="2"/>
+			<item item="100594" minnum="2" maxnum="2" bind="2"/>
+			<item item="100155" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="5" maxnum="5" bind="2"/>
+			<item item="105001" minnum="5" maxnum="5" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="130120" name="200元礼包3" needmoney="0" desc="使用后获得:|气血包（大）*2|龙山楼恩赦令*1|2倍经验丹*2|5级攻击增益丹*1|银两*50W|初级强化石*5" isuse="1" userrealm="0" userstage="0" vip="0" needbag="6" bind="2">
+		<fixinfo>
+			<item item="100583" minnum="2" maxnum="2" bind="2"/>
+			<item item="107562" minnum="1" maxnum="1" bind="2"/>
+			<item item="100594" minnum="2" maxnum="2" bind="2"/>
+			<item item="100115" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="5" maxnum="5" bind="2"/>
+			<item item="105001" minnum="5" maxnum="5" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="130130" name="道观礼包" needmoney="0" desc="使用后获得:|气血包（大）*1|护送令*2|1.6倍经验丹*1|3级防御增益丹*1|银两*40W|初级强化石*4" isuse="1" userrealm="0" userstage="0" vip="0" needbag="6" bind="2">
+		<fixinfo>
+			<item item="100583" minnum="1" maxnum="1" bind="2"/>
+			<item item="600018" minnum="2" maxnum="2" bind="2"/>
+			<item item="100592" minnum="1" maxnum="1" bind="2"/>
+			<item item="100123" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="4" maxnum="4" bind="2"/>
+			<item item="105001" minnum="4" maxnum="4" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="130131" name="军团礼包" needmoney="0" desc="使用后获得:|1.6倍经验丹*1|3级血量增益丹*1|气血包（中）*1|银两*20W|装备洗炼石*2" isuse="1" userrealm="0" userstage="0" vip="0" needbag="5" bind="2">
+		<fixinfo>
+			<item item="100592" minnum="1" maxnum="1" bind="2"/>
+			<item item="100103" minnum="1" maxnum="1" bind="2"/>
+			<item item="100582" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="2" maxnum="2" bind="2"/>
+			<item item="105401" minnum="2" maxnum="2" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="130132" name="神廷礼包" needmoney="0" desc="使用后获得:|1.8倍经验丹*1|小飞鞋*10|3级攻击增益丹*1|银两*20W|装备洗炼石*2" isuse="1" userrealm="0" userstage="0" vip="0" needbag="5" bind="2">
+		<fixinfo>
+			<item item="100593" minnum="1" maxnum="1" bind="2"/>
+			<item item="107003" minnum="10" maxnum="10" bind="2"/>
+			<item item="100113" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="2" maxnum="2" bind="2"/>
+			<item item="105401" minnum="2" maxnum="2" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="130133" name="真神礼包" needmoney="0" desc="使用后获得:|1.2倍经验丹*1|小飞鞋*5|气血包（中）*1|银两*10W|装备洗炼石*1" isuse="1" userrealm="0" userstage="0" vip="0" needbag="5" bind="2">
+		<fixinfo>
+			<item item="100590" minnum="1" maxnum="1" bind="2"/>
+			<item item="107003" minnum="5" maxnum="5" bind="2"/>
+			<item item="100582" minnum="1" maxnum="1" bind="2"/>
+			<item item="108303" minnum="1" maxnum="1" bind="2"/>
+			<item item="105401" minnum="1" maxnum="1" bind="2"/>
+		</fixinfo>
+	</giftsitem>
+	<giftsitem id="109101" name="随机5级增益药水包" needmoney="0" desc="使用后获得随机获得一种5级增益药水" isuse="1" userrealm="0" userstage="0" vip="0" needbag="1" bind="2">
+		<randominfo roll="1" isrepeat="1">
+			<item item="100105" minnum="1" maxnum="1" weight="3" bind="2"/>
+			<item item="100115" minnum="1" maxnum="1" weight="3" bind="2"/>
+			<item item="100125" minnum="1" maxnum="1" weight="3" bind="2"/>
+			<item item="100135" minnum="1" maxnum="1" weight="3" bind="2"/>
+			<item item="100145" minnum="1" maxnum="1" weight="3" bind="2"/>
+			<item item="100155" minnum="1" maxnum="1" weight="3" bind="2"/>
+			<item item="100165" minnum="1" maxnum="1" weight="3" bind="2"/>
+		</randominfo>
+	</giftsitem>
+</config>

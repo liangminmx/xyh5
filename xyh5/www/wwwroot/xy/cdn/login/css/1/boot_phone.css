@@ -1,0 +1,295 @@
+<style type="text/css">
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: top center;
+}
+#bootserviceid span {
+	color: #f6e636;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+.boottagent1 {
+	background-image: url(../img/btn_063.png);
+}
+
+.bootxuanqu table {
+	font-size: 3.5vw;
+    background-size: 100% 100%;
+    background-image: url(../img/bg_d09.png);
+    width: 54%;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 46vh;
+    text-align: left;
+    margin: 0px auto;
+    height: 4.5vw;
+    white-space: nowrap;
+}
+.boothand .bootwenzhi {
+	top: 2vw;
+    position: absolute;
+    right: 30vw;
+    width: 30vw;
+}
+.boothand .bootbeijin {
+	width: 100%;
+	height: 6vh;
+}
+#bootChoice {
+	color: #35ea35;
+	text-decoration: underline;
+	text-align: right;
+	padding-right: 3vw;
+}
+#bootserviceid #bootqu1 {
+	margin-left: 2vw;
+}
+ .bootlogo {
+	width: 69vw;
+	position: relative;
+	top: 23vh;
+    right: -10%;
+}
+#bootgongao {
+	float: right;
+	padding-top: 5%;
+	padding-bottom: 0px;
+	padding-right: 2vw;
+	top: 1vh;
+	position: relative;
+	width: 15vw;
+	visibility: hidden;
+}
+.bootdenglu {
+    height: 111px;
+    position: relative;
+    top: 49vh;
+    
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.boothand {
+	background-image: url(../img/bg_028.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #2C2024;
+	position: relative;
+	width: 100%;
+}
+ 
+.bootdenglu img {
+    width: 50vw;
+}
+ 
+.bootbody {
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	background-image: url(../img/bg_009.jpg);
+	background-repeat: no-repeat;
+	background-size:100% auto;
+	background-position: center;
+	position: absolute;
+	font-family: "黑体";
+}
+ 
+.bootbody .bootqufu {
+	height: 100%;
+	background-size:100% 100%;
+	background-image: url(../img/bg_029.jpg);
+	display: none;
+}
+#bootfanhui {
+	position: fixed;
+    left: 80%;
+    bottom: 7vw;
+    width: 12.3vw;
+}
+ 
+ #boottime {
+    float: right;
+    margin-right: 3vw;
+}
+ 
+.bootservers li {
+	background-color: #000000;
+	color: #b19c79;
+	list-style-type: none;
+	background-repeat: no-repeat;
+	height: 9vw;
+	background-image: url(../img/btn_065(1).png);
+	background-position: center;
+	background-size:100% 100%;
+	background-image: url(../img/btn_066.png);
+	font-size: 4vw;
+	margin-bottom: 4%;
+	margin-right: 5%;
+	margin-left: 5%;
+	text-align: left;
+	padding-left: 2%;
+	line-height: 8vw;
+}
+.bootservers span {
+	margin-bottom: 2%;
+	vertical-align: top;
+}
+ 
+.bootplatform {
+    width: 35%;
+    height: 90vh;
+    float: left;
+    text-align:center;
+    padding-top: 5.5vw;
+}
+ 
+ 
+.bootarea {
+    float: left;
+    height: 90vh;
+    width: 65%;
+    padding-top: 5.5vw;
+}
+ 
+.bootbody .bootqufu .bootplatform .bootagent {
+    text-align: center;
+    list-style-type: disc;
+    color: #999999;
+}
+ 
+.bootbody .bootxuanqu {
+	width: 100%;
+	height: 100%
+}
+ 
+
+.bootserviceid img {
+	margin-top: 1%;
+	text-align: left;
+}
+ 
+.bootplatform .bootagent li {
+	list-style-type: none;
+	background-image: url(../img/btn_062.png);
+	height: 11vw;
+	background-repeat: no-repeat;
+	position: relative;
+	padding-top: 3%;
+	 background-size: 114% 100%;
+}
+ .bootplatform .bootagent span {
+	position: absolute;
+    top: 24%;
+    left: 20%;
+    font-size: 4vw;
+    color: #96672F;
+}
+.bootplatform .bootagent bootqufu1 {
+	vertical-align: middle;
+		
+}
+.box {
+    position: 固定;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: #000000;
+    background-position: 0;
+}
+
+ 
+.box1 {
+    width: 500px;
+    height: 500px;
+    position: fixed;
+    left: 50%;
+    top: 25%;
+    margin-left: -250px;
+    border: 1px solid #663300;
+    background-color: #000000;
+    text-align: left;
+}
+ 
+ 
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+}
+ 
+#body {
+    width: 100%;
+    height: 100%;
+    background: #333333;
+    position: relative;
+}
+ 
+#boot-box {
+    width: 19.12rem;
+    height: 11.61rem;
+    background-image: url(../img/dlxz_01.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 26rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: none;
+}
+ 
+.boot-iconarr {
+    display: flex;
+    justify-content: space-between;
+    width: 16.12rem;
+    margin: 4.2rem 1.1rem 0;
+}
+ 
+.boot-icon {
+    width: 3.73rem;
+    height: 3.73rem;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+ 
+.boot-icon1 {
+    background-image: url(../img/dlxz_02.png);
+}
+ 
+.boot-icon2 {
+    background-image: url(../img/dlxz_03.png);
+}
+ 
+.boot-icon3 {
+    background-image: url(../img/dlxz_04.png);
+}
+ 
+.boot-icon4 {
+    background-image: url(../img/dlxz_05.png);
+}
+.bootservers img {
+	vertical-align: top;
+	width: 6.3vw;
+	margin-top: 0.5vw;
+}
+.bootservers .bootqizhi {
+	float: right;
+    margin-top: -2%;
+    width: 8vw;
+}
+#bootserviceid img {
+	width:4.5vw;
+	margin-left: 1%;
+}
+#bootserviceid .bootqu1 {
+	vertical-align: middle;
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!--
+openlv	开放等级
+srcid	平台提供的srcid
+appid	平台提供的appid
+	
+item	每日登陆礼包道具id
+num	每日登陆礼包道具数量
+bind	绑定状态=0可交易，=1绑定
+
+
+-->
+	<open openlv="1" srcid="30005" appid="1104332786"/>
+	<daygift>
+		<gift item="100591" num="3" bind="1"/>
+		<gift item="108303" num="6" bind="1"/>
+		<gift item="108503" num="4" bind="1"/>
+		<gift item="100582" num="3" bind="1"/>
+		<gift item="108705" num="2" bind="1"/>
+	</daygift>
+	<firstgift>
+		<gift item="100599" num="1" bind="1"/>
+		<gift item="600018" num="5" bind="1"/>
+		<gift item="100001" num="1" bind="1"/>
+		<gift item="108306" num="5" bind="1"/>
+		<gift item="100001" num="1" bind="1"/>
+	</firstgift>
+</root>

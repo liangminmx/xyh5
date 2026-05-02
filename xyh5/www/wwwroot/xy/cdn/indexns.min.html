@@ -1,0 +1,462 @@
+<html>
+<head>
+	<meta charset='utf-8'/>
+	<title>大圣飞升H5</title>
+	<meta name='viewport' content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no'/>
+	<meta name='apple-mobile-web-app-capable' content='yes' />
+	<meta name='full-screen' content='true' />
+	<meta name='screen-orientation' content='portrait' />
+	<meta name='x5-fullscreen' content='true' />
+	<meta name='360-fullscreen' content='true' />
+	<meta http-equiv="Expires" content="0">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Cache-control" content="no-cache">
+	<meta http-equiv="Cache" content="no-cache">
+	<meta name='laya' logoimg='logo.png' logobkcolor='#ffffff' screenorientation='landscape' cacheid='fffffffff' />
+	<link rel="stylesheet" type="text/css" href="preload.css?v=201902261759"/>
+	<script type="text/javascript" src="http://cdn.djsh5.com/js/gank.sdk.http.js"></script>
+</head>
+<body style='margin:0;overflow:none;overflow-x:hidden;overflow-y:hidden;background-color: #000;'>
+</body>
+<div id='bg' style="position: absolute; z-index: 2;"><img id="img_bg" src='comp/loading/bg.jpg?v=20180813.01' width=100% height=100% style='position:absolute;'/></div>
+<script type='text/javascript'>
+	function useDebugSDK(){
+		return true;
+	}
+	
+	function getPF(){
+		return "DJS_MIX";
+	}
+
+	function getPFID(){
+		return "7";
+	}
+	
+	function getLogEnabled(){
+		return false;
+	}
+
+	function isOpenHWTCompress(){
+		return false;
+	}
+	
+	function IS_SSL(){
+		return true;
+	}
+	
+	function getLang(){
+		return "ar";
+	}
+	
+	function getPreloadVersion(){
+		var version = {};
+		version["comp/loading/logo.png"] = 20180813.01;
+		version["comp/loading/bg.jpg"] = 20180813.01;
+		version["res/avatar/sound/bgm.mp3"] = 20181112.1146;
+		return version;
+	}
+	
+	function getAPIUrl(){
+		return "";
+	}
+	
+	function getNoticeUrl(){
+		return "";
+	}
+	
+	function getCDN(){
+		return "https://xyjdjshf-update.gankh5.com/mix/";
+	}
+	
+	var deviceId = "";
+	function getDeviceId()
+	{
+		if (null != GetQueryString("uid")) {
+			deviceId = GetQueryString("uid");
+		}
+
+		return deviceId;
+	}
+
+	function setDeviceId(_deviceId)
+	{
+		deviceId = _deviceId;
+	}
+	
+	function isDisconnectReload()
+	{
+		return 1 == GetQueryString("disconnect_reload");
+	}
+
+	function GetQueryString(name)
+	{
+	     var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+	     var r = window.location.search.substr(1).match(reg);
+	     if(r!=null)return  unescape(r[2]); return null;
+	}
+	
+	function getLogUrl()
+	{
+		var logUrl = "http://api.gjxyj.app.xy.com/kingapi/param.php"
+		return logUrl;
+	}
+	
+	var u = navigator.userAgent;
+	function isAndroid(){
+		return u.indexOf('Android') > -1 || u.indexOf('Adr') > -1;
+	}
+	
+	function isIOS(){
+		return !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
+	}
+	
+	function isPC() {
+	    var userAgentInfo = navigator.userAgent;
+	    var Agents = ["Android", "iPhone",
+	        "SymbianOS", "Windows Phone",
+	        "iPad", "iPod"];
+	    var flag = true;
+	    for (var v = 0; v < Agents.length; v++) {
+	        if (userAgentInfo.indexOf(Agents[v]) > 0) {
+	            flag = false;
+	            break;
+	        }
+	    }
+	    return flag;
+	}
+
+	var orient = 'vertical';
+	var supportOrientation = (typeof window.orientation === 'number' && typeof window.onorientationchange === 'object');
+
+	var updateOrientation = function() {
+		if (supportOrientation) {
+			switch(window.orientation) {
+			case 90:
+			case -90:
+				orient = 'horizontal';
+				break;
+			default:
+				orient = 'vertical';
+				break;
+			}
+		} else {
+			orient = (window.innerWidth > window.innerHeight) ? 'horizontal' : 'vertical';
+		}
+
+		if (window.sceneChangeRemind) {
+			window.sceneChangeRemind(orient);
+		}
+	};
+
+	window.onresize = function()
+	{
+		if (!supportOrientation) {
+			updateOrientation();
+		}
+		layout();
+	}
+
+	function sendLog(type, strParam, intParam)
+	{
+		console.log(strParam);
+		return;
+		if (false == getLogEnabled()) {
+			return;
+		}
+
+		var xmlHttp = new XMLHttpRequest(); 
+
+		var logUrl = getLogUrl();
+		logUrl += "?uid=" + getDeviceId();
+		logUrl += "&type=" + type;
+		if (intParam) {
+			logUrl += "&intParam3=" + intParam;
+		}
+
+		logUrl += "&strParam1=" + getPF();
+		if (strParam) {
+			logUrl += "&strParam2=" + strParam;
+		}
+
+		xmlHttp.open("GET", logUrl, true);
+		xmlHttp.send(null);
+	}
+
+	function reportDJS_Login(who, deviceid, appid, serverid, level, channelid, subchid)
+	{
+		var xmlHttp = new XMLHttpRequest(); 
+		xmlHttp.open("POST", "https://log.gank-studio.com/receive/login", true);
+
+		var data = new FormData();
+		data.append("who", who);
+		data.append("deviceid", deviceid);
+		data.append("appid", appid);
+		data.append("serverid", serverid);
+		data.append("level", level);
+		if (null != GetQueryString("channel")) {
+			data.append("channelid", GetQueryString("channel"));
+		}
+		else {
+			data.append("channelid", channelid);
+		}
+		//data.append("subchid", subchid);
+
+		xmlHttp.send(data);
+	}
+
+	function reportDJS_Register(who, deviceid, appid, serverid, level, channelid, subchid)
+	{
+		var xmlHttp = new XMLHttpRequest(); 
+		xmlHttp.open("POST", "https://log.gank-studio.com/receive/register", true);
+
+		var data = new FormData();
+		data.append("who", who);
+		data.append("deviceid", deviceid);
+		data.append("appid", appid);
+		data.append("serverid", serverid);
+		data.append("level", level);
+		if (null != GetQueryString("channel")) {
+			data.append("channelid", GetQueryString("channel"));
+		}
+		else {
+			data.append("channelid", channelid);
+		}
+		//data.append("subchid", subchid);
+
+		xmlHttp.send(data);
+	}
+
+	function reportDJS_Payment(who, deviceid, appid, serverid, level, transactionid, wid, currencyamount, virtualcoinamount, channelid, subchid)
+	{
+		var xmlHttp = new XMLHttpRequest(); 
+		xmlHttp.open("POST", "https://log.gank-studio.com/receive/payment", true);
+
+		var data = new FormData();
+		data.append("who", who);
+		data.append("deviceid", deviceid);
+		data.append("appid", appid);
+		data.append("serverid", serverid);
+		data.append("level", level);
+		data.append("transactionid", transactionid);
+		data.append("wid", wid);
+		data.append("currencyamount", currencyamount);
+		data.append("virtualcoinamount", virtualcoinamount);
+		if (null != GetQueryString("channel")) {
+			data.append("channelid", GetQueryString("channel"));
+		}
+		else {
+			data.append("channelid", channelid);
+		}
+		//data.append("subchid", subchid);
+
+		xmlHttp.send(data);
+	}
+
+	function reportDJS_Point(who, deviceid, appid, serverid, level, channelid, subchid, type, power)
+	{
+		var xmlHttp = new XMLHttpRequest(); 
+		xmlHttp.open("POST", "https://log.gank-studio.com/receive/point", true);
+
+		var data = new FormData();
+		data.append("who", who);
+		data.append("deviceid", deviceid);
+		data.append("appid", appid);
+		data.append("serverid", serverid);
+		data.append("level", level);
+		if (null != GetQueryString("channel")) {
+			data.append("channelid", GetQueryString("channel"));
+		}
+		else {
+			data.append("channelid", channelid);
+		}
+		//data.append("subchid", subchid);
+		data.append("type", type);
+		data.append("power", power);
+
+		xmlHttp.send(data);
+	}
+	
+	function layout()
+	{
+		var divLoadW = 750;
+		var divLoadH = 1334;
+		var w, h;
+     	if (!!(window.attachEvent && !window.opera))
+     	{
+     		h = document.documentElement.clientHeight;
+     		w = document.documentElement.clientWidth;
+     	}
+     	else
+     	{
+     		h = window.innerHeight;
+     		w = window.innerWidth;
+     	}
+
+     	var bgImg = document.getElementById('img_bg');
+     	bgImg.width = divLoadW;
+     	bgImg.height = divLoadH;
+		
+		var rotate = w / h >= 1;
+		if (isPC())
+		{
+			rotate = false;
+		}
+		
+		var scale;
+		var centerX = (w - divLoadW) / 2;
+		var centerY = (h - divLoadH) / 2;
+		if(rotate)
+		{
+			var swap = h;
+			h = w;
+			w = swap;
+		}
+		
+		layoutTopDown(w, h, divLoadW, divLoadH);
+		
+		var divTopDown = document.getElementById('div_topdown');
+		if(divTopDown)
+		{
+			if(rotate)
+			{
+				setTransform(divTopDown, "matrix("+0+",-"+1+","+1+","+0+","+((h - w) / 2)+","+((w - h) / 2)+")");
+			}
+			else
+			{
+				setTransform(divTopDown, "matrix("+1+",0,0,"+1+","+0+","+0+")");
+			}
+		}
+		
+		if(h / w >= divLoadH / divLoadW)
+		{
+			scale = w / divLoadW;
+		}
+		else
+		{
+			scale = h / divLoadH;
+		}
+		
+		var divLoad = document.getElementById('div_load');
+		if(divLoad)
+		{
+			if(rotate)
+			{
+				setTransform(divLoad, "matrix("+0+",-"+scale+","+scale+","+0+","+centerX+","+centerY+")");
+			}
+			else
+			{
+				setTransform(divLoad, "matrix("+scale+",0,0,"+scale+","+((w - divLoadW) / 2)+","+((h - divLoadH) / 2)+")");
+			}
+		}
+		
+		var divCS = document.getElementById('div_cs');
+		if(divCS)
+		{
+			if(rotate)
+			{
+				setTransform(divCS, "matrix("+0+",-"+scale+","+scale+","+0+","+centerX+","+centerY+")");
+			}
+			else
+			{
+				setTransform(divCS, "matrix("+scale+",0,0,"+scale+","+((w - divLoadW) / 2)+","+((h - divLoadH) / 2)+")");
+			}
+		}
+		
+		if(rotate)
+		{
+			setTransform(bgImg, "matrix("+0+",-"+scale+","+scale+","+0+","+centerX+","+centerY+")");
+		}
+		else
+		{
+			setTransform(bgImg, "matrix("+scale+",0,0,"+scale+","+((w - divLoadW) / 2)+","+((h - divLoadH) / 2)+")");
+		}
+
+		var qrcodeDiv = document.getElementById("qrcode_panel");
+    	if(qrcodeDiv){
+            if(rotate)
+            {
+                setTransform(qrcodeDiv, "matrix("+0+",-"+scale+","+scale+","+0+","+centerX+","+centerY+")");
+            }
+            else
+            {
+                setTransform(qrcodeDiv, "matrix("+scale+",0,0,"+scale+","+((w - divLoadW) / 2)+","+((h - divLoadH) / 2)+")");
+            }
+        }
+	}
+	
+	function layoutTopDown(divTopDownW, divTopDownH, gameW, gameH)
+	{	
+		var divTopDown = document.getElementById('div_topdown');
+		if(!divTopDown)
+		{
+			return;
+		}
+		divTopDown.style.cssText='width: ' + divTopDownW + 'px;height: ' + divTopDownH + 'px;z-index: -3;position: absolute;top: 0;pointer-events: none;background: url(comp/common/main_bg_3.png?v=20190514.01);background-size:cover;';
+		
+		var top = document.getElementById('topEdge');
+		top.style.cssText='width: ' + divTopDownW + 'px;height: 200px;position: absolute;top: 0px;background: url(comp/loading/topdown.png?v=20181228.01) no-repeat;';
+		var down = document.getElementById('downEdge');
+		down.style.cssText='width: ' + divTopDownW + 'px;height: 200px;position: absolute;bottom: 0px;background: url(comp/loading/topdown.png?v=20181228.01) no-repeat;';
+		
+		if(divTopDownW / divTopDownH > gameW / gameH)
+		{
+			top.style.display = "none";
+			down.style.display = "none";
+		}
+		else
+		{
+			top.style.display = "block";
+			down.style.display = "block";
+		}
+	}
+	
+	function setTransform(target, code)
+	{
+		target.style.transform=
+		target.style["-ms-transform"]=/* IE 9 */
+		target.style["-moz-transform"]=/* Firefox */
+		target.style["-webkit-transform"]=/* Safari 和 Chrome */
+		target.style["-o-transform"]=code;/* Opera */
+	}
+
+	function onError(msg,url,line,column,detail){
+		return;
+		if (detail) {
+			alert("出错啦，请把此信息截图给研发商\n"+msg+"\n"+detail.stack);
+			
+			var logUrl = getLogUrl();
+			
+			var logStr = msg + ",stack--" + detail.stack;
+			logUrl += "?uid=" + getDeviceId() + "&type=error_log&strParam1=" + getPF() + "&strParam2=" + logStr;
+			console.log(logStr);
+			if (false == getLogEnabled()) {
+				return;
+			}
+			var xmlHttp = new XMLHttpRequest();
+			xmlHttp.open("GET", logUrl, true);
+			xmlHttp.send(null);
+		}
+	}
+
+	window.onload = function()
+	{
+		reportDJS_Point("point", 0, 0, "u0Lv58TTBLvND", 0, 0, 0, 0, "arrive", 0);
+		sendLog("login_log", "window.onload");
+
+		//alert("window.onerror = onError");
+		window.onerror = onError;
+
+		//alert("layout()");
+		layout();
+
+		sendLog("login_log", "layout");
+		
+		var body = document.getElementsByTagName("body")[0];
+		var script = document.createElement("script");
+		script.setAttribute("src", "preload.js?v=" + Math.random());
+		//script.src = "preload.js?v=" + Math.random();
+		body.appendChild(script);
+	}
+	
+</script>
+</html>

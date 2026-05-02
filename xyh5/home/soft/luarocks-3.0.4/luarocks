@@ -1,0 +1,3 @@
+#!/bin/sh
+unset LUA_PATH LUA_PATH_5_2 LUA_PATH_5_3 LUA_PATH_5_4
+LUAROCKS_SYSCONFDIR="/usr/local/etc/luarocks" LUA_PATH="/home/soft/luarocks-3.0.4/src/?.lua;;" exec "/usr/local/bin/luajit" "/home/soft/luarocks-3.0.4/src/bin/luarocks" --project-tree="/home/soft/luarocks-3.0.4/lua_modules" "$@"

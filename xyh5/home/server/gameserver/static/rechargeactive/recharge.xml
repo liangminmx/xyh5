@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  servernum	是否合服 
+=0为新服，=1为首次合服，=2为二次合服……
+=-1,表示当未找到对应的合服次数时，使用-1下的配置
+isopen	表示活动是否需要开启
+=0不开启，=1开启
+maxcount	最高领取次数。
+hold	首充活动是否循环开启（=1 是 =0否）
+count	领取次数
+tipsicon  tips模型，鼠标移到图标上的tips的模型地址
+未配置则无tips图片
+格式为“0，特效id；1，特效id”0表示骑士，1表示法师 
+type	首充活动为循环开启时，该次的奖励是否循环，=1循环，=0不循环
+image1	tips中左侧文字图片
+image2	tips中下侧文字图片
+recharge_contentpic	内容图片
+content_position	内容图片偏移量，“X,Y”
+left_showreward	左边展示位的奖励id，格式为“0，特效id；1，特效id”0表示骑士，1表示法师
+left_showpic	左边显示的图片资源
+left_position	左边位置偏移量，“X,Y”
+right_showreward	右边展示位的奖励id，格式为“0，特效id；1，特效id”0表示骑士，1表示法师
+right_showpic	右边显示的图片资源
+right_position	右边位置偏移量，“X,Y”
+rewardid	奖励标识id
+tag_type	标签类型
+=1无
+=2稀有
+=3极品
+=4 至尊
+itemid	道具
+itemnum	道具数量
+bind	是否绑定，=1绑定，=0不绑定
+
+特效路径：local\dev\client\output\resource\effect 
+10087 充值按钮特效
+10086 文字闪亮特效
+10090 左边剑的闪光特效
+10089 左边剑下面的光圈特效
+左边剑体模型 也在这个文件夹下
+
+文字图片地址：local\dev\client\output\uiRes\xueyingRes\modules\todayRecharge\title -->
+<root>
+	<functionid functionid="204"/>
+	<server servernum="-1" isopen="1">
+		<recharge maxcount="8" hold="1">
+				<rechargeinfo count="1" tipsicon="0,3003300;1,3003301" image1="shenbingzi" image2="shenbingzhan" recharge_contentpic="1" content_position="39,0" left_showreward="1" left_showpic="0,3003300;1,3003301" left_position="13,0" right_showreward="1" right_showpic="0,3003300;1,3003301" right_position="15,29">
+				<reward rewardid="1" tag_type="4" itemid="255003" itemnum="1" bind="1"/>
+				<reward rewardid="2" tag_type="4" itemid="152009" itemnum="1" bind="1"/>
+				<reward rewardid="3" tag_type="3" itemid="150513" itemnum="1" bind="1"/>
+				<reward rewardid="4" tag_type="1" itemid="105200" itemnum="1" bind="1"/>
+				<reward rewardid="5" tag_type="2" itemid="101001" itemnum="20" bind="1"/>
+				<reward rewardid="6" tag_type="1" itemid="152008" itemnum="10" bind="1"/>
+			</rechargeinfo>
+			<rechargeinfo count="2" image1="" image2="" recharge_contentpic="2" content_position="39,0" left_showreward="1" left_showpic="0,3170249;1,3170249" left_position="13,0" right_showreward="1" right_showpic="0,3003300;1,3003301" right_position="25,39">
+				<reward rewardid="1" tag_type="4" itemid="101932" itemnum="1" bind="1"/>
+				<reward rewardid="2" tag_type="3" itemid="150517" itemnum="1" bind="1"/>
+				<reward rewardid="3" tag_type="2" itemid="600018" itemnum="2" bind="1"/>
+				<reward rewardid="4" tag_type="2" itemid="101501" itemnum="20" bind="1"/>
+				<reward rewardid="5" tag_type="1" itemid="152008" itemnum="10" bind="1"/>
+				<reward rewardid="6" tag_type="1" itemid="152007" itemnum="5" bind="1"/>
+			</rechargeinfo>
+			<rechargeinfo count="3" image1="" image2="" recharge_contentpic="3" content_position="39,0" left_showreward="1" left_showpic="0,3003416;1,3003416" left_position="13,0" right_showreward="1" right_showpic="0,10073;1,10073" right_position="25,30">
+				<reward rewardid="1" tag_type="4" itemid="200005" itemnum="1" bind="1"/>
+				<reward rewardid="2" tag_type="3" itemid="150509" itemnum="1" bind="1"/>
+				<reward rewardid="3" tag_type="2" itemid="600018" itemnum="2" bind="1"/>
+				<reward rewardid="4" tag_type="2" itemid="900007" itemnum="20" bind="1"/>
+				<reward rewardid="5" tag_type="1" itemid="152008" itemnum="10" bind="1"/>
+				<reward rewardid="6" tag_type="1" itemid="152007" itemnum="5" bind="1"/>
+			</rechargeinfo>
+			<rechargeinfo count="4" image1="" image2="" recharge_contentpic="8" content_position="39,0" left_showreward="1" left_showpic="0,3170171;1,3170171" left_position="13,0" right_showreward="1" right_showpic="0,10073;1,10073" right_position="25,30">
+				<reward rewardid="1" tag_type="4" itemid="103301" itemnum="1" bind="1"/>
+				<reward rewardid="2" tag_type="3" itemid="150537" itemnum="1" bind="1"/>
+				<reward rewardid="3" tag_type="2" itemid="600018" itemnum="2" bind="1"/>
+				<reward rewardid="4" tag_type="2" itemid="103001" itemnum="20" bind="1"/>
+				<reward rewardid="5" tag_type="1" itemid="152008" itemnum="10" bind="1"/>
+				<reward rewardid="6" tag_type="1" itemid="152007" itemnum="5" bind="1"/>
+			</rechargeinfo>
+			<rechargeinfo count="5" image1="" image2="" recharge_contentpic="4" content_position="39,0" left_showreward="1" left_showpic="0,3170248;1,3170248" left_position="13,0" right_showreward="1" right_showpic="0,10073;1,10073" right_position="25,30">
+				<reward rewardid="1" tag_type="4" itemid="190200" itemnum="1" bind="1"/>
+				<reward rewardid="2" tag_type="3" itemid="150521" itemnum="1" bind="1"/>
+				<reward rewardid="3" tag_type="2" itemid="600018" itemnum="2" bind="1"/>
+				<reward rewardid="4" tag_type="2" itemid="900203" itemnum="10" bind="1"/>
+				<reward rewardid="5" tag_type="1" itemid="152008" itemnum="10" bind="1"/>
+				<reward rewardid="6" tag_type="1" itemid="152007" itemnum="5" bind="1"/>
+			</rechargeinfo>
+			<rechargeinfo count="6" image1="" image2="" recharge_contentpic="5" content_position="39,0" left_showreward="1" left_showpic="0,3003415;1,3003415" left_position="13,0" right_showreward="1" right_showpic="0,10073;1,10073" right_position="45,80">
+				<reward rewardid="1" tag_type="4" itemid="105202" itemnum="5" bind="1"/>
+				<reward rewardid="2" tag_type="3" itemid="150525" itemnum="1" bind="1"/>
+				<reward rewardid="3" tag_type="2" itemid="600018" itemnum="2" bind="1"/>
+				<reward rewardid="4" tag_type="2" itemid="105001" itemnum="20" bind="1"/>
+				<reward rewardid="5" tag_type="1" itemid="152008" itemnum="10" bind="1"/>
+				<reward rewardid="6" tag_type="1" itemid="152007" itemnum="5" bind="1"/>
+			</rechargeinfo>
+			<rechargeinfo count="7" image1="" image2="" recharge_contentpic="6" content_position="39,0" left_showreward="1" left_showpic="0,3003414;1,3003414" left_position="13,0" right_showreward="1" right_showpic="0,10073;1,10073" right_position="45,80">
+				<reward rewardid="1" tag_type="4" itemid="600080" itemnum="2" bind="1"/>
+				<reward rewardid="2" tag_type="3" itemid="150529" itemnum="1" bind="1"/>
+				<reward rewardid="3" tag_type="2" itemid="600018" itemnum="2" bind="1"/>
+				<reward rewardid="4" tag_type="2" itemid="190002" itemnum="1" bind="1"/>
+				<reward rewardid="5" tag_type="1" itemid="152008" itemnum="10" bind="1"/>
+				<reward rewardid="6" tag_type="1" itemid="152007" itemnum="5" bind="1"/>
+			</rechargeinfo>
+			<rechargeinfo count="8" image1="" image2="" recharge_contentpic="9" content_position="39,0" left_showreward="1" left_showpic="0,3170252;1,3170252" left_position="13,0" right_showreward="1" right_showpic="0,10073;1,10073" right_position="45,80">
+				<reward rewardid="1" tag_type="4" itemid="600019" itemnum="10" bind="1"/>
+				<reward rewardid="2" tag_type="3" itemid="600070" itemnum="2" bind="1"/>
+				<reward rewardid="3" tag_type="2" itemid="190101" itemnum="5" bind="1"/>
+				<reward rewardid="4" tag_type="2" itemid="600018" itemnum="2" bind="1"/>
+				<reward rewardid="5" tag_type="1" itemid="100594" itemnum="2" bind="1"/>
+				<reward rewardid="6" tag_type="1" itemid="100583" itemnum="2" bind="1"/>
+			</rechargeinfo>
+		</recharge>
+	</server>
+<!--	<server servernum="0" isopen="1">
+		<recharge maxcount="7" hold="1">
+			<rechargeinfo count="1" tipsicon="10073" image1="shenbingzi" image2="shenbingzhan" recharge_contentpic="1" content_position="39,0" left_showreward="1" left_showpic="0,10073;1,10073" left_position="13,0" right_showreward="1" right_showpic="0,10073;1,10073" right_position="15,29">
+				<reward rewardid="1" tag_type="4" itemid="900006" itemnum="1" bind="1"/>
+				<reward rewardid="2" tag_type="4" itemid="152009" itemnum="1" bind="1"/>
+				<reward rewardid="3" tag_type="3" itemid="150509" itemnum="1" bind="1"/>
+				<reward rewardid="4" tag_type="2" itemid="900007" itemnum="20" bind="1"/>
+				<reward rewardid="5" tag_type="1" itemid="152008" itemnum="1" bind="1"/>
+				<reward rewardid="6" tag_type="1" itemid="152007" itemnum="1" bind="1"/>
+			</rechargeinfo>
+			<rechargeinfo count="2" image1="" image2="" recharge_contentpic="2" content_position="39,0" left_showreward="1" left_showpic="0,10073;1,10073" left_position="13,0" right_showreward="1" right_showpic="0,10073;1,10073" right_position="25,39">
+				<reward rewardid="1" tag_type="4" itemid="200005" itemnum="1" bind="1"/>
+				<reward rewardid="2" tag_type="3" itemid="150513" itemnum="1" bind="1"/>
+				<reward rewardid="3" tag_type="2" itemid="600018" itemnum="2" bind="1"/>
+				<reward rewardid="4" tag_type="2" itemid="101001" itemnum="20" bind="1"/>
+				<reward rewardid="5" tag_type="1" itemid="152008" itemnum="1" bind="1"/>
+				<reward rewardid="6" tag_type="1" itemid="152007" itemnum="1" bind="1"/>
+			</rechargeinfo>
+			<rechargeinfo count="3" image1="" image2="" recharge_contentpic="3" content_position="39,0" left_showreward="1" left_showpic="0,10073;1,10073" left_position="13,0" right_showreward="1" right_showpic="0,10073;1,10073" right_position="25,30">
+				<reward rewardid="1" tag_type="4" itemid="101932" itemnum="1" bind="1"/>
+				<reward rewardid="2" tag_type="3" itemid="150517" itemnum="1" bind="1"/>
+				<reward rewardid="3" tag_type="2" itemid="600018" itemnum="2" bind="1"/>
+				<reward rewardid="4" tag_type="2" itemid="101501" itemnum="20" bind="1"/>
+				<reward rewardid="5" tag_type="1" itemid="152008" itemnum="1" bind="1"/>
+				<reward rewardid="6" tag_type="1" itemid="152007" itemnum="1" bind="1"/>
+			</rechargeinfo>
+			<rechargeinfo count="4" image1="" image2="" recharge_contentpic="3" content_position="39,0" left_showreward="1" left_showpic="0,10073;1,10073" left_position="13,0" right_showreward="1" right_showpic="0,10073;1,10073" right_position="25,30">
+				<reward rewardid="1" tag_type="4" itemid="150521" itemnum="1" bind="1"/>
+				<reward rewardid="2" tag_type="3" itemid="2060109" itemnum="1" bind="1"/>
+				<reward rewardid="3" tag_type="2" itemid="600018" itemnum="2" bind="1"/>
+				<reward rewardid="4" tag_type="2" itemid="900203" itemnum="10" bind="1"/>
+				<reward rewardid="5" tag_type="1" itemid="152008" itemnum="1" bind="1"/>
+				<reward rewardid="6" tag_type="1" itemid="152007" itemnum="1" bind="1"/>
+			</rechargeinfo>
+			<rechargeinfo count="5" image1="" image2="" recharge_contentpic="4" content_position="39,0" left_showreward="1" left_showpic="0,10073;1,10073" left_position="13,0" right_showreward="1" right_showpic="0,10073;1,10073" right_position="45,80">
+				<reward rewardid="1" tag_type="4" itemid="105202" itemnum="5" bind="1"/>
+				<reward rewardid="2" tag_type="3" itemid="150525" itemnum="1" bind="1"/>
+				<reward rewardid="3" tag_type="2" itemid="600018" itemnum="2" bind="1"/>
+				<reward rewardid="4" tag_type="2" itemid="105001" itemnum="20" bind="1"/>
+				<reward rewardid="5" tag_type="1" itemid="152008" itemnum="1" bind="1"/>
+				<reward rewardid="6" tag_type="1" itemid="152007" itemnum="1" bind="1"/>
+			</rechargeinfo>
+			<rechargeinfo count="6" image1="" image2="" recharge_contentpic="4" content_position="39,0" left_showreward="1" left_showpic="0,10073;1,10073" left_position="13,0" right_showreward="1" right_showpic="0,10073;1,10073" right_position="45,80">
+				<reward rewardid="1" tag_type="4" itemid="600080" itemnum="2" bind="1"/>
+				<reward rewardid="2" tag_type="3" itemid="150529" itemnum="1" bind="1"/>
+				<reward rewardid="3" tag_type="2" itemid="600018" itemnum="2" bind="1"/>
+				<reward rewardid="4" tag_type="2" itemid="190002" itemnum="1" bind="1"/>
+				<reward rewardid="5" tag_type="1" itemid="152008" itemnum="1" bind="1"/>
+				<reward rewardid="6" tag_type="1" itemid="152007" itemnum="1" bind="1"/>
+			</rechargeinfo>
+			<rechargeinfo count="7" image1="" image2="" recharge_contentpic="5" content_position="39,0" left_showreward="1" left_showpic="0,10073;1,10073" left_position="13,0" right_showreward="1" right_showpic="0,10073;1,10073" right_position="30,70">
+				<reward rewardid="1" tag_type="4" itemid="200001" itemnum="1" bind="1"/>
+				<reward rewardid="2" tag_type="3" itemid="150533" itemnum="1" bind="1"/>
+				<reward rewardid="3" tag_type="2" itemid="600018" itemnum="2" bind="1"/>
+				<reward rewardid="4" tag_type="2" itemid="190006" itemnum="2" bind="1"/>
+				<reward rewardid="5" tag_type="1" itemid="152008" itemnum="1" bind="1"/>
+				<reward rewardid="6" tag_type="1" itemid="152007" itemnum="1" bind="1"/>
+			</rechargeinfo>
+		</recharge>
+	</server>-->
+	<!--
+	<server servernum="1" isopen="1">
+		<recharge maxcount="5" hold="1">
+			<rechargeinfo count="1" image1="" image2="" recharge_contentpic="7" content_position="39,0" left_showreward="1" left_showpic="30112" left_position="13,0" right_showreward="1" right_showpic="30104" right_position="45,80">
+				<reward rewardid="1" tag_type="2" itemid="108822" itemnum="1" bind="1"/>
+				<reward rewardid="2" tag_type="2" itemid="103951" itemnum="1" bind="1"/>
+				<reward rewardid="3" tag_type="2" itemid="108815" itemnum="1" bind="1"/>
+				<reward rewardid="4" tag_type="2" itemid="108105" itemnum="20" bind="1"/>
+				<reward rewardid="5" tag_type="1" itemid="108304" itemnum="20" bind="1"/>
+				<reward rewardid="6" tag_type="1" itemid="108505" itemnum="20" bind="1"/>
+			</rechargeinfo>
+			<rechargeinfo count="2" image1="" image2="" recharge_contentpic="8" content_position="39,0" left_showreward="1" left_showpic="30114" left_position="13,0" right_showreward="1" right_showpic="30114" right_position="45,80">
+				<reward rewardid="1" tag_type="2" itemid="108824" itemnum="1" bind="1"/>
+				<reward rewardid="2" tag_type="2" itemid="102951" itemnum="1" bind="1"/>
+				<reward rewardid="3" tag_type="2" itemid="108845" itemnum="1" bind="1"/>
+				<reward rewardid="4" tag_type="2" itemid="108105" itemnum="20" bind="1"/>
+				<reward rewardid="5" tag_type="1" itemid="108304" itemnum="20" bind="1"/>
+				<reward rewardid="6" tag_type="1" itemid="108505" itemnum="20" bind="1"/>
+			</rechargeinfo>
+			<rechargeinfo count="3" image1="" image2="" recharge_contentpic="9" content_position="39,0" left_showreward="1" left_showpic="30114" left_position="13,0" right_showreward="1" right_showpic="30115" right_position="45,80">
+				<reward rewardid="1" tag_type="2" itemid="106202" itemnum="1" bind="1"/>
+				<reward rewardid="2" tag_type="2" itemid="106451" itemnum="1" bind="1"/>
+				<reward rewardid="3" tag_type="2" itemid="108849" itemnum="1" bind="1"/>
+				<reward rewardid="4" tag_type="2" itemid="108105" itemnum="20" bind="1"/>
+				<reward rewardid="5" tag_type="1" itemid="108304" itemnum="20" bind="1"/>
+				<reward rewardid="6" tag_type="1" itemid="108505" itemnum="20" bind="1"/>
+			</rechargeinfo>
+			<rechargeinfo count="4" image1="" image2="" recharge_contentpic="10" content_position="39,0" left_showreward="1" left_showpic="30111" left_position="13,0" right_showreward="1" right_showpic="30104" right_position="45,80">
+				<reward rewardid="1" tag_type="2" itemid="108823" itemnum="1" bind="1"/>
+				<reward rewardid="2" tag_type="2" itemid="103451" itemnum="1" bind="1"/>
+				<reward rewardid="3" tag_type="2" itemid="108853" itemnum="1" bind="1"/>
+				<reward rewardid="4" tag_type="2" itemid="108105" itemnum="20" bind="1"/>
+				<reward rewardid="5" tag_type="1" itemid="108304" itemnum="20" bind="1"/>
+				<reward rewardid="6" tag_type="1" itemid="108505" itemnum="20" bind="1"/>
+			</rechargeinfo>
+			<rechargeinfo count="5" image1="" image2="" recharge_contentpic="6" content_position="39,0" left_showreward="1" left_showpic="30121" left_position="13,0" right_showreward="1" right_showpic="30116" right_position="20,70">
+				<reward rewardid="1" tag_type="2" itemid="150001" itemnum="1" bind="1"/>
+				<reward rewardid="2" tag_type="2" itemid="100593" itemnum="1" bind="1"/>
+				<reward rewardid="3" tag_type="2" itemid="109411" itemnum="1" bind="1"/>
+				<reward rewardid="4" tag_type="1" itemid="810002" itemnum="1" bind="1"/>
+				<reward rewardid="5" tag_type="1" itemid="108922" itemnum="1" bind="1"/>
+				<reward rewardid="6" tag_type="1" itemid="610001" itemnum="1" bind="1"/>
+			</rechargeinfo>
+		</recharge>
+	</server>
+	-->
+</root>

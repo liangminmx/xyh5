@@ -1,0 +1,713 @@
+<!-- 被2012 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<Root>
+	<droplist droplistid="400001" name="绑定-30银两">
+		<dropinfo weight="1" dropid="7000001"/>
+		<dropinfo weight="1" dropid="1000010"/>
+	</droplist>
+	<droplist droplistid="500000" name="装备副本1装备掉落">
+		<dropinfo weight="1" dropid="9000001"/>
+		<dropinfo weight="1" dropid="9000002"/>
+	</droplist>
+	<droplist droplistid="500001" name="装备副本1装备掉落">
+		<dropinfo weight="1" dropid="8000001"/>
+		<dropinfo weight="1" dropid="8000002"/>
+		<dropinfo weight="1" dropid="8000003"/>
+		<dropinfo weight="1" dropid="8000004"/>
+		<dropinfo weight="1" dropid="8000005"/>
+		<dropinfo weight="1" dropid="8000006"/>
+		<dropinfo weight="1" dropid="8000007"/>
+		<dropinfo weight="1" dropid="8000008"/>
+		<dropinfo weight="1" dropid="8000009"/>
+		<dropinfo weight="1" dropid="8000010"/>
+	</droplist>
+	<droplist droplistid="500002" name="装备副本1物品掉落">
+		<dropinfo weight="1" dropid="8100001"/>
+	</droplist>
+	<droplist droplistid="500003" name="装备副本1物品掉落">
+		<dropinfo weight="1" dropid="8100002"/>
+	</droplist>
+	<droplist droplistid="500004" name="装备副本1物品掉落">
+		<dropinfo weight="1" dropid="8100003"/>
+	</droplist>
+	<droplist droplistid="500005" name="装备副本1物品掉落">
+		<dropinfo weight="1" dropid="8100004"/>
+	</droplist>
+	<droplist droplistid="500006" name="装备副本1物品掉落">
+		<dropinfo weight="1" dropid="8110001"/>
+	</droplist>
+	<droplist droplistid="500007" name="装备副本1物品掉落">
+		<dropinfo weight="1" dropid="8110002"/>
+	</droplist>
+	<droplist droplistid="500008" name="装备副本1物品掉落">
+		<dropinfo weight="1" dropid="8110003"/>
+	</droplist>
+	<droplist droplistid="500009" name="装备副本1物品掉落">
+		<dropinfo weight="1" dropid="8110004"/>
+	</droplist>
+	<droplist droplistid="500010" name="装备副本1物品掉落">
+		<dropinfo weight="1" dropid="8110005"/>
+	</droplist>
+	<droplist droplistid="500011" name="装备副本1物品掉落">
+		<dropinfo weight="1" dropid="8110006"/>
+	</droplist>
+	<droplist droplistid="500012" name="装备副本1物品掉落">
+		<dropinfo weight="1" dropid="8110007"/>
+	</droplist>
+	<droplist droplistid="500013" name="装备副本1物品掉落">
+		<dropinfo weight="1" dropid="8110008"/>
+	</droplist>
+	<droplist droplistid="500014" name="装备副本1物品掉落">
+		<dropinfo weight="1" dropid="8110009"/>
+	</droplist>
+	<droplist droplistid="500015" name="装备副本1物品掉落">
+		<dropinfo weight="1" dropid="8110010"/>
+	</droplist>
+	<droplist droplistid="500091" name="装备副本1物品掉落">
+		<dropinfo weight="1" dropid="8100005"/>
+	</droplist>
+	<droplist droplistid="500016" name="装备副本2装备掉落">
+		<dropinfo weight="1" dropid="8000001"/>
+		<dropinfo weight="1" dropid="8000002"/>
+		<dropinfo weight="1" dropid="8000003"/>
+		<dropinfo weight="1" dropid="8000004"/>
+		<dropinfo weight="1" dropid="8000005"/>
+		<dropinfo weight="1" dropid="8000006"/>
+		<dropinfo weight="1" dropid="8000007"/>
+		<dropinfo weight="1" dropid="8000008"/>
+		<dropinfo weight="1" dropid="8000009"/>
+		<dropinfo weight="1" dropid="8000010"/>
+	</droplist>
+	<droplist droplistid="500017" name="装备副本2物品掉落">
+		<dropinfo weight="1" dropid="8100011"/>
+	</droplist>
+	<droplist droplistid="500018" name="装备副本2物品掉落">
+		<dropinfo weight="1" dropid="8100012"/>
+	</droplist>
+	<droplist droplistid="500019" name="装备副本2物品掉落">
+		<dropinfo weight="1" dropid="8100013"/>
+	</droplist>
+	<droplist droplistid="500020" name="装备副本2物品掉落">
+		<dropinfo weight="1" dropid="8100014"/>
+	</droplist>
+	<droplist droplistid="500021" name="装备副本2物品掉落">
+		<dropinfo weight="1" dropid="8110011"/>
+	</droplist>
+	<droplist droplistid="500022" name="装备副本2物品掉落">
+		<dropinfo weight="1" dropid="8110012"/>
+	</droplist>
+	<droplist droplistid="500023" name="装备副本2物品掉落">
+		<dropinfo weight="1" dropid="8110013"/>
+	</droplist>
+	<droplist droplistid="500024" name="装备副本2物品掉落">
+		<dropinfo weight="1" dropid="8110014"/>
+	</droplist>
+	<droplist droplistid="500025" name="装备副本2物品掉落">
+		<dropinfo weight="1" dropid="8110015"/>
+	</droplist>
+	<droplist droplistid="500026" name="装备副本2物品掉落">
+		<dropinfo weight="1" dropid="8110016"/>
+	</droplist>
+	<droplist droplistid="500027" name="装备副本2物品掉落">
+		<dropinfo weight="1" dropid="8110017"/>
+	</droplist>
+	<droplist droplistid="500028" name="装备副本2物品掉落">
+		<dropinfo weight="1" dropid="8110018"/>
+	</droplist>
+	<droplist droplistid="500029" name="装备副本2物品掉落">
+		<dropinfo weight="1" dropid="8110019"/>
+	</droplist>
+	<droplist droplistid="500030" name="装备副本2物品掉落">
+		<dropinfo weight="1" dropid="8110020"/>
+	</droplist>
+	<droplist droplistid="500092" name="装备副本2物品掉落">
+		<dropinfo weight="1" dropid="8100015"/>
+	</droplist>
+	<droplist droplistid="500031" name="装备副本3装备掉落">
+		<dropinfo weight="1" dropid="8000011"/>
+		<dropinfo weight="1" dropid="8000012"/>
+		<dropinfo weight="1" dropid="8000013"/>
+		<dropinfo weight="1" dropid="8000014"/>
+		<dropinfo weight="1" dropid="8000015"/>
+		<dropinfo weight="1" dropid="8000016"/>
+		<dropinfo weight="1" dropid="8000017"/>
+		<dropinfo weight="1" dropid="8000018"/>
+		<dropinfo weight="1" dropid="8000019"/>
+		<dropinfo weight="1" dropid="8000020"/>
+	</droplist>
+	<droplist droplistid="500032" name="装备副本3物品掉落">
+		<dropinfo weight="1" dropid="8100021"/>
+	</droplist>
+	<droplist droplistid="500033" name="装备副本3物品掉落">
+		<dropinfo weight="1" dropid="8100022"/>
+	</droplist>
+	<droplist droplistid="500034" name="装备副本3物品掉落">
+		<dropinfo weight="1" dropid="8100023"/>
+	</droplist>
+	<droplist droplistid="500035" name="装备副本3物品掉落">
+		<dropinfo weight="1" dropid="8100024"/>
+	</droplist>
+	<droplist droplistid="500036" name="装备副本3物品掉落">
+		<dropinfo weight="1" dropid="8110021"/>
+	</droplist>
+	<droplist droplistid="500037" name="装备副本3物品掉落">
+		<dropinfo weight="1" dropid="8110022"/>
+	</droplist>
+	<droplist droplistid="500038" name="装备副本3物品掉落">
+		<dropinfo weight="1" dropid="8110023"/>
+	</droplist>
+	<droplist droplistid="500039" name="装备副本3物品掉落">
+		<dropinfo weight="1" dropid="8110024"/>
+	</droplist>
+	<droplist droplistid="500040" name="装备副本3物品掉落">
+		<dropinfo weight="1" dropid="8110025"/>
+	</droplist>
+	<droplist droplistid="500041" name="装备副本3物品掉落">
+		<dropinfo weight="1" dropid="8110026"/>
+	</droplist>
+	<droplist droplistid="500042" name="装备副本3物品掉落">
+		<dropinfo weight="1" dropid="8110027"/>
+	</droplist>
+	<droplist droplistid="500043" name="装备副本3物品掉落">
+		<dropinfo weight="1" dropid="8110028"/>
+	</droplist>
+	<droplist droplistid="500044" name="装备副本3物品掉落">
+		<dropinfo weight="1" dropid="8110029"/>
+	</droplist>
+	<droplist droplistid="500045" name="装备副本3物品掉落">
+		<dropinfo weight="1" dropid="8110030"/>
+	</droplist>
+	<droplist droplistid="500093" name="装备副本3物品掉落">
+		<dropinfo weight="1" dropid="8100025"/>
+	</droplist>
+	<droplist droplistid="500046" name="装备副本4装备掉落">
+		<dropinfo weight="1" dropid="8000021"/>
+		<dropinfo weight="1" dropid="8000022"/>
+		<dropinfo weight="1" dropid="8000023"/>
+		<dropinfo weight="1" dropid="8000024"/>
+		<dropinfo weight="1" dropid="8000025"/>
+		<dropinfo weight="1" dropid="8000026"/>
+		<dropinfo weight="1" dropid="8000027"/>
+		<dropinfo weight="1" dropid="8000028"/>
+		<dropinfo weight="1" dropid="8000029"/>
+		<dropinfo weight="1" dropid="8000030"/>
+	</droplist>
+	<droplist droplistid="500047" name="装备副本4物品掉落">
+		<dropinfo weight="1" dropid="8100031"/>
+	</droplist>
+	<droplist droplistid="500048" name="装备副本4物品掉落">
+		<dropinfo weight="1" dropid="8100032"/>
+	</droplist>
+	<droplist droplistid="500049" name="装备副本4物品掉落">
+		<dropinfo weight="1" dropid="8100033"/>
+	</droplist>
+	<droplist droplistid="500050" name="装备副本4物品掉落">
+		<dropinfo weight="1" dropid="8100034"/>
+	</droplist>
+	<droplist droplistid="500051" name="装备副本4物品掉落">
+		<dropinfo weight="1" dropid="8110031"/>
+	</droplist>
+	<droplist droplistid="500052" name="装备副本4物品掉落">
+		<dropinfo weight="1" dropid="8110032"/>
+	</droplist>
+	<droplist droplistid="500053" name="装备副本4物品掉落">
+		<dropinfo weight="1" dropid="8110033"/>
+	</droplist>
+	<droplist droplistid="500054" name="装备副本4物品掉落">
+		<dropinfo weight="1" dropid="8110034"/>
+	</droplist>
+	<droplist droplistid="500055" name="装备副本4物品掉落">
+		<dropinfo weight="1" dropid="8110035"/>
+	</droplist>
+	<droplist droplistid="500056" name="装备副本4物品掉落">
+		<dropinfo weight="1" dropid="8110036"/>
+	</droplist>
+	<droplist droplistid="500057" name="装备副本4物品掉落">
+		<dropinfo weight="1" dropid="8110037"/>
+	</droplist>
+	<droplist droplistid="500058" name="装备副本4物品掉落">
+		<dropinfo weight="1" dropid="8110038"/>
+	</droplist>
+	<droplist droplistid="500059" name="装备副本4物品掉落">
+		<dropinfo weight="1" dropid="8110039"/>
+	</droplist>
+	<droplist droplistid="500060" name="装备副本4物品掉落">
+		<dropinfo weight="1" dropid="8110040"/>
+	</droplist>
+	<droplist droplistid="500094" name="装备副本4物品掉落">
+		<dropinfo weight="1" dropid="8100035"/>
+	</droplist>
+	<droplist droplistid="500061" name="装备副本5装备掉落">
+		<dropinfo weight="1" dropid="8000021"/>
+		<dropinfo weight="1" dropid="8000022"/>
+		<dropinfo weight="1" dropid="8000023"/>
+		<dropinfo weight="1" dropid="8000024"/>
+		<dropinfo weight="1" dropid="8000025"/>
+		<dropinfo weight="1" dropid="8000026"/>
+		<dropinfo weight="1" dropid="8000027"/>
+		<dropinfo weight="1" dropid="8000028"/>
+		<dropinfo weight="1" dropid="8000029"/>
+		<dropinfo weight="1" dropid="8000030"/>
+	</droplist>
+	<droplist droplistid="500062" name="装备副本5物品掉落">
+		<dropinfo weight="1" dropid="8100041"/>
+	</droplist>
+	<droplist droplistid="500063" name="装备副本5物品掉落">
+		<dropinfo weight="1" dropid="8100042"/>
+	</droplist>
+	<droplist droplistid="500064" name="装备副本5物品掉落">
+		<dropinfo weight="1" dropid="8100043"/>
+	</droplist>
+	<droplist droplistid="500065" name="装备副本5物品掉落">
+		<dropinfo weight="1" dropid="8100044"/>
+	</droplist>
+	<droplist droplistid="500066" name="装备副本5物品掉落">
+		<dropinfo weight="1" dropid="8110041"/>
+	</droplist>
+	<droplist droplistid="500067" name="装备副本5物品掉落">
+		<dropinfo weight="1" dropid="8110042"/>
+	</droplist>
+	<droplist droplistid="500068" name="装备副本5物品掉落">
+		<dropinfo weight="1" dropid="8110043"/>
+	</droplist>
+	<droplist droplistid="500069" name="装备副本5物品掉落">
+		<dropinfo weight="1" dropid="8110044"/>
+	</droplist>
+	<droplist droplistid="500070" name="装备副本5物品掉落">
+		<dropinfo weight="1" dropid="8110045"/>
+	</droplist>
+	<droplist droplistid="500071" name="装备副本5物品掉落">
+		<dropinfo weight="1" dropid="8110046"/>
+	</droplist>
+	<droplist droplistid="500072" name="装备副本5物品掉落">
+		<dropinfo weight="1" dropid="8110047"/>
+	</droplist>
+	<droplist droplistid="500073" name="装备副本5物品掉落">
+		<dropinfo weight="1" dropid="8110048"/>
+	</droplist>
+	<droplist droplistid="500074" name="装备副本5物品掉落">
+		<dropinfo weight="1" dropid="8110049"/>
+	</droplist>
+	<droplist droplistid="500075" name="装备副本5物品掉落">
+		<dropinfo weight="1" dropid="8110050"/>
+	</droplist>
+	<droplist droplistid="500095" name="装备副本5物品掉落">
+		<dropinfo weight="1" dropid="8100045"/>
+	</droplist>
+	<droplist droplistid="500076" name="装备副本6装备掉落">
+		<dropinfo weight="1" dropid="8000031"/>
+		<dropinfo weight="1" dropid="8000032"/>
+		<dropinfo weight="1" dropid="8000033"/>
+		<dropinfo weight="1" dropid="8000034"/>
+		<dropinfo weight="1" dropid="8000035"/>
+		<dropinfo weight="1" dropid="8000036"/>
+		<dropinfo weight="1" dropid="8000037"/>
+		<dropinfo weight="1" dropid="8000038"/>
+		<dropinfo weight="1" dropid="8000039"/>
+		<dropinfo weight="1" dropid="8000040"/>
+	</droplist>
+	<droplist droplistid="500077" name="装备副本6物品掉落">
+		<dropinfo weight="1" dropid="8100051"/>
+	</droplist>
+	<droplist droplistid="500078" name="装备副本6物品掉落">
+		<dropinfo weight="1" dropid="8100052"/>
+	</droplist>
+	<droplist droplistid="500079" name="装备副本6物品掉落">
+		<dropinfo weight="1" dropid="8100053"/>
+	</droplist>
+	<droplist droplistid="500080" name="装备副本6物品掉落">
+		<dropinfo weight="1" dropid="8100119"/>
+	</droplist>
+	<droplist droplistid="500081" name="装备副本6物品掉落">
+		<dropinfo weight="1" dropid="8110051"/>
+	</droplist>
+	<droplist droplistid="500082" name="装备副本6物品掉落">
+		<dropinfo weight="1" dropid="8110052"/>
+	</droplist>
+	<droplist droplistid="500083" name="装备副本6物品掉落">
+		<dropinfo weight="1" dropid="8110053"/>
+	</droplist>
+	<droplist droplistid="500084" name="装备副本6物品掉落">
+		<dropinfo weight="1" dropid="8110054"/>
+	</droplist>
+	<droplist droplistid="500085" name="装备副本6物品掉落">
+		<dropinfo weight="1" dropid="8110055"/>
+	</droplist>
+	<droplist droplistid="500086" name="装备副本6物品掉落">
+		<dropinfo weight="1" dropid="8110056"/>
+	</droplist>
+	<droplist droplistid="500087" name="装备副本6物品掉落">
+		<dropinfo weight="1" dropid="8110057"/>
+	</droplist>
+	<droplist droplistid="500088" name="装备副本6物品掉落">
+		<dropinfo weight="1" dropid="8110058"/>
+	</droplist>
+	<droplist droplistid="500089" name="装备副本6物品掉落">
+		<dropinfo weight="1" dropid="8110059"/>
+	</droplist>
+	<droplist droplistid="500090" name="装备副本6物品掉落">
+		<dropinfo weight="1" dropid="8110060"/>
+	</droplist>
+	<droplist droplistid="500096" name="装备副本6物品掉落">
+		<dropinfo weight="1" dropid="8100120"/>
+	</droplist>
+	<droplist droplistid="550003" name="初级提品石">
+		<dropinfo weight="1" dropid="8100054"/>
+	</droplist>
+	<droplist droplistid="550004" name="20级装备掉落">
+		<dropinfo weight="1" dropid="8000041"/>
+		<dropinfo weight="1" dropid="8000042"/>
+		<dropinfo weight="1" dropid="8000043"/>
+		<dropinfo weight="1" dropid="8000044"/>
+		<dropinfo weight="1" dropid="8000045"/>
+		<dropinfo weight="1" dropid="8000046"/>
+		<dropinfo weight="1" dropid="8000047"/>
+		<dropinfo weight="1" dropid="8000048"/>
+		<dropinfo weight="1" dropid="8000049"/>
+		<dropinfo weight="1" dropid="8000050"/>
+	</droplist>
+	<droplist droplistid="550005" name="低级坐骑技能书">
+		<dropinfo weight="1" dropid="8100055"/>
+	</droplist>
+	<droplist droplistid="550006" name="中级坐骑技能书">
+		<dropinfo weight="1" dropid="8100056"/>
+	</droplist>
+	<droplist droplistid="550007" name="高级坐骑技能书">
+		<dropinfo weight="1" dropid="8100057"/>
+	</droplist>
+	<droplist droplistid="550008" name="海洋界石灵液">
+		<dropinfo weight="1" dropid="8100058"/>
+	</droplist>
+	<droplist droplistid="550009" name="海洋界石灵液">
+		<dropinfo weight="1" dropid="8100059"/>
+	</droplist>
+	<droplist droplistid="550010" name="海洋界石灵液">
+		<dropinfo weight="1" dropid="8100060"/>
+	</droplist>
+	<droplist droplistid="550011" name="海洋界石灵液">
+		<dropinfo weight="1" dropid="8100061"/>
+	</droplist>
+	<droplist droplistid="550012" name="海洋界石灵液">
+		<dropinfo weight="1" dropid="8100062"/>
+	</droplist>
+	<droplist droplistid="550013" name="海洋界石灵液">
+		<dropinfo weight="1" dropid="8100063"/>
+	</droplist>
+	<droplist droplistid="550014" name="海洋界石灵液">
+		<dropinfo weight="1" dropid="8100064"/>
+	</droplist>
+	<droplist droplistid="550015" name="海洋界石灵液">
+		<dropinfo weight="1" dropid="8100065"/>
+	</droplist>
+	<droplist droplistid="550016" name="海洋界石灵液">
+		<dropinfo weight="1" dropid="8100066"/>
+	</droplist>
+	<droplist droplistid="550017" name="海洋界石灵液">
+		<dropinfo weight="1" dropid="8100067"/>
+	</droplist>
+	<droplist droplistid="551001" name="龙山巡守掉落1">
+		<dropinfo weight="1" dropid="8100068"/>
+	</droplist>
+	<droplist droplistid="551002" name="龙山巡守掉落1">
+		<dropinfo weight="1" dropid="8100078"/>
+	</droplist>
+	<droplist droplistid="551003" name="龙山巡守掉落1">
+		<dropinfo weight="1" dropid="8100088"/>
+	</droplist>
+	<droplist droplistid="551004" name="龙山巡守掉落1">
+		<dropinfo weight="1" dropid="8100098"/>
+	</droplist>
+	<droplist droplistid="551011" name="龙山巡守掉落2">
+		<dropinfo weight="1" dropid="8100069"/>
+	</droplist>
+	<droplist droplistid="551012" name="龙山巡守掉落2">
+		<dropinfo weight="1" dropid="8100079"/>
+	</droplist>
+	<droplist droplistid="551013" name="龙山巡守掉落2">
+		<dropinfo weight="1" dropid="8100089"/>
+	</droplist>
+	<droplist droplistid="551014" name="龙山巡守掉落2">
+		<dropinfo weight="1" dropid="8100099"/>
+	</droplist>
+	<droplist droplistid="551021" name="龙山巡守掉落3">
+		<dropinfo weight="1" dropid="8100070"/>
+	</droplist>
+	<droplist droplistid="551022" name="龙山巡守掉落3">
+		<dropinfo weight="1" dropid="8100080"/>
+	</droplist>
+	<droplist droplistid="551023" name="龙山巡守掉落3">
+		<dropinfo weight="1" dropid="8100090"/>
+	</droplist>
+	<droplist droplistid="551024" name="龙山巡守掉落3">
+		<dropinfo weight="1" dropid="8100100"/>
+	</droplist>
+	<droplist droplistid="551031" name="龙山巡守掉落4">
+		<dropinfo weight="1" dropid="8100071"/>
+	</droplist>
+	<droplist droplistid="551032" name="龙山巡守掉落4">
+		<dropinfo weight="1" dropid="8100081"/>
+	</droplist>
+	<droplist droplistid="551033" name="龙山巡守掉落4">
+		<dropinfo weight="1" dropid="8100091"/>
+	</droplist>
+	<droplist droplistid="551034" name="龙山巡守掉落4">
+		<dropinfo weight="1" dropid="8100101"/>
+	</droplist>
+	<droplist droplistid="551041" name="龙山巡守掉落5">
+		<dropinfo weight="1" dropid="8100072"/>
+	</droplist>
+	<droplist droplistid="551042" name="龙山巡守掉落5">
+		<dropinfo weight="1" dropid="8100082"/>
+	</droplist>
+	<droplist droplistid="551043" name="龙山巡守掉落5">
+		<dropinfo weight="1" dropid="8100092"/>
+	</droplist>
+	<droplist droplistid="551044" name="龙山巡守掉落5">
+		<dropinfo weight="1" dropid="8100102"/>
+	</droplist>
+	<droplist droplistid="551051" name="龙山巡守掉落6">
+		<dropinfo weight="1" dropid="8100073"/>
+	</droplist>
+	<droplist droplistid="551052" name="龙山巡守掉落6">
+		<dropinfo weight="1" dropid="8100083"/>
+	</droplist>
+	<droplist droplistid="551053" name="龙山巡守掉落6">
+		<dropinfo weight="1" dropid="8100093"/>
+	</droplist>
+	<droplist droplistid="551054" name="龙山巡守掉落6">
+		<dropinfo weight="1" dropid="8100103"/>
+	</droplist>
+	<droplist droplistid="551061" name="龙山巡守掉落7">
+		<dropinfo weight="1" dropid="8100074"/>
+	</droplist>
+	<droplist droplistid="551062" name="龙山巡守掉落7">
+		<dropinfo weight="1" dropid="8100084"/>
+	</droplist>
+	<droplist droplistid="551063" name="龙山巡守掉落7">
+		<dropinfo weight="1" dropid="8100094"/>
+	</droplist>
+	<droplist droplistid="551064" name="龙山巡守掉落7">
+		<dropinfo weight="1" dropid="8100104"/>
+	</droplist>
+	<droplist droplistid="551071" name="龙山巡守掉落8">
+		<dropinfo weight="1" dropid="8100075"/>
+	</droplist>
+	<droplist droplistid="551072" name="龙山巡守掉落8">
+		<dropinfo weight="1" dropid="8100085"/>
+	</droplist>
+	<droplist droplistid="551073" name="龙山巡守掉落8">
+		<dropinfo weight="1" dropid="8100095"/>
+	</droplist>
+	<droplist droplistid="551074" name="龙山巡守掉落8">
+		<dropinfo weight="1" dropid="8100105"/>
+	</droplist>
+	<droplist droplistid="551081" name="龙山巡守掉落9">
+		<dropinfo weight="1" dropid="8100076"/>
+	</droplist>
+	<droplist droplistid="551082" name="龙山巡守掉落9">
+		<dropinfo weight="1" dropid="8100086"/>
+	</droplist>
+	<droplist droplistid="551083" name="龙山巡守掉落9">
+		<dropinfo weight="1" dropid="8100096"/>
+	</droplist>
+	<droplist droplistid="551084" name="龙山巡守掉落9">
+		<dropinfo weight="1" dropid="8100106"/>
+	</droplist>
+	<droplist droplistid="551091" name="龙山巡守掉落10">
+		<dropinfo weight="1" dropid="8100077"/>
+	</droplist>
+	<droplist droplistid="551092" name="龙山巡守掉落10">
+		<dropinfo weight="1" dropid="8100087"/>
+	</droplist>
+	<droplist droplistid="551093" name="龙山巡守掉落10">
+		<dropinfo weight="1" dropid="8100097"/>
+	</droplist>
+	<droplist droplistid="551094" name="龙山巡守掉落10">
+		<dropinfo weight="1" dropid="8100107"/>
+	</droplist>
+	<droplist droplistid="550028" name="土著初级提品石">
+		<dropinfo weight="1" dropid="8100108"/>
+	</droplist>
+	<droplist droplistid="550029" name="土著中级提品石">
+		<dropinfo weight="1" dropid="8100109"/>
+	</droplist>
+	<droplist droplistid="550030" name="土著高级提品石">
+		<dropinfo weight="1" dropid="8100110"/>
+	</droplist>
+	<droplist droplistid="550031" name="土著80装备">
+		<dropinfo weight="1" dropid="8000071"/>
+		<dropinfo weight="1" dropid="8000072"/>
+		<dropinfo weight="1" dropid="8000073"/>
+		<dropinfo weight="1" dropid="8000074"/>
+		<dropinfo weight="1" dropid="8000075"/>
+		<dropinfo weight="1" dropid="8000076"/>
+		<dropinfo weight="1" dropid="8000077"/>
+		<dropinfo weight="1" dropid="8000078"/>
+		<dropinfo weight="1" dropid="8000079"/>
+		<dropinfo weight="1" dropid="8000080"/>
+	</droplist>
+	<droplist droplistid="550032" name="土著100装备">
+		<dropinfo weight="1" dropid="8000081"/>
+		<dropinfo weight="1" dropid="8000082"/>
+		<dropinfo weight="1" dropid="8000083"/>
+		<dropinfo weight="1" dropid="8000084"/>
+		<dropinfo weight="1" dropid="8000085"/>
+		<dropinfo weight="1" dropid="8000086"/>
+		<dropinfo weight="1" dropid="8000087"/>
+		<dropinfo weight="1" dropid="8000088"/>
+		<dropinfo weight="1" dropid="8000089"/>
+		<dropinfo weight="1" dropid="8000090"/>
+	</droplist>
+	<droplist droplistid="550033" name="土著120装备">
+		<dropinfo weight="1" dropid="8000091"/>
+		<dropinfo weight="1" dropid="8000092"/>
+		<dropinfo weight="1" dropid="8000093"/>
+		<dropinfo weight="1" dropid="8000094"/>
+		<dropinfo weight="1" dropid="8000095"/>
+		<dropinfo weight="1" dropid="8000096"/>
+		<dropinfo weight="1" dropid="8000097"/>
+		<dropinfo weight="1" dropid="8000098"/>
+		<dropinfo weight="1" dropid="8000099"/>
+		<dropinfo weight="1" dropid="8000100"/>
+	</droplist>
+	<droplist droplistid="550034" name="土著140装备">
+		<dropinfo weight="1" dropid="8000101"/>
+		<dropinfo weight="1" dropid="8000102"/>
+		<dropinfo weight="1" dropid="8000103"/>
+		<dropinfo weight="1" dropid="8000104"/>
+		<dropinfo weight="1" dropid="8000105"/>
+		<dropinfo weight="1" dropid="8000106"/>
+		<dropinfo weight="1" dropid="8000107"/>
+		<dropinfo weight="1" dropid="8000108"/>
+		<dropinfo weight="1" dropid="8000109"/>
+		<dropinfo weight="1" dropid="8000110"/>
+	</droplist>
+	<droplist droplistid="550035" name="土著高级技能书箱">
+		<dropinfo weight="1" dropid="8100112"/>
+	</droplist>
+	<droplist droplistid="550036" name="土著超级技能书箱">
+		<dropinfo weight="1" dropid="8100113"/>
+	</droplist>
+	<droplist droplistid="550037" name="土著钻石技能书箱">
+		<dropinfo weight="1" dropid="8100114"/>
+	</droplist>
+	<droplist droplistid="552001" name="土著boss1">
+		<dropinfo weight="1" dropid="8100068"/>
+	</droplist>
+	<droplist droplistid="552002" name="土著boss1">
+		<dropinfo weight="1" dropid="8100078"/>
+	</droplist>
+	<droplist droplistid="552003" name="土著boss1">
+		<dropinfo weight="1" dropid="8100088"/>
+	</droplist>
+	<droplist droplistid="552004" name="土著boss1">
+		<dropinfo weight="1" dropid="8100098"/>
+	</droplist>
+	<droplist droplistid="552011" name="土著boss2">
+		<dropinfo weight="1" dropid="8100069"/>
+	</droplist>
+	<droplist droplistid="552012" name="土著boss2">
+		<dropinfo weight="1" dropid="8100079"/>
+	</droplist>
+	<droplist droplistid="552013" name="土著boss2">
+		<dropinfo weight="1" dropid="8100089"/>
+	</droplist>
+	<droplist droplistid="552014" name="土著boss2">
+		<dropinfo weight="1" dropid="8100099"/>
+	</droplist>
+	<droplist droplistid="552021" name="土著boss3">
+		<dropinfo weight="1" dropid="8100070"/>
+	</droplist>
+	<droplist droplistid="552022" name="土著boss3">
+		<dropinfo weight="1" dropid="8100080"/>
+	</droplist>
+	<droplist droplistid="552023" name="土著boss3">
+		<dropinfo weight="1" dropid="8100090"/>
+	</droplist>
+	<droplist droplistid="552024" name="土著boss3">
+		<dropinfo weight="1" dropid="8100100"/>
+	</droplist>
+	<droplist droplistid="552031" name="土著boss4">
+		<dropinfo weight="1" dropid="8100071"/>
+	</droplist>
+	<droplist droplistid="552032" name="土著boss4">
+		<dropinfo weight="1" dropid="8100081"/>
+	</droplist>
+	<droplist droplistid="552033" name="土著boss4">
+		<dropinfo weight="1" dropid="8100091"/>
+	</droplist>
+	<droplist droplistid="552034" name="土著boss4">
+		<dropinfo weight="1" dropid="8100101"/>
+	</droplist>
+	<droplist droplistid="552041" name="土著boss5">
+		<dropinfo weight="1" dropid="8100072"/>
+	</droplist>
+	<droplist droplistid="552042" name="土著boss5">
+		<dropinfo weight="1" dropid="8100082"/>
+	</droplist>
+	<droplist droplistid="552043" name="土著boss5">
+		<dropinfo weight="1" dropid="8100092"/>
+	</droplist>
+	<droplist droplistid="552044" name="土著boss5">
+		<dropinfo weight="1" dropid="8100102"/>
+	</droplist>
+	<droplist droplistid="552051" name="土著boss6">
+		<dropinfo weight="1" dropid="8100073"/>
+	</droplist>
+	<droplist droplistid="552052" name="土著boss6">
+		<dropinfo weight="1" dropid="8100083"/>
+	</droplist>
+	<droplist droplistid="552053" name="土著boss6">
+		<dropinfo weight="1" dropid="8100093"/>
+	</droplist>
+	<droplist droplistid="552054" name="土著boss6">
+		<dropinfo weight="1" dropid="8100103"/>
+	</droplist>
+	<droplist droplistid="552061" name="土著boss7">
+		<dropinfo weight="1" dropid="8100074"/>
+	</droplist>
+	<droplist droplistid="552062" name="土著boss7">
+		<dropinfo weight="1" dropid="8100084"/>
+	</droplist>
+	<droplist droplistid="552063" name="土著boss7">
+		<dropinfo weight="1" dropid="8100094"/>
+	</droplist>
+	<droplist droplistid="552064" name="土著boss7">
+		<dropinfo weight="1" dropid="8100104"/>
+	</droplist>
+	<droplist droplistid="552071" name="土著boss8">
+		<dropinfo weight="1" dropid="8100075"/>
+	</droplist>
+	<droplist droplistid="552072" name="土著boss8">
+		<dropinfo weight="1" dropid="8100085"/>
+	</droplist>
+	<droplist droplistid="552073" name="土著boss8">
+		<dropinfo weight="1" dropid="8100095"/>
+	</droplist>
+	<droplist droplistid="552074" name="土著boss8">
+		<dropinfo weight="1" dropid="8100105"/>
+	</droplist>
+	<droplist droplistid="552081" name="土著boss9">
+		<dropinfo weight="1" dropid="8100076"/>
+	</droplist>
+	<droplist droplistid="552082" name="土著boss9">
+		<dropinfo weight="1" dropid="8100086"/>
+	</droplist>
+	<droplist droplistid="552083" name="土著boss9">
+		<dropinfo weight="1" dropid="8100096"/>
+	</droplist>
+	<droplist droplistid="552084" name="土著boss9">
+		<dropinfo weight="1" dropid="8100106"/>
+	</droplist>
+	<droplist droplistid="552091" name="土著boss10">
+		<dropinfo weight="1" dropid="8100077"/>
+	</droplist>
+	<droplist droplistid="552092" name="土著boss10">
+		<dropinfo weight="1" dropid="8100087"/>
+	</droplist>
+	<droplist droplistid="552093" name="土著boss10">
+		<dropinfo weight="1" dropid="8100097"/>
+	</droplist>
+	<droplist droplistid="552094" name="土著boss10">
+		<dropinfo weight="1" dropid="8100107"/>
+	</droplist>
+</Root>

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<root>
+	<!--
+openlev 功能开放等级
+total_fightnum 每日最大挑战次数
+cooltime 每次挑战增加的冷却时间，单位秒
+max_cooltime 最大冷却时间，单位秒
+rank 排名
+step_rank 排名显示的阶梯
+fight_emoney 增加挑战次数消耗的元宝
+cooltime_emoney 每减少1分钟的冷却时间消耗的元宝
+moeny 整点给予的银两奖励
+honor 整点给予的荣誉奖励
+damage_co伤害系数
+random最终扣除血量的上下浮动系数
+-->
+	<functionid functionid="418"/>
+	<arena designid="12" design_time="86400" total_fightnum="10" cooltime="300" cooltime_emoney="20"/>
+	<!--sceneid场景模板id，posx屏幕中心点X，posy屏幕中心点Y，cooltime倒数时间，moeny整点给予的银两奖励，honor整点给予的荣誉奖励，type攻守方=1左边、=2右边，posx出生点X，posy出生点Y，toward朝向，target_posx目标点X，target_posy目标点Y-->
+	<fight sceneid="8503" posx="27" posy="34" cooltime="5">
+		<fightinfo type="1" posx="27" posy="19" target_posx="28" target_posy="29" toward="3"/>
+		<fightinfo type="2" posx="27" posy="44" target_posx="28" target_posy="35" toward="1"/>
+	</fight>
+	<!--startrandk起始排名，endrank结束排名，money银两，exp经验，honor荣誉值-->
+	<arena_reward>
+		<arenainfo rankid="1" startrandk="1" endrank="1" honor="2000" exp="5000000" money="4000000"/>
+		<arenainfo rankid="2" startrandk="2" endrank="3" honor="1500" exp="3000000" money="2000000"/>
+		<arenainfo rankid="3" startrandk="4" endrank="9" honor="1000" exp="1500000" money="1000000"/>
+		<arenainfo rankid="4" startrandk="10" endrank="20" honor="800" exp="500000" money="500000"/>
+		<arenainfo rankid="5" startrandk="21" endrank="50" honor="600" exp="300000" money="400000"/>
+		<arenainfo rankid="6" startrandk="51" endrank="100" honor="500" exp="200000" money="300000"/>
+		<arenainfo rankid="7" startrandk="101" endrank="999999" honor="400" exp="100000" money="200000"/>
+	</arena_reward>
+	<!--type胜负类型：=1胜利、=2失败，userlev角色等级，exp经验，honor荣誉值-->
+	<fight_reward>
+		<fightinfo type="1" userlev="30" exp="60000" honor="20"/>
+		<fightinfo type="1" userlev="31" exp="62000" honor="20"/>
+		<fightinfo type="1" userlev="32" exp="64000" honor="20"/>
+		<fightinfo type="1" userlev="33" exp="66000" honor="20"/>
+		<fightinfo type="1" userlev="34" exp="68000" honor="20"/>
+		<fightinfo type="1" userlev="35" exp="70000" honor="20"/>
+		<fightinfo type="1" userlev="36" exp="72000" honor="20"/>
+		<fightinfo type="1" userlev="37" exp="74000" honor="20"/>
+		<fightinfo type="1" userlev="38" exp="76000" honor="20"/>
+		<fightinfo type="1" userlev="39" exp="78000" honor="20"/>
+		<fightinfo type="1" userlev="40" exp="80000" honor="20"/>
+		<fightinfo type="1" userlev="41" exp="82000" honor="20"/>
+		<fightinfo type="1" userlev="42" exp="84000" honor="20"/>
+		<fightinfo type="1" userlev="43" exp="86000" honor="20"/>
+		<fightinfo type="1" userlev="44" exp="88000" honor="20"/>
+		<fightinfo type="1" userlev="45" exp="90000" honor="20"/>
+		<fightinfo type="1" userlev="46" exp="92000" honor="20"/>
+		<fightinfo type="1" userlev="47" exp="94000" honor="20"/>
+		<fightinfo type="1" userlev="48" exp="96000" honor="20"/>
+		<fightinfo type="1" userlev="49" exp="98000" honor="20"/>
+		<fightinfo type="1" userlev="50" exp="100000" honor="20"/>
+		<fightinfo type="1" userlev="51" exp="102000" honor="20"/>
+		<fightinfo type="1" userlev="52" exp="104000" honor="20"/>
+		<fightinfo type="1" userlev="53" exp="106000" honor="20"/>
+		<fightinfo type="1" userlev="54" exp="108000" honor="20"/>
+		<fightinfo type="1" userlev="55" exp="110000" honor="20"/>
+		<fightinfo type="1" userlev="56" exp="112000" honor="20"/>
+		<fightinfo type="1" userlev="57" exp="114000" honor="20"/>
+		<fightinfo type="1" userlev="58" exp="116000" honor="20"/>
+		<fightinfo type="1" userlev="59" exp="118000" honor="20"/>
+		<fightinfo type="1" userlev="60" exp="120000" honor="20"/>
+		<fightinfo type="1" userlev="61" exp="122000" honor="20"/>
+		<fightinfo type="1" userlev="62" exp="124000" honor="20"/>
+		<fightinfo type="1" userlev="63" exp="126000" honor="20"/>
+		<fightinfo type="1" userlev="64" exp="128000" honor="20"/>
+		<fightinfo type="1" userlev="65" exp="130000" honor="20"/>
+		<fightinfo type="1" userlev="66" exp="132000" honor="20"/>
+		<fightinfo type="1" userlev="67" exp="134000" honor="20"/>
+		<fightinfo type="1" userlev="68" exp="136000" honor="20"/>
+		<fightinfo type="1" userlev="69" exp="138000" honor="20"/>
+		<fightinfo type="1" userlev="70" exp="140000" honor="20"/>
+		<fightinfo type="1" userlev="71" exp="142000" honor="20"/>
+		<fightinfo type="1" userlev="72" exp="144000" honor="20"/>
+		<fightinfo type="1" userlev="73" exp="146000" honor="20"/>
+		<fightinfo type="1" userlev="74" exp="148000" honor="20"/>
+		<fightinfo type="1" userlev="75" exp="150000" honor="20"/>
+		<fightinfo type="1" userlev="76" exp="152000" honor="20"/>
+		<fightinfo type="1" userlev="77" exp="154000" honor="20"/>
+		<fightinfo type="1" userlev="78" exp="156000" honor="20"/>
+		<fightinfo type="1" userlev="79" exp="158000" honor="20"/>
+		<fightinfo type="1" userlev="80" exp="160000" honor="20"/>
+		<fightinfo type="1" userlev="81" exp="162000" honor="20"/>
+		<fightinfo type="1" userlev="82" exp="164000" honor="20"/>
+		<fightinfo type="1" userlev="83" exp="166000" honor="20"/>
+		<fightinfo type="1" userlev="84" exp="168000" honor="20"/>
+		<fightinfo type="1" userlev="85" exp="170000" honor="20"/>
+		<fightinfo type="1" userlev="86" exp="172000" honor="20"/>
+		<fightinfo type="1" userlev="87" exp="174000" honor="20"/>
+		<fightinfo type="1" userlev="88" exp="176000" honor="20"/>
+		<fightinfo type="1" userlev="89" exp="178000" honor="20"/>
+		<fightinfo type="1" userlev="90" exp="180000" honor="20"/>
+		<fightinfo type="1" userlev="91" exp="182000" honor="20"/>
+		<fightinfo type="1" userlev="92" exp="184000" honor="20"/>
+		<fightinfo type="1" userlev="93" exp="186000" honor="20"/>
+		<fightinfo type="1" userlev="94" exp="188000" honor="20"/>
+		<fightinfo type="1" userlev="95" exp="190000" honor="20"/>
+		<fightinfo type="1" userlev="96" exp="192000" honor="20"/>
+		<fightinfo type="1" userlev="97" exp="194000" honor="20"/>
+		<fightinfo type="1" userlev="98" exp="196000" honor="20"/>
+		<fightinfo type="1" userlev="99" exp="198000" honor="20"/>
+		<fightinfo type="1" userlev="100" exp="200000" honor="20"/>
+		<fightinfo type="1" userlev="101" exp="202000" honor="20"/>
+		<fightinfo type="1" userlev="102" exp="204000" honor="20"/>
+		<fightinfo type="1" userlev="103" exp="206000" honor="20"/>
+		<fightinfo type="1" userlev="104" exp="208000" honor="20"/>
+		<fightinfo type="1" userlev="105" exp="210000" honor="20"/>
+		<fightinfo type="1" userlev="106" exp="212000" honor="20"/>
+		<fightinfo type="1" userlev="107" exp="214000" honor="20"/>
+		<fightinfo type="1" userlev="108" exp="216000" honor="20"/>
+		<fightinfo type="1" userlev="109" exp="218000" honor="20"/>
+		<fightinfo type="1" userlev="110" exp="220000" honor="20"/>
+		<fightinfo type="1" userlev="111" exp="222000" honor="20"/>
+		<fightinfo type="1" userlev="112" exp="224000" honor="20"/>
+		<fightinfo type="1" userlev="113" exp="226000" honor="20"/>
+		<fightinfo type="1" userlev="114" exp="228000" honor="20"/>
+		<fightinfo type="1" userlev="115" exp="230000" honor="20"/>
+		<fightinfo type="1" userlev="116" exp="232000" honor="20"/>
+		<fightinfo type="1" userlev="117" exp="234000" honor="20"/>
+		<fightinfo type="1" userlev="118" exp="236000" honor="20"/>
+		<fightinfo type="1" userlev="119" exp="238000" honor="20"/>
+		<fightinfo type="1" userlev="120" exp="240000" honor="20"/>
+		<fightinfo type="1" userlev="121" exp="242000" honor="20"/>
+		<fightinfo type="1" userlev="122" exp="244000" honor="20"/>
+		<fightinfo type="1" userlev="123" exp="246000" honor="20"/>
+		<fightinfo type="1" userlev="124" exp="248000" honor="20"/>
+		<fightinfo type="1" userlev="125" exp="250000" honor="20"/>
+		<fightinfo type="1" userlev="126" exp="252000" honor="20"/>
+		<fightinfo type="1" userlev="127" exp="254000" honor="20"/>
+		<fightinfo type="1" userlev="128" exp="256000" honor="20"/>
+		<fightinfo type="1" userlev="129" exp="258000" honor="20"/>
+		<fightinfo type="1" userlev="130" exp="260000" honor="20"/>
+		<fightinfo type="1" userlev="131" exp="262000" honor="20"/>
+		<fightinfo type="1" userlev="132" exp="264000" honor="20"/>
+		<fightinfo type="1" userlev="133" exp="266000" honor="20"/>
+		<fightinfo type="1" userlev="134" exp="268000" honor="20"/>
+		<fightinfo type="1" userlev="135" exp="270000" honor="20"/>
+		<fightinfo type="1" userlev="136" exp="272000" honor="20"/>
+		<fightinfo type="1" userlev="137" exp="274000" honor="20"/>
+		<fightinfo type="1" userlev="138" exp="276000" honor="20"/>
+		<fightinfo type="1" userlev="139" exp="278000" honor="20"/>
+		<fightinfo type="1" userlev="140" exp="280000" honor="20"/>
+		<fightinfo type="2" userlev="30" exp="30000" honor="10"/>
+		<fightinfo type="2" userlev="31" exp="31000" honor="10"/>
+		<fightinfo type="2" userlev="32" exp="32000" honor="10"/>
+		<fightinfo type="2" userlev="33" exp="33000" honor="10"/>
+		<fightinfo type="2" userlev="34" exp="34000" honor="10"/>
+		<fightinfo type="2" userlev="35" exp="35000" honor="10"/>
+		<fightinfo type="2" userlev="36" exp="36000" honor="10"/>
+		<fightinfo type="2" userlev="37" exp="37000" honor="10"/>
+		<fightinfo type="2" userlev="38" exp="38000" honor="10"/>
+		<fightinfo type="2" userlev="39" exp="39000" honor="10"/>
+		<fightinfo type="2" userlev="40" exp="40000" honor="10"/>
+		<fightinfo type="2" userlev="41" exp="41000" honor="10"/>
+		<fightinfo type="2" userlev="42" exp="42000" honor="10"/>
+		<fightinfo type="2" userlev="43" exp="43000" honor="10"/>
+		<fightinfo type="2" userlev="44" exp="44000" honor="10"/>
+		<fightinfo type="2" userlev="45" exp="45000" honor="10"/>
+		<fightinfo type="2" userlev="46" exp="46000" honor="10"/>
+		<fightinfo type="2" userlev="47" exp="47000" honor="10"/>
+		<fightinfo type="2" userlev="48" exp="48000" honor="10"/>
+		<fightinfo type="2" userlev="49" exp="49000" honor="10"/>
+		<fightinfo type="2" userlev="50" exp="50000" honor="10"/>
+		<fightinfo type="2" userlev="51" exp="51000" honor="10"/>
+		<fightinfo type="2" userlev="52" exp="52000" honor="10"/>
+		<fightinfo type="2" userlev="53" exp="53000" honor="10"/>
+		<fightinfo type="2" userlev="54" exp="54000" honor="10"/>
+		<fightinfo type="2" userlev="55" exp="55000" honor="10"/>
+		<fightinfo type="2" userlev="56" exp="56000" honor="10"/>
+		<fightinfo type="2" userlev="57" exp="57000" honor="10"/>
+		<fightinfo type="2" userlev="58" exp="58000" honor="10"/>
+		<fightinfo type="2" userlev="59" exp="59000" honor="10"/>
+		<fightinfo type="2" userlev="60" exp="60000" honor="10"/>
+		<fightinfo type="2" userlev="61" exp="61000" honor="10"/>
+		<fightinfo type="2" userlev="62" exp="62000" honor="10"/>
+		<fightinfo type="2" userlev="63" exp="63000" honor="10"/>
+		<fightinfo type="2" userlev="64" exp="64000" honor="10"/>
+		<fightinfo type="2" userlev="65" exp="65000" honor="10"/>
+		<fightinfo type="2" userlev="66" exp="66000" honor="10"/>
+		<fightinfo type="2" userlev="67" exp="67000" honor="10"/>
+		<fightinfo type="2" userlev="68" exp="68000" honor="10"/>
+		<fightinfo type="2" userlev="69" exp="69000" honor="10"/>
+		<fightinfo type="2" userlev="70" exp="70000" honor="10"/>
+		<fightinfo type="2" userlev="71" exp="71000" honor="10"/>
+		<fightinfo type="2" userlev="72" exp="72000" honor="10"/>
+		<fightinfo type="2" userlev="73" exp="73000" honor="10"/>
+		<fightinfo type="2" userlev="74" exp="74000" honor="10"/>
+		<fightinfo type="2" userlev="75" exp="75000" honor="10"/>
+		<fightinfo type="2" userlev="76" exp="76000" honor="10"/>
+		<fightinfo type="2" userlev="77" exp="77000" honor="10"/>
+		<fightinfo type="2" userlev="78" exp="78000" honor="10"/>
+		<fightinfo type="2" userlev="79" exp="79000" honor="10"/>
+		<fightinfo type="2" userlev="80" exp="80000" honor="10"/>
+		<fightinfo type="2" userlev="81" exp="81000" honor="10"/>
+		<fightinfo type="2" userlev="82" exp="82000" honor="10"/>
+		<fightinfo type="2" userlev="83" exp="83000" honor="10"/>
+		<fightinfo type="2" userlev="84" exp="84000" honor="10"/>
+		<fightinfo type="2" userlev="85" exp="85000" honor="10"/>
+		<fightinfo type="2" userlev="86" exp="86000" honor="10"/>
+		<fightinfo type="2" userlev="87" exp="87000" honor="10"/>
+		<fightinfo type="2" userlev="88" exp="88000" honor="10"/>
+		<fightinfo type="2" userlev="89" exp="89000" honor="10"/>
+		<fightinfo type="2" userlev="90" exp="90000" honor="10"/>
+		<fightinfo type="2" userlev="91" exp="91000" honor="10"/>
+		<fightinfo type="2" userlev="92" exp="92000" honor="10"/>
+		<fightinfo type="2" userlev="93" exp="93000" honor="10"/>
+		<fightinfo type="2" userlev="94" exp="94000" honor="10"/>
+		<fightinfo type="2" userlev="95" exp="95000" honor="10"/>
+		<fightinfo type="2" userlev="96" exp="96000" honor="10"/>
+		<fightinfo type="2" userlev="97" exp="97000" honor="10"/>
+		<fightinfo type="2" userlev="98" exp="98000" honor="10"/>
+		<fightinfo type="2" userlev="99" exp="99000" honor="10"/>
+		<fightinfo type="2" userlev="100" exp="100000" honor="10"/>
+		<fightinfo type="2" userlev="101" exp="101000" honor="10"/>
+		<fightinfo type="2" userlev="102" exp="102000" honor="10"/>
+		<fightinfo type="2" userlev="103" exp="103000" honor="10"/>
+		<fightinfo type="2" userlev="104" exp="104000" honor="10"/>
+		<fightinfo type="2" userlev="105" exp="105000" honor="10"/>
+		<fightinfo type="2" userlev="106" exp="106000" honor="10"/>
+		<fightinfo type="2" userlev="107" exp="107000" honor="10"/>
+		<fightinfo type="2" userlev="108" exp="108000" honor="10"/>
+		<fightinfo type="2" userlev="109" exp="109000" honor="10"/>
+		<fightinfo type="2" userlev="110" exp="110000" honor="10"/>
+		<fightinfo type="2" userlev="111" exp="111000" honor="10"/>
+		<fightinfo type="2" userlev="112" exp="112000" honor="10"/>
+		<fightinfo type="2" userlev="113" exp="113000" honor="10"/>
+		<fightinfo type="2" userlev="114" exp="114000" honor="10"/>
+		<fightinfo type="2" userlev="115" exp="115000" honor="10"/>
+		<fightinfo type="2" userlev="116" exp="116000" honor="10"/>
+		<fightinfo type="2" userlev="117" exp="117000" honor="10"/>
+		<fightinfo type="2" userlev="118" exp="118000" honor="10"/>
+		<fightinfo type="2" userlev="119" exp="119000" honor="10"/>
+		<fightinfo type="2" userlev="120" exp="120000" honor="10"/>
+		<fightinfo type="2" userlev="121" exp="121000" honor="10"/>
+		<fightinfo type="2" userlev="122" exp="122000" honor="10"/>
+		<fightinfo type="2" userlev="123" exp="123000" honor="10"/>
+		<fightinfo type="2" userlev="124" exp="124000" honor="10"/>
+		<fightinfo type="2" userlev="125" exp="125000" honor="10"/>
+		<fightinfo type="2" userlev="126" exp="126000" honor="10"/>
+		<fightinfo type="2" userlev="127" exp="127000" honor="10"/>
+		<fightinfo type="2" userlev="128" exp="128000" honor="10"/>
+		<fightinfo type="2" userlev="129" exp="129000" honor="10"/>
+		<fightinfo type="2" userlev="130" exp="130000" honor="10"/>
+		<fightinfo type="2" userlev="131" exp="131000" honor="10"/>
+		<fightinfo type="2" userlev="132" exp="132000" honor="10"/>
+		<fightinfo type="2" userlev="133" exp="133000" honor="10"/>
+		<fightinfo type="2" userlev="134" exp="134000" honor="10"/>
+		<fightinfo type="2" userlev="135" exp="135000" honor="10"/>
+		<fightinfo type="2" userlev="136" exp="136000" honor="10"/>
+		<fightinfo type="2" userlev="137" exp="137000" honor="10"/>
+		<fightinfo type="2" userlev="138" exp="138000" honor="10"/>
+		<fightinfo type="2" userlev="139" exp="139000" honor="10"/>
+		<fightinfo type="2" userlev="140" exp="140000" honor="10"/>
+	</fight_reward>
+	<!--noheaven没有法宝时的伤害系数 heavenid天道id，damage_co提高的系数
+	<heaven noheaven="0.71">
+		<heaveninfo heavenid="1" damage_co="0.85"/>
+		<heaveninfo heavenid="2" damage_co="0.86"/>
+		<heaveninfo heavenid="3" damage_co="0.87"/>
+		<heaveninfo heavenid="4" damage_co="0.88"/>
+		<heaveninfo heavenid="5" damage_co="0.9"/>
+		<heaveninfo heavenid="6" damage_co="0.93"/>
+		<heaveninfo heavenid="7" damage_co="0.96"/>
+		<heaveninfo heavenid="8" damage_co="1"/>
+	</heaven>-->
+	<!--xnfaid天道id，damage_co降低的系数
+	<xinfa>
+		<xinfainfo xnfaid="1" damage_co="0.02"/>
+		<xinfainfo xnfaid="2" damage_co="0.02"/>
+		<xinfainfo xnfaid="3" damage_co="0.02"/>
+		<xinfainfo xnfaid="4" damage_co="0.02"/>
+		<xinfainfo xnfaid="5" damage_co="0.02"/>
+		<xinfainfo xnfaid="6" damage_co="0.02"/>
+		<xinfainfo xnfaid="7" damage_co="0.02"/>
+	</xinfa>-->
+	<!--
+  <robot_rank minrank="1" maxrank="3" name="世界境" fight="110000" heavenid="8" xnfalayer="8" lv="120" hp="8000" crit="100" toughness="100">
+    <robot character="0" realmavatar="2000001" bodyavatar="2000010" weaponavatar="2000011" heavenavatar="2000008" clockavatar="2000004" skill="81,82,83,84"/>
+    <robot character="1" realmavatar="2000001" bodyavatar="2000010" weaponavatar="2000011" heavenavatar="2000008" clockavatar="2000004" skill="85,86,87,88"/>
+  </robot_rank>
+  <robot_rank minrank="4" maxrank="10" name="祖仙" fight="100000" heavenid="7" xnfalayer="7" lv="110" hp="8000" crit="100" toughness="100">
+    <robot character="0" realmavatar="2000001" bodyavatar="2000009" weaponavatar="2000010" heavenavatar="2000007" clockavatar="2000003" skill="81,82,83,84"/>
+    <robot character="1" realmavatar="2000001" bodyavatar="2000009" weaponavatar="2000010" heavenavatar="2000007" clockavatar="2000003" skill="85,86,87,88"/>
+  </robot_rank>
+  <robot_rank minrank="11" maxrank="20" name="真仙" fight="+0000" heavenid="6" xnfalayer="6" lv="100" hp="8000" crit="100" toughness="100">
+    <robot character="0" realmavatar="2000001" bodyavatar="2000008" weaponavatar="2000009" heavenavatar="2000006" clockavatar="2000003" skill="81,82,83,84"/>
+    <robot character="1" realmavatar="2000001" bodyavatar="2000008" weaponavatar="2000009" heavenavatar="2000006" clockavatar="2000003" skill="85,86,87,88"/>
+  </robot_rank>
+  <robot_rank minrank="21" maxrank="30" name="天仙" fight="80000" heavenid="5" xnfalayer="5" lv="90" hp="8000" crit="100" toughness="100">
+    <robot character="0" realmavatar="2000001" bodyavatar="2000007" weaponavatar="2000008" heavenavatar="2000005" clockavatar="2000002" skill="81,82,83,84"/>
+    <robot character="1" realmavatar="2000001" bodyavatar="2000007" weaponavatar="2000008" heavenavatar="2000005" clockavatar="2000002" skill="85,86,87,88"/>
+  </robot_rank>
+minrank	竞技场排名最低排名
+maxrank	竞技场排名最高排名
+robotid	该区间内，随机选取配置中的机器人放入竞技场排名中 ，支持多个，用“，”隔开
+robotid	机器人的id
+name	竞技场机器人的名称
+fight	竞技场机器人的战斗力
+heavenid	竞技场机器人携带的法宝id，不填表示没有携带法宝
+xnfalayer	竞技场机器人法宝心法层级
+不论对方是携带何种法宝，都取该值为对应法宝的心法层级
+若对方不携带法宝，对应层级=0
+lv	竞技场机器人的等级
+hp	竞技场机器人的气血
+crit	竞技场机器人的暴击值
+toughness	竞技场机器人的韧性值
+coercion	竞技场机器人的威压值
+realmavatar竞技场机器人的境界称号，不填表示没有境界称号
+bodyavatar	竞技场机器人的身体外观
+profession	表示机器人的职业id，影响角色的外观形象
+weaponavatar	竞技场机器人的神兵外观，不填表示没有武器外观
+heavenavatar	竞技场机器人的法宝外观，不填表示没有法宝外观
+clockavatar	竞技场机器人的披风外观，不填表示没有披风外观
+wingavatar	竞技场机器人的羽翼外观，不填表示没有羽翼外观
+skill	竞技场机器人会释放的技能集合，支持多个，用“，”隔开
+  -->
+	<robot_rank minrank="1" maxrank="3" robotid="1,2"/>
+	<robot_rank minrank="4" maxrank="10" robotid="3,4"/>
+	<robot_rank minrank="11" maxrank="20" robotid="5,6"/>
+	<robot_rank minrank="21" maxrank="40" robotid="7,8"/>
+	<robot_rank minrank="41" maxrank="70" robotid="9,10"/>
+	<robot_rank minrank="71" maxrank="100" robotid="11,12"/>
+	<guard guardrobot="12"/>
+	<robot robotid="1" name="半神高手" fight="300000" heavenid="" xnfalayer="4" lv="80" hp="200000" crit="100" toughness="100" coercion="4000" profession="0" realm="9" stage="7" bodyavatar="2000010" wingavatar="" weaponavatar="2000009" heavenavatar="" clockavatar="2000002" skill="10010,11010"/>
+	<robot robotid="2" name="半神豪杰" fight="200000" heavenid="" xnfalayer="4" lv="80" hp="150000" crit="100" toughness="100" coercion="4000" profession="1" realm="9" stage="2" bodyavatar="2000010" wingavatar="" weaponavatar="2000009" heavenavatar="" clockavatar="2000002" skill="20010,21010"/>
+	<robot robotid="3" name="圣级高手" fight="150000" heavenid="" xnfalayer="3" lv="70" hp="120000" crit="100" toughness="100" coercion="4000" profession="0" realm="8" stage="5" bodyavatar="2000010" wingavatar="" weaponavatar="2000009" heavenavatar="" clockavatar="2000001" skill="10010,11010"/>
+	<robot robotid="4" name="圣级豪杰" fight="120000" heavenid="" xnfalayer="3" lv="70" hp="100000" crit="100" toughness="100" coercion="3000" profession="1" realm="8" stage="2" bodyavatar="2000009" wingavatar="" weaponavatar="2000005" heavenavatar="" clockavatar="2000001" skill="20010,21010"/>
+	<robot robotid="5" name="飞天高手" fight="100000" heavenid="" xnfalayer="2" lv="60" hp="80000" crit="100" toughness="100" coercion="3000" profession="0" realm="7" stage="4" bodyavatar="2000009" wingavatar="" weaponavatar="2000005" heavenavatar="" clockavatar="2000001" skill="10010,11010"/>
+	<robot robotid="6" name="飞天豪杰" fight="80000" heavenid="" xnfalayer="2" lv="60" hp="50000" crit="100" toughness="100" coercion="3000" profession="1" realm="7" stage="1" bodyavatar="2000009" wingavatar="" weaponavatar="2000005" heavenavatar="" clockavatar="2000001" skill="20010,21010"/>
+	<robot robotid="7" name="称号高手" fight="50000" heavenid="" xnfalayer="1" lv="50" hp="30000" crit="100" toughness="100" coercion="2000" profession="0" realm="6" stage="3" bodyavatar="2000008" wingavatar="" weaponavatar="2000008" heavenavatar="" clockavatar="" skill="10010,11010"/>
+	<robot robotid="8" name="银月高手" fight="30000" heavenid="" xnfalayer="1" lv="50" hp="15000" crit="100" toughness="100" coercion="2000" profession="1" realm="5" stage="3" bodyavatar="2000008" wingavatar="" weaponavatar="2000001" heavenavatar="" clockavatar="" skill="20010,21010"/>
+	<robot robotid="9" name="流星豪杰" fight="15000" heavenid="" xnfalayer="1" lv="40" hp="12000" crit="100" toughness="100" coercion="2000" profession="0" realm="4" stage="3" bodyavatar="2000008" wingavatar="" weaponavatar="2000008" heavenavatar="" clockavatar="" skill="10010,11010"/>
+	<robot robotid="10" name="天阶高手" fight="8000" heavenid="" xnfalayer="1" lv="40" hp="8000" crit="100" toughness="100" coercion="1000" profession="1" realm="3" stage="2" bodyavatar="2000007" wingavatar="" weaponavatar="2000005" heavenavatar="" clockavatar="" skill="20010,21010"/>
+	<robot robotid="11" name="地阶豪杰" fight="5000" heavenid="" xnfalayer="0" lv="30" hp="5000" crit="100" toughness="100" coercion="1000" profession="0" realm="2" stage="2" bodyavatar="2000007" wingavatar="" weaponavatar="2000005" heavenavatar="" clockavatar="" skill="10010,11010"/>
+	<robot robotid="12" name="人阶新手" fight="2000" heavenid="" xnfalayer="0" lv="30" hp="2000" crit="100" toughness="100" coercion="1000" profession="1" realm="1" stage="1" bodyavatar="2000007" wingavatar="" weaponavatar="2000005" heavenavatar="" clockavatar="" skill="20010,21010"/>
+	<vip lv="1" time="1" emoney="20"/>
+	<vip lv="2" time="2" emoney="20"/>
+	<vip lv="3" time="3" emoney="20"/>
+	<vip lv="4" time="4" emoney="20"/>
+	<vip lv="5" time="5" emoney="20"/>
+	<vip lv="6" time="6" emoney="20"/>
+	<vip lv="7" time="7" emoney="20"/>
+	<vip lv="8" time="8" emoney="20"/>
+	<vip lv="9" time="9" emoney="20"/>
+	<vip lv="10" time="10" emoney="20"/>
+	<rankup ranklim="1" rankmax="10" emoney="100" mail="100"/>
+	<rankup ranklim="11" rankmax="20" emoney="50" mail="100"/>
+	<rankup ranklim="21" rankmax="50" emoney="20" mail="100"/>
+	<rankup ranklim="51" rankmax="100" emoney="5" mail="100"/>
+	<rankup ranklim="101" rankmax="200" emoney="2" mail="100"/>
+	<rankup ranklim="201" rankmax="500" emoney="1" mail="100"/>
+</root>

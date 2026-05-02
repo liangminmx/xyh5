@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+functionid	功能id			
+danyaoid	丹药id			
+name	丹药名字			
+icon	图标id			
+type	丹药属性类型			
+parameter	单次使用获得属性数值			
+itemcost	单次消耗道具id			
+level	角色等级			
+cishu	使用次数上限	
+cishulimit 使用次数区间					
+num	对应使用次数区间单次消耗道具数量			
+		
+
+
+
+-->
+	<function functionid="2007"/>
+	<danyao danyaoid="1" name="气血丹" icon="1" type="101" parameter="1488" itemcost="14060001"/>
+	<danyao danyaoid="2" name="攻击丹" icon="2" type="102" parameter="124" itemcost="14060002"/>
+	<danyao danyaoid="3" name="防御丹" icon="3" type="103" parameter="62" itemcost="14060003"/>
+	<danyao danyaoid="4" name="速度丹" icon="4" type="104" parameter="1" itemcost="14060004"/>
+	<danyao danyaoid="5" name="闪避丹" icon="5" type="108" parameter="20" itemcost="14060005"/>
+	<danyao danyaoid="6" name="爆击丹" icon="6" type="106" parameter="20" itemcost="14060006"/>
+	<danyao danyaoid="7" name="伤害丹" icon="7" type="110" parameter="20" itemcost="14060007"/>
+	<danyao danyaoid="8" name="免伤丹" icon="8" type="111" parameter="20" itemcost="14060008"/>
+	<lev level="0,59" cishu="0"/>
+	<lev level="60,79" cishu="100"/>
+	<lev level="80,99" cishu="200"/>
+	<lev level="100,119" cishu="400"/>
+	<lev level="120,139" cishu="1000"/>
+	<lev level="140,159" cishu="2000"/>
+	<lev level="160,999" cishu="4000"/>
+	<num cishulimit="0,4000" num="1"/>
+</root>

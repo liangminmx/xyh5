@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+function
+	functionid	活动开启条件	关联function.xml
+	icon	图标id
+card
+	id	月卡类型	=1月卡 =2周卡 =3终身卡  必须关联recharge.xml表no字段
+	duration	持续时间	单位天数
+	day_limit	最大可购买的累计天数	超过累计天数后不允许继续购买
+	emoney_cash	购买立即获得的元宝	购买成功立即获得的元宝数量
+	coin_type	每日可领取货币类型	coin_type=1为元宝 coin_type=2为绑定元宝
+	coin_count	货币数量	
+eff
+	type	效果类型	e=1增加收益可累计的时间 =2挂机基础经验收益增加万分比 =3挂机基础银两收益增加万分比 =4装备容量扩充 =5战斗中降低受到的伤害 万分比
+	param	效果参数	不同类型对应参数
+cost
+	count	当前购买次数	允许填写单次次数和次数段
+	rmb	当前次数对应的消耗人民币	
+
+
+-->
+	<function functionid="2043" icon="2043"/>
+	<type id="1" duration="30" day_limit="365" emoney_cash="3000" coin_type="1" coin_count="1000">
+		<eff type="1,2,3,4" param="14400,3000,3000,100"/>
+		<cost count="1" rmb="26"/>
+		<cost count="2" rmb="24"/>
+		<cost count="3" rmb="22"/>
+		<cost count="4" rmb="20"/>
+		<cost count="5" rmb="18"/>
+		<cost count="6,99999" rmb="16"/>
+	</type>
+	<function functionid="2044" icon="2044"/>
+	<type id="2" duration="7" day_limit="60" emoney_cash="2000" coin_type="2" coin_count="5000">
+		<eff type="1,2,3,4" param="10800,2000,2000,50"/>
+		<cost count="1" rmb="16"/>
+		<cost count="2" rmb="15"/>
+		<cost count="3" rmb="14"/>
+		<cost count="4" rmb="13"/>
+		<cost count="5" rmb="12"/>
+		<cost count="6" rmb="11"/>
+		<cost count="7,99999" rmb="10"/>
+	</type>
+	<function functionid="2066" icon="2066"/>
+	<type id="3" emoney_cash="10000" coin_type="1" coin_count="2000">
+		<eff type="3,4,5" param="5000,100,1000"/>
+		<cost count="1" rmb="98"/>
+	</type>
+</root>

@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+functionid	功能id
+meetjilv	单次挂机战斗触发抓宠概率（万分比）
+	
+	
+mapid	地图id（）
+petbank	对应宠物库
+limitmeet	遇宠触发上限次数
+	
+arrest	抓捕次数区间，逗号隔开
+arresttime	抓捕时间CD（分钟）
+	
+petbank	宠物库
+zhandouid	战斗id
+success	抓捕成功几率（万分比）
+weight	该战斗权重
+itemid	道具id
+num	道具数量		
+
+
+-->
+	<fuction function="2333" meetjilv="200"/>
+	<map mapid="20001" petbank="1" limitmeet="10"/>
+	<map mapid="20002" petbank="2" limitmeet="10"/>
+	<map mapid="20003" petbank="3" limitmeet="10"/>
+	<map mapid="20004" petbank="4" limitmeet="10"/>
+	<map mapid="20005" petbank="5" limitmeet="10"/>
+	<map mapid="20006" petbank="6" limitmeet="10"/>
+	<map mapid="20007" petbank="7" limitmeet="10"/>
+	<map mapid="20008" petbank="8" limitmeet="10"/>
+	<map mapid="20009" petbank="9" limitmeet="10"/>
+	<map mapid="20010" petbank="10" limitmeet="10"/>
+	<map mapid="20011" petbank="11" limitmeet="10"/>
+	<map mapid="20012" petbank="12" limitmeet="10"/>
+	<map mapid="20013" petbank="13" limitmeet="10"/>
+	<map mapid="20014" petbank="14" limitmeet="10"/>
+	<arrest arrest="0" arresttime="0"/>
+	<arrest arrest="1" arresttime="10"/>
+	<arrest arrest="2" arresttime="15"/>
+	<arrest arrest="3" arresttime="20"/>
+	<arrest arrest="4" arresttime="25"/>
+	<arrest arrest="5" arresttime="30"/>
+	<arrest arrest="6" arresttime="60"/>
+	<arrest arrest="7" arresttime="60"/>
+	<arrest arrest="8" arresttime="90"/>
+	<arrest arrest="9" arresttime="90"/>
+	<arrest arrest="10" arresttime="120"/>
+	<bank petbank="1">
+		<pet zhandouid="160010001" success="10000" weight="10000" itemid="12010002" num="1"/>
+		<pet zhandouid="160011001" success="10000" weight="10000" itemid="12020003" num="1"/>
+		<pet zhandouid="160012001" success="10000" weight="10000" itemid="12020037" num="1"/>
+		<pet zhandouid="160013001" success="10000" weight="10000" itemid="12020038" num="1"/>
+	</bank>
+	<bank petbank="2">
+		<pet zhandouid="160010001" success="10000" weight="10000" itemid="12010002" num="1"/>
+		<pet zhandouid="160011001" success="10000" weight="10000" itemid="12020003" num="1"/>
+		<pet zhandouid="160012001" success="10000" weight="10000" itemid="12020037" num="1"/>
+		<pet zhandouid="160013001" success="10000" weight="10000" itemid="12020038" num="1"/>
+		<pet zhandouid="160014001" success="10000" weight="9000" itemid="12020004" num="1"/>
+		<pet zhandouid="160015001" success="10000" weight="9000" itemid="12030005" num="1"/>
+		<pet zhandouid="160016001" success="10000" weight="9000" itemid="12020039" num="1"/>
+		<pet zhandouid="160017001" success="10000" weight="9000" itemid="12020040" num="1"/>
+	</bank>
+	<bank petbank="3">
+		<pet zhandouid="160010001" success="10000" weight="10000" itemid="12010002" num="1"/>
+		<pet zhandouid="160011001" success="10000" weight="10000" itemid="12020003" num="1"/>
+		<pet zhandouid="160012001" success="10000" weight="10000" itemid="12020037" num="1"/>
+		<pet zhandouid="160013001" success="10000" weight="10000" itemid="12020038" num="1"/>
+		<pet zhandouid="160014001" success="10000" weight="9000" itemid="12020004" num="1"/>
+		<pet zhandouid="160015001" success="10000" weight="9000" itemid="12030005" num="1"/>
+		<pet zhandouid="160016001" success="10000" weight="9000" itemid="12020039" num="1"/>
+		<pet zhandouid="160017001" success="10000" weight="9000" itemid="12020040" num="1"/>
+		<pet zhandouid="160018001" success="10000" weight="8000" itemid="12030006" num="1"/>
+		<pet zhandouid="160019001" success="10000" weight="8000" itemid="12030007" num="1"/>
+		<pet zhandouid="160020001" success="10000" weight="8000" itemid="12040008" num="1"/>
+	</bank>
+	<bank petbank="4">
+		<pet zhandouid="160010001" success="10000" weight="10000" itemid="12010002" num="1"/>
+		<pet zhandouid="160011001" success="10000" weight="10000" itemid="12020003" num="1"/>
+		<pet zhandouid="160012001" success="10000" weight="10000" itemid="12020037" num="1"/>
+		<pet zhandouid="160013001" success="10000" weight="10000" itemid="12020038" num="1"/>
+		<pet zhandouid="160014001" success="10000" weight="9000" itemid="12020004" num="1"/>
+		<pet zhandouid="160015001" success="10000" weight="9000" itemid="12030005" num="1"/>
+		<pet zhandouid="160016001" success="10000" weight="9000" itemid="12020039" num="1"/>
+		<pet zhandouid="160017001" success="10000" weight="9000" itemid="12020040" num="1"/>
+		<pet zhandouid="160018001" success="10000" weight="8000" itemid="12030006" num="1"/>
+		<pet zhandouid="160019001" success="10000" weight="8000" itemid="12030007" num="1"/>
+		<pet zhandouid="160020001" success="10000" weight="8000" itemid="12040008" num="1"/>
+		<pet zhandouid="160021001" success="10000" weight="7000" itemid="12040009" num="1"/>
+		<pet zhandouid="160022001" success="10000" weight="7000" itemid="12040010" num="1"/>
+		<pet zhandouid="160023001" success="10000" weight="7000" itemid="12050011" num="1"/>
+	</bank>
+	<bank petbank="5">
+		<pet zhandouid="160010001" success="10000" weight="10000" itemid="12010002" num="1"/>
+		<pet zhandouid="160011001" success="10000" weight="10000" itemid="12020003" num="1"/>
+		<pet zhandouid="160012001" success="10000" weight="10000" itemid="12020037" num="1"/>
+		<pet zhandouid="160013001" success="10000" weight="10000" itemid="12020038" num="1"/>
+		<pet zhandouid="160014001" success="10000" weight="9000" itemid="12020004" num="1"/>
+		<pet zhandouid="160015001" success="10000" weight="9000" itemid="12030005" num="1"/>
+		<pet zhandouid="160016001" success="10000" weight="9000" itemid="12020039" num="1"/>
+		<pet zhandouid="160017001" success="10000" weight="9000" itemid="12020040" num="1"/>
+		<pet zhandouid="160018001" success="10000" weight="8000" itemid="12030006" num="1"/>
+		<pet zhandouid="160019001" success="10000" weight="8000" itemid="12030007" num="1"/>
+		<pet zhandouid="160020001" success="10000" weight="8000" itemid="12040008" num="1"/>
+		<pet zhandouid="160021001" success="10000" weight="7000" itemid="12040009" num="1"/>
+		<pet zhandouid="160022001" success="10000" weight="7000" itemid="12040010" num="1"/>
+		<pet zhandouid="160023001" success="10000" weight="7000" itemid="12050011" num="1"/>
+		<pet zhandouid="160024001" success="10000" weight="6000" itemid="12050012" num="1"/>
+		<pet zhandouid="160025001" success="10000" weight="6000" itemid="12050013" num="1"/>
+		<pet zhandouid="160026001" success="10000" weight="6000" itemid="12060014" num="1"/>
+	</bank>
+	<bank petbank="6">
+		<pet zhandouid="160010001" success="10000" weight="10000" itemid="12010002" num="1"/>
+		<pet zhandouid="160011001" success="10000" weight="10000" itemid="12020003" num="1"/>
+		<pet zhandouid="160012001" success="10000" weight="10000" itemid="12020037" num="1"/>
+		<pet zhandouid="160013001" success="10000" weight="10000" itemid="12020038" num="1"/>
+		<pet zhandouid="160014001" success="10000" weight="9000" itemid="12020004" num="1"/>
+		<pet zhandouid="160015001" success="10000" weight="9000" itemid="12030005" num="1"/>
+		<pet zhandouid="160016001" success="10000" weight="9000" itemid="12020039" num="1"/>
+		<pet zhandouid="160017001" success="10000" weight="9000" itemid="12020040" num="1"/>
+		<pet zhandouid="160018001" success="10000" weight="8000" itemid="12030006" num="1"/>
+		<pet zhandouid="160019001" success="10000" weight="8000" itemid="12030007" num="1"/>
+		<pet zhandouid="160020001" success="10000" weight="8000" itemid="12040008" num="1"/>
+		<pet zhandouid="160021001" success="10000" weight="7000" itemid="12040009" num="1"/>
+		<pet zhandouid="160022001" success="10000" weight="7000" itemid="12040010" num="1"/>
+		<pet zhandouid="160023001" success="10000" weight="7000" itemid="12050011" num="1"/>
+		<pet zhandouid="160024001" success="10000" weight="6000" itemid="12050012" num="1"/>
+		<pet zhandouid="160025001" success="10000" weight="6000" itemid="12050013" num="1"/>
+		<pet zhandouid="160026001" success="10000" weight="6000" itemid="12060014" num="1"/>
+		<pet zhandouid="160027001" success="10000" weight="5000" itemid="12060015" num="1"/>
+		<pet zhandouid="160028001" success="10000" weight="5000" itemid="12060016" num="1"/>
+		<pet zhandouid="160029001" success="9500" weight="4000" itemid="12070017" num="1"/>
+	</bank>
+	<bank petbank="7">
+		<pet zhandouid="160010001" success="10000" weight="10000" itemid="12010002" num="1"/>
+		<pet zhandouid="160011001" success="10000" weight="10000" itemid="12020003" num="1"/>
+		<pet zhandouid="160012001" success="10000" weight="10000" itemid="12020037" num="1"/>
+		<pet zhandouid="160013001" success="10000" weight="10000" itemid="12020038" num="1"/>
+		<pet zhandouid="160014001" success="10000" weight="9000" itemid="12020004" num="1"/>
+		<pet zhandouid="160015001" success="10000" weight="9000" itemid="12030005" num="1"/>
+		<pet zhandouid="160016001" success="10000" weight="9000" itemid="12020039" num="1"/>
+		<pet zhandouid="160017001" success="10000" weight="9000" itemid="12020040" num="1"/>
+		<pet zhandouid="160018001" success="10000" weight="8000" itemid="12030006" num="1"/>
+		<pet zhandouid="160019001" success="10000" weight="8000" itemid="12030007" num="1"/>
+		<pet zhandouid="160020001" success="10000" weight="8000" itemid="12040008" num="1"/>
+		<pet zhandouid="160021001" success="10000" weight="7000" itemid="12040009" num="1"/>
+		<pet zhandouid="160022001" success="10000" weight="7000" itemid="12040010" num="1"/>
+		<pet zhandouid="160023001" success="10000" weight="7000" itemid="12050011" num="1"/>
+		<pet zhandouid="160024001" success="10000" weight="6000" itemid="12050012" num="1"/>
+		<pet zhandouid="160025001" success="10000" weight="6000" itemid="12050013" num="1"/>
+		<pet zhandouid="160026001" success="10000" weight="6000" itemid="12060014" num="1"/>
+		<pet zhandouid="160027001" success="10000" weight="5000" itemid="12060015" num="1"/>
+		<pet zhandouid="160028001" success="10000" weight="5000" itemid="12060016" num="1"/>
+		<pet zhandouid="160029001" success="9500" weight="4000" itemid="12070017" num="1"/>
+		<pet zhandouid="160030001" success="9500" weight="3000" itemid="12070018" num="1"/>
+		<pet zhandouid="160031001" success="9500" weight="3000" itemid="12070019" num="1"/>
+		<pet zhandouid="160032001" success="9500" weight="3000" itemid="12080020" num="1"/>
+	</bank>
+	<bank petbank="8">
+		<pet zhandouid="160010001" success="10000" weight="10000" itemid="12010002" num="1"/>
+		<pet zhandouid="160011001" success="10000" weight="10000" itemid="12020003" num="1"/>
+		<pet zhandouid="160012001" success="10000" weight="10000" itemid="12020037" num="1"/>
+		<pet zhandouid="160013001" success="10000" weight="10000" itemid="12020038" num="1"/>
+		<pet zhandouid="160014001" success="10000" weight="9000" itemid="12020004" num="1"/>
+		<pet zhandouid="160015001" success="10000" weight="9000" itemid="12030005" num="1"/>
+		<pet zhandouid="160016001" success="10000" weight="9000" itemid="12020039" num="1"/>
+		<pet zhandouid="160017001" success="10000" weight="9000" itemid="12020040" num="1"/>
+		<pet zhandouid="160018001" success="10000" weight="8000" itemid="12030006" num="1"/>
+		<pet zhandouid="160019001" success="10000" weight="8000" itemid="12030007" num="1"/>
+		<pet zhandouid="160020001" success="10000" weight="8000" itemid="12040008" num="1"/>
+		<pet zhandouid="160021001" success="10000" weight="7000" itemid="12040009" num="1"/>
+		<pet zhandouid="160022001" success="10000" weight="7000" itemid="12040010" num="1"/>
+		<pet zhandouid="160023001" success="10000" weight="7000" itemid="12050011" num="1"/>
+		<pet zhandouid="160024001" success="10000" weight="6000" itemid="12050012" num="1"/>
+		<pet zhandouid="160025001" success="10000" weight="6000" itemid="12050013" num="1"/>
+		<pet zhandouid="160026001" success="10000" weight="6000" itemid="12060014" num="1"/>
+		<pet zhandouid="160027001" success="10000" weight="5000" itemid="12060015" num="1"/>
+		<pet zhandouid="160028001" success="10000" weight="5000" itemid="12060016" num="1"/>
+		<pet zhandouid="160029001" success="9500" weight="4000" itemid="12070017" num="1"/>
+		<pet zhandouid="160030001" success="9500" weight="3000" itemid="12070018" num="1"/>
+		<pet zhandouid="160031001" success="9500" weight="3000" itemid="12070019" num="1"/>
+		<pet zhandouid="160032001" success="9500" weight="3000" itemid="12080020" num="1"/>
+		<pet zhandouid="160033001" success="9000" weight="1500" itemid="12080021" num="1"/>
+		<pet zhandouid="160034001" success="9000" weight="1500" itemid="12080022" num="1"/>
+		<pet zhandouid="160035001" success="9000" weight="1500" itemid="12090023" num="1"/>
+	</bank>
+	<bank petbank="9">
+		<pet zhandouid="160010001" success="10000" weight="10000" itemid="12010002" num="1"/>
+		<pet zhandouid="160011001" success="10000" weight="10000" itemid="12020003" num="1"/>
+		<pet zhandouid="160012001" success="10000" weight="10000" itemid="12020037" num="1"/>
+		<pet zhandouid="160013001" success="10000" weight="10000" itemid="12020038" num="1"/>
+		<pet zhandouid="160014001" success="10000" weight="9000" itemid="12020004" num="1"/>
+		<pet zhandouid="160015001" success="10000" weight="9000" itemid="12030005" num="1"/>
+		<pet zhandouid="160016001" success="10000" weight="9000" itemid="12020039" num="1"/>
+		<pet zhandouid="160017001" success="10000" weight="9000" itemid="12020040" num="1"/>
+		<pet zhandouid="160018001" success="10000" weight="8000" itemid="12030006" num="1"/>
+		<pet zhandouid="160019001" success="10000" weight="8000" itemid="12030007" num="1"/>
+		<pet zhandouid="160020001" success="10000" weight="8000" itemid="12040008" num="1"/>
+		<pet zhandouid="160021001" success="10000" weight="7000" itemid="12040009" num="1"/>
+		<pet zhandouid="160022001" success="10000" weight="7000" itemid="12040010" num="1"/>
+		<pet zhandouid="160023001" success="10000" weight="7000" itemid="12050011" num="1"/>
+		<pet zhandouid="160024001" success="10000" weight="6000" itemid="12050012" num="1"/>
+		<pet zhandouid="160025001" success="10000" weight="6000" itemid="12050013" num="1"/>
+		<pet zhandouid="160026001" success="10000" weight="6000" itemid="12060014" num="1"/>
+		<pet zhandouid="160027001" success="10000" weight="5000" itemid="12060015" num="1"/>
+		<pet zhandouid="160028001" success="10000" weight="5000" itemid="12060016" num="1"/>
+		<pet zhandouid="160029001" success="9500" weight="4000" itemid="12070017" num="1"/>
+		<pet zhandouid="160030001" success="9500" weight="3000" itemid="12070018" num="1"/>
+		<pet zhandouid="160031001" success="9500" weight="3000" itemid="12070019" num="1"/>
+		<pet zhandouid="160032001" success="9500" weight="3000" itemid="12080020" num="1"/>
+		<pet zhandouid="160033001" success="9000" weight="1500" itemid="12080021" num="1"/>
+		<pet zhandouid="160034001" success="9000" weight="1500" itemid="12080022" num="1"/>
+		<pet zhandouid="160035001" success="9000" weight="1500" itemid="12090023" num="1"/>
+		<pet zhandouid="160036001" success="8000" weight="500" itemid="12090024" num="1"/>
+		<pet zhandouid="160037001" success="8000" weight="500" itemid="12090025" num="1"/>
+		<pet zhandouid="160038001" success="8000" weight="500" itemid="12100026" num="1"/>
+	</bank>
+	<bank petbank="10">
+		<pet zhandouid="160010001" success="10000" weight="10000" itemid="12010002" num="1"/>
+		<pet zhandouid="160011001" success="10000" weight="10000" itemid="12020003" num="1"/>
+		<pet zhandouid="160012001" success="10000" weight="10000" itemid="12020037" num="1"/>
+		<pet zhandouid="160013001" success="10000" weight="10000" itemid="12020038" num="1"/>
+		<pet zhandouid="160014001" success="10000" weight="9000" itemid="12020004" num="1"/>
+		<pet zhandouid="160015001" success="10000" weight="9000" itemid="12030005" num="1"/>
+		<pet zhandouid="160016001" success="10000" weight="9000" itemid="12020039" num="1"/>
+		<pet zhandouid="160017001" success="10000" weight="9000" itemid="12020040" num="1"/>
+		<pet zhandouid="160018001" success="10000" weight="8000" itemid="12030006" num="1"/>
+		<pet zhandouid="160019001" success="10000" weight="8000" itemid="12030007" num="1"/>
+		<pet zhandouid="160020001" success="10000" weight="8000" itemid="12040008" num="1"/>
+		<pet zhandouid="160021001" success="10000" weight="7000" itemid="12040009" num="1"/>
+		<pet zhandouid="160022001" success="10000" weight="7000" itemid="12040010" num="1"/>
+		<pet zhandouid="160023001" success="10000" weight="7000" itemid="12050011" num="1"/>
+		<pet zhandouid="160024001" success="10000" weight="6000" itemid="12050012" num="1"/>
+		<pet zhandouid="160025001" success="10000" weight="6000" itemid="12050013" num="1"/>
+		<pet zhandouid="160026001" success="10000" weight="6000" itemid="12060014" num="1"/>
+		<pet zhandouid="160027001" success="10000" weight="5000" itemid="12060015" num="1"/>
+		<pet zhandouid="160028001" success="10000" weight="5000" itemid="12060016" num="1"/>
+		<pet zhandouid="160029001" success="9500" weight="4000" itemid="12070017" num="1"/>
+		<pet zhandouid="160030001" success="9500" weight="3000" itemid="12070018" num="1"/>
+		<pet zhandouid="160031001" success="9500" weight="3000" itemid="12070019" num="1"/>
+		<pet zhandouid="160032001" success="9500" weight="3000" itemid="12080020" num="1"/>
+		<pet zhandouid="160033001" success="9000" weight="1500" itemid="12080021" num="1"/>
+		<pet zhandouid="160034001" success="9000" weight="1500" itemid="12080022" num="1"/>
+		<pet zhandouid="160035001" success="9000" weight="1500" itemid="12090023" num="1"/>
+		<pet zhandouid="160036001" success="8000" weight="500" itemid="12090024" num="1"/>
+		<pet zhandouid="160037001" success="8000" weight="500" itemid="12090025" num="1"/>
+		<pet zhandouid="160038001" success="8000" weight="500" itemid="12100026" num="1"/>
+		<pet zhandouid="160039001" success="7000" weight="300" itemid="12100027" num="1"/>
+		<pet zhandouid="160040001" success="7000" weight="300" itemid="12100028" num="1"/>
+		<pet zhandouid="160001001" success="7000" weight="300" itemid="12000029" num="1"/>
+	</bank>
+	<bank petbank="11">
+		<pet zhandouid="160014001" success="10000" weight="9000" itemid="12020004" num="1"/>
+		<pet zhandouid="160015001" success="10000" weight="9000" itemid="12030005" num="1"/>
+		<pet zhandouid="160016001" success="10000" weight="9000" itemid="12020039" num="1"/>
+		<pet zhandouid="160017001" success="10000" weight="9000" itemid="12020040" num="1"/>
+		<pet zhandouid="160018001" success="10000" weight="8000" itemid="12030006" num="1"/>
+		<pet zhandouid="160019001" success="10000" weight="8000" itemid="12030007" num="1"/>
+		<pet zhandouid="160020001" success="10000" weight="8000" itemid="12040008" num="1"/>
+		<pet zhandouid="160021001" success="10000" weight="7000" itemid="12040009" num="1"/>
+		<pet zhandouid="160022001" success="10000" weight="7000" itemid="12040010" num="1"/>
+		<pet zhandouid="160023001" success="10000" weight="7000" itemid="12050011" num="1"/>
+		<pet zhandouid="160024001" success="10000" weight="6000" itemid="12050012" num="1"/>
+		<pet zhandouid="160025001" success="10000" weight="6000" itemid="12050013" num="1"/>
+		<pet zhandouid="160026001" success="10000" weight="6000" itemid="12060014" num="1"/>
+		<pet zhandouid="160027001" success="10000" weight="5000" itemid="12060015" num="1"/>
+		<pet zhandouid="160028001" success="10000" weight="5000" itemid="12060016" num="1"/>
+		<pet zhandouid="160029001" success="9500" weight="4000" itemid="12070017" num="1"/>
+		<pet zhandouid="160030001" success="9500" weight="3000" itemid="12070018" num="1"/>
+		<pet zhandouid="160031001" success="9500" weight="3000" itemid="12070019" num="1"/>
+		<pet zhandouid="160032001" success="9500" weight="3000" itemid="12080020" num="1"/>
+		<pet zhandouid="160033001" success="9000" weight="1500" itemid="12080021" num="1"/>
+		<pet zhandouid="160034001" success="9000" weight="1500" itemid="12080022" num="1"/>
+		<pet zhandouid="160035001" success="9000" weight="1500" itemid="12090023" num="1"/>
+		<pet zhandouid="160036001" success="8000" weight="500" itemid="12090024" num="1"/>
+		<pet zhandouid="160037001" success="8000" weight="500" itemid="12090025" num="1"/>
+		<pet zhandouid="160038001" success="8000" weight="500" itemid="12100026" num="1"/>
+		<pet zhandouid="160039001" success="7000" weight="300" itemid="12100027" num="1"/>
+		<pet zhandouid="160040001" success="7000" weight="300" itemid="12100028" num="1"/>
+		<pet zhandouid="160001001" success="7000" weight="300" itemid="12000029" num="1"/>
+	</bank>
+	<bank petbank="12">
+		<pet zhandouid="160018001" success="10000" weight="8000" itemid="12030006" num="1"/>
+		<pet zhandouid="160019001" success="10000" weight="8000" itemid="12030007" num="1"/>
+		<pet zhandouid="160020001" success="10000" weight="8000" itemid="12040008" num="1"/>
+		<pet zhandouid="160021001" success="10000" weight="7000" itemid="12040009" num="1"/>
+		<pet zhandouid="160022001" success="10000" weight="7000" itemid="12040010" num="1"/>
+		<pet zhandouid="160023001" success="10000" weight="7000" itemid="12050011" num="1"/>
+		<pet zhandouid="160024001" success="10000" weight="6000" itemid="12050012" num="1"/>
+		<pet zhandouid="160025001" success="10000" weight="6000" itemid="12050013" num="1"/>
+		<pet zhandouid="160026001" success="10000" weight="6000" itemid="12060014" num="1"/>
+		<pet zhandouid="160027001" success="10000" weight="5000" itemid="12060015" num="1"/>
+		<pet zhandouid="160028001" success="10000" weight="5000" itemid="12060016" num="1"/>
+		<pet zhandouid="160029001" success="9500" weight="4000" itemid="12070017" num="1"/>
+		<pet zhandouid="160030001" success="9500" weight="3000" itemid="12070018" num="1"/>
+		<pet zhandouid="160031001" success="9500" weight="3000" itemid="12070019" num="1"/>
+		<pet zhandouid="160032001" success="9500" weight="3000" itemid="12080020" num="1"/>
+		<pet zhandouid="160033001" success="9000" weight="1500" itemid="12080021" num="1"/>
+		<pet zhandouid="160034001" success="9000" weight="1500" itemid="12080022" num="1"/>
+		<pet zhandouid="160035001" success="9000" weight="1500" itemid="12090023" num="1"/>
+		<pet zhandouid="160036001" success="8000" weight="500" itemid="12090024" num="1"/>
+		<pet zhandouid="160037001" success="8000" weight="500" itemid="12090025" num="1"/>
+		<pet zhandouid="160038001" success="8000" weight="500" itemid="12100026" num="1"/>
+		<pet zhandouid="160039001" success="7000" weight="300" itemid="12100027" num="1"/>
+		<pet zhandouid="160040001" success="7000" weight="300" itemid="12100028" num="1"/>
+		<pet zhandouid="160001001" success="7000" weight="300" itemid="12000029" num="1"/>
+	</bank>
+	<bank petbank="13">
+		<pet zhandouid="160021001" success="10000" weight="7000" itemid="12040009" num="1"/>
+		<pet zhandouid="160022001" success="10000" weight="7000" itemid="12040010" num="1"/>
+		<pet zhandouid="160023001" success="10000" weight="7000" itemid="12050011" num="1"/>
+		<pet zhandouid="160024001" success="10000" weight="6000" itemid="12050012" num="1"/>
+		<pet zhandouid="160025001" success="10000" weight="6000" itemid="12050013" num="1"/>
+		<pet zhandouid="160026001" success="10000" weight="6000" itemid="12060014" num="1"/>
+		<pet zhandouid="160027001" success="10000" weight="5000" itemid="12060015" num="1"/>
+		<pet zhandouid="160028001" success="10000" weight="5000" itemid="12060016" num="1"/>
+		<pet zhandouid="160029001" success="9500" weight="4000" itemid="12070017" num="1"/>
+		<pet zhandouid="160030001" success="9500" weight="3000" itemid="12070018" num="1"/>
+		<pet zhandouid="160031001" success="9500" weight="3000" itemid="12070019" num="1"/>
+		<pet zhandouid="160032001" success="9500" weight="3000" itemid="12080020" num="1"/>
+		<pet zhandouid="160033001" success="9000" weight="1500" itemid="12080021" num="1"/>
+		<pet zhandouid="160034001" success="9000" weight="1500" itemid="12080022" num="1"/>
+		<pet zhandouid="160035001" success="9000" weight="1500" itemid="12090023" num="1"/>
+		<pet zhandouid="160036001" success="8000" weight="500" itemid="12090024" num="1"/>
+		<pet zhandouid="160037001" success="8000" weight="500" itemid="12090025" num="1"/>
+		<pet zhandouid="160038001" success="8000" weight="500" itemid="12100026" num="1"/>
+		<pet zhandouid="160039001" success="7000" weight="300" itemid="12100027" num="1"/>
+		<pet zhandouid="160040001" success="7000" weight="300" itemid="12100028" num="1"/>
+		<pet zhandouid="160001001" success="7000" weight="300" itemid="12000029" num="1"/>
+	</bank>
+	<bank petbank="14">
+		<pet zhandouid="160024001" success="10000" weight="6000" itemid="12050012" num="1"/>
+		<pet zhandouid="160025001" success="10000" weight="6000" itemid="12050013" num="1"/>
+		<pet zhandouid="160026001" success="10000" weight="6000" itemid="12060014" num="1"/>
+		<pet zhandouid="160027001" success="10000" weight="5000" itemid="12060015" num="1"/>
+		<pet zhandouid="160028001" success="10000" weight="5000" itemid="12060016" num="1"/>
+		<pet zhandouid="160029001" success="9500" weight="4000" itemid="12070017" num="1"/>
+		<pet zhandouid="160030001" success="9500" weight="3000" itemid="12070018" num="1"/>
+		<pet zhandouid="160031001" success="9500" weight="3000" itemid="12070019" num="1"/>
+		<pet zhandouid="160032001" success="9500" weight="3000" itemid="12080020" num="1"/>
+		<pet zhandouid="160033001" success="9000" weight="1500" itemid="12080021" num="1"/>
+		<pet zhandouid="160034001" success="9000" weight="1500" itemid="12080022" num="1"/>
+		<pet zhandouid="160035001" success="9000" weight="1500" itemid="12090023" num="1"/>
+		<pet zhandouid="160036001" success="8000" weight="500" itemid="12090024" num="1"/>
+		<pet zhandouid="160037001" success="8000" weight="500" itemid="12090025" num="1"/>
+		<pet zhandouid="160038001" success="8000" weight="500" itemid="12100026" num="1"/>
+		<pet zhandouid="160039001" success="7000" weight="300" itemid="12100027" num="1"/>
+		<pet zhandouid="160040001" success="7000" weight="300" itemid="12100028" num="1"/>
+		<pet zhandouid="160001001" success="7000" weight="300" itemid="12000029" num="1"/>
+	</bank>
+</root>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+<GameServerListen IP="127.0.0.1" Port="12001"/>
+<Database Index="1" DBIP="127.0.0.1" DBName="operationanalysisserver" LoginName="root" Password="echeverra" DBPort="3306"/>
+<PlatformID ID="7">
+<ServerID ID="1" DataBaseIndex="1"/>
+<ServerID ID="2" DataBaseIndex="1"/>
+<ServerID ID="3" DataBaseIndex="1"/>
+<ServerID ID="4" DataBaseIndex="1"/>
+<ServerID ID="5" DataBaseIndex="1"/>
+<ServerID ID="6" DataBaseIndex="1"/>
+<ServerID ID="7" DataBaseIndex="1"/>
+<ServerID ID="8" DataBaseIndex="1"/>
+<ServerID ID="9" DataBaseIndex="1"/>
+<ServerID ID="10" DataBaseIndex="1"/>
+<ServerID ID="11" DataBaseIndex="1"/>
+<ServerID ID="12" DataBaseIndex="1"/>
+<ServerID ID="13" DataBaseIndex="1"/>
+<ServerID ID="14" DataBaseIndex="1"/>
+</PlatformID>
+</Root>

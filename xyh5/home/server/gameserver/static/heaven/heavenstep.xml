@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+typeid	表示来自哪个系统；=1坐骑，=2羽翼，=3傀儡炼制，=4傀儡，=5法宝
+startlev	给予附加属性的起始品阶等级
+steplev	表示对应系统的品阶
+pow	对应系统的品阶附加的攻击
+def	对应系统的品阶附加的防御
+hp	对应系统的品阶附加的气血
+hit	对应系统的品阶附加的命中
+dodge	对应系统的品阶附加的闪避
+crit	对应系统的品阶附加的暴击
+toughness	对应系统的品阶附加的韧性
+-->
+  <step typeid="1" startlev="6">
+    <stepinfo steplev="6" hp="0" pow="0" def="0" hit="0" dodge="0" crit="0" toughness="0"/>
+    <stepinfo steplev="7" hp="0" pow="0" def="0" hit="0" dodge="0" crit="0" toughness="0"/>
+    <stepinfo steplev="8" hp="0" pow="0" def="0" hit="0" dodge="0" crit="0" toughness="0"/>
+    <stepinfo steplev="9" hp="0" pow="0" def="0" hit="0" dodge="0" crit="0" toughness="0"/>
+    <stepinfo steplev="10" hp="0" pow="0" def="0" hit="0" dodge="0" crit="0" toughness="0"/>
+  </step>
+  <step typeid="2" startlev="4">
+    <stepinfo steplev="4" hp="0" pow="0" def="0" hit="0" dodge="0" crit="0" toughness="0"/>
+    <stepinfo steplev="5" hp="0" pow="0" def="0" hit="0" dodge="0" crit="0" toughness="0"/>
+    <stepinfo steplev="6" hp="0" pow="0" def="0" hit="0" dodge="0" crit="0" toughness="0"/>
+    <stepinfo steplev="7" hp="0" pow="0" def="0" hit="0" dodge="0" crit="0" toughness="0"/>
+  </step>
+  <step typeid="3" startlev="4">
+    <stepinfo steplev="4" hp="0" pow="0" def="0" hit="0" dodge="0" crit="0" toughness="0"/>
+    <stepinfo steplev="5" hp="0" pow="0" def="0" hit="0" dodge="0" crit="0" toughness="0"/>
+    <stepinfo steplev="6" hp="0" pow="0" def="0" hit="0" dodge="0" crit="0" toughness="0"/>
+    <stepinfo steplev="7" hp="0" pow="0" def="0" hit="0" dodge="0" crit="0" toughness="0"/>
+  </step>
+  <step typeid="4" startlev="4">
+    <stepinfo steplev="4" hp="0" pow="0" def="0" hit="0" dodge="0" crit="0" toughness="0"/>
+    <stepinfo steplev="5" hp="0" pow="0" def="0" hit="0" dodge="0" crit="0" toughness="0"/>
+    <stepinfo steplev="6" hp="0" pow="0" def="0" hit="0" dodge="0" crit="0" toughness="0"/>
+    <stepinfo steplev="7" hp="0" pow="0" def="0" hit="0" dodge="0" crit="0" toughness="0"/>
+  </step>
+  <step typeid="5" startlev="4">
+    <stepinfo steplev="4" hp="0" pow="0" def="0" hit="0" dodge="0" crit="0" toughness="0"/>
+    <stepinfo steplev="5" hp="0" pow="0" def="0" hit="0" dodge="0" crit="0" toughness="0"/>
+    <stepinfo steplev="6" hp="0" pow="0" def="0" hit="0" dodge="0" crit="0" toughness="0"/>
+    <stepinfo steplev="7" hp="0" pow="0" def="0" hit="0" dodge="0" crit="0" toughness="0"/>
+  </step>
+</root>

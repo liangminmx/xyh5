@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+functionid	功能id
+groupid	活动id
+name	活动名字
+sortid	活动显示排序id
+opentime	活动开启具体时间及结束时间
+例如：2019-2-20 00:00:00
+endtime  活动具体结束时间
+例如：2019-2-20 00:00:00
+icon 活动入口图标
+activeid	翻倍活动id
+=1 师门
+=2 捉鬼
+=3 封妖
+=4 材料副本
+=5 西游之路
+=6 西游护送
+activename	翻倍活动名字
+doublenum	翻倍倍数
+type	指引类型 
+=1 寻路至npc
+=2 打开界面
+=3 接取封妖任务
+parameter	任务类型参数
+function 对应双倍功能id
+-->
+	<function functionid="6674"/>
+	<group groupid="1" name="活动翻倍" sortid="1" opentime="2019-3-15 00:00:00" endtime="2019-3-17 23:59:59" icon="6674">
+		<double activeid="1" activename="师门" doublenum="2" type="1" parameter="14,25,15" function="1020"/>
+		<double activeid="2" activename="捉鬼" doublenum="2" type="1" parameter="16" function="2008"/>
+		<double activeid="3" activename="封妖" doublenum="2" type="3" parameter="" function="2054"/>
+		<double activeid="4" activename="材料副本" doublenum="2" type="1" parameter="6" function="2009"/>
+		<double activeid="5" activename="西游之路" doublenum="2" type="2" parameter="ChapterView" function="4005"/>
+		<double activeid="6" activename="西游护送" doublenum="2" type="1" parameter="3" function="1033"/>
+	</group>
+	<group groupid="2" name="活动翻倍" sortid="2" opentime="2019-3-22 00:00:00" endtime="2019-3-24 23:59:59" icon="6674">
+		<double activeid="1" activename="师门" doublenum="2" type="1" parameter="14,25,15" function="1020"/>
+		<double activeid="2" activename="捉鬼" doublenum="2" type="1" parameter="16" function="2008"/>
+		<double activeid="3" activename="封妖" doublenum="2" type="3" parameter="" function="2054"/>
+		<double activeid="4" activename="材料副本" doublenum="2" type="1" parameter="6" function="2009"/>
+		<double activeid="5" activename="西游之路" doublenum="2" type="2" parameter="ChapterView" function="4005"/>
+		<double activeid="6" activename="西游护送" doublenum="2" type="1" parameter="3" function="1033"/>
+	</group>
+	<group groupid="3" name="活动翻倍" sortid="3" opentime="2019-3-29 00:00:00" endtime="2019-3-31 23:59:59" icon="6674">
+		<double activeid="1" activename="师门" doublenum="2" type="1" parameter="14,25,15" function="1020"/>
+		<double activeid="2" activename="捉鬼" doublenum="2" type="1" parameter="16" function="2008"/>
+		<double activeid="3" activename="封妖" doublenum="2" type="3" parameter="" function="2054"/>
+		<double activeid="4" activename="材料副本" doublenum="2" type="1" parameter="6" function="2009"/>
+		<double activeid="5" activename="西游之路" doublenum="2" type="2" parameter="ChapterView" function="4005"/>
+		<double activeid="6" activename="西游护送" doublenum="2" type="1" parameter="3" function="1033"/>
+	</group>
+	<group groupid="4" name="活动翻倍" sortid="4" opentime="2019-4-5 00:00:00" endtime="2019-4-7 23:59:59" icon="6674">
+		<double activeid="1" activename="师门" doublenum="2" type="1" parameter="14,25,15" function="1020"/>
+		<double activeid="2" activename="捉鬼" doublenum="2" type="1" parameter="16" function="2008"/>
+		<double activeid="3" activename="封妖" doublenum="2" type="3" parameter="" function="2054"/>
+		<double activeid="4" activename="材料副本" doublenum="2" type="1" parameter="6" function="2009"/>
+		<double activeid="5" activename="西游之路" doublenum="2" type="2" parameter="ChapterView" function="4005"/>
+		<double activeid="6" activename="西游护送" doublenum="2" type="1" parameter="3" function="1033"/>
+	</group>
+	<group groupid="5" name="活动翻倍" sortid="4" opentime="2019-4-12 00:00:00" endtime="2019-4-14 23:59:59" icon="6674">
+		<double activeid="1" activename="师门" doublenum="2" type="1" parameter="14,25,15" function="1020"/>
+		<double activeid="2" activename="捉鬼" doublenum="2" type="1" parameter="16" function="2008"/>
+		<double activeid="3" activename="封妖" doublenum="2" type="3" parameter="" function="2054"/>
+		<double activeid="4" activename="材料副本" doublenum="2" type="1" parameter="6" function="2009"/>
+		<double activeid="5" activename="西游之路" doublenum="2" type="2" parameter="ChapterView" function="4005"/>
+		<double activeid="6" activename="西游护送" doublenum="2" type="1" parameter="3" function="1033"/>
+	</group>
+	<group groupid="6" name="活动翻倍" sortid="4" opentime="2019-4-19 00:00:00" endtime="2019-4-21 23:59:59" icon="6674">
+		<double activeid="1" activename="师门" doublenum="2" type="1" parameter="14,25,15" function="1020"/>
+		<double activeid="2" activename="捉鬼" doublenum="2" type="1" parameter="16" function="2008"/>
+		<double activeid="3" activename="封妖" doublenum="2" type="3" parameter="" function="2054"/>
+		<double activeid="4" activename="材料副本" doublenum="2" type="1" parameter="6" function="2009"/>
+		<double activeid="5" activename="西游之路" doublenum="2" type="2" parameter="ChapterView" function="4005"/>
+		<double activeid="6" activename="西游护送" doublenum="2" type="1" parameter="3" function="1033"/>
+	</group>
+	<group groupid="7" name="活动翻倍" sortid="4" opentime="2019-4-26 00:00:00" endtime="2019-4-28 23:59:59" icon="6674">
+		<double activeid="1" activename="师门" doublenum="2" type="1" parameter="14,25,15" function="1020"/>
+		<double activeid="2" activename="捉鬼" doublenum="2" type="1" parameter="16" function="2008"/>
+		<double activeid="3" activename="封妖" doublenum="2" type="3" parameter="" function="2054"/>
+		<double activeid="4" activename="材料副本" doublenum="2" type="1" parameter="6" function="2009"/>
+		<double activeid="5" activename="西游之路" doublenum="2" type="2" parameter="ChapterView" function="4005"/>
+		<double activeid="6" activename="西游护送" doublenum="2" type="1" parameter="3" function="1033"/>
+	</group>
+	<group groupid="8" name="活动翻倍" sortid="4" opentime="2019-5-3 00:00:00" endtime="2019-5-5 23:59:59" icon="6674">
+		<double activeid="1" activename="师门" doublenum="2" type="1" parameter="14,25,15" function="1020"/>
+		<double activeid="2" activename="捉鬼" doublenum="2" type="1" parameter="16" function="2008"/>
+		<double activeid="3" activename="封妖" doublenum="2" type="3" parameter="" function="2054"/>
+		<double activeid="4" activename="材料副本" doublenum="2" type="1" parameter="6" function="2009"/>
+		<double activeid="5" activename="西游之路" doublenum="2" type="2" parameter="ChapterView" function="4005"/>
+		<double activeid="6" activename="西游护送" doublenum="2" type="1" parameter="3" function="1033"/>
+	</group>
+	<group groupid="9" name="活动翻倍" sortid="4" opentime="2019-5-10 00:00:00" endtime="2019-5-12 23:59:59" icon="6674">
+		<double activeid="1" activename="师门" doublenum="2" type="1" parameter="14,25,15" function="1020"/>
+		<double activeid="2" activename="捉鬼" doublenum="2" type="1" parameter="16" function="2008"/>
+		<double activeid="3" activename="封妖" doublenum="2" type="3" parameter="" function="2054"/>
+		<double activeid="4" activename="材料副本" doublenum="2" type="1" parameter="6" function="2009"/>
+		<double activeid="5" activename="西游之路" doublenum="2" type="2" parameter="ChapterView" function="4005"/>
+		<double activeid="6" activename="西游护送" doublenum="2" type="1" parameter="3" function="1033"/>
+	</group>
+	<group groupid="10" name="活动翻倍" sortid="4" opentime="2019-5-17 00:00:00" endtime="2019-5-19 23:59:59" icon="6674">
+		<double activeid="1" activename="师门" doublenum="2" type="1" parameter="14,25,15" function="1020"/>
+		<double activeid="2" activename="捉鬼" doublenum="2" type="1" parameter="16" function="2008"/>
+		<double activeid="3" activename="封妖" doublenum="2" type="3" parameter="" function="2054"/>
+		<double activeid="4" activename="材料副本" doublenum="2" type="1" parameter="6" function="2009"/>
+		<double activeid="5" activename="西游之路" doublenum="2" type="2" parameter="ChapterView" function="4005"/>
+		<double activeid="6" activename="西游护送" doublenum="2" type="1" parameter="3" function="1033"/>
+	</group>
+	<group groupid="11" name="活动翻倍" sortid="4" opentime="2019-5-24 00:00:00" endtime="2019-5-26 23:59:59" icon="6674">
+		<double activeid="1" activename="师门" doublenum="2" type="1" parameter="14,25,15" function="1020"/>
+		<double activeid="2" activename="捉鬼" doublenum="2" type="1" parameter="16" function="2008"/>
+		<double activeid="3" activename="封妖" doublenum="2" type="3" parameter="" function="2054"/>
+		<double activeid="4" activename="材料副本" doublenum="2" type="1" parameter="6" function="2009"/>
+		<double activeid="5" activename="西游之路" doublenum="2" type="2" parameter="ChapterView" function="4005"/>
+		<double activeid="6" activename="西游护送" doublenum="2" type="1" parameter="3" function="1033"/>
+	</group>
+	<group groupid="12" name="活动翻倍" sortid="4" opentime="2019-5-31 00:00:00" endtime="2019-6-2 23:59:59" icon="6674">
+		<double activeid="1" activename="师门" doublenum="2" type="1" parameter="14,25,15" function="1020"/>
+		<double activeid="2" activename="捉鬼" doublenum="2" type="1" parameter="16" function="2008"/>
+		<double activeid="3" activename="封妖" doublenum="2" type="3" parameter="" function="2054"/>
+		<double activeid="4" activename="材料副本" doublenum="2" type="1" parameter="6" function="2009"/>
+		<double activeid="5" activename="西游之路" doublenum="2" type="2" parameter="ChapterView" function="4005"/>
+		<double activeid="6" activename="西游护送" doublenum="2" type="1" parameter="3" function="1033"/>
+	</group>
+	<group groupid="13" name="活动翻倍" sortid="4" opentime="2019-6-7 00:00:00" endtime="2019-6-9 23:59:59" icon="6674">
+		<double activeid="1" activename="师门" doublenum="2" type="1" parameter="14,25,15" function="1020"/>
+		<double activeid="2" activename="捉鬼" doublenum="2" type="1" parameter="16" function="2008"/>
+		<double activeid="3" activename="封妖" doublenum="2" type="3" parameter="" function="2054"/>
+		<double activeid="4" activename="材料副本" doublenum="2" type="1" parameter="6" function="2009"/>
+		<double activeid="5" activename="西游之路" doublenum="2" type="2" parameter="ChapterView" function="4005"/>
+		<double activeid="6" activename="西游护送" doublenum="2" type="1" parameter="3" function="1033"/>
+	</group>
+	<group groupid="14" name="活动翻倍" sortid="4" opentime="2019-6-14 00:00:00" endtime="2019-6-16 23:59:59" icon="6674">
+		<double activeid="1" activename="师门" doublenum="2" type="1" parameter="14,25,15" function="1020"/>
+		<double activeid="2" activename="捉鬼" doublenum="2" type="1" parameter="16" function="2008"/>
+		<double activeid="3" activename="封妖" doublenum="2" type="3" parameter="" function="2054"/>
+		<double activeid="4" activename="材料副本" doublenum="2" type="1" parameter="6" function="2009"/>
+		<double activeid="5" activename="西游之路" doublenum="2" type="2" parameter="ChapterView" function="4005"/>
+		<double activeid="6" activename="西游护送" doublenum="2" type="1" parameter="3" function="1033"/>
+	</group>
+</root>

@@ -1,0 +1,38 @@
+2020-03-24 22:06:30 key_t:44839, shmid: 196610
+2020-03-24 22:06:30 database[0] asyn connection over
+2020-03-24 22:06:30 database[0] syn connection over
+2020-03-24 22:06:30 database[0] syn connection over
+2020-03-24 23:35:36 key_t:45503, shmid: 425987
+2020-03-24 23:35:36 database[0] asyn connection over
+2020-03-24 23:35:36 database[0] syn connection over
+2020-03-24 23:35:36 database[0] syn connection over
+2020-03-24 23:42:59 key_t:10153, shmid: 65538
+2020-03-24 23:43:00 database[0] asyn connection over
+2020-03-24 23:43:00 database[0] syn connection over
+2020-03-24 23:43:00 database[0] syn connection over
+2020-03-25 00:41:29 key_t:10557, shmid: 229379
+2020-03-25 00:41:29 database[0] asyn connection over
+2020-03-25 00:41:29 database[0] syn connection over
+2020-03-25 00:41:29 database[0] syn connection over
+2020-03-25 00:53:59 database[0] asyn re-connection over
+2020-03-25 00:54:00 database[0] asyn re-connection over
+2020-03-25 00:55:34 key_t:2317, shmid: 65538
+2020-03-25 00:55:34 database[0] asyn connection over
+2020-03-25 00:55:34 database[0] syn connection over
+2020-03-25 00:55:34 database[0] syn connection over
+2020-03-25 01:14:46 key_t:2640, shmid: 262151
+2020-03-25 01:14:46 database[0] asyn connection over
+2020-03-25 01:14:46 database[0] syn connection over
+2020-03-25 01:14:46 database[0] syn connection over
+2020-03-25 01:17:04 key_t:2781, shmid: 425987
+2020-03-25 01:17:04 database[0] asyn connection over
+2020-03-25 01:17:04 database[0] syn connection over
+2020-03-25 01:17:04 database[0] syn connection over
+2020-03-25 18:42:57 key_t:32267, shmid: 589828
+2020-03-25 18:42:57 database[0] asyn connection over
+2020-03-25 18:42:57 database[0] syn connection over
+2020-03-25 18:42:57 database[0] syn connection over
+2020-03-25 22:21:59 key_t:37371, shmid: 753678
+2020-03-25 22:21:59 database[0] asyn connection over
+2020-03-25 22:21:59 database[0] syn connection over
+2020-03-25 22:21:59 database[0] syn connection over

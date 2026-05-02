@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Root>
+	<!--
+id	唯一标识
+aiid	AI标识
+type	触发类型
+        =1，每个一段时间触发
+        =2，每扣除一定百分比血量时触发
+time	攻击间隔
+hp	血量间隔
+skillID	触发技能ID
+casttime	吟唱时间
+=0，则标识无吟唱时间
+
+
+-->
+	<monster id="920001">
+	    <ai aiid="1" type="2" hp="9500" skillID="40002" skillLv="1" casttime="0"/>
+	    <ai aiid="1" type="2" hp="9000" skillID="40002" skillLv="1" casttime="0"/>
+		<ai aiid="1" type="2" hp="8500" skillID="40002" skillLv="1" casttime="0"/>
+		<ai aiid="1" type="2" hp="8000" skillID="40002" skillLv="1" casttime="0"/>
+		<ai aiid="1" type="2" hp="8500" skillID="40002" skillLv="1" casttime="0"/>
+		<ai aiid="1" type="2" hp="8000" skillID="40002" skillLv="1" casttime="0"/>
+		<ai aiid="1" type="2" hp="7500" skillID="40002" skillLv="1" casttime="0"/>
+		<ai aiid="1" type="2" hp="7000" skillID="40002" skillLv="1" casttime="0"/>
+		<ai aiid="1" type="2" hp="6500" skillID="40002" skillLv="1" casttime="0"/>
+		<ai aiid="1" type="2" hp="6000" skillID="40002" skillLv="1" casttime="0"/>
+		<ai aiid="1" type="2" hp="5500" skillID="40002" skillLv="1" casttime="0"/>
+	    <ai aiid="1" type="2" hp="5000" skillID="40002" skillLv="1" casttime="0"/>
+		<ai aiid="1" type="2" hp="4500" skillID="40002" skillLv="1" casttime="0"/>
+		<ai aiid="1" type="2" hp="4000" skillID="40002" skillLv="1" casttime="0"/>
+		<ai aiid="1" type="2" hp="3500" skillID="40002" skillLv="1" casttime="0"/>
+		<ai aiid="1" type="2" hp="3000" skillID="40002" skillLv="1" casttime="0"/>
+		<ai aiid="1" type="2" hp="2500" skillID="40002" skillLv="1" casttime="0"/>
+		<ai aiid="1" type="2" hp="2000" skillID="40002" skillLv="1" casttime="0"/>
+		<ai aiid="1" type="2" hp="1500" skillID="40002" skillLv="1" casttime="0"/>
+		<ai aiid="1" type="2" hp="1000" skillID="40002" skillLv="1" casttime="0"/>
+		<ai aiid="1" type="2" hp="500" skillID="40002" skillLv="1" casttime="0"/>
+	</monster>
+</Root>

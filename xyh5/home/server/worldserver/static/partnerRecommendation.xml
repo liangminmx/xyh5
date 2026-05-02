@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!--
+FunctionId	功能开启
+type	大类别
+smallType	小类别
+lineupName	小类别名称
+introduction	小类别描述
+id	Id=1时,视为角色;Id=其他值索引对应Id的伙伴
+
+-->
+<root>
+	<Function FunctionId="2074"/>
+	<recommendationType type="1" name="人族最强">
+		<recommendation smalltype="1" lineupName="HighVersion" introduction="最强大的人族组合，能够大幅度克制仙族组合，以唐僧的回复能力以及菩提子的控制能力，保证了队伍强大的战斗力">
+			<partner Id="1"/>
+			<partner Id="11041001"/>
+			<partner Id="11041004"/>
+			<partner Id="11041003"/>
+			<partner Id="11041025"/>
+		</recommendation>
+		<recommendation smalltype="2" lineupName="LowVersion" introduction="较强的人族组合，能够大幅度克制仙族组合，战斗力较弱，但是可以慢慢过渡到最强的人族组合">
+			<partner Id="1"/>
+			<partner Id="11041002"/>
+			<partner Id="11041023"/>
+			<partner Id="11041024"/>
+			<partner Id="11041022"/>
+		</recommendation>
+	</recommendationType>
+	<recommendationType type="2" name="魔族最强">
+		<recommendation smalltype="1" lineupName="HighVersion" introduction="最强大的魔族组合，能够大幅度克制人族组合，以牛魔王和红孩儿为核心，拥有极强的点杀能力">
+			<partner Id="1"/>
+			<partner Id="11043005"/>
+			<partner Id="11043006"/>
+			<partner Id="11043007"/>
+			<partner Id="11043008"/>
+		</recommendation>
+		<recommendation smalltype="2" lineupName="LowVersion" introduction="较强的魔族组合，能够大幅度克制人族组合，战斗力较弱，但是可以慢慢过渡到最强的魔族组合">
+			<partner Id="1"/>
+			<partner Id="11043020"/>
+			<partner Id="11043017"/>
+			<partner Id="11043018"/>
+			<partner Id="11043019"/>
+		</recommendation>
+	</recommendationType>
+	<recommendationType type="3" name="仙族最强">
+		<recommendation smalltype="1" lineupName="HighVersion" introduction="最强大的仙族组合，能够大幅度克制魔族组合，以玉帝和王母为核心，保证了队伍较强的群体输出能力">
+			<partner Id="1"/>
+			<partner Id="11042009"/>
+			<partner Id="11042010"/>
+			<partner Id="11042011"/>
+			<partner Id="11042012"/>
+		</recommendation>
+		<recommendation smalltype="2" lineupName="LowVersion" introduction="较强的仙族组合，能够大幅度克制魔族组合，战斗力较弱，但是可以慢慢过渡到最强的仙族组合">
+			<partner Id="1"/>
+			<partner Id="11042014"/>
+			<partner Id="11042013"/>
+			<partner Id="11042015"/>
+			<partner Id="11042016"/>
+		</recommendation>
+	</recommendationType>
+	<recommendationType type="4" name="生死劫">
+		<recommendation smalltype="1" lineupName="lifeAndDeathOne" introduction="拥有最强大的群体输出能力，对敌方全体单位造成大量伤害，生死劫（攻）推荐阵型">
+			<partner Id="1"/>
+			<partner Id="11042009"/>
+			<partner Id="11042010"/>
+			<partner Id="11041004"/>
+			<partner Id="11043006"/>
+		</recommendation>
+		<recommendation smalltype="2" lineupName="lifeAndDeathTwo" introduction="拥有最强的控制+回复能力，以菩提子的控制为核心，以其他单位的回血技能保证队伍的生存，生死劫（御）推荐阵型">
+			<partner Id="1"/>
+			<partner Id="11041025"/>
+			<partner Id="11042011"/>
+			<partner Id="11041003"/>
+			<partner Id="11043008"/>
+		</recommendation>
+	</recommendationType>
+	<recommendationType type="5" name="BOSS专用">
+		<recommendation smalltype="1" lineupName="HighVersion" introduction="极强的输出型组合，以孙悟空为核心，所有单位均有较强的单体输出能力，可以对BOSS造成最大程度的伤害">
+			<partner Id="1"/>
+			<partner Id="11041001"/>
+			<partner Id="11041002"/>
+			<partner Id="11043005"/>
+			<partner Id="11043007"/>
+		</recommendation>
+		<recommendation smalltype="2" lineupName="LowVersion" introduction="较强的输出型组合，以猪悟能为核心，所有单位均有较强的单体输出能力，可以对BOSS造成较大程度的伤害，可以慢慢过渡到最强的BOSS专用组合">
+			<partner Id="1"/>
+			<partner Id="11041002"/>
+			<partner Id="11043017"/>
+			<partner Id="11043018"/>
+			<partner Id="11042013"/>
+		</recommendation>
+	</recommendationType>
+	<recommendationType type="6" name="PK专用">
+		<recommendation smalltype="1" lineupName="controlType" introduction="适用于PK的强大阵型，以菩提子为核心，限制敌方行动，同时其他单位进行疯狂输出，快速奠定胜局。">
+			<partner Id="1"/>
+			<partner Id="11041025"/>
+			<partner Id="11042010"/>
+			<partner Id="11041004"/>
+			<partner Id="11043005"/>
+		</recommendation>
+		<recommendation smalltype="2" lineupName="replyType" introduction="适用于PK的强大阵型，以菩提子为核心，限制敌方行动，同时观音以进行回复，其他单位进行输出，稳扎稳打，奠定胜局。">
+			<partner Id="1"/>
+			<partner Id="11041025"/>
+			<partner Id="11042011"/>
+			<partner Id="11041004"/>
+			<partner Id="11043005"/>
+		</recommendation>
+	</recommendationType>
+</root>

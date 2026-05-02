@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+type	"养成功能类型=0，坐骑=1，神兵=2，翅膀=3，阵法=4，法宝"			
+skilltype	1-4分别对应界面中从左到右四个格子			
+name	备注用			
+skilllevel	养成达到级别激活			
+item	升级所需道具ID			
+level	技能等级			
+num	升级所需道具数量			
+specialid	属性id			
+specialnum	特殊属性值			
+		
+		
+		
+	
+		
+		
+		
+
+
+
+-->
+	<skill type="0">
+		<skilltype type="1" icon="yc_zq_skill_01" name="奔袭" skilllevel="1" item="14010101">
+			<skillinfo level="1" num="0" specialid="102;103" specialnum="6;3"/>
+			<skillinfo level="2" num="1" specialid="102;103" specialnum="12;6"/>
+			<skillinfo level="3" num="2" specialid="102;103" specialnum="36;18"/>
+			<skillinfo level="4" num="2" specialid="102;103" specialnum="60;30"/>
+			<skillinfo level="5" num="4" specialid="102;103" specialnum="100;50"/>
+			<skillinfo level="6" num="7" specialid="102;103" specialnum="170;85"/>
+			<skillinfo level="7" num="8" specialid="102;103" specialnum="250;125"/>
+			<skillinfo level="8" num="10" specialid="102;103" specialnum="350;175"/>
+			<skillinfo level="9" num="11" specialid="102;103" specialnum="460;230"/>
+			<skillinfo level="10" num="12" specialid="102;103" specialnum="580;290"/>
+			<skillinfo level="11" num="14" specialid="102;103" specialnum="720;360"/>
+			<skillinfo level="12" num="15" specialid="102;103" specialnum="860;430"/>
+			<skillinfo level="13" num="16" specialid="102;103" specialnum="1000;500"/>
+			<skillinfo level="14" num="18" specialid="102;103" specialnum="1140;570"/>
+			<skillinfo level="15" num="20" specialid="102;103" specialnum="1280;640"/>
+			<skillinfo level="16" num="22" specialid="102;103" specialnum="1420;710"/>
+			<skillinfo level="17" num="25" specialid="102;103" specialnum="1560;780"/>
+			<skillinfo level="18" num="28" specialid="102;103" specialnum="1700;850"/>
+			<skillinfo level="19" num="30" specialid="102;103" specialnum="1840;920"/>
+			<skillinfo level="20" num="40" specialid="102;103" specialnum="2000;1000"/>
+		</skilltype>
+		<skilltype type="2" icon="yc_zq_skill_02" name="铁甲" skilllevel="3" item="14010101">
+			<skillinfo level="1" num="0" specialid="103;101" specialnum="4;54"/>
+			<skillinfo level="2" num="1" specialid="103;101" specialnum="9;108"/>
+			<skillinfo level="3" num="2" specialid="103;101" specialnum="27;324"/>
+			<skillinfo level="4" num="2" specialid="103;101" specialnum="45;540"/>
+			<skillinfo level="5" num="4" specialid="103;101" specialnum="75;900"/>
+			<skillinfo level="6" num="7" specialid="103;101" specialnum="127;1530"/>
+			<skillinfo level="7" num="8" specialid="103;101" specialnum="187;2250"/>
+			<skillinfo level="8" num="10" specialid="103;101" specialnum="262;3150"/>
+			<skillinfo level="9" num="11" specialid="103;101" specialnum="345;4140"/>
+			<skillinfo level="10" num="12" specialid="103;101" specialnum="435;5220"/>
+			<skillinfo level="11" num="14" specialid="103;101" specialnum="540;6480"/>
+			<skillinfo level="12" num="15" specialid="103;101" specialnum="645;7740"/>
+			<skillinfo level="13" num="16" specialid="103;101" specialnum="750;9000"/>
+			<skillinfo level="14" num="18" specialid="103;101" specialnum="855;10260"/>
+			<skillinfo level="15" num="20" specialid="103;101" specialnum="960;11520"/>
+			<skillinfo level="16" num="22" specialid="103;101" specialnum="1065;12780"/>
+			<skillinfo level="17" num="25" specialid="103;101" specialnum="1170;14040"/>
+			<skillinfo level="18" num="28" specialid="103;101" specialnum="1275;15300"/>
+			<skillinfo level="19" num="30" specialid="103;101" specialnum="1380;16560"/>
+			<skillinfo level="20" num="40" specialid="103;101" specialnum="1500;18000"/>
+		</skilltype>
+		<skilltype type="3" icon="yc_zq_skill_03" name="汗血" skilllevel="5" item="14010101">
+			<skillinfo level="1" num="0" specialid="101;106" specialnum="126;18"/>
+			<skillinfo level="2" num="1" specialid="101;106" specialnum="252;36"/>
+			<skillinfo level="3" num="2" specialid="101;106" specialnum="756;108"/>
+			<skillinfo level="4" num="2" specialid="101;106" specialnum="1260;180"/>
+			<skillinfo level="5" num="4" specialid="101;106" specialnum="2100;300"/>
+			<skillinfo level="6" num="7" specialid="101;106" specialnum="3570;510"/>
+			<skillinfo level="7" num="8" specialid="101;106" specialnum="5250;750"/>
+			<skillinfo level="8" num="10" specialid="101;106" specialnum="7350;1050"/>
+			<skillinfo level="9" num="11" specialid="101;106" specialnum="9660;1380"/>
+			<skillinfo level="10" num="12" specialid="101;106" specialnum="12180;1740"/>
+			<skillinfo level="11" num="14" specialid="101;106" specialnum="15120;2160"/>
+			<skillinfo level="12" num="15" specialid="101;106" specialnum="18060;2580"/>
+			<skillinfo level="13" num="16" specialid="101;106" specialnum="21000;3000"/>
+			<skillinfo level="14" num="18" specialid="101;106" specialnum="23940;3420"/>
+			<skillinfo level="15" num="20" specialid="101;106" specialnum="26880;3840"/>
+			<skillinfo level="16" num="22" specialid="101;106" specialnum="29820;4260"/>
+			<skillinfo level="17" num="25" specialid="101;106" specialnum="32760;4680"/>
+			<skillinfo level="18" num="28" specialid="101;106" specialnum="35700;5100"/>
+			<skillinfo level="19" num="30" specialid="101;106" specialnum="38640;5520"/>
+			<skillinfo level="20" num="40" specialid="101;106" specialnum="42000;6000"/>
+		</skilltype>
+		<skilltype type="4" icon="yc_zq_skill_04" name="绝尘" skilllevel="7" item="14010101">
+			<skillinfo level="1" num="0" specialid="102;104" specialnum="9;5"/>
+			<skillinfo level="2" num="1" specialid="102;104" specialnum="18;10"/>
+			<skillinfo level="3" num="2" specialid="102;104" specialnum="54;15"/>
+			<skillinfo level="4" num="2" specialid="102;104" specialnum="90;20"/>
+			<skillinfo level="5" num="4" specialid="102;104" specialnum="150;25"/>
+			<skillinfo level="6" num="7" specialid="102;104" specialnum="255;30"/>
+			<skillinfo level="7" num="8" specialid="102;104" specialnum="375;35"/>
+			<skillinfo level="8" num="10" specialid="102;104" specialnum="525;40"/>
+			<skillinfo level="9" num="11" specialid="102;104" specialnum="690;45"/>
+			<skillinfo level="10" num="12" specialid="102;104" specialnum="870;50"/>
+			<skillinfo level="11" num="14" specialid="102;104" specialnum="1080;55"/>
+			<skillinfo level="12" num="15" specialid="102;104" specialnum="1290;60"/>
+			<skillinfo level="13" num="16" specialid="102;104" specialnum="1500;65"/>
+			<skillinfo level="14" num="18" specialid="102;104" specialnum="1710;70"/>
+			<skillinfo level="15" num="20" specialid="102;104" specialnum="1920;75"/>
+			<skillinfo level="16" num="22" specialid="102;104" specialnum="2130;80"/>
+			<skillinfo level="17" num="25" specialid="102;104" specialnum="2340;85"/>
+			<skillinfo level="18" num="28" specialid="102;104" specialnum="2550;90"/>
+			<skillinfo level="19" num="30" specialid="102;104" specialnum="2760;95"/>
+			<skillinfo level="20" num="40" specialid="102;104" specialnum="3000;100"/>
+		</skilltype>
+	</skill>
+	<skill type="1">
+		<skilltype type="1" icon="yc_sb_skill_01" name="破军" skilllevel="1" item="14020101">
+			<skillinfo level="1" num="0" specialid="102;103" specialnum="6;3"/>
+			<skillinfo level="2" num="1" specialid="102;103" specialnum="12;6"/>
+			<skillinfo level="3" num="2" specialid="102;103" specialnum="36;18"/>
+			<skillinfo level="4" num="2" specialid="102;103" specialnum="60;30"/>
+			<skillinfo level="5" num="4" specialid="102;103" specialnum="100;50"/>
+			<skillinfo level="6" num="7" specialid="102;103" specialnum="170;85"/>
+			<skillinfo level="7" num="8" specialid="102;103" specialnum="250;125"/>
+			<skillinfo level="8" num="10" specialid="102;103" specialnum="350;175"/>
+			<skillinfo level="9" num="11" specialid="102;103" specialnum="460;230"/>
+			<skillinfo level="10" num="12" specialid="102;103" specialnum="580;290"/>
+			<skillinfo level="11" num="14" specialid="102;103" specialnum="720;360"/>
+			<skillinfo level="12" num="15" specialid="102;103" specialnum="860;430"/>
+			<skillinfo level="13" num="16" specialid="102;103" specialnum="1000;500"/>
+			<skillinfo level="14" num="18" specialid="102;103" specialnum="1140;570"/>
+			<skillinfo level="15" num="20" specialid="102;103" specialnum="1280;640"/>
+			<skillinfo level="16" num="22" specialid="102;103" specialnum="1420;710"/>
+			<skillinfo level="17" num="25" specialid="102;103" specialnum="1560;780"/>
+			<skillinfo level="18" num="28" specialid="102;103" specialnum="1700;850"/>
+			<skillinfo level="19" num="30" specialid="102;103" specialnum="1840;920"/>
+			<skillinfo level="20" num="40" specialid="102;103" specialnum="2000;1000"/>
+		</skilltype>
+		<skilltype type="2" icon="yc_sb_skill_02" name="金刚" skilllevel="3" item="14020101">
+			<skillinfo level="1" num="0" specialid="103;101" specialnum="4;54"/>
+			<skillinfo level="2" num="1" specialid="103;101" specialnum="9;108"/>
+			<skillinfo level="3" num="2" specialid="103;101" specialnum="27;324"/>
+			<skillinfo level="4" num="2" specialid="103;101" specialnum="45;540"/>
+			<skillinfo level="5" num="4" specialid="103;101" specialnum="75;900"/>
+			<skillinfo level="6" num="7" specialid="103;101" specialnum="127;1530"/>
+			<skillinfo level="7" num="8" specialid="103;101" specialnum="187;2250"/>
+			<skillinfo level="8" num="10" specialid="103;101" specialnum="262;3150"/>
+			<skillinfo level="9" num="11" specialid="103;101" specialnum="345;4140"/>
+			<skillinfo level="10" num="12" specialid="103;101" specialnum="435;5220"/>
+			<skillinfo level="11" num="14" specialid="103;101" specialnum="540;6480"/>
+			<skillinfo level="12" num="15" specialid="103;101" specialnum="645;7740"/>
+			<skillinfo level="13" num="16" specialid="103;101" specialnum="750;9000"/>
+			<skillinfo level="14" num="18" specialid="103;101" specialnum="855;10260"/>
+			<skillinfo level="15" num="20" specialid="103;101" specialnum="960;11520"/>
+			<skillinfo level="16" num="22" specialid="103;101" specialnum="1065;12780"/>
+			<skillinfo level="17" num="25" specialid="103;101" specialnum="1170;14040"/>
+			<skillinfo level="18" num="28" specialid="103;101" specialnum="1275;15300"/>
+			<skillinfo level="19" num="30" specialid="103;101" specialnum="1380;16560"/>
+			<skillinfo level="20" num="40" specialid="103;101" specialnum="1500;18000"/>
+		</skilltype>
+		<skilltype type="3" icon="yc_sb_skill_03" name="热血" skilllevel="5" item="14020101">
+			<skillinfo level="1" num="0" specialid="101;106" specialnum="126;18"/>
+			<skillinfo level="2" num="1" specialid="101;106" specialnum="252;36"/>
+			<skillinfo level="3" num="2" specialid="101;106" specialnum="756;108"/>
+			<skillinfo level="4" num="2" specialid="101;106" specialnum="1260;180"/>
+			<skillinfo level="5" num="4" specialid="101;106" specialnum="2100;300"/>
+			<skillinfo level="6" num="7" specialid="101;106" specialnum="3570;510"/>
+			<skillinfo level="7" num="8" specialid="101;106" specialnum="5250;750"/>
+			<skillinfo level="8" num="10" specialid="101;106" specialnum="7350;1050"/>
+			<skillinfo level="9" num="11" specialid="101;106" specialnum="9660;1380"/>
+			<skillinfo level="10" num="12" specialid="101;106" specialnum="12180;1740"/>
+			<skillinfo level="11" num="14" specialid="101;106" specialnum="15120;2160"/>
+			<skillinfo level="12" num="15" specialid="101;106" specialnum="18060;2580"/>
+			<skillinfo level="13" num="16" specialid="101;106" specialnum="21000;3000"/>
+			<skillinfo level="14" num="18" specialid="101;106" specialnum="23940;3420"/>
+			<skillinfo level="15" num="20" specialid="101;106" specialnum="26880;3840"/>
+			<skillinfo level="16" num="22" specialid="101;106" specialnum="29820;4260"/>
+			<skillinfo level="17" num="25" specialid="101;106" specialnum="32760;4680"/>
+			<skillinfo level="18" num="28" specialid="101;106" specialnum="35700;5100"/>
+			<skillinfo level="19" num="30" specialid="101;106" specialnum="38640;5520"/>
+			<skillinfo level="20" num="40" specialid="101;106" specialnum="42000;6000"/>
+		</skilltype>
+		<skilltype type="4" icon="yc_sb_skill_04" name="追魂" skilllevel="7" item="14020101">
+			<skillinfo level="1" num="0" specialid="102;104" specialnum="9;5"/>
+			<skillinfo level="2" num="1" specialid="102;104" specialnum="18;10"/>
+			<skillinfo level="3" num="2" specialid="102;104" specialnum="54;15"/>
+			<skillinfo level="4" num="2" specialid="102;104" specialnum="90;20"/>
+			<skillinfo level="5" num="4" specialid="102;104" specialnum="150;25"/>
+			<skillinfo level="6" num="7" specialid="102;104" specialnum="255;30"/>
+			<skillinfo level="7" num="8" specialid="102;104" specialnum="375;35"/>
+			<skillinfo level="8" num="10" specialid="102;104" specialnum="525;40"/>
+			<skillinfo level="9" num="11" specialid="102;104" specialnum="690;45"/>
+			<skillinfo level="10" num="12" specialid="102;104" specialnum="870;50"/>
+			<skillinfo level="11" num="14" specialid="102;104" specialnum="1080;55"/>
+			<skillinfo level="12" num="15" specialid="102;104" specialnum="1290;60"/>
+			<skillinfo level="13" num="16" specialid="102;104" specialnum="1500;65"/>
+			<skillinfo level="14" num="18" specialid="102;104" specialnum="1710;70"/>
+			<skillinfo level="15" num="20" specialid="102;104" specialnum="1920;75"/>
+			<skillinfo level="16" num="22" specialid="102;104" specialnum="2130;80"/>
+			<skillinfo level="17" num="25" specialid="102;104" specialnum="2340;85"/>
+			<skillinfo level="18" num="28" specialid="102;104" specialnum="2550;90"/>
+			<skillinfo level="19" num="30" specialid="102;104" specialnum="2760;95"/>
+			<skillinfo level="20" num="40" specialid="102;104" specialnum="3000;100"/>
+		</skilltype>
+	</skill>
+	<skill type="2">
+		<skilltype type="1" icon="yc_yy_skill_01" name="羽刃" skilllevel="1" item="14030101">
+			<skillinfo level="1" num="0" specialid="102;103" specialnum="6;3"/>
+			<skillinfo level="2" num="1" specialid="102;103" specialnum="12;6"/>
+			<skillinfo level="3" num="2" specialid="102;103" specialnum="36;18"/>
+			<skillinfo level="4" num="2" specialid="102;103" specialnum="60;30"/>
+			<skillinfo level="5" num="4" specialid="102;103" specialnum="100;50"/>
+			<skillinfo level="6" num="7" specialid="102;103" specialnum="170;85"/>
+			<skillinfo level="7" num="8" specialid="102;103" specialnum="250;125"/>
+			<skillinfo level="8" num="10" specialid="102;103" specialnum="350;175"/>
+			<skillinfo level="9" num="11" specialid="102;103" specialnum="460;230"/>
+			<skillinfo level="10" num="12" specialid="102;103" specialnum="580;290"/>
+			<skillinfo level="11" num="14" specialid="102;103" specialnum="720;360"/>
+			<skillinfo level="12" num="15" specialid="102;103" specialnum="860;430"/>
+			<skillinfo level="13" num="16" specialid="102;103" specialnum="1000;500"/>
+			<skillinfo level="14" num="18" specialid="102;103" specialnum="1140;570"/>
+			<skillinfo level="15" num="20" specialid="102;103" specialnum="1280;640"/>
+			<skillinfo level="16" num="22" specialid="102;103" specialnum="1420;710"/>
+			<skillinfo level="17" num="25" specialid="102;103" specialnum="1560;780"/>
+			<skillinfo level="18" num="28" specialid="102;103" specialnum="1700;850"/>
+			<skillinfo level="19" num="30" specialid="102;103" specialnum="1840;920"/>
+			<skillinfo level="20" num="40" specialid="102;103" specialnum="2000;1000"/>
+		</skilltype>
+		<skilltype type="2" icon="yc_yy_skill_02" name="风盾" skilllevel="3" item="14030101">
+			<skillinfo level="1" num="0" specialid="103;101" specialnum="4;54"/>
+			<skillinfo level="2" num="1" specialid="103;101" specialnum="9;108"/>
+			<skillinfo level="3" num="2" specialid="103;101" specialnum="27;324"/>
+			<skillinfo level="4" num="2" specialid="103;101" specialnum="45;540"/>
+			<skillinfo level="5" num="4" specialid="103;101" specialnum="75;900"/>
+			<skillinfo level="6" num="7" specialid="103;101" specialnum="127;1530"/>
+			<skillinfo level="7" num="8" specialid="103;101" specialnum="187;2250"/>
+			<skillinfo level="8" num="10" specialid="103;101" specialnum="262;3150"/>
+			<skillinfo level="9" num="11" specialid="103;101" specialnum="345;4140"/>
+			<skillinfo level="10" num="12" specialid="103;101" specialnum="435;5220"/>
+			<skillinfo level="11" num="14" specialid="103;101" specialnum="540;6480"/>
+			<skillinfo level="12" num="15" specialid="103;101" specialnum="645;7740"/>
+			<skillinfo level="13" num="16" specialid="103;101" specialnum="750;9000"/>
+			<skillinfo level="14" num="18" specialid="103;101" specialnum="855;10260"/>
+			<skillinfo level="15" num="20" specialid="103;101" specialnum="960;11520"/>
+			<skillinfo level="16" num="22" specialid="103;101" specialnum="1065;12780"/>
+			<skillinfo level="17" num="25" specialid="103;101" specialnum="1170;14040"/>
+			<skillinfo level="18" num="28" specialid="103;101" specialnum="1275;15300"/>
+			<skillinfo level="19" num="30" specialid="103;101" specialnum="1380;16560"/>
+			<skillinfo level="20" num="40" specialid="103;101" specialnum="1500;18000"/>
+		</skilltype>
+		<skilltype type="3" icon="yc_yy_skill_03" name="句芒" skilllevel="5" item="14030101">
+			<skillinfo level="1" num="0" specialid="101;106" specialnum="126;18"/>
+			<skillinfo level="2" num="1" specialid="101;106" specialnum="252;36"/>
+			<skillinfo level="3" num="2" specialid="101;106" specialnum="756;108"/>
+			<skillinfo level="4" num="2" specialid="101;106" specialnum="1260;180"/>
+			<skillinfo level="5" num="4" specialid="101;106" specialnum="2100;300"/>
+			<skillinfo level="6" num="7" specialid="101;106" specialnum="3570;510"/>
+			<skillinfo level="7" num="8" specialid="101;106" specialnum="5250;750"/>
+			<skillinfo level="8" num="10" specialid="101;106" specialnum="7350;1050"/>
+			<skillinfo level="9" num="11" specialid="101;106" specialnum="9660;1380"/>
+			<skillinfo level="10" num="12" specialid="101;106" specialnum="12180;1740"/>
+			<skillinfo level="11" num="14" specialid="101;106" specialnum="15120;2160"/>
+			<skillinfo level="12" num="15" specialid="101;106" specialnum="18060;2580"/>
+			<skillinfo level="13" num="16" specialid="101;106" specialnum="21000;3000"/>
+			<skillinfo level="14" num="18" specialid="101;106" specialnum="23940;3420"/>
+			<skillinfo level="15" num="20" specialid="101;106" specialnum="26880;3840"/>
+			<skillinfo level="16" num="22" specialid="101;106" specialnum="29820;4260"/>
+			<skillinfo level="17" num="25" specialid="101;106" specialnum="32760;4680"/>
+			<skillinfo level="18" num="28" specialid="101;106" specialnum="35700;5100"/>
+			<skillinfo level="19" num="30" specialid="101;106" specialnum="38640;5520"/>
+			<skillinfo level="20" num="40" specialid="101;106" specialnum="42000;6000"/>
+		</skilltype>
+		<skilltype type="4" icon="yc_yy_skill_04" name="破空" skilllevel="7" item="14030101">
+			<skillinfo level="1" num="0" specialid="102;104" specialnum="9;5"/>
+			<skillinfo level="2" num="1" specialid="102;104" specialnum="18;10"/>
+			<skillinfo level="3" num="2" specialid="102;104" specialnum="54;15"/>
+			<skillinfo level="4" num="2" specialid="102;104" specialnum="90;20"/>
+			<skillinfo level="5" num="4" specialid="102;104" specialnum="150;25"/>
+			<skillinfo level="6" num="7" specialid="102;104" specialnum="255;30"/>
+			<skillinfo level="7" num="8" specialid="102;104" specialnum="375;35"/>
+			<skillinfo level="8" num="10" specialid="102;104" specialnum="525;40"/>
+			<skillinfo level="9" num="11" specialid="102;104" specialnum="690;45"/>
+			<skillinfo level="10" num="12" specialid="102;104" specialnum="870;50"/>
+			<skillinfo level="11" num="14" specialid="102;104" specialnum="1080;55"/>
+			<skillinfo level="12" num="15" specialid="102;104" specialnum="1290;60"/>
+			<skillinfo level="13" num="16" specialid="102;104" specialnum="1500;65"/>
+			<skillinfo level="14" num="18" specialid="102;104" specialnum="1710;70"/>
+			<skillinfo level="15" num="20" specialid="102;104" specialnum="1920;75"/>
+			<skillinfo level="16" num="22" specialid="102;104" specialnum="2130;80"/>
+			<skillinfo level="17" num="25" specialid="102;104" specialnum="2340;85"/>
+			<skillinfo level="18" num="28" specialid="102;104" specialnum="2550;90"/>
+			<skillinfo level="19" num="30" specialid="102;104" specialnum="2760;95"/>
+			<skillinfo level="20" num="40" specialid="102;104" specialnum="3000;100"/>
+		</skilltype>
+	</skill>
+	<skill type="3">
+		<skilltype type="1" icon="yc_zf_skill_01" name="天机" skilllevel="1" item="14040101">
+			<skillinfo level="1" num="0" specialid="102;103" specialnum="6;3"/>
+			<skillinfo level="2" num="1" specialid="102;103" specialnum="12;6"/>
+			<skillinfo level="3" num="2" specialid="102;103" specialnum="36;18"/>
+			<skillinfo level="4" num="2" specialid="102;103" specialnum="60;30"/>
+			<skillinfo level="5" num="4" specialid="102;103" specialnum="100;50"/>
+			<skillinfo level="6" num="7" specialid="102;103" specialnum="170;85"/>
+			<skillinfo level="7" num="8" specialid="102;103" specialnum="250;125"/>
+			<skillinfo level="8" num="10" specialid="102;103" specialnum="350;175"/>
+			<skillinfo level="9" num="11" specialid="102;103" specialnum="460;230"/>
+			<skillinfo level="10" num="12" specialid="102;103" specialnum="580;290"/>
+			<skillinfo level="11" num="14" specialid="102;103" specialnum="720;360"/>
+			<skillinfo level="12" num="15" specialid="102;103" specialnum="860;430"/>
+			<skillinfo level="13" num="16" specialid="102;103" specialnum="1000;500"/>
+			<skillinfo level="14" num="18" specialid="102;103" specialnum="1140;570"/>
+			<skillinfo level="15" num="20" specialid="102;103" specialnum="1280;640"/>
+			<skillinfo level="16" num="22" specialid="102;103" specialnum="1420;710"/>
+			<skillinfo level="17" num="25" specialid="102;103" specialnum="1560;780"/>
+			<skillinfo level="18" num="28" specialid="102;103" specialnum="1700;850"/>
+			<skillinfo level="19" num="30" specialid="102;103" specialnum="1840;920"/>
+			<skillinfo level="20" num="40" specialid="102;103" specialnum="2000;1000"/>
+		</skilltype>
+		<skilltype type="2" icon="yc_zf_skill_02" name="璇玑" skilllevel="3" item="14040101">
+			<skillinfo level="1" num="0" specialid="103;101" specialnum="4;54"/>
+			<skillinfo level="2" num="1" specialid="103;101" specialnum="9;108"/>
+			<skillinfo level="3" num="2" specialid="103;101" specialnum="27;324"/>
+			<skillinfo level="4" num="2" specialid="103;101" specialnum="45;540"/>
+			<skillinfo level="5" num="4" specialid="103;101" specialnum="75;900"/>
+			<skillinfo level="6" num="7" specialid="103;101" specialnum="127;1530"/>
+			<skillinfo level="7" num="8" specialid="103;101" specialnum="187;2250"/>
+			<skillinfo level="8" num="10" specialid="103;101" specialnum="262;3150"/>
+			<skillinfo level="9" num="11" specialid="103;101" specialnum="345;4140"/>
+			<skillinfo level="10" num="12" specialid="103;101" specialnum="435;5220"/>
+			<skillinfo level="11" num="14" specialid="103;101" specialnum="540;6480"/>
+			<skillinfo level="12" num="15" specialid="103;101" specialnum="645;7740"/>
+			<skillinfo level="13" num="16" specialid="103;101" specialnum="750;9000"/>
+			<skillinfo level="14" num="18" specialid="103;101" specialnum="855;10260"/>
+			<skillinfo level="15" num="20" specialid="103;101" specialnum="960;11520"/>
+			<skillinfo level="16" num="22" specialid="103;101" specialnum="1065;12780"/>
+			<skillinfo level="17" num="25" specialid="103;101" specialnum="1170;14040"/>
+			<skillinfo level="18" num="28" specialid="103;101" specialnum="1275;15300"/>
+			<skillinfo level="19" num="30" specialid="103;101" specialnum="1380;16560"/>
+			<skillinfo level="20" num="40" specialid="103;101" specialnum="1500;18000"/>
+		</skilltype>
+		<skilltype type="3" icon="yc_zf_skill_03" name="秘法" skilllevel="5" item="14040101">
+			<skillinfo level="1" num="0" specialid="101;106" specialnum="126;18"/>
+			<skillinfo level="2" num="1" specialid="101;106" specialnum="252;36"/>
+			<skillinfo level="3" num="2" specialid="101;106" specialnum="756;108"/>
+			<skillinfo level="4" num="2" specialid="101;106" specialnum="1260;180"/>
+			<skillinfo level="5" num="4" specialid="101;106" specialnum="2100;300"/>
+			<skillinfo level="6" num="7" specialid="101;106" specialnum="3570;510"/>
+			<skillinfo level="7" num="8" specialid="101;106" specialnum="5250;750"/>
+			<skillinfo level="8" num="10" specialid="101;106" specialnum="7350;1050"/>
+			<skillinfo level="9" num="11" specialid="101;106" specialnum="9660;1380"/>
+			<skillinfo level="10" num="12" specialid="101;106" specialnum="12180;1740"/>
+			<skillinfo level="11" num="14" specialid="101;106" specialnum="15120;2160"/>
+			<skillinfo level="12" num="15" specialid="101;106" specialnum="18060;2580"/>
+			<skillinfo level="13" num="16" specialid="101;106" specialnum="21000;3000"/>
+			<skillinfo level="14" num="18" specialid="101;106" specialnum="23940;3420"/>
+			<skillinfo level="15" num="20" specialid="101;106" specialnum="26880;3840"/>
+			<skillinfo level="16" num="22" specialid="101;106" specialnum="29820;4260"/>
+			<skillinfo level="17" num="25" specialid="101;106" specialnum="32760;4680"/>
+			<skillinfo level="18" num="28" specialid="101;106" specialnum="35700;5100"/>
+			<skillinfo level="19" num="30" specialid="101;106" specialnum="38640;5520"/>
+			<skillinfo level="20" num="40" specialid="101;106" specialnum="42000;6000"/>
+		</skilltype>
+		<skilltype type="4" icon="yc_zf_skill_04" name="灵犀" skilllevel="7" item="14040101">
+			<skillinfo level="1" num="0" specialid="102;104" specialnum="9;5"/>
+			<skillinfo level="2" num="1" specialid="102;104" specialnum="18;10"/>
+			<skillinfo level="3" num="2" specialid="102;104" specialnum="54;15"/>
+			<skillinfo level="4" num="2" specialid="102;104" specialnum="90;20"/>
+			<skillinfo level="5" num="4" specialid="102;104" specialnum="150;25"/>
+			<skillinfo level="6" num="7" specialid="102;104" specialnum="255;30"/>
+			<skillinfo level="7" num="8" specialid="102;104" specialnum="375;35"/>
+			<skillinfo level="8" num="10" specialid="102;104" specialnum="525;40"/>
+			<skillinfo level="9" num="11" specialid="102;104" specialnum="690;45"/>
+			<skillinfo level="10" num="12" specialid="102;104" specialnum="870;50"/>
+			<skillinfo level="11" num="14" specialid="102;104" specialnum="1080;55"/>
+			<skillinfo level="12" num="15" specialid="102;104" specialnum="1290;60"/>
+			<skillinfo level="13" num="16" specialid="102;104" specialnum="1500;65"/>
+			<skillinfo level="14" num="18" specialid="102;104" specialnum="1710;70"/>
+			<skillinfo level="15" num="20" specialid="102;104" specialnum="1920;75"/>
+			<skillinfo level="16" num="22" specialid="102;104" specialnum="2130;80"/>
+			<skillinfo level="17" num="25" specialid="102;104" specialnum="2340;85"/>
+			<skillinfo level="18" num="28" specialid="102;104" specialnum="2550;90"/>
+			<skillinfo level="19" num="30" specialid="102;104" specialnum="2760;95"/>
+			<skillinfo level="20" num="40" specialid="102;104" specialnum="3000;100"/>
+		</skilltype>
+	</skill>
+	<skill type="4">
+		<skilltype type="1" icon="yc_fb_skill_01" name="灭魂" skilllevel="1" item="14050101">
+			<skillinfo level="1" num="0" specialid="102;103" specialnum="6;3"/>
+			<skillinfo level="2" num="1" specialid="102;103" specialnum="12;6"/>
+			<skillinfo level="3" num="2" specialid="102;103" specialnum="36;18"/>
+			<skillinfo level="4" num="2" specialid="102;103" specialnum="60;30"/>
+			<skillinfo level="5" num="4" specialid="102;103" specialnum="100;50"/>
+			<skillinfo level="6" num="7" specialid="102;103" specialnum="170;85"/>
+			<skillinfo level="7" num="8" specialid="102;103" specialnum="250;125"/>
+			<skillinfo level="8" num="10" specialid="102;103" specialnum="350;175"/>
+			<skillinfo level="9" num="11" specialid="102;103" specialnum="460;230"/>
+			<skillinfo level="10" num="12" specialid="102;103" specialnum="580;290"/>
+			<skillinfo level="11" num="14" specialid="102;103" specialnum="720;360"/>
+			<skillinfo level="12" num="15" specialid="102;103" specialnum="860;430"/>
+			<skillinfo level="13" num="16" specialid="102;103" specialnum="1000;500"/>
+			<skillinfo level="14" num="18" specialid="102;103" specialnum="1140;570"/>
+			<skillinfo level="15" num="20" specialid="102;103" specialnum="1280;640"/>
+			<skillinfo level="16" num="22" specialid="102;103" specialnum="1420;710"/>
+			<skillinfo level="17" num="25" specialid="102;103" specialnum="1560;780"/>
+			<skillinfo level="18" num="28" specialid="102;103" specialnum="1700;850"/>
+			<skillinfo level="19" num="30" specialid="102;103" specialnum="1840;920"/>
+			<skillinfo level="20" num="40" specialid="102;103" specialnum="2000;1000"/>
+		</skilltype>
+		<skilltype type="2" icon="yc_fb_skill_02" name="固魂" skilllevel="3" item="14050101">
+			<skillinfo level="1" num="0" specialid="103;101" specialnum="4;54"/>
+			<skillinfo level="2" num="1" specialid="103;101" specialnum="9;108"/>
+			<skillinfo level="3" num="2" specialid="103;101" specialnum="27;324"/>
+			<skillinfo level="4" num="2" specialid="103;101" specialnum="45;540"/>
+			<skillinfo level="5" num="4" specialid="103;101" specialnum="75;900"/>
+			<skillinfo level="6" num="7" specialid="103;101" specialnum="127;1530"/>
+			<skillinfo level="7" num="8" specialid="103;101" specialnum="187;2250"/>
+			<skillinfo level="8" num="10" specialid="103;101" specialnum="262;3150"/>
+			<skillinfo level="9" num="11" specialid="103;101" specialnum="345;4140"/>
+			<skillinfo level="10" num="12" specialid="103;101" specialnum="435;5220"/>
+			<skillinfo level="11" num="14" specialid="103;101" specialnum="540;6480"/>
+			<skillinfo level="12" num="15" specialid="103;101" specialnum="645;7740"/>
+			<skillinfo level="13" num="16" specialid="103;101" specialnum="750;9000"/>
+			<skillinfo level="14" num="18" specialid="103;101" specialnum="855;10260"/>
+			<skillinfo level="15" num="20" specialid="103;101" specialnum="960;11520"/>
+			<skillinfo level="16" num="22" specialid="103;101" specialnum="1065;12780"/>
+			<skillinfo level="17" num="25" specialid="103;101" specialnum="1170;14040"/>
+			<skillinfo level="18" num="28" specialid="103;101" specialnum="1275;15300"/>
+			<skillinfo level="19" num="30" specialid="103;101" specialnum="1380;16560"/>
+			<skillinfo level="20" num="40" specialid="103;101" specialnum="1500;18000"/>
+		</skilltype>
+		<skilltype type="3" icon="yc_fb_skill_03" name="仙佑" skilllevel="5" item="14050101">
+			<skillinfo level="1" num="0" specialid="101;106" specialnum="126;18"/>
+			<skillinfo level="2" num="1" specialid="101;106" specialnum="252;36"/>
+			<skillinfo level="3" num="2" specialid="101;106" specialnum="756;108"/>
+			<skillinfo level="4" num="2" specialid="101;106" specialnum="1260;180"/>
+			<skillinfo level="5" num="4" specialid="101;106" specialnum="2100;300"/>
+			<skillinfo level="6" num="7" specialid="101;106" specialnum="3570;510"/>
+			<skillinfo level="7" num="8" specialid="101;106" specialnum="5250;750"/>
+			<skillinfo level="8" num="10" specialid="101;106" specialnum="7350;1050"/>
+			<skillinfo level="9" num="11" specialid="101;106" specialnum="9660;1380"/>
+			<skillinfo level="10" num="12" specialid="101;106" specialnum="12180;1740"/>
+			<skillinfo level="11" num="14" specialid="101;106" specialnum="15120;2160"/>
+			<skillinfo level="12" num="15" specialid="101;106" specialnum="18060;2580"/>
+			<skillinfo level="13" num="16" specialid="101;106" specialnum="21000;3000"/>
+			<skillinfo level="14" num="18" specialid="101;106" specialnum="23940;3420"/>
+			<skillinfo level="15" num="20" specialid="101;106" specialnum="26880;3840"/>
+			<skillinfo level="16" num="22" specialid="101;106" specialnum="29820;4260"/>
+			<skillinfo level="17" num="25" specialid="101;106" specialnum="32760;4680"/>
+			<skillinfo level="18" num="28" specialid="101;106" specialnum="35700;5100"/>
+			<skillinfo level="19" num="30" specialid="101;106" specialnum="38640;5520"/>
+			<skillinfo level="20" num="40" specialid="101;106" specialnum="42000;6000"/>
+		</skilltype>
+		<skilltype type="4" icon="yc_fb_skill_04" name="诛心" skilllevel="7" item="14050101">
+			<skillinfo level="1" num="0" specialid="102;104" specialnum="9;5"/>
+			<skillinfo level="2" num="1" specialid="102;104" specialnum="18;10"/>
+			<skillinfo level="3" num="2" specialid="102;104" specialnum="54;15"/>
+			<skillinfo level="4" num="2" specialid="102;104" specialnum="90;20"/>
+			<skillinfo level="5" num="4" specialid="102;104" specialnum="150;25"/>
+			<skillinfo level="6" num="7" specialid="102;104" specialnum="255;30"/>
+			<skillinfo level="7" num="8" specialid="102;104" specialnum="375;35"/>
+			<skillinfo level="8" num="10" specialid="102;104" specialnum="525;40"/>
+			<skillinfo level="9" num="11" specialid="102;104" specialnum="690;45"/>
+			<skillinfo level="10" num="12" specialid="102;104" specialnum="870;50"/>
+			<skillinfo level="11" num="14" specialid="102;104" specialnum="1080;55"/>
+			<skillinfo level="12" num="15" specialid="102;104" specialnum="1290;60"/>
+			<skillinfo level="13" num="16" specialid="102;104" specialnum="1500;65"/>
+			<skillinfo level="14" num="18" specialid="102;104" specialnum="1710;70"/>
+			<skillinfo level="15" num="20" specialid="102;104" specialnum="1920;75"/>
+			<skillinfo level="16" num="22" specialid="102;104" specialnum="2130;80"/>
+			<skillinfo level="17" num="25" specialid="102;104" specialnum="2340;85"/>
+			<skillinfo level="18" num="28" specialid="102;104" specialnum="2550;90"/>
+			<skillinfo level="19" num="30" specialid="102;104" specialnum="2760;95"/>
+			<skillinfo level="20" num="40" specialid="102;104" specialnum="3000;100"/>
+		</skilltype>
+	</skill>
+	<skill type="5">
+		<skilltype type="1" icon="yc_bs_skill_01" name="移形" skilllevel="1" item="14020101">
+			<skillinfo level="1" num="0" specialid="102;103" specialnum="6;3"/>
+			<skillinfo level="2" num="1" specialid="102;103" specialnum="12;6"/>
+			<skillinfo level="3" num="2" specialid="102;103" specialnum="36;18"/>
+			<skillinfo level="4" num="2" specialid="102;103" specialnum="60;30"/>
+			<skillinfo level="5" num="4" specialid="102;103" specialnum="100;50"/>
+			<skillinfo level="6" num="7" specialid="102;103" specialnum="170;85"/>
+			<skillinfo level="7" num="8" specialid="102;103" specialnum="250;125"/>
+			<skillinfo level="8" num="10" specialid="102;103" specialnum="350;175"/>
+			<skillinfo level="9" num="11" specialid="102;103" specialnum="460;230"/>
+			<skillinfo level="10" num="12" specialid="102;103" specialnum="580;290"/>
+			<skillinfo level="11" num="14" specialid="102;103" specialnum="720;360"/>
+			<skillinfo level="12" num="15" specialid="102;103" specialnum="860;430"/>
+			<skillinfo level="13" num="16" specialid="102;103" specialnum="1000;500"/>
+			<skillinfo level="14" num="18" specialid="102;103" specialnum="1140;570"/>
+			<skillinfo level="15" num="20" specialid="102;103" specialnum="1280;640"/>
+			<skillinfo level="16" num="22" specialid="102;103" specialnum="1420;710"/>
+			<skillinfo level="17" num="25" specialid="102;103" specialnum="1560;780"/>
+			<skillinfo level="18" num="28" specialid="102;103" specialnum="1700;850"/>
+			<skillinfo level="19" num="30" specialid="102;103" specialnum="1840;920"/>
+			<skillinfo level="20" num="40" specialid="102;103" specialnum="2000;1000"/>
+		</skilltype>
+		<skilltype type="2" icon="yc_bs_skill_02" name="换影" skilllevel="3" item="14020101">
+			<skillinfo level="1" num="0" specialid="103;101" specialnum="4;54"/>
+			<skillinfo level="2" num="1" specialid="103;101" specialnum="9;108"/>
+			<skillinfo level="3" num="2" specialid="103;101" specialnum="27;324"/>
+			<skillinfo level="4" num="2" specialid="103;101" specialnum="45;540"/>
+			<skillinfo level="5" num="4" specialid="103;101" specialnum="75;900"/>
+			<skillinfo level="6" num="7" specialid="103;101" specialnum="127;1530"/>
+			<skillinfo level="7" num="8" specialid="103;101" specialnum="187;2250"/>
+			<skillinfo level="8" num="10" specialid="103;101" specialnum="262;3150"/>
+			<skillinfo level="9" num="11" specialid="103;101" specialnum="345;4140"/>
+			<skillinfo level="10" num="12" specialid="103;101" specialnum="435;5220"/>
+			<skillinfo level="11" num="14" specialid="103;101" specialnum="540;6480"/>
+			<skillinfo level="12" num="15" specialid="103;101" specialnum="645;7740"/>
+			<skillinfo level="13" num="16" specialid="103;101" specialnum="750;9000"/>
+			<skillinfo level="14" num="18" specialid="103;101" specialnum="855;10260"/>
+			<skillinfo level="15" num="20" specialid="103;101" specialnum="960;11520"/>
+			<skillinfo level="16" num="22" specialid="103;101" specialnum="1065;12780"/>
+			<skillinfo level="17" num="25" specialid="103;101" specialnum="1170;14040"/>
+			<skillinfo level="18" num="28" specialid="103;101" specialnum="1275;15300"/>
+			<skillinfo level="19" num="30" specialid="103;101" specialnum="1380;16560"/>
+			<skillinfo level="20" num="40" specialid="103;101" specialnum="1500;18000"/>
+		</skilltype>
+		<skilltype type="3" icon="yc_bs_skill_03" name="千变" skilllevel="5" item="14020101">
+			<skillinfo level="1" num="0" specialid="101;106" specialnum="126;18"/>
+			<skillinfo level="2" num="1" specialid="101;106" specialnum="252;36"/>
+			<skillinfo level="3" num="2" specialid="101;106" specialnum="756;108"/>
+			<skillinfo level="4" num="2" specialid="101;106" specialnum="1260;180"/>
+			<skillinfo level="5" num="4" specialid="101;106" specialnum="2100;300"/>
+			<skillinfo level="6" num="7" specialid="101;106" specialnum="3570;510"/>
+			<skillinfo level="7" num="8" specialid="101;106" specialnum="5250;750"/>
+			<skillinfo level="8" num="10" specialid="101;106" specialnum="7350;1050"/>
+			<skillinfo level="9" num="11" specialid="101;106" specialnum="9660;1380"/>
+			<skillinfo level="10" num="12" specialid="101;106" specialnum="12180;1740"/>
+			<skillinfo level="11" num="14" specialid="101;106" specialnum="15120;2160"/>
+			<skillinfo level="12" num="15" specialid="101;106" specialnum="18060;2580"/>
+			<skillinfo level="13" num="16" specialid="101;106" specialnum="21000;3000"/>
+			<skillinfo level="14" num="18" specialid="101;106" specialnum="23940;3420"/>
+			<skillinfo level="15" num="20" specialid="101;106" specialnum="26880;3840"/>
+			<skillinfo level="16" num="22" specialid="101;106" specialnum="29820;4260"/>
+			<skillinfo level="17" num="25" specialid="101;106" specialnum="32760;4680"/>
+			<skillinfo level="18" num="28" specialid="101;106" specialnum="35700;5100"/>
+			<skillinfo level="19" num="30" specialid="101;106" specialnum="38640;5520"/>
+			<skillinfo level="20" num="40" specialid="101;106" specialnum="42000;6000"/>
+		</skilltype>
+		<skilltype type="4" icon="yc_bs_skill_04" name="万化" skilllevel="7" item="14020101">
+			<skillinfo level="1" num="0" specialid="102;104" specialnum="9;5"/>
+			<skillinfo level="2" num="1" specialid="102;104" specialnum="18;10"/>
+			<skillinfo level="3" num="2" specialid="102;104" specialnum="54;15"/>
+			<skillinfo level="4" num="2" specialid="102;104" specialnum="90;20"/>
+			<skillinfo level="5" num="4" specialid="102;104" specialnum="150;25"/>
+			<skillinfo level="6" num="7" specialid="102;104" specialnum="255;30"/>
+			<skillinfo level="7" num="8" specialid="102;104" specialnum="375;35"/>
+			<skillinfo level="8" num="10" specialid="102;104" specialnum="525;40"/>
+			<skillinfo level="9" num="11" specialid="102;104" specialnum="690;45"/>
+			<skillinfo level="10" num="12" specialid="102;104" specialnum="870;50"/>
+			<skillinfo level="11" num="14" specialid="102;104" specialnum="1080;55"/>
+			<skillinfo level="12" num="15" specialid="102;104" specialnum="1290;60"/>
+			<skillinfo level="13" num="16" specialid="102;104" specialnum="1500;65"/>
+			<skillinfo level="14" num="18" specialid="102;104" specialnum="1710;70"/>
+			<skillinfo level="15" num="20" specialid="102;104" specialnum="1920;75"/>
+			<skillinfo level="16" num="22" specialid="102;104" specialnum="2130;80"/>
+			<skillinfo level="17" num="25" specialid="102;104" specialnum="2340;85"/>
+			<skillinfo level="18" num="28" specialid="102;104" specialnum="2550;90"/>
+			<skillinfo level="19" num="30" specialid="102;104" specialnum="2760;95"/>
+			<skillinfo level="20" num="40" specialid="102;104" specialnum="3000;100"/>
+		</skilltype>
+	</skill>
+	<skill type="6">
+		<skilltype type="1" icon="yc_xw_skill_01" name="化气" skilllevel="1" item="14070101">
+			<skillinfo level="1" num="0" specialid="102;103" specialnum="6;3"/>
+			<skillinfo level="2" num="1" specialid="102;103" specialnum="12;6"/>
+			<skillinfo level="3" num="2" specialid="102;103" specialnum="36;18"/>
+			<skillinfo level="4" num="2" specialid="102;103" specialnum="60;30"/>
+			<skillinfo level="5" num="4" specialid="102;103" specialnum="100;50"/>
+			<skillinfo level="6" num="7" specialid="102;103" specialnum="170;85"/>
+			<skillinfo level="7" num="8" specialid="102;103" specialnum="250;125"/>
+			<skillinfo level="8" num="10" specialid="102;103" specialnum="350;175"/>
+			<skillinfo level="9" num="11" specialid="102;103" specialnum="460;230"/>
+			<skillinfo level="10" num="12" specialid="102;103" specialnum="580;290"/>
+			<skillinfo level="11" num="14" specialid="102;103" specialnum="720;360"/>
+			<skillinfo level="12" num="15" specialid="102;103" specialnum="860;430"/>
+			<skillinfo level="13" num="16" specialid="102;103" specialnum="1000;500"/>
+			<skillinfo level="14" num="18" specialid="102;103" specialnum="1140;570"/>
+			<skillinfo level="15" num="20" specialid="102;103" specialnum="1280;640"/>
+			<skillinfo level="16" num="22" specialid="102;103" specialnum="1420;710"/>
+			<skillinfo level="17" num="25" specialid="102;103" specialnum="1560;780"/>
+			<skillinfo level="18" num="28" specialid="102;103" specialnum="1700;850"/>
+			<skillinfo level="19" num="30" specialid="102;103" specialnum="1840;920"/>
+			<skillinfo level="20" num="40" specialid="102;103" specialnum="2000;1000"/>
+		</skilltype>
+		<skilltype type="2" icon="yc_xw_skill_02" name="化神" skilllevel="3" item="14070101">
+			<skillinfo level="1" num="0" specialid="103;101" specialnum="4;54"/>
+			<skillinfo level="2" num="1" specialid="103;101" specialnum="9;108"/>
+			<skillinfo level="3" num="2" specialid="103;101" specialnum="27;324"/>
+			<skillinfo level="4" num="2" specialid="103;101" specialnum="45;540"/>
+			<skillinfo level="5" num="4" specialid="103;101" specialnum="75;900"/>
+			<skillinfo level="6" num="7" specialid="103;101" specialnum="127;1530"/>
+			<skillinfo level="7" num="8" specialid="103;101" specialnum="187;2250"/>
+			<skillinfo level="8" num="10" specialid="103;101" specialnum="262;3150"/>
+			<skillinfo level="9" num="11" specialid="103;101" specialnum="345;4140"/>
+			<skillinfo level="10" num="12" specialid="103;101" specialnum="435;5220"/>
+			<skillinfo level="11" num="14" specialid="103;101" specialnum="540;6480"/>
+			<skillinfo level="12" num="15" specialid="103;101" specialnum="645;7740"/>
+			<skillinfo level="13" num="16" specialid="103;101" specialnum="750;9000"/>
+			<skillinfo level="14" num="18" specialid="103;101" specialnum="855;10260"/>
+			<skillinfo level="15" num="20" specialid="103;101" specialnum="960;11520"/>
+			<skillinfo level="16" num="22" specialid="103;101" specialnum="1065;12780"/>
+			<skillinfo level="17" num="25" specialid="103;101" specialnum="1170;14040"/>
+			<skillinfo level="18" num="28" specialid="103;101" specialnum="1275;15300"/>
+			<skillinfo level="19" num="30" specialid="103;101" specialnum="1380;16560"/>
+			<skillinfo level="20" num="40" specialid="103;101" specialnum="1500;18000"/>
+		</skilltype>
+		<skilltype type="3" icon="yc_xw_skill_03" name="还虚" skilllevel="5" item="14070101">
+			<skillinfo level="1" num="0" specialid="101;106" specialnum="126;18"/>
+			<skillinfo level="2" num="1" specialid="101;106" specialnum="252;36"/>
+			<skillinfo level="3" num="2" specialid="101;106" specialnum="756;108"/>
+			<skillinfo level="4" num="2" specialid="101;106" specialnum="1260;180"/>
+			<skillinfo level="5" num="4" specialid="101;106" specialnum="2100;300"/>
+			<skillinfo level="6" num="7" specialid="101;106" specialnum="3570;510"/>
+			<skillinfo level="7" num="8" specialid="101;106" specialnum="5250;750"/>
+			<skillinfo level="8" num="10" specialid="101;106" specialnum="7350;1050"/>
+			<skillinfo level="9" num="11" specialid="101;106" specialnum="9660;1380"/>
+			<skillinfo level="10" num="12" specialid="101;106" specialnum="12180;1740"/>
+			<skillinfo level="11" num="14" specialid="101;106" specialnum="15120;2160"/>
+			<skillinfo level="12" num="15" specialid="101;106" specialnum="18060;2580"/>
+			<skillinfo level="13" num="16" specialid="101;106" specialnum="21000;3000"/>
+			<skillinfo level="14" num="18" specialid="101;106" specialnum="23940;3420"/>
+			<skillinfo level="15" num="20" specialid="101;106" specialnum="26880;3840"/>
+			<skillinfo level="16" num="22" specialid="101;106" specialnum="29820;4260"/>
+			<skillinfo level="17" num="25" specialid="101;106" specialnum="32760;4680"/>
+			<skillinfo level="18" num="28" specialid="101;106" specialnum="35700;5100"/>
+			<skillinfo level="19" num="30" specialid="101;106" specialnum="38640;5520"/>
+			<skillinfo level="20" num="40" specialid="101;106" specialnum="42000;6000"/>
+		</skilltype>
+		<skilltype type="4" icon="yc_xw_skill_04" name="合道" skilllevel="7" item="14070101">
+			<skillinfo level="1" num="0" specialid="102;104" specialnum="9;5"/>
+			<skillinfo level="2" num="1" specialid="102;104" specialnum="18;10"/>
+			<skillinfo level="3" num="2" specialid="102;104" specialnum="54;15"/>
+			<skillinfo level="4" num="2" specialid="102;104" specialnum="90;20"/>
+			<skillinfo level="5" num="4" specialid="102;104" specialnum="150;25"/>
+			<skillinfo level="6" num="7" specialid="102;104" specialnum="255;30"/>
+			<skillinfo level="7" num="8" specialid="102;104" specialnum="375;35"/>
+			<skillinfo level="8" num="10" specialid="102;104" specialnum="525;40"/>
+			<skillinfo level="9" num="11" specialid="102;104" specialnum="690;45"/>
+			<skillinfo level="10" num="12" specialid="102;104" specialnum="870;50"/>
+			<skillinfo level="11" num="14" specialid="102;104" specialnum="1080;55"/>
+			<skillinfo level="12" num="15" specialid="102;104" specialnum="1290;60"/>
+			<skillinfo level="13" num="16" specialid="102;104" specialnum="1500;65"/>
+			<skillinfo level="14" num="18" specialid="102;104" specialnum="1710;70"/>
+			<skillinfo level="15" num="20" specialid="102;104" specialnum="1920;75"/>
+			<skillinfo level="16" num="22" specialid="102;104" specialnum="2130;80"/>
+			<skillinfo level="17" num="25" specialid="102;104" specialnum="2340;85"/>
+			<skillinfo level="18" num="28" specialid="102;104" specialnum="2550;90"/>
+			<skillinfo level="19" num="30" specialid="102;104" specialnum="2760;95"/>
+			<skillinfo level="20" num="40" specialid="102;104" specialnum="3000;100"/>
+		</skilltype>
+	</skill>
+	<skill type="7">
+		<skilltype type="1" icon="yc_lq_skill_01" name="洞明" skilllevel="1" item="14080101">
+			<skillinfo level="1" num="0" specialid="102;103" specialnum="6;3"/>
+			<skillinfo level="2" num="1" specialid="102;103" specialnum="12;6"/>
+			<skillinfo level="3" num="2" specialid="102;103" specialnum="36;18"/>
+			<skillinfo level="4" num="2" specialid="102;103" specialnum="60;30"/>
+			<skillinfo level="5" num="4" specialid="102;103" specialnum="100;50"/>
+			<skillinfo level="6" num="7" specialid="102;103" specialnum="170;85"/>
+			<skillinfo level="7" num="8" specialid="102;103" specialnum="250;125"/>
+			<skillinfo level="8" num="10" specialid="102;103" specialnum="350;175"/>
+			<skillinfo level="9" num="11" specialid="102;103" specialnum="460;230"/>
+			<skillinfo level="10" num="12" specialid="102;103" specialnum="580;290"/>
+			<skillinfo level="11" num="14" specialid="102;103" specialnum="720;360"/>
+			<skillinfo level="12" num="15" specialid="102;103" specialnum="860;430"/>
+			<skillinfo level="13" num="16" specialid="102;103" specialnum="1000;500"/>
+			<skillinfo level="14" num="18" specialid="102;103" specialnum="1140;570"/>
+			<skillinfo level="15" num="20" specialid="102;103" specialnum="1280;640"/>
+			<skillinfo level="16" num="22" specialid="102;103" specialnum="1420;710"/>
+			<skillinfo level="17" num="25" specialid="102;103" specialnum="1560;780"/>
+			<skillinfo level="18" num="28" specialid="102;103" specialnum="1700;850"/>
+			<skillinfo level="19" num="30" specialid="102;103" specialnum="1840;920"/>
+			<skillinfo level="20" num="40" specialid="102;103" specialnum="2000;1000"/>
+		</skilltype>
+		<skilltype type="2" icon="yc_lq_skill_02" name="通神" skilllevel="3" item="14080101">
+			<skillinfo level="1" num="0" specialid="103;101" specialnum="4;54"/>
+			<skillinfo level="2" num="1" specialid="103;101" specialnum="9;108"/>
+			<skillinfo level="3" num="2" specialid="103;101" specialnum="27;324"/>
+			<skillinfo level="4" num="2" specialid="103;101" specialnum="45;540"/>
+			<skillinfo level="5" num="4" specialid="103;101" specialnum="75;900"/>
+			<skillinfo level="6" num="7" specialid="103;101" specialnum="127;1530"/>
+			<skillinfo level="7" num="8" specialid="103;101" specialnum="187;2250"/>
+			<skillinfo level="8" num="10" specialid="103;101" specialnum="262;3150"/>
+			<skillinfo level="9" num="11" specialid="103;101" specialnum="345;4140"/>
+			<skillinfo level="10" num="12" specialid="103;101" specialnum="435;5220"/>
+			<skillinfo level="11" num="14" specialid="103;101" specialnum="540;6480"/>
+			<skillinfo level="12" num="15" specialid="103;101" specialnum="645;7740"/>
+			<skillinfo level="13" num="16" specialid="103;101" specialnum="750;9000"/>
+			<skillinfo level="14" num="18" specialid="103;101" specialnum="855;10260"/>
+			<skillinfo level="15" num="20" specialid="103;101" specialnum="960;11520"/>
+			<skillinfo level="16" num="22" specialid="103;101" specialnum="1065;12780"/>
+			<skillinfo level="17" num="25" specialid="103;101" specialnum="1170;14040"/>
+			<skillinfo level="18" num="28" specialid="103;101" specialnum="1275;15300"/>
+			<skillinfo level="19" num="30" specialid="103;101" specialnum="1380;16560"/>
+			<skillinfo level="20" num="40" specialid="103;101" specialnum="1500;18000"/>
+		</skilltype>
+		<skilltype type="3" icon="yc_lq_skill_03" name="疾风" skilllevel="5" item="14080101">
+			<skillinfo level="1" num="0" specialid="101;106" specialnum="126;18"/>
+			<skillinfo level="2" num="1" specialid="101;106" specialnum="252;36"/>
+			<skillinfo level="3" num="2" specialid="101;106" specialnum="756;108"/>
+			<skillinfo level="4" num="2" specialid="101;106" specialnum="1260;180"/>
+			<skillinfo level="5" num="4" specialid="101;106" specialnum="2100;300"/>
+			<skillinfo level="6" num="7" specialid="101;106" specialnum="3570;510"/>
+			<skillinfo level="7" num="8" specialid="101;106" specialnum="5250;750"/>
+			<skillinfo level="8" num="10" specialid="101;106" specialnum="7350;1050"/>
+			<skillinfo level="9" num="11" specialid="101;106" specialnum="9660;1380"/>
+			<skillinfo level="10" num="12" specialid="101;106" specialnum="12180;1740"/>
+			<skillinfo level="11" num="14" specialid="101;106" specialnum="15120;2160"/>
+			<skillinfo level="12" num="15" specialid="101;106" specialnum="18060;2580"/>
+			<skillinfo level="13" num="16" specialid="101;106" specialnum="21000;3000"/>
+			<skillinfo level="14" num="18" specialid="101;106" specialnum="23940;3420"/>
+			<skillinfo level="15" num="20" specialid="101;106" specialnum="26880;3840"/>
+			<skillinfo level="16" num="22" specialid="101;106" specialnum="29820;4260"/>
+			<skillinfo level="17" num="25" specialid="101;106" specialnum="32760;4680"/>
+			<skillinfo level="18" num="28" specialid="101;106" specialnum="35700;5100"/>
+			<skillinfo level="19" num="30" specialid="101;106" specialnum="38640;5520"/>
+			<skillinfo level="20" num="40" specialid="101;106" specialnum="42000;6000"/>
+		</skilltype>
+		<skilltype type="4" icon="yc_lq_skill_04" name="灵魄" skilllevel="7" item="14080101">
+			<skillinfo level="1" num="0" specialid="102;104" specialnum="9;5"/>
+			<skillinfo level="2" num="1" specialid="102;104" specialnum="18;10"/>
+			<skillinfo level="3" num="2" specialid="102;104" specialnum="54;15"/>
+			<skillinfo level="4" num="2" specialid="102;104" specialnum="90;20"/>
+			<skillinfo level="5" num="4" specialid="102;104" specialnum="150;25"/>
+			<skillinfo level="6" num="7" specialid="102;104" specialnum="255;30"/>
+			<skillinfo level="7" num="8" specialid="102;104" specialnum="375;35"/>
+			<skillinfo level="8" num="10" specialid="102;104" specialnum="525;40"/>
+			<skillinfo level="9" num="11" specialid="102;104" specialnum="690;45"/>
+			<skillinfo level="10" num="12" specialid="102;104" specialnum="870;50"/>
+			<skillinfo level="11" num="14" specialid="102;104" specialnum="1080;55"/>
+			<skillinfo level="12" num="15" specialid="102;104" specialnum="1290;60"/>
+			<skillinfo level="13" num="16" specialid="102;104" specialnum="1500;65"/>
+			<skillinfo level="14" num="18" specialid="102;104" specialnum="1710;70"/>
+			<skillinfo level="15" num="20" specialid="102;104" specialnum="1920;75"/>
+			<skillinfo level="16" num="22" specialid="102;104" specialnum="2130;80"/>
+			<skillinfo level="17" num="25" specialid="102;104" specialnum="2340;85"/>
+			<skillinfo level="18" num="28" specialid="102;104" specialnum="2550;90"/>
+			<skillinfo level="19" num="30" specialid="102;104" specialnum="2760;95"/>
+			<skillinfo level="20" num="40" specialid="102;104" specialnum="3000;100"/>
+		</skilltype>
+	</skill>
+</root>

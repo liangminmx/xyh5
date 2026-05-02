@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+functionid	功能id
+	
+type	合成分类
+=1 红色符石
+=2 黄色符石
+=3 蓝色符石
+=4 其他道具
+	
+grid	合成道具标识id
+itemcostid	合成所需消耗的道具id
+costnum	合成所需消耗道具数量
+moneytype	单次合成所需消耗货币类型（多个用逗号隔开，不填则无任何消耗）=1 银两 =2 元宝 =3 绑元
+
+moneynum	单次合成消耗货币数量，多个用逗号隔开
+itemid	合成成功后的道具id
+num	合成成功后道具数量
+success	合成成功率（万分比）
+limit	每日合成数量限制（不填则无限制）
+
+-->
+	<function functionid="2337"/>
+	<type type="1">
+		<grids grid="1" itemcostid="10100101,10100101,10100101" costnum="1,1,1" moneytype="" moneynum="" itemid="10100102" num="1" success="10000" limit=""/>
+		<grids grid="2" itemcostid="10100102,10100102,10100102" costnum="1,1,1" moneytype="" moneynum="" itemid="10100103" num="1" success="10000" limit=""/>
+		<grids grid="3" itemcostid="10100103,10100103,10100103" costnum="1,1,1" moneytype="" moneynum="" itemid="10100104" num="1" success="10000" limit=""/>
+		<grids grid="4" itemcostid="10100104,10100104,10100104" costnum="1,1,1" moneytype="" moneynum="" itemid="10100105" num="1" success="10000" limit=""/>
+		<grids grid="5" itemcostid="10100105,10100105,10100105" costnum="1,1,1" moneytype="" moneynum="" itemid="10100106" num="1" success="10000" limit=""/>
+		<grids grid="6" itemcostid="10100106,10100106,10100106" costnum="1,1,1" moneytype="" moneynum="" itemid="10100107" num="1" success="10000" limit=""/>
+		<grids grid="7" itemcostid="10100107,10100107,10100107" costnum="1,1,1" moneytype="" moneynum="" itemid="10100108" num="1" success="10000" limit=""/>
+		<grids grid="8" itemcostid="10100108,10100108,10100108" costnum="1,1,1" moneytype="" moneynum="" itemid="10100109" num="1" success="10000" limit=""/>
+		<grids grid="9" itemcostid="10100109,10100109,10100109" costnum="1,1,1" moneytype="" moneynum="" itemid="10100110" num="1" success="10000" limit=""/>
+		<grids grid="10" itemcostid="10100110,10100110,10100110" costnum="1,1,1" moneytype="" moneynum="" itemid="10100111" num="1" success="10000" limit=""/>
+		<grids grid="11" itemcostid="10100111,10100111,10100111" costnum="1,1,1" moneytype="" moneynum="" itemid="10100112" num="1" success="10000" limit=""/>
+		<grids grid="12" itemcostid="10100112,10100112,10100112" costnum="1,1,1" moneytype="" moneynum="" itemid="10100113" num="1" success="10000" limit=""/>
+		<grids grid="13" itemcostid="10100113,10100113,10100113" costnum="1,1,1" moneytype="" moneynum="" itemid="10100114" num="1" success="10000" limit=""/>
+		<grids grid="14" itemcostid="10100114,10100114,10100114" costnum="1,1,1" moneytype="" moneynum="" itemid="10100115" num="1" success="10000" limit=""/>
+		<grids grid="15" itemcostid="10100115,10100115,10100115" costnum="1,1,1" moneytype="" moneynum="" itemid="10100116" num="1" success="10000" limit=""/>
+		<grids grid="16" itemcostid="10100116,10100116,10100116" costnum="1,1,1" moneytype="" moneynum="" itemid="10100117" num="1" success="10000" limit=""/>
+		<grids grid="17" itemcostid="10100117,10100117,10100117" costnum="1,1,1" moneytype="" moneynum="" itemid="10100118" num="1" success="10000" limit=""/>
+		<grids grid="18" itemcostid="10100118,10100118,10100118" costnum="1,1,1" moneytype="" moneynum="" itemid="10100119" num="1" success="10000" limit=""/>
+		<grids grid="19" itemcostid="10100119,10100119,10100119" costnum="1,1,1" moneytype="" moneynum="" itemid="10100120" num="1" success="10000" limit=""/>
+	</type>
+	<type type="2">
+		<grids grid="1" itemcostid="10100201,10100201,10100201" costnum="1,1,1" moneytype="" moneynum="" itemid="10100202" num="1" success="10000" limit=""/>
+		<grids grid="2" itemcostid="10100202,10100202,10100202" costnum="1,1,1" moneytype="" moneynum="" itemid="10100203" num="1" success="10000" limit=""/>
+		<grids grid="3" itemcostid="10100203,10100203,10100203" costnum="1,1,1" moneytype="" moneynum="" itemid="10100204" num="1" success="10000" limit=""/>
+		<grids grid="4" itemcostid="10100204,10100204,10100204" costnum="1,1,1" moneytype="" moneynum="" itemid="10100205" num="1" success="10000" limit=""/>
+		<grids grid="5" itemcostid="10100205,10100205,10100205" costnum="1,1,1" moneytype="" moneynum="" itemid="10100206" num="1" success="10000" limit=""/>
+		<grids grid="6" itemcostid="10100206,10100206,10100206" costnum="1,1,1" moneytype="" moneynum="" itemid="10100207" num="1" success="10000" limit=""/>
+		<grids grid="7" itemcostid="10100207,10100207,10100207" costnum="1,1,1" moneytype="" moneynum="" itemid="10100208" num="1" success="10000" limit=""/>
+		<grids grid="8" itemcostid="10100208,10100208,10100208" costnum="1,1,1" moneytype="" moneynum="" itemid="10100209" num="1" success="10000" limit=""/>
+		<grids grid="9" itemcostid="10100209,10100209,10100209" costnum="1,1,1" moneytype="" moneynum="" itemid="10100210" num="1" success="10000" limit=""/>
+		<grids grid="10" itemcostid="10100210,10100210,10100210" costnum="1,1,1" moneytype="" moneynum="" itemid="10100211" num="1" success="10000" limit=""/>
+		<grids grid="11" itemcostid="10100211,10100211,10100211" costnum="1,1,1" moneytype="" moneynum="" itemid="10100212" num="1" success="10000" limit=""/>
+		<grids grid="12" itemcostid="10100212,10100212,10100212" costnum="1,1,1" moneytype="" moneynum="" itemid="10100213" num="1" success="10000" limit=""/>
+		<grids grid="13" itemcostid="10100213,10100213,10100213" costnum="1,1,1" moneytype="" moneynum="" itemid="10100214" num="1" success="10000" limit=""/>
+		<grids grid="14" itemcostid="10100214,10100214,10100214" costnum="1,1,1" moneytype="" moneynum="" itemid="10100215" num="1" success="10000" limit=""/>
+		<grids grid="15" itemcostid="10100215,10100215,10100215" costnum="1,1,1" moneytype="" moneynum="" itemid="10100216" num="1" success="10000" limit=""/>
+		<grids grid="16" itemcostid="10100216,10100216,10100216" costnum="1,1,1" moneytype="" moneynum="" itemid="10100217" num="1" success="10000" limit=""/>
+		<grids grid="17" itemcostid="10100217,10100217,10100217" costnum="1,1,1" moneytype="" moneynum="" itemid="10100218" num="1" success="10000" limit=""/>
+		<grids grid="18" itemcostid="10100218,10100218,10100218" costnum="1,1,1" moneytype="" moneynum="" itemid="10100219" num="1" success="10000" limit=""/>
+		<grids grid="19" itemcostid="10100219,10100219,10100219" costnum="1,1,1" moneytype="" moneynum="" itemid="10100220" num="1" success="10000" limit=""/>
+	</type>
+	<type type="3">
+		<grids grid="1" itemcostid="10100301,10100301,10100301" costnum="1,1,1" moneytype="" moneynum="" itemid="10100302" num="1" success="10000" limit=""/>
+		<grids grid="2" itemcostid="10100302,10100302,10100302" costnum="1,1,1" moneytype="" moneynum="" itemid="10100303" num="1" success="10000" limit=""/>
+		<grids grid="3" itemcostid="10100303,10100303,10100303" costnum="1,1,1" moneytype="" moneynum="" itemid="10100304" num="1" success="10000" limit=""/>
+		<grids grid="4" itemcostid="10100304,10100304,10100304" costnum="1,1,1" moneytype="" moneynum="" itemid="10100305" num="1" success="10000" limit=""/>
+		<grids grid="5" itemcostid="10100305,10100305,10100305" costnum="1,1,1" moneytype="" moneynum="" itemid="10100306" num="1" success="10000" limit=""/>
+		<grids grid="6" itemcostid="10100306,10100306,10100306" costnum="1,1,1" moneytype="" moneynum="" itemid="10100307" num="1" success="10000" limit=""/>
+		<grids grid="7" itemcostid="10100307,10100307,10100307" costnum="1,1,1" moneytype="" moneynum="" itemid="10100308" num="1" success="10000" limit=""/>
+		<grids grid="8" itemcostid="10100308,10100308,10100308" costnum="1,1,1" moneytype="" moneynum="" itemid="10100309" num="1" success="10000" limit=""/>
+		<grids grid="9" itemcostid="10100309,10100309,10100309" costnum="1,1,1" moneytype="" moneynum="" itemid="10100310" num="1" success="10000" limit=""/>
+		<grids grid="10" itemcostid="10100310,10100310,10100310" costnum="1,1,1" moneytype="" moneynum="" itemid="10100311" num="1" success="10000" limit=""/>
+		<grids grid="11" itemcostid="10100311,10100311,10100311" costnum="1,1,1" moneytype="" moneynum="" itemid="10100312" num="1" success="10000" limit=""/>
+		<grids grid="12" itemcostid="10100312,10100312,10100312" costnum="1,1,1" moneytype="" moneynum="" itemid="10100313" num="1" success="10000" limit=""/>
+		<grids grid="13" itemcostid="10100313,10100313,10100313" costnum="1,1,1" moneytype="" moneynum="" itemid="10100314" num="1" success="10000" limit=""/>
+		<grids grid="14" itemcostid="10100314,10100314,10100314" costnum="1,1,1" moneytype="" moneynum="" itemid="10100315" num="1" success="10000" limit=""/>
+		<grids grid="15" itemcostid="10100315,10100315,10100315" costnum="1,1,1" moneytype="" moneynum="" itemid="10100316" num="1" success="10000" limit=""/>
+		<grids grid="16" itemcostid="10100316,10100316,10100316" costnum="1,1,1" moneytype="" moneynum="" itemid="10100317" num="1" success="10000" limit=""/>
+		<grids grid="17" itemcostid="10100317,10100317,10100317" costnum="1,1,1" moneytype="" moneynum="" itemid="10100318" num="1" success="10000" limit=""/>
+		<grids grid="18" itemcostid="10100318,10100318,10100318" costnum="1,1,1" moneytype="" moneynum="" itemid="10100319" num="1" success="10000" limit=""/>
+		<grids grid="19" itemcostid="10100319,10100319,10100319" costnum="1,1,1" moneytype="" moneynum="" itemid="10100320" num="1" success="10000" limit=""/>
+	</type>
+	<type type="4">
+		<grids grid="1" itemcostid="12000230,12000230,12000230,12000230,12000230" costnum="20,20,20,20,20" moneytype="" moneynum="" itemid="12000030" num="1" success="10000" limit=""/>
+		<grids grid="2" itemcostid="12000231,12000231,12000231,12000231,12000231" costnum="20,20,20,20,20" moneytype="" moneynum="" itemid="12000031" num="1" success="10000" limit=""/>
+		<grids grid="3" itemcostid="12000232,12000232,12000232,12000232,12000232" costnum="20,20,20,20,20" moneytype="" moneynum="" itemid="12000032" num="1" success="10000" limit=""/>
+		<grids grid="4" itemcostid="12000233,12000233,12000233,12000233,12000233" costnum="20,20,20,20,20" moneytype="" moneynum="" itemid="12000033" num="1" success="10000" limit=""/>
+		<grids grid="5" itemcostid="12000234,12000234,12000234,12000234,12000234" costnum="20,20,20,20,20" moneytype="" moneynum="" itemid="12000034" num="1" success="10000" limit=""/>
+		<grids grid="6" itemcostid="12000235,12000235,12000235,12000235,12000235" costnum="20,20,20,20,20" moneytype="" moneynum="" itemid="12000035" num="1" success="10000" limit=""/>
+		<grids grid="7" itemcostid="12000236,12000236,12000236,12000236,12000236" costnum="20,20,20,20,20" moneytype="" moneynum="" itemid="12000036" num="1" success="10000" limit=""/>
+		<grids grid="8" itemcostid="12000237,12000237,12000237,12000237,12000237" costnum="20,20,20,20,20" moneytype="" moneynum="" itemid="12000037" num="1" success="10000" limit=""/>
+		<grids grid="9" itemcostid="12000238,12000238,12000238,12000238,12000238" costnum="20,20,20,20,20" moneytype="" moneynum="" itemid="12000038" num="1" success="10000" limit=""/>
+		<grids grid="10" itemcostid="12000239,12000239,12000239,12000239,12000239" costnum="20,20,20,20,20" moneytype="" moneynum="" itemid="12000039" num="1" success="10000" limit=""/>
+		<grids grid="11" itemcostid="12000240,12000240,12000240,12000240,12000240" costnum="20,20,20,20,20" moneytype="" moneynum="" itemid="12000040" num="1" success="10000" limit=""/>
+		<grids grid="12" itemcostid="12000241,12000241,12000241,12000241,12000241" costnum="20,20,20,20,20" moneytype="" moneynum="" itemid="12000041" num="1" success="10000" limit=""/>
+		<grids grid="13" itemcostid="12000242,12000242,12000242,12000242,12000242" costnum="20,20,20,20,20" moneytype="" moneynum="" itemid="12000042" num="1" success="10000" limit=""/>
+		<grids grid="100" itemcostid="12000243,12000243,12000243,12000243,12000243" costnum="20,20,20,20,20" moneytype="" moneynum="" itemid="12000043" num="1" success="10000" limit=""/>
+		<grids grid="101" itemcostid="12000244,12000244,12000244,12000244,12000244" costnum="20,20,20,20,20" moneytype="" moneynum="" itemid="12000044" num="1" success="10000" limit=""/>
+		<grids grid="102" itemcostid="12000245,12000245,12000245,12000245,12000245" costnum="20,20,20,20,20" moneytype="" moneynum="" itemid="12000045" num="1" success="10000" limit=""/>
+		<grids grid="103" itemcostid="12000246,12000246,12000246,12000246,12000246" costnum="20,20,20,20,20" moneytype="" moneynum="" itemid="12000046" num="1" success="10000" limit=""/>
+		<grids grid="104" itemcostid="12000247,12000247,12000247,12000247,12000247" costnum="20,20,20,20,20" moneytype="" moneynum="" itemid="12000047" num="1" success="10000" limit=""/>
+		<grids grid="105" itemcostid="12000248,12000248,12000248,12000248,12000248" costnum="20,20,20,20,20" moneytype="" moneynum="" itemid="12000048" num="1" success="10000" limit=""/>
+		<grids grid="14" itemcostid="12000229,12000229,12000229,12000229" costnum="20,20,20,20" moneytype="" moneynum="" itemid="12000029" num="1" success="10000" limit=""/>
+		<grids grid="15" itemcostid="12070217,12070217,12070217,12070217" costnum="20,20,20,20" moneytype="" moneynum="" itemid="12070017" num="1" success="10000" limit=""/>
+		<grids grid="16" itemcostid="12080220,12080220,12080220,12080220" costnum="20,20,20,20" moneytype="" moneynum="" itemid="12080020" num="1" success="10000" limit=""/>
+		<grids grid="17" itemcostid="12080221,12080221,12080221,12080221" costnum="20,20,20,20" moneytype="" moneynum="" itemid="12080021" num="1" success="10000" limit=""/>
+		<grids grid="18" itemcostid="12090224,12090224,12090224,12090224" costnum="20,20,20,20" moneytype="" moneynum="" itemid="12090024" num="1" success="10000" limit=""/>
+		<grids grid="19" itemcostid="12090225,12090225,12090225,12090225" costnum="20,20,20,20" moneytype="" moneynum="" itemid="12090025" num="1" success="10000" limit=""/>
+		<grids grid="20" itemcostid="12100226,12100226,12100226,12100226" costnum="20,20,20,20" moneytype="" moneynum="" itemid="12100026" num="1" success="10000" limit=""/>
+		<grids grid="21" itemcostid="12100227,12100227,12100227,12100227" costnum="20,20,20,20" moneytype="" moneynum="" itemid="12100027" num="1" success="10000" limit=""/>
+		<grids grid="22" itemcostid="12100228,12100228,12100228,12100228" costnum="20,20,20,20" moneytype="" moneynum="" itemid="12100028" num="1" success="10000" limit=""/>
+		<grids grid="23" itemcostid="18140101,18140101,18140101,18140101,18140101" costnum="20,20,20,20,20" moneytype="" moneynum="" itemid="18040101" num="1" success="10000" limit=""/>
+		<grids grid="24" itemcostid="18140102,18140102,18140102,18140102,18140102" costnum="20,20,20,20,20" moneytype="" moneynum="" itemid="18040102" num="1" success="10000" limit=""/>
+		<grids grid="25" itemcostid="18140103,18140103,18140103,18140103,18140103" costnum="20,20,20,20,20" moneytype="" moneynum="" itemid="18040103" num="1" success="10000" limit=""/>
+		<grids grid="26" itemcostid="18140104,18140104,18140104,18140104,18140104" costnum="20,20,20,20,20" moneytype="" moneynum="" itemid="18040104" num="1" success="10000" limit=""/>
+		<grids grid="27" itemcostid="18140105,18140105,18140105,18140105,18140105" costnum="20,20,20,20,20" moneytype="" moneynum="" itemid="18040105" num="1" success="10000" limit=""/>
+		<grids grid="28" itemcostid="18140106,18140106,18140106,18140106,18140106" costnum="20,20,20,20,20" moneytype="" moneynum="" itemid="18040106" num="1" success="10000" limit=""/>
+		<grids grid="29" itemcostid="18140107,18140107,18140107,18140107,18140107" costnum="20,20,20,20,20" moneytype="" moneynum="" itemid="18040107" num="1" success="10000" limit=""/>
+		<grids grid="30" itemcostid="18140108,18140108,18140108,18140108,18140108" costnum="20,20,20,20,20" moneytype="" moneynum="" itemid="18040108" num="1" success="10000" limit=""/>
+		<grids grid="31" itemcostid="18140109,18140109,18140109,18140109,18140109" costnum="20,20,20,20,20" moneytype="" moneynum="" itemid="18040109" num="1" success="10000" limit=""/>
+		<grids grid="32" itemcostid="18140110,18140110,18140110,18140110,18140110" costnum="20,20,20,20,20" moneytype="" moneynum="" itemid="18040110" num="1" success="10000" limit=""/>
+		<grids grid="33" itemcostid="18140111,18140111,18140111,18140111,18140111" costnum="20,20,20,20,20" moneytype="" moneynum="" itemid="18040111" num="1" success="10000" limit=""/>
+		<grids grid="34" itemcostid="18140112,18140112,18140112,18140112,18140112" costnum="20,20,20,20,20" moneytype="" moneynum="" itemid="18040112" num="1" success="10000" limit=""/>
+		<grids grid="35" itemcostid="18140113,18140113,18140113,18140113,18140113" costnum="20,20,20,20,20" moneytype="" moneynum="" itemid="18040113" num="1" success="10000" limit=""/>
+		<grids grid="36" itemcostid="18140114,18140114,18140114,18140114,18140114" costnum="20,20,20,20,20" moneytype="" moneynum="" itemid="18040114" num="1" success="10000" limit=""/>
+		<grids grid="37" itemcostid="16010051,16010051,16010051,16010051" costnum="20,20,20,20" moneytype="" moneynum="" itemid="16010013" num="1" success="10000" limit=""/>
+		<grids grid="38" itemcostid="16010052,16010052,16010052,16010052" costnum="20,20,20,20" moneytype="" moneynum="" itemid="10000101" num="1" success="10000" limit=""/>
+		<grids grid="39" itemcostid="19100349,19100349,19100349,19100349,19100349" costnum="20,20,20,20,20" moneytype="" moneynum="" itemid="19000349" num="1" success="10000" limit=""/>
+		<grids grid="40" itemcostid="19100350,19100350,19100350,19100350,19100350" costnum="20,20,20,20,20" moneytype="" moneynum="" itemid="19000350" num="1" success="10000" limit=""/>
+		<grids grid="41" itemcostid="19100351,19100351,19100351,19100351,19100351" costnum="20,20,20,20,20" moneytype="" moneynum="" itemid="19000351" num="1" success="10000" limit=""/>
+		<grids grid="42" itemcostid="19100352,19100352,19100352,19100352,19100352" costnum="20,20,20,20,20" moneytype="" moneynum="" itemid="19000352" num="1" success="10000" limit=""/>
+		<grids grid="43" itemcostid="19100353,19100353,19100353,19100353,19100353" costnum="20,20,20,20,20" moneytype="" moneynum="" itemid="19000353" num="1" success="10000" limit=""/>
+		<grids grid="44" itemcostid="18130101,18130101,18130101,18130101" costnum="20,20,20,20" moneytype="" moneynum="" itemid="18030101" num="1" success="10000" limit=""/>
+		<grids grid="45" itemcostid="18130102,18130102,18130102,18130102" costnum="20,20,20,20" moneytype="" moneynum="" itemid="18030102" num="1" success="10000" limit=""/>
+		<grids grid="46" itemcostid="18130103,18130103,18130103,18130103" costnum="20,20,20,20" moneytype="" moneynum="" itemid="18030103" num="1" success="10000" limit=""/>
+		<grids grid="47" itemcostid="18130104,18130104,18130104,18130104" costnum="20,20,20,20" moneytype="" moneynum="" itemid="18030104" num="1" success="10000" limit=""/>
+		<grids grid="48" itemcostid="18130105,18130105,18130105,18130105" costnum="20,20,20,20" moneytype="" moneynum="" itemid="18030105" num="1" success="10000" limit=""/>
+		<grids grid="49" itemcostid="18130106,18130106,18130106,18130106" costnum="20,20,20,20" moneytype="" moneynum="" itemid="18030106" num="1" success="10000" limit=""/>
+		<grids grid="50" itemcostid="18130107,18130107,18130107,18130107" costnum="20,20,20,20" moneytype="" moneynum="" itemid="18030107" num="1" success="10000" limit=""/>
+		<grids grid="51" itemcostid="18130108,18130108,18130108,18130108" costnum="20,20,20,20" moneytype="" moneynum="" itemid="18030108" num="1" success="10000" limit=""/>
+		<grids grid="52" itemcostid="18130109,18130109,18130109,18130109" costnum="20,20,20,20" moneytype="" moneynum="" itemid="18030109" num="1" success="10000" limit=""/>
+		<grids grid="53" itemcostid="18130110,18130110,18130110,18130110" costnum="20,20,20,20" moneytype="" moneynum="" itemid="18030110" num="1" success="10000" limit=""/>
+		<grids grid="54" itemcostid="18130111,18130111,18130111,18130111" costnum="20,20,20,20" moneytype="" moneynum="" itemid="18030111" num="1" success="10000" limit=""/>
+		<grids grid="55" itemcostid="18130112,18130112,18130112,18130112" costnum="20,20,20,20" moneytype="" moneynum="" itemid="18030112" num="1" success="10000" limit=""/>
+		<grids grid="56" itemcostid="18130113,18130113,18130113,18130113" costnum="20,20,20,20" moneytype="" moneynum="" itemid="18030113" num="1" success="10000" limit=""/>
+		<grids grid="57" itemcostid="18130114,18130114,18130114,18130114" costnum="20,20,20,20" moneytype="" moneynum="" itemid="18030114" num="1" success="10000" limit=""/>
+		<grids grid="58" itemcostid="18130115,18130115,18130115,18130115" costnum="20,20,20,20" moneytype="" moneynum="" itemid="18030115" num="1" success="10000" limit=""/>
+		<grids grid="59" itemcostid="18130116,18130116,18130116,18130116" costnum="20,20,20,20" moneytype="" moneynum="" itemid="18030116" num="1" success="10000" limit=""/>
+		<grids grid="60" itemcostid="18130117,18130117,18130117,18130117" costnum="20,20,20,20" moneytype="" moneynum="" itemid="18030117" num="1" success="10000" limit=""/>
+		<grids grid="61" itemcostid="18130118,18130118,18130118,18130118" costnum="20,20,20,20" moneytype="" moneynum="" itemid="18030118" num="1" success="10000" limit=""/>
+		<grids grid="62" itemcostid="18130119,18130119,18130119,18130119" costnum="20,20,20,20" moneytype="" moneynum="" itemid="18030119" num="1" success="10000" limit=""/>
+		<grids grid="63" itemcostid="18130120,18130120,18130120,18130120" costnum="20,20,20,20" moneytype="" moneynum="" itemid="18030120" num="1" success="10000" limit=""/>
+		<grids grid="64" itemcostid="18130121,18130121,18130121,18130121" costnum="20,20,20,20" moneytype="" moneynum="" itemid="18030121" num="1" success="10000" limit=""/>
+		<grids grid="65" itemcostid="18130122,18130122,18130122,18130122" costnum="20,20,20,20" moneytype="" moneynum="" itemid="18030122" num="1" success="10000" limit=""/>
+		<grids grid="66" itemcostid="18130123,18130123,18130123,18130123" costnum="20,20,20,20" moneytype="" moneynum="" itemid="18030123" num="1" success="10000" limit=""/>
+		<grids grid="67" itemcostid="18130124,18130124,18130124,18130124" costnum="20,20,20,20" moneytype="" moneynum="" itemid="18030124" num="1" success="10000" limit=""/>
+		<grids grid="68" itemcostid="18130125,18130125,18130125,18130125" costnum="20,20,20,20" moneytype="" moneynum="" itemid="18030125" num="1" success="10000" limit=""/>
+		<grids grid="69" itemcostid="18130126,18130126,18130126,18130126" costnum="20,20,20,20" moneytype="" moneynum="" itemid="18030126" num="1" success="10000" limit=""/>
+		<grids grid="70" itemcostid="18130127,18130127,18130127,18130127" costnum="20,20,20,20" moneytype="" moneynum="" itemid="18030127" num="1" success="10000" limit=""/>
+		<grids grid="71" itemcostid="18130128,18130128,18130128,18130128" costnum="20,20,20,20" moneytype="" moneynum="" itemid="18030128" num="1" success="10000" limit=""/>
+		<grids grid="72" itemcostid="19100325,19100325,19100325,19100325" costnum="20,20,20,20" moneytype="" moneynum="" itemid="19000325" num="1" success="10000" limit=""/>
+		<grids grid="73" itemcostid="19100326,19100326,19100326,19100326" costnum="20,20,20,20" moneytype="" moneynum="" itemid="19000326" num="1" success="10000" limit=""/>
+		<grids grid="74" itemcostid="19100327,19100327,19100327,19100327" costnum="20,20,20,20" moneytype="" moneynum="" itemid="19000327" num="1" success="10000" limit=""/>
+		<grids grid="75" itemcostid="19100328,19100328,19100328,19100328" costnum="20,20,20,20" moneytype="" moneynum="" itemid="19000328" num="1" success="10000" limit=""/>
+		<grids grid="76" itemcostid="19100329,19100329,19100329,19100329" costnum="20,20,20,20" moneytype="" moneynum="" itemid="19000329" num="1" success="10000" limit=""/>
+		<grids grid="77" itemcostid="19100330,19100330,19100330,19100330" costnum="20,20,20,20" moneytype="" moneynum="" itemid="19000330" num="1" success="10000" limit=""/>
+		<grids grid="78" itemcostid="19100331,19100331,19100331,19100331" costnum="20,20,20,20" moneytype="" moneynum="" itemid="19000331" num="1" success="10000" limit=""/>
+		<grids grid="79" itemcostid="19100332,19100332,19100332,19100332" costnum="20,20,20,20" moneytype="" moneynum="" itemid="19000332" num="1" success="10000" limit=""/>
+		<grids grid="80" itemcostid="19100333,19100333,19100333,19100333" costnum="20,20,20,20" moneytype="" moneynum="" itemid="19000333" num="1" success="10000" limit=""/>
+		<grids grid="81" itemcostid="19100334,19100334,19100334,19100334" costnum="20,20,20,20" moneytype="" moneynum="" itemid="19000334" num="1" success="10000" limit=""/>
+		<grids grid="82" itemcostid="19100335,19100335,19100335,19100335" costnum="20,20,20,20" moneytype="" moneynum="" itemid="19000335" num="1" success="10000" limit=""/>
+		<grids grid="83" itemcostid="19100336,19100336,19100336,19100336" costnum="20,20,20,20" moneytype="" moneynum="" itemid="19000336" num="1" success="10000" limit=""/>
+		<grids grid="84" itemcostid="19100337,19100337,19100337,19100337" costnum="20,20,20,20" moneytype="" moneynum="" itemid="19000337" num="1" success="10000" limit=""/>
+		<grids grid="85" itemcostid="19100338,19100338,19100338,19100338" costnum="20,20,20,20" moneytype="" moneynum="" itemid="19000338" num="1" success="10000" limit=""/>
+		<grids grid="86" itemcostid="19100339,19100339,19100339,19100339" costnum="20,20,20,20" moneytype="" moneynum="" itemid="19000339" num="1" success="10000" limit=""/>
+		<grids grid="87" itemcostid="19100340,19100340,19100340,19100340" costnum="20,20,20,20" moneytype="" moneynum="" itemid="19000340" num="1" success="10000" limit=""/>
+		<grids grid="88" itemcostid="19100341,19100341,19100341,19100341" costnum="20,20,20,20" moneytype="" moneynum="" itemid="19000341" num="1" success="10000" limit=""/>
+		<grids grid="89" itemcostid="19100342,19100342,19100342,19100342" costnum="20,20,20,20" moneytype="" moneynum="" itemid="19000342" num="1" success="10000" limit=""/>
+		<grids grid="90" itemcostid="19100343,19100343,19100343,19100343" costnum="20,20,20,20" moneytype="" moneynum="" itemid="19000343" num="1" success="10000" limit=""/>
+		<grids grid="91" itemcostid="19100344,19100344,19100344,19100344" costnum="20,20,20,20" moneytype="" moneynum="" itemid="19000344" num="1" success="10000" limit=""/>
+		<grids grid="92" itemcostid="19100345,19100345,19100345,19100345" costnum="20,20,20,20" moneytype="" moneynum="" itemid="19000345" num="1" success="10000" limit=""/>
+		<grids grid="93" itemcostid="19100346,19100346,19100346,19100346" costnum="20,20,20,20" moneytype="" moneynum="" itemid="19000346" num="1" success="10000" limit=""/>
+		<grids grid="94" itemcostid="19100347,19100347,19100347,19100347" costnum="20,20,20,20" moneytype="" moneynum="" itemid="19000347" num="1" success="10000" limit=""/>
+		<grids grid="95" itemcostid="19100348,19100348,19100348,19100348" costnum="20,20,20,20" moneytype="" moneynum="" itemid="19000348" num="1" success="10000" limit=""/>
+		<grids grid="96" itemcostid="16010059,16010059,16010059,16010059" costnum="20,20,20,20" moneytype="" moneynum="" itemid="10000004" num="1" success="10000" limit=""/>
+		<grids grid="97" itemcostid="10000012,10000012,10000012" costnum="33,33,34" moneytype="" moneynum="" itemid="10000102" num="1" success="10000" limit="1000"/>
+		<grids grid="98" itemcostid="10000013,10000013,10000013" costnum="16,17,17" moneytype="" moneynum="" itemid="10000102" num="1" success="10000" limit="1000"/>
+		<grids grid="99" itemcostid="10000014,10000014,10000014" costnum="16,17,17" moneytype="" moneynum="" itemid="10000102" num="1" success="10000" limit="1000"/>
+	</type>
+</root>

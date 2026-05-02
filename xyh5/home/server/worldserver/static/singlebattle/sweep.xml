@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+vipLev VIP等级
+disposable  是否开启一键扫荡  =1是 =0否
+halfTime   时间是否减半  =1是  =0否
+complete   是否开启瞬间完成   =1是  =0否
+ingot   立即完成消耗的元宝值
+-->
+<root>
+  <pay ingot="5"/>
+  <FB vipLev="2" disposable="1" halfTime="0" complete="0"/>
+  <FB vipLev="4" disposable="1" halfTime="1" complete="0"/>
+  <FB vipLev="7" disposable="1" halfTime="1" complete="1"/>
+</root>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!--
+functionid	功能ID
+speed	洞天法宝的移动速度
+mindistance	洞天法宝离玩家的最近距离
+maxdistance	洞天法宝离玩家的最远距离
+time	播放待机动作的时间间隔，以逗号分隔，标识最小间隔和最大间隔。单位为秒。
+id	洞天法宝ID。
+name	洞天法宝名称。
+avatar	洞天法宝形象编号。
+hight1	男性洞天法宝模型偏移高度，单位为像素。默认为0。
+hight2	男性洞天法宝模型偏移高度，单位为像素。默认为0。
+  -->
+	<functionid functionid="601"/>
+	<heaven speed="60" mindistance="5" maxdistance="15" time="30,40">
+		<heavenInfo id="1" name="逆重阳" avatarA="2000001" hight="0" hight2="0"/>
+		<heavenInfo id="2" name="妖挽龙" avatarA="2000002" hight="0" hight2="0"/>
+		<heavenInfo id="3" name="玄炎万象" avatarA="2000003" hight="0" hight2="0"/>
+		<heavenInfo id="4" name="戾华灵牌" avatarA="2000004" hight="0" hight2="0"/>
+		<heavenInfo id="5" name="魂息魔炉" avatarA="2000005" hight="0" hight2="0"/>
+		<heavenInfo id="6" name="金帝生死台" avatarA="2000006" hight="0" hight2="0"/>
+		<heavenInfo id="7" name="八荒镇炎狱" avatarA="2000007" hight="0" hight2="0"/>
+		<heavenInfo id="8" name="冰炎鬼神龛" avatarA="2000010" hight="0" hight2="0"/>
+		<heavenInfo id="9" name="星河伴生莲" avatarA="2000008" hight="0" hight2="0"/>
+		<heavenInfo id="10" name="六律神引灯" avatarA="2000009" hight="0" hight2="0"/>
+	</heaven>
+</root>

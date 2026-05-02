@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!--
+FunctionId	功能开启	1	Function
+BlessingMailId	送礼的邮件Id	1	Function
+BeBlessedMailId 收礼的人邮件Id 1 Function
+MarriageRewardMail	成为夫妻后获得的奖励邮件	1	Function
+MemorialReward	纪念奖励邮件	1	Function
+taskMail	夫妻任务奖励Id	1	Function
+TotalValue	总恋爱值	1	ProgressValue
+reduce	求婚失败，恋爱值降低到该比例(百分比)	1	ProgressValue
+type	归类类型	2	TaskType
+Id	任务Id关联，关联到type标签中的Id值
+有多条Id时，随机抽取一个任务进行完成	3	Association
+Id	任务Id，不可重复	1	type
+TaskMode	任务类型定义值
+=1，消耗绑元
+=2，消耗元宝
+=3，给对象发一条私聊消息
+=4给对象告白
+=5给对象赠送礼物	1	type
+ConsumingTied	消耗的绑定元宝，不需要可不配置	1	type
+ConsumingIngot	消耗的元宝数值，不需要可不配置	1	type
+text	任务描述	1	type
+exp	完成该任务可获得的恋爱值	1	type
+SendMessage	TaskMode=4时直接发送该信息到世界频道
+需要填参数{0}和{1}，{0}的当前玩家名称，{1}被告白的玩家名称
+不需要可不配置	1	
+itmeId	TaskMode=5时赠送该道具给玩家
+配置格式->道具Id,道具数量;
+不需要可不配置	1	type
+MailId	邮件Id
+TaskMode=5时需要用到，玩家通过有邮件接受赠送的道具
+不需要可不配置	1	type
+itemId	成为夫妻后的奖励道具	1	MarriageReward
+num	道具数量	1	MarriageReward
+type 送礼的类型定义
+=1银两
+=2元宝
+=3绑定元宝	1	Giftgiving
+currency	对应类型的货币数量	1	GiftGiving
+itemId	赠送者获得的道具Id	2	PresenterReward
+num	道具数量	2	PresenterReward
+itemId	接收者获得的道具Id	2	RecipientReward
+num	道具数量	2	RecipientReward
+结婚养成配置develop
+DeveLopLev	养成等级	2	developgrade
+pic	该等级的贴图，索引路径laya\assets\comp\marry	2	developgrade
+consumption	消耗配置：道具Id，道具数量	2	developgrade
+GetExp	每次获得的经验	2	developgrade
+TotalExp	总经验	2	developgrade
+GetArrtibute	当前等级可获得的属性	2	developgrade
+AttributeValue	当前等级可增加的属性值	2	developgrade
+结婚互动配置interactive
+InteractionType	互动类型
+=1银两
+=2元宝
+=3绑元	1	type
+consumption	对应互动类型需要消耗的值	1	type
+DailyInteraction	是否有互动次数限制
+=-1没有限制	1	type
+GetExp	互动可获得的经验	1	type
+buttonName	互动按钮名称索引到改路径
+laya\assets\comp\label\button	1	type
+text	互动后需要显示的文字，可配置多个用封号隔开，配置多个时视为每次随机	1	type
+DeveLopLev	互动等级	1	interactivegrade
+TotalExp	该等级需要的总经验	1	interactivegrade
+GetArrtibute	当前等级可获得的属性	1	interactivegrade
+AttributeValue	当前等级可增加的属性值	1	interactivegrade
+夫妻任务配置DailyTask
+id	任务Id值不可重复	1	task
+taskType	任务类型
+=1完成师门任务X次
+=2完成封妖任务X次
+=3完成捉鬼任务X次
+=4完成任意材料副本X次
+=5累计消耗X元宝
+=6累计充值X元宝
+=7累计寻星X次
+=8累计寻宝X次	1	task
+CompletedValue	任务需要的值	1	task
+text	任务文本，其中{0}需要填写参数值	1	task
+npcId	npcId，支持配置多个npc，师门任务需要用到，根据门派寻找对应Npc
+不需要可不配置	1	task
+OpenInterface	打开的界面
+功能Id|界面类
+当有配置npcId字段时该字段可配置一个功能用来判断该功能是否开启	1	task
+rewardId	该任务的奖励Id，索引到reward标签中的rewardId的值	1	task
+Library	任务随机库	1	taskLibrary
+Id	任务Id，索引到task标签中的id值	2	taskId
+rewardId	奖励Id值	1	reward
+itemId	奖励道具Id	2	item
+num	奖励道具数量	2	item
+纪念奖励MemoriaReward
+day	天数	1	day
+rewardId	奖励Id，索引到reward标签中的rewardId值	1	day
+rewardId	奖励Id	1	reward
+itemId	奖励道具Id值	2	item
+num	奖励道具数量	2	item
+-->
+<root>
+	<Function FunctionId="6685" BlessingMailId="6686"  BeBlessedMailId="6990" MarriageRewardMail="6687" MemorialReward="6688" taskMail="6689"/>
+	<!--获得恋爱值配置-->
+	<ProgressValue TotalValue="1000" reduce="80">
+		<TaskType type="1">
+			<Association Id="1"/>
+		</TaskType>
+		<TaskType type="2">
+			<Association Id="5"/>
+		</TaskType>
+		<TaskType type="3">
+			<Association Id="2"/>
+			<Association Id="3"/>
+			<Association Id="4"/>
+		</TaskType>
+		<type Id="1" TaskMode="1" ConsumingTied="2000" textId="1430037" exp="300"/>
+		<type Id="2" TaskMode="2" ConsumingIngot="1314" textId="1430038" exp="600"/>
+		<type Id="3" TaskMode="3" textId="1430039" exp="200"/>
+		<type Id="4" TaskMode="4" textId="1430040" sendMessage="{0}对{1}说，余生有你作陪" exp="200"/>
+		<type Id="5" TaskMode="5" textId="1430041" itemId="10000044,1" exp="1000" MailId="6685"/>
+	</ProgressValue>
+	<!--成为夫妻后的奖励-->
+	<MarriageReward itemId="60001314" num="1"/>
+	<MarriageReward itemId="16010013" num="20"/>
+	<MarriageReward itemId="16010042" num="1"/>
+	<!--赠送和礼物的配置-->
+	<!--银两-->
+	<GiftGiving id="1" type="1" currency="5203344">
+		<PresenterReward itemId="10000043" num="2"/>
+		<RecipientReward itemId="72601672" num="1"/>
+	</GiftGiving>
+	<!--绑元-->
+	<GiftGiving id="2" type="3" currency="1314">
+		<PresenterReward itemId="10000043" num="10"/>
+		<RecipientReward itemId="60000657" num="1"/>
+	</GiftGiving>
+	<GiftGiving id="3" type="3" currency="520">
+		<PresenterReward itemId="10000043" num="5"/>
+		<RecipientReward itemId="60000260" num="1"/>
+	</GiftGiving>
+	<!--结婚养成-->
+	<develop>
+		<developgrade DeveLopLev="1" pic="LoveTreeLv1" consumption="10000043,1" GetExp="1" TotalExp="5" GetArrtibute="101,102,103" AttributeValue="2400,200,100"/>
+		<developgrade DeveLopLev="2" pic="LoveTreeLv1" consumption="10000043,1" GetExp="1" TotalExp="10" GetArrtibute="101,102,103" AttributeValue="9600,800,400"/>
+		<developgrade DeveLopLev="3" pic="LoveTreeLv1" consumption="10000043,1" GetExp="1" TotalExp="15" GetArrtibute="101,102,103" AttributeValue="24000,2000,1000"/>
+		<developgrade DeveLopLev="4" pic="LoveTreeLv1" consumption="10000043,1" GetExp="1" TotalExp="20" GetArrtibute="101,102,103" AttributeValue="45600,3800,1900"/>
+		<developgrade DeveLopLev="5" pic="LoveTreeLv1" consumption="10000043,1" GetExp="1" TotalExp="25" GetArrtibute="101,102,103" AttributeValue="74400,6200,3100"/>
+		<developgrade DeveLopLev="6" pic="LoveTreeLv1" consumption="10000043,1" GetExp="1" TotalExp="30" GetArrtibute="101,102,103" AttributeValue="110400,9200,4600"/>
+		<developgrade DeveLopLev="7" pic="LoveTreeLv1" consumption="10000043,1" GetExp="1" TotalExp="35" GetArrtibute="101,102,103" AttributeValue="153600,12800,6400"/>
+		<developgrade DeveLopLev="8" pic="LoveTreeLv1" consumption="10000043,1" GetExp="1" TotalExp="40" GetArrtibute="101,102,103" AttributeValue="204000,17000,8500"/>
+		<developgrade DeveLopLev="9" pic="LoveTreeLv1" consumption="10000043,1" GetExp="1" TotalExp="50" GetArrtibute="101,102,103" AttributeValue="261600,21800,10900"/>
+		<developgrade DeveLopLev="10" pic="LoveTreeLv2" consumption="10000043,2" GetExp="2" TotalExp="60" GetArrtibute="101,102,103" AttributeValue="326400,27200,13600"/>
+		<developgrade DeveLopLev="11" pic="LoveTreeLv2" consumption="10000043,2" GetExp="2" TotalExp="70" GetArrtibute="101,102,103" AttributeValue="398400,33200,16600"/>
+		<developgrade DeveLopLev="12" pic="LoveTreeLv2" consumption="10000043,2" GetExp="2" TotalExp="80" GetArrtibute="101,102,103" AttributeValue="477600,39800,19900"/>
+		<developgrade DeveLopLev="13" pic="LoveTreeLv2" consumption="10000043,2" GetExp="2" TotalExp="90" GetArrtibute="101,102,103" AttributeValue="564000,47000,23500"/>
+		<developgrade DeveLopLev="14" pic="LoveTreeLv2" consumption="10000043,2" GetExp="2" TotalExp="100" GetArrtibute="101,102,103" AttributeValue="657600,54800,27400"/>
+		<developgrade DeveLopLev="15" pic="LoveTreeLv2" consumption="10000043,2" GetExp="2" TotalExp="110" GetArrtibute="101,102,103" AttributeValue="758400,63200,31600"/>
+		<developgrade DeveLopLev="16" pic="LoveTreeLv2" consumption="10000043,2" GetExp="2" TotalExp="120" GetArrtibute="101,102,103" AttributeValue="866400,72200,36100"/>
+		<developgrade DeveLopLev="17" pic="LoveTreeLv2" consumption="10000043,2" GetExp="2" TotalExp="130" GetArrtibute="101,102,103" AttributeValue="981600,81800,40900"/>
+		<developgrade DeveLopLev="18" pic="LoveTreeLv2" consumption="10000043,2" GetExp="2" TotalExp="140" GetArrtibute="101,102,103" AttributeValue="1104000,92000,46000"/>
+		<developgrade DeveLopLev="19" pic="LoveTreeLv2" consumption="10000043,3" GetExp="3" TotalExp="150" GetArrtibute="101,102,103" AttributeValue="1233600,102800,51400"/>
+		<developgrade DeveLopLev="20" pic="LoveTreeLv3" consumption="10000043,3" GetExp="3" TotalExp="165" GetArrtibute="101,102,103" AttributeValue="1370400,114200,57100"/>
+		<developgrade DeveLopLev="21" pic="LoveTreeLv3" consumption="10000043,3" GetExp="3" TotalExp="180" GetArrtibute="101,102,103" AttributeValue="1514400,126200,63100"/>
+		<developgrade DeveLopLev="22" pic="LoveTreeLv3" consumption="10000043,3" GetExp="3" TotalExp="195" GetArrtibute="101,102,103" AttributeValue="1665600,138800,69400"/>
+		<developgrade DeveLopLev="23" pic="LoveTreeLv3" consumption="10000043,3" GetExp="3" TotalExp="210" GetArrtibute="101,102,103" AttributeValue="1824000,152000,76000"/>
+		<developgrade DeveLopLev="24" pic="LoveTreeLv3" consumption="10000043,3" GetExp="3" TotalExp="225" GetArrtibute="101,102,103" AttributeValue="1989600,165800,82900"/>
+		<developgrade DeveLopLev="25" pic="LoveTreeLv3" consumption="10000043,3" GetExp="3" TotalExp="240" GetArrtibute="101,102,103" AttributeValue="2162400,180200,90100"/>
+		<developgrade DeveLopLev="26" pic="LoveTreeLv3" consumption="10000043,3" GetExp="3" TotalExp="255" GetArrtibute="101,102,103" AttributeValue="2342400,195200,97600"/>
+		<developgrade DeveLopLev="27" pic="LoveTreeLv3" consumption="10000043,3" GetExp="3" TotalExp="270" GetArrtibute="101,102,103" AttributeValue="2529600,210800,105400"/>
+		<developgrade DeveLopLev="28" pic="LoveTreeLv3" consumption="10000043,5" GetExp="5" TotalExp="285" GetArrtibute="101,102,103" AttributeValue="2724000,227000,113500"/>
+		<developgrade DeveLopLev="29" pic="LoveTreeLv3" consumption="10000043,5" GetExp="5" TotalExp="300" GetArrtibute="101,102,103" AttributeValue="2925600,243800,121900"/>
+		<developgrade DeveLopLev="30" pic="LoveTreeLv4" consumption="10000043,5" GetExp="5" TotalExp="320" GetArrtibute="101,102,103" AttributeValue="3134400,261200,130600"/>
+		<developgrade DeveLopLev="31" pic="LoveTreeLv4" consumption="10000043,5" GetExp="5" TotalExp="340" GetArrtibute="101,102,103" AttributeValue="3350400,279200,139600"/>
+		<developgrade DeveLopLev="32" pic="LoveTreeLv4" consumption="10000043,5" GetExp="5" TotalExp="360" GetArrtibute="101,102,103" AttributeValue="3573600,297800,148900"/>
+		<developgrade DeveLopLev="33" pic="LoveTreeLv4" consumption="10000043,5" GetExp="5" TotalExp="380" GetArrtibute="101,102,103" AttributeValue="3804000,317000,158500"/>
+		<developgrade DeveLopLev="34" pic="LoveTreeLv4" consumption="10000043,5" GetExp="5" TotalExp="400" GetArrtibute="101,102,103" AttributeValue="4041600,336800,168400"/>
+		<developgrade DeveLopLev="35" pic="LoveTreeLv4" consumption="10000043,5" GetExp="5" TotalExp="420" GetArrtibute="101,102,103" AttributeValue="4286400,357200,178600"/>
+		<developgrade DeveLopLev="36" pic="LoveTreeLv4" consumption="10000043,5" GetExp="5" TotalExp="440" GetArrtibute="101,102,103" AttributeValue="4538400,378200,189100"/>
+		<developgrade DeveLopLev="37" pic="LoveTreeLv4" consumption="10000043,8" GetExp="8" TotalExp="480" GetArrtibute="101,102,103" AttributeValue="4797600,399800,199900"/>
+		<developgrade DeveLopLev="38" pic="LoveTreeLv4" consumption="10000043,8" GetExp="8" TotalExp="520" GetArrtibute="101,102,103" AttributeValue="5064000,422000,211000"/>
+		<developgrade DeveLopLev="39" pic="LoveTreeLv4" consumption="10000043,8" GetExp="8" TotalExp="560" GetArrtibute="101,102,103" AttributeValue="5337600,444800,222400"/>
+		<developgrade DeveLopLev="40" pic="LoveTreeLv5" consumption="10000043,8" GetExp="8" TotalExp="600" GetArrtibute="101,102,103" AttributeValue="5618400,468200,234100"/>
+		<developgrade DeveLopLev="41" pic="LoveTreeLv5" consumption="10000043,8" GetExp="8" TotalExp="640" GetArrtibute="101,102,103" AttributeValue="5906400,492200,246100"/>
+		<developgrade DeveLopLev="42" pic="LoveTreeLv5" consumption="10000043,8" GetExp="8" TotalExp="680" GetArrtibute="101,102,103" AttributeValue="6201600,516800,258400"/>
+		<developgrade DeveLopLev="43" pic="LoveTreeLv5" consumption="10000043,8" GetExp="8" TotalExp="720" GetArrtibute="101,102,103" AttributeValue="6504000,542000,271000"/>
+		<developgrade DeveLopLev="44" pic="LoveTreeLv5" consumption="10000043,8" GetExp="8" TotalExp="760" GetArrtibute="101,102,103" AttributeValue="6813600,567800,283900"/>
+		<developgrade DeveLopLev="45" pic="LoveTreeLv5" consumption="10000043,8" GetExp="8" TotalExp="800" GetArrtibute="101,102,103" AttributeValue="7130400,594200,297100"/>
+		<developgrade DeveLopLev="46" pic="LoveTreeLv5" consumption="10000043,10" GetExp="10" TotalExp="840" GetArrtibute="101,102,103" AttributeValue="7454400,621200,310600"/>
+		<developgrade DeveLopLev="47" pic="LoveTreeLv5" consumption="10000043,10" GetExp="10" TotalExp="880" GetArrtibute="101,102,103" AttributeValue="7785600,648800,324400"/>
+		<developgrade DeveLopLev="48" pic="LoveTreeLv5" consumption="10000043,10" GetExp="10" TotalExp="920" GetArrtibute="101,102,103" AttributeValue="8116800,676400,338200"/>
+		<developgrade DeveLopLev="49" pic="LoveTreeLv5" consumption="10000043,10" GetExp="10" TotalExp="960" GetArrtibute="101,102,103" AttributeValue="8448000,704000,352000"/>
+		<developgrade DeveLopLev="50" pic="LoveTreeLv6" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="8779200,731600,365800"/>
+		<developgrade DeveLopLev="51" pic="LoveTreeLv6" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="9110400,759200,379600"/>
+		<developgrade DeveLopLev="52" pic="LoveTreeLv6" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="9441600,786800,393400"/>
+		<developgrade DeveLopLev="53" pic="LoveTreeLv6" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="9772800,814400,407200"/>
+		<developgrade DeveLopLev="54" pic="LoveTreeLv6" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="10104000,842000,421000"/>
+		<developgrade DeveLopLev="55" pic="LoveTreeLv6" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="10435200,869600,434800"/>
+		<developgrade DeveLopLev="56" pic="LoveTreeLv6" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="10766400,897200,448600"/>
+		<developgrade DeveLopLev="57" pic="LoveTreeLv6" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="11097600,924800,462400"/>
+		<developgrade DeveLopLev="58" pic="LoveTreeLv6" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="11428800,952400,476200"/>
+		<developgrade DeveLopLev="59" pic="LoveTreeLv6" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="11760000,980000,490000"/>
+		<developgrade DeveLopLev="60" pic="LoveTreeLv7" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="12091200,1007600,503800"/>
+		<developgrade DeveLopLev="61" pic="LoveTreeLv7" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="12422400,1035200,517600"/>
+		<developgrade DeveLopLev="62" pic="LoveTreeLv7" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="12753600,1062800,531400"/>
+		<developgrade DeveLopLev="63" pic="LoveTreeLv7" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="13084800,1090400,545200"/>
+		<developgrade DeveLopLev="64" pic="LoveTreeLv7" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="13416000,1118000,559000"/>
+		<developgrade DeveLopLev="65" pic="LoveTreeLv7" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="13747200,1145600,572800"/>
+		<developgrade DeveLopLev="66" pic="LoveTreeLv7" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="14078400,1173200,586600"/>
+		<developgrade DeveLopLev="67" pic="LoveTreeLv7" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="14409600,1200800,600400"/>
+		<developgrade DeveLopLev="68" pic="LoveTreeLv7" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="14740800,1228400,614200"/>
+		<developgrade DeveLopLev="69" pic="LoveTreeLv7" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="15072000,1256000,628000"/>
+		<developgrade DeveLopLev="70" pic="LoveTreeLv8" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="15403200,1283600,641800"/>
+		<developgrade DeveLopLev="71" pic="LoveTreeLv8" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="15734400,1311200,655600"/>
+		<developgrade DeveLopLev="72" pic="LoveTreeLv8" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="16065600,1338800,669400"/>
+		<developgrade DeveLopLev="73" pic="LoveTreeLv8" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="16396800,1366400,683200"/>
+		<developgrade DeveLopLev="74" pic="LoveTreeLv8" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="16728000,1394000,697000"/>
+		<developgrade DeveLopLev="75" pic="LoveTreeLv8" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="17059200,1421600,710800"/>
+		<developgrade DeveLopLev="76" pic="LoveTreeLv8" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="17390400,1449200,724600"/>
+		<developgrade DeveLopLev="77" pic="LoveTreeLv8" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="17721600,1476800,738400"/>
+		<developgrade DeveLopLev="78" pic="LoveTreeLv8" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="18052800,1504400,752200"/>
+		<developgrade DeveLopLev="79" pic="LoveTreeLv8" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="18384000,1532000,766000"/>
+		<developgrade DeveLopLev="80" pic="LoveTreeLv9" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="18715200,1559600,779800"/>
+		<developgrade DeveLopLev="81" pic="LoveTreeLv9" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="19046400,1587200,793600"/>
+		<developgrade DeveLopLev="82" pic="LoveTreeLv9" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="19377600,1614800,807400"/>
+		<developgrade DeveLopLev="83" pic="LoveTreeLv9" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="19708800,1642400,821200"/>
+		<developgrade DeveLopLev="84" pic="LoveTreeLv9" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="20040000,1670000,835000"/>
+		<developgrade DeveLopLev="85" pic="LoveTreeLv9" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="20371200,1697600,848800"/>
+		<developgrade DeveLopLev="86" pic="LoveTreeLv9" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="20702400,1725200,862600"/>
+		<developgrade DeveLopLev="87" pic="LoveTreeLv9" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="21033600,1752800,876400"/>
+		<developgrade DeveLopLev="88" pic="LoveTreeLv9" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="21364800,1780400,890200"/>
+		<developgrade DeveLopLev="89" pic="LoveTreeLv9" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="21696000,1808000,904000"/>
+		<developgrade DeveLopLev="90" pic="LoveTreeLv10" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="22027200,1835600,917800"/>
+		<developgrade DeveLopLev="91" pic="LoveTreeLv10" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="22358400,1863200,931600"/>
+		<developgrade DeveLopLev="92" pic="LoveTreeLv10" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="22689600,1890800,945400"/>
+		<developgrade DeveLopLev="93" pic="LoveTreeLv10" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="23020800,1918400,959200"/>
+		<developgrade DeveLopLev="94" pic="LoveTreeLv10" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="23352000,1946000,973000"/>
+		<developgrade DeveLopLev="95" pic="LoveTreeLv10" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="23683200,1973600,986800"/>
+		<developgrade DeveLopLev="96" pic="LoveTreeLv10" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="24014400,2001200,1000600"/>
+		<developgrade DeveLopLev="97" pic="LoveTreeLv10" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="24345600,2028800,1014400"/>
+		<developgrade DeveLopLev="98" pic="LoveTreeLv10" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="24676800,2056400,1028200"/>
+		<developgrade DeveLopLev="99" pic="LoveTreeLv10" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="25008000,2084000,1042000"/>
+		<developgrade DeveLopLev="100" pic="LoveTreeLv10" consumption="10000043,10" GetExp="10" TotalExp="1000" GetArrtibute="101,102,103" AttributeValue="25339200,2111600,1055800"/>
+	</develop>
+	<!--结婚互动-->
+	<interactive>
+		<type InteractionType="1" consumption="5000000" DailyInteraction="5" GetExp="10" buttonName="ttf_Liaotian_176" text="么么哒;么么哒~"/>
+		<type InteractionType="3" consumption="1000" DailyInteraction="5" GetExp="20" buttonName="ttf_SongHua_176" text="你在做什么呀？;在想你"/>
+		<type InteractionType="2" consumption="1000" DailyInteraction="5" GetExp="100" buttonName="ttf_YueHui_176" text="亲爱的你……;可爱的你！"/>
+		<interactivegrade DeveLopLev="1,20" TotalExp="30" GetArrtibute="101,102,103" AttributeValue="9600,800,400"/>
+		<interactivegrade DeveLopLev="21,40" TotalExp="50" GetArrtibute="101,102,103" AttributeValue="12000,1000,500"/>
+		<interactivegrade DeveLopLev="41,60" TotalExp="70" GetArrtibute="101,102,103" AttributeValue="16320,1360,680"/>
+		<interactivegrade DeveLopLev="61,80" TotalExp="100" GetArrtibute="101,102,103" AttributeValue="21600,1800,900"/>
+		<interactivegrade DeveLopLev="81,100" TotalExp="150" GetArrtibute="101,102,103" AttributeValue="31200,2600,1300"/>
+		<interactivegrade DeveLopLev="101,200" TotalExp="200" GetArrtibute="101,102,103" AttributeValue="38400,3200,1600"/>
+		<interactivegrade DeveLopLev="201,500" TotalExp="300" GetArrtibute="101,102,103" AttributeValue="48000,4000,2000"/>
+		<interactivegrade DeveLopLev="501,1000" TotalExp="500" GetArrtibute="101,102,103" AttributeValue="60000,5000,2500"/>
+	</interactive>
+	<!--夫妻任务-->
+	<DailyTask>
+		<task Id="1" taskType="1" CompletedValue="5" text="完成师门任务{0}次" OpenInterface="1020" npcId="14,25,15" rewardId="1"/>
+		<task Id="2" taskType="2" CompletedValue="5" text="完成封妖任务{0}次" OpenInterface="2054|SealMonsterView" rewardId="1"/>
+		<task Id="3" taskType="3" CompletedValue="5" text="完成抓鬼任务{0}次" OpenInterface="2008" npcId="16" rewardId="1"/>
+		<task Id="4" taskType="4" CompletedValue="5" text="完成任意材料副本{0}次" OpenInterface="2009" npcId="6" rewardId="1"/>
+		<task Id="5" taskType="5" CompletedValue="5000" text="累计消耗{0}元宝" OpenInterface="2052|TurntableView" rewardId="2"/>
+		<task Id="6" taskType="6" CompletedValue="2000" text="累计充值{0}元宝" OpenInterface="2004|VipView" rewardId="3"/>
+		<task Id="7" taskType="7" CompletedValue="20" text="累计寻星{0}次" OpenInterface="6669|StarSearchView" rewardId="2"/>
+		<task Id="8" taskType="8" CompletedValue="20" text="累计寻宝{0}次" OpenInterface="2052|TurntableView" rewardId="2"/>
+		<taskLibrary Library="1">
+			<taskId Id="1"/>
+			<taskId Id="2"/>
+			<taskId Id="3"/>
+			<taskId Id="4"/>
+		</taskLibrary>
+		<taskLibrary Library="2">
+			<taskId Id="5"/>
+			<taskId Id="6"/>
+		</taskLibrary>
+		<taskLibrary Library="3">
+			<taskId Id="7"/>
+			<taskId Id="8"/>
+		</taskLibrary>
+		<reward rewardId="1">
+			<item itemId="10000043" num="5"/>
+		</reward>
+		<reward rewardId="2">
+			<item itemId="10000043" num="10"/>
+		</reward>
+		<reward rewardId="3">
+			<item itemId="10000043" num="20"/>
+		</reward>
+	</DailyTask>
+	<!--纪念奖励-->
+	<MemorialReward>
+		<day day="1" rewardId="1"/>
+		<day day="3" rewardId="2"/>
+		<day day="5" rewardId="3"/>
+		<day day="7" rewardId="4"/>
+		<reward rewardId="1">
+			<item itemId="10000043" num="8"/>
+			<item itemId="16010013" num="2"/>
+			<item itemId="10000101" num="2"/>
+		</reward>
+		<reward rewardId="2">
+			<item itemId="10000043" num="28"/>
+			<item itemId="16010013" num="5"/>
+			<item itemId="10000101" num="5"/>
+		</reward>
+		<reward rewardId="3">
+			<item itemId="10000043" num="66"/>
+			<item itemId="16010013" num="8"/>
+			<item itemId="10000101" num="8"/>
+		</reward>
+		<reward rewardId="4">
+			<item itemId="10000043" num="88"/>
+			<item itemId="16010013" num="10"/>
+			<item itemId="10000101" num="10"/>
+		</reward>
+	</MemorialReward>
+</root>

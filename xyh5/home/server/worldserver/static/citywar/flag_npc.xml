@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--旗帜形象对应的npc-->
+  <flag type="1" npc="10000" dir="0.79">
+    <flaginfo flagid="1" npc="90001"/>
+    <flaginfo flagid="2" npc="90002"/>
+    <flaginfo flagid="3" npc="90003"/>
+    <flaginfo flagid="4" npc="90004"/>
+    <flaginfo flagid="5" npc="90005"/>
+    <flaginfo flagid="6" npc="90006"/>
+    <flaginfo flagid="7" npc="90007"/>
+    <flaginfo flagid="8" npc="90008"/>
+    <flaginfo flagid="9" npc="90009"/>
+    <flaginfo flagid="10" npc="90010"/>
+    <flaginfo flagid="11" npc="90011"/>
+    <flaginfo flagid="12" npc="90012"/>
+    <flaginfo flagid="13" npc="90013"/>
+    <flaginfo flagid="14" npc="90014"/>
+    <flaginfo flagid="15" npc="90015"/>
+  </flag>
+  <flag type="2" npc="10000" dir="0.79">
+    <flaginfo flagid="1" npc="90021"/>
+    <flaginfo flagid="2" npc="90022"/>
+    <flaginfo flagid="3" npc="90023"/>
+    <flaginfo flagid="4" npc="90024"/>
+    <flaginfo flagid="5" npc="90025"/>
+    <flaginfo flagid="6" npc="90026"/>
+    <flaginfo flagid="7" npc="90027"/>
+    <flaginfo flagid="8" npc="90028"/>
+    <flaginfo flagid="9" npc="90029"/>
+    <flaginfo flagid="10" npc="90030"/>
+    <flaginfo flagid="11" npc="90031"/>
+    <flaginfo flagid="12" npc="90032"/>
+    <flaginfo flagid="13" npc="90033"/>
+    <flaginfo flagid="14" npc="90034"/>
+    <flaginfo flagid="15" npc="90035"/>
+  </flag>
+</root>

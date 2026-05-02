@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+<PlatformID ID="7">
+<ServerID ID="1"/>
+<ServerID ID="2"/>
+<ServerID ID="3"/>
+<ServerID ID="4"/>
+<ServerID ID="5"/>
+<ServerID ID="6"/>
+<ServerID ID="7"/>
+<ServerID ID="8"/>
+<ServerID ID="9"/>
+<ServerID ID="10"/>
+<ServerID ID="11"/>
+<ServerID ID="12"/>
+<ServerID ID="13"/>
+<ServerID ID="14"/>
+</PlatformID>
+<FuBenID ID="1"/>
+<System IP="0.0.0.0" Port="10001" ServerName="1服" IsCross="0" CrossID="1" IsSSL="0" CertificateChainFile="" PrivateKeyFile="" TmpDhFile=""/> 
+<LanListen IP="0.0.0.0" Port="11001"/>
+<WorldServer IP="0.0.0.0" Port="8004"/>
+<OAServer IP="0.0.0.0" Port="12001"/>
+<ChargeServer IP="127.0.0.1" Port="8001"/>
+<OpenAPIUrl Url="" HostHead="0"/>
+<Database DatabaseAddr="127.0.0.1" DBName="gameserver" LoginName="root" Password="echeverra" Port="3306"/>
+<GlobalDatabase DBIP="127.0.0.1" DBName="oaglobal" LoginName="root" Password="echeverra" DBPort="3306"/>
+<version version="lan"/>
+</Root>

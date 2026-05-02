@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- 被2012 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!--drop_type 1银两 2药品 3材料 4其他物品 5装备 avatar是场景内的掉落外形 -->
+<Root>
+	<setting normal_level="10" guardtime="15000" duration="40000"/>
+	<drop>
+		<!--测试掉落-->
+		<dropinfo dropid="7000001" drop_type="1" avatarA="600002" minnum="27" maxnum="33" bind="1"/>
+		<dropinfo dropid="1000010" drop_type="2" itemid="100001" itemnum="1" bind="0"/>
+		<!--狩猎积分-->
+		<dropinfo dropid="6000001" drop_type="6" avatarA="600005"/>
+		<!--装备副本掉落-->
+		<!--第一个装备副本装备掉落-->
+		<dropinfo dropid="9000001" drop_type="5" itemid="1020102" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="9000002" drop_type="5" itemid="1020110" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<!--60级装备掉落-->
+		<!--40级装备掉落-->
+		<dropinfo dropid="8000001" drop_type="5" itemid="1040101" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000002" drop_type="5" itemid="1040102" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000003" drop_type="5" itemid="1040103" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000004" drop_type="5" itemid="1040104" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000005" drop_type="5" itemid="1040105" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000006" drop_type="5" itemid="1040106" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000007" drop_type="5" itemid="1040107" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000008" drop_type="5" itemid="1040108" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000009" drop_type="5" itemid="1040109" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000010" drop_type="5" itemid="1040110" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<!--60级装备掉落-->
+		<dropinfo dropid="8000011" drop_type="5" itemid="1060101" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000012" drop_type="5" itemid="1060102" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000013" drop_type="5" itemid="1060103" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000014" drop_type="5" itemid="1060104" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000015" drop_type="5" itemid="1060105" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000016" drop_type="5" itemid="1060106" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000017" drop_type="5" itemid="1060107" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000018" drop_type="5" itemid="1060108" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000019" drop_type="5" itemid="1060109" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000020" drop_type="5" itemid="1060110" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<!--80级装备掉落-->
+		<dropinfo dropid="8000021" drop_type="5" itemid="1080101" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000022" drop_type="5" itemid="1080102" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000023" drop_type="5" itemid="1080103" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000024" drop_type="5" itemid="1080104" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000025" drop_type="5" itemid="1080105" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000026" drop_type="5" itemid="1080106" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000027" drop_type="5" itemid="1080107" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000028" drop_type="5" itemid="1080108" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000029" drop_type="5" itemid="1080109" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000030" drop_type="5" itemid="1080110" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<!--100级装备掉落-->
+		<dropinfo dropid="8000031" drop_type="5" itemid="1100101" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000032" drop_type="5" itemid="1100102" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000033" drop_type="5" itemid="1100103" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000034" drop_type="5" itemid="1100104" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000035" drop_type="5" itemid="1100105" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000036" drop_type="5" itemid="1100106" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000037" drop_type="5" itemid="1100107" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000038" drop_type="5" itemid="1100108" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000039" drop_type="5" itemid="1100109" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000040" drop_type="5" itemid="1100110" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<!--20级装备掉落-->
+		<dropinfo dropid="8000041" drop_type="5" itemid="1020101" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000042" drop_type="5" itemid="1020102" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000043" drop_type="5" itemid="1020103" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000044" drop_type="5" itemid="1020104" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000045" drop_type="5" itemid="1020105" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000046" drop_type="5" itemid="1020106" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000047" drop_type="5" itemid="1020107" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000048" drop_type="5" itemid="1020108" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000049" drop_type="5" itemid="1020109" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000050" drop_type="5" itemid="1020110" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<!--120级装备掉落-->
+		<dropinfo dropid="8000051" drop_type="5" itemid="1120101" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000052" drop_type="5" itemid="1120102" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000053" drop_type="5" itemid="1120103" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000054" drop_type="5" itemid="1120104" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000055" drop_type="5" itemid="1120105" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000056" drop_type="5" itemid="1120106" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000057" drop_type="5" itemid="1120107" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000058" drop_type="5" itemid="1120108" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000059" drop_type="5" itemid="1120109" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000060" drop_type="5" itemid="1120110" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<!--140级装备掉落-->
+		<dropinfo dropid="8000061" drop_type="5" itemid="1140101" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000062" drop_type="5" itemid="1140102" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000063" drop_type="5" itemid="1140103" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000064" drop_type="5" itemid="1140104" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000065" drop_type="5" itemid="1140105" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000066" drop_type="5" itemid="1140106" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000067" drop_type="5" itemid="1140107" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000068" drop_type="5" itemid="1140108" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000069" drop_type="5" itemid="1140109" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000070" drop_type="5" itemid="1140110" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<!--雷真80级装备掉落-->
+		<dropinfo dropid="8000071" drop_type="5" itemid="1080101" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000072" drop_type="5" itemid="1080102" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000073" drop_type="5" itemid="1080103" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000074" drop_type="5" itemid="1080104" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000075" drop_type="5" itemid="1080105" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000076" drop_type="5" itemid="1080106" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000077" drop_type="5" itemid="1080107" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000078" drop_type="5" itemid="1080108" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000079" drop_type="5" itemid="1080109" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000080" drop_type="5" itemid="1080110" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<!--雷真100级装备掉落-->
+		<dropinfo dropid="8000081" drop_type="5" itemid="1100101" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000082" drop_type="5" itemid="1100102" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000083" drop_type="5" itemid="1100103" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000084" drop_type="5" itemid="1100104" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000085" drop_type="5" itemid="1100105" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000086" drop_type="5" itemid="1100106" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000087" drop_type="5" itemid="1100107" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000088" drop_type="5" itemid="1100108" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000089" drop_type="5" itemid="1100109" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000090" drop_type="5" itemid="1100110" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<!--雷真120级装备掉落-->
+		<dropinfo dropid="8000091" drop_type="5" itemid="1120101" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000092" drop_type="5" itemid="1120102" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000093" drop_type="5" itemid="1120103" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000094" drop_type="5" itemid="1120104" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000095" drop_type="5" itemid="1120105" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000096" drop_type="5" itemid="1120106" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000097" drop_type="5" itemid="1120107" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000098" drop_type="5" itemid="1120108" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000099" drop_type="5" itemid="1120109" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000100" drop_type="5" itemid="1120110" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<!--雷真140级装备掉落-->
+		<dropinfo dropid="8000101" drop_type="5" itemid="1140101" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000102" drop_type="5" itemid="1140102" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000103" drop_type="5" itemid="1140103" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000104" drop_type="5" itemid="1140104" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000105" drop_type="5" itemid="1140105" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000106" drop_type="5" itemid="1140106" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000107" drop_type="5" itemid="1140107" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000108" drop_type="5" itemid="1140108" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000109" drop_type="5" itemid="1140109" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<dropinfo dropid="8000110" drop_type="5" itemid="1140110" stage="1" itemnum="1" bind="1" min_strengthen="0" max_strengthen="1"/>
+		<!--装备副本物品掉落-->
+		<dropinfo dropid="8100001" drop_type="3" itemid="105301" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100002" drop_type="4" itemid="108103" itemnum="3" bind="1"/>
+		<dropinfo dropid="8100003" drop_type="4" itemid="108303" itemnum="3" bind="1"/>
+		<dropinfo dropid="8100004" drop_type="4" itemid="107003" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100005" drop_type="4" itemid="100590" itemnum="3" bind="1"/>
+		<dropinfo dropid="8110001" drop_type="2" itemid="100001" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110002" drop_type="2" itemid="100001" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110003" drop_type="2" itemid="100001" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110004" drop_type="2" itemid="100001" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110005" drop_type="2" itemid="100001" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110006" drop_type="2" itemid="100001" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110007" drop_type="2" itemid="100001" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110008" drop_type="2" itemid="100001" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110009" drop_type="2" itemid="100001" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110010" drop_type="2" itemid="100001" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100011" drop_type="3" itemid="105301" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100012" drop_type="4" itemid="108103" itemnum="4" bind="1"/>
+		<dropinfo dropid="8100013" drop_type="4" itemid="108303" itemnum="4" bind="1"/>
+		<dropinfo dropid="8100014" drop_type="4" itemid="107003" itemnum="2" bind="1"/>
+		<dropinfo dropid="8100015" drop_type="4" itemid="100590" itemnum="3" bind="1"/>
+		<dropinfo dropid="8110011" drop_type="2" itemid="100002" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110012" drop_type="2" itemid="100002" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110013" drop_type="2" itemid="100002" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110014" drop_type="2" itemid="100002" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110015" drop_type="2" itemid="100002" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110016" drop_type="2" itemid="100002" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110017" drop_type="2" itemid="100002" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110018" drop_type="2" itemid="100002" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110019" drop_type="2" itemid="100002" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110020" drop_type="2" itemid="100002" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100021" drop_type="3" itemid="105301" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100022" drop_type="4" itemid="108104" itemnum="3" bind="1"/>
+		<dropinfo dropid="8100023" drop_type="4" itemid="108304" itemnum="3" bind="1"/>
+		<dropinfo dropid="8100024" drop_type="4" itemid="107003" itemnum="3" bind="1"/>
+		<dropinfo dropid="8100025" drop_type="4" itemid="100591" itemnum="3" bind="1"/>
+		<dropinfo dropid="8110021" drop_type="2" itemid="100003" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110022" drop_type="2" itemid="100003" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110023" drop_type="2" itemid="100003" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110024" drop_type="2" itemid="100003" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110025" drop_type="2" itemid="100003" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110026" drop_type="2" itemid="100003" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110027" drop_type="2" itemid="100003" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110028" drop_type="2" itemid="100003" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110029" drop_type="2" itemid="100003" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110030" drop_type="2" itemid="100003" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100031" drop_type="3" itemid="105301" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100032" drop_type="4" itemid="108104" itemnum="4" bind="1"/>
+		<dropinfo dropid="8100033" drop_type="4" itemid="108304" itemnum="4" bind="1"/>
+		<dropinfo dropid="8100034" drop_type="4" itemid="107003" itemnum="4" bind="1"/>
+		<dropinfo dropid="8100035" drop_type="4" itemid="100591" itemnum="4" bind="1"/>
+		<dropinfo dropid="8110031" drop_type="2" itemid="100004" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110032" drop_type="2" itemid="100004" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110033" drop_type="2" itemid="100004" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110034" drop_type="2" itemid="100004" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110035" drop_type="2" itemid="100004" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110036" drop_type="2" itemid="100004" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110037" drop_type="2" itemid="100004" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110038" drop_type="2" itemid="100004" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110039" drop_type="2" itemid="100004" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110040" drop_type="2" itemid="100004" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100041" drop_type="3" itemid="105301" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100042" drop_type="4" itemid="108103" itemnum="9" bind="1"/>
+		<dropinfo dropid="8100043" drop_type="4" itemid="108303" itemnum="9" bind="1"/>
+		<dropinfo dropid="8100044" drop_type="4" itemid="107003" itemnum="5" bind="1"/>
+		<dropinfo dropid="8100045" drop_type="4" itemid="100592" itemnum="3" bind="1"/>
+		<dropinfo dropid="8110041" drop_type="2" itemid="100005" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110042" drop_type="2" itemid="100005" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110043" drop_type="2" itemid="100005" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110044" drop_type="2" itemid="100005" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110045" drop_type="2" itemid="100005" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110046" drop_type="2" itemid="100005" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110047" drop_type="2" itemid="100005" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110048" drop_type="2" itemid="100005" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110049" drop_type="2" itemid="100005" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110050" drop_type="2" itemid="100005" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100051" drop_type="3" itemid="105301" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100052" drop_type="4" itemid="108103" itemnum="12" bind="1"/>
+		<dropinfo dropid="8100053" drop_type="4" itemid="108303" itemnum="12" bind="1"/>
+		<dropinfo dropid="8100119" drop_type="4" itemid="107003" itemnum="6" bind="1"/>
+		<dropinfo dropid="8100120" drop_type="4" itemid="100592" itemnum="4" bind="1"/>
+		<dropinfo dropid="8110051" drop_type="2" itemid="100006" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110052" drop_type="2" itemid="100006" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110053" drop_type="2" itemid="100006" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110054" drop_type="2" itemid="100006" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110055" drop_type="2" itemid="100006" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110056" drop_type="2" itemid="100006" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110057" drop_type="2" itemid="100006" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110058" drop_type="2" itemid="100006" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110059" drop_type="2" itemid="100006" itemnum="1" bind="1"/>
+		<dropinfo dropid="8110060" drop_type="2" itemid="100006" itemnum="1" bind="1"/>
+		<!--龙山巡守掉落-->
+		<dropinfo dropid="8100054" drop_type="4" itemid="105201" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100055" drop_type="4" itemid="200006" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100056" drop_type="4" itemid="200007" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100057" drop_type="4" itemid="200008" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100058" drop_type="3" itemid="900300" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100068" drop_type="1" itemid="108303" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100078" drop_type="4" itemid="108103" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100088" drop_type="4" itemid="100591" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100098" drop_type="2" itemid="100581" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100059" drop_type="3" itemid="900300" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100069" drop_type="1" itemid="108303" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100079" drop_type="4" itemid="108103" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100089" drop_type="4" itemid="100591" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100099" drop_type="2" itemid="100581" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100060" drop_type="3" itemid="900300" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100070" drop_type="1" itemid="108303" itemnum="2" bind="1"/>
+		<dropinfo dropid="8100080" drop_type="4" itemid="108103" itemnum="2" bind="1"/>
+		<dropinfo dropid="8100090" drop_type="4" itemid="100592" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100100" drop_type="2" itemid="100581" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100061" drop_type="3" itemid="900300" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100071" drop_type="1" itemid="108303" itemnum="2" bind="1"/>
+		<dropinfo dropid="8100081" drop_type="4" itemid="108103" itemnum="2" bind="1"/>
+		<dropinfo dropid="8100091" drop_type="4" itemid="100592" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100101" drop_type="2" itemid="100582" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100062" drop_type="3" itemid="900300" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100072" drop_type="1" itemid="108303" itemnum="3" bind="1"/>
+		<dropinfo dropid="8100082" drop_type="4" itemid="108103" itemnum="3" bind="1"/>
+		<dropinfo dropid="8100092" drop_type="4" itemid="100593" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100102" drop_type="2" itemid="100582" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100063" drop_type="3" itemid="900300" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100073" drop_type="1" itemid="108303" itemnum="3" bind="1"/>
+		<dropinfo dropid="8100083" drop_type="4" itemid="108103" itemnum="3" bind="1"/>
+		<dropinfo dropid="8100093" drop_type="4" itemid="100593" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100103" drop_type="2" itemid="100582" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100064" drop_type="3" itemid="900300" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100074" drop_type="1" itemid="108305" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100084" drop_type="4" itemid="108105" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100094" drop_type="4" itemid="100594" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100104" drop_type="2" itemid="100582" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100065" drop_type="3" itemid="900300" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100075" drop_type="1" itemid="108305" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100085" drop_type="4" itemid="108105" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100095" drop_type="4" itemid="100594" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100105" drop_type="2" itemid="100583" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100066" drop_type="3" itemid="900300" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100076" drop_type="1" itemid="108303" itemnum="8" bind="1"/>
+		<dropinfo dropid="8100086" drop_type="4" itemid="108103" itemnum="8" bind="1"/>
+		<dropinfo dropid="8100096" drop_type="4" itemid="100595" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100106" drop_type="2" itemid="100583" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100067" drop_type="3" itemid="900300" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100077" drop_type="1" itemid="108303" itemnum="8" bind="1"/>
+		<dropinfo dropid="8100087" drop_type="4" itemid="108103" itemnum="8" bind="1"/>
+		<dropinfo dropid="8100097" drop_type="4" itemid="100595" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100107" drop_type="2" itemid="100583" itemnum="1" bind="1"/>
+		<!--提品石-->
+		<dropinfo dropid="8100108" drop_type="3" itemid="105201" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100109" drop_type="3" itemid="105202" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100110" drop_type="3" itemid="105203" itemnum="1" bind="1"/>
+		<!--技能书箱-->
+		<dropinfo dropid="8100111" drop_type="3" itemid="200009" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100112" drop_type="3" itemid="200010" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100113" drop_type="3" itemid="200011" itemnum="1" bind="1"/>
+		<dropinfo dropid="8100114" drop_type="3" itemid="200012" itemnum="1" bind="1"/>
+		<!--5.6收益丹-->
+		<dropinfo dropid="8100115" drop_type="3" itemid="100594" itemnum="3" bind="1"/>
+		<dropinfo dropid="8100116" drop_type="3" itemid="100594" itemnum="4" bind="1"/>
+		<dropinfo dropid="8100117" drop_type="3" itemid="100595" itemnum="3" bind="1"/>
+		<dropinfo dropid="8100118" drop_type="3" itemid="100595" itemnum="4" bind="1"/>
+	</drop>
+</Root>

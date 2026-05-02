@@ -1,0 +1,1427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+functionid	功能id
+type	星盘分类
+=1 地煞
+=2 天罡
+=3 星宿
+=4 天仙
+suitlev	套装等级
+num	对应分类所有卡片等级要求
+parametertype	属性类型（逗号隔开）
+parameter	属性值（逗号隔开）
+	
+cardid	卡片id
+cardname	卡片名字
+
+cardlev	卡片等级区间
+itemid	激活/升级所需道具id
+num	激活/升级所需道具数量
+parametertype	属性类型（逗号隔开）
+parameter	属性值（逗号隔开）
+
+
+-->
+	<function functionid="6670"/>
+	<type type="1">
+		<suit suitlev="1" num="1" parametertype="102,103,101" parameter="6000,3000,72000"/>
+		<suit suitlev="2" num="3" parametertype="102,103,101" parameter="12000,6000,144000"/>
+		<suit suitlev="3" num="5" parametertype="102,103,101" parameter="20000,10000,240000"/>
+		<suit suitlev="4" num="8" parametertype="102,103,101" parameter="30000,15000,360000"/>
+		<suit suitlev="5" num="10" parametertype="102,103,101" parameter="40000,20000,480000"/>
+		<suit suitlev="6" num="15" parametertype="102,103,101" parameter="50000,25000,600000"/>
+		<suit suitlev="7" num="20" parametertype="102,103,101" parameter="60000,30000,720000"/>
+		<suit suitlev="8" num="30" parametertype="102,103,101" parameter="80000,40000,960000"/>
+		<suit suitlev="9" num="50" parametertype="102,103,101" parameter="100000,50000,1200000"/>
+		<suit suitlev="10" num="100" parametertype="102,103,101" parameter="200000,100000,2400000"/>
+		<card cardid="1" cardname="地魁星">
+			<cardlev cardlev="0,10" itemid="18010101" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010101" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010101" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010101" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010101" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010101" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010101" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="2" cardname="地英星">
+			<cardlev cardlev="0,10" itemid="18010102" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010102" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010102" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010102" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010102" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010102" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010102" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="3" cardname="地阖星">
+			<cardlev cardlev="0,10" itemid="18010103" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010103" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010103" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010103" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010103" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010103" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010103" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="4" cardname="地佑星">
+			<cardlev cardlev="0,10" itemid="18010104" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010104" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010104" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010104" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010104" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010104" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010104" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="5" cardname="地默星">
+			<cardlev cardlev="0,10" itemid="18010105" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010105" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010105" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010105" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010105" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010105" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010105" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="6" cardname="地明星">
+			<cardlev cardlev="0,10" itemid="18010106" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010106" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010106" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010106" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010106" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010106" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010106" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="7" cardname="地隐星">
+			<cardlev cardlev="0,10" itemid="18010107" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010107" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010107" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010107" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010107" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010107" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010107" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="8" cardname="地速星">
+			<cardlev cardlev="0,10" itemid="18010108" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010108" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010108" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010108" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010108" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010108" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010108" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="9" cardname="地伏星">
+			<cardlev cardlev="0,10" itemid="18010109" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010109" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010109" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010109" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010109" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010109" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010109" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="10" cardname="地角星">
+			<cardlev cardlev="0,10" itemid="18010110" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010110" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010110" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010110" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010110" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010110" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010110" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="11" cardname="地察星">
+			<cardlev cardlev="0,10" itemid="18010111" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010111" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010111" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010111" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010111" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010111" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010111" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="12" cardname="地壮星">
+			<cardlev cardlev="0,10" itemid="18010112" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010112" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010112" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010112" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010112" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010112" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010112" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="13" cardname="地煞星">
+			<cardlev cardlev="0,10" itemid="18010113" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010113" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010113" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010113" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010113" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010113" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010113" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="14" cardname="地奇星">
+			<cardlev cardlev="0,10" itemid="18010114" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010114" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010114" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010114" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010114" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010114" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010114" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="15" cardname="地强星">
+			<cardlev cardlev="0,10" itemid="18010115" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010115" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010115" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010115" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010115" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010115" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010115" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="16" cardname="地灵星">
+			<cardlev cardlev="0,10" itemid="18010116" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010116" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010116" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010116" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010116" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010116" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010116" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="17" cardname="地猖星">
+			<cardlev cardlev="0,10" itemid="18010117" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010117" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010117" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010117" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010117" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010117" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010117" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="18" cardname="地进星">
+			<cardlev cardlev="0,10" itemid="18010118" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010118" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010118" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010118" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010118" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010118" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010118" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="19" cardname="地异星">
+			<cardlev cardlev="0,10" itemid="18010119" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010119" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010119" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010119" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010119" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010119" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010119" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="20" cardname="地镇星">
+			<cardlev cardlev="0,10" itemid="18010120" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010120" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010120" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010120" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010120" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010120" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010120" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="21" cardname="地僻星">
+			<cardlev cardlev="0,10" itemid="18010121" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010121" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010121" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010121" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010121" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010121" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010121" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="22" cardname="地囚星">
+			<cardlev cardlev="0,10" itemid="18010122" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010122" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010122" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010122" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010122" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010122" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010122" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="23" cardname="地恶星">
+			<cardlev cardlev="0,10" itemid="18010123" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010123" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010123" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010123" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010123" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010123" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010123" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="24" cardname="地劣星">
+			<cardlev cardlev="0,10" itemid="18010124" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010124" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010124" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010124" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010124" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010124" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010124" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="25" cardname="地勇星">
+			<cardlev cardlev="0,10" itemid="18010125" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010125" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010125" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010125" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010125" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010125" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010125" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="26" cardname="地猛星">
+			<cardlev cardlev="0,10" itemid="18010126" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010126" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010126" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010126" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010126" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010126" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010126" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="27" cardname="地暗星">
+			<cardlev cardlev="0,10" itemid="18010127" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010127" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010127" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010127" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010127" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010127" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010127" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="28" cardname="地兽星">
+			<cardlev cardlev="0,10" itemid="18010128" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010128" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010128" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010128" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010128" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010128" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010128" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="29" cardname="地狂星">
+			<cardlev cardlev="0,10" itemid="18010129" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010129" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010129" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010129" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010129" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010129" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010129" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="30" cardname="地退星">
+			<cardlev cardlev="0,10" itemid="18010130" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010130" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010130" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010130" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010130" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010130" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010130" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="31" cardname="地理星">
+			<cardlev cardlev="0,10" itemid="18010131" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010131" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010131" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010131" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010131" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010131" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010131" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="32" cardname="地稽星">
+			<cardlev cardlev="0,10" itemid="18010132" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010132" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010132" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010132" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010132" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010132" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010132" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="33" cardname="地空星">
+			<cardlev cardlev="0,10" itemid="18010133" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010133" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010133" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010133" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010133" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010133" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010133" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="34" cardname="地藏星">
+			<cardlev cardlev="0,10" itemid="18010134" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010134" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010134" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010134" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010134" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010134" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010134" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="35" cardname="地魂星">
+			<cardlev cardlev="0,10" itemid="18010135" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010135" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010135" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010135" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010135" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010135" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010135" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="36" cardname="地健星">
+			<cardlev cardlev="0,10" itemid="18010136" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010136" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010136" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010136" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010136" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010136" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010136" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="37" cardname="地杰星">
+			<cardlev cardlev="0,10" itemid="18010137" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010137" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010137" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010137" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010137" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010137" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010137" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="38" cardname="地文星">
+			<cardlev cardlev="0,10" itemid="18010138" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010138" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010138" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010138" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010138" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010138" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010138" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="39" cardname="地辅星">
+			<cardlev cardlev="0,10" itemid="18010139" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010139" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010139" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010139" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010139" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010139" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010139" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="40" cardname="地微星">
+			<cardlev cardlev="0,10" itemid="18010140" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010140" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010140" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010140" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010140" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010140" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010140" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="41" cardname="地飞星">
+			<cardlev cardlev="0,10" itemid="18010141" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010141" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010141" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010141" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010141" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010141" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010141" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="42" cardname="地满星">
+			<cardlev cardlev="0,10" itemid="18010142" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010142" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010142" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010142" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010142" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010142" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010142" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="43" cardname="地俊星">
+			<cardlev cardlev="0,10" itemid="18010143" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010143" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010143" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010143" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010143" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010143" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010143" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="44" cardname="地魔星">
+			<cardlev cardlev="0,10" itemid="18010144" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010144" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010144" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010144" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010144" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010144" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010144" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="45" cardname="地孤星">
+			<cardlev cardlev="0,10" itemid="18010145" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010145" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010145" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010145" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010145" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010145" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010145" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="46" cardname="地平星">
+			<cardlev cardlev="0,10" itemid="18010146" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010146" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010146" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010146" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010146" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010146" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010146" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="47" cardname="地数星">
+			<cardlev cardlev="0,10" itemid="18010147" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010147" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010147" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010147" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010147" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010147" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010147" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="48" cardname="地贼星">
+			<cardlev cardlev="0,10" itemid="18010148" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010148" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010148" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010148" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010148" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010148" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010148" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="49" cardname="地雄星">
+			<cardlev cardlev="0,10" itemid="18010149" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010149" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010149" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010149" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010149" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010149" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010149" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="50" cardname="地正星">
+			<cardlev cardlev="0,10" itemid="18010150" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010150" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010150" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010150" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010150" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010150" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010150" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="51" cardname="地会星">
+			<cardlev cardlev="0,10" itemid="18010151" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010151" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010151" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010151" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010151" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010151" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010151" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="52" cardname="地慧星">
+			<cardlev cardlev="0,10" itemid="18010152" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010152" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010152" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010152" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010152" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010152" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010152" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="53" cardname="地走星">
+			<cardlev cardlev="0,10" itemid="18010153" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010153" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010153" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010153" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010153" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010153" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010153" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="54" cardname="地遂星">
+			<cardlev cardlev="0,10" itemid="18010154" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010154" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010154" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010154" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010154" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010154" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010154" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="55" cardname="地乐星">
+			<cardlev cardlev="0,10" itemid="18010155" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010155" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010155" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010155" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010155" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010155" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010155" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="56" cardname="地妖星">
+			<cardlev cardlev="0,10" itemid="18010156" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010156" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010156" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010156" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010156" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010156" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010156" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="57" cardname="地全星">
+			<cardlev cardlev="0,10" itemid="18010157" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010157" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010157" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010157" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010157" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010157" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010157" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="58" cardname="地损星">
+			<cardlev cardlev="0,10" itemid="18010158" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010158" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010158" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010158" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010158" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010158" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010158" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="59" cardname="地阴星">
+			<cardlev cardlev="0,10" itemid="18010159" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010159" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010159" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010159" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010159" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010159" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010159" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="60" cardname="地戚星">
+			<cardlev cardlev="0,10" itemid="18010160" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010160" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010160" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010160" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010160" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010160" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010160" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="61" cardname="地威星">
+			<cardlev cardlev="0,10" itemid="18010161" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010161" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010161" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010161" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010161" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010161" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010161" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="62" cardname="地辟星">
+			<cardlev cardlev="0,10" itemid="18010162" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010162" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010162" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010162" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010162" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010162" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010162" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="63" cardname="地佐星">
+			<cardlev cardlev="0,10" itemid="18010163" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010163" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010163" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010163" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010163" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010163" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010163" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="64" cardname="地暴星">
+			<cardlev cardlev="0,10" itemid="18010164" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010164" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010164" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010164" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010164" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010164" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010164" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="65" cardname="地巧星">
+			<cardlev cardlev="0,10" itemid="18010165" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010165" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010165" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010165" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010165" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010165" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010165" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="66" cardname="地周星">
+			<cardlev cardlev="0,10" itemid="18010166" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010166" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010166" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010166" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010166" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010166" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010166" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="67" cardname="地捷星">
+			<cardlev cardlev="0,10" itemid="18010167" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010167" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010167" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010167" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010167" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010167" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010167" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="68" cardname="地幽星">
+			<cardlev cardlev="0,10" itemid="18010168" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010168" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010168" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010168" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010168" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010168" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010168" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="69" cardname="地短星">
+			<cardlev cardlev="0,10" itemid="18010169" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010169" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010169" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010169" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010169" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010169" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010169" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="70" cardname="地奴星">
+			<cardlev cardlev="0,10" itemid="18010170" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010170" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010170" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010170" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010170" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010170" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010170" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="71" cardname="地刑星">
+			<cardlev cardlev="0,10" itemid="18010171" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010171" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010171" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010171" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010171" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010171" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010171" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+		<card cardid="72" cardname="地狗星">
+			<cardlev cardlev="0,10" itemid="18010172" num="1" parametertype="102,103,101" parameter="100,50,1200"/>
+			<cardlev cardlev="11,20" itemid="18010172" num="2" parametertype="102,103,101" parameter="160,80,1920"/>
+			<cardlev cardlev="21,30" itemid="18010172" num="3" parametertype="102,103,101" parameter="220,110,2640"/>
+			<cardlev cardlev="31,50" itemid="18010172" num="4" parametertype="102,103,101" parameter="280,140,3360"/>
+			<cardlev cardlev="51,100" itemid="18010172" num="6" parametertype="102,103,101" parameter="360,180,4320"/>
+			<cardlev cardlev="101,200" itemid="18010172" num="8" parametertype="102,103,101" parameter="440,220,5280"/>
+			<cardlev cardlev="201,999" itemid="18010172" num="10" parametertype="102,103,101" parameter="500,250,6000"/>
+		</card>
+	</type>
+	<type type="2">
+		<suit suitlev="1" num="1" parametertype="102,103,101" parameter="12000,6000,144000"/>
+		<suit suitlev="2" num="3" parametertype="102,103,101" parameter="24000,12000,288000"/>
+		<suit suitlev="3" num="5" parametertype="102,103,101" parameter="40000,20000,480000"/>
+		<suit suitlev="4" num="8" parametertype="102,103,101" parameter="60000,30000,720000"/>
+		<suit suitlev="5" num="10" parametertype="102,103,101" parameter="80000,40000,960000"/>
+		<suit suitlev="6" num="15" parametertype="102,103,101" parameter="100000,50000,1200000"/>
+		<suit suitlev="7" num="20" parametertype="102,103,101" parameter="120000,60000,1440000"/>
+		<suit suitlev="8" num="30" parametertype="102,103,101" parameter="160000,80000,1920000"/>
+		<suit suitlev="9" num="50" parametertype="102,103,101" parameter="200000,100000,2400000"/>
+		<suit suitlev="10" num="100" parametertype="102,103,101" parameter="400000,200000,4800000"/>
+		<card cardid="1" cardname="天魁星">
+			<cardlev cardlev="0,10" itemid="18020101" num="1" parametertype="102,103,101" parameter="300,150,3600"/>
+			<cardlev cardlev="11,20" itemid="18020101" num="2" parametertype="102,103,101" parameter="480,240,5760"/>
+			<cardlev cardlev="21,30" itemid="18020101" num="3" parametertype="102,103,101" parameter="660,330,7920"/>
+			<cardlev cardlev="31,50" itemid="18020101" num="4" parametertype="102,103,101" parameter="840,420,10080"/>
+			<cardlev cardlev="51,100" itemid="18020101" num="6" parametertype="102,103,101" parameter="1080,540,12960"/>
+			<cardlev cardlev="101,200" itemid="18020101" num="8" parametertype="102,103,101" parameter="1320,660,15840"/>
+			<cardlev cardlev="201,999" itemid="18020101" num="10" parametertype="102,103,101" parameter="1500,750,18000"/>
+		</card>
+		<card cardid="2" cardname="天猛星">
+			<cardlev cardlev="0,10" itemid="18020102" num="1" parametertype="102,103,101" parameter="300,150,3600"/>
+			<cardlev cardlev="11,20" itemid="18020102" num="2" parametertype="102,103,101" parameter="480,240,5760"/>
+			<cardlev cardlev="21,30" itemid="18020102" num="3" parametertype="102,103,101" parameter="660,330,7920"/>
+			<cardlev cardlev="31,50" itemid="18020102" num="4" parametertype="102,103,101" parameter="840,420,10080"/>
+			<cardlev cardlev="51,100" itemid="18020102" num="6" parametertype="102,103,101" parameter="1080,540,12960"/>
+			<cardlev cardlev="101,200" itemid="18020102" num="8" parametertype="102,103,101" parameter="1320,660,15840"/>
+			<cardlev cardlev="201,999" itemid="18020102" num="10" parametertype="102,103,101" parameter="1500,750,18000"/>
+		</card>
+		<card cardid="3" cardname="天孤星">
+			<cardlev cardlev="0,10" itemid="18020103" num="1" parametertype="102,103,101" parameter="300,150,3600"/>
+			<cardlev cardlev="11,20" itemid="18020103" num="2" parametertype="102,103,101" parameter="480,240,5760"/>
+			<cardlev cardlev="21,30" itemid="18020103" num="3" parametertype="102,103,101" parameter="660,330,7920"/>
+			<cardlev cardlev="31,50" itemid="18020103" num="4" parametertype="102,103,101" parameter="840,420,10080"/>
+			<cardlev cardlev="51,100" itemid="18020103" num="6" parametertype="102,103,101" parameter="1080,540,12960"/>
+			<cardlev cardlev="101,200" itemid="18020103" num="8" parametertype="102,103,101" parameter="1320,660,15840"/>
+			<cardlev cardlev="201,999" itemid="18020103" num="10" parametertype="102,103,101" parameter="1500,750,18000"/>
+		</card>
+		<card cardid="4" cardname="天空星">
+			<cardlev cardlev="0,10" itemid="18020104" num="1" parametertype="102,103,101" parameter="300,150,3600"/>
+			<cardlev cardlev="11,20" itemid="18020104" num="2" parametertype="102,103,101" parameter="480,240,5760"/>
+			<cardlev cardlev="21,30" itemid="18020104" num="3" parametertype="102,103,101" parameter="660,330,7920"/>
+			<cardlev cardlev="31,50" itemid="18020104" num="4" parametertype="102,103,101" parameter="840,420,10080"/>
+			<cardlev cardlev="51,100" itemid="18020104" num="6" parametertype="102,103,101" parameter="1080,540,12960"/>
+			<cardlev cardlev="101,200" itemid="18020104" num="8" parametertype="102,103,101" parameter="1320,660,15840"/>
+			<cardlev cardlev="201,999" itemid="18020104" num="10" parametertype="102,103,101" parameter="1500,750,18000"/>
+		</card>
+		<card cardid="5" cardname="天退星">
+			<cardlev cardlev="0,10" itemid="18020105" num="1" parametertype="102,103,101" parameter="300,150,3600"/>
+			<cardlev cardlev="11,20" itemid="18020105" num="2" parametertype="102,103,101" parameter="480,240,5760"/>
+			<cardlev cardlev="21,30" itemid="18020105" num="3" parametertype="102,103,101" parameter="660,330,7920"/>
+			<cardlev cardlev="31,50" itemid="18020105" num="4" parametertype="102,103,101" parameter="840,420,10080"/>
+			<cardlev cardlev="51,100" itemid="18020105" num="6" parametertype="102,103,101" parameter="1080,540,12960"/>
+			<cardlev cardlev="101,200" itemid="18020105" num="8" parametertype="102,103,101" parameter="1320,660,15840"/>
+			<cardlev cardlev="201,999" itemid="18020105" num="10" parametertype="102,103,101" parameter="1500,750,18000"/>
+		</card>
+		<card cardid="6" cardname="天败星">
+			<cardlev cardlev="0,10" itemid="18020106" num="1" parametertype="102,103,101" parameter="300,150,3600"/>
+			<cardlev cardlev="11,20" itemid="18020106" num="2" parametertype="102,103,101" parameter="480,240,5760"/>
+			<cardlev cardlev="21,30" itemid="18020106" num="3" parametertype="102,103,101" parameter="660,330,7920"/>
+			<cardlev cardlev="31,50" itemid="18020106" num="4" parametertype="102,103,101" parameter="840,420,10080"/>
+			<cardlev cardlev="51,100" itemid="18020106" num="6" parametertype="102,103,101" parameter="1080,540,12960"/>
+			<cardlev cardlev="101,200" itemid="18020106" num="8" parametertype="102,103,101" parameter="1320,660,15840"/>
+			<cardlev cardlev="201,999" itemid="18020106" num="10" parametertype="102,103,101" parameter="1500,750,18000"/>
+		</card>
+		<card cardid="7" cardname="天罡星">
+			<cardlev cardlev="0,10" itemid="18020107" num="1" parametertype="102,103,101" parameter="300,150,3600"/>
+			<cardlev cardlev="11,20" itemid="18020107" num="2" parametertype="102,103,101" parameter="480,240,5760"/>
+			<cardlev cardlev="21,30" itemid="18020107" num="3" parametertype="102,103,101" parameter="660,330,7920"/>
+			<cardlev cardlev="31,50" itemid="18020107" num="4" parametertype="102,103,101" parameter="840,420,10080"/>
+			<cardlev cardlev="51,100" itemid="18020107" num="6" parametertype="102,103,101" parameter="1080,540,12960"/>
+			<cardlev cardlev="101,200" itemid="18020107" num="8" parametertype="102,103,101" parameter="1320,660,15840"/>
+			<cardlev cardlev="201,999" itemid="18020107" num="10" parametertype="102,103,101" parameter="1500,750,18000"/>
+		</card>
+		<card cardid="8" cardname="天威星">
+			<cardlev cardlev="0,10" itemid="18020108" num="1" parametertype="102,103,101" parameter="300,150,3600"/>
+			<cardlev cardlev="11,20" itemid="18020108" num="2" parametertype="102,103,101" parameter="480,240,5760"/>
+			<cardlev cardlev="21,30" itemid="18020108" num="3" parametertype="102,103,101" parameter="660,330,7920"/>
+			<cardlev cardlev="31,50" itemid="18020108" num="4" parametertype="102,103,101" parameter="840,420,10080"/>
+			<cardlev cardlev="51,100" itemid="18020108" num="6" parametertype="102,103,101" parameter="1080,540,12960"/>
+			<cardlev cardlev="101,200" itemid="18020108" num="8" parametertype="102,103,101" parameter="1320,660,15840"/>
+			<cardlev cardlev="201,999" itemid="18020108" num="10" parametertype="102,103,101" parameter="1500,750,18000"/>
+		</card>
+		<card cardid="9" cardname="天伤星">
+			<cardlev cardlev="0,10" itemid="18020109" num="1" parametertype="102,103,101" parameter="300,150,3600"/>
+			<cardlev cardlev="11,20" itemid="18020109" num="2" parametertype="102,103,101" parameter="480,240,5760"/>
+			<cardlev cardlev="21,30" itemid="18020109" num="3" parametertype="102,103,101" parameter="660,330,7920"/>
+			<cardlev cardlev="31,50" itemid="18020109" num="4" parametertype="102,103,101" parameter="840,420,10080"/>
+			<cardlev cardlev="51,100" itemid="18020109" num="6" parametertype="102,103,101" parameter="1080,540,12960"/>
+			<cardlev cardlev="101,200" itemid="18020109" num="8" parametertype="102,103,101" parameter="1320,660,15840"/>
+			<cardlev cardlev="201,999" itemid="18020109" num="10" parametertype="102,103,101" parameter="1500,750,18000"/>
+		</card>
+		<card cardid="10" cardname="天速星">
+			<cardlev cardlev="0,10" itemid="18020110" num="1" parametertype="102,103,101" parameter="300,150,3600"/>
+			<cardlev cardlev="11,20" itemid="18020110" num="2" parametertype="102,103,101" parameter="480,240,5760"/>
+			<cardlev cardlev="21,30" itemid="18020110" num="3" parametertype="102,103,101" parameter="660,330,7920"/>
+			<cardlev cardlev="31,50" itemid="18020110" num="4" parametertype="102,103,101" parameter="840,420,10080"/>
+			<cardlev cardlev="51,100" itemid="18020110" num="6" parametertype="102,103,101" parameter="1080,540,12960"/>
+			<cardlev cardlev="101,200" itemid="18020110" num="8" parametertype="102,103,101" parameter="1320,660,15840"/>
+			<cardlev cardlev="201,999" itemid="18020110" num="10" parametertype="102,103,101" parameter="1500,750,18000"/>
+		</card>
+		<card cardid="11" cardname="天寿星">
+			<cardlev cardlev="0,10" itemid="18020111" num="1" parametertype="102,103,101" parameter="300,150,3600"/>
+			<cardlev cardlev="11,20" itemid="18020111" num="2" parametertype="102,103,101" parameter="480,240,5760"/>
+			<cardlev cardlev="21,30" itemid="18020111" num="3" parametertype="102,103,101" parameter="660,330,7920"/>
+			<cardlev cardlev="31,50" itemid="18020111" num="4" parametertype="102,103,101" parameter="840,420,10080"/>
+			<cardlev cardlev="51,100" itemid="18020111" num="6" parametertype="102,103,101" parameter="1080,540,12960"/>
+			<cardlev cardlev="101,200" itemid="18020111" num="8" parametertype="102,103,101" parameter="1320,660,15840"/>
+			<cardlev cardlev="201,999" itemid="18020111" num="10" parametertype="102,103,101" parameter="1500,750,18000"/>
+		</card>
+		<card cardid="12" cardname="天牢星">
+			<cardlev cardlev="0,10" itemid="18020112" num="1" parametertype="102,103,101" parameter="300,150,3600"/>
+			<cardlev cardlev="11,20" itemid="18020112" num="2" parametertype="102,103,101" parameter="480,240,5760"/>
+			<cardlev cardlev="21,30" itemid="18020112" num="3" parametertype="102,103,101" parameter="660,330,7920"/>
+			<cardlev cardlev="31,50" itemid="18020112" num="4" parametertype="102,103,101" parameter="840,420,10080"/>
+			<cardlev cardlev="51,100" itemid="18020112" num="6" parametertype="102,103,101" parameter="1080,540,12960"/>
+			<cardlev cardlev="101,200" itemid="18020112" num="8" parametertype="102,103,101" parameter="1320,660,15840"/>
+			<cardlev cardlev="201,999" itemid="18020112" num="10" parametertype="102,103,101" parameter="1500,750,18000"/>
+		</card>
+		<card cardid="13" cardname="天机星">
+			<cardlev cardlev="0,10" itemid="18020113" num="1" parametertype="102,103,101" parameter="300,150,3600"/>
+			<cardlev cardlev="11,20" itemid="18020113" num="2" parametertype="102,103,101" parameter="480,240,5760"/>
+			<cardlev cardlev="21,30" itemid="18020113" num="3" parametertype="102,103,101" parameter="660,330,7920"/>
+			<cardlev cardlev="31,50" itemid="18020113" num="4" parametertype="102,103,101" parameter="840,420,10080"/>
+			<cardlev cardlev="51,100" itemid="18020113" num="6" parametertype="102,103,101" parameter="1080,540,12960"/>
+			<cardlev cardlev="101,200" itemid="18020113" num="8" parametertype="102,103,101" parameter="1320,660,15840"/>
+			<cardlev cardlev="201,999" itemid="18020113" num="10" parametertype="102,103,101" parameter="1500,750,18000"/>
+		</card>
+		<card cardid="14" cardname="天英星">
+			<cardlev cardlev="0,10" itemid="18020114" num="1" parametertype="102,103,101" parameter="300,150,3600"/>
+			<cardlev cardlev="11,20" itemid="18020114" num="2" parametertype="102,103,101" parameter="480,240,5760"/>
+			<cardlev cardlev="21,30" itemid="18020114" num="3" parametertype="102,103,101" parameter="660,330,7920"/>
+			<cardlev cardlev="31,50" itemid="18020114" num="4" parametertype="102,103,101" parameter="840,420,10080"/>
+			<cardlev cardlev="51,100" itemid="18020114" num="6" parametertype="102,103,101" parameter="1080,540,12960"/>
+			<cardlev cardlev="101,200" itemid="18020114" num="8" parametertype="102,103,101" parameter="1320,660,15840"/>
+			<cardlev cardlev="201,999" itemid="18020114" num="10" parametertype="102,103,101" parameter="1500,750,18000"/>
+		</card>
+		<card cardid="15" cardname="天玄星">
+			<cardlev cardlev="0,10" itemid="18020115" num="1" parametertype="102,103,101" parameter="300,150,3600"/>
+			<cardlev cardlev="11,20" itemid="18020115" num="2" parametertype="102,103,101" parameter="480,240,5760"/>
+			<cardlev cardlev="21,30" itemid="18020115" num="3" parametertype="102,103,101" parameter="660,330,7920"/>
+			<cardlev cardlev="31,50" itemid="18020115" num="4" parametertype="102,103,101" parameter="840,420,10080"/>
+			<cardlev cardlev="51,100" itemid="18020115" num="6" parametertype="102,103,101" parameter="1080,540,12960"/>
+			<cardlev cardlev="101,200" itemid="18020115" num="8" parametertype="102,103,101" parameter="1320,660,15840"/>
+			<cardlev cardlev="201,999" itemid="18020115" num="10" parametertype="102,103,101" parameter="1500,750,18000"/>
+		</card>
+		<card cardid="16" cardname="天异星">
+			<cardlev cardlev="0,10" itemid="18020116" num="1" parametertype="102,103,101" parameter="300,150,3600"/>
+			<cardlev cardlev="11,20" itemid="18020116" num="2" parametertype="102,103,101" parameter="480,240,5760"/>
+			<cardlev cardlev="21,30" itemid="18020116" num="3" parametertype="102,103,101" parameter="660,330,7920"/>
+			<cardlev cardlev="31,50" itemid="18020116" num="4" parametertype="102,103,101" parameter="840,420,10080"/>
+			<cardlev cardlev="51,100" itemid="18020116" num="6" parametertype="102,103,101" parameter="1080,540,12960"/>
+			<cardlev cardlev="101,200" itemid="18020116" num="8" parametertype="102,103,101" parameter="1320,660,15840"/>
+			<cardlev cardlev="201,999" itemid="18020116" num="10" parametertype="102,103,101" parameter="1500,750,18000"/>
+		</card>
+		<card cardid="17" cardname="天剑星">
+			<cardlev cardlev="0,10" itemid="18020117" num="1" parametertype="102,103,101" parameter="300,150,3600"/>
+			<cardlev cardlev="11,20" itemid="18020117" num="2" parametertype="102,103,101" parameter="480,240,5760"/>
+			<cardlev cardlev="21,30" itemid="18020117" num="3" parametertype="102,103,101" parameter="660,330,7920"/>
+			<cardlev cardlev="31,50" itemid="18020117" num="4" parametertype="102,103,101" parameter="840,420,10080"/>
+			<cardlev cardlev="51,100" itemid="18020117" num="6" parametertype="102,103,101" parameter="1080,540,12960"/>
+			<cardlev cardlev="101,200" itemid="18020117" num="8" parametertype="102,103,101" parameter="1320,660,15840"/>
+			<cardlev cardlev="201,999" itemid="18020117" num="10" parametertype="102,103,101" parameter="1500,750,18000"/>
+		</card>
+		<card cardid="18" cardname="天慧星">
+			<cardlev cardlev="0,10" itemid="18020118" num="1" parametertype="102,103,101" parameter="300,150,3600"/>
+			<cardlev cardlev="11,20" itemid="18020118" num="2" parametertype="102,103,101" parameter="480,240,5760"/>
+			<cardlev cardlev="21,30" itemid="18020118" num="3" parametertype="102,103,101" parameter="660,330,7920"/>
+			<cardlev cardlev="31,50" itemid="18020118" num="4" parametertype="102,103,101" parameter="840,420,10080"/>
+			<cardlev cardlev="51,100" itemid="18020118" num="6" parametertype="102,103,101" parameter="1080,540,12960"/>
+			<cardlev cardlev="101,200" itemid="18020118" num="8" parametertype="102,103,101" parameter="1320,660,15840"/>
+			<cardlev cardlev="201,999" itemid="18020118" num="10" parametertype="102,103,101" parameter="1500,750,18000"/>
+		</card>
+		<card cardid="19" cardname="天闲星">
+			<cardlev cardlev="0,10" itemid="18020119" num="1" parametertype="102,103,101" parameter="300,150,3600"/>
+			<cardlev cardlev="11,20" itemid="18020119" num="2" parametertype="102,103,101" parameter="480,240,5760"/>
+			<cardlev cardlev="21,30" itemid="18020119" num="3" parametertype="102,103,101" parameter="660,330,7920"/>
+			<cardlev cardlev="31,50" itemid="18020119" num="4" parametertype="102,103,101" parameter="840,420,10080"/>
+			<cardlev cardlev="51,100" itemid="18020119" num="6" parametertype="102,103,101" parameter="1080,540,12960"/>
+			<cardlev cardlev="101,200" itemid="18020119" num="8" parametertype="102,103,101" parameter="1320,660,15840"/>
+			<cardlev cardlev="201,999" itemid="18020119" num="10" parametertype="102,103,101" parameter="1500,750,18000"/>
+		</card>
+		<card cardid="20" cardname="天贵星">
+			<cardlev cardlev="0,10" itemid="18020120" num="1" parametertype="102,103,101" parameter="300,150,3600"/>
+			<cardlev cardlev="11,20" itemid="18020120" num="2" parametertype="102,103,101" parameter="480,240,5760"/>
+			<cardlev cardlev="21,30" itemid="18020120" num="3" parametertype="102,103,101" parameter="660,330,7920"/>
+			<cardlev cardlev="31,50" itemid="18020120" num="4" parametertype="102,103,101" parameter="840,420,10080"/>
+			<cardlev cardlev="51,100" itemid="18020120" num="6" parametertype="102,103,101" parameter="1080,540,12960"/>
+			<cardlev cardlev="101,200" itemid="18020120" num="8" parametertype="102,103,101" parameter="1320,660,15840"/>
+			<cardlev cardlev="201,999" itemid="18020120" num="10" parametertype="102,103,101" parameter="1500,750,18000"/>
+		</card>
+		<card cardid="21" cardname="天健星">
+			<cardlev cardlev="0,10" itemid="18020121" num="1" parametertype="102,103,101" parameter="300,150,3600"/>
+			<cardlev cardlev="11,20" itemid="18020121" num="2" parametertype="102,103,101" parameter="480,240,5760"/>
+			<cardlev cardlev="21,30" itemid="18020121" num="3" parametertype="102,103,101" parameter="660,330,7920"/>
+			<cardlev cardlev="31,50" itemid="18020121" num="4" parametertype="102,103,101" parameter="840,420,10080"/>
+			<cardlev cardlev="51,100" itemid="18020121" num="6" parametertype="102,103,101" parameter="1080,540,12960"/>
+			<cardlev cardlev="101,200" itemid="18020121" num="8" parametertype="102,103,101" parameter="1320,660,15840"/>
+			<cardlev cardlev="201,999" itemid="18020121" num="10" parametertype="102,103,101" parameter="1500,750,18000"/>
+		</card>
+		<card cardid="22" cardname="天煞星">
+			<cardlev cardlev="0,10" itemid="18020122" num="1" parametertype="102,103,101" parameter="300,150,3600"/>
+			<cardlev cardlev="11,20" itemid="18020122" num="2" parametertype="102,103,101" parameter="480,240,5760"/>
+			<cardlev cardlev="21,30" itemid="18020122" num="3" parametertype="102,103,101" parameter="660,330,7920"/>
+			<cardlev cardlev="31,50" itemid="18020122" num="4" parametertype="102,103,101" parameter="840,420,10080"/>
+			<cardlev cardlev="51,100" itemid="18020122" num="6" parametertype="102,103,101" parameter="1080,540,12960"/>
+			<cardlev cardlev="101,200" itemid="18020122" num="8" parametertype="102,103,101" parameter="1320,660,15840"/>
+			<cardlev cardlev="201,999" itemid="18020122" num="10" parametertype="102,103,101" parameter="1500,750,18000"/>
+		</card>
+		<card cardid="23" cardname="天平星">
+			<cardlev cardlev="0,10" itemid="18020123" num="1" parametertype="102,103,101" parameter="300,150,3600"/>
+			<cardlev cardlev="11,20" itemid="18020123" num="2" parametertype="102,103,101" parameter="480,240,5760"/>
+			<cardlev cardlev="21,30" itemid="18020123" num="3" parametertype="102,103,101" parameter="660,330,7920"/>
+			<cardlev cardlev="31,50" itemid="18020123" num="4" parametertype="102,103,101" parameter="840,420,10080"/>
+			<cardlev cardlev="51,100" itemid="18020123" num="6" parametertype="102,103,101" parameter="1080,540,12960"/>
+			<cardlev cardlev="101,200" itemid="18020123" num="8" parametertype="102,103,101" parameter="1320,660,15840"/>
+			<cardlev cardlev="201,999" itemid="18020123" num="10" parametertype="102,103,101" parameter="1500,750,18000"/>
+		</card>
+		<card cardid="24" cardname="天暴星">
+			<cardlev cardlev="0,10" itemid="18020124" num="1" parametertype="102,103,101" parameter="300,150,3600"/>
+			<cardlev cardlev="11,20" itemid="18020124" num="2" parametertype="102,103,101" parameter="480,240,5760"/>
+			<cardlev cardlev="21,30" itemid="18020124" num="3" parametertype="102,103,101" parameter="660,330,7920"/>
+			<cardlev cardlev="31,50" itemid="18020124" num="4" parametertype="102,103,101" parameter="840,420,10080"/>
+			<cardlev cardlev="51,100" itemid="18020124" num="6" parametertype="102,103,101" parameter="1080,540,12960"/>
+			<cardlev cardlev="101,200" itemid="18020124" num="8" parametertype="102,103,101" parameter="1320,660,15840"/>
+			<cardlev cardlev="201,999" itemid="18020124" num="10" parametertype="102,103,101" parameter="1500,750,18000"/>
+		</card>
+		<card cardid="25" cardname="天勇星">
+			<cardlev cardlev="0,10" itemid="18020125" num="1" parametertype="102,103,101" parameter="300,150,3600"/>
+			<cardlev cardlev="11,20" itemid="18020125" num="2" parametertype="102,103,101" parameter="480,240,5760"/>
+			<cardlev cardlev="21,30" itemid="18020125" num="3" parametertype="102,103,101" parameter="660,330,7920"/>
+			<cardlev cardlev="31,50" itemid="18020125" num="4" parametertype="102,103,101" parameter="840,420,10080"/>
+			<cardlev cardlev="51,100" itemid="18020125" num="6" parametertype="102,103,101" parameter="1080,540,12960"/>
+			<cardlev cardlev="101,200" itemid="18020125" num="8" parametertype="102,103,101" parameter="1320,660,15840"/>
+			<cardlev cardlev="201,999" itemid="18020125" num="10" parametertype="102,103,101" parameter="1500,750,18000"/>
+		</card>
+		<card cardid="26" cardname="天富星">
+			<cardlev cardlev="0,10" itemid="18020126" num="1" parametertype="102,103,101" parameter="300,150,3600"/>
+			<cardlev cardlev="11,20" itemid="18020126" num="2" parametertype="102,103,101" parameter="480,240,5760"/>
+			<cardlev cardlev="21,30" itemid="18020126" num="3" parametertype="102,103,101" parameter="660,330,7920"/>
+			<cardlev cardlev="31,50" itemid="18020126" num="4" parametertype="102,103,101" parameter="840,420,10080"/>
+			<cardlev cardlev="51,100" itemid="18020126" num="6" parametertype="102,103,101" parameter="1080,540,12960"/>
+			<cardlev cardlev="101,200" itemid="18020126" num="8" parametertype="102,103,101" parameter="1320,660,15840"/>
+			<cardlev cardlev="201,999" itemid="18020126" num="10" parametertype="102,103,101" parameter="1500,750,18000"/>
+		</card>
+		<card cardid="27" cardname="天暗星">
+			<cardlev cardlev="0,10" itemid="18020127" num="1" parametertype="102,103,101" parameter="300,150,3600"/>
+			<cardlev cardlev="11,20" itemid="18020127" num="2" parametertype="102,103,101" parameter="480,240,5760"/>
+			<cardlev cardlev="21,30" itemid="18020127" num="3" parametertype="102,103,101" parameter="660,330,7920"/>
+			<cardlev cardlev="31,50" itemid="18020127" num="4" parametertype="102,103,101" parameter="840,420,10080"/>
+			<cardlev cardlev="51,100" itemid="18020127" num="6" parametertype="102,103,101" parameter="1080,540,12960"/>
+			<cardlev cardlev="101,200" itemid="18020127" num="8" parametertype="102,103,101" parameter="1320,660,15840"/>
+			<cardlev cardlev="201,999" itemid="18020127" num="10" parametertype="102,103,101" parameter="1500,750,18000"/>
+		</card>
+		<card cardid="28" cardname="天微星">
+			<cardlev cardlev="0,10" itemid="18020128" num="1" parametertype="102,103,101" parameter="300,150,3600"/>
+			<cardlev cardlev="11,20" itemid="18020128" num="2" parametertype="102,103,101" parameter="480,240,5760"/>
+			<cardlev cardlev="21,30" itemid="18020128" num="3" parametertype="102,103,101" parameter="660,330,7920"/>
+			<cardlev cardlev="31,50" itemid="18020128" num="4" parametertype="102,103,101" parameter="840,420,10080"/>
+			<cardlev cardlev="51,100" itemid="18020128" num="6" parametertype="102,103,101" parameter="1080,540,12960"/>
+			<cardlev cardlev="101,200" itemid="18020128" num="8" parametertype="102,103,101" parameter="1320,660,15840"/>
+			<cardlev cardlev="201,999" itemid="18020128" num="10" parametertype="102,103,101" parameter="1500,750,18000"/>
+		</card>
+		<card cardid="29" cardname="天罪星">
+			<cardlev cardlev="0,10" itemid="18020129" num="1" parametertype="102,103,101" parameter="300,150,3600"/>
+			<cardlev cardlev="11,20" itemid="18020129" num="2" parametertype="102,103,101" parameter="480,240,5760"/>
+			<cardlev cardlev="21,30" itemid="18020129" num="3" parametertype="102,103,101" parameter="660,330,7920"/>
+			<cardlev cardlev="31,50" itemid="18020129" num="4" parametertype="102,103,101" parameter="840,420,10080"/>
+			<cardlev cardlev="51,100" itemid="18020129" num="6" parametertype="102,103,101" parameter="1080,540,12960"/>
+			<cardlev cardlev="101,200" itemid="18020129" num="8" parametertype="102,103,101" parameter="1320,660,15840"/>
+			<cardlev cardlev="201,999" itemid="18020129" num="10" parametertype="102,103,101" parameter="1500,750,18000"/>
+		</card>
+		<card cardid="30" cardname="天哭星">
+			<cardlev cardlev="0,10" itemid="18020130" num="1" parametertype="102,103,101" parameter="300,150,3600"/>
+			<cardlev cardlev="11,20" itemid="18020130" num="2" parametertype="102,103,101" parameter="480,240,5760"/>
+			<cardlev cardlev="21,30" itemid="18020130" num="3" parametertype="102,103,101" parameter="660,330,7920"/>
+			<cardlev cardlev="31,50" itemid="18020130" num="4" parametertype="102,103,101" parameter="840,420,10080"/>
+			<cardlev cardlev="51,100" itemid="18020130" num="6" parametertype="102,103,101" parameter="1080,540,12960"/>
+			<cardlev cardlev="101,200" itemid="18020130" num="8" parametertype="102,103,101" parameter="1320,660,15840"/>
+			<cardlev cardlev="201,999" itemid="18020130" num="10" parametertype="102,103,101" parameter="1500,750,18000"/>
+		</card>
+		<card cardid="31" cardname="天雄星">
+			<cardlev cardlev="0,10" itemid="18020131" num="1" parametertype="102,103,101" parameter="300,150,3600"/>
+			<cardlev cardlev="11,20" itemid="18020131" num="2" parametertype="102,103,101" parameter="480,240,5760"/>
+			<cardlev cardlev="21,30" itemid="18020131" num="3" parametertype="102,103,101" parameter="660,330,7920"/>
+			<cardlev cardlev="31,50" itemid="18020131" num="4" parametertype="102,103,101" parameter="840,420,10080"/>
+			<cardlev cardlev="51,100" itemid="18020131" num="6" parametertype="102,103,101" parameter="1080,540,12960"/>
+			<cardlev cardlev="101,200" itemid="18020131" num="8" parametertype="102,103,101" parameter="1320,660,15840"/>
+			<cardlev cardlev="201,999" itemid="18020131" num="10" parametertype="102,103,101" parameter="1500,750,18000"/>
+		</card>
+		<card cardid="32" cardname="天满星">
+			<cardlev cardlev="0,10" itemid="18020132" num="1" parametertype="102,103,101" parameter="300,150,3600"/>
+			<cardlev cardlev="11,20" itemid="18020132" num="2" parametertype="102,103,101" parameter="480,240,5760"/>
+			<cardlev cardlev="21,30" itemid="18020132" num="3" parametertype="102,103,101" parameter="660,330,7920"/>
+			<cardlev cardlev="31,50" itemid="18020132" num="4" parametertype="102,103,101" parameter="840,420,10080"/>
+			<cardlev cardlev="51,100" itemid="18020132" num="6" parametertype="102,103,101" parameter="1080,540,12960"/>
+			<cardlev cardlev="101,200" itemid="18020132" num="8" parametertype="102,103,101" parameter="1320,660,15840"/>
+			<cardlev cardlev="201,999" itemid="18020132" num="10" parametertype="102,103,101" parameter="1500,750,18000"/>
+		</card>
+		<card cardid="33" cardname="天佑星">
+			<cardlev cardlev="0,10" itemid="18020133" num="1" parametertype="102,103,101" parameter="300,150,3600"/>
+			<cardlev cardlev="11,20" itemid="18020133" num="2" parametertype="102,103,101" parameter="480,240,5760"/>
+			<cardlev cardlev="21,30" itemid="18020133" num="3" parametertype="102,103,101" parameter="660,330,7920"/>
+			<cardlev cardlev="31,50" itemid="18020133" num="4" parametertype="102,103,101" parameter="840,420,10080"/>
+			<cardlev cardlev="51,100" itemid="18020133" num="6" parametertype="102,103,101" parameter="1080,540,12960"/>
+			<cardlev cardlev="101,200" itemid="18020133" num="8" parametertype="102,103,101" parameter="1320,660,15840"/>
+			<cardlev cardlev="201,999" itemid="18020133" num="10" parametertype="102,103,101" parameter="1500,750,18000"/>
+		</card>
+		<card cardid="34" cardname="天究星">
+			<cardlev cardlev="0,10" itemid="18020134" num="1" parametertype="102,103,101" parameter="300,150,3600"/>
+			<cardlev cardlev="11,20" itemid="18020134" num="2" parametertype="102,103,101" parameter="480,240,5760"/>
+			<cardlev cardlev="21,30" itemid="18020134" num="3" parametertype="102,103,101" parameter="660,330,7920"/>
+			<cardlev cardlev="31,50" itemid="18020134" num="4" parametertype="102,103,101" parameter="840,420,10080"/>
+			<cardlev cardlev="51,100" itemid="18020134" num="6" parametertype="102,103,101" parameter="1080,540,12960"/>
+			<cardlev cardlev="101,200" itemid="18020134" num="8" parametertype="102,103,101" parameter="1320,660,15840"/>
+			<cardlev cardlev="201,999" itemid="18020134" num="10" parametertype="102,103,101" parameter="1500,750,18000"/>
+		</card>
+		<card cardid="35" cardname="天损星">
+			<cardlev cardlev="0,10" itemid="18020135" num="1" parametertype="102,103,101" parameter="300,150,3600"/>
+			<cardlev cardlev="11,20" itemid="18020135" num="2" parametertype="102,103,101" parameter="480,240,5760"/>
+			<cardlev cardlev="21,30" itemid="18020135" num="3" parametertype="102,103,101" parameter="660,330,7920"/>
+			<cardlev cardlev="31,50" itemid="18020135" num="4" parametertype="102,103,101" parameter="840,420,10080"/>
+			<cardlev cardlev="51,100" itemid="18020135" num="6" parametertype="102,103,101" parameter="1080,540,12960"/>
+			<cardlev cardlev="101,200" itemid="18020135" num="8" parametertype="102,103,101" parameter="1320,660,15840"/>
+			<cardlev cardlev="201,999" itemid="18020135" num="10" parametertype="102,103,101" parameter="1500,750,18000"/>
+		</card>
+		<card cardid="36" cardname="天巧星">
+			<cardlev cardlev="0,10" itemid="18020136" num="1" parametertype="102,103,101" parameter="300,150,3600"/>
+			<cardlev cardlev="11,20" itemid="18020136" num="2" parametertype="102,103,101" parameter="480,240,5760"/>
+			<cardlev cardlev="21,30" itemid="18020136" num="3" parametertype="102,103,101" parameter="660,330,7920"/>
+			<cardlev cardlev="31,50" itemid="18020136" num="4" parametertype="102,103,101" parameter="840,420,10080"/>
+			<cardlev cardlev="51,100" itemid="18020136" num="6" parametertype="102,103,101" parameter="1080,540,12960"/>
+			<cardlev cardlev="101,200" itemid="18020136" num="8" parametertype="102,103,101" parameter="1320,660,15840"/>
+			<cardlev cardlev="201,999" itemid="18020136" num="10" parametertype="102,103,101" parameter="1500,750,18000"/>
+		</card>
+	</type>
+	<type type="3">
+		<suit suitlev="1" num="1" parametertype="102,103,101" parameter="30000,15000,360000"/>
+		<suit suitlev="2" num="3" parametertype="102,103,101" parameter="60000,30000,720000"/>
+		<suit suitlev="3" num="5" parametertype="102,103,101" parameter="100000,50000,1200000"/>
+		<suit suitlev="4" num="8" parametertype="102,103,101" parameter="150000,75000,1800000"/>
+		<suit suitlev="5" num="10" parametertype="102,103,101" parameter="200000,100000,2400000"/>
+		<suit suitlev="6" num="15" parametertype="102,103,101" parameter="250000,125000,3000000"/>
+		<suit suitlev="7" num="20" parametertype="102,103,101" parameter="300000,150000,3600000"/>
+		<suit suitlev="8" num="30" parametertype="102,103,101" parameter="400000,200000,4800000"/>
+		<suit suitlev="9" num="50" parametertype="102,103,101" parameter="500000,250000,6000000"/>
+		<suit suitlev="10" num="100" parametertype="102,103,101" parameter="1000000,500000,12000000"/>
+		<card cardid="1" cardname="角木蛟">
+			<cardlev cardlev="0,10" itemid="18030101" num="1" parametertype="102,103,101" parameter="1200,600,14400"/>
+			<cardlev cardlev="11,20" itemid="18030101" num="2" parametertype="102,103,101" parameter="1760,880,21120"/>
+			<cardlev cardlev="21,30" itemid="18030101" num="3" parametertype="102,103,101" parameter="2200,1100,26400"/>
+			<cardlev cardlev="31,50" itemid="18030101" num="4" parametertype="102,103,101" parameter="2800,1400,33600"/>
+			<cardlev cardlev="51,100" itemid="18030101" num="6" parametertype="102,103,101" parameter="3600,1800,43200"/>
+			<cardlev cardlev="101,200" itemid="18030101" num="8" parametertype="102,103,101" parameter="4400,2200,52800"/>
+			<cardlev cardlev="201,999" itemid="18030101" num="10" parametertype="102,103,101" parameter="5000,2500,60000"/>
+		</card>
+		<card cardid="2" cardname="亢金龙">
+			<cardlev cardlev="0,10" itemid="18030102" num="1" parametertype="102,103,101" parameter="1200,600,14400"/>
+			<cardlev cardlev="11,20" itemid="18030102" num="2" parametertype="102,103,101" parameter="1760,880,21120"/>
+			<cardlev cardlev="21,30" itemid="18030102" num="3" parametertype="102,103,101" parameter="2200,1100,26400"/>
+			<cardlev cardlev="31,50" itemid="18030102" num="4" parametertype="102,103,101" parameter="2800,1400,33600"/>
+			<cardlev cardlev="51,100" itemid="18030102" num="6" parametertype="102,103,101" parameter="3600,1800,43200"/>
+			<cardlev cardlev="101,200" itemid="18030102" num="8" parametertype="102,103,101" parameter="4400,2200,52800"/>
+			<cardlev cardlev="201,999" itemid="18030102" num="10" parametertype="102,103,101" parameter="5000,2500,60000"/>
+		</card>
+		<card cardid="3" cardname="氐土貉">
+			<cardlev cardlev="0,10" itemid="18030103" num="1" parametertype="102,103,101" parameter="1200,600,14400"/>
+			<cardlev cardlev="11,20" itemid="18030103" num="2" parametertype="102,103,101" parameter="1760,880,21120"/>
+			<cardlev cardlev="21,30" itemid="18030103" num="3" parametertype="102,103,101" parameter="2200,1100,26400"/>
+			<cardlev cardlev="31,50" itemid="18030103" num="4" parametertype="102,103,101" parameter="2800,1400,33600"/>
+			<cardlev cardlev="51,100" itemid="18030103" num="6" parametertype="102,103,101" parameter="3600,1800,43200"/>
+			<cardlev cardlev="101,200" itemid="18030103" num="8" parametertype="102,103,101" parameter="4400,2200,52800"/>
+			<cardlev cardlev="201,999" itemid="18030103" num="10" parametertype="102,103,101" parameter="5000,2500,60000"/>
+		</card>
+		<card cardid="4" cardname="房日兔">
+			<cardlev cardlev="0,10" itemid="18030104" num="1" parametertype="102,103,101" parameter="1200,600,14400"/>
+			<cardlev cardlev="11,20" itemid="18030104" num="2" parametertype="102,103,101" parameter="1760,880,21120"/>
+			<cardlev cardlev="21,30" itemid="18030104" num="3" parametertype="102,103,101" parameter="2200,1100,26400"/>
+			<cardlev cardlev="31,50" itemid="18030104" num="4" parametertype="102,103,101" parameter="2800,1400,33600"/>
+			<cardlev cardlev="51,100" itemid="18030104" num="6" parametertype="102,103,101" parameter="3600,1800,43200"/>
+			<cardlev cardlev="101,200" itemid="18030104" num="8" parametertype="102,103,101" parameter="4400,2200,52800"/>
+			<cardlev cardlev="201,999" itemid="18030104" num="10" parametertype="102,103,101" parameter="5000,2500,60000"/>
+		</card>
+		<card cardid="5" cardname="心月狐">
+			<cardlev cardlev="0,10" itemid="18030105" num="1" parametertype="102,103,101" parameter="1200,600,14400"/>
+			<cardlev cardlev="11,20" itemid="18030105" num="2" parametertype="102,103,101" parameter="1760,880,21120"/>
+			<cardlev cardlev="21,30" itemid="18030105" num="3" parametertype="102,103,101" parameter="2200,1100,26400"/>
+			<cardlev cardlev="31,50" itemid="18030105" num="4" parametertype="102,103,101" parameter="2800,1400,33600"/>
+			<cardlev cardlev="51,100" itemid="18030105" num="6" parametertype="102,103,101" parameter="3600,1800,43200"/>
+			<cardlev cardlev="101,200" itemid="18030105" num="8" parametertype="102,103,101" parameter="4400,2200,52800"/>
+			<cardlev cardlev="201,999" itemid="18030105" num="10" parametertype="102,103,101" parameter="5000,2500,60000"/>
+		</card>
+		<card cardid="6" cardname="尾火虎">
+			<cardlev cardlev="0,10" itemid="18030106" num="1" parametertype="102,103,101" parameter="1200,600,14400"/>
+			<cardlev cardlev="11,20" itemid="18030106" num="2" parametertype="102,103,101" parameter="1760,880,21120"/>
+			<cardlev cardlev="21,30" itemid="18030106" num="3" parametertype="102,103,101" parameter="2200,1100,26400"/>
+			<cardlev cardlev="31,50" itemid="18030106" num="4" parametertype="102,103,101" parameter="2800,1400,33600"/>
+			<cardlev cardlev="51,100" itemid="18030106" num="6" parametertype="102,103,101" parameter="3600,1800,43200"/>
+			<cardlev cardlev="101,200" itemid="18030106" num="8" parametertype="102,103,101" parameter="4400,2200,52800"/>
+			<cardlev cardlev="201,999" itemid="18030106" num="10" parametertype="102,103,101" parameter="5000,2500,60000"/>
+		</card>
+		<card cardid="7" cardname="箕水豹">
+			<cardlev cardlev="0,10" itemid="18030107" num="1" parametertype="102,103,101" parameter="1200,600,14400"/>
+			<cardlev cardlev="11,20" itemid="18030107" num="2" parametertype="102,103,101" parameter="1760,880,21120"/>
+			<cardlev cardlev="21,30" itemid="18030107" num="3" parametertype="102,103,101" parameter="2200,1100,26400"/>
+			<cardlev cardlev="31,50" itemid="18030107" num="4" parametertype="102,103,101" parameter="2800,1400,33600"/>
+			<cardlev cardlev="51,100" itemid="18030107" num="6" parametertype="102,103,101" parameter="3600,1800,43200"/>
+			<cardlev cardlev="101,200" itemid="18030107" num="8" parametertype="102,103,101" parameter="4400,2200,52800"/>
+			<cardlev cardlev="201,999" itemid="18030107" num="10" parametertype="102,103,101" parameter="5000,2500,60000"/>
+		</card>
+		<card cardid="8" cardname="井木犴">
+			<cardlev cardlev="0,10" itemid="18030108" num="1" parametertype="102,103,101" parameter="1200,600,14400"/>
+			<cardlev cardlev="11,20" itemid="18030108" num="2" parametertype="102,103,101" parameter="1760,880,21120"/>
+			<cardlev cardlev="21,30" itemid="18030108" num="3" parametertype="102,103,101" parameter="2200,1100,26400"/>
+			<cardlev cardlev="31,50" itemid="18030108" num="4" parametertype="102,103,101" parameter="2800,1400,33600"/>
+			<cardlev cardlev="51,100" itemid="18030108" num="6" parametertype="102,103,101" parameter="3600,1800,43200"/>
+			<cardlev cardlev="101,200" itemid="18030108" num="8" parametertype="102,103,101" parameter="4400,2200,52800"/>
+			<cardlev cardlev="201,999" itemid="18030108" num="10" parametertype="102,103,101" parameter="5000,2500,60000"/>
+		</card>
+		<card cardid="9" cardname="鬼金羊">
+			<cardlev cardlev="0,10" itemid="18030109" num="1" parametertype="102,103,101" parameter="1200,600,14400"/>
+			<cardlev cardlev="11,20" itemid="18030109" num="2" parametertype="102,103,101" parameter="1760,880,21120"/>
+			<cardlev cardlev="21,30" itemid="18030109" num="3" parametertype="102,103,101" parameter="2200,1100,26400"/>
+			<cardlev cardlev="31,50" itemid="18030109" num="4" parametertype="102,103,101" parameter="2800,1400,33600"/>
+			<cardlev cardlev="51,100" itemid="18030109" num="6" parametertype="102,103,101" parameter="3600,1800,43200"/>
+			<cardlev cardlev="101,200" itemid="18030109" num="8" parametertype="102,103,101" parameter="4400,2200,52800"/>
+			<cardlev cardlev="201,999" itemid="18030109" num="10" parametertype="102,103,101" parameter="5000,2500,60000"/>
+		</card>
+		<card cardid="10" cardname="柳土獐">
+			<cardlev cardlev="0,10" itemid="18030110" num="1" parametertype="102,103,101" parameter="1200,600,14400"/>
+			<cardlev cardlev="11,20" itemid="18030110" num="2" parametertype="102,103,101" parameter="1760,880,21120"/>
+			<cardlev cardlev="21,30" itemid="18030110" num="3" parametertype="102,103,101" parameter="2200,1100,26400"/>
+			<cardlev cardlev="31,50" itemid="18030110" num="4" parametertype="102,103,101" parameter="2800,1400,33600"/>
+			<cardlev cardlev="51,100" itemid="18030110" num="6" parametertype="102,103,101" parameter="3600,1800,43200"/>
+			<cardlev cardlev="101,200" itemid="18030110" num="8" parametertype="102,103,101" parameter="4400,2200,52800"/>
+			<cardlev cardlev="201,999" itemid="18030110" num="10" parametertype="102,103,101" parameter="5000,2500,60000"/>
+		</card>
+		<card cardid="11" cardname="星日马">
+			<cardlev cardlev="0,10" itemid="18030111" num="1" parametertype="102,103,101" parameter="1200,600,14400"/>
+			<cardlev cardlev="11,20" itemid="18030111" num="2" parametertype="102,103,101" parameter="1760,880,21120"/>
+			<cardlev cardlev="21,30" itemid="18030111" num="3" parametertype="102,103,101" parameter="2200,1100,26400"/>
+			<cardlev cardlev="31,50" itemid="18030111" num="4" parametertype="102,103,101" parameter="2800,1400,33600"/>
+			<cardlev cardlev="51,100" itemid="18030111" num="6" parametertype="102,103,101" parameter="3600,1800,43200"/>
+			<cardlev cardlev="101,200" itemid="18030111" num="8" parametertype="102,103,101" parameter="4400,2200,52800"/>
+			<cardlev cardlev="201,999" itemid="18030111" num="10" parametertype="102,103,101" parameter="5000,2500,60000"/>
+		</card>
+		<card cardid="12" cardname="张月鹿">
+			<cardlev cardlev="0,10" itemid="18030112" num="1" parametertype="102,103,101" parameter="1200,600,14400"/>
+			<cardlev cardlev="11,20" itemid="18030112" num="2" parametertype="102,103,101" parameter="1760,880,21120"/>
+			<cardlev cardlev="21,30" itemid="18030112" num="3" parametertype="102,103,101" parameter="2200,1100,26400"/>
+			<cardlev cardlev="31,50" itemid="18030112" num="4" parametertype="102,103,101" parameter="2800,1400,33600"/>
+			<cardlev cardlev="51,100" itemid="18030112" num="6" parametertype="102,103,101" parameter="3600,1800,43200"/>
+			<cardlev cardlev="101,200" itemid="18030112" num="8" parametertype="102,103,101" parameter="4400,2200,52800"/>
+			<cardlev cardlev="201,999" itemid="18030112" num="10" parametertype="102,103,101" parameter="5000,2500,60000"/>
+		</card>
+		<card cardid="13" cardname="翼火蛇">
+			<cardlev cardlev="0,10" itemid="18030113" num="1" parametertype="102,103,101" parameter="1200,600,14400"/>
+			<cardlev cardlev="11,20" itemid="18030113" num="2" parametertype="102,103,101" parameter="1760,880,21120"/>
+			<cardlev cardlev="21,30" itemid="18030113" num="3" parametertype="102,103,101" parameter="2200,1100,26400"/>
+			<cardlev cardlev="31,50" itemid="18030113" num="4" parametertype="102,103,101" parameter="2800,1400,33600"/>
+			<cardlev cardlev="51,100" itemid="18030113" num="6" parametertype="102,103,101" parameter="3600,1800,43200"/>
+			<cardlev cardlev="101,200" itemid="18030113" num="8" parametertype="102,103,101" parameter="4400,2200,52800"/>
+			<cardlev cardlev="201,999" itemid="18030113" num="10" parametertype="102,103,101" parameter="5000,2500,60000"/>
+		</card>
+		<card cardid="14" cardname="轸水蚓">
+			<cardlev cardlev="0,10" itemid="18030114" num="1" parametertype="102,103,101" parameter="1200,600,14400"/>
+			<cardlev cardlev="11,20" itemid="18030114" num="2" parametertype="102,103,101" parameter="1760,880,21120"/>
+			<cardlev cardlev="21,30" itemid="18030114" num="3" parametertype="102,103,101" parameter="2200,1100,26400"/>
+			<cardlev cardlev="31,50" itemid="18030114" num="4" parametertype="102,103,101" parameter="2800,1400,33600"/>
+			<cardlev cardlev="51,100" itemid="18030114" num="6" parametertype="102,103,101" parameter="3600,1800,43200"/>
+			<cardlev cardlev="101,200" itemid="18030114" num="8" parametertype="102,103,101" parameter="4400,2200,52800"/>
+			<cardlev cardlev="201,999" itemid="18030114" num="10" parametertype="102,103,101" parameter="5000,2500,60000"/>
+		</card>
+		<card cardid="15" cardname="奎木狼">
+			<cardlev cardlev="0,10" itemid="18030115" num="1" parametertype="102,103,101" parameter="1200,600,14400"/>
+			<cardlev cardlev="11,20" itemid="18030115" num="2" parametertype="102,103,101" parameter="1760,880,21120"/>
+			<cardlev cardlev="21,30" itemid="18030115" num="3" parametertype="102,103,101" parameter="2200,1100,26400"/>
+			<cardlev cardlev="31,50" itemid="18030115" num="4" parametertype="102,103,101" parameter="2800,1400,33600"/>
+			<cardlev cardlev="51,100" itemid="18030115" num="6" parametertype="102,103,101" parameter="3600,1800,43200"/>
+			<cardlev cardlev="101,200" itemid="18030115" num="8" parametertype="102,103,101" parameter="4400,2200,52800"/>
+			<cardlev cardlev="201,999" itemid="18030115" num="10" parametertype="102,103,101" parameter="5000,2500,60000"/>
+		</card>
+		<card cardid="16" cardname="娄金狗">
+			<cardlev cardlev="0,10" itemid="18030116" num="1" parametertype="102,103,101" parameter="1200,600,14400"/>
+			<cardlev cardlev="11,20" itemid="18030116" num="2" parametertype="102,103,101" parameter="1760,880,21120"/>
+			<cardlev cardlev="21,30" itemid="18030116" num="3" parametertype="102,103,101" parameter="2200,1100,26400"/>
+			<cardlev cardlev="31,50" itemid="18030116" num="4" parametertype="102,103,101" parameter="2800,1400,33600"/>
+			<cardlev cardlev="51,100" itemid="18030116" num="6" parametertype="102,103,101" parameter="3600,1800,43200"/>
+			<cardlev cardlev="101,200" itemid="18030116" num="8" parametertype="102,103,101" parameter="4400,2200,52800"/>
+			<cardlev cardlev="201,999" itemid="18030116" num="10" parametertype="102,103,101" parameter="5000,2500,60000"/>
+		</card>
+		<card cardid="17" cardname="胃土雉">
+			<cardlev cardlev="0,10" itemid="18030117" num="1" parametertype="102,103,101" parameter="1200,600,14400"/>
+			<cardlev cardlev="11,20" itemid="18030117" num="2" parametertype="102,103,101" parameter="1760,880,21120"/>
+			<cardlev cardlev="21,30" itemid="18030117" num="3" parametertype="102,103,101" parameter="2200,1100,26400"/>
+			<cardlev cardlev="31,50" itemid="18030117" num="4" parametertype="102,103,101" parameter="2800,1400,33600"/>
+			<cardlev cardlev="51,100" itemid="18030117" num="6" parametertype="102,103,101" parameter="3600,1800,43200"/>
+			<cardlev cardlev="101,200" itemid="18030117" num="8" parametertype="102,103,101" parameter="4400,2200,52800"/>
+			<cardlev cardlev="201,999" itemid="18030117" num="10" parametertype="102,103,101" parameter="5000,2500,60000"/>
+		</card>
+		<card cardid="18" cardname="昴日鸡">
+			<cardlev cardlev="0,10" itemid="18030118" num="1" parametertype="102,103,101" parameter="1200,600,14400"/>
+			<cardlev cardlev="11,20" itemid="18030118" num="2" parametertype="102,103,101" parameter="1760,880,21120"/>
+			<cardlev cardlev="21,30" itemid="18030118" num="3" parametertype="102,103,101" parameter="2200,1100,26400"/>
+			<cardlev cardlev="31,50" itemid="18030118" num="4" parametertype="102,103,101" parameter="2800,1400,33600"/>
+			<cardlev cardlev="51,100" itemid="18030118" num="6" parametertype="102,103,101" parameter="3600,1800,43200"/>
+			<cardlev cardlev="101,200" itemid="18030118" num="8" parametertype="102,103,101" parameter="4400,2200,52800"/>
+			<cardlev cardlev="201,999" itemid="18030118" num="10" parametertype="102,103,101" parameter="5000,2500,60000"/>
+		</card>
+		<card cardid="19" cardname="毕月乌">
+			<cardlev cardlev="0,10" itemid="18030119" num="1" parametertype="102,103,101" parameter="1200,600,14400"/>
+			<cardlev cardlev="11,20" itemid="18030119" num="2" parametertype="102,103,101" parameter="1760,880,21120"/>
+			<cardlev cardlev="21,30" itemid="18030119" num="3" parametertype="102,103,101" parameter="2200,1100,26400"/>
+			<cardlev cardlev="31,50" itemid="18030119" num="4" parametertype="102,103,101" parameter="2800,1400,33600"/>
+			<cardlev cardlev="51,100" itemid="18030119" num="6" parametertype="102,103,101" parameter="3600,1800,43200"/>
+			<cardlev cardlev="101,200" itemid="18030119" num="8" parametertype="102,103,101" parameter="4400,2200,52800"/>
+			<cardlev cardlev="201,999" itemid="18030119" num="10" parametertype="102,103,101" parameter="5000,2500,60000"/>
+		</card>
+		<card cardid="20" cardname="觜火猴">
+			<cardlev cardlev="0,10" itemid="18030120" num="1" parametertype="102,103,101" parameter="1200,600,14400"/>
+			<cardlev cardlev="11,20" itemid="18030120" num="2" parametertype="102,103,101" parameter="1760,880,21120"/>
+			<cardlev cardlev="21,30" itemid="18030120" num="3" parametertype="102,103,101" parameter="2200,1100,26400"/>
+			<cardlev cardlev="31,50" itemid="18030120" num="4" parametertype="102,103,101" parameter="2800,1400,33600"/>
+			<cardlev cardlev="51,100" itemid="18030120" num="6" parametertype="102,103,101" parameter="3600,1800,43200"/>
+			<cardlev cardlev="101,200" itemid="18030120" num="8" parametertype="102,103,101" parameter="4400,2200,52800"/>
+			<cardlev cardlev="201,999" itemid="18030120" num="10" parametertype="102,103,101" parameter="5000,2500,60000"/>
+		</card>
+		<card cardid="21" cardname="参水猿">
+			<cardlev cardlev="0,10" itemid="18030121" num="1" parametertype="102,103,101" parameter="1200,600,14400"/>
+			<cardlev cardlev="11,20" itemid="18030121" num="2" parametertype="102,103,101" parameter="1760,880,21120"/>
+			<cardlev cardlev="21,30" itemid="18030121" num="3" parametertype="102,103,101" parameter="2200,1100,26400"/>
+			<cardlev cardlev="31,50" itemid="18030121" num="4" parametertype="102,103,101" parameter="2800,1400,33600"/>
+			<cardlev cardlev="51,100" itemid="18030121" num="6" parametertype="102,103,101" parameter="3600,1800,43200"/>
+			<cardlev cardlev="101,200" itemid="18030121" num="8" parametertype="102,103,101" parameter="4400,2200,52800"/>
+			<cardlev cardlev="201,999" itemid="18030121" num="10" parametertype="102,103,101" parameter="5000,2500,60000"/>
+		</card>
+		<card cardid="22" cardname="斗木獬">
+			<cardlev cardlev="0,10" itemid="18030122" num="1" parametertype="102,103,101" parameter="1200,600,14400"/>
+			<cardlev cardlev="11,20" itemid="18030122" num="2" parametertype="102,103,101" parameter="1760,880,21120"/>
+			<cardlev cardlev="21,30" itemid="18030122" num="3" parametertype="102,103,101" parameter="2200,1100,26400"/>
+			<cardlev cardlev="31,50" itemid="18030122" num="4" parametertype="102,103,101" parameter="2800,1400,33600"/>
+			<cardlev cardlev="51,100" itemid="18030122" num="6" parametertype="102,103,101" parameter="3600,1800,43200"/>
+			<cardlev cardlev="101,200" itemid="18030122" num="8" parametertype="102,103,101" parameter="4400,2200,52800"/>
+			<cardlev cardlev="201,999" itemid="18030122" num="10" parametertype="102,103,101" parameter="5000,2500,60000"/>
+		</card>
+		<card cardid="23" cardname="牛金牛">
+			<cardlev cardlev="0,10" itemid="18030123" num="1" parametertype="102,103,101" parameter="1200,600,14400"/>
+			<cardlev cardlev="11,20" itemid="18030123" num="2" parametertype="102,103,101" parameter="1760,880,21120"/>
+			<cardlev cardlev="21,30" itemid="18030123" num="3" parametertype="102,103,101" parameter="2200,1100,26400"/>
+			<cardlev cardlev="31,50" itemid="18030123" num="4" parametertype="102,103,101" parameter="2800,1400,33600"/>
+			<cardlev cardlev="51,100" itemid="18030123" num="6" parametertype="102,103,101" parameter="3600,1800,43200"/>
+			<cardlev cardlev="101,200" itemid="18030123" num="8" parametertype="102,103,101" parameter="4400,2200,52800"/>
+			<cardlev cardlev="201,999" itemid="18030123" num="10" parametertype="102,103,101" parameter="5000,2500,60000"/>
+		</card>
+		<card cardid="24" cardname="女土蝠">
+			<cardlev cardlev="0,10" itemid="18030124" num="1" parametertype="102,103,101" parameter="1200,600,14400"/>
+			<cardlev cardlev="11,20" itemid="18030124" num="2" parametertype="102,103,101" parameter="1760,880,21120"/>
+			<cardlev cardlev="21,30" itemid="18030124" num="3" parametertype="102,103,101" parameter="2200,1100,26400"/>
+			<cardlev cardlev="31,50" itemid="18030124" num="4" parametertype="102,103,101" parameter="2800,1400,33600"/>
+			<cardlev cardlev="51,100" itemid="18030124" num="6" parametertype="102,103,101" parameter="3600,1800,43200"/>
+			<cardlev cardlev="101,200" itemid="18030124" num="8" parametertype="102,103,101" parameter="4400,2200,52800"/>
+			<cardlev cardlev="201,999" itemid="18030124" num="10" parametertype="102,103,101" parameter="5000,2500,60000"/>
+		</card>
+		<card cardid="25" cardname="虚日鼠">
+			<cardlev cardlev="0,10" itemid="18030125" num="1" parametertype="102,103,101" parameter="1200,600,14400"/>
+			<cardlev cardlev="11,20" itemid="18030125" num="2" parametertype="102,103,101" parameter="1760,880,21120"/>
+			<cardlev cardlev="21,30" itemid="18030125" num="3" parametertype="102,103,101" parameter="2200,1100,26400"/>
+			<cardlev cardlev="31,50" itemid="18030125" num="4" parametertype="102,103,101" parameter="2800,1400,33600"/>
+			<cardlev cardlev="51,100" itemid="18030125" num="6" parametertype="102,103,101" parameter="3600,1800,43200"/>
+			<cardlev cardlev="101,200" itemid="18030125" num="8" parametertype="102,103,101" parameter="4400,2200,52800"/>
+			<cardlev cardlev="201,999" itemid="18030125" num="10" parametertype="102,103,101" parameter="5000,2500,60000"/>
+		</card>
+		<card cardid="26" cardname="危月燕">
+			<cardlev cardlev="0,10" itemid="18030126" num="1" parametertype="102,103,101" parameter="1200,600,14400"/>
+			<cardlev cardlev="11,20" itemid="18030126" num="2" parametertype="102,103,101" parameter="1760,880,21120"/>
+			<cardlev cardlev="21,30" itemid="18030126" num="3" parametertype="102,103,101" parameter="2200,1100,26400"/>
+			<cardlev cardlev="31,50" itemid="18030126" num="4" parametertype="102,103,101" parameter="2800,1400,33600"/>
+			<cardlev cardlev="51,100" itemid="18030126" num="6" parametertype="102,103,101" parameter="3600,1800,43200"/>
+			<cardlev cardlev="101,200" itemid="18030126" num="8" parametertype="102,103,101" parameter="4400,2200,52800"/>
+			<cardlev cardlev="201,999" itemid="18030126" num="10" parametertype="102,103,101" parameter="5000,2500,60000"/>
+		</card>
+		<card cardid="27" cardname="室火猪">
+			<cardlev cardlev="0,10" itemid="18030127" num="1" parametertype="102,103,101" parameter="1200,600,14400"/>
+			<cardlev cardlev="11,20" itemid="18030127" num="2" parametertype="102,103,101" parameter="1760,880,21120"/>
+			<cardlev cardlev="21,30" itemid="18030127" num="3" parametertype="102,103,101" parameter="2200,1100,26400"/>
+			<cardlev cardlev="31,50" itemid="18030127" num="4" parametertype="102,103,101" parameter="2800,1400,33600"/>
+			<cardlev cardlev="51,100" itemid="18030127" num="6" parametertype="102,103,101" parameter="3600,1800,43200"/>
+			<cardlev cardlev="101,200" itemid="18030127" num="8" parametertype="102,103,101" parameter="4400,2200,52800"/>
+			<cardlev cardlev="201,999" itemid="18030127" num="10" parametertype="102,103,101" parameter="5000,2500,60000"/>
+		</card>
+		<card cardid="28" cardname="壁水貐">
+			<cardlev cardlev="0,10" itemid="18030128" num="1" parametertype="102,103,101" parameter="1200,600,14400"/>
+			<cardlev cardlev="11,20" itemid="18030128" num="2" parametertype="102,103,101" parameter="1760,880,21120"/>
+			<cardlev cardlev="21,30" itemid="18030128" num="3" parametertype="102,103,101" parameter="2200,1100,26400"/>
+			<cardlev cardlev="31,50" itemid="18030128" num="4" parametertype="102,103,101" parameter="2800,1400,33600"/>
+			<cardlev cardlev="51,100" itemid="18030128" num="6" parametertype="102,103,101" parameter="3600,1800,43200"/>
+			<cardlev cardlev="101,200" itemid="18030128" num="8" parametertype="102,103,101" parameter="4400,2200,52800"/>
+			<cardlev cardlev="201,999" itemid="18030128" num="10" parametertype="102,103,101" parameter="5000,2500,60000"/>
+		</card>
+	</type>
+	<type type="4">
+		<suit suitlev="1" num="1" parametertype="102,103,101" parameter="60000,30000,720000"/>
+		<suit suitlev="2" num="3" parametertype="102,103,101" parameter="120000,60000,1440000"/>
+		<suit suitlev="3" num="5" parametertype="102,103,101" parameter="200000,100000,2400000"/>
+		<suit suitlev="4" num="8" parametertype="102,103,101" parameter="300000,150000,3600000"/>
+		<suit suitlev="5" num="10" parametertype="102,103,101" parameter="400000,200000,4800000"/>
+		<suit suitlev="6" num="15" parametertype="102,103,101" parameter="500000,250000,6000000"/>
+		<suit suitlev="7" num="20" parametertype="102,103,101" parameter="600000,300000,7200000"/>
+		<suit suitlev="8" num="30" parametertype="102,103,101" parameter="800000,400000,9600000"/>
+		<suit suitlev="9" num="50" parametertype="102,103,101" parameter="1000000,500000,12000000"/>
+		<suit suitlev="10" num="100" parametertype="102,103,101" parameter="2000000,1000000,24000000"/>
+		<card cardid="1" cardname="东方青龙">
+			<cardlev cardlev="0,10" itemid="18040101" num="1" parametertype="102,103,101" parameter="7000,3500,84000"/>
+			<cardlev cardlev="11,20" itemid="18040101" num="2" parametertype="102,103,101" parameter="10400,5200,124800"/>
+			<cardlev cardlev="21,30" itemid="18040101" num="3" parametertype="102,103,101" parameter="13200,6600,158400"/>
+			<cardlev cardlev="31,50" itemid="18040101" num="4" parametertype="102,103,101" parameter="15400,7700,184800"/>
+			<cardlev cardlev="51,100" itemid="18040101" num="6" parametertype="102,103,101" parameter="18000,9000,216000"/>
+			<cardlev cardlev="101,200" itemid="18040101" num="8" parametertype="102,103,101" parameter="22000,11000,264000"/>
+			<cardlev cardlev="201,999" itemid="18040101" num="10" parametertype="102,103,101" parameter="25000,12500,300000"/>
+		</card>
+		<card cardid="2" cardname="西方白虎">
+			<cardlev cardlev="0,10" itemid="18040102" num="1" parametertype="102,103,101" parameter="7000,3500,84000"/>
+			<cardlev cardlev="11,20" itemid="18040102" num="2" parametertype="102,103,101" parameter="10400,5200,124800"/>
+			<cardlev cardlev="21,30" itemid="18040102" num="3" parametertype="102,103,101" parameter="13200,6600,158400"/>
+			<cardlev cardlev="31,50" itemid="18040102" num="4" parametertype="102,103,101" parameter="15400,7700,184800"/>
+			<cardlev cardlev="51,100" itemid="18040102" num="6" parametertype="102,103,101" parameter="18000,9000,216000"/>
+			<cardlev cardlev="101,200" itemid="18040102" num="8" parametertype="102,103,101" parameter="22000,11000,264000"/>
+			<cardlev cardlev="201,999" itemid="18040102" num="10" parametertype="102,103,101" parameter="25000,12500,300000"/>
+		</card>
+		<card cardid="3" cardname="北方玄武">
+			<cardlev cardlev="0,10" itemid="18040103" num="1" parametertype="102,103,101" parameter="7000,3500,84000"/>
+			<cardlev cardlev="11,20" itemid="18040103" num="2" parametertype="102,103,101" parameter="10400,5200,124800"/>
+			<cardlev cardlev="21,30" itemid="18040103" num="3" parametertype="102,103,101" parameter="13200,6600,158400"/>
+			<cardlev cardlev="31,50" itemid="18040103" num="4" parametertype="102,103,101" parameter="15400,7700,184800"/>
+			<cardlev cardlev="51,100" itemid="18040103" num="6" parametertype="102,103,101" parameter="18000,9000,216000"/>
+			<cardlev cardlev="101,200" itemid="18040103" num="8" parametertype="102,103,101" parameter="22000,11000,264000"/>
+			<cardlev cardlev="201,999" itemid="18040103" num="10" parametertype="102,103,101" parameter="25000,12500,300000"/>
+		</card>
+		<card cardid="4" cardname="南方朱雀">
+			<cardlev cardlev="0,10" itemid="18040104" num="1" parametertype="102,103,101" parameter="7000,3500,84000"/>
+			<cardlev cardlev="11,20" itemid="18040104" num="2" parametertype="102,103,101" parameter="10400,5200,124800"/>
+			<cardlev cardlev="21,30" itemid="18040104" num="3" parametertype="102,103,101" parameter="13200,6600,158400"/>
+			<cardlev cardlev="31,50" itemid="18040104" num="4" parametertype="102,103,101" parameter="15400,7700,184800"/>
+			<cardlev cardlev="51,100" itemid="18040104" num="6" parametertype="102,103,101" parameter="18000,9000,216000"/>
+			<cardlev cardlev="101,200" itemid="18040104" num="8" parametertype="102,103,101" parameter="22000,11000,264000"/>
+			<cardlev cardlev="201,999" itemid="18040104" num="10" parametertype="102,103,101" parameter="25000,12500,300000"/>
+		</card>
+		<card cardid="5" cardname="中央黄龙">
+			<cardlev cardlev="0,10" itemid="18040105" num="1" parametertype="102,103,101" parameter="7000,3500,84000"/>
+			<cardlev cardlev="11,20" itemid="18040105" num="2" parametertype="102,103,101" parameter="10400,5200,124800"/>
+			<cardlev cardlev="21,30" itemid="18040105" num="3" parametertype="102,103,101" parameter="13200,6600,158400"/>
+			<cardlev cardlev="31,50" itemid="18040105" num="4" parametertype="102,103,101" parameter="15400,7700,184800"/>
+			<cardlev cardlev="51,100" itemid="18040105" num="6" parametertype="102,103,101" parameter="18000,9000,216000"/>
+			<cardlev cardlev="101,200" itemid="18040105" num="8" parametertype="102,103,101" parameter="22000,11000,264000"/>
+			<cardlev cardlev="201,999" itemid="18040105" num="10" parametertype="102,103,101" parameter="25000,12500,300000"/>
+		</card>
+		<card cardid="6" cardname="计都星君">
+			<cardlev cardlev="0,10" itemid="18040106" num="1" parametertype="102,103,101" parameter="7000,3500,84000"/>
+			<cardlev cardlev="11,20" itemid="18040106" num="2" parametertype="102,103,101" parameter="10400,5200,124800"/>
+			<cardlev cardlev="21,30" itemid="18040106" num="3" parametertype="102,103,101" parameter="13200,6600,158400"/>
+			<cardlev cardlev="31,50" itemid="18040106" num="4" parametertype="102,103,101" parameter="15400,7700,184800"/>
+			<cardlev cardlev="51,100" itemid="18040106" num="6" parametertype="102,103,101" parameter="18000,9000,216000"/>
+			<cardlev cardlev="101,200" itemid="18040106" num="8" parametertype="102,103,101" parameter="22000,11000,264000"/>
+			<cardlev cardlev="201,999" itemid="18040106" num="10" parametertype="102,103,101" parameter="25000,12500,300000"/>
+		</card>
+		<card cardid="7" cardname="火德星君">
+			<cardlev cardlev="0,10" itemid="18040107" num="1" parametertype="102,103,101" parameter="7000,3500,84000"/>
+			<cardlev cardlev="11,20" itemid="18040107" num="2" parametertype="102,103,101" parameter="10400,5200,124800"/>
+			<cardlev cardlev="21,30" itemid="18040107" num="3" parametertype="102,103,101" parameter="13200,6600,158400"/>
+			<cardlev cardlev="31,50" itemid="18040107" num="4" parametertype="102,103,101" parameter="15400,7700,184800"/>
+			<cardlev cardlev="51,100" itemid="18040107" num="6" parametertype="102,103,101" parameter="18000,9000,216000"/>
+			<cardlev cardlev="101,200" itemid="18040107" num="8" parametertype="102,103,101" parameter="22000,11000,264000"/>
+			<cardlev cardlev="201,999" itemid="18040107" num="10" parametertype="102,103,101" parameter="25000,12500,300000"/>
+		</card>
+		<card cardid="8" cardname="木德星君">
+			<cardlev cardlev="0,10" itemid="18040108" num="1" parametertype="102,103,101" parameter="7000,3500,84000"/>
+			<cardlev cardlev="11,20" itemid="18040108" num="2" parametertype="102,103,101" parameter="10400,5200,124800"/>
+			<cardlev cardlev="21,30" itemid="18040108" num="3" parametertype="102,103,101" parameter="13200,6600,158400"/>
+			<cardlev cardlev="31,50" itemid="18040108" num="4" parametertype="102,103,101" parameter="15400,7700,184800"/>
+			<cardlev cardlev="51,100" itemid="18040108" num="6" parametertype="102,103,101" parameter="18000,9000,216000"/>
+			<cardlev cardlev="101,200" itemid="18040108" num="8" parametertype="102,103,101" parameter="22000,11000,264000"/>
+			<cardlev cardlev="201,999" itemid="18040108" num="10" parametertype="102,103,101" parameter="25000,12500,300000"/>
+		</card>
+		<card cardid="9" cardname="太阴星君">
+			<cardlev cardlev="0,10" itemid="18040109" num="1" parametertype="102,103,101" parameter="7000,3500,84000"/>
+			<cardlev cardlev="11,20" itemid="18040109" num="2" parametertype="102,103,101" parameter="10400,5200,124800"/>
+			<cardlev cardlev="21,30" itemid="18040109" num="3" parametertype="102,103,101" parameter="13200,6600,158400"/>
+			<cardlev cardlev="31,50" itemid="18040109" num="4" parametertype="102,103,101" parameter="15400,7700,184800"/>
+			<cardlev cardlev="51,100" itemid="18040109" num="6" parametertype="102,103,101" parameter="18000,9000,216000"/>
+			<cardlev cardlev="101,200" itemid="18040109" num="8" parametertype="102,103,101" parameter="22000,11000,264000"/>
+			<cardlev cardlev="201,999" itemid="18040109" num="10" parametertype="102,103,101" parameter="25000,12500,300000"/>
+		</card>
+		<card cardid="10" cardname="土德星君">
+			<cardlev cardlev="0,10" itemid="18040110" num="1" parametertype="102,103,101" parameter="7000,3500,84000"/>
+			<cardlev cardlev="11,20" itemid="18040110" num="2" parametertype="102,103,101" parameter="10400,5200,124800"/>
+			<cardlev cardlev="21,30" itemid="18040110" num="3" parametertype="102,103,101" parameter="13200,6600,158400"/>
+			<cardlev cardlev="31,50" itemid="18040110" num="4" parametertype="102,103,101" parameter="15400,7700,184800"/>
+			<cardlev cardlev="51,100" itemid="18040110" num="6" parametertype="102,103,101" parameter="18000,9000,216000"/>
+			<cardlev cardlev="101,200" itemid="18040110" num="8" parametertype="102,103,101" parameter="22000,11000,264000"/>
+			<cardlev cardlev="201,999" itemid="18040110" num="10" parametertype="102,103,101" parameter="25000,12500,300000"/>
+		</card>
+		<card cardid="11" cardname="罗睺星君">
+			<cardlev cardlev="0,10" itemid="18040111" num="1" parametertype="102,103,101" parameter="7000,3500,84000"/>
+			<cardlev cardlev="11,20" itemid="18040111" num="2" parametertype="102,103,101" parameter="10400,5200,124800"/>
+			<cardlev cardlev="21,30" itemid="18040111" num="3" parametertype="102,103,101" parameter="13200,6600,158400"/>
+			<cardlev cardlev="31,50" itemid="18040111" num="4" parametertype="102,103,101" parameter="15400,7700,184800"/>
+			<cardlev cardlev="51,100" itemid="18040111" num="6" parametertype="102,103,101" parameter="18000,9000,216000"/>
+			<cardlev cardlev="101,200" itemid="18040111" num="8" parametertype="102,103,101" parameter="22000,11000,264000"/>
+			<cardlev cardlev="201,999" itemid="18040111" num="10" parametertype="102,103,101" parameter="25000,12500,300000"/>
+		</card>
+		<card cardid="12" cardname="太阳星君">
+			<cardlev cardlev="0,10" itemid="18040112" num="1" parametertype="102,103,101" parameter="7000,3500,84000"/>
+			<cardlev cardlev="11,20" itemid="18040112" num="2" parametertype="102,103,101" parameter="10400,5200,124800"/>
+			<cardlev cardlev="21,30" itemid="18040112" num="3" parametertype="102,103,101" parameter="13200,6600,158400"/>
+			<cardlev cardlev="31,50" itemid="18040112" num="4" parametertype="102,103,101" parameter="15400,7700,184800"/>
+			<cardlev cardlev="51,100" itemid="18040112" num="6" parametertype="102,103,101" parameter="18000,9000,216000"/>
+			<cardlev cardlev="101,200" itemid="18040112" num="8" parametertype="102,103,101" parameter="22000,11000,264000"/>
+			<cardlev cardlev="201,999" itemid="18040112" num="10" parametertype="102,103,101" parameter="25000,12500,300000"/>
+		</card>
+		<card cardid="13" cardname="金德星君">
+			<cardlev cardlev="0,10" itemid="18040113" num="1" parametertype="102,103,101" parameter="7000,3500,84000"/>
+			<cardlev cardlev="11,20" itemid="18040113" num="2" parametertype="102,103,101" parameter="10400,5200,124800"/>
+			<cardlev cardlev="21,30" itemid="18040113" num="3" parametertype="102,103,101" parameter="13200,6600,158400"/>
+			<cardlev cardlev="31,50" itemid="18040113" num="4" parametertype="102,103,101" parameter="15400,7700,184800"/>
+			<cardlev cardlev="51,100" itemid="18040113" num="6" parametertype="102,103,101" parameter="18000,9000,216000"/>
+			<cardlev cardlev="101,200" itemid="18040113" num="8" parametertype="102,103,101" parameter="22000,11000,264000"/>
+			<cardlev cardlev="201,999" itemid="18040113" num="10" parametertype="102,103,101" parameter="25000,12500,300000"/>
+		</card>
+		<card cardid="14" cardname="水德星君">
+			<cardlev cardlev="0,10" itemid="18040114" num="1" parametertype="102,103,101" parameter="7000,3500,84000"/>
+			<cardlev cardlev="11,20" itemid="18040114" num="2" parametertype="102,103,101" parameter="10400,5200,124800"/>
+			<cardlev cardlev="21,30" itemid="18040114" num="3" parametertype="102,103,101" parameter="13200,6600,158400"/>
+			<cardlev cardlev="31,50" itemid="18040114" num="4" parametertype="102,103,101" parameter="15400,7700,184800"/>
+			<cardlev cardlev="51,100" itemid="18040114" num="6" parametertype="102,103,101" parameter="18000,9000,216000"/>
+			<cardlev cardlev="101,200" itemid="18040114" num="8" parametertype="102,103,101" parameter="22000,11000,264000"/>
+			<cardlev cardlev="201,999" itemid="18040114" num="10" parametertype="102,103,101" parameter="25000,12500,300000"/>
+		</card>
+	</type>
+</root>

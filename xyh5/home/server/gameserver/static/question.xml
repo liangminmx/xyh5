@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+function标签		
+	functionid	功能id
+	opentime	活动自动开启时间
+	endtime	活动自动关闭时间
+	count	每日答题总环数
+	answertime	每题时间
+	readytime	准备时间
+	error	答错系数 万分比
+level标签		
+	level	单题奖励等级段
+	once_exp	单题奖励经验
+	once_money	单题奖励银两
+question标签		
+	id	问题编号
+	dec	问题描述
+	answer	答案文本
+sort标签		
+	sort	答题名次区间
+	point	对应名次获得分数
+rank标签		
+	rank	积分排名区间
+	money	排名银两奖励
+	bmoney	排名绑元奖励
+	item	道具填写多个 用逗号隔开
+    item_count 道具数量 与道具一一对应
+-->
+	<function functionid="2046" opentime="12:00:00" endtime="12:06:00" count="20" answertime="15" readytime="5" error="5000"/>
+	<level level="1,60" once_exp="50000" once_money="25000"/>
+	<level level="61,70" once_exp="70000" once_money="35000"/>
+	<level level="71,80" once_exp="100000" once_money="50000"/>
+	<level level="81,90" once_exp="130000" once_money="65000"/>
+	<level level="91,100" once_exp="150000" once_money="75000"/>
+	<level level="101,110" once_exp="170000" once_money="85000"/>
+	<level level="111,120" once_exp="200000" once_money="100000"/>
+	<level level="121,130" once_exp="250000" once_money="125000"/>
+	<level level="131,140" once_exp="300000" once_money="150000"/>
+	<level level="141,150" once_exp="500000" once_money="250000"/>
+	<level level="151,99999" once_exp="700000" once_money="400000"/>
+	<question id="1" dec="运镖活动可以每日护送几次？" answer="3,4,5,2"/>
+	<question id="2" dec="围棋一共有几个段位？" answer="9,8,7,10"/>
+	<question id="3" dec="世界上最早由国家颁布的药典是？" answer="《唐本草》,《本草纲目》,《黄帝内经》,《佛罗伦萨药典》"/>
+	<question id="4" dec="红娘是哪部作品中的人物？" answer="《西厢记》,《红楼梦》,《西游记》,《水浒传》"/>
+	<question id="5" dec="唐朝古琴有几根弦？" answer="7根,6根,5根,8根"/>
+	<question id="6" dec="《掀起你的盖头来》是哪个民族的民歌？" answer="维吾尔族,回族,布依族,傣族"/>
+	<question id="7" dec="药酒是在哪个朝代之后出现的？" answer="唐代,宋朝,西汉,东汉"/>
+	<question id="8" dec='"座中泣下谁最多，江州司马青衫湿" 作者:' answer="白居易,王勃,孟浩然,杜甫"/>
+	<question id="9" dec='古人所称的"顿首"之礼是指:' answer="跪而头叩地,鞠躬,点头,跪拜"/>
+	<question id="10" dec="《三国演义》中的“凤雏”是？" answer="庞统,孔明,贾诩,郭嘉"/>
+	<question id="11" dec="“红酥手，黄籘酒，满城春色宫墙柳”这一首词描写的是谁的爱情故事" answer="陆游,李贺,李白,韩愈"/>
+	<question id="12" dec="白马寺在哪个地区？" answer="河南,河北,湖南,湖北"/>
+	<question id="13" dec="古诗名句“洛阳亲友如相问”的下句是" answer="一片冰心在玉壶,月似珍珠月似弓,只是当时已惘然,悔教夫婿觅封侯"/>
+	<question id="14" dec="以下不是道教中传说的人物的是" answer="帝释天,元始天尊,太上老君,九天玄女"/>
+	<question id="15" dec="露月是?" answer="十月,七月,八月,九月"/>
+	<question id="16" dec="下面不属于吹奏乐器的是" answer="月琴,笛,萧,口琴"/>
+	<question id="17" dec="中国神话传说中人类的始祖是？" answer="女娲,伏羲,盘古,夸父"/>
+	<question id="18" dec="名句“达则兼济天下，穷则独善其身”出自哪位名家之言？" answer="孟子,孔子,孙子,老子"/>
+	<question id="19" dec="红稣手，黄藤酒，满城春色宫墙柳描写的是谁的爱情故事？" answer="陆游,王勃,王维,李白"/>
+	<question id="20" dec="古诗名句“飘飘何所似，天地一沙鸥”的作者是" answer="杜甫,陆游,贺知章,李清照"/>
+	<question id="21" dec="我国最早的佛寺是？" answer="白马寺,珈蓝寺,少林寺,灵隐寺"/>
+	<question id="22" dec="古人讲究尊称礼节，谈到对方父亲时一般称为:" answer="令尊,令堂,令爱,令媛"/>
+	<question id="23" dec="“金屋藏娇”说的是哪一位皇帝？" answer="刘彻,明太祖,唐太宗,刘洵"/>
+	<question id="24" dec="“不为五斗米折腰”的古代人物是？" answer="陶渊明,陆游,屈原,骆宾王"/>
+	<question id="25" dec="象脚鼓是哪个民族的打击乐器？" answer="傣族,彝族,布依族,苗族"/>
+	<question id="26" dec='以下不属于佛教"四谛"教义的是?' answer="空,苦,集,灭"/>
+	<question id="27" dec="北宋的两个著名词人晏殊和晏几道是什么关系？" answer="父子,叔侄,兄弟,朋友"/>
+	<question id="28" dec="我国什么时候开始用砖瓦？" answer="西周,东周,西汉,秦朝"/>
+	<question id="29" dec="“玄英”是哪个季节的别称？" answer="冬季,春季,夏季,秋季"/>
+	<question id="30" dec="红楼梦的作者?" answer="曹雪芹,施耐庵,贾宝玉,苏三"/>
+	<question id="31" dec='"有教无类"是以下哪位提出的观点?:' answer="孔子,老子,孟子,孙子"/>
+	<question id="32" dec='哪位君主采纳"废黜百家，独尊儒术"的建议?' answer="汉武帝,汉献帝,汉高祖,唐明皇"/>
+	<question id="33" dec="一般情况下，用什么材质的桶贮藏葡萄酒?" answer="橡木,生铁,铝,桃木"/>
+	<question id="34" dec="为徐敬业讨伐武则天的义兵起草了《讨武氏檄》的诗人是？" answer="骆宾王,卢照邻,王勃,杨炯"/>
+	<question id="35" dec="黄庭坚的“欲问江南近消息，喜君贻我一枝春”中的“一枝春”指的是" answer="梅花,桃花,菊花,迎春花"/>
+	<question id="36" dec="茅台酒以什么原料制成" answer="高粱,小麦,稻米,玉米"/>
+	<question id="37" dec="中国第一个奴隶制度的王朝是？" answer="夏朝,商朝,秦朝,战国"/>
+	<question id="38" dec="古诗名句“人生若只如初见”的下句是" answer="何事秋风悲画扇,只是当时已惘然,悔教夫婿觅封侯,直教人生死相许"/>
+	<question id="39" dec="以下亲属中，辈分比自己高的是" answer="内弟的表哥的叔叔,堂弟的叔叔的女儿,姥姥的妹妹的外孙,侄女的表哥的母亲"/>
+	<question id="40" dec='古人所称的"拙荆"是指:' answer="自己的妻子,自己的母亲,自己的妹妹,自己的女儿"/>
+	<question id="41" dec="我国最早的表演艺术是？" answer="杂技,曲艺,魔术,评书"/>
+	<question id="42" dec="“床前明月光，疑是地上霜。”出自哪位诗人？" answer="李白,杜甫,白居易,李清照"/>
+	<question id="43" dec="中国足球队几次在世界杯亚洲区预选赛出线？" answer="1,2,3,4"/>
+	<question id="44" dec="下列哪位引领了古代的时尚潮流？" answer="杜甫,李白,白居易,李清照"/>
+	<question id="45" dec="“昨夜雨疏风骤，浓睡不消残酒。”出自哪位诗人？" answer="李清照,杜甫,白居易,李白"/>
+	<question id="46" dec="“莫道不销魂，帘卷西风，人比黄花瘦。”出自哪位诗人？" answer="李清照,李白,杜甫,白居易"/>
+	<question id="47" dec="“烽火连三月，家书抵万金。”出自哪位诗人？" answer="杜甫,李白,白居易,李清照"/>
+	<question id="48" dec="“随风潜入夜，润物细无声。”是出自哪位诗人的千古佳句？" answer="杜甫,李白,白居易,李清照"/>
+	<question id="49" dec="“桃花潭水深千尺，不及汪伦送我情。”出自哪位诗人？" answer="李白,杜甫,白居易,李清照"/>
+	<question id="50" dec="“离离原上草，一岁一枯荣。”出自哪位诗人？" answer="白居易,李白,杜甫,李清照"/>
+	<question id="52" dec="“东风不与周郎便” 下一句:" answer="铜雀春深锁二乔,长使英雄泪满襟,儿童相见不相识,吴姬压酒劝客尝"/>
+	<question id="54" dec="“举杯邀明月” 下一句:" answer="对影成三人,低头思故乡,我歌月徘徊,影徒随我身"/>
+	<question id="55" dec="“君不见，黄河之水天上来” 下一句:" answer="奔流到海不复回,疑是银河落九天,恰似一江春水向东流,像雨像雾又像风"/>
+	<question id="56" dec="哪个宠物技能可在死亡瞬间概率复活？" answer="神佑,幸运,集中,再生"/>
+	<question id="57" dec="突破到几阶的伙伴可携带宠物上阵？" answer="4,3,5,6"/>
+	<question id="58" dec="下列哪个途径可获得伙伴？" answer="伙伴招募,寻宝,神宠娃娃机,材料副本"/>
+	<question id="59" dec="可以在哪个功能里看到每天具体可完成的任务？" answer="日常活动,平定安邦,活跃度,西游之路"/>
+	<question id="60" dec="下列哪个途径可获得神宠？" answer="神宠娃娃机,寻宝,西游之路,签到"/>
+	<question id="61" dec="挑战生死劫应该去找哪个NPC？" answer="丹青生,小虎,钟馗,村民"/>
+	<question id="62" dec="分解伙伴碎片获得的资源可在伙伴商店兑换伙伴碎片，这种资源叫作？" answer="伙伴魂魄,银两,宝石碎片,突破丹"/>
+	<question id="63" dec="哪个宠物初始附带高级神佑？" answer="小火龙,熊猫,白泽,超级泡泡"/>
+	<question id="64" dec="以下哪个功能是在装备锻造中没有的？" answer="升星,强化,精炼,锻造"/>
+	<question id="65" dec="孙悟空在游戏中属于哪个种族？" answer="人族,妖族,仙族,魔族"/>
+	<question id="66" dec="以下哪个伙伴的技能可以复活队友？" answer="观音,唐僧,沙悟净,玉面狐狸"/>
+	<question id="67" dec="通过什么功能可把宠物的低级技能提升为高级技能？" answer="打书,洗练,强化,进阶"/>
+	<question id="68" dec="伙伴的等级是根据什么决定的？" answer="主角等级,突破阶数,伙伴品质,羁绊等级"/>
+	<question id="69" dec="以下伙伴之间的克制关系，哪个是对的？" answer="仙克魔,人克魔,魔克仙,仙克人"/>
+	<question id="70" dec="装备镶嵌需要消耗什么道具？" answer="宝石碎片,镶嵌石,精炼石,锻造石"/>
+	<question id="71" dec="战斗中，如何释放怒气技能？" answer="怒气值达到120,战斗第四回合,怒气值达到150,怒气值达到90"/>
+	<question id="72" dec="伙伴重生可以获得什么道具？" answer="伙伴碎片,绑定元宝,声望,银两"/>
+	<question id="73" dec="以下哪个伙伴的普通技能封印命中率最高？" answer="菩提子,镇元子,金角大王,太乙真人"/>
+	<question id="74" dec="以下哪个伙伴可以封印多个敌方单位？" answer="太乙真人,菩提子,镇元子,金角大王"/>
+	<question id="75" dec="以下哪个伙伴不是物攻型伙伴？" answer="金角大王,银角大王,猪八戒,二郎真君"/>
+	<question id="76" dec="以下哪只宠物不是神兽？" answer="吞天虎,哮天犬,九色鹿,鲲鹏"/>
+	<question id="77" dec="以下哪个伙伴会优先攻击敌方气血比例最低的单位？" answer="牛魔王,铁扇公主,孙悟空,猪八戒"/>
+	<question id="78" dec="以下哪个伙伴会优先攻击敌方气血值最高的单位？" answer="孙悟空,牛魔王,铁扇公主,猪八戒"/>
+	<question id="79" dec="以下哪个伙伴可以复活友方单位？" answer="观音,唐僧,沙悟净,玉面狐狸"/>
+	<question id="80" dec="以下哪个伙伴可以降低敌方防御力？" answer="紫霞,红孩儿,金角大王,孙悟空"/>
+	<question id="81" dec="以下哪只宠物可以进行群体攻击？" answer="熊猫,哮天犬,九色鹿,白泽"/>
+	<question id="82" dec="以下哪个伙伴可以攻击敌方群体单位？" answer="王母娘娘,唐僧,红孩儿,牛魔王"/>
+	<question id="83" dec="伙伴突破的作用不包括以下哪项？" answer="可激活缘分,提升基础属性,提升初始怒气值，提前释放大招,可携带宠物出战"/>
+	<question id="84" dec="宠物进阶的作用，以下描述正确的是？" answer="可以提升加成属性,可以激活缘分,可以变得更好看,以上均不正确"/>
+	<question id="85" dec="伙伴助战有什么作用？" answer="触发上阵伙伴的缘分,参与战斗,额外获得奖励,给敌人附加异常状态"/>
+	<question id="86" dec="下列不可能从帮会副本获得的资源是什么？" answer="声望,帮贡,银两,潜能丹"/>
+	<question id="87" dec="下列哪些行为可能会阻碍帮会的发展？" answer="不上香,完成帮会副本,点满修炼,在帮会频道积极发言"/>
+	<question id="88" dec="可以从诗中仙活动获得什么奖励？" answer="体力,经验,银两,元宝"/>
+	<question id="89" dec="诗中仙活动需要达成什么条件可以领取体力？" answer="答对题目,登录签到,打倒考官,击败怪物"/>
+	<question id="90" dec="熔炼装备时可能会意外获得什么收获？" answer="红装碎片,橙色装备,经验,伙伴魂魄"/>
+	<question id="92" dec="免费高级招募冷却时间是多久？" answer="12小时,24小时,36小时,6小时"/>
+	<question id="93" dec="每天有几次免费普通招募的机会？" answer="5次,10次,3次,1次"/>
+	<question id="94" dec="下列不属于月卡福利的选项是？" answer="增加战斗伤害,每日领取元宝,增加挂机收益,扩充背包容量"/>
+	<question id="95" dec="如何才能获得终身卡的前置激活条件？" answer="激活月卡或周卡,等级达到100级,购买投资计划,购买成长基金"/>
+	<question id="96" dec="开服boss挑战活动通关可获得什么奖励？" answer="神宠白泽,无级别红装,橙色伙伴,元宝"/>
+	<question id="97" dec="帮会副本双倍伤害活动的时间是？" answer="12:30-13:30以及22:00-23:59,14:00-15:00,17:00-19:00,19:00-21:00"/>
+	<question id="98" dec="每日可以完成几个师门任务？" answer="20,10,30,40"/>
+	<question id="99" dec="帮会资金的主要获取途径是什么？" answer="帮会上香,帮会副本,帮会修炼,帮会技能"/>
+	<question id="100" dec="每天可以参加几次诗中仙活动获取体力？" answer="3次,2次,1次,4次"/>
+	<question id="101" dec="红孩儿名义上的父亲是谁？" answer="牛魔王,太上老君,太白金星,孙悟空"/>
+	<question id="102" dec="熔炼什么品质的装备有概率额外获得红装碎片？" answer="橙色装备,红色装备,紫色装备,蓝色装备"/>
+	<question id="103" dec="门派闯关一个难度有几个关卡？" answer="6,5,4,3"/>
+	<question id="104" dec="单个属性的潜能丹在100级时使用上限是多少个？" answer="400,500,600,700"/>
+	<question id="105" dec="三界除魔活动的开启时间是什么时候？" answer="下午3点,下午2点,下午4点,下午3点30分"/>
+	<question id="106" dec="刑天幻影活动的开启时间是什么时候" answer="下午6点30分,上午10点,中午12点30分,下午6点"/>
+	<question id="107" dec="三界除魔自动清除冷却需要消耗多少元宝？" answer="50,100,150,200"/>
+	<question id="108" dec="刑天幻影活动几级开启？" answer="80,70,90,100"/>
+	<question id="109" dec="捉鬼任务多少级开启？" answer="67,65,69,70"/>
+	<question id="110" dec="捉鬼任务一轮有几环？" answer="10,5,15,20"/>
+	<question id="111" dec="几级帮派开启修炼技能？" answer="4,5,3,6"/>
+	<question id="112" dec="每日可击杀几次地煞？" answer="2,3,4,5"/>
+	<question id="113" dec="以下哪个奖励不属于捉鬼额外奖励？" answer="橙装碎片,绑定元宝,神豆豆,银两"/>
+	<question id="114" dec="转职一次需要消耗多少元宝？" answer="500,1000,100,200"/>
+	<question id="115" dec="西游福利活动多少级开启？" answer="80,90,100,70"/>
+	<question id="116" dec="地煞活动抢夺失败后，再次抢夺的时间间隔是几秒？" answer="30,60,90,120"/>
+	<question id="117" dec="刷新伙伴商店道具需要消耗什么东西？" answer="伙伴魂魄,绑定元宝,元宝,帮贡"/>
+	<question id="118" dec="寻宝有几个档次的积分宝箱？" answer="3个,2个,1个,4个"/>
+	<question id="119" dec="神宠娃娃机需要消耗多少神豆豆可进行一次抽奖？" answer="666个,888个,111个,333个"/>
+	<question id="120" dec="坐骑第4个技能，需要坐骑多少阶激活？" answer="7阶,8阶,9阶,10阶"/>
+	<question id="121" dec="坐骑系统的装备穿戴等级与什么相关？" answer="坐骑阶级,角色等级, 战斗力,都相关"/>
+	<question id="122" dec="西游之路扫荡的条件是？" answer="3星通关,2星通关,1星通关,宠物1级"/>
+	<question id="123" dec="组队副本主要产出物品为？" answer="养成装备,角色装备,宠物技能,装备强化材料"/>
+	<question id="124" dec="妖王挑战次数恢复一次需要多长时间？" answer="60分钟,45分钟,30分钟,15分钟"/>
+	<question id="125" dec="最多可以拥有多少名好友？" answer="200,150,100,300"/>
+	<question id="126" dec="好友功能每日最多可领取多少点体力？" answer="30,20,10,40"/>
+	<question id="127" dec="关于坐骑属性加成下面哪项说法是正确的？" answer="影响角色和上阵伙伴,只影响角色,属影响角色、上阵伙伴和宠物,影响角色和宠物"/>
+	<question id="128" dec="如何提高坐骑养成丹的使用数量？" answer="提高坐骑阶级,提高角色等级,宠物进阶达到4级,拥有坐骑时装"/>
+	<question id="129" dec="组队副本每天什么时间段可获得双倍经验与银两？" answer="21：00-23：00,9：00-11：00,18：00-20：00,15：00-17：00"/>
+	<question id="130" dec="华山论剑对于战力和排名都比自己低的玩家，可以进行以下哪种操作？" answer="秒杀,劝退,收押,嘲讽"/>
+	<question id="131" dec="华山论剑每天奖励结算时间为？" answer="晚上9点,晚上11点,凌晨0点,晚上10点"/>
+	<question id="132" dec="挂机的场景与以下哪项相关？" answer="西游之路进程,角色等级 3,战斗力,宠物等级"/>
+	<sort sort="-2" point="1"/>
+	<sort sort="-1" point="2"/>
+	<sort sort="1" point="10"/>
+	<sort sort="2" point="8"/>
+	<sort sort="3" point="7"/>
+	<sort sort="4,5" point="6"/>
+	<sort sort="6,999999" point="5"/>
+	<rank rank="1" money="20000000" bmoney="2000" item="13010006,10000013" item_count="1,500"/>
+	<rank rank="2" money="10000000" bmoney="1500" item="13010007,10000013" item_count="1,300"/>
+	<rank rank="3" money="7000000" bmoney="1200" item="13010008,10000013" item_count="1,250"/>
+	<rank rank="4,5" money="5000000" bmoney="1000" item="13010009,10000013" item_count="1,200"/>
+	<rank rank="6,10" money="4000000" bmoney="700" item="13010009,10000013" item_count="1,170"/>
+	<rank rank="11,20" money="3000000" bmoney="600" item="10000013" item_count="150"/>
+	<rank rank="21,50" money="2000000" bmoney="500" item="10000013" item_count="120"/>
+	<rank rank="51,99999" money="1000000" bmoney="300" item="10000013" item_count="100"/>
+</root>

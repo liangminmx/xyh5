@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+functionid	功能id	1	function
+			
+jmid	经脉id	1	jinmai
+jmname	经脉名字	1	jinmai
+level	筋脉等级	2	level
+sxtype	对应筋脉等级属性类型(逗号隔开)	2	level
+sxparameter	获得的加成属性参数	2	level
+costid	单次升级消耗道具id	2	level
+costnum	单次消耗道具数量	2	level
+onceexp	单次升级获得进度值	2	level
+upexp	升至下一级所需进度值	2	level
+uptype	升至下级条件（多个逗号隔开）
+=-1 无限制
+=1 需要突破	2	level
+tpcostid	突破消耗道具id	2	level
+tpcostnum	消耗道具数量	2	level
+
+
+-->
+	<function functionid="6698"/>
+	<jinmai jmid="1" jmname="阳跷脉">
+		<level level="1" sxtype="101" sxparameter="100" costid="10000007" costnum="1" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="2" sxtype="102" sxparameter="100" costid="10000007" costnum="2" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="3" sxtype="103" sxparameter="100" costid="10000007" costnum="3" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="4" sxtype="101" sxparameter="100" costid="10000007" costnum="4" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="5" sxtype="102" sxparameter="100" costid="10000007" costnum="5" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="6" sxtype="103" sxparameter="100" costid="10000007" costnum="6" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="7" sxtype="101" sxparameter="100" costid="10000007" costnum="7" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="8" sxtype="102" sxparameter="100" costid="10000007" costnum="8" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="9" sxtype="103" sxparameter="100" costid="10000007" costnum="9" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="10" sxtype="101" sxparameter="100" costid="" costnum="" onceexp="" upexp="" uptype="1" tpcostid="10000008" tpcostnum="10000"/>
+	</jinmai>
+	<jinmai jmid="2" jmname="阴跷脉">
+		<level level="1" sxtype="101" sxparameter="100" costid="10000007" costnum="1" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="2" sxtype="102" sxparameter="100" costid="10000007" costnum="2" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="3" sxtype="103" sxparameter="100" costid="10000007" costnum="3" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="4" sxtype="101" sxparameter="100" costid="10000007" costnum="4" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="5" sxtype="102" sxparameter="100" costid="10000007" costnum="5" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="6" sxtype="103" sxparameter="100" costid="10000007" costnum="6" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="7" sxtype="101" sxparameter="100" costid="10000007" costnum="7" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="8" sxtype="102" sxparameter="100" costid="10000007" costnum="8" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="9" sxtype="103" sxparameter="100" costid="10000007" costnum="9" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="10" sxtype="101" sxparameter="100" costid="" costnum="" onceexp="" upexp="" uptype="1" tpcostid="10000008" tpcostnum="10000"/>
+	</jinmai>
+	<jinmai jmid="3" jmname="阴维脉">
+		<level level="1" sxtype="101" sxparameter="100" costid="10000007" costnum="1" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="2" sxtype="102" sxparameter="100" costid="10000007" costnum="2" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="3" sxtype="103" sxparameter="100" costid="10000007" costnum="3" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="4" sxtype="101" sxparameter="100" costid="10000007" costnum="4" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="5" sxtype="102" sxparameter="100" costid="10000007" costnum="5" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="6" sxtype="103" sxparameter="100" costid="10000007" costnum="6" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="7" sxtype="101" sxparameter="100" costid="10000007" costnum="7" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="8" sxtype="102" sxparameter="100" costid="10000007" costnum="8" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="9" sxtype="103" sxparameter="100" costid="10000007" costnum="9" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="10" sxtype="101" sxparameter="100" costid="" costnum="" onceexp="" upexp="" uptype="1" tpcostid="10000008" tpcostnum="10000"/>
+	</jinmai>
+	<jinmai jmid="4" jmname="阳维脉">
+		<level level="1" sxtype="101" sxparameter="100" costid="10000007" costnum="1" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="2" sxtype="102" sxparameter="100" costid="10000007" costnum="2" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="3" sxtype="103" sxparameter="100" costid="10000007" costnum="3" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="4" sxtype="101" sxparameter="100" costid="10000007" costnum="4" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="5" sxtype="102" sxparameter="100" costid="10000007" costnum="5" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="6" sxtype="103" sxparameter="100" costid="10000007" costnum="6" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="7" sxtype="101" sxparameter="100" costid="10000007" costnum="7" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="8" sxtype="102" sxparameter="100" costid="10000007" costnum="8" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="9" sxtype="103" sxparameter="100" costid="10000007" costnum="9" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="10" sxtype="101" sxparameter="100" costid="" costnum="" onceexp="" upexp="" uptype="1" tpcostid="10000008" tpcostnum="10000"/>
+	</jinmai>
+	<jinmai jmid="5" jmname="横脉">
+		<level level="1" sxtype="101" sxparameter="100" costid="10000007" costnum="1" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="2" sxtype="102" sxparameter="100" costid="10000007" costnum="2" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="3" sxtype="103" sxparameter="100" costid="10000007" costnum="3" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="4" sxtype="101" sxparameter="100" costid="10000007" costnum="4" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="5" sxtype="102" sxparameter="100" costid="10000007" costnum="5" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="6" sxtype="103" sxparameter="100" costid="10000007" costnum="6" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="7" sxtype="101" sxparameter="100" costid="10000007" costnum="7" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="8" sxtype="102" sxparameter="100" costid="10000007" costnum="8" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="9" sxtype="103" sxparameter="100" costid="10000007" costnum="9" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="10" sxtype="101" sxparameter="100" costid="" costnum="" onceexp="" upexp="" uptype="1" tpcostid="10000008" tpcostnum="10000"/>
+	</jinmai>
+	<jinmai jmid="6" jmname="督脉">
+		<level level="1" sxtype="101" sxparameter="100" costid="10000007" costnum="1" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="2" sxtype="102" sxparameter="100" costid="10000007" costnum="2" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="3" sxtype="103" sxparameter="100" costid="10000007" costnum="3" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="4" sxtype="101" sxparameter="100" costid="10000007" costnum="4" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="5" sxtype="102" sxparameter="100" costid="10000007" costnum="5" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="6" sxtype="103" sxparameter="100" costid="10000007" costnum="6" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="7" sxtype="101" sxparameter="100" costid="10000007" costnum="7" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="8" sxtype="102" sxparameter="100" costid="10000007" costnum="8" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="9" sxtype="103" sxparameter="100" costid="10000007" costnum="9" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="10" sxtype="101" sxparameter="100" costid="" costnum="" onceexp="" upexp="" uptype="1" tpcostid="10000008" tpcostnum="10000"/>
+	</jinmai>
+	<jinmai jmid="7" jmname="带脉">
+		<level level="1" sxtype="101" sxparameter="100" costid="10000007" costnum="1" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="2" sxtype="102" sxparameter="100" costid="10000007" costnum="2" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="3" sxtype="103" sxparameter="100" costid="10000007" costnum="3" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="4" sxtype="101" sxparameter="100" costid="10000007" costnum="4" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="5" sxtype="102" sxparameter="100" costid="10000007" costnum="5" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="6" sxtype="103" sxparameter="100" costid="10000007" costnum="6" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="7" sxtype="101" sxparameter="100" costid="10000007" costnum="7" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="8" sxtype="102" sxparameter="100" costid="10000007" costnum="8" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="9" sxtype="103" sxparameter="100" costid="10000007" costnum="9" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="10" sxtype="101" sxparameter="100" costid="" costnum="" onceexp="" upexp="" uptype="1" tpcostid="10000008" tpcostnum="10000"/>
+	</jinmai>
+	<jinmai jmid="8" jmname="冲脉">
+		<level level="1" sxtype="101" sxparameter="100" costid="10000007" costnum="1" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="2" sxtype="102" sxparameter="100" costid="10000007" costnum="2" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="3" sxtype="103" sxparameter="100" costid="10000007" costnum="3" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="4" sxtype="101" sxparameter="100" costid="10000007" costnum="4" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="5" sxtype="102" sxparameter="100" costid="10000007" costnum="5" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="6" sxtype="103" sxparameter="100" costid="10000007" costnum="6" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="7" sxtype="101" sxparameter="100" costid="10000007" costnum="7" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="8" sxtype="102" sxparameter="100" costid="10000007" costnum="8" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="9" sxtype="103" sxparameter="100" costid="10000007" costnum="9" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="10" sxtype="101" sxparameter="100" costid="" costnum="" onceexp="" upexp="" uptype="1" tpcostid="10000008" tpcostnum="10000"/>
+	</jinmai>
+	<jinmai jmid="9" jmname="玄脉">
+		<level level="1" sxtype="101" sxparameter="100" costid="10000007" costnum="1" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="2" sxtype="102" sxparameter="100" costid="10000007" costnum="2" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="3" sxtype="103" sxparameter="100" costid="10000007" costnum="3" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="4" sxtype="101" sxparameter="100" costid="10000007" costnum="4" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="5" sxtype="102" sxparameter="100" costid="10000007" costnum="5" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="6" sxtype="103" sxparameter="100" costid="10000007" costnum="6" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="7" sxtype="101" sxparameter="100" costid="10000007" costnum="7" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="8" sxtype="102" sxparameter="100" costid="10000007" costnum="8" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="9" sxtype="103" sxparameter="100" costid="10000007" costnum="9" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="10" sxtype="101" sxparameter="100" costid="" costnum="" onceexp="" upexp="" uptype="1" tpcostid="10000008" tpcostnum="10000"/>
+	</jinmai>
+	<jinmai jmid="10" jmname="任脉">
+		<level level="1" sxtype="101" sxparameter="100" costid="10000007" costnum="1" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="2" sxtype="102" sxparameter="100" costid="10000007" costnum="2" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="3" sxtype="103" sxparameter="100" costid="10000007" costnum="3" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="4" sxtype="101" sxparameter="100" costid="10000007" costnum="4" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="5" sxtype="102" sxparameter="100" costid="10000007" costnum="5" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="6" sxtype="103" sxparameter="100" costid="10000007" costnum="6" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="7" sxtype="101" sxparameter="100" costid="10000007" costnum="7" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="8" sxtype="102" sxparameter="100" costid="10000007" costnum="8" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="9" sxtype="103" sxparameter="100" costid="10000007" costnum="9" onceexp="10" upexp="100" uptype="-1" tpcostid="" tpcostnum=""/>
+		<level level="10" sxtype="101" sxparameter="100" costid="" costnum="" onceexp="" upexp="" uptype="1" tpcostid="10000008" tpcostnum="10000"/>
+	</jinmai>
+</root>

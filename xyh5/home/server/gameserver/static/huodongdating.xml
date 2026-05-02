@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+functionid	功能id			
+groupid	活动id			
+groupname	活动名字icon			
+activeid	对应活动功能id			
+facelink	界面名称	
+redtip 是否开启小红点提示 =1开启   =0不开启		
+xingqi	填0表示全天活动，1~7表示对应周一到周天			
+opentime	活动时间区间用-区别开启与关闭时间，逗号隔开多个时间段			
+des	描述显示2			
+type	"索引类型，不填或为0则不显示 =1 索引BOSS血量 =2 索引该活动排行榜排名第一的玩家名字=3 索引完成活动的次数限制"			
+tip	活动说明ID，不填或为0则不显示			
+itemid	展示道具id（多个用逗号隔开）					
+shopid  商店id，不填或为0时则不显示
+
+
+
+
+-->
+	<function functionid="2006"/>
+	<gurop guropid="1" guropname="地煞挑战" activeid="2021" xingqi="0" facelink="" redtip="1" opentime="09:00-次日02:00" des="剩余次数：" type="3" tip="0" itemid="10000007,10000014,2" shopid="0" />
+	<gurop guropid="2" guropname="西游护送" activeid="1033" xingqi="0" facelink="" redtip="1" opentime="每天13、23点双倍" des="护送次数：" type="3" tip="0" itemid="10000006,10000014,10000016" shopid="0" />
+	<gurop guropid="3" guropname="三界除魔" activeid="2018" xingqi="0" facelink="" redtip="1" opentime="15:00-15:15" des="BOSS气血：" type="1" tip="0" itemid="13010012,10000004,10000003" shopid="0"/>
+	<gurop guropid="4" guropname="每日答题" activeid="2046" xingqi="0" facelink="" redtip="1" opentime="12:00-12:06" des="上届冠军：" type="2" tip="0" itemid="13010006,10000013,2" shopid="0" />
+	<gurop guropid="5" guropname="诗中仙" activeid="2047" xingqi="0" facelink="" redtip="1" opentime="每天11、17、21点" des="每次开放持续2小时" type="0" tip="0" itemid="4" shopid="0" />
+	<gurop guropid="6" guropname="刑天幻影" activeid="2067" xingqi="0" facelink="" redtip="1" opentime="18:00-18:15" des="每次开放持续15分钟" type="0" tip="0" itemid="13010012,10000004,10000003" shopid="0" />
+	<gurop guropid="7" guropname="比武大会" activeid="2068" xingqi="0" facelink="" redtip="1" opentime="21:00-22:00" des="每次开放持续1小时" type="0" tip="0" itemid="13010012,10000004,10000003" shopid="0" />
+</root>
+

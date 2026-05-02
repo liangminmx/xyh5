@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+functionid	功能id
+pf	平台标识
+icon	图标按钮
+title	UI界面标题
+
+-->
+<config>
+	<functionid functionid="1300"/>
+	<platform pf="1" icon="" title="">
+		<vipgift lefttitle="btn_huiyuanlibao" pic="" link="">
+			<reward viplev="1" emoney="" money="">
+				<item itemid="100591" num="2"/>
+				<item itemid="100123" num="1"/>
+				<item itemid="610000" num="2"/>
+				<item itemid="100582" num="1"/>
+			</reward>
+			<reward viplev="2" emoney="" money="">
+				<item itemid="100592" num="2"/>
+				<item itemid="100103" num="1"/>
+				<item itemid="610000" num="3"/>
+				<item itemid="100582" num="2"/>
+			</reward>
+			<reward viplev="3" emoney="" money="">
+				<item itemid="100593" num="2"/>
+				<item itemid="100124" num="1"/>
+				<item itemid="610000" num="5"/>
+				<item itemid="100582" num="3"/>
+			</reward>
+			<reward viplev="4" emoney="" money="">
+				<item itemid="100594" num="2"/>
+				<item itemid="100104" num="1"/>
+				<item itemid="610001" num="2"/>
+				<item itemid="100583" num="1"/>
+			</reward>
+			<reward viplev="5" emoney="" money="">
+				<item itemid="100595" num="2"/>
+				<item itemid="100125" num="1"/>
+				<item itemid="610001" num="3"/>
+				<item itemid="100583" num="2"/>
+			</reward>
+			<reward viplev="6" emoney="" money="">
+				<item itemid="100596" num="2"/>
+				<item itemid="100105" num="1"/>
+				<item itemid="610001" num="5"/>
+				<item itemid="100583" num="3"/>
+			</reward>
+			<reward viplev="7" emoney="" money="">
+				<item itemid="100597" num="2"/>
+				<item itemid="100126" num="1"/>
+				<item itemid="610001" num="8"/>
+				<item itemid="100583" num="4"/>
+				
+				<item itemid="200016" num="1"/>
+			</reward>
+			<reward viplev="8" emoney="" money="">
+				<item itemid="100599" num="2"/>
+				<item itemid="100106" num="1"/>
+				<item itemid="610002" num="1"/>
+				<item itemid="100583" num="5"/>
+				
+				<item itemid="200017" num="1"/>
+			</reward>
+		</vipgift>
+		<vipdailygift lefttitle="btn_meirihuiyuan" pic="" link="">
+			<reward viplev="1" emoney="" money="">
+				<item itemid="100590" num="1"/>
+				<item itemid="100581" num="1"/>
+			</reward>
+			<reward viplev="2" emoney="" money="">
+				<item itemid="100590" num="1"/>
+				<item itemid="100581" num="1"/>
+			</reward>
+			<reward viplev="3" emoney="" money="">
+				<item itemid="100591" num="1"/>
+				<item itemid="100581" num="1"/>
+			</reward>
+			<reward viplev="4" emoney="" money="">
+				<item itemid="100591" num="1"/>
+				<item itemid="100582" num="1"/>
+				<item itemid="600018" num="1"/>
+			</reward>
+			<reward viplev="5" emoney="" money="">
+				<item itemid="100592" num="1"/>
+				<item itemid="100582" num="1"/>
+				<item itemid="600018" num="1"/>
+			</reward>
+			<reward viplev="6" emoney="" money="">
+				<item itemid="100592" num="1"/>
+				<item itemid="100582" num="1"/>
+				<item itemid="600018" num="2"/>
+			</reward>
+			<reward viplev="7" emoney="" money="">
+				<item itemid="100593" num="1"/>
+				<item itemid="100583" num="2"/>
+				<item itemid="600018" num="2"/>
+			</reward>
+			<reward viplev="8" emoney="" money="">
+				<item itemid="100594" num="1"/>
+				<item itemid="100583" num="2"/>
+				<item itemid="600018" num="2"/>
+			</reward>
+		</vipdailygift>
+		<mobile lefttitle="btn_shoujiyanzheng" pic="" link="">
+			<reward emoney="" money="">
+				<item itemid="100583" num="2"/>
+				<item itemid="100115" num="1"/>
+				<item itemid="900300" num="5"/>
+				<item itemid="107003" num="10"/>
+			</reward>
+		</mobile>
+		<token lefttitle="btn_lingpaiyanzheng" pic="" link="http://lp.37.com">
+			<reward emoney="" money="500000">
+				<item itemid="610001" num="5"/>
+				<item itemid="100155" num="1"/>
+				<item itemid="107003" num="10"/>
+			</reward>
+		</token>
+		<authentication lefttitle="btn_shenfenyanzheng" pic="" link="http://my.37.com/user/userprotect.php#4">
+			<reward emoney="" money="">
+				<item itemid="600019" num="5"/>
+				<item itemid="600018" num="5"/>
+				<item itemid="100105" num="1"/>
+				<item itemid="900300" num="5"/>
+			</reward>
+		</authentication>
+	</platform>
+</config>

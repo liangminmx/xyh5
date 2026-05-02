@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+functionid	每日折扣福利开启ID			
+advertisement	广告语资源ID			
+begin_time	开始时间（格式XX：XX:XX）时：分：秒			
+end_time	结束时间（格式XX：XX:XX）时：分：秒			
+matchesid	场次标识ID			
+lastmatchesid	下一场次标识ID（等于当前matchesid，代表一直循环该场，填0代表不循环）			
+condition	"标识ID       =0，坐骑=1，神兵=2，翅膀=3，阵法=4，法宝"
+id 标识id 客户端用			
+item	道具ID			
+num	道具数量			
+originalprice	原价			
+presentprice	折扣价	
+moneytype	"货币类型 =1，银两=2，元宝=3，帮贡 =4，绑元"					
+stage	需要对应TYPE所在阶级才能购买			
+discount	折扣			
+limitnum	可购买数量			
+bind	是否绑定（绑定=1）			
+time	过期时间（格式XX-XX-XX）填0无时限			
+		
+	
+
+
+
+
+-->
+	<server serverNum="-1">
+		<pro functionid="2036" advertisement="" openday="1" begin_time="00:00:00" end_time="23:59:59"/>
+		<time matchesid="1" lastmatchesid="2">
+			<item id="1" item="10000008" num="100" moneytype="2" originalprice="2000" presentprice="400" stage="1" condition="0" discount="" limitnum="1" bind="1" time=""/>
+			<item id="2" item="10000008" num="100" moneytype="2" originalprice="2000" presentprice="600" stage="1" condition="0" discount="" limitnum="2" bind="1" time=""/>
+			<item id="3" item="10000008" num="100" moneytype="2" originalprice="2000" presentprice="1000" stage="1" condition="0" discount="" limitnum="5" bind="1" time=""/>
+			<item id="4" item="10000015" num="50" moneytype="2" originalprice="2500" presentprice="500" stage="1" condition="0" discount="" limitnum="1" bind="1" time=""/>
+			<item id="5" item="10000015" num="50" moneytype="2" originalprice="2500" presentprice="750" stage="1" condition="0" discount="" limitnum="2" bind="1" time=""/>
+			<item id="6" item="10000015" num="50" moneytype="2" originalprice="2500" presentprice="1250" stage="1" condition="0" discount="" limitnum="5" bind="1" time=""/>
+		</time>
+		<time matchesid="2" lastmatchesid="3">
+			<item id="1" item="10000016" num="20" moneytype="2" originalprice="2000" presentprice="400" stage="1" condition="0" discount="" limitnum="1" bind="1" time=""/>
+			<item id="2" item="10000016" num="20" moneytype="2" originalprice="2000" presentprice="600" stage="1" condition="0" discount="" limitnum="2" bind="1" time=""/>
+			<item id="3" item="10000016" num="20" moneytype="2" originalprice="2000" presentprice="1000" stage="1" condition="0" discount="" limitnum="5" bind="1" time=""/>
+			<item id="4" item="16010034" num="1" moneytype="2" originalprice="1000" presentprice="300" stage="1" condition="0" discount="" limitnum="5" bind="1" time=""/>
+			<item id="5" item="16010035" num="1" moneytype="2" originalprice="2000" presentprice="600" stage="1" condition="0" discount="" limitnum="2" bind="1" time=""/>
+			<item id="6" item="16010036" num="1" moneytype="2" originalprice="4000" presentprice="1200" stage="1" condition="0" discount="" limitnum="1" bind="1" time=""/>
+		</time>
+		<time matchesid="3" lastmatchesid="4">
+			<item id="1" item="16010028" num="10" moneytype="2" originalprice="1000" presentprice="200" stage="1" condition="0" discount="" limitnum="1" bind="1" time=""/>
+			<item id="2" item="16010028" num="10" moneytype="2" originalprice="1000" presentprice="300" stage="1" condition="0" discount="" limitnum="2" bind="1" time=""/>
+			<item id="3" item="16010028" num="10" moneytype="2" originalprice="1000" presentprice="500" stage="1" condition="0" discount="" limitnum="5" bind="1" time=""/>
+			<item id="4" item="16010029" num="10" moneytype="2" originalprice="3000" presentprice="600" stage="1" condition="0" discount="" limitnum="1" bind="1" time=""/>
+			<item id="5" item="16010029" num="10" moneytype="2" originalprice="3000" presentprice="900" stage="1" condition="0" discount="" limitnum="2" bind="1" time=""/>
+			<item id="6" item="16010029" num="10" moneytype="2" originalprice="3000" presentprice="1500" stage="1" condition="0" discount="" limitnum="5" bind="1" time=""/>
+		</time>
+		<time matchesid="4" lastmatchesid="5">
+			<item id="1" item="16010030" num="10" moneytype="2" originalprice="1000" presentprice="200" stage="1" condition="0" discount="" limitnum="1" bind="1" time=""/>
+			<item id="2" item="16010030" num="10" moneytype="2" originalprice="1000" presentprice="300" stage="1" condition="0" discount="" limitnum="2" bind="1" time=""/>
+			<item id="3" item="16010030" num="10" moneytype="2" originalprice="1000" presentprice="500" stage="1" condition="0" discount="" limitnum="5" bind="1" time=""/>
+			<item id="4" item="16010031" num="10" moneytype="2" originalprice="3000" presentprice="600" stage="1" condition="0" discount="" limitnum="1" bind="1" time=""/>
+			<item id="5" item="16010031" num="10" moneytype="2" originalprice="3000" presentprice="900" stage="1" condition="0" discount="" limitnum="2" bind="1" time=""/>
+			<item id="6" item="16010031" num="10" moneytype="2" originalprice="3000" presentprice="1500" stage="1" condition="0" discount="" limitnum="5" bind="1" time=""/>
+		</time>
+		<time matchesid="5" lastmatchesid="5">
+			<item id="1" item="10000009" num="100" moneytype="2" originalprice="10000" presentprice="2000" stage="1" condition="0" discount="" limitnum="1" bind="1" time=""/>
+			<item id="2" item="10000009" num="100" moneytype="2" originalprice="10000" presentprice="3000" stage="1" condition="0" discount="" limitnum="2" bind="1" time=""/>
+			<item id="3" item="10000009" num="100" moneytype="2" originalprice="10000" presentprice="5000" stage="1" condition="0" discount="" limitnum="5" bind="1" time=""/>
+			<item id="4" item="10000006" num="20" moneytype="2" originalprice="2000" presentprice="400" stage="1" condition="0" discount="" limitnum="1" bind="1" time=""/>
+			<item id="5" item="10000006" num="20" moneytype="2" originalprice="2000" presentprice="600" stage="1" condition="0" discount="" limitnum="2" bind="1" time=""/>
+			<item id="6" item="10000006" num="20" moneytype="2" originalprice="2000" presentprice="1000" stage="1" condition="0" discount="" limitnum="5" bind="1" time=""/>
+		</time>
+	</server>
+	<server serverNum="0">
+		<pro functionid="2036" advertisement="" openday="1" begin_time="00:00:00" end_time="23:59:59"/>
+		<time matchesid="1" lastmatchesid="2">
+			<item id="1" item="14010201" num="20" moneytype="2" originalprice="2000" presentprice="1600" stage="1" condition="0" discount="" limitnum="5" bind="1" time=""/>
+			<item id="2" item="14010201" num="50" moneytype="2" originalprice="5000" presentprice="3500" stage="1" condition="0" discount="" limitnum="2" bind="1" time=""/>
+			<item id="3" item="14010201" num="200" moneytype="2" originalprice="20000" presentprice="10000" stage="1" condition="0" discount="" limitnum="1" bind="1" time=""/>
+			<item id="4" item="14010001" num="2" moneytype="2" originalprice="2000" presentprice="1400" stage="1" condition="0" discount="" limitnum="2" bind="1" time=""/>
+			<item id="5" item="14010101" num="2" moneytype="2" originalprice="60" presentprice="36" stage="1" condition="0" discount="" limitnum="3" bind="1" time=""/>
+			<item id="6" item="14010201" num="500" moneytype="2" originalprice="50000" presentprice="20000" stage="1" condition="0" discount="" limitnum="1" bind="1" time=""/>
+		</time>
+		<time matchesid="2" lastmatchesid="3">
+			<item id="1" item="14030201" num="20" moneytype="2" originalprice="2000" presentprice="1600" stage="1" condition="0" discount="" limitnum="5" bind="1" time=""/>
+			<item id="2" item="14030201" num="50" moneytype="2" originalprice="5000" presentprice="3500" stage="1" condition="0" discount="" limitnum="2" bind="1" time=""/>
+			<item id="3" item="14030201" num="200" moneytype="2" originalprice="20000" presentprice="10000" stage="1" condition="0" discount="" limitnum="1" bind="1" time=""/>
+			<item id="4" item="14030001" num="2" moneytype="2" originalprice="2000" presentprice="1400" stage="1" condition="0" discount="" limitnum="2" bind="1" time=""/>
+			<item id="5" item="14030101" num="2" moneytype="2" originalprice="60" presentprice="36" stage="1" condition="0" discount="" limitnum="3" bind="1" time=""/>
+			<item id="6" item="14030201" num="500" moneytype="2" originalprice="50000" presentprice="20000" stage="1" condition="0" discount="" limitnum="1" bind="1" time=""/>
+		</time>
+		<time matchesid="3" lastmatchesid="4">
+			<item id="1" item="14050201" num="20" moneytype="2" originalprice="2000" presentprice="1600" stage="1" condition="0" discount="" limitnum="5" bind="1" time=""/>
+			<item id="2" item="14050201" num="50" moneytype="2" originalprice="5000" presentprice="3500" stage="1" condition="0" discount="" limitnum="2" bind="1" time=""/>
+			<item id="3" item="14050201" num="200" moneytype="2" originalprice="20000" presentprice="10000" stage="1" condition="0" discount="" limitnum="1" bind="1" time=""/>
+			<item id="4" item="14050001" num="2" moneytype="2" originalprice="2000" presentprice="1400" stage="1" condition="0" discount="" limitnum="2" bind="1" time=""/>
+			<item id="5" item="14050101" num="2" moneytype="2" originalprice="60" presentprice="36" stage="1" condition="0" discount="" limitnum="3" bind="1" time=""/>
+			<item id="6" item="14050201" num="500" moneytype="2" originalprice="50000" presentprice="20000" stage="1" condition="0" discount="" limitnum="1" bind="1" time=""/>
+		</time>
+		<time matchesid="4" lastmatchesid="5">
+			<item id="1" item="14040201" num="20" moneytype="2" originalprice="2000" presentprice="1600" stage="1" condition="0" discount="" limitnum="5" bind="1" time=""/>
+			<item id="2" item="14040201" num="50" moneytype="2" originalprice="5000" presentprice="3500" stage="1" condition="0" discount="" limitnum="2" bind="1" time=""/>
+			<item id="3" item="14040201" num="200" moneytype="2" originalprice="20000" presentprice="10000" stage="1" condition="0" discount="" limitnum="1" bind="1" time=""/>
+			<item id="4" item="14040001" num="2" moneytype="2" originalprice="2000" presentprice="1400" stage="1" condition="0" discount="" limitnum="2" bind="1" time=""/>
+			<item id="5" item="14040101" num="2" moneytype="2" originalprice="60" presentprice="36" stage="1" condition="0" discount="" limitnum="3" bind="1" time=""/>
+			<item id="6" item="14040201" num="500" moneytype="2" originalprice="50000" presentprice="20000" stage="1" condition="0" discount="" limitnum="1" bind="1" time=""/>
+		</time>
+		<time matchesid="5" lastmatchesid="6">
+			<item id="1" item="14020201" num="20" moneytype="2" originalprice="2000" presentprice="1600" stage="1" condition="0" discount="" limitnum="5" bind="1" time=""/>
+			<item id="2" item="14020201" num="50" moneytype="2" originalprice="5000" presentprice="3500" stage="1" condition="0" discount="" limitnum="2" bind="1" time=""/>
+			<item id="3" item="14020201" num="200" moneytype="2" originalprice="20000" presentprice="10000" stage="1" condition="0" discount="" limitnum="1" bind="1" time=""/>
+			<item id="4" item="14020001" num="2" moneytype="2" originalprice="2000" presentprice="1400" stage="1" condition="0" discount="" limitnum="2" bind="1" time=""/>
+			<item id="5" item="14020101" num="2" moneytype="2" originalprice="60" presentprice="36" stage="1" condition="0" discount="" limitnum="3" bind="1" time=""/>
+			<item id="6" item="14020201" num="500" moneytype="2" originalprice="50000" presentprice="20000" stage="1" condition="0" discount="" limitnum="1" bind="1" time=""/>
+		</time>
+		<time matchesid="6" lastmatchesid="7">
+			<item id="1" item="14070201" num="20" moneytype="2" originalprice="2000" presentprice="1600" stage="1" condition="0" discount="" limitnum="5" bind="1" time=""/>
+			<item id="2" item="14070201" num="50" moneytype="2" originalprice="5000" presentprice="3500" stage="1" condition="0" discount="" limitnum="2" bind="1" time=""/>
+			<item id="3" item="14070201" num="200" moneytype="2" originalprice="20000" presentprice="10000" stage="1" condition="0" discount="" limitnum="1" bind="1" time=""/>
+			<item id="4" item="14070001" num="2" moneytype="2" originalprice="2000" presentprice="1400" stage="1" condition="0" discount="" limitnum="2" bind="1" time=""/>
+			<item id="5" item="14070101" num="2" moneytype="2" originalprice="60" presentprice="36" stage="1" condition="0" discount="" limitnum="3" bind="1" time=""/>
+			<item id="6" item="14070201" num="500" moneytype="2" originalprice="50000" presentprice="20000" stage="1" condition="0" discount="" limitnum="1" bind="1" time=""/>
+		</time>
+		<time matchesid="7" lastmatchesid="8">
+			<item id="1" item="14080201" num="20" moneytype="2" originalprice="2000" presentprice="1600" stage="1" condition="0" discount="" limitnum="5" bind="1" time=""/>
+			<item id="2" item="14080201" num="50" moneytype="2" originalprice="5000" presentprice="3500" stage="1" condition="0" discount="" limitnum="2" bind="1" time=""/>
+			<item id="3" item="14080201" num="200" moneytype="2" originalprice="20000" presentprice="10000" stage="1" condition="0" discount="" limitnum="1" bind="1" time=""/>
+			<item id="4" item="14080001" num="2" moneytype="2" originalprice="2000" presentprice="1400" stage="1" condition="0" discount="" limitnum="2" bind="1" time=""/>
+			<item id="5" item="14080101" num="2" moneytype="2" originalprice="60" presentprice="36" stage="1" condition="0" discount="" limitnum="3" bind="1" time=""/>
+			<item id="6" item="14080201" num="500" moneytype="2" originalprice="50000" presentprice="20000" stage="1" condition="0" discount="" limitnum="1" bind="1" time=""/>
+		</time>
+		<time matchesid="8" lastmatchesid="9">
+			<item id="1" item="10000016" num="20" moneytype="2" originalprice="2000" presentprice="1600" stage="1" condition="0" discount="" limitnum="5" bind="1" time=""/>
+			<item id="2" item="10000016" num="50" moneytype="2" originalprice="5000" presentprice="3500" stage="1" condition="0" discount="" limitnum="2" bind="1" time=""/>
+			<item id="3" item="10000016" num="200" moneytype="2" originalprice="20000" presentprice="10000" stage="1" condition="0" discount="" limitnum="1" bind="1" time=""/>
+			<item id="4" item="12070018" num="1" moneytype="2" originalprice="1000" presentprice="700" stage="1" condition="0" discount="" limitnum="2" bind="1" time=""/>
+			<item id="5" item="12090023" num="1" moneytype="2" originalprice="1500" presentprice="900" stage="1" condition="0" discount="" limitnum="3" bind="1" time=""/>
+			<item id="6" item="10000016" num="500" moneytype="2" originalprice="50000" presentprice="20000" stage="1" condition="0" discount="" limitnum="1" bind="1" time=""/>
+		</time>
+		<time matchesid="9" lastmatchesid="10">
+			<item id="1" item="10000004" num="1" moneytype="2" originalprice="3000" presentprice="2400" stage="1" condition="0" discount="" limitnum="5" bind="1" time=""/>
+			<item id="2" item="10000004" num="3" moneytype="2" originalprice="9000" presentprice="6300" stage="1" condition="0" discount="" limitnum="2" bind="1" time=""/>
+			<item id="3" item="10000004" num="10" moneytype="2" originalprice="30000" presentprice="15000" stage="1" condition="0" discount="" limitnum="1" bind="1" time=""/>
+			<item id="4" moneytype="2" hunpo="5000" originalprice="5000" presentprice="3500" stage="1" condition="0" discount="" limitnum="1" bind="1" time=""/>
+			<item id="5" moneytype="2" hunpo="10000" originalprice="10000" presentprice="6000" stage="1" condition="0" discount="" limitnum="1" bind="1" time=""/>
+			<item id="6" moneytype="2" hunpo="50000" originalprice="50000" presentprice="20000" stage="1" condition="0" discount="" limitnum="1" bind="1" time=""/>
+		</time>
+		<time matchesid="10" lastmatchesid="11">
+			<item id="1" item="10000012" num="2000" moneytype="2" originalprice="2000" presentprice="1600" stage="1" condition="0" discount="" limitnum="5" bind="1" time=""/>
+			<item id="2" item="10000012" num="5000" moneytype="2" originalprice="5000" presentprice="3500" stage="1" condition="0" discount="" limitnum="2" bind="1" time=""/>
+			<item id="3" item="10000012" num="20000" moneytype="2" originalprice="20000" presentprice="10000" stage="1" condition="0" discount="" limitnum="1" bind="1" time=""/>
+			<item id="4" item="10000013" num="5000" moneytype="2" originalprice="5000" presentprice="3500" stage="1" condition="0" discount="" limitnum="2" bind="1" time=""/>
+			<item id="5" item="10000014" num="10000" moneytype="2" originalprice="20000" presentprice="12000" stage="1" condition="0" discount="" limitnum="3" bind="1" time=""/>
+			<item id="6" item="10000007" num="5000" moneytype="2" originalprice="50000" presentprice="20000" stage="1" condition="0" discount="" limitnum="1" bind="1" time=""/>
+		</time>
+		<time matchesid="11" lastmatchesid="11">
+			<item id="1" item="10000009" num="20" moneytype="2" originalprice="2000" presentprice="1200" stage="1" condition="0" discount="" limitnum="5" bind="1" time=""/>
+			<item id="2" item="10000004" num="3" moneytype="2" originalprice="9000" presentprice="5400" stage="1" condition="0" discount="" limitnum="5" bind="1" time=""/>
+			<item id="3" item="10000012" num="2000" moneytype="2" originalprice="2000" presentprice="1200" stage="1" condition="0" discount="" limitnum="10" bind="1" time=""/>
+			<item id="4" item="10000013" num="2000" moneytype="2" originalprice="2000" presentprice="1200" stage="1" condition="0" discount="" limitnum="10" bind="1" time=""/>
+			<item id="5" item="10000014" num="1000" moneytype="2" originalprice="2000" presentprice="1200" stage="1" condition="0" discount="" limitnum="10" bind="1" time=""/>
+			<item id="6" item="10000007" num="500" moneytype="2" originalprice="5000" presentprice="3000" stage="1" condition="0" discount="" limitnum="5" bind="1" time=""/>
+		</time>
+	</server>
+</root>

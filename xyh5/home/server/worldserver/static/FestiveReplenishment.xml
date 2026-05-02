@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!--
+FunctionId	功能开启
+group	活动组别
+pf 平台PF值，默认为-1
+=-1，所有平台都开启该活动
+=指定值，只在指定的平台开启活动
+可配置多个，用逗号隔开 group
+DailyReset	是否每天重置充值金额
+=0活动期间不重置
+=1，每天重置
+name	活动组名称,策划自己看
+sortId	活动排序
+activityOpen	活动开启时间,配置格式
+2019-03-20 00:00:00
+activityEnds	活动结束时间,配置格式
+2019-03-20 23:59:59
+activityEntraceIcon	活动功能图标
+ActivityBgMap	活动背景图
+MailId	邮件Id
+DayNum	天数状态
+根据活动开启天数来确定对应数据
+GradeNum	档次
+AmountRequired	需要X金额可领取该档次奖励(RMB)
+rewardItem	道具Id值
+num	道具数量
+-->
+<root>
+	<Function FunctionId="6681"/>
+	<ActivityInformation pf="-1" group="1" PF="-1" DailyReset="1" name="谷雨活动" sortId="5" activityOpen="2019-04-19 00:00:00" activityEnds="2019-04-21 23:59:59" activityEntraceIcon="FestiveReplenishment1" ActivityBgMap="FestiveReplenishmentBg" MailId="6681">
+		<day DayNum="1">
+			<grade GradeNum="1" AmountRequired="6">
+				<reward rewardItem="10000006" num="10"/>
+				<reward rewardItem="16010028" num="1"/>
+				<reward rewardItem="16010030" num="1"/>
+			</grade>
+			<grade GradeNum="2" AmountRequired="30">
+				<reward rewardItem="10000006" num="20"/>
+				<reward rewardItem="60001000" num="2"/>
+				<reward rewardItem="16010028" num="5"/>
+				<reward rewardItem="16010030" num="5"/>
+			</grade>
+			<grade GradeNum="3" AmountRequired="100">
+				<reward rewardItem="10000006" num="50"/>
+				<reward rewardItem="60010000" num="1"/>
+				<reward rewardItem="16010029" num="1"/>
+				<reward rewardItem="16010031" num="1"/>
+				<reward rewardItem="16010028" num="10"/>
+				<reward rewardItem="16010030" num="10"/>
+			</grade>
+			<grade GradeNum="4" AmountRequired="300">
+				<reward rewardItem="10000006" num="100"/>
+				<reward rewardItem="16010038" num="1"/>
+				<reward rewardItem="16010032" num="1"/>
+				<reward rewardItem="60010000" num="2"/>
+				<reward rewardItem="16010029" num="3"/>
+				<reward rewardItem="16010031" num="3"/>
+			</grade>
+			<grade GradeNum="5" AmountRequired="600">
+				<reward rewardItem="10000006" num="200"/>
+				<reward rewardItem="16010038" num="3"/>
+				<reward rewardItem="16010032" num="3"/>
+				<reward rewardItem="60010000" num="3"/>
+				<reward rewardItem="16010029" num="5"/>
+				<reward rewardItem="16010031" num="5"/>
+			</grade>
+			<grade GradeNum="6" AmountRequired="1000">
+				<reward rewardItem="10000006" num="300"/>
+				<reward rewardItem="16010039" num="1"/>
+				<reward rewardItem="16010033" num="1"/>
+				<reward rewardItem="16010038" num="5"/>
+				<reward rewardItem="16010032" num="5"/>
+				<reward rewardItem="60010000" num="4"/>
+				<reward rewardItem="16010029" num="10"/>
+				<reward rewardItem="16010031" num="10"/>
+			</grade>
+		</day>
+	</ActivityInformation>
+	<ActivityInformation group="2" PF="-1" DailyReset="1" name="五一活动" sortId="5" activityOpen="2019-04-30 00:00:00" activityEnds="2019-05-05 23:59:59" activityEntraceIcon="FestiveReplenishment1" ActivityBgMap="FestiveReplenishmentBg" MailId="6681">
+		<day DayNum="1">
+			<grade GradeNum="1" AmountRequired="6">
+				<reward rewardItem="10000006" num="10"/>
+				<reward rewardItem="16010001" num="20"/>
+				<reward rewardItem="16010013" num="1"/>
+				<reward rewardItem="10000007" num="500"/>
+			</grade>
+			<grade GradeNum="2" AmountRequired="30">
+				<reward rewardItem="10000006" num="20"/>
+				<reward rewardItem="16010007" num="5"/>
+				<reward rewardItem="16010013" num="2"/>
+				<reward rewardItem="10000007" num="1000"/>
+				<reward rewardItem="60001000" num="2"/>
+			</grade>
+			<grade GradeNum="3" AmountRequired="100">
+				<reward rewardItem="10000006" num="50"/>
+				<reward rewardItem="10000008" num="1000"/>
+				<reward rewardItem="16010039" num="1"/>
+				<reward rewardItem="16010013" num="5"/>
+				<reward rewardItem="60001000" num="5"/>
+			</grade>
+			<grade GradeNum="4" AmountRequired="300">
+				<reward rewardItem="10000006" num="100"/>
+				<reward rewardItem="10000008" num="2000"/>
+				<reward rewardItem="16010033" num="3"/>
+				<reward rewardItem="16010013" num="10"/>
+				<reward rewardItem="60010000" num="1"/>
+			</grade>
+			<grade GradeNum="5" AmountRequired="600">
+				<reward rewardItem="10000006" num="200"/>
+				<reward rewardItem="10000008" num="3000"/>
+				<reward rewardItem="1001300" num="1"/>
+				<reward rewardItem="16010013" num="20"/>
+				<reward rewardItem="60010000" num="2"/>
+			</grade>
+			<grade GradeNum="6" AmountRequired="1000">
+				<reward rewardItem="10000006" num="300"/>
+				<reward rewardItem="10000008" num="4000"/>
+				<reward rewardItem="13035003" num="1"/>
+				<reward rewardItem="16010013" num="40"/>
+				<reward rewardItem="60010000" num="3"/>
+			</grade>
+		</day>
+	</ActivityInformation>
+	<ActivityInformation group="3" PF="-1" DailyReset="0" name="周末活动" sortId="5" activityOpen="2019-05-19 00:00:00" activityEnds="2019-05-26 23:59:59" activityEntraceIcon="FestiveReplenishment1" ActivityBgMap="FestiveReplenishmentBg" MailId="6681">
+		<day DayNum="1">
+			<grade GradeNum="1" AmountRequired="6">
+				<reward rewardItem="12000237" num="2"/>
+				<reward rewardItem="10000006" num="10"/>
+				<reward rewardItem="16010013" num="1"/>
+				<reward rewardItem="10000007" num="500"/>
+			</grade>
+			<grade GradeNum="2" AmountRequired="30">
+				<reward rewardItem="12000237" num="5"/>
+				<reward rewardItem="10000006" num="20"/>
+				<reward rewardItem="16010013" num="2"/>
+				<reward rewardItem="10000007" num="1000"/>
+				<reward rewardItem="60001000" num="2"/>
+			</grade>
+			<grade GradeNum="3" AmountRequired="100">
+				<reward rewardItem="12000237" num="10"/>
+				<reward rewardItem="10000006" num="50"/>
+				<reward rewardItem="10000008" num="1000"/>
+				<reward rewardItem="16010013" num="5"/>
+				<reward rewardItem="60001000" num="5"/>
+			</grade>
+			<grade GradeNum="4" AmountRequired="300">
+				<reward rewardItem="12000237" num="15"/>
+				<reward rewardItem="10000006" num="100"/>
+				<reward rewardItem="10000008" num="2000"/>
+				<reward rewardItem="16010013" num="10"/>
+				<reward rewardItem="60010000" num="1"/>
+			</grade>
+			<grade GradeNum="5" AmountRequired="600">
+				<reward rewardItem="12000237" num="20"/>
+				<reward rewardItem="10000006" num="200"/>
+				<reward rewardItem="10000008" num="3000"/>
+				<reward rewardItem="16010013" num="20"/>
+				<reward rewardItem="60010000" num="2"/>
+			</grade>
+			<grade GradeNum="6" AmountRequired="1000">
+				<reward rewardItem="12000237" num="25"/>
+				<reward rewardItem="10000006" num="300"/>
+				<reward rewardItem="10000008" num="4000"/>
+				<reward rewardItem="16010013" num="40"/>
+				<reward rewardItem="60010000" num="3"/>
+			</grade>
+		</day>
+	</ActivityInformation>
+	<ActivityInformation group="4" PF="-1" DailyReset="1" name="五月十七号活动" sortId="5" activityOpen="2019-05-17 00:00:00" activityEnds="2019-05-19 23:59:59" activityEntraceIcon="FestiveReplenishment1" ActivityBgMap="FestiveReplenishmentBg" MailId="6681">
+		<day DayNum="1">
+			<grade GradeNum="1" AmountRequired="6">
+				<reward rewardItem="10000101" num="2"/>
+				<reward rewardItem="16010001" num="25"/>
+				<reward rewardItem="10000006" num="10"/>
+				<reward rewardItem="10000007" num="600"/>
+			</grade>
+			<grade GradeNum="2" AmountRequired="30">
+				<reward rewardItem="10000101" num="5"/>
+				<reward rewardItem="16010007" num="6"/>
+				<reward rewardItem="10000006" num="20"/>
+				<reward rewardItem="10000007" num="1200"/>
+				<reward rewardItem="60001000" num="2"/>
+			</grade>
+			<grade GradeNum="3" AmountRequired="100">
+				<reward rewardItem="10000101" num="10"/>
+				<reward rewardItem="16010039" num="1"/>
+				<reward rewardItem="10000006" num="50"/>
+				<reward rewardItem="10000008" num="1200"/>
+				<reward rewardItem="60001000" num="5"/>
+			</grade>
+			<grade GradeNum="4" AmountRequired="300">
+				<reward rewardItem="10000101" num="30"/>
+				<reward rewardItem="16010033" num="3"/>
+				<reward rewardItem="10000006" num="100"/>
+				<reward rewardItem="10000008" num="2400"/>
+				<reward rewardItem="60010000" num="1"/>
+			</grade>
+			<grade GradeNum="5" AmountRequired="600">
+				<reward rewardItem="10000101" num="50"/>
+				<reward rewardItem="1001305" num="1"/>
+				<reward rewardItem="10000006" num="200"/>
+				<reward rewardItem="10000008" num="3600"/>
+				<reward rewardItem="60010000" num="2"/>
+			</grade>
+			<grade GradeNum="6" AmountRequired="1000">
+				<reward rewardItem="10000101" num="100"/>
+				<reward rewardItem="2001305" num="1"/>
+				<reward rewardItem="10000006" num="300"/>
+				<reward rewardItem="10000008" num="4800"/>
+				<reward rewardItem="60010000" num="3"/>
+			</grade>
+		</day>
+	</ActivityInformation>
+	<ActivityInformation group="5" PF="-1" DailyReset="0" name="六一活动" sortId="5" activityOpen="2019-05-31 00:00:00" activityEnds="2019-06-2 23:59:59" activityEntraceIcon="FestiveReplenishment1" ActivityBgMap="FestiveReplenishmentBg" MailId="6681">
+		<day DayNum="1">
+			<grade GradeNum="1" AmountRequired="6">
+				<reward rewardItem="12000239" num="2"/>
+				<reward rewardItem="10000006" num="10"/>
+				<reward rewardItem="16010013" num="1"/>
+				<reward rewardItem="10000007" num="500"/>
+			</grade>
+			<grade GradeNum="2" AmountRequired="30">
+				<reward rewardItem="12000239" num="5"/>
+				<reward rewardItem="10000006" num="20"/>
+				<reward rewardItem="16010013" num="2"/>
+				<reward rewardItem="10000007" num="1000"/>
+				<reward rewardItem="60001000" num="2"/>
+			</grade>
+			<grade GradeNum="3" AmountRequired="100">
+				<reward rewardItem="12000239" num="10"/>
+				<reward rewardItem="10000006" num="50"/>
+				<reward rewardItem="10000008" num="1000"/>
+				<reward rewardItem="16010013" num="5"/>
+				<reward rewardItem="60001000" num="5"/>
+			</grade>
+			<grade GradeNum="4" AmountRequired="300">
+				<reward rewardItem="12000239" num="15"/>
+				<reward rewardItem="10000006" num="100"/>
+				<reward rewardItem="10000008" num="2000"/>
+				<reward rewardItem="16010013" num="10"/>
+				<reward rewardItem="60010000" num="1"/>
+			</grade>
+			<grade GradeNum="5" AmountRequired="600">
+				<reward rewardItem="12000239" num="20"/>
+				<reward rewardItem="10000006" num="200"/>
+				<reward rewardItem="10000008" num="3000"/>
+				<reward rewardItem="16010013" num="20"/>
+				<reward rewardItem="60010000" num="2"/>
+			</grade>
+			<grade GradeNum="6" AmountRequired="1000">
+				<reward rewardItem="12000239" num="25"/>
+				<reward rewardItem="10000006" num="300"/>
+				<reward rewardItem="10000008" num="4000"/>
+				<reward rewardItem="16010013" num="40"/>
+				<reward rewardItem="60010000" num="3"/>
+			</grade>
+		</day>
+	</ActivityInformation>
+	<ActivityInformation group="6" PF="-1" DailyReset="0" name="端午活动" sortId="5" activityOpen="2019-06-07 00:00:00" activityEnds="2019-06-09 23:59:59" activityEntraceIcon="FestiveReplenishment1" ActivityBgMap="FestiveReplenishmentBg" MailId="6681">
+		<day DayNum="1">
+			<grade GradeNum="1" AmountRequired="6">
+				<reward rewardItem="12000240" num="2"/>
+				<reward rewardItem="10000006" num="10"/>
+				<reward rewardItem="16010013" num="1"/>
+				<reward rewardItem="10000007" num="500"/>
+			</grade>
+			<grade GradeNum="2" AmountRequired="30">
+				<reward rewardItem="12000240" num="5"/>
+				<reward rewardItem="10000006" num="20"/>
+				<reward rewardItem="16010013" num="2"/>
+				<reward rewardItem="10000007" num="1000"/>
+				<reward rewardItem="60001000" num="2"/>
+			</grade>
+			<grade GradeNum="3" AmountRequired="100">
+				<reward rewardItem="12000240" num="10"/>
+				<reward rewardItem="10000006" num="50"/>
+				<reward rewardItem="10000008" num="1000"/>
+				<reward rewardItem="16010013" num="5"/>
+				<reward rewardItem="60001000" num="5"/>
+			</grade>
+			<grade GradeNum="4" AmountRequired="300">
+				<reward rewardItem="12000240" num="15"/>
+				<reward rewardItem="10000006" num="100"/>
+				<reward rewardItem="10000008" num="2000"/>
+				<reward rewardItem="16010013" num="10"/>
+				<reward rewardItem="60010000" num="1"/>
+			</grade>
+			<grade GradeNum="5" AmountRequired="600">
+				<reward rewardItem="12000240" num="20"/>
+				<reward rewardItem="10000006" num="200"/>
+				<reward rewardItem="10000008" num="3000"/>
+				<reward rewardItem="16010013" num="20"/>
+				<reward rewardItem="60010000" num="2"/>
+			</grade>
+			<grade GradeNum="6" AmountRequired="1000">
+				<reward rewardItem="12000240" num="25"/>
+				<reward rewardItem="10000006" num="300"/>
+				<reward rewardItem="10000008" num="4000"/>
+				<reward rewardItem="16010013" num="40"/>
+				<reward rewardItem="60010000" num="3"/>
+			</grade>
+		</day>
+	</ActivityInformation>
+	<ActivityInformation group="7" PF="-1" DailyReset="0" name="周末活动" sortId="5" activityOpen="2019-06-14 00:00:00" activityEnds="2019-06-16 23:59:59" activityEntraceIcon="FestiveReplenishment1" ActivityBgMap="FestiveReplenishmentBg" MailId="6681">
+		<day DayNum="1">
+			<grade GradeNum="1" AmountRequired="6">
+				<reward rewardItem="12000241" num="2"/>
+				<reward rewardItem="10000015" num="10"/>
+				<reward rewardItem="16010013" num="1"/>
+				<reward rewardItem="10000007" num="500"/>
+			</grade>
+			<grade GradeNum="2" AmountRequired="30">
+				<reward rewardItem="12000241" num="5"/>
+				<reward rewardItem="10000015" num="20"/>
+				<reward rewardItem="16010013" num="2"/>
+				<reward rewardItem="10000007" num="1000"/>
+				<reward rewardItem="60001000" num="2"/>
+			</grade>
+			<grade GradeNum="3" AmountRequired="100">
+				<reward rewardItem="12000241" num="10"/>
+				<reward rewardItem="10000015" num="50"/>
+				<reward rewardItem="10000008" num="1000"/>
+				<reward rewardItem="16010013" num="5"/>
+				<reward rewardItem="60001000" num="5"/>
+			</grade>
+			<grade GradeNum="4" AmountRequired="300">
+				<reward rewardItem="12000241" num="15"/>
+				<reward rewardItem="10000015" num="100"/>
+				<reward rewardItem="10000008" num="2000"/>
+				<reward rewardItem="16010013" num="10"/>
+				<reward rewardItem="60010000" num="1"/>
+			</grade>
+			<grade GradeNum="5" AmountRequired="600">
+				<reward rewardItem="12000241" num="20"/>
+				<reward rewardItem="10000015" num="200"/>
+				<reward rewardItem="10000008" num="3000"/>
+				<reward rewardItem="16010013" num="20"/>
+				<reward rewardItem="60010000" num="2"/>
+			</grade>
+			<grade GradeNum="6" AmountRequired="1000">
+				<reward rewardItem="12000241" num="25"/>
+				<reward rewardItem="10000015" num="300"/>
+				<reward rewardItem="10000008" num="4000"/>
+				<reward rewardItem="16010013" num="40"/>
+				<reward rewardItem="60010000" num="3"/>
+			</grade>
+		</day>
+	</ActivityInformation>
+	<ActivityInformation group="8" PF="-1" DailyReset="0" name="周末活动" sortId="5" activityOpen="2019-06-21 00:00:00" activityEnds="2019-06-23 23:59:59" activityEntraceIcon="FestiveReplenishment1" ActivityBgMap="FestiveReplenishmentBg" MailId="6681">
+		<day DayNum="1">
+			<grade GradeNum="1" AmountRequired="6">
+				<reward rewardItem="12000242" num="2"/>
+				<reward rewardItem="10000015" num="10"/>
+				<reward rewardItem="16010013" num="1"/>
+				<reward rewardItem="10000007" num="500"/>
+			</grade>
+			<grade GradeNum="2" AmountRequired="30">
+				<reward rewardItem="12000242" num="5"/>
+				<reward rewardItem="10000015" num="20"/>
+				<reward rewardItem="16010013" num="2"/>
+				<reward rewardItem="10000007" num="1000"/>
+				<reward rewardItem="60001000" num="2"/>
+			</grade>
+			<grade GradeNum="3" AmountRequired="100">
+				<reward rewardItem="12000242" num="10"/>
+				<reward rewardItem="10000015" num="50"/>
+				<reward rewardItem="10000008" num="1000"/>
+				<reward rewardItem="16010013" num="5"/>
+				<reward rewardItem="60001000" num="5"/>
+			</grade>
+			<grade GradeNum="4" AmountRequired="300">
+				<reward rewardItem="12000242" num="15"/>
+				<reward rewardItem="10000015" num="100"/>
+				<reward rewardItem="10000008" num="2000"/>
+				<reward rewardItem="16010013" num="10"/>
+				<reward rewardItem="60010000" num="1"/>
+			</grade>
+			<grade GradeNum="5" AmountRequired="600">
+				<reward rewardItem="12000242" num="20"/>
+				<reward rewardItem="10000015" num="200"/>
+				<reward rewardItem="10000008" num="3000"/>
+				<reward rewardItem="16010013" num="20"/>
+				<reward rewardItem="60010000" num="2"/>
+			</grade>
+			<grade GradeNum="6" AmountRequired="1000">
+				<reward rewardItem="12000242" num="25"/>
+				<reward rewardItem="10000015" num="300"/>
+				<reward rewardItem="10000008" num="4000"/>
+				<reward rewardItem="16010013" num="40"/>
+				<reward rewardItem="60010000" num="3"/>
+			</grade>
+		</day>
+	</ActivityInformation>
+	<ActivityInformation group="9" PF="-1" DailyReset="0" name="周末活动" sortId="5" activityOpen="2019-06-28 00:00:00" activityEnds="2019-06-30 23:59:59" activityEntraceIcon="FestiveReplenishment1" ActivityBgMap="FestiveReplenishmentBg" MailId="6681">
+		<day DayNum="1">
+			<grade GradeNum="1" AmountRequired="6">
+				<reward rewardItem="12000243" num="2"/>
+				<reward rewardItem="10000015" num="10"/>
+				<reward rewardItem="16010013" num="1"/>
+				<reward rewardItem="10000007" num="500"/>
+			</grade>
+			<grade GradeNum="2" AmountRequired="30">
+				<reward rewardItem="12000243" num="5"/>
+				<reward rewardItem="10000015" num="20"/>
+				<reward rewardItem="16010013" num="2"/>
+				<reward rewardItem="10000007" num="1000"/>
+				<reward rewardItem="60001000" num="2"/>
+			</grade>
+			<grade GradeNum="3" AmountRequired="100">
+				<reward rewardItem="12000243" num="10"/>
+				<reward rewardItem="10000015" num="50"/>
+				<reward rewardItem="10000008" num="1000"/>
+				<reward rewardItem="16010013" num="5"/>
+				<reward rewardItem="60001000" num="5"/>
+			</grade>
+			<grade GradeNum="4" AmountRequired="300">
+				<reward rewardItem="12000243" num="15"/>
+				<reward rewardItem="10000015" num="100"/>
+				<reward rewardItem="10000008" num="2000"/>
+				<reward rewardItem="16010013" num="10"/>
+				<reward rewardItem="60010000" num="1"/>
+			</grade>
+			<grade GradeNum="5" AmountRequired="600">
+				<reward rewardItem="12000243" num="20"/>
+				<reward rewardItem="10000015" num="200"/>
+				<reward rewardItem="10000008" num="3000"/>
+				<reward rewardItem="16010013" num="20"/>
+				<reward rewardItem="60010000" num="2"/>
+			</grade>
+			<grade GradeNum="6" AmountRequired="1000">
+				<reward rewardItem="12000243" num="25"/>
+				<reward rewardItem="10000015" num="300"/>
+				<reward rewardItem="10000008" num="4000"/>
+				<reward rewardItem="16010013" num="40"/>
+				<reward rewardItem="60010000" num="3"/>
+			</grade>
+		</day>
+	</ActivityInformation>
+	<ActivityInformation group="10" PF="-1" DailyReset="0" name="周末活动" sortId="5" activityOpen="2019-07-05 00:00:00" activityEnds="2019-07-07 23:59:59" activityEntraceIcon="FestiveReplenishment1" ActivityBgMap="FestiveReplenishmentBg" MailId="6681">
+		<day DayNum="1">
+			<grade GradeNum="1" AmountRequired="6">
+				<reward rewardItem="12000244" num="2"/>
+				<reward rewardItem="10000015" num="10"/>
+				<reward rewardItem="16010013" num="1"/>
+				<reward rewardItem="10000007" num="500"/>
+			</grade>
+			<grade GradeNum="2" AmountRequired="30">
+				<reward rewardItem="12000244" num="5"/>
+				<reward rewardItem="10000015" num="20"/>
+				<reward rewardItem="16010013" num="2"/>
+				<reward rewardItem="10000007" num="1000"/>
+				<reward rewardItem="60001000" num="2"/>
+			</grade>
+			<grade GradeNum="3" AmountRequired="100">
+				<reward rewardItem="12000244" num="10"/>
+				<reward rewardItem="10000015" num="50"/>
+				<reward rewardItem="10000008" num="1000"/>
+				<reward rewardItem="16010013" num="5"/>
+				<reward rewardItem="60001000" num="5"/>
+			</grade>
+			<grade GradeNum="4" AmountRequired="300">
+				<reward rewardItem="12000244" num="15"/>
+				<reward rewardItem="10000015" num="100"/>
+				<reward rewardItem="10000008" num="2000"/>
+				<reward rewardItem="16010013" num="10"/>
+				<reward rewardItem="60010000" num="1"/>
+			</grade>
+			<grade GradeNum="5" AmountRequired="600">
+				<reward rewardItem="12000244" num="20"/>
+				<reward rewardItem="10000015" num="200"/>
+				<reward rewardItem="10000008" num="3000"/>
+				<reward rewardItem="16010013" num="20"/>
+				<reward rewardItem="60010000" num="2"/>
+			</grade>
+			<grade GradeNum="6" AmountRequired="1000">
+				<reward rewardItem="12000244" num="25"/>
+				<reward rewardItem="10000015" num="300"/>
+				<reward rewardItem="10000008" num="4000"/>
+				<reward rewardItem="16010013" num="40"/>
+				<reward rewardItem="60010000" num="3"/>
+			</grade>
+		</day>
+	</ActivityInformation>
+	<ActivityInformation group="11" PF="-1" DailyReset="0" name="周末活动" sortId="5" activityOpen="2019-07-12 00:00:00" activityEnds="2019-07-14 23:59:59" activityEntraceIcon="FestiveReplenishment1" ActivityBgMap="FestiveReplenishmentBg" MailId="6681">
+		<day DayNum="1">
+			<grade GradeNum="1" AmountRequired="6">
+				<reward rewardItem="12000245" num="2"/>
+				<reward rewardItem="10000015" num="10"/>
+				<reward rewardItem="16010013" num="1"/>
+				<reward rewardItem="10000007" num="500"/>
+			</grade>
+			<grade GradeNum="2" AmountRequired="30">
+				<reward rewardItem="12000245" num="5"/>
+				<reward rewardItem="10000015" num="20"/>
+				<reward rewardItem="16010013" num="2"/>
+				<reward rewardItem="10000007" num="1000"/>
+				<reward rewardItem="60001000" num="2"/>
+			</grade>
+			<grade GradeNum="3" AmountRequired="100">
+				<reward rewardItem="12000245" num="10"/>
+				<reward rewardItem="10000015" num="50"/>
+				<reward rewardItem="10000008" num="1000"/>
+				<reward rewardItem="16010013" num="5"/>
+				<reward rewardItem="60001000" num="5"/>
+			</grade>
+			<grade GradeNum="4" AmountRequired="300">
+				<reward rewardItem="12000245" num="15"/>
+				<reward rewardItem="10000015" num="100"/>
+				<reward rewardItem="10000008" num="2000"/>
+				<reward rewardItem="16010013" num="10"/>
+				<reward rewardItem="60010000" num="1"/>
+			</grade>
+			<grade GradeNum="5" AmountRequired="600">
+				<reward rewardItem="12000245" num="20"/>
+				<reward rewardItem="10000015" num="200"/>
+				<reward rewardItem="10000008" num="3000"/>
+				<reward rewardItem="16010013" num="20"/>
+				<reward rewardItem="60010000" num="2"/>
+			</grade>
+			<grade GradeNum="6" AmountRequired="1000">
+				<reward rewardItem="12000245" num="25"/>
+				<reward rewardItem="10000015" num="300"/>
+				<reward rewardItem="10000008" num="4000"/>
+				<reward rewardItem="16010013" num="40"/>
+				<reward rewardItem="60010000" num="3"/>
+			</grade>
+		</day>
+	</ActivityInformation>
+	<ActivityInformation group="12" PF="-1" DailyReset="0" name="周末活动" sortId="5" activityOpen="2019-07-19 00:00:00" activityEnds="2019-07-21 23:59:59" activityEntraceIcon="FestiveReplenishment1" ActivityBgMap="FestiveReplenishmentBg" MailId="6681">
+		<day DayNum="1">
+			<grade GradeNum="1" AmountRequired="6">
+				<reward rewardItem="12000246" num="2"/>
+				<reward rewardItem="10000015" num="10"/>
+				<reward rewardItem="16010013" num="1"/>
+				<reward rewardItem="10000007" num="500"/>
+			</grade>
+			<grade GradeNum="2" AmountRequired="30">
+				<reward rewardItem="12000246" num="5"/>
+				<reward rewardItem="10000015" num="20"/>
+				<reward rewardItem="16010013" num="2"/>
+				<reward rewardItem="10000007" num="1000"/>
+				<reward rewardItem="60001000" num="2"/>
+			</grade>
+			<grade GradeNum="3" AmountRequired="100">
+				<reward rewardItem="12000246" num="10"/>
+				<reward rewardItem="10000015" num="50"/>
+				<reward rewardItem="10000008" num="1000"/>
+				<reward rewardItem="16010013" num="5"/>
+				<reward rewardItem="60001000" num="5"/>
+			</grade>
+			<grade GradeNum="4" AmountRequired="300">
+				<reward rewardItem="12000246" num="15"/>
+				<reward rewardItem="10000015" num="100"/>
+				<reward rewardItem="10000008" num="2000"/>
+				<reward rewardItem="16010013" num="10"/>
+				<reward rewardItem="60010000" num="1"/>
+			</grade>
+			<grade GradeNum="5" AmountRequired="600">
+				<reward rewardItem="12000246" num="20"/>
+				<reward rewardItem="10000015" num="200"/>
+				<reward rewardItem="10000008" num="3000"/>
+				<reward rewardItem="16010013" num="20"/>
+				<reward rewardItem="60010000" num="2"/>
+			</grade>
+			<grade GradeNum="6" AmountRequired="1000">
+				<reward rewardItem="12000246" num="25"/>
+				<reward rewardItem="10000015" num="300"/>
+				<reward rewardItem="10000008" num="4000"/>
+				<reward rewardItem="16010013" num="40"/>
+				<reward rewardItem="60010000" num="3"/>
+			</grade>
+		</day>
+	</ActivityInformation>
+	<ActivityInformation group="13" PF="-1" DailyReset="0" name="周末活动" sortId="5" activityOpen="2019-07-26 00:00:00" activityEnds="2019-07-28 23:59:59" activityEntraceIcon="FestiveReplenishment1" ActivityBgMap="FestiveReplenishmentBg" MailId="6681">
+		<day DayNum="1">
+			<grade GradeNum="1" AmountRequired="6">
+				<reward rewardItem="12000247" num="2"/>
+				<reward rewardItem="10000015" num="10"/>
+				<reward rewardItem="16010013" num="1"/>
+				<reward rewardItem="10000007" num="500"/>
+			</grade>
+			<grade GradeNum="2" AmountRequired="30">
+				<reward rewardItem="12000247" num="5"/>
+				<reward rewardItem="10000015" num="20"/>
+				<reward rewardItem="16010013" num="2"/>
+				<reward rewardItem="10000007" num="1000"/>
+				<reward rewardItem="60001000" num="2"/>
+			</grade>
+			<grade GradeNum="3" AmountRequired="100">
+				<reward rewardItem="12000247" num="10"/>
+				<reward rewardItem="10000015" num="50"/>
+				<reward rewardItem="10000008" num="1000"/>
+				<reward rewardItem="16010013" num="5"/>
+				<reward rewardItem="60001000" num="5"/>
+			</grade>
+			<grade GradeNum="4" AmountRequired="300">
+				<reward rewardItem="12000247" num="15"/>
+				<reward rewardItem="10000015" num="100"/>
+				<reward rewardItem="10000008" num="2000"/>
+				<reward rewardItem="16010013" num="10"/>
+				<reward rewardItem="60010000" num="1"/>
+			</grade>
+			<grade GradeNum="5" AmountRequired="600">
+				<reward rewardItem="12000247" num="20"/>
+				<reward rewardItem="10000015" num="200"/>
+				<reward rewardItem="10000008" num="3000"/>
+				<reward rewardItem="16010013" num="20"/>
+				<reward rewardItem="60010000" num="2"/>
+			</grade>
+			<grade GradeNum="6" AmountRequired="1000">
+				<reward rewardItem="12000247" num="25"/>
+				<reward rewardItem="10000015" num="300"/>
+				<reward rewardItem="10000008" num="4000"/>
+				<reward rewardItem="16010013" num="40"/>
+				<reward rewardItem="60010000" num="3"/>
+			</grade>
+		</day>
+	</ActivityInformation>
+	<ActivityInformation group="14" PF="-1" DailyReset="0" name="周末活动" sortId="5" activityOpen="2019-08-02 00:00:00" activityEnds="2019-08-04 23:59:59" activityEntraceIcon="FestiveReplenishment1" ActivityBgMap="FestiveReplenishmentBg" MailId="6681">
+		<day DayNum="1">
+			<grade GradeNum="1" AmountRequired="6">
+				<reward rewardItem="12000248" num="2"/>
+				<reward rewardItem="10000015" num="10"/>
+				<reward rewardItem="16010013" num="1"/>
+				<reward rewardItem="10000007" num="500"/>
+			</grade>
+			<grade GradeNum="2" AmountRequired="30">
+				<reward rewardItem="12000248" num="5"/>
+				<reward rewardItem="10000015" num="20"/>
+				<reward rewardItem="16010013" num="2"/>
+				<reward rewardItem="10000007" num="1000"/>
+				<reward rewardItem="60001000" num="2"/>
+			</grade>
+			<grade GradeNum="3" AmountRequired="100">
+				<reward rewardItem="12000248" num="10"/>
+				<reward rewardItem="10000015" num="50"/>
+				<reward rewardItem="10000008" num="1000"/>
+				<reward rewardItem="16010013" num="5"/>
+				<reward rewardItem="60001000" num="5"/>
+			</grade>
+			<grade GradeNum="4" AmountRequired="300">
+				<reward rewardItem="12000248" num="15"/>
+				<reward rewardItem="10000015" num="100"/>
+				<reward rewardItem="10000008" num="2000"/>
+				<reward rewardItem="16010013" num="10"/>
+				<reward rewardItem="60010000" num="1"/>
+			</grade>
+			<grade GradeNum="5" AmountRequired="600">
+				<reward rewardItem="12000248" num="20"/>
+				<reward rewardItem="10000015" num="200"/>
+				<reward rewardItem="10000008" num="3000"/>
+				<reward rewardItem="16010013" num="20"/>
+				<reward rewardItem="60010000" num="2"/>
+			</grade>
+			<grade GradeNum="6" AmountRequired="1000">
+				<reward rewardItem="12000248" num="25"/>
+				<reward rewardItem="10000015" num="300"/>
+				<reward rewardItem="10000008" num="4000"/>
+				<reward rewardItem="16010013" num="40"/>
+				<reward rewardItem="60010000" num="3"/>
+			</grade>
+		</day>
+	</ActivityInformation>
+</root>

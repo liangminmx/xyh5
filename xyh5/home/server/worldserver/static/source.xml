@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+itemid	道具id
+name	道具名字（识别用）
+type	对应的产出id标识
+sourceid 产出途径id，
+name=产出途径描述
+linktype=产出途径类型，1为功能界面，2为活动界面
+
+-->
+	<!--
+100段为活动，（尽量与功能ID保持一致方便维护，如功能ID66为副本，则产出为副本的ID为166）；
+200为商城、摆摊、购买等渠道；
+300为其他；
+拓展顺延-->
+	<!--道具itemid对应产出途径-->
+	<item itemid="11004" name="天兵卡" type="2005"/>
+	<item itemid="11005" name="蟹将卡" type="2003"/>
+	<item itemid="11001" name="百花羞卡" type="2003"/>
+	<item itemid="11003" name="狐狸精卡" type="2003"/>
+	<item itemid="10000006" name="神豆豆" type="2052,1034"/>
+	<item itemid="10000007" name="橙装碎片" type="2021,4005,10035"/>
+	<item itemid="10000008" name="红装碎片" type="2057,10035"/>
+	<item itemid="10000009" name="万能进阶丹" type="2017,2057"/>
+	<item itemid="10000012" name="精炼石" type="5002,1034,2055"/>
+	<item itemid="10000013" name="锻造石" type="4005,1034,2009"/>
+	<item itemid="10000014" name="宝石碎片" type="4005,2055,1034"/>
+	<item itemid="10000015" name="突破丹" type="2009,4005"/>
+	<item itemid="10000016" name="月华露" type="2009,1033,1022"/>
+	<item itemid="10000042" name="角色进阶卡" type="20002"/>
+	<item itemid="14010001" name="坐骑属性丹" type="2042"/>
+	<item itemid="14010101" name="坐骑技能书" type="10038"/>
+	<item itemid="14010201" name="坐骑升阶丹" type="2009"/>
+	<item itemid="14020001" name="变身属性丹" type="2042"/>
+	<item itemid="14020101" name="变身技能书" type="10038"/>
+	<item itemid="14020201" name="变身升阶丹" type="2009"/>
+	<item itemid="14030001" name="翅膀属性丹" type="2042"/>
+	<item itemid="14030101" name="翅膀技能书" type="10038"/>
+	<item itemid="14030201" name="翅膀升阶丹" type="2009"/>
+	<item itemid="14040001" name="阵法属性丹" type="2042"/>
+	<item itemid="14040101" name="阵法技能书" type="10038"/>
+	<item itemid="14040201" name="阵法升阶丹" type="2009"/>
+	<item itemid="14050001" name="法宝属性丹" type="2042"/>
+	<item itemid="14050101" name="法宝技能书" type="10038"/>
+	<item itemid="14050201" name="法宝升阶丹" type="2009"/>
+	<item itemid="14070001" name="仙位属性丹" type="2042"/>
+	<item itemid="14070101" name="仙位技能书" type="10038"/>
+	<item itemid="14070201" name="仙位升阶丹" type="2009"/>
+	<item itemid="14060001" name="气血丹" type="2057,2042,1022"/>
+	<item itemid="14060002" name="攻击丹" type="2057,2042,1022"/>
+	<item itemid="14060003" name="防御丹" type="2057,2042,1022"/>
+	<item itemid="14060004" name="速度丹" type="2057,2042,1022"/>
+	<item itemid="14060005" name="闪避丹" type="2057,2042,1022"/>
+	<item itemid="14060006" name="暴击丹" type="2057,2042,1022"/>
+	<item itemid="14060007" name="伤害丹" type="2057,2042,1022"/>
+	<item itemid="14060008" name="免伤丹" type="2057,2042,1022"/>
+	<item itemid="11021050" name="小骨妖碎片" type="2005,4005"/>
+	<item itemid="11021051" name="强盗李彪碎片" type="2005,4005"/>
+	<item itemid="11021052" name="侠女碎片" type="2005,4005"/>
+	<item itemid="11021053" name="荷花女妖碎片" type="2005,4005"/>
+	<item itemid="11021054" name="天庭女仙碎片" type="2005,4005"/>
+	<item itemid="11021055" name="御林军碎片" type="2005,4005"/>
+	<item itemid="11021056" name="僵尸碎片" type="2005,4005"/>
+	<item itemid="11021057" name="元辰星君碎片" type="2005,4005"/>
+	<item itemid="11021058" name="小和尚碎片" type="2005,4005"/>
+	<item itemid="11021059" name="鬼怪碎片" type="2005,4005"/>
+	<item itemid="11021060" name="天兵碎片" type="2005,4005"/>
+	<item itemid="11021061" name="小淘气碎片" type="2005,4005"/>
+	<item itemid="11051062" name="斗战胜佛碎片" type="30001"/>
+	<item itemid="11051063" name="净坛使者碎片" type="10035"/>
+	<item itemid="11051064" name="金身罗汉碎片" type="10035"/>
+	<item itemid="11051065" name="旃檀功德佛碎片" type="10035"/>
+	<item itemid="11031026" name="大当家碎片" type="2005,4005"/>
+	<item itemid="11031027" name="白菁晶碎片" type="2005,4005"/>
+	<item itemid="11031028" name="女儿国国王碎片" type="2005,4005"/>
+	<item itemid="11031029" name="春十三娘碎片" type="2005,4005"/>
+	<item itemid="11031030" name="猪刚鬣碎片" type="2005,4005"/>
+	<item itemid="11031031" name="袁天罡碎片" type="2005,4005"/>
+	<item itemid="11031032" name="空度禅师碎片" type="2005,4005"/>
+	<item itemid="11031033" name="钟馗碎片" type="2005,4005"/>
+	<item itemid="11032042" name="托塔天王碎片" type="2005,4005"/>
+	<item itemid="11032043" name="东海龙王碎片" type="2005,4005"/>
+	<item itemid="11032044" name="延寿星君碎片" type="2005,4005"/>
+	<item itemid="11032045" name="嫦娥碎片" type="2005,4005"/>
+	<item itemid="11032046" name="巨灵神碎片" type="2005,4005"/>
+	<item itemid="11032047" name="北海龙子碎片" type="2005,4005"/>
+	<item itemid="11032048" name="青玄仙女碎片" type="2005,4005"/>
+	<item itemid="11032049" name="阎罗王碎片" type="2005,4005"/>
+	<item itemid="11033034" name="九头虫碎片" type="2005,4005"/>
+	<item itemid="11033035" name="蛟魔王碎片" type="2005,4005"/>
+	<item itemid="11033036" name="白骨精碎片" type="2005,4005"/>
+	<item itemid="11033037" name="白象王碎片" type="2005,4005"/>
+	<item itemid="11033038" name="青狮王碎片" type="2005,4005"/>
+	<item itemid="11033039" name="大鹏王碎片" type="2005,4005"/>
+	<item itemid="11033040" name="玉兔精碎片" type="2005,4005"/>
+	<item itemid="11033041" name="蜘蛛精碎片" type="2005,4005"/>
+	<item itemid="11041001" name="孙悟空碎片" type="2005,4005"/>
+	<item itemid="11041002" name="猪悟能碎片" type="2005,4005"/>
+	<item itemid="11041003" name="唐僧碎片" type="2005,4005"/>
+	<item itemid="11041004" name="小白龙碎片" type="2005,4005"/>
+	<item itemid="11041021" name="标准物功碎片" type="2005,4005"/>
+	<item itemid="11041022" name="镇元子碎片" type="2005,4005"/>
+	<item itemid="11041023" name="紫霞碎片" type="2005,4005"/>
+	<item itemid="11041024" name="沙悟净碎片" type="2005,4005"/>
+	<item itemid="11041025" name="菩提子碎片" type="2005,4005"/>
+	<item itemid="11042009" name="玉帝碎片" type="2005,4005"/>
+	<item itemid="11042010" name="王母碎片" type="2005,4005"/>
+	<item itemid="11042011" name="观音碎片" type="2005,4005"/>
+	<item itemid="11042012" name="太乙真人碎片" type="2005,4005"/>
+	<item itemid="11042013" name="二郎真君碎片" type="2005,4005"/>
+	<item itemid="11042014" name="哪吒碎片" type="2005,4005"/>
+	<item itemid="11042015" name="南极仙翁碎片" type="2005,4005"/>
+	<item itemid="11042016" name="太白金星碎片" type="2005,4005"/>
+	<item itemid="11043005" name="牛魔王碎片" type="2005,4005"/>
+	<item itemid="11043006" name="铁扇公主碎片" type="2005,4005"/>
+	<item itemid="11043007" name="红孩儿碎片" type="2005,4005"/>
+	<item itemid="11043008" name="玉面狐狸碎片" type="2005,4005"/>
+	<item itemid="11043017" name="银角大王碎片" type="2005,4005"/>
+	<item itemid="11043018" name="青牛精碎片" type="2005,4005"/>
+	<item itemid="11043019" name="地涌夫人碎片" type="2005,4005"/>
+	<item itemid="11043020" name="金角大王碎片" type="2005,4005"/>
+	<item itemid="10000010" name="洗练石" type="2052"/>
+	<item itemid="10000003" name="招募令" type="2055,2018,1022"/>
+	<item itemid="10000004" name="高级招募令" type="4005,2037"/>
+	<item itemid="6" name="伙伴魂魄" type="10035,2005"/>
+	<item itemid="16010013" name="寻宝卷轴" type="10035"/>
+	<item itemid="10000100" name="修炼丹" type="20002,2042"/>
+	<item itemid="10100101" name="1级红色符石" type="10035"/>
+	<item itemid="10100102" name="2级红色符石" type="10035"/>
+	<item itemid="10100103" name="3级红色符石" type="10035"/>
+	<item itemid="10100104" name="4级红色符石" type="10035"/>
+	<item itemid="10100105" name="5级红色符石" type="10035"/>
+	<item itemid="10100106" name="6级红色符石" type="10035"/>
+	<item itemid="10100107" name="7级红色符石" type="10035"/>
+	<item itemid="10100108" name="8级红色符石" type="10035"/>
+	<item itemid="10100109" name="9级红色符石" type="10035"/>
+	<item itemid="10100110" name="10级红色符石" type="10035"/>
+	<item itemid="10100111" name="11级红色符石" type="10035"/>
+	<item itemid="10100112" name="12级红色符石" type="10035"/>
+	<item itemid="10100113" name="13级红色符石" type="10035"/>
+	<item itemid="10100114" name="14级红色符石" type="10035"/>
+	<item itemid="10100115" name="15级红色符石" type="10035"/>
+	<item itemid="10100116" name="16级红色符石" type="10035"/>
+	<item itemid="10100117" name="17级红色符石" type="10035"/>
+	<item itemid="10100118" name="18级红色符石" type="10035"/>
+	<item itemid="10100119" name="19级红色符石" type="10035"/>
+	<item itemid="10100120" name="20级红色符石" type="10035"/>
+	<item itemid="10100201" name="1级黄色符石" type="10035"/>
+	<item itemid="10100202" name="2级黄色符石" type="10035"/>
+	<item itemid="10100203" name="3级黄色符石" type="10035"/>
+	<item itemid="10100204" name="4级黄色符石" type="10035"/>
+	<item itemid="10100205" name="5级黄色符石" type="10035"/>
+	<item itemid="10100206" name="6级黄色符石" type="10035"/>
+	<item itemid="10100207" name="7级黄色符石" type="10035"/>
+	<item itemid="10100208" name="8级黄色符石" type="10035"/>
+	<item itemid="10100209" name="9级黄色符石" type="10035"/>
+	<item itemid="10100210" name="10级黄色符石" type="10035"/>
+	<item itemid="10100211" name="11级黄色符石" type="10035"/>
+	<item itemid="10100212" name="12级黄色符石" type="10035"/>
+	<item itemid="10100213" name="13级黄色符石" type="10035"/>
+	<item itemid="10100214" name="14级黄色符石" type="10035"/>
+	<item itemid="10100215" name="15级黄色符石" type="10035"/>
+	<item itemid="10100216" name="16级黄色符石" type="10035"/>
+	<item itemid="10100217" name="17级黄色符石" type="10035"/>
+	<item itemid="10100218" name="18级黄色符石" type="10035"/>
+	<item itemid="10100219" name="19级黄色符石" type="10035"/>
+	<item itemid="10100220" name="20级黄色符石" type="10035"/>
+	<item itemid="10100301" name="1级蓝色符石" type="10035"/>
+	<item itemid="10100302" name="2级蓝色符石" type="10035"/>
+	<item itemid="10100303" name="3级蓝色符石" type="10035"/>
+	<item itemid="10100304" name="4级蓝色符石" type="10035"/>
+	<item itemid="10100305" name="5级蓝色符石" type="10035"/>
+	<item itemid="10100306" name="6级蓝色符石" type="10035"/>
+	<item itemid="10100307" name="7级蓝色符石" type="10035"/>
+	<item itemid="10100308" name="8级蓝色符石" type="10035"/>
+	<item itemid="10100309" name="9级蓝色符石" type="10035"/>
+	<item itemid="10100310" name="10级蓝色符石" type="10035"/>
+	<item itemid="10100311" name="11级蓝色符石" type="10035"/>
+	<item itemid="10100312" name="12级蓝色符石" type="10035"/>
+	<item itemid="10100313" name="13级蓝色符石" type="10035"/>
+	<item itemid="10100314" name="14级蓝色符石" type="10035"/>
+	<item itemid="10100315" name="15级蓝色符石" type="10035"/>
+	<item itemid="10100316" name="16级蓝色符石" type="10035"/>
+	<item itemid="10100317" name="17级蓝色符石" type="10035"/>
+	<item itemid="10100318" name="18级蓝色符石" type="10035"/>
+	<item itemid="10100319" name="19级蓝色符石" type="10035"/>
+	<item itemid="10100320" name="20级蓝色符石" type="10035"/>
+	<item itemid="10000044" name="999朵玫瑰" type="20002"/>
+	<item itemid="16010059" name="高级招募令碎片" type="10035"/>
+	<item itemid="16010061" name="梅花酒" type="10035"/>
+	<item itemid="16010062" name="百味酒" type="10035"/>
+	<item itemid="16010063" name="蛇胆酒" type="10035"/>
+	<item itemid="16010068" name="醉生梦死" type="10035"/>
+	<item itemid="16010070" name="经脉丹" type="10035"/>
+	<!--宠物产出-->
+	<item itemid="12010001" name="泡泡" outPut="运营活动" type="10035"/>
+	<item itemid="12010002" name="小海龟" outPut="商店购买" type="20001"/>
+	<item itemid="12020003" name="寄居蟹" outPut="商店购买" type="20001"/>
+	<item itemid="12020004" name="野猪" outPut="商店购买" type="20001"/>
+	<item itemid="12030005" name="树妖" outPut="商店购买" type="20001"/>
+	<item itemid="12030006" name="羊角怪" outPut="商店购买" type="20001"/>
+	<item itemid="12030007" name="狐妖" outPut="商店购买" type="20001"/>
+	<item itemid="12040008" name="小花妖" outPut="商店购买" type="20001"/>
+	<item itemid="12040009" name="虎精" outPut="商店购买，签到" type="20001,10038"/>
+	<item itemid="12040010" name="蛮熊怪" outPut="商店购买，签到" type="20001,10038"/>
+	<item itemid="12050011" name="小龙女" outPut="商店购买" type="20001"/>
+	<item itemid="12050012" name="牛头怪" outPut="商店购买" type="20001"/>
+	<item itemid="12050013" name="马面怪" outPut="商店购买" type="20001"/>
+	<item itemid="12060014" name="伞妖" outPut="商店购买，BOSS挑战" type="20001,2045"/>
+	<item itemid="12060015" name="虾兵" outPut="商店购买" type="20001"/>
+	<item itemid="12060016" name="蟹将" outPut="商店购买" type="20001"/>
+	<item itemid="12070017" name="上古瑞兽" outPut="运营活动，商店购买" type="20001,10035"/>
+	<item itemid="12070018" name="画中仙" outPut="每日折扣" type="10035"/>
+	<item itemid="12070019" name="嗜血鬼" outPut="签到" type="10038"/>
+	<item itemid="12080020" name="无面鬼将" outPut="寻宝" type="2052"/>
+	<item itemid="12080021" name="蟠桃童子" outPut="寻宝" type="2052"/>
+	<item itemid="12090023" name="黑山老妖" outPut="每日折扣" type="10035"/>
+	<item itemid="12100026" name="芙蓉仙女" outPut="寻宝" type="2052"/>
+	<item itemid="12100027" name="吞天虎" outPut="寻宝" type="2052"/>
+	<item itemid="12000030" name="鲲鹏" outPut="VIP礼包，娃娃机" type="30001,2053"/>
+	<item itemid="12000031" name="小火龙" outPut="娃娃机" type="2053"/>
+	<item itemid="12000032" name="超级泡泡" outPut="首充，娃娃机" type="10037,2053"/>
+	<item itemid="12000033" name="哮天犬" outPut="娃娃机" type="2053"/>
+	<item itemid="12000034" name="熊猫" outPut="娃娃机" type="2053"/>
+	<item itemid="12000035" name="九色鹿" outPut="娃娃机" type="2053"/>
+	<item itemid="12000036" name="白泽" outPut="BOSS挑战，娃娃机" type="2045,2053"/>
+	<item itemid="12000037" name="猪小戒" outPut="运营活动" type="10035"/>
+	<item itemid="12000237" name="猪小戒碎片" outPut="运营活动" type="10035"/>
+	<item itemid="12000038" name="炎魔仙" outPut="运营活动" type="10035"/>
+	<item itemid="12000238" name="炎魔仙碎片" outPut="运营活动" type="10035"/>
+	<item itemid="12000039" name="淘气宝贝" outPut="运营活动" type="10035"/>
+	<item itemid="12000239" name="淘气宝贝碎片" outPut="运营活动" type="10035"/>
+	<item itemid="12000040" name="仙符女娲" outPut="运营活动" type="10035"/>
+	<item itemid="12000240" name="仙符女娲碎片" outPut="运营活动" type="10035"/>
+	<item itemid="12000041" name="金饶僧" outPut="运营活动" type="10035"/>
+	<item itemid="12000241" name="金饶僧碎片" outPut="运营活动" type="10035"/>
+	<item itemid="12000042" name="长眉灵猴" outPut="运营活动" type="10035"/>
+	<item itemid="12000242" name="长眉灵猴碎片" outPut="运营活动" type="10035"/>
+	<item itemid="12000043" name="夜罗刹" outPut="运营活动" type="10035"/>
+	<item itemid="12000243" name="夜罗刹碎片" outPut="运营活动" type="10035"/>
+	<item itemid="12000044" name="净瓶女娲" outPut="运营活动" type="10035"/>
+	<item itemid="12000244" name="净瓶女娲碎片" outPut="运营活动" type="10035"/>
+	<item itemid="12000045" name="斗战胜佛" outPut="运营活动" type="10035"/>
+	<item itemid="12000245" name="斗战胜佛碎片" outPut="运营活动" type="10035"/>
+	<item itemid="12000046" name="卷帘大将" outPut="运营活动" type="10035"/>
+	<item itemid="12000246" name="卷帘大将碎片" outPut="运营活动" type="10035"/>
+	<item itemid="12000047" name="天蓬元帅" outPut="运营活动" type="10035"/>
+	<item itemid="12000247" name="天蓬元帅碎片" outPut="运营活动" type="10035"/>
+	<item itemid="12000048" name="大唐圣僧" outPut="运营活动" type="10035"/>
+	<item itemid="12000248" name="大唐圣僧碎片" outPut="运营活动" type="10035"/>
+	<item itemid="12000230" name="鲲鹏碎片" outPut="运营活动" type="10035"/>
+	<item itemid="12000231" name="小火龙碎片" outPut="运营活动" type="10035"/>
+	<item itemid="12000232" name="超级泡泡碎片" outPut="运营活动" type="10035"/>
+	<item itemid="12000233" name="哮天犬碎片" outPut="运营活动" type="10035"/>
+	<item itemid="12000234" name="熊猫碎片" outPut="运营活动" type="10035"/>
+	<item itemid="12000235" name="九色鹿碎片" outPut="运营活动" type="10035"/>
+	<item itemid="12000236" name="白泽碎片" outPut="运营活动" type="10035"/>
+	<item itemid="12000229" name="炎魔仙碎片" outPut="运营活动" type="10035"/>
+	<item itemid="12070217" name="上古瑞兽碎片" outPut="运营活动" type="10035"/>
+	<item itemid="12080220" name="无面鬼将碎片" outPut="运营活动" type="10035"/>
+	<item itemid="12080221" name="蟠桃童子碎片" outPut="运营活动" type="10035"/>
+	<item itemid="12090224" name="瑶池天兵碎片" outPut="运营活动" type="10035"/>
+	<item itemid="12090225" name="彩凤仙女碎片" outPut="运营活动" type="10035"/>
+	<item itemid="12100226" name="芙蓉仙女碎片" outPut="运营活动" type="10035"/>
+	<item itemid="12100227" name="吞天虎碎片" outPut="运营活动" type="10035"/>
+	<item itemid="12100228" name="西海蛟龙碎片" outPut="运营活动" type="10035"/>
+	<item itemid="16010051" name="寻宝卷轴碎片" outPut="运营活动" type="10035"/>
+	<item itemid="16010052" name="寻星石碎片" outPut="运营活动" type="10035"/>
+	<!--养成装备产出-->
+	<item itemid="1010101" name="马鞭" outPut="组队副本" type="2056"/>
+	<item itemid="1020101" name="蹄铁" outPut="组队副本" type="2056"/>
+	<item itemid="1030101" name="马鞍" outPut="组队副本" type="2056"/>
+	<item itemid="1040101" name="马镫" outPut="组队副本" type="2056"/>
+	<item itemid="2010101" name="神石" outPut="组队副本" type="2056"/>
+	<item itemid="2020101" name="神铁" outPut="组队副本" type="2056"/>
+	<item itemid="2030101" name="神柄" outPut="组队副本" type="2056"/>
+	<item itemid="2040101" name="神骨" outPut="组队副本" type="2056"/>
+	<item itemid="3010101" name="飞纹" outPut="组队副本" type="2056"/>
+	<item itemid="3020101" name="飞骨" outPut="组队副本" type="2056"/>
+	<item itemid="3030101" name="飞玉" outPut="组队副本" type="2056"/>
+	<item itemid="3040101" name="飞符" outPut="组队副本" type="2056"/>
+	<item itemid="4010101" name="仙甲" outPut="组队副本" type="2056"/>
+	<item itemid="4020101" name="仙翎" outPut="组队副本" type="2056"/>
+	<item itemid="4030101" name="仙符" outPut="组队副本" type="2056"/>
+	<item itemid="4040101" name="仙血" outPut="组队副本" type="2056"/>
+	<item itemid="5010101" name="灵玉" outPut="组队副本" type="2056"/>
+	<item itemid="5020101" name="灵符" outPut="组队副本" type="2056"/>
+	<item itemid="5030101" name="灵珠" outPut="组队副本" type="2056"/>
+	<item itemid="5040101" name="灵石" outPut="组队副本" type="2056"/>
+	<item itemid="6010101" name="地灵" outPut="组队副本" type="2056"/>
+	<item itemid="6020101" name="明水" outPut="组队副本" type="2056"/>
+	<item itemid="6030101" name="天火" outPut="组队副本" type="2056"/>
+	<item itemid="6040101" name="阴风" outPut="组队副本" type="2056"/>
+	<item itemid="7010101" name="法印" outPut="组队副本" type="2056"/>
+	<item itemid="7020101" name="令旗" outPut="组队副本" type="2056"/>
+	<item itemid="7030101" name="八卦" outPut="组队副本" type="2056"/>
+	<item itemid="7040101" name="符篆" outPut="组队副本" type="2056"/>
+	<item itemid="8010101" name="雷甲" outPut="组队副本" type="2056"/>
+	<item itemid="8020101" name="冥火" outPut="组队副本" type="2056"/>
+	<item itemid="8030101" name="星羽" outPut="组队副本" type="2056"/>
+	<item itemid="8040101" name="夜翼" outPut="组队副本" type="2056"/>
+	<!--注灵石道具产出-->
+	<item itemid="16010100" name="坐骑注灵石" outPut="运营活动" type="6669,10035"/>
+	<item itemid="16010102" name="羽翼注灵石" outPut="运营活动" type="6669,10035"/>
+	<item itemid="16010103" name="阵法注灵石" outPut="运营活动" type="6669,10035"/>
+	<item itemid="16010104" name="法宝注灵石" outPut="运营活动" type="6669,10035"/>
+	<item itemid="16010105" name="变身注灵石" outPut="运营活动" type="6669,10035"/>
+	<item itemid="16010106" name="仙位注灵石" outPut="运营活动" type="6669,10035"/>
+	<item itemid="16010107" name="灵骑注灵石" outPut="运营活动" type="6669,10035"/>
+	<!--星盘道具产出-->
+	<item itemid="18010101" name="地魁星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010102" name="地英星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010103" name="地阖星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010104" name="地佑星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010105" name="地默星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010106" name="地明星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010107" name="地隐星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010108" name="地速星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010109" name="地伏星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010110" name="地角星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010111" name="地察星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010112" name="地壮星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010113" name="地煞星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010114" name="地奇星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010115" name="地强星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010116" name="地灵星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010117" name="地猖星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010118" name="地进星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010119" name="地异星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010120" name="地镇星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010121" name="地僻星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010122" name="地囚星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010123" name="地恶星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010124" name="地劣星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010125" name="地勇星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010126" name="地猛星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010127" name="地暗星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010128" name="地兽星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010129" name="地狂星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010130" name="地退星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010131" name="地理星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010132" name="地稽星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010133" name="地空星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010134" name="地藏星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010135" name="地魂星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010136" name="地健星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010137" name="地杰星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010138" name="地文星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010139" name="地辅星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010140" name="地微星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010141" name="地飞星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010142" name="地满星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010143" name="地俊星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010144" name="地魔星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010145" name="地孤星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010146" name="地平星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010147" name="地数星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010148" name="地贼星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010149" name="地雄星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010150" name="地正星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010151" name="地会星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010152" name="地慧星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010153" name="地走星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010154" name="地遂星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010155" name="地乐星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010156" name="地妖星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010157" name="地全星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010158" name="地损星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010159" name="地阴星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010160" name="地戚星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010161" name="地威星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010162" name="地辟星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010163" name="地佐星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010164" name="地暴星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010165" name="地巧星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010166" name="地周星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010167" name="地捷星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010168" name="地幽星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010169" name="地短星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010170" name="地奴星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010171" name="地刑星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18010172" name="地狗星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18020101" name="天魁星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18020102" name="天猛星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18020103" name="天孤星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18020104" name="天空星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18020105" name="天退星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18020106" name="天败星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18020107" name="天罡星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18020108" name="天威星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18020109" name="天伤星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18020110" name="天速星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18020111" name="天寿星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18020112" name="天牢星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18020113" name="天机星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18020114" name="天英星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18020115" name="天玄星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18020116" name="天异星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18020117" name="天剑星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18020118" name="天慧星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18020119" name="天闲星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18020120" name="天贵星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18020121" name="天健星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18020122" name="天煞星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18020123" name="天平星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18020124" name="天暴星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18020125" name="天勇星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18020126" name="天富星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18020127" name="天暗星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18020128" name="天微星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18020129" name="天罪星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18020130" name="天哭星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18020131" name="天雄星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18020132" name="天满星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18020133" name="天佑星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18020134" name="天究星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18020135" name="天损星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18020136" name="天巧星" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18030101" name="角木蛟" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18030102" name="亢金龙" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18030103" name="氐土貉" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18030104" name="房日兔" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18030105" name="心月狐" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18030106" name="尾火虎" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18030107" name="箕水豹" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18030108" name="井木犴" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18030109" name="鬼金羊" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18030110" name="柳土獐" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18030111" name="星日马" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18030112" name="张月鹿" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18030113" name="翼火蛇" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18030114" name="轸水蚓" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18030115" name="奎木狼" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18030116" name="娄金狗" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18030117" name="胃土雉" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18030118" name="昴日鸡" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18030119" name="毕月乌" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18030120" name="觜火猴" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18030121" name="参水猿" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18030122" name="斗木獬" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18030123" name="牛金牛" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18030124" name="女土蝠" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18030125" name="虚日鼠" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18030126" name="危月燕" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18030127" name="室火猪" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18030128" name="壁水貐" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18130101" name="角木蛟碎片" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18130102" name="亢金龙碎片" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18130103" name="氐土貉碎片" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18130104" name="房日兔碎片" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18130105" name="心月狐碎片" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18130106" name="尾火虎碎片" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18130107" name="箕水豹碎片" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18130108" name="井木犴碎片" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18130109" name="鬼金羊碎片" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18130110" name="柳土獐碎片" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18130111" name="星日马碎片" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18130112" name="张月鹿碎片" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18130113" name="翼火蛇碎片" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18130114" name="轸水蚓碎片" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18130115" name="奎木狼碎片" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18130116" name="娄金狗碎片" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18130117" name="胃土雉碎片" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18130118" name="昴日鸡碎片" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18130119" name="毕月乌碎片" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18130120" name="觜火猴碎片" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18130121" name="参水猿碎片" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18130122" name="斗木獬碎片" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18130123" name="牛金牛碎片" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18130124" name="女土蝠碎片" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18130125" name="虚日鼠碎片" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18130126" name="危月燕碎片" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18130127" name="室火猪碎片" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18130128" name="壁水貐碎片" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18040101" name="东方青龙" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18040102" name="西方白虎" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18040103" name="北方玄武" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18040104" name="南方朱雀" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18040105" name="中央黄龙" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18040106" name="计都星君" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18040107" name="火德星君" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18040108" name="木德星君" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18040109" name="太阴星君" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18040110" name="土德星君" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18040111" name="罗睺星君" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18040112" name="太阳星君" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18040113" name="金德星君" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18040114" name="水德星君" outPut="运营活动" type="6669,10035"/>
+	<item itemid="18140101" name="东方青龙碎片" outPut="运营活动" type="10035"/>
+	<item itemid="18140102" name="西方白虎碎片" outPut="运营活动" type="10035"/>
+	<item itemid="18140103" name="北方玄武碎片" outPut="运营活动" type="10035"/>
+	<item itemid="18140104" name="南方朱雀碎片" outPut="运营活动" type="10035"/>
+	<item itemid="18140105" name="中央黄龙碎片" outPut="运营活动" type="10035"/>
+	<item itemid="18140106" name="计都星君碎片" outPut="运营活动" type="10035"/>
+	<item itemid="18140107" name="火德星君碎片" outPut="运营活动" type="10035"/>
+	<item itemid="18140108" name="木德星君碎片" outPut="运营活动" type="10035"/>
+	<item itemid="18140109" name="太阴星君碎片" outPut="运营活动" type="10035"/>
+	<item itemid="18140110" name="土德星君碎片" outPut="运营活动" type="10035"/>
+	<item itemid="18140111" name="罗睺星君碎片" outPut="运营活动" type="10035"/>
+	<item itemid="18140112" name="太阳星君碎片" outPut="运营活动" type="10035"/>
+	<item itemid="18140113" name="金德星君碎片" outPut="运营活动" type="10035"/>
+	<item itemid="18140114" name="水德星君碎片" outPut="运营活动" type="10035"/>
+	<item itemid="19000111" name="蓝装头盔图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000112" name="蓝装项链图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000113" name="蓝装武器图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000114" name="蓝装铠甲图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000115" name="蓝装腰带图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000116" name="蓝装鞋子图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000121" name="紫装头盔图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000122" name="紫装项链图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000123" name="紫装武器图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000124" name="紫装铠甲图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000125" name="紫装腰带图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000126" name="紫装鞋子图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000131" name="橙装头盔图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000132" name="橙装项链图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000133" name="橙装武器图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000134" name="橙装铠甲图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000135" name="橙装腰带图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000136" name="橙装鞋子图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000141" name="红装头盔图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000142" name="红装项链图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000143" name="红装武器图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000144" name="红装铠甲图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000145" name="红装腰带图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000146" name="红装鞋子图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000201" name="小海龟图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000202" name="巨蛙图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000203" name="寄居蟹图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000204" name="海星图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000205" name="虾兵图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000206" name="蟹将图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000207" name="泡泡图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000208" name="仙鹤童子图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000209" name="上古瑞兽图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000210" name="蟠桃童子图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000211" name="瑶池天兵图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000212" name="彩凤仙女图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000213" name="芙蓉仙女图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000214" name="吞天虎图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000215" name="西海蛟龙图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000216" name="巡天神将图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000217" name="超级泡泡图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000218" name="【神兽】鲲鹏图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000219" name="【神兽】小火龙图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000220" name="【神兽】白泽图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000221" name="【神兽】熊猫图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000222" name="【神兽】九色鹿图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000223" name="【神兽】哮天犬图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000301" name="阎罗王图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000302" name="空度禅师图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000303" name="青玄仙女图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000304" name="延寿星君图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000305" name="袁天罡图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000306" name="钟馗图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000307" name="白菁晶图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000308" name="春十三娘图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000309" name="玉兔精图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000310" name="青狮王图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000311" name="白象王图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000312" name="大鹏王图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000313" name="大当家图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000314" name="猪刚鬣图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000315" name="白骨精图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000316" name="蝎子精图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000317" name="东海龙王图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000318" name="北海龙子图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000319" name="九头虫图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000320" name="蛟魔王图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000321" name="嫦娥图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000322" name="女儿国国王图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000323" name="托塔天王图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000324" name="巨灵神图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000325" name="青牛精图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000326" name="紫霞图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000327" name="二郎真君图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000328" name="哪吒图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000329" name="金角大王图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000330" name="银角大王图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000331" name="太乙真人图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000332" name="镇元子图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000333" name="菩提子图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000334" name="太白金星图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000335" name="观音图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000336" name="玉面狐狸图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000337" name="南极仙翁图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000338" name="地涌夫人图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000339" name="玉帝图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000340" name="王母图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000341" name="牛魔王图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000342" name="铁扇公主图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000343" name="红孩儿图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000344" name="孙悟空图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000345" name="猪悟能图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000346" name="唐僧图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000347" name="小白龙图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000348" name="沙悟净图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19100325" name="青牛精图鉴碎片" outPut="运营活动" type="10035"/>
+	<item itemid="19100326" name="紫霞图鉴碎片" outPut="运营活动" type="10035"/>
+	<item itemid="19100327" name="二郎真君图鉴碎片" outPut="运营活动" type="10035"/>
+	<item itemid="19100328" name="哪吒图鉴碎片" outPut="运营活动" type="10035"/>
+	<item itemid="19100329" name="金角大王图鉴碎片" outPut="运营活动" type="10035"/>
+	<item itemid="19100330" name="银角大王图鉴碎片" outPut="运营活动" type="10035"/>
+	<item itemid="19100331" name="太乙真人图鉴碎片" outPut="运营活动" type="10035"/>
+	<item itemid="19100332" name="镇元子图鉴碎片" outPut="运营活动" type="10035"/>
+	<item itemid="19100333" name="菩提子图鉴碎片" outPut="运营活动" type="10035"/>
+	<item itemid="19100334" name="太白金星图鉴碎片" outPut="运营活动" type="10035"/>
+	<item itemid="19100335" name="观音图鉴碎片" outPut="运营活动" type="10035"/>
+	<item itemid="19100336" name="玉面狐狸图鉴碎片" outPut="运营活动" type="10035"/>
+	<item itemid="19100337" name="南极仙翁图鉴碎片" outPut="运营活动" type="10035"/>
+	<item itemid="19100338" name="地涌夫人图鉴碎片" outPut="运营活动" type="10035"/>
+	<item itemid="19100339" name="玉帝图鉴碎片" outPut="运营活动" type="10035"/>
+	<item itemid="19100340" name="王母图鉴碎片" outPut="运营活动" type="10035"/>
+	<item itemid="19100341" name="牛魔王图鉴碎片" outPut="运营活动" type="10035"/>
+	<item itemid="19100342" name="铁扇公主图鉴碎片" outPut="运营活动" type="10035"/>
+	<item itemid="19100343" name="红孩儿图鉴碎片" outPut="运营活动" type="10035"/>
+	<item itemid="19100344" name="孙悟空图鉴碎片" outPut="运营活动" type="10035"/>
+	<item itemid="19100345" name="猪悟能图鉴碎片" outPut="运营活动" type="10035"/>
+	<item itemid="19100346" name="唐僧图鉴碎片" outPut="运营活动" type="10035"/>
+	<item itemid="19100347" name="小白龙图鉴碎片" outPut="运营活动" type="10035"/>
+	<item itemid="19100348" name="沙悟净图鉴碎片" outPut="运营活动" type="10035"/>
+	<item itemid="19000349" name="斗战圣佛图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000350" name="净坛使者图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000351" name="旃檀功德佛图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000352" name="金身罗汉图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000353" name="八部天龙图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000401" name="野猪图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000402" name="树妖图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000403" name="蛤蟆精图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000404" name="狼图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000405" name="羊角怪图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000406" name="狐妖图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000407" name="小花妖图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000408" name="虎精图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000409" name="蛮熊图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000410" name="牛头图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000411" name="马面图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000412" name="小龙女图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000413" name="画中仙图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000414" name="嗜血鬼图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000415" name="黑山老妖图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000416" name="伞妖图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19000417" name="无面鬼将图鉴" outPut="运营活动" type="10035"/>
+	<item itemid="19100349" name="斗战圣佛图鉴碎片" outPut="运营活动" type="10035"/>
+	<item itemid="19100350" name="净坛使者图鉴碎片" outPut="运营活动" type="10035"/>
+	<item itemid="19100351" name="旃檀功德佛图鉴碎片" outPut="运营活动" type="10035"/>
+	<item itemid="19100352" name="金身罗汉图鉴碎片" outPut="运营活动" type="10035"/>
+	<item itemid="19100353" name="八部天龙图鉴碎片" outPut="运营活动" type="10035"/>
+	<!--产出列表-->
+	<type sourceid="1033" name="【】运 镖" text="基础产出" linktype="3" icon="1033" link="3"/>
+	<type sourceid="1034" name="平定安邦" text="门派活动珍稀掉落" linktype="2" icon="1034" link="SanBaiView"/>
+	<type sourceid="10035" name="运营活动" text="" linktype="" icon="10035" link=""/>
+	<type sourceid="10036" name="每日折扣" text="" linktype="2" icon="2036" link="BuyTipDiscountsView"/>
+	<type sourceid="10037" name="首 充" text="" linktype="2" icon="2033" link="LuckdrawView"/>
+	<type sourceid="10038" name="签 到" text="" linktype="2" icon="2035" link="WelfareView"/>
+	<type sourceid="20001" name="宠物商城" linktype="2" icon="20001" link="ShopView" shopid="4"/>
+	<type sourceid="2003" name="活 跃 度" linktype="2" icon="2003" link="AccumulaRechargeView"/>
+	<type sourceid="2005" name="【】伙伴招募" linktype="2" icon="2005" link="PartnerRecruitView"/>
+	<type sourceid="2008" name="【】钟馗捉鬼" linktype="3" icon="2008" link="16"/>
+	<type sourceid="2009" name="【】材料副本" linktype="3" icon="2009" link="6"/>
+	<type sourceid="2011" name="成长基金" linktype="2" icon="2011" link="GrowthCapitalWnd"/>
+	<type sourceid="2014" name="七日登录" linktype="2" icon="2014" link="QiridengluGView"/>
+	<type sourceid="2015" name="进阶排行" linktype="2" icon="2015" link="JinjierankKing"/>
+	<type sourceid="2017" name="【】门派闯关" linktype="3" icon="2017" link="7"/>
+	<type sourceid="2018" name="【】世界boss" linktype="3" icon="2018" link="4"/>
+	<type sourceid="2021" name="地 煞" linktype="2" icon="2021" link="DiShaView"/>
+	<type sourceid="2022" name="妖 王" linktype="2" icon="2022" link="DemonKing"/>
+	<type sourceid="2037" name="运营活动" text="" linktype="2" icon="10035" link="OpenActivityView"/>
+	<type sourceid="2042" name="【】帮派boss" linktype="3" icon="2042" link="1"/>
+	<type sourceid="2045" name="boss挑战" linktype="2" icon="2045" link="BossChallengeView"/>
+	<type sourceid="2046" name="每日答题" linktype="2" icon="2046" link="Question"/>
+	<type sourceid="2047" name="诗 中 仙" linktype="2" icon="2047" link="poemView"/>
+	<type sourceid="2052" name="幸运转盘" linktype="2" icon="2052" link="TurntableView"/>
+	<type sourceid="2053" name="神宠娃娃机" linktype="2" icon="2053" link="DollMachineView"/>
+	<type sourceid="2054" name="封 妖" linktype="3" icon="2054" link="13"/>
+	<type sourceid="2055" name="【】华山论剑" linktype="2" icon="2055" link="ArenaView"/>
+	<type sourceid="2056" name="【】组队副本" linktype="3" icon="2056" link="5"/>
+	<type sourceid="2057" name="【】雁塔地宫" linktype="3" icon="2057" link="8"/>
+	<type sourceid="30001" name="VIP礼包" linktype="2" icon="30001" link="VipView"/>
+	<type sourceid="4005" name="西游之路" linktype="2" icon="4005" link="ChapterView"/>
+	<type sourceid="5002" name="熔 炼" linktype="2" icon="5002" link="BagMeltView"/>
+	<type sourceid="1022" name="跑 环" linktype="3" icon="1022" link="24"/>
+	<type sourceid="20002" name="元宝商城" linktype="2" icon="20002" link="ShopView" shopid="1"/>
+	<type sourceid="6669" name="寻星" linktype="2" icon="6669" link="StarSearchView"/>
+	<!--伙伴产出专用获取途径-->
+	<partnerItme itemid="11021050" name="小骨妖碎片" obtain=""/>
+	<partnerItme itemid="11021051" name="强盗李彪碎片" obtain=""/>
+	<partnerItme itemid="11021052" name="侠女碎片" obtain=""/>
+	<partnerItme itemid="11021053" name="荷花女妖碎片" obtain=""/>
+	<partnerItme itemid="11021054" name="天庭女仙碎片" obtain=""/>
+	<partnerItme itemid="11021055" name="御林军碎片" obtain=""/>
+	<partnerItme itemid="11021056" name="僵尸碎片" obtain=""/>
+	<partnerItme itemid="11021057" name="元辰星君碎片" obtain=""/>
+	<partnerItme itemid="11021058" name="小和尚碎片" obtain=""/>
+	<partnerItme itemid="11021059" name="鬼怪碎片" obtain=""/>
+	<partnerItme itemid="11021060" name="天兵碎片" obtain=""/>
+	<partnerItme itemid="11021061" name="小淘气碎片" obtain=""/>
+	<partnerItme itemid="11051062" name="斗战胜佛碎片" obtain=""/>
+	<partnerItme itemid="11051063" name="净坛使者碎片" obtain=""/>
+	<partnerItme itemid="11051064" name="金身罗汉碎片" obtain=""/>
+	<partnerItme itemid="11051065" name="旃檀功德佛碎片" obtain=""/>
+	<partnerItme itemid="11051066" name="八部天龙碎片" obtain=""/>
+	<partnerItme itemid="11031026" name="大当家碎片" obtain="1,5;16,3;28,3;40,3"/>
+	<partnerItme itemid="11031027" name="白菁晶碎片" obtain="2,5;11,10;16,6;23,6;28,6;35,6;40,6"/>
+	<partnerItme itemid="11031028" name="女儿国国王碎片" obtain="3,5;17,3;29,3;41,3"/>
+	<partnerItme itemid="11031029" name="春十三娘碎片" obtain="4,10;17,6;29,6;41,6"/>
+	<partnerItme itemid="11031030" name="猪刚鬣碎片" obtain="5,10;18,3;30,3;42,3"/>
+	<partnerItme itemid="11031031" name="袁天罡碎片" obtain="6,10;18,6;30,6;42,6"/>
+	<partnerItme itemid="11031032" name="空度禅师碎片" obtain="7,6;19,3;31,3;43,3"/>
+	<partnerItme itemid="11031033" name="钟馗碎片" obtain="7,10;19,6;31,8;43,6"/>
+	<partnerItme itemid="11032042" name="托塔天王碎片" obtain="12,6;24,3;36,3"/>
+	<partnerItme itemid="11032043" name="东海龙王碎片" obtain="12,10;24,6;36,6"/>
+	<partnerItme itemid="11032044" name="延寿星君碎片" obtain="13,6;25,3;37,3"/>
+	<partnerItme itemid="11032045" name="嫦娥碎片" obtain="13,10;25,6;37,6"/>
+	<partnerItme itemid="11032046" name="巨灵神碎片" obtain="14,6;26,3;38,3"/>
+	<partnerItme itemid="11032047" name="北海龙子碎片" obtain="14,10;26,6;38,6"/>
+	<partnerItme itemid="11032048" name="青玄仙女碎片" obtain="15,6;27,3;39,3"/>
+	<partnerItme itemid="11032049" name="阎罗王碎片" obtain="15,10;27,6;39,6"/>
+	<partnerItme itemid="11033034" name="九头虫碎片" obtain="8,6;20,3;32,3;44,3"/>
+	<partnerItme itemid="11033035" name="蛟魔王碎片" obtain="8,10;20,6;32,6;44,6"/>
+	<partnerItme itemid="11033036" name="白骨精碎片" obtain="9,6;21,3;33,3"/>
+	<partnerItme itemid="11033037" name="白象王碎片" obtain="9,10;21,6;33,6"/>
+	<partnerItme itemid="11033038" name="青狮王碎片" obtain="10,6;22,3;34,3"/>
+	<partnerItme itemid="11033039" name="大鹏王碎片" obtain="10,10;22,6;34,6"/>
+	<partnerItme itemid="11033040" name="玉兔精碎片" obtain="11,6;23,3;35,3"/>
+	<partnerItme itemid="11033041" name="蜘蛛精碎片" obtain=""/>
+	<partnerItme itemid="11041001" name="孙悟空碎片" obtain="28,10;40,10"/>
+	<partnerItme itemid="11041002" name="猪悟能碎片" obtain="31,10;43,10"/>
+	<partnerItme itemid="11041003" name="唐僧碎片" obtain="34,10"/>
+	<partnerItme itemid="11041004" name="小白龙碎片" obtain="37,10"/>
+	<partnerItme itemid="11041022" name="镇元子碎片" obtain="16,10"/>
+	<partnerItme itemid="11041023" name="紫霞碎片" obtain="19,10"/>
+	<partnerItme itemid="11041024" name="沙悟净碎片" obtain="22,10"/>
+	<partnerItme itemid="11041025" name="菩提子碎片" obtain="25,10"/>
+	<partnerItme itemid="11042009" name="玉帝碎片" obtain="30,10;42,10"/>
+	<partnerItme itemid="11042010" name="王母碎片" obtain="33,10"/>
+	<partnerItme itemid="11042011" name="观音碎片" obtain="36,10"/>
+	<partnerItme itemid="11042012" name="太乙真人碎片" obtain="39,10"/>
+	<partnerItme itemid="11042013" name="二郎真君碎片" obtain="18,10"/>
+	<partnerItme itemid="11042014" name="哪吒碎片" obtain="21,10"/>
+	<partnerItme itemid="11042015" name="南极仙翁碎片" obtain="24,10"/>
+	<partnerItme itemid="11042016" name="太白金星碎片" obtain="27,10"/>
+	<partnerItme itemid="11043005" name="牛魔王碎片" obtain="29,10;41,10"/>
+	<partnerItme itemid="11043006" name="铁扇公主碎片" obtain="32,10;44,10"/>
+	<partnerItme itemid="11043007" name="红孩儿碎片" obtain="35,10"/>
+	<partnerItme itemid="11043008" name="玉面狐狸碎片" obtain="38,10"/>
+	<partnerItme itemid="11043017" name="银角大王碎片" obtain="17,10"/>
+	<partnerItme itemid="11043018" name="青牛精碎片" obtain="20,10"/>
+	<partnerItme itemid="11043019" name="地涌夫人碎片" obtain="26,10"/>
+	<partnerItme itemid="11043020" name="金角大王碎片" obtain="23,10"/>
+</root>

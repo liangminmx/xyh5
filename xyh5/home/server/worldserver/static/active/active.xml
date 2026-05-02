@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 被2012 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--id	活跃度项目id
+index	排序顺序
+single	单次完成任务增加的分数
+time	每日完成总次数
+total	完成项目的总分
+text	任务显示名称
+window	点击可打开的ui界面，填uid
+	
+id	奖励id
+total	可领取的活跃度总分
+item	奖励道具id
+num	奖励道具数量
+activehallid 对应活动大厅定时活动条目id，无填0
+-->
+	<functionid functionid="200"/>
+	<active id="1" index="1" single="10" total="200" text="日常任务" icon="100" activehallid="0" window="V_TaskUI" pram="2" newbie="501" des="完成日常任务"/>
+	<active id="47" index="2" single="20" total="40" text="进阶副本" icon="131" activehallid="0" window="V_SingleCopyUI" pram="Copy_AdvanceFBMap" newbie="612" des="进阶副本"/>
+	<active id="12" index="3" single="5" total="10" text="单人副本" icon="101" activehallid="0" window="V_SingleCopyUI" pram="Singe_ShirneCopy" newbie="201" des="挑战单人副本">
+		<vip vip="3" viptotal="15"/>
+		<vip vip="7" viptotal="20"/>
+		<vip vip="10" viptotal="25"/>
+	</active>
+	<active id="42" index="4" single="5" total="10" text="装备副本" icon="102" activehallid="0" window="V_SingleCopyUI" pram="Copy_EquipmenFBMap" newbie="1200" des="通关装备副本">
+		<vip vip="2" viptotal="15"/>
+		<vip vip="6" viptotal="20"/>
+		<vip vip="9" viptotal="25"/>
+	</active>
+	<active id="33" index="5" single="50" total="150" text="百战密室" icon="103" activehallid="0" window="V_SingleCopyUI" pram="Singe_AdytumCopy" newbie="1050" des="挑战百战密室"/>
+	<active id="13" index="6" single="5" total="5" text="超凡生死战" icon="104" activehallid="0" window="V_SingleCopyUI" pram="Singe_LifeDeathCopy" newbie="1040" des="重置超凡生死战">
+		<vip vip="2" viptotal="10"/>
+		<vip vip="6" viptotal="15"/>
+		<vip vip="9" viptotal="20"/>
+	</active>
+	<active id="19" index="7" single="5" total="50" text="超凡争霸" icon="105" activehallid="0" window="V_ActivitiesHallUI" pram="Activity_Arena" newbie="418" des="超凡争霸挑战"/>
+	<active id="31" index="8" single="50" total="50" text="登山路" icon="106" activehallid="0" window="V_SingleCopyUI" pram="Singe_MountaineeringCopy" newbie="1030" des="挑战登山路"/>
+	<active id="2" index="9" single="100" total="100" text="家族任务" icon="107" activehallid="0" window="V_TaskUI" pram="3" newbie="106" des="完成宗族任务"/>
+	<active id="48" index="10" single="5" total="10" text="神兵进阶" icon="132" activehallid="0" window="V_PuppetPanelUI" pram="" newbie="401" des="神兵进阶">
+		<vip vip="3" viptotal="15"/>
+		<vip vip="6" viptotal="20"/>
+		<vip vip="9" viptotal="25"/>
+	</active>
+	<active id="49" index="11" single="5" total="10" text="坐骑进阶" icon="133" activehallid="0" window="V_MountPanelUI" pram="0" newbie="400" des="坐骑进阶">
+		<vip vip="3" viptotal="15"/>
+		<vip vip="6" viptotal="20"/>
+		<vip vip="9" viptotal="25"/>
+	</active>
+	<active id="50" index="12" single="5" total="10" text="羽翼进阶" icon="134" activehallid="0" window="V_WingPanelUI" pram="" newbie="402" des="羽翼进阶">
+		<vip vip="3" viptotal="15"/>
+		<vip vip="6" viptotal="20"/>
+		<vip vip="9" viptotal="25"/>
+	</active>
+	<active id="51" index="13" single="5" total="10" text="洞天法宝进阶" icon="135" activehallid="0" window="V_magicWeaponPanelUI" pram="0" newbie="611" des="洞天法宝进阶">
+		<vip vip="3" viptotal="15"/>
+		<vip vip="6" viptotal="20"/>
+		<vip vip="9" viptotal="25"/>
+	</active>
+	<active id="22" index="14" single="5" total="10" text="黑风遗宝" icon="108" activehallid="0" window="ReshaharTreasurePanelExt" pram="" newbie="600" des="完成黑风遗宝">
+		<vip vip="3" viptotal="20"/>
+		<vip vip="6" viptotal="30"/>
+		<vip vip="9" viptotal="40"/>
+	</active>
+	<active id="21" index="15" single="20" total="100" text="在线时间" icon="109" activehallid="0" window="" pram="" newbie="" des="在线5小时"/>
+	<active id="3" index="16" single="2" total="6" text="龙山商行" icon="110" activehallid="0" window="SearchTreasurePanelExt" pram="" newbie="209" des="使用龙山商行">
+		<vip vip="1" viptotal="8"/>
+		<vip vip="2" viptotal="10"/>
+		<vip vip="3" viptotal="12"/>
+		<vip vip="4" viptotal="14"/>
+		<vip vip="5" viptotal="16"/>
+		<vip vip="6" viptotal="18"/>
+		<vip vip="7" viptotal="20"/>
+		<vip vip="8" viptotal="22"/>
+		<vip vip="9" viptotal="24"/>
+		<vip vip="10" viptotal="26"/>
+	</active>
+	<active id="34" index="17" single="20" total="20" text="充值元宝" icon="111" activehallid="0" window="VIPPanelExt" pram="" newbie="" des="充值任意元宝"/>
+	<active id="11" index="18" single="20" total="20" text="元宝消费" icon="112" activehallid="0" window="ShopPanelExt" pram="" newbie="" des="进行元宝消费"/>
+	<active id="37" index="19" single="50" total="50" text="伙伴技能升级" icon="113" activehallid="0" window="V_PartnerMain" pram="" newbie="1010" des="升级伙伴技能"/>
+	<active id="35" index="20" single="2" total="10" text="羽翼宝石升级" icon="114" activehallid="0" window="V_WingPanelUI" pram="" newbie="402" des="升级羽翼宝石">
+		<vip vip="3" viptotal="14"/>
+		<vip vip="6" viptotal="18"/>
+		<vip vip="9" viptotal="22"/>
+	</active>
+	<active id="36" index="21" single="2" total="4" text="坐骑炼魂" icon="115" activehallid="0" window="V_MountPanelUI" pram="2" newbie="400" des="进行坐骑炼魂">
+		<vip vip="3" viptotal="6"/>
+		<vip vip="6" viptotal="8"/>
+		<vip vip="9" viptotal="10"/>
+	</active>
+	<active id="27" index="22" single="2" total="0" text="神兵噬魂" icon="116" activehallid="0" window="V_PuppetPanelUI" pram="Cultivate_Puppet_Implement" newbie="1070" des="进行神兵噬魂">
+		<vip vip="2" viptotal="2"/>
+		<vip vip="4" viptotal="4"/>
+		<vip vip="6" viptotal="6"/>
+		<vip vip="8" viptotal="8"/>
+		<vip vip="10" viptotal="10"/>
+	</active>
+	<active id="39" index="23" single="5" total="25" text="家族聚餐" icon="117" activehallid="0" window="GuildUIPanelExt" pram="mc_MainGroup_5" newbie="106" des="享用家族宴席">
+		<vip vip="2" viptotal="30"/>
+		<vip vip="4" viptotal="35"/>
+		<vip vip="6" viptotal="40"/>
+		<vip vip="8" viptotal="45"/>
+		<vip vip="10" viptotal="50"/>
+	</active>
+	<active id="40" index="24" single="100" total="100" text="家族大妖" icon="118" activehallid="0" window="GuildUIPanelExt" pram="mc_MainGroup_5" newbie="106" des="挑战家族大妖"/>
+	<active id="6" index="25" single="50" total="50" text="答题活动" icon="120" activehallid="9" window="V_ActivitiesHallUI" pram="Activity_Time" newbie="203" des="答题活动"/>
+	<active id="5" index="26 " single="50" total="50" text="药浴" icon="121" activehallid="2" window="V_ActivitiesHallUI" pram="Activity_Time" newbie="500" des="参与药浴"/>
+	<active id="43" index="27" single="50" total="50" text="土著歼灭" icon="122" activehallid="0" window="V_WildBossPanelUI" pram="WildBoss_TuZhuJianMi" newbie="1103" des="参与土著歼灭"/>
+	<active id="18" index="29" single="50" total="100" text="护送源石" icon="124" activehallid="7" window="V_ActivitiesHallUI" pram="Activity_Time" newbie="203" des="护送源石"/>
+	<active id="32" index="30" single="50" total="50" text="神魔降临" icon="125" activehallid="8" window="V_ActivitiesHallUI" pram="Activity_Time" newbie="1058" des="参与神魔降临"/>
+	<active id="23" index="31" single="20" total="40" text="龙山巡守" icon="126" activehallid="1" window="V_WildBossPanelUI" pram="" newbie="420" des="参与龙山巡守"/>
+	<active id="44" index="32" single="100" total="100" text="薪火幻域" icon="127" activehallid="0" window="V_BattleHall" pram="" newbie="1060" des="参与薪火幻域"/>
+	<active id="45" index="33" single="100" total="100" text="夏族演兵" icon="128" activehallid="0" window="V_BattleHall" pram="" newbie="1059" des="参与夏族演兵"/>
+	<active id="46" index="34" single="100" total="100" text="小型超凡世界争夺" icon="129" activehallid="0" window="V_ActivitiesHallUI" pram="Activity_CapitalBattle" newbie="" des="参与超凡世界争夺"/>
+	<active id="15" index="35" single="5" total="50" text="vip赠送" icon="130" activehallid="0" window="VIPPanelExt" pram="" newbie="" des="vip赠送"/>
+	<!--
+	<active id="41" index="20" single="10" total="10" text="家族试炼" icon="119" activehallid="0" window="GuildUIPanelExt" pram="5" newbie="106" des="获得家族试炼奖励"/>
+	<active id="38" index="28" single="30" total="30" text="红石山" icon="123" activehallid="0" window="V_BattleHall" pram="" newbie="1104" des="参与红石山"/>
+	-->
+	<!--奖励-->
+	<reward id="1" total="200">
+		<item item="107003" num="10" bind="1"/>
+		<item item="108304" num="1" bind="1"/>
+		<item item="900039" num="1" bind="1"/>
+		<item item="100582" num="1" bind="1"/>
+	</reward>
+	<reward id="2" total="400">
+		<item item="105001" num="2" bind="1"/>
+		<item item="108305" num="1" bind="1"/>
+		<item item="900040" num="1" bind="1"/>
+		<item item="100583" num="1" bind="1"/>
+	</reward>
+	<reward id="3" total="700">
+		<item item="105001" num="5" bind="1"/>
+		<item item="108304" num="4" bind="1"/>
+		<item item="900041" num="1" bind="1"/>
+		<item item="900201" num="2" bind="1"/>
+	</reward>
+	<reward id="4" total="1000">
+		<item item="105001" num="5" bind="1"/>
+		<item item="108306" num="1" bind="1"/>
+		<item item="900038" num="1" bind="1"/>
+		<item item="900201" num="3" bind="1"/>
+	</reward>
+	<reward id="5" total="1300">
+		<item item="200005" num="1" bind="1"/>
+		<item item="108306" num="2" bind="1"/>
+		<item item="109101" num="1" bind="1"/>
+		<item item="900042" num="1" bind="1"/>
+	</reward>
+</root>

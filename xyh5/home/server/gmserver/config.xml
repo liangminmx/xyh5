@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+<WebServerListen Port="8003"/>
+<ServerConnect index="1" GSIP="127.0.0.1" GSPort="11001" DBIP="127.0.0.1" DBPort="3306" LoginName="root" Password="echeverra" DBName="gameserver"/>
+<GMDatabase IP="127.0.0.1" DBName="gmserver" LoginName="root" Password="echeverra" Port="3306"/>
+</Root>
+

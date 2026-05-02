@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2012 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+functionid	首冲福利开启ID			
+type	标识ID			
+advertisement	广告语资源ID			
+money	充值金额			
+text	价值文本			
+model	模型ID			
+power	战斗力			
+item	道具ID	
+ts      =1为特殊道具		
+num	道具数量			
+bind	是否绑定			
+time	过期时间（格式XX-XX-XX）填0无时限			
+
+
+
+
+-->
+	<pro functionid=""/>
+	<type type="1" advertisement="" money="1" text="价值10000元宝" model="" power="1000">
+		<item item="" num="1" bind="1" ts="1" time="0"/>
+		<item item="" num="1" bind="1" ts="0" time="0"/>
+		<item item="" num="1" bind="1" ts="0" time="0"/>
+		<item item="" num="1" bind="1" ts="0" time="0"/>
+		<item item="" num="1" bind="1" ts="0" time="0"/>
+		<item item="" num="1" bind="1" ts="0" time="0"/>
+	</type>
+	<type type="2" advertisement="" money="50" text="价值50000元宝" model="" power="1000">
+		<item item="" num="1" bind="1" ts="1" time="0"/>
+		<item item="" num="1" bind="1" ts="0" time="0"/>
+		<item item="" num="1" bind="1" ts="0" time="0"/>
+		<item item="" num="1" bind="1" ts="0" time="0"/>
+		<item item="" num="1" bind="1" ts="0" time="0"/>
+		<item item="" num="1" bind="1" ts="0" time="0"/>
+	</type>
+	<type type="3" advertisement="" money="200" text="价值200000元宝" model="" power="1000">
+		<item item="" num="1" bind="1" ts="1" time="0"/>
+		<item item="" num="1" bind="1" ts="0" time="0"/>
+		<item item="" num="1" bind="1" ts="0" time="0"/>
+		<item item="" num="1" bind="1" ts="0" time="0"/>
+		<item item="" num="1" bind="1" ts="0" time="0"/>
+		<item item="" num="1" bind="1" ts="0" time="0"/>
+	</type>
+	<type type="4" advertisement="" money="1000" text="价值1000000元宝" model="" power="1000">
+		<item item="" num="1" bind="1" ts="1" time="0"/>
+		<item item="" num="1" bind="1" ts="0" time="0"/>
+		<item item="" num="1" bind="1" ts="0" time="0"/>
+		<item item="" num="1" bind="1" ts="0" time="0"/>
+		<item item="" num="1" bind="1" ts="0" time="0"/>
+		<item item="" num="1" bind="1" ts="0" time="0"/>
+	</type>
+</root>

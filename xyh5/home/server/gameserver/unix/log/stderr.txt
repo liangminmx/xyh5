@@ -1,0 +1,2 @@
+2020-03-25 01:14:52 the game_server_bind error, please check 0.0.0.0:10001
+2020-03-25 22:22:05 the game_server_bind error, please check 0.0.0.0:10001

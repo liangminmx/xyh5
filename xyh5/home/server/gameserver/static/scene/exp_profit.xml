@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <!--
+beginlev	经验起始衰弱区间，>=
+endlev	经验结束衰弱区间，<=
+profit	经验衰弱，千分比
+-->
+  <exp_profit>
+    <killmonster beginlev="0" endlev="5" profit="0"/>
+    <killmonster beginlev="6" endlev="10" profit="200"/>
+    <killmonster beginlev="11" endlev="15" profit="400"/>
+    <killmonster beginlev="16" endlev="999" profit="800"/>
+  </exp_profit>
+</Root>

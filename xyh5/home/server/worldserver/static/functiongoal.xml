@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+functionid	功能id
+doubletype	双倍领奖条件
+=1 分享成功后双倍领奖
+=2 花费元宝双倍领奖
+doubleparameter	双倍领奖参数
+groupid	对应目标id
+icon	展示icon
+goaltype	目标类型
+=1 坐骑系统达成X阶
+=2 主角战力
+=3 单个伙伴最高战力(上阵)
+=4 单个宠物最高战力
+=5 伙伴总战力（上阵）
+=6总站力
+=7 生死劫（攻）历史最高达成层数
+=8 雁塔地宫达成层数
+=9 拥有X只不同的宠物
+=10 拥有X个不同的伙伴
+=11 宠物总战力达到X
+=12 羽翼系统达成X阶
+=13 法宝系统达成X阶
+=14 阵法系统达成X 阶
+=15变身系统达成X阶
+=16 仙位系统达成X阶
+=17 灵骑系统达成X阶
+=18 人物等级达成X 级
+=19生死劫（御）历史最高达成层数
+
+
+-->
+	<function functionid="6699" doubletype="2" doubleparameter="100"/>
+	<goal groupid="1" goaltype="1">
+		<item goalid="1" parameter="3" itemid="10000007" itemnum="100" bmoney="100"/>
+		<item goalid="2" parameter="5" itemid="10000007" itemnum="100" bmoney="100"/>
+		<item goalid="3" parameter="7" itemid="10000007" itemnum="100" bmoney="100"/>
+	</goal>
+	<goal groupid="2" goaltype="2">
+		<item goalid="1" parameter="5000000" itemid="10000007" itemnum="100" bmoney="100"/>
+		<item goalid="2" parameter="10000000" itemid="10000007" itemnum="100" bmoney="100"/>
+		<item goalid="3" parameter="30000000" itemid="10000007" itemnum="100" bmoney="100"/>
+	</goal>
+	<goal groupid="3" goaltype="3">
+		<item goalid="1" parameter="5000000" itemid="10000007" itemnum="100" bmoney="100"/>
+		<item goalid="2" parameter="10000000" itemid="10000007" itemnum="100" bmoney="100"/>
+		<item goalid="3" parameter="30000000" itemid="10000007" itemnum="100" bmoney="100"/>
+	</goal>
+	<goal groupid="4" goaltype="4">
+		<item goalid="1" parameter="5000000" itemid="10000007" itemnum="100" bmoney="100"/>
+		<item goalid="2" parameter="10000000" itemid="10000007" itemnum="100" bmoney="100"/>
+		<item goalid="3" parameter="30000000" itemid="10000007" itemnum="100" bmoney="100"/>
+	</goal>
+	<goal groupid="5" goaltype="5">
+		<item goalid="1" parameter="5000000" itemid="10000007" itemnum="100" bmoney="100"/>
+		<item goalid="2" parameter="10000000" itemid="10000007" itemnum="100" bmoney="100"/>
+		<item goalid="3" parameter="30000000" itemid="10000007" itemnum="100" bmoney="100"/>
+	</goal>
+	<goal groupid="6" goaltype="6">
+		<item goalid="1" parameter="5000000" itemid="10000007" itemnum="100" bmoney="100"/>
+		<item goalid="2" parameter="10000000" itemid="10000007" itemnum="100" bmoney="100"/>
+		<item goalid="3" parameter="30000000" itemid="10000007" itemnum="100" bmoney="100"/>
+	</goal>
+	<goal groupid="7" goaltype="7">
+		<item goalid="1" parameter="30" itemid="10000007" itemnum="100" bmoney="100"/>
+		<item goalid="2" parameter="50" itemid="10000007" itemnum="100" bmoney="100"/>
+		<item goalid="3" parameter="70" itemid="10000007" itemnum="100" bmoney="100"/>
+	</goal>
+	<goal groupid="8" goaltype="8">
+		<item goalid="1" parameter="30" itemid="10000007" itemnum="100" bmoney="100"/>
+		<item goalid="2" parameter="50" itemid="10000007" itemnum="100" bmoney="100"/>
+		<item goalid="3" parameter="70" itemid="10000007" itemnum="100" bmoney="100"/>
+	</goal>
+	<goal groupid="9" goaltype="9">
+		<item goalid="1" parameter="7" itemid="10000007" itemnum="100" bmoney="100"/>
+		<item goalid="2" parameter="15" itemid="10000007" itemnum="100" bmoney="100"/>
+		<item goalid="3" parameter="18" itemid="10000007" itemnum="100" bmoney="100"/>
+	</goal>
+	<goal groupid="10" goaltype="10">
+		<item goalid="1" parameter="7" itemid="10000007" itemnum="100" bmoney="100"/>
+		<item goalid="2" parameter="15" itemid="10000007" itemnum="100" bmoney="100"/>
+		<item goalid="3" parameter="18" itemid="10000007" itemnum="100" bmoney="100"/>
+	</goal>
+	<goal groupid="11" goaltype="11">
+		<item goalid="1" parameter="5000000" itemid="10000007" itemnum="100" bmoney="100"/>
+		<item goalid="2" parameter="10000000" itemid="10000007" itemnum="100" bmoney="100"/>
+		<item goalid="3" parameter="30000000" itemid="10000007" itemnum="100" bmoney="100"/>
+	</goal>
+	<goal groupid="12" goaltype="12">
+		<item goalid="1" parameter="3" itemid="10000007" itemnum="100" bmoney="100"/>
+		<item goalid="2" parameter="5" itemid="10000007" itemnum="100" bmoney="100"/>
+		<item goalid="3" parameter="7" itemid="10000007" itemnum="100" bmoney="100"/>
+	</goal>
+	<goal groupid="13" goaltype="13">
+		<item goalid="1" parameter="3" itemid="10000007" itemnum="100" bmoney="100"/>
+		<item goalid="2" parameter="5" itemid="10000007" itemnum="100" bmoney="100"/>
+		<item goalid="3" parameter="7" itemid="10000007" itemnum="100" bmoney="100"/>
+	</goal>
+	<goal groupid="14" goaltype="14">
+		<item goalid="1" parameter="3" itemid="10000007" itemnum="100" bmoney="100"/>
+		<item goalid="2" parameter="5" itemid="10000007" itemnum="100" bmoney="100"/>
+		<item goalid="3" parameter="7" itemid="10000007" itemnum="100" bmoney="100"/>
+	</goal>
+	<goal groupid="15" goaltype="15">
+		<item goalid="1" parameter="3" itemid="10000007" itemnum="100" bmoney="100"/>
+		<item goalid="2" parameter="5" itemid="10000007" itemnum="100" bmoney="100"/>
+		<item goalid="3" parameter="7" itemid="10000007" itemnum="100" bmoney="100"/>
+	</goal>
+	<goal groupid="16" goaltype="16">
+		<item goalid="1" parameter="3" itemid="10000007" itemnum="100" bmoney="100"/>
+		<item goalid="2" parameter="5" itemid="10000007" itemnum="100" bmoney="100"/>
+		<item goalid="3" parameter="7" itemid="10000007" itemnum="100" bmoney="100"/>
+	</goal>
+	<goal groupid="17" goaltype="17">
+		<item goalid="1" parameter="3" itemid="10000007" itemnum="100" bmoney="100"/>
+		<item goalid="2" parameter="5" itemid="10000007" itemnum="100" bmoney="100"/>
+		<item goalid="3" parameter="7" itemid="10000007" itemnum="100" bmoney="100"/>
+	</goal>
+	<goal groupid="18" goaltype="18">
+		<item goalid="1" parameter="70" itemid="10000007" itemnum="100" bmoney="100"/>
+		<item goalid="2" parameter="120" itemid="10000007" itemnum="100" bmoney="100"/>
+		<item goalid="3" parameter="180" itemid="10000007" itemnum="100" bmoney="100"/>
+	</goal>
+	<goal groupid="19" goaltype="19">
+		<item goalid="1" parameter="30" itemid="10000007" itemnum="100" bmoney="100"/>
+		<item goalid="2" parameter="50" itemid="10000007" itemnum="100" bmoney="100"/>
+		<item goalid="3" parameter="70" itemid="10000007" itemnum="100" bmoney="100"/>
+	</goal>
+</root>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!--
+id	编号
+guideid	引导ID
+lev	开启功能等级
+quest	开启功能的任务id
+isend	是否完成任务才开启功能 =1是 =0 接受任务就开启
+realm	开启功能的大境界
+stage	开启功能的大境界的小境界
+guideid	触发引导的id 默认为0无引导
+forecastid	该id对应功能预告表functionalforest.xml中的forecastid，用于显示境界界面功能开启的TIP，无TIP填空
+-->
+	<!--任务开启-->
+	<function id="20" functionid="103" guideid="103" lev="" quest="10010110" isend="1" realm="" stage="" vip="" name="技能"/>
+	<function id="30" functionid="300" guideid="300" lev="" quest="10010150" isend="1" realm="" stage="" vip="" name="跳跃"/>
+	<function id="50" functionid="400" guideid="400" lev="" quest="10010160" isend="1" realm="" stage="" vip="" name="坐骑"/>
+	<function id="55" functionid="112" guideid="112" lev="" quest="10010170" isend="1" realm="" stage="" vip="" name="骑乘"/>
+	<function id="40" functionid="401" guideid="401" lev="" quest="10010230" isend="1" realm="" stage="" vip="" name="神兵"/>
+	<function id="100" functionid="1070" guideid="1070" lev="" quest="10010240" isend="1" realm="" stage="" vip="" name="神兵熟练"/>
+	<function id="130" functionid="204" guideid="204" lev="" quest="10010250" isend="1" realm="" stage="" vip="" name="首充"/>
+	<function id="56" functionid="" guideid="1400" lev="" quest="10010280" isend="1" realm="" stage="" vip="" name="坐骑养成"/>
+	<function id="80" functionid="256" guideid="257" lev="" quest="10020140" isend="1" realm="" stage="" vip="" name="七日登录"/>
+	<function id="90" functionid="116" guideid="116" lev="" quest="10030010" isend="1" realm="" stage="" vip="" name="装备强化"/>
+	<function id="70" functionid="1010" guideid="1010" lev="" quest="10030050" isend="1" realm="" stage="" vip="" name="伙伴开启"/>
+	<function id="200" functionid="201" guideid="201" lev="" quest="10030110" isend="1" realm="" stage="" vip="" name="日常副本"/>
+	<function id="140" functionid="408" guideid="408" lev="" quest="10030200" isend="1" realm="" stage="" vip="" name="装备升级"/>
+	<function id="120" functionid="" guideid="1011" lev="" quest="10040050" isend="1" realm="" stage="" vip="" name="伙伴升星"/>
+	<function id="110" functionid="206" guideid="206" lev="" quest="10040060" isend="1" realm="" stage="" vip="" name="签到"/>
+	<function id="220" functionid="418" guideid="418" lev="" quest="10040070" isend="1" realm="" stage="" vip="" name="单服竞技场"/>
+	<function id="250" functionid="106" guideid="106" lev="" quest="10040140" isend="1" realm="" stage="" vip="" name="家族"/>
+	<function id="155" functionid="800" guideid="800" lev="" quest="10040150" isend="1" realm="" stage="" vip="" name="血脉"/>
+	<function id="230" functionid="1050" guideid="1050" lev="" quest="10040165" isend="0" realm="" stage="" vip="" name="百战密室"/>
+	<function id="150" functionid="1020" guideid="1020" lev="" quest="10050150" isend="1" realm="" stage="" vip="" name="真意"/>
+	<function id="180" functionid="209" guideid="209" lev="" quest="10060040" isend="1" realm="" stage="" vip="" name="龙山商行"/>
+	<function id="160" functionid="501" guideid="501" lev="" quest="10060090" isend="1" realm="" stage="" vip="" name="日常任务"/>
+	<function id="290" functionid="" guideid="1202" lev="" quest="10070010" isend="1" realm="" stage="" vip="" name="第2只伙伴上阵"/>
+	<function id="240" functionid="1040" guideid="1040" lev="" quest="10070030" isend="1" realm="" stage="" vip="" name="超凡生死战"/>
+	<function id="210" functionid="200" guideid="200" lev="" quest="10070060" isend="1" realm="" stage="" vip="" name="每日必做"/>
+	<function id="85" functionid="" guideid="256" lev="" quest="10070110" isend="1" realm="" stage="" vip="" name="七日登录"/>
+	<function id="1330" functionid="402" guideid="402" lev="" quest="10080250" isend="1" realm="" stage="" vip="" name="羽翼进阶"/>
+	<function id="1216" functionid="601" guideid="611" lev="" quest="10090100" isend="1" realm="" stage="" vip="" name="洞天法宝"/>
+	<!--等级开启-->
+	<function id="1050" functionid="514" guideid="514" lev="1" quest="" isend="" realm="" stage="" vip="" name="时装"/>
+	<function id="1210" functionid="504" guideid="504" lev="18" quest="" isend="" realm="" stage="" vip="" name="开服活动"/>
+	<function id="1200" functionid="207" guideid="207" lev="18" quest="" isend="" realm="" stage="" vip="" name="返利大厅"/>
+	<function id="260" functionid="1120" guideid="1120" lev="29" quest="" isend="" realm="" stage="" vip="" name="月卡"/>
+	<function id="1180" functionid="600" guideid="600" lev="37" quest="" isend="" realm="" stage="" vip="" name="黑风遗宝"/>
+	<function id="1230" functionid="203" guideid="203" lev="37" quest="" isend="" realm="" stage="" vip="" name="活动大厅"/>
+	<function id="1090" functionid="113" guideid="113" lev="50" quest="" isend="" realm="" stage="" vip="" name="打坐"/>
+	<function id="270" functionid="544" guideid="544" lev="55" quest="" isend="" realm="" stage="" vip="" name="夏都宝库"/>
+	<function id="170" functionid="5100" guideid="1200" lev="55" quest="" isend="" realm="" stage="" vip="" name="装备副本"/>
+	<function id="1130" functionid="5058" guideid="1058" lev="60" quest="" isend="" realm="" stage="" vip="" name="神魔降临"/>
+	<function id="1140" functionid="700" guideid="700" lev="60" quest="" isend="" realm="" stage="" vip="" name="黑风神宫"/>
+	<function id="1150" functionid="5059" guideid="1059" lev="60" quest="" isend="" realm="" stage="" vip="" name="城战"/>
+	<function id="1170" functionid="5061" guideid="1061" lev="60" quest="" isend="" realm="" stage="" vip="" name="更新公告"/>
+	<function id="1250" functionid="419" guideid="419" lev="60" quest="" isend="" realm="" stage="" vip="" name="我要变强"/>
+	<function id="1190" functionid="5062" guideid="1062" lev="60" quest="" isend="" realm="" stage="" vip="" name="全民反馈"/>
+	<function id="1100" functionid="705" guideid="705" lev="60" quest="" isend="" realm="" stage="" vip="" name="排行榜"/>
+	<function id="1110" functionid="5057" guideid="1057" lev="60" quest="" isend="" realm="" stage="" vip="" name="智力答题"/>
+	<function id="1125" functionid="2000" guideid="1180" lev="60" quest="" isend="" realm="" stage="" vip="" name="多倍挂机"/>
+	<function id="1120" functionid="500" guideid="500" lev="60" quest="" isend="" realm="" stage="" vip="" name="药浴"/>
+	<function id="1217" functionid="602" guideid="612" lev="60" quest="" isend="" realm="" stage="" vip="" name="进阶副本"/>
+	<function id="1380" functionid="5060" guideid="1160" lev="60" quest="" isend="" realm="" stage="" vip="" name="炼化"/>
+	<function id="1360" functionid="1060" guideid="1060" lev="60" quest="" isend="" realm="" stage="" vip="" name="薪火幻域"/>
+	<function id="1380" functionid="5070" guideid="1170" lev="60" quest="" isend="" realm="" stage="" vip="" name="消费折扣"/>
+	<function id="1160" functionid="1100" guideid="1100" lev="60" quest="" isend="" realm="" stage="" vip="" name="夏族演兵"/>
+	<function id="1390" functionid="5000" guideid="1201" lev="60" quest="" isend="" realm="" stage="" vip="" name="战场大厅"/>
+	<function id="1240" functionid="420" guideid="420" lev="62" quest="" isend="" realm="" stage="" vip="" name="龙山巡守"/>
+	<function id="1260" functionid="513" guideid="513" lev="65" quest="" isend="" realm="" stage="" vip="" name="节日活动"/>
+	<function id="1060" functionid="5063" guideid="1063" lev="66" quest="" isend="" realm="" stage="" vip="" name="结婚"/>
+	<function id="1290" functionid="5066" guideid="1066" lev="70" quest="" isend="" realm="" stage="" vip="" name="离线经验"/>
+	<function id="1280" functionid="5065" guideid="1065" lev="70" quest="" isend="" realm="" stage="" vip="" name="资源找回"/>
+	<function id="1070" functionid="211" guideid="211" lev="70" quest="" isend="" realm="" stage="" vip="" name="护送任务"/>
+	<function id="1270" functionid="5064" guideid="1064" lev="70" quest="" isend="" realm="" stage="" vip="" name="跨服排行榜"/>
+	<function id="1030" functionid="405" guideid="405" lev="65" quest="" isend="" realm="" stage="" vip="" name="装备提品"/>
+	<function id="1040" functionid="5067" guideid="1067" lev="75" quest="" isend="" realm="" stage="" vip="" name="装备洗练"/>
+	<function id="1340" functionid="5069" guideid="1103" lev="75" quest="" isend="" realm="" stage="" vip="" name="土著歼灭"/>
+	<function id="1000" functionid="5056" guideid="1056" lev="75" quest="" isend="" realm="" stage="" vip="" name="装备属性转移"/>
+	<function id="1310" functionid="5068" guideid="1068" lev="80" quest="" isend="" realm="" stage="" vip="" name="世界等级"/>
+	<function id="280" functionid="1030" guideid="1030" lev="80" quest="" isend="" realm="" stage="" vip="" name="登山路"/>
+	<function id="1020" functionid="327" guideid="327" lev="80" quest="" isend="" realm="" stage="" vip="" name="装备精炼"/>
+	<function id="1220" functionid="1090" guideid="1090" lev="180" quest="" isend="" realm="" stage="" vip="" name="支线任务"/>
+	<function id="1320" functionid="5102" guideid="1102" lev="200" quest="" isend="" realm="" stage="" vip="" name="完美境界"/>
+	<function id="1350" functionid="5104" guideid="1104" lev="200" quest="" isend="" realm="" stage="" vip="" name="红石山"/>
+	<function id="1370" functionid="701" guideid="701" lev="1" quest="" isend="" realm="" stage="" vip="" name="微端"/>
+	<function id="615" functionid="615" guideid="615" lev="1" quest="" isend="" realm="" stage="" vip="" name="贵族"/>
+	<!--
+	<function id="1219" functionid="429" guideid="619" lev="1" quest="" isend="" realm="" stage="" vip="" name="黄钻特权"/>
+	<function id="1218" functionid="604" guideid="614" lev="1" quest="" isend="" realm="" stage="" vip="" name="保存游戏"/>
+	<function id="60" functionid="107" guideid="107" lev="" quest="10020120" isend="1" realm="" stage="" vip="" name="境界"/>
+	<function id="156" functionid="" guideid="802" lev="" quest="10060070" isend="0" realm="" stage="" vip="" name="血脉技能"/>
+	<function id="10" functionid="800" guideid="800" lev="" quest="10010090" isend="1" realm="" stage="" vip="" name="血脉"/>
+	<function id="190" functionid="" guideid="1101" lev="" quest="10070190" isend="1" realm="" stage="" vip="" name="伙伴阵法"/>
+	<function id="1010" functionid="116" guideid="116" lev="65" quest="" isend="" realm="" stage="" vip="" name="熔炼"/>
+	<function id="1080" functionid="5055" guideid="5055" lev="38" quest="" isend="" realm="" stage="" vip="" name="签到"/>
+<function id="1220" functionid="1090" guideid="1090" lev="65" quest="" isend="" realm="" stage="" vip="" name="支线任务"/>
+-->
+</root>

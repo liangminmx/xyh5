@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+type	"养成功能类型=0，坐骑=1，神兵=2，翅膀=3，阵法=4，法宝"			
+equiptype	1-4分别对应界面中从左到右四个格子中的装备类型			
+name	备注用			
+steplevel	进阶系统等级			
+num	格子可放置的装备等级，小于等于所填写等级			
+icon 装备格子上显示的装备灰态形象 填装备ID		
+	
+		
+		
+		
+
+
+
+-->
+	<equip type="0" equiptype="101;102;103;104" name="马鞭;马蹄;马鞍;马镫" icon="1010101;1020101;1030101;1040101">
+		<equipinfo steplevel="1" num="1"/>
+		<equipinfo steplevel="2" num="2"/>
+		<equipinfo steplevel="3" num="3"/>
+		<equipinfo steplevel="4" num="4"/>
+		<equipinfo steplevel="5" num="5"/>
+		<equipinfo steplevel="6" num="6"/>
+		<equipinfo steplevel="7" num="7"/>
+		<equipinfo steplevel="8" num="8"/>
+		<equipinfo steplevel="9" num="9"/>
+		<equipinfo steplevel="10" num="10"/>
+	</equip>
+	<equip type="1" equiptype="201;202;203;204" name="神石;神铁;神柄;神骨" icon="2010101;2020101;2030101;2040101">
+		<equipinfo steplevel="1" num="1"/>
+		<equipinfo steplevel="2" num="2"/>
+		<equipinfo steplevel="3" num="3"/>
+		<equipinfo steplevel="4" num="4"/>
+		<equipinfo steplevel="5" num="5"/>
+		<equipinfo steplevel="6" num="6"/>
+		<equipinfo steplevel="7" num="7"/>
+		<equipinfo steplevel="8" num="8"/>
+		<equipinfo steplevel="9" num="9"/>
+		<equipinfo steplevel="10" num="10"/>
+	</equip>
+	<equip type="2" equiptype="301;302;303;304" name="飞纹;飞骨;飞玉;飞符" icon="3010101;3020101;3030101;3040101">
+		<equipinfo steplevel="1" num="1"/>
+		<equipinfo steplevel="2" num="2"/>
+		<equipinfo steplevel="3" num="3"/>
+		<equipinfo steplevel="4" num="4"/>
+		<equipinfo steplevel="5" num="5"/>
+		<equipinfo steplevel="6" num="6"/>
+		<equipinfo steplevel="7" num="7"/>
+		<equipinfo steplevel="8" num="8"/>
+		<equipinfo steplevel="9" num="9"/>
+		<equipinfo steplevel="10" num="10"/>
+	</equip>
+	<equip type="3" equiptype="401;402;403;404" name="灵玉;灵符;灵珠;灵石" icon="5010101;5020101;5030101;5040101">
+		<equipinfo steplevel="1" num="1"/>
+		<equipinfo steplevel="2" num="2"/>
+		<equipinfo steplevel="3" num="3"/>
+		<equipinfo steplevel="4" num="4"/>
+		<equipinfo steplevel="5" num="5"/>
+		<equipinfo steplevel="6" num="6"/>
+		<equipinfo steplevel="7" num="7"/>
+		<equipinfo steplevel="8" num="8"/>
+		<equipinfo steplevel="9" num="9"/>
+		<equipinfo steplevel="10" num="10"/>
+	</equip>
+	<equip type="4" equiptype="501;502;503;504" name="仙甲;仙翎;仙符;仙血" icon="4010101;4020101;4030101;4040101">
+		<equipinfo steplevel="1" num="1"/>
+		<equipinfo steplevel="2" num="2"/>
+		<equipinfo steplevel="3" num="3"/>
+		<equipinfo steplevel="4" num="4"/>
+		<equipinfo steplevel="5" num="5"/>
+		<equipinfo steplevel="6" num="6"/>
+		<equipinfo steplevel="7" num="7"/>
+		<equipinfo steplevel="8" num="8"/>
+		<equipinfo steplevel="9" num="9"/>
+		<equipinfo steplevel="10" num="10"/>
+	</equip>
+	<equip type="5" equiptype="601;602;603;604" name="地灵;明水;天火;阴风" icon="6010101;6020101;6030101;6040101">
+		<equipinfo steplevel="1" num="1"/>
+		<equipinfo steplevel="2" num="2"/>
+		<equipinfo steplevel="3" num="3"/>
+		<equipinfo steplevel="4" num="4"/>
+		<equipinfo steplevel="5" num="5"/>
+		<equipinfo steplevel="6" num="6"/>
+		<equipinfo steplevel="7" num="7"/>
+		<equipinfo steplevel="8" num="8"/>
+		<equipinfo steplevel="9" num="9"/>
+		<equipinfo steplevel="10" num="10"/>
+	</equip>
+	<equip type="6" equiptype="701;702;703;704" name="法印;令旗;八卦;符篆" icon="7010101;7020101;7030101;7040101">
+		<equipinfo steplevel="1" num="1"/>
+		<equipinfo steplevel="2" num="2"/>
+		<equipinfo steplevel="3" num="3"/>
+		<equipinfo steplevel="4" num="4"/>
+		<equipinfo steplevel="5" num="5"/>
+		<equipinfo steplevel="6" num="6"/>
+		<equipinfo steplevel="7" num="7"/>
+		<equipinfo steplevel="8" num="8"/>
+		<equipinfo steplevel="9" num="9"/>
+		<equipinfo steplevel="10" num="10"/>
+	</equip>
+	<equip type="7" equiptype="801;802;803;804" name="雷甲;冥火;星羽;夜翼" icon="8010101;8020101;8030101;8040101">
+		<equipinfo steplevel="1" num="1"/>
+		<equipinfo steplevel="2" num="2"/>
+		<equipinfo steplevel="3" num="3"/>
+		<equipinfo steplevel="4" num="4"/>
+		<equipinfo steplevel="5" num="5"/>
+		<equipinfo steplevel="6" num="6"/>
+		<equipinfo steplevel="7" num="7"/>
+		<equipinfo steplevel="8" num="8"/>
+		<equipinfo steplevel="9" num="9"/>
+		<equipinfo steplevel="10" num="10"/>
+	</equip>
+</root>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+functionid	功能id
+groupid	活动组id，可同时开放多个
+name	活动名字
+sortid	活动显示排序id
+opentime	活动开启具体时间
+例如：2019-2-20 00:00:00
+endtime	活动具体结束时间
+例如：2019-2-20 00:00:00
+icon	活动入口图标
+trieslimit	单个group 下多个calss中允许购买次数，-1或留空为无限制
+pf	默认为-1=全平台，其他根据平台id对应，不同平台支持不同奖励和活动开启时段；
+mailid	玩家充值后没领取/背包满领取失败，0点/活动结束后邮件发放
+calss	礼包分档
+cost	购买价格（充值金额）
+rechargeid	对应recharge.xml商品
+slogan	礼包广告语（客户端使用）
+buyallow	同一grouid下，是否需要购买前一档礼包获取购买资格：-1或者留空为不需要，1为需要
+buytime	单次活动时间内允许购买次数
+item	礼包道具id，多个逗号隔开
+num	礼包道具数量，多个逗号隔开
+
+-->
+	<function functionid="2075"/>
+	<pf pf="-1" name="回馈礼包" sortid="1" text="" opentime="2019-6-8 00:00:00" endtime="2019-6-9 23:59:59" icon="2075" mailid="6669">
+		<calss id="1" cost="368" rechargeid="45" slogan="chongwu" buyallow="" buytime="1" item="16010065,16010013,16010023" num="100,66,1"/>
+		<calss id="2" cost="1268" rechargeid="46" slogan="huoban" buyallow="" buytime="1" item="16010067,16010066,10000101,16010024" num="1,100,88,1"/>
+	</pf>
+</root>

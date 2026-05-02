@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+no	编号			
+recharge	充值金额（人民币）			
+money	获得元宝			
+givemoney	初次充值额外获得元宝			
+text	文本描述			
+icon	元宝图标		
+xs 是否显示 =1显示
+info 商品内容	
+		
+
+
+
+
+-->
+	<recharge no="1" recharge="25" money="yk" givemoney="0" info="月卡" text="1000" text2="3000" icon="cz_ykbg" xs="1"/>
+	<recharge no="2" recharge="18" money="zk" givemoney="0" info="周卡" text="5000" text2="2000" icon="cz_zkbj" xs="1"/>
+	<recharge no="3" recharge="6" money="600" givemoney="600" info="首充6元" text="首充送600元宝" icon="cz_di_1000" xs="1"/>
+	<recharge no="4" recharge="18" money="1800" givemoney="1800" info="首充18元" text="首充送1800元宝" icon="cz_di_1000" xs="1"/>
+	<recharge no="5" recharge="30" money="3000" givemoney="3000" info="首充30元" text="首充送3000元宝" icon="cz_di_1000" xs="1"/>
+	<recharge no="6" recharge="50" money="5000" givemoney="5000" info="首充50元" text="首充送5000元宝" icon="cz_di_2000" xs="1"/>
+	<recharge no="7" recharge="98" money="9800" givemoney="9800" info="首充98元" text="首充送9800元宝" icon="cz_di_2000" xs="1"/>
+	<recharge no="8" recharge="198" money="19800" givemoney="19800" info="首充198元" text="首充送19800元宝" icon="cz_di_2000" xs="1"/>
+	<recharge no="9" recharge="328" money="32800" givemoney="32800" info="首充328元" text="首充送32800元宝" icon="cz_di_3000" xs="1"/>
+	<recharge no="12" recharge="648" money="64800" givemoney="64800" info="首充648元" text="首充送64800元宝" icon="cz_di_4000" xs="1"/>
+	<recharge no="21" recharge="8" money="xsqg" info="限时抢购"/>
+	<recharge no="22" recharge="12" money="sbsc" info="三倍首充12元"/>
+	<recharge no="23" recharge="30" money="sbsc" info="三倍首充30元"/>
+	<recharge no="24" recharge="98" money="sbsc" info="三倍首充98元"/>
+	<recharge no="25" recharge="198" money="sbsc" info="三倍首充198元"/>
+	<recharge no="26" recharge="98" money="zsk" givemoney="0" info="终生卡" text="2000" text2="10000" icon="cz_ykbg" xs="1"/>
+	<recharge no="27" recharge="1" money="mrth" info="每日特惠1元"/>
+	<recharge no="28" recharge="3" money="mrth" info="每日特惠3元"/>
+	<recharge no="29" recharge="6" money="mrth" info="每日特惠6元"/>
+	<recharge no="30" recharge="12" money="mrth" info="每日特惠12元"/>
+	<recharge no="31" recharge="25" money="yk" givemoney="0" info="月卡" text="1000" text2="3000" icon="cz_ykbg" xs="0"/>
+	<recharge no="32" recharge="18" money="yk" givemoney="0" info="月卡" text="1000" text2="3000" icon="cz_ykbg" xs="0"/>
+	<recharge no="33" recharge="18" money="yk" givemoney="0" info="月卡" text="1000" text2="3000" icon="cz_ykbg" xs="0"/>
+	<recharge no="34" recharge="18" money="yk" givemoney="0" info="月卡" text="1000" text2="3000" icon="cz_ykbg" xs="0"/>
+	<recharge no="35" recharge="12" money="yk" givemoney="0" info="月卡" text="1000" text2="3000" icon="cz_ykbg" xs="0"/>
+	<recharge no="36" recharge="12" money="zk" givemoney="0" info="周卡" text="5000" text2="2000" icon="cz_zkbj" xs="0"/>
+	<recharge no="37" recharge="12" money="zk" givemoney="0" info="周卡" text="5000" text2="2000" icon="cz_zkbj" xs="0"/>
+	<recharge no="38" recharge="12" money="zk" givemoney="0" info="周卡" text="5000" text2="2000" icon="cz_zkbj" xs="0"/>
+	<recharge no="39" recharge="12" money="zk" givemoney="0" info="周卡" text="5000" text2="2000" icon="cz_zkbj" xs="0"/>
+	<recharge no="40" recharge="8" money="zk" givemoney="0" info="周卡" text="5000" text2="2000" icon="cz_zkbj" xs="0"/>
+	<recharge no="41" recharge="8" money="zk" givemoney="0" info="周卡" text="5000" text2="2000" icon="cz_zkbj" xs="0"/>
+	<recharge no="42" recharge="8" money="lcfl" info="累充返利10元"/>
+	<recharge no="43" recharge="18" money="lcfl" info="累充返利20元"/>
+	<recharge no="44" recharge="50" money="lcfl" info="累充返利50元"/>
+	<recharge no="45" recharge="328" money="fklb" info="反馈礼包328"/>
+	<serverNum serverNum="-1" serverday="8" time="3" slogan="slogan_3" tag="tag_3"/>
+	<serverNum serverNum="1" serverday="5" time="5" slogan="slogan_5" tag="tag_5"/>
+</root>

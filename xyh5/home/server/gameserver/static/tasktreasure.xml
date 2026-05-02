@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+func标签			
+	functionid	功能开启	
+	taskcount	每日基础任务次数	
+	luck_max	幸运值上限	
+    mail_dig	挖宝时背包空间不足通过邮件发放关联mail.xml
+vip标签			
+	vip	vip等级	
+	buy	可购买任务的次数	
+buy标签			
+	buycount	购买次数	
+	cost	消耗元宝	
+luck标签			
+	digtime	挖宝次数	
+	treasure	珍宝感知率，万分比，显示用无实际作用	
+	luck	当次挖宝增加的幸运值
+-->
+	<func functionid="2101" taskcount="10" luck_max="100" mail_dig="1008"/>
+	<vip vip="0" buy="0"/>
+	<vip vip="1" buy="0"/>
+	<vip vip="2" buy="1"/>
+	<vip vip="3" buy="1"/>
+	<vip vip="4" buy="2"/>
+	<vip vip="5" buy="3"/>
+	<vip vip="6" buy="3"/>
+	<vip vip="7" buy="3"/>
+	<vip vip="8" buy="4"/>
+	<vip vip="9" buy="4"/>
+	<vip vip="10" buy="5"/>
+	<vip vip="11" buy="5"/>
+	<vip vip="12" buy="5"/>
+	<vip vip="13" buy="5"/>
+	<vip vip="14" buy="5"/>
+	<vip vip="15" buy="5"/>
+	<buy buycount="1" cost="100"/>
+	<buy buycount="2" cost="200"/>
+	<buy buycount="3" cost="300"/>
+	<buy buycount="4" cost="400"/>
+	<buy buycount="5" cost="500"/>
+	<luck digtime="0" treasure="500" luck="1"/>
+	<luck digtime="1" treasure="600" luck="1"/>
+	<luck digtime="2" treasure="800" luck="1"/>
+	<luck digtime="3" treasure="900" luck="1"/>
+	<luck digtime="4" treasure="1000" luck="1"/>
+	<luck digtime="5" treasure="1100" luck="1"/>
+	<luck digtime="6" treasure="1200" luck="1"/>
+	<luck digtime="7" treasure="1400" luck="2"/>
+	<luck digtime="8" treasure="1600" luck="2"/>
+	<luck digtime="9" treasure="1800" luck="2"/>
+	<luck digtime="10" treasure="2000" luck="3"/>
+	<luck digtime="11" treasure="2200" luck="3"/>
+	<luck digtime="12" treasure="2500" luck="3"/>
+	<luck digtime="13" treasure="3000" luck="4"/>
+	<luck digtime="14" treasure="3500" luck="4"/>
+	<luck digtime="15" treasure="4000" luck="4"/>
+	<!--
+level标签			
+	level	等级段	
+    luck_house	幸运值满后挖宝对应的奖池库
+task标签			
+	taskid	任务id	
+	dec	任务描述	
+	zhenrongid	阵容编号，关联zhenrong.xml	
+	point	随机点	
+dig标签			
+	digcount	当日挖宝次数段N,M	
+	houseid	挖宝获得的奖池库编号
+-->
+	<level level="1,40" luck_house="10">
+		<task taskid="104001" dec="1-40级任务1" zhenrongid="210000001" point="101"/>
+		<task taskid="104002" dec="1-40级任务2" zhenrongid="210000001" point="101"/>
+		<task taskid="104003" dec="1-40级任务3" zhenrongid="210000002" point="101"/>
+		<dig digcount="1,5" houseid="1"/>
+		<dig digcount="6,9" houseid="2"/>
+		<dig digcount="10" houseid="3"/>
+		<dig digcount="11,15" houseid="4"/>
+	</level>
+	<level level="41,80" luck_house="10">
+		<task taskid="104101" dec="41-80级任务1" zhenrongid="210000002" point="101"/>
+		<task taskid="124102" dec="41-80级任务2" zhenrongid="210000003" point="101"/>
+		<task taskid="124103" dec="41-80级任务3" zhenrongid="210000003" point="101"/>
+		<dig digcount="1,5" houseid="1"/>
+		<dig digcount="6,9" houseid="2"/>
+		<dig digcount="10" houseid="3"/>
+		<dig digcount="11,15" houseid="4"/>
+	</level>
+	<level level="81,240" luck_house="10">
+		<task taskid="126101" dec="81-240级任务1" zhenrongid="210000004" point="101"/>
+		<task taskid="126102" dec="81-240级任务2" zhenrongid="210000004" point="101"/>
+		<task taskid="126103" dec="81-240级任务3" zhenrongid="210000005" point="101"/>
+		<dig digcount="1,5" houseid="1"/>
+		<dig digcount="6,9" houseid="2"/>
+		<dig digcount="10" houseid="3"/>
+		<dig digcount="11,15" houseid="4"/>
+	</level>
+	<!--
+house标签			
+	house	奖池库	
+reward标签			
+	id	奖励编号	
+	weight	奖励权重	
+	money	银两	
+	bmoney	绑元	
+	item	道具奖励itemid:count1,itemid:count2	
+-->
+	<house house="1">
+		<reward id="1" weight="100" money="1000000"/>
+		<reward id="2" weight="100" money="2000000"/>
+	</house>
+	<house house="2">
+		<reward id="1" weight="100" bmoney="1000"/>
+		<reward id="2" weight="100" bmoney="2000"/>
+	</house>
+	<house house="3">
+		<reward id="1" weight="100" item="10000006:5"/>
+		<reward id="2" weight="100" item="10000006:100"/>
+	</house>
+	<house house="4">
+		<reward id="1" weight="100" item="10000020:1"/>
+		<reward id="2" weight="100" item="10000021:1"/>
+	</house>
+	<house house="10">
+		<reward id="1" weight="100" item="50010000:1"/>
+	</house>
+</root>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--openlv	开放等级
+	
+id	=1福利一，=2福利二，=3福利三
+item	道具id
+num	道具数量
+bind	绑定状态=0可交易，=1绑定
+	
+item	道具id
+num	道具数量
+bind	绑定状态=0可交易，=1绑定
+	
+item	道具id
+num	道具数量
+bind	绑定状态=0可交易，=1绑定
+	
+item	道具id
+num	道具数量
+bind	绑定状态=0可交易，=1绑定
+	
+lv	玩家等级
+item	道具id
+num	道具数量
+bind	绑定状态=0可交易，=1绑定
+-->
+<root>
+	<ui activityid="1" name="每日礼包" index="1"/>
+	<ui activityid="2" name="成长礼包" index="2"/>
+	<ui activityid="3" name="新手礼包" index="3"/>
+	<open openlv="1"/>
+	<dailyGift>
+		<gift item="100591" num="3" bind="1"/>
+		<gift item="108304" num="3" bind="1"/>
+		<gift item="108504" num="2" bind="1"/>
+	</dailyGift>
+	<grow>
+		<level lv="5">
+			<gift item="100591" num="1" bind="1"/>
+			<gift item="108303" num="1" bind="1"/>
+			<gift item="108703" num="1" bind="1"/>
+		</level>
+		<level lv="10">
+			<gift item="100591" num="1" bind="1"/>
+			<gift item="108302" num="3" bind="1"/>
+			<gift item="108703" num="2" bind="1"/>
+		</level>
+		<level lv="20">
+			<gift item="100591" num="2" bind="1"/>
+			<gift item="108304" num="1" bind="1"/>
+			<gift item="108703" num="3" bind="1"/>
+		</level>
+		<level lv="30">
+			<gift item="100591" num="2" bind="1"/>
+			<gift item="108302" num="5" bind="1"/>
+			<gift item="108703" num="4" bind="1"/>
+		</level>
+		<level lv="40">
+			<gift item="100592" num="1" bind="1"/>
+			<gift item="108303" num="3" bind="1"/>
+			<gift item="108705" num="1" bind="1"/>
+			<gift item="100581" num="1" bind="1"/>
+		</level>
+		<level lv="50">
+			<gift item="100592" num="2" bind="1"/>
+			<gift item="108302" num="7" bind="1"/>
+			<gift item="108703" num="6" bind="1"/>
+			<gift item="100581" num="2" bind="1"/>
+		</level>
+		<level lv="60">
+			<gift item="100593" num="2" bind="1"/>
+			<gift item="108302" num="9" bind="1"/>
+			<gift item="108705" num="2" bind="1"/>
+			<gift item="100581" num="5" bind="1"/>
+			<gift item="100001" num="1" bind="1"/>
+		</level>
+		<level lv="65">
+			<gift item="100594" num="1" bind="1"/>
+			<gift item="108305" num="1" bind="1"/>
+			<gift item="108704" num="5" bind="1"/>
+			<gift item="100582" num="1" bind="1"/>
+			<gift item="100001" num="2" bind="1"/>
+		</level>
+		<level lv="70">
+			<gift item="100594" num="2" bind="1"/>
+			<gift item="108306" num="1" bind="1"/>
+			<gift item="108705" num="3" bind="1"/>
+			<gift item="100582" num="2" bind="1"/>
+			<gift item="100001" num="3" bind="1"/>
+		</level>
+		<level lv="75">
+			<gift item="100595" num="1" bind="1"/>
+			<gift item="108306" num="2" bind="1"/>
+			<gift item="108705" num="4" bind="1"/>
+			<gift item="100582" num="3" bind="1"/>
+			<gift item="100001" num="4" bind="1"/>
+		</level>
+		<level lv="80">
+			<gift item="100595" num="2" bind="1"/>
+			<gift item="108307" num="1" bind="1"/>
+			<gift item="108706" num="1" bind="1"/>
+			<gift item="100582" num="5" bind="1"/>
+			<gift item="100001" num="5" bind="1"/>
+		</level>
+	</grow>
+	<newbie>
+		<gift item="100582" num="1" bind="1"/>
+		<gift item="100591" num="2" bind="1"/>
+		<gift item="107003" num="10" bind="1"/>
+		<gift item="108306" num="1" bind="1"/>
+		<gift item="108706" num="1" bind="1"/>
+	</newbie>
+	<download>
+		<gift item="100592" num="2" bind="1"/>
+		<gift item="108302" num="7" bind="1"/>
+		<gift item="108703" num="6" bind="1"/>
+		<gift item="100581" num="2" bind="1"/>
+	</download>
+	<weiduan>
+		<welfare id="1">
+			<gift item="100582" num="2" bind="1"/>
+			<gift item="100590" num="2" bind="1"/>
+			<gift item="108704" num="1" bind="1"/>
+		</welfare>
+		<welfare id="2">
+			<gift item="100001" num="1" bind="1"/>
+			<gift item="100591" num="1" bind="1"/>
+			<gift item="108704" num="1" bind="1"/>
+		</welfare>
+		<welfare id="3">
+			<gift item="100001" num="1" bind="1"/>
+			<gift item="100591" num="2" bind="1"/>
+			<gift item="108705" num="1" bind="1"/>
+		</welfare>
+	</weiduan>
+</root>

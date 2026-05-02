@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+functionid	功能id
+groupid	活动id
+name	活动名字
+sortid	活动显示排序id
+opentime	活动开启具体时间
+例如：2019-2-20 00:00:00
+endtime	活动具体结束时间
+例如：2019-2-20 00:00:00
+icon 活动入口图标
+id	标识id（程序用）
+itemid	道具id
+itemnum	道具数量
+moneynum	元宝数量
+cishu	限购次数，不填则无限制
+cishutype	限购类型=-1活动期间限购，=-2为0点重置
+填其他数字表示几天后刷新
+carnum	道具件数
+zhekou	折扣（万分比）
+-->
+	<function functionid="6677"/>
+	<group groupid="3" name="折上折" sortid="1" opentime="2019-4-26 00:00:00" endtime="2019-4-28 23:59:59" icon="6677">
+		<item id="1" itemid="10000004" itemnum="10" moneynum="28880" cishu="1" cishutype="-2"/>
+		<item id="2" itemid="10000101" itemnum="50" moneynum="20000" cishu="1" cishutype="-2"/>
+		<item id="3" itemid="16010013" itemnum="50" moneynum="25000" cishu="1" cishutype="-2"/>
+		<item id="4" itemid="16010021" itemnum="5" moneynum="20000" cishu="1" cishutype="-2"/>
+		<item id="5" itemid="10000009" itemnum="200" moneynum="20000" cishu="1" cishutype="-2"/>
+		<item id="6" itemid="10000006" itemnum="200" moneynum="10000" cishu="1" cishutype="-2"/>
+		<item id="7" itemid="16010033" itemnum="2" moneynum="10000" cishu="1" cishutype="-2"/>
+		<item id="8" itemid="16010007" itemnum="10" moneynum="10000" cishu="1" cishutype="-2"/>
+		<zhekou carnunm="1" zhekou="9000"/>
+		<zhekou carnunm="2" zhekou="7000"/>
+		<zhekou carnunm="3" zhekou="6000"/>
+		<zhekou carnunm="5" zhekou="5000"/>
+		<zhekou carnunm="8" zhekou="4000"/>
+	</group>
+	<group groupid="4" name="折上折" sortid="2" opentime="2019-4-30 00:00:00" endtime="2019-5-5 23:59:59" icon="6677">
+		<item id="1" itemid="16010028" itemnum="200" moneynum="20000" cishu="1" cishutype="-2"/>
+		<item id="2" itemid="16010029" itemnum="100" moneynum="30000" cishu="1" cishutype="-2"/>
+		<item id="3" itemid="16010038" itemnum="20" moneynum="20000" cishu="1" cishutype="-2"/>
+		<item id="4" itemid="16010039" itemnum="5" moneynum="25000" cishu="1" cishutype="-2"/>
+		<item id="5" itemid="16010030" itemnum="200" moneynum="20000" cishu="1" cishutype="-2"/>
+		<item id="6" itemid="16010031" itemnum="100" moneynum="30000" cishu="1" cishutype="-2"/>
+		<item id="7" itemid="16010032" itemnum="20" moneynum="20000" cishu="1" cishutype="-2"/>
+		<item id="8" itemid="16010033" itemnum="5" moneynum="25000" cishu="1" cishutype="-2"/>
+		<zhekou carnunm="1" zhekou="9000"/>
+		<zhekou carnunm="2" zhekou="7000"/>
+		<zhekou carnunm="3" zhekou="6000"/>
+		<zhekou carnunm="5" zhekou="5000"/>
+		<zhekou carnunm="8" zhekou="4000"/>
+	</group>
+	<group groupid="5" name="折上折" sortid="3" opentime="2019-5-10 00:00:00" endtime="2019-5-12 23:59:59" icon="6677">
+		<item id="1" itemid="10000042" itemnum="100" moneynum="20000" cishu="1" cishutype="-2"/>
+		<item id="2" itemid="10000009" itemnum="200" moneynum="20000" cishu="1" cishutype="-2"/>
+		<item id="3" itemid="16010022" itemnum="200" moneynum="20000" cishu="1" cishutype="-2"/>
+		<item id="4" itemid="16010013" itemnum="50" moneynum="25000" cishu="1" cishutype="-2"/>
+		<item id="5" itemid="10000101" itemnum="50" moneynum="20000" cishu="1" cishutype="-2"/>
+		<item id="6" itemid="10000008" itemnum="5000" moneynum="25000" cishu="1" cishutype="-2"/>
+		<item id="7" itemid="10000004" itemnum="20" moneynum="30000" cishu="1" cishutype="-2"/>
+		<item id="8" itemid="16010007" itemnum="20" moneynum="20000" cishu="1" cishutype="-2"/>
+		<zhekou carnunm="1" zhekou="9000"/>
+		<zhekou carnunm="2" zhekou="7000"/>
+		<zhekou carnunm="3" zhekou="6000"/>
+		<zhekou carnunm="5" zhekou="5000"/>
+		<zhekou carnunm="8" zhekou="4000"/>
+	</group>
+	<group groupid="6" name="折上折" sortid="3" opentime="2019-5-17 00:00:00" endtime="2019-5-19 23:59:59" icon="6677">
+		<item id="1" itemid="10000015" itemnum="300" moneynum="30000" cishu="1" cishutype="-2"/>
+		<item id="2" itemid="16010001" itemnum="250" moneynum="25000" cishu="1" cishutype="-2"/>
+		<item id="3" itemid="16010029" itemnum="100" moneynum="30000" cishu="1" cishutype="-2"/>
+		<item id="4" itemid="16010025" itemnum="25" moneynum="25000" cishu="1" cishutype="-2"/>
+		<item id="5" itemid="16010026" itemnum="25" moneynum="25000" cishu="1" cishutype="-2"/>
+		<item id="6" itemid="16010031" itemnum="100" moneynum="30000" cishu="1" cishutype="-2"/>
+		<item id="7" itemid="16010032" itemnum="20" moneynum="20000" cishu="1" cishutype="-2"/>
+		<item id="8" itemid="16010033" itemnum="5" moneynum="25000" cishu="1" cishutype="-2"/>
+		<zhekou carnunm="1" zhekou="9000"/>
+		<zhekou carnunm="2" zhekou="7000"/>
+		<zhekou carnunm="3" zhekou="6000"/>
+		<zhekou carnunm="5" zhekou="5000"/>
+		<zhekou carnunm="8" zhekou="4000"/>
+	</group>
+	<group groupid="7" name="折上折" sortid="3" opentime="2019-5-22 00:00:00" endtime="2019-5-26 23:59:59" icon="6677">
+		<item id="1" itemid="10000015" itemnum="300" moneynum="18000" cishu="1" cishutype="-2"/>
+		<item id="2" itemid="16010001" itemnum="250" moneynum="15000" cishu="1" cishutype="-2"/>
+		<item id="3" itemid="16010029" itemnum="100" moneynum="18000" cishu="1" cishutype="-2"/>
+		<item id="4" itemid="16010025" itemnum="25" moneynum="15000" cishu="1" cishutype="-2"/>
+		<item id="5" itemid="16010026" itemnum="25" moneynum="15000" cishu="1" cishutype="-2"/>
+		<item id="6" itemid="16010031" itemnum="100" moneynum="18000" cishu="1" cishutype="-2"/>
+		<item id="7" itemid="16010032" itemnum="20" moneynum="12000" cishu="1" cishutype="-2"/>
+		<item id="8" itemid="16010033" itemnum="5" moneynum="15000" cishu="1" cishutype="-2"/>
+		<zhekou carnunm="1" zhekou="9000"/>
+		<zhekou carnunm="2" zhekou="7000"/>
+		<zhekou carnunm="3" zhekou="6000"/>
+		<zhekou carnunm="5" zhekou="5000"/>
+		<zhekou carnunm="8" zhekou="4000"/>
+	</group>
+	<group groupid="8" name="折上折" sortid="3" opentime="2019-6-14 00:00:00" endtime="2019-6-16 23:59:59" icon="6677">
+		<item id="1" itemid="16010064" itemnum="20" moneynum="20000" cishu="1" cishutype="-2"/>
+		<item id="2" itemid="16010049" itemnum="50" moneynum="20000" cishu="1" cishutype="-2"/>
+		<item id="3" itemid="16010060" itemnum="50" moneynum="20000" cishu="1" cishutype="-2"/>
+		<item id="4" itemid="16010068" itemnum="3" moneynum="30000" cishu="1" cishutype="-2"/>
+		<item id="5" itemid="16010038" itemnum="20" moneynum="12000" cishu="1" cishutype="-2"/>
+		<item id="6" itemid="16010039" itemnum="5" moneynum="15000" cishu="1" cishutype="-2"/>
+		<item id="7" itemid="16010032" itemnum="20" moneynum="12000" cishu="1" cishutype="-2"/>
+		<item id="8" itemid="16010033" itemnum="5" moneynum="15000" cishu="1" cishutype="-2"/>
+		<zhekou carnunm="1" zhekou="9000"/>
+		<zhekou carnunm="2" zhekou="7000"/>
+		<zhekou carnunm="3" zhekou="6000"/>
+		<zhekou carnunm="5" zhekou="5000"/>
+		<zhekou carnunm="8" zhekou="4000"/>
+	</group>
+	<group groupid="9" name="折上折" sortid="3" opentime="2019-6-28 00:00:00" endtime="2019-6-30 23:59:59" icon="6677">
+		<item id="1" itemid="10000015" itemnum="300" moneynum="18000" cishu="1" cishutype="-2"/>
+		<item id="2" itemid="16010001" itemnum="250" moneynum="15000" cishu="1" cishutype="-2"/>
+		<item id="3" itemid="16010029" itemnum="100" moneynum="18000" cishu="1" cishutype="-2"/>
+		<item id="4" itemid="16010025" itemnum="25" moneynum="15000" cishu="1" cishutype="-2"/>
+		<item id="5" itemid="16010026" itemnum="25" moneynum="15000" cishu="1" cishutype="-2"/>
+		<item id="6" itemid="16010031" itemnum="100" moneynum="18000" cishu="1" cishutype="-2"/>
+		<item id="7" itemid="16010032" itemnum="20" moneynum="12000" cishu="1" cishutype="-2"/>
+		<item id="8" itemid="16010033" itemnum="5" moneynum="15000" cishu="1" cishutype="-2"/>
+		<zhekou carnunm="1" zhekou="9000"/>
+		<zhekou carnunm="2" zhekou="7000"/>
+		<zhekou carnunm="3" zhekou="6000"/>
+		<zhekou carnunm="5" zhekou="5000"/>
+		<zhekou carnunm="8" zhekou="4000"/>
+	</group>
+		<group groupid="10" name="折上折" sortid="3" opentime="2019-7-12 00:00:00" endtime="2019-7-14 23:59:59" icon="6677">
+		<item id="1" itemid="16010064" itemnum="20" moneynum="20000" cishu="1" cishutype="-2"/>
+		<item id="2" itemid="16010049" itemnum="50" moneynum="20000" cishu="1" cishutype="-2"/>
+		<item id="3" itemid="16010060" itemnum="50" moneynum="20000" cishu="1" cishutype="-2"/>
+		<item id="4" itemid="16010068" itemnum="3" moneynum="30000" cishu="1" cishutype="-2"/>
+		<item id="5" itemid="16010038" itemnum="20" moneynum="12000" cishu="1" cishutype="-2"/>
+		<item id="6" itemid="16010039" itemnum="5" moneynum="15000" cishu="1" cishutype="-2"/>
+		<item id="7" itemid="16010032" itemnum="20" moneynum="12000" cishu="1" cishutype="-2"/>
+		<item id="8" itemid="16010033" itemnum="5" moneynum="15000" cishu="1" cishutype="-2"/>
+		<zhekou carnunm="1" zhekou="9000"/>
+		<zhekou carnunm="2" zhekou="7000"/>
+		<zhekou carnunm="3" zhekou="6000"/>
+		<zhekou carnunm="5" zhekou="5000"/>
+		<zhekou carnunm="8" zhekou="4000"/>
+	</group>
+		<group groupid="11" name="折上折" sortid="3" opentime="2019-7-26 00:00:00" endtime="2019-7-28 23:59:59" icon="6677">
+		<item id="1" itemid="10000015" itemnum="300" moneynum="18000" cishu="1" cishutype="-2"/>
+		<item id="2" itemid="16010001" itemnum="250" moneynum="15000" cishu="1" cishutype="-2"/>
+		<item id="3" itemid="16010029" itemnum="100" moneynum="18000" cishu="1" cishutype="-2"/>
+		<item id="4" itemid="16010025" itemnum="25" moneynum="15000" cishu="1" cishutype="-2"/>
+		<item id="5" itemid="16010026" itemnum="25" moneynum="15000" cishu="1" cishutype="-2"/>
+		<item id="6" itemid="16010031" itemnum="100" moneynum="18000" cishu="1" cishutype="-2"/>
+		<item id="7" itemid="16010032" itemnum="20" moneynum="12000" cishu="1" cishutype="-2"/>
+		<item id="8" itemid="16010033" itemnum="5" moneynum="15000" cishu="1" cishutype="-2"/>
+		<zhekou carnunm="1" zhekou="9000"/>
+		<zhekou carnunm="2" zhekou="7000"/>
+		<zhekou carnunm="3" zhekou="6000"/>
+		<zhekou carnunm="5" zhekou="5000"/>
+		<zhekou carnunm="8" zhekou="4000"/>
+	</group>
+</root>

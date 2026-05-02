@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!--
+FunctionId	功能开启
+group	活动组别
+DailyReset	消费金额是否每天重置
+=0，活动期间不重置
+=1，每天重置
+name	活动组名称,策划自己看
+sortId	活动排序
+activityOpen	活动开启时间,配置格式
+2019-03-20 00:00:00
+activityEnds	活动结束时间,配置格式
+2019-03-20 23:59:59
+activityEntraceIcon	活动功能图标
+ActivityBgMap	活动背景图
+MailId	邮件Id
+DayNum	天数状态
+根据活动开启天数来确定对应数据
+GradeNum	档次
+AmountConsumption	消费的元宝数量
+rewardItem	道具Id值
+num	道具数量
+-->
+<root>
+	<Function FunctionId="6682"/>
+	<ActivityInformation group="1" DailyReset="1" name="" sortId="2" activityOpen="2019-04-09 00:00:00" activityEnds="2019-04-12 23:59:59" activityEntraceIcon="HolidayConsumption1" ActivityBgMap="HolidayConsumptionBg" MailId="6682">
+		<day DayNum="1">
+			<grade GradeNum="1" AmountConsumption="1000">
+				<reward rewardItem="10000001" num="10"/>
+				<reward rewardItem="10000007" num="10"/>
+				<reward rewardItem="10000008" num="10"/>
+				<reward rewardItem="10000013" num="10"/>
+				<reward rewardItem="10000016" num="10"/>
+				<reward rewardItem="10000020" num="10"/>
+			</grade>
+			<grade GradeNum="2" AmountConsumption="2000">
+				<reward rewardItem="10000001" num="10"/>
+				<reward rewardItem="10000007" num="10"/>
+				<reward rewardItem="10000008" num="10"/>
+				<reward rewardItem="10000013" num="10"/>
+				<reward rewardItem="10000016" num="10"/>
+				<reward rewardItem="10000020" num="10"/>
+			</grade>
+			<grade GradeNum="3" AmountConsumption="3000">
+				<reward rewardItem="10000001" num="10"/>
+				<reward rewardItem="10000007" num="10"/>
+				<reward rewardItem="10000008" num="10"/>
+				<reward rewardItem="10000013" num="10"/>
+				<reward rewardItem="10000016" num="10"/>
+				<reward rewardItem="10000020" num="10"/>
+			</grade>
+			<grade GradeNum="4" AmountConsumption="5000">
+				<reward rewardItem="10000001" num="10"/>
+				<reward rewardItem="10000007" num="10"/>
+				<reward rewardItem="10000008" num="10"/>
+				<reward rewardItem="10000013" num="10"/>
+				<reward rewardItem="10000016" num="10"/>
+				<reward rewardItem="10000020" num="10"/>
+			</grade>
+			<grade GradeNum="5" AmountConsumption="10000">
+				<reward rewardItem="10000001" num="10"/>
+				<reward rewardItem="10000007" num="10"/>
+				<reward rewardItem="10000008" num="10"/>
+				<reward rewardItem="10000013" num="10"/>
+				<reward rewardItem="10000016" num="10"/>
+				<reward rewardItem="10000020" num="10"/>
+			</grade>
+			<grade GradeNum="6" AmountConsumption="20000">
+				<reward rewardItem="11051062" num="1"/>
+				<reward rewardItem="11051063" num="1"/>
+				<reward rewardItem="11051064" num="1"/>
+				<reward rewardItem="11051065" num="1"/>
+				<reward rewardItem="11051066" num="1"/>
+				<reward rewardItem="12000029" num="1"/>
+			</grade>
+		</day>
+		<day DayNum="2">
+			<grade GradeNum="1" AmountConsumption="1000">
+				<reward rewardItem="16010023" num="10"/>
+				<reward rewardItem="16010024" num="10"/>
+				<reward rewardItem="16010025" num="10"/>
+				<reward rewardItem="16010026" num="10"/>
+				<reward rewardItem="16010027" num="10"/>
+				<reward rewardItem="16010028" num="10"/>
+			</grade>
+			<grade GradeNum="2" AmountConsumption="2000">
+				<reward rewardItem="10000001" num="10"/>
+				<reward rewardItem="10000007" num="10"/>
+				<reward rewardItem="10000008" num="10"/>
+				<reward rewardItem="10000013" num="10"/>
+				<reward rewardItem="10000016" num="10"/>
+				<reward rewardItem="10000020" num="10"/>
+			</grade>
+			<grade GradeNum="3" AmountConsumption="3000">
+				<reward rewardItem="10000001" num="10"/>
+				<reward rewardItem="10000007" num="10"/>
+				<reward rewardItem="10000008" num="10"/>
+				<reward rewardItem="10000013" num="10"/>
+				<reward rewardItem="10000016" num="10"/>
+				<reward rewardItem="10000020" num="10"/>
+			</grade>
+			<grade GradeNum="4" AmountConsumption="5000">
+				<reward rewardItem="10000001" num="10"/>
+				<reward rewardItem="10000007" num="10"/>
+				<reward rewardItem="10000008" num="10"/>
+				<reward rewardItem="10000013" num="10"/>
+				<reward rewardItem="10000016" num="10"/>
+				<reward rewardItem="10000020" num="10"/>
+			</grade>
+			<grade GradeNum="5" AmountConsumption="10000">
+				<reward rewardItem="10000001" num="10"/>
+				<reward rewardItem="10000007" num="10"/>
+				<reward rewardItem="10000008" num="10"/>
+				<reward rewardItem="10000013" num="10"/>
+				<reward rewardItem="10000016" num="10"/>
+				<reward rewardItem="10000020" num="10"/>
+			</grade>
+			<grade GradeNum="6" AmountConsumption="20000">
+				<reward rewardItem="10000001" num="10"/>
+				<reward rewardItem="10000007" num="10"/>
+				<reward rewardItem="10000008" num="10"/>
+				<reward rewardItem="10000013" num="10"/>
+				<reward rewardItem="10000016" num="10"/>
+				<reward rewardItem="10000020" num="10"/>
+			</grade>
+		</day>
+		<day DayNum="3">
+			<grade GradeNum="1" AmountConsumption="1000">
+				<reward rewardItem="16010003" num="10"/>
+				<reward rewardItem="16010004" num="10"/>
+				<reward rewardItem="16010005" num="10"/>
+				<reward rewardItem="16010006" num="10"/>
+				<reward rewardItem="16010007" num="10"/>
+				<reward rewardItem="16010008" num="10"/>
+			</grade>
+			<grade GradeNum="2" AmountConsumption="2000">
+				<reward rewardItem="10000001" num="10"/>
+				<reward rewardItem="10000007" num="10"/>
+				<reward rewardItem="10000008" num="10"/>
+				<reward rewardItem="10000013" num="10"/>
+				<reward rewardItem="10000016" num="10"/>
+				<reward rewardItem="10000020" num="10"/>
+			</grade>
+			<grade GradeNum="3" AmountConsumption="3000">
+				<reward rewardItem="10000001" num="10"/>
+				<reward rewardItem="10000007" num="10"/>
+				<reward rewardItem="10000008" num="10"/>
+				<reward rewardItem="10000013" num="10"/>
+				<reward rewardItem="10000016" num="10"/>
+				<reward rewardItem="10000020" num="10"/>
+			</grade>
+			<grade GradeNum="4" AmountConsumption="5000">
+				<reward rewardItem="10000001" num="10"/>
+				<reward rewardItem="10000007" num="10"/>
+				<reward rewardItem="10000008" num="10"/>
+				<reward rewardItem="10000013" num="10"/>
+				<reward rewardItem="10000016" num="10"/>
+				<reward rewardItem="10000020" num="10"/>
+			</grade>
+			<grade GradeNum="5" AmountConsumption="10000">
+				<reward rewardItem="10000001" num="10"/>
+				<reward rewardItem="10000007" num="10"/>
+				<reward rewardItem="10000008" num="10"/>
+				<reward rewardItem="10000013" num="10"/>
+				<reward rewardItem="10000016" num="10"/>
+				<reward rewardItem="10000020" num="10"/>
+			</grade>
+			<grade GradeNum="6" AmountConsumption="20000">
+				<reward rewardItem="10000001" num="10"/>
+				<reward rewardItem="10000007" num="10"/>
+				<reward rewardItem="10000008" num="10"/>
+				<reward rewardItem="10000013" num="10"/>
+				<reward rewardItem="10000016" num="10"/>
+				<reward rewardItem="10000020" num="10"/>
+			</grade>
+		</day>
+		<day DayNum="4">
+			<grade GradeNum="1" AmountConsumption="1000">
+				<reward rewardItem="16010100" num="10"/>
+				<reward rewardItem="16010102" num="10"/>
+				<reward rewardItem="16010103" num="10"/>
+				<reward rewardItem="16010104" num="10"/>
+				<reward rewardItem="16010105" num="10"/>
+				<reward rewardItem="16010106" num="10"/>
+			</grade>
+			<grade GradeNum="2" AmountConsumption="2000">
+				<reward rewardItem="10000001" num="10"/>
+				<reward rewardItem="10000007" num="10"/>
+				<reward rewardItem="10000008" num="10"/>
+				<reward rewardItem="10000013" num="10"/>
+				<reward rewardItem="10000016" num="10"/>
+				<reward rewardItem="10000020" num="10"/>
+			</grade>
+			<grade GradeNum="3" AmountConsumption="3000">
+				<reward rewardItem="10000001" num="10"/>
+				<reward rewardItem="10000007" num="10"/>
+				<reward rewardItem="10000008" num="10"/>
+				<reward rewardItem="10000013" num="10"/>
+				<reward rewardItem="10000016" num="10"/>
+				<reward rewardItem="10000020" num="10"/>
+			</grade>
+			<grade GradeNum="4" AmountConsumption="5000">
+				<reward rewardItem="10000001" num="10"/>
+				<reward rewardItem="10000007" num="10"/>
+				<reward rewardItem="10000008" num="10"/>
+				<reward rewardItem="10000013" num="10"/>
+				<reward rewardItem="10000016" num="10"/>
+				<reward rewardItem="10000020" num="10"/>
+			</grade>
+			<grade GradeNum="5" AmountConsumption="10000">
+				<reward rewardItem="10000001" num="10"/>
+				<reward rewardItem="10000007" num="10"/>
+				<reward rewardItem="10000008" num="10"/>
+				<reward rewardItem="10000013" num="10"/>
+				<reward rewardItem="10000016" num="10"/>
+				<reward rewardItem="10000020" num="10"/>
+			</grade>
+			<grade GradeNum="6" AmountConsumption="20000">
+				<reward rewardItem="10000001" num="10"/>
+				<reward rewardItem="10000007" num="10"/>
+				<reward rewardItem="10000008" num="10"/>
+				<reward rewardItem="10000013" num="10"/>
+				<reward rewardItem="10000016" num="10"/>
+				<reward rewardItem="10000020" num="10"/>
+			</grade>
+		</day>
+		<day DayNum="5">
+			<grade GradeNum="1" AmountConsumption="1000">
+				<reward rewardItem="12000036" num="10"/>
+				<reward rewardItem="12000031" num="10"/>
+				<reward rewardItem="12000032" num="10"/>
+				<reward rewardItem="12000033" num="10"/>
+				<reward rewardItem="12000034" num="10"/>
+				<reward rewardItem="12000035" num="10"/>
+			</grade>
+			<grade GradeNum="2" AmountConsumption="2000">
+				<reward rewardItem="10000001" num="10"/>
+				<reward rewardItem="10000007" num="10"/>
+				<reward rewardItem="10000008" num="10"/>
+				<reward rewardItem="10000013" num="10"/>
+				<reward rewardItem="10000016" num="10"/>
+				<reward rewardItem="10000020" num="10"/>
+			</grade>
+			<grade GradeNum="3" AmountConsumption="3000">
+				<reward rewardItem="10000001" num="10"/>
+				<reward rewardItem="10000007" num="10"/>
+				<reward rewardItem="10000008" num="10"/>
+				<reward rewardItem="10000013" num="10"/>
+				<reward rewardItem="10000016" num="10"/>
+				<reward rewardItem="10000020" num="10"/>
+			</grade>
+			<grade GradeNum="4" AmountConsumption="5000">
+				<reward rewardItem="10000001" num="10"/>
+				<reward rewardItem="10000007" num="10"/>
+				<reward rewardItem="10000008" num="10"/>
+				<reward rewardItem="10000013" num="10"/>
+				<reward rewardItem="10000016" num="10"/>
+				<reward rewardItem="10000020" num="10"/>
+			</grade>
+			<grade GradeNum="5" AmountConsumption="10000">
+				<reward rewardItem="10000001" num="10"/>
+				<reward rewardItem="10000007" num="10"/>
+				<reward rewardItem="10000008" num="10"/>
+				<reward rewardItem="10000013" num="10"/>
+				<reward rewardItem="10000016" num="10"/>
+				<reward rewardItem="10000020" num="10"/>
+			</grade>
+			<grade GradeNum="6" AmountConsumption="20000">
+				<reward rewardItem="10000001" num="10"/>
+				<reward rewardItem="10000007" num="10"/>
+				<reward rewardItem="10000008" num="10"/>
+				<reward rewardItem="10000013" num="10"/>
+				<reward rewardItem="10000016" num="10"/>
+				<reward rewardItem="10000020" num="10"/>
+			</grade>
+		</day>
+	</ActivityInformation>
+	<ActivityInformation group="2" DailyReset="0" name="" sortId="2" activityOpen="2019-04-13 00:00:00" activityEnds="2019-04-15 23:59:59" activityEntraceIcon="strongestVote1" ActivityBgMap="landingCeremonyBg" MailId="6682">
+		<day DayNum="1">
+			<grade GradeNum="1" AmountConsumption="1000">
+				<reward rewardItem="10000001" num="10"/>
+				<reward rewardItem="10000007" num="10"/>
+				<reward rewardItem="10000008" num="10"/>
+				<reward rewardItem="10000013" num="10"/>
+				<reward rewardItem="10000016" num="10"/>
+				<reward rewardItem="10000020" num="10"/>
+			</grade>
+			<grade GradeNum="2" AmountConsumption="2000">
+				<reward rewardItem="10000001" num="10"/>
+				<reward rewardItem="10000007" num="10"/>
+				<reward rewardItem="10000008" num="10"/>
+				<reward rewardItem="10000013" num="10"/>
+				<reward rewardItem="10000016" num="10"/>
+				<reward rewardItem="10000020" num="10"/>
+			</grade>
+			<grade GradeNum="3" AmountConsumption="3000">
+				<reward rewardItem="10000001" num="10"/>
+				<reward rewardItem="10000007" num="10"/>
+				<reward rewardItem="10000008" num="10"/>
+				<reward rewardItem="10000013" num="10"/>
+				<reward rewardItem="10000016" num="10"/>
+				<reward rewardItem="10000020" num="10"/>
+			</grade>
+			<grade GradeNum="4" AmountConsumption="5000">
+				<reward rewardItem="10000001" num="10"/>
+				<reward rewardItem="10000007" num="10"/>
+				<reward rewardItem="10000008" num="10"/>
+				<reward rewardItem="10000013" num="10"/>
+				<reward rewardItem="10000016" num="10"/>
+				<reward rewardItem="10000020" num="10"/>
+			</grade>
+			<grade GradeNum="5" AmountConsumption="10000">
+				<reward rewardItem="10000001" num="10"/>
+				<reward rewardItem="10000007" num="10"/>
+				<reward rewardItem="10000008" num="10"/>
+				<reward rewardItem="10000013" num="10"/>
+				<reward rewardItem="10000016" num="10"/>
+				<reward rewardItem="10000020" num="10"/>
+			</grade>
+			<grade GradeNum="6" AmountConsumption="20000">
+				<reward rewardItem="11051062" num="1"/>
+				<reward rewardItem="11051063" num="1"/>
+				<reward rewardItem="11051064" num="1"/>
+				<reward rewardItem="11051065" num="1"/>
+				<reward rewardItem="11051066" num="1"/>
+				<reward rewardItem="12000029" num="1"/>
+			</grade>
+			<grade GradeNum="7" AmountConsumption="30000">
+				<reward rewardItem="11051062" num="1"/>
+				<reward rewardItem="11051063" num="1"/>
+				<reward rewardItem="11051064" num="1"/>
+				<reward rewardItem="11051065" num="1"/>
+				<reward rewardItem="11051066" num="1"/>
+				<reward rewardItem="12000029" num="1"/>
+			</grade>
+			<grade GradeNum="8" AmountConsumption="50000">
+				<reward rewardItem="11051062" num="1"/>
+				<reward rewardItem="11051063" num="1"/>
+				<reward rewardItem="11051064" num="1"/>
+				<reward rewardItem="11051065" num="1"/>
+				<reward rewardItem="11051066" num="1"/>
+				<reward rewardItem="12000029" num="1"/>
+			</grade>
+			<grade GradeNum="9" AmountConsumption="100000">
+				<reward rewardItem="11051062" num="1"/>
+				<reward rewardItem="11051063" num="1"/>
+				<reward rewardItem="11051064" num="1"/>
+				<reward rewardItem="11051065" num="1"/>
+				<reward rewardItem="11051066" num="1"/>
+				<reward rewardItem="12000029" num="1"/>
+			</grade>
+		</day>
+	</ActivityInformation>
+</root>

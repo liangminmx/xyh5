@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+    id	道具唯一编号
+    name道具显示的名称
+    icon道具图标
+	tabtype 道具包裹类别：2代表道具标签；11代表伙伴碎片标签
+    rarity道具稀有度，用于客户端调用不同品质框，不填则不调用
+    eff  =1时调用特效（此时品质框强制替换为白色框）
+    sort	用于道具在背包的排序，sort越大排在越前面，具体规则在背包案查看
+    dec	道具描述	字符，用于客户端显示
+    maxoverlay	最大可叠加数量	默认不填或≤1则物品不可叠加
+    levellimit	使用等级限制
+    viplimit	使用vip等级限
+    use	是否可使用	填1代表显示使用按钮，默认不填或留空则不显示
+    batch   默认不填或者填0则不能批量使用 1=可以批量使用
+    remind	是否需要显示小红点提示使用
+    logic	道具逻辑编号
+    param	道具逻辑参数
+    type    道具类型  默认不填表示常规道具（用于各功能小红点显示规则）
+           type=1技能书  =2伙伴碎片  =3宠物卡  4=宠物升级 5=招募令
+    ext    根据type类型关联对应数据表id 
+           特殊：皮肤参数  type|id|1  最后的参数填1显示玩家模型 不填只显示模型本体
+   functionid 需要调用功能开启的判断
+-->
+	<!--货币展示，配置奖励无效，道具无法使用-->
+	<item id="1" name="银两" icon="1" tabtype="2" rarity="3" sort="1" dec="大唐王朝流通的主要货币" maxoverlay="99"/>
+	<item id="2" name="绑定元宝" icon="2" tabtype="2" rarity="3" sort="1" dec="绑定元宝，可用于购买常用资源" eff="1" maxoverlay="99"/>
+	<item id="3" name="元宝" icon="3" tabtype="2" rarity="3" sort="1" dec="珍贵的高级货币" eff="1" maxoverlay="99"/>
+	<item id="4" name="体力" icon="4" tabtype="2" rarity="3" sort="1" dec="行动力，经过一定时间可自然恢复" maxoverlay="99"/>
+	<item id="5" name="经验" icon="5" tabtype="2" rarity="3" sort="1" dec="积累一定经验可提高玩家等级" maxoverlay="99"/>
+	<item id="6" name="伙伴魂魄" icon="6" tabtype="2" rarity="3" sort="1" dec="可用于在商城中的伙伴商店兑换伙伴碎片及突破丹" maxoverlay="99"/>
+	<item id="7" name="帮贡" icon="7" tabtype="2" rarity="3" sort="1" dec="帮派贡献" maxoverlay="99"/>
+	<item id="8" name="帮派资金" icon="8" tabtype="2" rarity="3" sort="1" dec="帮派资金" maxoverlay="99"/>
+	<item id="9" name="功勋" icon="9" tabtype="2" rarity="3" sort="1" dec="功勋" maxoverlay="99"/>
+	<item id="10" name="武魂币" icon="10" tabtype="2" rarity="3" sort="1" dec="比武大会货币" maxoverlay="99"/>
+	<item id="11" name="武勋" icon="11" tabtype="2" rarity="3" sort="1" dec="官职货币" maxoverlay="99"/>
+	<item id="12" name="功绩" icon="12" tabtype="2" rarity="3" sort="1" dec="官职货币" maxoverlay="99"/>
+	<!--日常活动展示道具(只做展示),配奖励道具时不要配进去-->
+	<item id="100" name="碧玉装备" icon="100" tabtype="2" rarity="2" sort="11" dec="可概率获得不同等级段的部位装备" maxoverlay="1"/>
+	<item id="101" name="紫云装备" icon="101" tabtype="2" rarity="3" sort="11" dec="可概率获得不同等级段的部位装备" maxoverlay="1"/>
+	<item id="102" name="龙鳞装备" icon="102" tabtype="2" rarity="4" sort="11" dec="可概率获得不同等级段的部位装备" maxoverlay="1" eff="1"/>
+	<item id="103" name="坐骑装备" icon="103" tabtype="2" rarity="4" sort="11" dec="可概率获得不同等级段的坐骑装备" maxoverlay="1" eff="1"/>
+	<item id="104" name="羽翼装备" icon="104" tabtype="2" rarity="4" sort="11" dec="可概率获得不同等级段的羽翼装备" maxoverlay="1" eff="1"/>
+	<item id="105" name="法宝装备" icon="105" tabtype="2" rarity="4" sort="11" dec="可概率获得不同等级段的法宝装备" maxoverlay="1" eff="1"/>
+	<item id="106" name="变身装备" icon="106" tabtype="2" rarity="4" sort="11" dec="可概率获得不同等级段的变身装备" maxoverlay="1" eff="1"/>
+	<item id="107" name="阵法装备" icon="107" tabtype="2" rarity="4" sort="11" dec="可概率获得不同等级段的阵法装备" maxoverlay="1" eff="1"/>
+	<item id="110" name="孙悟空" icon="110" tabtype="2" rarity="4" sort="1" dec="人族，物攻型橙色伙伴" maxoverlay="1" eff="1"/>
+	<item id="111" name="唐僧" icon="111" tabtype="2" rarity="4" sort="1" dec="人族，辅助型橙色伙伴" maxoverlay="1" eff="1"/>
+	<item id="112" name="牛魔王" icon="112" tabtype="2" rarity="4" sort="1" dec="魔族，法攻型橙色伙伴" maxoverlay="1" eff="1"/>
+	<item id="113" name="猪悟能" icon="113" tabtype="2" rarity="4" sort="1" dec="人族，物攻型橙色伙伴" maxoverlay="1" eff="1"/>
+	<item id="114" name="小白龙" icon="114" tabtype="2" rarity="4" sort="1" dec="人族，法攻型橙色伙伴" maxoverlay="1" eff="1"/>
+	<item id="115" name="红色宠物" icon="300006" tabtype="2" rarity="5" sort="1" dec="节日幸运转盘红色宠物池" maxoverlay="1" eff="1"/>
+	<item id="116" name="橙色宠物" icon="300006" tabtype="2" rarity="4" sort="1" dec="节日幸运转盘橙色宠物池" maxoverlay="1" eff="1"/>
+	<item id="117" name="紫色宠物" icon="300006" tabtype="2" rarity="3" sort="1" dec="节日幸运转盘紫色宠物池" maxoverlay="1"/>
+	<item id="118" name="蓝色宠物" icon="300006" tabtype="2" rarity="2" sort="1" dec="节日幸运转盘蓝色宠物池" maxoverlay="1"/>
+	<!--奖励道具-->
+	<item id="10000001" name="妖王复活令" icon="10000001" tabtype="2" rarity="4" sort="9" dec="复活妖王" maxoverlay="999" use="1" logic="2" param="DemonKing" eff="1"/>
+	<item id="10000002" name="镖车令" icon="10011" tabtype="2" rarity="2" sort="9" dec="镖车专用" maxoverlay="999"/>
+	<item id="10000003" name="招募令" icon="12002" tabtype="2" rarity="3" sort="9" dec="普通招募消耗的道具" maxoverlay="999" use="1" logic="2" param="PartnerRecruitView" type="5"/>
+	<item id="10000004" name="高级招募令" icon="10000004" tabtype="2" rarity="4" sort="9" dec="高级招募消耗的道具" maxoverlay="999" use="1" logic="2" param="PartnerRecruitView" type="5" eff="1"/>
+	<item id="10000005" name="潜能丹礼包(弃用)" icon="30003" tabtype="2" rarity="3" sort="59" dec="随机开出任意属性丹" maxoverlay="999" use="1" logic="8" param="14010001:1:100,14020001:1:100,14030001:1:100,14040001:1:100,14050001:1:100" batch="1" remind="1"/>
+	<item id="10000006" name="神豆豆" icon="10000006" tabtype="2" rarity="5" sort="9" dec="可在寻宝界面神宠娃娃机分页兑换绝版神兽" maxoverlay="999" param="" eff="1"/>
+	<item id="10000007" name="橙装碎片" icon="10000007" tabtype="2" rarity="4" sort="56" dec="橙装碎片可用于在商城购买橙装，熔炼橙装可获得橙装碎片。" maxoverlay="9999" param="" eff="1"/>
+	<item id="10000008" name="红装碎片" icon="10000008" tabtype="2" rarity="5" sort="56" dec="红装碎片可用于在商城购买红装，熔炼红装可获得红装碎片。" maxoverlay="9999" param="" eff="1"/>
+	<item id="10000009" name="万能进阶丹" icon="10000009" tabtype="2" rarity="3" sort="57" dec="可用于代替坐骑，羽翼，法宝，法阵，变身进阶丹使用。" maxoverlay="9999" param=""/>
+	<item id="10000010" name="宠物洗练石" icon="10000010" tabtype="2" rarity="3" sort="9" dec="可以在宠物界面中对技能进行洗练" maxoverlay="999" use="1" logic="2" param="PetView0" type="1"/>
+	<item id="10000011" name="人物经验丹" icon="10010" tabtype="2" rarity="1" sort="9" dec="道具描述1" maxoverlay="999" use="1" logic="4" param="100000"/>
+	<item id="10000012" name="精炼石" icon="10000012" tabtype="2" rarity="3" sort="9" dec="可以用于角色装备精炼,也可以在合成界面中合成银两宝箱" maxoverlay="99999" use="1" logic="2" param="EquipmentWnd1"/>
+	<item id="10000013" name="锻造石" icon="10000013" tabtype="2" rarity="3" sort="9" dec="可以用于角色装备锻造,也可以在合成界面中合成银两宝箱" maxoverlay="99999" use="1" logic="2" param="EquipmentWnd2"/>
+	<item id="10000014" name="宝石碎片" icon="10000014" tabtype="2" rarity="3" sort="9" dec="可以用于角色装备镶嵌,也可以在合成界面中合成银两宝箱" maxoverlay="99999" use="1" logic="2" param="EquipmentWnd3"/>
+	<item id="10000015" name="突破丹" icon="10000015" tabtype="2" rarity="3" sort="9" dec="可以用于角色，伙伴突破" maxoverlay="999" use="1" logic="2" param="RoleMessageView"/>
+	<item id="10000016" name="月花露" icon="10000016" tabtype="2" rarity="3" sort="9" dec="可以用于宠物升级" maxoverlay="999" use="1" logic="2" param="PetView0" type="4"/>
+	<item id="10000017" name="五百万银两" icon="30011" tabtype="2" rarity="3" sort="9" dec="使用获得500万银两" maxoverlay="99" use="1" logic="7" batch="1" remind="1" type="" param="5000000"/>
+	<item id="10000018" name="五亿银两" icon="30011" tabtype="2" rarity="5" sort="9" dec="使用获得5亿银两" maxoverlay="99" use="1" logic="7" batch="1" remind="1" type="" eff="1" param="500000000"/>
+	<item id="10000019" name="五千绑元" icon="30013" tabtype="2" rarity="5" sort="9" dec="使用获得5000绑元" maxoverlay="99" use="1" logic="6" batch="1" remind="1" type="" eff="1" param="5000"/>
+	<item id="10000020" name="高级神佑" icon="10000020" tabtype="2" rarity="4" sort="8" dec="使用后可以将宠物的神佑技能升级为高级神佑\n高级神佑：\n战斗死亡时有15%的几率复活，并恢复全部的气血" maxoverlay="99" use="1" logic="2" param="PetView1" type="1" eff="1"/>
+	<item id="10000021" name="高级连击" icon="10000020" tabtype="2" rarity="4" sort="8" dec="使用后可以将宠物的连击技能升级为高级连击\n高级连击：\n进入战斗时提升自身连击几率20%" maxoverlay="99" use="1" logic="2" param="PetView1" type="1" eff="1"/>
+	<item id="10000022" name="高级敏捷" icon="10000020" tabtype="2" rarity="4" sort="8" dec="使用后可以将宠物的敏捷技能升级为高级敏捷\n高级敏捷：\n进入战斗时提升自身速度的20%" maxoverlay="99" use="1" logic="2" param="PetView1" type="1" eff="1"/>
+	<item id="10000023" name="高级迟钝" icon="10000020" tabtype="2" rarity="4" sort="8" dec="使用后可以将宠物的迟钝技能升级为高级迟钝\n高级迟钝：\n进入战斗时降低自身速度的20%" maxoverlay="99" use="1" logic="2" param="PetView1" type="1" eff="1"/>
+	<item id="10000024" name="高级强壮" icon="10000020" tabtype="2" rarity="4" sort="8" dec="使用后可以将宠物的强壮技能升级为高级强壮\n高级强壮：\n进入战斗时提升自身气血20%" maxoverlay="99" use="1" logic="2" param="PetView1" type="1" eff="1"/>
+	<item id="10000025" name="高级防御" icon="10000020" tabtype="2" rarity="4" sort="8" dec="使用后可以将宠物的防御技能升级为高级防御\n高级防御：\n进入战斗时提升自身伤害减免20%" maxoverlay="99" use="1" logic="2" param="PetView1" type="1" eff="1"/>
+	<item id="10000026" name="高级偷袭" icon="10000020" tabtype="2" rarity="4" sort="8" dec="使用后可以将宠物的偷袭技能升级为高级偷袭\n高级偷袭：\n不会被反击和反震影响，进入战斗时提升自身伤害加深10%" maxoverlay="99" use="1" logic="2" param="PetView1" type="1" eff="1"/>
+	<item id="10000027" name="高级幸运" icon="10000020" tabtype="2" rarity="4" sort="8" dec="使用后可以将宠物的幸运技能升级为高级幸运\n高级幸运：\n不会受到暴击攻击，进入战斗时提升自身伤害减免10%" maxoverlay="99" use="1" logic="2" param="PetView1" type="1" eff="1"/>
+	<item id="10000028" name="高级吸血" icon="10000020" tabtype="2" rarity="4" sort="8" dec="使用后可以将宠物的吸血技能升级为高级吸血\n高级吸血：\n物理攻击时，吸取对方所掉气血的25%" maxoverlay="99" use="1" logic="2" param="PetView1" type="1" eff="1"/>
+	<item id="10000029" name="高级反击" icon="10000020" tabtype="2" rarity="4" sort="8" dec="使用后可以将宠物的反击技能升级为高级反击\n高级反击：\n受到物理攻击时有10%几率自动反击" maxoverlay="99" use="1" logic="2" param="PetView1" type="1" eff="1"/>
+	<item id="10000030" name="高级反震" icon="10000020" tabtype="2" rarity="4" sort="8" dec="使用后可以将宠物的反震技能升级为高级反震\n高级反震：\n受到物理攻击时有30%几率给予对方反震，反震伤害为所受伤害的25%" maxoverlay="99" use="1" logic="2" param="PetView1" type="1" eff="1"/>
+	<item id="10000031" name="高级再生" icon="10000020" tabtype="2" rarity="4" sort="8" dec="使用后可以将宠物的再生技能升级为高级再生\n高级再生：\n战斗中每回合自动恢复5%的气血" maxoverlay="99" use="1" logic="2" param="PetView1" type="1" eff="1"/>
+	<item id="10000032" name="高级招架" icon="10000020" tabtype="2" rarity="4" sort="8" dec="使用后可以将宠物的招架技能升级为高级招架\n高级招架：\n20%的几率完全躲过敌人的攻击" maxoverlay="99" use="1" logic="2" param="PetView1" type="1" eff="1"/>
+	<item id="10000033" name="高级毒" icon="10000020" tabtype="2" rarity="4" sort="8" dec="使用后可以将宠物的毒技能升级为高级毒\n高级毒：\n物理攻击时有20%的几率使敌人中毒，中毒后每回合减少6%的气血" maxoverlay="99" use="1" logic="2" param="PetView1" type="1" eff="1"/>
+	<item id="10000034" name="高级暴击" icon="10000020" tabtype="2" rarity="4" sort="8" dec="使用后可以将宠物的暴击技能升级为高级暴击\n高级暴击：\n使用物理攻击造成伤害时，提升自身暴击值10000" maxoverlay="99" use="1" logic="2" param="PetView1" type="1" eff="1"/>
+	<item id="10000035" name="高级法爆" icon="10000020" tabtype="2" rarity="4" sort="8" dec="使用后可以将宠物的法爆技能升级为高级法爆\n高级法爆：\n使用法术攻击造成伤害时，提升自身暴击值10000" maxoverlay="99" use="1" logic="2" param="PetView1" type="1" eff="1"/>
+	<item id="10000036" name="高级强力" icon="10000020" tabtype="2" rarity="4" sort="8" dec="使用后可以将宠物的强力技能升级为高级强力\n高级强力：\n使用物理攻击时提升自身伤害加深20%" maxoverlay="99" use="1" logic="2" param="PetView1" type="1" eff="1"/>
+	<item id="10000037" name="高级魔心" icon="10000020" tabtype="2" rarity="4" sort="8" dec="使用后可以将宠物的魔心技能升级为高级魔心\n高级魔心：\n使用法术攻击时提升自身伤害加深20%" maxoverlay="99" use="1" logic="2" param="PetView1" type="1" eff="1"/>
+	<item id="10000038" name="高级物理波动" icon="10000020" tabtype="2" rarity="4" sort="8" dec="使用后可以将宠物的物理波动技能升级为高级物理波动\n高级物理波动：\n使用物理攻击造成伤害时，结果在85%~130%之间波动" maxoverlay="99" use="1" logic="2" param="PetView1" type="1" eff="1"/>
+	<item id="10000039" name="高级法术波动" icon="10000020" tabtype="2" rarity="4" sort="8" dec="使用后可以将宠物的法术波动技能升级为高级法术波动\n高级法术波动：\n使用法术攻击造成伤害时，结果在85%~130%之间波动" maxoverlay="99" use="1" logic="2" param="PetView1" type="1" eff="1"/>
+	<item id="10000040" name="高级精神集中" icon="10000020" tabtype="2" rarity="4" sort="8" dec="使用后可以将宠物的精神集中技能升级为高级精神集中\n高级精神集中：\n可以抵御封类异常状态，但自己的物理攻击效果也会降低10%" maxoverlay="99" use="1" logic="2" param="PetView1" type="1" eff="1"/>
+	<item id="10000041" name="高级神迹" icon="10000020" tabtype="2" rarity="4" sort="8" dec="使用后可以将宠物的神迹技能升级为高级神迹\n高级神迹：\n可以抵御封类异常状态，但自己的法术攻击效果也会降低10%" maxoverlay="99" use="1" logic="2" param="PetView1" type="1" eff="1"/>
+	<item id="10000042" name="角色进阶卡" icon="10000042" tabtype="2" rarity="4" sort="9" dec="可以用于角色突破" maxoverlay="999" use="1" logic="2" param="RoleMessageView" eff="1"/>
+	<item id="10000043" name="四叶草" icon="10000043" tabtype="2" rarity="4" sort="9" dec="结婚养成道具，可用来升级养成等级" maxoverlay="999" use="1" logic="2" param="MarryDevelopView" eff="1"/>
+	<item id="10000044" name="999朵玫瑰" icon="10000044" tabtype="2" rarity="4" sort="9" dec="玫瑰花，可用来赠送对象提升恋爱值" maxoverlay="999" param="" eff="1"/>
+	<item id="10000100" name="修炼丹" icon="10000100" tabtype="2" rarity="4" sort="9" dec="提升修炼等级必备材料" maxoverlay="999" use="1" logic="2" param="PracticeWnd" type="5" eff="1" functionid="2013"/>
+	<item id="10000101" name="寻星石" icon="16010014" tabtype="2" rarity="4" sort="9" dec="可在寻星界面进行一次元宝寻星" maxoverlay="999" logic="2" use="1" param="StarSearchView" eff="1"/>
+	<item id="10000102" name="五十万银两" icon="30011" tabtype="2" rarity="3" sort="9" dec="使用获得50万银两（建议不要一次性使用超过3000个）" maxoverlay="9999" use="1" logic="7" batch="1" remind="1" type="" param="500000"/>
+	<item id="10100101" name="1级红色符石" icon="10100101" tabtype="2" rarity="2" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="101" param="1" eff="1"/>
+	<item id="10100102" name="2级红色符石" icon="10100102" tabtype="2" rarity="2" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="101" param="2" eff="1"/>
+	<item id="10100103" name="3级红色符石" icon="10100103" tabtype="2" rarity="2" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="101" param="3" eff="1"/>
+	<item id="10100104" name="4级红色符石" icon="10100104" tabtype="2" rarity="2" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="101" param="4" eff="1"/>
+	<item id="10100105" name="5级红色符石" icon="10100105" tabtype="2" rarity="2" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="101" param="5" eff="1"/>
+	<item id="10100106" name="6级红色符石" icon="10100106" tabtype="2" rarity="3" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="101" param="6" eff="1"/>
+	<item id="10100107" name="7级红色符石" icon="10100107" tabtype="2" rarity="3" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="101" param="7" eff="1"/>
+	<item id="10100108" name="8级红色符石" icon="10100108" tabtype="2" rarity="3" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="101" param="8" eff="1"/>
+	<item id="10100109" name="9级红色符石" icon="10100109" tabtype="2" rarity="3" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="101" param="9" eff="1"/>
+	<item id="10100110" name="10级红色符石" icon="10100110" tabtype="2" rarity="3" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="101" param="10" eff="1"/>
+	<item id="10100111" name="11级红色符石" icon="10100111" tabtype="2" rarity="4" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="101" param="11" eff="1"/>
+	<item id="10100112" name="12级红色符石" icon="10100112" tabtype="2" rarity="4" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="101" param="12" eff="1"/>
+	<item id="10100113" name="13级红色符石" icon="10100113" tabtype="2" rarity="4" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="101" param="13" eff="1"/>
+	<item id="10100114" name="14级红色符石" icon="10100114" tabtype="2" rarity="4" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="101" param="14" eff="1"/>
+	<item id="10100115" name="15级红色符石" icon="10100115" tabtype="2" rarity="4" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="101" param="15" eff="1"/>
+	<item id="10100116" name="16级红色符石" icon="10100116" tabtype="2" rarity="5" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="101" param="16" eff="1"/>
+	<item id="10100117" name="17级红色符石" icon="10100117" tabtype="2" rarity="5" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="101" param="17" eff="1"/>
+	<item id="10100118" name="18级红色符石" icon="10100118" tabtype="2" rarity="5" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="101" param="18" eff="1"/>
+	<item id="10100119" name="19级红色符石" icon="10100119" tabtype="2" rarity="5" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="101" param="19" eff="1"/>
+	<item id="10100120" name="20级红色符石" icon="10100120" tabtype="2" rarity="5" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="101" param="20" eff="1"/>
+	<item id="10100201" name="1级黄色符石" icon="10100201" tabtype="2" rarity="2" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="102" param="1" eff="1"/>
+	<item id="10100202" name="2级黄色符石" icon="10100202" tabtype="2" rarity="2" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="102" param="2" eff="1"/>
+	<item id="10100203" name="3级黄色符石" icon="10100203" tabtype="2" rarity="2" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="102" param="3" eff="1"/>
+	<item id="10100204" name="4级黄色符石" icon="10100204" tabtype="2" rarity="2" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="102" param="4" eff="1"/>
+	<item id="10100205" name="5级黄色符石" icon="10100205" tabtype="2" rarity="2" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="102" param="5" eff="1"/>
+	<item id="10100206" name="6级黄色符石" icon="10100206" tabtype="2" rarity="3" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="102" param="6" eff="1"/>
+	<item id="10100207" name="7级黄色符石" icon="10100207" tabtype="2" rarity="3" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="102" param="7" eff="1"/>
+	<item id="10100208" name="8级黄色符石" icon="10100208" tabtype="2" rarity="3" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="102" param="8" eff="1"/>
+	<item id="10100209" name="9级黄色符石" icon="10100209" tabtype="2" rarity="3" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="102" param="9" eff="1"/>
+	<item id="10100210" name="10级黄色符石" icon="10100210" tabtype="2" rarity="3" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="102" param="10" eff="1"/>
+	<item id="10100211" name="11级黄色符石" icon="10100211" tabtype="2" rarity="4" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="102" param="11" eff="1"/>
+	<item id="10100212" name="12级黄色符石" icon="10100212" tabtype="2" rarity="4" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="102" param="12" eff="1"/>
+	<item id="10100213" name="13级黄色符石" icon="10100213" tabtype="2" rarity="4" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="102" param="13" eff="1"/>
+	<item id="10100214" name="14级黄色符石" icon="10100214" tabtype="2" rarity="4" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="102" param="14" eff="1"/>
+	<item id="10100215" name="15级黄色符石" icon="10100215" tabtype="2" rarity="4" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="102" param="15" eff="1"/>
+	<item id="10100216" name="16级黄色符石" icon="10100216" tabtype="2" rarity="5" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="102" param="16" eff="1"/>
+	<item id="10100217" name="17级黄色符石" icon="10100217" tabtype="2" rarity="5" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="102" param="17" eff="1"/>
+	<item id="10100218" name="18级黄色符石" icon="10100218" tabtype="2" rarity="5" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="102" param="18" eff="1"/>
+	<item id="10100219" name="19级黄色符石" icon="10100219" tabtype="2" rarity="5" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="102" param="19" eff="1"/>
+	<item id="10100220" name="20级黄色符石" icon="10100220" tabtype="2" rarity="5" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="102" param="20" eff="1"/>
+	<item id="10100301" name="1级蓝色符石" icon="10100301" tabtype="2" rarity="2" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="103" param="1" eff="1"/>
+	<item id="10100302" name="2级蓝色符石" icon="10100302" tabtype="2" rarity="2" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="103" param="2" eff="1"/>
+	<item id="10100303" name="3级蓝色符石" icon="10100303" tabtype="2" rarity="2" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="103" param="3" eff="1"/>
+	<item id="10100304" name="4级蓝色符石" icon="10100304" tabtype="2" rarity="2" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="103" param="4" eff="1"/>
+	<item id="10100305" name="5级蓝色符石" icon="10100305" tabtype="2" rarity="2" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="103" param="5" eff="1"/>
+	<item id="10100306" name="6级蓝色符石" icon="10100306" tabtype="2" rarity="3" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="103" param="6" eff="1"/>
+	<item id="10100307" name="7级蓝色符石" icon="10100307" tabtype="2" rarity="3" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="103" param="7" eff="1"/>
+	<item id="10100308" name="8级蓝色符石" icon="10100308" tabtype="2" rarity="3" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="103" param="8" eff="1"/>
+	<item id="10100309" name="9级蓝色符石" icon="10100309" tabtype="2" rarity="3" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="103" param="9" eff="1"/>
+	<item id="10100310" name="10级蓝色符石" icon="10100310" tabtype="2" rarity="3" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="103" param="10" eff="1"/>
+	<item id="10100311" name="11级蓝色符石" icon="10100311" tabtype="2" rarity="4" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="103" param="11" eff="1"/>
+	<item id="10100312" name="12级蓝色符石" icon="10100312" tabtype="2" rarity="4" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="103" param="12" eff="1"/>
+	<item id="10100313" name="13级蓝色符石" icon="10100313" tabtype="2" rarity="4" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="103" param="13" eff="1"/>
+	<item id="10100314" name="14级蓝色符石" icon="10100314" tabtype="2" rarity="4" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="103" param="14" eff="1"/>
+	<item id="10100315" name="15级蓝色符石" icon="10100315" tabtype="2" rarity="4" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="103" param="15" eff="1"/>
+	<item id="10100316" name="16级蓝色符石" icon="10100316" tabtype="2" rarity="5" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="103" param="16" eff="1"/>
+	<item id="10100317" name="17级蓝色符石" icon="10100317" tabtype="2" rarity="5" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="103" param="17" eff="1"/>
+	<item id="10100318" name="18级蓝色符石" icon="10100318" tabtype="2" rarity="5" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="103" param="18" eff="1"/>
+	<item id="10100319" name="19级蓝色符石" icon="10100319" tabtype="2" rarity="5" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="103" param="19" eff="1"/>
+	<item id="10100320" name="20级蓝色符石" icon="10100320" tabtype="2" rarity="5" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="103" param="20" eff="1"/>
+	<item id="11021050" name="小骨妖碎片" icon="400013" tabtype="11" rarity="2" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11021050" type="2"/>
+	<item id="11021051" name="金甲力士碎片" icon="400007" tabtype="11" rarity="2" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11021051" type="2"/>
+	<item id="11021052" name="侠女碎片" icon="400012" tabtype="11" rarity="2" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11021052" type="2"/>
+	<item id="11021053" name="荷花女妖碎片" icon="400004" tabtype="11" rarity="2" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11021053" type="2"/>
+	<item id="11021054" name="天庭女仙碎片" icon="400011" tabtype="11" rarity="2" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11021054" type="2"/>
+	<item id="11021055" name="御林军碎片" icon="400018" tabtype="11" rarity="2" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11021055" type="2"/>
+	<item id="11021056" name="僵尸碎片" icon="400006" tabtype="11" rarity="2" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11021056" type="2"/>
+	<item id="11021057" name="般若尊者碎片" icon="200049" tabtype="11" rarity="2" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11021057" type="2"/>
+	<item id="11021058" name="小和尚碎片" icon="400014" tabtype="11" rarity="2" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11021058" type="2"/>
+	<item id="11021059" name="鬼怪碎片" icon="400003" tabtype="11" rarity="2" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11021059" type="2"/>
+	<item id="11021060" name="天兵碎片" icon="400009" tabtype="11" rarity="2" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11021060" type="2"/>
+	<item id="11021061" name="小淘气碎片" icon="400015" tabtype="11" rarity="2" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11021061" type="2"/>
+	<item id="11031026" name="大当家碎片" icon="200007" tabtype="11" rarity="3" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11031026" type="2"/>
+	<item id="11031027" name="白菁晶碎片" icon="200002" tabtype="11" rarity="3" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11031027" type="2"/>
+	<item id="11031028" name="女儿国王碎片" icon="200022" tabtype="11" rarity="3" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11031028" type="2"/>
+	<item id="11031029" name="春三十娘碎片" icon="200006" tabtype="11" rarity="3" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11031029" type="2"/>
+	<item id="11031030" name="猪刚鬣碎片" icon="200047" tabtype="11" rarity="3" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11031030" type="2"/>
+	<item id="11031031" name="袁天罡碎片" icon="200043" tabtype="11" rarity="3" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11031031" type="2"/>
+	<item id="11031032" name="空度禅师碎片" icon="200018" tabtype="11" rarity="3" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11031032" type="2"/>
+	<item id="11031033" name="钟馗碎片" icon="200045" tabtype="11" rarity="3" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11031033" type="2"/>
+	<item id="11032042" name="托塔天王碎片" icon="200033" tabtype="11" rarity="3" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11032042" type="2"/>
+	<item id="11032043" name="东海龙王碎片" icon="200010" tabtype="11" rarity="3" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11032043" type="2"/>
+	<item id="11032044" name="延寿星君碎片" icon="200037" tabtype="11" rarity="3" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11032044" type="2"/>
+	<item id="11032045" name="嫦娥碎片" icon="200005" tabtype="11" rarity="3" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11032045" type="2"/>
+	<item id="11032046" name="巨灵神碎片" icon="200017" tabtype="11" rarity="3" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11032046" type="2"/>
+	<item id="11032047" name="南海龙子碎片" icon="200004" tabtype="11" rarity="3" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11032047" type="2"/>
+	<item id="11032048" name="青玄仙女碎片" icon="200026" tabtype="11" rarity="3" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11032048" type="2"/>
+	<item id="11032049" name="阎罗王碎片" icon="200038" tabtype="11" rarity="3" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11032049" type="2"/>
+	<item id="11033034" name="九头虫碎片" icon="200016" tabtype="11" rarity="3" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11033034" type="2"/>
+	<item id="11033035" name="蛟魔王碎片" icon="200014" tabtype="11" rarity="3" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11033035" type="2"/>
+	<item id="11033036" name="白骨精碎片" icon="200001" tabtype="11" rarity="3" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11033036" type="2"/>
+	<item id="11033037" name="白象王碎片" icon="200003" tabtype="11" rarity="3" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11033037" type="2"/>
+	<item id="11033038" name="青狮王碎片" icon="200025" tabtype="11" rarity="3" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11033038" type="2"/>
+	<item id="11033039" name="大鹏王碎片" icon="200008" tabtype="11" rarity="3" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11033039" type="2"/>
+	<item id="11033040" name="玉兔精碎片" icon="200042" tabtype="11" rarity="3" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11033040" type="2"/>
+	<item id="11033041" name="蝎子精碎片" icon="200036" tabtype="11" rarity="3" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11033041" type="2"/>
+	<item id="11041001" name="孙悟空碎片" icon="200028" tabtype="11" rarity="4" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11041001" type="2" eff="1"/>
+	<item id="11041002" name="猪悟能碎片" icon="200046" tabtype="11" rarity="4" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11041002" type="2" eff="1"/>
+	<item id="11041003" name="唐僧碎片" icon="200031" tabtype="11" rarity="4" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11041003" type="2" eff="1"/>
+	<item id="11041004" name="小白龙碎片" icon="200035" tabtype="11" rarity="4" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11041004" type="2" eff="1"/>
+	<item id="11041022" name="镇元子碎片" icon="200044" tabtype="11" rarity="4" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11041022" type="2" eff="1"/>
+	<item id="11041023" name="紫霞碎片" icon="200048" tabtype="11" rarity="4" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11041023" type="2" eff="1"/>
+	<item id="11041024" name="沙悟净碎片" icon="200027" tabtype="11" rarity="4" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11041024" type="2" eff="1"/>
+	<item id="11041025" name="菩提子碎片" icon="200023" tabtype="11" rarity="4" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11041025" type="2" eff="1"/>
+	<item id="11042009" name="玉帝碎片" icon="200040" tabtype="11" rarity="4" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11042009" type="2" eff="1"/>
+	<item id="11042010" name="王母碎片" icon="200034" tabtype="11" rarity="4" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11042010" type="2" eff="1"/>
+	<item id="11042011" name="观音碎片" icon="200012" tabtype="11" rarity="4" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11042011" type="2" eff="1"/>
+	<item id="11042012" name="太乙真人碎片" icon="200030" tabtype="11" rarity="4" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11042012" type="2" eff="1"/>
+	<item id="11042013" name="二郎真君碎片" icon="200011" tabtype="11" rarity="4" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11042013" type="2" eff="1"/>
+	<item id="11042014" name="哪吒碎片" icon="200019" tabtype="11" rarity="4" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11042014" type="2" eff="1"/>
+	<item id="11042015" name="南极仙翁碎片" icon="200020" tabtype="11" rarity="4" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11042015" type="2" eff="1"/>
+	<item id="11042016" name="太白金星碎片" icon="200029" tabtype="11" rarity="4" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11042016" type="2" eff="1"/>
+	<item id="11043005" name="牛魔王碎片" icon="200021" tabtype="11" rarity="4" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11043005" type="2" eff="1"/>
+	<item id="11043006" name="铁扇公主碎片" icon="200032" tabtype="11" rarity="4" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11043006" type="2" eff="1"/>
+	<item id="11043007" name="红孩儿碎片" icon="200013" tabtype="11" rarity="4" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11043007" type="2" eff="1"/>
+	<item id="11043008" name="玉面狐狸碎片" icon="200041" tabtype="11" rarity="4" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11043008" type="2" eff="1"/>
+	<item id="11043017" name="银角大王碎片" icon="200039" tabtype="11" rarity="4" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11043017" type="2" eff="1"/>
+	<item id="11043018" name="青牛精碎片" icon="200024" tabtype="11" rarity="4" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11043018" type="2" eff="1"/>
+	<item id="11043019" name="地涌夫人碎片" icon="200009" tabtype="11" rarity="4" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11043019" type="2" eff="1"/>
+	<item id="11043020" name="金角大王碎片" icon="200015" tabtype="11" rarity="4" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11043020" type="2" eff="1"/>
+	<item id="11051062" name="斗战胜佛碎片" icon="200028" tabtype="11" rarity="5" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11051062" type="2" eff="1"/>
+	<item id="11051063" name="净坛使者碎片" icon="200046" tabtype="11" rarity="5" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11051063" type="2" eff="1"/>
+	<item id="11051064" name="金身罗汉碎片" icon="200027" tabtype="11" rarity="5" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11051064" type="2" eff="1"/>
+	<item id="11051065" name="旃檀功德佛碎片" icon="200031" tabtype="11" rarity="5" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11051065" type="2" eff="1"/>
+	<item id="11051066" name="八部天龙碎片" icon="200035" tabtype="11" rarity="5" sort="1" dec="可以用于伙伴的激活，突破" maxoverlay="9999" param="11051066" type="2" eff="1"/>
+	<item id="12000029" name="巡天神将" icon="300014" tabtype="2" rarity="4" sort="9" dec="用于激活与升阶巡天神将" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12000029" eff="1"/>
+	<item id="12000030" name="鲲鹏" icon="300006" tabtype="2" rarity="5" sort="9" dec="用于激活与升阶鲲鹏" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12000030" eff="1"/>
+	<item id="12000031" name="小火龙" icon="300025" tabtype="2" rarity="5" sort="9" dec="用于激活与升阶小火龙" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12000031" eff="1"/>
+	<item id="12000032" name="超级泡泡" icon="300004" tabtype="2" rarity="5" sort="9" dec="用于激活与升阶超级泡泡" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12000032" eff="1"/>
+	<item id="12000033" name="哮天犬" icon="300027" tabtype="2" rarity="5" sort="9" dec="用于激活与升阶哮天犬" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12000033" eff="1"/>
+	<item id="12000034" name="熊猫" icon="300029" tabtype="2" rarity="5" sort="9" dec="用于激活与升阶熊猫" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12000034" eff="1"/>
+	<item id="12000035" name="九色鹿" icon="300011" tabtype="2" rarity="5" sort="9" dec="用于激活与升阶九色鹿" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12000035" eff="1"/>
+	<item id="12000036" name="白泽" icon="300001" tabtype="2" rarity="5" sort="9" dec="用于激活与升阶白泽" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12000036" eff="1"/>
+	<item id="12000037" name="猪小戒" icon="300055" tabtype="2" rarity="5" sort="9" dec="用于激活与升阶猪小戒" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12000037" eff="1"/>
+	<item id="12000038" name="炎魔仙" icon="300050" tabtype="2" rarity="5" sort="9" dec="用于激活与升阶炎魔仙" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12000038" eff="1"/>
+	<item id="12000039" name="淘气宝贝" icon="300051" tabtype="2" rarity="5" sort="9" dec="用于激活与升阶淘气宝贝" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12000039" eff="1"/>
+	<item id="12000040" name="仙符女娲" icon="300043" tabtype="2" rarity="5" sort="9" dec="用于激活与升阶仙符女娲" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12000040" eff="1"/>
+	<item id="12000041" name="金饶僧" icon="300049" tabtype="2" rarity="5" sort="9" dec="用于激活与升阶金饶僧" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12000041" eff="1"/>
+	<item id="12000042" name="长眉灵猴" icon="300053" tabtype="2" rarity="5" sort="9" dec="用于激活与升阶长眉灵猴" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12000042" eff="1"/>
+	<item id="12000043" name="夜罗刹" icon="300048" tabtype="2" rarity="5" sort="9" dec="用于激活与升阶夜罗刹" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12000043" eff="1"/>
+	<item id="12000044" name="净瓶女娲" icon="300044" tabtype="2" rarity="5" sort="9" dec="用于激活与升阶净瓶女娲" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12000044" eff="1"/>
+	<item id="12000045" name="斗战胜佛" icon="300047" tabtype="2" rarity="5" sort="9" dec="用于激活与升阶斗战胜佛" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12000045" eff="1"/>
+	<item id="12000046" name="卷帘大将" icon="300052" tabtype="2" rarity="5" sort="9" dec="用于激活与升阶卷帘大将" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12000046" eff="1"/>
+	<item id="12000047" name="天蓬元帅" icon="300045" tabtype="2" rarity="5" sort="9" dec="用于激活与升阶天蓬元帅" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12000047" eff="1"/>
+	<item id="12000048" name="大唐圣僧" icon="300046" tabtype="2" rarity="5" sort="9" dec="用于激活与升阶大唐圣僧" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12000048" eff="1"/>
+	<item id="10100301" name="1级蓝色符石" icon="10100301" tabtype="2" rarity="2" sort="9" dec="可镶嵌" maxoverlay="999" use="1" logic="2" param="PetView0" eff="1"/>
+	<item id="12000237" name="猪小戒碎片" icon="500055" tabtype="2" rarity="5" sort="9" dec="100个碎片可以合成猪小戒" maxoverlay="9999" use="1" logic="2" param="SynthetizeView" eff="1" type="4"/>
+	<item id="12000238" name="炎魔仙碎片" icon="500050" tabtype="2" rarity="5" sort="9" dec="100个碎片可以合成炎魔仙" maxoverlay="9999" use="1" logic="2" param="SynthetizeView" eff="1" type="4"/>
+	<item id="12000239" name="淘气宝贝碎片" icon="500051" tabtype="2" rarity="5" sort="9" dec="100个碎片可以合成淘气宝贝" maxoverlay="9999" use="1" logic="2" param="SynthetizeView" eff="1" type="4"/>
+	<item id="12000240" name="仙符女娲碎片" icon="500043" tabtype="2" rarity="5" sort="9" dec="100个碎片可以合成仙符女娲" maxoverlay="9999" use="1" logic="2" param="SynthetizeView" eff="1" type="4"/>
+	<item id="12000241" name="金饶僧碎片" icon="500049" tabtype="2" rarity="5" sort="9" dec="100个碎片可以合成金饶僧" maxoverlay="9999" use="1" logic="2" param="SynthetizeView" eff="1" type="4"/>
+	<item id="12000242" name="长眉灵猴碎片" icon="500053" tabtype="2" rarity="5" sort="9" dec="100个碎片可以合成长眉灵猴" maxoverlay="9999" use="1" logic="2" param="SynthetizeView" eff="1" type="4"/>
+	<item id="12000243" name="夜罗刹碎片" icon="500048" tabtype="2" rarity="5" sort="9" dec="100个碎片可以合成夜罗刹" maxoverlay="9999" use="1" logic="2" param="SynthetizeView" eff="1" type="4"/>
+	<item id="12000244" name="净瓶女娲碎片" icon="500044" tabtype="2" rarity="5" sort="9" dec="100个碎片可以合成净瓶女娲" maxoverlay="9999" use="1" logic="2" param="SynthetizeView" eff="1" type="4"/>
+	<item id="12000245" name="斗战胜佛碎片" icon="500047" tabtype="2" rarity="5" sort="9" dec="100个碎片可以合成斗战胜佛" maxoverlay="9999" use="1" logic="2" param="SynthetizeView" eff="1" type="4"/>
+	<item id="12000246" name="卷帘大将碎片" icon="500052" tabtype="2" rarity="5" sort="9" dec="100个碎片可以合成卷帘大将" maxoverlay="9999" use="1" logic="2" param="SynthetizeView" eff="1" type="4"/>
+	<item id="12000247" name="天蓬元帅碎片" icon="500045" tabtype="2" rarity="5" sort="9" dec="100个碎片可以合成天蓬元帅" maxoverlay="9999" use="1" logic="2" param="SynthetizeView" eff="1" type="4"/>
+	<item id="12000248" name="大唐圣僧碎片" icon="500046" tabtype="2" rarity="5" sort="9" dec="100个碎片可以合成大唐圣僧" maxoverlay="9999" use="1" logic="2" param="SynthetizeView" eff="1" type="4"/>
+	<item id="12000230" name="鲲鹏碎片" icon="500006" tabtype="2" rarity="5" sort="9" dec="100个碎片可以合成鲲鹏" maxoverlay="9999" use="1" logic="2" param="SynthetizeView" eff="1" type="4"/>
+	<item id="12000231" name="小火龙碎片" icon="500025" tabtype="2" rarity="5" sort="9" dec="100个碎片可以合成小火龙" maxoverlay="9999" use="1" logic="2" param="SynthetizeView" eff="1" type="4"/>
+	<item id="12000232" name="超级泡泡碎片" icon="500004" tabtype="2" rarity="5" sort="9" dec="100个碎片可以合成超级泡泡" maxoverlay="9999" use="1" logic="2" param="SynthetizeView" eff="1" type="4"/>
+	<item id="12000233" name="哮天犬碎片" icon="500027" tabtype="2" rarity="5" sort="9" dec="100个碎片可以合成哮天犬" maxoverlay="9999" use="1" logic="2" param="SynthetizeView" eff="1" type="4"/>
+	<item id="12000234" name="熊猫碎片" icon="500029" tabtype="2" rarity="5" sort="9" dec="100个碎片可以合成熊猫" maxoverlay="9999" use="1" logic="2" param="SynthetizeView" eff="1" type="4"/>
+	<item id="12000235" name="九色鹿碎片" icon="500011" tabtype="2" rarity="5" sort="9" dec="100个碎片可以合成九色鹿" maxoverlay="9999" use="1" logic="2" param="SynthetizeView" eff="1" type="4"/>
+	<item id="12000236" name="白泽碎片" icon="500001" tabtype="2" rarity="5" sort="9" dec="100个碎片可以合成白泽" maxoverlay="9999" use="1" logic="2" param="SynthetizeView" eff="1" type="4"/>
+	<item id="12000229" name="巡天神将碎片" icon="500014" tabtype="2" rarity="4" sort="9" dec="集齐80个碎片合成巡天神将" maxoverlay="9999" use="1" logic="2" param="SynthetizeView" eff="1" type="4"/>
+	<item id="12070217" name="上古瑞兽碎片" icon="500013" tabtype="2" rarity="4" sort="9" dec="集齐80个碎片合成上古瑞兽" maxoverlay="9999" use="1" logic="2" param="SynthetizeView" eff="1" type="4"/>
+	<item id="12080220" name="无面鬼将碎片" icon="500034" tabtype="2" rarity="4" sort="9" dec="集齐80个碎片合成无面鬼将" maxoverlay="9999" use="1" logic="2" param="SynthetizeView" eff="1" type="4"/>
+	<item id="12080221" name="蟠桃童子碎片" icon="500015" tabtype="2" rarity="4" sort="9" dec="集齐80个碎片合成蟠桃童子" maxoverlay="9999" use="1" logic="2" param="SynthetizeView" eff="1" type="4"/>
+	<item id="12090224" name="瑶池天兵碎片" icon="500018" tabtype="2" rarity="4" sort="9" dec="集齐80个碎片合成瑶池天兵" maxoverlay="9999" use="1" logic="2" param="SynthetizeView" eff="1" type="4"/>
+	<item id="12090225" name="彩凤仙女碎片" icon="500002" tabtype="2" rarity="4" sort="9" dec="集齐80个碎片合成彩凤仙女" maxoverlay="9999" use="1" logic="2" param="SynthetizeView" eff="1" type="4"/>
+	<item id="12100226" name="芙蓉仙女碎片" icon="500003" tabtype="2" rarity="4" sort="9" dec="集齐80个碎片合成芙蓉仙女" maxoverlay="9999" use="1" logic="2" param="SynthetizeView" eff="1" type="4"/>
+	<item id="12100227" name="吞天虎碎片" icon="500020" tabtype="2" rarity="4" sort="9" dec="集齐80个碎片合成吞天虎" maxoverlay="9999" use="1" logic="2" param="SynthetizeView" eff="1" type="4"/>
+	<item id="12100228" name="西海蛟龙碎片" icon="500021" tabtype="2" rarity="4" sort="9" dec="集齐80个碎片合成西海蛟龙" maxoverlay="9999" use="1" logic="2" param="SynthetizeView" eff="1" type="4"/>
+	<item id="12010001" name="泡泡" icon="300016" tabtype="2" rarity="2" sort="9" dec="用于激活与升阶泡泡" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12010001"/>
+	<item id="12010002" name="小海龟" icon="300024" tabtype="2" rarity="2" sort="9" dec="用于激活与升阶小海龟" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12010002"/>
+	<item id="12020003" name="寄居蟹" icon="300010" tabtype="2" rarity="2" sort="9" dec="用于激活与升阶寄居蟹" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12020003"/>
+	<item id="12020004" name="野猪" icon="300031" tabtype="2" rarity="2" sort="9" dec="用于激活与升阶野猪" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12020004"/>
+	<item id="12030005" name="树妖" icon="300019" tabtype="2" rarity="2" sort="9" dec="用于激活与升阶树妖" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12030005"/>
+	<item id="12030006" name="羊角怪" icon="300030" tabtype="2" rarity="2" sort="9" dec="用于激活与升阶羊角怪" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12030006"/>
+	<item id="12030007" name="狐妖" icon="300007" tabtype="2" rarity="2" sort="9" dec="用于激活与升阶狐妖" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12030007"/>
+	<item id="12040008" name="小花妖" icon="300036" tabtype="2" rarity="2" sort="9" dec="用于激活与升阶小花妖" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12040008"/>
+	<item id="12040009" name="虎精" icon="300008" tabtype="2" rarity="2" sort="9" dec="用于激活与升阶虎精" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12040009"/>
+	<item id="12040010" name="蛮熊怪" icon="300028" tabtype="2" rarity="2" sort="9" dec="用于激活与升阶蛮熊怪" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12040010"/>
+	<item id="12050011" name="小龙女" icon="300026" tabtype="2" rarity="3" sort="9" dec="用于激活与升阶小龙女" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12050011"/>
+	<item id="12050012" name="牛头怪" icon="300033" tabtype="2" rarity="2" sort="9" dec="用于激活与升阶牛头怪" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12050012"/>
+	<item id="12050013" name="马面怪" icon="300012" tabtype="2" rarity="2" sort="9" dec="用于激活与升阶马面怪" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12050013"/>
+	<item id="12060014" name="伞妖" icon="300017" tabtype="2" rarity="3" sort="9" dec="用于激活与升阶伞妖" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12060014"/>
+	<item id="12060015" name="虾兵" icon="300035" tabtype="2" rarity="2" sort="9" dec="用于激活与升阶虾兵" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12060015"/>
+	<item id="12060016" name="蟹将" icon="300037" tabtype="2" rarity="2" sort="9" dec="用于激活与升阶蟹将" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12060016"/>
+	<item id="12070017" name="上古瑞兽" icon="300013" tabtype="2" rarity="4" sort="9" dec="用于激活与升阶上古瑞兽" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12070017"/>
+	<item id="12070018" name="画中仙" icon="300009" tabtype="2" rarity="3" sort="9" dec="用于激活与升阶画中仙" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12070018"/>
+	<item id="12070019" name="嗜血鬼" icon="300022" tabtype="2" rarity="3" sort="9" dec="用于激活与升阶嗜血鬼" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12070019"/>
+	<item id="12080020" name="无面鬼将" icon="300034" tabtype="2" rarity="4" sort="9" dec="用于激活与升阶无面鬼将" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12080020" eff="1"/>
+	<item id="12080021" name="蟠桃童子" icon="300015" tabtype="2" rarity="4" sort="9" dec="用于激活与升阶蟠桃童子" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12080021" eff="1"/>
+	<item id="12080022" name="仙鹤童子" icon="300023" tabtype="2" rarity="3" sort="9" dec="用于激活与升阶仙鹤童子" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12080022"/>
+	<item id="12090023" name="黑山老妖" icon="300005" tabtype="2" rarity="3" sort="9" dec="用于激活与升阶黑山老妖" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12090023"/>
+	<item id="12090024" name="瑶池天兵" icon="300018" tabtype="2" rarity="4" sort="9" dec="用于激活与升阶瑶池天兵" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12090024" eff="1"/>
+	<item id="12090025" name="彩凤仙女" icon="300002" tabtype="2" rarity="4" sort="9" dec="用于激活与升阶彩凤仙女" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12090025" eff="1"/>
+	<item id="12100026" name="芙蓉仙女" icon="300003" tabtype="2" rarity="4" sort="9" dec="用于激活与升阶芙蓉仙女" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12100026" eff="1"/>
+	<item id="12100027" name="吞天虎" icon="300020" tabtype="2" rarity="4" sort="9" dec="用于激活与升阶吞天虎" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12100027" eff="1"/>
+	<item id="12100028" name="西海蛟龙" icon="300021" tabtype="2" rarity="4" sort="9" dec="用于激活与升阶西海蛟龙" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12100028" eff="1"/>
+	<item id="12020037" name="巨蛙" icon="300038" tabtype="2" rarity="2" sort="9" dec="用于激活与升阶巨蛙" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12020037" eff="1"/>
+	<item id="12020038" name="海星" icon="300039" tabtype="2" rarity="2" sort="9" dec="用于激活与升阶海星" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12020038" eff="1"/>
+	<item id="12020039" name="蛤蟆精" icon="300040" tabtype="2" rarity="2" sort="9" dec="用于激活与升阶蛤蟆精" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12020039" eff="1"/>
+	<item id="12020040" name="狼" icon="300041" tabtype="2" rarity="2" sort="9" dec="用于激活与升阶狼" maxoverlay="9999" use="1" logic="2" param="PetView0" type="3" ext="12020040" eff="1"/>
+	<item id="13010006" name="科举状元" icon="10012" tabtype="2" rarity="4" sort="11" dec="用于激活一天科举状元称号，可在答题活动中获得" maxoverlay="99" use="1" logic="71" param="ChenghaoView" type="6" ext="10" eff="1"/>
+	<item id="13010007" name="科举榜眼" icon="10012" tabtype="2" rarity="4" sort="11" dec="用于激活一天科举榜眼称号，可在答题活动中获得" maxoverlay="99" use="1" logic="71" param="ChenghaoView" type="6" ext="11" eff="1"/>
+	<item id="13010008" name="科举探花" icon="10012" tabtype="2" rarity="4" sort="11" dec="用于激活一天科举探花称号，可在答题活动中获得" maxoverlay="99" use="1" logic="71" param="ChenghaoView" type="6" ext="12" eff="1"/>
+	<item id="13010009" name="科举进士" icon="10012" tabtype="2" rarity="4" sort="11" dec="用于激活一天科举进士称号，可在答题活动中获得" maxoverlay="99" use="1" logic="71" param="ChenghaoView" type="6" ext="13" eff="1"/>
+	<item id="13010010" name="问鼎华山" icon="10012" tabtype="2" rarity="4" sort="11" dec="用于激活七天问鼎华山称号，可在华山论剑商店中获得" maxoverlay="99" use="1" logic="71" param="ChenghaoView" type="6" ext="14" eff="1"/>
+	<item id="13010011" name="取经人" icon="10012" tabtype="2" rarity="4" sort="11" dec="用于激活取经人称号，可在七日登陆中获得" maxoverlay="99" use="1" logic="71" param="ChenghaoView" type="6" ext="15" eff="1"/>
+	<item id="13010012" name="除魔霸主" icon="10012" tabtype="2" rarity="4" sort="11" dec="用于激活一天除魔霸主称号，可在三界除魔中获得" maxoverlay="99" use="1" logic="71" param="ChenghaoView" type="6" ext="40" eff="1"/>
+	<item id="13010013" name="除魔勇士" icon="10012" tabtype="2" rarity="4" sort="11" dec="用于激活一天除魔勇士称号，可在三界除魔中获得" maxoverlay="99" use="1" logic="71" param="ChenghaoView" type="6" ext="41" eff="1"/>
+	<item id="13010014" name="除魔先锋" icon="10012" tabtype="2" rarity="4" sort="11" dec="用于激活一天除魔先锋称号，可在三界除魔中获得" maxoverlay="99" use="1" logic="71" param="ChenghaoView" type="6" ext="42" eff="1"/>
+	<item id="13010015" name="一骑当千" icon="10012" tabtype="2" rarity="4" sort="11" dec="用于激活一骑当千称号，可在进阶排行活动中获得" maxoverlay="99" use="1" logic="71" param="ChenghaoView" type="6" ext="31" eff="1"/>
+	<item id="13010016" name="七十二变" icon="10012" tabtype="2" rarity="4" sort="11" dec="用于激活七十二变称号，可在进阶排行活动中获得" maxoverlay="99" use="1" logic="71" param="ChenghaoView" type="6" ext="32" eff="1"/>
+	<item id="13010017" name="扶摇直上" icon="10012" tabtype="2" rarity="4" sort="11" dec="用于激活扶摇直上称号，可在进阶排行活动中获得" maxoverlay="99" use="1" logic="71" param="ChenghaoView" type="6" ext="33" eff="1"/>
+	<item id="13010018" name="巧夺天工" icon="10012" tabtype="2" rarity="4" sort="11" dec="用于激活巧夺天工称号，可在进阶排行活动中获得" maxoverlay="99" use="1" logic="71" param="ChenghaoView" type="6" ext="34" eff="1"/>
+	<item id="13010019" name="奇门遁甲" icon="10012" tabtype="2" rarity="4" sort="11" dec="用于激活奇门遁甲称号，可在进阶排行活动中获得" maxoverlay="99" use="1" logic="71" param="ChenghaoView" type="6" ext="35" eff="1"/>
+	<item id="13010020" name="神宠青睐" icon="10012" tabtype="2" rarity="4" sort="11" dec="用于激活神宠青睐称号，可在进阶排行活动中获得" maxoverlay="99" use="1" logic="71" param="ChenghaoView" type="6" ext="36" eff="1"/>
+	<item id="13010021" name="风雨同舟" icon="10012" tabtype="2" rarity="4" sort="11" dec="用于激活风雨同舟称号，可在进阶排行活动中获得" maxoverlay="99" use="1" logic="71" param="ChenghaoView" type="6" ext="37" eff="1"/>
+	<item id="13010022" name="斗战胜佛" icon="10012" tabtype="2" rarity="4" sort="11" dec="用于激活斗战胜佛称号，可在进阶排行活动中获得" maxoverlay="99" use="1" logic="71" param="ChenghaoView" type="6" ext="38" eff="1"/>
+	<item id="13010023" name="江湖小虾" icon="10012" tabtype="2" rarity="4" sort="11" dec="用于激活江湖小虾称号，可在运营活动中获得" maxoverlay="99" use="1" logic="71" param="ChenghaoView" type="6" ext="16" eff="1"/>
+	<item id="13010024" name="无上真仙" icon="10012" tabtype="2" rarity="4" sort="11" dec="用于激活无上真仙称号，可在进阶排行活动中获得" maxoverlay="99" use="1" logic="71" param="ChenghaoView" type="6" ext="39" eff="1"/>
+	<item id="13010050" name="比武状元" icon="10012" tabtype="2" rarity="4" sort="11" dec="用于激活一天比武状元称号，可在比武大会中获得" maxoverlay="99" use="1" logic="71" param="ChenghaoView" type="6" ext="50" eff="1"/>
+	<item id="13010051" name="比武榜眼" icon="10012" tabtype="2" rarity="4" sort="11" dec="用于激活一天比武榜眼称号，可在比武大会中获得" maxoverlay="99" use="1" logic="71" param="ChenghaoView" type="6" ext="51" eff="1"/>
+	<item id="13010052" name="比武探花" icon="10012" tabtype="2" rarity="4" sort="11" dec="用于激活一天比武探花称号，可在比武大会中获得" maxoverlay="99" use="1" logic="71" param="ChenghaoView" type="6" ext="52" eff="1"/>
+	<item id="13010053" name="比武精英" icon="10012" tabtype="2" rarity="4" sort="11" dec="用于激活一天比武精英称号，可在比武大会中获得" maxoverlay="99" use="1" logic="71" param="ChenghaoView" type="6" ext="53" eff="1"/>
+	<item id="13010054" name="明日之星" icon="10012" tabtype="2" rarity="4" sort="11" dec="用于激活明日之星称号，可在比武商店中获得" maxoverlay="99" use="1" logic="71" param="ChenghaoView" type="6" ext="54" eff="1"/>
+	<item id="13010055" name="武林高手" icon="10012" tabtype="2" rarity="4" sort="11" dec="用于激活武林高手称号，可在比武商店中获得" maxoverlay="99" use="1" logic="71" param="ChenghaoView" type="6" ext="55" eff="1"/>
+	<item id="13010056" name="绝世奇才" icon="10012" tabtype="2" rarity="4" sort="11" dec="用于激活绝世奇才称号，可在比武商店中获得" maxoverlay="99" use="1" logic="71" param="ChenghaoView" type="6" ext="56" eff="1"/>
+	<item id="13010057" name="威震三界" icon="10012" tabtype="2" rarity="4" sort="11" dec="用于激活威震三界称号，可在比武商店中获得" maxoverlay="99" use="1" logic="71" param="ChenghaoView" type="6" ext="57" eff="1"/>
+	<item id="13010058" name="盖世英雄" icon="10012" tabtype="2" rarity="4" sort="11" dec="用于激活盖世英雄称号，可在比武商店中获得" maxoverlay="99" use="1" logic="71" param="ChenghaoView" type="6" ext="58" eff="1"/>
+	<item id="13010060" name="富甲天下" icon="10012" tabtype="2" rarity="4" sort="11" dec="用于激活富甲天下称号，可在连充返利活动中获得" maxoverlay="99" use="1" logic="71" param="ChenghaoView" type="6" ext="60" eff="1"/>
+	<item id="13010061" name="有钱任性" icon="10012" tabtype="2" rarity="4" sort="11" dec="用于激活有钱任性称号，可在消费返利活动中获得" maxoverlay="99" use="1" logic="71" param="ChenghaoView" type="6" ext="61" eff="1"/>
+	<item id="13010062" name="挥金如土" icon="10012" tabtype="2" rarity="4" sort="11" dec="用于激活挥金如土称号，可在消费返利活动中获得" maxoverlay="99" use="1" logic="71" param="ChenghaoView" type="6" ext="62" eff="1"/>
+	<item id="13010064" name="一路向西" icon="10012" tabtype="2" rarity="4" sort="11" dec="用于激活一路向西称号，可在消费返利活动中获得" maxoverlay="99" use="1" logic="71" param="ChenghaoView" type="6" ext="64" eff="1"/>
+	<item id="13010065" name="齐天大圣" icon="10012" tabtype="2" rarity="4" sort="11" dec="用于激活齐天大圣称号，可在战力提升排行活动中获得" maxoverlay="99" use="1" logic="71" param="ChenghaoView" type="6" ext="65" eff="1"/>
+	<item id="13010066" name="西游首富" icon="10012" tabtype="2" rarity="4" sort="11" dec="用于激活西游首富称号，可在充值排行活动中获得" maxoverlay="99" use="1" logic="71" param="ChenghaoView" type="6" ext="66" eff="1"/>
+	<item id="13010067" name="寻宝达人" icon="10012" tabtype="2" rarity="4" sort="11" dec="用于激活寻宝达人称号，可在寻宝排行活动中获得" maxoverlay="99" use="1" logic="71" param="ChenghaoView" type="6" ext="67" eff="1"/>
+	<item id="13010068" name="一掷千金" icon="10012" tabtype="2" rarity="4" sort="11" dec="用于激活一掷千金称号，可在消费排行活动中获得" maxoverlay="99" use="1" logic="71" param="ChenghaoView" type="6" ext="68" eff="1"/>
+	<item id="13010069" name="追星人" icon="10012" tabtype="2" rarity="4" sort="11" dec="用于激活追星人称号，可在寻星排行活动中获得" maxoverlay="99" use="1" logic="71" param="ChenghaoView" type="6" ext="69" eff="1"/>
+	<item id="13010070" name="紫气东来" icon="10012" tabtype="2" rarity="4" sort="11" dec="用于激活紫气东来称号，可在进阶排行活动中获得" maxoverlay="99" use="1" logic="71" param="ChenghaoView" type="6" ext="70" eff="1"/>
+	<item id="13010071" name="守序者" icon="10012" tabtype="2" rarity="4" sort="11" dec="用于激活守序者称号，给予守护游戏秩序玩家的奖励" maxoverlay="99" use="1" logic="71" param="ChenghaoView" type="6" ext="71" eff="1"/>
+	<item id="13020001" name="测试时装1" icon="30031" tabtype="2" rarity="3" sort="11" dec="时装专用" maxoverlay="99" use="1" logic="72" param="Shizhuangview" type="7"/>
+	<item id="13020002" name="测试时装2" icon="30031" tabtype="2" rarity="3" sort="11" dec="时装专用" maxoverlay="99" use="1" logic="72" param="Shizhuangview" type="7"/>
+	<item id="13020003" name="测试时装3" icon="30031" tabtype="2" rarity="3" sort="11" dec="时装专用" maxoverlay="99" use="1" logic="72" param="Shizhuangview" type="7"/>
+	<item id="13020004" name="测试时装4" icon="30031" tabtype="2" rarity="3" sort="11" dec="时装专用" maxoverlay="99" use="1" logic="72" param="Shizhuangview" type="7"/>
+	<item id="13020005" name="测试时装5" icon="30031" tabtype="2" rarity="3" sort="11" dec="时装专用" maxoverlay="99" use="1" logic="72" param="Shizhuangview" type="7"/>
+	<item id="13020006" name="测试时装6" icon="30031" tabtype="2" rarity="3" sort="11" dec="时装专用" maxoverlay="99" use="1" logic="72" param="Shizhuangview" type="7"/>
+	<item id="13030001" name="天使猪" icon="13030001" tabtype="2" rarity="5" sort="11" dec="使用激活坐骑外观—天使猪" maxoverlay="99" use="1" logic="2" param="developSkinView0" type="7" ext="0|1" eff="1"/>
+	<item id="13030002" name="金鳞仙鱼" icon="13030002" tabtype="2" rarity="5" sort="11" dec="使用激活坐骑外观—金鳞仙鱼，可在三倍首充活动中获得" maxoverlay="99" use="1" logic="2" param="developSkinView0" type="7" ext="0|2" eff="1"/>
+	<item id="13030003" name="坐骑皮肤3" icon="30031" tabtype="2" rarity="5" sort="11" dec="坐骑系统用" maxoverlay="99" use="1" logic="2" param="developSkinView0" type="7" eff="1"/>
+	<item id="13030004" name="坐骑皮肤4" icon="30031" tabtype="2" rarity="5" sort="11" dec="坐骑系统用" maxoverlay="99" use="1" logic="2" param="developSkinView0" type="7" eff="1"/>
+	<item id="13030005" name="坐骑皮肤5" icon="30031" tabtype="2" rarity="5" sort="11" dec="坐骑系统用" maxoverlay="99" use="1" logic="2" param="developSkinView0" type="7" eff="1"/>
+	<item id="13031001" name="金箍棒" icon="13031001" tabtype="2" rarity="5" sort="11" dec="使用激活神兵外观—金箍棒" maxoverlay="99" use="1" logic="72" param="Shizhuangview" type="7" ext="1|1|1" eff="1"/>
+	<item id="13031002" name="神兵皮肤2" icon="30031" tabtype="2" rarity="5" sort="11" dec="神兵系统用" maxoverlay="99" use="1" logic="2" param="developSkinView1" type="7" eff="1"/>
+	<item id="13031003" name="神兵皮肤3" icon="30031" tabtype="2" rarity="5" sort="11" dec="神兵系统用" maxoverlay="99" use="1" logic="2" param="developSkinView1" type="7" eff="1"/>
+	<item id="13031004" name="神兵皮肤4" icon="30031" tabtype="2" rarity="5" sort="11" dec="神兵系统用" maxoverlay="99" use="1" logic="2" param="developSkinView1" type="7" eff="1"/>
+	<item id="13031005" name="神兵皮肤5" icon="30031" tabtype="2" rarity="5" sort="11" dec="神兵系统用" maxoverlay="99" use="1" logic="2" param="developSkinView1" type="7" eff="1"/>
+	<item id="13032001" name="翅膀皮肤1" icon="30031" tabtype="2" rarity="5" sort="11" dec="羽翼系统用" maxoverlay="99" use="1" logic="2" param="developSkinView2" type="7" eff="1"/>
+	<item id="13032002" name="翅膀皮肤2" icon="30031" tabtype="2" rarity="5" sort="11" dec="羽翼系统用" maxoverlay="99" use="1" logic="2" param="developSkinView2" type="7" eff="1"/>
+	<item id="13032003" name="翅膀皮肤3" icon="30031" tabtype="2" rarity="5" sort="11" dec="羽翼系统用" maxoverlay="99" use="1" logic="2" param="developSkinView2" type="7" eff="1"/>
+	<item id="13032004" name="翅膀皮肤4" icon="30031" tabtype="2" rarity="5" sort="11" dec="羽翼系统用" maxoverlay="99" use="1" logic="2" param="developSkinView2" type="7" eff="1"/>
+	<item id="13032005" name="翅膀皮肤5" icon="30031" tabtype="2" rarity="5" sort="11" dec="羽翼系统用" maxoverlay="99" use="1" logic="2" param="developSkinView2" type="7" eff="1"/>
+	<item id="13033001" name="阵法皮肤1" icon="30031" tabtype="2" rarity="5" sort="11" dec="阵法系统用" maxoverlay="99" use="1" logic="2" param="developSkinView3" type="7" eff="1"/>
+	<item id="13033002" name="阵法皮肤2" icon="30031" tabtype="2" rarity="5" sort="11" dec="阵法系统用" maxoverlay="99" use="1" logic="2" param="developSkinView3" type="7" eff="1"/>
+	<item id="13033003" name="阵法皮肤3" icon="30031" tabtype="2" rarity="5" sort="11" dec="阵法系统用" maxoverlay="99" use="1" logic="2" param="developSkinView3" type="7" eff="1"/>
+	<item id="13033004" name="阵法皮肤4" icon="30031" tabtype="2" rarity="5" sort="11" dec="阵法系统用" maxoverlay="99" use="1" logic="2" param="developSkinView3" type="7" eff="1"/>
+	<item id="13033005" name="阵法皮肤5" icon="30031" tabtype="2" rarity="5" sort="11" dec="阵法系统用" maxoverlay="99" use="1" logic="2" param="developSkinView3" type="7" eff="1"/>
+	<item id="13034001" name="法宝皮肤1" icon="30031" tabtype="2" rarity="5" sort="11" dec="法宝系统用" maxoverlay="99" use="1" logic="2" param="developSkinView4" type="7" eff="1"/>
+	<item id="13034002" name="法宝皮肤2" icon="30031" tabtype="2" rarity="5" sort="11" dec="法宝系统用" maxoverlay="99" use="1" logic="2" param="developSkinView4" type="7" eff="1"/>
+	<item id="13034003" name="法宝皮肤3" icon="30031" tabtype="2" rarity="5" sort="11" dec="法宝系统用" maxoverlay="99" use="1" logic="2" param="developSkinView4" type="7" eff="1"/>
+	<item id="13034004" name="法宝皮肤4" icon="30031" tabtype="2" rarity="5" sort="11" dec="法宝系统用" maxoverlay="99" use="1" logic="2" param="developSkinView4" type="7" eff="1"/>
+	<item id="13034005" name="法宝皮肤5" icon="30031" tabtype="2" rarity="5" sort="11" dec="法宝系统用" maxoverlay="99" use="1" logic="2" param="developSkinView4" type="7" eff="1"/>
+	<item id="13035001" name="轩辕剑" icon="13035001" tabtype="2" rarity="5" sort="11" dec="使用激活神兵外观：轩辕剑" maxoverlay="99" use="1" logic="72" param="Shizhuangview" type="7" ext="1|2|1" eff="1"/>
+	<item id="13035002" name="凰炎剑" icon="13035002" tabtype="2" rarity="5" sort="11" dec="使用激活神兵外观：凰炎" maxoverlay="99" use="1" logic="72" param="Shizhuangview" type="7" ext="1|3|1" eff="1"/>
+	<item id="13035003" name="紫青宝剑" icon="13035003" tabtype="2" rarity="5" sort="11" dec="使用激活神兵外观：紫青宝剑" maxoverlay="99" use="1" logic="72" param="Shizhuangview" type="7" ext="1|4|1" eff="1"/>
+	<item id="14010001" name="坐骑属性丹" icon="14010001" tabtype="2" rarity="4" sort="59" dec="可增加坐骑系统战力\n增加战力:47205(上阵单位=5时)" maxoverlay="999" use="1" logic="2" param="DevelopHorseView" eff="1"/>
+	<item id="14010101" name="坐骑技能书" icon="14010101" tabtype="2" rarity="3" sort="58" dec="坐骑系统用" maxoverlay="999" use="1" logic="2" param="DevelopHorseView"/>
+	<item id="14010201" name="坐骑进阶丹" icon="14010201" tabtype="2" rarity="3" sort="57" dec="进阶坐骑必备材料" maxoverlay="999" use="1" logic="2" param="DevelopHorseView"/>
+	<item id="14010301" name="坐骑直升丹【5阶】" icon="14010301" tabtype="2" rarity="5" sort="60" dec="5阶及以下服用直接提升坐骑一阶，5阶以上服用增加1000经验值。建议在5阶时使用效果最佳" maxoverlay="999" use="1" param="DevelopHorseView" eff="1" logic="9"/>
+	<item id="14010302" name="坐骑直升丹【7阶】" icon="14010301" tabtype="2" rarity="5" sort="60" dec="7阶及以下服用直接提升坐骑一阶，7阶以上服用增加1000经验值。建议在7阶时使用效果最佳" maxoverlay="999" use="1" param="DevelopHorseView" eff="1" logic="9"/>
+	<item id="14020001" name="变身属性丹" icon="14020001" tabtype="2" rarity="4" sort="59" dec="可增加变身系统战力\n增加战力:47205(上阵单位=5时)" maxoverlay="999" use="1" logic="2" param="DevelopTransformView" eff="1"/>
+	<item id="14020101" name="变身技能书" icon="14020101" tabtype="2" rarity="3" sort="58" dec="变身系统用" maxoverlay="999" use="1" logic="2" param="DevelopTransformView"/>
+	<item id="14020201" name="变身进阶丹" icon="14020201" tabtype="2" rarity="3" sort="57" dec="进阶变身必备材料" maxoverlay="999" use="1" logic="2" param="DevelopTransformView"/>
+	<item id="14020301" name="变身直升丹【5阶】" icon="14020301" tabtype="2" rarity="5" sort="60" dec="5阶及以下服用直接提升变身一阶，5阶以上服用增加1000经验值。建议在5阶时使用效果最佳" maxoverlay="999" use="1" eff="1" logic="9" param="DevelopTransformView"/>
+	<item id="14020302" name="变身直升丹【7阶】" icon="14020301" tabtype="2" rarity="5" sort="60" dec="7阶及以下服用直接提升变身一阶，7阶以上服用增加1000经验值。建议在7阶时使用效果最佳" maxoverlay="999" use="1" eff="1" logic="9" param="DevelopTransformView"/>
+	<item id="14030001" name="羽翼属性丹" icon="14030001" tabtype="2" rarity="4" sort="59" dec="可增加羽翼系统战力\n增加战力:47205(上阵单位=5时)" maxoverlay="999" use="1" logic="2" param="DevelopWingView" eff="1"/>
+	<item id="14030101" name="羽翼技能书" icon="14030101" tabtype="2" rarity="3" sort="58" dec="羽翼系统用" maxoverlay="999" use="1" logic="2" param="DevelopWingView"/>
+	<item id="14030201" name="羽翼进阶丹" icon="14030201" tabtype="2" rarity="3" sort="57" dec="进阶羽翼必备材料" maxoverlay="999" use="1" logic="2" param="DevelopWingView"/>
+	<item id="14030301" name="羽翼直升丹【5阶】" icon="14030301" tabtype="2" rarity="5" sort="60" dec="5阶及以下服用直接提升羽翼一阶，5阶以上服用增加1000经验值。建议在5阶时使用效果最佳" maxoverlay="999" use="1" param="DevelopWingView" eff="1" logic="9"/>
+	<item id="14030302" name="羽翼直升丹【7阶】" icon="14030301" tabtype="2" rarity="5" sort="60" dec="7阶及以下服用直接提升羽翼一阶，7阶以上服用增加1000经验值。建议在7阶时使用效果最佳" maxoverlay="999" use="1" param="DevelopWingView" eff="1" logic="9"/>
+	<item id="14040001" name="阵法属性丹" icon="14040001" tabtype="2" rarity="4" sort="59" dec="可增加阵法系统战力\n增加战力:47205(上阵单位=5时)" maxoverlay="999" use="1" logic="2" param="DevelopMatrixView" eff="1"/>
+	<item id="14040101" name="阵法技能书" icon="14040101" tabtype="2" rarity="3" sort="58" dec="可增加阵法系统战力\n增加战力:47205(上阵单位=5时)" maxoverlay="999" use="1" logic="2" param="DevelopMatrixView"/>
+	<item id="14040201" name="阵法进阶丹" icon="14040201" tabtype="2" rarity="3" sort="57" dec="进阶阵法必备材料" maxoverlay="999" use="1" logic="2" param="DevelopMatrixView"/>
+	<item id="14040301" name="阵法直升丹【5阶】" icon="14040301" tabtype="2" rarity="5" sort="60" dec="5阶及以下服用直接提升阵法一阶，5阶以上服用增加1000经验值。建议在5阶时使用效果最佳" maxoverlay="999" use="1" param="DevelopMatrixView" eff="1" logic="9"/>
+	<item id="14040302" name="阵法直升丹【7阶】" icon="14040301" tabtype="2" rarity="5" sort="60" dec="7阶及以下服用直接提升阵法一阶，7阶以上服用增加1000经验值。建议在7阶时使用效果最佳" maxoverlay="999" use="1" param="DevelopMatrixView" eff="1" logic="9"/>
+	<item id="14050001" name="法宝属性丹" icon="14050001" tabtype="2" rarity="4" sort="59" dec="可增加法宝系统战力\n增加战力:47205(上阵单位=5时)" maxoverlay="999" use="1" logic="2" param="DevelopMagicView" eff="1"/>
+	<item id="14050101" name="法宝技能书" icon="14050101" tabtype="2" rarity="3" sort="58" dec="法宝系统用" maxoverlay="999" use="1" logic="2" param="DevelopMagicView"/>
+	<item id="14050201" name="法宝进阶丹" icon="14050201" tabtype="2" rarity="3" sort="57" dec="进阶法宝必备材料" maxoverlay="999" use="1" logic="2" param="DevelopMagicView"/>
+	<item id="14050301" name="法宝直升丹【5阶】" icon="14050301" tabtype="2" rarity="5" sort="60" dec="5阶及以下服用直接提升法宝一阶，5阶以上服用增加1000经验值。建议在5阶时使用效果最佳" maxoverlay="999" use="1" param="DevelopMagicView" eff="1" logic="9"/>
+	<item id="14050302" name="法宝直升丹【7阶】" icon="14050301" tabtype="2" rarity="5" sort="60" dec="7阶及以下服用直接提升法宝一阶，7阶以上服用增加1000经验值。建议在7阶时使用效果最佳" maxoverlay="999" use="1" param="DevelopMagicView" eff="1" logic="9"/>
+	<item id="14060001" name="气血丹" icon="30021" tabtype="2" rarity="3" sort="9" dec="用于养成潜能丹，养成可增加气血。可通过参加雁塔地宫、帮派boss、跑环任务等活动获得" maxoverlay="999" use="1" logic="2" param="PotentialGView"/>
+	<item id="14060002" name="攻击丹" icon="30022" tabtype="2" rarity="3" sort="9" dec="用于养成潜能丹，养成可增加攻击。可通过参加雁塔地宫、帮派boss、跑环任务等活动获得" maxoverlay="999" use="1" logic="2" param="PotentialGView"/>
+	<item id="14060003" name="防御丹" icon="30023" tabtype="2" rarity="3" sort="9" dec="用于养成潜能丹，养成可增加防御。可通过参加雁塔地宫、帮派boss、跑环任务等活动获得" maxoverlay="999" use="1" logic="2" param="PotentialGView"/>
+	<item id="14060004" name="速度丹" icon="30024" tabtype="2" rarity="3" sort="9" dec="用于养成潜能丹，养成可增加速度。可通过参加雁塔地宫、帮派boss、跑环任务等活动获得" maxoverlay="999" use="1" logic="2" param="PotentialGView"/>
+	<item id="14060005" name="闪避丹" icon="30025" tabtype="2" rarity="3" sort="9" dec="用于养成潜能丹，养成可增加闪避。可通过参加雁塔地宫、帮派boss、跑环任务等活动获得" maxoverlay="999" use="1" logic="2" param="PotentialGView"/>
+	<item id="14060006" name="爆击丹" icon="30026" tabtype="2" rarity="3" sort="9" dec="用于养成潜能丹，养成可增加爆击。可通过参加雁塔地宫、帮派boss、跑环任务等活动获得" maxoverlay="999" use="1" logic="2" param="PotentialGView"/>
+	<item id="14060007" name="伤害丹" icon="30027" tabtype="2" rarity="3" sort="9" dec="用于养成潜能丹，养成可增加伤害加成。可通过参加雁塔地宫、帮派boss、跑环任务等活动获得" maxoverlay="999" use="1" logic="2" param="PotentialGView"/>
+	<item id="14060008" name="免伤丹" icon="30028" tabtype="2" rarity="3" sort="9" dec="用于养成潜能丹，养成可增加伤害减免。可通过参加雁塔地宫、帮派boss、跑环任务等活动获得" maxoverlay="999" use="1" logic="2" param="PotentialGView"/>
+	<item id="14070001" name="仙位属性丹" icon="14070001" tabtype="2" rarity="4" sort="59" dec="可增加仙位系统战力\n增加战力:47205(上阵单位=5时)" maxoverlay="999" use="1" logic="2" param="DevelopGodTitle" eff="1"/>
+	<item id="14070101" name="仙位技能书" icon="14070101" tabtype="2" rarity="3" sort="58" dec="仙位系统用" maxoverlay="999" use="1" logic="2" param="DevelopGodTitle"/>
+	<item id="14070201" name="仙位进阶丹" icon="14070201" tabtype="2" rarity="3" sort="57" dec="进阶仙位必备材料" maxoverlay="999" use="1" logic="2" param="DevelopGodTitle"/>
+	<item id="14070301" name="仙位直升丹【5阶】" icon="14070301" tabtype="2" rarity="5" sort="60" dec="5阶及以下服用直接提升仙位一阶，5阶以上服用增加1000经验值。建议在5阶时使用效果最佳" maxoverlay="999" use="1" eff="1" logic="9" param="DevelopGodTitle"/>
+	<item id="14070302" name="仙位直升丹【7阶】" icon="14070301" tabtype="2" rarity="5" sort="60" dec="7阶及以下服用直接提升仙位一阶，7阶以上服用增加1000经验值。建议在7阶时使用效果最佳" maxoverlay="999" use="1" eff="1" logic="9" param="DevelopGodTitle"/>
+	<item id="14080001" name="灵骑属性丹" icon="14080001" tabtype="2" rarity="4" sort="59" dec="可增加灵骑系统战力\n增加战力:47205(上阵单位=5时)" maxoverlay="999" use="1" logic="2" param="DevelopSmallHorseView" eff="1"/>
+	<item id="14080101" name="灵骑技能书" icon="14080101" tabtype="2" rarity="3" sort="58" dec="灵骑系统用" maxoverlay="999" use="1" logic="2" param="DevelopSmallHorseView"/>
+	<item id="14080201" name="灵骑进阶丹" icon="14080201" tabtype="2" rarity="3" sort="57" dec="进阶灵骑必备材料" maxoverlay="999" use="1" logic="2" param="DevelopSmallHorseView"/>
+	<item id="14080301" name="灵骑直升丹【5阶】" icon="14080301" tabtype="2" rarity="5" sort="60" dec="5阶及以下服用直接提升灵骑一阶，5阶以上服用增加1000经验值。建议在5阶时使用效果最佳" maxoverlay="999" use="1" eff="1" logic="9" param="DevelopSmallHorseView"/>
+	<item id="14080302" name="灵骑直升丹【7阶】" icon="14080301" tabtype="2" rarity="5" sort="60" dec="7阶及以下服用直接提升灵骑一阶，7阶以上服用增加1000经验值。建议在7阶时使用效果最佳" maxoverlay="999" use="1" eff="1" logic="9" param="DevelopSmallHorseView"/>
+	<item id="16010001" name="潜能丹礼包" icon="30003" tabtype="2" rarity="4" sort="59" dec="随机开出用于潜能丹系统的任意潜能丹。" maxoverlay="999" use="1" logic="8" param="14060001:1:100,14060002:1:100,14060003:1:100,14060004:1:100,14060005:1:100,14060006:1:100,14060007:1:10,14060008:1:10" eff="1" batch="1" remind="1"/>
+	<item id="16010002" name="橙色伙伴箱" icon="30034" tabtype="2" rarity="4" sort="59" dec="开启后可从猪悟能;铁扇公主;玉帝中选择一伙伴获得。" maxoverlay="999" use="1" logic="10" param="11041002:100,11043006:100,11042009:100" eff="1" batch="1" remind="1"/>
+	<item id="16010003" name="师门之赏" icon="30034" tabtype="2" rarity="4" sort="59" dec="开启可获得随机高级要诀或洗炼石。" maxoverlay="999" use="1" logic="8" param="10000010:2:4000,10000010:5:3000,10000010:10:2100,10000022:1:100,10000023:1:100,10000027:1:100,10000031:1:100,10000033:1:100,10000038:1:100,10000039:1:100,10000040:1:100,10000041:1:100" eff="1" batch="1" remind="1"/>
+	<item id="16010004" name="高级技能书礼盒" icon="30034" tabtype="2" rarity="4" sort="59" dec="随机开出高级宠物技能书。" maxoverlay="999" use="1" logic="8" param="10000020:1:2000,10000021:1:3000,10000022:1:10000,10000023:1:10000,10000024:1:10000,10000025:1:10000,10000026:1:10000,10000027:1:10000,10000028:1:3000,10000030:1:10000,10000031:1:10000,10000032:1:5000,10000033:1:10000,10000034:1:5000,10000035:1:5000,10000036:1:5000,10000037:1:5000,10000038:1:10000,10000039:1:10000,10000040:1:10000,10000041:1:10000" eff="1" batch="1" remind="1"/>
+	<item id="16010005" name="红装礼盒" icon="30034" tabtype="2" rarity="5" sort="59" dec="随机开出50-100个红装碎片。" maxoverlay="999" use="1" logic="11" param="10000008,50,100" eff="1" batch="1" remind="1"/>
+	<item id="16010006" name="技能书礼包" icon="30003" tabtype="2" rarity="3" sort="59" dec="随机获得任意技能书。" maxoverlay="999" use="1" logic="8" param="14010101:1:100,14020101:1:100,14030101:1:100,14040101:1:100,14050101:1:100" eff="1" batch="1" remind="1"/>
+	<item id="16010007" name="属性丹礼包" icon="30003" tabtype="2" rarity="4" sort="59" dec="随机开出任意属性丹。" maxoverlay="999" use="1" logic="8" param="14010001:1:100,14020001:1:100,14030001:1:100,14040001:1:100,14050001:1:100" eff="1" batch="1" remind="1"/>
+	<item id="16010008" name="帮会副本礼包" icon="30003" tabtype="2" rarity="4" sort="59" dec="随机开出用于潜能丹系统的任意潜能丹。" maxoverlay="999" use="1" logic="8" param="14060001:1:100,14060002:1:100,14060003:1:100,14060004:1:100,14060005:1:100,14060006:1:100,14060007:1:10,14060008:1:10" eff="1" batch="1" remind="1"/>
+	<item id="16010009" name="初品宠物匣" icon="30012" tabtype="2" rarity="3" sort="59" dec="开启可获得随机蓝色和紫色宠物。" maxoverlay="999" use="1" logic="8" param="12010001:1:100,12010002:1:100,12020003:1:100,12020004:1:100,12030005:1:100,12030006:1:100,12030007:1:100,12040008:1:100,12040009:1:100,12040010:1:100,12050012:1:100,12050013:1:100,12060015:1:100,12060016:1:100,12020037:1:100,12020038:1:100,12020039:1:100,12020040:1:100,12050011:1:100,12060014:1:100,12070018:1:100,12070019:1:100,12080022:1:100,12090023:1:100" eff="1" batch="1" remind="1"/>
+	<item id="16010010" name="中品宠物匣" icon="30013" tabtype="2" rarity="3" sort="59" dec="开启可获得随机紫色宠物。" maxoverlay="999" use="1" logic="8" param="12050011:1:100,12060014:1:100,12070018:1:100,12070019:1:100,12080022:1:100,12090023:1:100" eff="1" batch="1" remind="1"/>
+	<item id="16010011" name="高品宠物匣" icon="30014" tabtype="2" rarity="4" sort="59" dec="开启可获得随机紫色或橙色宠物。" maxoverlay="999" use="1" logic="8" param="12050011:1:85,12060014:1:85,12070018:1:85,12070019:1:85,12080022:1:85,12090023:1:85,12000029:1:10,12070017:1:10,12080020:1:10,12080021:1:10,12090024:1:10,12090025:1:10,12100026:1:10,12100027:1:10,12100028:1:10" eff="1" batch="1" remind="1"/>
+	<item id="16010012" name="伙伴碎片匣" icon="30034" tabtype="2" rarity="4" sort="59" dec="开启后可从猪悟能碎片x15;铁扇公主碎片x15;王母碎片x15中选择一伙伴碎片获得。" maxoverlay="999" use="1" logic="10" param="11041002:15,11043006:15,11042010:15" eff="1" batch="1" remind="1"/>
+	<item id="16010013" name="寻宝卷轴" icon="16010013" tabtype="2" rarity="4" sort="9" dec="可在寻宝界面进行一次元宝寻宝" maxoverlay="999" logic="2" use="1" param="TreasureHuntView" eff="1"/>
+	<item id="16010014" name="红色伙伴匣" icon="30034" tabtype="2" rarity="5" sort="59" dec="开启后可选择以下一伙伴碎片获得\n斗战胜佛碎片x1\n净坛使者碎片x1\n金身罗汉碎片x1\n旃檀功德佛碎片x1\n八部天龙碎片x1" maxoverlay="999" use="1" logic="10" param="11051062:1,11051063:1,11051064:1,11051065:1,11051066:1" eff="1" batch="1" remind="1"/>
+	<item id="16010015" name="橙色伙伴匣（攻）" icon="30034" tabtype="2" rarity="4" sort="59" dec="开启后可选择以下一伙伴碎片获得\n猪悟能碎片x1\n铁扇公主碎片x1\n玉帝碎片x1" maxoverlay="999" use="1" logic="10" param="11041002:1,11043008:1,11042009:1" eff="1" batch="1" remind="1"/>
+	<item id="16010016" name="橙色伙伴匣（御）" icon="30034" tabtype="2" rarity="4" sort="59" dec="开启后可选择以下一伙伴碎片获得\n唐僧碎片x1\n玉面狐狸碎片x1\n观音碎片x1" maxoverlay="999" use="1" logic="10" param="11041003:1,11043006:1,11042011:1" eff="1" batch="1" remind="1"/>
+	<item id="16010017" name="橙色伙伴匣（极）" icon="30034" tabtype="2" rarity="4" sort="59" dec="开启后可选择以下一伙伴碎片获得\n孙悟空碎片x1\n牛魔王碎片x1\n太乙真人碎片x1" maxoverlay="999" use="1" logic="10" param="11041001:1,11043005:1,11042012:1" eff="1" batch="1" remind="1"/>
+	<item id="16010021" name="极品宠物匣" icon="30014" tabtype="2" rarity="4" sort="59" dec="开启可获得随机橙色宠物。" maxoverlay="999" use="1" logic="8" param="12000029:1:100,12070017:1:100,12080020:1:100,12080021:1:100,12090024:1:100,12090025:1:100,12100026:1:100,12100027:1:100,12100028:1:100" eff="1" batch="1" remind="1"/>
+	<item id="16010022" name="注灵石礼包" icon="30003" tabtype="2" rarity="4" sort="59" dec="随机开出任意注灵石\n注灵石增加战力:12000(上阵单位=5时)。" maxoverlay="999" use="1" logic="8" param="16010100:1:100,16010102:1:100,16010103:1:100,16010104:1:100,16010105:1:100,16010106:1:100,16010107:1:10" eff="1" batch="1" remind="1"/>
+	<item id="16010023" name="红色宠物图鉴匣" icon="30034" tabtype="2" rarity="5" sort="59" dec="随机开出一个红色宠物图鉴\n增加战力:840000(上阵单位=5时)" maxoverlay="999" use="1" logic="8" param="19000217:1:2000,19000218:1:2000,19000219:1:2000,19000220:1:2000,19000221:1:2000,19000222:1:2000,19000223:1:2000" eff="1" batch="1" remind="1"/>
+	<item id="16010024" name="红色伙伴图鉴匣" icon="30034" tabtype="2" rarity="5" sort="59" dec="随机开出一个红色伙伴图鉴\n增加战力:840000(上阵单位=5时)" maxoverlay="999" use="1" logic="8" param="19000349:1:2000,19000350:1:2000,19000351:1:2000,19000352:1:2000,19000353:1:2000" eff="1" batch="1" remind="1"/>
+	<item id="16010025" name="橙色宠物图鉴匣" icon="30034" tabtype="2" rarity="4" sort="59" dec="随机开出一个橙色伙伴图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" use="1" logic="8" param="19000209:1:2000,19000210:1:2000,19000211:1:2000,19000212:1:2000,19000213:1:2000,19000214:1:2000,19000215:1:2000,19000216:1:2000" eff="1" batch="1" remind="1"/>
+	<item id="16010026" name="橙色伙伴图鉴匣" icon="30034" tabtype="2" rarity="4" sort="59" dec="随机开出一个橙色伙伴图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" use="1" logic="8" param="19000325:1:2000,19000326:1:2000,19000327:1:2000,19000328:1:2000,19000329:1:2000,19000330:1:2000,19000331:1:2000,19000332:1:2000,19000333:1:2000,19000334:1:2000,19000335:1:2000,19000336:1:2000,19000337:1:2000,19000338:1:2000,19000339:1:2000,19000340:1:2000,19000341:1:2000,19000342:1:2000,19000343:1:2000,19000344:1:2000,19000345:1:2000,19000346:1:2000,19000347:1:2000,19000348:1:2000
+" eff="1" batch="1" remind="1"/>
+	<item id="16010027" name="紫色伙伴图鉴匣" icon="30034" tabtype="2" rarity="3" sort="59" dec="随机开出一个紫色伙伴图鉴\n增加战力:36000(上阵单位=5时)" maxoverlay="999" use="1" logic="8" param="19000301:1:2000,19000302:1:2000,19000303:1:2000,19000304:1:2000,19000305:1:2000,19000306:1:2000,19000307:1:2000,19000308:1:2000,19000309:1:2000,19000310:1:2000,19000311:1:2000,19000312:1:2000,19000313:1:2000,19000314:1:2000,19000314:1:2000,19000315:1:2000,19000316:1:2000,19000317:1:2000,19000318:1:2000,19000319:1:2000,19000320:1:2000,19000321:1:2000,19000322:1:2000,19000323:1:2000,19000324:1:2000
+" eff="1" batch="1" remind="1"/>
+	<item id="16010028" name="蓝色图鉴匣" icon="30034" tabtype="2" rarity="2" sort="59" dec="随机开出一个蓝色图鉴\n增加战力:12000(上阵单位=5时)" maxoverlay="999" use="1" logic="8" param="19000201:1:2000,19000202:1:2001,19000203:1:2002,19000204:1:2003,19000205:1:2004,19000206:1:2005,19000207:1:2006,19000401:1:2007,19000402:1:2008,19000403:1:2009,19000404:1:2010,19000405:1:2011,19000406:1:2012,19000407:1:2013,19000408:1:2014,19000409:1:2015,19000410:1:2016,19000411:1:2017" eff="1" batch="1" remind="1"/>
+	<item id="16010029" name="紫色图鉴匣" icon="30034" tabtype="2" rarity="3" sort="59" dec="随机开出一个紫色图鉴\n增加战力:36000(上阵单位=5时)" maxoverlay="999" use="1" logic="8" param="19000208:1:2000,19000301:1:2000,19000302:1:2000,19000303:1:2000,19000304:1:2000,,19000305:1:2000,19000306:1:2000,19000307:1:2000,19000308:1:2000,19000309:1:2000,19000310:1:2000,19000311:1:2000,19000312:1:2000,19000313:1:2000,19000314:1:2000,19000314:1:2000,19000315:1:2000,19000316:1:2000,19000317:1:2000,19000318:1:2000,19000319:1:2000,19000320:1:2000,19000321:1:2000,19000322:1:2000,19000323:1:2000,19000324:1:2000,19000412:1:2000,19000413:1:2000,19000414:1:2000,19000415:1:2000,19000416:1:2000" eff="1" batch="1" remind="1"/>
+	<item id="16010030" name="七十二地煞包" icon="30034" tabtype="2" rarity="2" sort="59" dec="随机开出一个七十二地煞\n增加战力:12000(上阵单位=5时)" maxoverlay="999" use="1" logic="8" param="18010101:1:2000,18010102:1:2000,18010103:1:2000,18010104:1:2000,18010105:1:2000,18010106:1:2000,18010107:1:2000,18010108:1:2000,18010109:1:2000,18010110:1:2000,18010111:1:2000,18010112:1:2000,18010113:1:2000,18010114:1:2000,18010115:1:2000,18010116:1:2000,18010117:1:2000,18010118:1:2000,18010119:1:2000,18010120:1:2000,18010121:1:2000,18010122:1:2000,18010123:1:2000,18010124:1:2000,18010125:1:2000,18010126:1:2000,18010127:1:2000,18010128:1:2000,18010129:1:2000,18010130:1:2000,18010131:1:2000,18010132:1:2000,18010133:1:2000,18010134:1:2000,18010135:1:2000,18010136:1:2000,18010137:1:2000,18010138:1:2000,18010139:1:2000,18010140:1:2000,18010141:1:2000,18010142:1:2000,18010143:1:2000,18010144:1:2000,18010145:1:2000,18010146:1:2000,18010147:1:2000,18010148:1:2000,18010149:1:2000,18010150:1:2000,18010151:1:2000,18010152:1:2000,18010153:1:2000,18010154:1:2000,18010155:1:2000,18010156:1:2000,18010157:1:2000,18010158:1:2000,18010159:1:2000,18010160:1:2000,18010161:1:2000,18010162:1:2000,18010163:1:2000,18010164:1:2000,18010165:1:2000,18010166:1:2000,18010167:1:2000,18010168:1:2000,18010169:1:2000,18010170:1:2000,18010171:1:2000,18010172:1:2000,18020101:1:2000,18020102:1:2000,18020103:1:2000,18020104:1:2000,18020105:1:2000,18020106:1:2000,18020107:1:2000,18020108:1:2000,18020109:1:2000,18020110:1:2000,18020111:1:2000,18020112:1:2000,18020113:1:2000,18020114:1:2000,18020115:1:2000,18020116:1:2000,18020117:1:2000,18020118:1:2000,18020119:1:2000,18020120:1:2000,18020121:1:2000,18020122:1:2000,18020123:1:2000,18020124:1:2000,18020125:1:2000,18020126:1:2000,18020127:1:2000,18020128:1:2000,18020129:1:2000,18020130:1:2000,18020131:1:2000,18020132:1:2000,18020133:1:2000,18020134:1:2000,18020135:1:2000,18020136:1:2000" eff="1" batch="1" remind="1"/>
+	<item id="16010031" name="三十六天罡包" icon="30034" tabtype="2" rarity="3" sort="59" dec="随机开出一个三十六天罡\n增加战力:36000(上阵单位=5时)" maxoverlay="999" use="1" logic="8" param="18020101:1:2000,18020102:1:2000,18020103:1:2000,18020104:1:2000,18020105:1:2000,18020106:1:2000,18020107:1:2000,18020108:1:2000,18020109:1:2000,18020110:1:2000,18020111:1:2000,18020112:1:2000,18020113:1:2000,18020114:1:2000,18020115:1:2000,18020116:1:2000,18020117:1:2000,18020118:1:2000,18020119:1:2000,18020120:1:2000,18020121:1:2000,18020122:1:2000,18020123:1:2000,18020124:1:2000,18020125:1:2000,18020126:1:2000,18020127:1:2000,18020128:1:2000,18020129:1:2000,18020130:1:2000,18020131:1:2000,18020132:1:2000,18020133:1:2000,18020134:1:2000,18020135:1:2000,18020136:1:2000" eff="1" batch="1" remind="1"/>
+	<item id="16010032" name="二十八星宿包" icon="30034" tabtype="2" rarity="4" sort="59" dec="随机开出一个二十八星宿\n增加战力:144000(上阵单位=5时)" maxoverlay="999" use="1" logic="8" param="18030101:1:2000,18030102:1:2000,18030103:1:2000,18030104:1:2000,18030105:1:2000,18030106:1:2000,18030107:1:2000,18030108:1:2000,18030109:1:2000,18030110:1:2000,18030111:1:2000,18030112:1:2000,18030113:1:2000,18030114:1:2000,18030115:1:2000,18030116:1:2000,18030117:1:2000,18030118:1:2000,18030119:1:2000,18030120:1:2000,18030121:1:2000,18030122:1:2000,18030123:1:2000,18030124:1:2000,18030125:1:2000,18030126:1:2000,18030127:1:2000,18030128:1:2000" eff="1" batch="1" remind="1"/>
+	<item id="16010033" name="天仙包" icon="30034" tabtype="2" rarity="5" sort="59" dec="随机开出一个天仙\n增加战力:840000(上阵单位=5时)" maxoverlay="999" use="1" logic="8" param="18040101:1:2000,18040102:1:2000,18040103:1:2000,18040104:1:2000,18040105:1:2000,18040106:1:2000,18040107:1:2000,18040108:1:2000,18040109:1:2000,18040110:1:2000,18040111:1:2000,18040112:1:2000,18040113:1:2000,18040114:1:2000" eff="1" batch="1" remind="1"/>
+	<item id="16010034" name="蓝色宠物匣" icon="30012" tabtype="2" rarity="2" sort="59" dec="开启可获得随机蓝色宠物。" maxoverlay="999" use="1" logic="8" param="12010001:1:100,12010002:1:100,12020003:1:100,12020037:1:100,12020038:1:100,12020004:1:100,12030005:1:100,12020039:1:100,12020040:1:100,12030006:1:100,12030007:1:100,12040008:1:100,12040009:1:100,12040010:1:100,12050012:1:100,12050013:1:100" eff="1" batch="1" remind="1"/>
+	<item id="16010035" name="紫色宠物匣" icon="30012" tabtype="2" rarity="3" sort="59" dec="开启可获得随机紫色宠物。" maxoverlay="999" use="1" logic="8" param="12050011:1:100,12060014:1:100,12070018:1:100,12070019:1:100,12080022:1:100,12090023:1:100" eff="1" batch="1" remind="1"/>
+	<item id="16010036" name="橙色宠物匣" icon="30012" tabtype="2" rarity="4" sort="59" dec="开启可获得随机橙色宠物。" maxoverlay="999" use="1" logic="8" param="12070017:1:100,12080020:1:100,12080021:1:100,12090024:1:100,12090025:1:100,12100026:1:100,12100027:1:100,12100028:1:100,12000029:1:100" eff="1" batch="1" remind="1"/>
+	<item id="16010037" name="红色宠物匣" icon="30012" tabtype="2" rarity="5" sort="59" dec="开启可获得随机红色宠物。" maxoverlay="999" use="1" logic="8" param="12000030:1:100,12000031:1:100,12000032:1:100,12000033:1:100,12000034:1:100,12000035:1:100,12000036:1:100" eff="1" batch="1" remind="1"/>
+	<item id="16010038" name="橙色图鉴匣" icon="30034" tabtype="2" rarity="4" sort="59" dec="随机开出一个橙色图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" use="1" logic="8" param="19000209:1:2000,19000210:1:2000,19000211:1:2000,19000212:1:2000,19000213:1:2000,19000214:1:2000,19000215:1:2000,19000216:1:2000,19000325:1:2000,19000326:1:2000,19000327:1:2000,19000328:1:2000,19000329:1:2000,19000330:1:2000,19000331:1:2000,19000332:1:2000,19000333:1:2000,19000334:1:2000,19000335:1:2000,19000336:1:2000,19000337:1:2000,19000338:1:2000,19000339:1:2000,19000340:1:2000,19000341:1:2000,19000342:1:2000,19000343:1:2000,19000344:1:2000,19000345:1:2000,19000346:1:2000,19000347:1:2000,19000348:1:2000,19000417:1:2000" eff="1" batch="1" remind="1"/>
+	<item id="16010039" name="红色图鉴匣" icon="30034" tabtype="2" rarity="5" sort="59" dec="随机开出一个红色图鉴\n增加战力:840000(上阵单位=5时)" maxoverlay="999" use="1" logic="8" param="19000217:1:2000,19000218:1:2000,19000219:1:2000,19000220:1:2000,19000221:1:2000,19000222:1:2000,19000223:1:2000,19000349:1:2000,19000350:1:2000,19000351:1:2000,19000352:1:2000,19000353:1:2000" eff="1" batch="1" remind="1"/>
+	<item id="16010040" name="神兵礼包" icon="30034" tabtype="2" rarity="5" sort="59" dec="使用后获得一个神兵" maxoverlay="999" use="1" logic="8" param="7003000:1:2000" eff="1" batch="1" remind="1"/>
+	<item id="16010041" name="神甲礼包" icon="30034" tabtype="2" rarity="5" sort="59" dec="使用后获得一个神甲" maxoverlay="999" use="1" logic="8" param="8003000:1:2000" eff="1" batch="1" remind="1"/>
+	<item id="16010042" name="爱的陪伴" icon="16010042" tabtype="2" rarity="5" sort="59" dec="随机获得一个橙色伙伴" maxoverlay="999" use="1" logic="8" param="11041022:100:1,11041023:100:1,11041024:100:1,11041025:100:1,11043017:100:1,11043018:100:1,11043019:100:1,11043020:100:1,11042013:100:1,11042014:100:1,11042015:100:1,11042016:100:1" eff="1" batch="1" remind="1"/>
+	<item id="16010043" name="周卡" icon="16010043" tabtype="2" rarity="3" sort="60" dec="使用后激活周卡" maxoverlay="999" use="1" logic="19" param="7" eff="1"/>
+	<item id="16010044" name="月卡" icon="16010044" tabtype="2" rarity="4" sort="61" dec="使用后激活月卡" maxoverlay="999" use="1" logic="20" param="30" eff="1"/>
+	<item id="16010045" name="终身卡" icon="16010045" tabtype="2" rarity="5" sort="62" dec="使用后激活终身卡" maxoverlay="999" use="1" logic="21" param="9999" eff="1"/>
+	<item id="16010046" name="初级进阶礼包" icon="30034" tabtype="2" rarity="3" sort="59" dec="使用后获得万能进阶丹*20，注灵石礼包*20" maxoverlay="999" use="1" logic="1" param="10000009:20,16010022:20" eff="1" batch="1" remind="1"/>
+	<item id="16010047" name="中级进阶礼包" icon="30034" tabtype="2" rarity="4" sort="59" dec="使用后获得万能进阶丹*88，注灵石礼包*88" maxoverlay="999" use="1" logic="1" param="10000009:88,16010022:88" eff="1" batch="1" remind="1"/>
+	<item id="16010048" name="高级进阶礼包" icon="30034" tabtype="2" rarity="5" sort="59" dec="使用后获得万能进阶丹*300，注灵石礼包*300" maxoverlay="999" use="1" logic="1" param="10000009:300,16010022:300" eff="1" batch="1" remind="1"/>
+	<item id="16010049" name="神兽碎片匣(A）" icon="30034" tabtype="2" rarity="5" sort="59" dec="开启后可选择以下一宠物碎片获得\n小火龙*1\n哮天犬*1\n白泽*1\n超级泡泡*1" maxoverlay="999" use="1" logic="10" param="12000231:1,12000232:1,12000233:1,12000236:1" eff="1" batch="1" remind="1"/>
+	<item id="16010060" name="神兽碎片匣(B）" icon="30034" tabtype="2" rarity="5" sort="59" dec="开启后可选择以下一宠物碎片获得\n熊猫*1\n九色鹿*1\n鲲鹏*1" maxoverlay="999" use="1" logic="10" param="12000230:1,12000234:1,12000235:1" eff="1" batch="1" remind="1"/>
+	<item id="16010050" name="天仙碎片礼包" icon="30034" tabtype="2" rarity="5" sort="59" dec="使用后随机获得天仙碎片1个" maxoverlay="999" use="1" logic="8" param="18140101:1:10000,18140102:1:10000,18140103:1:10000,18140104:1:10000,18140105:1:10000,18140106:1:10000,18140107:1:10000,18140108:1:10000,18140109:1:10000,18140110:1:10000,18140111:1:10000,18140112:1:10000,18140113:1:10000,18140114:1:10000" eff="1" batch="1" remind="1"/>
+	<item id="16010051" name="寻宝卷轴碎片" icon="16010051" tabtype="2" rarity="4" sort="9" dec="100个碎片可以合成寻宝卷轴" maxoverlay="999" use="1" logic="2" param="SynthetizeView" eff="1" type="4"/>
+	<item id="16010052" name="寻星石碎片" icon="16010052" tabtype="2" rarity="4" sort="9" dec="100个碎片可以合成寻星石" maxoverlay="999" use="1" logic="2" param="SynthetizeView" eff="1" type="4"/>
+	<item id="16010053" name="红色伙伴碎片礼包" icon="30034" tabtype="2" rarity="5" sort="59" dec="使用后随机获得红色伙伴碎片1个" maxoverlay="999" use="1" logic="8" param="11051062:1:10000,11051063:1:10000,11051064:1:10000,11051065:1:10000,11051066:1:10000" eff="1" batch="1" remind="1"/>
+	<item id="16010054" name="红色伙伴图鉴碎片匣" icon="30034" tabtype="2" rarity="5" sort="59" dec="使用后随机获得红色伙伴图鉴碎片1个" maxoverlay="999" use="1" logic="8" param="19100349:1:10000,19100350:1:10000,19100351:1:10000,19100352:1:10000,19100353:1:10000,19100349:1:10000" eff="1" batch="1" remind="1"/>
+	<item id="16010055" name="橙色伙伴碎片匣" icon="30034" tabtype="2" rarity="4" sort="59" dec="使用后随机获得橙色伙伴碎片*1" maxoverlay="999" use="1" logic="8" param="11041001:1:10000,11041002:1:10000,11041003:1:10000,11041004:1:10000,11041022:1:10000,11041023:1:10000,11041024:1:10000,11041025:1:10000,11042009:1:10000,11042010:1:10000,11042011:1:10000,11042012:1:10000,11042013:1:10000,11042014:1:10000,11042015:1:10000,11042016:1:10000,11043005:1:10000,11043006:1:10000,11043007:1:10000,11043008:1:10000,11043017:1:10000,11043018:1:10000,11043019:1:10000,11043020:1:10000" eff="1" batch="1" remind="1"/>
+	<item id="16010056" name="橙色宠物碎片匣" icon="30034" tabtype="2" rarity="4" sort="59" dec="使用后随机获得橙色宠物碎片*1" maxoverlay="999" use="1" logic="8" param="12000229:1:10000,12070217:1:10000,12080220:1:10000,12080221:1:10000,12090224:1:10000,12090225:1:10000,12100226:1:10000,12100227:1:10000,12100228:1:10000" eff="1" batch="1" remind="1"/>
+	<item id="16010057" name="二十八星宿碎片匣" icon="30034" tabtype="2" rarity="4" sort="59" dec="使用后随机获得二十八星宿碎片*1" maxoverlay="999" use="1" logic="8" param="18130101:1:10000,18130102:1:10000,18130103:1:10000,18130104:1:10000,18130105:1:10000,18130106:1:10000,18130107:1:10000,18130108:1:10000,18130109:1:10000,18130110:1:10000,18130111:1:10000,18130112:1:10000,18130113:1:10000,18130114:1:10000,18130115:1:10000,18130116:1:10000,18130117:1:10000,18130118:1:10000,18130119:1:10000,18130120:1:10000,18130121:1:10000,18130122:1:10000,18130123:1:10000,18130124:1:10000,18130125:1:10000,18130126:1:10001,18130127:1:10002,18130128:1:10003" eff="1" batch="1" remind="1"/>
+	<item id="16010058" name="橙色伙伴图鉴碎片匣" icon="30034" tabtype="2" rarity="4" sort="59" dec="使用后随机获得橙色伙伴图鉴碎片*1" maxoverlay="999" use="1" logic="8" param="19100325:1:10000,19100326:1:10000,19100327:1:10000,19100328:1:10000,19100329:1:10000,19100330:1:10000,19100331:1:10000,19100332:1:10000,19100333:1:10000,19100334:1:10000,19100335:1:10000,19100336:1:10000,19100337:1:10000,19100338:1:10000,19100339:1:10000,19100340:1:10000,19100341:1:10000,19100342:1:10000,19100343:1:10000,19100344:1:10000,19100345:1:10000,19100346:1:10000,19100347:1:10000,19100348:1:10000" eff="1" batch="1" remind="1"/>
+	<item id="16010059" name="高级招募令碎片" icon="16010059" tabtype="2" rarity="4" sort="9" dec="80个碎片可以合成高级招募令" maxoverlay="999" use="1" logic="2" param="SynthetizeView" eff="1" type="4"/>
+	<item id="16010061" name="梅花酒" icon="16010061" tabtype="2" rarity="3" sort="9" dec="可以用于宠物喂养，有概率获得\n蓝色图鉴匣\n紫色图鉴匣\n绑定元宝" maxoverlay="999" use="1" logic="2" param="PetParadiseView"/>
+	<item id="16010062" name="百味酒" icon="16010062" tabtype="2" rarity="4" sort="9" dec="可以用于宠物喂养，有概率获得\n紫色图鉴匣\n橙色图鉴匣\n绑定元宝\n精炼石\n锻造石\n宝石碎片" maxoverlay="999" use="1" logic="2" param="PetParadiseView"/>
+	<item id="16010063" name="蛇胆酒" icon="16010063" tabtype="2" rarity="4" sort="9" dec="可以用于宠物喂养，有概率获得\n紫色图鉴匣\n橙色图鉴匣\n绑定元宝\n精炼石\n锻造石\n宝石碎片" maxoverlay="999" use="1" logic="2" param="PetParadiseView"/>
+	<item id="16010064" name="超级神兽碎片匣" icon="30034" tabtype="2" rarity="5" sort="59" dec="开启后可选择以下一宠物碎片获得\n猪小戒*1\n炎魔仙*1\n淘气宝贝*1" maxoverlay="999" use="1" logic="10" param="12000237:1,12000238:1,12000239:1" eff="1" batch="1" remind="1"/>
+	<item id="16010065" name="神宠碎片匣(C）" icon="30015" tabtype="2" rarity="5" sort="59" dec="开启后可选择以下一宠物碎片获得\n哮天犬x1\n熊猫x1\n小火龙x1" maxoverlay="999" use="1" logic="10" param="12000033:1,12000034:1,12000031:1" eff="1" batch="1" remind="1"/>
+	<item id="16010066" name="红色伙伴碎片匣" icon="30033" tabtype="2" rarity="5" sort="59" dec="开启后可选择以下一伙伴碎片获得\n净坛使者x1\n金身罗汉x1\n八部天龙x1" maxoverlay="999" use="1" logic="10" param="19000350:1,19000352:1,19000353:1" eff="1" batch="1" remind="1"/>
+	<item id="16010067" name="爱心礼包" icon="30035" tabtype="2" rarity="5" sort="59" dec="开启后可获得神宠碎片匣(C）*100，寻宝卷轴*66，红色宠物图鉴匣*1" maxoverlay="999" use="1" logic="1" param="16010065:100,16010013:66,16010023:1" eff="1" batch="1" remind="1"/>
+	<item id="16010068" name="醉生梦死" icon="16010068" tabtype="2" rarity="5" sort="9" dec="可以用于宠物喂养，有概率获得\n橙色图鉴匣\n神兽碎片匣（A）\n神兽碎片匣（B）\n精炼石\n锻造石\n宝石碎片" maxoverlay="999" use="1" logic="2" param="PetParadiseView"/>
+	<item id="16010069" name="灵宠石" icon="16010069" tabtype="2" rarity="4" sort="9" dec="可在神宠转盘界面进行一次元宝寻宝" maxoverlay="999" logic="2" use="1" param="StarSearchView" eff="1"/>
+	<item id="16010070" name="经脉丹" icon="16010070" tabtype="2" rarity="3" sort="9" dec="可以用于经脉突破" maxoverlay="999" use="1" logic="2" param="RoleMessageView"/>
+	<item id="16010071" name="辅助宠物碎片匣" icon="30033" tabtype="2" rarity="5" sort="59" dec="开启后可选择以下一宠物碎片获得\n淘气宝贝x1\n仙符女娲x1\n金饶僧x1" maxoverlay="999" use="1" logic="10" param="12000239:1,12000240:1,12000241:1" eff="1" batch="1" remind="1"/>
+	<item id="16010072" name="输出宠物碎片匣" icon="30033" tabtype="2" rarity="5" sort="59" dec="开启后可选择以下一宠物碎片获得\n猪小戒x1\n炎魔仙x1\n夜罗刹x1" maxoverlay="999" use="1" logic="10" param="12000237:1,12000238:1,12000243:1" eff="1" batch="1" remind="1"/>
+	<!--养成注灵石-->
+	<item id="16010100" name="坐骑注灵石" icon="16010100" tabtype="2" rarity="3" sort="9" dec="可以用于坐骑注灵\n增加战力:12000(上阵单位=5时)" maxoverlay="999" use="1" logic="2" param="DevelopEduNoteView0"/>
+	<item id="16010102" name="羽翼注灵石" icon="16010102" tabtype="2" rarity="3" sort="9" dec="可以用于羽翼注灵\n增加战力:12000(上阵单位=5时)" maxoverlay="999" use="1" logic="2" param="DevelopEduNoteView2"/>
+	<item id="16010103" name="阵法注灵石" icon="16010103" tabtype="2" rarity="3" sort="9" dec="可以用于阵法注灵\n增加战力:12000(上阵单位=5时)" maxoverlay="999" use="1" logic="2" param="DevelopEduNoteView3"/>
+	<item id="16010104" name="法宝注灵石" icon="16010104" tabtype="2" rarity="3" sort="9" dec="可以用于法宝注灵\n增加战力:12000(上阵单位=5时)" maxoverlay="999" use="1" logic="2" param="DevelopEduNoteView4"/>
+	<item id="16010105" name="变身注灵石" icon="16010105" tabtype="2" rarity="3" sort="9" dec="可以用于变身注灵\n增加战力:12000(上阵单位=5时)" maxoverlay="999" use="1" logic="2" param="DevelopEduNoteView5"/>
+	<item id="16010106" name="仙位注灵石" icon="16010106" tabtype="2" rarity="3" sort="9" dec="可以用于仙位注灵\n增加战力:12000(上阵单位=5时)" maxoverlay="999" use="1" logic="2" param="DevelopEduNoteView6"/>
+	<item id="16010107" name="灵骑注灵石" icon="16010107" tabtype="2" rarity="3" sort="9" dec="可以用于灵骑注灵\n增加战力:12000(上阵单位=5时)" maxoverlay="999" use="1" logic="2" param="DevelopEduNoteView7"/>
+	<!--神器相关消耗道具-->
+	<item id="17010000" name="铁" icon="17010000" tabtype="2" rarity="3" sort="9" dec="用于神器打造材料" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010001" name="神器强化石" icon="17010001" tabtype="2" rarity="3" sort="9" dec="用于神器打造材料" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010101" name="玉佩书" icon="17010101" tabtype="2" rarity="3" sort="9" dec="用于打造10级神器玉佩" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010201" name="玉佩书" icon="17010101" tabtype="2" rarity="3" sort="9" dec="用于打造20级神器玉佩" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010301" name="玉佩书" icon="17010101" tabtype="2" rarity="3" sort="9" dec="用于打造30级神器玉佩" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010401" name="玉佩书" icon="17010101" tabtype="2" rarity="3" sort="9" dec="用于打造40级神器玉佩" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010501" name="玉佩书" icon="17010101" tabtype="2" rarity="3" sort="9" dec="用于打造50级神器玉佩" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010601" name="玉佩书" icon="17010101" tabtype="2" rarity="3" sort="9" dec="用于打造60级神器玉佩" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010701" name="玉佩书" icon="17010101" tabtype="2" rarity="3" sort="9" dec="用于打造70级神器玉佩" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010801" name="玉佩书" icon="17010101" tabtype="2" rarity="3" sort="9" dec="用于打造80级神器玉佩" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010901" name="玉佩书" icon="17010101" tabtype="2" rarity="3" sort="9" dec="用于打造90级神器玉佩" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17011001" name="玉佩书" icon="17010101" tabtype="2" rarity="3" sort="9" dec="用于打造100级神器玉佩" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17011101" name="玉佩书" icon="17010101" tabtype="2" rarity="3" sort="9" dec="用于打造110级神器玉佩" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17011201" name="玉佩书" icon="17010101" tabtype="2" rarity="3" sort="9" dec="用于打造120级神器玉佩" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17011301" name="玉佩书" icon="17010101" tabtype="2" rarity="3" sort="9" dec="用于打造130级神器玉佩" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17011401" name="玉佩书" icon="17010101" tabtype="2" rarity="3" sort="9" dec="用于打造140级神器玉佩" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17011501" name="玉佩书" icon="17010101" tabtype="2" rarity="3" sort="9" dec="用于打造150级神器玉佩" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010102" name="耳坠书" icon="17010102" tabtype="2" rarity="3" sort="9" dec="用于打造10级神器耳坠" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010202" name="耳坠书" icon="17010102" tabtype="2" rarity="3" sort="9" dec="用于打造20级神器耳坠" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010302" name="耳坠书" icon="17010102" tabtype="2" rarity="3" sort="9" dec="用于打造30级神器耳坠" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010402" name="耳坠书" icon="17010102" tabtype="2" rarity="3" sort="9" dec="用于打造40级神器耳坠" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010502" name="耳坠书" icon="17010102" tabtype="2" rarity="3" sort="9" dec="用于打造50级神器耳坠" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010602" name="耳坠书" icon="17010102" tabtype="2" rarity="3" sort="9" dec="用于打造60级神器耳坠" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010702" name="耳坠书" icon="17010102" tabtype="2" rarity="3" sort="9" dec="用于打造70级神器耳坠" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010802" name="耳坠书" icon="17010102" tabtype="2" rarity="3" sort="9" dec="用于打造80级神器耳坠" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010902" name="耳坠书" icon="17010102" tabtype="2" rarity="3" sort="9" dec="用于打造90级神器耳坠" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17011002" name="耳坠书" icon="17010102" tabtype="2" rarity="3" sort="9" dec="用于打造100级神器耳坠" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17011102" name="耳坠书" icon="17010102" tabtype="2" rarity="3" sort="9" dec="用于打造110级神器耳坠" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17011202" name="耳坠书" icon="17010102" tabtype="2" rarity="3" sort="9" dec="用于打造120级神器耳坠" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17011302" name="耳坠书" icon="17010102" tabtype="2" rarity="3" sort="9" dec="用于打造130级神器耳坠" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17011402" name="耳坠书" icon="17010102" tabtype="2" rarity="3" sort="9" dec="用于打造140级神器耳坠" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17011502" name="耳坠书" icon="17010102" tabtype="2" rarity="3" sort="9" dec="用于打造150级神器耳坠" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010103" name="法器书" icon="17010103" tabtype="2" rarity="3" sort="9" dec="用于打造10级神器法器" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010203" name="法器书" icon="17010103" tabtype="2" rarity="3" sort="9" dec="用于打造20级神器法器" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010303" name="法器书" icon="17010103" tabtype="2" rarity="3" sort="9" dec="用于打造30级神器法器" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010403" name="法器书" icon="17010103" tabtype="2" rarity="3" sort="9" dec="用于打造40级神器法器" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010503" name="法器书" icon="17010103" tabtype="2" rarity="3" sort="9" dec="用于打造50级神器法器" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010603" name="法器书" icon="17010103" tabtype="2" rarity="3" sort="9" dec="用于打造60级神器法器" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010703" name="法器书" icon="17010103" tabtype="2" rarity="3" sort="9" dec="用于打造70级神器法器" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010803" name="法器书" icon="17010103" tabtype="2" rarity="3" sort="9" dec="用于打造80级神器法器" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010903" name="法器书" icon="17010103" tabtype="2" rarity="3" sort="9" dec="用于打造90级神器法器" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17011003" name="法器书" icon="17010103" tabtype="2" rarity="3" sort="9" dec="用于打造100级神器法器" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17011103" name="法器书" icon="17010103" tabtype="2" rarity="3" sort="9" dec="用于打造110级神器法器" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17011203" name="法器书" icon="17010103" tabtype="2" rarity="3" sort="9" dec="用于打造120级神器法器" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17011303" name="法器书" icon="17010103" tabtype="2" rarity="3" sort="9" dec="用于打造130级神器法器" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17011403" name="法器书" icon="17010103" tabtype="2" rarity="3" sort="9" dec="用于打造140级神器法器" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17011503" name="法器书" icon="17010103" tabtype="2" rarity="3" sort="9" dec="用于打造150级神器法器" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010104" name="护心镜书" icon="17010104" tabtype="2" rarity="3" sort="9" dec="用于打造10级神器护心镜" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010204" name="护心镜书" icon="17010104" tabtype="2" rarity="3" sort="9" dec="用于打造20级神器护心镜" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010304" name="护心镜书" icon="17010104" tabtype="2" rarity="3" sort="9" dec="用于打造30级神器护心镜" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010404" name="护心镜书" icon="17010104" tabtype="2" rarity="3" sort="9" dec="用于打造40级神器护心镜" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010504" name="护心镜书" icon="17010104" tabtype="2" rarity="3" sort="9" dec="用于打造50级神器护心镜" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010604" name="护心镜书" icon="17010104" tabtype="2" rarity="3" sort="9" dec="用于打造60级神器护心镜" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010704" name="护心镜书" icon="17010104" tabtype="2" rarity="3" sort="9" dec="用于打造70级神器护心镜" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010804" name="护心镜书" icon="17010104" tabtype="2" rarity="3" sort="9" dec="用于打造80级神器护心镜" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010904" name="护心镜书" icon="17010104" tabtype="2" rarity="3" sort="9" dec="用于打造90级神器护心镜" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17011004" name="护心镜书" icon="17010104" tabtype="2" rarity="3" sort="9" dec="用于打造100级神器护心镜" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17011104" name="护心镜书" icon="17010104" tabtype="2" rarity="3" sort="9" dec="用于打造110级神器护心镜" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17011204" name="护心镜书" icon="17010104" tabtype="2" rarity="3" sort="9" dec="用于打造120级神器护心镜" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17011304" name="护心镜书" icon="17010104" tabtype="2" rarity="3" sort="9" dec="用于打造130级神器护心镜" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17011404" name="护心镜书" icon="17010104" tabtype="2" rarity="3" sort="9" dec="用于打造140级神器护心镜" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17011504" name="护心镜书" icon="17010104" tabtype="2" rarity="3" sort="9" dec="用于打造150级神器护心镜" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010105" name="护腿书" icon="17010105" tabtype="2" rarity="3" sort="9" dec="用于打造10级神器护腿" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010205" name="护腿书" icon="17010105" tabtype="2" rarity="3" sort="9" dec="用于打造20级神器护腿" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010305" name="护腿书" icon="17010105" tabtype="2" rarity="3" sort="9" dec="用于打造30级神器护腿" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010405" name="护腿书" icon="17010105" tabtype="2" rarity="3" sort="9" dec="用于打造40级神器护腿" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010505" name="护腿书" icon="17010105" tabtype="2" rarity="3" sort="9" dec="用于打造50级神器护腿" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010605" name="护腿书" icon="17010105" tabtype="2" rarity="3" sort="9" dec="用于打造60级神器护腿" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010705" name="护腿书" icon="17010105" tabtype="2" rarity="3" sort="9" dec="用于打造70级神器护腿" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010805" name="护腿书" icon="17010105" tabtype="2" rarity="3" sort="9" dec="用于打造80级神器护腿" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17010905" name="护腿书" icon="17010105" tabtype="2" rarity="3" sort="9" dec="用于打造90级神器护腿" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17011005" name="护腿书" icon="17010105" tabtype="2" rarity="3" sort="9" dec="用于打造100级神器护腿" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17011105" name="护腿书" icon="17010105" tabtype="2" rarity="3" sort="9" dec="用于打造110级神器护腿" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17011205" name="护腿书" icon="17010105" tabtype="2" rarity="3" sort="9" dec="用于打造120级神器护腿" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17011305" name="护腿书" icon="17010105" tabtype="2" rarity="3" sort="9" dec="用于打造130级神器护腿" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17011405" name="护腿书" icon="17010105" tabtype="2" rarity="3" sort="9" dec="用于打造140级神器护腿" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<item id="17011505" name="护腿书" icon="17010105" tabtype="2" rarity="3" sort="9" dec="用于打造150级神器护腿" maxoverlay="999" logic="2" use="1" param="EquipmentWnd3"/>
+	<!--星盘相关消耗道具-->
+	<item id="18010101" name="地魁星" icon="18010101" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010102" name="地英星" icon="18010102" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010103" name="地阖星" icon="18010103" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010104" name="地佑星" icon="18010104" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010105" name="地默星" icon="18010105" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010106" name="地明星" icon="18010106" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010107" name="地隐星" icon="18010107" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010108" name="地速星" icon="18010108" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010109" name="地伏星" icon="18010109" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010110" name="地角星" icon="18010110" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010111" name="地察星" icon="18010111" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010112" name="地壮星" icon="18010112" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010113" name="地煞星" icon="18010113" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010114" name="地奇星" icon="18010114" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010115" name="地强星" icon="18010115" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010116" name="地灵星" icon="18010116" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010117" name="地猖星" icon="18010117" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010118" name="地进星" icon="18010118" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010119" name="地异星" icon="18010119" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010120" name="地镇星" icon="18010120" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010121" name="地僻星" icon="18010121" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010122" name="地囚星" icon="18010122" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010123" name="地恶星" icon="18010123" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010124" name="地劣星" icon="18010124" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010125" name="地勇星" icon="18010125" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010126" name="地猛星" icon="18010126" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010127" name="地暗星" icon="18010127" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010128" name="地兽星" icon="18010128" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010129" name="地狂星" icon="18010129" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010130" name="地退星" icon="18010130" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010131" name="地理星" icon="18010131" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010132" name="地稽星" icon="18010132" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010133" name="地空星" icon="18010133" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010134" name="地藏星" icon="18010134" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010135" name="地魂星" icon="18010135" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010136" name="地健星" icon="18010136" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010137" name="地杰星" icon="18010137" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010138" name="地文星" icon="18010138" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010139" name="地辅星" icon="18010139" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010140" name="地微星" icon="18010140" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010141" name="地飞星" icon="18010141" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010142" name="地满星" icon="18010142" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010143" name="地俊星" icon="18010143" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010144" name="地魔星" icon="18010144" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010145" name="地孤星" icon="18010145" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010146" name="地平星" icon="18010146" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010147" name="地数星" icon="18010147" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010148" name="地贼星" icon="18010148" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010149" name="地雄星" icon="18010149" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010150" name="地正星" icon="18010150" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010151" name="地会星" icon="18010151" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010152" name="地慧星" icon="18010152" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010153" name="地走星" icon="18010153" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010154" name="地遂星" icon="18010154" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010155" name="地乐星" icon="18010155" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010156" name="地妖星" icon="18010156" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010157" name="地全星" icon="18010157" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010158" name="地损星" icon="18010158" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010159" name="地阴星" icon="18010159" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010160" name="地戚星" icon="18010160" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010161" name="地威星" icon="18010161" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010162" name="地辟星" icon="18010162" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010163" name="地佐星" icon="18010163" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010164" name="地暴星" icon="18010164" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010165" name="地巧星" icon="18010165" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010166" name="地周星" icon="18010166" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010167" name="地捷星" icon="18010167" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010168" name="地幽星" icon="18010168" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010169" name="地短星" icon="18010169" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010170" name="地奴星" icon="18010170" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010171" name="地刑星" icon="18010171" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18010172" name="地狗星" icon="18010172" tabtype="2" rarity="2" sort="9" dec="激活对应地煞星\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView1"/>
+	<item id="18020101" name="天魁星" icon="18020101" tabtype="2" rarity="3" sort="9" dec="激活对应天罡星\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView2"/>
+	<item id="18020102" name="天猛星" icon="18020102" tabtype="2" rarity="3" sort="9" dec="激活对应天罡星\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView2"/>
+	<item id="18020103" name="天孤星" icon="18020103" tabtype="2" rarity="3" sort="9" dec="激活对应天罡星\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView2"/>
+	<item id="18020104" name="天空星" icon="18020104" tabtype="2" rarity="3" sort="9" dec="激活对应天罡星\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView2"/>
+	<item id="18020105" name="天退星" icon="18020105" tabtype="2" rarity="3" sort="9" dec="激活对应天罡星\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView2"/>
+	<item id="18020106" name="天败星" icon="18020106" tabtype="2" rarity="3" sort="9" dec="激活对应天罡星\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView2"/>
+	<item id="18020107" name="天罡星" icon="18020107" tabtype="2" rarity="3" sort="9" dec="激活对应天罡星\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView2"/>
+	<item id="18020108" name="天威星" icon="18020108" tabtype="2" rarity="3" sort="9" dec="激活对应天罡星\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView2"/>
+	<item id="18020109" name="天伤星" icon="18020109" tabtype="2" rarity="3" sort="9" dec="激活对应天罡星\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView2"/>
+	<item id="18020110" name="天速星" icon="18020110" tabtype="2" rarity="3" sort="9" dec="激活对应天罡星\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView2"/>
+	<item id="18020111" name="天寿星" icon="18020111" tabtype="2" rarity="3" sort="9" dec="激活对应天罡星\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView2"/>
+	<item id="18020112" name="天牢星" icon="18020112" tabtype="2" rarity="3" sort="9" dec="激活对应天罡星\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView2"/>
+	<item id="18020113" name="天机星" icon="18020113" tabtype="2" rarity="3" sort="9" dec="激活对应天罡星\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView2"/>
+	<item id="18020114" name="天英星" icon="18020114" tabtype="2" rarity="3" sort="9" dec="激活对应天罡星\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView2"/>
+	<item id="18020115" name="天玄星" icon="18020115" tabtype="2" rarity="3" sort="9" dec="激活对应天罡星\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView2"/>
+	<item id="18020116" name="天异星" icon="18020116" tabtype="2" rarity="3" sort="9" dec="激活对应天罡星\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView2"/>
+	<item id="18020117" name="天剑星" icon="18020117" tabtype="2" rarity="3" sort="9" dec="激活对应天罡星\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView2"/>
+	<item id="18020118" name="天慧星" icon="18020118" tabtype="2" rarity="3" sort="9" dec="激活对应天罡星\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView2"/>
+	<item id="18020119" name="天闲星" icon="18020119" tabtype="2" rarity="3" sort="9" dec="激活对应天罡星\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView2"/>
+	<item id="18020120" name="天贵星" icon="18020120" tabtype="2" rarity="3" sort="9" dec="激活对应天罡星\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView2"/>
+	<item id="18020121" name="天健星" icon="18020121" tabtype="2" rarity="3" sort="9" dec="激活对应天罡星\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView2"/>
+	<item id="18020122" name="天煞星" icon="18020122" tabtype="2" rarity="3" sort="9" dec="激活对应天罡星\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView2"/>
+	<item id="18020123" name="天平星" icon="18020123" tabtype="2" rarity="3" sort="9" dec="激活对应天罡星\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView2"/>
+	<item id="18020124" name="天暴星" icon="18020124" tabtype="2" rarity="3" sort="9" dec="激活对应天罡星\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView2"/>
+	<item id="18020125" name="天勇星" icon="18020125" tabtype="2" rarity="3" sort="9" dec="激活对应天罡星\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView2"/>
+	<item id="18020126" name="天富星" icon="18020126" tabtype="2" rarity="3" sort="9" dec="激活对应天罡星\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView2"/>
+	<item id="18020127" name="天暗星" icon="18020127" tabtype="2" rarity="3" sort="9" dec="激活对应天罡星\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView2"/>
+	<item id="18020128" name="天微星" icon="18020128" tabtype="2" rarity="3" sort="9" dec="激活对应天罡星\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView2"/>
+	<item id="18020129" name="天罪星" icon="18020129" tabtype="2" rarity="3" sort="9" dec="激活对应天罡星\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView2"/>
+	<item id="18020130" name="天哭星" icon="18020130" tabtype="2" rarity="3" sort="9" dec="激活对应天罡星\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView2"/>
+	<item id="18020131" name="天雄星" icon="18020131" tabtype="2" rarity="3" sort="9" dec="激活对应天罡星\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView2"/>
+	<item id="18020132" name="天满星" icon="18020132" tabtype="2" rarity="3" sort="9" dec="激活对应天罡星\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView2"/>
+	<item id="18020133" name="天佑星" icon="18020133" tabtype="2" rarity="3" sort="9" dec="激活对应天罡星\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView2"/>
+	<item id="18020134" name="天究星" icon="18020134" tabtype="2" rarity="3" sort="9" dec="激活对应天罡星\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView2"/>
+	<item id="18020135" name="天损星" icon="18020135" tabtype="2" rarity="3" sort="9" dec="激活对应天罡星\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView2"/>
+	<item id="18020136" name="天巧星" icon="18020136" tabtype="2" rarity="3" sort="9" dec="激活对应天罡星\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView2"/>
+	<item id="18030101" name="角木蛟" icon="18030101" tabtype="2" rarity="4" sort="9" dec="激活对应星宿星\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView3" eff="1"/>
+	<item id="18030102" name="亢金龙" icon="18030102" tabtype="2" rarity="4" sort="9" dec="激活对应星宿星\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView3" eff="1"/>
+	<item id="18030103" name="氐土貉" icon="18030103" tabtype="2" rarity="4" sort="9" dec="激活对应星宿星\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView3" eff="1"/>
+	<item id="18030104" name="房日兔" icon="18030104" tabtype="2" rarity="4" sort="9" dec="激活对应星宿星\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView3" eff="1"/>
+	<item id="18030105" name="心月狐" icon="18030105" tabtype="2" rarity="4" sort="9" dec="激活对应星宿星\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView3" eff="1"/>
+	<item id="18030106" name="尾火虎" icon="18030106" tabtype="2" rarity="4" sort="9" dec="激活对应星宿星\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView3" eff="1"/>
+	<item id="18030107" name="箕水豹" icon="18030107" tabtype="2" rarity="4" sort="9" dec="激活对应星宿星\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView3" eff="1"/>
+	<item id="18030108" name="井木犴" icon="18030108" tabtype="2" rarity="4" sort="9" dec="激活对应星宿星\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView3" eff="1"/>
+	<item id="18030109" name="鬼金羊" icon="18030109" tabtype="2" rarity="4" sort="9" dec="激活对应星宿星\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView3" eff="1"/>
+	<item id="18030110" name="柳土獐" icon="18030110" tabtype="2" rarity="4" sort="9" dec="激活对应星宿星\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView3" eff="1"/>
+	<item id="18030111" name="星日马" icon="18030111" tabtype="2" rarity="4" sort="9" dec="激活对应星宿星\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView3" eff="1"/>
+	<item id="18030112" name="张月鹿" icon="18030112" tabtype="2" rarity="4" sort="9" dec="激活对应星宿星\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView3" eff="1"/>
+	<item id="18030113" name="翼火蛇" icon="18030113" tabtype="2" rarity="4" sort="9" dec="激活对应星宿星\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView3" eff="1"/>
+	<item id="18030114" name="轸水蚓" icon="18030114" tabtype="2" rarity="4" sort="9" dec="激活对应星宿星\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView3" eff="1"/>
+	<item id="18030115" name="奎木狼" icon="18030115" tabtype="2" rarity="4" sort="9" dec="激活对应星宿星\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView3" eff="1"/>
+	<item id="18030116" name="娄金狗" icon="18030116" tabtype="2" rarity="4" sort="9" dec="激活对应星宿星\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView3" eff="1"/>
+	<item id="18030117" name="胃土雉" icon="18030117" tabtype="2" rarity="4" sort="9" dec="激活对应星宿星\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView3" eff="1"/>
+	<item id="18030118" name="昴日鸡" icon="18030118" tabtype="2" rarity="4" sort="9" dec="激活对应星宿星\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView3" eff="1"/>
+	<item id="18030119" name="毕月乌" icon="18030119" tabtype="2" rarity="4" sort="9" dec="激活对应星宿星\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView3" eff="1"/>
+	<item id="18030120" name="觜火猴" icon="18030120" tabtype="2" rarity="4" sort="9" dec="激活对应星宿星\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView3" eff="1"/>
+	<item id="18030121" name="参水猿" icon="18030121" tabtype="2" rarity="4" sort="9" dec="激活对应星宿星\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView3" eff="1"/>
+	<item id="18030122" name="斗木獬" icon="18030122" tabtype="2" rarity="4" sort="9" dec="激活对应星宿星\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView3" eff="1"/>
+	<item id="18030123" name="牛金牛" icon="18030123" tabtype="2" rarity="4" sort="9" dec="激活对应星宿星\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView3" eff="1"/>
+	<item id="18030124" name="女土蝠" icon="18030124" tabtype="2" rarity="4" sort="9" dec="激活对应星宿星\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView3" eff="1"/>
+	<item id="18030125" name="虚日鼠" icon="18030125" tabtype="2" rarity="4" sort="9" dec="激活对应星宿星\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView3" eff="1"/>
+	<item id="18030126" name="危月燕" icon="18030126" tabtype="2" rarity="4" sort="9" dec="激活对应星宿星\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView3" eff="1"/>
+	<item id="18030127" name="室火猪" icon="18030127" tabtype="2" rarity="4" sort="9" dec="激活对应星宿星\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView3" eff="1"/>
+	<item id="18030128" name="壁水貐" icon="18030128" tabtype="2" rarity="4" sort="9" dec="激活对应星宿星\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView3" eff="1"/>
+	<item id="18040101" name="东方青龙" icon="18040101" tabtype="2" rarity="5" sort="9" dec="激活对应天仙星星\n增加战力:840000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView4" eff="1"/>
+	<item id="18040102" name="西方白虎" icon="18040102" tabtype="2" rarity="5" sort="9" dec="激活对应天仙星星\n增加战力:840000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView4" eff="1"/>
+	<item id="18040103" name="北方玄武" icon="18040103" tabtype="2" rarity="5" sort="9" dec="激活对应天仙星星\n增加战力:840000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView4" eff="1"/>
+	<item id="18040104" name="南方朱雀" icon="18040104" tabtype="2" rarity="5" sort="9" dec="激活对应天仙星星\n增加战力:840000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView4" eff="1"/>
+	<item id="18040105" name="中央黄龙" icon="18040105" tabtype="2" rarity="5" sort="9" dec="激活对应天仙星星\n增加战力:840000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView4" eff="1"/>
+	<item id="18040106" name="计都星君" icon="18040106" tabtype="2" rarity="5" sort="9" dec="激活对应天仙星星\n增加战力:840000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView4" eff="1"/>
+	<item id="18040107" name="火德星君" icon="18040107" tabtype="2" rarity="5" sort="9" dec="激活对应天仙星星\n增加战力:840000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView4" eff="1"/>
+	<item id="18040108" name="木德星君" icon="18040108" tabtype="2" rarity="5" sort="9" dec="激活对应天仙星星\n增加战力:840000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView4" eff="1"/>
+	<item id="18040109" name="太阴星君" icon="18040109" tabtype="2" rarity="5" sort="9" dec="激活对应天仙星星\n增加战力:840000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView4" eff="1"/>
+	<item id="18040110" name="土德星君" icon="18040110" tabtype="2" rarity="5" sort="9" dec="激活对应天仙星星\n增加战力:840000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView4" eff="1"/>
+	<item id="18040111" name="罗睺星君" icon="18040111" tabtype="2" rarity="5" sort="9" dec="激活对应天仙星星\n增加战力:840000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView4" eff="1"/>
+	<item id="18040112" name="太阳星君" icon="18040112" tabtype="2" rarity="5" sort="9" dec="激活对应天仙星星\n增加战力:840000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView4" eff="1"/>
+	<item id="18040113" name="金德星君" icon="18040113" tabtype="2" rarity="5" sort="9" dec="激活对应天仙星星\n增加战力:840000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView4" eff="1"/>
+	<item id="18040114" name="水德星君" icon="18040114" tabtype="2" rarity="5" sort="9" dec="激活对应天仙星星\n增加战力:840000(上阵单位=5时)" maxoverlay="999" logic="2" use="1" param="AstrolabeView4" eff="1"/>
+	<item id="18130101" name="角木蛟碎片" icon="18130101" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成星盘角木蛟" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18130102" name="亢金龙碎片" icon="18130102" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成星盘亢金龙" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18130103" name="氐土貉碎片" icon="18130103" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成星盘氐土貉" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18130104" name="房日兔碎片" icon="18130104" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成星盘房日兔" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18130105" name="心月狐碎片" icon="18130105" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成星盘心月狐" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18130106" name="尾火虎碎片" icon="18130106" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成星盘尾火虎" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18130107" name="箕水豹碎片" icon="18130107" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成星盘箕水豹" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18130108" name="井木犴碎片" icon="18130108" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成星盘井木犴" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18130109" name="鬼金羊碎片" icon="18130109" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成星盘鬼金羊" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18130110" name="柳土獐碎片" icon="18130110" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成星盘柳土獐" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18130111" name="星日马碎片" icon="18130111" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成星盘星日马" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18130112" name="张月鹿碎片" icon="18130112" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成星盘张月鹿" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18130113" name="翼火蛇碎片" icon="18130113" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成星盘翼火蛇" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18130114" name="轸水蚓碎片" icon="18130114" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成星盘轸水蚓" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18130115" name="奎木狼碎片" icon="18130115" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成星盘奎木狼" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18130116" name="娄金狗碎片" icon="18130116" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成星盘娄金狗" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18130117" name="胃土雉碎片" icon="18130117" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成星盘胃土雉" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18130118" name="昴日鸡碎片" icon="18130118" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成星盘昴日鸡" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18130119" name="毕月乌碎片" icon="18130119" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成星盘毕月乌" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18130120" name="觜火猴碎片" icon="18130120" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成星盘觜火猴" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18130121" name="参水猿碎片" icon="18130121" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成星盘参水猿" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18130122" name="斗木獬碎片" icon="18130122" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成星盘斗木獬" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18130123" name="牛金牛碎片" icon="18130123" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成星盘牛金牛" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18130124" name="女土蝠碎片" icon="18130124" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成星盘女土蝠" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18130125" name="虚日鼠碎片" icon="18130125" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成星盘虚日鼠" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18130126" name="危月燕碎片" icon="18130126" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成星盘危月燕" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18130127" name="室火猪碎片" icon="18130127" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成星盘室火猪" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18130128" name="壁水貐碎片" icon="18130128" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成星盘壁水貐" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18140101" name="东方青龙碎片" icon="18140101" tabtype="2" rarity="5" sort="9" dec="集齐100个可以合成星盘东方青龙" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18140102" name="西方白虎碎片" icon="18140102" tabtype="2" rarity="5" sort="9" dec="集齐100个可以合成星盘西方白虎" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18140103" name="北方玄武碎片" icon="18140103" tabtype="2" rarity="5" sort="9" dec="集齐100个可以合成星盘北方玄武" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18140104" name="南方朱雀碎片" icon="18140104" tabtype="2" rarity="5" sort="9" dec="集齐100个可以合成星盘南方朱雀" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18140105" name="中央黄龙碎片" icon="18140105" tabtype="2" rarity="5" sort="9" dec="集齐100个可以合成星盘中央黄龙" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18140106" name="计都星君碎片" icon="18140106" tabtype="2" rarity="5" sort="9" dec="集齐100个可以合成星盘计都星君" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18140107" name="火德星君碎片" icon="18140107" tabtype="2" rarity="5" sort="9" dec="集齐100个可以合成星盘火德星君" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18140108" name="木德星君碎片" icon="18140108" tabtype="2" rarity="5" sort="9" dec="集齐100个可以合成星盘木德星君" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18140109" name="太阴星君碎片" icon="18140109" tabtype="2" rarity="5" sort="9" dec="集齐100个可以合成星盘太阴星君" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18140110" name="土德星君碎片" icon="18140110" tabtype="2" rarity="5" sort="9" dec="集齐100个可以合成星盘土德星君" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18140111" name="罗睺星君碎片" icon="18140111" tabtype="2" rarity="5" sort="9" dec="集齐100个可以合成星盘罗睺星君" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18140112" name="太阳星君碎片" icon="18140112" tabtype="2" rarity="5" sort="9" dec="集齐100个可以合成星盘太阳星君" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18140113" name="金德星君碎片" icon="18140113" tabtype="2" rarity="5" sort="9" dec="集齐100个可以合成星盘金德星君" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<item id="18140114" name="水德星君碎片" icon="18140114" tabtype="2" rarity="5" sort="9" dec="集齐100个可以合成星盘水德星君" maxoverlay="999" logic="2" use="1" param="SynthetizeView" eff="1" type="4"/>
+	<!--图鉴相关消耗道具-->
+	<item id="19000111" icon="19000111" tabtype="2" rarity="2" sort="9" dec="用于激活对应图鉴\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="蓝装头盔图鉴" param="1"/>
+	<item id="19000112" icon="19000112" tabtype="2" rarity="2" sort="9" dec="用于激活对应图鉴\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="蓝装项链图鉴" param="1"/>
+	<item id="19000113" icon="19000113" tabtype="2" rarity="2" sort="9" dec="用于激活对应图鉴\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="蓝装武器图鉴" param="1"/>
+	<item id="19000114" icon="19000114" tabtype="2" rarity="2" sort="9" dec="用于激活对应图鉴\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="蓝装铠甲图鉴" param="2"/>
+	<item id="19000115" icon="19000115" tabtype="2" rarity="2" sort="9" dec="用于激活对应图鉴\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="蓝装腰带图鉴" param="2"/>
+	<item id="19000116" icon="19000116" tabtype="2" rarity="2" sort="9" dec="用于激活对应图鉴\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="蓝装鞋子图鉴" param="2"/>
+	<item id="19000121" icon="19000121" tabtype="2" rarity="3" sort="9" dec="用于激活对应图鉴\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="紫装头盔图鉴" param="3"/>
+	<item id="19000122" icon="19000122" tabtype="2" rarity="3" sort="9" dec="用于激活对应图鉴\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="紫装项链图鉴" param="3"/>
+	<item id="19000123" icon="19000123" tabtype="2" rarity="3" sort="9" dec="用于激活对应图鉴\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="紫装武器图鉴" param="3"/>
+	<item id="19000124" icon="19000124" tabtype="2" rarity="3" sort="9" dec="用于激活对应图鉴\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="紫装铠甲图鉴" param="3"/>
+	<item id="19000125" icon="19000125" tabtype="2" rarity="3" sort="9" dec="用于激活对应图鉴\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="紫装腰带图鉴" param="3"/>
+	<item id="19000126" icon="19000126" tabtype="2" rarity="3" sort="9" dec="用于激活对应图鉴\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="紫装鞋子图鉴" param="3"/>
+	<item id="19000131" icon="19000131" tabtype="2" rarity="4" sort="9" dec="用于激活对应图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="橙装头盔图鉴" param="3"/>
+	<item id="19000132" icon="19000132" tabtype="2" rarity="4" sort="9" dec="用于激活对应图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="橙装项链图鉴" param="3"/>
+	<item id="19000133" icon="19000133" tabtype="2" rarity="4" sort="9" dec="用于激活对应图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="橙装武器图鉴" param="3"/>
+	<item id="19000134" icon="19000134" tabtype="2" rarity="4" sort="9" dec="用于激活对应图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="橙装铠甲图鉴" param="3"/>
+	<item id="19000135" icon="19000135" tabtype="2" rarity="4" sort="9" dec="用于激活对应图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="橙装腰带图鉴" param="3"/>
+	<item id="19000136" icon="19000136" tabtype="2" rarity="4" sort="9" dec="用于激活对应图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="橙装鞋子图鉴" param="3"/>
+	<item id="19000141" icon="19000141" tabtype="2" rarity="5" sort="9" dec="用于激活对应图鉴\n增加战力:840000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="红装头盔图鉴" param="3"/>
+	<item id="19000142" icon="19000142" tabtype="2" rarity="5" sort="9" dec="用于激活对应图鉴\n增加战力:840000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="红装项链图鉴" param="3"/>
+	<item id="19000143" icon="19000143" tabtype="2" rarity="5" sort="9" dec="用于激活对应图鉴\n增加战力:840000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="红装武器图鉴" param="3"/>
+	<item id="19000144" icon="19000144" tabtype="2" rarity="5" sort="9" dec="用于激活对应图鉴\n增加战力:840000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="红装铠甲图鉴" param="3"/>
+	<item id="19000145" icon="19000145" tabtype="2" rarity="5" sort="9" dec="用于激活对应图鉴\n增加战力:840000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="红装腰带图鉴" param="3"/>
+	<item id="19000146" icon="19000146" tabtype="2" rarity="5" sort="9" dec="用于激活对应图鉴\n增加战力:840000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="红装鞋子图鉴" param="3"/>
+	<item id="19000201" icon="300024" tabtype="2" rarity="2" sort="9" dec="用于激活对应图鉴\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="小海龟图鉴" param="1"/>
+	<item id="19000202" icon="300038" tabtype="2" rarity="2" sort="9" dec="用于激活对应图鉴\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="巨蛙图鉴" param="1"/>
+	<item id="19000203" icon="300010" tabtype="2" rarity="2" sort="9" dec="用于激活对应图鉴\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="寄居蟹图鉴" param="1"/>
+	<item id="19000204" icon="300039" tabtype="2" rarity="2" sort="9" dec="用于激活对应图鉴\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="海星图鉴" param="1"/>
+	<item id="19000205" icon="300035" tabtype="2" rarity="2" sort="9" dec="用于激活对应图鉴\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="虾兵图鉴" param="1"/>
+	<item id="19000206" icon="300037" tabtype="2" rarity="2" sort="9" dec="用于激活对应图鉴\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="蟹将图鉴" param="1"/>
+	<item id="19000207" icon="300054" tabtype="2" rarity="2" sort="9" dec="用于激活对应图鉴\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="泡泡图鉴" param="1"/>
+	<item id="19000208" icon="300023" tabtype="2" rarity="3" sort="9" dec="用于激活对应图鉴\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="仙鹤童子图鉴" param="1"/>
+	<item id="19000209" icon="300013" tabtype="2" rarity="4" sort="9" dec="用于激活对应图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="上古瑞兽图鉴" param="1"/>
+	<item id="19000210" icon="300015" tabtype="2" rarity="4" sort="9" dec="用于激活对应图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="蟠桃童子图鉴" param="1"/>
+	<item id="19000211" icon="300018" tabtype="2" rarity="4" sort="9" dec="用于激活对应图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="瑶池天兵图鉴" param="1"/>
+	<item id="19000212" icon="300002" tabtype="2" rarity="4" sort="9" dec="用于激活对应图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="彩凤仙女图鉴" param="1"/>
+	<item id="19000213" icon="300003" tabtype="2" rarity="4" sort="9" dec="用于激活对应图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="芙蓉仙女图鉴" param="1"/>
+	<item id="19000214" icon="300020" tabtype="2" rarity="4" sort="9" dec="用于激活对应图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="吞天虎图鉴" param="1"/>
+	<item id="19000215" icon="300021" tabtype="2" rarity="4" sort="9" dec="用于激活对应图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="西海蛟龙图鉴" param="1"/>
+	<item id="19000216" icon="300014" tabtype="2" rarity="4" sort="9" dec="用于激活对应图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="巡天神将图鉴" param="1"/>
+	<item id="19000217" icon="300004" tabtype="2" rarity="5" sort="9" dec="用于激活对应图鉴\n增加战力:840000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="超级泡泡图鉴" param="1"/>
+	<item id="19000218" icon="300006" tabtype="2" rarity="5" sort="9" dec="用于激活对应图鉴\n增加战力:840000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="鲲鹏图鉴" param="1"/>
+	<item id="19000219" icon="300025" tabtype="2" rarity="5" sort="9" dec="用于激活对应图鉴\n增加战力:840000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="小火龙图鉴" param="1"/>
+	<item id="19000220" icon="300001" tabtype="2" rarity="5" sort="9" dec="用于激活对应图鉴\n增加战力:840000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="白泽图鉴" param="1"/>
+	<item id="19000221" icon="300029" tabtype="2" rarity="5" sort="9" dec="用于激活对应图鉴\n增加战力:840000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="熊猫图鉴" param="1"/>
+	<item id="19000222" icon="300011" tabtype="2" rarity="5" sort="9" dec="用于激活对应图鉴\n增加战力:840000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="九色鹿图鉴" param="1"/>
+	<item id="19000223" icon="300027" tabtype="2" rarity="5" sort="9" dec="用于激活对应图鉴\n增加战力:840000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="哮天犬图鉴" param="1"/>
+	<item id="19000301" icon="200038" tabtype="2" rarity="3" sort="9" dec="用于激活对应图鉴\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="阎罗王图鉴" param="2"/>
+	<item id="19000302" icon="200018" tabtype="2" rarity="3" sort="9" dec="用于激活对应图鉴\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="空度禅师图鉴" param="2"/>
+	<item id="19000303" icon="200026" tabtype="2" rarity="3" sort="9" dec="用于激活对应图鉴\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="青玄仙女图鉴" param="2"/>
+	<item id="19000304" icon="200037" tabtype="2" rarity="3" sort="9" dec="用于激活对应图鉴\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="延寿星君图鉴" param="2"/>
+	<item id="19000305" icon="200043" tabtype="2" rarity="3" sort="9" dec="用于激活对应图鉴\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="袁天罡图鉴" param="2"/>
+	<item id="19000306" icon="200045" tabtype="2" rarity="3" sort="9" dec="用于激活对应图鉴\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="钟馗图鉴" param="2"/>
+	<item id="19000307" icon="200002" tabtype="2" rarity="3" sort="9" dec="用于激活对应图鉴\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="白菁晶图鉴" param="2"/>
+	<item id="19000308" icon="200006" tabtype="2" rarity="3" sort="9" dec="用于激活对应图鉴\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="春十三娘图鉴" param="2"/>
+	<item id="19000309" icon="200042" tabtype="2" rarity="3" sort="9" dec="用于激活对应图鉴\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="玉兔精图鉴" param="2"/>
+	<item id="19000310" icon="200025" tabtype="2" rarity="3" sort="9" dec="用于激活对应图鉴\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="青狮王图鉴" param="2"/>
+	<item id="19000311" icon="200003" tabtype="2" rarity="3" sort="9" dec="用于激活对应图鉴\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="白象王图鉴" param="2"/>
+	<item id="19000312" icon="200008" tabtype="2" rarity="3" sort="9" dec="用于激活对应图鉴\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="大鹏王图鉴" param="2"/>
+	<item id="19000313" icon="200007" tabtype="2" rarity="3" sort="9" dec="用于激活对应图鉴\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="大当家图鉴" param="2"/>
+	<item id="19000314" icon="200047" tabtype="2" rarity="3" sort="9" dec="用于激活对应图鉴\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="猪刚鬣图鉴" param="2"/>
+	<item id="19000315" icon="200001" tabtype="2" rarity="3" sort="9" dec="用于激活对应图鉴\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="白骨精图鉴" param="2"/>
+	<item id="19000316" icon="200036" tabtype="2" rarity="3" sort="9" dec="用于激活对应图鉴\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="蝎子精图鉴" param="2"/>
+	<item id="19000317" icon="200010" tabtype="2" rarity="3" sort="9" dec="用于激活对应图鉴\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="东海龙王图鉴" param="2"/>
+	<item id="19000318" icon="200004" tabtype="2" rarity="3" sort="9" dec="用于激活对应图鉴\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="北海龙子图鉴" param="2"/>
+	<item id="19000319" icon="200016" tabtype="2" rarity="3" sort="9" dec="用于激活对应图鉴\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="九头虫图鉴" param="2"/>
+	<item id="19000320" icon="200014" tabtype="2" rarity="3" sort="9" dec="用于激活对应图鉴\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="蛟魔王图鉴" param="2"/>
+	<item id="19000321" icon="200005" tabtype="2" rarity="3" sort="9" dec="用于激活对应图鉴\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="嫦娥图鉴" param="2"/>
+	<item id="19000322" icon="200022" tabtype="2" rarity="3" sort="9" dec="用于激活对应图鉴\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="女儿国国王图鉴" param="2"/>
+	<item id="19000323" icon="200033" tabtype="2" rarity="3" sort="9" dec="用于激活对应图鉴\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="托塔天王图鉴" param="2"/>
+	<item id="19000324" icon="200017" tabtype="2" rarity="3" sort="9" dec="用于激活对应图鉴\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="巨灵神图鉴" param="2"/>
+	<item id="19000325" icon="200024" tabtype="2" rarity="4" sort="9" dec="用于激活对应图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="青牛精图鉴" param="2"/>
+	<item id="19000326" icon="200048" tabtype="2" rarity="4" sort="9" dec="用于激活对应图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="紫霞图鉴" param="2"/>
+	<item id="19000327" icon="200011" tabtype="2" rarity="4" sort="9" dec="用于激活对应图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="二郎真君图鉴" param="2"/>
+	<item id="19000328" icon="200019" tabtype="2" rarity="4" sort="9" dec="用于激活对应图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="哪吒图鉴" param="2"/>
+	<item id="19000329" icon="200015" tabtype="2" rarity="4" sort="9" dec="用于激活对应图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="金角大王图鉴" param="2"/>
+	<item id="19000330" icon="200039" tabtype="2" rarity="4" sort="9" dec="用于激活对应图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="银角大王图鉴" param="2"/>
+	<item id="19000331" icon="200030" tabtype="2" rarity="4" sort="9" dec="用于激活对应图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="太乙真人图鉴" param="2"/>
+	<item id="19000332" icon="200044" tabtype="2" rarity="4" sort="9" dec="用于激活对应图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="镇元子图鉴" param="2"/>
+	<item id="19000333" icon="200023" tabtype="2" rarity="4" sort="9" dec="用于激活对应图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="菩提子图鉴" param="2"/>
+	<item id="19000334" icon="200029" tabtype="2" rarity="4" sort="9" dec="用于激活对应图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="太白金星图鉴" param="2"/>
+	<item id="19000335" icon="200012" tabtype="2" rarity="4" sort="9" dec="用于激活对应图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="观音图鉴" param="2"/>
+	<item id="19000336" icon="200041" tabtype="2" rarity="4" sort="9" dec="用于激活对应图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="玉面狐狸图鉴" param="2"/>
+	<item id="19000337" icon="200020" tabtype="2" rarity="4" sort="9" dec="用于激活对应图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="南极仙翁图鉴" param="2"/>
+	<item id="19000338" icon="200009" tabtype="2" rarity="4" sort="9" dec="用于激活对应图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="地涌夫人图鉴" param="2"/>
+	<item id="19000339" icon="200040" tabtype="2" rarity="4" sort="9" dec="用于激活对应图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="玉帝图鉴" param="2"/>
+	<item id="19000340" icon="200034" tabtype="2" rarity="4" sort="9" dec="用于激活对应图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="王母图鉴" param="2"/>
+	<item id="19000341" icon="200021" tabtype="2" rarity="4" sort="9" dec="用于激活对应图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="牛魔王图鉴" param="2"/>
+	<item id="19000342" icon="200032" tabtype="2" rarity="4" sort="9" dec="用于激活对应图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="铁扇公主图鉴" param="2"/>
+	<item id="19000343" icon="200013" tabtype="2" rarity="4" sort="9" dec="用于激活对应图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="红孩儿图鉴" param="2"/>
+	<item id="19000344" icon="200028" tabtype="2" rarity="4" sort="9" dec="用于激活对应图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="孙悟空图鉴" param="2"/>
+	<item id="19000345" icon="200046" tabtype="2" rarity="4" sort="9" dec="用于激活对应图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="猪悟能图鉴" param="2"/>
+	<item id="19000346" icon="200031" tabtype="2" rarity="4" sort="9" dec="用于激活对应图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="唐僧图鉴" param="2"/>
+	<item id="19000347" icon="200035" tabtype="2" rarity="4" sort="9" dec="用于激活对应图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="小白龙图鉴" param="2"/>
+	<item id="19000348" icon="200027" tabtype="2" rarity="4" sort="9" dec="用于激活对应图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="沙悟净图鉴" param="2"/>
+	<item id="19000349" icon="200028" tabtype="2" rarity="5" sort="9" dec="用于激活对应图鉴\n增加战力:840000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="斗战圣佛图鉴" param="2"/>
+	<item id="19000350" icon="200046" tabtype="2" rarity="5" sort="9" dec="用于激活对应图鉴\n增加战力:840000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="净坛使者图鉴" param="2"/>
+	<item id="19000351" icon="200031" tabtype="2" rarity="5" sort="9" dec="用于激活对应图鉴\n增加战力:840000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="旃檀功德佛图鉴" param="2"/>
+	<item id="19000352" icon="200027" tabtype="2" rarity="5" sort="9" dec="用于激活对应图鉴\n增加战力:840000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="金身罗汉图鉴" param="2"/>
+	<item id="19000353" icon="200035" tabtype="2" rarity="5" sort="9" dec="用于激活对应图鉴\n增加战力:840000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="八部天龙图鉴" param="2"/>
+	<item id="19000401" icon="300031" tabtype="2" rarity="2" sort="9" dec="用于激活对应图鉴\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="野猪图鉴" param="3"/>
+	<item id="19000402" icon="300019" tabtype="2" rarity="2" sort="9" dec="用于激活对应图鉴\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="树妖图鉴" param="3"/>
+	<item id="19000403" icon="300040" tabtype="2" rarity="2" sort="9" dec="用于激活对应图鉴\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="蛤蟆精图鉴" param="3"/>
+	<item id="19000404" icon="300041" tabtype="2" rarity="2" sort="9" dec="用于激活对应图鉴\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="狼图鉴" param="3"/>
+	<item id="19000405" icon="300030" tabtype="2" rarity="2" sort="9" dec="用于激活对应图鉴\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="羊角怪图鉴" param="3"/>
+	<item id="19000406" icon="300007" tabtype="2" rarity="2" sort="9" dec="用于激活对应图鉴\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="狐妖图鉴" param="3"/>
+	<item id="19000407" icon="300036" tabtype="2" rarity="2" sort="9" dec="用于激活对应图鉴\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="小花妖图鉴" param="3"/>
+	<item id="19000408" icon="300008" tabtype="2" rarity="2" sort="9" dec="用于激活对应图鉴\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="虎精图鉴" param="3"/>
+	<item id="19000409" icon="300028" tabtype="2" rarity="2" sort="9" dec="用于激活对应图鉴\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="蛮熊图鉴" param="3"/>
+	<item id="19000410" icon="300033" tabtype="2" rarity="2" sort="9" dec="用于激活对应图鉴\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="牛头图鉴" param="3"/>
+	<item id="19000411" icon="300012" tabtype="2" rarity="2" sort="9" dec="用于激活对应图鉴\n增加战力:12000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="马面图鉴" param="3"/>
+	<item id="19000412" icon="300026" tabtype="2" rarity="3" sort="9" dec="用于激活对应图鉴\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="小龙女图鉴" param="3"/>
+	<item id="19000413" icon="300009" tabtype="2" rarity="3" sort="9" dec="用于激活对应图鉴\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="画中仙图鉴" param="3"/>
+	<item id="19000414" icon="300022" tabtype="2" rarity="3" sort="9" dec="用于激活对应图鉴\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="嗜血鬼图鉴" param="3"/>
+	<item id="19000415" icon="300005" tabtype="2" rarity="3" sort="9" dec="用于激活对应图鉴\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="黑山老妖图鉴" param="3"/>
+	<item id="19000416" icon="300017" tabtype="2" rarity="3" sort="9" dec="用于激活对应图鉴\n增加战力:36000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="伞妖图鉴" param="3"/>
+	<item id="19000417" icon="300034" tabtype="2" rarity="4" sort="9" dec="用于激活对应图鉴\n增加战力:144000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="无面鬼将图鉴" param="3"/>
+	<item id="19000418" icon="300055" tabtype="2" rarity="5" sort="9" dec="用于激活对应图鉴\n增加战力:840000(上阵单位=5时)" maxoverlay="999" logic="18" use="1" name="猪小戒图鉴" param="1"/>
+	<item id="19100349" icon="200028" tabtype="2" rarity="5" sort="9" dec="100个碎片可以合成斗战圣佛图鉴" maxoverlay="999" logic="2" use="1" name="斗战圣佛图鉴碎片" param="SynthetizeView" eff="1" type="4"/>
+	<item id="19100350" icon="200046" tabtype="2" rarity="5" sort="9" dec="100个碎片可以合成净坛使者图鉴" maxoverlay="999" logic="2" use="1" name="净坛使者图鉴碎片" param="SynthetizeView" eff="1" type="4"/>
+	<item id="19100351" icon="200031" tabtype="2" rarity="5" sort="9" dec="100个碎片可以合成旃檀功德佛图鉴" maxoverlay="999" logic="2" use="1" name="旃檀功德佛图鉴碎片" param="SynthetizeView" eff="1" type="4"/>
+	<item id="19100352" icon="200027" tabtype="2" rarity="5" sort="9" dec="100个碎片可以合成金身罗汉图鉴" maxoverlay="999" logic="2" use="1" name="金身罗汉图鉴碎片" param="SynthetizeView" eff="1" type="4"/>
+	<item id="19100353" icon="200035" tabtype="2" rarity="5" sort="9" dec="100个碎片可以合成八部天龙图鉴" maxoverlay="999" logic="2" use="1" name="八部天龙图鉴碎片" param="SynthetizeView" eff="1" type="4"/>
+	<item id="19100325" icon="200024" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成青牛精图鉴" maxoverlay="999" logic="2" use="1" name="青牛精图鉴碎片" param="SynthetizeView" eff="1" type="4"/>
+	<item id="19100326" icon="200048" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成紫霞图鉴" maxoverlay="999" logic="2" use="1" name="紫霞图鉴碎片" param="SynthetizeView" eff="1" type="4"/>
+	<item id="19100327" icon="200011" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成二郎真君图鉴" maxoverlay="999" logic="2" use="1" name="二郎真君图鉴碎片" param="SynthetizeView" eff="1" type="4"/>
+	<item id="19100328" icon="200019" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成哪吒图鉴" maxoverlay="999" logic="2" use="1" name="哪吒图鉴碎片" param="SynthetizeView" eff="1" type="4"/>
+	<item id="19100329" icon="200015" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成金角大王图鉴" maxoverlay="999" logic="2" use="1" name="金角大王图鉴碎片" param="SynthetizeView" eff="1" type="4"/>
+	<item id="19100330" icon="200039" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成银角大王图鉴" maxoverlay="999" logic="2" use="1" name="银角大王图鉴碎片" param="SynthetizeView" eff="1" type="4"/>
+	<item id="19100331" icon="200030" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成太乙真人图鉴" maxoverlay="999" logic="2" use="1" name="太乙真人图鉴碎片" param="SynthetizeView" eff="1" type="4"/>
+	<item id="19100332" icon="200044" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成镇元子图鉴" maxoverlay="999" logic="2" use="1" name="镇元子图鉴碎片" param="SynthetizeView" eff="1" type="4"/>
+	<item id="19100333" icon="200023" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成菩提子图鉴" maxoverlay="999" logic="2" use="1" name="菩提子图鉴碎片" param="SynthetizeView" eff="1" type="4"/>
+	<item id="19100334" icon="200029" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成太白金星图鉴" maxoverlay="999" logic="2" use="1" name="太白金星图鉴碎片" param="SynthetizeView" eff="1" type="4"/>
+	<item id="19100335" icon="200012" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成观音图鉴" maxoverlay="999" logic="2" use="1" name="观音图鉴碎片" param="SynthetizeView" eff="1" type="4"/>
+	<item id="19100336" icon="200041" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成玉面狐狸图鉴" maxoverlay="999" logic="2" use="1" name="玉面狐狸图鉴碎片" param="SynthetizeView" eff="1" type="4"/>
+	<item id="19100337" icon="200020" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成南极仙翁图鉴" maxoverlay="999" logic="2" use="1" name="南极仙翁图鉴碎片" param="SynthetizeView" eff="1" type="4"/>
+	<item id="19100338" icon="200009" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成地涌夫人图鉴" maxoverlay="999" logic="2" use="1" name="地涌夫人图鉴碎片" param="SynthetizeView" eff="1" type="4"/>
+	<item id="19100339" icon="200040" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成玉帝图鉴" maxoverlay="999" logic="2" use="1" name="玉帝图鉴碎片" param="SynthetizeView" eff="1" type="4"/>
+	<item id="19100340" icon="200034" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成王母图鉴" maxoverlay="999" logic="2" use="1" name="王母图鉴碎片" param="SynthetizeView" eff="1" type="4"/>
+	<item id="19100341" icon="200021" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成牛魔王图鉴" maxoverlay="999" logic="2" use="1" name="牛魔王图鉴碎片" param="SynthetizeView" eff="1" type="4"/>
+	<item id="19100342" icon="200032" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成铁扇公主图鉴" maxoverlay="999" logic="2" use="1" name="铁扇公主图鉴碎片" param="SynthetizeView" eff="1" type="4"/>
+	<item id="19100343" icon="200013" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成红孩儿图鉴" maxoverlay="999" logic="2" use="1" name="红孩儿图鉴碎片" param="SynthetizeView" eff="1" type="4"/>
+	<item id="19100344" icon="200028" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成孙悟空图鉴" maxoverlay="999" logic="2" use="1" name="孙悟空图鉴碎片" param="SynthetizeView" eff="1" type="4"/>
+	<item id="19100345" icon="200046" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成猪悟能图鉴" maxoverlay="999" logic="2" use="1" name="猪悟能图鉴碎片" param="SynthetizeView" eff="1" type="4"/>
+	<item id="19100346" icon="200031" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成唐僧图鉴" maxoverlay="999" logic="2" use="1" name="唐僧图鉴碎片" param="SynthetizeView" eff="1" type="4"/>
+	<item id="19100347" icon="200035" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成小白龙图鉴" maxoverlay="999" logic="2" use="1" name="小白龙图鉴碎片" param="SynthetizeView" eff="1" type="4"/>
+	<item id="19100348" icon="200027" tabtype="2" rarity="4" sort="9" dec="集齐80个可以合成沙悟净图鉴" maxoverlay="999" logic="2" use="1" name="沙悟净图鉴碎片" param="SynthetizeView" eff="1" type="4"/>
+	<!--使用后获得相应货币-->
+	<item id="50000001" name="1元宝" icon="3" tabtype="2" rarity="5" sort="99" dec="使用获得1元宝" maxoverlay="9999" logic="5" use="1" batch="1" remind="1" type="" eff="1" param="1"/>
+	<item id="50000010" name="10元宝" icon="3" tabtype="2" rarity="5" sort="99" dec="使用获得10元宝" maxoverlay="9999" logic="5" use="1" batch="1" remind="1" type="" eff="1" param="10"/>
+	<item id="50000100" name="100元宝" icon="3" tabtype="2" rarity="5" sort="99" dec="使用获得100元宝" maxoverlay="9999" logic="5" use="1" batch="1" remind="1" type="" eff="1" param="100"/>
+	<item id="50001000" name="1000元宝" icon="3" tabtype="2" rarity="5" sort="99" dec="使用获得1000元宝" maxoverlay="9999" logic="5" use="1" batch="1" remind="1" type="" eff="1" param="1000"/>
+	<item id="50010000" name="10000元宝" icon="3" tabtype="2" rarity="5" sort="99" dec="使用获得10000元宝" maxoverlay="9999" logic="5" use="1" batch="1" remind="1" type="" eff="1" param="10000"/>
+	<item id="51000010" name="10体力" icon="4" tabtype="2" rarity="4" sort="99" dec="使用获得体力" maxoverlay="9999" logic="12" use="1" batch="1" remind="1" type="" eff="1" param="10"/>
+	<item id="52000010" name="10魂魄" icon="6" tabtype="2" rarity="4" sort="99" dec="使用获得伙伴魂魄" maxoverlay="9999" logic="13" use="1" batch="1" remind="1" type="" eff="1" param="10"/>
+	<item id="53000010" name="10帮贡" icon="7" tabtype="2" rarity="4" sort="99" dec="使用获得帮贡" maxoverlay="9999" logic="14" use="1" batch="1" remind="1" type="" eff="1" param="10"/>
+	<item id="54000010" name="10帮会资金" icon="8" tabtype="2" rarity="4" sort="99" dec="使用获得帮派资金" maxoverlay="9999" logic="15" use="1" batch="1" remind="1" type="" eff="1" param="10"/>
+	<item id="55000010" name="10功勋" icon="9" tabtype="2" rarity="4" sort="99" dec="使用获得功勋" maxoverlay="9999" logic="16" use="1" batch="1" remind="1" type="" eff="1" param="10"/>
+	<item id="56000010" name="10武魂币" icon="10" tabtype="2" rarity="4" sort="99" dec="使用获得武魂币" maxoverlay="9999" logic="17" use="1" batch="1" remind="1" type="" eff="1" param="10"/>
+	<item id="60000001" name="1绑元" icon="2" tabtype="2" rarity="3" sort="98" dec="使用获得1绑元" maxoverlay="9999" logic="6" use="1" batch="1" remind="1" type="" eff="1" param="1"/>
+	<item id="60000010" name="10绑元" icon="2" tabtype="2" rarity="3" sort="98" dec="使用获得10绑元" maxoverlay="9999" logic="6" use="1" batch="1" remind="1" type="" eff="1" param="10"/>
+	<item id="60000100" name="100绑元" icon="2" tabtype="2" rarity="3" sort="98" dec="使用获得100绑元" maxoverlay="9999" logic="6" use="1" batch="1" remind="1" type="" eff="1" param="100"/>
+	<item id="60000260" name="260绑元" icon="2" tabtype="2" rarity="3" sort="98" dec="使用获得260绑元" maxoverlay="9999" logic="6" use="1" batch="1" remind="1" type="" eff="1" param="260"/>
+	<item id="60000657" name="657绑元" icon="2" tabtype="2" rarity="3" sort="98" dec="使用获得657绑元" maxoverlay="9999" logic="6" use="1" batch="1" remind="1" type="" eff="1" param="657"/>
+	<item id="60001000" name="1000绑元" icon="2" tabtype="2" rarity="3" sort="98" dec="使用获得1000绑元" maxoverlay="9999" logic="6" use="1" batch="1" remind="1" type="" eff="1" param="1000"/>
+	<item id="60010000" name="10000绑元" icon="2" tabtype="2" rarity="3" sort="98" dec="使用获得10000绑元" maxoverlay="9999" logic="6" use="1" batch="1" remind="1" type="" eff="1" param="10000"/>
+	<item id="60001314" name="1314绑元" icon="2" tabtype="2" rarity="3" sort="98" dec="使用获得1314绑元" maxoverlay="9999" logic="6" use="1" batch="1" remind="1" type="" eff="1" param="1314"/>
+	<item id="70000001" name="1银两" icon="1" tabtype="2" rarity="3" sort="97" dec="使用获得1银两" maxoverlay="9999" logic="7" use="1" batch="1" remind="1" type="" eff="1" param="1"/>
+	<item id="70000010" name="10银两" icon="1" tabtype="2" rarity="3" sort="97" dec="使用获得10银两" maxoverlay="9999" logic="7" use="1" batch="1" remind="1" type="" eff="1" param="10"/>
+	<item id="70000100" name="100银两" icon="1" tabtype="2" rarity="3" sort="97" dec="使用获得100银两" maxoverlay="9999" logic="7" use="1" batch="1" remind="1" type="" eff="1" param="100"/>
+	<item id="70001000" name="1000银两" icon="1" tabtype="2" rarity="3" sort="97" dec="使用获得1000银两" maxoverlay="9999" logic="7" use="1" batch="1" remind="1" type="" eff="1" param="1000"/>
+	<item id="70010000" name="10000银两" icon="1" tabtype="2" rarity="3" sort="97" dec="使用获得10000银两" maxoverlay="9999" logic="7" use="1" batch="1" remind="1" type="" eff="1" param="10000"/>
+	<item id="72000000" name="2000000银两" icon="1" tabtype="2" rarity="3" sort="97" dec="使用获得2000000银两" maxoverlay="9999" logic="7" use="1" batch="1" remind="1" type="" eff="1" param="2000000"/>
+	<item id="72601672" name="2601672银两" icon="1" tabtype="2" rarity="3" sort="97" dec="使用获得2601672银两" maxoverlay="9999" logic="7" use="1" batch="1" remind="1" type="" eff="1" param="2601672"/>
+</root>

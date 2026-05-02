@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+itemconfig标签			
+	id	        礼包编号	礼包全局唯一编号
+	money	    银两奖励	打开获得银币数量
+	goldmoney	金币奖励	打开获得金币数量
+	type	    礼包限时类型	打开获得道具的限时类型
+	param	    时间参数	
+item标签			
+	item	    固定道具编号	固定获得道具编号
+	count	    道具数量	固定获得道具数量
+fall标签			
+	fall_count	随机掉落数量	随机抽取的次数
+fallitem标签
+	fallitem	随机道具编号	随机掉落编号
+	count	    掉落数量	掉落数量
+	rate	    掉落概率	掉落概率
+weight标签			
+	weight_count权重掉落次数	权重抽取的次数
+	repeat	是否重复权重	抽取时是否会重复获得相同道具，=0否，=1是。
+itemweight标签
+	item	    道具编号	权重道具编号
+	count	    道具数量	对应数量
+	weight	    权重	对应权重
+
+-->
+	<itemconfig id="1" money="10000" goldmoney="100" type="0">
+		<item item="10023" count="5"/>
+	</itemconfig>
+	<itemconfig id="2" money="10000" goldmoney="100" type="1" param="60">
+	    <item item="10023" count="5"/>
+	</itemconfig>
+	<itemconfig id="3" money="10000" goldmoney="100" type="2" param="60">
+		<item item="10023" count="5"/>
+	</itemconfig>
+	<itemconfig id="4" money="10000" goldmoney="100" type="3" param="60">
+		<item item="10023" count="5"/>
+	</itemconfig>
+	<itemconfig id="5" money="10000" goldmoney="100" type="4" param="60">
+		<item item="10023" count="5"/>
+	</itemconfig>
+	<itemconfig id="6" money="10000" goldmoney="100" type="5" param="2018-5-24 00:00:00">
+		<item item="10023" count="5"/>
+	</itemconfig>
+	<itemconfig id="7" money="10000" goldmoney="100" type="0">
+		<fall fall_count="1">
+			<fallitem fallitem="1497050" count="1" rate="2000"/>
+			<fallitem fallitem="1497060" count="1" rate="2000"/>
+			<fallitem fallitem="1497070" count="1" rate="2000"/>
+		</fall>
+	</itemconfig>
+	<itemconfig id="8" money="10000" goldmoney="100" type="0">
+		<fall fall_count="2">
+			<fallitem fallitem="1497050" count="1" rate="9000"/>
+			<fallitem fallitem="1497060" count="1" rate="9000"/>
+			<fallitem fallitem="1497070" count="1" rate="9000"/>
+		</fall>
+	</itemconfig>
+	<itemconfig id="9" money="10000" goldmoney="100" type="0">
+		<weight weight_count="1" repeat="0">
+			<itemweight item="1497050" count="1" weight="1000"/>
+			<itemweight item="1497060" count="1" weight="1000"/>
+			<itemweight item="1497070" count="1" weight="1000"/>
+		</weight>
+	</itemconfig>
+	<itemconfig id="10" money="10000" goldmoney="100" type="0">
+		<weight weight_count="2" repeat="0">
+			<itemweight item="1497050" count="1" weight="1000"/>
+			<itemweight item="1497060" count="1" weight="1000"/>
+			<itemweight item="1497070" count="1" weight="1000"/>
+		</weight>
+	</itemconfig>
+	<itemconfig id="11" money="10000" goldmoney="100" type="0">
+		<weight weight_count="2" repeat="1">
+			<itemweight item="1497050" count="1" weight="1000"/>
+			<itemweight item="1497060" count="1" weight="1000"/>
+			<itemweight item="1497070" count="1" weight="1000"/>
+		</weight>
+	</itemconfig>
+</root>

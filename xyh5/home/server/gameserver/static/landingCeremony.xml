@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+functionId	功能开启
+group	活动组Id
+name	活动组名称
+sortid	活动排序值
+activityOPen	活动开启时间,配置格式
+2019-02-20 00:00:00
+activityEnds	活动结束时间,配置格式
+2019-02-28 23:59:59
+activityBgMap	活动广告语
+activityEntraceIcon	活动图标
+rewardMailId	奖励邮件
+logInOnday	第X天登陆
+itemId	奖励道具Id
+num	奖励道具数量
+-->
+	<functionId functionId="6673"/>
+	<gift group="1" name="这个时间不知道有什么节日活动" sortId="5" activityOpen="2019-03-08 00:00:00" activityEnds="2019-03-10 23:59:59" activityEntraceIcon="landingCeremony1" ActivityBgMap="landingCeremonyBg" rewardMailId="6671">
+		<everyDay logInOnDay="1">
+			<reward itemId="10000009" num="5"/>
+			<reward itemId="16010028" num="1"/>
+			<reward itemId="16010022" num="1"/>
+			<reward itemId="10000008" num="5"/>
+		</everyDay>
+		<everyDay logInOnDay="2">
+			<reward itemId="10000009" num="10"/>
+			<reward itemId="16010028" num="2"/>
+			<reward itemId="16010022" num="2"/>
+			<reward itemId="10000008" num="10"/>
+		</everyDay>
+		<everyDay logInOnDay="3">
+			<reward itemId="10000009" num="30"/>
+			<reward itemId="16010029" num="1"/>
+			<reward itemId="16010022" num="5"/>
+			<reward itemId="10000008" num="20"/>
+		</everyDay>
+	</gift>
+	<gift group="2" name="这个时间不知道有什么节日活动" sortId="6" activityOpen="2019-03-15 00:00:00" activityEnds="2019-03-17 23:59:59" activityEntraceIcon="landingCeremony1" ActivityBgMap="landingCeremonyBg" rewardMailId="6671">
+		<everyDay logInOnDay="1">
+			<reward itemId="10000009" num="5"/>
+			<reward itemId="16010028" num="1"/>
+			<reward itemId="16010022" num="1"/>
+			<reward itemId="10000008" num="5"/>
+		</everyDay>
+		<everyDay logInOnDay="2">
+			<reward itemId="10000009" num="10"/>
+			<reward itemId="16010028" num="2"/>
+			<reward itemId="16010022" num="2"/>
+			<reward itemId="10000008" num="10"/>
+		</everyDay>
+		<everyDay logInOnDay="3">
+			<reward itemId="10000009" num="30"/>
+			<reward itemId="16010029" num="1"/>
+			<reward itemId="16010022" num="5"/>
+			<reward itemId="10000008" num="20"/>
+		</everyDay>
+	</gift>
+	<gift group="3" name="这个时间不知道有什么节日活动" sortId="7" activityOpen="2019-03-22 00:00:00" activityEnds="2019-03-24 23:59:59" activityEntraceIcon="landingCeremony1" ActivityBgMap="landingCeremonyBg" rewardMailId="6671">
+		<everyDay logInOnDay="1">
+			<reward itemId="10000009" num="5"/>
+			<reward itemId="16010028" num="1"/>
+			<reward itemId="16010022" num="1"/>
+			<reward itemId="10000008" num="5"/>
+		</everyDay>
+		<everyDay logInOnDay="2">
+			<reward itemId="10000009" num="10"/>
+			<reward itemId="16010028" num="2"/>
+			<reward itemId="16010022" num="2"/>
+			<reward itemId="10000008" num="10"/>
+		</everyDay>
+		<everyDay logInOnDay="3">
+			<reward itemId="10000009" num="30"/>
+			<reward itemId="16010029" num="1"/>
+			<reward itemId="16010022" num="5"/>
+			<reward itemId="10000008" num="20"/>
+		</everyDay>
+	</gift>
+	<gift group="4" name="这个时间不知道有什么节日活动" sortId="8" activityOpen="2019-03-29 00:00:00" activityEnds="2019-03-31 23:59:59" activityEntraceIcon="landingCeremony1" ActivityBgMap="landingCeremonyBg" rewardMailId="6671">
+		<everyDay logInOnDay="1">
+			<reward itemId="10000009" num="5"/>
+			<reward itemId="16010028" num="1"/>
+			<reward itemId="16010022" num="1"/>
+			<reward itemId="10000008" num="5"/>
+		</everyDay>
+		<everyDay logInOnDay="2">
+			<reward itemId="10000009" num="10"/>
+			<reward itemId="16010028" num="2"/>
+			<reward itemId="16010022" num="2"/>
+			<reward itemId="10000008" num="10"/>
+		</everyDay>
+		<everyDay logInOnDay="3">
+			<reward itemId="10000009" num="30"/>
+			<reward itemId="16010029" num="1"/>
+			<reward itemId="16010022" num="5"/>
+			<reward itemId="10000008" num="20"/>
+		</everyDay>
+	</gift>
+	<gift group="5" name="这个时间不知道有什么节日活动" sortId="8" activityOpen="2019-04-05 00:00:00" activityEnds="2019-04-07 23:59:59" activityEntraceIcon="landingCeremony1" ActivityBgMap="landingCeremonyBg" rewardMailId="6671">
+		<everyDay logInOnDay="1">
+			<reward itemId="10000009" num="5"/>
+			<reward itemId="16010028" num="1"/>
+			<reward itemId="16010022" num="1"/>
+			<reward itemId="10000008" num="5"/>
+		</everyDay>
+		<everyDay logInOnDay="2">
+			<reward itemId="10000009" num="10"/>
+			<reward itemId="16010028" num="2"/>
+			<reward itemId="16010022" num="2"/>
+			<reward itemId="10000008" num="10"/>
+		</everyDay>
+		<everyDay logInOnDay="3">
+			<reward itemId="10000009" num="30"/>
+			<reward itemId="16010029" num="1"/>
+			<reward itemId="16010022" num="5"/>
+			<reward itemId="10000008" num="20"/>
+		</everyDay>
+	</gift>
+	<gift group="6" name="这个时间不知道有什么节日活动" sortId="8" activityOpen="2019-04-12 00:00:00" activityEnds="2019-04-14 23:59:59" activityEntraceIcon="landingCeremony1" ActivityBgMap="landingCeremonyBg" rewardMailId="6671">
+		<everyDay logInOnDay="1">
+			<reward itemId="10000009" num="5"/>
+			<reward itemId="16010028" num="1"/>
+			<reward itemId="16010022" num="1"/>
+			<reward itemId="10000008" num="5"/>
+		</everyDay>
+		<everyDay logInOnDay="2">
+			<reward itemId="10000009" num="10"/>
+			<reward itemId="16010028" num="2"/>
+			<reward itemId="16010022" num="2"/>
+			<reward itemId="10000008" num="10"/>
+		</everyDay>
+		<everyDay logInOnDay="3">
+			<reward itemId="10000009" num="30"/>
+			<reward itemId="16010029" num="1"/>
+			<reward itemId="16010022" num="5"/>
+			<reward itemId="10000008" num="20"/>
+		</everyDay>
+	</gift>
+	<gift group="7" name="这个时间不知道有什么节日活动" sortId="8" activityOpen="2019-04-19 00:00:00" activityEnds="2019-04-21 23:59:59" activityEntraceIcon="landingCeremony1" ActivityBgMap="landingCeremonyBg" rewardMailId="6671">
+		<everyDay logInOnDay="1">
+			<reward itemId="10000009" num="5"/>
+			<reward itemId="16010028" num="1"/>
+			<reward itemId="16010022" num="1"/>
+			<reward itemId="10000008" num="5"/>
+		</everyDay>
+		<everyDay logInOnDay="2">
+			<reward itemId="10000009" num="10"/>
+			<reward itemId="16010028" num="2"/>
+			<reward itemId="16010022" num="2"/>
+			<reward itemId="10000008" num="10"/>
+		</everyDay>
+		<everyDay logInOnDay="3">
+			<reward itemId="10000009" num="30"/>
+			<reward itemId="16010029" num="1"/>
+			<reward itemId="16010022" num="5"/>
+			<reward itemId="10000008" num="20"/>
+		</everyDay>
+	</gift>
+	<gift group="8" name="这个时间不知道有什么节日活动" sortId="8" activityOpen="2019-04-26 00:00:00" activityEnds="2019-04-28 23:59:59" activityEntraceIcon="landingCeremony1" ActivityBgMap="landingCeremonyBg" rewardMailId="6671">
+		<everyDay logInOnDay="1">
+			<reward itemId="10000009" num="5"/>
+			<reward itemId="16010028" num="1"/>
+			<reward itemId="16010022" num="1"/>
+			<reward itemId="10000008" num="5"/>
+		</everyDay>
+		<everyDay logInOnDay="2">
+			<reward itemId="10000009" num="10"/>
+			<reward itemId="16010028" num="2"/>
+			<reward itemId="16010022" num="2"/>
+			<reward itemId="10000008" num="10"/>
+		</everyDay>
+		<everyDay logInOnDay="3">
+			<reward itemId="10000009" num="30"/>
+			<reward itemId="16010029" num="1"/>
+			<reward itemId="16010022" num="5"/>
+			<reward itemId="10000008" num="20"/>
+		</everyDay>
+	</gift>
+	<gift group="9" name="这个时间不知道有什么节日活动" sortId="8" activityOpen="2019-05-03 00:00:00" activityEnds="2019-05-05 23:59:59" activityEntraceIcon="landingCeremony1" ActivityBgMap="landingCeremonyBg" rewardMailId="6671">
+		<everyDay logInOnDay="1">
+			<reward itemId="10000009" num="5"/>
+			<reward itemId="16010028" num="1"/>
+			<reward itemId="16010022" num="1"/>
+			<reward itemId="10000008" num="5"/>
+		</everyDay>
+		<everyDay logInOnDay="2">
+			<reward itemId="10000009" num="10"/>
+			<reward itemId="16010028" num="2"/>
+			<reward itemId="16010022" num="2"/>
+			<reward itemId="10000008" num="10"/>
+		</everyDay>
+		<everyDay logInOnDay="3">
+			<reward itemId="10000009" num="30"/>
+			<reward itemId="16010029" num="1"/>
+			<reward itemId="16010022" num="5"/>
+			<reward itemId="10000008" num="20"/>
+		</everyDay>
+	</gift>
+	<gift group="10" name="这个时间不知道有什么节日活动" sortId="8" activityOpen="2019-05-10 00:00:00" activityEnds="2019-05-12 23:59:59" activityEntraceIcon="landingCeremony1" ActivityBgMap="landingCeremonyBg" rewardMailId="6671">
+		<everyDay logInOnDay="1">
+			<reward itemId="10000009" num="5"/>
+			<reward itemId="16010028" num="1"/>
+			<reward itemId="16010022" num="1"/>
+			<reward itemId="10000008" num="5"/>
+		</everyDay>
+		<everyDay logInOnDay="2">
+			<reward itemId="10000009" num="10"/>
+			<reward itemId="16010028" num="2"/>
+			<reward itemId="16010022" num="2"/>
+			<reward itemId="10000008" num="10"/>
+		</everyDay>
+		<everyDay logInOnDay="3">
+			<reward itemId="10000009" num="30"/>
+			<reward itemId="16010029" num="1"/>
+			<reward itemId="16010022" num="5"/>
+			<reward itemId="10000008" num="20"/>
+		</everyDay>
+	</gift>
+	<gift group="11" name="这个时间不知道有什么节日活动" sortId="8" activityOpen="2019-05-17 00:00:00" activityEnds="2019-05-19 23:59:59" activityEntraceIcon="landingCeremony1" ActivityBgMap="landingCeremonyBg" rewardMailId="6671">
+		<everyDay logInOnDay="1">
+			<reward itemId="10000009" num="5"/>
+			<reward itemId="16010028" num="1"/>
+			<reward itemId="16010022" num="1"/>
+			<reward itemId="10000008" num="5"/>
+		</everyDay>
+		<everyDay logInOnDay="2">
+			<reward itemId="10000009" num="10"/>
+			<reward itemId="16010028" num="2"/>
+			<reward itemId="16010022" num="2"/>
+			<reward itemId="10000008" num="10"/>
+		</everyDay>
+		<everyDay logInOnDay="3">
+			<reward itemId="10000009" num="30"/>
+			<reward itemId="16010029" num="1"/>
+			<reward itemId="16010022" num="5"/>
+			<reward itemId="10000008" num="20"/>
+		</everyDay>
+	</gift>
+	<gift group="12" name="这个时间不知道有什么节日活动" sortId="8" activityOpen="2019-05-24 00:00:00" activityEnds="2019-05-26 23:59:59" activityEntraceIcon="landingCeremony1" ActivityBgMap="landingCeremonyBg" rewardMailId="6671">
+		<everyDay logInOnDay="1">
+			<reward itemId="10000009" num="5"/>
+			<reward itemId="16010028" num="1"/>
+			<reward itemId="16010022" num="1"/>
+			<reward itemId="10000008" num="5"/>
+		</everyDay>
+		<everyDay logInOnDay="2">
+			<reward itemId="10000009" num="10"/>
+			<reward itemId="16010028" num="2"/>
+			<reward itemId="16010022" num="2"/>
+			<reward itemId="10000008" num="10"/>
+		</everyDay>
+		<everyDay logInOnDay="3">
+			<reward itemId="10000009" num="30"/>
+			<reward itemId="16010029" num="1"/>
+			<reward itemId="16010022" num="5"/>
+			<reward itemId="10000008" num="20"/>
+		</everyDay>
+	</gift>
+	<gift group="13" name="这个时间不知道有什么节日活动" sortId="8" activityOpen="2019-05-31 00:00:00" activityEnds="2019-06-02 23:59:59" activityEntraceIcon="landingCeremony1" ActivityBgMap="landingCeremonyBg" rewardMailId="6671">
+		<everyDay logInOnDay="1">
+			<reward itemId="10000009" num="5"/>
+			<reward itemId="16010028" num="1"/>
+			<reward itemId="16010022" num="1"/>
+			<reward itemId="10000008" num="5"/>
+		</everyDay>
+		<everyDay logInOnDay="2">
+			<reward itemId="10000009" num="10"/>
+			<reward itemId="16010028" num="2"/>
+			<reward itemId="16010022" num="2"/>
+			<reward itemId="10000008" num="10"/>
+		</everyDay>
+		<everyDay logInOnDay="3">
+			<reward itemId="10000009" num="30"/>
+			<reward itemId="16010029" num="1"/>
+			<reward itemId="16010022" num="5"/>
+			<reward itemId="10000008" num="20"/>
+		</everyDay>
+	</gift>
+</root>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- 
+function	功能id					
+mailid1	终极大奖邮件发放id			
+mailid2	抢购礼包未领取邮件发放id			
+mailid3	未中奖玩家发放告知邮件id			
+addtime	每增加1个购买人数时间间隔			
+addlimit	增加的人数上限			
+groupid	活动开启顺序（从小到大），活动每日0点重置			
+bigawardid	终极大奖道具id			
+num	终极大奖道具数量			
+avatarid	终极大奖模型展示id（未填该字段时展示大奖道具）			
+smallawardid	小奖道具id			
+recharge	购买花费的人民币数			
+people	终极大奖需求购买人数			
+money	银两数量			
+bmoney	绑元数量			
+itemid	道具id			
+itemnum	道具数量			
+
+
+-->
+<root>
+	<function functionid="2060" mailid1="5001" mailid2="5002" mailid3="5003" addtime="10" addlimit="50"/>
+	<group groupid="1" bigawardid="12000035" num="1" avatarid="300011" smallawardid="10000006" recharge="8" people="99" money="10000000" bmoney="2000">
+		<item itemid="12080022" num="1"/>
+		<item itemid="10000004" num="2"/>
+		<item itemid="16010013" num="10"/>
+		<item itemid="14010201" num="20"/>
+	</group>
+	<group groupid="2" bigawardid="12000033" num="1" avatarid="300027" smallawardid="10000006" recharge="8" people="99" money="10000000" bmoney="2000">
+		<item itemid="12090024" num="1"/>
+		<item itemid="10000004" num="2"/>
+		<item itemid="16010013" num="10"/>
+		<item itemid="14030201" num="20"/>
+	</group>
+	<group groupid="3" bigawardid="12000032" num="1" avatarid="300004" smallawardid="10000006" recharge="8" people="99" money="10000000" bmoney="2000">
+		<item itemid="12090025" num="1"/>
+		<item itemid="10000004" num="2"/>
+		<item itemid="16010013" num="10"/>
+		<item itemid="14050201" num="20"/>
+	</group>
+	<group groupid="4" bigawardid="12000035" num="1" avatarid="300011" smallawardid="10000006" recharge="8" people="99" money="10000000" bmoney="2000">
+		<item itemid="12100028" num="1"/>
+		<item itemid="10000004" num="2"/>
+		<item itemid="16010013" num="10"/>
+		<item itemid="14040201" num="20"/>
+	</group>
+	<group groupid="5" bigawardid="12000033" num="1" avatarid="300027" smallawardid="10000006" recharge="8" people="99" money="10000000" bmoney="2000">
+		<item itemid="12000029" num="1"/>
+		<item itemid="10000004" num="2"/>
+		<item itemid="16010013" num="10"/>
+		<item itemid="14020201" num="20"/>
+	</group>
+	<group groupid="6" bigawardid="12000032" num="1" avatarid="300004" smallawardid="10000006" recharge="8" people="99" money="10000000" bmoney="2000">
+		<item itemid="12080022" num="1"/>
+		<item itemid="10000004" num="2"/>
+		<item itemid="16010013" num="10"/>
+		<item itemid="14070201" num="20"/>
+	</group>
+	<group groupid="7" bigawardid="12000035" num="1" avatarid="300011" smallawardid="10000006" recharge="8" people="99" money="10000000" bmoney="2000">
+		<item itemid="12090024" num="1"/>
+		<item itemid="10000004" num="2"/>
+		<item itemid="16010013" num="10"/>
+		<item itemid="14080201" num="20"/>
+	</group>
+	<group groupid="8" bigawardid="12000033" num="1" avatarid="300027" smallawardid="10000006" recharge="8" people="99" money="10000000" bmoney="2000">
+		<item itemid="12090025" num="1"/>
+		<item itemid="10000004" num="2"/>
+		<item itemid="16010013" num="10"/>
+		<item itemid="10000016" num="20"/>
+	</group>
+	<group groupid="9" bigawardid="12000032" num="1" avatarid="300004" smallawardid="10000006" recharge="8" people="99" money="10000000" bmoney="2000">
+		<item itemid="12100028" num="1"/>
+		<item itemid="10000004" num="2"/>
+		<item itemid="16010013" num="10"/>
+		<item itemid="10000015" num="50"/>
+	</group>
+	<group groupid="10" bigawardid="12000035" num="1" avatarid="300011" smallawardid="10000006" recharge="8" people="99" money="10000000" bmoney="2000">
+		<item itemid="12000029" num="1"/>
+		<item itemid="10000004" num="2"/>
+		<item itemid="16010013" num="10"/>
+		<item itemid="16010001" num="20"/>
+	</group>
+</root>

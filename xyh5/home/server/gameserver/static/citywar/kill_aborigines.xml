@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jump>
+	<!--
+id	场次id
+scene	地图id
+starttime	开启时间，使用19：00格式填写
+keeptime	副本持续时间，单位秒
+waittime	副本开始前等待时间，单位秒
+revivetime	复活等待时间
+rewardinfo	展示奖励，配置道具和装备，支持多道具显示，使用逗号区分
+servernum	可进入的服务器数量
+playermaxnum	进入人数
+viplv	vip等级
+vipmaxnum	vip人数上限
+id	编号
+startpos	出生坐标点，使用X,Y
+revivepos	复活点坐标，使用X,Y
+maxlev	boss最大等级
+lev	boss等级
+id	怪物id，对应monster.xml
+pos	怪物坐标，使用X,Y
+dir	怪物朝向
+killtime	最小boss击杀时间，单位秒
+mailrank	排名奖励邮件
+mailall	参与奖励邮件
+mailsever	协助奖励邮件
+level	boss难度等级
+needdamage	获得参与奖、服务器协助将所需要对boss造成的伤害
+hurtRank	伤害排名
+hurtReward	道具id
+num	道具数量
+bind	绑定状态，=1绑定，=0不绑定
+reward	参与奖道具
+num	奖励数量
+bind	绑定状态，=1绑定，=0不绑定
+reward	第一名家族协助奖励道具
+num	奖励数量
+bind	绑定状态，=1绑定，=0不绑定
+-->
+	<functionid functionid="5069"/>
+	<fb id="1" scene="8505" starttime="14:30:00" keeptime="2700" endtime="15:15:00" waittime="10" revivetime="15" rewardinfo="108700,105202,105201,190101,190099,200010" buffid="200017">
+		<enter servernum="3" playermaxnum="30" viplv="3" vipmaxnum="70">
+			<pos id="1" startpos="17,24" revivepos="17,24"/>
+			<pos id="2" startpos="12,90" revivepos="12,90"/>
+			<pos id="3" startpos="24,140" revivepos="24,140"/>
+		</enter>
+		<boss maxlev="10">
+			<monster id="920002" pos="58,84" dir="1" killtime="1200"/>
+			<monster id="920003" pos="58,84" dir="1" killtime="1200"/>
+			<monster id="920004" pos="58,84" dir="1" killtime="1200"/>
+			<monster id="920005" pos="58,84" dir="1" killtime="1200"/>
+			<monster id="920006" pos="58,84" dir="1" killtime="1200"/>
+			<monster id="920007" pos="58,84" dir="1" killtime="1200"/>
+			<monster id="920008" pos="58,84" dir="1" killtime="1200"/>
+			<monster id="920009" pos="58,84" dir="1" killtime="1200"/>
+			<monster id="920010" pos="58,84" dir="1" killtime="1200"/>
+			<monster id="920011" pos="58,84" dir="1" killtime="1200"/>
+		</boss>
+	</fb>
+	<fb id="2" scene="8505" starttime="20:00:00" keeptime="1800" endtime="20:30:00" waittime="10" revivetime="15" rewardinfo="108700,105202,105201,190101,190099,200010" buffid="200017">
+		<enter servernum="3" playermaxnum="30" viplv="3" vipmaxnum="70">
+			<pos id="1" startpos="17,24" revivepos="17,24"/>
+			<pos id="2" startpos="12,90" revivepos="12,90"/>
+			<pos id="3" startpos="24,140" revivepos="24,140"/>
+		</enter>
+		<boss maxlev="10">
+			<monster id="920002" pos="58,84" dir="1" killtime="1200"/>
+			<monster id="920003" pos="58,84" dir="1" killtime="1200"/>
+			<monster id="920004" pos="58,84" dir="1" killtime="1200"/>
+			<monster id="920005" pos="58,84" dir="1" killtime="1200"/>
+			<monster id="920006" pos="58,84" dir="1" killtime="1200"/>
+			<monster id="920007" pos="58,84" dir="1" killtime="1200"/>
+			<monster id="920008" pos="58,84" dir="1" killtime="1200"/>
+			<monster id="920009" pos="58,84" dir="1" killtime="1200"/>
+			<monster id="920010" pos="58,84" dir="1" killtime="1200"/>
+			<monster id="920011" pos="58,84" dir="1" killtime="1200"/>
+		</boss>
+	</fb>
+	<reward mailrank="201" mailall="202" mailsever="203">
+		<boss level="1" needdamage="300000">
+			<rank hurtRank="1">
+				<rankinfo hurtReward="108700" num="200" bind="1"/>
+				<rankinfo hurtReward="105202" num="2" bind="1"/>
+				<rankinfo hurtReward="190101" num="10" bind="1"/>
+			</rank>
+			<rank hurtRank="2">
+				<rankinfo hurtReward="108700" num="100" bind="1"/>
+				<rankinfo hurtReward="105202" num="1" bind="1"/>
+				<rankinfo hurtReward="190101" num="5" bind="1"/>
+			</rank>
+			<rank hurtRank="3">
+				<rankinfo hurtReward="108700" num="50" bind="1"/>
+				<rankinfo hurtReward="105201" num="3" bind="1"/>
+				<rankinfo hurtReward="190101" num="3" bind="1"/>
+			</rank>
+			<rank hurtRank="4">
+				<rankinfo hurtReward="108700" num="30" bind="1"/>
+				<rankinfo hurtReward="105201" num="2" bind="1"/>
+				<rankinfo hurtReward="190099" num="10" bind="1"/>
+			</rank>
+			<rank hurtRank="5">
+				<rankinfo hurtReward="108700" num="20" bind="1"/>
+				<rankinfo hurtReward="105201" num="1" bind="1"/>
+				<rankinfo hurtReward="190099" num="8" bind="1"/>
+			</rank>
+			<all reward="108700" num="5" bind="1"/>
+			<all reward="105201" num="1" bind="1"/>
+			<all reward="190099" num="3" bind="1"/>
+			<sever reward="108700" num="10" bind="1"/>
+			<sever reward="105201" num="1" bind="1"/>
+			<sever reward="190099" num="5" bind="1"/>
+		</boss>
+		<boss level="2" needdamage="370000">
+			<rank hurtRank="1">
+				<rankinfo hurtReward="108700" num="200" bind="1"/>
+				<rankinfo hurtReward="105202" num="2" bind="1"/>
+				<rankinfo hurtReward="190101" num="10" bind="1"/>
+			</rank>
+			<rank hurtRank="2">
+				<rankinfo hurtReward="108700" num="100" bind="1"/>
+				<rankinfo hurtReward="105202" num="1" bind="1"/>
+				<rankinfo hurtReward="190101" num="5" bind="1"/>
+			</rank>
+			<rank hurtRank="3">
+				<rankinfo hurtReward="108700" num="50" bind="1"/>
+				<rankinfo hurtReward="105201" num="3" bind="1"/>
+				<rankinfo hurtReward="190101" num="3" bind="1"/>
+			</rank>
+			<rank hurtRank="4">
+				<rankinfo hurtReward="108700" num="30" bind="1"/>
+				<rankinfo hurtReward="105201" num="2" bind="1"/>
+				<rankinfo hurtReward="190099" num="10" bind="1"/>
+			</rank>
+			<rank hurtRank="5">
+				<rankinfo hurtReward="108700" num="20" bind="1"/>
+				<rankinfo hurtReward="105201" num="1" bind="1"/>
+				<rankinfo hurtReward="190099" num="8" bind="1"/>
+			</rank>
+			<all reward="108700" num="5" bind="1"/>
+			<all reward="105201" num="1" bind="1"/>
+			<all reward="190099" num="3" bind="1"/>
+			<sever reward="108700" num="10" bind="1"/>
+			<sever reward="105201" num="1" bind="1"/>
+			<sever reward="190099" num="5" bind="1"/>
+		</boss>
+		<boss level="3" needdamage="840000">
+			<rank hurtRank="1">
+				<rankinfo hurtReward="108700" num="200" bind="1"/>
+				<rankinfo hurtReward="105202" num="2" bind="1"/>
+				<rankinfo hurtReward="190101" num="10" bind="1"/>
+			</rank>
+			<rank hurtRank="2">
+				<rankinfo hurtReward="108700" num="100" bind="1"/>
+				<rankinfo hurtReward="105202" num="1" bind="1"/>
+				<rankinfo hurtReward="190101" num="5" bind="1"/>
+			</rank>
+			<rank hurtRank="3">
+				<rankinfo hurtReward="108700" num="50" bind="1"/>
+				<rankinfo hurtReward="105201" num="3" bind="1"/>
+				<rankinfo hurtReward="190101" num="3" bind="1"/>
+			</rank>
+			<rank hurtRank="4">
+				<rankinfo hurtReward="108700" num="30" bind="1"/>
+				<rankinfo hurtReward="105201" num="2" bind="1"/>
+				<rankinfo hurtReward="190099" num="10" bind="1"/>
+			</rank>
+			<rank hurtRank="5">
+				<rankinfo hurtReward="108700" num="20" bind="1"/>
+				<rankinfo hurtReward="105201" num="1" bind="1"/>
+				<rankinfo hurtReward="190099" num="8" bind="1"/>
+			</rank>
+			<all reward="108700" num="5" bind="1"/>
+			<all reward="105201" num="1" bind="1"/>
+			<all reward="190099" num="3" bind="1"/>
+			<sever reward="108700" num="10" bind="1"/>
+			<sever reward="105201" num="1" bind="1"/>
+			<sever reward="190099" num="5" bind="1"/>
+		</boss>
+		<boss level="4" needdamage="1250000">
+			<rank hurtRank="1">
+				<rankinfo hurtReward="108700" num="200" bind="1"/>
+				<rankinfo hurtReward="105202" num="2" bind="1"/>
+				<rankinfo hurtReward="190101" num="10" bind="1"/>
+			</rank>
+			<rank hurtRank="2">
+				<rankinfo hurtReward="108700" num="100" bind="1"/>
+				<rankinfo hurtReward="105202" num="1" bind="1"/>
+				<rankinfo hurtReward="190101" num="5" bind="1"/>
+			</rank>
+			<rank hurtRank="3">
+				<rankinfo hurtReward="108700" num="50" bind="1"/>
+				<rankinfo hurtReward="105201" num="3" bind="1"/>
+				<rankinfo hurtReward="190101" num="3" bind="1"/>
+			</rank>
+			<rank hurtRank="4">
+				<rankinfo hurtReward="108700" num="30" bind="1"/>
+				<rankinfo hurtReward="105201" num="2" bind="1"/>
+				<rankinfo hurtReward="190099" num="10" bind="1"/>
+			</rank>
+			<rank hurtRank="5">
+				<rankinfo hurtReward="108700" num="20" bind="1"/>
+				<rankinfo hurtReward="105201" num="1" bind="1"/>
+				<rankinfo hurtReward="190099" num="8" bind="1"/>
+			</rank>
+			<all reward="108700" num="5" bind="1"/>
+			<all reward="105201" num="1" bind="1"/>
+			<all reward="190099" num="3" bind="1"/>
+			<sever reward="108700" num="10" bind="1"/>
+			<sever reward="105201" num="1" bind="1"/>
+			<sever reward="190099" num="5" bind="1"/>
+		</boss>
+		<boss level="5" needdamage="1800000">
+			<rank hurtRank="1">
+				<rankinfo hurtReward="108700" num="200" bind="1"/>
+				<rankinfo hurtReward="105202" num="2" bind="1"/>
+				<rankinfo hurtReward="190101" num="10" bind="1"/>
+			</rank>
+			<rank hurtRank="2">
+				<rankinfo hurtReward="108700" num="100" bind="1"/>
+				<rankinfo hurtReward="105202" num="1" bind="1"/>
+				<rankinfo hurtReward="190101" num="5" bind="1"/>
+			</rank>
+			<rank hurtRank="3">
+				<rankinfo hurtReward="108700" num="50" bind="1"/>
+				<rankinfo hurtReward="105201" num="3" bind="1"/>
+				<rankinfo hurtReward="190101" num="3" bind="1"/>
+			</rank>
+			<rank hurtRank="4">
+				<rankinfo hurtReward="108700" num="30" bind="1"/>
+				<rankinfo hurtReward="105201" num="2" bind="1"/>
+				<rankinfo hurtReward="190099" num="10" bind="1"/>
+			</rank>
+			<rank hurtRank="5">
+				<rankinfo hurtReward="108700" num="20" bind="1"/>
+				<rankinfo hurtReward="105201" num="1" bind="1"/>
+				<rankinfo hurtReward="190099" num="8" bind="1"/>
+			</rank>
+			<all reward="108700" num="5" bind="1"/>
+			<all reward="105201" num="1" bind="1"/>
+			<all reward="190099" num="3" bind="1"/>
+			<sever reward="108700" num="10" bind="1"/>
+			<sever reward="105201" num="1" bind="1"/>
+			<sever reward="190099" num="5" bind="1"/>
+		</boss>
+		<boss level="6" needdamage="2300000">
+			<rank hurtRank="1">
+				<rankinfo hurtReward="108700" num="200" bind="1"/>
+				<rankinfo hurtReward="105202" num="2" bind="1"/>
+				<rankinfo hurtReward="190101" num="10" bind="1"/>
+			</rank>
+			<rank hurtRank="2">
+				<rankinfo hurtReward="108700" num="100" bind="1"/>
+				<rankinfo hurtReward="105202" num="1" bind="1"/>
+				<rankinfo hurtReward="190101" num="5" bind="1"/>
+			</rank>
+			<rank hurtRank="3">
+				<rankinfo hurtReward="108700" num="50" bind="1"/>
+				<rankinfo hurtReward="105201" num="3" bind="1"/>
+				<rankinfo hurtReward="190101" num="3" bind="1"/>
+			</rank>
+			<rank hurtRank="4">
+				<rankinfo hurtReward="108700" num="30" bind="1"/>
+				<rankinfo hurtReward="105201" num="2" bind="1"/>
+				<rankinfo hurtReward="190099" num="10" bind="1"/>
+			</rank>
+			<rank hurtRank="5">
+				<rankinfo hurtReward="108700" num="20" bind="1"/>
+				<rankinfo hurtReward="105201" num="1" bind="1"/>
+				<rankinfo hurtReward="190099" num="8" bind="1"/>
+			</rank>
+			<all reward="108700" num="5" bind="1"/>
+			<all reward="105201" num="1" bind="1"/>
+			<all reward="190099" num="3" bind="1"/>
+			<sever reward="108700" num="10" bind="1"/>
+			<sever reward="105201" num="1" bind="1"/>
+			<sever reward="190099" num="5" bind="1"/>
+		</boss>
+		<boss level="7" needdamage="3450000">
+			<rank hurtRank="1">
+				<rankinfo hurtReward="108700" num="200" bind="1"/>
+				<rankinfo hurtReward="105202" num="2" bind="1"/>
+				<rankinfo hurtReward="190101" num="10" bind="1"/>
+			</rank>
+			<rank hurtRank="2">
+				<rankinfo hurtReward="108700" num="100" bind="1"/>
+				<rankinfo hurtReward="105202" num="1" bind="1"/>
+				<rankinfo hurtReward="190101" num="5" bind="1"/>
+			</rank>
+			<rank hurtRank="3">
+				<rankinfo hurtReward="108700" num="50" bind="1"/>
+				<rankinfo hurtReward="105201" num="3" bind="1"/>
+				<rankinfo hurtReward="190101" num="3" bind="1"/>
+			</rank>
+			<rank hurtRank="4">
+				<rankinfo hurtReward="108700" num="30" bind="1"/>
+				<rankinfo hurtReward="105201" num="2" bind="1"/>
+				<rankinfo hurtReward="190099" num="10" bind="1"/>
+			</rank>
+			<rank hurtRank="5">
+				<rankinfo hurtReward="108700" num="20" bind="1"/>
+				<rankinfo hurtReward="105201" num="1" bind="1"/>
+				<rankinfo hurtReward="190099" num="8" bind="1"/>
+			</rank>
+			<all reward="108700" num="5" bind="1"/>
+			<all reward="105201" num="1" bind="1"/>
+			<all reward="190099" num="3" bind="1"/>
+			<sever reward="108700" num="10" bind="1"/>
+			<sever reward="105201" num="1" bind="1"/>
+			<sever reward="190099" num="5" bind="1"/>
+		</boss>
+		<boss level="8" needdamage="9000000">
+			<rank hurtRank="1">
+				<rankinfo hurtReward="108700" num="200" bind="1"/>
+				<rankinfo hurtReward="105202" num="2" bind="1"/>
+				<rankinfo hurtReward="190101" num="10" bind="1"/>
+			</rank>
+			<rank hurtRank="2">
+				<rankinfo hurtReward="108700" num="100" bind="1"/>
+				<rankinfo hurtReward="105202" num="1" bind="1"/>
+				<rankinfo hurtReward="190101" num="5" bind="1"/>
+			</rank>
+			<rank hurtRank="3">
+				<rankinfo hurtReward="108700" num="50" bind="1"/>
+				<rankinfo hurtReward="105201" num="3" bind="1"/>
+				<rankinfo hurtReward="190101" num="3" bind="1"/>
+			</rank>
+			<rank hurtRank="4">
+				<rankinfo hurtReward="108700" num="30" bind="1"/>
+				<rankinfo hurtReward="105201" num="2" bind="1"/>
+				<rankinfo hurtReward="190099" num="10" bind="1"/>
+			</rank>
+			<rank hurtRank="5">
+				<rankinfo hurtReward="108700" num="20" bind="1"/>
+				<rankinfo hurtReward="105201" num="1" bind="1"/>
+				<rankinfo hurtReward="190099" num="8" bind="1"/>
+			</rank>
+			<all reward="108700" num="5" bind="1"/>
+			<all reward="105201" num="1" bind="1"/>
+			<all reward="190099" num="3" bind="1"/>
+			<sever reward="108700" num="10" bind="1"/>
+			<sever reward="105201" num="1" bind="1"/>
+			<sever reward="190099" num="5" bind="1"/>
+		</boss>
+		<boss level="9" needdamage="27600000">
+			<rank hurtRank="1">
+				<rankinfo hurtReward="108700" num="200" bind="1"/>
+				<rankinfo hurtReward="105202" num="2" bind="1"/>
+				<rankinfo hurtReward="190101" num="10" bind="1"/>
+			</rank>
+			<rank hurtRank="2">
+				<rankinfo hurtReward="108700" num="100" bind="1"/>
+				<rankinfo hurtReward="105202" num="1" bind="1"/>
+				<rankinfo hurtReward="190101" num="5" bind="1"/>
+			</rank>
+			<rank hurtRank="3">
+				<rankinfo hurtReward="108700" num="50" bind="1"/>
+				<rankinfo hurtReward="105201" num="3" bind="1"/>
+				<rankinfo hurtReward="190101" num="3" bind="1"/>
+			</rank>
+			<rank hurtRank="4">
+				<rankinfo hurtReward="108700" num="30" bind="1"/>
+				<rankinfo hurtReward="105201" num="2" bind="1"/>
+				<rankinfo hurtReward="190099" num="10" bind="1"/>
+			</rank>
+			<rank hurtRank="5">
+				<rankinfo hurtReward="108700" num="20" bind="1"/>
+				<rankinfo hurtReward="105201" num="1" bind="1"/>
+				<rankinfo hurtReward="190099" num="8" bind="1"/>
+			</rank>
+			<all reward="108700" num="5" bind="1"/>
+			<all reward="105201" num="1" bind="1"/>
+			<all reward="190099" num="3" bind="1"/>
+			<sever reward="108700" num="10" bind="1"/>
+			<sever reward="105201" num="1" bind="1"/>
+			<sever reward="190099" num="5" bind="1"/>
+		</boss>
+		<boss level="10" needdamage="33000000">
+			<rank hurtRank="1">
+				<rankinfo hurtReward="108700" num="200" bind="1"/>
+				<rankinfo hurtReward="105202" num="2" bind="1"/>
+				<rankinfo hurtReward="190101" num="10" bind="1"/>
+			</rank>
+			<rank hurtRank="2">
+				<rankinfo hurtReward="108700" num="100" bind="1"/>
+				<rankinfo hurtReward="105202" num="1" bind="1"/>
+				<rankinfo hurtReward="190101" num="5" bind="1"/>
+			</rank>
+			<rank hurtRank="3">
+				<rankinfo hurtReward="108700" num="50" bind="1"/>
+				<rankinfo hurtReward="105201" num="3" bind="1"/>
+				<rankinfo hurtReward="190101" num="3" bind="1"/>
+			</rank>
+			<rank hurtRank="4">
+				<rankinfo hurtReward="108700" num="30" bind="1"/>
+				<rankinfo hurtReward="105201" num="2" bind="1"/>
+				<rankinfo hurtReward="190099" num="10" bind="1"/>
+			</rank>
+			<rank hurtRank="5">
+				<rankinfo hurtReward="108700" num="20" bind="1"/>
+				<rankinfo hurtReward="105201" num="1" bind="1"/>
+				<rankinfo hurtReward="190099" num="8" bind="1"/>
+			</rank>
+			<all reward="108700" num="5" bind="1"/>
+			<all reward="105201" num="1" bind="1"/>
+			<all reward="190099" num="3" bind="1"/>
+			<sever reward="108700" num="10" bind="1"/>
+			<sever reward="105201" num="1" bind="1"/>
+			<sever reward="190099" num="5" bind="1"/>
+		</boss>
+	</reward>
+</jump>

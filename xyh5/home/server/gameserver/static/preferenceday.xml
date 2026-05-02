@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+functionid	每日特惠开启ID			
+advertisement	广告语资源ID			
+matchesid	场次标识ID			
+begin_time	开始时间（格式XX：XX:XX）时：分：秒			
+end_time	结束时间（格式XX：XX:XX）时：分：秒	
+firstmatchesid 最先从指定id的活动开始		
+type	标识ID			
+money	充值金额			
+text	价值文本						
+item	道具ID			
+num	道具数量			
+bind	是否绑定（绑定=1）			
+time	过期时间（格式XX-XX-XX）填0无时限	
+mailid  过期发放奖励邮件id 		
+by 绑元		
+	
+
+
+
+
+-->
+	<server serverNum="-1">
+		<pro openingtime="2" firstmatchesid="1" mailid="1060001"/>
+		<time matchesid="1" lastmatchesid="2">
+			<type type="1" money="1" text="价值5888元宝" rechargeid="27">
+				<item item="10000006" num="10"/>
+				<item item="14030001" num="2"/>
+				<item by="2000"/>
+			</type>
+			<type type="2" money="3" text="价值10888元宝" rechargeid="28">
+				<item item="10000006" num="20"/>
+				<item item="16010013" num="2"/>
+				<item item="14030201" num="20"/>
+			</type>
+			<type type="3" money="6" text="价值18888元宝" rechargeid="29">
+				<item item="10000006" num="30"/>
+				<item item="16010013" num="3"/>
+				<item item="16010010" num="1"/>
+			</type>
+			<type type="4" money="10" text="价值36666元宝" rechargeid="30">
+				<item item="10000006" num="50"/>
+				<item item="16010013" num="5"/>
+				<item item="14030201" num="50"/>
+			</type>
+		</time>
+		<time matchesid="2" lastmatchesid="3">
+			<type type="1" money="1" text="价值5888元宝" rechargeid="27">
+				<item item="10000006" num="10"/>
+				<item item="14050001" num="2"/>
+				<item by="2000"/>
+			</type>
+			<type type="2" money="3" text="价值10888元宝" rechargeid="28">
+				<item item="10000006" num="20"/>
+				<item item="16010013" num="2"/>
+				<item item="14050201" num="20"/>
+			</type>
+			<type type="3" money="6" text="价值18888元宝" rechargeid="29">
+				<item item="10000006" num="30"/>
+				<item item="16010013" num="3"/>
+				<item item="16010010" num="1"/>
+			</type>
+			<type type="4" money="10" text="价值36666元宝" rechargeid="30">
+				<item item="10000006" num="50"/>
+				<item item="16010013" num="5"/>
+				<item item="14050201" num="50"/>
+			</type>
+		</time>
+		<time matchesid="3" lastmatchesid="4">
+			<type type="1" money="1" text="价值5888元宝" rechargeid="27">
+				<item item="10000006" num="10"/>
+				<item item="14040001" num="2"/>
+				<item by="2000"/>
+			</type>
+			<type type="2" money="3" text="价值10888元宝" rechargeid="28">
+				<item item="10000006" num="20"/>
+				<item item="16010013" num="2"/>
+				<item item="14040201" num="20"/>
+			</type>
+			<type type="3" money="6" text="价值18888元宝" rechargeid="29">
+				<item item="10000006" num="30"/>
+				<item item="16010013" num="3"/>
+				<item item="16010010" num="1"/>
+			</type>
+			<type type="4" money="10" text="价值36666元宝" rechargeid="30">
+				<item item="10000006" num="50"/>
+				<item item="16010013" num="5"/>
+				<item item="14040201" num="50"/>
+			</type>
+		</time>
+		<time matchesid="4" lastmatchesid="5">
+			<type type="1" money="1" text="价值5888元宝" rechargeid="27">
+				<item item="10000006" num="10"/>
+				<item item="14020001" num="2"/>
+				<item by="2000"/>
+			</type>
+			<type type="2" money="3" text="价值10888元宝" rechargeid="28">
+				<item item="10000006" num="20"/>
+				<item item="16010013" num="2"/>
+				<item item="14020201" num="20"/>
+			</type>
+			<type type="3" money="6" text="价值18888元宝" rechargeid="29">
+				<item item="10000006" num="30"/>
+				<item item="16010013" num="3"/>
+				<item item="16010010" num="1"/>
+			</type>
+			<type type="4" money="10" text="价值36666元宝" rechargeid="30">
+				<item item="10000006" num="50"/>
+				<item item="16010013" num="5"/>
+				<item item="14020201" num="50"/>
+			</type>
+		</time>
+		<time matchesid="5" lastmatchesid="6">
+			<type type="1" money="1" text="价值5888元宝" rechargeid="27">
+				<item item="10000006" num="10"/>
+				<item item="14070001" num="2"/>
+				<item by="2000"/>
+			</type>
+			<type type="2" money="3" text="价值10888元宝" rechargeid="28">
+				<item item="10000006" num="20"/>
+				<item item="16010013" num="2"/>
+				<item item="14070201" num="20"/>
+			</type>
+			<type type="3" money="6" text="价值18888元宝" rechargeid="29">
+				<item item="10000006" num="30"/>
+				<item item="16010013" num="3"/>
+				<item item="16010010" num="1"/>
+			</type>
+			<type type="4" money="10" text="价值36666元宝" rechargeid="30">
+				<item item="10000006" num="50"/>
+				<item item="16010013" num="5"/>
+				<item item="14070201" num="50"/>
+			</type>
+		</time>
+		<time matchesid="6" lastmatchesid="7">
+			<type type="1" money="1" text="价值5888元宝" rechargeid="27">
+				<item item="10000006" num="10"/>
+				<item item="14080001" num="2"/>
+				<item by="2000"/>
+			</type>
+			<type type="2" money="3" text="价值10888元宝" rechargeid="28">
+				<item item="10000006" num="20"/>
+				<item item="16010013" num="2"/>
+				<item item="14080201" num="20"/>
+			</type>
+			<type type="3" money="6" text="价值18888元宝" rechargeid="29">
+				<item item="10000006" num="30"/>
+				<item item="16010013" num="3"/>
+				<item item="16010010" num="1"/>
+			</type>
+			<type type="4" money="10" text="价值36666元宝" rechargeid="30">
+				<item item="10000006" num="50"/>
+				<item item="16010013" num="5"/>
+				<item item="14080201" num="50"/>
+			</type>
+		</time>
+		<time matchesid="7" lastmatchesid="8">
+			<type type="1" money="1" text="价值5888元宝" rechargeid="27">
+				<item item="10000006" num="10"/>
+				<item item="12050013" num="1"/>
+				<item by="2000"/>
+			</type>
+			<type type="2" money="3" text="价值10888元宝" rechargeid="28">
+				<item item="10000006" num="20"/>
+				<item item="16010013" num="2"/>
+				<item item="12050011" num="1"/>
+			</type>
+			<type type="3" money="6" text="价值18888元宝" rechargeid="29">
+				<item item="10000006" num="30"/>
+				<item item="16010013" num="3"/>
+				<item item="16010010" num="1"/>
+			</type>
+			<type type="4" money="10" text="价值36666元宝" rechargeid="30">
+				<item item="10000006" num="50"/>
+				<item item="16010013" num="5"/>
+				<item item="16010011" num="1"/>
+			</type>
+		</time>
+		<time matchesid="8" lastmatchesid="9">
+			<type type="1" money="1" text="价值5888元宝" rechargeid="27">
+				<item item="10000006" num="10"/>
+				<item item="10000004" num="2"/>
+				<item by="2000"/>
+			</type>
+			<type type="2" money="3" text="价值10888元宝" rechargeid="28">
+				<item item="10000006" num="20"/>
+				<item item="16010013" num="2"/>
+				<item item="10000004" num="3"/>
+			</type>
+			<type type="3" money="6" text="价值18888元宝" rechargeid="29">
+				<item item="10000006" num="30"/>
+				<item item="16010013" num="3"/>
+				<item item="16010010" num="1"/>
+			</type>
+			<type type="4" money="10" text="价值36666元宝" rechargeid="30">
+				<item item="10000006" num="50"/>
+				<item item="16010013" num="5"/>
+				<item item="10000004" num="10"/>
+			</type>
+		</time>
+		<time matchesid="9" lastmatchesid="9">
+			<type type="1" money="1" text="价值5888元宝" rechargeid="27">
+				<item item="10000006" num="10"/>
+				<item item="10000016" num="10"/>
+				<item by="2000"/>
+			</type>
+			<type type="2" money="3" text="价值10888元宝" rechargeid="28">
+				<item item="10000006" num="20"/>
+				<item item="16010013" num="2"/>
+				<item item="16010009" num="1"/>
+			</type>
+			<type type="3" money="6" text="价值18888元宝" rechargeid="29">
+				<item item="10000006" num="30"/>
+				<item item="16010013" num="3"/>
+				<item item="16010010" num="1"/>
+			</type>
+			<type type="4" money="10" text="价值36666元宝" rechargeid="30">
+				<item item="10000006" num="50"/>
+				<item item="16010013" num="5"/>
+				<item item="16010012" num="1"/>
+			</type>
+		</time>
+	</server>
+	<server serverNum="0">
+		<pro openingtime="2" firstmatchesid="1" mailid="1060001"/>
+		<time matchesid="1" lastmatchesid="2">
+			<type type="1" money="1" text="价值5888元宝" rechargeid="27">
+				<item item="10000006" num="10"/>
+				<item item="14030001" num="2"/>
+				<item by="2000"/>
+			</type>
+			<type type="2" money="3" text="价值10888元宝" rechargeid="28">
+				<item item="10000006" num="20"/>
+				<item item="16010013" num="2"/>
+				<item item="14030201" num="20"/>
+			</type>
+			<type type="3" money="6" text="价值18888元宝" rechargeid="29">
+				<item item="10000006" num="30"/>
+				<item item="16010013" num="3"/>
+				<item item="16010010" num="1"/>
+			</type>
+			<type type="4" money="10" text="价值36666元宝" rechargeid="30">
+				<item item="10000006" num="50"/>
+				<item item="16010013" num="5"/>
+				<item item="14030201" num="50"/>
+			</type>
+		</time>
+		<time matchesid="2" lastmatchesid="3">
+			<type type="1" money="1" text="价值5888元宝" rechargeid="27">
+				<item item="10000006" num="10"/>
+				<item item="14050001" num="2"/>
+				<item by="2000"/>
+			</type>
+			<type type="2" money="3" text="价值10888元宝" rechargeid="28">
+				<item item="10000006" num="20"/>
+				<item item="16010013" num="2"/>
+				<item item="14050201" num="20"/>
+			</type>
+			<type type="3" money="6" text="价值18888元宝" rechargeid="29">
+				<item item="10000006" num="30"/>
+				<item item="16010013" num="3"/>
+				<item item="16010010" num="1"/>
+			</type>
+			<type type="4" money="10" text="价值36666元宝" rechargeid="30">
+				<item item="10000006" num="50"/>
+				<item item="16010013" num="5"/>
+				<item item="14050201" num="50"/>
+			</type>
+		</time>
+		<time matchesid="3" lastmatchesid="4">
+			<type type="1" money="1" text="价值5888元宝" rechargeid="27">
+				<item item="10000006" num="10"/>
+				<item item="14040001" num="2"/>
+				<item by="2000"/>
+			</type>
+			<type type="2" money="3" text="价值10888元宝" rechargeid="28">
+				<item item="10000006" num="20"/>
+				<item item="16010013" num="2"/>
+				<item item="14040201" num="20"/>
+			</type>
+			<type type="3" money="6" text="价值18888元宝" rechargeid="29">
+				<item item="10000006" num="30"/>
+				<item item="16010013" num="3"/>
+				<item item="16010010" num="1"/>
+			</type>
+			<type type="4" money="10" text="价值36666元宝" rechargeid="30">
+				<item item="10000006" num="50"/>
+				<item item="16010013" num="5"/>
+				<item item="14040201" num="50"/>
+			</type>
+		</time>
+		<time matchesid="4" lastmatchesid="5">
+			<type type="1" money="1" text="价值5888元宝" rechargeid="27">
+				<item item="10000006" num="10"/>
+				<item item="14020001" num="2"/>
+				<item by="2000"/>
+			</type>
+			<type type="2" money="3" text="价值10888元宝" rechargeid="28">
+				<item item="10000006" num="20"/>
+				<item item="16010013" num="2"/>
+				<item item="14020201" num="20"/>
+			</type>
+			<type type="3" money="6" text="价值18888元宝" rechargeid="29">
+				<item item="10000006" num="30"/>
+				<item item="16010013" num="3"/>
+				<item item="16010010" num="1"/>
+			</type>
+			<type type="4" money="10" text="价值36666元宝" rechargeid="30">
+				<item item="10000006" num="50"/>
+				<item item="16010013" num="5"/>
+				<item item="14020201" num="50"/>
+			</type>
+		</time>
+		<time matchesid="5" lastmatchesid="6">
+			<type type="1" money="1" text="价值5888元宝" rechargeid="27">
+				<item item="10000006" num="10"/>
+				<item item="14070001" num="2"/>
+				<item by="2000"/>
+			</type>
+			<type type="2" money="3" text="价值10888元宝" rechargeid="28">
+				<item item="10000006" num="20"/>
+				<item item="16010013" num="2"/>
+				<item item="14070201" num="20"/>
+			</type>
+			<type type="3" money="6" text="价值18888元宝" rechargeid="29">
+				<item item="10000006" num="30"/>
+				<item item="16010013" num="3"/>
+				<item item="16010010" num="1"/>
+			</type>
+			<type type="4" money="10" text="价值36666元宝" rechargeid="30">
+				<item item="10000006" num="50"/>
+				<item item="16010013" num="5"/>
+				<item item="14070201" num="50"/>
+			</type>
+		</time>
+		<time matchesid="6" lastmatchesid="7">
+			<type type="1" money="1" text="价值5888元宝" rechargeid="27">
+				<item item="10000006" num="10"/>
+				<item item="14080001" num="2"/>
+				<item by="2000"/>
+			</type>
+			<type type="2" money="3" text="价值10888元宝" rechargeid="28">
+				<item item="10000006" num="20"/>
+				<item item="16010013" num="2"/>
+				<item item="14080201" num="20"/>
+			</type>
+			<type type="3" money="6" text="价值18888元宝" rechargeid="29">
+				<item item="10000006" num="30"/>
+				<item item="16010013" num="3"/>
+				<item item="16010010" num="1"/>
+			</type>
+			<type type="4" money="10" text="价值36666元宝" rechargeid="30">
+				<item item="10000006" num="50"/>
+				<item item="16010013" num="5"/>
+				<item item="14080201" num="50"/>
+			</type>
+		</time>
+		<time matchesid="7" lastmatchesid="8">
+			<type type="1" money="1" text="价值5888元宝" rechargeid="27">
+				<item item="10000006" num="10"/>
+				<item item="12050013" num="1"/>
+				<item by="2000"/>
+			</type>
+			<type type="2" money="3" text="价值10888元宝" rechargeid="28">
+				<item item="10000006" num="20"/>
+				<item item="16010013" num="2"/>
+				<item item="12050011" num="1"/>
+			</type>
+			<type type="3" money="6" text="价值18888元宝" rechargeid="29">
+				<item item="10000006" num="30"/>
+				<item item="16010013" num="3"/>
+				<item item="16010010" num="1"/>
+			</type>
+			<type type="4" money="10" text="价值36666元宝" rechargeid="30">
+				<item item="10000006" num="50"/>
+				<item item="16010013" num="5"/>
+				<item item="16010011" num="1"/>
+			</type>
+		</time>
+		<time matchesid="8" lastmatchesid="9">
+			<type type="1" money="1" text="价值5888元宝" rechargeid="27">
+				<item item="10000006" num="10"/>
+				<item item="10000004" num="2"/>
+				<item by="2000"/>
+			</type>
+			<type type="2" money="3" text="价值10888元宝" rechargeid="28">
+				<item item="10000006" num="20"/>
+				<item item="16010013" num="2"/>
+				<item item="10000004" num="3"/>
+			</type>
+			<type type="3" money="6" text="价值18888元宝" rechargeid="29">
+				<item item="10000006" num="30"/>
+				<item item="16010013" num="3"/>
+				<item item="16010010" num="1"/>
+			</type>
+			<type type="4" money="10" text="价值36666元宝" rechargeid="30">
+				<item item="10000006" num="50"/>
+				<item item="16010013" num="5"/>
+				<item item="10000004" num="10"/>
+			</type>
+		</time>
+		<time matchesid="9" lastmatchesid="9">
+			<type type="1" money="1" text="价值5888元宝" rechargeid="27">
+				<item item="10000006" num="10"/>
+				<item item="10000016" num="10"/>
+				<item by="2000"/>
+			</type>
+			<type type="2" money="3" text="价值10888元宝" rechargeid="28">
+				<item item="10000006" num="20"/>
+				<item item="16010013" num="2"/>
+				<item item="16010009" num="1"/>
+			</type>
+			<type type="3" money="6" text="价值18888元宝" rechargeid="29">
+				<item item="10000006" num="30"/>
+				<item item="16010013" num="3"/>
+				<item item="16010010" num="1"/>
+			</type>
+			<type type="4" money="10" text="价值36666元宝" rechargeid="30">
+				<item item="10000006" num="50"/>
+				<item item="16010013" num="5"/>
+				<item item="16010012" num="1"/>
+			</type>
+		</time>
+	</server>
+	<server serverNum="1">
+		<pro openingtime="1" firstmatchesid="1" mailid="1060001"/>
+		<time matchesid="1" lastmatchesid="2">
+			<type type="1" money="1" text="价值5888元宝" rechargeid="27">
+				<item item="16010028" num="2"/>
+				<item item="10000006" num="10"/>
+				<item by="2000"/>
+			</type>
+			<type type="2" money="3" text="价值10888元宝" rechargeid="28">
+				<item item="16010028" num="6"/>
+				<item item="16010013" num="2"/>
+				<item item="10000006" num="20"/>
+			</type>
+			<type type="3" money="6" text="价值18888元宝" rechargeid="29">
+				<item item="16010029" num="4"/>
+				<item item="16010013" num="3"/>
+				<item item="10000006" num="30"/>
+			</type>
+			<type type="4" money="10" text="价值36666元宝" rechargeid="30">
+				<item item="16010038" num="2"/>
+				<item item="16010013" num="5"/>
+				<item item="10000006" num="50"/>
+			</type>
+		</time>
+		<time matchesid="2" lastmatchesid="3">
+			<type type="1" money="1" text="价值5888元宝" rechargeid="27">
+				<item item="16010030" num="2"/>
+				<item item="10000006" num="10"/>
+				<item by="2000"/>
+			</type>
+			<type type="2" money="3" text="价值10888元宝" rechargeid="28">
+				<item item="16010030" num="6"/>
+				<item item="16010013" num="2"/>
+				<item item="10000006" num="20"/>
+			</type>
+			<type type="3" money="6" text="价值18888元宝" rechargeid="29">
+				<item item="16010031" num="4"/>
+				<item item="16010013" num="3"/>
+				<item item="10000006" num="30"/>
+			</type>
+			<type type="4" money="10" text="价值36666元宝" rechargeid="30">
+				<item item="16010032" num="2"/>
+				<item item="16010013" num="5"/>
+				<item item="10000006" num="50"/>
+			</type>
+		</time>
+		<time matchesid="3" lastmatchesid="4">
+			<type type="1" money="1" text="价值5888元宝" rechargeid="27">
+				<item item="10000007" num="500"/>
+				<item item="10000006" num="10"/>
+				<item by="2000"/>
+			</type>
+			<type type="2" money="3" text="价值10888元宝" rechargeid="28">
+				<item item="10000007" num="1000"/>
+				<item item="16010013" num="2"/>
+				<item item="10000006" num="20"/>
+			</type>
+			<type type="3" money="6" text="价值18888元宝" rechargeid="29">
+				<item item="10000008" num="500"/>
+				<item item="16010013" num="3"/>
+				<item item="10000006" num="30"/>
+			</type>
+			<type type="4" money="10" text="价值36666元宝" rechargeid="30">
+				<item item="10000008" num="1000"/>
+				<item item="16010013" num="5"/>
+				<item item="10000006" num="50"/>
+			</type>
+		</time>
+		<time matchesid="4" lastmatchesid="4">
+			<type type="1" money="1" text="价值5888元宝" rechargeid="27">
+				<item item="16010034" num="1"/>
+				<item item="10000006" num="10"/>
+				<item by="2000"/>
+			</type>
+			<type type="2" money="3" text="价值10888元宝" rechargeid="28">
+				<item item="16010034" num="1"/>
+				<item item="16010013" num="2"/>
+				<item item="10000006" num="20"/>
+			</type>
+			<type type="3" money="6" text="价值18888元宝" rechargeid="29">
+				<item item="16010035" num="1"/>
+				<item item="16010013" num="3"/>
+				<item item="10000006" num="30"/>
+			</type>
+			<type type="4" money="10" text="价值36666元宝" rechargeid="30">
+				<item item="16010036" num="1"/>
+				<item item="16010013" num="5"/>
+				<item item="10000006" num="50"/>
+			</type>
+		</time>
+	</server>
+</root>

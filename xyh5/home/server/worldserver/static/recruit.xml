@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+function标签					
+	function	功能开放	
+    move_star	十连独立动画播放条件 填写伙伴星级数，关联partner.xml伙伴品质quality字段
+    
+recruit标签					
+	recruit	招募类型	1=普通 2=高级
+    name    招募名称
+	item	招募消耗道具	关联item.xml，没有次数时优先消耗道具，不配置则不消耗
+	img	    底图	读取指定路径下图片资源
+    img_type招募名称美术字资源
+	free_count	每日免费次数	每日可招募的免费次数,不配置则不限制
+	emoney	招募消耗元宝	单次招募消耗的元宝，不配置则不消耗
+	reset_time	招募免费重置时间	单位秒
+	super_house	招募奖池	关联reward_house
+	special_count	特殊招募所需次数	
+	special_house	特殊奖池	关联reward_house，不配置则没有特殊奖池
+    first_house 首抽奖池，第一次抽从该奖池抽取1次，不填则没有
+
+reward标签					
+	reward_house	奖池库		奖池编号	（1=普通 2=高级 3=十连抽 4=至尊 不是写死的，看指向配置  ）
+house标签
+	partner	伙伴id		关联partner.xml	
+	weight	权重		伙伴获得权重	
+
+-->
+	<function function="2005" move_star="4" prime_vip="8"/>
+	<recruit recruit="1" name="普通招募" item="10000003" img="img_normal" img_type="img_normal_ttf" free_count="5" reset_time="300" normal_house="1"/>
+	<recruit recruit="2" name="高级招募" item="10000004" first_house="10" emoney="2888" img="img_better" img_type="img_better_ttf" reset_time="43200" super_house="2" special_count="10" special_house="3" prime_count="99" prime_house="4"/>
+	<reward reward_house="1">
+		<house partner="11021050" weight="30000"/>
+		<house partner="11021051" weight="30000"/>
+		<house partner="11021052" weight="30000"/>
+		<house partner="11021053" weight="30000"/>
+		<house partner="11021054" weight="30000"/>
+		<house partner="11021055" weight="30000"/>
+		<house partner="11021056" weight="30000"/>
+		<house partner="11021057" weight="30000"/>
+		<house partner="11021058" weight="30000"/>
+		<house partner="11021059" weight="30000"/>
+		<house partner="11021060" weight="30000"/>
+		<house partner="11021061" weight="30000"/>
+		<house partner="11031026" weight="2000"/>
+		<house partner="11031027" weight="2000"/>
+		<house partner="11031028" weight="2000"/>
+		<house partner="11031029" weight="2000"/>
+		<house partner="11031030" weight="2000"/>
+		<house partner="11031031" weight="2000"/>
+		<house partner="11031032" weight="2000"/>
+		<house partner="11031033" weight="2000"/>
+		<house partner="11032042" weight="2000"/>
+		<house partner="11032043" weight="2000"/>
+		<house partner="11032044" weight="2000"/>
+		<house partner="11032045" weight="2000"/>
+		<house partner="11032046" weight="2000"/>
+		<house partner="11032047" weight="2000"/>
+		<house partner="11032048" weight="2000"/>
+		<house partner="11032049" weight="2000"/>
+		<house partner="11033034" weight="2000"/>
+		<house partner="11033035" weight="2000"/>
+		<house partner="11033036" weight="2000"/>
+		<house partner="11033037" weight="2000"/>
+		<house partner="11033038" weight="2000"/>
+		<house partner="11033039" weight="2000"/>
+		<house partner="11033040" weight="2000"/>
+		<house partner="11033041" weight="2000"/>
+	</reward>
+	<reward reward_house="2">
+		<house partner="11021050" weight="20000"/>
+		<house partner="11021051" weight="20000"/>
+		<house partner="11021052" weight="20000"/>
+		<house partner="11021053" weight="20000"/>
+		<house partner="11021054" weight="20000"/>
+		<house partner="11021055" weight="20000"/>
+		<house partner="11021056" weight="20000"/>
+		<house partner="11021057" weight="20000"/>
+		<house partner="11021058" weight="20000"/>
+		<house partner="11021059" weight="20000"/>
+		<house partner="11021060" weight="20000"/>
+		<house partner="11021061" weight="20000"/>
+		<house partner="11031026" weight="1000"/>
+		<house partner="11031027" weight="1000"/>
+		<house partner="11031028" weight="1000"/>
+		<house partner="11031029" weight="1000"/>
+		<house partner="11031030" weight="1000"/>
+		<house partner="11031031" weight="1000"/>
+		<house partner="11031032" weight="1000"/>
+		<house partner="11031033" weight="1000"/>
+		<house partner="11032042" weight="1000"/>
+		<house partner="11032043" weight="1000"/>
+		<house partner="11032044" weight="1000"/>
+		<house partner="11032045" weight="1000"/>
+		<house partner="11032046" weight="1000"/>
+		<house partner="11032047" weight="1000"/>
+		<house partner="11032048" weight="1000"/>
+		<house partner="11032049" weight="1000"/>
+		<house partner="11033034" weight="1000"/>
+		<house partner="11033035" weight="1000"/>
+		<house partner="11033036" weight="1000"/>
+		<house partner="11033037" weight="1000"/>
+		<house partner="11033038" weight="1000"/>
+		<house partner="11033039" weight="1000"/>
+		<house partner="11033040" weight="1000"/>
+		<house partner="11033041" weight="1000"/>
+		<house partner="11041022" weight="200"/>
+		<house partner="11041023" weight="200"/>
+		<house partner="11041024" weight="200"/>
+		<house partner="11041025" weight="200"/>
+		<house partner="11043017" weight="200"/>
+		<house partner="11043018" weight="200"/>
+		<house partner="11043019" weight="200"/>
+		<house partner="11043020" weight="200"/>
+		<house partner="11042013" weight="200"/>
+		<house partner="11042014" weight="200"/>
+		<house partner="11042015" weight="200"/>
+		<house partner="11042016" weight="200"/>
+	</reward>
+	<reward reward_house="3">
+		<house partner="11041022" weight="10000"/>
+		<house partner="11041023" weight="10000"/>
+		<house partner="11041024" weight="10000"/>
+		<house partner="11041025" weight="10000"/>
+		<house partner="11043017" weight="10000"/>
+		<house partner="11043018" weight="10000"/>
+		<house partner="11043019" weight="10000"/>
+		<house partner="11043020" weight="10000"/>
+		<house partner="11042013" weight="10000"/>
+		<house partner="11042014" weight="10000"/>
+		<house partner="11042015" weight="10000"/>
+		<house partner="11042016" weight="10000"/>
+		<house partner="11041001" weight="1000"/>
+		<house partner="11041002" weight="1000"/>
+		<house partner="11041003" weight="1000"/>
+		<house partner="11041004" weight="1000"/>
+		<house partner="11043005" weight="1000"/>
+		<house partner="11043006" weight="1000"/>
+		<house partner="11043007" weight="1000"/>
+		<house partner="11043008" weight="1000"/>
+		<house partner="11042009" weight="1000"/>
+		<house partner="11042010" weight="1000"/>
+		<house partner="11042011" weight="1000"/>
+		<house partner="11042012" weight="1000"/>
+	</reward>
+	<reward reward_house="4">
+		<house partner="11051063" weight="1000"/>
+		<house partner="11051062" weight="500"/>
+		<house partner="11051064" weight="4000"/>
+		<house partner="11051065" weight="4000"/>
+		<house partner="11051066" weight="500"/>
+	</reward>
+	<reward reward_house="10">
+		<house partner="11031027" weight="5000"/>
+	</reward>
+</root>

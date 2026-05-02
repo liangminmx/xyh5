@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by MESMERiZE (MiZE) -->
+<root>
+	<!--
+autoBuyId 使用自动购买材料功能时，在商城购买的道具ID
+bless_minNum 进阶失败提升的祝福值最小值
+bless_maxNum 进阶失败提升的祝福值最大值
+countDownTime 倒数开启后，需要多少时间清空祝福值，单位秒
+realm_max 最高大境界
+realm 大境界
+stage 小境界
+puppetId 对应的神兵ID
+step_itemId 进阶所需要使用的道具
+支持多个ID，用“，”隔开
+minCount 最低开启概率的进阶次数
+maxCount 最高进阶次数
+startPer 初始进阶概率百分比，2=20%
+stepUpNum 当前进阶的满祝福值
+step_itemNum 使用进阶功能消耗的道具数量
+money 使用进阶功能消耗的银两
+isCountDown 是否开启倒数计时，清空祝福值,=0没有，=1有
+isNotice 是否开启公告
+tipinfo	境界tip对应境界的文本描述
+  -->
+	<puppet autoBuyId="100001" bless_minNum="10" bless_maxNum="15" countDownTime="86400" realm_max="10" stage_max="4" buffid="3002">
+		<stepInfo realm="1" realmName="人阶" realmIcon="101" max_stage="4" tipinfo="人阶神兵超越凡物，人间绝品">
+			<layerinfo stage="1" stageName="下品" stageIcon="111" max_star="5">
+				<starinfo star="1" starName="一星" starIcon="1" puppetId="1" step_itemId="100001,600019" minCount="1" maxCount="1" startPer="10000" stepUpNum="7" step_itemNum="1" money="100" isCountDown="0" isNotice="0"/>
+				<starinfo star="2" starName="二星" starIcon="2" puppetId="2" step_itemId="100001,600019" minCount="1" maxCount="1" startPer="10000" stepUpNum="9" step_itemNum="1" money="100" isCountDown="0" isNotice="0"/>
+				<starinfo star="3" starName="三星" starIcon="3" puppetId="3" step_itemId="100001,600019" minCount="1" maxCount="1" startPer="10000" stepUpNum="12" step_itemNum="1" money="100" isCountDown="0" isNotice="0"/>
+				<starinfo star="4" starName="四星" starIcon="4" puppetId="4" step_itemId="100001,600019" minCount="1" maxCount="1" startPer="10000" stepUpNum="15" step_itemNum="1" money="100" isCountDown="0" isNotice="0"/>
+				<starinfo star="5" starName="五星" starIcon="5" puppetId="5" step_itemId="100001,600019" minCount="1" maxCount="2" startPer="10000" stepUpNum="30" step_itemNum="1" money="100" isCountDown="0" isNotice="0"/>
+			</layerinfo>
+			<layerinfo stage="2" stageName="中品" stageIcon="112" max_star="5">
+				<starinfo star="1" starName="一星" starIcon="1" puppetId="6" step_itemId="100001,600019" minCount="1" maxCount="1" startPer="10000" stepUpNum="8" step_itemNum="1" money="100" isCountDown="0" isNotice="0"/>
+				<starinfo star="2" starName="二星" starIcon="2" puppetId="7" step_itemId="100001,600019" minCount="1" maxCount="1" startPer="10000" stepUpNum="10" step_itemNum="1" money="100" isCountDown="0" isNotice="0"/>
+				<starinfo star="3" starName="三星" starIcon="3" puppetId="8" step_itemId="100001,600019" minCount="1" maxCount="1" startPer="10000" stepUpNum="14" step_itemNum="1" money="100" isCountDown="0" isNotice="0"/>
+				<starinfo star="4" starName="四星" starIcon="4" puppetId="9" step_itemId="100001,600019" minCount="1" maxCount="2" startPer="10000" stepUpNum="30" step_itemNum="1" money="100" isCountDown="0" isNotice="0"/>
+				<starinfo star="5" starName="五星" starIcon="5" puppetId="10" step_itemId="100001,600019" minCount="2" maxCount="2" startPer="10000" stepUpNum="30" step_itemNum="1" money="100" isCountDown="0" isNotice="0"/>
+			</layerinfo>
+			<layerinfo stage="3" stageName="上品" stageIcon="113" max_star="5">
+				<starinfo star="1" starName="一星" starIcon="1" puppetId="11" step_itemId="100001,600019" minCount="1" maxCount="2" startPer="10000" stepUpNum="30" step_itemNum="1" money="100" isCountDown="0" isNotice="0"/>
+				<starinfo star="2" starName="二星" starIcon="2" puppetId="12" step_itemId="100001,600019" minCount="1" maxCount="2" startPer="10000" stepUpNum="30" step_itemNum="1" money="100" isCountDown="0" isNotice="0"/>
+				<starinfo star="3" starName="三星" starIcon="3" puppetId="13" step_itemId="100001,600019" minCount="1" maxCount="2" startPer="10000" stepUpNum="31" step_itemNum="1" money="100" isCountDown="0" isNotice="0"/>
+				<starinfo star="4" starName="四星" starIcon="4" puppetId="14" step_itemId="100001,600019" minCount="1" maxCount="2" startPer="10000" stepUpNum="32" step_itemNum="1" money="100" isCountDown="0" isNotice="0"/>
+				<starinfo star="5" starName="五星" starIcon="5" puppetId="15" step_itemId="100001,600019" minCount="1" maxCount="2" startPer="10000" stepUpNum="33" step_itemNum="1" money="100" isCountDown="0" isNotice="0"/>
+			</layerinfo>
+			<layerinfo stage="4" stageName="极品" stageIcon="114" max_star="5">
+				<starinfo star="1" starName="一星" starIcon="1" puppetId="16" step_itemId="100001,600019" minCount="2" maxCount="3" startPer="10000" stepUpNum="45" step_itemNum="1" money="100" isCountDown="0" isNotice="0"/>
+				<starinfo star="2" starName="二星" starIcon="2" puppetId="17" step_itemId="100001,600019" minCount="2" maxCount="3" startPer="10000" stepUpNum="45" step_itemNum="1" money="100" isCountDown="0" isNotice="0"/>
+				<starinfo star="3" starName="三星" starIcon="3" puppetId="18" step_itemId="100001,600019" minCount="3" maxCount="3" startPer="10000" stepUpNum="48" step_itemNum="1" money="100" isCountDown="0" isNotice="0"/>
+				<starinfo star="4" starName="四星" starIcon="4" puppetId="19" step_itemId="100001,600019" minCount="3" maxCount="3" startPer="10000" stepUpNum="48" step_itemNum="1" money="100" isCountDown="0" isNotice="0"/>
+				<starinfo star="5" starName="五星" starIcon="5" puppetId="20" step_itemId="100001,600019" minCount="3" maxCount="3" startPer="10000" stepUpNum="53" step_itemNum="1" money="100" isCountDown="0" isNotice="0"/>
+			</layerinfo>
+		</stepInfo>
+		<stepInfo realm="2" realmName="地阶" realmIcon="102" max_stage="4" tipinfo="地阶神兵神妙无穷，天地灵器">
+			<layerinfo stage="1" stageName="下品" stageIcon="111" max_star="5">
+				<starinfo star="1" starName="一星" starIcon="1" puppetId="21" step_itemId="100001,600019" minCount="1" maxCount="2" startPer="10000" stepUpNum="30" step_itemNum="2" money="100" isCountDown="0" isNotice="0"/>
+				<starinfo star="2" starName="二星" starIcon="2" puppetId="22" step_itemId="100001,600019" minCount="1" maxCount="2" startPer="10000" stepUpNum="31" step_itemNum="2" money="100" isCountDown="0" isNotice="0"/>
+				<starinfo star="3" starName="三星" starIcon="3" puppetId="23" step_itemId="100001,600019" minCount="1" maxCount="2" startPer="10000" stepUpNum="32" step_itemNum="2" money="100" isCountDown="0" isNotice="0"/>
+				<starinfo star="4" starName="四星" starIcon="4" puppetId="24" step_itemId="100001,600019" minCount="2" maxCount="2" startPer="10000" stepUpNum="33" step_itemNum="2" money="100" isCountDown="0" isNotice="0"/>
+				<starinfo star="5" starName="五星" starIcon="5" puppetId="25" step_itemId="100001,600019" minCount="2" maxCount="2" startPer="10000" stepUpNum="33" step_itemNum="2" money="100" isCountDown="0" isNotice="0"/>
+			</layerinfo>
+			<layerinfo stage="2" stageName="中品" stageIcon="112" max_star="5">
+				<starinfo star="1" starName="一星" starIcon="1" puppetId="26" step_itemId="100001,600019" minCount="2" maxCount="2" startPer="10000" stepUpNum="33" step_itemNum="2" money="100" isCountDown="0" isNotice="0"/>
+				<starinfo star="2" starName="二星" starIcon="2" puppetId="27" step_itemId="100001,600019" minCount="2" maxCount="2" startPer="10000" stepUpNum="34" step_itemNum="2" money="100" isCountDown="0" isNotice="0"/>
+				<starinfo star="3" starName="三星" starIcon="3" puppetId="28" step_itemId="100001,600019" minCount="2" maxCount="2" startPer="10000" stepUpNum="35" step_itemNum="2" money="100" isCountDown="0" isNotice="0"/>
+				<starinfo star="4" starName="四星" starIcon="4" puppetId="29" step_itemId="100001,600019" minCount="2" maxCount="2" startPer="10000" stepUpNum="35" step_itemNum="2" money="100" isCountDown="0" isNotice="0"/>
+				<starinfo star="5" starName="五星" starIcon="5" puppetId="30" step_itemId="100001,600019" minCount="2" maxCount="2" startPer="10000" stepUpNum="35" step_itemNum="2" money="100" isCountDown="0" isNotice="0"/>
+			</layerinfo>
+			<layerinfo stage="3" stageName="上品" stageIcon="113" max_star="5">
+				<starinfo star="1" starName="一星" starIcon="1" puppetId="31" step_itemId="100001,600019" minCount="2" maxCount="2" startPer="10000" stepUpNum="35" step_itemNum="2" money="100" isCountDown="0" isNotice="0"/>
+				<starinfo star="2" starName="二星" starIcon="2" puppetId="32" step_itemId="100001,600019" minCount="2" maxCount="2" startPer="10000" stepUpNum="35" step_itemNum="2" money="100" isCountDown="0" isNotice="0"/>
+				<starinfo star="3" starName="三星" starIcon="3" puppetId="33" step_itemId="100001,600019" minCount="2" maxCount="2" startPer="10000" stepUpNum="36" step_itemNum="2" money="100" isCountDown="0" isNotice="0"/>
+				<starinfo star="4" starName="四星" starIcon="4" puppetId="34" step_itemId="100001,600019" minCount="2" maxCount="2" startPer="10000" stepUpNum="36" step_itemNum="2" money="100" isCountDown="0" isNotice="0"/>
+				<starinfo star="5" starName="五星" starIcon="5" puppetId="35" step_itemId="100001,600019" minCount="2" maxCount="3" startPer="10000" stepUpNum="47" step_itemNum="2" money="100" isCountDown="0" isNotice="0"/>
+			</layerinfo>
+			<layerinfo stage="4" stageName="极品" stageIcon="114" max_star="5">
+				<starinfo star="1" starName="一星" starIcon="1" puppetId="36" step_itemId="100001,600019" minCount="4" maxCount="4" startPer="10000" stepUpNum="60" step_itemNum="2" money="100" isCountDown="0" isNotice="0"/>
+				<starinfo star="2" starName="二星" starIcon="2" puppetId="37" step_itemId="100001,600019" minCount="4" maxCount="4" startPer="10000" stepUpNum="62" step_itemNum="2" money="100" isCountDown="0" isNotice="0"/>
+				<starinfo star="3" starName="三星" starIcon="3" puppetId="38" step_itemId="100001,600019" minCount="4" maxCount="4" startPer="10000" stepUpNum="65" step_itemNum="2" money="100" isCountDown="0" isNotice="0"/>
+				<starinfo star="4" starName="四星" starIcon="4" puppetId="39" step_itemId="100001,600019" minCount="4" maxCount="4" startPer="10000" stepUpNum="72" step_itemNum="2" money="100" isCountDown="0" isNotice="0"/>
+				<starinfo star="5" starName="五星" starIcon="5" puppetId="40" step_itemId="100001,600019" minCount="5" maxCount="5" startPer="10000" stepUpNum="85" step_itemNum="2" money="100" isCountDown="0" isNotice="0"/>
+			</layerinfo>
+		</stepInfo>
+		<stepInfo realm="3" realmName="天阶" realmIcon="103" max_stage="4" tipinfo="天阶神兵血炼奇宝，威力绝伦">
+			<layerinfo stage="1" stageName="下品" stageIcon="111" max_star="5">
+				<starinfo star="1" starName="一星" starIcon="1" puppetId="41" step_itemId="100001,600019" minCount="2" maxCount="3" startPer="10000" stepUpNum="45" step_itemNum="3" money="100" isCountDown="345600" isNotice="0"/>
+				<starinfo star="2" starName="二星" starIcon="2" puppetId="42" step_itemId="100001,600019" minCount="2" maxCount="3" startPer="10000" stepUpNum="46" step_itemNum="3" money="100" isCountDown="345600" isNotice="0"/>
+				<starinfo star="3" starName="三星" starIcon="3" puppetId="43" step_itemId="100001,600019" minCount="3" maxCount="3" startPer="10000" stepUpNum="50" step_itemNum="3" money="100" isCountDown="345600" isNotice="0"/>
+				<starinfo star="4" starName="四星" starIcon="4" puppetId="44" step_itemId="100001,600019" minCount="3" maxCount="3" startPer="10000" stepUpNum="51" step_itemNum="3" money="100" isCountDown="345600" isNotice="0"/>
+				<starinfo star="5" starName="五星" starIcon="5" puppetId="45" step_itemId="100001,600019" minCount="3" maxCount="4" startPer="10000" stepUpNum="60" step_itemNum="3" money="100" isCountDown="345600" isNotice="0"/>
+			</layerinfo>
+			<layerinfo stage="2" stageName="中品" stageIcon="112" max_star="5">
+				<starinfo star="1" starName="一星" starIcon="1" puppetId="46" step_itemId="100001,600019" minCount="3" maxCount="3" startPer="10000" stepUpNum="55" step_itemNum="3" money="100" isCountDown="345600" isNotice="0"/>
+				<starinfo star="2" starName="二星" starIcon="2" puppetId="47" step_itemId="100001,600019" minCount="3" maxCount="3" startPer="10000" stepUpNum="55" step_itemNum="3" money="100" isCountDown="345600" isNotice="0"/>
+				<starinfo star="3" starName="三星" starIcon="3" puppetId="48" step_itemId="100001,600019" minCount="3" maxCount="4" startPer="10000" stepUpNum="61" step_itemNum="3" money="100" isCountDown="345600" isNotice="0"/>
+				<starinfo star="4" starName="四星" starIcon="4" puppetId="49" step_itemId="100001,600019" minCount="3" maxCount="4" startPer="10000" stepUpNum="62" step_itemNum="3" money="100" isCountDown="345600" isNotice="0"/>
+				<starinfo star="5" starName="五星" starIcon="5" puppetId="50" step_itemId="100001,600019" minCount="4" maxCount="4" startPer="10000" stepUpNum="63" step_itemNum="3" money="100" isCountDown="345600" isNotice="0"/>
+			</layerinfo>
+			<layerinfo stage="3" stageName="上品" stageIcon="113" max_star="5">
+				<starinfo star="1" starName="一星" starIcon="1" puppetId="51" step_itemId="100001,600019" minCount="3" maxCount="4" startPer="10000" stepUpNum="64" step_itemNum="3" money="100" isCountDown="345600" isNotice="0"/>
+				<starinfo star="2" starName="二星" starIcon="2" puppetId="52" step_itemId="100001,600019" minCount="4" maxCount="4" startPer="10000" stepUpNum="65" step_itemNum="3" money="100" isCountDown="345600" isNotice="0"/>
+				<starinfo star="3" starName="三星" starIcon="3" puppetId="53" step_itemId="100001,600019" minCount="4" maxCount="4" startPer="10000" stepUpNum="65" step_itemNum="3" money="100" isCountDown="345600" isNotice="0"/>
+				<starinfo star="4" starName="四星" starIcon="4" puppetId="54" step_itemId="100001,600019" minCount="4" maxCount="4" startPer="10000" stepUpNum="65" step_itemNum="3" money="100" isCountDown="345600" isNotice="0"/>
+				<starinfo star="5" starName="五星" starIcon="5" puppetId="55" step_itemId="100001,600019" minCount="5" maxCount="5" startPer="10000" stepUpNum="75" step_itemNum="3" money="100" isCountDown="345600" isNotice="0"/>
+			</layerinfo>
+			<layerinfo stage="4" stageName="极品" stageIcon="114" max_star="5">
+				<starinfo star="1" starName="一星" starIcon="1" puppetId="56" step_itemId="100001,600019" minCount="6" maxCount="6" startPer="10000" stepUpNum="102" step_itemNum="3" money="100" isCountDown="345600" isNotice="0"/>
+				<starinfo star="2" starName="二星" starIcon="2" puppetId="57" step_itemId="100001,600019" minCount="6" maxCount="7" startPer="10000" stepUpNum="108" step_itemNum="3" money="100" isCountDown="345600" isNotice="0"/>
+				<starinfo star="3" starName="三星" starIcon="3" puppetId="58" step_itemId="100001,600019" minCount="6" maxCount="7" startPer="10000" stepUpNum="114" step_itemNum="3" money="100" isCountDown="345600" isNotice="0"/>
+				<starinfo star="4" starName="四星" starIcon="4" puppetId="59" step_itemId="100001,600019" minCount="7" maxCount="8" startPer="10000" stepUpNum="126" step_itemNum="3" money="100" isCountDown="345600" isNotice="0"/>
+				<starinfo star="5" starName="五星" starIcon="5" puppetId="60" step_itemId="100001,600019" minCount="8" maxCount="9" startPer="10000" stepUpNum="150" step_itemNum="3" money="100" isCountDown="345600" isNotice="0"/>
+			</layerinfo>
+		</stepInfo>
+		<stepInfo realm="4" realmName="仙阶" realmIcon="104" max_stage="4" tipinfo="仙阶神兵天府奇珍，仙家妙物">
+			<layerinfo stage="1" stageName="下品" stageIcon="111" max_star="5">
+				<starinfo star="1" starName="一星" starIcon="1" puppetId="61" step_itemId="100001,100001,600019" minCount="4" maxCount="5" startPer="10000" stepUpNum="75" step_itemNum="4" money="100" isCountDown="259200" isNotice="1"/>
+				<starinfo star="2" starName="二星" starIcon="2" puppetId="62" step_itemId="100001,100001,600019" minCount="5" maxCount="5" startPer="10000" stepUpNum="76" step_itemNum="4" money="100" isCountDown="259200" isNotice="0"/>
+				<starinfo star="3" starName="三星" starIcon="3" puppetId="63" step_itemId="100001,100001,600019" minCount="5" maxCount="6" startPer="10000" stepUpNum="90" step_itemNum="4" money="100" isCountDown="259200" isNotice="0"/>
+				<starinfo star="4" starName="四星" starIcon="4" puppetId="64" step_itemId="100001,100001,600019" minCount="5" maxCount="6" startPer="10000" stepUpNum="91" step_itemNum="4" money="100" isCountDown="259200" isNotice="0"/>
+				<starinfo star="5" starName="五星" starIcon="5" puppetId="65" step_itemId="100001,100001,600019" minCount="6" maxCount="7" startPer="10000" stepUpNum="105" step_itemNum="4" money="100" isCountDown="259200" isNotice="0"/>
+			</layerinfo>
+			<layerinfo stage="2" stageName="中品" stageIcon="112" max_star="5">
+				<starinfo star="1" starName="一星" starIcon="1" puppetId="66" step_itemId="100001,100001,600019" minCount="5" maxCount="6" startPer="10000" stepUpNum="90" step_itemNum="4" money="100" isCountDown="259200" isNotice="0"/>
+				<starinfo star="2" starName="二星" starIcon="2" puppetId="67" step_itemId="100001,100001,600019" minCount="5" maxCount="6" startPer="10000" stepUpNum="91" step_itemNum="4" money="100" isCountDown="259200" isNotice="0"/>
+				<starinfo star="3" starName="三星" starIcon="3" puppetId="68" step_itemId="100001,100001,600019" minCount="6" maxCount="7" startPer="10000" stepUpNum="105" step_itemNum="4" money="100" isCountDown="259200" isNotice="0"/>
+				<starinfo star="4" starName="四星" starIcon="4" puppetId="69" step_itemId="100001,100001,600019" minCount="6" maxCount="7" startPer="10000" stepUpNum="107" step_itemNum="4" money="100" isCountDown="259200" isNotice="0"/>
+				<starinfo star="5" starName="五星" starIcon="5" puppetId="70" step_itemId="100001,100001,600019" minCount="7" maxCount="8" startPer="10000" stepUpNum="123" step_itemNum="4" money="100" isCountDown="259200" isNotice="0"/>
+			</layerinfo>
+			<layerinfo stage="3" stageName="上品" stageIcon="113" max_star="5">
+				<starinfo star="1" starName="一星" starIcon="1" puppetId="71" step_itemId="100001,100001,600019" minCount="6" maxCount="7" startPer="10000" stepUpNum="110" step_itemNum="4" money="100" isCountDown="259200" isNotice="0"/>
+				<starinfo star="2" starName="二星" starIcon="2" puppetId="72" step_itemId="100001,100001,600019" minCount="6" maxCount="7" startPer="10000" stepUpNum="111" step_itemNum="4" money="100" isCountDown="259200" isNotice="0"/>
+				<starinfo star="3" starName="三星" starIcon="3" puppetId="73" step_itemId="100001,100001,600019" minCount="7" maxCount="8" startPer="10000" stepUpNum="120" step_itemNum="4" money="100" isCountDown="259200" isNotice="0"/>
+				<starinfo star="4" starName="四星" starIcon="4" puppetId="74" step_itemId="100001,100001,600019" minCount="7" maxCount="8" startPer="10000" stepUpNum="122" step_itemNum="4" money="100" isCountDown="259200" isNotice="0"/>
+				<starinfo star="5" starName="五星" starIcon="5" puppetId="75" step_itemId="100001,100001,600019" minCount="8" maxCount="10" startPer="5000" stepUpNum="150" step_itemNum="4" money="100" isCountDown="259200" isNotice="0"/>
+			</layerinfo>
+			<layerinfo stage="4" stageName="极品" stageIcon="114" max_star="5">
+				<starinfo star="1" starName="一星" starIcon="1" puppetId="76" step_itemId="100001,100001,600019" minCount="11" maxCount="12" startPer="10000" stepUpNum="203" step_itemNum="4" money="100" isCountDown="259200" isNotice="0"/>
+				<starinfo star="2" starName="二星" starIcon="2" puppetId="77" step_itemId="100001,100001,600019" minCount="11" maxCount="13" startPer="5000" stepUpNum="215" step_itemNum="4" money="100" isCountDown="259200" isNotice="0"/>
+				<starinfo star="3" starName="三星" starIcon="3" puppetId="78" step_itemId="100001,100001,600019" minCount="12" maxCount="13" startPer="10000" stepUpNum="227" step_itemNum="4" money="100" isCountDown="259200" isNotice="0"/>
+				<starinfo star="4" starName="四星" starIcon="4" puppetId="79" step_itemId="100001,100001,600019" minCount="13" maxCount="15" startPer="5000" stepUpNum="250" step_itemNum="4" money="100" isCountDown="259200" isNotice="0"/>
+				<starinfo star="5" starName="五星" starIcon="5" puppetId="80" step_itemId="100001,100001,600019" minCount="15" maxCount="17" startPer="5000" stepUpNum="298" step_itemNum="4" money="100" isCountDown="259200" isNotice="0"/>
+			</layerinfo>
+		</stepInfo>
+		<stepInfo realm="5" realmName="纯阳" realmIcon="105" max_stage="4" tipinfo="纯阳神兵纯阳至宝，九阳奇珍">
+			<layerinfo stage="1" stageName="下品" stageIcon="111" max_star="5">
+				<starinfo star="1" starName="一星" starIcon="1" puppetId="81" step_itemId="100001,100001,600019" minCount="8" maxCount="9" startPer="10000" stepUpNum="145" step_itemNum="5" money="100" isCountDown="172800" isNotice="1"/>
+				<starinfo star="2" starName="二星" starIcon="2" puppetId="82" step_itemId="100001,100001,600019" minCount="8" maxCount="10" startPer="5000" stepUpNum="150" step_itemNum="5" money="100" isCountDown="172800" isNotice="0"/>
+				<starinfo star="3" starName="三星" starIcon="3" puppetId="83" step_itemId="100001,100001,600019" minCount="9" maxCount="10" startPer="10000" stepUpNum="156" step_itemNum="5" money="100" isCountDown="172800" isNotice="0"/>
+				<starinfo star="4" starName="四星" starIcon="4" puppetId="84" step_itemId="100001,100001,600019" minCount="10" maxCount="11" startPer="10000" stepUpNum="173" step_itemNum="5" money="100" isCountDown="172800" isNotice="0"/>
+				<starinfo star="5" starName="五星" starIcon="5" puppetId="85" step_itemId="100001,100001,600019" minCount="11" maxCount="13" startPer="5000" stepUpNum="205" step_itemNum="5" money="100" isCountDown="172800" isNotice="0"/>
+			</layerinfo>
+			<layerinfo stage="2" stageName="中品" stageIcon="112" max_star="5">
+				<starinfo star="1" starName="一星" starIcon="1" puppetId="86" step_itemId="100001,100001,600019" minCount="9" maxCount="11" startPer="5000" stepUpNum="170" step_itemNum="5" money="100" isCountDown="172800" isNotice="0"/>
+				<starinfo star="2" starName="二星" starIcon="2" puppetId="87" step_itemId="100001,100001,600019" minCount="9" maxCount="11" startPer="5000" stepUpNum="171" step_itemNum="5" money="100" isCountDown="172800" isNotice="0"/>
+				<starinfo star="3" starName="三星" starIcon="3" puppetId="88" step_itemId="100001,100001,600019" minCount="10" maxCount="12" startPer="5000" stepUpNum="181" step_itemNum="5" money="100" isCountDown="172800" isNotice="0"/>
+				<starinfo star="4" starName="四星" starIcon="4" puppetId="89" step_itemId="100001,100001,600019" minCount="11" maxCount="13" startPer="5000" stepUpNum="200" step_itemNum="5" money="100" isCountDown="172800" isNotice="0"/>
+				<starinfo star="5" starName="五星" starIcon="5" puppetId="90" step_itemId="100001,100001,600019" minCount="13" maxCount="15" startPer="5000" stepUpNum="238" step_itemNum="5" money="100" isCountDown="172800" isNotice="0"/>
+			</layerinfo>
+			<layerinfo stage="3" stageName="上品" stageIcon="113" max_star="5">
+				<starinfo star="1" starName="一星" starIcon="1" puppetId="91" step_itemId="100001,100001,600019" minCount="10" maxCount="12" startPer="5000" stepUpNum="187" step_itemNum="5" money="100" isCountDown="172800" isNotice="0"/>
+				<starinfo star="2" starName="二星" starIcon="2" puppetId="92" step_itemId="100001,100001,600019" minCount="11" maxCount="13" startPer="5000" stepUpNum="198" step_itemNum="5" money="100" isCountDown="172800" isNotice="0"/>
+				<starinfo star="3" starName="三星" starIcon="3" puppetId="93" step_itemId="100001,100001,600019" minCount="12" maxCount="14" startPer="5000" stepUpNum="210" step_itemNum="5" money="100" isCountDown="172800" isNotice="0"/>
+				<starinfo star="4" starName="四星" starIcon="4" puppetId="94" step_itemId="100001,100001,600019" minCount="13" maxCount="15" startPer="5000" stepUpNum="231" step_itemNum="5" money="100" isCountDown="172800" isNotice="0"/>
+				<starinfo star="5" starName="五星" starIcon="5" puppetId="95" step_itemId="100001,100001,600019" minCount="15" maxCount="18" startPer="3334" stepUpNum="275" step_itemNum="5" money="100" isCountDown="172800" isNotice="0"/>
+			</layerinfo>
+			<layerinfo stage="4" stageName="极品" stageIcon="114" max_star="5">
+				<starinfo star="1" starName="一星" starIcon="1" puppetId="96" step_itemId="100001,100001,600019" minCount="18" maxCount="20" startPer="5000" stepUpNum="376" step_itemNum="5" money="100" isCountDown="172800" isNotice="0"/>
+				<starinfo star="2" starName="二星" starIcon="2" puppetId="97" step_itemId="100001,100001,600019" minCount="19" maxCount="21" startPer="5000" stepUpNum="398" step_itemNum="5" money="100" isCountDown="172800" isNotice="0"/>
+				<starinfo star="3" starName="三星" starIcon="3" puppetId="98" step_itemId="100001,100001,600019" minCount="20" maxCount="23" startPer="3334" stepUpNum="420" step_itemNum="5" money="100" isCountDown="172800" isNotice="0"/>
+				<starinfo star="4" starName="四星" starIcon="4" puppetId="99" step_itemId="100001,100001,600019" minCount="22" maxCount="25" startPer="3334" stepUpNum="465" step_itemNum="5" money="100" isCountDown="172800" isNotice="0"/>
+				<starinfo star="5" starName="五星" starIcon="5" puppetId="100" step_itemId="100001,100001,600019" minCount="26" maxCount="29" startPer="3334" stepUpNum="553" step_itemNum="5" money="100" isCountDown="172800" isNotice="0"/>
+			</layerinfo>
+		</stepInfo>
+		<stepInfo realm="6" realmName="灵宝" realmIcon="106" max_stage="4" tipinfo="先天神兵孕灵养器，先天灵宝">
+			<layerinfo stage="1" stageName="下品" stageIcon="111" max_star="5">
+				<starinfo star="1" starName="一星" starIcon="1" puppetId="101" step_itemId="100001,100001,600019" minCount="13" maxCount="16" startPer="3334" stepUpNum="250" step_itemNum="6" money="100" isCountDown="129600" isNotice="1"/>
+				<starinfo star="2" starName="二星" starIcon="2" puppetId="102" step_itemId="100001,100001,600019" minCount="14" maxCount="17" startPer="3334" stepUpNum="265" step_itemNum="6" money="100" isCountDown="129600" isNotice="0"/>
+				<starinfo star="3" starName="三星" starIcon="3" puppetId="103" step_itemId="100001,100001,600019" minCount="15" maxCount="17" startPer="5000" stepUpNum="280" step_itemNum="6" money="100" isCountDown="129600" isNotice="0"/>
+				<starinfo star="4" starName="四星" starIcon="4" puppetId="104" step_itemId="100001,100001,600019" minCount="16" maxCount="19" startPer="3334" stepUpNum="309" step_itemNum="6" money="100" isCountDown="129600" isNotice="0"/>
+				<starinfo star="5" starName="五星" starIcon="5" puppetId="105" step_itemId="100001,100001,600019" minCount="19" maxCount="23" startPer="2500" stepUpNum="368" step_itemNum="6" money="100" isCountDown="129600" isNotice="0"/>
+			</layerinfo>
+			<layerinfo stage="2" stageName="中品" stageIcon="112" max_star="5">
+				<starinfo star="1" starName="一星" starIcon="1" puppetId="106" step_itemId="100001,100001,600019" minCount="15" maxCount="18" startPer="3334" stepUpNum="291" step_itemNum="6" money="100" isCountDown="129600" isNotice="0"/>
+				<starinfo star="2" starName="二星" starIcon="2" puppetId="107" step_itemId="100001,100001,600019" minCount="16" maxCount="19" startPer="3334" stepUpNum="308" step_itemNum="6" money="100" isCountDown="129600" isNotice="0"/>
+				<starinfo star="3" starName="三星" starIcon="3" puppetId="108" step_itemId="100001,100001,600019" minCount="17" maxCount="20" startPer="3334" stepUpNum="325" step_itemNum="6" money="100" isCountDown="129600" isNotice="0"/>
+				<starinfo star="4" starName="四星" starIcon="4" puppetId="109" step_itemId="100001,100001,600019" minCount="19" maxCount="22" startPer="3334" stepUpNum="360" step_itemNum="6" money="100" isCountDown="129600" isNotice="0"/>
+				<starinfo star="5" starName="五星" starIcon="5" puppetId="110" step_itemId="100001,100001,600019" minCount="22" maxCount="26" startPer="2500" stepUpNum="428" step_itemNum="6" money="100" isCountDown="129600" isNotice="0"/>
+			</layerinfo>
+			<layerinfo stage="3" stageName="上品" stageIcon="113" max_star="5">
+				<starinfo star="1" starName="一星" starIcon="1" puppetId="111" step_itemId="100001,100001,600019" minCount="17" maxCount="21" startPer="2500" stepUpNum="337" step_itemNum="6" money="100" isCountDown="129600" isNotice="0"/>
+				<starinfo star="2" starName="二星" starIcon="2" puppetId="112" step_itemId="100001,100001,600019" minCount="18" maxCount="22" startPer="2500" stepUpNum="357" step_itemNum="6" money="100" isCountDown="129600" isNotice="0"/>
+				<starinfo star="3" starName="三星" starIcon="3" puppetId="113" step_itemId="100001,100001,600019" minCount="19" maxCount="23" startPer="2500" stepUpNum="377" step_itemNum="6" money="100" isCountDown="129600" isNotice="0"/>
+				<starinfo star="4" starName="四星" starIcon="4" puppetId="114" step_itemId="100001,100001,600019" minCount="21" maxCount="26" startPer="2000" stepUpNum="416" step_itemNum="6" money="100" isCountDown="129600" isNotice="0"/>
+				<starinfo star="5" starName="五星" starIcon="5" puppetId="115" step_itemId="100001,100001,600019" minCount="25" maxCount="30" startPer="2000" stepUpNum="495" step_itemNum="6" money="100" isCountDown="129600" isNotice="0"/>
+			</layerinfo>
+			<layerinfo stage="4" stageName="极品" stageIcon="114" max_star="5">
+				<starinfo star="1" starName="一星" starIcon="1" puppetId="116" step_itemId="100001,100001,600019" minCount="29" maxCount="33" startPer="2500" stepUpNum="662" step_itemNum="6" money="100" isCountDown="129600" isNotice="0"/>
+				<starinfo star="2" starName="二星" starIcon="2" puppetId="117" step_itemId="100001,100001,600019" minCount="31" maxCount="35" startPer="2500" stepUpNum="701" step_itemNum="6" money="100" isCountDown="129600" isNotice="0"/>
+				<starinfo star="3" starName="三星" starIcon="3" puppetId="118" step_itemId="100001,100001,600019" minCount="32" maxCount="37" startPer="2000" stepUpNum="740" step_itemNum="6" money="100" isCountDown="129600" isNotice="0"/>
+				<starinfo star="4" starName="四星" starIcon="4" puppetId="119" step_itemId="100001,100001,600019" minCount="36" maxCount="40" startPer="2500" stepUpNum="817" step_itemNum="6" money="100" isCountDown="129600" isNotice="0"/>
+				<starinfo star="5" starName="五星" starIcon="5" puppetId="120" step_itemId="100001,100001,600019" minCount="42" maxCount="48" startPer="1667" stepUpNum="973" step_itemNum="6" money="100" isCountDown="129600" isNotice="0"/>
+			</layerinfo>
+		</stepInfo>
+		<stepInfo realm="7" realmName="混沌" realmIcon="107" max_stage="4" tipinfo="混沌神兵星辰神物，混沌奇宝">
+			<layerinfo stage="1" stageName="下品" stageIcon="111" max_star="5">
+				<starinfo star="1" starName="一星" starIcon="1" puppetId="121" step_itemId="100001,100001,100001,600019" minCount="22" maxCount="26" startPer="2500" stepUpNum="456" step_itemNum="7" money="100" isCountDown="86400" isNotice="1"/>
+				<starinfo star="2" starName="二星" starIcon="2" puppetId="122" step_itemId="100001,100001,100001,600019" minCount="23" maxCount="27" startPer="2500" stepUpNum="483" step_itemNum="7" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="3" starName="三星" starIcon="3" puppetId="123" step_itemId="100001,100001,100001,600019" minCount="24" maxCount="29" startPer="2000" stepUpNum="510" step_itemNum="7" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="4" starName="四星" starIcon="4" puppetId="124" step_itemId="100001,100001,100001,600019" minCount="27" maxCount="32" startPer="2000" stepUpNum="563" step_itemNum="7" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="5" starName="五星" starIcon="5" puppetId="125" step_itemId="100001,100001,100001,600019" minCount="31" maxCount="38" startPer="1429" stepUpNum="670" step_itemNum="7" money="100" isCountDown="86400" isNotice="0"/>
+			</layerinfo>
+			<layerinfo stage="2" stageName="中品" stageIcon="112" max_star="5">
+				<starinfo star="1" starName="一星" starIcon="1" puppetId="126" step_itemId="100001,100001,100001,600019" minCount="25" maxCount="30" startPer="2000" stepUpNum="531" step_itemNum="7" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="2" starName="二星" starIcon="2" puppetId="127" step_itemId="100001,100001,100001,600019" minCount="27" maxCount="32" startPer="2000" stepUpNum="562" step_itemNum="7" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="3" starName="三星" starIcon="3" puppetId="128" step_itemId="100001,100001,100001,600019" minCount="28" maxCount="34" startPer="1667" stepUpNum="593" step_itemNum="7" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="4" starName="四星" starIcon="4" puppetId="129" step_itemId="100001,100001,100001,600019" minCount="31" maxCount="37" startPer="1667" stepUpNum="656" step_itemNum="7" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="5" starName="五星" starIcon="5" puppetId="130" step_itemId="100001,100001,100001,600019" minCount="37" maxCount="44" startPer="1429" stepUpNum="780" step_itemNum="7" money="100" isCountDown="86400" isNotice="0"/>
+			</layerinfo>
+			<layerinfo stage="3" stageName="上品" stageIcon="113" max_star="5">
+				<starinfo star="1" starName="一星" starIcon="1" puppetId="131" step_itemId="100001,100001,100001,600019" minCount="29" maxCount="34" startPer="2000" stepUpNum="611" step_itemNum="7" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="2" starName="二星" starIcon="2" puppetId="132" step_itemId="100001,100001,100001,600019" minCount="31" maxCount="36" startPer="2000" stepUpNum="647" step_itemNum="7" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="3" starName="三星" starIcon="3" puppetId="133" step_itemId="100001,100001,100001,600019" minCount="32" maxCount="38" startPer="1667" stepUpNum="683" step_itemNum="7" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="4" starName="四星" starIcon="4" puppetId="134" step_itemId="100001,100001,100001,600019" minCount="36" maxCount="42" startPer="1667" stepUpNum="754" step_itemNum="7" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="5" starName="五星" starIcon="5" puppetId="135" step_itemId="100001,100001,100001,600019" minCount="42" maxCount="50" startPer="1250" stepUpNum="898" step_itemNum="7" money="100" isCountDown="86400" isNotice="0"/>
+			</layerinfo>
+			<layerinfo stage="4" stageName="极品" stageIcon="114" max_star="5">
+				<starinfo star="1" starName="一星" starIcon="1" puppetId="136" step_itemId="100001,100001,100001,600019" minCount="47" maxCount="53" startPer="1667" stepUpNum="1116" step_itemNum="7" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="2" starName="二星" starIcon="2" puppetId="137" step_itemId="100001,100001,100001,600019" minCount="50" maxCount="56" startPer="1667" stepUpNum="1181" step_itemNum="7" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="3" starName="三星" starIcon="3" puppetId="138" step_itemId="100001,100001,100001,600019" minCount="52" maxCount="59" startPer="1429" stepUpNum="1247" step_itemNum="7" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="4" starName="四星" starIcon="4" puppetId="139" step_itemId="100001,100001,100001,600019" minCount="58" maxCount="66" startPer="1250" stepUpNum="1378" step_itemNum="7" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="5" starName="五星" starIcon="5" puppetId="140" step_itemId="100001,100001,100001,600019" minCount="69" maxCount="78" startPer="1112" stepUpNum="1640" step_itemNum="7" money="100" isCountDown="86400" isNotice="0"/>
+			</layerinfo>
+		</stepInfo>
+		<stepInfo realm="8" realmName="道兵" realmIcon="108" max_stage="4" tipinfo="道兵神兵大道天成，绝品道器">
+			<layerinfo stage="1" stageName="下品" stageIcon="111" max_star="5">
+				<starinfo star="1" starName="一星" starIcon="1" puppetId="141" step_itemId="100001,100001,100001,600019" minCount="35" maxCount="42" startPer="1429" stepUpNum="772" step_itemNum="8" money="100" isCountDown="86400" isNotice="1"/>
+				<starinfo star="2" starName="二星" starIcon="2" puppetId="142" step_itemId="100001,100001,100001,600019" minCount="37" maxCount="45" startPer="1250" stepUpNum="818" step_itemNum="8" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="3" starName="三星" starIcon="3" puppetId="143" step_itemId="100001,100001,100001,600019" minCount="39" maxCount="47" startPer="1250" stepUpNum="863" step_itemNum="8" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="4" starName="四星" starIcon="4" puppetId="144" step_itemId="100001,100001,100001,600019" minCount="43" maxCount="52" startPer="1112" stepUpNum="954" step_itemNum="8" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="5" starName="五星" starIcon="5" puppetId="145" step_itemId="100001,100001,100001,600019" minCount="51" maxCount="62" startPer="910" stepUpNum="1135" step_itemNum="8" money="100" isCountDown="86400" isNotice="0"/>
+			</layerinfo>
+			<layerinfo stage="2" stageName="中品" stageIcon="112" max_star="5">
+				<starinfo star="1" starName="一星" starIcon="1" puppetId="146" step_itemId="100001,100001,100001,600019" minCount="41" maxCount="48" startPer="1429" stepUpNum="895" step_itemNum="8" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="2" starName="二星" starIcon="2" puppetId="147" step_itemId="100001,100001,100001,600019" minCount="43" maxCount="51" startPer="1250" stepUpNum="947" step_itemNum="8" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="3" starName="三星" starIcon="3" puppetId="148" step_itemId="100001,100001,100001,600019" minCount="46" maxCount="54" startPer="1250" stepUpNum="1000" step_itemNum="8" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="4" starName="四星" starIcon="4" puppetId="149" step_itemId="100001,100001,100001,600019" minCount="50" maxCount="60" startPer="1000" stepUpNum="1105" step_itemNum="8" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="5" starName="五星" starIcon="5" puppetId="150" step_itemId="100001,100001,100001,600019" minCount="60" maxCount="71" startPer="910" stepUpNum="1315" step_itemNum="8" money="100" isCountDown="86400" isNotice="0"/>
+			</layerinfo>
+			<layerinfo stage="3" stageName="上品" stageIcon="113" max_star="5">
+				<starinfo star="1" starName="一星" starIcon="1" puppetId="151" step_itemId="100001,100001,100001,600019" minCount="47" maxCount="56" startPer="1112" stepUpNum="1032" step_itemNum="8" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="2" starName="二星" starIcon="2" puppetId="152" step_itemId="100001,100001,100001,600019" minCount="50" maxCount="59" startPer="1112" stepUpNum="1093" step_itemNum="8" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="3" starName="三星" starIcon="3" puppetId="153" step_itemId="100001,100001,100001,600019" minCount="53" maxCount="62" startPer="1112" stepUpNum="1154" step_itemNum="8" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="4" starName="四星" starIcon="4" puppetId="154" step_itemId="100001,100001,100001,600019" minCount="58" maxCount="69" startPer="910" stepUpNum="1275" step_itemNum="8" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="5" starName="五星" starIcon="5" puppetId="155" step_itemId="100001,100001,100001,600019" minCount="69" maxCount="81" startPer="834" stepUpNum="1518" step_itemNum="8" money="100" isCountDown="86400" isNotice="0"/>
+			</layerinfo>
+			<layerinfo stage="4" stageName="极品" stageIcon="114" max_star="5">
+				<starinfo star="1" starName="一星" starIcon="1" puppetId="156" step_itemId="100001,100001,100001,600019" minCount="74" maxCount="84" startPer="1000" stepUpNum="1772" step_itemNum="8" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="2" starName="二星" starIcon="2" puppetId="157" step_itemId="100001,100001,100001,600019" minCount="79" maxCount="89" startPer="1000" stepUpNum="1876" step_itemNum="8" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="3" starName="三星" starIcon="3" puppetId="158" step_itemId="100001,100001,100001,600019" minCount="83" maxCount="94" startPer="910" stepUpNum="1980" step_itemNum="8" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="4" starName="四星" starIcon="4" puppetId="159" step_itemId="100001,100001,100001,600019" minCount="92" maxCount="104" startPer="834" stepUpNum="2189" step_itemNum="8" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="5" starName="五星" starIcon="5" puppetId="160" step_itemId="100001,100001,100001,600019" minCount="109" maxCount="123" startPer="715" stepUpNum="2605" step_itemNum="8" money="100" isCountDown="86400" isNotice="0"/>
+			</layerinfo>
+		</stepInfo>
+		<stepInfo realm="9" realmName="永恒" realmIcon="109" max_stage="4" tipinfo="永恒神兵不朽本源，永恒神器">
+			<layerinfo stage="1" stageName="下品" stageIcon="111" max_star="5">
+				<starinfo star="1" starName="一星" starIcon="1" puppetId="161" step_itemId="100001,100001,100001,600019" minCount="57" maxCount="67" startPer="1000" stepUpNum="1291" step_itemNum="9" money="100" isCountDown="86400" isNotice="1"/>
+				<starinfo star="2" starName="二星" starIcon="2" puppetId="162" step_itemId="100001,100001,100001,600019" minCount="60" maxCount="71" startPer="910" stepUpNum="1367" step_itemNum="9" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="3" starName="三星" starIcon="3" puppetId="163" step_itemId="100001,100001,100001,600019" minCount="63" maxCount="75" startPer="834" stepUpNum="1443" step_itemNum="9" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="4" starName="四星" starIcon="4" puppetId="164" step_itemId="100001,100001,100001,600019" minCount="70" maxCount="83" startPer="770" stepUpNum="1594" step_itemNum="9" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="5" starName="五星" starIcon="5" puppetId="165" step_itemId="100001,100001,100001,600019" minCount="83" maxCount="98" startPer="667" stepUpNum="1898" step_itemNum="9" money="100" isCountDown="86400" isNotice="0"/>
+			</layerinfo>
+			<layerinfo stage="2" stageName="中品" stageIcon="112" max_star="5">
+				<starinfo star="1" starName="一星" starIcon="1" puppetId="166" step_itemId="100001,100001,100001,600019" minCount="66" maxCount="78" startPer="834" stepUpNum="1505" step_itemNum="9" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="2" starName="二星" starIcon="2" puppetId="167" step_itemId="100001,100001,100001,600019" minCount="70" maxCount="82" startPer="834" stepUpNum="1593" step_itemNum="9" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="3" starName="三星" starIcon="3" puppetId="168" step_itemId="100001,100001,100001,600019" minCount="74" maxCount="87" startPer="770" stepUpNum="1682" step_itemNum="9" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="4" starName="四星" starIcon="4" puppetId="169" step_itemId="100001,100001,100001,600019" minCount="82" maxCount="96" startPer="715" stepUpNum="1859" step_itemNum="9" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="5" starName="五星" starIcon="5" puppetId="170" step_itemId="100001,100001,100001,600019" minCount="97" maxCount="114" startPer="589" stepUpNum="2213" step_itemNum="9" money="100" isCountDown="86400" isNotice="0"/>
+			</layerinfo>
+			<layerinfo stage="3" stageName="上品" stageIcon="113" max_star="5">
+				<starinfo star="1" starName="一星" starIcon="1" puppetId="171" step_itemId="100001,100001,100001,600019" minCount="77" maxCount="90" startPer="770" stepUpNum="1745" step_itemNum="9" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="2" starName="二星" starIcon="2" puppetId="172" step_itemId="100001,100001,100001,600019" minCount="82" maxCount="95" startPer="770" stepUpNum="1847" step_itemNum="9" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="3" starName="三星" starIcon="3" puppetId="173" step_itemId="100001,100001,100001,600019" minCount="86" maxCount="100" startPer="715" stepUpNum="1950" step_itemNum="9" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="4" starName="四星" starIcon="4" puppetId="174" step_itemId="100001,100001,100001,600019" minCount="95" maxCount="111" startPer="625" stepUpNum="2155" step_itemNum="9" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="5" starName="五星" starIcon="5" puppetId="175" step_itemId="100001,100001,100001,600019" minCount="113" maxCount="132" startPer="527" stepUpNum="2565" step_itemNum="9" money="100" isCountDown="86400" isNotice="0"/>
+			</layerinfo>
+			<layerinfo stage="4" stageName="极品" stageIcon="114" max_star="5">
+				<starinfo star="1" starName="一星" starIcon="1" puppetId="176" step_itemId="100001,100001,100001,600019" minCount="130" maxCount="145" startPer="667" stepUpNum="3083" step_itemNum="9" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="2" starName="二星" starIcon="2" puppetId="177" step_itemId="100001,100001,100001,600019" minCount="137" maxCount="153" startPer="625" stepUpNum="3264" step_itemNum="9" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="3" starName="三星" starIcon="3" puppetId="178" step_itemId="100001,100001,100001,600019" minCount="145" maxCount="162" startPer="589" stepUpNum="3445" step_itemNum="9" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="4" starName="四星" starIcon="4" puppetId="179" step_itemId="100001,100001,100001,600019" minCount="160" maxCount="179" startPer="527" stepUpNum="3808" step_itemNum="9" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="5" starName="五星" starIcon="5" puppetId="180" step_itemId="100001,100001,100001,600019" minCount="191" maxCount="213" startPer="455" stepUpNum="4533" step_itemNum="9" money="100" isCountDown="86400" isNotice="0"/>
+			</layerinfo>
+		</stepInfo>
+		<stepInfo realm="10" realmName="宇宙" realmIcon="110" max_stage="4" tipinfo="宇宙神兵开天辟地，创世尊器">
+			<layerinfo stage="1" stageName="下品" stageIcon="111" max_star="5">
+				<starinfo star="1" starName="一星" starIcon="1" puppetId="181" step_itemId="100001,100001,100001,600019" minCount="91" maxCount="106" startPer="667" stepUpNum="2137" step_itemNum="10" money="100" isCountDown="86400" isNotice="1"/>
+				<starinfo star="2" starName="二星" starIcon="2" puppetId="182" step_itemId="100001,100001,100001,600019" minCount="96" maxCount="113" startPer="589" stepUpNum="2263" step_itemNum="10" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="3" starName="三星" starIcon="3" puppetId="183" step_itemId="100001,100001,100001,600019" minCount="102" maxCount="119" startPer="589" stepUpNum="2389" step_itemNum="10" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="4" starName="四星" starIcon="4" puppetId="184" step_itemId="100001,100001,100001,600019" minCount="112" maxCount="131" startPer="527" stepUpNum="2640" step_itemNum="10" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="5" starName="五星" starIcon="5" puppetId="185" step_itemId="100001,100001,100001,600019" minCount="133" maxCount="156" startPer="435" stepUpNum="3143" step_itemNum="10" money="100" isCountDown="86400" isNotice="0"/>
+			</layerinfo>
+			<layerinfo stage="2" stageName="中品" stageIcon="112" max_star="5">
+				<starinfo star="1" starName="一星" starIcon="1" puppetId="186" step_itemId="100001,100001,100001,600019" minCount="107" maxCount="124" startPer="589" stepUpNum="2498" step_itemNum="10" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="2" starName="二星" starIcon="2" puppetId="187" step_itemId="100001,100001,100001,600019" minCount="113" maxCount="131" startPer="556" stepUpNum="2645" step_itemNum="10" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="3" starName="三星" starIcon="3" puppetId="188" step_itemId="100001,100001,100001,600019" minCount="119" maxCount="138" startPer="527" stepUpNum="2792" step_itemNum="10" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="4" starName="四星" starIcon="4" puppetId="189" step_itemId="100001,100001,100001,600019" minCount="132" maxCount="153" startPer="477" stepUpNum="3085" step_itemNum="10" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="5" starName="五星" starIcon="5" puppetId="190" step_itemId="100001,100001,100001,600019" minCount="157" maxCount="181" startPer="417" stepUpNum="3673" step_itemNum="10" money="100" isCountDown="86400" isNotice="0"/>
+			</layerinfo>
+			<layerinfo stage="3" stageName="上品" stageIcon="113" max_star="5">
+				<starinfo star="1" starName="一星" starIcon="1" puppetId="191" step_itemId="100001,100001,100001,600019" minCount="125" maxCount="143" startPer="556" stepUpNum="2899" step_itemNum="10" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="2" starName="二星" starIcon="2" puppetId="192" step_itemId="100001,100001,100001,600019" minCount="132" maxCount="151" startPer="527" stepUpNum="3069" step_itemNum="10" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="3" starName="三星" starIcon="3" puppetId="193" step_itemId="100001,100001,100001,600019" minCount="139" maxCount="159" startPer="500" stepUpNum="3240" step_itemNum="10" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="4" starName="四星" starIcon="4" puppetId="194" step_itemId="100001,100001,100001,600019" minCount="154" maxCount="176" startPer="455" stepUpNum="3581" step_itemNum="10" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="5" starName="五星" starIcon="5" puppetId="195" step_itemId="100001,100001,100001,600019" minCount="183" maxCount="209" startPer="385" stepUpNum="4263" step_itemNum="10" money="100" isCountDown="86400" isNotice="0"/>
+			</layerinfo>
+			<layerinfo stage="4" stageName="极品" stageIcon="114" max_star="5">
+				<starinfo star="1" starName="一星" starIcon="1" puppetId="196" step_itemId="100001,100001,100001,600019" minCount="181" maxCount="200" startPer="527" stepUpNum="4267" step_itemNum="10" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="2" starName="二星" starIcon="2" puppetId="197" step_itemId="100001,100001,100001,600019" minCount="191" maxCount="211" startPer="500" stepUpNum="4518" step_itemNum="10" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="3" starName="三星" starIcon="3" puppetId="198" step_itemId="100001,100001,100001,600019" minCount="202" maxCount="223" startPer="477" stepUpNum="4769" step_itemNum="10" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="4" starName="四星" starIcon="4" puppetId="199" step_itemId="100001,100001,100001,600019" minCount="223" maxCount="247" startPer="417" stepUpNum="5271" step_itemNum="10" money="100" isCountDown="86400" isNotice="0"/>
+				<starinfo star="5" starName="五星" starIcon="5" puppetId="200" step_itemId="100001,100001,100001,600019" minCount="265" maxCount="293" startPer="358" stepUpNum="6275" step_itemNum="10" money="100" isCountDown="86400" isNotice="0"/>
+			</layerinfo>
+		</stepInfo>
+		<skillSlot skillSlotId="1" realm="1" stage="1"/>
+		<skillSlot skillSlotId="2" realm="2" stage="1"/>
+		<skillSlot skillSlotId="3" realm="3" stage="1"/>
+		<skillSlot skillSlotId="4" realm="4" stage="1"/>
+		<skillSlot skillSlotId="5" realm="5" stage="1"/>
+		<skillSlot skillSlotId="6" realm="6" stage="1"/>
+		<skillSlot skillSlotId="7" realm="7" stage="1"/>
+		<skillSlot skillSlotId="8" realm="8" stage="1"/>
+	</puppet>
+</root>

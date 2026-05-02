@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+serverNum	合服次数
+=-1默认状态
+=0新服的活动数据
+=1,合服1次的活动数据
+=2合服2次的活动数据
+……	1	server
+functionId	功能id	1	function
+activityEntraceIcon	活动图标	1	function
+picture	广告图名称	1	function
+day	天数(按照自然日计算)	1	day
+need	购买所需等级,如果配置为0则不显示等级要求	1	day
+price	购买消耗元宝数,如果配置为0则不显示消耗元宝	1	day
+backpicture	背景图上的文字图片	1	day
+reward	奖励道具内容
+用,和;隔开
+,前后分别代表奖励的道具id和数量
+;前后分别代表一条单独的道具奖励	1	day
+return	返还时,每天返还元宝数	1	day
+returnday	返还天数	1	day
+
+	-->
+	<server serverNum="-1">
+		<function functionid="6676" activityEntraceIcon="6676" picture="" mailid="1080001"/>
+		<day day="1" need="50" price="0" backpicture="" reward="13010064,1;14010201,20;14010001,1;16010100,10;10000008,188;16010013,5" return="888" returnday="1"/>
+		<day day="2" need="0" price="1888" backpicture="" reward="12090025,1;14030201,100;14030001,10;16010102,20;10000008,288;10000100,20" return="1888" returnday="1"/>
+		<day day="3" need="0" price="2888" backpicture="" reward="16010023,1;14050201,100;14050001,10;16010104,20;10000008,388;10000100,20" return="2888" returnday="1"/>
+		<day day="4" need="0" price="3888" backpicture="" reward="13035001,1;14040201,100;14040001,10;16010103,20;10000008,488;10000100,20" return="3888" returnday="1"/>
+		<day day="5" need="0" price="5888" backpicture="" reward="16010024,1;14020201,100;14020001,10;16010105,20;10000008,588;10000101,50" return="5888" returnday="1"/>
+		<day day="6" need="0" price="8888" backpicture="" reward="3000905,1;14070201,100;14070001,10;16010106,20;10000008,688;10000101,50" return="8888" returnday="1"/>
+		<day day="7" need="0" price="12888" backpicture="" reward="12000033,1;10000016,100;16010025,10;10000008,888;10000101,50" return="12888" returnday="1"/>
+		<day day="8" need="0" price="18888" backpicture="" reward="11051066,100;10000015,100;16010026,10;10000008,1288;10000004,20" return="18888" returnday="1"/>
+		<day day="9" need="0" price="28888" backpicture="" reward="2001205,1;10000009,200;10000008,1888;16010013,100;10000100,200;10000101,100" return="5778" returnday="5"/>
+	</server>
+	<server serverNum="0">
+		<function functionid="6676" activityEntraceIcon="6676" picture="" mailid="1080001"/>
+		<day day="1" need="50" price="0" backpicture="" reward="13010064,1;14010201,20;14010001,1;16010100,10;10000008,188;16010013,5" return="888" returnday="1"/>
+		<day day="2" need="0" price="1888" backpicture="" reward="12090025,1;14030201,100;14030001,10;16010102,20;10000008,288;10000100,20" return="1888" returnday="1"/>
+		<day day="3" need="0" price="2888" backpicture="" reward="16010023,1;14050201,100;14050001,10;16010104,20;10000008,388;10000100,20" return="2888" returnday="1"/>
+		<day day="4" need="0" price="3888" backpicture="" reward="13035001,1;14040201,100;14040001,10;16010103,20;10000008,488;10000100,20" return="3888" returnday="1"/>
+		<day day="5" need="0" price="5888" backpicture="" reward="16010024,1;14020201,100;14020001,10;16010105,20;10000008,588;10000101,50" return="5888" returnday="1"/>
+		<day day="6" need="0" price="8888" backpicture="" reward="4000905,1;14070201,100;14070001,10;16010106,20;10000008,688;10000101,50" return="8888" returnday="1"/>
+		<day day="7" need="0" price="11888" backpicture="" reward="3000905,1;14080201,100;14080001,10;16010107,20;10000008,888;10000101,50" return="11888" returnday="1"/>
+		<day day="8" need="0" price="14888" backpicture="" reward="12000033,1;10000016,100;16010025,10;10000008,1088;10000101,50" return="14888" returnday="1"/>
+		<day day="9" need="0" price="18888" backpicture="" reward="11051066,100;10000015,100;16010026,10;10000008,1288;10000004,20" return="18888" returnday="1"/>
+		<day day="10" need="0" price="28888" backpicture="" reward="2001205,1;10000009,200;10000008,1888;16010013,100;10000100,200;10000101,100" return="5778" returnday="5"/>
+	</server>
+	<server serverNum="1">
+		<function functionid="6676" activityEntraceIcon="6676" picture="" mailid="1080001"/>
+		<day day="1" need="0" price="1888" backpicture="" reward="12000029,1;16010100,20;14010101,100;14010201,100;14010001,10;16010028,30" return="1888" returnday="1"/>
+		<day day="2" need="0" price="3888" backpicture="" reward="16010025,1;16010102,20;14030101,100;14030201,100;14030001,10;16010013,20" return="3888" returnday="1"/>
+		<day day="3" need="0" price="5888" backpicture="" reward="3000905,1;16010103,20;14040101,100;14040201,100;14040001,10;10000101,40" return="5888" returnday="1"/>
+		<day day="4" need="0" price="8888" backpicture="" reward="16010026,1;16010104,20;14050101,100;14050201,100;14050001,10;16010029,60" return="8888" returnday="1"/>
+		<day day="5" need="0" price="12888" backpicture="" reward="16010032,1;16010105,20;14020101,100;14020201,100;14020001,10;16010013,50" return="12888" returnday="1"/>
+		<day day="6" need="0" price="18888" backpicture="" reward="16010033,3;16010106,20;14070101,100;14070201,100;14070001,10;10000101,100" return="18888" returnday="1"/>
+		<day day="7" need="0" price="28888" backpicture="" reward="16010033,5;16010107,20;14080101,100;14080201,100;14080001,10;16010013,100" return="28888" returnday="1"/>
+		<day day="8" need="0" price="38888" backpicture="" reward="12000034,1;10000008,2000;10000100,200;16010001,100;10000101,80;16010013,80" return="38888" returnday="1"/>
+	</server>
+</root>

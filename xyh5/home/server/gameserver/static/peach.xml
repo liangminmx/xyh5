@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+functionid	功能id
+worldleveladd	等级修正系数
+zhekou	折扣值（万分比）
+worldlevelrank	取等级排行前几名玩家的平均等级作为世界平均等级
+eattime	对应吃蟠桃次数
+moneytype	花费货币类型
+=1 银两
+=2元宝
+=3 绑元
+num	花费货币数量
+xishu	系数（万分比）
+	
+level	玩家等级区间（逗号隔开）
+exp	获得的基础经验值
+-->
+	<function functionid="6684" worldleveladd="20" zhekou="2000" worldlevelrank="10"/>
+	<eat eattime="1" moneytype="3" num="25000" xishu="8000"/>
+	<eat eattime="2" moneytype="2" num="10000" xishu="10000"/>
+	<eat eattime="3" moneytype="2" num="15000" xishu="12500"/>
+	<eat eattime="4" moneytype="2" num="25000" xishu="15000"/>
+	<eat eattime="5" moneytype="2" num="50000" xishu="20000"/>
+	<exp level="1,80" exp="55000000"/>
+	<exp level="81,90" exp="130000000"/>
+	<exp level="91,100" exp="340000000"/>
+	<exp level="101,110" exp="670000000"/>
+	<exp level="111,120" exp="1200000000"/>
+	<exp level="121,130" exp="2150000000"/>
+	<exp level="131,140" exp="3500000000"/>
+	<exp level="141,150" exp="4710000000"/>
+	<exp level="151,160" exp="6030000000"/>
+	<exp level="161,170" exp="8100000000"/>
+	<exp level="171,180" exp="9970000000"/>
+	<exp level="181,190" exp="11570000000"/>
+	<exp level="191,200" exp="13430000000"/>
+</root>

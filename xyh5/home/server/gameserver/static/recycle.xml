@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<root>
+	<!--
+function
+	开启等级	functionid	关联function.xml
+	vip开启一键完成等级	vip_open	开启一键完成功能所需的vip等级
+	一键完成消耗	emoney_cost	
+
+level
+    level 玩家等级段
+param
+    消灭波数	wave	每日消灭怪物波数
+	奖励图标	icon	可在道具icon路径下调用美术资源
+	奖励道具	item	itemid,itemid2 允许填写多个道具用逗号隔开
+    道具数量count    对应道具的数量 用逗号隔开 一一对应
+	基础经验奖励	exp	
+	奖励绑定元宝	bmoney
+
+    
+-->
+	<function functionid="1034" vip_open="0" emoney_cost="2"/>
+	<level level="1,50">
+		<param wave="100" icon="10002" exp="382883" bmoney="200" item="10000012" count="240"/>
+		<param wave="200" icon="10002" exp="574325" bmoney="200" item="10000013" count="120"/>
+		<param wave="300" icon="10002" exp="957209" bmoney="200" item="10000014,10000006" count="120,3"/>
+	</level>
+	<level level="51,60">
+		<param wave="100" icon="10002" exp="623674" bmoney="250" item="10000012" count="264"/>
+		<param wave="200" icon="10002" exp="935510" bmoney="250" item="10000013" count="132"/>
+		<param wave="300" icon="10002" exp="1559184" bmoney="250" item="10000014,10000006" count="132,3"/>
+	</level>
+	<level level="61,70">
+		<param wave="100" icon="10002" exp="922759" bmoney="300" item="10000012" count="264"/>
+		<param wave="200" icon="10002" exp="1384139" bmoney="300" item="10000013" count="132"/>
+		<param wave="300" icon="10002" exp="2306898" bmoney="300" item="10000014,10000006" count="132,3"/>
+	</level>
+	<level level="71,80">
+		<param wave="100" icon="10002" exp="1240108" bmoney="350" item="10000012" count="288"/>
+		<param wave="200" icon="10002" exp="1860162" bmoney="350" item="10000013" count="144"/>
+		<param wave="300" icon="10002" exp="3100271" bmoney="350" item="10000014,10000006" count="144,3"/>
+	</level>
+	<level level="81,90">
+		<param wave="100" icon="10002" exp="1587250" bmoney="400" item="10000012" count="528"/>
+		<param wave="200" icon="10002" exp="2380875" bmoney="400" item="10000013" count="264"/>
+		<param wave="300" icon="10002" exp="3968126" bmoney="400" item="10000014,10000006" count="264,3"/>
+	</level>
+	<level level="91,100">
+		<param wave="100" icon="10002" exp="1934846" bmoney="450" item="10000012" count="552"/>
+		<param wave="200" icon="10002" exp="2902269" bmoney="450" item="10000013" count="276"/>
+		<param wave="300" icon="10002" exp="4837115" bmoney="450" item="10000014,10000006" count="276,3"/>
+	</level>
+	<level level="101,110">
+		<param wave="100" icon="10002" exp="2358563" bmoney="500" item="10000012" count="673"/>
+		<param wave="200" icon="10002" exp="3537844" bmoney="500" item="10000013" count="336"/>
+		<param wave="300" icon="10002" exp="5896407" bmoney="500" item="10000014,10000006" count="336,3"/>
+	</level>
+	<level level="111,120">
+		<param wave="100" icon="10002" exp="2875072" bmoney="550" item="10000012" count="774"/>
+		<param wave="200" icon="10002" exp="4312607" bmoney="550" item="10000013" count="387"/>
+		<param wave="300" icon="10002" exp="7187679" bmoney="550" item="10000014,10000006" count="387,3"/>
+	</level>
+	<level level="121,130">
+		<param wave="100" icon="10002" exp="3504693" bmoney="600" item="10000012" count="954"/>
+		<param wave="200" icon="10002" exp="5257040" bmoney="600" item="10000013" count="477"/>
+		<param wave="300" icon="10002" exp="8761733" bmoney="600" item="10000014,10000006" count="477,3"/>
+	</level>
+	<level level="131,140">
+		<param wave="100" icon="10002" exp="4272198" bmoney="700" item="10000012" count="1134"/>
+		<param wave="200" icon="10002" exp="6408297" bmoney="700" item="10000013" count="567"/>
+		<param wave="300" icon="10002" exp="10680495" bmoney="700" item="10000014,10000006" count="567,3"/>
+	</level>
+	<level level="141,150">
+		<param wave="100" icon="10002" exp="5207781" bmoney="800" item="10000012" count="1314"/>
+		<param wave="200" icon="10002" exp="7811672" bmoney="800" item="10000013" count="657"/>
+		<param wave="300" icon="10002" exp="13019453" bmoney="800" item="10000014,10000006" count="657,3"/>
+	</level>
+	<level level="151,170">
+		<param wave="100" icon="10002" exp="6672884" bmoney="900" item="10000012" count="1500"/>
+		<param wave="200" icon="10002" exp="10009327" bmoney="900" item="10000013" count="750"/>
+		<param wave="300" icon="10002" exp="16682211" bmoney="900" item="10000014,10000006" count="750,4"/>
+	</level>
+	<level level="171,190">
+		<param wave="100" icon="10002" exp="8987401" bmoney="1000" item="10000012" count="1700"/>
+		<param wave="200" icon="10002" exp="13481101" bmoney="1000" item="10000013" count="850"/>
+		<param wave="300" icon="10002" exp="22468502" bmoney="1000" item="10000014,10000006" count="850,5"/>
+	</level>
+	<level level="191,210">
+		<param wave="100" icon="10002" exp="12021238" bmoney="1100" item="10000012" count="1900"/>
+		<param wave="200" icon="10002" exp="18031857" bmoney="1100" item="10000013" count="950"/>
+		<param wave="300" icon="10002" exp="30053096" bmoney="1100" item="10000014,10000006" count="950,6"/>
+	</level>
+	<level level="211,230">
+		<param wave="100" icon="10002" exp="14098070" bmoney="1200" item="10000012" count="2100"/>
+		<param wave="200" icon="10002" exp="21147105" bmoney="1200" item="10000013" count="1050"/>
+		<param wave="300" icon="10002" exp="35245175" bmoney="1200" item="10000014,10000006" count="1050,7"/>
+	</level>
+	<level level="231,250">
+		<param wave="100" icon="10002" exp="16533702" bmoney="1300" item="10000012" count="2300"/>
+		<param wave="200" icon="10002" exp="24800553" bmoney="1300" item="10000013" count="1150"/>
+		<param wave="300" icon="10002" exp="41334255" bmoney="1300" item="10000014,10000006" count="1150,8"/>
+	</level>
+	<level level="251,999">
+		<param wave="100" icon="10002" exp="16533702" bmoney="1300" item="10000012" count="2300"/>
+		<param wave="200" icon="10002" exp="24800553" bmoney="1300" item="10000013" count="1150"/>
+		<param wave="300" icon="10002" exp="41334255" bmoney="1300" item="10000014,10000006" count="1150,8"/>
+	</level>
+</root>

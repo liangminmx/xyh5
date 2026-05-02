@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2013 sp1 () 使用XMLSpy v编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<root>
+	<!--
+functionid	阵法养成开启条件配置			
+help	阵法升级帮助文档			
+id	阵法ID			
+name	阵法名称			
+item	解锁所需道具			
+id	角色所在队伍编号（数字1-5）			
+weizhi	站位编号			
+type	阵法加成属性类型			
+num	阵法加成属性值			
+keid	克制阵法ID			
+xiaoguo	克制效果万分比			
+				
+				
+id	道具ID			
+exp	每个道具增加经验			
+				
+level	等级			
+exp	升级所需经验			
+effect	属性加成			
+
+
+
+
+	-->
+	<open functionid="100" maxlev="10" help="升级阵法，秒天秒地" id="10000" exp="100"/>
+	<!--怪物的阵法-->
+	<zhenfa id="10" monster="1" name="普通阵" item="" icon="10">
+		<zhenfainfo id="1" weizhi="11" type="" num=""/>
+		<zhenfainfo id="2" weizhi="12" type="" num=""/>
+		<zhenfainfo id="3" weizhi="13" type="" num=""/>
+		<zhenfainfo id="4" weizhi="14" type="" num=""/>
+		<zhenfainfo id="5" weizhi="15" type="" num=""/>
+		<zhenfainfo id="6" weizhi="1" type="" num=""/>
+		<zhenfainfo id="7" weizhi="2" type="" num=""/>
+		<zhenfainfo id="8" weizhi="3" type="" num=""/>
+		<zhenfainfo id="9" weizhi="4" type="" num=""/>
+		<zhenfainfo id="10" weizhi="5" type="" num=""/>
+	</zhenfa>
+</root>
