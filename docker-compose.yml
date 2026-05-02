@@ -1,6 +1,6 @@
 services:
   mysql:
-    image: mysql:5.6
+    image: ghcr.io/liangminmx/xyh5/mysql:5.6
     container_name: mhxy-mysql
     restart: always
     environment:
@@ -21,7 +21,7 @@ services:
       retries: 10
 
   game-server:
-    image: mhxy-server:latest
+    image: ghcr.io/liangminmx/xyh5/mhxy-server:latest
     container_name: mhxy-server
     restart: always
     depends_on:
@@ -37,7 +37,7 @@ services:
       - mhxy-network
 
   web:
-    image: richarvey/nginx-php-fpm:php5
+    image: ghcr.io/liangminmx/xyh5/nginx-php-fpm:php5
     container_name: mhxy-web
     restart: always
     depends_on:
