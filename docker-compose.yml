@@ -1,6 +1,7 @@
 services:
   mysql:
     image: mysql:5.7
+    platform: linux/amd64
     container_name: mhxy-mysql
     restart: always
     environment:
@@ -16,9 +17,10 @@ services:
       - mhxy-network
     healthcheck:
       test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-pecheverra"]
-      interval: 5s
-      timeout: 10s
-      retries: 10
+      interval: 10s
+      timeout: 30s
+      retries: 30
+      start_period: 120s
 
   game-server:
     image: ghcr.io/liangminmx/xyh5/mhxy-server:latest
